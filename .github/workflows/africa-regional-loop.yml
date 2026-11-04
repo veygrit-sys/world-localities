@@ -1,12 +1,5 @@
-name: Africa regional enrichment
+name: Africa source acquisition (manual)
 on:
-  push:
-    branches: [data/africa-regional-loop-20261015]
-    paths:
-      - 'registries/africa/regional_loop.py'
-      - 'registries/africa/test_regional_loop.py'
-      - 'registries/africa/official-references/**'
-      - '.github/workflows/africa-regional-loop.yml'
   workflow_dispatch:
 permissions:
   contents: read

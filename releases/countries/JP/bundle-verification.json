@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "country": "JP",
+  "status": "passed",
+  "evidence_scope": "local offline round-trip of explicitly selected source-qualified data components",
+  "source_repository": "veygrit-sys/world-localities",
+  "source_commit": "592c226c8353b766689364cc5a7fdbc690346524",
+  "bundle_format": "deterministic_zip_v1",
+  "bundle_sha256": "10fab2b40857a946310cfd671cf7598258b31ca0ac02b2cef1e9a88f1961d31f",
+  "bundle_bytes": 12718438,
+  "payload_file_count": 22,
+  "payload_total_bytes": 13406208,
+  "checks": {
+    "pinned_source_git_blobs": "passed",
+    "existing_source_archive_and_member_hashes": "passed",
+    "official_source_input_hashes": "passed",
+    "romanization_dependency_hash": "passed",
+    "two_independent_builds_byte_identical": "passed",
+    "bundle_member_set_sizes_sha256_and_git_blobs": "passed",
+    "notice_and_dependency_inclusion": "passed",
+    "restore_to_new_directory": "passed",
+    "restored_payload_sizes_and_sha256": "passed"
+  },
+  "included_components": [
+    "preserved_asia_jp_gazetteer_archive",
+    "official_jp_codes_names_postal_overlay"
+  ],
+  "excluded_scope": [
+    "other_jp_source_layers",
+    "standalone_service",
+    "model_artifacts"
+  ],
+  "public_release": false,
+  "public_artifact_url": null,
+  "national_completeness_verified": false,
+  "upstream_freshness_verified": false,
+  "deliverability_verified": false,
+  "reproduce_commands": [
+    "python scripts/country_bundle.py build --country JP --output /tmp/JP-data.zip --source-commit 592c226c8353b766689364cc5a7fdbc690346524",
+    "python scripts/country_bundle.py verify --bundle /tmp/JP-data.zip",
+    "python scripts/country_bundle.py restore --bundle /tmp/JP-data.zip --output /tmp/JP-restored"
+  ],
+  "archive_publication": "not performed; temporary proof archives are intentionally not stored in Git",
+  "files": [
+    {
+      "git_blob_sha1": "6398b01d0bb9278a58486e4b68cd38db3c492f69",
+      "path": "registries/asia/DATA_LICENSES.md",
+      "sha256": "e0ce633d6fedb3d99ec0e20f618bad9d0b72b85aa67ed3c7231202f264900fd1",
+      "size": 224
+    },
+    {
+      "git_blob_sha1": "c02a98fdd1a53c5c51c3acfae3ee2b6efda02137",
+      "path": "registries/asia/LICENSE",
+      "sha256": "a4a148f4a82f2cd8c5ad629b37ca39bdbe5b1fc139df769a9443c26bf05d841c",
+      "size": 1247
+    },
+    {
+      "git_blob_sha1": "ae9a013d17ed790837d7507fdd5b20710c8f63fe",
+      "path": "registries/asia/NOTICE.md",
+      "sha256": "eba8e9ee045bf71fa84d813a0c2417e8443463846ebde974e4270ff1cbb69686",
+      "size": 1363
+    },
+    {
+      "git_blob_sha1": "1125b5924bac8760763f71ecbe9e1b8fda1b4891",
+      "path": "registries/asia/SCHEMA.md",
+      "sha256": "20dddfd3c0740c5bfe9b154b3185cc49839f43390ec771f63eaea5e9d0e2fa4a",
+      "size": 2524
+    },
+    {
+      "git_blob_sha1": "c8b89c77ecb2752852604f12d26fa10d8d658e1d",
+      "path": "registries/asia/archives.json",
+      "sha256": "8ea6bc77e6aa48ebf9550d45b428d771f8ca7fdf16bb0a261dc5692d1889339b",
+      "size": 55726
+    },
+    {
+      "git_blob_sha1": "1fa7d6e528f685118b2ac9a96b414b655a8a917d",
+      "path": "registries/asia/country-archives/JP.zip",
+      "sha256": "b5711ae19c8460d40813835d7fed20ce6706f27b0bf37bd12ad8dc62056c1620",
+      "size": 3081845
+    },
+    {
+      "git_blob_sha1": "cacc3e3f6998dd13294c999bfac12949b4644b99",
+      "path": "registries/asia/manifest.json",
+      "sha256": "0d943937aba26bdfeca2394a86148bd0e2c25d94d3808ec3a246a717571fa6a6",
+      "size": 41986
+    },
+    {
+      "git_blob_sha1": "8cb0802a350bf108fe0c633a14ef76c68fbc54e3",
+      "path": "registries/official/JP/ODbL-1.0.txt",
+      "sha256": "6042621cae96bbce3a10739b480a074e25b0ea23025c00d7874582ad2c47b780",
+      "size": 25364
+    },
+    {
+      "git_blob_sha1": "b3f0eb999b9fe1cb4eb3d6d074a4e1a16c7af9c7",
+      "path": "registries/official/JP/README.md",
+      "sha256": "001ff61883571ed89639141ace5dbb61c0b05b32633dff00290ad8adf70620b3",
+      "size": 5183
+    },
+    {
+      "git_blob_sha1": "d63bb33b5784a597c728e90250f76541a1dd0421",
+      "path": "registries/official/JP/coverage.json",
+      "sha256": "6fa4d4957e1ea0c439fd302ec42b86cdf7210272ea7f9c2d5cac241673f8207b",
+      "size": 3388
+    },
+    {
+      "git_blob_sha1": "1b43297479f94f1a1f36a28450a3f96ecf91e61f",
+      "path": "registries/official/JP/entities.csv.gz",
+      "sha256": "50b2252e885cd43dfe569f73031de783d6a4450687ae038ca55d69ec782f0a53",
+      "size": 47514
+    },
+    {
+      "git_blob_sha1": "50fe9420bc6e32cb75be6a35367064414321ca80",
+      "path": "registries/official/JP/geonames_candidates.csv",
+      "sha256": "f2e031e4ab45e02b096579b738c9c2e7073d245156207e9ea95fba80c328a2f9",
+      "size": 210221
+    },
+    {
+      "git_blob_sha1": "24d11a8df3b5c241044f3732019000fa4ac3e996",
+      "path": "registries/official/JP/names.csv.gz",
+      "sha256": "5b1b8aa6fdfd1a1130e9991b9c0d96625be6cf8173e758f8a7f88bcb516c5eb7",
+      "size": 104590
+    },
+    {
+      "git_blob_sha1": "844a3d5e8a830a5d512c06d2bab76c542801d785",
+      "path": "registries/official/JP/postal_rows.csv.gz",
+      "sha256": "42966a0a1e85173c37cfc2aeb37f9d1e3792b3173ba54f670e2d02b6254c004f",
+      "size": 5477305
+    },
+    {
+      "git_blob_sha1": "0a0562b9137e791c74472796af25144da0d2b123",
+      "path": "registries/official/JP/sources.json",
+      "sha256": "1812fe05ef0c6b330dde49bf583e617a2ac9dee1967f92b41b41c5b774d405fe",
+      "size": 2698
+    },
+    {
+      "git_blob_sha1": "16871d7d24e34c2764e1dfe9730e2d11273bf10e",
+      "path": "registries/official/JP/sources/postal-roman.zip",
+      "sha256": "9764834dfd1d0148600c38b7fc4c00feae8443e81e68da3a49469447cd97707d",
+      "size": 1759193
+    },
+    {
+      "git_blob_sha1": "6344ea3e35c6e350144540ce571aef6f0577942e",
+      "path": "registries/official/JP/sources/postal-utf.zip",
+      "sha256": "444881769a631d2c36c644fc041e5ce62fe65d204ff498a601641ba1e66b5955",
+      "size": 2135514
+    },
+    {
+      "git_blob_sha1": "624e964f4b7a9d6fd57cd02e65af6a2192866d28",
+      "path": "registries/official/JP/sources/registry-manifest.json",
+      "sha256": "9d4139e1e862f3e0259bd846f91875c0d78ba19213d97f413281619bbbf11a19",
+      "size": 53076
+    },
+    {
+      "git_blob_sha1": "4082d709a0ca43a1b4675372abcfca6b0c8f8ff5",
+      "path": "registries/official/JP/sources/registry.json.gz",
+      "sha256": "b5e8c7edbbc159c1eb225b3e580be690fa28aa4603d1ee52008284fa8c40f933",
+      "size": 88438
+    },
+    {
+      "git_blob_sha1": "4f74e0d90cdc773de53d38d157c009121739f08f",
+      "path": "registries/official/JP/unresolved_roman.csv",
+      "sha256": "3796e183f569a1301a2a0308d88678648f5ba43dd128821d896c1772a66e6644",
+      "size": 299535
+    },
+    {
+      "git_blob_sha1": "ef71ab9768cb060be3ece7739ec6d46d72cddd1d",
+      "path": "registries/official/README.md",
+      "sha256": "b5c0ded970512dea363f4508fcb753e78948f01c5a568dd15644e32fa64d725d",
+      "size": 4780
+    },
+    {
+      "git_blob_sha1": "97afe9012e85ad6f8f52dbac1f4a5fb97c28ce4e",
+      "path": "registries/official/romanize.py",
+      "sha256": "21efdc70b474d6ce04498475d8e24ea3ebe6f5be58f912bc005e6ac1edd25028",
+      "size": 4494
+    }
+  ]
+}

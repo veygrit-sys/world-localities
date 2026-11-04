@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "scope": "saved references versus local bytes; external storage not searched",
+  "reference_count": 24,
+  "archives": [
+    {
+      "manifest": "releases/hierarchy/caribbean/archive.json",
+      "name": "Veygrit_Caribbean_20261017.zip",
+      "kind": "archive",
+      "expected_size": 15638060,
+      "expected_sha256": "d2e35105cc9f3c67a48ccbd71b582923f78bdaae2c740f6f6f9e08e97e5b7be5",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/central-america/archive.json",
+      "name": "Veygrit_CentralAmerica_20261017.zip",
+      "kind": "archive",
+      "expected_size": 7844095,
+      "expected_sha256": "17fd3a42deac519b10f6648ffe767483155a2f58002645d15513a0f558333e8e",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/east-asia/archive.json",
+      "name": "EA_OpenData_20261022_01.zip",
+      "kind": "transport_part",
+      "expected_size": 471859374,
+      "expected_sha256": "0c08b8550c3ff96946c591e8688f9f1b30f639d49fe92807ebdf559cc501c96c",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/east-asia/archive.json",
+      "name": "EA_OpenData_20261022_02.zip",
+      "kind": "transport_part",
+      "expected_size": 471859374,
+      "expected_sha256": "9cde1e1eb3d8617887324ec130589c6c9b75190c63a5efaa4708ee0c22e76281",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/east-asia/archive.json",
+      "name": "EA_OpenData_20261022_03.zip",
+      "kind": "transport_part",
+      "expected_size": 305366081,
+      "expected_sha256": "fa36f67215673ef026751429351df1e3cfdac299bbc8fdf0dcd9c18016256296",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/east-asia/archive.json",
+      "name": "EA_OpenData_20261022.zip",
+      "kind": "reconstructed_archive",
+      "expected_size": 1249084307,
+      "expected_sha256": "e73550bb61cc568adda166dc50146f61058ac020502b389681e95dec81a962df",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/north-america/archive.json",
+      "name": "Veygrit_NorthAmerica_20261017.zip",
+      "kind": "archive",
+      "expected_size": 253508265,
+      "expected_sha256": "6f6d77c3fa893ac105943ee71395339cbe6534f0cc3b1f521e15f8baa86abbff",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/south-america/archive.json",
+      "name": "Veygrit_SouthAmerica_20261017.zip",
+      "kind": "archive",
+      "expected_size": 35483056,
+      "expected_sha256": "fddf5f36be156cff3414d5e4f19df60efbdf30e73d9e9a2fe52d5369274cd282",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/western-europe/archive.json",
+      "name": "Veygrit_Western_Europe_Address_Data_20261022_Part01.zip",
+      "kind": "archive",
+      "expected_size": 351618936,
+      "expected_sha256": "352d6634be2134f2569aa0a463b0866fb82871175036eedc4b5b5506b381f51e",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/western-europe/archive.json",
+      "name": "Veygrit_Western_Europe_Address_Data_20261022_Part02.zip",
+      "kind": "archive",
+      "expected_size": 155304530,
+      "expected_sha256": "1d1c6a21c8d956b2ea6075c5cdb6d906c56db45302d56e31774e7952a5196094",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/western-europe/archive.json",
+      "name": "Veygrit_Western_Europe_Address_Data_20261022_Part03.zip",
+      "kind": "archive",
+      "expected_size": 469745876,
+      "expected_sha256": "5c4a54e9ec36615a31abe1bef19aa166f3e3a7704c7e304b999d858e439d6a96",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/western-europe/archive.json",
+      "name": "Veygrit_Western_Europe_Address_Data_20261022_Part04_1.zip",
+      "kind": "archive",
+      "expected_size": 87893559,
+      "expected_sha256": "a1d4d57dfc2453d11edfea71548b4fa09ba0a5db6251f79976f52d71a0cc04da",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/western-europe/archive.json",
+      "name": "Veygrit_Western_Europe_Address_Data_20261022_Part04_2.zip",
+      "kind": "archive",
+      "expected_size": 86920505,
+      "expected_sha256": "2fced6b60c3057e192dc26aaad603e13d3059cb96d2b41b241acdfc288ef636e",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/western-europe/archive.json",
+      "name": "Veygrit_Western_Europe_Address_Data_20261022_Part04_3.zip",
+      "kind": "archive",
+      "expected_size": 86879112,
+      "expected_sha256": "c691e9b0097825798b3fa045d12b8117e98d237afc34a80a0138e6f5e973c199",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/western-europe/archive.json",
+      "name": "Veygrit_Western_Europe_Address_Data_20261022_Part04_4.zip",
+      "kind": "archive",
+      "expected_size": 87719808,
+      "expected_sha256": "64fddd8f04686bccb15b8491186d8d0d4a5e7da0583bac7a864de4e020539293",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/western-europe/archive.json",
+      "name": "Veygrit_Western_Europe_Address_Data_20261022_Part04_5.zip",
+      "kind": "archive",
+      "expected_size": 88100108,
+      "expected_sha256": "8e5d5c1fed0b71af83052b30e60d23ab285ae7660ae4a44800fa6dbe317a0924",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/western-europe/netherlands/archive.json",
+      "name": "Veygrit_Western_Europe_NL_20261022.zip",
+      "kind": "archive",
+      "expected_size": 499710531,
+      "expected_sha256": "cb47c3bc42e6ea4ba20545a4925c3981f9e7b3bb271a769de46f9687365e5eff",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/western-europe/netherlands/archive.json",
+      "name": "Veygrit_Western_Europe_NL_20261022_Part01.zip",
+      "kind": "transport_part",
+      "expected_size": 92274878,
+      "expected_sha256": "10340715f8575d2d537c092bc3f4aab3a36c12d3431f715e9915b017c962ab69",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/western-europe/netherlands/archive.json",
+      "name": "Veygrit_Western_Europe_NL_20261022_Part02.zip",
+      "kind": "transport_part",
+      "expected_size": 92274878,
+      "expected_sha256": "cee8ca8eea1329c6ec5924c908fa6eaae5d338b430c304a186cb6f7aea44904b",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/western-europe/netherlands/archive.json",
+      "name": "Veygrit_Western_Europe_NL_20261022_Part03.zip",
+      "kind": "transport_part",
+      "expected_size": 92274878,
+      "expected_sha256": "2ed43718d77f67f04e567a35f0a32b9bcedf6dd02240ed684527fb120e1c3443",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/western-europe/netherlands/archive.json",
+      "name": "Veygrit_Western_Europe_NL_20261022_Part04.zip",
+      "kind": "transport_part",
+      "expected_size": 92274878,
+      "expected_sha256": "097bcff0fabeadcfd58b4e1e3ce864a9bbdc2064ab51a32f4a7b7b7952b39d64",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/western-europe/netherlands/archive.json",
+      "name": "Veygrit_Western_Europe_NL_20261022_Part05.zip",
+      "kind": "transport_part",
+      "expected_size": 92274878,
+      "expected_sha256": "ded05ccaf018e5611049afe776d2c622eef740d642541cd59a537e27af7c2433",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/western-europe/netherlands/archive.json",
+      "name": "Veygrit_Western_Europe_NL_20261022_Part06.zip",
+      "kind": "transport_part",
+      "expected_size": 38337281,
+      "expected_sha256": "7cd30a0d9217869956e51d03819894d75da2d908eb71f9040a6ebe0c3e77e100",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    },
+    {
+      "manifest": "releases/hierarchy/western-europe/netherlands/archive.json",
+      "name": "Veygrit_Western_Europe_NL_20261022.zip",
+      "kind": "reconstructed_archive",
+      "expected_size": 499710531,
+      "expected_sha256": "cb47c3bc42e6ea4ba20545a4925c3981f9e7b3bb271a769de46f9687365e5eff",
+      "availability": "referenced_not_local",
+      "local_checks": [],
+      "external_storage_status": "not_checked"
+    }
+  ],
+  "historical_items": [
+    {
+      "reference": "docs/migration/README.md",
+      "description": "Previously described Europe v0.7 local expansion",
+      "expected_entry": "europe_expansion/README.md",
+      "repository_entry_present": false,
+      "external_storage_status": "not_checked"
+    }
+  ],
+  "status": "inventory_complete",
+  "data_completeness_verified": false,
+  "audited_data_commit": "592c226c8353b766689364cc5a7fdbc690346524",
+  "checked_on": "2026-11-04"
+}

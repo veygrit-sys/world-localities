@@ -8,6 +8,7 @@
 |---|---|
 | 国・地域から探す | [250国・地域の一覧](countries/README.md) |
 | 収録データと利用方法を調べる | [データと利用方法](docs/guides/data-and-usage.md) |
+| 改善の順序を確認する | [実行方針](docs/implementation-strategy.md) |
 | 国別に更新・配布する | [国別管理と分離手順](docs/country-modules.md) |
 | 住所の入力・表記形式を扱う | [住所形式レイヤー](addressing/README.md) |
 | 実行コマンドを探す | [スクリプト一覧](scripts/README.md) |
@@ -19,13 +20,13 @@
 リポジトリのルートから実行します。Python 3.11以降を使用します。
 
 ```bash
-python scripts/country_modules.py list
-python scripts/country_modules.py validate --country JP
-python scripts/country_modules.py validate
+python -m localities country validate-catalog
+python -m localities country inspect --country JP
+python -m localities country verify --country JP
 python -m localities layout
 ```
 
-国別チェックは管理台帳と参照ファイルの整合性を検査します。住所の実在性や全国網羅を検証するコマンドではありません。
+国別検証は保存済み原典・変換行・共有入力の対応を、レイヤーごとに区別して返します。未検査の最新性・全国完全性・配達可能性は引き上げません。
 
 ## ファイルの役割
 
