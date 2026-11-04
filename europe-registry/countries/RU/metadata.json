@@ -1,0 +1,168 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "RUS",
+    "country": "RU",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Russia",
+    "geonames_id": "2017370",
+    "id": "country:RU",
+    "m49": "643",
+    "m49_region": "Europe",
+    "name_en": "Russian Federation",
+    "region": "Eastern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 191954,
+    "admin_rows": 3490,
+    "ambiguous_parents": 0,
+    "country": "RU",
+    "country_scope_only": 146,
+    "localities_without_adm1": 11236,
+    "locality_rows": 203205,
+    "name_en": "Russian Federation",
+    "other_admin_rows": 109,
+    "region": "Eastern Europe",
+    "unresolved_parents": 906
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 83,
+    "ADM1H": 2,
+    "ADM2": 2648,
+    "ADM2H": 10,
+    "ADM3": 560,
+    "ADM4": 199,
+    "ADM4H": 2,
+    "ADMD": 95,
+    "PPL": 187034,
+    "PPLA": 80,
+    "PPLA2": 1810,
+    "PPLA3": 29,
+    "PPLA4": 2,
+    "PPLC": 1,
+    "PPLF": 19,
+    "PPLH": 302,
+    "PPLL": 46,
+    "PPLQ": 10732,
+    "PPLR": 2,
+    "PPLS": 162,
+    "PPLW": 34,
+    "PPLX": 2952
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 854743,
+      "rows": 20000,
+      "sha256": "db628f7aeef37a490138b18750da80d17739dea0dc3d137cfaf12d295cd7f5e4",
+      "uncompressed_sha256": "edf8927f5649fabca6220a61147ea2c64f7b4e50b90ac4474dbe86eae29ce783"
+    },
+    "entities-0002.csv.gz": {
+      "bytes": 873407,
+      "rows": 20000,
+      "sha256": "725b54bf009153b239c6a6789b0dea6dc3b609729ce50321f7baf4833ffd3e19",
+      "uncompressed_sha256": "81a7ca1e72ec51582fa38c94d2177594636c09d0cfbbd345f1dc02d571ed221c"
+    },
+    "entities-0003.csv.gz": {
+      "bytes": 889728,
+      "rows": 20000,
+      "sha256": "7b8e9cfcfa892f7f021a0a9372585b58861fea52d62aae9136a99696617dab87",
+      "uncompressed_sha256": "be67c30b74c1baf06b10eb753152f19b49561bc2247ff36e8882a8eed1324609"
+    },
+    "entities-0004.csv.gz": {
+      "bytes": 876546,
+      "rows": 20000,
+      "sha256": "22a4cc8be9190a47e398a503d511fb31d7c0157b09e5a53e8a477f7485b400af",
+      "uncompressed_sha256": "cc2e501d3a16646be7806407119219353e3def45b1993b6d08a8fddc8f528699"
+    },
+    "entities-0005.csv.gz": {
+      "bytes": 892012,
+      "rows": 20000,
+      "sha256": "20bc9a272c264118725f2003a9b7f35cc0f97900f76c4b8b8d06cfca01cf99e5",
+      "uncompressed_sha256": "e9f68f1cf4019513b5c0c6effb522288fdee0acd41e95600267eca0b457b6984"
+    },
+    "entities-0006.csv.gz": {
+      "bytes": 808526,
+      "rows": 20000,
+      "sha256": "a746c076926f6b1528bdcddbc6e425beddbe18f91212387ce162568e7cf37a6b",
+      "uncompressed_sha256": "b35e690ee164194af559687187acd198e0d6a6bf5ed0f0137972a6f8dd0cc002"
+    },
+    "entities-0007.csv.gz": {
+      "bytes": 885730,
+      "rows": 20000,
+      "sha256": "0f5073032bae9748aad7e44bc5330c72378ee83cee78768c1b0a38038d261b8a",
+      "uncompressed_sha256": "5d6512ba0f7b7fd3e1422e4055dd7c2c7b6608f1d0b8a98dc185eaa448b0b753"
+    },
+    "entities-0008.csv.gz": {
+      "bytes": 885078,
+      "rows": 20000,
+      "sha256": "00bcd91c1e09ca94fea292da10fe3ded4eeee8678c44f22059a69e97641e5e12",
+      "uncompressed_sha256": "d24df33bb671c5bbb9b5430e1f76aa1e1d0526746c999c8c30cdacff22785685"
+    },
+    "entities-0009.csv.gz": {
+      "bytes": 759935,
+      "rows": 20000,
+      "sha256": "e42f4ab50493568df6689fa4bd238b1a49ab5b2e9c71203ffebca0e6ec888dbc",
+      "uncompressed_sha256": "26abd94525df9ced75996e94f39aa4836e194223b0215a0fa0974a21dfb6d55b"
+    },
+    "entities-0010.csv.gz": {
+      "bytes": 790434,
+      "rows": 20000,
+      "sha256": "a626d085b527e18a9b705f6d0685a51df583f8a300085ac6b96b15239bff18f1",
+      "uncompressed_sha256": "88a4c9e2eb876748faabd5974a37aec23db4880dd24dc537b152f93b9a3198db"
+    },
+    "entities-0011.csv.gz": {
+      "bytes": 333921,
+      "rows": 6804,
+      "sha256": "4fa27e6ee86524508afd98e5bf21f150eccb6a68465914440e7bb1f7f5565c2b",
+      "uncompressed_sha256": "02218fd2636a4d57d5f145fe9bba0751927062c1c8c83d2cbab90e3939a35213"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 146,
+    "historical_parent_not_asserted": 11082,
+    "missing_code": 490,
+    "missing_reference": 416,
+    "not_assigned_for_other_feature": 95,
+    "source_admin_code": 194492,
+    "source_country": 83
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 83,
+      "sha256": "d8fd1232e518bbd7c278c36bc65be332914f56a56eefb8f035d7243f07ffc4ea"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 412812,
+    "bytes": 15248578,
+    "excluded_feature_class_counts": {
+      "A": 3,
+      "H": 122287,
+      "L": 16545,
+      "R": 265,
+      "S": 30417,
+      "T": 35805,
+      "U": 34,
+      "V": 652
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:56:22 GMT",
+    "retained_rows": 206804,
+    "retrieved_at": "2026-09-29T11:14:35.395425+00:00",
+    "sha256": "ed225ef42db69c53c5e87549047ed16d02054a5cad157c5ab6928b86a20468de",
+    "url": "https://download.geonames.org/export/dump/RU.zip"
+  },
+  "source_modified_max": "2026-09-28",
+  "source_modified_min": "1994-04-09"
+}

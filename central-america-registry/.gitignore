@@ -1,0 +1,4 @@
+__pycache__/
+# Exact large sources are reconstructed from checksum-verified parts.
+/sources/GT.zip
+/sources/PA.zip

@@ -1,0 +1,35 @@
+{
+  "country": "RS",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 3526,
+      "rows": 37,
+      "sha256": "5485fa630cec53bf44a7bcdebd44afc84aa524445a4f45656ce1df5326abba91"
+    },
+    "units.csv.gz": {
+      "bytes": 158054,
+      "rows": 6170,
+      "sha256": "27b74bc3778ff73f293b73699ca3897667b22b85b0080f845358344b965ff1de"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 6170,
+  "skipped_empty_rows": 0,
+  "source_period_counts": {
+    "2024": 6170
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "RS",
+  "validation": {
+    "core": "not validated",
+    "overall": "not validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

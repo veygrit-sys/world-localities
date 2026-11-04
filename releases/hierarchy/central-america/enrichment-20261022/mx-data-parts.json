@@ -1,0 +1,22 @@
+{
+  "format": "zip-wrapped-byte-parts-v1",
+  "archive_name": "MX-inegi-addresses.zip",
+  "archive_bytes": 683565189,
+  "archive_sha256": "090735bf608a3202a141da670d960a05dbe464893ba49208fc37c30485f5bedc",
+  "parts": [
+    {
+      "file": "MX_Addresses_Source_20261022.part01.zip",
+      "bytes": 419430570,
+      "sha256": "5d5496fb5c392031a67d2b7757a7476c720c9423450e3a0a0909e77682453ea3",
+      "member": "MX-inegi-addresses.zip.001",
+      "member_bytes": 419430400
+    },
+    {
+      "file": "MX_Addresses_Source_20261022.part02.zip",
+      "bytes": 264134959,
+      "sha256": "e2b4f20305cba647ac504ccaecedd0b055a0f856c5059772a99948126c128e55",
+      "member": "MX-inegi-addresses.zip.002",
+      "member_bytes": 264134789
+    }
+  ]
+}

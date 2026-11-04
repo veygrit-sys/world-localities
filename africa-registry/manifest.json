@@ -1,0 +1,245 @@
+{
+  "countries": [
+    {
+      "country": "AO",
+      "metadata_sha256": "5924b7974ba94efae13575ea343457d1be811b0180d454987c1bdce2d53f3c4d"
+    },
+    {
+      "country": "BF",
+      "metadata_sha256": "86eed21fe4c698ad83e5fd9dabd006db4a2f403af433c76d51e3e00d8c00cf7f"
+    },
+    {
+      "country": "BI",
+      "metadata_sha256": "535985f715a84c07d7ee1a588db9ba3e6171d2067aed2c773d8215e21bb04537"
+    },
+    {
+      "country": "BJ",
+      "metadata_sha256": "1cc2a98b3d43f9ebe7238d87c7f982e18d66ea4b87551760223531e14c41e922"
+    },
+    {
+      "country": "BW",
+      "metadata_sha256": "f38b27e90e2f635331cd7d28a28db42e623242381ffdb51470aa79bb7d543949"
+    },
+    {
+      "country": "CF",
+      "metadata_sha256": "b59c963168aecfe7772963c3d4189815e47ecff537c0bafcc7e87a9f344d999c"
+    },
+    {
+      "country": "CG",
+      "metadata_sha256": "e5c4034417f6796ab3ebfda703024d23dfb11769530a0327abdf23f51c99832f"
+    },
+    {
+      "country": "CI",
+      "metadata_sha256": "f5093b4fbb9d7f07986226cbcc61a5ca0ea1bab4e7548689a21397588d512b14"
+    },
+    {
+      "country": "CM",
+      "metadata_sha256": "55bab32d74f4039b47a3f21f34ad5b4c5da61244f33d7bfa8b82f18f25179840"
+    },
+    {
+      "country": "CV",
+      "metadata_sha256": "ece94d6840357d19c8431d0b40d587a201940aa3822bfe39926c9298011e5aec"
+    },
+    {
+      "country": "DJ",
+      "metadata_sha256": "058bbf59973f3f9a4e298401301e1499d55331c0507c72ed639d569d31f30251"
+    },
+    {
+      "country": "DZ",
+      "metadata_sha256": "1eb3bc950a845d1060fe063e96aa6e284dcf2f0b1aeeaa71e596bb491a1fbabc"
+    },
+    {
+      "country": "EG",
+      "metadata_sha256": "cab6ff7ad9194a62574fe76566a644544b937dc667163e0697afc51d61fc6a0e"
+    },
+    {
+      "country": "EH",
+      "metadata_sha256": "146f7b336a415527fcdccebf14c85b46b73375584f15bc68ea965bbcae1bcdda"
+    },
+    {
+      "country": "ER",
+      "metadata_sha256": "c8dfb96abcdd4af6acccd707a051fd8b302366daf8ee905ab6e451d270359399"
+    },
+    {
+      "country": "ET",
+      "metadata_sha256": "3ac948dbe9dc05cd08baffc3ad6ecfcd639cef9f4a7a363ddab6382a89dfa6d0"
+    },
+    {
+      "country": "GA",
+      "metadata_sha256": "5b702b13ae03b8d64a67711206033ca771b7dd76acb00c2e0251a6668003088b"
+    },
+    {
+      "country": "GH",
+      "metadata_sha256": "fbe6b95c6ae15c18db55693d94fd5ad94f5b80e9201262511924bf005eeaf13b"
+    },
+    {
+      "country": "GM",
+      "metadata_sha256": "0be6dfcbdd16e0974c30916f9d3a9fecc1648627a735a0bab22b422aa5aecefa"
+    },
+    {
+      "country": "GN",
+      "metadata_sha256": "204beec45a71e1d280e440c88ef582e6bf9ea2ac010ef2ea04d081a80cd05990"
+    },
+    {
+      "country": "GQ",
+      "metadata_sha256": "65acb7d5dc6c4fecd211a1b1fe90d17b487c42b5d36e4f56fc86cf9663e311dd"
+    },
+    {
+      "country": "GW",
+      "metadata_sha256": "89db4eee8f1635ed4c4abb4be56fc66b64575d453c89ef297d7b1d168c9c0686"
+    },
+    {
+      "country": "IO",
+      "metadata_sha256": "0c8b707f96ef3947d96af7c75bf8dca1de577f8cdeb394a1ee44dc7cecc9cb67"
+    },
+    {
+      "country": "KE",
+      "metadata_sha256": "1010828546724a2c0c7a9dbb1903240393ae3614b94a4659978c2c8d4c45aab5"
+    },
+    {
+      "country": "KM",
+      "metadata_sha256": "2739fd96ae07fe4757a64a72439bae99436d1586c9a845f1bb2477278cb70d36"
+    },
+    {
+      "country": "LR",
+      "metadata_sha256": "6bea5f18e0f74f63625e6b76b46212fbd0121bdb3c2332a60c1a4b8241336f0c"
+    },
+    {
+      "country": "LS",
+      "metadata_sha256": "1c2b9aa2aca3d05434dabc02d6ef819b59e8f63ad5edc975b7b1fb595bd19257"
+    },
+    {
+      "country": "LY",
+      "metadata_sha256": "96aa8001284e42bd655f36ebb1a53e755cea29bea1d0ac2d6fe114911cdf07f2"
+    },
+    {
+      "country": "ML",
+      "metadata_sha256": "9ef681a6bb7aec277f824489d9a31a142366161893fbc9d5ab6b04d2ab741384"
+    },
+    {
+      "country": "MR",
+      "metadata_sha256": "fe85c140655c857c0befcfda5b6fa66e462746c59854abc86c3893fe31f1671e"
+    },
+    {
+      "country": "MU",
+      "metadata_sha256": "462f2716865acd55cb5106428b06e07028f17ce70d04d06f695e70c9e3e2ed9d"
+    },
+    {
+      "country": "MW",
+      "metadata_sha256": "35176d486957da6e43982f0053aa8811908e5596b8f6265b66d2b0875a1e675e"
+    },
+    {
+      "country": "MZ",
+      "metadata_sha256": "3477aa22cfa275abf9f8d7f1d062dc5103b014f8adb1787670a0d3048b079467"
+    },
+    {
+      "country": "NA",
+      "metadata_sha256": "1182d2af20fe8861e934cea52a9356780bd941df64a7577b7ed4458d585f5001"
+    },
+    {
+      "country": "NE",
+      "metadata_sha256": "5c06067d79e5fcb18197384ba57842bf78798dfd5f56585b6d70516f27122c51"
+    },
+    {
+      "country": "RE",
+      "metadata_sha256": "6270a6005a01187e000831d5ff32420b799605f2ef6196f199b9687ba532ae8e"
+    },
+    {
+      "country": "RW",
+      "metadata_sha256": "d6b6461cc5c6fe221f2237be573d63b9cc4c007a8ee8401b9584a6c354e0339d"
+    },
+    {
+      "country": "SC",
+      "metadata_sha256": "2db37688f5ee324f984c7f6a0aa02d58855d6c88ff4c5cbc7494dbf653ca58bf"
+    },
+    {
+      "country": "SD",
+      "metadata_sha256": "7d113a56590baecbf916ef7437559a6dfae02e5501c4e7e8c6b9adc698f53ef9"
+    },
+    {
+      "country": "SH",
+      "metadata_sha256": "a555bed45d045fed759bf9f18d615acec008645ffef6397f7de5197b67a87605"
+    },
+    {
+      "country": "SL",
+      "metadata_sha256": "782cdbb5e70b1b0fc3271da11ff3c9fe08c8b5c93c56ec72145b3dccc23f419f"
+    },
+    {
+      "country": "SN",
+      "metadata_sha256": "de6627888a8774417e05a9015a6352003f920644a3c884dc053c135391a086cf"
+    },
+    {
+      "country": "SO",
+      "metadata_sha256": "eb1b7e2afcbfe0aa22659af296c1a8202c25dab3d7c7a7271eb2f7a81b4db376"
+    },
+    {
+      "country": "SS",
+      "metadata_sha256": "5db8643e3f188153df457faddad75db3b4ab1c7d415025e8849c8edf5fa75dcf"
+    },
+    {
+      "country": "ST",
+      "metadata_sha256": "3f8b3fb2e2d039c1eec4da2eb00e50c58c6f6e20d61932fac61367d16f346ea8"
+    },
+    {
+      "country": "SZ",
+      "metadata_sha256": "308204ed8e912ef68ac38a5cf29adf2b8d37b021ef0d33a7a271fb0c965adb5b"
+    },
+    {
+      "country": "TD",
+      "metadata_sha256": "b001f27798b312f2352319f66e975f6725322b989641afa975a6dac7f070b3b2"
+    },
+    {
+      "country": "TF",
+      "metadata_sha256": "df257b304ae9d63ffc1928221f770d42be388537eb591dde9c2f18a71fcc226a"
+    },
+    {
+      "country": "TG",
+      "metadata_sha256": "2f0eaaa6f7376d1c00652a6f91529807567124c985230ae8d3859a783fcda2ac"
+    },
+    {
+      "country": "TN",
+      "metadata_sha256": "34ae5cbf5218803dbdc5e5c4b6eacff7720953818090dd3110b66693069a61e3"
+    },
+    {
+      "country": "TZ",
+      "metadata_sha256": "0b1eb4cd4c60464acf5f5a3c68ea557733d9d978ed3761fb9991c7aa2c809033"
+    },
+    {
+      "country": "UG",
+      "metadata_sha256": "a28cb0facd8e6fb1bab9ea963b068fb5081014c687376587f15b7484aa2a97bb"
+    },
+    {
+      "country": "YT",
+      "metadata_sha256": "0e28a383d389a44a82225f1db5fab0573e62ebe193fa79e4024ece27358c5cb5"
+    },
+    {
+      "country": "ZA",
+      "metadata_sha256": "661898617fca3ffdb07de33cba1566333bab6034c5575b3d3e553e37d47fca4c"
+    },
+    {
+      "country": "ZM",
+      "metadata_sha256": "888f8361b0c0c09b324df1ebf5e7dde4080b317b9ffbd232e88c8a8f5513e934"
+    },
+    {
+      "country": "ZW",
+      "metadata_sha256": "25a8e7bead13317f1401423da898cfc71de04cf00683f61c61756898832b8646"
+    }
+  ],
+  "coverage_sha256": "8a9a9540431fa5831b209a8ef4618f70893a31fb68efd5b9f2f38ffa3efba118",
+  "license": "CC-BY-4.0",
+  "schema_version": 1,
+  "scope_count": 56,
+  "scope_sha256": "9bdf1fea0a8116c6758203e81c35159298d03ceaa3d1bb1b12e992c43b25b840",
+  "scope_source": "https://unstats.un.org/unsd/methodology/m49/",
+  "source": "https://download.geonames.org/export/dump/",
+  "totals": {
+    "address_candidates": 357002,
+    "admin_rows": 23882,
+    "ambiguous_parents": 0,
+    "country_scope_only": 13395,
+    "localities_without_adm1": 14188,
+    "locality_rows": 360848,
+    "other_admin_rows": 3308,
+    "unresolved_parents": 3396
+  }
+}

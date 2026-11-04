@@ -1,0 +1,66 @@
+test_conflicting_parent_tuple_not_linked (test_centralamerica.AdministrativeBehavior.test_conflicting_parent_tuple_not_linked) ... ok
+test_country_change_requires_review (test_centralamerica.AdministrativeBehavior.test_country_change_requires_review) ... ok
+test_duplicate_administrative_pcode_requires_review (test_centralamerica.AdministrativeBehavior.test_duplicate_administrative_pcode_requires_review) ... ok
+test_duplicate_place_pcodes_do_not_merge (test_centralamerica.AdministrativeBehavior.test_duplicate_place_pcodes_do_not_merge) ... ok
+test_laguna_named_town_remains_a_town (test_centralamerica.AdministrativeBehavior.test_laguna_named_town_remains_a_town) ... ok
+test_parent_path_and_raw_row_preserved (test_centralamerica.AdministrativeBehavior.test_parent_path_and_raw_row_preserved) ... ok
+test_unexpected_count_requires_review (test_centralamerica.AdministrativeBehavior.test_unexpected_count_requires_review) ... ok
+test_version_change_requires_review (test_centralamerica.AdministrativeBehavior.test_version_change_requires_review) ... ok
+test_water_does_not_count_as_municipality (test_centralamerica.AdministrativeBehavior.test_water_does_not_count_as_municipality) ... ok
+test_wrong_branch_rejected (test_centralamerica.AdministrativeBehavior.test_wrong_branch_rejected) ... ok
+test_conflicting_identity_retains_first_and_flags (test_centralamerica.HierarchyBehavior.test_conflicting_identity_retains_first_and_flags) ... ok
+test_cross_country_link_blocked (test_centralamerica.HierarchyBehavior.test_cross_country_link_blocked) ... ok
+test_cycles_blocked_by_rank (test_centralamerica.HierarchyBehavior.test_cycles_blocked_by_rank) ... ok
+test_duplicate_path_rejected (test_centralamerica.HierarchyBehavior.test_duplicate_path_rejected) ... ok
+test_equal_codes_different_sources_unlinked (test_centralamerica.HierarchyBehavior.test_equal_codes_different_sources_unlinked) ... ok
+test_expected_path (test_centralamerica.HierarchyBehavior.test_expected_path) ... ok
+test_french_source_tag_kept (test_centralamerica.HierarchyBehavior.test_french_source_tag_kept) ... ok
+test_issue_propagates_to_descendant (test_centralamerica.HierarchyBehavior.test_issue_propagates_to_descendant) ... ok
+test_leading_zero_preserved (test_centralamerica.HierarchyBehavior.test_leading_zero_preserved) ... ok
+test_literal_percent_and_underscore (test_centralamerica.HierarchyBehavior.test_literal_percent_and_underscore) ... ok
+test_missing_english_is_not_inferred (test_centralamerica.HierarchyBehavior.test_missing_english_is_not_inferred) ... ok
+test_missing_parent_not_fabricated (test_centralamerica.HierarchyBehavior.test_missing_parent_not_fabricated) ... ok
+test_multiple_observations_preserved (test_centralamerica.HierarchyBehavior.test_multiple_observations_preserved) ... ok
+test_namespace_scoped_search (test_centralamerica.HierarchyBehavior.test_namespace_scoped_search) ... ok
+test_never_claims_delivery_or_full_coverage (test_centralamerica.HierarchyBehavior.test_never_claims_delivery_or_full_coverage) ... ok
+test_original_observations_pagination (test_centralamerica.HierarchyBehavior.test_original_observations_pagination) ... ok
+test_page_has_no_repeated_first_result (test_centralamerica.HierarchyBehavior.test_page_has_no_repeated_first_result) ... ok
+test_parent_scoped_search (test_centralamerica.HierarchyBehavior.test_parent_scoped_search) ... ok
+test_postal_is_exact_source_attribute (test_centralamerica.HierarchyBehavior.test_postal_is_exact_source_attribute) ... ok
+test_reverse_path_rejected (test_centralamerica.HierarchyBehavior.test_reverse_path_rejected) ... ok
+test_same_name_never_merges (test_centralamerica.HierarchyBehavior.test_same_name_never_merges) ... ok
+test_search_parent_wrong_country (test_centralamerica.HierarchyBehavior.test_search_parent_wrong_country) ... ok
+test_seven_countries (test_centralamerica.HierarchyBehavior.test_seven_countries) ... ok
+test_single_node_is_not_path (test_centralamerica.HierarchyBehavior.test_single_node_is_not_path) ... ok
+test_source_path_not_address_proof (test_centralamerica.HierarchyBehavior.test_source_path_not_address_proof) ... ok
+test_sql_input_bound (test_centralamerica.HierarchyBehavior.test_sql_input_bound) ... ok
+test_supplements_not_countries (test_centralamerica.HierarchyBehavior.test_supplements_not_countries) ... ok
+test_unknown_children_parent (test_centralamerica.HierarchyBehavior.test_unknown_children_parent) ... ok
+test_unknown_path_rejected (test_centralamerica.HierarchyBehavior.test_unknown_path_rejected) ... ok
+test_wrong_branch_rejected (test_centralamerica.HierarchyBehavior.test_wrong_branch_rejected) ... ok
+test_wrong_country_rejected (test_centralamerica.HierarchyBehavior.test_wrong_country_rejected) ... ok
+test_active_alias_accepted (test_centralamerica.SourceUtilities.test_active_alias_accepted) ... ok
+test_belize_empty_postcode_allowed_as_missing (test_centralamerica.SourceUtilities.test_belize_empty_postcode_allowed_as_missing) ... ok
+test_changed_publisher_licence_requires_review (test_centralamerica.SourceUtilities.test_changed_publisher_licence_requires_review) ... ok
+test_costa_rica_five_digits (test_centralamerica.SourceUtilities.test_costa_rica_five_digits) ... ok
+test_future_alias_not_current (test_centralamerica.SourceUtilities.test_future_alias_not_current) ... ok
+test_historical_alias_not_current (test_centralamerica.SourceUtilities.test_historical_alias_not_current) ... ok
+test_honduras_unsettled_syntax_not_rejected_as_invalid (test_centralamerica.SourceUtilities.test_honduras_unsettled_syntax_not_rejected_as_invalid) ... ok
+test_html_instead_of_data_rejected (test_centralamerica.SourceUtilities.test_html_instead_of_data_rejected) ... ok
+test_leading_zero_postcode_preserved (test_centralamerica.SourceUtilities.test_leading_zero_postcode_preserved) ... ok
+test_mexico_not_duplicated_in_scope (test_centralamerica.SourceUtilities.test_mexico_not_duplicated_in_scope) ... ok
+test_missing_country_archive_member_rejected (test_centralamerica.SourceUtilities.test_missing_country_archive_member_rejected) ... ok
+test_nicaragua_five_digits (test_centralamerica.SourceUtilities.test_nicaragua_five_digits) ... ok
+test_nicaragua_old_seven_digit_rule_not_used (test_centralamerica.SourceUtilities.test_nicaragua_old_seven_digit_rule_not_used) ... ok
+test_nonascii_postcode_not_silently_changed (test_centralamerica.SourceUtilities.test_nonascii_postcode_not_silently_changed) ... ok
+test_numeric_postcode_invalid_type (test_centralamerica.SourceUtilities.test_numeric_postcode_invalid_type) ... ok
+test_panama_new_system_not_falsely_validated (test_centralamerica.SourceUtilities.test_panama_new_system_not_falsely_validated) ... ok
+test_postcode_does_not_prove_assignment (test_centralamerica.SourceUtilities.test_postcode_does_not_prove_assignment) ... ok
+test_salvador_cp_prefix (test_centralamerica.SourceUtilities.test_salvador_cp_prefix) ... ok
+test_salvador_repeated_prefix_not_allowed (test_centralamerica.SourceUtilities.test_salvador_repeated_prefix_not_allowed) ... ok
+
+----------------------------------------------------------------------
+Ran 60 tests in 0.036s
+
+OK
+{"status": "PASS", "behavior_tests": 60, "source_objects": 32, "observation_replays": 16, "name_replays": 7, "counts": {"nodes": 89952, "names": 256334, "links": 263085, "observations": 91044, "issues": 81}}

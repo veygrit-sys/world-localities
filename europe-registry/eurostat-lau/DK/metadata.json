@@ -1,0 +1,35 @@
+{
+  "country": "DK",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 1643,
+      "rows": 17,
+      "sha256": "044f21cc9da4408674beb5ccf732c8d8eb936cf42d577e159ab0108ddceb13ba"
+    },
+    "units.csv.gz": {
+      "bytes": 2312,
+      "rows": 99,
+      "sha256": "c66ca07fcbe06e64118a9c0f86ed4bba4d027832bf70874762614fa38ce59c8e"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 99,
+  "skipped_empty_rows": 6159,
+  "source_period_counts": {
+    "2024": 99
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "DK",
+  "validation": {
+    "core": "validated",
+    "overall": "validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

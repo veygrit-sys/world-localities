@@ -1,0 +1,164 @@
+{
+  "archive_bytes": 872558,
+  "archive_sha256": "82b71db243211f64fed55fa893081bb891e1f9c09a9c87fb821166f7666c95fe",
+  "parts": [
+    {
+      "path": "shared/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "e2fc69fb9ef91dab192e17ce7116b56a89a827a0c4ad3458d2a399b8c808d30a",
+      "bytes": 524288,
+      "sha256": "f970421567a76503e5c7a9c8b3b5ac9ed168f226cbfcb35511b3ad0de6a80fc6"
+    },
+    {
+      "path": "shared/part-002.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 464361,
+      "stored_sha256": "64f4ad28954ca6171a351bd26ef18d87f1a6d44677bcc18e3c390af6386e369a",
+      "bytes": 348270,
+      "sha256": "59def23596816b706d47f46741b4202799e14a2004911b1955f6514fb0a9a416"
+    }
+  ],
+  "members": {
+    "base/LICENSE": {
+      "bytes": 1082,
+      "sha256": "17cd411bfb5a12777ad3056ad0061bab27fcc5a1a8a506bb5ba50b98fdd6c974"
+    },
+    "base/LICENSES.md": {
+      "bytes": 2603,
+      "sha256": "de3ae6221dc53eac744bcd0a2d261f7aec1eabf72c853814341740252f8d3359"
+    },
+    "base/README.md": {
+      "bytes": 9936,
+      "sha256": "dd4ef2cf015ae766bc8597904bfa294f754bef7849b18cc147101dc4603526e2"
+    },
+    "base/SHA256SUMS": {
+      "bytes": 19005,
+      "sha256": "554da1203715b82d3ab261722fd288744ea4d1025963ed84917faf5a6c453981"
+    },
+    "base/countries.csv": {
+      "bytes": 3242,
+      "sha256": "8c844f1fea5b95b584bbfc3fae205e971651502c1fad75f737bde2e391747234"
+    },
+    "base/countries.json": {
+      "bytes": 10765,
+      "sha256": "a6b2b9b7b8625985accdefaa50ce9d835ce2d1fae434fc843e88ea6b1a4561ab"
+    },
+    "base/manifest.json": {
+      "bytes": 32540,
+      "sha256": "1a711a07d718cc11e5a1222b96ec3231a7abdffee9b4d53a8e39ed367f0b5069"
+    },
+    "base/quality/parent_issues.csv": {
+      "bytes": 93860,
+      "sha256": "5be3f25091220c6d57419dbdefedf442839ae816a3c36ecb014a130c86d0b087"
+    },
+    "base/quality/validation.json": {
+      "bytes": 6287,
+      "sha256": "db2940e1affc47f5d6e47d4bba7a8df7b8cbfabce512481a99f9ac81c9723bf7"
+    },
+    "base/schema.json": {
+      "bytes": 2183,
+      "sha256": "d7e69b1f23ff82733c6f00fe9c0bb755448610026f1276d9588c098cf3e468b2"
+    },
+    "base/scope.csv": {
+      "bytes": 1171,
+      "sha256": "b1d040114e85afdcffd18914bec3faeac9503843adc69c1e3e827180c0288ec9"
+    },
+    "base/scripts/build_dataset.py": {
+      "bytes": 14863,
+      "sha256": "d30aebf0e2dfab0ed6b626267b1152b27c658bb0bbada0722c22c9658b33d882"
+    },
+    "base/scripts/download_sources.py": {
+      "bytes": 2928,
+      "sha256": "22bfb6fbdec09903bfdf939f48bd4878909c3882124c40086c063495d8fbbc03"
+    },
+    "base/scripts/query.py": {
+      "bytes": 1866,
+      "sha256": "a3d38642ecfb71f8a2af49bab521285bf5b72b4b62920e42c43e93cf6f8295b9"
+    },
+    "base/scripts/test_parent_resolution.py": {
+      "bytes": 2246,
+      "sha256": "ea6d7cdce7bb746f18c144fc5652f7a90aef06cf5a67a34c986894b6ee6cea4e"
+    },
+    "base/scripts/validate_dataset.py": {
+      "bytes": 9112,
+      "sha256": "bf9a5f19fd1188aa5774d5aa31f42989f73c1a14f27c789c460783183646639e"
+    },
+    "base/sources.json": {
+      "bytes": 12197,
+      "sha256": "08f9dc73a568c5afa5ff1425562c220f2377d6fb663381b6884f925b9821dafb"
+    },
+    "base/sources/geonames/admin1CodesASCII.txt": {
+      "bytes": 151583,
+      "sha256": "1da92a6323a5fec3176f3f743bf4cf4040fd56a876da55e46fbca23c863aa60a"
+    },
+    "base/sources/geonames/admin1CodesASCII.txt.download.json": {
+      "bytes": 320,
+      "sha256": "e6f2b064979e3db8ebeb0acb2cd23c5e643be875028b2994d028764297490a1c"
+    },
+    "base/sources/geonames/admin2Codes.txt": {
+      "bytes": 2375171,
+      "sha256": "63a82be925b8704abae683a89e32f40b22f618a93efc4e676e912873f8a3be20"
+    },
+    "base/sources/geonames/admin2Codes.txt.download.json": {
+      "bytes": 317,
+      "sha256": "83e91ec0faf3b451277d8c23125f4092f02a2d78d2ff2be48d7186b1ea3b5a1c"
+    },
+    "base/sources/geonames/countryInfo.txt": {
+      "bytes": 31678,
+      "sha256": "93bafc525813f22e4711ff9ed6d626343094ce48c26388dc7c49189b3d7d5512"
+    },
+    "base/sources/geonames/countryInfo.txt.download.json": {
+      "bytes": 313,
+      "sha256": "5317da67f7e4ac3aef5aee8a41b7f68a858f300a6ab3d4d6aa135377f1b829b4"
+    },
+    "base/sources/geonames/featureCodes_en.txt": {
+      "bytes": 58642,
+      "sha256": "d44f129c1cffdeabf759c99fe7ea5b84f615c7f3e7366fb76ccf990f408f6af7"
+    },
+    "base/sources/geonames/featureCodes_en.txt.download.json": {
+      "bytes": 317,
+      "sha256": "9ecd75257d26a9a3ecbe7cef61d82f42112441b3177cfb39a57d39bcf0c8dc55"
+    },
+    "base/sources/geonames/readme.txt": {
+      "bytes": 8843,
+      "sha256": "b1957379b6c1242c700c98ac9a8aa0a09f56c3c0a50ee72175527005f48ef2c5"
+    },
+    "base/sources/geonames/readme.txt.download.json": {
+      "bytes": 307,
+      "sha256": "786551ed853cdb85c354d1d39561e557f5daf11cfa7067f9ec5708a2bb60f729"
+    },
+    "base/summary.csv": {
+      "bytes": 4083,
+      "sha256": "0620ea31018c7676bb0319d4a5da9f9c645496a02512c66f73c70647e12e0038"
+    },
+    "base/summary.json": {
+      "bytes": 13588,
+      "sha256": "a0d6bed9a8cd86a4292716ec35d4db6568dd0651139879e3806de2a1b37616be"
+    },
+    "locale/country_profiles.json": {
+      "bytes": 23622,
+      "sha256": "9b75dedfb2e652ce9bdf3f03d8bf4e0ebe1b528fb6a9bc479a3d8472f03a536c"
+    },
+    "locale/coverage.csv": {
+      "bytes": 3483,
+      "sha256": "34154fbb0aa3827f1c7ff89d9ba75323c17d9dbbfc56d86d64259c5ad835bd50"
+    },
+    "locale/coverage.json": {
+      "bytes": 12744,
+      "sha256": "3ebc35fb2d9f9a6b3f7061597d61cf8ada7029b37a08dc1cda01cb3fa0939c01"
+    },
+    "locale/manifest.json": {
+      "bytes": 20599,
+      "sha256": "ba2f3e9b832390253f2bb0b379bc11f8317327596566ee7cf23fffeb87511bca"
+    },
+    "locale/sources/address-templates/ZZ.json": {
+      "bytes": 181,
+      "sha256": "fbd2437447f96e5e6cae0a7e7b113312a0b4a9338400f4694f9f402836d3a78d"
+    },
+    "locale/sources/address-templates/ZZ.json.download.json": {
+      "bytes": 271,
+      "sha256": "e4d7ab9f4bace4a1f729c2b31a848f416f4677d4ca8a93c9eaa1301274d459e7"
+    }
+  }
+}

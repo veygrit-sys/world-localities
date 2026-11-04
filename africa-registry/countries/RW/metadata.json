@@ -1,0 +1,90 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "RWA",
+    "country": "RW",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Rwanda",
+    "geonames_id": "49518",
+    "id": "country:RW",
+    "m49": "646",
+    "name_en": "Rwanda",
+    "numeric": "646",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 10230,
+    "admin_rows": 2599,
+    "ambiguous_parents": 0,
+    "country": "RW",
+    "country_scope_only": 1,
+    "localities_without_adm1": 1,
+    "locality_rows": 10260,
+    "name_en": "Rwanda",
+    "other_admin_rows": 35,
+    "region": "Eastern Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 5,
+    "ADM1H": 12,
+    "ADM2": 30,
+    "ADM2H": 21,
+    "ADM3": 416,
+    "ADM4": 2148,
+    "PCLH": 1,
+    "PCLI": 1,
+    "PPL": 1946,
+    "PPLA": 4,
+    "PPLA2": 3,
+    "PPLC": 1,
+    "PPLCH": 1,
+    "PPLF": 29,
+    "PPLL": 8263,
+    "PPLX": 13
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 403067,
+      "rows": 12894,
+      "sha256": "850b4c5143fd06257f3ed9e2afbbffeef0e3a2fae8652606ed8fc55bc9f0617e",
+      "uncompressed_sha256": "4008b772120ca16667fc08c0c6d064004dfcce00f0c7f1db24aca1b007d8c02f"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 1,
+    "not_assigned_for_other_feature": 35,
+    "source_admin_code": 12853,
+    "source_country": 5
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 5,
+      "sha256": "a1de86ce8e671163c55defe49b82ade9dedbfe273549d17024c38bf3d5daf6b3"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 487348,
+    "discarded_feature_classes": {
+      "H": 7095,
+      "L": 206,
+      "S": 130,
+      "T": 593,
+      "V": 95
+    },
+    "retained_rows": 12894,
+    "retrieved_on": "2026-09-26",
+    "sha256": "97b6f80405df1be3d5619a4b5c442fa17be8d0e9b7efbfcf5501ff88bc3d6a5b",
+    "source_rows": 21013,
+    "url": "https://download.geonames.org/export/dump/RW.zip"
+  },
+  "source_modified_max": "2026-09-25",
+  "source_modified_min": "2003-02-12"
+}

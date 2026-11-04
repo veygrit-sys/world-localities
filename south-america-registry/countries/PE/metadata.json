@@ -1,0 +1,127 @@
+{
+  "alternate_values_file": {
+    "bytes": 565148,
+    "filename": "alternate-values.csv.gz",
+    "rows": 34284,
+    "sha256": "ca6b810a9ca418e848076db2d91d101f14a90388c2ad587469a5fa2452f891a6",
+    "uncompressed_sha256": "aafd5c78eaa3c0447252dae67594bc6a1910996c90bf02427b243ec68c563549"
+  },
+  "alternate_values_source": {
+    "bytes": 975126,
+    "retained_rows": 34284,
+    "retrieved_on": "2026-10-01",
+    "sha256": "830197471d9d39f26249bdaae617379f040d792ba2b1ac0b03328944c65f436b",
+    "source_columns": 10,
+    "source_rows": 90164,
+    "url": "https://download.geonames.org/export/dump/alternatenames/PE.zip"
+  },
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "PER",
+    "country": "PE",
+    "geonames_continent": "SA",
+    "geonames_id": "3932488",
+    "id": "country:PE",
+    "m49": "604",
+    "name_en": "Peru",
+    "region": "South America",
+    "region_m49": "005",
+    "source_country_languages": [
+      "es-PE",
+      "qu",
+      "ay"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 47449,
+    "admin_rows": 2095,
+    "ambiguous_parents": 0,
+    "country": "PE",
+    "country_scope_only": 0,
+    "localities_without_adm1": 0,
+    "locality_rows": 47493,
+    "name_en": "Peru",
+    "other_admin_rows": 3,
+    "region": "South America",
+    "unresolved_parents": 233
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 26,
+    "ADM2": 196,
+    "ADM3": 1873,
+    "ADM3H": 2,
+    "PCLI": 1,
+    "PPL": 44522,
+    "PPLA": 25,
+    "PPLA2": 11,
+    "PPLA3": 1561,
+    "PPLA4": 2,
+    "PPLC": 1,
+    "PPLF": 2,
+    "PPLH": 3,
+    "PPLL": 644,
+    "PPLQ": 25,
+    "PPLS": 4,
+    "PPLW": 10,
+    "PPLX": 683
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 1768140,
+      "rows": 49591,
+      "sha256": "d0e039331a74f43c773d9a0fc81d3473cc7b7d1180d0e20aba8456f469e21b1d",
+      "uncompressed_sha256": "6a5a11ddf07670b3579cd6e73c35d8b873e867ca58e7442fe7e08e60a8113f8d"
+    }
+  },
+  "known_issues": [],
+  "label_coverage": {
+    "current_country_language_name_entities": 13145,
+    "current_english_name_entities": 592,
+    "language_tagged_name_entities": 13742,
+    "missing_country_language_name_entities": 36446,
+    "missing_english_name_entities": 48999,
+    "native_label_rule": "Exact source language tag matched against countryInfo language list; no language is inferred from primary name, ASCII, spelling or script. Country-language match is not proof of each place's indigenous language."
+  },
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "missing_reference": 233,
+    "not_assigned_for_other_feature": 3,
+    "source_admin_code": 49329,
+    "source_country": 26
+  },
+  "postal_coverage": {
+    "note": "Only source post-tag values, if any; not joined by place name and not delivery validation.",
+    "postal_deliverability_verified": false,
+    "postal_validation": false,
+    "source_postal_value_rows": 1
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 26,
+      "sha256": "7c85a66438fbf06ab62399d79cfefa0fa8dab0e0ec9651754330582355257cea"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 3087236,
+    "discarded_feature_classes": {
+      "H": 25256,
+      "L": 4704,
+      "R": 8,
+      "S": 3231,
+      "T": 28715,
+      "V": 19
+    },
+    "retained_rows": 49591,
+    "retrieved_on": "2026-10-01",
+    "sha256": "9edb9fa3e9e3e59787bc1790fe1338d06f2ad99cd793c3d80a044ce0c0b603e9",
+    "source_rows": 111524,
+    "url": "https://download.geonames.org/export/dump/PE.zip"
+  },
+  "source_modified_max": "2026-09-21",
+  "source_modified_min": "1993-12-12"
+}

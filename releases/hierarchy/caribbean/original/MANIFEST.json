@@ -1,0 +1,1363 @@
+{
+  "package": "Veygrit_Caribbean_20261017",
+  "created_at": "2026-10-17T01:52:03.771387+00:00",
+  "scope": {
+    "sovereign_countries": 13,
+    "supplementary_areas": 15,
+    "all": 28
+  },
+  "source_snapshot": "2026-10-17",
+  "generated_database_included": false,
+  "files": [
+    {
+      "path": "COUNTRY_RESULTS_JA.md",
+      "bytes": 10722,
+      "sha256": "a84dda9d8c7b0db532c136e44aba9b8cfbdfa62dc6af262cd1c60b7dd5c60506"
+    },
+    {
+      "path": "LICENSE_DATA.md",
+      "bytes": 2363,
+      "sha256": "477bf21bca4645e10a9360b39f358e3b38f150770a33cdaf2ee9862584b58bfd"
+    },
+    {
+      "path": "POSTAL_REFERENCE_JA.md",
+      "bytes": 1366,
+      "sha256": "97bec0f7ade149452f7de4d2c309a712fa699dc1af40a70aa1bf82c3fb43ce16"
+    },
+    {
+      "path": "README_JA.md",
+      "bytes": 8728,
+      "sha256": "62c7e5d889ee7d55c5f7d0c1f80a60cd51ada7c703c6025d27139b81eca9e217"
+    },
+    {
+      "path": "REFERENCE_NOTES_JA.md",
+      "bytes": 5754,
+      "sha256": "3e6b9c1d582d8c25ba34004fded1e820a81c4a01551e7bbed459af02d5d02f49"
+    },
+    {
+      "path": "address-points/CARIBBEAN_ACQUISITION_REVIEW.json",
+      "bytes": 2709,
+      "sha256": "68573deac4aaa6a62963f4cf32316b5d5593ce37c6d88f2d3540c9ad22109142"
+    },
+    {
+      "path": "address-points/CARIBBEAN_ALL_LOOP.json",
+      "bytes": 62755,
+      "sha256": "e7429139b86b3381016595f9f22038410813e243ab3e5ab33da2921f23fdf4df"
+    },
+    {
+      "path": "address-points/CARIBBEAN_BUILD.json",
+      "bytes": 1945,
+      "sha256": "bc42b90eff264c3b9d97da98d4fbf486bc8fdaea1710513c89e87bb87ae75738"
+    },
+    {
+      "path": "address-points/CARIBBEAN_COUNTRIES_LOOP.json",
+      "bytes": 30946,
+      "sha256": "2ac1527365cb136586a2b49bd121eeaf81004fa1122c7a6a63fa98e976092a03"
+    },
+    {
+      "path": "address-points/CARIBBEAN_RULES.json",
+      "bytes": 19666,
+      "sha256": "18d923e4bcf236489ba33f5d1b9976cf10b72c6da3d7c2bd0d6ff33c8379cef2"
+    },
+    {
+      "path": "address-points/CARIBBEAN_SCOPE.json",
+      "bytes": 1181,
+      "sha256": "ba6baafe8e752b8f5fcc3220dc0f9f0ecd01c1b4b15a110fa2b138f9f9641d4d"
+    },
+    {
+      "path": "address-points/CARIBBEAN_SOURCES.json",
+      "bytes": 145078,
+      "sha256": "586abf6bec226d385cca026037c060a0ab1163890158a0d0c067c4513f1c36d9"
+    },
+    {
+      "path": "address-points/CARIBBEAN_TERRITORIES_LOOP.json",
+      "bytes": 32231,
+      "sha256": "07c8a63896d1f9b9a180cd31181786f8dc87c9ff0ec9d088c56f7ebdf84ef661"
+    },
+    {
+      "path": "address-points/CARIBBEAN_VALIDATION.json",
+      "bytes": 22239,
+      "sha256": "ac86d4d7007952239b6eed4809fcbd771c78f322ae05fb61f467c05b8d39096e"
+    },
+    {
+      "path": "address-points/adapters/caribbean.py",
+      "bytes": 39139,
+      "sha256": "7f77da889a0c4d72c3055765bb627fdbf1a26b8f33230397335349bd629b1e13"
+    },
+    {
+      "path": "address-points/adapters/caribbean_common.py",
+      "bytes": 9677,
+      "sha256": "8d10ae5b54a3187081ede2403600e48d0c5fa1db02d978899c9cb56a78a1e00e"
+    },
+    {
+      "path": "address-points/adapters/caribbean_fetch.py",
+      "bytes": 7358,
+      "sha256": "1f6f8242f1b4c96ac42de508c96edd6cac2c24741e759f58dc7f647fc08f2ee7"
+    },
+    {
+      "path": "address-points/adapters/caribbean_validate.py",
+      "bytes": 15266,
+      "sha256": "8c508f853d0107f3cac66d161c6fa5054c69fdddae79cd02f93905fef5a2fef0"
+    },
+    {
+      "path": "address-points/reports/countries/AG.json",
+      "bytes": 1461,
+      "sha256": "72d9c9ea8a8e39559a95482b753bd95aa67dd9834d4fdc94a4b2d6d55679e62b"
+    },
+    {
+      "path": "address-points/reports/countries/BB.json",
+      "bytes": 2766,
+      "sha256": "acd0357c8cb6949530bf59d8633baedb93406ae5137f138c9d3ceda065feabdb"
+    },
+    {
+      "path": "address-points/reports/countries/BS.json",
+      "bytes": 3338,
+      "sha256": "9bf84737f07010320f9e3dac9c472805dbc34b1e7d91d73409170dc49f99135e"
+    },
+    {
+      "path": "address-points/reports/countries/CU.json",
+      "bytes": 13521,
+      "sha256": "7d85de28c67dba3e73029231284db0fde17138068e231488f4220d4cf0d0e2be"
+    },
+    {
+      "path": "address-points/reports/countries/DM.json",
+      "bytes": 2957,
+      "sha256": "ecc117d1bfb918a5ae123eee3357caacbef0632c508696206fb91b2520bfec3d"
+    },
+    {
+      "path": "address-points/reports/countries/DO.json",
+      "bytes": 3142,
+      "sha256": "a982cc28239f774d66777e3c1db894a734ad32f2a1692f35d95943cf9711e99f"
+    },
+    {
+      "path": "address-points/reports/countries/GD.json",
+      "bytes": 2293,
+      "sha256": "5ddf0254a288f0a80b8c0b2378624816e644c2d508c92a0e67e33b3b837d3798"
+    },
+    {
+      "path": "address-points/reports/countries/HT.json",
+      "bytes": 8902,
+      "sha256": "f4df6250b49758be99657fd5222c3e01970f5f743c23e4ebcbb768a7daaffba9"
+    },
+    {
+      "path": "address-points/reports/countries/JM.json",
+      "bytes": 2458,
+      "sha256": "cbf4abeb854191861579475ded2f89acddc39fef17e0abe8663b0f1e24404460"
+    },
+    {
+      "path": "address-points/reports/countries/KN.json",
+      "bytes": 1902,
+      "sha256": "5bc0daafda507ea7b5a19d12199056b9f7e7a7fc5d48bcd67cfd64279819bd4e"
+    },
+    {
+      "path": "address-points/reports/countries/LC.json",
+      "bytes": 1830,
+      "sha256": "9b9ccc0d4c0620ae96903dae1bfffde30d3b1f4903425082426684424f67926a"
+    },
+    {
+      "path": "address-points/reports/countries/TT.json",
+      "bytes": 8765,
+      "sha256": "c30fc77c12f7ac63cc47bf0a8794a1c2931d814752bcee463be7ed7022329743"
+    },
+    {
+      "path": "address-points/reports/countries/VC.json",
+      "bytes": 5800,
+      "sha256": "b81e4213655ad183eb75dad31eed6874d5272d5334276ba05acddebb559ae3c0"
+    },
+    {
+      "path": "address-points/reports/supplementary/AI.json",
+      "bytes": 6962,
+      "sha256": "c2d1e378e6c1d41aebbeeba2156299c98a86d988fe348f7f47635a11ee37c2ec"
+    },
+    {
+      "path": "address-points/reports/supplementary/AW.json",
+      "bytes": 1420,
+      "sha256": "e484ac29f3e21218764ff94506ae63186e99d7899d3703043792d969e41de6a4"
+    },
+    {
+      "path": "address-points/reports/supplementary/BL.json",
+      "bytes": 1490,
+      "sha256": "d2e629621490ac088a01a9aade183e9d96401fbc8150f0f714cb5aae2d480098"
+    },
+    {
+      "path": "address-points/reports/supplementary/BQ.json",
+      "bytes": 2754,
+      "sha256": "9e659b633109961cafc4c270cfb30ea98bee8c97b890fb1969f999b528b1891e"
+    },
+    {
+      "path": "address-points/reports/supplementary/CW.json",
+      "bytes": 2013,
+      "sha256": "068edf7b5fe81bbbb53b6c6b3b0a65ef16dff50d4f8da412cd56efeaf72740d0"
+    },
+    {
+      "path": "address-points/reports/supplementary/GP.json",
+      "bytes": 208865,
+      "sha256": "c36b61338c5fe6cd48ecb032c9e3654e077c7a5cfc2d1a1c581204ba01a6251b"
+    },
+    {
+      "path": "address-points/reports/supplementary/KY.json",
+      "bytes": 13250,
+      "sha256": "5f84a9bbaeb83b364ab60d0c1df16ff2970a29c0b525ed37f74f71333f84f36c"
+    },
+    {
+      "path": "address-points/reports/supplementary/MF.json",
+      "bytes": 1477,
+      "sha256": "249f2216f29be736dc1580c076d50340e3db6fa84a8d3d0eb3ddae60cb182ae5"
+    },
+    {
+      "path": "address-points/reports/supplementary/MQ.json",
+      "bytes": 115285,
+      "sha256": "0996f1d8717d166f790f53e7193c9bf3bee19a984aa08b6b56160e1521b7452a"
+    },
+    {
+      "path": "address-points/reports/supplementary/MS.json",
+      "bytes": 2891,
+      "sha256": "5f00f96aa422b108759d65d4255c59bd3ba6a4128788bbbb7c90d6a4cc464329"
+    },
+    {
+      "path": "address-points/reports/supplementary/PR.json",
+      "bytes": 2223,
+      "sha256": "b28edf231e147b3e276dde014319aa1aa6e0ce00f7ff73934ffc5770420de939"
+    },
+    {
+      "path": "address-points/reports/supplementary/SX.json",
+      "bytes": 1495,
+      "sha256": "916ac50fc208debfe89b53fe9bef918117579503330cbbfec6473eadd27fcc9b"
+    },
+    {
+      "path": "address-points/reports/supplementary/TC.json",
+      "bytes": 1606,
+      "sha256": "b50b382d4b75a7fdaf570061f3db64530baa2001506469a2c0eff86df731a430"
+    },
+    {
+      "path": "address-points/reports/supplementary/VG.json",
+      "bytes": 1527,
+      "sha256": "3164228ec1ad9a0c4380d1196c1e9d70451542539e78058d81e7e3de8c8ce933"
+    },
+    {
+      "path": "address-points/reports/supplementary/VI.json",
+      "bytes": 1831,
+      "sha256": "a3ac19ea7680f91ca6293e95226174b8a3a63c505df29132ee78cda26317aaf5"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/AG/geonames.zip",
+      "bytes": 34507,
+      "sha256": "d2bb62dcb6f80af2282d254ac735706abe1ac2270192a60af558268a9b811768"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/AG/geonames.zip.receipt.json",
+      "bytes": 701,
+      "sha256": "09c424146505422764eee7b7dac40d5a393b96b3c5ef96cde0cf825247678832"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/AG/names.zip",
+      "bytes": 24468,
+      "sha256": "9bd059063aa1428e12ae624d05be5c97994eaefd28cfcde4ea1da0b986ae73c4"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/AG/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "90a43eebffe868f3f5d8336def83363b2387bfa32e024a385af36dbdfa5c861b"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/AI/geonames.zip",
+      "bytes": 16182,
+      "sha256": "ae1f60155217fe3290b546a0e5eac2031028c6a02819d3e4359b933ebfc66b21"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/AI/geonames.zip.receipt.json",
+      "bytes": 701,
+      "sha256": "ad00167521b1b116b4ac6149c6db5f9c84f71972f78359e9d4a3a5584ec7fad2"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/AI/names.zip",
+      "bytes": 13589,
+      "sha256": "b9119d0ce2d4c62aca512f4f4638aeee89dce46651383bcba8bb6eb962c3268b"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/AI/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "1868fe4f8322560717047f21884598eb04c1313e9b871ffc4b0d9b8448338936"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/AW/geonames.zip",
+      "bytes": 18293,
+      "sha256": "c3e2b499e4c9167c6027ef1663cbf6a9b988fd11ae466dd827e58a1fd47d0441"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/AW/geonames.zip.receipt.json",
+      "bytes": 701,
+      "sha256": "cef86c865ed2e8bc60f1b3e5e6e1e015f327ea41dc4b81cbc74896754e11fadd"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/AW/names.zip",
+      "bytes": 11112,
+      "sha256": "bce2aa6557b89fde1e48715e7ef17c98379f876beac965ab52fd4863f1c6d620"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/AW/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "c3d30c802dfc147b50d948dcb2f2df5633567d972a4904620eefbbd12093d79d"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BB/cod-ab-gazetteer.xlsx",
+      "bytes": 12315,
+      "sha256": "78952f5df0d908d923c097adf60a2920b10bc742dc72d31cd232b70fdde99a31"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BB/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 3128,
+      "sha256": "62b5fb29a95c317c7a23863c2cc74cc2e1012d5ee50793fed4f8effb5c4ad832"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BB/cod-ab-metadata.json",
+      "bytes": 24330,
+      "sha256": "aab13a473d56a11a3522690f675cbfc88176a668cc90cf1b767f88400b5a4aa5"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BB/cod-ab-metadata.json.receipt.json",
+      "bytes": 611,
+      "sha256": "0a8275f12501c06cb03385a38e519cc460ca04c88ca101d83340e56d4063e70e"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BB/geonames.zip",
+      "bytes": 40421,
+      "sha256": "70468310c33ac6cd3f7fa8e2945db481146ea723217d811fee874f9850feab0f"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BB/geonames.zip.receipt.json",
+      "bytes": 701,
+      "sha256": "c5daea998b449514effa48d39896e4e05caba6ca98d8ce7ed6f3671acd53cf9e"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BB/names.zip",
+      "bytes": 21700,
+      "sha256": "6ea68fc9c2d72f2be08445e732f812ced458f007bdd67e95dea05e817b135c25"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BB/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "a145854b0084f851228bd570a060427f4a5b13f35c4d38ccaf73055fdf7b9202"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BL/geonames.zip",
+      "bytes": 10803,
+      "sha256": "b5d0bd552fd0fec167eaa9c6a2347e70f55613e85e484e08eb78db0ec09e1648"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BL/geonames.zip.receipt.json",
+      "bytes": 701,
+      "sha256": "f750e7c05fce559b110279eeca65196950c7aa9b4a06fa5652967a6fa46b04d8"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BL/names.zip",
+      "bytes": 11280,
+      "sha256": "069792aa5dbddd2a4bd6cd2257c4a4b64577b90895422d053909ad93efd4ec92"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BL/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "8f6dce46a0f4c78cb8a24f98bcf1cf1294323481904a04c67ea77e16cbc40991"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BQ/cod-ab-adm1.zip",
+      "bytes": 19413,
+      "sha256": "96173d678b98aed190d84b3326d57ff74763830e8463d1caf0cceba0dd21ac6c"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BQ/cod-ab-adm1.zip.receipt.json",
+      "bytes": 3077,
+      "sha256": "279f937369ca272add1275145bdbfb9a7076cb418bb2dd3f27a857bc58ec3c46"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BQ/cod-ab-metadata.json",
+      "bytes": 21133,
+      "sha256": "e0921a049b9aa5b823703c76956546e2355d8621528b69e88d7e5a9ac89ec73c"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BQ/cod-ab-metadata.json.receipt.json",
+      "bytes": 635,
+      "sha256": "dcbb74ab18b62f74f120300ff4d7ffa6992d47af0e73bddb2459a0384655a3fc"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BQ/geonames.zip",
+      "bytes": 23927,
+      "sha256": "94b1e16dddc274301204c2b84e3411655ba22da46a576e30190c5dd9b8c09457"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BQ/geonames.zip.receipt.json",
+      "bytes": 701,
+      "sha256": "c98cc8d2cf8a3142bd08912a8f9ddda29fafc4c0e0f8cfab04631e48398b31a3"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BQ/names.zip",
+      "bytes": 15744,
+      "sha256": "ee3102aa88eb3bb78b511226c62e15a2fa565084a6d9707e6ea34f87fd94da11"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BQ/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "56570b2f402fb0922e3e9bc4b59840b0601b294048a3a6ed7635136c7e3b253a"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BS/cod-ab-adm1.zip",
+      "bytes": 1074253,
+      "sha256": "12f4caf6143c28371e21b85095658c80d518560f9526bbb8f2fdb0b48dcb84d7"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BS/cod-ab-adm1.zip.receipt.json",
+      "bytes": 2995,
+      "sha256": "7c5437f68d999cc01f95d15ab44cabd6a0f084303e4011c492f6aaa5d0e42bb5"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BS/cod-ab-metadata.json",
+      "bytes": 23021,
+      "sha256": "07b9b07e4fe25a1e422dfef97e69b2b1dcbff5d398f9ac0e44dea609d9955edc"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BS/cod-ab-metadata.json.receipt.json",
+      "bytes": 610,
+      "sha256": "d5dcf1d3fbab873d3d06fb6148576d7b023624c382063dbeafbef51c0761d73c"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BS/geonames.zip",
+      "bytes": 96352,
+      "sha256": "2092bb650853f673cecf4652c0810ae6f5e7af854012360026404a94073cc218"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BS/geonames.zip.receipt.json",
+      "bytes": 702,
+      "sha256": "ba0171059796bf8e5f6285d58198fd7fe1f3f596b793ddedb71b068df75ca983"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BS/names.zip",
+      "bytes": 66902,
+      "sha256": "d7e00ef190b41cee4174665482e973a82702bb51e0b53d5a969fa70134c9fe12"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/BS/names.zip.receipt.json",
+      "bytes": 723,
+      "sha256": "bfc61c824b6ff91fe16a050cf2e2b2f88e77561a27c06ee96a518e4db7a9cd49"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/COMMON/admin1CodesASCII.txt",
+      "bytes": 151583,
+      "sha256": "1da92a6323a5fec3176f3f743bf4cf4040fd56a876da55e46fbca23c863aa60a"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/COMMON/admin1CodesASCII.txt.receipt.json",
+      "bytes": 783,
+      "sha256": "b2225d306513f1593913f9755cf9413bdd2ecbd233cfd340dfaa92c4bbaf20c8"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/COMMON/admin2Codes.txt",
+      "bytes": 2366323,
+      "sha256": "985b37390cad51f51b03897e503748db5acddfd9442438532cfab1ac9fd1cbcd"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/COMMON/admin2Codes.txt.receipt.json",
+      "bytes": 760,
+      "sha256": "278280ca6c44b1e055103d27c7a4f4625cb78ee113b055fe49a98926b08480b0"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/COMMON/adminCode5.zip",
+      "bytes": 366714,
+      "sha256": "10a3365e2f409f81571fd5d51a57efce0ee8c832b74d3a041abdd8c3ae5626a1"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/COMMON/adminCode5.zip.receipt.json",
+      "bytes": 762,
+      "sha256": "e5de18c1edce8b9ead2215181e9119251adb71aff3af911c1d4c3cd8653a6039"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/COMMON/cog-2026.zip",
+      "bytes": 1961824,
+      "sha256": "5c037e2977c9d476cfe2e7b7f923bbe09a87cbe448c59e492a71ef6a917aa53f"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/COMMON/cog-2026.zip.receipt.json",
+      "bytes": 856,
+      "sha256": "a8924082ef4a3f9944df79708cf6385c644c1b47841f826775f23eb3e06fe37d"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/COMMON/countryInfo.txt",
+      "bytes": 31690,
+      "sha256": "c55f638cfaafb4fe45a9aa15120a0f1f78e8a34a8e1847d7b9320cf740fbc9ab"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/COMMON/countryInfo.txt.receipt.json",
+      "bytes": 757,
+      "sha256": "aa2e541fde3acaa9c955f704e12dc180e10ba9fc48aaffbb908e6fbf65cd560d"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/COMMON/readme.txt",
+      "bytes": 8843,
+      "sha256": "b1957379b6c1242c700c98ac9a8aa0a09f56c3c0a50ee72175527005f48ef2c5"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/COMMON/readme.txt.receipt.json",
+      "bytes": 731,
+      "sha256": "66ca93c6abfac5d9e142c6211ef58311623d02abbd0d9f88534fc2aca141744a"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/CU/cod-ab-gazetteer.xlsx",
+      "bytes": 78607,
+      "sha256": "e8d9a5f768e808993f176e765de99c3946fabcb0669ad4c2ca2acbd0f7ab8ed6"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/CU/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 4229,
+      "sha256": "4db50980279f903a07b60da0e90e3e529bfac6d6dcbf393e6bc4057e4d3ae4e6"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/CU/cod-ab-metadata.json",
+      "bytes": 27580,
+      "sha256": "a2845d7b5613be558a3a55304d9b1b6d723f7177e88e0bf8022abf0b4167f907"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/CU/cod-ab-metadata.json.receipt.json",
+      "bytes": 607,
+      "sha256": "8e1fa37a0193d8eae7c1e23583b8cc3fedac2632bcc6e633fe44fd20b32dd82a"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/CU/geonames.zip",
+      "bytes": 1171932,
+      "sha256": "e0001453bcc9b63fb36bd14340572ec8b9361150cd5d157d970c02898c824cab"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/CU/geonames.zip.receipt.json",
+      "bytes": 705,
+      "sha256": "d5ff7fa0915d477d038f00d019a22e0808e8fa06cbef5cece463795928bff26a"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/CU/names.zip",
+      "bytes": 423452,
+      "sha256": "e1421eba56c9f989c00776d41f4f69775fa00a6354f9933262936fa1a42ae6af"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/CU/names.zip.receipt.json",
+      "bytes": 724,
+      "sha256": "caae5ce959bcc0bf5a058bccc264456135c579069314111d10be822fcaafb5f4"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/CW/cod-ab-gazetteer.xlsx",
+      "bytes": 14238,
+      "sha256": "5f5a0a8ebe24c5b15d797d9809fc79e73c034b0e10f282397c363666717891f3"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/CW/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 3130,
+      "sha256": "ce1fd0be5fcdec21d83e30f3549c27903243ece7d043777ccd9b22b0baba1ff5"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/CW/cod-ab-metadata.json",
+      "bytes": 18154,
+      "sha256": "79088cc0b566ab6d27fcac35e2452a1b7a1df30a00099e223b431fd0286c41b4"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/CW/cod-ab-metadata.json.receipt.json",
+      "bytes": 611,
+      "sha256": "cab8affc3445bfb172b17c95ab75d29672ffe876726abfe81b12b417a0095b02"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/CW/geonames.zip",
+      "bytes": 18034,
+      "sha256": "208223c009a68593f2a9bc226946c0757460330bee0cdabc0de759603ab61191"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/CW/geonames.zip.receipt.json",
+      "bytes": 701,
+      "sha256": "c538017637732f5d58052cba5dcbc9c9a6635e2b83b99d970e5c7698d07897eb"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/CW/names.zip",
+      "bytes": 11392,
+      "sha256": "f8a04fba8d0cbfb715dfc9bd0347cf7c0f0530698f321a4c1c36946b52d744b1"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/CW/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "f6003cdc3511eff339fac24ea652087547785957d85abe931cb6899758016016"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/DM/cod-ab-adm1.zip",
+      "bytes": 98221,
+      "sha256": "300a0323e8daa41d2b186a8283c5000c44c31835c42880515af67f3676cd66f7"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/DM/cod-ab-adm1.zip.receipt.json",
+      "bytes": 2993,
+      "sha256": "ea79886e3b693b3ad69761bb44f5a4d3e553ed9d4fb6881fa178fd8f7756c70f"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/DM/cod-ab-metadata.json",
+      "bytes": 30799,
+      "sha256": "a712e30bd84d7b642193c3602fc1def3aff1b8ef5a51d7f7ee9d543cffa919cc"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/DM/cod-ab-metadata.json.receipt.json",
+      "bytes": 611,
+      "sha256": "1cc45758e32c43db117c338fcc56ef22c6d1dff401f6017373dd774f3c30e624"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/DM/geonames.zip",
+      "bytes": 26396,
+      "sha256": "379d7066458f7591ed5e459d567c9d8eeed01f1eb4edd9596a1abe11f9b782d4"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/DM/geonames.zip.receipt.json",
+      "bytes": 701,
+      "sha256": "26e601e5bc7f4a206a8e4c2add9cb576fd4b1d5f6361f285d19022cdccd839fb"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/DM/names.zip",
+      "bytes": 25672,
+      "sha256": "9f4899e2fa0b114bbfb457626fa07fb3fddd900ebce33ceaf39ec0243fd71e00"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/DM/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "14e8e227d00408e529390d0a8c83650c0de75b79ad1e50480034e0ba9cadcda0"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/DO/cod-ab-gazetteer.xlsx",
+      "bytes": 189873,
+      "sha256": "822b3f00f1e939c9df8350bc93c5ea6d37835c4a975d885cfeb5ff113c357f80"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/DO/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 6193,
+      "sha256": "e84c4fa889629a6a7285efb7032bb7fa0da25b0b95485c11b3c667804d28fc37"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/DO/cod-ab-metadata.json",
+      "bytes": 49996,
+      "sha256": "2fc47eb4d96bcd05ba2257c45f5a446354fe6c4f9ed04b3541ca63fc43ab8d32"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/DO/cod-ab-metadata.json.receipt.json",
+      "bytes": 621,
+      "sha256": "e78261244225a67cb5de4f3441d9bc0f79cd836cb2047382fc1b00b1b54685b6"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/DO/geonames.zip",
+      "bytes": 1068125,
+      "sha256": "fe0dbdd9ace6c3c72c6281866961cc8762b7056e9e7c62d7b35db8732746d741"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/DO/geonames.zip.receipt.json",
+      "bytes": 705,
+      "sha256": "cf2d77f296a6fa6ac1b3d42b05696b9aa8cc5fdc245b3e8e26caa9326d168ba2"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/DO/names.zip",
+      "bytes": 224866,
+      "sha256": "cfe7d3dcef9000347067f695f6cfd97a5589c8828aeb9e62b0ca5c3b4780401b"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/DO/names.zip.receipt.json",
+      "bytes": 724,
+      "sha256": "ef2596fe84dc496c6fda7c3255f9f817098dcac59dfbf229e22bdd26434ed768"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/GD/cod-ab-gazetteer.xlsx",
+      "bytes": 6492,
+      "sha256": "c4af26f43e7c2fd76cc7b7cff0b07e748b45b0a0644d1f79859a2278ac1ab9d1"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/GD/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 3350,
+      "sha256": "8aad06d72fbdccee7f7a9870aeae84134be3c262a0ad67d677aaded2f0791f73"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/GD/cod-ab-metadata.json",
+      "bytes": 15394,
+      "sha256": "ee28152f0689c45152d22e2fa4f87c987349ed47ea2e827c392e1579fbcfdecd"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/GD/cod-ab-metadata.json.receipt.json",
+      "bytes": 610,
+      "sha256": "da30f71f6bfb1a578c1270c4203860930610edf3b1cf89e5c6bd39d5b5f7ae8f"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/GD/geonames.zip",
+      "bytes": 31479,
+      "sha256": "0bc1bb6d9a4a900ebfe11a432c20931ebef737d8b8fdc58c41e5438f358ddfe5"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/GD/geonames.zip.receipt.json",
+      "bytes": 701,
+      "sha256": "c558ef741a4f3fb09138487f606328b4a8ce3981fc0f8bf81797efea8353538f"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/GD/names.zip",
+      "bytes": 21190,
+      "sha256": "28e052d0aa0bf533528aecebcda245940c40045a89c627fd56b38d37cd8bbba7"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/GD/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "56fd506a80568798754761fab82d28562cf0909cc074cd8100a7e4855c108873"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/GP/geonames.zip",
+      "bytes": 116156,
+      "sha256": "dc741d9cef96d218574b68fe29ace333312a9204ddc85459464e40fdacd000f7"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/GP/geonames.zip.receipt.json",
+      "bytes": 703,
+      "sha256": "419e1de2f0f889fe1fa550244f109ffc80c7cffe786e7a78c94d59754102fdd0"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/GP/names.zip",
+      "bytes": 62362,
+      "sha256": "3e6ca046aae66a859a667ea10d5857d5f505c50f314eabe56f0d31f14fa2894a"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/GP/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "595ea7c16c7f666f3e13296fa3ca2d420c2c9a77b518454c115f51062fb654c3"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/HT/cod-ab-gazetteer.xlsx",
+      "bytes": 268972,
+      "sha256": "1c861f1a04812cca763b75190e8650588d5b4acb92494ea0e8c0e18bce8bd7f4"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/HT/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 5266,
+      "sha256": "07f4fb0147cb6219e56104111e84130f7b1d5448bf6dbe8c5bbc3d37026ab9e4"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/HT/cod-ab-metadata.json",
+      "bytes": 45371,
+      "sha256": "8494d2acae88322a91e50923a9ba5369eaef907f34dde5ca4e99035eb8e50515"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/HT/cod-ab-metadata.json.receipt.json",
+      "bytes": 608,
+      "sha256": "c2a53e92a4f27a5feaf3641cd8ec856ff4a023f90c4d176a747ce5174c8c601f"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/HT/geonames.zip",
+      "bytes": 426217,
+      "sha256": "3e1fb262f92b1be4e6efcecf89d2b400f38c32ca767070cffaf45af73c4c3cdf"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/HT/geonames.zip.receipt.json",
+      "bytes": 703,
+      "sha256": "3f2f94a094d6151b28d047fca71723a95e48221c2f7b71bd125f411dfe691cbc"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/HT/names.zip",
+      "bytes": 146212,
+      "sha256": "b538b51688135af84d54c01024add700410342240bf45b47e2d12a7d56e28f7c"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/HT/names.zip.receipt.json",
+      "bytes": 724,
+      "sha256": "88d99906c5a7085cdca7fe688e0364cac6e05442be7918970fb256d6489bded5"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/JM/cod-ab-gazetteer.xlsx",
+      "bytes": 169787,
+      "sha256": "1b252cc3ab8e46a6dbf50e2c6ccf7d5db3aa68d8e8f4d52b5bbe6c75609b3655"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/JM/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 5138,
+      "sha256": "38210050b0f114843fe09267c00a07e2f7bc6255ce0bfec6469bb8868a505582"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/JM/cod-ab-metadata.json",
+      "bytes": 35451,
+      "sha256": "17ffbbe29c700e99eb4721cb4e75c3005b424128c9e0be3260150a221e752daf"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/JM/cod-ab-metadata.json.receipt.json",
+      "bytes": 610,
+      "sha256": "ef2b65a38b2fdc5c9a9de8451e0e8dcbfe55cecb56f16aa904c426cbaa48d4ce"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/JM/geonames.zip",
+      "bytes": 236672,
+      "sha256": "de6d08b59c7441a785ede5d683923cea6516c208d87e1b0c271916af188af883"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/JM/geonames.zip.receipt.json",
+      "bytes": 703,
+      "sha256": "5fd21513ab5d49c775be10f535a5cb47013d55a2cacc6307a12288e8fb9beb97"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/JM/names.zip",
+      "bytes": 100289,
+      "sha256": "a8e92a0021305f499b51f06f6e7d44fef37d76180d7105072d8f09f7831d7895"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/JM/names.zip.receipt.json",
+      "bytes": 724,
+      "sha256": "5f16e6649beb3310dc7939f0d494c4b4ad4edce2716d2de1e30609f786b500a7"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/KN/cod-ab-gazetteer.xlsx",
+      "bytes": 12485,
+      "sha256": "18149db0a882ad3446eb50afa313dd68f5c04d49e2c5b43284d316cfafb4f1be"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/KN/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 3024,
+      "sha256": "5e6634f812d874bf5bee2494b49af6eabb4319a322634cb231ca2c6b78ee75c7"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/KN/cod-ab-metadata.json",
+      "bytes": 15218,
+      "sha256": "4fe4cfa846fbb79a06f4b2a78e0f3b696fbc7ce80bfc688c731028c307a5ec41"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/KN/cod-ab-metadata.json.receipt.json",
+      "bytes": 624,
+      "sha256": "d5f7108c134ac9db1910849a106cd4ef13f58f30fd936fd073d7663e68bb1422"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/KN/geonames.zip",
+      "bytes": 28935,
+      "sha256": "03bd5ed09b1d5aa4e97852265ee96f76c898db24f5109d591a0a862539ed73b5"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/KN/geonames.zip.receipt.json",
+      "bytes": 701,
+      "sha256": "c8f1631773fe08732de715b2d7abc44004a15960e8cea7917745fc878ae171f7"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/KN/names.zip",
+      "bytes": 24381,
+      "sha256": "f13ce2a57ded063ed02fcf086c58d7454d98635e2c5de3f0e40a4870306b1778"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/KN/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "44da1054843c0e5bea58d0446d52c6536904d914d853bd5f0e52b96a04f5cfee"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/KY/cod-ab-gazetteer.xlsx",
+      "bytes": 11241,
+      "sha256": "2fbb342e42dc1f4d93aa8208b6c4792fc6e77d5d3e10cde3298bf575a81e14a3"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/KY/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 2983,
+      "sha256": "a75707a986685865f7c281b7e81d778b5af58c76635075601940fd20d1cc0ab1"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/KY/cod-ab-metadata.json",
+      "bytes": 10263,
+      "sha256": "cf4d5475f7ce6df6533bc50e5ed1d3152210e44695f66e35ac8ead73a81dcb97"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/KY/cod-ab-metadata.json.receipt.json",
+      "bytes": 617,
+      "sha256": "9591cf655097032a9fc606a00fea15b16acc725cc1c421c62c52587a89bc8875"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/KY/geonames.zip",
+      "bytes": 18935,
+      "sha256": "cee407ccefb17eca1349b71536b4e2896d7092a24d2d8f440b27c78fc8157c0f"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/KY/geonames.zip.receipt.json",
+      "bytes": 701,
+      "sha256": "b4fb0ce6dca95bb3740e3a3a335592e11cea5a36edd675928600b3d4c4a3e7d1"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/KY/names.zip",
+      "bytes": 12437,
+      "sha256": "d8cd319ef134092df0eb2ad7e9b4b98e9948308bf6dfb4db44e7f2155ac15fc0"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/KY/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "017e83325f92ea8cc92edb38c40ba8dd189242e4536110f2885d1cb4f14f9e44"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/LC/cod-ab-gazetteer.xlsx",
+      "bytes": 42194,
+      "sha256": "179449e42a5ff8188670b75fa1d6462d70247a970b9295db4b82eff77e41a2ca"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/LC/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 3620,
+      "sha256": "b513f56b6e4c990bdfdd7814e23c194e5e597955017523cf097ec1fa32f84e4e"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/LC/cod-ab-metadata.json",
+      "bytes": 14828,
+      "sha256": "0e5e5691b5cab2b807274142c9ee851629fc1927bbf9927e224b7ab30d4c6f6f"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/LC/cod-ab-metadata.json.receipt.json",
+      "bytes": 614,
+      "sha256": "62ee3f87935d90206efd41e02f67b43a289c603457aa9c6b7e11ebade6e93a36"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/LC/geonames.zip",
+      "bytes": 53682,
+      "sha256": "fb47891d8ed3f5296dec3321f55e010a7271913cb02971d4de8769dc300200a5"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/LC/geonames.zip.receipt.json",
+      "bytes": 701,
+      "sha256": "aeb1b7201ef3a8331fe3e82331319e8782397cd058d8227db70b7eefb1b1fc3c"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/LC/names.zip",
+      "bytes": 22550,
+      "sha256": "7153a0b4bbe2bc58bb4341b61ec528601bda9e6a3ad286f4f4bc626e57594f81"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/LC/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "4d8c7801870938452cec9f46f3c24e4e82d7981d1b29f92367f5fb0b8ae766e7"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/MF/geonames.zip",
+      "bytes": 13348,
+      "sha256": "2afee88b1a53180ff1cdc3b7cf1e32dcef726f3a0ca76fcabc7df4a4a74a44c9"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/MF/geonames.zip.receipt.json",
+      "bytes": 701,
+      "sha256": "75c6b3a4aac4a4633621f383cb65624e1833a29135cfb7fa753d7b79f7e7ad7e"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/MF/names.zip",
+      "bytes": 11559,
+      "sha256": "42ea539dd5e335dd713b83656eb6d72e44f2a84b15283df32a8079a0d6a7c3a2"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/MF/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "b4c904281cc3755ec874812b525ba59214b221d25f12c2edcef8eef462fa79b4"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/MQ/geonames.zip",
+      "bytes": 97869,
+      "sha256": "1efba6f80fc5f203c9eabc09538aefef6c82a5dda289e82c69d56f9d3361a40f"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/MQ/geonames.zip.receipt.json",
+      "bytes": 702,
+      "sha256": "cc598da3a30e0102ca4df213a50803f53bab03caeb36ef0d788d8f6c82c9262e"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/MQ/names.zip",
+      "bytes": 51027,
+      "sha256": "c5e1c8aff2c02c76afcf812e13b97abdf13f9edf3f16ab4c319099c954f6389e"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/MQ/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "f8326dba5580a57ec8e8f8fb1928513a0bff00ad49454b43eeeb8b478588a61d"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/MS/cod-ab-gazetteer.xlsx",
+      "bytes": 15835,
+      "sha256": "503eef63e49d116eca2b3bdca7ad9dd7e624ba369962dbffd1dff3f53ad3f227"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/MS/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 3049,
+      "sha256": "c04aa28836446ad630ea23e71657f5daa26366b30876199e938af4a1ece22ee1"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/MS/cod-ab-metadata.json",
+      "bytes": 23027,
+      "sha256": "0778115c14cca4a5ee819ceba85e3ad1635db939eb999990ae741a72fd7239b5"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/MS/cod-ab-metadata.json.receipt.json",
+      "bytes": 613,
+      "sha256": "97898b5abefd2bdfd2c2dab103dcbd9ea34dd191f9a4182c5af76399b42ea0f3"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/MS/geonames.zip",
+      "bytes": 14550,
+      "sha256": "12db688d93749f9c5e8e358550f8ad07ac741b010ad8711eed09669bfb424591"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/MS/geonames.zip.receipt.json",
+      "bytes": 701,
+      "sha256": "062b275fea8490ecc77934ab5589c4276c66f55289c4837d90e0c7dc7b5aafae"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/MS/names.zip",
+      "bytes": 9664,
+      "sha256": "54371a0771ba0ba44d0ea4e14daa3c81c4735cb4e7472ff2b9cbd6e946770b8f"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/MS/names.zip.receipt.json",
+      "bytes": 721,
+      "sha256": "5f16f7ae267dd9044d89986a6b8be2ea2c2ace95c5948902885b520d7448853c"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/PR/2026_Gaz_counties_national.zip",
+      "bytes": 139190,
+      "sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/PR/2026_Gaz_counties_national.zip.receipt.json",
+      "bytes": 936,
+      "sha256": "ab599e89283ce931b8a475ebca2546db247a9cd07a2d03743db0c6b79a3d094b"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/PR/2026_Gaz_cousubs_national.zip",
+      "bytes": 1476658,
+      "sha256": "9d528b39b70a27075c863b1572f27eadaf24484d5435fac17fc3b4cdd36434c2"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/PR/2026_Gaz_cousubs_national.zip.receipt.json",
+      "bytes": 931,
+      "sha256": "d42d3a0ec4f5591167d4474658058145888b83a9d508fb621ef8326f484e1403"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/PR/2026_Gaz_place_national.zip",
+      "bytes": 1214650,
+      "sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/PR/2026_Gaz_place_national.zip.receipt.json",
+      "bytes": 919,
+      "sha256": "b0133c8d1c23d637bdb99bef5874b26c398f775a36b7078fd82041f2c9687da3"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/PR/2026_Gaz_state_national.zip",
+      "bytes": 2865,
+      "sha256": "54352ca34f869b4deca03a65da72cccb8e9f0c2702340061949b63c76c63f852"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/PR/2026_Gaz_state_national.zip.receipt.json",
+      "bytes": 916,
+      "sha256": "d6fd7b3bac7b38e96d6bff41d98f65a50232a000f485e653a0c98f37c0beb161"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/PR/geonames.zip",
+      "bytes": 280474,
+      "sha256": "6a6f4baf6d985280f5645251761e5acfcbbbe7d7fdbcf1cc4997f0383649a749"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/PR/geonames.zip.receipt.json",
+      "bytes": 703,
+      "sha256": "b792152cfb6a9c87e59e1ad53ea6b4c065458df70105e35f017a26d0a805509f"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/PR/names.zip",
+      "bytes": 128233,
+      "sha256": "4becf6dd5537f70252c99fadfa008518d57ef286c7342522c8470163dc3cdcc2"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/PR/names.zip.receipt.json",
+      "bytes": 724,
+      "sha256": "82d62450853949225e9bbe4c137546a27bb97776a205652553a8aaaea2891533"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/SX/cod-ab-gazetteer.xlsx",
+      "bytes": 8205,
+      "sha256": "117ddbbe70b81336d3732baa7b5dfe611484d7672e57d2fd2a969311dc03eaad"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/SX/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 3421,
+      "sha256": "a4af6e1268622b5719049d50ed7198189a2e29580a80842146f5e403dcab8c5e"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/SX/cod-ab-metadata.json",
+      "bytes": 35179,
+      "sha256": "14be8cf4d1ae5b77128daca1848f8f10dfce62c8cf92ea45cc72396e07f36ff2"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/SX/cod-ab-metadata.json.receipt.json",
+      "bytes": 628,
+      "sha256": "5a732445d2a333f233ca209dfafbfd8fdb227d73ce98fb109519c391ffdff01f"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/SX/geonames.zip",
+      "bytes": 12831,
+      "sha256": "258f06d51b6a0b7001edcfb1a39ecc03e6b9506469730f25ab0c7ce3943e2514"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/SX/geonames.zip.receipt.json",
+      "bytes": 701,
+      "sha256": "9a62f56aaa8f21c8de1900a6ea2f482969554883d5d0f188b817e53220e2f764"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/SX/names.zip",
+      "bytes": 9556,
+      "sha256": "75098d0c78bb6826e74c3ea6a76f682963534ce554b7d47df8003972c852b498"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/SX/names.zip.receipt.json",
+      "bytes": 721,
+      "sha256": "8fc383048289775bb0ce438cdd95e032deaf6a4123de135e7cdf3b83161fccbc"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/TC/cod-ab-gazetteer.xlsx",
+      "bytes": 12300,
+      "sha256": "b6723693d9a9927189dcdf871134ffe99a1280b1f3f71da3d26eba4237915764"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/TC/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 3584,
+      "sha256": "59bb074a488165a5df18dbc6b0d7fe436030fb89e8e26974f3cfabe91533660c"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/TC/cod-ab-metadata.json",
+      "bytes": 17135,
+      "sha256": "e80c86cb3800f3bef558c5f4495c72d315a480980621b43a218f492736f391c9"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/TC/cod-ab-metadata.json.receipt.json",
+      "bytes": 627,
+      "sha256": "ffb47db33ffceb02e35963d2e2ce1eff878d143eaca462a1722d7f8fe7099d3f"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/TC/geonames.zip",
+      "bytes": 24347,
+      "sha256": "444b0b3e36750c0479d804f792398b351019b07bd1c89cc4f0ed168fc84bbec9"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/TC/geonames.zip.receipt.json",
+      "bytes": 701,
+      "sha256": "a74eb0a42f40e9b18fcdb741d3023f21391babde2106914c3014c9b688b6ccd8"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/TC/names.zip",
+      "bytes": 14500,
+      "sha256": "1000d177ac1b71a81ad57e3f29da96ac68abb0ff93373fe897e99ae42f0c3979"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/TC/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "0ce3039fa7e7c3c5a1166f4969ff81b2afd3d81c96ddbdc1f5d35356027f046f"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/TT/cod-ab-adm1.zip",
+      "bytes": 93384,
+      "sha256": "f2f6939a884ba743089b862ed7d92e9d41fde7b8c3fcdce69add51eefc1f1ca4"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/TT/cod-ab-adm1.zip.receipt.json",
+      "bytes": 3081,
+      "sha256": "d0b7d7dfe9b3a16d532aefe3ed5dbf6a50809a8806e7aa75188a4ce8cd892f53"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/TT/cod-ab-metadata.json",
+      "bytes": 37177,
+      "sha256": "0a6bb866ab5c6f2ed9d58d7b7aca73be32ef8ad80280b26edfadc2080e747a52"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/TT/cod-ab-metadata.json.receipt.json",
+      "bytes": 622,
+      "sha256": "557c4f486cd5a7949b1abc4ab209dea3fd0b2cae16effc101cb8b24b37cf8256"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/TT/geonames.zip",
+      "bytes": 68434,
+      "sha256": "6c4a5ff803c3742a7b9fd61c603f8b9fec1be67dd0d3eb457c3ac2c537652ea6"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/TT/geonames.zip.receipt.json",
+      "bytes": 702,
+      "sha256": "87dd3c5e375cdf6db0dc0541f961a56dfc835e71d39105007e427bfd9b8716a0"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/TT/names.zip",
+      "bytes": 42455,
+      "sha256": "36fa94f8d9aba189de82da2a1762ba7fe7859b3f36b7927a2272fd3c25a0b1c4"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/TT/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "5a73b01485bc8fc2d0c941369c73bcb30dc46d71d73b3f7264a7c945328dec92"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VC/cod-ab-gazetteer.xlsx",
+      "bytes": 6498,
+      "sha256": "ab566cb7c35d29d70c293957fa43a77f63a1f3424d2921b27179e9fb5ef16e3e"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VC/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 3329,
+      "sha256": "55827c710cec7c82d7e490b67bd34d65000bc7f0d8922d7e8b44d25e2cee109c"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VC/cod-ab-metadata.json",
+      "bytes": 25794,
+      "sha256": "7eb60d62b2659b41fea7535e558b0094b703178f88c2d32a3b451129fc98ab82"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VC/cod-ab-metadata.json.receipt.json",
+      "bytes": 635,
+      "sha256": "404c91b04031e178dce087d40c9d3502289e2617614a9eba8b0c9df9b8041d0a"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VC/geonames.zip",
+      "bytes": 31849,
+      "sha256": "c6be75042bcec7b17cbb99948a1f9eda0b2f5d607c835014dceae70e0b3687e3"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VC/geonames.zip.receipt.json",
+      "bytes": 701,
+      "sha256": "eea9221b8528c9cb9735bee74cddd69dbcfceb7a0a694d8f1cc64ab764659154"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VC/names.zip",
+      "bytes": 25850,
+      "sha256": "85d8debb1e4ecbff2cc77cd364fe2c3782ddf6be0a71c9e9571081ea4b213d01"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VC/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "be7e81d0c051bdf50de5932db5dded5a2cb486f1b5584ae9ab8afec3a3de81e2"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VG/cod-ab-gazetteer.xlsx",
+      "bytes": 12024,
+      "sha256": "c274bfa5fce0349c7bf2b7017b188a3c9fbd89644cc42a74866f63d74afaa21e"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VG/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 3033,
+      "sha256": "b7f1be8bfe8573c787772cb2f3792c8954744efe730eb227cf7644961ccce849"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VG/cod-ab-metadata.json",
+      "bytes": 17276,
+      "sha256": "fb0aa4953b2c9dc59c5181554d13bed62ea9ffcc26d39cf6effc591a4d1df480"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VG/cod-ab-metadata.json.receipt.json",
+      "bytes": 625,
+      "sha256": "1bb07bc31137666f93c4a056c3fefe9322574427c6c615986931111d12e42ce6"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VG/geonames.zip",
+      "bytes": 28419,
+      "sha256": "5e5d5de7edf67e980425cb12251833896e971eed8d2097d54f6e492ff12fb880"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VG/geonames.zip.receipt.json",
+      "bytes": 701,
+      "sha256": "f04b5dc8a8e2b632f743e1d762294d5db4a15fcba972d4afc4334443b5e0b5a0"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VG/names.zip",
+      "bytes": 19445,
+      "sha256": "aa48a52928143501cbd0a9a51a1eb2fb7bbbe833aabe6287837db3604b586b39"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VG/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "d73d97e1098de8a3b631eece8ff8bb9696955a393b7a1b65c637c4f14edc8cf2"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VI/cod-ab-boundaries.zip",
+      "bytes": 1856447,
+      "sha256": "fc02ee262d5eaa66d50b9b75235faf95df9432defcd023a8420e70fd0613f95a"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VI/cod-ab-boundaries.zip.receipt.json",
+      "bytes": 3550,
+      "sha256": "adc14b0159ce6d5d01bf80a671b7780bea97a7a45fe2c343cd9cf88ac4b574c4"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VI/cod-ab-metadata.json",
+      "bytes": 10383,
+      "sha256": "80b2edc9b9cfb1a21c38ad44a999f01f23de791e7d9d9464c8ce31cfb5fed693"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VI/cod-ab-metadata.json.receipt.json",
+      "bytes": 631,
+      "sha256": "28cc4896b03ba13e6c6e2a3342f08910d3c395db15213a8b4079d108c08ed888"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VI/geonames.zip",
+      "bytes": 72412,
+      "sha256": "65cc380eaa545f0f282e7fa8186964073680396b0564aa061e54b6185b8f7d92"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VI/geonames.zip.receipt.json",
+      "bytes": 702,
+      "sha256": "846eb1c3cd9f6e2e6caed3e1aa529a1a449ace70f2e950ccdf6e0ef892a7acd9"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VI/names.zip",
+      "bytes": 50357,
+      "sha256": "85cdf895744b9f09b22f380a0bc823c00d726075c79b5f5bdf0ff6d3fc0325ec"
+    },
+    {
+      "path": "address-points/sources/CARIBBEAN/VI/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "afb1dc01e6cea4f1bbc9a288c0431f0d7582ea74f0fcc4d34e4a4f49f28a6346"
+    },
+    {
+      "path": "examples/do_adm5_path.json",
+      "bytes": 51,
+      "sha256": "f96f2a52e9f26d8d645fcdf89bd6edecf41964f147ddc2cb63b751b82c57b2da"
+    },
+    {
+      "path": "examples/gp_basse_terre_path.json",
+      "bytes": 157,
+      "sha256": "a6d308672d069493b0e1682b4a5736ba1fef19e4dd0c65e5689f88bd5a208eb2"
+    },
+    {
+      "path": "examples/gp_wrong_arrondissement.json",
+      "bytes": 89,
+      "sha256": "76513441c595bc0027308be429ac7c08f08c1949482a1422540c2e88080ec156"
+    },
+    {
+      "path": "examples/mf_sx_wrong_cross_scope.json",
+      "bytes": 33,
+      "sha256": "4b01f2060222f3b9f93dc0cae62ee5a9e9cc8049ffee3a3dcb7125ab699572a8"
+    },
+    {
+      "path": "examples/pr_adjuntas_barrio_path.json",
+      "bytes": 141,
+      "sha256": "0aa290e0faf714a3840b271c8dc6ae623c80d28edc7b004656f9ab4a99e0c9fd"
+    },
+    {
+      "path": "tests/CLI_RESULTS.json",
+      "bytes": 3214,
+      "sha256": "b5ca301043a30ae42e0f2e28899be106e2883ef2d85b22673b8c6692f6c23eeb"
+    },
+    {
+      "path": "tests/RESULTS.txt",
+      "bytes": 7057,
+      "sha256": "a46bc2767c2398c733318654abb61babba34b3aa11eb1f64b4efe6a9f4a5eaf2"
+    },
+    {
+      "path": "tests/WORKBOOK_READBACK.json",
+      "bytes": 3869,
+      "sha256": "591fc0333a7c383b6d5bee6c2ab3d5053a712f01ae09f17d25509d897292d071"
+    },
+    {
+      "path": "tests/check_cli.py",
+      "bytes": 3691,
+      "sha256": "129bbacd74a3fd565b06fa395d621359de8bb4fd233f5e095d2c6a81d6895f4d"
+    },
+    {
+      "path": "tests/check_xlsx_readback.py",
+      "bytes": 1998,
+      "sha256": "1785caa1df37be71d5a3923cfbb1197fb8b69dc4ac8177850f95fdca69ba8b2e"
+    },
+    {
+      "path": "tests/requirements-optional.txt",
+      "bytes": 71,
+      "sha256": "228c9e98d0bc74c08d1a4fa4f2003851d808202ece149d584b3a2c6e3399af96"
+    },
+    {
+      "path": "tests/test_caribbean.py",
+      "bytes": 14845,
+      "sha256": "621a88d74382a44f227f43401c2fbd39ca7806bf73fc327edf460c4a71f515c6"
+    }
+  ]
+}

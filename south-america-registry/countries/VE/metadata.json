@@ -1,0 +1,124 @@
+{
+  "alternate_values_file": {
+    "bytes": 215917,
+    "filename": "alternate-values.csv.gz",
+    "rows": 13020,
+    "sha256": "5f21679dd486ed74e854eb378143584fc0fdf90d3e49dff4cb6cc6a87747c6a2",
+    "uncompressed_sha256": "abdbd431091171ed46c12a716c8780dfef5b02e27e2c7a6cd3a92df6741a2e96"
+  },
+  "alternate_values_source": {
+    "bytes": 369139,
+    "retained_rows": 13020,
+    "retrieved_on": "2026-10-01",
+    "sha256": "f1cb3f066b4a512e67b7cfded1b3fb35ae06f2afb0311c144bdc47677c3236d2",
+    "source_columns": 10,
+    "source_rows": 33823,
+    "url": "https://download.geonames.org/export/dump/alternatenames/VE.zip"
+  },
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "VEN",
+    "country": "VE",
+    "geonames_continent": "SA",
+    "geonames_id": "3625428",
+    "id": "country:VE",
+    "m49": "862",
+    "name_en": "Venezuela (Bolivarian Republic of)",
+    "region": "South America",
+    "region_m49": "005",
+    "source_country_languages": [
+      "es-VE"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 25524,
+    "admin_rows": 451,
+    "ambiguous_parents": 0,
+    "country": "VE",
+    "country_scope_only": 1,
+    "localities_without_adm1": 1,
+    "locality_rows": 25553,
+    "name_en": "Venezuela (Bolivarian Republic of)",
+    "other_admin_rows": 1,
+    "region": "South America",
+    "unresolved_parents": 6
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 25,
+    "ADM2": 335,
+    "ADM3": 91,
+    "PCLI": 1,
+    "PPL": 20323,
+    "PPLA": 23,
+    "PPLA2": 315,
+    "PPLA3": 47,
+    "PPLC": 1,
+    "PPLCH": 1,
+    "PPLF": 1,
+    "PPLH": 1,
+    "PPLL": 2619,
+    "PPLQ": 23,
+    "PPLW": 3,
+    "PPLX": 2196
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 852599,
+      "rows": 26005,
+      "sha256": "a44b529c33c29b55fe28d7a0579ebf481c47334d53a29739bf401ce94fc21923",
+      "uncompressed_sha256": "916f5ad989524a6213ccdbe47efc0209f2a678fdf1b824dc2c3382beb799e32c"
+    }
+  },
+  "known_issues": [],
+  "label_coverage": {
+    "current_country_language_name_entities": 3858,
+    "current_english_name_entities": 548,
+    "language_tagged_name_entities": 4265,
+    "missing_country_language_name_entities": 22147,
+    "missing_english_name_entities": 25457,
+    "native_label_rule": "Exact source language tag matched against countryInfo language list; no language is inferred from primary name, ASCII, spelling or script. Country-language match is not proof of each place's indigenous language."
+  },
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 1,
+    "missing_reference": 6,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 25972,
+    "source_country": 25
+  },
+  "postal_coverage": {
+    "note": "Only source post-tag values, if any; not joined by place name and not delivery validation.",
+    "postal_deliverability_verified": false,
+    "postal_validation": false,
+    "source_postal_value_rows": 0
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 25,
+      "sha256": "523882100988875624269dce39f02c857db5fe35ec430440f909bf15b7619f99"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 1824593,
+    "discarded_feature_classes": {
+      "H": 17772,
+      "L": 4600,
+      "R": 294,
+      "S": 12636,
+      "T": 9436,
+      "V": 314
+    },
+    "retained_rows": 26005,
+    "retrieved_on": "2026-10-01",
+    "sha256": "d74463f8f38262260ac2204207139737e9b628053961d7f11a4763fe801c81b8",
+    "source_rows": 71057,
+    "url": "https://download.geonames.org/export/dump/VE.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1993-12-23"
+}

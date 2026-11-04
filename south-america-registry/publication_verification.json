@@ -1,0 +1,39 @@
+{
+  "ar_py_fresh_rebuild": "all eight country files match exactly",
+  "ar_py_raw_source_replay": "exact",
+  "automatic_full_verify_reconstruction": "all sixteen countries passed",
+  "automatic_query_reconstruction": [
+    "AR Buenos Aires",
+    "PY Asunción",
+    "UY Montevideo",
+    "BR ADM1"
+  ],
+  "base_commit": "a7439bc1c89ad2ea1d2405031b7d33be667c3b2e",
+  "baseline_files_checked": 73,
+  "clean_publication_only_copy_tested": true,
+  "complete_gazetteer_pack": true,
+  "counts": {
+    "alternate_values": 339656,
+    "entities": 272379
+  },
+  "current_official_hierarchy_verified": false,
+  "existing_14_country_files_unchanged": true,
+  "full_integrity_and_derived_column_replay": "exact",
+  "full_municipality_coverage_verified": false,
+  "large_originals_absent_in_published_tree": true,
+  "m49_country_area_count": 16,
+  "max_part_bytes": 524288,
+  "part_count": 37,
+  "pending_country_codes": [],
+  "postal_deliverability_verified": false,
+  "published_country_area_count": 16,
+  "source_archive_replay_countries": [
+    "AR",
+    "PY"
+  ],
+  "source_archive_replay_limitation": "Other fourteen upstream ZIP pairs were not published by PR #9; their preserved entity-derived columns replay exactly and their recorded source hashes match the inventory.",
+  "split_file_count": 12,
+  "status": "passed",
+  "unit_regression_reconstruction_and_scope_tests": 33,
+  "validation_network_access_required": false
+}

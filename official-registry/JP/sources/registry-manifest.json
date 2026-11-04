@@ -1,0 +1,957 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-26",
+  "observed_at": "2026-09-25T15:57:41.207216+00:00",
+  "source_manifest": {
+    "scope": "japan_abr_pref_city_postal_v1",
+    "files": {
+      "abr-catalog.json": {
+        "url": "https://dataset.address-br.digital.go.jp/api/feed/dcat-us/1.1.json",
+        "sha256": "1257c4baf149868987a27e11dbf10980139938e96d085b5f8875933a8add3e76",
+        "bytes": 13077529,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mt_city_pref01.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref01.csv.zip",
+        "sha256": "805feafd4335b66af210a885c3ef82fcfb6ebc121391e77d0c21500005c4d8ef",
+        "bytes": 5760,
+        "last_modified": "Thu, 22 May 2025 09:19:08 GMT",
+        "etag": "\"cfd235d4e0c8ce842f96517ebbac5d5f\"",
+        "source_time": "2025-05-22T09:19:08+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=27e21fcf498c4270953c9e5e73803f53",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/27e21fcf498c4270953c9e5e73803f53",
+          "title": "北海道 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:19:08.000Z",
+          "modified": "2025-08-09T17:52:47.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref02.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref02.csv.zip",
+        "sha256": "d92c7715ebfc95327acd91b5dd7666628b0b237a87224086bef36212d685bfb5",
+        "bytes": 1570,
+        "last_modified": "Thu, 22 May 2025 09:19:49 GMT",
+        "etag": "\"5f0c338e533514e3ebdcc9c9566249be\"",
+        "source_time": "2025-05-22T09:19:49+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=a4864969aed04c348268316518912013",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/a4864969aed04c348268316518912013",
+          "title": "青森県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:19:49.000Z",
+          "modified": "2025-08-09T17:52:48.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref03.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref03.csv.zip",
+        "sha256": "9f99c73af3b3f884c8eddb8c904175b2c8be5e9784db66ac983b80fb25117e14",
+        "bytes": 1381,
+        "last_modified": "Thu, 22 May 2025 09:19:50 GMT",
+        "etag": "\"e7b7880321dc0c75330056bb3d66953a\"",
+        "source_time": "2025-05-22T09:19:50+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=c4b271e5d2b94c18aed0482ec0201ab1",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/c4b271e5d2b94c18aed0482ec0201ab1",
+          "title": "岩手県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:19:50.000Z",
+          "modified": "2025-08-09T18:08:41.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref04.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref04.csv.zip",
+        "sha256": "e5638577109045a012d04abc7d3058db3a6507487e9bfed3f2e6bfb8a3173ab9",
+        "bytes": 1536,
+        "last_modified": "Thu, 22 May 2025 09:19:58 GMT",
+        "etag": "\"95eeac161afc52b49a6b0d6be5be6383\"",
+        "source_time": "2025-05-22T09:19:58+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=349b472e80274cbb98a5aa890d76c977",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/349b472e80274cbb98a5aa890d76c977",
+          "title": "宮城県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:19:58.000Z",
+          "modified": "2025-08-09T18:08:43.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref05.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref05.csv.zip",
+        "sha256": "d4d480b9008c15022e4f91a961cde5ffcc599f51165033c6b028011beb565516",
+        "bytes": 1127,
+        "last_modified": "Thu, 22 May 2025 09:20:00 GMT",
+        "etag": "\"a030a9682062f32ecfa02ebc2cf19b15\"",
+        "source_time": "2025-05-22T09:20:00+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=0d3400bffbe34eeca369a7eb0205b0d2",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/0d3400bffbe34eeca369a7eb0205b0d2",
+          "title": "秋田県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:00.000Z",
+          "modified": "2025-08-09T18:08:44.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref06.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref06.csv.zip",
+        "sha256": "810976877b718c0d86247ab650452f33ab716331b19721ad31554f0f5166c276",
+        "bytes": 1345,
+        "last_modified": "Thu, 22 May 2025 09:20:01 GMT",
+        "etag": "\"f2041710007f63953c69be2b6f90d339\"",
+        "source_time": "2025-05-22T09:20:01+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=ddb3e5d63ee44f45b999cbbffe5fb657",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/ddb3e5d63ee44f45b999cbbffe5fb657",
+          "title": "山形県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:01.000Z",
+          "modified": "2025-08-09T18:08:45.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref07.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref07.csv.zip",
+        "sha256": "f7d74e4a8d7e1463ecd5bebe16c73427a53dc9fa6d52c1886560bb16165ae661",
+        "bytes": 2049,
+        "last_modified": "Thu, 22 May 2025 09:20:02 GMT",
+        "etag": "\"317042a31452883214bc8878a65db1bb\"",
+        "source_time": "2025-05-22T09:20:02+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=52e2844917884ebfa4f2ab3bdefc41ae",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/52e2844917884ebfa4f2ab3bdefc41ae",
+          "title": "福島県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:02.000Z",
+          "modified": "2025-08-09T18:08:46.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref08.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref08.csv.zip",
+        "sha256": "754cc0d9f5993c3d3ede834a94628c5b533104b68bfde88193bb3232afb86d6f",
+        "bytes": 1554,
+        "last_modified": "Thu, 22 May 2025 09:20:03 GMT",
+        "etag": "\"887c87d2c13306e75ab8995451283498\"",
+        "source_time": "2025-05-22T09:20:03+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=8a70c738f5e04d0c8fbdc7c8c4f7ca0d",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/8a70c738f5e04d0c8fbdc7c8c4f7ca0d",
+          "title": "茨城県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:03.000Z",
+          "modified": "2025-08-09T18:08:48.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref09.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref09.csv.zip",
+        "sha256": "6616def7237950509c0adbece3155a8388bc256b57213c6f933bfed26f8c3079",
+        "bytes": 1043,
+        "last_modified": "Thu, 22 May 2025 09:20:04 GMT",
+        "etag": "\"b4bd90aad7a4a7ff3519f8da8ee56f1e\"",
+        "source_time": "2025-05-22T09:20:04+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=1ef9340420f44691ba6eb24bc00a4c71",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/1ef9340420f44691ba6eb24bc00a4c71",
+          "title": "栃木県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:04.000Z",
+          "modified": "2025-08-09T18:08:49.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref10.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref10.csv.zip",
+        "sha256": "f6908abc9e0d7ed6365428e132d40a5443179c71919b2c7e55c47f0ce1a98113",
+        "bytes": 1389,
+        "last_modified": "Thu, 22 May 2025 09:20:05 GMT",
+        "etag": "\"490c3c0e74a0d40f6139794993bff35a\"",
+        "source_time": "2025-05-22T09:20:05+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=b691ae15e14d4f718610fd74dacb5c7f",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/b691ae15e14d4f718610fd74dacb5c7f",
+          "title": "群馬県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:05.000Z",
+          "modified": "2025-08-09T18:08:50.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref11.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref11.csv.zip",
+        "sha256": "4e82255cf4205141115900549ffe2cc6b0999a8230d560f9efea3599b3145746",
+        "bytes": 2211,
+        "last_modified": "Thu, 22 May 2025 09:20:14 GMT",
+        "etag": "\"80b2385ee6bf9ec9f546448031ce8b24\"",
+        "source_time": "2025-05-22T09:20:14+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=968310d4388546e18386dd26ac58ffb4",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/968310d4388546e18386dd26ac58ffb4",
+          "title": "埼玉県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:14.000Z",
+          "modified": "2025-08-09T18:08:51.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref12.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref12.csv.zip",
+        "sha256": "a63cbfc290fa7883ac57ddb5bf4fa2549bf4d92be29dc545a42dbdf967ab6ce8",
+        "bytes": 1894,
+        "last_modified": "Thu, 22 May 2025 09:20:15 GMT",
+        "etag": "\"333e001a779cdf31b46a897a0e5adfa7\"",
+        "source_time": "2025-05-22T09:20:15+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=a289e442c43444f98e1e4f7f1ec1861d",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/a289e442c43444f98e1e4f7f1ec1861d",
+          "title": "千葉県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:15.000Z",
+          "modified": "2025-08-09T18:08:53.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref13.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref13.csv.zip",
+        "sha256": "825215ffd1a9b8bda4c6e85b41434bba2442331f28611dcd4e8407175617338b",
+        "bytes": 1836,
+        "last_modified": "Thu, 22 May 2025 09:20:16 GMT",
+        "etag": "\"9eb71a85ebd5129398e8faf65d370f1d\"",
+        "source_time": "2025-05-22T09:20:16+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=34bf063606b347d88bb9b50e80741434",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/34bf063606b347d88bb9b50e80741434",
+          "title": "東京都 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:16.000Z",
+          "modified": "2025-08-09T18:08:54.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref14.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref14.csv.zip",
+        "sha256": "06ac18ec16a075ffa7cbbf787dd88a3085504bb297ba6f537b8c4b8e3dd85226",
+        "bytes": 1856,
+        "last_modified": "Thu, 22 May 2025 09:20:17 GMT",
+        "etag": "\"0f6e9f37074ebb48720b057e8d8024e5\"",
+        "source_time": "2025-05-22T09:20:17+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=751c575a55b940f39142f73c282e54f5",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/751c575a55b940f39142f73c282e54f5",
+          "title": "神奈川県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:17.000Z",
+          "modified": "2025-08-09T18:08:55.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref15.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref15.csv.zip",
+        "sha256": "e01a3e8ff153d1fbe1902aa9f88ce24ffa0646d97e58872bdd2f5a1a8ea8dfcb",
+        "bytes": 1433,
+        "last_modified": "Thu, 22 May 2025 09:20:18 GMT",
+        "etag": "\"8c25c2470b9e18de5f0f8340ac726b56\"",
+        "source_time": "2025-05-22T09:20:18+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=e429e4fac37b45d1a34f63ba2def8a5b",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/e429e4fac37b45d1a34f63ba2def8a5b",
+          "title": "新潟県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:18.000Z",
+          "modified": "2025-08-09T18:08:56.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref16.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref16.csv.zip",
+        "sha256": "13f15089546baa030c593c59468837ebfb8aa9c6e6dbe262bd43b7695637f54e",
+        "bytes": 772,
+        "last_modified": "Thu, 22 May 2025 09:20:40 GMT",
+        "etag": "\"5a6a99d59e880a35edda77b583ede2ce\"",
+        "source_time": "2025-05-22T09:20:40+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=8cbbf0a7d1d845219750fb572b4fb8b7",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/8cbbf0a7d1d845219750fb572b4fb8b7",
+          "title": "富山県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:40.000Z",
+          "modified": "2025-08-09T18:08:58.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref17.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref17.csv.zip",
+        "sha256": "f3cbd4f8b561f6800426683303fc5fe106193d270cfd63a3560f6dd1eb982567",
+        "bytes": 900,
+        "last_modified": "Thu, 22 May 2025 09:20:41 GMT",
+        "etag": "\"69005b206ada3593ee3361ec644ed61b\"",
+        "source_time": "2025-05-22T09:20:41+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=73de29306cca44a1a357c5c1791a73f6",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/73de29306cca44a1a357c5c1791a73f6",
+          "title": "石川県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:41.000Z",
+          "modified": "2025-08-09T18:08:59.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref18.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref18.csv.zip",
+        "sha256": "4f5bc3e5f0629b39a03349674fd00bca4a1b3855a17a20fa4fd5d2ca1f2c6241",
+        "bytes": 885,
+        "last_modified": "Thu, 22 May 2025 09:20:42 GMT",
+        "etag": "\"e5c2121dcc7ade5262489a100ff89317\"",
+        "source_time": "2025-05-22T09:20:42+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=6caa396f0ffd42299b111608b5ec0071",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/6caa396f0ffd42299b111608b5ec0071",
+          "title": "福井県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:42.000Z",
+          "modified": "2025-08-09T18:09:00.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref19.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref19.csv.zip",
+        "sha256": "567f8d0c9f15bd23d33882fc0f9c46ecfa9b590822213e42ce205b0bd96701ab",
+        "bytes": 1191,
+        "last_modified": "Thu, 22 May 2025 09:20:43 GMT",
+        "etag": "\"eee326871a4bf300f553a3d51115b78d\"",
+        "source_time": "2025-05-22T09:20:43+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=ea4034ce049549fa885bdb0fcd11bb41",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/ea4034ce049549fa885bdb0fcd11bb41",
+          "title": "山梨県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:43.000Z",
+          "modified": "2025-08-09T18:09:02.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref20.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref20.csv.zip",
+        "sha256": "0d77125170932fb94a373b6170840da0c18de44f9772e5ba83083a5a60194114",
+        "bytes": 2416,
+        "last_modified": "Thu, 22 May 2025 09:20:44 GMT",
+        "etag": "\"ff85a7fbbd35183dec646b1b7d66efc4\"",
+        "source_time": "2025-05-22T09:20:44+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=3dba67fc5d5f412cad5349bf6a7ba634",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/3dba67fc5d5f412cad5349bf6a7ba634",
+          "title": "長野県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:44.000Z",
+          "modified": "2025-08-09T18:09:03.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref21.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref21.csv.zip",
+        "sha256": "f1c22b0b5af3a2473ad7d4856295171d4492a54b0b183d6908d5dda7aa2066aa",
+        "bytes": 1447,
+        "last_modified": "Thu, 22 May 2025 09:20:53 GMT",
+        "etag": "\"32acc16414da5b277aa1169aac4c69ab\"",
+        "source_time": "2025-05-22T09:20:53+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=f00dcc1acdd94b2d8fa204e244c05ddc",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/f00dcc1acdd94b2d8fa204e244c05ddc",
+          "title": "岐阜県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:53.000Z",
+          "modified": "2025-08-09T18:09:04.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref22.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref22.csv.zip",
+        "sha256": "1d90c5cbff2db3a82c69b79299949be6da0c42dde3cff0a33651d4db9621ba6d",
+        "bytes": 1458,
+        "last_modified": "Thu, 22 May 2025 09:20:54 GMT",
+        "etag": "\"37eae9014a88d56787a5e2bf81b32b61\"",
+        "source_time": "2025-05-22T09:20:54+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=27e15e1c6b334bd39e59a75ee052fa6c",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/27e15e1c6b334bd39e59a75ee052fa6c",
+          "title": "静岡県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:54.000Z",
+          "modified": "2025-08-09T18:09:05.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref23.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref23.csv.zip",
+        "sha256": "17a9c1eb504d8f649aa65c8cb71d31da56c5fd37758762226ff6d86d7223fd0e",
+        "bytes": 2067,
+        "last_modified": "Thu, 22 May 2025 09:20:55 GMT",
+        "etag": "\"f2fd6bcdcccaac2b70bc534aa2a9a62d\"",
+        "source_time": "2025-05-22T09:20:55+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=6e2ce59fce444284ad1dc0aea1d36115",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/6e2ce59fce444284ad1dc0aea1d36115",
+          "title": "愛知県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:55.000Z",
+          "modified": "2025-08-09T18:09:07.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref24.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref24.csv.zip",
+        "sha256": "53c31383d1ea2d54ceb24a721b42c6f36f1883f9e828f7d08090dab76473fef2",
+        "bytes": 1126,
+        "last_modified": "Thu, 22 May 2025 09:20:56 GMT",
+        "etag": "\"651b3ad69e3f401f8ab38b2f978bcc64\"",
+        "source_time": "2025-05-22T09:20:56+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=91bb007ae2f24c418fb6e2d3c62351e2",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/91bb007ae2f24c418fb6e2d3c62351e2",
+          "title": "三重県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:56.000Z",
+          "modified": "2025-08-09T18:09:08.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref25.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref25.csv.zip",
+        "sha256": "f7a24743c9c6d2e67ef243a81903ae97c626f408a7c37826a1aed7ec2975ceb3",
+        "bytes": 882,
+        "last_modified": "Thu, 22 May 2025 09:20:57 GMT",
+        "etag": "\"85f0f164f21370b2eeb38e9964460404\"",
+        "source_time": "2025-05-22T09:20:57+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=eb6ba3e7846d4a9ca2caedaf1308f7e3",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/eb6ba3e7846d4a9ca2caedaf1308f7e3",
+          "title": "滋賀県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:20:57.000Z",
+          "modified": "2025-08-09T18:09:09.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref26.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref26.csv.zip",
+        "sha256": "a5aa7ca9dd0005f43f60094c4db9453d724313e14752b0356a58ebbe66a98c26",
+        "bytes": 1373,
+        "last_modified": "Thu, 22 May 2025 09:21:17 GMT",
+        "etag": "\"6cf63f3c37c45cd6e0d648dfe21ff62f\"",
+        "source_time": "2025-05-22T09:21:17+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=259f487d838a439c9d76dab30a935646",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/259f487d838a439c9d76dab30a935646",
+          "title": "京都府 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:21:17.000Z",
+          "modified": "2025-08-09T18:09:10.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref27.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref27.csv.zip",
+        "sha256": "f770d8f2f74ac526cd3a4f391c35dea1f5967c3139c790464bdd7fa40551888d",
+        "bytes": 2136,
+        "last_modified": "Thu, 22 May 2025 09:21:18 GMT",
+        "etag": "\"0e444790de71a4d76abcb85334186192\"",
+        "source_time": "2025-05-22T09:21:18+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=6b2418b739e74434875c1964cea966f8",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/6b2418b739e74434875c1964cea966f8",
+          "title": "大阪府 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:21:18.000Z",
+          "modified": "2025-08-09T18:09:12.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref28.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref28.csv.zip",
+        "sha256": "4adca390cde3059ccb0c7c1d09b5ced608d0bb24c046467e7f49cc499cb3f3f4",
+        "bytes": 1611,
+        "last_modified": "Thu, 22 May 2025 09:21:20 GMT",
+        "etag": "\"669f0b103b9c76bedb0c68633856649e\"",
+        "source_time": "2025-05-22T09:21:20+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=36bf2ef7c4d8455f913091a40b821b28",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/36bf2ef7c4d8455f913091a40b821b28",
+          "title": "兵庫県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:21:20.000Z",
+          "modified": "2025-08-09T18:09:13.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref29.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref29.csv.zip",
+        "sha256": "c229f005ac83578ea4fd66e3d728d1a807d9322d865c3ec9489a7d59c9d61e52",
+        "bytes": 1427,
+        "last_modified": "Thu, 22 May 2025 09:21:21 GMT",
+        "etag": "\"8a3ec7c71d27e862888523e0585de1a4\"",
+        "source_time": "2025-05-22T09:21:21+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=0d11f99e981a40bea0b4060e99d953f7",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/0d11f99e981a40bea0b4060e99d953f7",
+          "title": "奈良県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:21:21.000Z",
+          "modified": "2025-08-09T18:09:14.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref30.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref30.csv.zip",
+        "sha256": "dc376cc341fe7c8ce90d53d4c95991931b04847479686cc4dd27f863051cdeb1",
+        "bytes": 1218,
+        "last_modified": "Thu, 22 May 2025 09:21:22 GMT",
+        "etag": "\"14e13f5bd547f89b6850dd1519ebacb7\"",
+        "source_time": "2025-05-22T09:21:22+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=d1b7322cbbc54fe0af7d0ba4772f12e3",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/d1b7322cbbc54fe0af7d0ba4772f12e3",
+          "title": "和歌山県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:21:22.000Z",
+          "modified": "2025-08-09T18:09:16.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref31.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref31.csv.zip",
+        "sha256": "8e01663b78b4e6c229c46cf09fad78b3289f6b6830a177c91dd06f75583a33ea",
+        "bytes": 908,
+        "last_modified": "Thu, 22 May 2025 09:21:32 GMT",
+        "etag": "\"e47e09f0e3c01ee9249241a65ff4cb44\"",
+        "source_time": "2025-05-22T09:21:32+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=cea6556c6f894848ba303d46964538ac",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/cea6556c6f894848ba303d46964538ac",
+          "title": "鳥取県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:21:32.000Z",
+          "modified": "2025-08-09T18:09:17.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref32.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref32.csv.zip",
+        "sha256": "e90080c97d062e5078e2adadb162e379fc07a35a49868a959d61ba6d0dcff09d",
+        "bytes": 917,
+        "last_modified": "Thu, 22 May 2025 09:21:33 GMT",
+        "etag": "\"0dbae7dfe4bbe30c0974fb9f002c0342\"",
+        "source_time": "2025-05-22T09:21:33+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=8f012cfef0704091a72505e76b78275e",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/8f012cfef0704091a72505e76b78275e",
+          "title": "島根県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:21:33.000Z",
+          "modified": "2025-08-09T18:09:18.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref33.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref33.csv.zip",
+        "sha256": "9505dbfb73a0ebdb061ddf89e06fe31d0156a60c7541a3bbca27c30e12bb366a",
+        "bytes": 1274,
+        "last_modified": "Thu, 22 May 2025 09:21:34 GMT",
+        "etag": "\"9e6353686671e54c5d9caed41e5f00f2\"",
+        "source_time": "2025-05-22T09:21:34+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=a955746f83654eca894d18bdce89dace",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/a955746f83654eca894d18bdce89dace",
+          "title": "岡山県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:21:34.000Z",
+          "modified": "2025-08-09T18:09:19.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref34.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref34.csv.zip",
+        "sha256": "16d426e40a86d6cc66325956c47cc9da595f28dabcdeb2d5487fdd45ee3e2236",
+        "bytes": 1150,
+        "last_modified": "Thu, 22 May 2025 09:21:35 GMT",
+        "etag": "\"b104fb966730bd092145db44bca57e0c\"",
+        "source_time": "2025-05-22T09:21:35+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=3a4a138ae47344acbca396e801f4d3cb",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/3a4a138ae47344acbca396e801f4d3cb",
+          "title": "広島県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:21:35.000Z",
+          "modified": "2025-08-09T18:09:21.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref35.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref35.csv.zip",
+        "sha256": "06ac63452eccc504d380892b475ea3e486f0d0bdcc48ee64142d8b305669f7f2",
+        "bytes": 902,
+        "last_modified": "Thu, 22 May 2025 09:21:36 GMT",
+        "etag": "\"c213d44ded82cbf261a30e37cdcb5ccd\"",
+        "source_time": "2025-05-22T09:21:36+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=f5c7aa0a00b74042ae7dc6f0e95c403f",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/f5c7aa0a00b74042ae7dc6f0e95c403f",
+          "title": "山口県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:21:36.000Z",
+          "modified": "2025-08-09T18:09:22.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref36.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref36.csv.zip",
+        "sha256": "39877b815ce7d78aeeb77c8c1aa6f75e579b70bbf1e693fdb3ce545238e7dbb0",
+        "bytes": 1063,
+        "last_modified": "Thu, 22 May 2025 09:21:54 GMT",
+        "etag": "\"eca88ecc3995917de6e7f37c8525fde5\"",
+        "source_time": "2025-05-22T09:21:54+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=d1b2ab45a8b24b9099a4555cd94c5c90",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/d1b2ab45a8b24b9099a4555cd94c5c90",
+          "title": "徳島県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:21:54.000Z",
+          "modified": "2025-08-09T18:09:23.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref37.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref37.csv.zip",
+        "sha256": "6835d43b5d29c067d36df62912a39d5ac4330947c4eb1d88c089fad5d6f4b32e",
+        "bytes": 897,
+        "last_modified": "Thu, 22 May 2025 09:21:56 GMT",
+        "etag": "\"4bef3849db0c1c0697a996362339981a\"",
+        "source_time": "2025-05-22T09:21:56+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=5e67108d3af34d3487fea1583e004772",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/5e67108d3af34d3487fea1583e004772",
+          "title": "香川県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:21:56.000Z",
+          "modified": "2025-08-09T18:09:24.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref38.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref38.csv.zip",
+        "sha256": "08afd826615fb60a83d0d06a76ffea3284d7f136644b2961a5904af8ac58d8d6",
+        "bytes": 997,
+        "last_modified": "Thu, 22 May 2025 09:21:57 GMT",
+        "etag": "\"9eca7070e65fea533bb141744ef3d571\"",
+        "source_time": "2025-05-22T09:21:57+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=dd9505c29b44415c9af1c6e98009f9bd",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/dd9505c29b44415c9af1c6e98009f9bd",
+          "title": "愛媛県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:21:57.000Z",
+          "modified": "2025-08-09T18:09:26.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref39.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref39.csv.zip",
+        "sha256": "5f4eaaba38d2c70221d93877e4bf72b4218aa6a11cb2fb167c1c7939c19ed151",
+        "bytes": 1259,
+        "last_modified": "Thu, 22 May 2025 09:21:58 GMT",
+        "etag": "\"612798d64b0fe1d207748fc45dfad8d9\"",
+        "source_time": "2025-05-22T09:21:58+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=57570889eea9471eb229659200004a3a",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/57570889eea9471eb229659200004a3a",
+          "title": "高知県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:21:58.000Z",
+          "modified": "2025-08-09T18:09:27.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref40.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref40.csv.zip",
+        "sha256": "6a8fcb4adfbc8e68aa6e29aa55521ede5a6932f111a1b8bc96d86fa64d447c3c",
+        "bytes": 2233,
+        "last_modified": "Thu, 22 May 2025 09:21:59 GMT",
+        "etag": "\"69420367e353a53051eb6bf0e36ba03d\"",
+        "source_time": "2025-05-22T09:21:59+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=e90ef2e62ea2400388ee61b00ef0c6c6",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/e90ef2e62ea2400388ee61b00ef0c6c6",
+          "title": "福岡県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:21:59.000Z",
+          "modified": "2025-08-09T18:09:28.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref41.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref41.csv.zip",
+        "sha256": "cdcb14d0caba73268ef48a54a83ff29d51df893c60524338aeffd4746a16a33c",
+        "bytes": 944,
+        "last_modified": "Thu, 22 May 2025 09:22:09 GMT",
+        "etag": "\"28627a07eca7db1eb8b3d50843bc0634\"",
+        "source_time": "2025-05-22T09:22:09+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=4799f69c8c90405dacc6213062aed7c7",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/4799f69c8c90405dacc6213062aed7c7",
+          "title": "佐賀県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:22:09.000Z",
+          "modified": "2025-08-09T18:09:29.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref42.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref42.csv.zip",
+        "sha256": "7e08084836d80c403c5ca5a4e0bddfe6c82c3f37bd4188586cc6de361bbb0229",
+        "bytes": 962,
+        "last_modified": "Thu, 22 May 2025 09:22:10 GMT",
+        "etag": "\"1bbaeec2682fd2e7f244a62966da0f99\"",
+        "source_time": "2025-05-22T09:22:10+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=af40cf6dcc5a4aa1b8bba5790643e628",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/af40cf6dcc5a4aa1b8bba5790643e628",
+          "title": "長崎県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:22:10.000Z",
+          "modified": "2025-08-09T18:09:31.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref43.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref43.csv.zip",
+        "sha256": "bdad05b37b3ae98cc16f229ed4a4ec011dc6833c1db0be85146306ce9b0e0028",
+        "bytes": 1679,
+        "last_modified": "Thu, 22 May 2025 09:22:11 GMT",
+        "etag": "\"3eb5ba2b36aef9d3cb6dda74eb9bfe90\"",
+        "source_time": "2025-05-22T09:22:11+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=b6377e770d8b4d79905acdb8de88fadd",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/b6377e770d8b4d79905acdb8de88fadd",
+          "title": "熊本県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:22:11.000Z",
+          "modified": "2025-08-09T18:09:32.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref44.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref44.csv.zip",
+        "sha256": "4f6319cc6aed82f14784cf369b1ec24c06ad51c3d50150fc998297834ab83af3",
+        "bytes": 831,
+        "last_modified": "Thu, 22 May 2025 09:22:13 GMT",
+        "etag": "\"49da38a329a1bfb3dd4df81b74477760\"",
+        "source_time": "2025-05-22T09:22:13+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=9b2dc8427fe047cf9885ec1df0ed326b",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/9b2dc8427fe047cf9885ec1df0ed326b",
+          "title": "大分県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:22:13.000Z",
+          "modified": "2025-08-09T18:09:33.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref45.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref45.csv.zip",
+        "sha256": "fb9834c3b6c77bec9495c266c318be8d41decd70bd53bc907ffac7f6fb9cd847",
+        "bytes": 1148,
+        "last_modified": "Thu, 22 May 2025 09:22:14 GMT",
+        "etag": "\"a29a8b5c4a37384f0db9ea9b6a3e95e4\"",
+        "source_time": "2025-05-22T09:22:14+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=0984dce9a3fb4774baa08b63ac1f0f44",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/0984dce9a3fb4774baa08b63ac1f0f44",
+          "title": "宮崎県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:22:14.000Z",
+          "modified": "2025-08-09T18:09:34.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref46.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref46.csv.zip",
+        "sha256": "f0a677f3c6fe00e5cea2b8a45126f4ecce09f47acb8ed66ddf95c9e35c24382f",
+        "bytes": 1575,
+        "last_modified": "Thu, 22 May 2025 09:22:24 GMT",
+        "etag": "\"b60d7223ce324babf3c3ba45923caf66\"",
+        "source_time": "2025-05-22T09:22:24+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=f59b1a7ca1fa4060aaf1b903f287ee24",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/f59b1a7ca1fa4060aaf1b903f287ee24",
+          "title": "鹿児島県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:22:24.000Z",
+          "modified": "2025-08-09T18:09:36.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_city_pref47.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_city/pref/mt_city_pref47.csv.zip",
+        "sha256": "507d0ea3d53377e65af163e4fcb5f90229a0b2b47f89293f63c257b8675fcdc8",
+        "bytes": 1494,
+        "last_modified": "Thu, 22 May 2025 09:22:25 GMT",
+        "etag": "\"a378ad4e647add9fc3a75932b9626100\"",
+        "source_time": "2025-05-22T09:22:25+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=c69d406d63e54dc59b8633ee37fd5a1b",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/c69d406d63e54dc59b8633ee37fd5a1b",
+          "title": "沖縄県 市区町村マスター",
+          "description": "最終更新日: 2025-05-22T09:22:25.000Z",
+          "modified": "2025-08-09T18:09:37.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "mt_pref_all.csv.zip": {
+        "url": "https://data.address-br.digital.go.jp/mt_pref/mt_pref_all.csv.zip",
+        "sha256": "abbd87846872ce6688c569d9aa3378c4f66a0c2f0ef9b0ce83f1ff1d5349a69e",
+        "bytes": 1238,
+        "last_modified": "Tue, 12 Mar 2024 07:09:33 GMT",
+        "etag": "\"df73d2e758e92384860419c1ddb5914f\"",
+        "source_time": "2024-03-12T07:09:33+00:00",
+        "mode": "offline_rebuild",
+        "catalogue": {
+          "identifier": "https://www.arcgis.com/home/item.html?id=45bcb60e4dc747b58def5493ab829825",
+          "landingPage": "https://dataset.address-br.digital.go.jp/documents/45bcb60e4dc747b58def5493ab829825",
+          "title": "全国 都道府県マスター",
+          "description": "最終更新日: 2024-03-12T07:09:33.000Z",
+          "modified": "2025-08-09T17:52:43.000Z",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "japanpost.zip": {
+        "file": "japanpost.zip",
+        "url": "https://www.post.japanpost.jp/service/search/zipcode/download/utf/zip/utf_ken_all.zip",
+        "bytes": 2033269,
+        "sha256": "7d42728c4c9023e30668b1ef144fd5ffd831a417011c82d3e85ca3c35db43b15",
+        "last_modified": "Mon, 31 Aug 2026 07:59:02 GMT",
+        "etag": null,
+        "retrieved_at": "2026-09-25T02:35:47.768308+00:00",
+        "source_time": "2026-08-31T07:59:02+00:00",
+        "mode": "offline_rebuild"
+      },
+      "japanpost-roman.zip": {
+        "file": "japanpost-roman.zip",
+        "url": "https://www.post.japanpost.jp/service/search/zipcode/download/roman/KEN_ALL_ROME.zip",
+        "bytes": 1759193,
+        "sha256": "9764834dfd1d0148600c38b7fc4c00feae8443e81e68da3a49469447cd97707d",
+        "last_modified": "Sun, 11 Jan 2026 02:29:28 GMT",
+        "retrieved_at": "2026-09-25T02:40:00.670835+00:00",
+        "source_time": "2026-01-11T02:29:28+00:00",
+        "mode": "offline_rebuild"
+      },
+      "abr-terms.html": {
+        "url": "https://www.digital.go.jp/policies/base_registry_address_tos",
+        "sha256": "748e4676d2a7d9e8f721a6e7f85e5d8eeaa324c6ccb73404f357e25b74cfd049",
+        "bytes": 53570,
+        "last_modified": "Fri, 25 Sep 2026 15:50:52 GMT",
+        "etag": "\"1790351452\"",
+        "source_time": "2026-09-25T15:50:52+00:00",
+        "mode": "offline_rebuild"
+      }
+    },
+    "country_registry_sha256": "c91bc86d66e607d2e4b788904beb293a63caa2eafabbd0611cc59fd32a611952",
+    "policy": {
+      "version": 1,
+      "reviewed_on": "2026-09-26",
+      "scope": "ABR municipalities and designated-city wards cross-referenced to Japan Post; unlinked source rows retained separately",
+      "postal_name_variants": {
+        "13381": {
+          "abr": "三宅村",
+          "postal": "三宅島三宅村"
+        },
+        "13401": {
+          "abr": "八丈町",
+          "postal": "八丈島八丈町"
+        },
+        "40344": {
+          "abr": "糟屋郡須恵町",
+          "postal": "糟屋郡須惠町"
+        }
+      },
+      "evidence": [
+        "https://dataset.address-br.digital.go.jp/api/feed/dcat-us/1.1.json",
+        "https://www.post.japanpost.jp/service/search/zipcode/download/utf/zip/utf_ken_all.zip",
+        "https://www.j-lis.go.jp/spd/code-address/cms_1750514.html"
+      ],
+      "notes": [
+        "Names do not determine identity: variants are checked only after a valid official-code join.",
+        "ABR city and ward columns explicitly identify the hierarchy; a ward's city component must resolve uniquely within the same prefecture.",
+        "County names remain address components, not fabricated municipal governments.",
+        "ABR effective dates are preserved as source values, not independently certified foundation dates.",
+        "Source rows without postal-code identity matches or matched ward descendants remain in the unresolved source report; no territorial boundary or claim is changed."
+      ]
+    },
+    "adapter_version": 1,
+    "sha256": "4fab5e93515e9397d929aff33e3d2a2a43605424192dff4793ab34d0a0cee2c4"
+  },
+  "claims": {
+    "all_world_municipalities_complete": false,
+    "all_japanese_source_rows_in_default_candidates": false,
+    "postal_source_codes_joined": true,
+    "english_translations_complete": false,
+    "deliverability_verified": false
+  },
+  "sha256": {
+    "JP-01.json": "68ce2473d2031dad8c9240824594746e584b63888ef26a2a6fd855cb53c8f0ba",
+    "JP-02.json": "c6d4efbae76159edd2b436a2cf6856477250fd26972dbd5ae545451354b5d9d2",
+    "JP-03.json": "8824b94c76e1657b13b3229833a4264fb8dd3ec4b9b6f4abbfd9cabd32ee5034",
+    "JP-04.json": "c7987cbf4b0112f2a2f3b3ce7ca5b2f60c92b39e1c966984711d407547865dde",
+    "JP-05.json": "45644720ca7f0486ce128297ba2abbc03aae0709d5073940ada2bd8e7e2fe579",
+    "JP-06.json": "15afefb9929455e9d9d4d44b85b28faee23530afb1b8006292643ccaed4807bc",
+    "JP-07.json": "000fb0c85276904757c64ac4e90a5fc044a712678da3c9bfdbf33f069778d7e4",
+    "JP-08.json": "11a31938d830d77c00b0375dc90872c1c9f5623dde210be7bf1451c651e6980d",
+    "JP-09.json": "cf1170a33e6fe8d1e8083b176e23bded18b5724c90a4da61b7acbbd8e9dc3470",
+    "JP-10.json": "b46479e60c0feef07d21c0c421d83d9776952d63c5a91cffd01279e537fe6f99",
+    "JP-11.json": "aaf323d29c841b50d7842d84cd887390125728ceb4725191b99353e054f45935",
+    "JP-12.json": "422e67fe648c44005a670f8c61a6fdd84e48d96ea997bee13eba8484a67565b2",
+    "JP-13.json": "bc56614122cebb610592e2ec1bd5cccf68f231d8b3244e60f1fc12971abbd66f",
+    "JP-14.json": "7a4be6a3f3a7b45339efd113f8ce5aaf0e919c5c6d4368dfc5cedbad95f66941",
+    "JP-15.json": "1bf1ec1f61090a285134d83122592be74df0d7c8c91a67c11c02ef6d63ef8c6c",
+    "JP-16.json": "a88d93eecbcb09c046a038cd6dea398111cf98da63a541d465a106b6d44c800c",
+    "JP-17.json": "3658ef14ef0efaa2d1f899716323ca2215ae5d7b11aea4b15307ae391505dabb",
+    "JP-18.json": "72b646eb3a6b9c7a806890b0aa4b094646309b892363db096832994afeaf863e",
+    "JP-19.json": "d75bcdeb90c73614748b9b65b95942b772c7135e6d14311e1682d8f713b8adc0",
+    "JP-20.json": "a8c3935eba3fd1d44a2be088c1b09ff94e4a2c7d27451bd5cfa020641afaf750",
+    "JP-21.json": "19967d6b9dd79d89fe0aed904120ff69d2731c7ef9fb5a521c51bfca5b23cea1",
+    "JP-22.json": "6cfb43c623870d8f093c64f515cb3c6f26246d4caea686a3c9b91c6f94dbf6bc",
+    "JP-23.json": "4a3f22516284605ef8185970fcae64aa39b06fb9026698a28051b19c85efaa5b",
+    "JP-24.json": "70259bfa5f76a0ce565b084f4da910c636bf6b02754265a121bcc1587eae02a1",
+    "JP-25.json": "31815a5844e22d6f6a1d2111c096d5e7feb2d0eec4ea0e96ee42e4d38e320a79",
+    "JP-26.json": "ab8e914e4fdbcf5a8d97b16986614c0f6a57682ddce18f9fd1018c08b81c7b36",
+    "JP-27.json": "b25c794683b3b55b6912614fb9ddfdf07cfc88f0676498c74b71c3a0bf46c127",
+    "JP-28.json": "170ef1b841e6459c1e66a86281869d8bcde548b55cd84cb55ab7600d0f508660",
+    "JP-29.json": "7a46bb19609db464c9db9e777b49589d6b0c64e878c5dbf4c4598d9bb40b696a",
+    "JP-30.json": "2f142049858068b38d83271198b3a8db9b38b34e3d8e26c38c3cf2fb600e66fd",
+    "JP-31.json": "14af0c56d13532909f3db77da145fad1895f2546ca4eae0038b600c15e9a8cc4",
+    "JP-32.json": "12b60c2d1fb505c2c1b13a7f37898c92c2901aaca614dc8291bee89df554ea1a",
+    "JP-33.json": "434be7408027f880a07aeb3f48ec9a6564ddd53979e41f8a51255bb516cef2dd",
+    "JP-34.json": "4f747e80ced698c0465655c0d36cf0b509d30e1f6b4b945bb6ce38d38b8c890f",
+    "JP-35.json": "590263e55c3da8a63d15c0f2ded0c0dd4b492a9fba59157cf1603a18c28c7b4a",
+    "JP-36.json": "966f42ea6e17bc70d35f370a67e4321bc74f123dd01e4b62f35c36a6cc0ac2c5",
+    "JP-37.json": "736d2635e1ae81e4bde1e09c240afdd2aa0de4d40a4c28e3f000b8acee5012da",
+    "JP-38.json": "1defeb06276ec6a7ef910731708fe833a37490a713a14fe0e2ecaf4d16c1a5db",
+    "JP-39.json": "546c59df654d3275f85bfd4134e607697dbde81d554470d49f24d60a9c64850f",
+    "JP-40.json": "d0394406e785cc281bca6512a46bb586a4b82a4336fcae4b62d0645aaebbc2b3",
+    "JP-41.json": "a3ac4d867978cbb81e3f7a7e1ee718c2d6fb1849a2709a9d15432e7ebfc7de0b",
+    "JP-42.json": "19d8cf918eb0b84b3a7deba626d880a1cda331a4744b5f91936d8cf7641535d3",
+    "JP-43.json": "225fa63b26c6d1cc4984b4740d3ce96ab7c6cea3d2a8ba1fc0ca851c62fd132a",
+    "JP-44.json": "5743e4cae2f7f98fa77f04280bc270dba553e63c42fefd81990128925432277f",
+    "JP-45.json": "76c80dae3487095b6ae11742c6ce61984fedab2259a4770e4ffda8592db8a6a1",
+    "JP-46.json": "33caf9692b7d75bef94e0f5e801a867123e10a231c5e5ce0d2afa6f925172e5c",
+    "JP-47.json": "1b3c5c93f2b3cd56740b57945cc6c8815be6102217ce99f0f35ee73559623e24",
+    "index.json": "eec01ee50fde533f4ef97c1bc2d8192425565460dfc5f811fb622b845adad8f0",
+    "postal_crosswalk.csv": "ee348e8cc7c72e630c85244a46c86fb95bca74fecbb1970cc513c8e77db072c4",
+    "unresolved_source_rows.json": "7f59a7c2ef3085159bc4dd7938a7133421370cce2dc7c7f80a13da6106b1cbae"
+  }
+}

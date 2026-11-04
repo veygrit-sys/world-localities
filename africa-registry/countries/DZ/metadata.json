@@ -1,0 +1,95 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "DZA",
+    "country": "DZ",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Algeria",
+    "geonames_id": "2589581",
+    "id": "country:DZ",
+    "m49": "012",
+    "name_en": "Algeria",
+    "numeric": "012",
+    "region": "Northern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 8303,
+    "admin_rows": 2147,
+    "ambiguous_parents": 0,
+    "country": "DZ",
+    "country_scope_only": 5,
+    "localities_without_adm1": 5,
+    "locality_rows": 8333,
+    "name_en": "Algeria",
+    "other_admin_rows": 12,
+    "region": "Northern Africa",
+    "unresolved_parents": 64
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 58,
+    "ADM1H": 2,
+    "ADM2": 548,
+    "ADM3": 1541,
+    "ADM3H": 2,
+    "ADMD": 7,
+    "PCLI": 1,
+    "PPL": 7770,
+    "PPLA": 55,
+    "PPLA2": 2,
+    "PPLA4": 1,
+    "PPLC": 1,
+    "PPLCH": 1,
+    "PPLF": 7,
+    "PPLH": 8,
+    "PPLL": 308,
+    "PPLQ": 13,
+    "PPLS": 1,
+    "PPLX": 166
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 542189,
+      "rows": 10492,
+      "sha256": "152d52545a90a7f6e75c313d13c46b3726834c718fe368d703b3db11bc0c87a1",
+      "uncompressed_sha256": "67ae6f0e5b113a09bfc6b381c54e2ad2845eb66090283d59a53e3c60790da977"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 5,
+    "missing_reference": 64,
+    "not_assigned_for_other_feature": 12,
+    "source_admin_code": 10353,
+    "source_country": 58
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 58,
+      "sha256": "8c31b267c615d58d116ed4e650522d109843550b326f4491fe2872d448baf6d6"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 1779641,
+    "discarded_feature_classes": {
+      "H": 16511,
+      "L": 3244,
+      "R": 5,
+      "S": 8950,
+      "T": 16423,
+      "V": 391
+    },
+    "retained_rows": 10492,
+    "retrieved_on": "2026-09-26",
+    "sha256": "05238501f99ea8433edfb867ee169431a38cebccc111d943c96ebda07983ff31",
+    "source_rows": 56016,
+    "url": "https://download.geonames.org/export/dump/DZ.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "2024-08-05"
+}

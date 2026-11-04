@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-01",
+  "countries": {
+    "SV": {
+      "official_reference_counts": {
+        "ADM1": 14,
+        "ADM2": 44,
+        "ADM3": 262
+      },
+      "reference_vintage": "2023 restructuring law, municipal organization implemented in 2024",
+      "reference_url": "https://www.asamblea.gob.sv/node/12819",
+      "note": "Snapshot counts align with post-reform departments, municipalities and districts; counts alone do not verify names, boundaries, or every parent link."
+    }
+  }
+}

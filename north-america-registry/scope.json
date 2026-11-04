@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "statistical_region": "Northern America",
+  "region_m49": "021",
+  "parent_region_m49": "019",
+  "geographic_note": "M49 Northern America (021), not the larger M49 North America (003). Puerto Rico is part of Caribbean (029) in M49 even when retained in the US Census national snapshot.",
+  "source_url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+  "countries": [
+    {
+      "country": "BM",
+      "alpha3": "BMU",
+      "m49": "060",
+      "name_en": "Bermuda",
+      "status": "pending_locality_source"
+    },
+    {
+      "country": "CA",
+      "alpha3": "CAN",
+      "m49": "124",
+      "name_en": "Canada",
+      "status": "preserved_official_snapshot",
+      "source_index": "official-registry/CA/index.json"
+    },
+    {
+      "country": "GL",
+      "alpha3": "GRL",
+      "m49": "304",
+      "name_en": "Greenland",
+      "status": "pending_locality_source"
+    },
+    {
+      "country": "PM",
+      "alpha3": "SPM",
+      "m49": "666",
+      "name_en": "Saint Pierre and Miquelon",
+      "status": "pending_locality_source"
+    },
+    {
+      "country": "US",
+      "alpha3": "USA",
+      "m49": "840",
+      "name_en": "United States of America",
+      "status": "preserved_official_snapshot",
+      "source_index": "official-registry/US/index.json",
+      "excluded_state_codes_for_m49": [
+        "US-PR"
+      ]
+    }
+  ],
+  "coverage_claims": {
+    "all_localities_complete": false,
+    "country_roster_complete": true,
+    "postal_address_verification": false,
+    "street_and_house_number_verification": false,
+    "translation_complete": false,
+    "data_current_as_of_2026_10_15": false
+  },
+  "preservation_note": "US and CA snapshots are read without modifying their original CSV, index, manifest, source hashes or legal/source vintage."
+}

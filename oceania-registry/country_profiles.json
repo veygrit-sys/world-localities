@@ -1,0 +1,723 @@
+{
+  "AS": {
+    "fmt": "%N%n%O%n%A%n%C %S %Z",
+    "require": "ACSZ",
+    "upper": "ACNOS",
+    "zip": "(96799)(?:[ \\-](\\d{4}))?",
+    "country_code": "AS",
+    "country_name_en": "American Samoa",
+    "reported_local_languages": [
+      "en-AS",
+      "sm",
+      "to"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-AS"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/AS",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "AU": {
+    "fmt": "%O%n%N%n%A%n%C %S %Z",
+    "require": "ACSZ",
+    "upper": "CS",
+    "zip": "\\d{4}",
+    "country_code": "AU",
+    "country_name_en": "Australia",
+    "reported_local_languages": [
+      "en-AU"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-AU"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/AU",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "CC": {
+    "fmt": "%O%n%N%n%A%n%C %S %Z",
+    "require": "AC",
+    "upper": "CS",
+    "zip": "6799",
+    "country_code": "CC",
+    "country_name_en": "Cocos (Keeling) Islands",
+    "reported_local_languages": [
+      "ms-CC",
+      "en"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-CC"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [
+      "require"
+    ],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/CC",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "CK": {
+    "fmt": "%N%n%O%n%A%n%C",
+    "require": "AC",
+    "upper": "C",
+    "country_code": "CK",
+    "country_name_en": "Cook Islands",
+    "reported_local_languages": [
+      "en-CK",
+      "mi"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-CK"
+    },
+    "template_status": "generic_fallback",
+    "inherited_default_fields": [
+      "fmt",
+      "require",
+      "upper"
+    ],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/CK",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "CX": {
+    "fmt": "%O%n%N%n%A%n%C %S %Z",
+    "require": "AC",
+    "upper": "CS",
+    "zip": "6798",
+    "country_code": "CX",
+    "country_name_en": "Christmas Island",
+    "reported_local_languages": [
+      "en",
+      "zh",
+      "ms-CX"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-CX"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [
+      "require"
+    ],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/CX",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "FJ": {
+    "fmt": "%N%n%O%n%A%n%C",
+    "require": "AC",
+    "upper": "C",
+    "country_code": "FJ",
+    "country_name_en": "Fiji",
+    "reported_local_languages": [
+      "en-FJ",
+      "fj"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-FJ"
+    },
+    "template_status": "generic_fallback",
+    "inherited_default_fields": [
+      "fmt",
+      "require",
+      "upper"
+    ],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/FJ",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "FM": {
+    "fmt": "%N%n%O%n%A%n%C %S %Z",
+    "require": "ACSZ",
+    "upper": "ACNOS",
+    "zip": "(9694[1-4])(?:[ \\-](\\d{4}))?",
+    "country_code": "FM",
+    "country_name_en": "Micronesia (Federated States of)",
+    "reported_local_languages": [
+      "en-FM",
+      "chk",
+      "pon",
+      "yap",
+      "kos",
+      "uli",
+      "woe",
+      "nkr",
+      "kpg"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-FM"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/FM",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "GU": {
+    "fmt": "%N%n%O%n%A%n%C %Z",
+    "require": "ACZ",
+    "upper": "ACNO",
+    "zip": "(969(?:[12]\\d|3[12]))(?:[ \\-](\\d{4}))?",
+    "country_code": "GU",
+    "country_name_en": "Guam",
+    "reported_local_languages": [
+      "en-GU",
+      "ch-GU"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-GU"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/GU",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "HM": {
+    "fmt": "%O%n%N%n%A%n%C %S %Z",
+    "require": "AC",
+    "upper": "CS",
+    "zip": "\\d{4}",
+    "country_code": "HM",
+    "country_name_en": "Heard Island and McDonald Islands",
+    "reported_local_languages": [],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-HM"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [
+      "require"
+    ],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/HM",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "KI": {
+    "fmt": "%N%n%O%n%A%n%S%n%C",
+    "require": "AC",
+    "upper": "ACNOS",
+    "country_code": "KI",
+    "country_name_en": "Kiribati",
+    "reported_local_languages": [
+      "en-KI",
+      "gil"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-KI"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [
+      "require"
+    ],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/KI",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "MH": {
+    "fmt": "%N%n%O%n%A%n%C %S %Z",
+    "require": "ACSZ",
+    "upper": "ACNOS",
+    "zip": "(969[67]\\d)(?:[ \\-](\\d{4}))?",
+    "country_code": "MH",
+    "country_name_en": "Marshall Islands",
+    "reported_local_languages": [
+      "mh",
+      "en-MH"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-MH"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/MH",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "MP": {
+    "fmt": "%N%n%O%n%A%n%C %S %Z",
+    "require": "ACSZ",
+    "upper": "ACNOS",
+    "zip": "(9695[012])(?:[ \\-](\\d{4}))?",
+    "country_code": "MP",
+    "country_name_en": "Northern Mariana Islands",
+    "reported_local_languages": [
+      "fil",
+      "tl",
+      "zh",
+      "ch-MP",
+      "en-MP"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-MP"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/MP",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "NC": {
+    "fmt": "%O%n%N%n%A%n%Z %C %X",
+    "require": "ACZ",
+    "upper": "ACX",
+    "zip": "988\\d{2}",
+    "country_code": "NC",
+    "country_name_en": "New Caledonia",
+    "reported_local_languages": [
+      "fr-NC"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-NC"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/NC",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "NF": {
+    "fmt": "%O%n%N%n%A%n%C %S %Z",
+    "require": "AC",
+    "upper": "CS",
+    "zip": "2899",
+    "country_code": "NF",
+    "country_name_en": "Norfolk Island",
+    "reported_local_languages": [
+      "en-NF"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-NF"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [
+      "require"
+    ],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/NF",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "NR": {
+    "fmt": "%N%n%O%n%A%n%S",
+    "require": "AS",
+    "upper": "C",
+    "country_code": "NR",
+    "country_name_en": "Naoero",
+    "reported_local_languages": [
+      "na",
+      "en-NR"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-NR"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [
+      "upper"
+    ],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/NR",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "NU": {
+    "fmt": "%N%n%O%n%A%n%C",
+    "require": "AC",
+    "upper": "C",
+    "country_code": "NU",
+    "country_name_en": "Niue",
+    "reported_local_languages": [
+      "niu",
+      "en-NU"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-NU"
+    },
+    "template_status": "generic_fallback",
+    "inherited_default_fields": [
+      "fmt",
+      "require",
+      "upper"
+    ],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/NU",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "NZ": {
+    "fmt": "%N%n%O%n%A%n%D%n%C %Z",
+    "require": "ACDZ",
+    "upper": "C",
+    "zip": "\\d{4}",
+    "country_code": "NZ",
+    "country_name_en": "New Zealand",
+    "reported_local_languages": [
+      "en-NZ",
+      "mi"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-NZ"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [
+      "upper"
+    ],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/NZ",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "PF": {
+    "fmt": "%N%n%O%n%A%n%Z %C %S",
+    "require": "ACSZ",
+    "upper": "CS",
+    "zip": "987\\d{2}",
+    "country_code": "PF",
+    "country_name_en": "French Polynesia",
+    "reported_local_languages": [
+      "fr-PF",
+      "ty"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-PF"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/PF",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "PG": {
+    "fmt": "%N%n%O%n%A%n%C %Z %S",
+    "require": "ACS",
+    "upper": "C",
+    "zip": "\\d{3}",
+    "country_code": "PG",
+    "country_name_en": "Papua New Guinea",
+    "reported_local_languages": [
+      "en-PG",
+      "ho",
+      "meu",
+      "tpi"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-PG"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [
+      "upper"
+    ],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/PG",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "PN": {
+    "fmt": "%N%n%O%n%A%n%C%n%Z",
+    "require": "ACZ",
+    "upper": "CZ",
+    "zip": "PCRN 1ZZ",
+    "country_code": "PN",
+    "country_name_en": "Pitcairn",
+    "reported_local_languages": [
+      "en-PN"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-PN"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/PN",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "PW": {
+    "fmt": "%N%n%O%n%A%n%C %S %Z",
+    "require": "ACSZ",
+    "upper": "ACNOS",
+    "zip": "(969(?:39|40))(?:[ \\-](\\d{4}))?",
+    "country_code": "PW",
+    "country_name_en": "Palau",
+    "reported_local_languages": [
+      "pau",
+      "sov",
+      "en-PW",
+      "tox",
+      "ja",
+      "fil",
+      "zh"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-PW"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/PW",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "SB": {
+    "fmt": "%N%n%O%n%A%n%C",
+    "require": "AC",
+    "upper": "C",
+    "country_code": "SB",
+    "country_name_en": "Solomon Islands",
+    "reported_local_languages": [
+      "en-SB",
+      "tpi"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-SB"
+    },
+    "template_status": "generic_fallback",
+    "inherited_default_fields": [
+      "fmt",
+      "require",
+      "upper"
+    ],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/SB",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "TK": {
+    "fmt": "%N%n%O%n%A%n%C",
+    "require": "AC",
+    "upper": "C",
+    "country_code": "TK",
+    "country_name_en": "Tokelau",
+    "reported_local_languages": [
+      "tkl",
+      "en-TK"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-TK"
+    },
+    "template_status": "generic_fallback",
+    "inherited_default_fields": [
+      "fmt",
+      "require",
+      "upper"
+    ],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/TK",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "TO": {
+    "fmt": "%N%n%O%n%A%n%C",
+    "require": "AC",
+    "upper": "C",
+    "country_code": "TO",
+    "country_name_en": "Tonga",
+    "reported_local_languages": [
+      "to",
+      "en-TO"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-TO"
+    },
+    "template_status": "generic_fallback",
+    "inherited_default_fields": [
+      "fmt",
+      "require",
+      "upper"
+    ],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/TO",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "TV": {
+    "fmt": "%N%n%O%n%A%n%C%n%S",
+    "require": "AC",
+    "upper": "ACS",
+    "country_code": "TV",
+    "country_name_en": "Tuvalu",
+    "reported_local_languages": [
+      "tvl",
+      "en",
+      "sm",
+      "gil"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-TV"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [
+      "require"
+    ],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/TV",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "UM": {
+    "fmt": "%N%n%O%n%A%n%C %S %Z",
+    "require": "ACS",
+    "upper": "ACNOS",
+    "zip": "96898",
+    "country_code": "UM",
+    "country_name_en": "United States Minor Outlying Islands",
+    "reported_local_languages": [
+      "en-UM"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-UM"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/UM",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "VU": {
+    "fmt": "%N%n%O%n%A%n%C",
+    "require": "AC",
+    "upper": "C",
+    "country_code": "VU",
+    "country_name_en": "Vanuatu",
+    "reported_local_languages": [
+      "bi",
+      "en-VU",
+      "fr-VU"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-VU"
+    },
+    "template_status": "generic_fallback",
+    "inherited_default_fields": [
+      "fmt",
+      "require",
+      "upper"
+    ],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/VU",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "WF": {
+    "fmt": "%O%n%N%n%A%n%Z %C %X",
+    "require": "ACZ",
+    "upper": "ACX",
+    "zip": "986\\d{2}",
+    "country_code": "WF",
+    "country_name_en": "Wallis and Futuna Islands",
+    "reported_local_languages": [
+      "wls",
+      "fud",
+      "fr-WF"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-WF"
+    },
+    "template_status": "country_specific",
+    "inherited_default_fields": [],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/WF",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  },
+  "WS": {
+    "fmt": "%N%n%O%n%A%n%C",
+    "require": "AC",
+    "upper": "C",
+    "country_code": "WS",
+    "country_name_en": "Samoa",
+    "reported_local_languages": [
+      "sm",
+      "en-WS"
+    ],
+    "language_policy": "explicit_locale_required; no monolingual-country assumption",
+    "language_source": "GeoNames countryInfo; not exhaustive or official-language certification",
+    "modes": {
+      "local": "caller-supplied locale",
+      "international_english": "en",
+      "domestic_english": "en-WS"
+    },
+    "template_status": "generic_fallback",
+    "inherited_default_fields": [
+      "fmt",
+      "require",
+      "upper"
+    ],
+    "source": "https://chromium-i18n.appspot.com/ssl-address/data/WS",
+    "default_source": "https://chromium-i18n.appspot.com/ssl-address/data/ZZ"
+  }
+}

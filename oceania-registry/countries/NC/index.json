@@ -1,0 +1,68 @@
+{
+  "archive_bytes": 321970,
+  "archive_sha256": "09aa98a4bac5f4810b0180e9a3bcf8ae76e277bea2a668945542145e10166401",
+  "parts": [
+    {
+      "path": "countries/NC/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 429297,
+      "stored_sha256": "80202f335209289f3a9eb080ae28b77b2729b8de6049d56674a1ed17455e3ae7",
+      "bytes": 321970,
+      "sha256": "09aa98a4bac5f4810b0180e9a3bcf8ae76e277bea2a668945542145e10166401"
+    }
+  ],
+  "members": {
+    "base/data/melanesia/NC/index.json": {
+      "bytes": 3432,
+      "sha256": "ba571a747d8346fdae7147bb20f58979bcaf3682028a0131924fa74dd611aee9"
+    },
+    "base/data/melanesia/NC/places.csv": {
+      "bytes": 346232,
+      "sha256": "489a137405b42d5a5087f0683283a5c101dbed6f3d308bdb2456f918f35451fd"
+    },
+    "base/data/melanesia/NC/places.jsonl": {
+      "bytes": 799712,
+      "sha256": "2406bf1306ec896197048e0ab39d386cfa93ca85ce28062f70024211b866b9f1"
+    },
+    "base/sources/geonames/NC.zip": {
+      "bytes": 144407,
+      "sha256": "44b4cd75c5506d77ff1c5035f58d1869430d6488b55e5050a8709a3f68a81e62"
+    },
+    "base/sources/geonames/NC.zip.download.json": {
+      "bytes": 306,
+      "sha256": "9ebe9250ba331f1dec7bda8acd1c25f3612b140cd8a9f392da22e8905d9bf257"
+    },
+    "locale/names.csv": {
+      "bytes": 84689,
+      "sha256": "84931fc8315d98a5b018be37358b0471bca460c7c1a6c542b71ed78bfb59ac67"
+    },
+    "locale/names.jsonl": {
+      "bytes": 186912,
+      "sha256": "6f1fc2bd4a565738a2f0a27b666cc9712ecb5c39e9403d59b88581500c9c4571"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 6463,
+      "sha256": "d6ef25dc57b7030fa88227a53ec8833a26fa74c598edbe8b6644a261a21608e0"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 15121,
+      "sha256": "d92fb5c86b65a8c649acbf62a5931ca14523f6564ad993ee919fbc865dc5d38b"
+    },
+    "locale/sources/address-templates/NC.json": {
+      "bytes": 257,
+      "sha256": "5a407006fcca62b271baff8f0432d4efc7af3535cceea11d268e3066d95d02bb"
+    },
+    "locale/sources/address-templates/NC.json.download.json": {
+      "bytes": 271,
+      "sha256": "24907ab98fd08e45b554abcd3d517f2a557241aa0c1c24177cc103e33e2aeb10"
+    },
+    "locale/sources/alternatenames/NC.zip": {
+      "bytes": 66209,
+      "sha256": "1b1397cb3ad342e656eef22babeb97c6f06a0a75dc331851fbcdda1c9c86e501"
+    },
+    "locale/sources/alternatenames/NC.zip.download.json": {
+      "bytes": 283,
+      "sha256": "acd389e1975444c3af6aacf7d18f0774dec7145fa4ab45e768ace43a1890d87c"
+    }
+  }
+}

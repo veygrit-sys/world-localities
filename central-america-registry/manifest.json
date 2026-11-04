@@ -1,0 +1,45 @@
+{
+  "countries": [
+    {
+      "country": "BZ",
+      "metadata_sha256": "6b69946a2ae1626afdab796bebc0f9bbb0f1126f0e647d87e84a8b0b52578a3b"
+    },
+    {
+      "country": "GT",
+      "metadata_sha256": "b0b35f524bad93de7717344b7c811a6eef600a83d9641f4342adf3d3b47ec670"
+    },
+    {
+      "country": "HN",
+      "metadata_sha256": "4c3727660c4a15a43c3d340065aa2f295b8a6b150683943812a41960a91bbb6e"
+    },
+    {
+      "country": "NI",
+      "metadata_sha256": "33c479d9bdc8e7f1ef631dfb731f5551b620bf9da7b7b88ff6df3b385e1e7c6b"
+    },
+    {
+      "country": "PA",
+      "metadata_sha256": "f47cae3440bf3820d7815ef48bd002475c0cd58e16cc62c2371910436f386da5"
+    },
+    {
+      "country": "SV",
+      "metadata_sha256": "5ee815cadeb81e621d7f1a0235ccff6759028c04033136b03e05b15a4f213541"
+    }
+  ],
+  "coverage_sha256": "70ef5e6b64edb009e234013e3af29857a765d99dc6348563c36a5847a2b93477",
+  "license": "CC-BY-4.0",
+  "schema_version": 1,
+  "scope_count": 6,
+  "scope_sha256": "3eab50c8c04b5797d869435d01eb4836c2ce22b0eaabd0f98d03ce223cb30b99",
+  "scope_source": "https://unstats.un.org/unsd/methodology/m49/",
+  "source": "https://download.geonames.org/export/dump/",
+  "totals": {
+    "address_candidates": 51173,
+    "admin_rows": 1959,
+    "ambiguous_parents": 0,
+    "country_scope_only": 3,
+    "localities_without_adm1": 3,
+    "locality_rows": 51263,
+    "other_admin_rows": 35,
+    "unresolved_parents": 8
+  }
+}

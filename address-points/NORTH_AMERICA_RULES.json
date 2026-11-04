@@ -1,0 +1,47 @@
+{
+  "release_date": "2026-10-17",
+  "profiles": {
+    "US": {
+      "name_ja": "アメリカ合衆国",
+      "name_en": "United States",
+      "postcode_pattern": "[0-9]{5}(?:-[0-9]{4})?"
+    },
+    "CA": {
+      "name_ja": "カナダ",
+      "name_en": "Canada",
+      "postcode_pattern": "[ABCEGHJ-NPRSTVXY][0-9][ABCEGHJ-NPRSTV-Z] ?[0-9][ABCEGHJ-NPRSTV-Z][0-9]"
+    },
+    "MX": {
+      "name_ja": "メキシコ",
+      "name_en": "Mexico",
+      "postcode_pattern": "[0-9]{5}"
+    },
+    "BM": {
+      "name_ja": "バミューダ",
+      "name_en": "Bermuda",
+      "postcode_pattern": "[A-Z]{2} ?(?:[0-9]{2}|[A-Z]{2})"
+    },
+    "GL": {
+      "name_ja": "グリーンランド",
+      "name_en": "Greenland",
+      "postcode_pattern": "[0-9]{4}"
+    },
+    "PM": {
+      "name_ja": "サンピエール・ミクロン",
+      "name_en": "Saint Pierre and Miquelon",
+      "postcode_pattern": "97500"
+    }
+  },
+  "country_codes": [
+    "US",
+    "CA",
+    "MX"
+  ],
+  "supplementary_area_codes": [
+    "BM",
+    "GL",
+    "PM"
+  ],
+  "identity_policy": "Exact source code joins only; no name, coordinate or translated-name identity merge",
+  "address2_policy_ja": "このパックは番地より上の階層を主対象とする。Address2の名称で建物・部屋・番地を混同せず、house_numberとunitを別に保持する。"
+}

@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "region": "South-eastern Asia",
+  "reviewed_at": "2026-10-16",
+  "purpose": "Native-language and English address display profiles with explicit evidence status; not an address-existence or deliverability claim.",
+  "overrides": [
+    "BN",
+    "ID",
+    "KH",
+    "LA",
+    "MM",
+    "MY",
+    "PH",
+    "SG",
+    "TH",
+    "TL",
+    "VN"
+  ],
+  "countries": {
+    "BN": {
+      "native_languages": ["ms"],
+      "default_native_language": "ms",
+      "native_profile": "BN_ms",
+      "native_profiles": {"ms": "BN_ms"},
+      "english_profile": "BN_en",
+      "country_names": {
+        "ms": "Negara Brunei Darussalam",
+        "en": "Brunei Darussalam"
+      },
+      "romanization_policy": "Malay and English use Latin script, but an ms value is never relabelled as English; retain the postal authority or user-confirmed spelling.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "Postal Services Department, Brunei Darussalam",
+          "url": "https://www.post.gov.bn/Documents/Buku%20Poskod%20Edisi%20ke%202%20%28Kemaskini%2026122018%29.pdf",
+          "scope": "Official postcode book with address-writing example and district code structure"
+        }
+      ]
+    },
+    "KH": {
+      "native_languages": ["km"],
+      "default_native_language": "km",
+      "native_profile": "KH_km",
+      "native_profiles": {"km": "KH_km"},
+      "english_profile": "KH_en",
+      "country_names": {
+        "km": "ព្រះរាជាណាចក្រកម្ពុជា",
+        "en": "Cambodia"
+      },
+      "romanization_policy": "Require an authority-backed or user-confirmed Latin form for English output; Khmer text is not automatically transliterated.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {
+          "authority": "Cambodia Post",
+          "url": "https://www.cambodiapost.com.kh/home",
+          "scope": "Designated-operator Khmer address example and current six-digit postcode usage"
+        },
+        {
+          "authority": "Universal Postal Union",
+          "url": "https://www.upu.int/en/postal-solutions/programmes-services/addressing-solutions?cid=59&csid=20",
+          "scope": "Cambodia designated operator and international addressing reference"
+        }
+      ]
+    },
+    "ID": {
+      "native_languages": ["id"],
+      "default_native_language": "id",
+      "native_profile": "ID_id",
+      "native_profiles": {"id": "ID_id"},
+      "english_profile": "ID_en",
+      "country_names": {
+        "id": "Indonesia",
+        "en": "Indonesia"
+      },
+      "romanization_policy": "Indonesian and English use Latin script, but language labels remain distinct; keep official locality spellings and never infer translation from script alone.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {
+          "authority": "Pos Indonesia",
+          "url": "https://booking.posindonesia.co.id/",
+          "scope": "Official consignment fields for address, province, city or regency, district and postcode"
+        },
+        {
+          "authority": "Pos Indonesia",
+          "url": "https://kodepos.posindonesia.co.id/",
+          "scope": "Official postcode and administrative-locality lookup"
+        }
+      ]
+    },
+    "LA": {
+      "native_languages": ["lo"],
+      "default_native_language": "lo",
+      "native_profile": "LA_lo",
+      "native_profiles": {"lo": "LA_lo"},
+      "english_profile": "LA_en",
+      "country_names": {
+        "lo": "ສປປ ລາວ",
+        "en": "Lao People's Democratic Republic"
+      },
+      "romanization_policy": "Require a postal-authority or user-confirmed Latin form for English output; do not treat automatic Lao transliteration as verified.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {
+          "authority": "Lao Post",
+          "url": "https://laopost.com.la/about/postcode",
+          "scope": "Official Lao-script headquarters address and postcode service"
+        }
+      ]
+    },
+    "MY": {
+      "native_languages": ["ms"],
+      "default_native_language": "ms",
+      "native_profile": "MY_ms",
+      "native_profiles": {"ms": "MY_ms"},
+      "english_profile": "MY_en",
+      "country_names": {
+        "ms": "Malaysia",
+        "en": "Malaysia"
+      },
+      "romanization_policy": "Malay and English use Latin script; preserve explicit language labels and official city, state and postcode spellings instead of assuming equivalence.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {
+          "authority": "Pos Malaysia",
+          "url": "https://m2dc.pos.com.my/",
+          "scope": "Official consignment fields for recipient address, postcode, city and state"
+        },
+        {
+          "authority": "Government of Malaysia",
+          "url": "https://data.gov.my/ms-MY/data-catalogue/poskod",
+          "scope": "Official postcode-to-city-and-state dataset and update policy"
+        }
+      ]
+    },
+    "MM": {
+      "native_languages": ["my"],
+      "default_native_language": "my",
+      "native_profile": "MM_my",
+      "native_profiles": {"my": "MM_my"},
+      "english_profile": "MM_en",
+      "country_names": {
+        "my": "မြန်မာ",
+        "en": "Myanmar"
+      },
+      "romanization_policy": "Accept only an authority-backed or user-confirmed English form; automatic Burmese romanization is not address verification.",
+      "evidence_status": "provisional",
+      "sources": [
+        {
+          "authority": "Myanmar Post",
+          "url": "https://myanmarpost.com.mm/",
+          "scope": "Designated-operator post office and postcode services; no complete current bilingual public template was found"
+        },
+        {
+          "authority": "Universal Postal Union",
+          "url": "https://www.upu.int/en/postal-solutions/programmes-services/addressing-solutions",
+          "scope": "International address-component and country-template framework"
+        }
+      ]
+    },
+    "PH": {
+      "native_languages": ["fil"],
+      "default_native_language": "fil",
+      "native_profile": "PH_fil",
+      "native_profiles": {"fil": "PH_fil"},
+      "english_profile": "PH_en",
+      "country_names": {
+        "fil": "Pilipinas",
+        "en": "Philippines"
+      },
+      "romanization_policy": "Filipino and English use Latin script, so explicit language tags and an official or user-confirmed spelling are required; script alone cannot establish translation.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {
+          "authority": "PHLPost",
+          "url": "https://phlpost.gov.ph/post-office-locator/",
+          "scope": "Official post-office address examples using barangay or locality, city and postcode"
+        },
+        {
+          "authority": "PHLPost",
+          "url": "https://phlpost.gov.ph/wp-content/uploads/2025/08/FINAL-revised-Annual-Report-CY-2024_compressed.pdf",
+          "scope": "Official status of the planned seven-character ZIP Code PH transition"
+        }
+      ]
+    },
+    "SG": {
+      "native_languages": ["ms", "zh-Hans", "ta"],
+      "default_native_language": "ms",
+      "native_profile": "SG_ms",
+      "native_profiles": {
+        "ms": "SG_ms",
+        "zh-Hans": "SG_zh",
+        "ta": "SG_ta"
+      },
+      "english_profile": "SG_en",
+      "country_names": {
+        "ms": "Singapura",
+        "zh-Hans": "新加坡",
+        "ta": "சிங்கப்பூர்",
+        "en": "Singapore"
+      },
+      "romanization_policy": "Use SingPost or another authority's English address, or a user-confirmed English form. Malay, Chinese and Tamil values never silently populate English.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "Singapore Post",
+          "url": "https://www.singpost.com/sites/default/files/2022-10/Mail%20Quality%20Guide%20v201106.pdf",
+          "scope": "Official mail-quality guide with accepted address blocks, unit placement and six-digit postcode line"
+        }
+      ]
+    },
+    "TH": {
+      "native_languages": ["th"],
+      "default_native_language": "th",
+      "native_profile": "TH_th",
+      "native_profiles": {"th": "TH_th"},
+      "english_profile": "TH_en",
+      "country_names": {
+        "th": "ประเทศไทย",
+        "en": "Thailand"
+      },
+      "romanization_policy": "Use the postal-authority spelling or a user-confirmed Latin form; automatic Thai romanization does not prove the English address.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "Thailand Post",
+          "url": "https://www.thailandpost.co.th/un/article_detail/article/11/10688",
+          "scope": "Official required address elements and instruction to put the postcode on the last domestic address line"
+        },
+        {
+          "authority": "Universal Postal Union",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/thaEn.pdf",
+          "scope": "Thailand address hierarchy and English-form examples supplied for international addressing"
+        }
+      ]
+    },
+    "TL": {
+      "native_languages": ["tet", "pt"],
+      "default_native_language": "tet",
+      "native_profile": "TL_tet",
+      "native_profiles": {
+        "tet": "TL_tet",
+        "pt": "TL_pt"
+      },
+      "english_profile": "TL_en",
+      "country_names": {
+        "tet": "Timor-Leste",
+        "pt": "Timor-Leste",
+        "en": "Timor-Leste"
+      },
+      "romanization_policy": "Tetum, Portuguese and English values remain separately labelled even where spellings match; retain the authority or user-confirmed form.",
+      "evidence_status": "provisional",
+      "sources": [
+        {
+          "authority": "Correios de Timor-Leste",
+          "url": "https://correios.gov.tl/",
+          "scope": "Official operator address example; no complete public nationwide bilingual template was found"
+        },
+        {
+          "authority": "Universal Postal Union",
+          "url": "https://www.upu.int/en/postal-solutions/programmes-services/addressing-solutions",
+          "scope": "International address-component and country-template framework"
+        }
+      ]
+    },
+    "VN": {
+      "native_languages": ["vi"],
+      "default_native_language": "vi",
+      "native_profile": "VN_vi",
+      "native_profiles": {"vi": "VN_vi"},
+      "english_profile": "VN_en",
+      "country_names": {
+        "vi": "Việt Nam",
+        "en": "Viet Nam"
+      },
+      "romanization_policy": "Vietnamese and English are both Latin-script but not interchangeable; use the official locality alias or an explicit user-confirmed English value.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {
+          "authority": "Vietnam Post",
+          "url": "https://ipostal.vnpost.vn/danh-muc/tra-cuu-nhanh/ma-buu-chinh-quoc-gia",
+          "scope": "Official national postcode lookup and Vietnamese address example"
+        },
+        {
+          "authority": "Vietnam Post",
+          "url": "https://vnpost.vn/en/tin-khac/vietnam-post-is-assigned-to-develop-address-code-system-nationwide",
+          "scope": "Official five-character national postcode plus seven-character address-code design"
+        }
+      ]
+    }
+  },
+  "profile_status": {
+    "BN": "official_guidance",
+    "BN_en": "official_guidance",
+    "BN_ms": "official_guidance",
+    "ID": "source_derived_domestic",
+    "ID_en": "source_derived_domestic",
+    "ID_id": "source_derived_domestic",
+    "KH": "source_derived_domestic",
+    "KH_en": "source_derived_domestic",
+    "KH_km": "source_derived_domestic",
+    "LA": "source_derived_domestic",
+    "LA_en": "source_derived_domestic",
+    "LA_lo": "source_derived_domestic",
+    "MM": "provisional",
+    "MM_en": "provisional",
+    "MM_my": "provisional",
+    "MY": "source_derived_domestic",
+    "MY_en": "source_derived_domestic",
+    "MY_ms": "source_derived_domestic",
+    "PH": "source_derived_domestic",
+    "PH_en": "source_derived_domestic",
+    "PH_fil": "source_derived_domestic",
+    "SG": "official_guidance",
+    "SG_en": "official_guidance",
+    "SG_ms": "source_derived_domestic",
+    "SG_ta": "source_derived_domestic",
+    "SG_zh": "source_derived_domestic",
+    "TH": "official_guidance",
+    "TH_en": "official_guidance",
+    "TH_th": "official_guidance",
+    "TL": "provisional",
+    "TL_en": "provisional",
+    "TL_pt": "provisional",
+    "TL_tet": "provisional",
+    "VN": "source_derived_domestic",
+    "VN_en": "source_derived_domestic",
+    "VN_vi": "source_derived_domestic"
+  },
+  "profiles": {
+    "BN": {
+      "country_code": "BN",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{po_box}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{village}}} || {{{hamlet}}} {{/first}}\n{{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} {{/first}}\n{{#first}} {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}} {{{postcode}}}\n{{{country}}}\n"
+    },
+    "BN_en": {"country_code": "BN", "language": "en", "use_country": "BN"},
+    "BN_ms": {"country_code": "BN", "language": "ms", "use_country": "BN"},
+    "KH": {
+      "country_code": "KH",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{po_box}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{village}}} || {{{hamlet}}} {{/first}}\n{{{city_district}}}\n{{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} {{/first}}\n{{#first}} {{{state_district}}} || {{{county}}} || {{{state}}} {{/first}} {{{postcode}}}\n{{{country}}}\n"
+    },
+    "KH_en": {"country_code": "KH", "language": "en", "use_country": "KH"},
+    "KH_km": {"country_code": "KH", "language": "km", "use_country": "KH"},
+    "ID": {
+      "country_code": "ID",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{po_box}}}\n{{{road}}} {{{house_number}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{village}}} || {{{hamlet}}} {{/first}}\n{{{city_district}}}\n{{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} || {{{county}}} {{/first}} {{{postcode}}}\n{{{state}}}\n{{{country}}}\n"
+    },
+    "ID_en": {"country_code": "ID", "language": "en", "use_country": "ID"},
+    "ID_id": {"country_code": "ID", "language": "id", "use_country": "ID"},
+    "LA": {
+      "country_code": "LA",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{po_box}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{village}}} || {{{hamlet}}} || {{{neighbourhood}}} || {{{suburb}}} {{/first}}\n{{#first}} {{{city_district}}} || {{{county}}} || {{{state_district}}} {{/first}}\n{{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} || {{{state}}} {{/first}} {{{postcode}}}\n{{{country}}}\n"
+    },
+    "LA_en": {"country_code": "LA", "language": "en", "use_country": "LA"},
+    "LA_lo": {"country_code": "LA", "language": "lo", "use_country": "LA"},
+    "MY": {
+      "country_code": "MY",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{po_box}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{village}}} || {{{hamlet}}} {{/first}}\n{{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} {{/first}}\n{{#first}} {{{state_district}}} || {{{state}}} {{/first}}\n{{{country}}}\n"
+    },
+    "MY_en": {"country_code": "MY", "language": "en", "use_country": "MY"},
+    "MY_ms": {"country_code": "MY", "language": "ms", "use_country": "MY"},
+    "MM": {
+      "country_code": "MM",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{po_box}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{village}}} || {{{hamlet}}} {{/first}}\n{{#first}} {{{city_district}}} || {{{county}}} || {{{state_district}}} {{/first}}\n{{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} {{/first}} {{{postcode}}}\n{{{state}}}\n{{{country}}}\n"
+    },
+    "MM_en": {"country_code": "MM", "language": "en", "use_country": "MM"},
+    "MM_my": {"country_code": "MM", "language": "my", "use_country": "MM"},
+    "PH": {
+      "country_code": "PH",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{po_box}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{village}}} || {{{hamlet}}} {{/first}}\n{{{city_district}}}\n{{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} {{/first}}\n{{{postcode}}} {{#first}} {{{state_district}}} || {{{state}}} || {{{region}}} {{/first}}\n{{{country}}}\n"
+    },
+    "PH_en": {"country_code": "PH", "language": "en", "use_country": "PH"},
+    "PH_fil": {"country_code": "PH", "language": "fil", "use_country": "PH"},
+    "SG": {
+      "country_code": "SG",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house_number}}} {{{road}}}\n{{{subpremise}}} {{{house}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} {{/first}}\n{{{po_box}}}\n{{{country}}} {{{postcode}}}\n"
+    },
+    "SG_en": {"country_code": "SG", "language": "en", "use_country": "SG"},
+    "SG_ms": {"country_code": "SG", "language": "ms", "use_country": "SG"},
+    "SG_ta": {"country_code": "SG", "language": "ta", "use_country": "SG"},
+    "SG_zh": {"country_code": "SG", "language": "zh", "use_country": "SG"},
+    "TH": {
+      "country_code": "TH",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{po_box}}}\n{{{house_number}}} {{#first}} {{{village}}} || {{{hamlet}}} {{/first}}\n{{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} {{/first}}\n{{#first}} {{{city_district}}} || {{{state_district}}} || {{{county}}} {{/first}}\n{{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} {{/first}}\n{{{state}}} {{{postcode}}}\n{{{country}}}\n"
+    },
+    "TH_en": {"country_code": "TH", "language": "en", "use_country": "TH"},
+    "TH_th": {"country_code": "TH", "language": "th", "use_country": "TH"},
+    "TL": {
+      "country_code": "TL",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{po_box}}}\n{{{road}}} {{{house_number}}}\n{{#first}} {{{village}}} || {{{hamlet}}} || {{{neighbourhood}}} || {{{suburb}}} {{/first}}\n{{#first}} {{{city_district}}} || {{{county}}} || {{{state_district}}} {{/first}}\n{{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} || {{{state}}} {{/first}} {{{postcode}}}\n{{{country}}}\n"
+    },
+    "TL_en": {"country_code": "TL", "language": "en", "use_country": "TL"},
+    "TL_pt": {"country_code": "TL", "language": "pt", "use_country": "TL"},
+    "TL_tet": {"country_code": "TL", "language": "tet", "use_country": "TL"},
+    "VN": {
+      "country_code": "VN",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{po_box}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{village}}} || {{{hamlet}}} {{/first}}\n{{#first}} {{{city_district}}} || {{{county}}} {{/first}}\n{{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} || {{{state_district}}} {{/first}}\n{{{state}}} {{{postcode}}}\n{{{country}}}\n"
+    },
+    "VN_en": {"country_code": "VN", "language": "en", "use_country": "VN"},
+    "VN_vi": {"country_code": "VN", "language": "vi", "use_country": "VN"}
+  }
+}

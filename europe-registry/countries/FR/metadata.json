@@ -1,0 +1,138 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "FRA",
+    "country": "FR",
+    "geonames_continent": "EU",
+    "geonames_country_name": "France",
+    "geonames_id": "3017382",
+    "id": "country:FR",
+    "m49": "250",
+    "m49_region": "Europe",
+    "name_en": "France",
+    "region": "Western Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 81382,
+    "admin_rows": 35249,
+    "ambiguous_parents": 0,
+    "country": "FR",
+    "country_scope_only": 0,
+    "localities_without_adm1": 181,
+    "locality_rows": 81603,
+    "name_en": "France",
+    "other_admin_rows": 1858,
+    "region": "Western Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 13,
+    "ADM1H": 22,
+    "ADM2": 96,
+    "ADM3": 320,
+    "ADM3H": 11,
+    "ADM4": 34742,
+    "ADM4H": 1816,
+    "ADM5": 78,
+    "ADMD": 9,
+    "PPL": 79554,
+    "PPLA": 12,
+    "PPLA2": 83,
+    "PPLA3": 231,
+    "PPLA4": 25,
+    "PPLA5": 16,
+    "PPLC": 1,
+    "PPLCH": 36,
+    "PPLF": 36,
+    "PPLH": 89,
+    "PPLL": 335,
+    "PPLQ": 37,
+    "PPLR": 2,
+    "PPLS": 2,
+    "PPLW": 19,
+    "PPLX": 1125
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 1244314,
+      "rows": 20000,
+      "sha256": "23d87225e90c1a564a0ca996f006b793a3d09ecf88b5059ced4dc4375318ebd9",
+      "uncompressed_sha256": "a6cfd901b62c99d519f9a8c4f7104c2e79d0e6e1e646076da9b4ab3d7b8deeea"
+    },
+    "entities-0002.csv.gz": {
+      "bytes": 1093025,
+      "rows": 20000,
+      "sha256": "3e1895a596e17dd457b2fc4dad377410c2a854a34ba967445e4fc85cd9a3e6a9",
+      "uncompressed_sha256": "322d428f413d438f7fb680abef7efbdd9ea280b70060bcee7c208b13d5a2498c"
+    },
+    "entities-0003.csv.gz": {
+      "bytes": 1239138,
+      "rows": 20000,
+      "sha256": "dace29c2a5c8e0b58c0fd957c7047c20612811bcbe28d385b307dfca87e4b7ed",
+      "uncompressed_sha256": "c3493de2e9352707f4ee8b91658c43a4c2701ef778690518a3ff40c6478cfd84"
+    },
+    "entities-0004.csv.gz": {
+      "bytes": 1193182,
+      "rows": 20000,
+      "sha256": "c0adfe86da5d92a6116ced16a9a2945327b98639e490e68643f075181f859bd8",
+      "uncompressed_sha256": "3ab7b463755d39458d963220896946534863aacc8763fd456fe306058e68c717"
+    },
+    "entities-0005.csv.gz": {
+      "bytes": 1222726,
+      "rows": 20000,
+      "sha256": "cec63223098bfa7b244c7e768ce6b78f86cf3a4eb06d88426a5cd0e10fd225a5",
+      "uncompressed_sha256": "702dd3143bcc93b89950d64780216c7947b072dfd02c5c1828f3988d1d7ee1ed"
+    },
+    "entities-0006.csv.gz": {
+      "bytes": 658473,
+      "rows": 18710,
+      "sha256": "61d1f64f7519481a48287bb720c520dc48455eccad461b08a3f6bf07b54c144c",
+      "uncompressed_sha256": "9e00db99d55882f39157e1eb9299c3ae796a9ad55afa63b8236b7497a626394a"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "historical_parent_not_asserted": 2030,
+    "not_assigned_for_other_feature": 9,
+    "source_admin_code": 116658,
+    "source_country": 13
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 13,
+      "sha256": "354a623081b39ae663fdde7b4ac87d0b6529c235f8f18d3259c4dfaad7f2b333"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 174720,
+    "bytes": 7302471,
+    "excluded_feature_class_counts": {
+      "A": 13,
+      "H": 6141,
+      "L": 605,
+      "R": 2505,
+      "S": 34279,
+      "T": 9769,
+      "U": 3,
+      "V": 2695
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:53:19 GMT",
+    "retained_rows": 118710,
+    "retrieved_at": "2026-09-29T11:13:37.897757+00:00",
+    "sha256": "bd202a8eaab290aaaee78a7e22a3791d298a31359e9cc65e0632cccd78fc8e37",
+    "url": "https://download.geonames.org/export/dump/FR.zip"
+  },
+  "source_modified_max": "2026-09-28",
+  "source_modified_min": "2016-02-15"
+}

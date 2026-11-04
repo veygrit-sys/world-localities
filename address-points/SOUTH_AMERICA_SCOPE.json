@@ -1,0 +1,27 @@
+{
+  "country_codes": [
+    "AR",
+    "BO",
+    "BR",
+    "CL",
+    "CO",
+    "EC",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE"
+  ],
+  "country_count": 12,
+  "supplementary_area_codes": [
+    "GF",
+    "FK",
+    "GS",
+    "BV"
+  ],
+  "supplementary_area_count": 4,
+  "default_processing_scope": "countries",
+  "reference_url": "https://unstats.un.org/unsd/methodology/m49/",
+  "note_ja": "南米の主権国家12か国を本体とする。4地域は既存収録区分の補足であり国数に加えない。ブーベ島はM49統計区分由来。"
+}

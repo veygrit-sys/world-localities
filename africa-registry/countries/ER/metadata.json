@@ -1,0 +1,84 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "ERI",
+    "country": "ER",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Eritrea",
+    "geonames_id": "338010",
+    "id": "country:ER",
+    "m49": "232",
+    "name_en": "Eritrea",
+    "numeric": "232",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 1366,
+    "admin_rows": 64,
+    "ambiguous_parents": 0,
+    "country": "ER",
+    "country_scope_only": 5,
+    "localities_without_adm1": 5,
+    "locality_rows": 1367,
+    "name_en": "Eritrea",
+    "other_admin_rows": 6,
+    "region": "Eastern Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 6,
+    "ADM2": 58,
+    "ADMD": 5,
+    "PCLI": 1,
+    "PPL": 1353,
+    "PPLA": 5,
+    "PPLA2": 1,
+    "PPLC": 1,
+    "PPLF": 1,
+    "PPLL": 3,
+    "PPLX": 3
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 61303,
+      "rows": 1437,
+      "sha256": "dbb56d2ecb4cbfc303fe186cf3f7097129649548201360ced71a1cca28c38dac",
+      "uncompressed_sha256": "a00d2229fbe272720a0ca9005d1a45233692ef82f9c6ebbd42a0234577060533"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 5,
+    "not_assigned_for_other_feature": 6,
+    "source_admin_code": 1420,
+    "source_country": 6
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 6,
+      "sha256": "574e319c21c2b5670be3e9c160340d995cd6b6706ba655acded4bd4b4aacc600"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 197180,
+    "discarded_feature_classes": {
+      "H": 1630,
+      "L": 643,
+      "S": 250,
+      "T": 2378
+    },
+    "retained_rows": 1437,
+    "retrieved_on": "2026-09-26",
+    "sha256": "14bd195abdb7c07d4ca141bccfb22f304c2e33127d42333a6db1ea68ded5e906",
+    "source_rows": 6338,
+    "url": "https://download.geonames.org/export/dump/ER.zip"
+  },
+  "source_modified_max": "2026-08-24",
+  "source_modified_min": "1993-12-08"
+}

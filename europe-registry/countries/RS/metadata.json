@@ -1,0 +1,100 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "SRB",
+    "country": "RS",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Serbia",
+    "geonames_id": "6290252",
+    "id": "country:RS",
+    "m49": "688",
+    "m49_region": "Europe",
+    "name_en": "Serbia",
+    "region": "Southern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 9509,
+    "admin_rows": 195,
+    "ambiguous_parents": 0,
+    "country": "RS",
+    "country_scope_only": 2,
+    "localities_without_adm1": 8,
+    "locality_rows": 9514,
+    "name_en": "Serbia",
+    "other_admin_rows": 5,
+    "region": "Southern Europe",
+    "unresolved_parents": 1
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 2,
+    "ADM1H": 2,
+    "ADM2": 25,
+    "ADM3": 168,
+    "ADMD": 3,
+    "PPL": 8290,
+    "PPLA": 1,
+    "PPLA2": 24,
+    "PPLA3": 137,
+    "PPLC": 1,
+    "PPLCH": 2,
+    "PPLH": 2,
+    "PPLL": 1036,
+    "PPLQ": 1,
+    "PPLX": 20
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 428263,
+      "rows": 9714,
+      "sha256": "2187392594ee1e1b603e55357b18870eb9b703a40c73ef53ea90948ee6aecf4f",
+      "uncompressed_sha256": "9c956f92979afed0ebbe0bf817739b59e2e8522d295000a585f174b3369d192f"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 2,
+    "historical_parent_not_asserted": 7,
+    "missing_reference": 1,
+    "not_assigned_for_other_feature": 3,
+    "source_admin_code": 9699,
+    "source_country": 2
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 2,
+      "sha256": "c3f7c9b866b17eb29e99066fc7ad879d56b8f81fcc6c023551515556b8c8bccd"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 24544,
+    "bytes": 758066,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 3022,
+      "L": 4071,
+      "R": 25,
+      "S": 1263,
+      "T": 6407,
+      "U": 1,
+      "V": 40
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:56:05 GMT",
+    "retained_rows": 9714,
+    "retrieved_at": "2026-09-29T11:14:34.120725+00:00",
+    "sha256": "afbfe24b586d1cbfd37c868ef8507af8928a8150d2f278e2e1307619b933e046",
+    "url": "https://download.geonames.org/export/dump/RS.zip"
+  },
+  "source_modified_max": "2026-09-02",
+  "source_modified_min": "2011-07-30"
+}

@@ -1,0 +1,30 @@
+country_code,m49_code,name_en,m49_subregion_code,subregion,id,iso_alpha3,geonames_name,geonames_country_id,scope_source,geonames_reported_languages
+AU,036,Australia,053,australia_new_zealand,country:AU,AUS,Australia,2077456,UN M49 Oceania 009,en-AU
+CX,162,Christmas Island,053,australia_new_zealand,country:CX,CXR,Christmas Island,2078138,UN M49 Oceania 009,"en,zh,ms-CX"
+CC,166,Cocos (Keeling) Islands,053,australia_new_zealand,country:CC,CCK,Cocos Islands,1547376,UN M49 Oceania 009,"ms-CC,en"
+HM,334,Heard Island and McDonald Islands,053,australia_new_zealand,country:HM,HMD,Heard Island and McDonald Islands,1547314,UN M49 Oceania 009,
+NZ,554,New Zealand,053,australia_new_zealand,country:NZ,NZL,New Zealand,2186224,UN M49 Oceania 009,"en-NZ,mi"
+NF,574,Norfolk Island,053,australia_new_zealand,country:NF,NFK,Norfolk Island,2155115,UN M49 Oceania 009,en-NF
+FJ,242,Fiji,054,melanesia,country:FJ,FJI,Fiji,2205218,UN M49 Oceania 009,"en-FJ,fj"
+NC,540,New Caledonia,054,melanesia,country:NC,NCL,New Caledonia,2139685,UN M49 Oceania 009,fr-NC
+PG,598,Papua New Guinea,054,melanesia,country:PG,PNG,Papua New Guinea,2088628,UN M49 Oceania 009,"en-PG,ho,meu,tpi"
+SB,090,Solomon Islands,054,melanesia,country:SB,SLB,Solomon Islands,2103350,UN M49 Oceania 009,"en-SB,tpi"
+VU,548,Vanuatu,054,melanesia,country:VU,VUT,Vanuatu,2134431,UN M49 Oceania 009,"bi,en-VU,fr-VU"
+GU,316,Guam,057,micronesia,country:GU,GUM,Guam,4043988,UN M49 Oceania 009,"en-GU,ch-GU"
+KI,296,Kiribati,057,micronesia,country:KI,KIR,Kiribati,4030945,UN M49 Oceania 009,"en-KI,gil"
+MH,584,Marshall Islands,057,micronesia,country:MH,MHL,Marshall Islands,2080185,UN M49 Oceania 009,"mh,en-MH"
+FM,583,Micronesia (Federated States of),057,micronesia,country:FM,FSM,Micronesia,2081918,UN M49 Oceania 009,"en-FM,chk,pon,yap,kos,uli,woe,nkr,kpg"
+NR,520,Naoero,057,micronesia,country:NR,NRU,Nauru,2110425,UN M49 Oceania 009,"na,en-NR"
+MP,580,Northern Mariana Islands,057,micronesia,country:MP,MNP,Northern Mariana Islands,4041468,UN M49 Oceania 009,"fil,tl,zh,ch-MP,en-MP"
+PW,585,Palau,057,micronesia,country:PW,PLW,Palau,1559582,UN M49 Oceania 009,"pau,sov,en-PW,tox,ja,fil,zh"
+UM,581,United States Minor Outlying Islands,057,micronesia,country:UM,UMI,United States Minor Outlying Islands,5854968,UN M49 Oceania 009,en-UM
+AS,016,American Samoa,061,polynesia,country:AS,ASM,American Samoa,5880801,UN M49 Oceania 009,"en-AS,sm,to"
+CK,184,Cook Islands,061,polynesia,country:CK,COK,Cook Islands,1899402,UN M49 Oceania 009,"en-CK,mi"
+PF,258,French Polynesia,061,polynesia,country:PF,PYF,French Polynesia,4030656,UN M49 Oceania 009,"fr-PF,ty"
+NU,570,Niue,061,polynesia,country:NU,NIU,Niue,4036232,UN M49 Oceania 009,"niu,en-NU"
+PN,612,Pitcairn,061,polynesia,country:PN,PCN,Pitcairn,4030699,UN M49 Oceania 009,en-PN
+WS,882,Samoa,061,polynesia,country:WS,WSM,Samoa,4034894,UN M49 Oceania 009,"sm,en-WS"
+TK,772,Tokelau,061,polynesia,country:TK,TKL,Tokelau,4031074,UN M49 Oceania 009,"tkl,en-TK"
+TO,776,Tonga,061,polynesia,country:TO,TON,Tonga,4032283,UN M49 Oceania 009,"to,en-TO"
+TV,798,Tuvalu,061,polynesia,country:TV,TUV,Tuvalu,2110297,UN M49 Oceania 009,"tvl,en,sm,gil"
+WF,876,Wallis and Futuna Islands,061,polynesia,country:WF,WLF,Wallis and Futuna,4034749,UN M49 Oceania 009,"wls,fud,fr-WF"

@@ -1,0 +1,184 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-21T19:19:09.501355+00:00",
+  "extracts": [
+    {
+      "extract_code": "BZ",
+      "status": "PASS",
+      "counts": {
+        "tagged_node": 21655,
+        "observation_records": 51112,
+        "retained_node": 2686,
+        "active_road_way_records": 37974,
+        "named_road_way_records": 7201,
+        "house_number_tag_observations": 5677,
+        "address_tag_observations": 11734,
+        "administrative_tag_observations": 898,
+        "interpolation_features": 0,
+        "active_road_ways_with_missing_geometry": 0,
+        "tagged_way": 281877,
+        "retained_way": 48155,
+        "tagged_relation": 6041,
+        "retained_relation": 271
+      },
+      "canonical_feature_replay_sha256": "5f4dd8684d6199066a75b9d899a8bd947776778b8004fc6406853edeb2c9334a"
+    },
+    {
+      "extract_code": "CR",
+      "status": "PASS",
+      "counts": {
+        "tagged_node": 89614,
+        "observation_records": 219653,
+        "retained_node": 10491,
+        "active_road_way_records": 163364,
+        "named_road_way_records": 78702,
+        "house_number_tag_observations": 11747,
+        "address_tag_observations": 48356,
+        "administrative_tag_observations": 7588,
+        "interpolation_features": 0,
+        "active_road_ways_with_missing_geometry": 0,
+        "tagged_way": 441463,
+        "retained_way": 207369,
+        "tagged_relation": 6709,
+        "retained_relation": 1793
+      },
+      "canonical_feature_replay_sha256": "630bbec5813b051ce0f65a207b046d348cf8340d6484dff947460e583eeecccf"
+    },
+    {
+      "extract_code": "GT",
+      "status": "PASS",
+      "counts": {
+        "tagged_node": 94463,
+        "observation_records": 383774,
+        "retained_node": 9423,
+        "active_road_way_records": 352168,
+        "named_road_way_records": 42923,
+        "house_number_tag_observations": 15836,
+        "address_tag_observations": 29603,
+        "administrative_tag_observations": 1895,
+        "interpolation_features": 144,
+        "active_road_ways_with_missing_geometry": 0,
+        "tagged_way": 3876729,
+        "retained_way": 373752,
+        "tagged_relation": 4076,
+        "retained_relation": 599
+      },
+      "canonical_feature_replay_sha256": "197c6e6b9504bc3051e61ff86a7362f74741991ffe9206a936d7bb81252ee463"
+    },
+    {
+      "extract_code": "HN",
+      "status": "PASS",
+      "counts": {
+        "tagged_node": 39250,
+        "observation_records": 211890,
+        "retained_node": 2644,
+        "active_road_way_records": 198940,
+        "named_road_way_records": 27499,
+        "house_number_tag_observations": 581,
+        "address_tag_observations": 9300,
+        "administrative_tag_observations": 3614,
+        "interpolation_features": 0,
+        "active_road_ways_with_missing_geometry": 0,
+        "tagged_way": 1948202,
+        "retained_way": 208228,
+        "tagged_relation": 3527,
+        "retained_relation": 1018
+      },
+      "canonical_feature_replay_sha256": "006dd562cfe66e742a06dc8cb292580181b517bd4bb0bf556dec596cb289df3f"
+    },
+    {
+      "extract_code": "MX",
+      "status": "PASS",
+      "counts": {
+        "tagged_node": 2332836,
+        "observation_records": 5825398,
+        "retained_node": 1113870,
+        "active_road_way_records": 4584799,
+        "named_road_way_records": 1722141,
+        "house_number_tag_observations": 1107857,
+        "address_tag_observations": 1216242,
+        "administrative_tag_observations": 20857,
+        "interpolation_features": 1387,
+        "active_road_ways_with_missing_geometry": 0,
+        "tagged_way": 9634508,
+        "retained_way": 4704401,
+        "tagged_relation": 47971,
+        "retained_relation": 7127
+      },
+      "canonical_feature_replay_sha256": "c984425c1127662e5455f35acfd266817e97ac7ebb21c5b9749bcda2ebf139b6"
+    },
+    {
+      "extract_code": "NI",
+      "status": "PASS",
+      "counts": {
+        "tagged_node": 100595,
+        "observation_records": 134020,
+        "retained_node": 2389,
+        "active_road_way_records": 119089,
+        "named_road_way_records": 18743,
+        "house_number_tag_observations": 936,
+        "address_tag_observations": 7274,
+        "administrative_tag_observations": 7807,
+        "interpolation_features": 1,
+        "active_road_ways_with_missing_geometry": 0,
+        "tagged_way": 719638,
+        "retained_way": 124996,
+        "tagged_relation": 18428,
+        "retained_relation": 6635
+      },
+      "canonical_feature_replay_sha256": "f8e4673d51a241f983ed0e262a95e58dc186e11351c7afbc253405618ecfcc8d"
+    },
+    {
+      "extract_code": "PA",
+      "status": "PASS",
+      "counts": {
+        "tagged_node": 68183,
+        "observation_records": 157113,
+        "retained_node": 5857,
+        "active_road_way_records": 122386,
+        "named_road_way_records": 25100,
+        "house_number_tag_observations": 12061,
+        "address_tag_observations": 32117,
+        "administrative_tag_observations": 2500,
+        "interpolation_features": 0,
+        "active_road_ways_with_missing_geometry": 0,
+        "tagged_way": 592241,
+        "retained_way": 149839,
+        "tagged_relation": 6956,
+        "retained_relation": 1417
+      },
+      "canonical_feature_replay_sha256": "055d3c4dae61004c2108b1a702075551511a992132facc438bf5fe584e247db3"
+    },
+    {
+      "extract_code": "SV",
+      "status": "PASS",
+      "counts": {
+        "tagged_node": 45998,
+        "observation_records": 140106,
+        "retained_node": 3593,
+        "active_road_way_records": 121232,
+        "named_road_way_records": 33384,
+        "house_number_tag_observations": 5460,
+        "address_tag_observations": 16971,
+        "administrative_tag_observations": 2051,
+        "interpolation_features": 0,
+        "active_road_ways_with_missing_geometry": 0,
+        "tagged_way": 799936,
+        "retained_way": 135738,
+        "tagged_relation": 4222,
+        "retained_relation": 775
+      },
+      "canonical_feature_replay_sha256": "1cf8e4643311b01e4f6ff52851665eed37944ab2dfc8bbcd36008f6277b0ee12"
+    }
+  ],
+  "matched_observations": 7123066,
+  "source_tags_topology_node_and_way_coordinates": "PASS",
+  "gzip_crc_and_source_hashes": "PASS",
+  "not_verified": [
+    "National real-world completeness",
+    "Legal country membership of buffered extracts",
+    "Issuing-authority assignment of number tags",
+    "Full assembly of administrative relation geometry"
+  ],
+  "deliverability_in_scope": false
+}

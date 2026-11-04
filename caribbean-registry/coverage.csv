@@ -1,0 +1,28 @@
+address_candidates,admin_rows,ambiguous_parents,country,country_scope_only,localities_without_adm1,locality_rows,name_en,other_admin_rows,region,unresolved_parents,entities,alternate_rows,postal_rows,english_entities
+190,8,0,AG,0,0,190,Antigua and Barbuda,1,Caribbean,0,199,1324,0,27
+45,14,0,AI,30,30,45,Anguilla,1,Caribbean,0,60,605,0,15
+172,0,0,AW,172,172,172,Aruba,1,Caribbean,0,173,412,0,4
+587,11,0,BB,6,6,588,Barbados,1,Caribbean,0,600,1368,0,26
+29,0,0,BL,29,29,29,Saint Barthélemy,1,Caribbean,0,30,308,1,9
+119,3,0,BQ,0,0,119,"Bonaire, Sint Eustatius and Saba",1,Caribbean,0,123,385,0,7
+352,32,0,BS,6,8,354,Bahamas,10,Caribbean,2,396,2891,0,84
+100,0,0,CW,100,100,100,Curaçao,2,Caribbean,0,102,269,0,5
+132,10,0,DM,7,7,132,Dominica,1,Caribbean,0,143,1447,0,33
+7938,14703,0,DO,0,0,7938,Dominican Republic,1,Caribbean,0,22642,10638,0,138
+300,7,0,GD,3,3,300,Grenada,1,Caribbean,0,308,894,0,26
+1579,36,0,GP,1152,1152,1579,Guadeloupe,1,Caribbean,0,1616,2153,90,13
+10945,770,0,HT,0,0,10945,Haiti,1,Caribbean,617,11716,9426,0,27
+3613,839,0,JM,0,0,3867,Jamaica,5,Caribbean,0,4711,6365,0,362
+129,14,0,KN,1,1,129,Saint Kitts and Nevis,1,Caribbean,0,144,1188,0,32
+80,6,0,KY,65,65,80,Cayman Islands,9,Caribbean,0,95,423,0,7
+337,556,0,LC,0,0,337,Saint Lucia,3,Caribbean,0,896,957,0,20
+62,0,0,MF,62,62,62,Saint Martin (French Part),2,Caribbean,0,64,227,1,2
+1294,40,0,MQ,629,629,1294,Martinique,1,Caribbean,0,1335,2192,100,5
+60,3,0,MS,4,4,83,Montserrat,1,Caribbean,0,87,302,0,4
+2475,1124,0,PR,0,0,2499,Puerto Rico,12,Caribbean,144,3635,6664,4,167
+62,0,0,SX,62,62,62,Sint Maarten (Dutch part),1,Caribbean,0,63,226,0,2
+41,0,0,TC,43,43,43,Turks and Caicos Islands,1,Caribbean,0,44,192,0,25
+460,51,0,TT,8,9,460,Trinidad and Tobago,1,Caribbean,1,512,1757,0,34
+165,6,0,VC,23,23,165,Saint Vincent and the Grenadines,1,Caribbean,0,172,1029,0,83
+142,0,0,VG,142,142,142,British Virgin Islands,1,Caribbean,0,143,376,0,124
+222,23,0,VI,0,0,228,United States Virgin Islands,321,Caribbean,0,572,1237,0,15

@@ -1,0 +1,417 @@
+{
+  "status": "PASS",
+  "insee_code_references": [
+    {
+      "country": "GP",
+      "code": "97101",
+      "hierarchy_node": "insee-2026:GP:commune:97101",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97102",
+      "hierarchy_node": "insee-2026:GP:commune:97102",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97103",
+      "hierarchy_node": "insee-2026:GP:commune:97103",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97104",
+      "hierarchy_node": "insee-2026:GP:commune:97104",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97105",
+      "hierarchy_node": "insee-2026:GP:commune:97105",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97106",
+      "hierarchy_node": "insee-2026:GP:commune:97106",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97107",
+      "hierarchy_node": "insee-2026:GP:commune:97107",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97108",
+      "hierarchy_node": "insee-2026:GP:commune:97108",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97109",
+      "hierarchy_node": "insee-2026:GP:commune:97109",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97110",
+      "hierarchy_node": "insee-2026:GP:commune:97110",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97111",
+      "hierarchy_node": "insee-2026:GP:commune:97111",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97112",
+      "hierarchy_node": "insee-2026:GP:commune:97112",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97113",
+      "hierarchy_node": "insee-2026:GP:commune:97113",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97114",
+      "hierarchy_node": "insee-2026:GP:commune:97114",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97115",
+      "hierarchy_node": "insee-2026:GP:commune:97115",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97116",
+      "hierarchy_node": "insee-2026:GP:commune:97116",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97117",
+      "hierarchy_node": "insee-2026:GP:commune:97117",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97118",
+      "hierarchy_node": "insee-2026:GP:commune:97118",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97119",
+      "hierarchy_node": "insee-2026:GP:commune:97119",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97120",
+      "hierarchy_node": "insee-2026:GP:commune:97120",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97121",
+      "hierarchy_node": "insee-2026:GP:commune:97121",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97122",
+      "hierarchy_node": "insee-2026:GP:commune:97122",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97124",
+      "hierarchy_node": "insee-2026:GP:commune:97124",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97125",
+      "hierarchy_node": "insee-2026:GP:commune:97125",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97126",
+      "hierarchy_node": "insee-2026:GP:commune:97126",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97128",
+      "hierarchy_node": "insee-2026:GP:commune:97128",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97129",
+      "hierarchy_node": "insee-2026:GP:commune:97129",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97130",
+      "hierarchy_node": "insee-2026:GP:commune:97130",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97131",
+      "hierarchy_node": "insee-2026:GP:commune:97131",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97132",
+      "hierarchy_node": "insee-2026:GP:commune:97132",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97133",
+      "hierarchy_node": "insee-2026:GP:commune:97133",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "GP",
+      "code": "97134",
+      "hierarchy_node": "insee-2026:GP:commune:97134",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97201",
+      "hierarchy_node": "insee-2026:MQ:commune:97201",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97202",
+      "hierarchy_node": "insee-2026:MQ:commune:97202",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97203",
+      "hierarchy_node": "insee-2026:MQ:commune:97203",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97204",
+      "hierarchy_node": "insee-2026:MQ:commune:97204",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97205",
+      "hierarchy_node": "insee-2026:MQ:commune:97205",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97206",
+      "hierarchy_node": "insee-2026:MQ:commune:97206",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97207",
+      "hierarchy_node": "insee-2026:MQ:commune:97207",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97208",
+      "hierarchy_node": "insee-2026:MQ:commune:97208",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97209",
+      "hierarchy_node": "insee-2026:MQ:commune:97209",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97210",
+      "hierarchy_node": "insee-2026:MQ:commune:97210",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97211",
+      "hierarchy_node": "insee-2026:MQ:commune:97211",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97212",
+      "hierarchy_node": "insee-2026:MQ:commune:97212",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97213",
+      "hierarchy_node": "insee-2026:MQ:commune:97213",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97214",
+      "hierarchy_node": "insee-2026:MQ:commune:97214",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97215",
+      "hierarchy_node": "insee-2026:MQ:commune:97215",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97216",
+      "hierarchy_node": "insee-2026:MQ:commune:97216",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97217",
+      "hierarchy_node": "insee-2026:MQ:commune:97217",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97218",
+      "hierarchy_node": "insee-2026:MQ:commune:97218",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97219",
+      "hierarchy_node": "insee-2026:MQ:commune:97219",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97220",
+      "hierarchy_node": "insee-2026:MQ:commune:97220",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97221",
+      "hierarchy_node": "insee-2026:MQ:commune:97221",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97222",
+      "hierarchy_node": "insee-2026:MQ:commune:97222",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97223",
+      "hierarchy_node": "insee-2026:MQ:commune:97223",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97224",
+      "hierarchy_node": "insee-2026:MQ:commune:97224",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97225",
+      "hierarchy_node": "insee-2026:MQ:commune:97225",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97226",
+      "hierarchy_node": "insee-2026:MQ:commune:97226",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97227",
+      "hierarchy_node": "insee-2026:MQ:commune:97227",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97228",
+      "hierarchy_node": "insee-2026:MQ:commune:97228",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97229",
+      "hierarchy_node": "insee-2026:MQ:commune:97229",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97230",
+      "hierarchy_node": "insee-2026:MQ:commune:97230",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97231",
+      "hierarchy_node": "insee-2026:MQ:commune:97231",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97232",
+      "hierarchy_node": "insee-2026:MQ:commune:97232",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97233",
+      "hierarchy_node": "insee-2026:MQ:commune:97233",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "MQ",
+      "code": "97234",
+      "hierarchy_node": "insee-2026:MQ:commune:97234",
+      "join": "exact_official_code"
+    },
+    {
+      "country": "BL",
+      "code": "97701",
+      "hierarchy_node": "insee-2026:BL:collectivity:977",
+      "join": "explicit_insee_code_alias"
+    },
+    {
+      "country": "MF",
+      "code": "97801",
+      "hierarchy_node": "insee-2026:MF:collectivity:978",
+      "join": "explicit_insee_code_alias"
+    }
+  ],
+  "reference_count": 68,
+  "complete": false,
+  "spatial_containment_verified": false,
+  "deliverability_in_scope": false
+}

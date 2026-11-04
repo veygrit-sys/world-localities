@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "counts": {
+    "county": 22,
+    "town": 368,
+    "village": 7987,
+    "unnamed_village": 206
+  },
+  "observations": 8377,
+  "ordered_rows_sha256": "635c4271a32db4633cc9730886d75a6c962927dc479d103b15b385ba9313cd54",
+  "parent_assignment": "original API request binding; no prefix inference",
+  "orphans": 0,
+  "national_completeness_verified": false,
+  "legal_effective_date": null,
+  "atomic_snapshot": false
+}

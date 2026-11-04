@@ -1,0 +1,214 @@
+{
+  "countries": [
+    {
+      "core_validation": "validated",
+      "country": "AT",
+      "metadata_sha256": "1f440b5ff59a89f0102405389796718a8ec9f4ab3ff02174a8e3547b094f89f7",
+      "rows": 2093
+    },
+    {
+      "core_validation": "validated",
+      "country": "BE",
+      "metadata_sha256": "6117e92f9e7e9e713bc1a916cb3464b9d7b4f3e41611f64e0fe897c933a4e97e",
+      "rows": 581
+    },
+    {
+      "core_validation": "validated",
+      "country": "BG",
+      "metadata_sha256": "b7284604b569bbea641e8a652dd2d739a889b1499cfbd8afb2179fe95b31e312",
+      "rows": 265
+    },
+    {
+      "core_validation": "validated",
+      "country": "CH",
+      "metadata_sha256": "8fea8fae2128427c3e3ab7565dfa5121b6494fe541705d214fe0d86dbd59da52",
+      "rows": 2131
+    },
+    {
+      "core_validation": "validated",
+      "country": "CY",
+      "metadata_sha256": "a922d30bad98dde5f039687fce698b65e81f43fff293cbe7fc08cbc2bfe596d2",
+      "rows": 538
+    },
+    {
+      "core_validation": "validated",
+      "country": "CZ",
+      "metadata_sha256": "fc04b94c05782d5a8ac07feb9b384ee54775251ce55f7e6d9ff1716a732fd96a",
+      "rows": 6258
+    },
+    {
+      "core_validation": "validated",
+      "country": "DE",
+      "metadata_sha256": "4034b110695ec7c5cc5f3fd10e62bc4b3be6a30b3a1ab6fbe7850f06dc24503d",
+      "rows": 10957
+    },
+    {
+      "core_validation": "validated",
+      "country": "DK",
+      "metadata_sha256": "1650d1829ededa35f520f8ea173c92c28c21acf5040398fe6569749257ad9786",
+      "rows": 99
+    },
+    {
+      "core_validation": "validated",
+      "country": "EE",
+      "metadata_sha256": "11429523eba50304609dcaffad6e3e7ac2a373292655d3de27f3f22b4d7542ee",
+      "rows": 79
+    },
+    {
+      "core_validation": "validated",
+      "country": "ES",
+      "metadata_sha256": "b1fef43e927a5be772877acc3fc9a4272c2c1e059f1720857b23168593759412",
+      "rows": 8132
+    },
+    {
+      "core_validation": "validated",
+      "country": "FI",
+      "metadata_sha256": "7f63fef61ae073c0063896f44e7fd06ccd428e35c670c7f901ab69dfc598633c",
+      "rows": 309
+    },
+    {
+      "core_validation": "validated",
+      "country": "FR",
+      "metadata_sha256": "5e7e97dd929ad3ae824f7e3568e050983e46b7013f3c4ada551f4a5faf29f7c0",
+      "rows": 34936
+    },
+    {
+      "core_validation": "validated",
+      "country": "GR",
+      "metadata_sha256": "457afdd5906fb07a2c7f7084fc66d25d3d9db7cf29aadfdf68cf26fc385d90d8",
+      "rows": 6142
+    },
+    {
+      "core_validation": "validated",
+      "country": "HR",
+      "metadata_sha256": "7253affb014fcad5104ad1eb8a050ba3fb21c1a6a97355a90f9ed281e7e49261",
+      "rows": 556
+    },
+    {
+      "core_validation": "validated",
+      "country": "HU",
+      "metadata_sha256": "ce61dbc5078b800d8d4d415424379b6d3ab5fc4d306d19b9ef3cab14eb634ec5",
+      "rows": 3155
+    },
+    {
+      "core_validation": "validated",
+      "country": "IE",
+      "metadata_sha256": "e4fd16f67e607054eff3b666eb4466214a1a0cd8c8f5d2105df6c5687c5e0221",
+      "rows": 166
+    },
+    {
+      "core_validation": "validated",
+      "country": "IT",
+      "metadata_sha256": "c973747ae39daf0cedbb64f80783193fae7c57c5d44975a1fa51206880e62d57",
+      "rows": 7896
+    },
+    {
+      "core_validation": "validated",
+      "country": "LT",
+      "metadata_sha256": "514aa9754c719e1f6a87e467d0ea6450975dd6a7597fa20ce0d17f61f4f7e1a6",
+      "rows": 60
+    },
+    {
+      "core_validation": "validated",
+      "country": "LU",
+      "metadata_sha256": "b0e8e012f220ab24bde6279556fa8d246b3deb11140980bdfbe8f6dff927426d",
+      "rows": 100
+    },
+    {
+      "core_validation": "validated",
+      "country": "LV",
+      "metadata_sha256": "a37dddcbaa66297f9e2d3f4051271f1fcb3c3b6ead671c6bd246af1f014da197",
+      "rows": 43
+    },
+    {
+      "core_validation": "validated",
+      "country": "MK",
+      "metadata_sha256": "03d23996b1de0a0ce1a545bafeb2482a533d704c3de9de4621bab84578e911ce",
+      "rows": 80
+    },
+    {
+      "core_validation": "validated",
+      "country": "MT",
+      "metadata_sha256": "cc9bac9579a657b8b0cdfc6d4666fc3fe3afe89274b526b8ac8c6f6338ac8bf3",
+      "rows": 68
+    },
+    {
+      "core_validation": "validated",
+      "country": "NL",
+      "metadata_sha256": "038bd3206c91c4b6033b38722b9319deef1bff21c978f7dda737180365b9a87d",
+      "rows": 342
+    },
+    {
+      "core_validation": "validated",
+      "country": "NO",
+      "metadata_sha256": "4f7da5680e15e1c17946e8c6297802aa1418c442e85da598acf711b11236b1aa",
+      "rows": 379
+    },
+    {
+      "core_validation": "validated",
+      "country": "PL",
+      "metadata_sha256": "dc9410261c09f582cce374a02d5e14beafa6dea344c43dfc42569f5974a65872",
+      "rows": 2477
+    },
+    {
+      "core_validation": "validated",
+      "country": "PT",
+      "metadata_sha256": "a3cc6363396dc3dd0cc88814f1c192638d94288918eadccfd228eea66d2b11cb",
+      "rows": 3092
+    },
+    {
+      "core_validation": "validated",
+      "country": "RO",
+      "metadata_sha256": "126560ac6f20a37ec32acc05f5128b2fd675dc421346f924fe878c37ee812b56",
+      "rows": 3181
+    },
+    {
+      "core_validation": "not validated",
+      "country": "RS",
+      "metadata_sha256": "1bb6b8c81667989490072ac7d616e5711e1811fbb0587aab5415540cefc39b69",
+      "rows": 6170
+    },
+    {
+      "core_validation": "validated",
+      "country": "SE",
+      "metadata_sha256": "2690b95a9b7acde983839d2cbeed024fb082cb23814a7c94528c822408e57e37",
+      "rows": 290
+    },
+    {
+      "core_validation": "validated",
+      "country": "SI",
+      "metadata_sha256": "ae49c239e45eeb1dd8a36c10ee4be3dbf6009c831ae4cd9bc720f80306c24dfc",
+      "rows": 212
+    },
+    {
+      "core_validation": "validated",
+      "country": "SK",
+      "metadata_sha256": "5e23654c2bf6e4318103ed1549e3d418a37fc9b63eeff47b87e399c9057fb397",
+      "rows": 2927
+    },
+    {
+      "core_validation": "validated",
+      "country": "TR",
+      "metadata_sha256": "c39ab044f3941ec8cbc0da80180b10e8fa7d20d569cc98c3d3444128eb772c4d",
+      "rows": 973
+    }
+  ],
+  "country_count": 32,
+  "empty_source_sheets": [
+    {
+      "country": "LI",
+      "skipped_empty_rows": 11,
+      "source_sheet": "LI",
+      "validation": {
+        "core": "",
+        "overall": "",
+        "population_and_area": "not_validated_by_Eurostat"
+      }
+    }
+  ],
+  "note": "No units invented for empty/missing national sheets. Counts overlap GeoNames and existing official registries.",
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "total_rows": 104687
+}

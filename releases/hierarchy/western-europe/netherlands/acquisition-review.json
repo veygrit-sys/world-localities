@@ -1,0 +1,11 @@
+{
+  "before_file_sha256": "3da436a9860d7838f67661cee72609f08f2e77b01496c2698d0c1d266bfbf751",
+  "audited_path_ast_sha256": "f5a76a4cda72761c124af39d22e166563d8e9fbab5bcb4fd42c8039e2b9af914",
+  "after_file_sha256": "2a054d7302224e82843ab8a77c7a1d999a510deaa51b22de5a0518c21082a31c",
+  "changed_definitions": [
+    "acquire",
+    "download_member"
+  ],
+  "audited_path_ast_unchanged": true,
+  "reason": "Protect prior incomplete downloads and only remove partial files created by this invocation. Parsing, search, audit, reference joins, normalization, source and manifest definitions are unchanged."
+}

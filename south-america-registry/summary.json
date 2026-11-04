@@ -1,0 +1,41 @@
+{
+  "address_candidates": 250377,
+  "admin_rows": 21522,
+  "alternate_value_rows": 339656,
+  "country_area_count": 16,
+  "country_scope_only": 283,
+  "current_official_hierarchy_verified": false,
+  "entity_rows": 272379,
+  "full_municipality_coverage_verified": false,
+  "label_coverage": {
+    "current_country_language_name_entities": 110282,
+    "current_english_name_entities": 5922,
+    "language_tagged_name_entities": 114756,
+    "missing_country_language_name_entities": 162097,
+    "missing_english_name_entities": 266457
+  },
+  "limitations": [
+    "Source A/P selection is not independently verified official municipality completeness",
+    "554 unresolved exact-code parent references are retained",
+    "Labels materially incomplete; ASCII is not English",
+    "Source-tagged postal values do not certify delivery coverage",
+    "BR GeoNames and official IBGE counts must not be summed as unique real-world places",
+    "Original source ZIP replay is available for AR, PY; other countries replay preserved entity columns and validate recorded source archive hashes against the inventory"
+  ],
+  "localities_without_adm1": 283,
+  "locality_rows": 250721,
+  "m49_country_area_count": 16,
+  "other_admin_rows": 136,
+  "pending_country_codes": [],
+  "postal_deliverability_verified": false,
+  "source_postal_value_rows": 94,
+  "tests": {
+    "all_entity_replay": "exact",
+    "full_pack_integrity": "passed",
+    "source_archive_replay_countries": [
+      "AR",
+      "PY"
+    ]
+  },
+  "unresolved_parents": 554
+}

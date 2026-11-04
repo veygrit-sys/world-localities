@@ -1,0 +1,84 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "GNB",
+    "country": "GW",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Guinea-Bissau",
+    "geonames_id": "2372248",
+    "id": "country:GW",
+    "m49": "624",
+    "name_en": "Guinea-Bissau",
+    "numeric": "624",
+    "region": "Western Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 3889,
+    "admin_rows": 48,
+    "ambiguous_parents": 0,
+    "country": "GW",
+    "country_scope_only": 3597,
+    "localities_without_adm1": 3597,
+    "locality_rows": 4304,
+    "name_en": "Guinea-Bissau",
+    "other_admin_rows": 4,
+    "region": "Western Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 9,
+    "ADM2": 39,
+    "ADMD": 3,
+    "PCLI": 1,
+    "PPL": 3869,
+    "PPLA": 8,
+    "PPLA2": 3,
+    "PPLC": 1,
+    "PPLQ": 415,
+    "PPLX": 8
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 112828,
+      "rows": 4356,
+      "sha256": "68b014af9afd10589781b7361e2e3fb346f9c3cddc9be6b8dcf2a49269830178",
+      "uncompressed_sha256": "06f989250f80042728989dd6458fc4a1485fd61d438b113e1be02761150b2294"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 3597,
+    "not_assigned_for_other_feature": 4,
+    "source_admin_code": 746,
+    "source_country": 9
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 9,
+      "sha256": "913ba46d0bc7326e638659004fb6b9c6e15b0928028ab2cafb5aa9fffd5fd559"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 148080,
+    "discarded_feature_classes": {
+      "H": 2171,
+      "L": 37,
+      "S": 49,
+      "T": 319,
+      "V": 16
+    },
+    "retained_rows": 4356,
+    "retrieved_on": "2026-09-26",
+    "sha256": "2580b3df23b113856495d67169934370e01683dc95a6bf30b3dc60bb56194b36",
+    "source_rows": 6948,
+    "url": "https://download.geonames.org/export/dump/GW.zip"
+  },
+  "source_modified_max": "2026-06-29",
+  "source_modified_min": "1993-12-23"
+}

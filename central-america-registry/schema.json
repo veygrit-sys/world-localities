@@ -1,0 +1,210 @@
+{
+  "all_csv_values_are_strings": true,
+  "columns": [
+    {
+      "description": "GeoNames entity ID, gn:<geonameid>. Unique source identity, not a reconciled global real-world ID.",
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "description": "admin_subdivision, locality, or other_admin_feature",
+      "name": "kind",
+      "type": "string"
+    },
+    {
+      "description": "1..5 for source ADM1..ADM5 only, otherwise empty.",
+      "name": "admin_level",
+      "type": "string"
+    },
+    {
+      "description": "Resolved direct source administrative reference, country scope reference, or empty.",
+      "name": "parent_id",
+      "type": "string"
+    },
+    {
+      "description": "source_admin_code, source_country, country_scope_only, missing_code, missing_reference, ambiguous_code, not_assigned_for_other_feature",
+      "name": "parent_relation",
+      "type": "string"
+    },
+    {
+      "description": "JSON array of exact full-code parent matches, retained even if ambiguous.",
+      "name": "parent_candidates_json",
+      "type": "string"
+    },
+    {
+      "description": "Resolved source ADM1 ID; self for ADM1. Independent of parent resolution.",
+      "name": "state_id",
+      "type": "string"
+    },
+    {
+      "description": "source_admin_code, self_is_adm1, missing_code, missing_reference, ambiguous_code, not_applicable",
+      "name": "state_relation",
+      "type": "string"
+    },
+    {
+      "description": "JSON array of exact ADM1 matches.",
+      "name": "state_candidates_json",
+      "type": "string"
+    },
+    {
+      "description": "1 for configured settlement feature types, otherwise 0; not a legal-status or deliverability guarantee.",
+      "name": "address_candidate",
+      "type": "string"
+    },
+    {
+      "description": "JSON array of quality flags.",
+      "name": "quality_flags_json",
+      "type": "string"
+    },
+    {
+      "description": "Original GeoNames integer ID as text.",
+      "name": "geonameid",
+      "type": "string"
+    },
+    {
+      "description": "Source name, language undetermined.",
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "description": "Source ASCII rendering; not an English translation.",
+      "name": "asciiname",
+      "type": "string"
+    },
+    {
+      "description": "Original comma-separated aliases without language tags.",
+      "name": "alternatenames",
+      "type": "string"
+    },
+    {
+      "description": "Original decimal latitude in WGS84; source reference point.",
+      "name": "latitude",
+      "type": "string"
+    },
+    {
+      "description": "Original decimal longitude in WGS84; source reference point.",
+      "name": "longitude",
+      "type": "string"
+    },
+    {
+      "description": "Original A or P class.",
+      "name": "feature_class",
+      "type": "string"
+    },
+    {
+      "description": "Original feature code, including historical or unclassified administrative features.",
+      "name": "feature_code",
+      "type": "string"
+    },
+    {
+      "description": "GeoNames country/area alpha-2 code; not an independent sovereignty determination.",
+      "name": "country_code",
+      "type": "string"
+    },
+    {
+      "description": "Original alternate country/area codes.",
+      "name": "cc2",
+      "type": "string"
+    },
+    {
+      "description": "GeoNames ADM1 source code, often FIPS; NOT necessarily ISO 3166-2. Preserve as text.",
+      "name": "admin1_code",
+      "type": "string"
+    },
+    {
+      "description": "Original ADM2 code, not assumed to be a current official municipality code.",
+      "name": "admin2_code",
+      "type": "string"
+    },
+    {
+      "description": "Original ADM3 code.",
+      "name": "admin3_code",
+      "type": "string"
+    },
+    {
+      "description": "Original ADM4 code.",
+      "name": "admin4_code",
+      "type": "string"
+    },
+    {
+      "description": "Original population string; zero is not proof of no residents.",
+      "name": "population",
+      "type": "string"
+    },
+    {
+      "description": "Original elevation string, metres, empty if absent.",
+      "name": "elevation",
+      "type": "string"
+    },
+    {
+      "description": "Original digital elevation model value, metres.",
+      "name": "dem",
+      "type": "string"
+    },
+    {
+      "description": "Original time zone identifier.",
+      "name": "timezone",
+      "type": "string"
+    },
+    {
+      "description": "Original record modification date; not the legal effective date.",
+      "name": "modification_date",
+      "type": "string"
+    }
+  ],
+  "default_candidate_feature_codes": [
+    "PPL",
+    "PPLA",
+    "PPLA2",
+    "PPLA3",
+    "PPLA4",
+    "PPLA5",
+    "PPLC",
+    "PPLG",
+    "PPLL",
+    "PPLX"
+  ],
+  "derived_columns": [
+    "id",
+    "kind",
+    "admin_level",
+    "parent_id",
+    "parent_relation",
+    "parent_candidates_json",
+    "state_id",
+    "state_relation",
+    "state_candidates_json",
+    "address_candidate",
+    "quality_flags_json"
+  ],
+  "encoding": "UTF-8",
+  "format": "CSV with LF line endings; entities.csv.gz uses gzip",
+  "geonames_license": "CC-BY-4.0",
+  "null_representation": "empty string",
+  "raw_source_columns": [
+    "geonameid",
+    "name",
+    "asciiname",
+    "alternatenames",
+    "latitude",
+    "longitude",
+    "feature_class",
+    "feature_code",
+    "country_code",
+    "cc2",
+    "admin1_code",
+    "admin2_code",
+    "admin3_code",
+    "admin4_code",
+    "population",
+    "elevation",
+    "dem",
+    "timezone",
+    "modification_date"
+  ],
+  "references": {
+    "dump_readme": "https://download.geonames.org/export/dump/readme.txt",
+    "feature_codes": "https://www.geonames.org/export/codes.html"
+  },
+  "schema_version": 1
+}

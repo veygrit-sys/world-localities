@@ -1,0 +1,35 @@
+{
+  "country": "SE",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 3025,
+      "rows": 32,
+      "sha256": "6f173c2861ba95b4b42c9fbbfca1c256c04e090c2bd87a3cf8366f811f12310c"
+    },
+    "units.csv.gz": {
+      "bytes": 6192,
+      "rows": 290,
+      "sha256": "f7eb48bfb233b1a1153965c234860c3ddee3810a7c60006204ab40702951c72a"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 290,
+  "skipped_empty_rows": 34656,
+  "source_period_counts": {
+    "2024": 290
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "SE",
+  "validation": {
+    "core": "validated",
+    "overall": "validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

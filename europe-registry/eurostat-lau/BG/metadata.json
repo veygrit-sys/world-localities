@@ -1,0 +1,35 @@
+{
+  "country": "BG",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 3428,
+      "rows": 36,
+      "sha256": "452eb8bc19ee3776476585965e65993861eb38a1d066916936604437421a313b"
+    },
+    "units.csv.gz": {
+      "bytes": 7838,
+      "rows": 265,
+      "sha256": "f0800c77faacb26fb8e8c961639954cf13e07ab55b495f3d70d337c078ab0833"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 265,
+  "skipped_empty_rows": 316,
+  "source_period_counts": {
+    "2024": 265
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "BG",
+  "validation": {
+    "core": "validated",
+    "overall": "validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

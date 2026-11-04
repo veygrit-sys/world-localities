@@ -1,0 +1,1192 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-17T01:48:27.317416+00:00",
+  "scope": "countries",
+  "country_count": 13,
+  "supplementary_area_count": 0,
+  "countries": [
+    {
+      "code": "AG",
+      "name_ja": "アンティグア・バーブーダ",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 8
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 190
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 190
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 190
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 190
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 190
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 190
+        }
+      ],
+      "issues": [],
+      "geonames_place_count": 190,
+      "linked_nodes": 198,
+      "nodes_with_direct_source_issues": 0,
+      "nodes_requiring_source_review": 0,
+      "coverage_notes_ja": "GeoNamesの8上位区分（教区・属島）と集落。COD-ABは国全体のみのため下位階層には使わない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "BS",
+      "name_ja": "バハマ",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-bs-20261017",
+          "kind": "district_or_capital_island_reference",
+          "nodes": 32
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 32
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 353
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 6
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 345
+        },
+        {
+          "field": "admin1",
+          "status": "unresolved",
+          "records": 2
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 353
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 353
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 353
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 353
+        }
+      ],
+      "issues": [
+        {
+          "code": "missing_reference",
+          "field": "admin1",
+          "observations": 2
+        },
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 6
+        }
+      ],
+      "geonames_place_count": 353,
+      "linked_nodes": 417,
+      "nodes_with_direct_source_issues": 8,
+      "nodes_requiring_source_review": 8,
+      "coverage_notes_ja": "COD-ABは2009年ファイルの32区画。首都島New Providenceを含む地理区画で、32の同一制度の地方自治体を意味しない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "BB",
+      "name_ja": "バルバドス",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-bb-20261017",
+          "kind": "parish",
+          "nodes": 11
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 11
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 587
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 6
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 581
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 587
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 587
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 587
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 587
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 6
+        }
+      ],
+      "geonames_place_count": 587,
+      "linked_nodes": 609,
+      "nodes_with_direct_source_issues": 6,
+      "nodes_requiring_source_review": 6,
+      "coverage_notes_ja": "COD-ABの11教区。原典コードはOCHA由来で、政府の公式コードとは断定しない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "CU",
+      "name_ja": "キューバ",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-cu-v01",
+          "kind": "municipality",
+          "nodes": 168
+        },
+        {
+          "namespace": "codab-cu-v01",
+          "kind": "province_or_special_municipality",
+          "nodes": 16
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 16
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 167
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 2
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 16062
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 1
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 16061
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 631
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 15373
+        },
+        {
+          "field": "admin2",
+          "status": "unresolved",
+          "records": 58
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 16062
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 16062
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 16062
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 1
+        },
+        {
+          "code": "parent_tuple_conflict",
+          "field": "admin2",
+          "observations": 58
+        }
+      ],
+      "geonames_place_count": 16062,
+      "linked_nodes": 16431,
+      "nodes_with_direct_source_issues": 59,
+      "nodes_requiring_source_review": 59,
+      "coverage_notes_ja": "COD-ABは15州と特別自治体を含む16上位区分・168自治体。GeoNamesのADM2は167件で、両系統の階層を混合しない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "DM",
+      "name_ja": "ドミニカ国",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-dm-20261017",
+          "kind": "parish",
+          "nodes": 10
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 10
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 132
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 7
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 125
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 132
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 132
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 132
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 132
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 7
+        }
+      ],
+      "geonames_place_count": 132,
+      "linked_nodes": 152,
+      "nodes_with_direct_source_issues": 7,
+      "nodes_requiring_source_review": 7,
+      "coverage_notes_ja": "COD-ABの10教区。原提供元の詳細は公開メタデータで未確定。ドミニカ共和国（DO）とは別国。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "DO",
+      "name_ja": "ドミニカ共和国",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-do-v01",
+          "kind": "municipality",
+          "nodes": 155
+        },
+        {
+          "namespace": "codab-do-v01",
+          "kind": "municipality_seat_or_municipal_district",
+          "nodes": 386
+        },
+        {
+          "namespace": "codab-do-v01",
+          "kind": "planning_region",
+          "nodes": 10
+        },
+        {
+          "namespace": "codab-do-v01",
+          "kind": "province_or_national_district",
+          "nodes": 32
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 32
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 155
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 386
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin4",
+          "nodes": 1565
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin5",
+          "nodes": 12565
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 7938
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 7938
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 333
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 7605
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 335
+        },
+        {
+          "field": "admin3",
+          "status": "resolved",
+          "records": 7603
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 335
+        },
+        {
+          "field": "admin4",
+          "status": "resolved",
+          "records": 7603
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 335
+        },
+        {
+          "field": "admin5",
+          "status": "resolved",
+          "records": 7603
+        }
+      ],
+      "issues": [
+        {
+          "code": "known_incomplete_administrative_snapshot",
+          "field": "source_review",
+          "observations": 1
+        }
+      ],
+      "geonames_place_count": 7938,
+      "linked_nodes": 23224,
+      "nodes_with_direct_source_issues": 1,
+      "nodes_requiring_source_review": 23225,
+      "coverage_notes_ja": "COD-ABは10計画地域・32州等・155市町村・386市町村中心部等。IGN現行公表の158市町村・235市地区との差が残る。GeoNamesの第1階層は州、第5階層まで収録。階層番号を異なる出典間で同一視しない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "GD",
+      "name_ja": "グレナダ",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-gd-v01",
+          "kind": "parish_or_dependency_island",
+          "nodes": 8
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 7
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 300
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 3
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 297
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 300
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 300
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 300
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 300
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 3
+        }
+      ],
+      "geonames_place_count": 300,
+      "linked_nodes": 315,
+      "nodes_with_direct_source_issues": 3,
+      "nodes_requiring_source_review": 3,
+      "coverage_notes_ja": "COD-ABの8区画は6教区とCarriacou、Petite Martiniqueの別区画。GeoNamesは属島をまとめた7上位区分。8教区とは表示しない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "HT",
+      "name_ja": "ハイチ",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-ht-v01",
+          "kind": "communal_section",
+          "nodes": 570
+        },
+        {
+          "namespace": "codab-ht-v01",
+          "kind": "commune",
+          "nodes": 140
+        },
+        {
+          "namespace": "codab-ht-v01",
+          "kind": "department",
+          "nodes": 10
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 10
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 42
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 145
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin4",
+          "nodes": 573
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 10945
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 10945
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 830
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 10102
+        },
+        {
+          "field": "admin2",
+          "status": "unresolved",
+          "records": 13
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 10944
+        },
+        {
+          "field": "admin3",
+          "status": "resolved",
+          "records": 1
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 10945
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 10945
+        }
+      ],
+      "issues": [
+        {
+          "code": "administrative_snapshot_comparison_required",
+          "field": "source_review",
+          "observations": 10
+        },
+        {
+          "code": "missing_reference",
+          "field": "admin3",
+          "observations": 1
+        },
+        {
+          "code": "parent_tuple_conflict",
+          "field": "admin2",
+          "observations": 13
+        }
+      ],
+      "geonames_place_count": 10945,
+      "linked_nodes": 12435,
+      "nodes_with_direct_source_issues": 24,
+      "nodes_requiring_source_review": 734,
+      "coverage_notes_ja": "COD-ABは10県・140コミューン・570共同区、GeoNamesは郡を含む4階層。階層番号と収録件数が異なり、現行の全行政区分としては未検証。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "JM",
+      "name_ja": "ジャマイカ",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-jm-v01",
+          "kind": "parish",
+          "nodes": 14
+        },
+        {
+          "namespace": "codab-jm-v01",
+          "kind": "source_adm2_area",
+          "nodes": 131
+        },
+        {
+          "namespace": "codab-jm-v01",
+          "kind": "source_adm3_area",
+          "nodes": 775
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 14
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 825
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 3639
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 3639
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 9
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 3630
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 3639
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 3639
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 3639
+        }
+      ],
+      "issues": [
+        {
+          "code": "administrative_transition_requires_review",
+          "field": "source_review",
+          "observations": 1
+        }
+      ],
+      "geonames_place_count": 3639,
+      "linked_nodes": 5398,
+      "nodes_with_direct_source_issues": 1,
+      "nodes_requiring_source_review": 5399,
+      "coverage_notes_ja": "COD-ABは14教区・131の第2階層区画・775の第3階層区画。Portmoreの教区化に関連する境界調整をECJが2026年6月に公表しており、施行後の全区分としては未検証。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "KN",
+      "name_ja": "セントクリストファー・ネービス",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-kn-20261017",
+          "kind": "parish",
+          "nodes": 14
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 14
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 129
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 1
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 128
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 129
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 129
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 129
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 129
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 1
+        }
+      ],
+      "geonames_place_count": 129,
+      "linked_nodes": 157,
+      "nodes_with_direct_source_issues": 1,
+      "nodes_requiring_source_review": 1,
+      "coverage_notes_ja": "COD-ABの14教区。Saint KittsとNevisの島別の統治階層を推測して追加しない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "LC",
+      "name_ja": "セントルシア",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-lc-20261017",
+          "kind": "district",
+          "nodes": 10
+        },
+        {
+          "namespace": "codab-lc-20261017",
+          "kind": "settlement_area_reference",
+          "nodes": 547
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 10
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 546
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 337
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 337
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 159
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 178
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 337
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 337
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 337
+        }
+      ],
+      "issues": [],
+      "geonames_place_count": 337,
+      "linked_nodes": 1450,
+      "nodes_with_direct_source_issues": 0,
+      "nodes_requiring_source_review": 0,
+      "coverage_notes_ja": "COD-ABの10地区と547集落区画。GeoNamesの第2階層は546件で、全国の行政自治体数とは扱わない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "VC",
+      "name_ja": "セントビンセントおよびグレナディーン諸島",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-vc-v01",
+          "kind": "parish",
+          "nodes": 6
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 6
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 165
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 23
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 142
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 165
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 165
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 165
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 165
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 23
+        }
+      ],
+      "geonames_place_count": 165,
+      "linked_nodes": 177,
+      "nodes_with_direct_source_issues": 23,
+      "nodes_requiring_source_review": 23,
+      "coverage_notes_ja": "COD-ABの6教区。グレナディーン諸島をグレナダ（GD）に混同しない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "TT",
+      "name_ja": "トリニダード・トバゴ",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-tt-20261017",
+          "kind": "municipal_corporation_or_tobago",
+          "nodes": 15
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 15
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 36
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 460
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 8
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 451
+        },
+        {
+          "field": "admin1",
+          "status": "unresolved",
+          "records": 1
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 459
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 1
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 460
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 460
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 460
+        }
+      ],
+      "issues": [
+        {
+          "code": "missing_reference",
+          "field": "admin1",
+          "observations": 1
+        },
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 8
+        },
+        {
+          "code": "source_administrative_type_requires_review",
+          "field": "source_review",
+          "observations": 15
+        }
+      ],
+      "geonames_place_count": 460,
+      "linked_nodes": 526,
+      "nodes_with_direct_source_issues": 24,
+      "nodes_requiring_source_review": 24,
+      "coverage_notes_ja": "COD-ABの15区画はTrinidadの14自治体とTobago。古いTYPE_1にあるDiego Martin・SipariaのRegion表記は現行Boroughと異なるため要確認。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    }
+  ],
+  "structural_checks": {
+    "foreign_keys": "PASS",
+    "same_country_links": "PASS",
+    "acyclic_rank_order": "PASS"
+  },
+  "limit": "PASS means the processing and structural checks completed; it is not national address completeness."
+}

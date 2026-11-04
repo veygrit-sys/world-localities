@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "source_repository": "rei-k/world-address",
+  "source_commit": "4efec82671b15a6bca4f0099acb6377c55af9aae",
+  "verification_scope": "Offline preserved-byte and snapshot-integrity checks only; no upstream refresh or raw-source rebuild",
+  "source_files": {
+    "files": 151,
+    "bytes": 14862365,
+    "git_blob_sha1_and_sha256": "passed"
+  },
+  "countries": {
+    "US": {
+      "regions": 52,
+      "anchors": 3275,
+      "localities": 68744,
+      "address_candidates": 48544,
+      "categories": {
+        "county_subdivision": 31559,
+        "legal_or_other_place": 19506,
+        "statistical_place": 12849,
+        "fictitious_census_entity": 4830
+      },
+      "vintage": 2026,
+      "observed_at": "2026-09-25T16:36:35.533634+00:00",
+      "original_manifest_hashes": "passed",
+      "unique_ids_and_closed_acyclic_hierarchy": "passed",
+      "source_specific_contracts": "passed"
+    },
+    "CA": {
+      "regions": 13,
+      "anchors": 304,
+      "localities": 5054,
+      "address_candidates": 4589,
+      "categories": {
+        "municipal_or_local_government_census_subdivision": 3442,
+        "unorganized_or_statistical_census_subdivision": 465,
+        "indigenous_census_subdivision": 1122,
+        "settlement_census_subdivision": 25
+      },
+      "vintage": "2025",
+      "observed_at": "2026-09-26T09:09:55.530780+00:00",
+      "original_manifest_hashes": "passed",
+      "unique_ids_and_closed_acyclic_hierarchy": "passed",
+      "source_specific_contracts": "passed"
+    },
+    "MX": {
+      "regions": 32,
+      "anchors": 33,
+      "localities": 2478,
+      "address_candidates": 2478,
+      "categories": {
+        "municipality_geostatistical_area": 2462,
+        "territorial_demarcation": 16
+      },
+      "vintage": "2025-07",
+      "observed_at": "2026-09-26T08:15:49.123932+00:00",
+      "original_manifest_hashes": "passed",
+      "unique_ids_and_closed_acyclic_hierarchy": "passed",
+      "source_specific_contracts": "passed"
+    },
+    "BR": {
+      "regions": 27,
+      "anchors": 28,
+      "localities": 5571,
+      "address_candidates": 5571,
+      "categories": {
+        "municipality": 5569,
+        "federal_district_locality_equivalent": 1,
+        "state_district": 1
+      },
+      "vintage": null,
+      "observed_at": "2026-09-26T06:17:18.008790+00:00",
+      "original_manifest_hashes": "passed",
+      "unique_ids_and_closed_acyclic_hierarchy": "passed",
+      "source_specific_contracts": "passed"
+    }
+  },
+  "total_locality_rows": 81847,
+  "total_anchor_rows": 3640,
+  "no_address1": true,
+  "current_source_freshness_verified": false,
+  "full_continent_coverage": false
+}

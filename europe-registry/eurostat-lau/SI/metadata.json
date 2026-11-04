@@ -1,0 +1,35 @@
+{
+  "country": "SI",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 1462,
+      "rows": 15,
+      "sha256": "f40ab2f6ee235aa42b105d159b2d53705028618c78356ca33b39e357f2028ef7"
+    },
+    "units.csv.gz": {
+      "bytes": 4944,
+      "rows": 212,
+      "sha256": "a1001a733c3c3ab66b2026d248c0d7f1b38fda1d7c42333a62950cdd11f4249f"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 212,
+  "skipped_empty_rows": 34734,
+  "source_period_counts": {
+    "2024": 212
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "SI",
+  "validation": {
+    "core": "validated",
+    "overall": "validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

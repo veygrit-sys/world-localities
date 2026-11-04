@@ -1,0 +1,91 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "ETH",
+    "country": "ET",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Ethiopia",
+    "geonames_id": "337996",
+    "id": "country:ET",
+    "m49": "231",
+    "name_en": "Ethiopia",
+    "numeric": "231",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 11103,
+    "admin_rows": 375,
+    "ambiguous_parents": 0,
+    "country": "ET",
+    "country_scope_only": 6,
+    "localities_without_adm1": 162,
+    "locality_rows": 11114,
+    "name_en": "Ethiopia",
+    "other_admin_rows": 100,
+    "region": "Eastern Africa",
+    "unresolved_parents": 251
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 14,
+    "ADM1H": 1,
+    "ADM2": 124,
+    "ADM3": 237,
+    "ADMD": 98,
+    "PCLI": 1,
+    "PPL": 10990,
+    "PPLA": 12,
+    "PPLA3": 16,
+    "PPLC": 1,
+    "PPLF": 10,
+    "PPLL": 76,
+    "PPLQ": 1,
+    "PPLX": 8
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 372168,
+      "rows": 11589,
+      "sha256": "5481624c1e9f3628839527731c51dee79b38b80b15f3027dbff8d9d49299e3a2",
+      "uncompressed_sha256": "9f4b06ff1c96545ad48b7d3a96a708186da8d2ac0cd409a023ab4aadb25ec293"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 6,
+    "missing_code": 80,
+    "missing_reference": 171,
+    "not_assigned_for_other_feature": 100,
+    "source_admin_code": 11218,
+    "source_country": 14
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 14,
+      "sha256": "75dd8b500096672c2d31129cac659b56abe01f175f229e428cde12784292bf19"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 598217,
+    "discarded_feature_classes": {
+      "H": 4024,
+      "L": 1518,
+      "R": 5,
+      "S": 1513,
+      "T": 2387,
+      "V": 31
+    },
+    "retained_rows": 11589,
+    "retrieved_on": "2026-09-26",
+    "sha256": "7dd4a29526c753736bee83cc61e734b9942b432f7f596d60e660870139e72ab4",
+    "source_rows": 21067,
+    "url": "https://download.geonames.org/export/dump/ET.zip"
+  },
+  "source_modified_max": "2026-09-25",
+  "source_modified_min": "1993-12-08"
+}

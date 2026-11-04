@@ -1,0 +1,35 @@
+{
+  "country": "HR",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 2501,
+      "rows": 26,
+      "sha256": "022a6dccd12719edc9dde92ce7dcf7ef8c7f5c46191aeb94858d15f9669692a5"
+    },
+    "units.csv.gz": {
+      "bytes": 12176,
+      "rows": 556,
+      "sha256": "41d4b61f3fe080d66f72434da8b7a801717d601bb985f7e4b44f4170b24b9c73"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 556,
+  "skipped_empty_rows": 34390,
+  "source_period_counts": {
+    "2024": 556
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "HR",
+  "validation": {
+    "core": "validated",
+    "overall": "validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

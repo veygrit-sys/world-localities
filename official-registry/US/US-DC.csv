@@ -1,0 +1,3 @@
+id,code,source_type,category,name,lang,parent_id,state_id,state_code,address_country,address_candidate,postcodes,postcode_relations,government_status,department_code,collectivity_code
+locality:us:census:cousub:1100150000,1100150000,cousub,fictitious_census_entity,Washington city,en,admin:us:census:county:11001,admin:csc:1437,US-DC,US,0,,,fictitious_census_entity,,
+locality:us:census:place:1150000,1150000,place,legal_or_other_place,Washington city,en,admin:csc:1437,admin:csc:1437,US-DC,US,1,,,nonfunctioning_legal_entity,,

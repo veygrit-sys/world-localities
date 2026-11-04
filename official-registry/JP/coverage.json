@@ -1,0 +1,135 @@
+{
+  "country": "JP",
+  "official_entities": 1959,
+  "prefectures": 47,
+  "municipalities_and_wards": 1912,
+  "postal_municipalities_and_wards": 1892,
+  "names": 11553,
+  "postal_source_rows": 124526,
+  "roman_source_rows": 124788,
+  "unique_postcodes": 120720,
+  "municipality_postcode_pairs": 120877,
+  "postcodes_shared_by_multiple_entities": 134,
+  "roman_match_status": {
+    "matched_unique": 121867,
+    "unmatched": 2657,
+    "ambiguous": 2
+  },
+  "roman_storage_fields": {
+    "algorithm": 295029,
+    "literal": 70572,
+    "unavailable": 7977
+  },
+  "romanization_method": "jp-postal-kana-v1",
+  "roman_truncation_possible": 1285,
+  "geonames_candidate_status": {
+    "candidate_name_and_prefecture": 869,
+    "candidate_code_and_name": 1088
+  },
+  "official_geonames_crosswalks": 0,
+  "english_translation_claims": 0,
+  "business_postcodes_included": false,
+  "files": {
+    "entities.csv.gz": {
+      "rows": 1959,
+      "bytes": 47514,
+      "sha256": "50b2252e885cd43dfe569f73031de783d6a4450687ae038ca55d69ec782f0a53",
+      "columns": [
+        "entity_id",
+        "country",
+        "lg_code",
+        "jis_code",
+        "kind",
+        "parent_id",
+        "state_id",
+        "native_name",
+        "address_name",
+        "address_candidate",
+        "source_ref",
+        "source_row",
+        "source_effective_from",
+        "source_effective_to"
+      ]
+    },
+    "names.csv.gz": {
+      "rows": 11553,
+      "bytes": 104590,
+      "sha256": "5b1b8aa6fdfd1a1130e9991b9c0d96625be6cf8173e758f8a7f88bcb516c5eb7",
+      "columns": [
+        "entity_id",
+        "language",
+        "text",
+        "kind",
+        "audience",
+        "source_ref"
+      ]
+    },
+    "postal_rows.csv.gz": {
+      "rows": 124526,
+      "bytes": 5477305,
+      "sha256": "42966a0a1e85173c37cfc2aeb37f9d1e3792b3173ba54f670e2d02b6254c004f",
+      "columns": [
+        "association_id",
+        "country",
+        "scheme",
+        "code",
+        "code_kind",
+        "entity_id",
+        "jis_code",
+        "prefecture_ja",
+        "municipality_ja",
+        "town_ja",
+        "prefecture_kana",
+        "municipality_kana",
+        "town_kana",
+        "prefecture_roman",
+        "municipality_roman",
+        "town_roman",
+        "roman_language",
+        "roman_match_status",
+        "roman_storage_modes",
+        "roman_method",
+        "roman_row",
+        "roman_truncation_possible",
+        "town_is_postal_instruction",
+        "town_has_multiple_codes",
+        "numbering_by_subarea",
+        "has_chome",
+        "code_has_multiple_towns",
+        "update_flag",
+        "change_reason",
+        "old_code",
+        "source_ref",
+        "source_row",
+        "roman_source_ref"
+      ]
+    },
+    "unresolved_roman.csv": {
+      "rows": 2659,
+      "bytes": 299535,
+      "sha256": "3796e183f569a1301a2a0308d88678648f5ba43dd128821d896c1772a66e6644",
+      "columns": [
+        "source_row",
+        "jis_code",
+        "code",
+        "municipality_ja",
+        "town_ja",
+        "status",
+        "candidate_roman_rows"
+      ]
+    },
+    "geonames_candidates.csv": {
+      "rows": 1957,
+      "bytes": 210221,
+      "sha256": "f2e031e4ab45e02b096579b738c9c2e7073d245156207e9ea95fba80c328a2f9",
+      "columns": [
+        "entity_id",
+        "geonames_id",
+        "status",
+        "method",
+        "matched_name",
+        "official_jis_code"
+      ]
+    }
+  }
+}

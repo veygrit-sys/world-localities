@@ -1,0 +1,170 @@
+{
+  "countries": 32,
+  "errors": 0,
+  "note": "Structural and source-preservation checks, not new Eurostat validation.",
+  "reports": [
+    {
+      "country": "AT",
+      "rows": 2093,
+      "status": "pass"
+    },
+    {
+      "country": "BE",
+      "rows": 581,
+      "status": "pass"
+    },
+    {
+      "country": "BG",
+      "rows": 265,
+      "status": "pass"
+    },
+    {
+      "country": "CH",
+      "rows": 2131,
+      "status": "pass"
+    },
+    {
+      "country": "CY",
+      "rows": 538,
+      "status": "pass"
+    },
+    {
+      "country": "CZ",
+      "rows": 6258,
+      "status": "pass"
+    },
+    {
+      "country": "DE",
+      "rows": 10957,
+      "status": "pass"
+    },
+    {
+      "country": "DK",
+      "rows": 99,
+      "status": "pass"
+    },
+    {
+      "country": "EE",
+      "rows": 79,
+      "status": "pass"
+    },
+    {
+      "country": "ES",
+      "rows": 8132,
+      "status": "pass"
+    },
+    {
+      "country": "FI",
+      "rows": 309,
+      "status": "pass"
+    },
+    {
+      "country": "FR",
+      "rows": 34936,
+      "status": "pass"
+    },
+    {
+      "country": "GR",
+      "rows": 6142,
+      "status": "pass"
+    },
+    {
+      "country": "HR",
+      "rows": 556,
+      "status": "pass"
+    },
+    {
+      "country": "HU",
+      "rows": 3155,
+      "status": "pass"
+    },
+    {
+      "country": "IE",
+      "rows": 166,
+      "status": "pass"
+    },
+    {
+      "country": "IT",
+      "rows": 7896,
+      "status": "pass"
+    },
+    {
+      "country": "LT",
+      "rows": 60,
+      "status": "pass"
+    },
+    {
+      "country": "LU",
+      "rows": 100,
+      "status": "pass"
+    },
+    {
+      "country": "LV",
+      "rows": 43,
+      "status": "pass"
+    },
+    {
+      "country": "MK",
+      "rows": 80,
+      "status": "pass"
+    },
+    {
+      "country": "MT",
+      "rows": 68,
+      "status": "pass"
+    },
+    {
+      "country": "NL",
+      "rows": 342,
+      "status": "pass"
+    },
+    {
+      "country": "NO",
+      "rows": 379,
+      "status": "pass"
+    },
+    {
+      "country": "PL",
+      "rows": 2477,
+      "status": "pass"
+    },
+    {
+      "country": "PT",
+      "rows": 3092,
+      "status": "pass"
+    },
+    {
+      "country": "RO",
+      "rows": 3181,
+      "status": "pass"
+    },
+    {
+      "country": "RS",
+      "rows": 6170,
+      "status": "pass"
+    },
+    {
+      "country": "SE",
+      "rows": 290,
+      "status": "pass"
+    },
+    {
+      "country": "SI",
+      "rows": 212,
+      "status": "pass"
+    },
+    {
+      "country": "SK",
+      "rows": 2927,
+      "status": "pass"
+    },
+    {
+      "country": "TR",
+      "rows": 973,
+      "status": "pass"
+    }
+  ],
+  "rows": 104687,
+  "source_workbook_replay": "exact",
+  "status": "pass"
+}

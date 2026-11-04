@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "encoding": "UTF-8 CSV, gzip mtime=0",
+  "all_csv_values_are_strings": true,
+  "columns": {
+    "id": "gn-alt:<alternateNameId>; source record identity",
+    "entity_id": "gn:<geonameid>; exact retained entity foreign key",
+    "record_kind": "name, abbreviation, phonetic, postal_code, link, wikidata_id, iata, icao, or faac, unlocode, transport_canada_id",
+    "alternate_name_id": "Original source identifier",
+    "geonameid": "Original entity identifier",
+    "language": "Original GeoNames language or non-language tag; empty remains undetermined",
+    "name": "Original alternate name or non-language value",
+    "is_preferred": "Original 1 or empty; GeoNames preferred flag, not independent legal verification",
+    "is_short": "Original 1 or empty",
+    "is_colloquial": "Original 1 or empty",
+    "is_historic": "Original 1 or empty",
+    "from": "Original temporal bound, unparsed",
+    "to": "Original temporal bound, unparsed"
+  },
+  "license": "CC-BY-4.0",
+  "source_url": "https://download.geonames.org/export/dump/readme.txt",
+  "notes": [
+    "English labels require en or en-* source tags.",
+    "Source country language-code metadata is not proof of legal official/native status.",
+    "Postal projection is duplicate subset, not additional alternate rows.",
+    "All ten raw alternateNamesV2 fields are retained; language tags are never inferred from ASCII."
+  ],
+  "source_tag_reference": "https://img.geonames.org/manual.html"
+}

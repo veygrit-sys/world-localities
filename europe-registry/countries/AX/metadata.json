@@ -1,0 +1,88 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "ALA",
+    "country": "AX",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Aland Islands",
+    "geonames_id": "661882",
+    "id": "country:AX",
+    "m49": "248",
+    "m49_region": "Europe",
+    "name_en": "Åland Islands",
+    "region": "Northern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 338,
+    "admin_rows": 19,
+    "ambiguous_parents": 0,
+    "country": "AX",
+    "country_scope_only": 3,
+    "localities_without_adm1": 3,
+    "locality_rows": 338,
+    "name_en": "Åland Islands",
+    "other_admin_rows": 0,
+    "region": "Northern Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 3,
+    "ADM2": 16,
+    "PPL": 285,
+    "PPLA2": 15,
+    "PPLC": 1,
+    "PPLL": 35,
+    "PPLX": 2
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 14609,
+      "rows": 357,
+      "sha256": "b64e1beb2c91517a90938071ba635695001847aff1812e914454c4730dde1c19",
+      "uncompressed_sha256": "9451898aab229a0b9e4851ffda89aede8ff3894e1ec5d9da7d869f8057c68703"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 3,
+    "source_admin_code": 351,
+    "source_country": 3
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 3,
+      "sha256": "4bd1c1dff451c00a76ff2260c0c9318844f716ea935463e6137fec212568bb8a"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 3647,
+    "bytes": 95159,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 370,
+      "L": 7,
+      "S": 124,
+      "T": 2752,
+      "U": 1,
+      "V": 35
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:51:25 GMT",
+    "retained_rows": 357,
+    "retrieved_at": "2026-09-29T11:13:10.686862+00:00",
+    "sha256": "79328957047c9e7f893358e8bec57e18c23a9bc5dceb46ee4b874cd4c2587e0a",
+    "url": "https://download.geonames.org/export/dump/AX.zip"
+  },
+  "source_modified_max": "2026-07-16",
+  "source_modified_min": "2014-09-26"
+}

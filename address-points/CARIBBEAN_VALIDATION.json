@@ -1,0 +1,745 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-17T01:48:30.943617+00:00",
+  "behavior_tests": 63,
+  "country_count": 13,
+  "supplementary_area_count": 15,
+  "source_integrity_objects": 106,
+  "observation_replays": [
+    {
+      "source": "ag-geonames-geonames",
+      "rows": 198,
+      "canonical_row_sha256": "aa5591d5578dcbf81fb347e607cfe47d5688741f8734fb01c3a8be6c1ba68ef7",
+      "status": "PASS"
+    },
+    {
+      "source": "ai-geonames-geonames",
+      "rows": 59,
+      "canonical_row_sha256": "0814e2c008c97d640e5a4041de8f00158306d022ca97b41a25479791e24b1e78",
+      "status": "PASS"
+    },
+    {
+      "source": "aw-geonames-geonames",
+      "rows": 172,
+      "canonical_row_sha256": "56cf2e85a4381a3c3bbfee9dea6485acb57ab8b06cb795a5380a911d1d0f97b5",
+      "status": "PASS"
+    },
+    {
+      "source": "bb-codab-gazetteer",
+      "rows": 11,
+      "canonical_row_sha256": "7e8d065266ddd0b9ef4e0dd2f31528980cd946f5fba8a2897f2d69015153e7e8",
+      "status": "PASS"
+    },
+    {
+      "source": "bb-geonames-geonames",
+      "rows": 598,
+      "canonical_row_sha256": "4079ba8f90c9332ae651fcc8fc75a521c20531e39e4eb5426c2a8795c65f3ea2",
+      "status": "PASS"
+    },
+    {
+      "source": "bl-geonames-geonames",
+      "rows": 29,
+      "canonical_row_sha256": "5cb6b30cdb2b642efea96cb12ca67194aaeb508d84366881800e89825dc63957",
+      "status": "PASS"
+    },
+    {
+      "source": "bq-codab-gazetteer",
+      "rows": 3,
+      "canonical_row_sha256": "fca8e99b2c2afc614302e4a38f84be9fa9104214e51117edd7f317aa60918bc9",
+      "status": "PASS"
+    },
+    {
+      "source": "bq-geonames-geonames",
+      "rows": 122,
+      "canonical_row_sha256": "520331d833aa03ea5c2cc87f3f4fbf5dba142961954e40a57a39883de3c9ec4e",
+      "status": "PASS"
+    },
+    {
+      "source": "bs-codab-gazetteer",
+      "rows": 32,
+      "canonical_row_sha256": "51376316045d9ef9071e0d98704986b44439bf302f91df70c136fdea7fd923a6",
+      "status": "PASS"
+    },
+    {
+      "source": "bs-geonames-geonames",
+      "rows": 385,
+      "canonical_row_sha256": "3edb1772a656d0865412d1750da593b73a52f1c7fb7ffb6b8604533eab34a5cb",
+      "status": "PASS"
+    },
+    {
+      "source": "cu-codab-gazetteer",
+      "rows": 184,
+      "canonical_row_sha256": "c9d6045e5f363e876a3147f40bea33e29f9ca634e479b0ff6b390d9af5257efe",
+      "status": "PASS"
+    },
+    {
+      "source": "cu-geonames-geonames",
+      "rows": 16247,
+      "canonical_row_sha256": "fb69e9c46d79219306c1006e94c923f606b3eb278df958c924fbdc282fc7dc18",
+      "status": "PASS"
+    },
+    {
+      "source": "cw-codab-gazetteer",
+      "rows": 66,
+      "canonical_row_sha256": "77c0a99924a4dbb93ea367ab84e34bed23a876ded00ab0ea4baf6d2cfbb8d69c",
+      "status": "PASS"
+    },
+    {
+      "source": "cw-geonames-geonames",
+      "rows": 100,
+      "canonical_row_sha256": "37c58b62486349639b4468487f7fe6e7a2d40c040cdee3c7dc5bb4de4a15c54a",
+      "status": "PASS"
+    },
+    {
+      "source": "dm-codab-gazetteer",
+      "rows": 10,
+      "canonical_row_sha256": "7b107687b2df6c71fc6252727862e1ef4f5d310aaea373a63c4ffdfbe20f78f8",
+      "status": "PASS"
+    },
+    {
+      "source": "dm-geonames-geonames",
+      "rows": 142,
+      "canonical_row_sha256": "55c02c0f6152aa16348188c8f85cadcd2587bf8898f74314279f37d113c39a21",
+      "status": "PASS"
+    },
+    {
+      "source": "do-codab-gazetteer",
+      "rows": 583,
+      "canonical_row_sha256": "6f89e389aebd536ca238298695de4ee6e8da049c605d6114eb8cce60b7bcf6e4",
+      "status": "PASS"
+    },
+    {
+      "source": "do-geonames-geonames",
+      "rows": 22641,
+      "canonical_row_sha256": "6aada1990054d915857fc3844c978ab88b58f11fb6d12f7bfa82781e53de71d4",
+      "status": "PASS"
+    },
+    {
+      "source": "fr-insee-cog-2026",
+      "rows": 82,
+      "canonical_row_sha256": "5bc61c16888629633593836d859722ec73c2daefe599e7c85455133667f8bc1c",
+      "status": "PASS"
+    },
+    {
+      "source": "gd-codab-gazetteer",
+      "rows": 8,
+      "canonical_row_sha256": "b9a2edff12f93ff082457170c150560946822f3ed595e8f2a68751d14bd94695",
+      "status": "PASS"
+    },
+    {
+      "source": "gd-geonames-geonames",
+      "rows": 307,
+      "canonical_row_sha256": "439541e49dfbd5c176e26c353e85bdcf11b6ab653c6221ad9900032e849d9a8e",
+      "status": "PASS"
+    },
+    {
+      "source": "gn-admin1CodesASCII",
+      "rows": 294,
+      "canonical_row_sha256": "68b5b1469e25a73d8bc91d18af89e0f65f481ef77e7cb75a68e67566fc9d75b1",
+      "status": "PASS"
+    },
+    {
+      "source": "gn-admin2Codes",
+      "rows": 2695,
+      "canonical_row_sha256": "675ef1d7275b0a9b25c7edfc3a054786c8d8e9605f36ed9db13d5308979b3c85",
+      "status": "PASS"
+    },
+    {
+      "source": "gn-adminCode5",
+      "rows": 20168,
+      "canonical_row_sha256": "134ee886f0155e94416e9c150d040e398396be0ce6de52095f1b8f7d50df3add",
+      "status": "PASS"
+    },
+    {
+      "source": "gp-geonames-geonames",
+      "rows": 1615,
+      "canonical_row_sha256": "fbdde531ec5989e99c31cb41bc60e32c0103cc4f74df4729bffe4ceed9464833",
+      "status": "PASS"
+    },
+    {
+      "source": "ht-codab-gazetteer",
+      "rows": 720,
+      "canonical_row_sha256": "464705c682ce50d075ad006f85e304672d08d79438203a7d4e0c74d87e551076",
+      "status": "PASS"
+    },
+    {
+      "source": "ht-geonames-geonames",
+      "rows": 11715,
+      "canonical_row_sha256": "71a24563d747637ef7fdd04a2c0af8596ee06ececea111cb446fad54c32a86b3",
+      "status": "PASS"
+    },
+    {
+      "source": "jm-codab-gazetteer",
+      "rows": 920,
+      "canonical_row_sha256": "91a7b1384b7d69e3bbcaefb223023290d67ffc3af08b88cb2bc43a4733b517ab",
+      "status": "PASS"
+    },
+    {
+      "source": "jm-geonames-geonames",
+      "rows": 4478,
+      "canonical_row_sha256": "e5a9ae29f9c006bcfbd5f4a3b64b653d5f2c0d555b74357416868287bac14dc7",
+      "status": "PASS"
+    },
+    {
+      "source": "kn-codab-gazetteer",
+      "rows": 14,
+      "canonical_row_sha256": "b7cdbf573387c2be7c85d8ecf4f31bdb0f1878bc154055b28cc5d31091d63972",
+      "status": "PASS"
+    },
+    {
+      "source": "kn-geonames-geonames",
+      "rows": 143,
+      "canonical_row_sha256": "d46a6432b41f395d3c49c9b4b296ea38ceedf9b767b27dbbb8266868ac81d0f5",
+      "status": "PASS"
+    },
+    {
+      "source": "ky-codab-gazetteer",
+      "rows": 6,
+      "canonical_row_sha256": "e005b6268ab3d36d3f8bd697df2df1f64df1cd7b8f5171fc415d0a81aefb1831",
+      "status": "PASS"
+    },
+    {
+      "source": "ky-geonames-geonames",
+      "rows": 86,
+      "canonical_row_sha256": "873365b3f562ddbff66ff029d98b8ad2e6f7d75d77a30285f7a2482cbcb91854",
+      "status": "PASS"
+    },
+    {
+      "source": "lc-codab-gazetteer",
+      "rows": 557,
+      "canonical_row_sha256": "37eebec1ded2618f458aed5acf41c3c2ec8af545e309f9a2f0029854d81917e6",
+      "status": "PASS"
+    },
+    {
+      "source": "lc-geonames-geonames",
+      "rows": 893,
+      "canonical_row_sha256": "ba10d04fe4c26eeb26869ad45b19fca214a9e1ea9bd74729a71a75c3c52a56b5",
+      "status": "PASS"
+    },
+    {
+      "source": "mf-geonames-geonames",
+      "rows": 62,
+      "canonical_row_sha256": "5b6e88958f9a142bfd36c503df1f644005912ad67fa77f75a7973de9346dd5fe",
+      "status": "PASS"
+    },
+    {
+      "source": "mq-geonames-geonames",
+      "rows": 1334,
+      "canonical_row_sha256": "fd0d6f7a397af5c3c09230da3f2ae624fcf1946517b244fc2d7c97a9e58b5879",
+      "status": "PASS"
+    },
+    {
+      "source": "ms-codab-gazetteer",
+      "rows": 3,
+      "canonical_row_sha256": "3d3974b3859bc02dba8f9e4359d3a6ba67942fbcec9546aa2a0fa49fa7bda7a9",
+      "status": "PASS"
+    },
+    {
+      "source": "ms-geonames-geonames",
+      "rows": 63,
+      "canonical_row_sha256": "3d658aa6341d8886b8119b07b4a90b5dac04d0f2e1e70714d98869ac48a90f9e",
+      "status": "PASS"
+    },
+    {
+      "source": "pr-census-counties",
+      "rows": 78,
+      "canonical_row_sha256": "b06224f4470173ab8f087486cf1ca69e9004f693978bdb63bcd12fd2681213a2",
+      "status": "PASS"
+    },
+    {
+      "source": "pr-census-cousubs",
+      "rows": 939,
+      "canonical_row_sha256": "4750c36bd0ff59203ab8678f95bfe92f7071cb317ac543400e3ba72a8220ac18",
+      "status": "PASS"
+    },
+    {
+      "source": "pr-census-place",
+      "rows": 292,
+      "canonical_row_sha256": "d515a60631974f5d6816d0b2ee2052054cc9aa57af1a22428773f3da7a791505",
+      "status": "PASS"
+    },
+    {
+      "source": "pr-census-state",
+      "rows": 1,
+      "canonical_row_sha256": "7d6821e099c0712080a73d8c387c396d105df82e42819b61eec81b60c6a0b03c",
+      "status": "PASS"
+    },
+    {
+      "source": "pr-geonames-geonames",
+      "rows": 3599,
+      "canonical_row_sha256": "8f46aad879569254b18daa2a94daec82751df59748c2f4f7c45ac91f5985eaac",
+      "status": "PASS"
+    },
+    {
+      "source": "sx-codab-gazetteer",
+      "rows": 8,
+      "canonical_row_sha256": "85069e2679909b3891aad289d50788af47ee7757a9feb02ed4452c2fd6db1198",
+      "status": "PASS"
+    },
+    {
+      "source": "sx-geonames-geonames",
+      "rows": 62,
+      "canonical_row_sha256": "b337ca3cedd4f49f974c79059f93bf9bdc8c3074e66f10b6c2c42afc86dd8e9d",
+      "status": "PASS"
+    },
+    {
+      "source": "tc-codab-gazetteer",
+      "rows": 36,
+      "canonical_row_sha256": "b8af8e06c44823a37fb39bb9b553b176e0240539166eaec121e9345e4a49a301",
+      "status": "PASS"
+    },
+    {
+      "source": "tc-geonames-geonames",
+      "rows": 41,
+      "canonical_row_sha256": "147f9ad5c828163d5498db2a774650eca7185cddabe932bed843cac885226937",
+      "status": "PASS"
+    },
+    {
+      "source": "tt-codab-gazetteer",
+      "rows": 15,
+      "canonical_row_sha256": "6befff53326a6ee94573aa43d47296a0c3acb560935546fc84d71d20a078647c",
+      "status": "PASS"
+    },
+    {
+      "source": "tt-geonames-geonames",
+      "rows": 511,
+      "canonical_row_sha256": "6b712d70625293dd48e3ae3b49bca4ed17f797412bbc570a699b4b4163cae8e1",
+      "status": "PASS"
+    },
+    {
+      "source": "vc-codab-gazetteer",
+      "rows": 6,
+      "canonical_row_sha256": "d78b4cfa03e7e0096ae8903181cc7deb492bd142f41728ad5a2abe498c31a16c",
+      "status": "PASS"
+    },
+    {
+      "source": "vc-geonames-geonames",
+      "rows": 171,
+      "canonical_row_sha256": "6480adb940a9f325da2ad72538b9bfe1bbe1484d69564e02ee42495dd7ff0a30",
+      "status": "PASS"
+    },
+    {
+      "source": "vg-codab-gazetteer",
+      "rows": 6,
+      "canonical_row_sha256": "a043f82d9079e26ea699d5ac35e7ec520633e06b31187590387b5de6d0565d8c",
+      "status": "PASS"
+    },
+    {
+      "source": "vg-geonames-geonames",
+      "rows": 142,
+      "canonical_row_sha256": "91ca6b4845c47e68c96638b66a0dc4f7e8bf04de9d446a3efeb4c66ab5e3ed87",
+      "status": "PASS"
+    },
+    {
+      "source": "vi-codab-gazetteer",
+      "rows": 23,
+      "canonical_row_sha256": "f02c55b0c3fb87816bc38cbd1dea4bef38594b3958fa9a81adf90c5f753bbab2",
+      "status": "PASS"
+    },
+    {
+      "source": "vi-geonames-geonames",
+      "rows": 245,
+      "canonical_row_sha256": "1a06ea34de6f22fc6ae001945b865cc75f03b03f952bae8fe0ab2bc0f6780a62",
+      "status": "PASS"
+    }
+  ],
+  "alternate_name_replays": [
+    {
+      "source": "ag-geonames-names",
+      "rows": 1057,
+      "canonical_row_sha256": "600c5627ca3001735b6412b017c2c53de529f99b22c9f69aa97cb0124b0a1c2b",
+      "status": "PASS"
+    },
+    {
+      "source": "ai-geonames-names",
+      "rows": 428,
+      "canonical_row_sha256": "318867c2df0f077b073ad019cf22df8f7e067642e0615cd95db67cf762e3f966",
+      "status": "PASS"
+    },
+    {
+      "source": "aw-geonames-names",
+      "rows": 161,
+      "canonical_row_sha256": "59832d218869cfc7d34d396d584a9b04008d0816fb229d834ce7df60434013c1",
+      "status": "PASS"
+    },
+    {
+      "source": "bb-geonames-names",
+      "rows": 1067,
+      "canonical_row_sha256": "88205efc1605ab3ae90cccdf6400958209f9ee6e5fef3d609de2707823cf6c87",
+      "status": "PASS"
+    },
+    {
+      "source": "bl-geonames-names",
+      "rows": 103,
+      "canonical_row_sha256": "fc49f402b8f354d5a2a7aaeddfeae0954d8c1b5d7ec6e0935fc01dd03c1c7b07",
+      "status": "PASS"
+    },
+    {
+      "source": "bq-geonames-names",
+      "rows": 235,
+      "canonical_row_sha256": "1ac5831f81a0ccfdd52bf6724e51d1302c86c0ea1c57a3a55865c644b15806cc",
+      "status": "PASS"
+    },
+    {
+      "source": "bs-geonames-names",
+      "rows": 2508,
+      "canonical_row_sha256": "471c3016a3edaf28288f8a10379efd468f6dd2d5057dc6a9e5df58d877c9913f",
+      "status": "PASS"
+    },
+    {
+      "source": "cu-geonames-names",
+      "rows": 18812,
+      "canonical_row_sha256": "8a98836257e81a46cb8e3147258b99f534f138d8a047b4c1a760b94123b4d599",
+      "status": "PASS"
+    },
+    {
+      "source": "cw-geonames-names",
+      "rows": 131,
+      "canonical_row_sha256": "c48a18de770d19c4a6d779a5f6d9aafb5ff021880e30eb24ead81182f33cc618",
+      "status": "PASS"
+    },
+    {
+      "source": "dm-geonames-names",
+      "rows": 1138,
+      "canonical_row_sha256": "f3b3a8b69e9b7ffcfa246419d16519624ac7f1e92c7c65038e8a552b98e12149",
+      "status": "PASS"
+    },
+    {
+      "source": "do-geonames-names",
+      "rows": 9640,
+      "canonical_row_sha256": "252e9afa043673974237ffc5523cdee25d847f32fcd21d95428666419b156695",
+      "status": "PASS"
+    },
+    {
+      "source": "gd-geonames-names",
+      "rows": 609,
+      "canonical_row_sha256": "e682ad3dd9d4635717c4a60c1c1c8563d74b6ab81749cb753675a6d8dd402173",
+      "status": "PASS"
+    },
+    {
+      "source": "gp-geonames-names",
+      "rows": 1826,
+      "canonical_row_sha256": "29a266005ea90fbed9ea8d3802e0fcbb4381b80c3b6586db8e840596957e796d",
+      "status": "PASS"
+    },
+    {
+      "source": "ht-geonames-names",
+      "rows": 8598,
+      "canonical_row_sha256": "2765d9e06d68ccc7c9e0dbc425558362707d6ad9a7dab633c44c2b7b5f2598ab",
+      "status": "PASS"
+    },
+    {
+      "source": "jm-geonames-names",
+      "rows": 3131,
+      "canonical_row_sha256": "76396d88cfaf9d84b78dc2bb1b8f917e4c5dcf776f6fdb873afc4cb7ae2ac95d",
+      "status": "PASS"
+    },
+    {
+      "source": "kn-geonames-names",
+      "rows": 930,
+      "canonical_row_sha256": "ddd56f446f2e403a876fbd1d18a8d39f9be8327d8cd19a7653cee79984a0ed60",
+      "status": "PASS"
+    },
+    {
+      "source": "ky-geonames-names",
+      "rows": 211,
+      "canonical_row_sha256": "28f0f4a94df854a8cc010d1a2fe271c9fdb5092648bd6251c2a093a6749d0ef2",
+      "status": "PASS"
+    },
+    {
+      "source": "lc-geonames-names",
+      "rows": 664,
+      "canonical_row_sha256": "ee7ca3a124512ddc3c9e57494a4d77a80523db6dd9d461a5f90b389b87179444",
+      "status": "PASS"
+    },
+    {
+      "source": "mf-geonames-names",
+      "rows": 82,
+      "canonical_row_sha256": "b553ca7b7ffa6adf12a88840ffeba4028fe5c0af75a8b1f734e55796f5e9cada",
+      "status": "PASS"
+    },
+    {
+      "source": "mq-geonames-names",
+      "rows": 1869,
+      "canonical_row_sha256": "bb4cebab7cda9a2d62336e2654237a8331e22a80a0fce390a13792db3c770ba7",
+      "status": "PASS"
+    },
+    {
+      "source": "ms-geonames-names",
+      "rows": 121,
+      "canonical_row_sha256": "088b6750808f2de166be72d00306323d95d6a3c81b033bdfd2bdb6527092a8cf",
+      "status": "PASS"
+    },
+    {
+      "source": "pr-geonames-names",
+      "rows": 5211,
+      "canonical_row_sha256": "94aeeeb3838adf804f749c66755cce8ef9c081596f547ecb5f2578b74f2250d8",
+      "status": "PASS"
+    },
+    {
+      "source": "sx-geonames-names",
+      "rows": 95,
+      "canonical_row_sha256": "9bfa3d3197a7f815fcf47fbc8c06efe9d003b59b0cdb20f6b60115e6e3ca2b39",
+      "status": "PASS"
+    },
+    {
+      "source": "tc-geonames-names",
+      "rows": 60,
+      "canonical_row_sha256": "f62c4ce0e360960556361353b88a2ecdb74076cc9a1e22f093a8d3de1c91b522",
+      "status": "PASS"
+    },
+    {
+      "source": "tt-geonames-names",
+      "rows": 1416,
+      "canonical_row_sha256": "87994e3d49ffdb52fa6443cc513d3b1ccfb09f691d8aa6b9a1eb31bbf7982dd3",
+      "status": "PASS"
+    },
+    {
+      "source": "vc-geonames-names",
+      "rows": 709,
+      "canonical_row_sha256": "9279a9644d8a3337822def203ca2809295b9017e747507e74799fba3fbef9dc5",
+      "status": "PASS"
+    },
+    {
+      "source": "vg-geonames-names",
+      "rows": 178,
+      "canonical_row_sha256": "c05f7b46ef72675639518141a277d0bcf7ecf60c4cbbee71eb65676534d217a9",
+      "status": "PASS"
+    },
+    {
+      "source": "vi-geonames-names",
+      "rows": 402,
+      "canonical_row_sha256": "f1382bb500c9f74b730ed3f39c8a4ee1973b58755dcd2121a5633461cfdb6414",
+      "status": "PASS"
+    }
+  ],
+  "structural_checks": {
+    "foreign_keys": "PASS",
+    "same_country_links": "PASS",
+    "acyclic_rank_order": "PASS"
+  },
+  "sqlite_integrity": "PASS",
+  "real_data_checks": {
+    "all_scope_queries": [
+      {
+        "country": "AG",
+        "id": "gn:3576022",
+        "query": "Saint John",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "BS",
+        "id": "gn:3571824",
+        "query": "Nassau",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "BB",
+        "id": "gn:3374036",
+        "query": "Bridgetown",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "CU",
+        "id": "gn:3553478",
+        "query": "Havana",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "DM",
+        "id": "gn:3575635",
+        "query": "Roseau",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "DO",
+        "id": "gn:3492908",
+        "query": "Santo Domingo",
+        "path_status": "review_required",
+        "status": "PASS"
+      },
+      {
+        "country": "GD",
+        "id": "gn:3579925",
+        "query": "Saint George",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "HT",
+        "id": "gn:3718426",
+        "query": "Port-au-Prince",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "JM",
+        "id": "gn:3489854",
+        "query": "Kingston",
+        "path_status": "review_required",
+        "status": "PASS"
+      },
+      {
+        "country": "KN",
+        "id": "gn:3575551",
+        "query": "Basseterre",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "LC",
+        "id": "gn:3576812",
+        "query": "Castries",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "VC",
+        "id": "gn:3577887",
+        "query": "Kingstown",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "TT",
+        "id": "gn:3573890",
+        "query": "Port of Spain",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "AI",
+        "id": "gn:3573374",
+        "query": "The Valley",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "AW",
+        "id": "gn:3577154",
+        "query": "Oranjestad",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "BQ",
+        "id": "gn:3513563",
+        "query": "Kralendijk",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "VG",
+        "id": "gn:3577430",
+        "query": "Road Town",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "KY",
+        "id": "gn:3580661",
+        "query": "George Town",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "CW",
+        "id": "gn:3513090",
+        "query": "Willemstad",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "GP",
+        "id": "gn:3579732",
+        "query": "Basse-Terre",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "MQ",
+        "id": "gn:3570675",
+        "query": "Fort-de-France",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "MS",
+        "id": "gn:3578069",
+        "query": "Plymouth",
+        "path_status": "review_required",
+        "status": "PASS"
+      },
+      {
+        "country": "PR",
+        "id": "gn:4568127",
+        "query": "San Juan",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "BL",
+        "id": "gn:3579132",
+        "query": "Gustavia",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "MF",
+        "id": "gn:3578851",
+        "query": "Marigot",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "SX",
+        "id": "gn:3513392",
+        "query": "Philipsburg",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "TC",
+        "id": "gn:3576994",
+        "query": "Cockburn Town",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "VI",
+        "id": "gn:4795467",
+        "query": "Charlotte Amalie",
+        "path_status": "source_path_consistent",
+        "status": "PASS"
+      }
+    ],
+    "loop_scope_counts": {
+      "countries": 13,
+      "territories": 15,
+      "all": 28
+    },
+    "adm5_nodes": 12565,
+    "adm5_place_links": 7603,
+    "bq_single_scope_three_islands": true,
+    "cw_65_areas_plus_one_nongeographic_category": true,
+    "french_collectivity_aliases_not_extra_communes": true,
+    "french_and_dutch_saint_martin_separate": true,
+    "cog_parallel_authority_branch_verified": true,
+    "pr_barrio_parentage_verified": true,
+    "pr_place_municipio_not_inferred": true,
+    "do_currentness_gap_visible": true
+  },
+  "counts": {
+    "nodes": 70789,
+    "names": 202115,
+    "links": 247459,
+    "observations": 93920,
+    "issues": 2041
+  },
+  "limit": "PASS verifies faithful ingestion and conservative source navigation, not all addresses, physical containment, current postal assignment, or deliverability."
+}

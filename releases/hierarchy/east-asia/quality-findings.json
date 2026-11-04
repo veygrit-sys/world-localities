@@ -1,0 +1,65 @@
+{
+  "status": "incomplete_coverage",
+  "findings": [
+    {
+      "id": "national-denominators",
+      "severity": "high",
+      "affected_pairs": 32,
+      "finding": "No independently verified complete current national denominator",
+      "action": "Keep all completeness flags false and coverage percentages null"
+    },
+    {
+      "id": "jp-residential-subset",
+      "severity": "high",
+      "source_id": "JP-ABR-residential-OA",
+      "observations": 21984066,
+      "finding": "Position inner join excludes unpositioned residences; parcels and full current official masters not included"
+    },
+    {
+      "id": "hk-source-duplicates",
+      "severity": "medium",
+      "missing_coordinate_rows": 1,
+      "invalid_nonempty_coordinate_rows": 0,
+      "coordinate_values_rewritten": false,
+      "repeated_geoaddress_observations": 27751,
+      "distinct_geoaddress_strings": 154371,
+      "nonempty_streetnumber_rows": 179934,
+      "duplicates_retained": true,
+      "action": "Preserve repeated observations; do not report them as unique addresses"
+    },
+    {
+      "id": "jp-town-coordinates",
+      "severity": "medium",
+      "missing_coordinate_rows": 469,
+      "invalid_nonempty_coordinate_rows": 0,
+      "coordinate_values_rewritten": false,
+      "action": "Preserve original blank coordinates"
+    },
+    {
+      "id": "cn-reference-age",
+      "severity": "high",
+      "date": "2023-06-30",
+      "finding": "Frozen statistical hierarchy; streets means townships/subdistricts, not roads"
+    },
+    {
+      "id": "tw-unnamed-api-codes",
+      "severity": "medium",
+      "count": 206,
+      "action": "Keep unnamed API references separate from named village references"
+    },
+    {
+      "id": "tw-road-label-gaps",
+      "severity": "medium",
+      "town_labels": [
+        "嘉義縣阿里山鄉",
+        "連江縣北竿鄉",
+        "連江縣南竿鄉",
+        "連江縣東引鄉",
+        "連江縣莒光鄉",
+        "金門縣烏坵鄉",
+        "高雄市那瑪夏區"
+      ],
+      "action": "Retain comparison as name candidates only; no identity or absence-of-roads inference"
+    }
+  ]
+}

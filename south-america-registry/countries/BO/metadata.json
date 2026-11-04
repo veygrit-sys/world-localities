@@ -1,0 +1,127 @@
+{
+  "alternate_values_file": {
+    "bytes": 482445,
+    "filename": "alternate-values.csv.gz",
+    "rows": 29028,
+    "sha256": "dfa57e7964a13c9a9fe8799afd538dba8ec030d0925c6d6bbc718241c9bf6d16",
+    "uncompressed_sha256": "3ff20e66fd1e1367172780c552129685625dd2d13b4d2b6dd477138ad5c9db5b"
+  },
+  "alternate_values_source": {
+    "bytes": 443401,
+    "retained_rows": 29028,
+    "retrieved_on": "2026-10-01",
+    "sha256": "ebe7b7974a12c6f46b680383d62dc2d2e345fd8102d676f474a54237e3da7983",
+    "source_columns": 10,
+    "source_rows": 41750,
+    "url": "https://download.geonames.org/export/dump/alternatenames/BO.zip"
+  },
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "BOL",
+    "country": "BO",
+    "geonames_continent": "SA",
+    "geonames_id": "3923057",
+    "id": "country:BO",
+    "m49": "068",
+    "name_en": "Bolivia (Plurinational State of)",
+    "region": "South America",
+    "region_m49": "005",
+    "source_country_languages": [
+      "es-BO",
+      "qu",
+      "ay"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 25772,
+    "admin_rows": 760,
+    "ambiguous_parents": 0,
+    "country": "BO",
+    "country_scope_only": 52,
+    "localities_without_adm1": 52,
+    "locality_rows": 25804,
+    "name_en": "Bolivia (Plurinational State of)",
+    "other_admin_rows": 3,
+    "region": "South America",
+    "unresolved_parents": 207
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 9,
+    "ADM2": 112,
+    "ADM3": 539,
+    "ADM4": 100,
+    "ADMD": 2,
+    "PCLI": 1,
+    "PPL": 25435,
+    "PPLA": 7,
+    "PPLA2": 7,
+    "PPLA3": 11,
+    "PPLA4": 34,
+    "PPLC": 1,
+    "PPLG": 1,
+    "PPLL": 129,
+    "PPLQ": 32,
+    "PPLX": 147
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 828693,
+      "rows": 26567,
+      "sha256": "11e2b16a5cbface5948e809283bfdc9fecbddcfb0a8237d789d7c83db25b45f1",
+      "uncompressed_sha256": "32a852e7cc0ffa5fa55cdf16b73d781ef82571ca034053053c6c13efbd03457a"
+    }
+  },
+  "known_issues": [],
+  "label_coverage": {
+    "current_country_language_name_entities": 13154,
+    "current_english_name_entities": 274,
+    "language_tagged_name_entities": 13215,
+    "missing_country_language_name_entities": 13413,
+    "missing_english_name_entities": 26293,
+    "native_label_rule": "Exact source language tag matched against countryInfo language list; no language is inferred from primary name, ASCII, spelling or script. Country-language match is not proof of each place's indigenous language."
+  },
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 52,
+    "missing_code": 200,
+    "missing_reference": 7,
+    "not_assigned_for_other_feature": 3,
+    "source_admin_code": 26296,
+    "source_country": 9
+  },
+  "postal_coverage": {
+    "note": "Only source post-tag values, if any; not joined by place name and not delivery validation.",
+    "postal_deliverability_verified": false,
+    "postal_validation": false,
+    "source_postal_value_rows": 0
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 9,
+      "sha256": "5116c2bd1f4ca2074e28d943ca3cfeec499248020ed378a158544ed20ad7549f"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 1073550,
+    "discarded_feature_classes": {
+      "H": 4748,
+      "L": 2362,
+      "R": 3,
+      "S": 1619,
+      "T": 5099,
+      "V": 13
+    },
+    "retained_rows": 26567,
+    "retrieved_on": "2026-10-01",
+    "sha256": "da51e5db90853a8e890668e46c7c922130d1c84ffdee1a36a61871e3d13e77c6",
+    "source_rows": 40411,
+    "url": "https://download.geonames.org/export/dump/BO.zip"
+  },
+  "source_modified_max": "2026-09-21",
+  "source_modified_min": "1993-12-12"
+}

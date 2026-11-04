@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "tests_run": 290,
+  "failures": 0,
+  "errors": 0,
+  "checked_at": "2026-10-21T18:59:51.247370+00:00",
+  "groups": [
+    {
+      "directory": "hierarchy-tests",
+      "pattern": "test_*.py"
+    },
+    {
+      "directory": "tests",
+      "pattern": "test_hierarchy_snapshot.py"
+    },
+    {
+      "directory": "tests",
+      "pattern": "test_repository_layout.py"
+    },
+    {
+      "directory": "tests",
+      "pattern": "test_osm_evidence.py"
+    },
+    {
+      "directory": "tests",
+      "pattern": "test_mx_address_evidence.py"
+    },
+    {
+      "directory": "tests",
+      "pattern": "test_osm_stream.py"
+    },
+    {
+      "directory": "tests",
+      "pattern": "test_restore_data_parts.py"
+    }
+  ],
+  "osmium": "4.3.2",
+  "network_source_downloads_in_unit_tests": false,
+  "deliverability_in_scope": false
+}

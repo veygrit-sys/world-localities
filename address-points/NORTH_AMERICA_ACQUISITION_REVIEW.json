@@ -1,0 +1,27 @@
+{
+  "status": "curated",
+  "promoted_source_objects": 30,
+  "raw_bytes": 256551566,
+  "country_codes": [
+    "US",
+    "CA",
+    "MX"
+  ],
+  "supplementary_area_codes": [
+    "BM",
+    "GL",
+    "PM"
+  ],
+  "not_promoted": [
+    {
+      "source": "INEGI v2 AGEE and 32 AGEM API responses",
+      "reason": "Bulk catalogue was acquired with newer file timestamps and all states, municipalities, localities. Do not mix live API and catalogue vintages."
+    },
+    {
+      "source": "initial alternate name path",
+      "reason": "404; corrected to the publisher country-specific dump/alternatenames URL; every selected alias archive passed ZIP CRC."
+    }
+  ],
+  "baseline_library_file_id": "libfile_d339e4d5f1a88191b448f926cb42ba2a",
+  "baseline_version": 8
+}

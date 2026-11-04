@@ -1,0 +1,123 @@
+{
+  "alternate_values_file": {
+    "bytes": 36743,
+    "filename": "alternate-values.csv.gz",
+    "rows": 2251,
+    "sha256": "8d55c8ffa66dd5a635a24a8f71f04dd2c430399b6c8693f5ee1ae0a6764533a2",
+    "uncompressed_sha256": "76336dc78c595e1a94b2a5b238843f85160f2dde924f53e475281f2ed27a4390"
+  },
+  "alternate_values_source": {
+    "bytes": 57880,
+    "retained_rows": 2251,
+    "retrieved_on": "2026-10-01",
+    "sha256": "34f708c4270b82a324b8dd152e7454634333c64623ef6f1014f0860fb354da3d",
+    "source_columns": 10,
+    "source_rows": 4920,
+    "url": "https://download.geonames.org/export/dump/alternatenames/SR.zip"
+  },
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "SUR",
+    "country": "SR",
+    "geonames_continent": "SA",
+    "geonames_id": "3382998",
+    "id": "country:SR",
+    "m49": "740",
+    "name_en": "Suriname",
+    "region": "South America",
+    "region_m49": "005",
+    "source_country_languages": [
+      "nl-SR",
+      "en",
+      "srn",
+      "hns",
+      "jv"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 526,
+    "admin_rows": 78,
+    "ambiguous_parents": 0,
+    "country": "SR",
+    "country_scope_only": 2,
+    "localities_without_adm1": 2,
+    "locality_rows": 553,
+    "name_en": "Suriname",
+    "other_admin_rows": 1,
+    "region": "South America",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 10,
+    "ADM2": 68,
+    "PCLI": 1,
+    "PPL": 446,
+    "PPLA": 8,
+    "PPLA2": 1,
+    "PPLC": 1,
+    "PPLF": 1,
+    "PPLH": 25,
+    "PPLL": 3,
+    "PPLQ": 1,
+    "PPLX": 67
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 30403,
+      "rows": 632,
+      "sha256": "2d4c5588db71b78e5aee1f7de49ce66ac065590b602a12eefb50e7f078e1e6fd",
+      "uncompressed_sha256": "f0f21844a2e718d22134848437885666bff0d9481d47966dbf4523227f2a8f1d"
+    }
+  },
+  "known_issues": [],
+  "label_coverage": {
+    "current_country_language_name_entities": 235,
+    "current_english_name_entities": 38,
+    "language_tagged_name_entities": 243,
+    "missing_country_language_name_entities": 397,
+    "missing_english_name_entities": 594,
+    "native_label_rule": "Exact source language tag matched against countryInfo language list; no language is inferred from primary name, ASCII, spelling or script. Country-language match is not proof of each place's indigenous language."
+  },
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 2,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 619,
+    "source_country": 10
+  },
+  "postal_coverage": {
+    "note": "Only source post-tag values, if any; not joined by place name and not delivery validation.",
+    "postal_deliverability_verified": false,
+    "postal_validation": false,
+    "source_postal_value_rows": 0
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 10,
+      "sha256": "461c3109683beff288596be65107de06fa972c7094aa382570a7a439be5d655c"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 83050,
+    "discarded_feature_classes": {
+      "H": 1210,
+      "L": 132,
+      "R": 39,
+      "S": 235,
+      "T": 230,
+      "V": 11
+    },
+    "retained_rows": 632,
+    "retrieved_on": "2026-10-01",
+    "sha256": "e2e4ca55694dfb1afcbbc717b2df03680d0ace7427cf0af9ea7e2e4b1042e90d",
+    "source_rows": 2489,
+    "url": "https://download.geonames.org/export/dump/SR.zip"
+  },
+  "source_modified_max": "2026-04-16",
+  "source_modified_min": "1993-12-15"
+}

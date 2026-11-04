@@ -1,0 +1,256 @@
+{
+  "status": "SOURCE_CSV_FULLY_READ_CRC_CHECKED",
+  "source": {
+    "source_id": "digital-guard-inegi-mx-pk0002.01-geoaddress",
+    "url": "https://dl.digital-guard.org/090735bf608a3202a141da670d960a05dbe464893ba49208fc37c30485f5bedc.zip",
+    "bytes": 683565189,
+    "sha256": "090735bf608a3202a141da670d960a05dbe464893ba49208fc37c30485f5bedc",
+    "source_metadata_url": "https://github.com/digital-guard/preserv-MX/tree/main/data/_pk0002.01",
+    "upstream_recipe": "https://github.com/openaddresses/openaddresses/blob/master/sources/mx/countrywide.json",
+    "preservation_metadata_acquisition_date": "2023-08-16",
+    "attribution": "INEGI Instituto Nacional de Estadística y Geografía; preserved by Digital Guard / AddressForAll",
+    "licence_name": "INEGI TERMS OF FREE USE OF INFORMATION",
+    "licence_evidence_url": "https://dl.digital-guard.org/647a8f64ed703b93ecc541f39fb7c08dbe445cb704ee78e69036ce5ef711b8a4.pdf",
+    "national_completeness_verified": false,
+    "issuing_authority_assignment_verified": false,
+    "deliverability_in_scope": false,
+    "identity_note": "gid is the preserved CSV row key, not an official INEGI administrative or address identifier.",
+    "parent_note": "estado, cidade and nsvia retain source labels; no legal administrative parent links are inferred."
+  },
+  "checked_at": "2026-10-21T18:39:33.810390+00:00",
+  "counts": {
+    "source_rows": 31236822,
+    "nonempty_number_strings": 31236582,
+    "number_placeholder_rows": 15910873,
+    "empty_number_rows": 240,
+    "nonplaceholder_number_rows": 15325709,
+    "empty_street_rows": 729,
+    "NINGUNO_street_rows": 0,
+    "empty_postcode_rows": 2,
+    "empty_estado_rows": 70505,
+    "empty_cidade_rows": 70505,
+    "world_valid_points_outside_broad_mexico_extent": 1,
+    "invalid_or_missing_coordinate_rows": 69880
+  },
+  "uncompressed_csv_sha256": "ce4825e9184c62040516a0e7c51c936eaa96a5b51b70d21dcb32f351913d9658",
+  "gid_sequential_from_one": true,
+  "gid_uniqueness_verified": true,
+  "coordinate_bounds_wgs84": [
+    -117.12405310524412,
+    -90.0,
+    145.35855508424075,
+    32.718228053230256
+  ],
+  "coordinate_review_extent_wgs84": [
+    -119,
+    14,
+    -86,
+    33
+  ],
+  "review_extent_is_legal_boundary_test": false,
+  "regions_by_original_label": [
+    {
+      "estado": "",
+      "source_rows": 70505,
+      "nonplaceholder_number_rows": 18505,
+      "distinct_cidade_labels": 1
+    },
+    {
+      "estado": "Aguascalientes",
+      "source_rows": 395806,
+      "nonplaceholder_number_rows": 283327,
+      "distinct_cidade_labels": 11
+    },
+    {
+      "estado": "Baja California",
+      "source_rows": 950450,
+      "nonplaceholder_number_rows": 520419,
+      "distinct_cidade_labels": 7
+    },
+    {
+      "estado": "Baja California Sur",
+      "source_rows": 218040,
+      "nonplaceholder_number_rows": 48687,
+      "distinct_cidade_labels": 5
+    },
+    {
+      "estado": "Campeche",
+      "source_rows": 242410,
+      "nonplaceholder_number_rows": 50020,
+      "distinct_cidade_labels": 13
+    },
+    {
+      "estado": "Chiapas",
+      "source_rows": 927647,
+      "nonplaceholder_number_rows": 206891,
+      "distinct_cidade_labels": 122
+    },
+    {
+      "estado": "Chihuahua",
+      "source_rows": 1301836,
+      "nonplaceholder_number_rows": 840844,
+      "distinct_cidade_labels": 67
+    },
+    {
+      "estado": "Ciudad de México",
+      "source_rows": 1333806,
+      "nonplaceholder_number_rows": 1074796,
+      "distinct_cidade_labels": 16
+    },
+    {
+      "estado": "Coahuila de Zaragoza",
+      "source_rows": 1083894,
+      "nonplaceholder_number_rows": 659838,
+      "distinct_cidade_labels": 38
+    },
+    {
+      "estado": "Colima",
+      "source_rows": 284465,
+      "nonplaceholder_number_rows": 186405,
+      "distinct_cidade_labels": 10
+    },
+    {
+      "estado": "Durango",
+      "source_rows": 501628,
+      "nonplaceholder_number_rows": 260531,
+      "distinct_cidade_labels": 39
+    },
+    {
+      "estado": "Guanajuato",
+      "source_rows": 2163364,
+      "nonplaceholder_number_rows": 1168739,
+      "distinct_cidade_labels": 46
+    },
+    {
+      "estado": "Guerrero",
+      "source_rows": 823951,
+      "nonplaceholder_number_rows": 127868,
+      "distinct_cidade_labels": 84
+    },
+    {
+      "estado": "Hidalgo",
+      "source_rows": 594451,
+      "nonplaceholder_number_rows": 165364,
+      "distinct_cidade_labels": 84
+    },
+    {
+      "estado": "Jalisco",
+      "source_rows": 2573601,
+      "nonplaceholder_number_rows": 1821343,
+      "distinct_cidade_labels": 125
+    },
+    {
+      "estado": "Michoacán de Ocampo",
+      "source_rows": 1405487,
+      "nonplaceholder_number_rows": 644046,
+      "distinct_cidade_labels": 113
+    },
+    {
+      "estado": "Morelos",
+      "source_rows": 554821,
+      "nonplaceholder_number_rows": 204185,
+      "distinct_cidade_labels": 36
+    },
+    {
+      "estado": "México",
+      "source_rows": 2998760,
+      "nonplaceholder_number_rows": 1265505,
+      "distinct_cidade_labels": 125
+    },
+    {
+      "estado": "Nayarit",
+      "source_rows": 375481,
+      "nonplaceholder_number_rows": 202196,
+      "distinct_cidade_labels": 20
+    },
+    {
+      "estado": "Nuevo León",
+      "source_rows": 1724687,
+      "nonplaceholder_number_rows": 1297493,
+      "distinct_cidade_labels": 51
+    },
+    {
+      "estado": "Oaxaca",
+      "source_rows": 879587,
+      "nonplaceholder_number_rows": 202153,
+      "distinct_cidade_labels": 566
+    },
+    {
+      "estado": "Puebla",
+      "source_rows": 1397757,
+      "nonplaceholder_number_rows": 463038,
+      "distinct_cidade_labels": 215
+    },
+    {
+      "estado": "Querétaro",
+      "source_rows": 458497,
+      "nonplaceholder_number_rows": 231758,
+      "distinct_cidade_labels": 18
+    },
+    {
+      "estado": "Quintana Roo",
+      "source_rows": 424226,
+      "nonplaceholder_number_rows": 189065,
+      "distinct_cidade_labels": 11
+    },
+    {
+      "estado": "San Luis Potosí",
+      "source_rows": 750108,
+      "nonplaceholder_number_rows": 441996,
+      "distinct_cidade_labels": 59
+    },
+    {
+      "estado": "Sinaloa",
+      "source_rows": 885593,
+      "nonplaceholder_number_rows": 395991,
+      "distinct_cidade_labels": 20
+    },
+    {
+      "estado": "Sonora",
+      "source_rows": 1019584,
+      "nonplaceholder_number_rows": 468025,
+      "distinct_cidade_labels": 72
+    },
+    {
+      "estado": "Tabasco",
+      "source_rows": 410597,
+      "nonplaceholder_number_rows": 83501,
+      "distinct_cidade_labels": 17
+    },
+    {
+      "estado": "Tamaulipas",
+      "source_rows": 1183780,
+      "nonplaceholder_number_rows": 635257,
+      "distinct_cidade_labels": 41
+    },
+    {
+      "estado": "Tlaxcala",
+      "source_rows": 350907,
+      "nonplaceholder_number_rows": 119950,
+      "distinct_cidade_labels": 60
+    },
+    {
+      "estado": "Veracruz de Ignacio de la Llave",
+      "source_rows": 1711229,
+      "nonplaceholder_number_rows": 523973,
+      "distinct_cidade_labels": 212
+    },
+    {
+      "estado": "Yucatán",
+      "source_rows": 722305,
+      "nonplaceholder_number_rows": 282738,
+      "distinct_cidade_labels": 106
+    },
+    {
+      "estado": "Zacatecas",
+      "source_rows": 517562,
+      "nonplaceholder_number_rows": 241262,
+      "distinct_cidade_labels": 58
+    }
+  ],
+  "all_source_rows_retained": true,
+  "number_ranges_or_suffixes_expanded": false,
+  "national_completeness_verified": false,
+  "issuing_authority_assignment_verified": false,
+  "deliverability_in_scope": false
+}

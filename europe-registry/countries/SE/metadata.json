@@ -1,0 +1,108 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "SWE",
+    "country": "SE",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Sweden",
+    "geonames_id": "2661886",
+    "id": "country:SE",
+    "m49": "752",
+    "m49_region": "Europe",
+    "name_en": "Sweden",
+    "region": "Northern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 28449,
+    "admin_rows": 4525,
+    "ambiguous_parents": 0,
+    "country": "SE",
+    "country_scope_only": 0,
+    "localities_without_adm1": 5,
+    "locality_rows": 28471,
+    "name_en": "Sweden",
+    "other_admin_rows": 7,
+    "region": "Northern Europe",
+    "unresolved_parents": 2
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 21,
+    "ADM1H": 3,
+    "ADM2": 290,
+    "ADM3": 1785,
+    "ADM4": 2429,
+    "ADMD": 4,
+    "PPL": 27567,
+    "PPLA": 20,
+    "PPLA2": 269,
+    "PPLA3": 2,
+    "PPLC": 1,
+    "PPLF": 14,
+    "PPLH": 2,
+    "PPLL": 102,
+    "PPLQ": 3,
+    "PPLR": 2,
+    "PPLS": 1,
+    "PPLX": 488
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 781138,
+      "rows": 20000,
+      "sha256": "4c030dc60cf386ee56357c8fa388f5fa88f2071f200b7dab25f4de54482279c8",
+      "uncompressed_sha256": "a98ca129b8db9d751e680d975d0b32909d14cd237c7bbb8c4ad8e6454ce97489"
+    },
+    "entities-0002.csv.gz": {
+      "bytes": 505139,
+      "rows": 13003,
+      "sha256": "692f33cc7791393eea50538a8c798fb963680149d30357bc9ad25c6e2c0841bb",
+      "uncompressed_sha256": "32292f8d1551776fb3f25a82e06d92461ebcd0a8d52711875083ffd21f24ee2f"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "historical_parent_not_asserted": 8,
+    "missing_code": 2,
+    "not_assigned_for_other_feature": 4,
+    "source_admin_code": 32968,
+    "source_country": 21
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 21,
+      "sha256": "97da543262bc9fe6de63dd41d4b93abc3da97dedbf7552e0f83a976cf60f9ad5"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 96582,
+    "bytes": 2611141,
+    "excluded_feature_class_counts": {
+      "A": 2,
+      "H": 20244,
+      "L": 347,
+      "R": 26,
+      "S": 23753,
+      "T": 19155,
+      "U": 1,
+      "V": 51
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:56:28 GMT",
+    "retained_rows": 33003,
+    "retrieved_at": "2026-09-29T11:14:43.299807+00:00",
+    "sha256": "fc8a2e07eaa5e3a8e7e28469cfdfc14d40107a867d8a2b7f97bdad0ed060f5e5",
+    "url": "https://download.geonames.org/export/dump/SE.zip"
+  },
+  "source_modified_max": "2026-09-21",
+  "source_modified_min": "1994-01-14"
+}

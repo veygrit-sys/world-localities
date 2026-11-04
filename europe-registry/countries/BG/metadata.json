@@ -1,0 +1,99 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "BGR",
+    "country": "BG",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Bulgaria",
+    "geonames_id": "732800",
+    "id": "country:BG",
+    "m49": "100",
+    "m49_region": "Europe",
+    "name_en": "Bulgaria",
+    "region": "Eastern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 7152,
+    "admin_rows": 2882,
+    "ambiguous_parents": 0,
+    "country": "BG",
+    "country_scope_only": 0,
+    "localities_without_adm1": 87,
+    "locality_rows": 7239,
+    "name_en": "Bulgaria",
+    "other_admin_rows": 64,
+    "region": "Eastern Europe",
+    "unresolved_parents": 77
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 28,
+    "ADM2": 265,
+    "ADM2H": 5,
+    "ADM3": 2589,
+    "ADMD": 59,
+    "PPL": 5863,
+    "PPLA": 26,
+    "PPLA2": 72,
+    "PPLA3": 10,
+    "PPLC": 1,
+    "PPLCH": 1,
+    "PPLH": 5,
+    "PPLL": 87,
+    "PPLQ": 73,
+    "PPLW": 8,
+    "PPLX": 1093
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 575151,
+      "rows": 10185,
+      "sha256": "235e4d3be05954af9e6eaa774f64d304cf7b76a7a93750aeb5feecd3ad902285",
+      "uncompressed_sha256": "0a80377fd489697b73c5e209f9646c2412f38ded68c2fc07c7c64250fb5b90b8"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "historical_parent_not_asserted": 92,
+    "missing_reference": 77,
+    "not_assigned_for_other_feature": 59,
+    "source_admin_code": 9929,
+    "source_country": 28
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 28,
+      "sha256": "071dee0a3ac617dd29511dc6fff3103f175b64a3be56fe8adf19128bbbf9c5a4"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 18412,
+    "bytes": 763211,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 2138,
+      "L": 646,
+      "R": 5,
+      "S": 1866,
+      "T": 3540,
+      "V": 31
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:51:31 GMT",
+    "retained_rows": 10185,
+    "retrieved_at": "2026-09-29T11:13:19.504113+00:00",
+    "sha256": "fc69e0ab5b40dda4e7ea1a601bbbd411494452d48ab4cd155c2194f0fc31b05b",
+    "url": "https://download.geonames.org/export/dump/BG.zip"
+  },
+  "source_modified_max": "2026-09-23",
+  "source_modified_min": "2007-04-05"
+}

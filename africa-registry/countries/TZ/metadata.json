@@ -1,0 +1,89 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "TZA",
+    "country": "TZ",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Tanzania",
+    "geonames_id": "149590",
+    "id": "country:TZ",
+    "m49": "834",
+    "name_en": "United Republic of Tanzania",
+    "numeric": "834",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 7758,
+    "admin_rows": 3844,
+    "ambiguous_parents": 0,
+    "country": "TZ",
+    "country_scope_only": 10,
+    "localities_without_adm1": 10,
+    "locality_rows": 7758,
+    "name_en": "United Republic of Tanzania",
+    "other_admin_rows": 281,
+    "region": "Eastern Africa",
+    "unresolved_parents": 3
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 31,
+    "ADM2": 170,
+    "ADM2H": 2,
+    "ADM3": 3643,
+    "ADMD": 278,
+    "PCLI": 1,
+    "PPL": 7690,
+    "PPLA": 29,
+    "PPLA2": 2,
+    "PPLA3": 1,
+    "PPLC": 1,
+    "PPLL": 6,
+    "PPLX": 29
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 444416,
+      "rows": 11883,
+      "sha256": "745141c541259383377da0974bb08bc5d200d4266613b7ea01eb4f12d7cc8333",
+      "uncompressed_sha256": "fe851fcadf25d66382eeeac34c9c659b5e541ab0d95472d678dd00a44c9e501b"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 10,
+    "missing_reference": 3,
+    "not_assigned_for_other_feature": 281,
+    "source_admin_code": 11558,
+    "source_country": 31
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 31,
+      "sha256": "4b508863691e86424a5fabe2dcc224316628f2b70f216fa88ea15a7c375de472"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 531716,
+    "discarded_feature_classes": {
+      "H": 2662,
+      "L": 818,
+      "R": 16,
+      "S": 974,
+      "T": 3163,
+      "V": 8
+    },
+    "retained_rows": 11883,
+    "retrieved_on": "2026-09-26",
+    "sha256": "64375391eddfccaf09a4cbf5caeb00a0fbeb5f86e96b3968a3750d9de99f68a9",
+    "source_rows": 19524,
+    "url": "https://download.geonames.org/export/dump/TZ.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1994-01-12"
+}

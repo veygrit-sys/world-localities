@@ -1,0 +1,766 @@
+{
+  "schema_version": 2,
+  "release": "2026-10-17",
+  "package": "Veygrit_SouthAmerica_20261017",
+  "package_version": "0.2",
+  "packaged_at": "2026-10-16T23:42:23.610262+00:00",
+  "country_count": 12,
+  "supplementary_area_count": 4,
+  "files": [
+    {
+      "path": "COUNTRY_RESULTS_JA.md",
+      "bytes": 5033,
+      "sha256": "b21e9f2f8e4e6a373e7e93c3e878963a62d26e25a6ffede8d51cf68f31288deb"
+    },
+    {
+      "path": "LICENSE_DATA.md",
+      "bytes": 4481,
+      "sha256": "4a0487999b3baf9ec45b2922a97621d759bdd5b788126a5913a83c235e7fed81"
+    },
+    {
+      "path": "README_JA.md",
+      "bytes": 12847,
+      "sha256": "7239a6691dc86f649460cdfcd08a0f35f7bc0512a26eb8db9227bbd07daa8bc6"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_ACQUISITION_REVIEW.json",
+      "bytes": 823,
+      "sha256": "5b63c145f5bb3b163372baa236866321d9e1aaa8442bf74eb67a9974c8014701"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_BUILD.json",
+      "bytes": 10589,
+      "sha256": "6987a5a6f834e82d453ae6b37f9c73f27b5cf1e861a40e9073b0a7467054d725"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_COUNTRIES_LOOP.json",
+      "bytes": 26655,
+      "sha256": "c27cda27abc7b4a7b273eeb126f5d93a3323c2fc85302333d3260e72ee5f2b4a"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_HIERARCHY_BUILD.json",
+      "bytes": 2365,
+      "sha256": "879ca8b2d384c23c00d55c1fed374770181f3b2e6f72af22907f60d221d1ddc1"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_HIERARCHY_LOOP.json",
+      "bytes": 32299,
+      "sha256": "fe8c40342e8c4bced9ac551f3ac621ad70b4450d54fa80be83796e4691204445"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_HIERARCHY_SOURCES.json",
+      "bytes": 18457,
+      "sha256": "3c1274b667536643b8be69f57017c42dedc9f057a13bc0f58b1b1425affac5d1"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_HIERARCHY_VALIDATION.json",
+      "bytes": 9311,
+      "sha256": "f4ef5ef3a5f4c022b7621f18502d2ea943296a0c8d05652956021b90b93c716c"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_RULES.json",
+      "bytes": 17739,
+      "sha256": "9b3c50ada0478e8871b6239531e21cd808c5e61de3ab99a0b77ba8fe99c00c73"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_SCOPE.json",
+      "bytes": 566,
+      "sha256": "cd6c0f69d36ca52866e4293a2a495836278faca4b98f4049a013c9f2ff985ca7"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_SOURCES.json",
+      "bytes": 36765,
+      "sha256": "0e00b1d84da1d423eb073f9f20c2f5d26a8ce23d20a9b2a0792812db41942d0a"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_SOURCE_REVIEW.json",
+      "bytes": 28883,
+      "sha256": "7bae13718368d71ca15e6e8d224730b862b6cef693e2000db27f6657cc1fccb0"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_SUPPLEMENTARY_LOOP.json",
+      "bytes": 6066,
+      "sha256": "4cc6c62f446f4606779c04c83789a78b10d3ef6a7fe2a11199ad95cbcc95fd5a"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_VALIDATION.json",
+      "bytes": 21595,
+      "sha256": "73665a2753fe91108138cf9c006452de1932add6a0c09db261fba6a75747ad25"
+    },
+    {
+      "path": "address-points/adapters/southamerica.py",
+      "bytes": 28586,
+      "sha256": "ebf9cab4487d4a79f725332695609a6a1b9a0a3cbf9e3ba47fbe120e3e64f680"
+    },
+    {
+      "path": "address-points/adapters/southamerica_fetch.py",
+      "bytes": 5858,
+      "sha256": "d5601cde249d2380f11d333acd88ca708586f04d2ce7b220cc6e1dd707957d68"
+    },
+    {
+      "path": "address-points/adapters/southamerica_hierarchy.py",
+      "bytes": 33443,
+      "sha256": "1e2547e6ffeb5fa38bef259cb2925f076a2c966257890f7fd39ff35cfcad1838"
+    },
+    {
+      "path": "address-points/adapters/southamerica_hierarchy_validate.py",
+      "bytes": 7381,
+      "sha256": "e78f28b61c8c336f87999e8315b9a1518ba90c9bc6dcd9c65c70468e15afe207"
+    },
+    {
+      "path": "address-points/adapters/southamerica_validate.py",
+      "bytes": 6421,
+      "sha256": "44328bd1424f0353691520823e8a2d62c60c5e45e4dee8ff7b23a0c89cf0bb87"
+    },
+    {
+      "path": "address-points/reports/countries/AR.json",
+      "bytes": 2559,
+      "sha256": "36a6971ca87a43257f03287a76132490ecb005091f23646d33ee137ce57e527e"
+    },
+    {
+      "path": "address-points/reports/countries/BO.json",
+      "bytes": 19353,
+      "sha256": "9503013507bb32059fea0d118aa4105ccbd16352d6a99bbdc31f94e24fea1992"
+    },
+    {
+      "path": "address-points/reports/countries/BR.json",
+      "bytes": 7908,
+      "sha256": "b4ae22da743eec80d440525a9f9e755cabb1ec6159ac28d0a3b10183bcc9351b"
+    },
+    {
+      "path": "address-points/reports/countries/CL.json",
+      "bytes": 2342,
+      "sha256": "06f6eac0083782c60b287db17ca7f8f5774adae49622a7094c2ab0da5c1cf983"
+    },
+    {
+      "path": "address-points/reports/countries/CO.json",
+      "bytes": 25668,
+      "sha256": "3decc96a5c3a849d147b6419593580557c14d7790ef7491b08d3d1f7bbed884a"
+    },
+    {
+      "path": "address-points/reports/countries/EC.json",
+      "bytes": 10811,
+      "sha256": "0a7774ffc26566f9d3497e865eb23b33c1664cb88b714771a9af22badc44ffbd"
+    },
+    {
+      "path": "address-points/reports/countries/GY.json",
+      "bytes": 1228,
+      "sha256": "2427be65e8531ae2fc2e485be2ce49b3bc3b04c05b78cf8876f30873201c9d09"
+    },
+    {
+      "path": "address-points/reports/countries/PE.json",
+      "bytes": 73224,
+      "sha256": "b141e6f2e009ee68ea0b445cdd3bc7040eaed20f1587c416dbf2d013a9d17c5b"
+    },
+    {
+      "path": "address-points/reports/countries/PY.json",
+      "bytes": 1938,
+      "sha256": "4dcad6e4120e4ee6cef04c2c28ae2504c41952498119f5ad1e4bc9976b85a99f"
+    },
+    {
+      "path": "address-points/reports/countries/SR.json",
+      "bytes": 2164,
+      "sha256": "f0ed58c06283b35674d585dcc7485574f58fd967c60b206d48f592c827bfc9b0"
+    },
+    {
+      "path": "address-points/reports/countries/UY.json",
+      "bytes": 2593,
+      "sha256": "3c7fdc49e6001f7ab3c8ff5c86172ca7010578625a9773b6ff0e11e4d928f5e4"
+    },
+    {
+      "path": "address-points/reports/countries/VE.json",
+      "bytes": 3569,
+      "sha256": "1f154542e72e790ef0544ad9e93f5e9e74ab4ee5afe6c30b030c57037b0159b6"
+    },
+    {
+      "path": "address-points/reports/supplementary/BV.json",
+      "bytes": 712,
+      "sha256": "4a4fcd99a5c2bf0ab670d4da0e5f23913ba85bcf78263b121605842ac27becbe"
+    },
+    {
+      "path": "address-points/reports/supplementary/FK.json",
+      "bytes": 1185,
+      "sha256": "5a3dd4685bfc8b52b713ac5bc5579b67966d5c3aa4c37ae954774f28089131a8"
+    },
+    {
+      "path": "address-points/reports/supplementary/GF.json",
+      "bytes": 43291,
+      "sha256": "193bbf8629b59a742c41063ef1a24d0bc4c902a10766253d3b521ae97346eb09"
+    },
+    {
+      "path": "address-points/reports/supplementary/GS.json",
+      "bytes": 1199,
+      "sha256": "05d4ead5c2afb93309fb0e0fe29d8ae9aca79d7e35c28831d9f3fa13977b913b"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/AR/departamentos.json",
+      "bytes": 77198,
+      "sha256": "b7565e4eeb3dd990f1d1cf62516dda1dc2dfcdadec7bf31806b8148591e475df"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/AR/departamentos.json.receipt.json",
+      "bytes": 731,
+      "sha256": "c2e139d3353c2daebe386cc3466835599da351824f942a237d49a039ce2dbc99"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/AR/localidades-censales.json",
+      "bytes": 1206443,
+      "sha256": "9c7a570568c76a816a731fd0e529c2feb9e930fd740b23841b88dbce2f1cc529"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/AR/localidades-censales.json.receipt.json",
+      "bytes": 761,
+      "sha256": "ae7738d0c2404fe089d13579441494114f8780393c12d8979d13d20c672c0f7c"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/AR/municipios.json",
+      "bytes": 304976,
+      "sha256": "0e11a4e11811fded6b944bbc34f91cc2f9b78fa82d36efcb89a47277f75c1219"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/AR/municipios.json.receipt.json",
+      "bytes": 720,
+      "sha256": "ec4cdc1f995c290e60e0196cad0d242d0d5bc36abdc15fb5bf27888a849ddc34"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/BR/ibge-distritos.json.gz",
+      "bytes": 398369,
+      "sha256": "2b91cacb054ea91a1fe1f728bf98fd3acb6509b9dbb68e2ccf1683b7f5037bbd"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/BR/ibge-distritos.json.gz.receipt.json",
+      "bytes": 770,
+      "sha256": "29cfb83378024ac16e97651b4f110c139800e86689c938ad4c71bdaa7a18c37c"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/BR/ibge-estados.json.gz",
+      "bytes": 491,
+      "sha256": "8de577f0bf8ae5f10cfca9870520c37a71c071ed34ffae09af1fae967385db7f"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/BR/ibge-estados.json.gz.receipt.json",
+      "bytes": 759,
+      "sha256": "3c91d19f92dc2fb5924e717a4b8e2fb2d89a7759ac128dc27a633606c61d869c"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/BR/ibge-municipios.json.gz",
+      "bytes": 111623,
+      "sha256": "d07362079fbab429bab2e9b833628b58419ce1d183630bc94808faf167097635"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/BR/ibge-municipios.json.gz.receipt.json",
+      "bytes": 774,
+      "sha256": "7a57759667f0ec8d274a150d63e06240a98e052302366d9b529a8721af124e24"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/BR/ibge-subdistritos.json.gz",
+      "bytes": 13054,
+      "sha256": "e94e1bf945af7615e95c8889ea53fa459098f5b64b99c008c7938b9373af1b2e"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/BR/ibge-subdistritos.json.gz.receipt.json",
+      "bytes": 781,
+      "sha256": "c9c77e3091808b60df9a75a1690056c1c2d0e16351c5985a886f63a49e3d85d9"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/CO/divipola-metadata.json",
+      "bytes": 14686,
+      "sha256": "4b62e051efec754a16aef483df91a0a22eb7b7267248b6a236ca9e95537b67fd"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/CO/divipola-metadata.json.receipt.json",
+      "bytes": 734,
+      "sha256": "1eb9305104feb38c6b5e6c54b28198fbfe8c86ea9a7881a606fe87289407c4e1"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/CO/divipola.json",
+      "bytes": 172803,
+      "sha256": "1028ab04c10a08fa860dd89e621de1eb9246710a56102c915f0988ae9e10d63d"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/CO/divipola.json.receipt.json",
+      "bytes": 938,
+      "sha256": "acedb9ea53cc842af402a03e9811e087e4ba46bcd055ea8849651c30f6cabca2"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/GF/cog_ensemble_2026_csv.zip",
+      "bytes": 1961824,
+      "sha256": "5c037e2977c9d476cfe2e7b7f923bbe09a87cbe448c59e492a71ef6a917aa53f"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/GF/cog_ensemble_2026_csv.zip.receipt.json",
+      "bytes": 760,
+      "sha256": "48cd3fca4b3e558cedaf2db1e9d93056a60705b09508c22cee89de51379542ae"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/GLOBAL/admin1CodesASCII.txt",
+      "bytes": 151583,
+      "sha256": "1da92a6323a5fec3176f3f743bf4cf4040fd56a876da55e46fbca23c863aa60a"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/GLOBAL/admin1CodesASCII.txt.receipt.json",
+      "bytes": 763,
+      "sha256": "fe76f9e3ee87d0b35b6c9e302d17857822c90aacc1aa328e66cb254ddc4646e5"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/GLOBAL/admin2Codes.txt",
+      "bytes": 2366323,
+      "sha256": "985b37390cad51f51b03897e503748db5acddfd9442438532cfab1ac9fd1cbcd"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/GLOBAL/admin2Codes.txt.receipt.json",
+      "bytes": 745,
+      "sha256": "1bcde6422dafa2d952be38348de904ff269f312e608bfe885095e50bb545c540"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/GLOBAL/countryInfo.txt",
+      "bytes": 31690,
+      "sha256": "c55f638cfaafb4fe45a9aa15120a0f1f78e8a34a8e1847d7b9320cf740fbc9ab"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/GLOBAL/countryInfo.txt.receipt.json",
+      "bytes": 741,
+      "sha256": "f5e9b1a909ee5d75aab059a466f0c35ba90ffd1d490d1291d341a3c43090c812"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/GLOBAL/readme.txt",
+      "bytes": 8843,
+      "sha256": "b1957379b6c1242c700c98ac9a8aa0a09f56c3c0a50ee72175527005f48ef2c5"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/GLOBAL/readme.txt.receipt.json",
+      "bytes": 720,
+      "sha256": "2c7bde9549bf78647a2cd334c3af0ce5670230cf6f63005895a1294a978bab39"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/PE/Lista_Ubigeos_INEI.csv",
+      "bytes": 67111,
+      "sha256": "566c88f4d4412d9831dd3103b2e29d24897b2d163655996c3ce68f100b79502a"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/PE/Lista_Ubigeos_INEI.csv.receipt.json",
+      "bytes": 1059,
+      "sha256": "5bc7726a1021ee9d0dd0fd74ea78cf14e05bd17891ef1d05b995674515d95039"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/PY/barloc.json",
+      "bytes": 2238340,
+      "sha256": "5dab2c7aaece2e81ec762dd03077a4e2967430a4a7e587dbefe50d9016317039"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/PY/barloc.json.receipt.json",
+      "bytes": 1368,
+      "sha256": "52538402e61b6fe36c95e42b2a664b4d6b0d28c4d2abbe2f1f5f08f6df6c020f"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/PY/departamentos.json",
+      "bytes": 2787,
+      "sha256": "a4e999bdd904a9d7bfdc42a62d099e36faf02a72652ca09a1fd243726c63c5a8"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/PY/departamentos.json.receipt.json",
+      "bytes": 1266,
+      "sha256": "f0e577a32f3ff56d1df6673be3d2d68b7a26b540f99a5aa44b4fce0746a22b98"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/PY/distritos.json",
+      "bytes": 51264,
+      "sha256": "a8d5a3216c517fec3dcc529dc598ccff3dcc3afc8860b976b5d97923cff62a94"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/PY/distritos.json.receipt.json",
+      "bytes": 1261,
+      "sha256": "3150743757cca953a73d8f5e28b1b0514eb1570a10168b293b4c0e1f04065ee8"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/UY/calles_localidad_departamento_2020.csv",
+      "bytes": 1423132,
+      "sha256": "1141977711f0eaa337601264c33f9b198c7822ee9f67d2c59aebda18d1f027e2"
+    },
+    {
+      "path": "address-points/sources/HIERARCHY/UY/calles_localidad_departamento_2020.csv.receipt.json",
+      "bytes": 1126,
+      "sha256": "44aaf9038048044bc1f7ee9485e50869e8fdb66aa79dbd7e1b347737719ed4be"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/AR/geonames.zip",
+      "bytes": 1908277,
+      "sha256": "5278db48dd49b21ace343ba20fc7d7bbb08116cdbaf29e996e451d298b9925bd"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/AR/geonames.zip.receipt.json",
+      "bytes": 932,
+      "sha256": "dd1edea750d23961c47b8cb8bd32993a672bd802875110830edf4771f7340053"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/AR/localidades.json",
+      "bytes": 1393329,
+      "sha256": "1091cade1c045d1ddd2d86537928b87bf1e38d7c044ebe1352c981d38fbe90e5"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/AR/localidades.json.receipt.json",
+      "bytes": 909,
+      "sha256": "fdf460df6044e1adfe3a965cc8107355faee400be22e0d90c9cb3aad99f15fd4"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/AR/names.zip",
+      "bytes": 738151,
+      "sha256": "3a113fb053200cc37f411682b91b02defd724652c44aaf7886b6775857352dbd"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/AR/names.zip.receipt.json",
+      "bytes": 951,
+      "sha256": "0676d96321b98ae1c8a4e80a7f6ea30fab3ff9c06bbc00710e3c7272dce6fe9a"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/AR/provincias.json",
+      "bytes": 2403,
+      "sha256": "4090b47f86e5a729d210f7adb540728a202457e221954112db2f16f1e39b6bac"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/AR/provincias.json.receipt.json",
+      "bytes": 866,
+      "sha256": "826f63acab6c7d88b40e304b2d97353bafe015ce948d52b660423737fc0b8688"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/BO/geonames.zip",
+      "bytes": 1073557,
+      "sha256": "6d9096dd7101ee29ed84a51702503bfc27eecf529155c958b70a6f12311d81fd"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/BO/geonames.zip.receipt.json",
+      "bytes": 932,
+      "sha256": "67c49c62a3ec0bcfe808a8e4175381fd2eda986572de77521482d6ea43eb95a7"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/BO/names.zip",
+      "bytes": 443465,
+      "sha256": "519e0e898368775c3d507881517bc0790d7679ea69501f082883dd8295705ecd"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/BO/names.zip.receipt.json",
+      "bytes": 951,
+      "sha256": "88322a9202a4f3a2573703062ef5507b1f819e73013085d89b6b2bd4786ab5a3"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/BR/geonames.zip",
+      "bytes": 7177383,
+      "sha256": "cbf871c970db73c3ea2409466bce57015754ad5ad96137669934019d90326931"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/BR/geonames.zip.receipt.json",
+      "bytes": 932,
+      "sha256": "563d5d2065512449f6b07111c7798fa5dea1668b5e32a73b0b577c71f5232f6a"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/BR/names.zip",
+      "bytes": 3304533,
+      "sha256": "ba08c07e271f955f66b4c7dc8a4ed3a2ee4c934bc62a9014f573679310caae3e"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/BR/names.zip.receipt.json",
+      "bytes": 953,
+      "sha256": "491b6c2023f918bdad09365558ffb7e5c83e882ee62095d3c5694f6d30624f7e"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/BV/geonames.zip",
+      "bytes": 7317,
+      "sha256": "5538089aa3b6884ba5ded863ce312544e9b94f1bc7359ed2d7906e85b608f82c"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/BV/geonames.zip.receipt.json",
+      "bytes": 927,
+      "sha256": "52865be1aba5275f2006e60695cbf7ee8bb15410cdbf85a1bbfe4c70d13d8041"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/BV/names.zip",
+      "bytes": 7966,
+      "sha256": "1c0acf1f39546330aa23d61c33b7bf25059e3d3040682c4c0bce972aec8fbb0a"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/BV/names.zip.receipt.json",
+      "bytes": 948,
+      "sha256": "c670ec695ef6a044d85ec6859431a0255e755f3ac9dba1c18ebadcf0b0e346a0"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/CL/geonames.zip",
+      "bytes": 1421424,
+      "sha256": "27aef2d2872c64cbaff1063e27fb052242918071d5bc11506c3627795b89b821"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/CL/geonames.zip.receipt.json",
+      "bytes": 932,
+      "sha256": "119c66424590ba327ca140585f00385d9d0d2211f0357d1a20acb19153f74a3b"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/CL/names.zip",
+      "bytes": 638452,
+      "sha256": "f132de6101ac11d48ad7c7fc52d468111c078f5abb538a44d835650aa140ffff"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/CL/names.zip.receipt.json",
+      "bytes": 951,
+      "sha256": "1f42eaea461c818ef9ef87c94b25519a969ecf05e53d52e46a01fc34dd9cab77"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/CO/geonames.zip",
+      "bytes": 2248925,
+      "sha256": "b5474ea584e5d37202c7f674cf0b01085fe9ef9fec78dbbac43f4acca3a002b3"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/CO/geonames.zip.receipt.json",
+      "bytes": 932,
+      "sha256": "1b27f2ca7c56f3d6f24e2957c10e51c94827fae5afb998179b600eeb48a6f477"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/CO/names.zip",
+      "bytes": 659387,
+      "sha256": "86d48c61b6fefdb49d5022c31db3d31e151cb4a427b158bf3d03701a9f6ecc86"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/CO/names.zip.receipt.json",
+      "bytes": 951,
+      "sha256": "358a1c4c6f8df617d6a731c9110a703427f128d842c3bbc6d79a75aad04050da"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/EC/geonames.zip",
+      "bytes": 633378,
+      "sha256": "819bc9cbff53fbb6b72d3d7f38e83d758c7e789ae1fa5b2267ee70e4cc89d435"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/EC/geonames.zip.receipt.json",
+      "bytes": 930,
+      "sha256": "0ba3a9be75b24bb188f1c3fc1682b9587e4ad99e29f35aea0310017244b5f7c6"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/EC/names.zip",
+      "bytes": 262098,
+      "sha256": "97e42cc471962ecaf2043184ff3fbabb2a7ae910bb646e23e00a722dc141d161"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/EC/names.zip.receipt.json",
+      "bytes": 951,
+      "sha256": "1b94a12d1323ee083ee77504bc6b273763fb8177c352ca1c0810f10362964466"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/FK/geonames.zip",
+      "bytes": 39573,
+      "sha256": "a3f653ed4f574fd0850c949c818c5eaa79a7a7cc30fcb7b69bc0d68c5f334e54"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/FK/geonames.zip.receipt.json",
+      "bytes": 928,
+      "sha256": "bdf0816ef11bc86bd727d84b7e8e1a98847ceabb70ff61e2b1b1ae5bdec7846a"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/FK/names.zip",
+      "bytes": 28062,
+      "sha256": "8d0e09abfb73b6e1a44d13184bc6986903527345ce0828aa03113d935a0423b1"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/FK/names.zip.receipt.json",
+      "bytes": 949,
+      "sha256": "b54b6f4f696e755426982b4e3256f16e70c8f2dc032430612664e14da83d1976"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/GF/adresses-973.csv.gz",
+      "bytes": 2404066,
+      "sha256": "1696a5c4132f8b10efb4419b0530af405f77cf919cffa997176e9f42cf779da1"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/GF/adresses-973.csv.gz.receipt.json",
+      "bytes": 981,
+      "sha256": "204f3a51b312b0d54e392ba217be47c4ba38ab1eb6e594311a54215e9b74aa30"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/GF/geonames.zip",
+      "bytes": 118913,
+      "sha256": "b3f4a23122474cabc1d333454bbdbc11714fdc1fb2883e4142769a57ae375b65"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/GF/geonames.zip.receipt.json",
+      "bytes": 930,
+      "sha256": "9dcd4e75c00f3f24b073dc292b27af26fac849b70ed129172a88638771115e8d"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/GF/names.zip",
+      "bytes": 63977,
+      "sha256": "b07db94ec465b7b6920bf6eb0e307c9637e3198e23b3af79eae6a0778c82090c"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/GF/names.zip.receipt.json",
+      "bytes": 949,
+      "sha256": "289aa943a4e7838e180d34eb5be2546775db18ed8963f0d7ac172e5048430cda"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/GS/geonames.zip",
+      "bytes": 36519,
+      "sha256": "e7a8d2375e6168497a22a21e1fd3ad1ac3dc061f9ddb351e8da89a9d654f8558"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/GS/geonames.zip.receipt.json",
+      "bytes": 928,
+      "sha256": "2494c8171d3953692b4918a1399965fe0f75dacc00d952230d38f50438b7fb17"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/GS/names.zip",
+      "bytes": 42670,
+      "sha256": "217e0d15332861d666242b040cf1771b3d0b723db2c87f14a8556dab2443f121"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/GS/names.zip.receipt.json",
+      "bytes": 949,
+      "sha256": "8f825efae877dc0484d8c1d1819c1ebd3b804c6e737265841292c55563387579"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/GY/geonames.zip",
+      "bytes": 174050,
+      "sha256": "8957722521d36a35b909029aef6f29077037efe9f00d41c5e02565aa411b9f58"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/GY/geonames.zip.receipt.json",
+      "bytes": 930,
+      "sha256": "5f4680123f7a301269ca781d804c9a08e58316800bb7e19b1f93e54f97ccc5ff"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/GY/names.zip",
+      "bytes": 96639,
+      "sha256": "035f4e2a6864bcd8bb1e0c086872e948757ccc0057db40063f3f6392dcec679d"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/GY/names.zip.receipt.json",
+      "bytes": 950,
+      "sha256": "c6301672bac67ac807f1ba3aa7302cce2966728a3c30619b9bb252ffbbbed002"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/PE/geonames.zip",
+      "bytes": 3087239,
+      "sha256": "c3bdeb4cede30f1f89351c25f38b22c7d55997fbe890dc20b1b01eaffa57d7f9"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/PE/geonames.zip.receipt.json",
+      "bytes": 932,
+      "sha256": "8031721f9c14219904043e1df10d0556773bbf3435736c6cef64b501945b5ad0"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/PE/names.zip",
+      "bytes": 975151,
+      "sha256": "763ca5e54f0003baaf58cf42b259d6eca13c3cb1dc7bb6d0999a35bbf867afe0"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/PE/names.zip.receipt.json",
+      "bytes": 951,
+      "sha256": "30f6cbcc03ac8e6cbc88a27392883aab1635f02195ab56b5b4f270d4a38accf1"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/PY/geonames.zip",
+      "bytes": 551327,
+      "sha256": "83b60ebfe1cc66456d06fcba1761653a79667e09eaae58a1c78edc33a0803094"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/PY/geonames.zip.receipt.json",
+      "bytes": 930,
+      "sha256": "59802ab9405126d5fcf5a47d3e813a44b224bc63721b06dcd70970100c75d8ce"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/PY/names.zip",
+      "bytes": 149476,
+      "sha256": "65c820b252e81fe0f3c839587e5a608cc3166d518d82ca1225c0c2f42bf8f46e"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/PY/names.zip.receipt.json",
+      "bytes": 951,
+      "sha256": "77e72e3d76f26513891d7dd44d779df585daae3b5b11415e034bd51b20e02a35"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/SR/geonames.zip",
+      "bytes": 83048,
+      "sha256": "182b3ded792b9e7a48a86852da6b6c1c5a1c150d0e0e40390e21ce7b7f7497af"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/SR/geonames.zip.receipt.json",
+      "bytes": 929,
+      "sha256": "a9b2e6f6e83cc093da8b54105bbdf26fbd724cb2cf8e13c448b0102e65330e44"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/SR/names.zip",
+      "bytes": 57880,
+      "sha256": "3dcfc560017519e77ebd29548566ecda72f80c0332f04af3e8e2f2a4ee575055"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/SR/names.zip.receipt.json",
+      "bytes": 949,
+      "sha256": "80178b19821126fb7441240e1351196f78e226544ca75a720891ce1a63c26670"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/UY/geonames.zip",
+      "bytes": 276131,
+      "sha256": "2d5fac26bedaca60e4ba40c309b542e804fd53aad5d8c164cd06424b06849e82"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/UY/geonames.zip.receipt.json",
+      "bytes": 930,
+      "sha256": "2a2deec5cd52f35cb34ca1d7a149a1f4e3bcbbbc76c45f0183099d40df431cae"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/UY/names.zip",
+      "bytes": 180110,
+      "sha256": "c6241c4be4fdcd52c79698f7662280a376d460f435c33590ae6d56b8bbb66eaf"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/UY/names.zip.receipt.json",
+      "bytes": 951,
+      "sha256": "332b4768f6eea7fa203b72f98bd06045d8baccbba0ebd1d6eddaba7c6a8374ab"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/VE/geonames.zip",
+      "bytes": 1824599,
+      "sha256": "5071e13739f29ba9a260c74b22d0d399554a62aab55c300923c6812d70f5b416"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/VE/geonames.zip.receipt.json",
+      "bytes": 932,
+      "sha256": "dfb27da7634273e50f6740a4cf24f7c5d3f09133fc9cc3c6b4d51ecc68ed714a"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/VE/names.zip",
+      "bytes": 369154,
+      "sha256": "07ca2b4081f9db67138b2a017bb1cb45ca4e8724a0e5c97ab64a5a504b988014"
+    },
+    {
+      "path": "address-points/sources/SOUTHAMERICA/VE/names.zip.receipt.json",
+      "bytes": 951,
+      "sha256": "c9314b23393b898963d5883bfee7665a62b4473ff16c12b23ca87628e93dfe8c"
+    },
+    {
+      "path": "examples/br_path.json",
+      "bytes": 65,
+      "sha256": "40eb52a5d92271a0f3a82274fd78e15c0cf0fe5bae4563d31b79bb15290a2243"
+    },
+    {
+      "path": "examples/br_wrong_state_path.json",
+      "bytes": 65,
+      "sha256": "4a3b0e115fe189e3eebacfb8675e6498361150d255b5291850aca5c7125e0682"
+    },
+    {
+      "path": "examples/synthetic_co_address.json",
+      "bytes": 208,
+      "sha256": "98b821219b97e63f63271b73058e67b8945da18a02d672ee22275853bf1332fa"
+    },
+    {
+      "path": "tests/RESULTS.txt",
+      "bytes": 385,
+      "sha256": "406cb6636055665d26346ee25e1735c3e095da5fe9da0f9df8884e695c8fbf7b"
+    },
+    {
+      "path": "tests/test_southamerica.py",
+      "bytes": 9930,
+      "sha256": "719e20fd11719ef3c03c7d456c7dcae79a5e5a31aa1a2b1d01deb0b43765b9d4"
+    },
+    {
+      "path": "tests/test_southamerica_hierarchy.py",
+      "bytes": 7359,
+      "sha256": "fa232f70da6366eda95ef38a969977a90db3165ee0483dd9db1a9b2d0e71fc32"
+    }
+  ]
+}

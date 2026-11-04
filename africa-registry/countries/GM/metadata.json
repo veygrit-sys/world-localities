@@ -1,0 +1,83 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "GMB",
+    "country": "GM",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Gambia",
+    "geonames_id": "2413451",
+    "id": "country:GM",
+    "m49": "270",
+    "name_en": "Gambia",
+    "numeric": "270",
+    "region": "Western Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 2015,
+    "admin_rows": 43,
+    "ambiguous_parents": 0,
+    "country": "GM",
+    "country_scope_only": 2,
+    "localities_without_adm1": 2,
+    "locality_rows": 2037,
+    "name_en": "Gambia",
+    "other_admin_rows": 2,
+    "region": "Western Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 6,
+    "ADM2": 37,
+    "ADMD": 1,
+    "PCLI": 1,
+    "PPL": 1998,
+    "PPLA": 5,
+    "PPLC": 1,
+    "PPLQ": 22,
+    "PPLX": 11
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 65598,
+      "rows": 2082,
+      "sha256": "fcbf8d7ccebd40c3d6981186254ed6422ab208ed6be327523491307ce9732bf9",
+      "uncompressed_sha256": "0d754d9afadbc5c45bea1d29d51d77ab137efb3b253b67b2d806c691d3ab54b3"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 2,
+    "not_assigned_for_other_feature": 2,
+    "source_admin_code": 2072,
+    "source_country": 6
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 6,
+      "sha256": "b7fd9ae9c7eace4d98240079de9b722305c1a0069d2bfa5d81c89acb1b663656"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 66656,
+    "discarded_feature_classes": {
+      "H": 140,
+      "L": 76,
+      "R": 1,
+      "S": 54,
+      "T": 60
+    },
+    "retained_rows": 2082,
+    "retrieved_on": "2026-09-26",
+    "sha256": "e7e741b316678f1eecd3e4672c22ffb6fd448ddb4c2a617184d87b11da551fad",
+    "source_rows": 2413,
+    "url": "https://download.geonames.org/export/dump/GM.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1993-12-23"
+}

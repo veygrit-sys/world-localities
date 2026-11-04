@@ -1,0 +1,111 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "FIN",
+    "country": "FI",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Finland",
+    "geonames_id": "660013",
+    "id": "country:FI",
+    "m49": "246",
+    "m49_region": "Europe",
+    "name_en": "Finland",
+    "region": "Northern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 29158,
+    "admin_rows": 379,
+    "ambiguous_parents": 0,
+    "country": "FI",
+    "country_scope_only": 1,
+    "localities_without_adm1": 39,
+    "locality_rows": 29234,
+    "name_en": "Finland",
+    "other_admin_rows": 140,
+    "region": "Northern Europe",
+    "unresolved_parents": 49
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 18,
+    "ADM1H": 8,
+    "ADM2": 66,
+    "ADM2H": 1,
+    "ADM3": 294,
+    "ADM3H": 47,
+    "ADM4": 1,
+    "ADMD": 84,
+    "PPL": 24010,
+    "PPLA": 17,
+    "PPLA2": 2,
+    "PPLA3": 339,
+    "PPLC": 1,
+    "PPLF": 32,
+    "PPLH": 6,
+    "PPLL": 123,
+    "PPLQ": 32,
+    "PPLS": 6,
+    "PPLX": 4666
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 937568,
+      "rows": 20000,
+      "sha256": "03a9b2d9173a46bc3b6add2292deee57b406cd000cd7f632644e750971d8ba02",
+      "uncompressed_sha256": "447da51acda70e379dcfcd04ed503778dbcbbe1386599a08cd42de8aaca4a8a0"
+    },
+    "entities-0002.csv.gz": {
+      "bytes": 426862,
+      "rows": 9753,
+      "sha256": "0b8e7d45cf558d6e4bf37d1c2e25950d2e1cab5c6b7a360853302e7b84ba985d",
+      "uncompressed_sha256": "383e1b9f8b9a0ec3b88938664e39cad01d7091c853aaa6af97a0cb0861e3c82e"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 1,
+    "historical_parent_not_asserted": 94,
+    "missing_code": 2,
+    "missing_reference": 47,
+    "not_assigned_for_other_feature": 84,
+    "source_admin_code": 29507,
+    "source_country": 18
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 18,
+      "sha256": "70bf3ad8d6d8475d47fee00b882e4bccdd30584ca17d23046f817dfcdc118e1f"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 552799,
+    "bytes": 13938004,
+    "excluded_feature_class_counts": {
+      "A": 3,
+      "H": 212621,
+      "L": 37311,
+      "R": 121,
+      "S": 16440,
+      "T": 189694,
+      "U": 5,
+      "V": 66851
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:53:11 GMT",
+    "retained_rows": 29753,
+    "retrieved_at": "2026-09-29T11:13:38.502708+00:00",
+    "sha256": "14569c30fe950afcde55b9f187ca800fce0e8ff10b93078cda9bf3c10f27b4ce",
+    "url": "https://download.geonames.org/export/dump/FI.zip"
+  },
+  "source_modified_max": "2026-09-15",
+  "source_modified_min": "1993-12-28"
+}

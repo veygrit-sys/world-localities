@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-01T16:20:38Z",
+  "scope": "Dated workflow observation only; preserved files remain pinned to source commit 4efec82671b15a6bca4f0099acb6377c55af9aae",
+  "workflow_run_id": 36766121286,
+  "workflow_run_url": "https://github.com/rei-k/world-address/actions/runs/36766121286",
+  "canada": {
+    "job_id": 110060611428,
+    "job_url": "https://github.com/rei-k/world-address/actions/runs/36766121286/job/110060611428",
+    "status": "completed",
+    "conclusion": "failure",
+    "started_at": "2026-09-30T19:32:05Z",
+    "completed_at": "2026-09-30T19:32:26Z",
+    "error_time": "2026-09-30T19:32:25.5244814Z",
+    "error": "urllib.error.HTTPError: HTTP Error 500: Internal Server Error",
+    "failed_stage": "source download",
+    "publish_step": "skipped"
+  },
+  "freshness_claim": false
+}

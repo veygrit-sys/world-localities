@@ -1,0 +1,127 @@
+{
+  "alternate_values_file": {
+    "bytes": 162057,
+    "filename": "alternate-values.csv.gz",
+    "rows": 9247,
+    "sha256": "0c917e4ea270f13166bb3b8e3b419f540b2ed4e2ef83b688a09741beb51c2485",
+    "uncompressed_sha256": "784633dc612dba2513f9d938041330bc6f357c3284071b8ac4cd2dd82dc67e26"
+  },
+  "alternate_values_source": {
+    "bytes": 149403,
+    "retained_rows": 9247,
+    "retrieved_on": "2026-10-02",
+    "sha256": "ebc42dd321a27ddf8d82e4a02104d2d894dcf04fb4b9ab724d56050523805c7b",
+    "source_columns": 10,
+    "source_rows": 12686,
+    "url": "https://download.geonames.org/export/dump/alternatenames/PY.zip"
+  },
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "PRY",
+    "country": "PY",
+    "geonames_continent": "SA",
+    "geonames_id": "3437598",
+    "id": "country:PY",
+    "m49": "600",
+    "name_en": "Paraguay",
+    "region": "South America",
+    "region_m49": "005",
+    "source_country_languages": [
+      "es-PY",
+      "gn"
+    ],
+    "status": "source_country_or_area"
+  },
+  "country_profile_source": {
+    "bytes": 31678,
+    "repository_path": "sources/countryInfo-2026-10-02.txt",
+    "retrieved_on": "2026-10-02",
+    "sha256": "93bafc525813f22e4711ff9ed6d626343094ce48c26388dc7c49189b3d7d5512",
+    "url": "https://download.geonames.org/export/dump/countryInfo.txt"
+  },
+  "counts": {
+    "address_candidates": 6839,
+    "admin_rows": 8498,
+    "ambiguous_parents": 0,
+    "country": "PY",
+    "country_scope_only": 0,
+    "localities_without_adm1": 0,
+    "locality_rows": 6868,
+    "name_en": "Paraguay",
+    "other_admin_rows": 3,
+    "region": "South America",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 18,
+    "ADM2": 246,
+    "ADM3": 8234,
+    "ADMD": 2,
+    "PCLI": 1,
+    "PPL": 2944,
+    "PPLA": 17,
+    "PPLA2": 7,
+    "PPLA3": 1,
+    "PPLC": 1,
+    "PPLL": 1664,
+    "PPLQ": 29,
+    "PPLX": 2205
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 575534,
+      "rows": 15369,
+      "sha256": "9c074a97f49fb903ef952c1ffc78a1aa238593b3b213576fc84316064825d4b4",
+      "uncompressed_sha256": "c984447e67a7166350e20d156d187b27caa0dd0633f0121e90a211b5a6fa119d"
+    }
+  },
+  "known_issues": [],
+  "label_coverage": {
+    "current_country_language_name_entities": 5242,
+    "current_english_name_entities": 56,
+    "language_tagged_name_entities": 5303,
+    "missing_country_language_name_entities": 10127,
+    "missing_english_name_entities": 15313,
+    "native_label_rule": "Exact source language tag matched against countryInfo language list; no language is inferred from primary name, ASCII, spelling or script. Country-language match is not proof of each place's indigenous language."
+  },
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "not_assigned_for_other_feature": 3,
+    "source_admin_code": 15348,
+    "source_country": 18
+  },
+  "postal_coverage": {
+    "note": "Only source post-tag values, if any; not joined by place name and not delivery validation.",
+    "postal_deliverability_verified": false,
+    "postal_validation": false,
+    "source_postal_value_rows": 0
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 18,
+      "sha256": "95e6b43a2be57fda1e87faf2be70fd97e3f878bf8d3b3272553e3029be307b7e"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 551326,
+    "discarded_feature_classes": {
+      "H": 1593,
+      "L": 357,
+      "R": 2,
+      "S": 693,
+      "T": 544,
+      "V": 26
+    },
+    "retained_rows": 15369,
+    "retrieved_on": "2026-10-02",
+    "sha256": "c06639388d0c4d37f4a9ad696b36bcf8e34473829f4af5a3094f55fb57b8b59d",
+    "source_rows": 18584,
+    "url": "https://download.geonames.org/export/dump/PY.zip"
+  },
+  "source_modified_max": "2026-09-16",
+  "source_modified_min": "1993-12-15"
+}

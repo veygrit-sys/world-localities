@@ -1,0 +1,68 @@
+{
+  "archive_bytes": 32876,
+  "archive_sha256": "ad2a2647964374f125aade59a4f3e62cef9b59d37dc072daee5ff85e07e05f53",
+  "parts": [
+    {
+      "path": "countries/HM/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 43837,
+      "stored_sha256": "05567a0e26d60a7e1165d3bc7cdc2a1c4f673855fb78186c1a0855b448bafea3",
+      "bytes": 32876,
+      "sha256": "ad2a2647964374f125aade59a4f3e62cef9b59d37dc072daee5ff85e07e05f53"
+    }
+  ],
+  "members": {
+    "base/data/australia_new_zealand/HM/index.json": {
+      "bytes": 1616,
+      "sha256": "51b083e8db77f2b8b0371ff3d1adf79071bb737eff87498b1aaaa1fa831abe85"
+    },
+    "base/data/australia_new_zealand/HM/places.csv": {
+      "bytes": 445,
+      "sha256": "89cf77b6e12120dbc49c54b6535b3b24cb1cf298cca1888d69d7100278f4d3f7"
+    },
+    "base/data/australia_new_zealand/HM/places.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "base/sources/geonames/HM.zip": {
+      "bytes": 10014,
+      "sha256": "bfb066ea8638c5401df7473e3c04c8e779f1c4e2239fdc9e62d662d83af4b37b"
+    },
+    "base/sources/geonames/HM.zip.download.json": {
+      "bytes": 304,
+      "sha256": "5f1c010263b28ae9bf94cebee53529a4d49abf31db02653dde185fc603aabaa8"
+    },
+    "locale/names.csv": {
+      "bytes": 19444,
+      "sha256": "c283a7951ea228856400d75df05efc4059f3150d48b68b58fe97ba03f3e28954"
+    },
+    "locale/names.jsonl": {
+      "bytes": 39429,
+      "sha256": "5f4e1c71b8cd78f377a9f6441198ec4e2c0f92c2c4fcd214455090f9b8b5f908"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 3,
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "locale/sources/address-templates/HM.json": {
+      "bytes": 135,
+      "sha256": "744a8e0dde75371e231048fef3c6722ba99f40c8d2be4b37b1f3888c05d06426"
+    },
+    "locale/sources/address-templates/HM.json.download.json": {
+      "bytes": 271,
+      "sha256": "f83d6ff2202d6d9606fd776a6a3d79ce95fd809e64e50f01af48c313438831e7"
+    },
+    "locale/sources/alternatenames/HM.zip": {
+      "bytes": 10812,
+      "sha256": "6a84916d8ccffd6d4042d951ff59102e5514949e091608cacd96d4a6997c1df9"
+    },
+    "locale/sources/alternatenames/HM.zip.download.json": {
+      "bytes": 283,
+      "sha256": "dfdabd1ba7fea3ce486da69208269f22440b399e1a8c697ed530d478e3aefa11"
+    }
+  }
+}

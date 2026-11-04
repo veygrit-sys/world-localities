@@ -1,0 +1,254 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-21T17:48:36.175355+00:00",
+  "behavior_tests": 63,
+  "country_count": 7,
+  "supplementary_area_count": 0,
+  "source_integrity_objects": 32,
+  "observation_replays": [
+    {
+      "source": "bz-codab-gazetteer",
+      "rows": 6,
+      "canonical_row_sha256": "73bebf531d72bda6ad68e5f3a9141716147e41b7ab65af6d98e69b9dfd47e7ba",
+      "status": "PASS"
+    },
+    {
+      "source": "bz-geonames-geonames",
+      "rows": 530,
+      "canonical_row_sha256": "34a6a18bbc38c286ce4ad54d7628fd740a70d378857a1126848010318289dcd5",
+      "status": "PASS"
+    },
+    {
+      "source": "cr-codab-gazetteer",
+      "rows": 583,
+      "canonical_row_sha256": "938aaa01a1b6b93f9771bcf6f5160810ac3868f99b0687aa398a07e567a8d852",
+      "status": "PASS"
+    },
+    {
+      "source": "cr-geonames-geonames",
+      "rows": 6345,
+      "canonical_row_sha256": "08562514d6108f2c7bf4ea699166a70f08f541e45a85e9cb5989e52d7619dde2",
+      "status": "PASS"
+    },
+    {
+      "source": "gn-admin1CodesASCII",
+      "rows": 98,
+      "canonical_row_sha256": "86c27c0681a0763291d75160ad3794503630fe622849e59b04a58a02ced28244",
+      "status": "PASS"
+    },
+    {
+      "source": "gn-admin2Codes",
+      "rows": 1001,
+      "canonical_row_sha256": "f48870f919f93af7e479ac678b009aab7072b7d4ec83f8079b2baf8f12fb632c",
+      "status": "PASS"
+    },
+    {
+      "source": "gt-codab-gazetteer",
+      "rows": 364,
+      "canonical_row_sha256": "c5f614ae971123b2deaf76ea312d3e3fea52bc19d617b6ba526ce0aa0b7a6e75",
+      "status": "PASS"
+    },
+    {
+      "source": "gt-geonames-geonames",
+      "rows": 17341,
+      "canonical_row_sha256": "4c11748cb2742432a0be57f5da34c94c13ec8ccbc5b9de2de846cb1ca4b5afb4",
+      "status": "PASS"
+    },
+    {
+      "source": "hn-codab-gazetteer",
+      "rows": 28285,
+      "canonical_row_sha256": "3cead1d63e3f78a55a0ce6bcd15fa28049d9eaaf07f64a90c51c185e06bb120a",
+      "status": "PASS"
+    },
+    {
+      "source": "hn-geonames-geonames",
+      "rows": 13281,
+      "canonical_row_sha256": "7820557e48bb40199b7f171f0d9de49e36539f3b664359b108bf41237a1c0182",
+      "status": "PASS"
+    },
+    {
+      "source": "ni-codab-gazetteer",
+      "rows": 170,
+      "canonical_row_sha256": "49332e4eb53a73dfaa3c330b5481003a525086160774fc4874fe14a6e62024b1",
+      "status": "PASS"
+    },
+    {
+      "source": "ni-geonames-geonames",
+      "rows": 2806,
+      "canonical_row_sha256": "9d464ac0a55b0c3683689c7135acc06f491737d644135195029cac4a3be64498",
+      "status": "PASS"
+    },
+    {
+      "source": "pa-codab-gazetteer",
+      "rows": 683,
+      "canonical_row_sha256": "88d34a39488fa115dbbc0d60b26e9ad4c2b5768e93ae4f8e219424e2f466979c",
+      "status": "PASS"
+    },
+    {
+      "source": "pa-geonames-geonames",
+      "rows": 14013,
+      "canonical_row_sha256": "836a49d8302bfa3e3cd31eddfb2c893c703e4c4fdcc845da86bc82164114d425",
+      "status": "PASS"
+    },
+    {
+      "source": "sv-codab-gazetteer",
+      "rows": 328,
+      "canonical_row_sha256": "b1062de81159072b7d18df857f295f6891bf3d1bece8708dd23d6be8da4acd90",
+      "status": "PASS"
+    },
+    {
+      "source": "sv-geonames-geonames",
+      "rows": 5210,
+      "canonical_row_sha256": "b57f5881ab072ac68b6942d4da59d42eeda6dc52d5e443eec80253a0978008a0",
+      "status": "PASS"
+    }
+  ],
+  "alternate_name_replays": [
+    {
+      "source": "bz-geonames-names",
+      "rows": 1225,
+      "canonical_row_sha256": "4947a51a390bdc88777a055c4874ea88d7911201b7d2b01ebb0b0dd4eb718166",
+      "status": "PASS"
+    },
+    {
+      "source": "cr-geonames-names",
+      "rows": 7474,
+      "canonical_row_sha256": "3805ab59489d9fbc3a250be5695469a5dd2b03e6b6ff405ebd84d0f4e114300a",
+      "status": "PASS"
+    },
+    {
+      "source": "gt-geonames-names",
+      "rows": 21285,
+      "canonical_row_sha256": "cf7905430af6c4fb8a47a20f3db0c1a57379c2efa44553a8c80b3e0c454799cc",
+      "status": "PASS"
+    },
+    {
+      "source": "hn-geonames-names",
+      "rows": 10834,
+      "canonical_row_sha256": "4589e52eaea4954a3384be4c5d3cf03873d3faab7278bb78b7badb57506ce350",
+      "status": "PASS"
+    },
+    {
+      "source": "ni-geonames-names",
+      "rows": 5188,
+      "canonical_row_sha256": "03bc043e8854e99b301357f8792c5ae73d6ae6d730ae3d533acbce883e54daf8",
+      "status": "PASS"
+    },
+    {
+      "source": "pa-geonames-names",
+      "rows": 18068,
+      "canonical_row_sha256": "401f49d137a5972a1ffc5aa61da6a22fa9c751e42015e9c68fffdd98b2c40d11",
+      "status": "PASS"
+    },
+    {
+      "source": "sv-geonames-names",
+      "rows": 7482,
+      "canonical_row_sha256": "40d9090514f0f7beddf33c9da4da25af9e609f56862808f0133d602ca6b03778",
+      "status": "PASS"
+    }
+  ],
+  "structural_checks": {
+    "foreign_keys": "PASS",
+    "same_country_links": "PASS",
+    "acyclic_rank_order": "PASS"
+  },
+  "sqlite_integrity": "PASS",
+  "real_data_checks": {
+    "country_queries": [
+      {
+        "country": "BZ",
+        "path": [
+          "scope:BZ",
+          "codab-bz-v01:adm1:BZ02"
+        ],
+        "query": "Cayo",
+        "expected_path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "GT",
+        "path": [
+          "scope:GT",
+          "codab-gt-v01:adm1:GT01",
+          "codab-gt-v01:adm2:GT0101"
+        ],
+        "query": "Guatemala",
+        "expected_path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "SV",
+        "path": [
+          "scope:SV",
+          "codab-sv-v02:adm1:SV10",
+          "codab-sv-v02:adm2:SV10001",
+          "codab-sv-v02:adm3:SV10001005"
+        ],
+        "query": "San Salvador",
+        "expected_path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "HN",
+        "path": [
+          "scope:HN",
+          "codab-hn-v01:adm1:HN08",
+          "codab-hn-v01:adm2:HN0801",
+          "codab-hn-v01:place:HN080101001"
+        ],
+        "query": "Distrito Central",
+        "expected_path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "NI",
+        "path": [
+          "scope:NI",
+          "codab-ni-v02:adm1:NI55",
+          "codab-ni-v02:adm2:NI5525"
+        ],
+        "query": "Managua",
+        "expected_path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "CR",
+        "path": [
+          "scope:CR",
+          "codab-cr-v01:adm1:CR6",
+          "codab-cr-v01:adm2:CR612",
+          "codab-cr-v01:adm3:CR61201"
+        ],
+        "query": "Monteverde",
+        "expected_path_status": "source_path_consistent",
+        "status": "PASS"
+      },
+      {
+        "country": "PA",
+        "path": [
+          "scope:PA",
+          "codab-pa-v01:adm1:PA12",
+          "codab-pa-v01:adm2:PA1204"
+        ],
+        "query": "Panama",
+        "expected_path_status": "review_required",
+        "status": "PASS"
+      }
+    ],
+    "wrong_municipality_rejected": true,
+    "cartographic_water_features_separated": true,
+    "honduras_duplicate_codes": 20,
+    "honduras_ambiguous_rows": 40,
+    "costa_rica_new_cantons_present": true,
+    "panama_currentness_issues_visible": true,
+    "all_country_place_checks": 7
+  },
+  "counts": {
+    "nodes": 89952,
+    "names": 256334,
+    "links": 263085,
+    "observations": 91044,
+    "issues": 81
+  },
+  "limit": "PASS verifies faithful ingestion and conservative source navigation, not all addresses, physical containment, current postal assignment, or deliverability."
+}

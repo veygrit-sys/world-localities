@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "arguments": [
+        "verify-sources"
+      ],
+      "status": "PASS"
+    },
+    {
+      "arguments": [
+        "loop"
+      ],
+      "status": "PASS"
+    },
+    {
+      "arguments": [
+        "search",
+        "--country",
+        "CR",
+        "--text",
+        "Puerto Jimenez",
+        "--namespace",
+        "codab-cr-v01",
+        "--kind",
+        "canton"
+      ],
+      "status": "PASS"
+    },
+    {
+      "arguments": [
+        "children",
+        "--parent",
+        "codab-sv-v02:adm2:SV10001",
+        "--kind",
+        "district"
+      ],
+      "status": "PASS"
+    },
+    {
+      "arguments": [
+        "hierarchy",
+        "--id",
+        "codab-hn-v01:place:HN020831003:row:1569"
+      ],
+      "status": "PASS"
+    },
+    {
+      "arguments": [
+        "validate-path",
+        "--country",
+        "SV",
+        "--input",
+        "examples/sv_san_salvador_path.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "arguments": [
+        "validate-path",
+        "--country",
+        "SV",
+        "--input",
+        "examples/sv_wrong_municipality_path.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "arguments": [
+        "validate-path",
+        "--country",
+        "PA",
+        "--input",
+        "examples/pa_old_snapshot_path.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "arguments": [
+        "record",
+        "--id",
+        "codab-gt-v01:adm2:GT0101"
+      ],
+      "status": "PASS"
+    },
+    {
+      "arguments": [
+        "observations",
+        "--id",
+        "codab-sv-v02:adm3:SV10001005"
+      ],
+      "status": "PASS"
+    },
+    {
+      "arguments": [
+        "names",
+        "--id",
+        "codab-cr-v01:adm2:CR613",
+        "--language",
+        "es"
+      ],
+      "status": "PASS"
+    },
+    {
+      "arguments": [
+        "postcode",
+        "--country",
+        "NI",
+        "--value",
+        "12005"
+      ],
+      "status": "PASS"
+    },
+    {
+      "arguments": [
+        "postal-records",
+        "--country",
+        "NI",
+        "--value",
+        "12005"
+      ],
+      "status": "PASS"
+    },
+    {
+      "arguments": [
+        "issues",
+        "--country",
+        "HN",
+        "--output",
+        "temporary.jsonl"
+      ],
+      "status": "PASS"
+    }
+  ],
+  "check_count": 14,
+  "refresh_help": "PASS",
+  "refresh_end_to_end_run": false
+}

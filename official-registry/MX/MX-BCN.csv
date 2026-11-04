@@ -1,0 +1,8 @@
+id,code,source_type,category,name,lang,parent_id,state_id,state_code,address_country,address_candidate,postcodes,postcode_relations,government_status,department_code,collectivity_code,source_state_code,municipality_component,municipal_seat_locality_code,municipal_seat_name,municipal_seat_relation,statistics_available
+locality:mx:inegi:agem:02001,02001,municipality,municipality_geostatistical_area,Ensenada,es,admin:csc:3457,admin:csc:3457,MX-BCN,MX,1,,,,,,02,001,0001,Asientos,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:02002,02002,municipality,municipality_geostatistical_area,Mexicali,es,admin:csc:3457,admin:csc:3457,MX-BCN,MX,1,,,,,,02,002,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:02003,02003,municipality,municipality_geostatistical_area,Tecate,es,admin:csc:3457,admin:csc:3457,MX-BCN,MX,1,,,,,,02,003,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:02004,02004,municipality,municipality_geostatistical_area,Tijuana,es,admin:csc:3457,admin:csc:3457,MX-BCN,MX,1,,,,,,02,004,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:02005,02005,municipality,municipality_geostatistical_area,Playas de Rosarito,es,admin:csc:3457,admin:csc:3457,MX-BCN,MX,1,,,,,,02,005,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:02006,02006,municipality,municipality_geostatistical_area,San Quintín,es,admin:csc:3457,admin:csc:3457,MX-BCN,MX,1,,,,,,02,006,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:02007,02007,municipality,municipality_geostatistical_area,San Felipe,es,admin:csc:3457,admin:csc:3457,MX-BCN,MX,1,,,,,,02,007,0001,San Felipe,INEGI_cve_cab_attribute_not_municipality_alias,0

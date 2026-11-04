@@ -1,0 +1,107 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "PRT",
+    "country": "PT",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Portugal",
+    "geonames_id": "2264397",
+    "id": "country:PT",
+    "m49": "620",
+    "m49_region": "Europe",
+    "name_en": "Portugal",
+    "region": "Southern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 16604,
+    "admin_rows": 3587,
+    "ambiguous_parents": 0,
+    "country": "PT",
+    "country_scope_only": 0,
+    "localities_without_adm1": 5,
+    "locality_rows": 16615,
+    "name_en": "Portugal",
+    "other_admin_rows": 1913,
+    "region": "Southern Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 20,
+    "ADM1H": 1,
+    "ADM2": 308,
+    "ADM3": 3259,
+    "ADM3H": 1896,
+    "ADMD": 16,
+    "PPL": 16246,
+    "PPLA": 19,
+    "PPLA2": 228,
+    "PPLA3": 12,
+    "PPLC": 1,
+    "PPLF": 3,
+    "PPLH": 2,
+    "PPLL": 56,
+    "PPLQ": 3,
+    "PPLR": 1,
+    "PPLS": 2,
+    "PPLX": 42
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 799198,
+      "rows": 20000,
+      "sha256": "d5c4f4d9d0a782b8b3c0dec382f66692618f1716664b7054a2cffa672ade253f",
+      "uncompressed_sha256": "1c596c39c892e4664c2f7405dda6b634e693eecb72da3b361dc7178352a5d2f1"
+    },
+    "entities-0002.csv.gz": {
+      "bytes": 102037,
+      "rows": 2115,
+      "sha256": "42044f5012d8910b0e47d6a0392fb845479e0eb70b1c08d6f439016149932413",
+      "uncompressed_sha256": "f27facf74c02e54c73035087ee4e5ab41654e6045f899c550590388a976bb42a"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "historical_parent_not_asserted": 1902,
+    "not_assigned_for_other_feature": 16,
+    "source_admin_code": 20177,
+    "source_country": 20
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 20,
+      "sha256": "ec7f7767e016e4ff3f7bf401d4146d0ebeaf519eac47bc2de337052ad5d19c99"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 38355,
+    "bytes": 1166347,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 4369,
+      "L": 580,
+      "R": 55,
+      "S": 7700,
+      "T": 3153,
+      "U": 9,
+      "V": 373
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:56:01 GMT",
+    "retained_rows": 22115,
+    "retrieved_at": "2026-09-29T11:14:34.611933+00:00",
+    "sha256": "d13759ea54ffe3b18c16591e54b625d8851e7c0612ee083e7c9005788b078496",
+    "url": "https://download.geonames.org/export/dump/PT.zip"
+  },
+  "source_modified_max": "2026-09-18",
+  "source_modified_min": "1994-01-08"
+}

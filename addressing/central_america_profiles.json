@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "region": "Central America",
+  "reviewed_at": "2026-10-17",
+  "purpose": "Domestic-language and English address display profiles for all eight UN M49 Central America countries, with explicit postcode-transition, Address2, street, descriptive-direction and P.O. Box policies; not an address-existence, postal-assignment, geocoding or deliverability claim.",
+  "locality_registry": {
+    "path": "central-america-registry",
+    "quality_module": "central-america-registry/quality.py",
+    "materialized_countries": ["BZ", "CR", "GT", "HN", "MX", "NI", "PA", "SV"],
+    "source_layers": {
+      "BZ": "central-america-registry/countries/BZ",
+      "CR": "central-america-registry/enrichment/countries/CR",
+      "GT": "central-america-registry/countries/GT",
+      "HN": "central-america-registry/countries/HN",
+      "MX": "official-registry/MX",
+      "NI": "central-america-registry/countries/NI",
+      "PA": "central-america-registry/countries/PA",
+      "SV": "central-america-registry/countries/SV"
+    },
+    "source_locality_rows": 59641,
+    "country_source_rows": {"BZ": 528, "CR": 5900, "GT": 16981, "HN": 12966, "MX": 2478, "NI": 2632, "PA": 13267, "SV": 4889},
+    "direct_id_postal_alias_rows": 6,
+    "role": "Seven GeoNames-derived locality layers plus Mexico's preserved official INEGI municipality-role snapshot. Counts are source rows rather than unique real-world places. The six direct-ID postal aliases are not an official postcode crosswalk, and no row proves a street, house number, postcode assignment, geocode or deliverable address."
+  },
+  "overrides": ["BZ", "CR", "GT", "HN", "MX", "NI", "PA", "SV"],
+  "countries": {
+    "BZ": {
+      "native_languages": ["en", "es-Latn"],
+      "default_native_language": "en",
+      "native_profile": "BZ_en",
+      "native_profiles": {"en": "BZ_en", "es-Latn": "BZ_es"},
+      "native_scripts": {"en": "Latn", "es-Latn": "Latn"},
+      "english_profile": "BZ_en",
+      "country_names": {"en": "Belize", "es-Latn": "Belice"},
+      "postcode_pattern": null,
+      "postcode_required": false,
+      "romanization_policy": "English is the official postal language; Spanish is an explicit user-supplied domestic compatibility route. Shared Latin script never authorizes translation or cross-filling. No postcode or placeholder is synthesized.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Universal Postal Union and Belize Postal Service", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/blzEn.pdf", "scope": "May 2021 addressee, street, apartment, area and city order without a postcode"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "August 2026 postcode table and September 2025 list of destinations not requiring a postcode"},
+        {"authority": "Statistical Institute of Belize", "url": "https://sib.org.bz/wp-content/uploads/Languages_Infographic_2022.pdf", "scope": "2022 census evidence for widespread English and Spanish use; this does not certify translated street names"}
+      ]
+    },
+    "CR": {
+      "native_languages": ["es-Latn"],
+      "default_native_language": "es-Latn",
+      "native_profile": "CR_es",
+      "native_profiles": {"es-Latn": "CR_es"},
+      "native_scripts": {"es-Latn": "Latn"},
+      "english_profile": "CR_en",
+      "country_names": {"es-Latn": "Costa Rica", "en": "Costa Rica"},
+      "postcode_pattern": "\\d{5}",
+      "postcode_required": true,
+      "romanization_policy": "Spanish and English address values remain explicit. Exact descriptive directions and stable landmarks are preserved in the place field, while province, canton and district stay separate. A five-digit syntax check never assigns a district code.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Correos de Costa Rica", "url": "https://correos.go.cr/embalaje/", "scope": "Current recipient, exact directions and stable reference points, province, canton, district and district-code guidance"},
+        {"authority": "Correos de Costa Rica", "url": "https://sucursal.correos.go.cr/web/codigoPostal", "scope": "Current province, canton and district postcode lookup"},
+        {"authority": "Universal Postal Union and Correos de Costa Rica", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/criEn.pdf", "scope": "Five-digit code, street and P.O. Box examples; public sheet dated April 2009"}
+      ]
+    },
+    "GT": {
+      "native_languages": ["es-Latn"],
+      "default_native_language": "es-Latn",
+      "native_profile": "GT_es",
+      "native_profiles": {"es-Latn": "GT_es"},
+      "native_scripts": {"es-Latn": "Latn"},
+      "english_profile": "GT_en",
+      "country_names": {"es-Latn": "Guatemala, C.A.", "en": "Guatemala"},
+      "postcode_pattern": "\\d{5}",
+      "postcode_required": true,
+      "romanization_policy": "Spanish and English values remain independent. Street, zone or neighbourhood, premises, rural reference, municipality and department are retained without translating proper names or inferring a five-digit code.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Universal Postal Union and Dirección General de Correos y Telégrafos", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/gtmEn.pdf", "scope": "November 2025 home, organization and rural delivery formats with street, neighbourhood, premises, postcode and locality"},
+        {"authority": "Correos de Guatemala", "url": "https://correos.gob.gt/CodigosPos/ListaCodigos/Guatemala.pdf", "scope": "Official five-digit department and locality postcode list"}
+      ]
+    },
+    "HN": {
+      "native_languages": ["es-Latn"],
+      "default_native_language": "es-Latn",
+      "native_profile": "HN_es",
+      "native_profiles": {"es-Latn": "HN_es"},
+      "native_scripts": {"es-Latn": "Latn"},
+      "english_profile": "HN_en",
+      "country_names": {"es-Latn": "Honduras", "en": "Honduras"},
+      "postcode_pattern": "(?:\\d{5}|[A-Z]{2}\\d{4})",
+      "postcode_required": true,
+      "romanization_policy": "Spanish and English values remain independent. Current five-digit numeric syntax and the dated operator sheet's two-letter/four-digit legacy form are classified separately; neither is converted, assigned or treated as proof of delivery.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "August 2026 required-postcode list and current five-digit numeric format"},
+        {"authority": "Universal Postal Union and Empresa Correos de Honduras", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/hndEn.pdf", "scope": "Two-letter/four-digit locality and department example retained as dated May 2004 transition evidence"}
+      ]
+    },
+    "MX": {
+      "native_languages": ["es-Latn"],
+      "default_native_language": "es-Latn",
+      "native_profile": "MX_es",
+      "native_profiles": {"es-Latn": "MX_es"},
+      "native_scripts": {"es-Latn": "Latn"},
+      "english_profile": "MX_en",
+      "country_names": {"es-Latn": "México", "en": "Mexico"},
+      "postcode_pattern": "\\d{5}",
+      "postcode_required": true,
+      "romanization_policy": "Spanish and English values remain explicit. Vialidad, exterior and interior numbers, colonia, municipality or borough, city and federal entity remain distinct. Leading zeroes are preserved and no catalogue assignment is inferred.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Servicio Postal Mexicano", "url": "https://www.correosdemexico.gob.mx/SSLServicios/FormatosPortal/Alta_MaqFr.aspx", "scope": "Current separate street, exterior number, interior number, five-digit postcode, colonia, municipality, city and federal-entity fields"},
+        {"authority": "Servicio Postal Mexicano", "url": "https://www.correosdemexico.gob.mx/sslservicios/consultacp/CodigoPostal_Exportar.aspx", "scope": "Official national postcode catalogue, updated September 2026"},
+        {"authority": "Universal Postal Union and Servicio Postal Mexicano", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/mexEn.pdf", "scope": "Five-digit postcode before locality and state abbreviation; street, number, apartment and colonia examples"}
+      ]
+    },
+    "NI": {
+      "native_languages": ["es-Latn"],
+      "default_native_language": "es-Latn",
+      "native_profile": "NI_es",
+      "native_profiles": {"es-Latn": "NI_es"},
+      "native_scripts": {"es-Latn": "Latn"},
+      "english_profile": "NI_en",
+      "country_names": {"es-Latn": "Nicaragua", "en": "Nicaragua"},
+      "postcode_pattern": "\\d{5}",
+      "postcode_required": true,
+      "romanization_policy": "Spanish and English values remain explicit. Traditional landmark-and-distance directions, neighbourhood, five-digit postcode, municipality and department are preserved without translating reference points or synthesizing coordinates.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Correos de Nicaragua", "url": "https://www.correos.gob.ni/codigo-postal/", "scope": "Current five-digit numeric structure for geopostal region, municipality, urban neighbourhood or rural comarca"},
+        {"authority": "Correos de Nicaragua", "url": "https://www.correos.gob.ni/postalcode/postalcodes.php", "scope": "Current official department, municipality, postcode and neighbourhood lookup"},
+        {"authority": "Universal Postal Union and Correos de Nicaragua", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/nicEn.pdf", "scope": "Traditional descriptive direction, sub-locality, postcode, municipality and department order"}
+      ]
+    },
+    "PA": {
+      "native_languages": ["es-Latn"],
+      "default_native_language": "es-Latn",
+      "native_profile": "PA_es",
+      "native_profiles": {"es-Latn": "PA_es"},
+      "native_scripts": {"es-Latn": "Latn"},
+      "english_profile": "PA_en",
+      "country_names": {"es-Latn": "Panamá", "en": "Panama"},
+      "postcode_pattern": "(?:\\d{4}|[A-Z0-9]{8}|[A-Z0-9]{4}-[A-Z0-9]{4}|[A-Z0-9]{5}-[A-Z0-9]{5}|[A-Z0-9]{6}-[A-Z0-9]{4})",
+      "postcode_required": true,
+      "romanization_policy": "Spanish and English values remain explicit. The May 2026 geolocated national code is preserved exactly as supplied, alongside the UPU four-digit transition form. Syntax classification never derives a coordinate, residence or delivery claim.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {"authority": "Correos y Telégrafos de Panamá", "url": "https://www.correospanama.gob.pa/panama-da-un-paso-firme-hacia-la-modernizacion-con-el-nuevo-sistema-de-codigos-postales/", "scope": "Official 7 May 2026 launch of the free geolocated national postcode system"},
+        {"authority": "Sistema de Códigos Postales de Panamá", "url": "https://www.codigospostalespanama.gob.pa/", "scope": "Current official location search, complete-code and eight-character grid entry interface"},
+        {"authority": "Public Panama postcode index", "url": "https://www.allaboutpanamacity.com/es/guides/articulos/codigo-postal-de-panama", "scope": "Supplementary examples of current five-plus-five alphanumeric geolocated codes; not treated as assignment or operator verification"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "August 2026 required-postcode list and four-digit transition format"},
+        {"authority": "Universal Postal Union and Correos de Panamá", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/panEn.pdf", "scope": "Dated February 2015 home, P.O. Box and poste-restante layouts retained as non-postcode address evidence"}
+      ]
+    },
+    "SV": {
+      "native_languages": ["es-Latn"],
+      "default_native_language": "es-Latn",
+      "native_profile": "SV_es",
+      "native_profiles": {"es-Latn": "SV_es"},
+      "native_scripts": {"es-Latn": "Latn"},
+      "english_profile": "SV_en",
+      "country_names": {"es-Latn": "El Salvador", "en": "El Salvador"},
+      "postcode_pattern": "\\d{4}",
+      "postcode_required": true,
+      "romanization_policy": "Spanish and English values remain explicit. Street, premises, colonia, four-digit postcode, locality and department are retained without translating proper names or inferring a delivery area.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Universal Postal Union and Dirección General de Correos", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/slvEn.pdf", "scope": "Four-digit postcode before locality; home street, premises, colonia and department examples"},
+        {"authority": "Dirección General de Correos de El Salvador", "url": "https://www.correos.gob.sv/contactenos/", "scope": "Current official street and locality contact-address example"}
+      ]
+    }
+  },
+  "profiles": {
+    "BZ": {"country_code": "BZ", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} {{/first}}, {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"},
+    "BZ_en": {"country_code": "BZ", "language": "en", "use_country": "BZ"},
+    "BZ_es": {"country_code": "BZ", "language": "es", "use_country": "BZ"},
+    "CR": {"country_code": "CR", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{road}}} {{{house_number}}}\n{{{place}}}\n{{{po_box}}}\n{{{state}}}, {{{county}}}, {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{neighbourhood}}} {{/first}}\n{{{postcode}}}\n{{{country}}}\n"},
+    "CR_es": {"country_code": "CR", "language": "es", "use_country": "CR"},
+    "CR_en": {"country_code": "CR", "language": "en", "use_country": "CR"},
+    "GT": {"country_code": "GT", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{road}}} {{{house_number}}}\n{{{neighbourhood}}}\n{{{house}}}\n{{{subpremise}}}\n{{{place}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{municipality}}} || {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{{state}}}\n{{{country}}}\n"},
+    "GT_es": {"country_code": "GT", "language": "es", "use_country": "GT"},
+    "GT_en": {"country_code": "GT", "language": "en", "use_country": "GT"},
+    "HN": {"country_code": "HN", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{road}}} {{{house_number}}}\n{{{place}}}\n{{{neighbourhood}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}}, {{{state}}}\n{{{country}}}\n"},
+    "HN_es": {"country_code": "HN", "language": "es", "use_country": "HN"},
+    "HN_en": {"country_code": "HN", "language": "en", "use_country": "HN"},
+    "MX": {"country_code": "MX", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}}\n{{{subpremise}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{city_district}}} {{/first}}\n{{#first}} {{{municipality}}} || {{{county}}} {{/first}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}}\n{{{country}}}\n"},
+    "MX_es": {"country_code": "MX", "language": "es", "use_country": "MX"},
+    "MX_en": {"country_code": "MX", "language": "en", "use_country": "MX"},
+    "NI": {"country_code": "NI", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{road}}} {{{house_number}}}\n{{{place}}}\n{{{neighbourhood}}}\n{{{po_box}}}\n{{{postcode}}}\n{{#first}} {{{municipality}}} || {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} {{/first}}, {{{state}}}\n{{{country}}}\n"},
+    "NI_es": {"country_code": "NI", "language": "es", "use_country": "NI"},
+    "NI_en": {"country_code": "NI", "language": "en", "use_country": "NI"},
+    "PA": {"country_code": "PA", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{road}}} {{{house_number}}}\n{{{place}}}\n{{{neighbourhood}}}\n{{{po_box}}}\n{{{postcode}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"},
+    "PA_es": {"country_code": "PA", "language": "es", "use_country": "PA"},
+    "PA_en": {"country_code": "PA", "language": "en", "use_country": "PA"},
+    "SV": {"country_code": "SV", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{road}}} {{{house_number}}}\n{{{neighbourhood}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}}, {{{state}}}\n{{{country}}}\n"},
+    "SV_es": {"country_code": "SV", "language": "es", "use_country": "SV"},
+    "SV_en": {"country_code": "SV", "language": "en", "use_country": "SV"}
+  },
+  "profile_status": {
+    "BZ": "official_guidance", "BZ_en": "official_guidance", "BZ_es": "official_guidance",
+    "CR": "official_guidance", "CR_es": "official_guidance", "CR_en": "official_guidance",
+    "GT": "official_guidance", "GT_es": "official_guidance", "GT_en": "official_guidance",
+    "HN": "source_derived_domestic", "HN_es": "source_derived_domestic", "HN_en": "source_derived_domestic",
+    "MX": "official_guidance", "MX_es": "official_guidance", "MX_en": "official_guidance",
+    "NI": "official_guidance", "NI_es": "official_guidance", "NI_en": "official_guidance",
+    "PA": "source_derived_domestic", "PA_es": "source_derived_domestic", "PA_en": "source_derived_domestic",
+    "SV": "official_guidance", "SV_es": "official_guidance", "SV_en": "official_guidance"
+  }
+}

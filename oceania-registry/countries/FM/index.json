@@ -1,0 +1,68 @@
+{
+  "archive_bytes": 257082,
+  "archive_sha256": "921c64130b88c940c98dcf02e2090fb68edfd6e71b8e5cfb355aefa93d4f5b79",
+  "parts": [
+    {
+      "path": "countries/FM/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 342777,
+      "stored_sha256": "23f76f0b86d7f294a78a9422d74321e60bb3d8dd77bc778f36d6e21ac3cfa600",
+      "bytes": 257082,
+      "sha256": "921c64130b88c940c98dcf02e2090fb68edfd6e71b8e5cfb355aefa93d4f5b79"
+    }
+  ],
+  "members": {
+    "base/data/micronesia/FM/index.json": {
+      "bytes": 3909,
+      "sha256": "249b0a1631428a8ef0412b97ee1e8c6889d49e245f0864cb3d75230f55c10deb"
+    },
+    "base/data/micronesia/FM/places.csv": {
+      "bytes": 251477,
+      "sha256": "8c64921137283d67a8ef29126bda220c241d2b55e98d343c86fa7d19fa894878"
+    },
+    "base/data/micronesia/FM/places.jsonl": {
+      "bytes": 570456,
+      "sha256": "8c39a6c8556bbe332fb4a0db48ed0eb1eb120c1c784c4dd8013f1ee653ee673f"
+    },
+    "base/sources/geonames/FM.zip": {
+      "bytes": 105083,
+      "sha256": "940f80d0e0a853b7abfdd074726ef0e8a005665f7d91668b8e5977c968278bc6"
+    },
+    "base/sources/geonames/FM.zip.download.json": {
+      "bytes": 306,
+      "sha256": "9b299b670b573e59d0304ff17cf8b59f1780f2b25bfe7d308d09223a3a033768"
+    },
+    "locale/names.csv": {
+      "bytes": 73735,
+      "sha256": "ffb4584e6f0270094985f8244873fa31f109fe5023e8714a82aa03ae35b54574"
+    },
+    "locale/names.jsonl": {
+      "bytes": 160112,
+      "sha256": "b3131222a46a53d52333a564fd06e0b80fdd6e64dd1df0270ea0bd4b5c0a16dc"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 3,
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "locale/sources/address-templates/FM.json": {
+      "bytes": 387,
+      "sha256": "1794d9c4ee77328da871b0eacd65680e3d9256a7745ade4e87771e3f9fda24de"
+    },
+    "locale/sources/address-templates/FM.json.download.json": {
+      "bytes": 271,
+      "sha256": "8260e6753252478fc080c3da673c0b4ba3392bf3a5588df34aed503d94b770df"
+    },
+    "locale/sources/alternatenames/FM.zip": {
+      "bytes": 59633,
+      "sha256": "9eef888b04d52cbac8659d81406fdb6777a346826621aeb00f842124c11bc1c2"
+    },
+    "locale/sources/alternatenames/FM.zip.download.json": {
+      "bytes": 283,
+      "sha256": "56f7bd32876dd455a9e39fee9c99f5c63ccfd27471fe41be82b840844b672995"
+    }
+  }
+}

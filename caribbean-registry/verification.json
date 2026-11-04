@@ -1,0 +1,233 @@
+{
+  "alternate_rows": 55255,
+  "countries": 27,
+  "errors": 0,
+  "limits": [
+    "Integrity and source-code replay are verified; legal hierarchy and source accuracy are not.",
+    "Postal rows are direct-ID GeoNames observations, not authoritative address deliverability."
+  ],
+  "m49_scope_count": 28,
+  "omitted_countries": [
+    "CU"
+  ],
+  "reports": [
+    {
+      "alternate_rows": 1324,
+      "country": "AG",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 199
+    },
+    {
+      "alternate_rows": 605,
+      "country": "AI",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 60
+    },
+    {
+      "alternate_rows": 412,
+      "country": "AW",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 173
+    },
+    {
+      "alternate_rows": 1368,
+      "country": "BB",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 600
+    },
+    {
+      "alternate_rows": 308,
+      "country": "BL",
+      "integrity": "passed",
+      "postal_rows": 1,
+      "replay": "exact",
+      "rows": 30
+    },
+    {
+      "alternate_rows": 385,
+      "country": "BQ",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 123
+    },
+    {
+      "alternate_rows": 2891,
+      "country": "BS",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 396
+    },
+    {
+      "alternate_rows": 269,
+      "country": "CW",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 102
+    },
+    {
+      "alternate_rows": 1447,
+      "country": "DM",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 143
+    },
+    {
+      "alternate_rows": 10638,
+      "country": "DO",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 22642
+    },
+    {
+      "alternate_rows": 894,
+      "country": "GD",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 308
+    },
+    {
+      "alternate_rows": 2153,
+      "country": "GP",
+      "integrity": "passed",
+      "postal_rows": 90,
+      "replay": "exact",
+      "rows": 1616
+    },
+    {
+      "alternate_rows": 9426,
+      "country": "HT",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 11716
+    },
+    {
+      "alternate_rows": 6365,
+      "country": "JM",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 4711
+    },
+    {
+      "alternate_rows": 1188,
+      "country": "KN",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 144
+    },
+    {
+      "alternate_rows": 423,
+      "country": "KY",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 95
+    },
+    {
+      "alternate_rows": 957,
+      "country": "LC",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 896
+    },
+    {
+      "alternate_rows": 227,
+      "country": "MF",
+      "integrity": "passed",
+      "postal_rows": 1,
+      "replay": "exact",
+      "rows": 64
+    },
+    {
+      "alternate_rows": 2192,
+      "country": "MQ",
+      "integrity": "passed",
+      "postal_rows": 100,
+      "replay": "exact",
+      "rows": 1335
+    },
+    {
+      "alternate_rows": 302,
+      "country": "MS",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 87
+    },
+    {
+      "alternate_rows": 6664,
+      "country": "PR",
+      "integrity": "passed",
+      "postal_rows": 4,
+      "replay": "exact",
+      "rows": 3635
+    },
+    {
+      "alternate_rows": 226,
+      "country": "SX",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 63
+    },
+    {
+      "alternate_rows": 192,
+      "country": "TC",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 44
+    },
+    {
+      "alternate_rows": 1757,
+      "country": "TT",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 512
+    },
+    {
+      "alternate_rows": 1029,
+      "country": "VC",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 172
+    },
+    {
+      "alternate_rows": 376,
+      "country": "VG",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 143
+    },
+    {
+      "alternate_rows": 1237,
+      "country": "VI",
+      "integrity": "passed",
+      "postal_rows": 0,
+      "replay": "exact",
+      "rows": 572
+    }
+  ],
+  "rows": 50581,
+  "schema_version": 1
+}

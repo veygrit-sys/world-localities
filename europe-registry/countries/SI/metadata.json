@@ -1,0 +1,98 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "SVN",
+    "country": "SI",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Slovenia",
+    "geonames_id": "3190538",
+    "id": "country:SI",
+    "m49": "705",
+    "m49_region": "Europe",
+    "name_en": "Slovenia",
+    "region": "Southern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 6579,
+    "admin_rows": 229,
+    "ambiguous_parents": 0,
+    "country": "SI",
+    "country_scope_only": 19,
+    "localities_without_adm1": 78,
+    "locality_rows": 6640,
+    "name_en": "Slovenia",
+    "other_admin_rows": 7,
+    "region": "Southern Europe",
+    "unresolved_parents": 1
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 212,
+    "ADM2": 17,
+    "ADM2H": 5,
+    "ADMD": 2,
+    "PPL": 6168,
+    "PPLA": 211,
+    "PPLC": 1,
+    "PPLCH": 1,
+    "PPLF": 1,
+    "PPLH": 57,
+    "PPLL": 187,
+    "PPLS": 1,
+    "PPLW": 1,
+    "PPLX": 12
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 458259,
+      "rows": 6876,
+      "sha256": "e15b44452f3bd1c0134d4556f02ddaedc171d742617b315d1c91bacc5df48f84",
+      "uncompressed_sha256": "5cf96e885e166f07f08966a7409d0e83a44750be47ed0f2c893446b69debc4a0"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 19,
+    "historical_parent_not_asserted": 64,
+    "missing_reference": 1,
+    "not_assigned_for_other_feature": 2,
+    "source_admin_code": 6578,
+    "source_country": 212
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 212,
+      "sha256": "365367ec5d03cf140512ca03cdf3259493f98522176e7d52ddaff75c1beb3b9e"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 8120,
+    "bytes": 417271,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 209,
+      "L": 37,
+      "R": 4,
+      "S": 580,
+      "T": 409,
+      "V": 4
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:56:28 GMT",
+    "retained_rows": 6876,
+    "retrieved_at": "2026-09-29T11:14:43.002028+00:00",
+    "sha256": "dcb32b8074374957cb6bbc3752eb00680b0ca51b08c4fd2d5fba1210dc6952d5",
+    "url": "https://download.geonames.org/export/dump/SI.zip"
+  },
+  "source_modified_max": "2026-09-20",
+  "source_modified_min": "1993-11-01"
+}

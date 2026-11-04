@@ -1,0 +1,93 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "CIV",
+    "country": "CI",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Ivory Coast",
+    "geonames_id": "2287781",
+    "id": "country:CI",
+    "m49": "384",
+    "name_en": "Côte d’Ivoire",
+    "numeric": "384",
+    "region": "Western Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 12071,
+    "admin_rows": 281,
+    "ambiguous_parents": 0,
+    "country": "CI",
+    "country_scope_only": 41,
+    "localities_without_adm1": 50,
+    "locality_rows": 12076,
+    "name_en": "Côte d’Ivoire",
+    "other_admin_rows": 19,
+    "region": "Western Africa",
+    "unresolved_parents": 60
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 14,
+    "ADM1H": 18,
+    "ADM2": 33,
+    "ADM3": 108,
+    "ADM4": 123,
+    "ADM5": 3,
+    "PCLI": 1,
+    "PPL": 11939,
+    "PPLA": 12,
+    "PPLA2": 16,
+    "PPLA3": 74,
+    "PPLA4": 8,
+    "PPLC": 1,
+    "PPLL": 2,
+    "PPLQ": 5,
+    "PPLX": 19
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 439723,
+      "rows": 12376,
+      "sha256": "7be466fe244ed2e76ce36d5a92dc5add1e5a6a3550b225a366e0f28c6077098b",
+      "uncompressed_sha256": "7a9dfeab9557cda80e090a8740eede8ed72cefa9863d1d2a9642fc7e256eff79"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 41,
+    "missing_code": 29,
+    "missing_reference": 31,
+    "not_assigned_for_other_feature": 19,
+    "source_admin_code": 12242,
+    "source_country": 14
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 14,
+      "sha256": "2299b538dba74fb05db612f1dac84a39425293a27a8fe9422590a7c98f4fac1a"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 545362,
+    "discarded_feature_classes": {
+      "H": 5764,
+      "L": 216,
+      "S": 153,
+      "T": 731,
+      "U": 1,
+      "V": 12
+    },
+    "retained_rows": 12376,
+    "retrieved_on": "2026-09-26",
+    "sha256": "726544a2fa287d3573a2d85396bb5c31e6b4a983b0d1fe11f8b4602f2e8dca05",
+    "source_rows": 19253,
+    "url": "https://download.geonames.org/export/dump/CI.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1994-01-04"
+}

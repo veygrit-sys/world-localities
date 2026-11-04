@@ -1,0 +1,81 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "COM",
+    "country": "KM",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Comoros",
+    "geonames_id": "921929",
+    "id": "country:KM",
+    "m49": "174",
+    "name_en": "Comoros",
+    "numeric": "174",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 393,
+    "admin_rows": 3,
+    "ambiguous_parents": 0,
+    "country": "KM",
+    "country_scope_only": 28,
+    "localities_without_adm1": 28,
+    "locality_rows": 394,
+    "name_en": "Comoros",
+    "other_admin_rows": 1,
+    "region": "Eastern Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 3,
+    "PCLI": 1,
+    "PPL": 383,
+    "PPLA": 2,
+    "PPLC": 1,
+    "PPLR": 1,
+    "PPLX": 7
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 18328,
+      "rows": 398,
+      "sha256": "0d2d23814c835f0a033f2e2ca55db8ddf193473c61388b39318d21f676cf3ab3",
+      "uncompressed_sha256": "ebd164f5e38e8b324f61d51df93343a8634941ced7ddea01a31e885891e646c9"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 28,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 366,
+    "source_country": 3
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 3,
+      "sha256": "50c4ba70571e7011b367452af607af96b3a93af08a0eee9780953f9ff852c914"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 38388,
+    "discarded_feature_classes": {
+      "H": 262,
+      "L": 46,
+      "S": 26,
+      "T": 378,
+      "V": 22
+    },
+    "retained_rows": 398,
+    "retrieved_on": "2026-09-26",
+    "sha256": "1725d3958e68fc2e7cdf16ac82c0579110c652254a73bebbe4e07ecafa929526",
+    "source_rows": 1132,
+    "url": "https://download.geonames.org/export/dump/KM.zip"
+  },
+  "source_modified_max": "2026-09-11",
+  "source_modified_min": "1994-01-06"
+}

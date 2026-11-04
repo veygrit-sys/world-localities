@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "region": "central-america",
+  "snapshot_date": "2026-10-17",
+  "archives": [
+    {
+      "name": "Veygrit_CentralAmerica_20261017.zip",
+      "bytes": 7844095,
+      "sha256": "17fd3a42deac519b10f6648ffe767483155a2f58002645d15513a0f558333e8e",
+      "files": 99,
+      "roots": [
+        "Veygrit_CentralAmerica_20261017"
+      ]
+    }
+  ],
+  "selected_files": [
+    {
+      "path": "address-points/CENTRAL_AMERICA_ACQUISITION_REVIEW.json",
+      "archive_member": "Veygrit_CentralAmerica_20261017/address-points/CENTRAL_AMERICA_ACQUISITION_REVIEW.json",
+      "original_sha256": "d3ebb6f4638a68ce0d4af9c0fc3aa534608021c25542d1497fa3e9fa99172851",
+      "git_sha256": "d3ebb6f4638a68ce0d4af9c0fc3aa534608021c25542d1497fa3e9fa99172851"
+    },
+    {
+      "path": "address-points/CENTRAL_AMERICA_ALL_LOOP.json",
+      "archive_member": "Veygrit_CentralAmerica_20261017/address-points/CENTRAL_AMERICA_ALL_LOOP.json",
+      "original_sha256": "5c0390a8ab9b877b7371c1a914e2e284b247998393909d3ea3b61f24b1b71d01",
+      "git_sha256": "5c0390a8ab9b877b7371c1a914e2e284b247998393909d3ea3b61f24b1b71d01"
+    },
+    {
+      "path": "address-points/CENTRAL_AMERICA_BUILD.json",
+      "archive_member": "Veygrit_CentralAmerica_20261017/address-points/CENTRAL_AMERICA_BUILD.json",
+      "original_sha256": "32c3be336e1d3387fb548e5702408556b93011936bb88896d152d493f0fb650a",
+      "git_sha256": "2046a3a4f7671d847660555eec0991a8b6e20da9ad16e166d0c772574ded8e4d"
+    },
+    {
+      "path": "address-points/CENTRAL_AMERICA_COUNTRIES_LOOP.json",
+      "archive_member": "Veygrit_CentralAmerica_20261017/address-points/CENTRAL_AMERICA_COUNTRIES_LOOP.json",
+      "original_sha256": "f8dffffdc7d5decb47997812b6ac5bb94bb3169d1d39aad50b0bbd89586ed4f9",
+      "git_sha256": "f8dffffdc7d5decb47997812b6ac5bb94bb3169d1d39aad50b0bbd89586ed4f9"
+    },
+    {
+      "path": "address-points/CENTRAL_AMERICA_RULES.json",
+      "archive_member": "Veygrit_CentralAmerica_20261017/address-points/CENTRAL_AMERICA_RULES.json",
+      "original_sha256": "c0886419c0091cc80d6a5de2ecb0710960a80bf2cb4be5ca333189688a8c1b76",
+      "git_sha256": "c0886419c0091cc80d6a5de2ecb0710960a80bf2cb4be5ca333189688a8c1b76"
+    },
+    {
+      "path": "address-points/CENTRAL_AMERICA_SCOPE.json",
+      "archive_member": "Veygrit_CentralAmerica_20261017/address-points/CENTRAL_AMERICA_SCOPE.json",
+      "original_sha256": "7f5935b32644c02bd136be15cd8f8b4b02e39a84e6396e5f90bd609d9d9d9413",
+      "git_sha256": "7f5935b32644c02bd136be15cd8f8b4b02e39a84e6396e5f90bd609d9d9d9413"
+    },
+    {
+      "path": "address-points/CENTRAL_AMERICA_SOURCES.json",
+      "archive_member": "Veygrit_CentralAmerica_20261017/address-points/CENTRAL_AMERICA_SOURCES.json",
+      "original_sha256": "df45bb873c1e6d9d1b05f6213ab562e324b716ee7d0e0aa5b71cf9b2a0ee3102",
+      "git_sha256": "df45bb873c1e6d9d1b05f6213ab562e324b716ee7d0e0aa5b71cf9b2a0ee3102"
+    },
+    {
+      "path": "address-points/CENTRAL_AMERICA_VALIDATION.json",
+      "archive_member": "Veygrit_CentralAmerica_20261017/address-points/CENTRAL_AMERICA_VALIDATION.json",
+      "original_sha256": "3ebd893992c6d91a7ae8ed0f2fc15041394a034971fefe5c7f0c36215b4bf7c5",
+      "git_sha256": "3ebd893992c6d91a7ae8ed0f2fc15041394a034971fefe5c7f0c36215b4bf7c5"
+    },
+    {
+      "path": "address-points/adapters/centralamerica.py",
+      "archive_member": "Veygrit_CentralAmerica_20261017/address-points/adapters/centralamerica.py",
+      "original_sha256": "2c20204c68785580099768bb77d68d75ce75ddd7203b0f9ab3f3013603c70048",
+      "git_sha256": "2c20204c68785580099768bb77d68d75ce75ddd7203b0f9ab3f3013603c70048"
+    },
+    {
+      "path": "address-points/adapters/centralamerica_common.py",
+      "archive_member": "Veygrit_CentralAmerica_20261017/address-points/adapters/centralamerica_common.py",
+      "original_sha256": "9c73f13b56dab04d55e8626d0ef0ea94978ae11ae692118491cbda2e6a8fb308",
+      "git_sha256": "9063008b0b0a6ad06c9bad8273fb5917261015587d38b03c0386f91a4d153525"
+    },
+    {
+      "path": "address-points/adapters/centralamerica_fetch.py",
+      "archive_member": "Veygrit_CentralAmerica_20261017/address-points/adapters/centralamerica_fetch.py",
+      "original_sha256": "f4a92a8a05af537c68ea3aa2b90207cc431165e1dea7c269e6181003315d23f7",
+      "git_sha256": "96d35e8a6ac356bb17eee62047c9426493735c7f0bafd6ae0551586fc919a111"
+    },
+    {
+      "path": "address-points/adapters/centralamerica_validate.py",
+      "archive_member": "Veygrit_CentralAmerica_20261017/address-points/adapters/centralamerica_validate.py",
+      "original_sha256": "c1e892afdde10a471a4bcafdce85e65f37eccc7881165395cae6b24d3f0d82e6",
+      "git_sha256": "06c9659cc3316ae131072ea4b7e75ea4b836a2770cb6af593d4e71b049d11709"
+    },
+    {
+      "path": "releases/hierarchy/central-america/original/COUNTRY_RESULTS_JA.md",
+      "archive_member": "Veygrit_CentralAmerica_20261017/COUNTRY_RESULTS_JA.md",
+      "original_sha256": "dbdbec2bed909bb807cc9d2cc1a037c734856a54921ea44e99afefae60252092",
+      "git_sha256": "dbdbec2bed909bb807cc9d2cc1a037c734856a54921ea44e99afefae60252092"
+    },
+    {
+      "path": "releases/hierarchy/central-america/original/LICENSE_DATA.md",
+      "archive_member": "Veygrit_CentralAmerica_20261017/LICENSE_DATA.md",
+      "original_sha256": "8a7b9fbcd276ec8abb1724cee8de747379bbfa239cdb02191e3cd8faeab98b7a",
+      "git_sha256": "8a7b9fbcd276ec8abb1724cee8de747379bbfa239cdb02191e3cd8faeab98b7a"
+    },
+    {
+      "path": "releases/hierarchy/central-america/original/POSTAL_REFERENCE_JA.md",
+      "archive_member": "Veygrit_CentralAmerica_20261017/POSTAL_REFERENCE_JA.md",
+      "original_sha256": "496e9f50ae6ce90827de2f1f405a226848a5979e1e80edba920272539031e0b1",
+      "git_sha256": "496e9f50ae6ce90827de2f1f405a226848a5979e1e80edba920272539031e0b1"
+    },
+    {
+      "path": "releases/hierarchy/central-america/original/README_JA.md",
+      "archive_member": "Veygrit_CentralAmerica_20261017/README_JA.md",
+      "original_sha256": "f929f2219e5935cf09d744ac95d3a3aed337a815c0d4501b6b091ff51dd51c1e",
+      "git_sha256": "f929f2219e5935cf09d744ac95d3a3aed337a815c0d4501b6b091ff51dd51c1e"
+    },
+    {
+      "path": "releases/hierarchy/central-america/original/MANIFEST.json",
+      "archive_member": "Veygrit_CentralAmerica_20261017/MANIFEST.json",
+      "original_sha256": "d8114d4d61d3f126073056ad9f8dd9231621bde138a5301387920ecf31038a8d",
+      "git_sha256": "d8114d4d61d3f126073056ad9f8dd9231621bde138a5301387920ecf31038a8d"
+    },
+    {
+      "path": "releases/hierarchy/central-america/examples/cr_monteverde_path.json",
+      "archive_member": "Veygrit_CentralAmerica_20261017/examples/cr_monteverde_path.json",
+      "original_sha256": "f93e3be99110e79e5babdf452d53ca2be157d39926adb969dff35399ff312412",
+      "git_sha256": "f93e3be99110e79e5babdf452d53ca2be157d39926adb969dff35399ff312412"
+    },
+    {
+      "path": "releases/hierarchy/central-america/examples/pa_old_snapshot_path.json",
+      "archive_member": "Veygrit_CentralAmerica_20261017/examples/pa_old_snapshot_path.json",
+      "original_sha256": "7bde659cac740ca8593ae2ee34411dac6b89c8677c550c5e16d23437132b909b",
+      "git_sha256": "7bde659cac740ca8593ae2ee34411dac6b89c8677c550c5e16d23437132b909b"
+    },
+    {
+      "path": "releases/hierarchy/central-america/examples/sv_san_salvador_path.json",
+      "archive_member": "Veygrit_CentralAmerica_20261017/examples/sv_san_salvador_path.json",
+      "original_sha256": "1d2d7bf13f001ee1748e5b3f5bd8346703c51c97ec5a8155fa1e0bf33de315c2",
+      "git_sha256": "1d2d7bf13f001ee1748e5b3f5bd8346703c51c97ec5a8155fa1e0bf33de315c2"
+    },
+    {
+      "path": "releases/hierarchy/central-america/examples/sv_wrong_municipality_path.json",
+      "archive_member": "Veygrit_CentralAmerica_20261017/examples/sv_wrong_municipality_path.json",
+      "original_sha256": "483b8d888cd2627d5b5db85aa99678f8cb0a8b7decb4c1d6dd5a5acc9ebca7e3",
+      "git_sha256": "483b8d888cd2627d5b5db85aa99678f8cb0a8b7decb4c1d6dd5a5acc9ebca7e3"
+    },
+    {
+      "path": "hierarchy-tests/test_hierarchy_central_america_centralamerica.py",
+      "archive_member": "Veygrit_CentralAmerica_20261017/tests/test_centralamerica.py",
+      "original_sha256": "dea4e4f94fb84fe1d7ba73af2fc9fc8c25ccbc128d1808fb57ff619fcd7371e0",
+      "git_sha256": "7c71ce07122f3548132b4a52b366f6fae4c88939c622baa469e452d05fd0681a"
+    },
+    {
+      "path": "releases/hierarchy/central-america/original/RESULTS.txt",
+      "archive_member": "Veygrit_CentralAmerica_20261017/tests/RESULTS.txt",
+      "original_sha256": "61a1717d4b921fad8dd379e43883f8e9ce9552cf84a0a90635a1c3f9d3ecf644",
+      "git_sha256": "61a1717d4b921fad8dd379e43883f8e9ce9552cf84a0a90635a1c3f9d3ecf644"
+    },
+    {
+      "path": "releases/hierarchy/central-america/original/CLI_RESULTS.json",
+      "archive_member": "Veygrit_CentralAmerica_20261017/tests/CLI_RESULTS.json",
+      "original_sha256": "55efe89e2984f9c8f0a83b51c2d958150b2fc8383fc9063ed28b60b0f8b700c6",
+      "git_sha256": "55efe89e2984f9c8f0a83b51c2d958150b2fc8383fc9063ed28b60b0f8b700c6"
+    },
+    {
+      "path": "releases/hierarchy/central-america/original/WORKBOOK_READBACK.json",
+      "archive_member": "Veygrit_CentralAmerica_20261017/tests/WORKBOOK_READBACK.json",
+      "original_sha256": "f427eea5f5d28c20061f6674c52bb743a32930e2188e7ac3786d9f4e1fbd5ced",
+      "git_sha256": "f427eea5f5d28c20061f6674c52bb743a32930e2188e7ac3786d9f4e1fbd5ced"
+    }
+  ],
+  "world_complete": false,
+  "deliverability_in_scope": false,
+  "data_payloads_in_git": false,
+  "metadata_and_code_adjustments": [
+    "The historical build report uses a portable relative database path.",
+    "Test basenames are region-qualified.",
+    "WORLD_LOCALITIES_ADDRESS_ROOT selects a restored source tree without altering original IDs or values.",
+    "Validation runs the installed regression suite and writes fresh artifacts beside the requested output; historical reports are preserved.",
+    "Refresh stages only Central America recipe files and supports a checkout without old raw payloads; candidates always require full validation."
+  ]
+}

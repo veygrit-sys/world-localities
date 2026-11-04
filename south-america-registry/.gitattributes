@@ -1,0 +1,2 @@
+# Retain upstream CRLF and trailing tabs as exact source bytes.
+sources/countryInfo-*.txt -text -diff

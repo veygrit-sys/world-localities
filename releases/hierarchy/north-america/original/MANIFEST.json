@@ -1,0 +1,462 @@
+{
+  "schema_version": 1,
+  "package": "Veygrit_NorthAmerica_20261017",
+  "package_version": "0.1",
+  "release_date": "2026-10-17",
+  "packaged_at": "2026-10-17T00:23:55.890703+00:00",
+  "country_count": 3,
+  "supplementary_area_count": 3,
+  "index_bundled": false,
+  "files": [
+    {
+      "path": "COUNTRY_RESULTS_JA.md",
+      "bytes": 4114,
+      "sha256": "2193269ee0eecbc493fc6585e3e50af18a29b371fcea5c3c70ba5419429265da"
+    },
+    {
+      "path": "LICENSE_DATA.md",
+      "bytes": 5245,
+      "sha256": "52471b9475355a8671cb7e0139f6fde5f4aea1462a5103d76a267246d1b53e67"
+    },
+    {
+      "path": "POSTAL_REFERENCE_JA.md",
+      "bytes": 1562,
+      "sha256": "afe3f08014a6d97d3df539cd8523cace9d61cfadc7d3826eb63b2184f43bf41d"
+    },
+    {
+      "path": "README_JA.md",
+      "bytes": 11611,
+      "sha256": "28dff9f98f410c6c076741ae5c4a16dbf894ee6dbd25d758dbb7b0c009490081"
+    },
+    {
+      "path": "address-points/NORTH_AMERICA_ACQUISITION_REVIEW.json",
+      "bytes": 759,
+      "sha256": "41acc6321e39746a476f14644251da1a802ea9c064d71b94c1243f8b567e67cf"
+    },
+    {
+      "path": "address-points/NORTH_AMERICA_ALL_LOOP.json",
+      "bytes": 14445,
+      "sha256": "22cd3f67b32d811b430c630f5f08f5cf120105c0b21af266412b8f8f090eef3b"
+    },
+    {
+      "path": "address-points/NORTH_AMERICA_BUILD.json",
+      "bytes": 972,
+      "sha256": "dc1a4c31e63055a6ae66238ba4f9c355455b2bd8a17be77f6357c4c906b2f2e8"
+    },
+    {
+      "path": "address-points/NORTH_AMERICA_COUNTRIES_LOOP.json",
+      "bytes": 9208,
+      "sha256": "826723b3af1c0487da8ffa49d95933614a214d16affaeda584dad1553aa6c67c"
+    },
+    {
+      "path": "address-points/NORTH_AMERICA_RULES.json",
+      "bytes": 1345,
+      "sha256": "fd3b22d3a1bbd31bfecd47b4271c0a4c1ef23073da965224b71d7c58347ac382"
+    },
+    {
+      "path": "address-points/NORTH_AMERICA_SCOPE.json",
+      "bytes": 820,
+      "sha256": "47818d553454f260328fc003f9f21364f20a18aa6683fe5d33996dd83cb96357"
+    },
+    {
+      "path": "address-points/NORTH_AMERICA_SOURCES.json",
+      "bytes": 31818,
+      "sha256": "6bb30d4ad375207e937c18f8794289fa5005263ad931b02db95b2963a2514c3b"
+    },
+    {
+      "path": "address-points/NORTH_AMERICA_TERRITORIES_LOOP.json",
+      "bytes": 5659,
+      "sha256": "9f619bc1fca8f1fcb5f460475d7b92a05ef98c4ed19bf2f871d4a07eff16ca34"
+    },
+    {
+      "path": "address-points/NORTH_AMERICA_VALIDATION.json",
+      "bytes": 7297,
+      "sha256": "9b46577356ef99495709b8ad21fa5900a02365b4236225910de95deda0e8524c"
+    },
+    {
+      "path": "address-points/adapters/northamerica.py",
+      "bytes": 36821,
+      "sha256": "5c27749a7a11350c132fa6dafa2f6edb571e9ae46f32a44d5bc783451c755e50"
+    },
+    {
+      "path": "address-points/adapters/northamerica_common.py",
+      "bytes": 6432,
+      "sha256": "6f4042be6839e570350eb65f09b1bada0ff679f2b4a1a91d1d7eacaaf92cdf3c"
+    },
+    {
+      "path": "address-points/adapters/northamerica_fetch.py",
+      "bytes": 6431,
+      "sha256": "6b16d8db0be23d71de13d7b974059dadf294b7b8c541c9d12071a7b352099270"
+    },
+    {
+      "path": "address-points/adapters/northamerica_validate.py",
+      "bytes": 12047,
+      "sha256": "84b6aaea1a21efbe83d63cd228196f792af2a3ee5d6ab1606b8be7660cec70c9"
+    },
+    {
+      "path": "address-points/reports/countries/CA.json",
+      "bytes": 2925,
+      "sha256": "9206cd1a72e9ac22d2ea36abc0b3c5eadfd96a2cc3c3b49e8042ac6823c5a8be"
+    },
+    {
+      "path": "address-points/reports/countries/MX.json",
+      "bytes": 12009,
+      "sha256": "35ca39b07facbba66eeda9d1d51d9a06fcd72902cd882f90bd02794f96f9db8e"
+    },
+    {
+      "path": "address-points/reports/countries/US.json",
+      "bytes": 137985,
+      "sha256": "de306d866dec4055d8bae6ab6481abc213defd894480d2d6361c689d9cedacea"
+    },
+    {
+      "path": "address-points/reports/supplementary/BM.json",
+      "bytes": 1064,
+      "sha256": "1d27f7396fcaffe7d97e4a23108bdf17aeb5dbc92da9e9f5b6d1e3d8128845fd"
+    },
+    {
+      "path": "address-points/reports/supplementary/GL.json",
+      "bytes": 6738,
+      "sha256": "f83ce212bd72f7f1a191abd23b5ca1865dd41dd6fd58fcf7e13a6ecd5e2ba507"
+    },
+    {
+      "path": "address-points/reports/supplementary/PM.json",
+      "bytes": 3035,
+      "sha256": "8d2238c9c1db0d5996d3a39d1c399405c716b1a13c55dd33ca1db8811688d1f1"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/BM/geonames.zip",
+      "bytes": 24831,
+      "sha256": "3913253200427b2938970c38c57da2ddce8f53019e1f793baa43b035809cf93c"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/BM/geonames.zip.receipt.json",
+      "bytes": 630,
+      "sha256": "5c7ce68230abb008ac1a04b42832834904a29c2949f8e3c62a7c6b2fc5ce8d07"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/BM/names.zip",
+      "bytes": 14542,
+      "sha256": "e1bd7d5ddff64e66675e84442d054bb998ffd58cac45e87131de3aa3cc8ce183"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/BM/names.zip.receipt.json",
+      "bytes": 661,
+      "sha256": "f39d3f4ffb9926898755946ab09d4109fed106b1515a75fdf1075122079a0ac0"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/CA/ODA_NT_v1.zip",
+      "bytes": 791711,
+      "sha256": "7ff6b052f71b746bed13669b9aa92340792b700c90458e9c038b6a8c599f90bd"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/CA/ODA_NT_v1.zip.receipt.json",
+      "bytes": 2617,
+      "sha256": "4a8e7b66ae0f86fe601bdd9b91243880f9727465e4d1253d6275ae0e93ce9ef9"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/CA/geonames.zip",
+      "bytes": 8108526,
+      "sha256": "72d043cc9381fafc1012ad4a10c329e38919a2394c227907fcc6857a9c8665cf"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/CA/geonames.zip.receipt.json",
+      "bytes": 634,
+      "sha256": "8bfe39d71b92f014169e306950970517e2043367a548b4cbaeba122c106d4fba"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/CA/names.zip",
+      "bytes": 906285,
+      "sha256": "fe04f52b80742fc078987262e9df3de7bf089b0a09710ab79d6b45c498cc16ba"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/CA/names.zip.receipt.json",
+      "bytes": 663,
+      "sha256": "dac1eb058b3b43a1119cf4e8e5cca78794c9aec8cfce413fe398776df5c91462"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/CA/sgc-2021-eng.csv",
+      "bytes": 239897,
+      "sha256": "55f6eb915415b4aa911c6fce3cbaced641c4ed9af023bebc414b2929721a62d2"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/CA/sgc-2021-eng.csv.receipt.json",
+      "bytes": 656,
+      "sha256": "5761b973baa8c2e26e5fcc69db04c0a21b61c3912267ec68c0de96a25d56a4a2"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/CA/sgc-2021-fra.csv",
+      "bytes": 283562,
+      "sha256": "6e310e740c67770d3cc060d3b41079a827adf2edfb229a84745fc8fa5e67085a"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/CA/sgc-2021-fra.csv.receipt.json",
+      "bytes": 662,
+      "sha256": "81610e482c6c0b56d6f6a383e2ecf82fec00eb7f9240437471c0373d48eb6318"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/COMMON/admin1CodesASCII.txt",
+      "bytes": 151583,
+      "sha256": "1da92a6323a5fec3176f3f743bf4cf4040fd56a876da55e46fbca23c863aa60a"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/COMMON/admin1CodesASCII.txt.receipt.json",
+      "bytes": 694,
+      "sha256": "e8f34a7466d7f2659a9b8ba43fb05462117e9881ca9bdd316c46c8fbf3de9bd2"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/COMMON/admin2Codes.txt",
+      "bytes": 2366323,
+      "sha256": "985b37390cad51f51b03897e503748db5acddfd9442438532cfab1ac9fd1cbcd"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/COMMON/admin2Codes.txt.receipt.json",
+      "bytes": 671,
+      "sha256": "736aeab75577d735a846743990164e94012692f1e41d8e1133ebaa037495ddcc"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/COMMON/countryInfo.txt",
+      "bytes": 31690,
+      "sha256": "c55f638cfaafb4fe45a9aa15120a0f1f78e8a34a8e1847d7b9320cf740fbc9ab"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/COMMON/countryInfo.txt.receipt.json",
+      "bytes": 667,
+      "sha256": "51bcc2af4896b48daabd6ee00badeedbc570ff6e3723dee2e0ad711bccbd86a0"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/COMMON/readme.txt",
+      "bytes": 8843,
+      "sha256": "b1957379b6c1242c700c98ac9a8aa0a09f56c3c0a50ee72175527005f48ef2c5"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/COMMON/readme.txt.receipt.json",
+      "bytes": 641,
+      "sha256": "a7c8c9a5f73d931e94698bae9c8914b214e19afa7a4bb9a973fe163a49ca7365"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/GL/geonames.zip",
+      "bytes": 224858,
+      "sha256": "3fc4572d96af2e8e00bc7d21d3b94b50dea03d2646ecf48c4f3fbd2be454c249"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/GL/geonames.zip.receipt.json",
+      "bytes": 632,
+      "sha256": "243e2af52577bfba6518331fd372242183923c92c52f63c0267c52f96a045566"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/GL/names.zip",
+      "bytes": 140615,
+      "sha256": "db85903170a22df5897248fea008def438c4c8a1de60402598018471802b5193"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/GL/names.zip.receipt.json",
+      "bytes": 663,
+      "sha256": "7efa1b7c4c85754bd81ba143d07dbb26a26369a102d80c2f05803434a3573578"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/MX/catun_entidad.zip",
+      "bytes": 12210,
+      "sha256": "58800dddb6f523efc1a8771f2d2d19c3f1b467d4422735898ba1047cf0c78899"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/MX/catun_entidad.zip.receipt.json",
+      "bytes": 725,
+      "sha256": "36bdc930fcf3587be09e8d16b81b419f5402aef73ed4b992ca9a63ee21e184ec"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/MX/catun_municipio.zip",
+      "bytes": 543280,
+      "sha256": "cb0f21fb4c53d2c0adca356ca669646372f9b81b2cdcbd51745c01acaec7204f"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/MX/catun_municipio.zip.receipt.json",
+      "bytes": 736,
+      "sha256": "e84225c61dfd0ed9101d6a1a8e7edaee9c02e356c5cd11ccb34c914604a96017"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/MX/geonames.zip",
+      "bytes": 15069484,
+      "sha256": "c7bf744176d4f4d3e1f2f99015edc4c657f5b80a03d5ae7e8fa8466bfe5ba3df"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/MX/geonames.zip.receipt.json",
+      "bytes": 635,
+      "sha256": "8ceeac338cfd28cb0970cbd90a78e170b464b31e30cd0475886419efcc2bb0ed"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/MX/min_con_acento.zip",
+      "bytes": 120552285,
+      "sha256": "75227619e3252b7f854d5c275f17cb34014811f3414e284b86ab0bff667593f7"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/MX/min_con_acento.zip.receipt.json",
+      "bytes": 734,
+      "sha256": "24874408fbbd3997ce995d55bb7b608a5de1e24a24c86c366c8ddc27b7c25f68"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/MX/names.zip",
+      "bytes": 7458639,
+      "sha256": "7d5233e58717469603db160d69f220aeb8952dcf413cb30553c36fde8245f641"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/MX/names.zip.receipt.json",
+      "bytes": 665,
+      "sha256": "cf9f5190159b1de06b828ba012015cd23a29aadf1d67825638c20ba285c207a2"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/PM/adresses-975.csv.gz",
+      "bytes": 87016,
+      "sha256": "e674068b478bd12123ea8de6f2b60931602a791649d24db8ce6fb4c88d6d6985"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/PM/adresses-975.csv.gz.receipt.json",
+      "bytes": 2489,
+      "sha256": "a4603cc16253f41bb6efdd1303b3c47eb4fbf216043ba30f1c4f318dccbdbdce"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/PM/cog-2026.zip",
+      "bytes": 1961824,
+      "sha256": "5c037e2977c9d476cfe2e7b7f923bbe09a87cbe448c59e492a71ef6a917aa53f"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/PM/cog-2026.zip.receipt.json",
+      "bytes": 875,
+      "sha256": "3917f711cf1ff90546ef4992e1eedded2af8afa043518597517810e84784674d"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/PM/geonames.zip",
+      "bytes": 20767,
+      "sha256": "a8ecde4527bc74f34859d19c8b67809da70c277effbfb903d91462cd52a56d6b"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/PM/geonames.zip.receipt.json",
+      "bytes": 630,
+      "sha256": "6380872c356ff2dd1f09afd9cf53dd2cd03e1e242a534c037f197a35fa75cd6a"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/PM/names.zip",
+      "bytes": 10977,
+      "sha256": "022f0e193a15435d560482499def03efccb3461f8f1d4fb763c650c9b17c92dd"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/PM/names.zip.receipt.json",
+      "bytes": 661,
+      "sha256": "1d42b0c1f60811f628f410808b76c3581fe219427447acf691c5d21f1896f11f"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/US/2026_Gaz_counties_national.zip",
+      "bytes": 139190,
+      "sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/US/2026_Gaz_counties_national.zip.receipt.json",
+      "bytes": 726,
+      "sha256": "a2938a6bbc50ab23e5fc13d8b8f2b50971dc3cd3325b820c92a6bad2a0887055"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/US/2026_Gaz_cousubs_national.zip",
+      "bytes": 1476658,
+      "sha256": "9d528b39b70a27075c863b1572f27eadaf24484d5435fac17fc3b4cdd36434c2"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/US/2026_Gaz_cousubs_national.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "3ceb9259d9b8374aefea3e21ec457ffed1c0ca46dea69346d83fdcdced37d482"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/US/2026_Gaz_place_national.zip",
+      "bytes": 1214650,
+      "sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/US/2026_Gaz_place_national.zip.receipt.json",
+      "bytes": 712,
+      "sha256": "a268d402a800bbb94aa79b96ac0e2f7606ce60dd8c8fd279b64bb7c2f6510e1c"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/US/2026_Gaz_state_national.zip",
+      "bytes": 2865,
+      "sha256": "54352ca34f869b4deca03a65da72cccb8e9f0c2702340061949b63c76c63f852"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/US/2026_Gaz_state_national.zip.receipt.json",
+      "bytes": 709,
+      "sha256": "ad8987968a7f3bb0070beb4e87bf24dbe1a734b595889318bc37253006247121"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/US/geonames.zip",
+      "bytes": 71108454,
+      "sha256": "e845d3d6b36f8258bc8d343e07f920e6aa49bf087384e1e1a8d75866e3c6dba9"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/US/geonames.zip.receipt.json",
+      "bytes": 636,
+      "sha256": "fb9b8562b45e135d3c74c3113513b25cf18b6c2225d15ac6957a6faa8fcbac25"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/US/names.zip",
+      "bytes": 22929747,
+      "sha256": "454d80e7eedac12af4305213441401a87691dbc8922a2ddb84da007b496bb5c0"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/US/names.zip.receipt.json",
+      "bytes": 667,
+      "sha256": "4d2b86b46fc9d4656ee02924c2c64bea9b1f4e73d1baeac7f97b3ae5b4894317"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/US/tl_2026_11001_addr.zip",
+      "bytes": 312273,
+      "sha256": "ef0758448c1c4612989c9dc8856bfd7833318c75a61b1997a0128e10396ed29a"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/US/tl_2026_11001_addr.zip.receipt.json",
+      "bytes": 2751,
+      "sha256": "f21533110895760d05a5aa6c330b3fbb2bc6e5207390e2c4ec3a8ead4afbc263"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/US/tl_2026_11001_featnames.zip",
+      "bytes": 357981,
+      "sha256": "1abf5444974aeb0e3dbee0b70bd518ae36e446942e2f2b7d4a2aade1b7b54976"
+    },
+    {
+      "path": "address-points/sources/NORTHAMERICA/US/tl_2026_11001_featnames.zip.receipt.json",
+      "bytes": 681,
+      "sha256": "e40ab1d549313c2f753f3df6bcfc6e601b5d0beb7408debbb25fb73a7b8dd6a0"
+    },
+    {
+      "path": "examples/ca_montreal_path.json",
+      "bytes": 138,
+      "sha256": "9c546bcde2a8460d3144ab02ea16b01c8f70a165abea3be6b044422edf65c5c0"
+    },
+    {
+      "path": "examples/mx_aguascalientes_path.json",
+      "bytes": 136,
+      "sha256": "f539b1d0569f5a02c5c521f0736ca5c0e1053deb58a6580af246a8727e1a6616"
+    },
+    {
+      "path": "examples/us_new_york_path.json",
+      "bytes": 80,
+      "sha256": "534c0ef7a5eeff6d13cdb9783087528d930a54dabce90e08eea573cbb9b78eaa"
+    },
+    {
+      "path": "examples/us_wrong_state_path.json",
+      "bytes": 80,
+      "sha256": "0363663c63895717cae1759c16c3e6050fbe6f70d1b5b1d46856af98f7897a53"
+    },
+    {
+      "path": "tests/CLI_RESULTS.json",
+      "bytes": 848,
+      "sha256": "520dfa56e67e013d45aaca5912fbd94263231d4b2aa71ebb36634c35639e972a"
+    },
+    {
+      "path": "tests/RESULTS.txt",
+      "bytes": 6009,
+      "sha256": "29c427fedc63d5edd632b6e247ade325852c3518375ecd41124cc6b3de1f9afc"
+    },
+    {
+      "path": "tests/test_northamerica.py",
+      "bytes": 12952,
+      "sha256": "6a8e8f885bc5e84c83dfd24ac05ac36dd965577b10fde8336892f821a3f2d7a7"
+    }
+  ]
+}

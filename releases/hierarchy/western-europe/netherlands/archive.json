@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "region": "western-europe",
+  "country": "NL",
+  "release_date": "2026-10-22",
+  "format": "zip-wrapped-byte-parts-v1",
+  "archive_name": "Veygrit_Western_Europe_NL_20261022.zip",
+  "archive_bytes": 499710531,
+  "archive_sha256": "cb47c3bc42e6ea4ba20545a4925c3981f9e7b3bb271a769de46f9687365e5eff",
+  "parts": [
+    {
+      "file": "Veygrit_Western_Europe_NL_20261022_Part01.zip",
+      "bytes": 92274878,
+      "sha256": "10340715f8575d2d537c092bc3f4aab3a36c12d3431f715e9915b017c962ab69",
+      "member": "Veygrit_Western_Europe_NL_20261022.zip.part001",
+      "member_bytes": 92274688
+    },
+    {
+      "file": "Veygrit_Western_Europe_NL_20261022_Part02.zip",
+      "bytes": 92274878,
+      "sha256": "cee8ca8eea1329c6ec5924c908fa6eaae5d338b430c304a186cb6f7aea44904b",
+      "member": "Veygrit_Western_Europe_NL_20261022.zip.part002",
+      "member_bytes": 92274688
+    },
+    {
+      "file": "Veygrit_Western_Europe_NL_20261022_Part03.zip",
+      "bytes": 92274878,
+      "sha256": "2ed43718d77f67f04e567a35f0a32b9bcedf6dd02240ed684527fb120e1c3443",
+      "member": "Veygrit_Western_Europe_NL_20261022.zip.part003",
+      "member_bytes": 92274688
+    },
+    {
+      "file": "Veygrit_Western_Europe_NL_20261022_Part04.zip",
+      "bytes": 92274878,
+      "sha256": "097bcff0fabeadcfd58b4e1e3ce864a9bbdc2064ab51a32f4a7b7b7952b39d64",
+      "member": "Veygrit_Western_Europe_NL_20261022.zip.part004",
+      "member_bytes": 92274688
+    },
+    {
+      "file": "Veygrit_Western_Europe_NL_20261022_Part05.zip",
+      "bytes": 92274878,
+      "sha256": "ded05ccaf018e5611049afe776d2c622eef740d642541cd59a537e27af7c2433",
+      "member": "Veygrit_Western_Europe_NL_20261022.zip.part005",
+      "member_bytes": 92274688
+    },
+    {
+      "file": "Veygrit_Western_Europe_NL_20261022_Part06.zip",
+      "bytes": 38337281,
+      "sha256": "7cd30a0d9217869956e51d03819894d75da2d908eb71f9040a6ebe0c3e77e100",
+      "member": "Veygrit_Western_Europe_NL_20261022.zip.part006",
+      "member_bytes": 38337091
+    }
+  ],
+  "archives": [
+    {
+      "name": "Veygrit_Western_Europe_NL_20261022.zip",
+      "bytes": 499710531,
+      "sha256": "cb47c3bc42e6ea4ba20545a4925c3981f9e7b3bb271a769de46f9687365e5eff",
+      "files": 17,
+      "roots": [
+        "western-europe-nl"
+      ],
+      "source_members": [
+        {
+          "member": "western-europe-nl/raw/NL/Leveringsdocument-BAG-Extract.xml",
+          "bytes": 788,
+          "sha256": "d200880e94fa22f8e066eb92f5b517c80c46f76612e75842adfc9d7c5c6c6c70"
+        },
+        {
+          "member": "western-europe-nl/raw/NL/GEM-WPL-RELATIE-08102026.zip",
+          "bytes": 50318,
+          "sha256": "384935a6ae497a60c8ac2754f1e6995efd725705a351060baeaef10faa2010f2"
+        },
+        {
+          "member": "western-europe-nl/raw/NL/9999Inactief08102026.zip",
+          "bytes": 91540,
+          "sha256": "2fadec5062ae45be2abdc3bd7a885611fa49894abc4e8f9752ae69c6a34ba639"
+        },
+        {
+          "member": "western-europe-nl/raw/NL/9999OPR08102026.zip",
+          "bytes": 11314323,
+          "sha256": "402d7f62957c26925a9e19f0c1361c02b16d7106e7a0418a2a28a5bd88df45ad"
+        },
+        {
+          "member": "western-europe-nl/raw/NL/9999NietBag08102026.zip",
+          "bytes": 18247319,
+          "sha256": "1b290eddbe08a08e7b1cf515a832b53e46c1aa7eb8820b9a8bb4da82535dc5da"
+        },
+        {
+          "member": "western-europe-nl/raw/NL/9999WPL08102026.zip",
+          "bytes": 23172581,
+          "sha256": "480efc8809fa7eab34540c13dce45367261ff09a5925ef3ae80cfe7b26e9b50e"
+        },
+        {
+          "member": "western-europe-nl/raw/NL/9999InOnderzoek08102026.zip",
+          "bytes": 90197916,
+          "sha256": "302ba3d92a1125668d52c3d0f056c5e325e3099ae967e9f0c889c2107eb680ae"
+        },
+        {
+          "member": "western-europe-nl/raw/NL/9999NUM08102026.zip",
+          "bytes": 356519790,
+          "sha256": "2caaaab0a404133fc078dc4c2a68c1ee29da68527e76914912ab78c7ae2f8ed4"
+        },
+        {
+          "member": "western-europe-nl/raw/NL/CBS-gemeenten-alfabetisch-2026.xlsx",
+          "bytes": 26668,
+          "sha256": "4e8b43c6913ecf7cbddb165f41cab16ced952051ebeaf7a9cc2a62f1227dfbf7"
+        },
+        {
+          "member": "western-europe-nl/raw/NL/outer-central-directory.bin",
+          "bytes": 820,
+          "sha256": "ee58e9ebf555383ec69a7873f59d715d175af8d2981baa41d0c52b4985c08a17"
+        },
+        {
+          "member": "western-europe-nl/raw/NL/outer-tail.bin",
+          "bytes": 65536,
+          "sha256": "b04c35c20d838995057abbfbd7b87e872d1e2bdd1a7e43ceeaad2e51ba3f8b4e"
+        },
+        {
+          "member": "western-europe-nl/raw/NL/adressen-atom.xml",
+          "bytes": 2340,
+          "sha256": "c984b0fb3611218da939da380bc70d87ed2ea11ce5ebef47fc6640f8311fc3f2"
+        }
+      ]
+    }
+  ],
+  "raw_source_files": 9,
+  "evidence_files": 3,
+  "implementation_files": {
+    "scripts/netherlands_bag.py": "2a054d7302224e82843ab8a77c7a1d999a510deaa51b22de5a0518c21082a31c",
+    "scripts/western_europe_sources.py": "db8eee72bef2231c339644fcc73173dc70bdd2c57db5011ee1293322e5a86bf0",
+    "scripts/restore_data_parts.py": "25846d9dffe2b3d104ff2988ebd8c78413584d3c86393d3172e6b76255409960",
+    "scripts/hierarchy_snapshot.py": "d4214bc54176afc20a07f1e1bd961ada7091310d4e2a3145188bc0577a70d8f1",
+    "address-points/adapters/westerneurope.py": "00593bf1cb99875cedd38e8968315b52d5836224f1c28978fb8a4cf9622fa6e1",
+    "scripts/netherlands_reference_review.py": "b63434cdedd2a5523e4a715d4e9a1d289c4c74b4c4b3690d7f031a626004e1bc"
+  },
+  "validation_report": "releases/hierarchy/western-europe/netherlands/validation.json",
+  "national_completeness_verified": false,
+  "deliverability_in_scope": false,
+  "byte_reconstruction_verification": {
+    "status": "RESTORED_HASH_VERIFIED",
+    "bytes": 499710531,
+    "sha256": "cb47c3bc42e6ea4ba20545a4925c3981f9e7b3bb271a769de46f9687365e5eff"
+  },
+  "archive_verification": {
+    "status": "VERIFIED_ARCHIVES",
+    "archives": 1,
+    "files": 17,
+    "world_complete": false,
+    "deliverability_in_scope": false
+  },
+  "restored_source_pins_verified": 12,
+  "status": "PACKAGED_RECONSTRUCTED_AND_SOURCE_BYTE_VERIFIED",
+  "implementation_base_commit_sha": "6bdc85d8b8dc963f8408c23037fd3c79956ded6e",
+  "code_review_record": "releases/hierarchy/western-europe/netherlands/acquisition-review.json",
+  "reference_validation_report": "releases/hierarchy/western-europe/netherlands/reference-validation.json",
+  "implementation_commit_sha": "7429be033433d03e713b3e982b9e87c99c5911a1",
+  "reference_gap_review": "releases/hierarchy/western-europe/netherlands/reference-gap-review.json"
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "region": "caribbean",
+  "snapshot_date": "2026-10-17",
+  "archives": [
+    {
+      "name": "Veygrit_Caribbean_20261017.zip",
+      "bytes": 15638060,
+      "sha256": "d2e35105cc9f3c67a48ccbd71b582923f78bdaae2c740f6f6f9e08e97e5b7be5",
+      "files": 271,
+      "roots": [
+        "Veygrit_Caribbean_20261017"
+      ]
+    }
+  ],
+  "selected_files": [
+    {
+      "path": "releases/hierarchy/caribbean/original/COUNTRY_RESULTS_JA.md",
+      "archive_member": "Veygrit_Caribbean_20261017/COUNTRY_RESULTS_JA.md",
+      "original_sha256": "a84dda9d8c7b0db532c136e44aba9b8cfbdfa62dc6af262cd1c60b7dd5c60506",
+      "git_sha256": "a84dda9d8c7b0db532c136e44aba9b8cfbdfa62dc6af262cd1c60b7dd5c60506"
+    },
+    {
+      "path": "releases/hierarchy/caribbean/original/LICENSE_DATA.md",
+      "archive_member": "Veygrit_Caribbean_20261017/LICENSE_DATA.md",
+      "original_sha256": "477bf21bca4645e10a9360b39f358e3b38f150770a33cdaf2ee9862584b58bfd",
+      "git_sha256": "477bf21bca4645e10a9360b39f358e3b38f150770a33cdaf2ee9862584b58bfd"
+    },
+    {
+      "path": "releases/hierarchy/caribbean/original/MANIFEST.json",
+      "archive_member": "Veygrit_Caribbean_20261017/MANIFEST.json",
+      "original_sha256": "553cae7c543f3d06c92583db03e182c6393593593f05ef336bcb468d6869c497",
+      "git_sha256": "553cae7c543f3d06c92583db03e182c6393593593f05ef336bcb468d6869c497"
+    },
+    {
+      "path": "releases/hierarchy/caribbean/original/README_JA.md",
+      "archive_member": "Veygrit_Caribbean_20261017/README_JA.md",
+      "original_sha256": "62c7e5d889ee7d55c5f7d0c1f80a60cd51ada7c703c6025d27139b81eca9e217",
+      "git_sha256": "62c7e5d889ee7d55c5f7d0c1f80a60cd51ada7c703c6025d27139b81eca9e217"
+    },
+    {
+      "path": "releases/hierarchy/caribbean/original/POSTAL_REFERENCE_JA.md",
+      "archive_member": "Veygrit_Caribbean_20261017/POSTAL_REFERENCE_JA.md",
+      "original_sha256": "97bec0f7ade149452f7de4d2c309a712fa699dc1af40a70aa1bf82c3fb43ce16",
+      "git_sha256": "97bec0f7ade149452f7de4d2c309a712fa699dc1af40a70aa1bf82c3fb43ce16"
+    },
+    {
+      "path": "releases/hierarchy/caribbean/original/REFERENCE_NOTES_JA.md",
+      "archive_member": "Veygrit_Caribbean_20261017/REFERENCE_NOTES_JA.md",
+      "original_sha256": "3e6b9c1d582d8c25ba34004fded1e820a81c4a01551e7bbed459af02d5d02f49",
+      "git_sha256": "3e6b9c1d582d8c25ba34004fded1e820a81c4a01551e7bbed459af02d5d02f49"
+    },
+    {
+      "path": "address-points/CARIBBEAN_ACQUISITION_REVIEW.json",
+      "archive_member": "Veygrit_Caribbean_20261017/address-points/CARIBBEAN_ACQUISITION_REVIEW.json",
+      "original_sha256": "68573deac4aaa6a62963f4cf32316b5d5593ce37c6d88f2d3540c9ad22109142",
+      "git_sha256": "68573deac4aaa6a62963f4cf32316b5d5593ce37c6d88f2d3540c9ad22109142"
+    },
+    {
+      "path": "address-points/CARIBBEAN_ALL_LOOP.json",
+      "archive_member": "Veygrit_Caribbean_20261017/address-points/CARIBBEAN_ALL_LOOP.json",
+      "original_sha256": "e7429139b86b3381016595f9f22038410813e243ab3e5ab33da2921f23fdf4df",
+      "git_sha256": "e7429139b86b3381016595f9f22038410813e243ab3e5ab33da2921f23fdf4df"
+    },
+    {
+      "path": "address-points/CARIBBEAN_BUILD.json",
+      "archive_member": "Veygrit_Caribbean_20261017/address-points/CARIBBEAN_BUILD.json",
+      "original_sha256": "bc42b90eff264c3b9d97da98d4fbf486bc8fdaea1710513c89e87bb87ae75738",
+      "git_sha256": "bc42b90eff264c3b9d97da98d4fbf486bc8fdaea1710513c89e87bb87ae75738"
+    },
+    {
+      "path": "address-points/CARIBBEAN_COUNTRIES_LOOP.json",
+      "archive_member": "Veygrit_Caribbean_20261017/address-points/CARIBBEAN_COUNTRIES_LOOP.json",
+      "original_sha256": "2ac1527365cb136586a2b49bd121eeaf81004fa1122c7a6a63fa98e976092a03",
+      "git_sha256": "2ac1527365cb136586a2b49bd121eeaf81004fa1122c7a6a63fa98e976092a03"
+    },
+    {
+      "path": "address-points/CARIBBEAN_RULES.json",
+      "archive_member": "Veygrit_Caribbean_20261017/address-points/CARIBBEAN_RULES.json",
+      "original_sha256": "18d923e4bcf236489ba33f5d1b9976cf10b72c6da3d7c2bd0d6ff33c8379cef2",
+      "git_sha256": "18d923e4bcf236489ba33f5d1b9976cf10b72c6da3d7c2bd0d6ff33c8379cef2"
+    },
+    {
+      "path": "address-points/CARIBBEAN_SCOPE.json",
+      "archive_member": "Veygrit_Caribbean_20261017/address-points/CARIBBEAN_SCOPE.json",
+      "original_sha256": "ba6baafe8e752b8f5fcc3220dc0f9f0ecd01c1b4b15a110fa2b138f9f9641d4d",
+      "git_sha256": "ba6baafe8e752b8f5fcc3220dc0f9f0ecd01c1b4b15a110fa2b138f9f9641d4d"
+    },
+    {
+      "path": "address-points/CARIBBEAN_SOURCES.json",
+      "archive_member": "Veygrit_Caribbean_20261017/address-points/CARIBBEAN_SOURCES.json",
+      "original_sha256": "586abf6bec226d385cca026037c060a0ab1163890158a0d0c067c4513f1c36d9",
+      "git_sha256": "586abf6bec226d385cca026037c060a0ab1163890158a0d0c067c4513f1c36d9"
+    },
+    {
+      "path": "address-points/CARIBBEAN_TERRITORIES_LOOP.json",
+      "archive_member": "Veygrit_Caribbean_20261017/address-points/CARIBBEAN_TERRITORIES_LOOP.json",
+      "original_sha256": "07c8a63896d1f9b9a180cd31181786f8dc87c9ff0ec9d088c56f7ebdf84ef661",
+      "git_sha256": "07c8a63896d1f9b9a180cd31181786f8dc87c9ff0ec9d088c56f7ebdf84ef661"
+    },
+    {
+      "path": "address-points/CARIBBEAN_VALIDATION.json",
+      "archive_member": "Veygrit_Caribbean_20261017/address-points/CARIBBEAN_VALIDATION.json",
+      "original_sha256": "ac86d4d7007952239b6eed4809fcbd771c78f322ae05fb61f467c05b8d39096e",
+      "git_sha256": "ac86d4d7007952239b6eed4809fcbd771c78f322ae05fb61f467c05b8d39096e"
+    },
+    {
+      "path": "address-points/adapters/caribbean_hierarchy.py",
+      "archive_member": "Veygrit_Caribbean_20261017/address-points/adapters/caribbean.py",
+      "original_sha256": "7f77da889a0c4d72c3055765bb627fdbf1a26b8f33230397335349bd629b1e13",
+      "git_sha256": "4ee2d471113a0ecde65cfebb8499f59fd0abfc56120cd1ad96d3e53143c0e9e7"
+    },
+    {
+      "path": "address-points/adapters/caribbean_common.py",
+      "archive_member": "Veygrit_Caribbean_20261017/address-points/adapters/caribbean_common.py",
+      "original_sha256": "8d10ae5b54a3187081ede2403600e48d0c5fa1db02d978899c9cb56a78a1e00e",
+      "git_sha256": "cb640d459e9ecbe2256e7774fe7b57bf33aa869eea5d7bd1631c7406cbacee94"
+    },
+    {
+      "path": "address-points/adapters/caribbean_fetch.py",
+      "archive_member": "Veygrit_Caribbean_20261017/address-points/adapters/caribbean_fetch.py",
+      "original_sha256": "1f6f8242f1b4c96ac42de508c96edd6cac2c24741e759f58dc7f647fc08f2ee7",
+      "git_sha256": "1f6f8242f1b4c96ac42de508c96edd6cac2c24741e759f58dc7f647fc08f2ee7"
+    },
+    {
+      "path": "address-points/adapters/caribbean_validate.py",
+      "archive_member": "Veygrit_Caribbean_20261017/address-points/adapters/caribbean_validate.py",
+      "original_sha256": "8c508f853d0107f3cac66d161c6fa5054c69fdddae79cd02f93905fef5a2fef0",
+      "git_sha256": "74f15603e4f1cb447df088ce99a81830f5221f20d32bb3e1407ffb789d6f994a"
+    },
+    {
+      "path": "hierarchy-tests/test_hierarchy_caribbean.py",
+      "archive_member": "Veygrit_Caribbean_20261017/tests/test_caribbean.py",
+      "original_sha256": "621a88d74382a44f227f43401c2fbd39ca7806bf73fc327edf460c4a71f515c6",
+      "git_sha256": "a34e13b077cba49e85706e1760c18ae0217c89825aff85e7e95b1f87afa771a2"
+    }
+  ],
+  "world_complete": false,
+  "deliverability_in_scope": false,
+  "data_payloads_in_git": false,
+  "metadata_and_code_adjustments": [
+    "Explicit data root is supported through WORLD_LOCALITIES_ADDRESS_ROOT; source identifiers and values are unchanged.",
+    "Regression-test basename is region-qualified.",
+    "Hierarchy module is named caribbean_hierarchy to avoid the existing addressing/caribbean.py basename.",
+    "Source replay runs the imported repository regression tests."
+  ]
+}

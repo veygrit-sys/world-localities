@@ -1,0 +1,35 @@
+{
+  "country": "CY",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 325,
+      "rows": 3,
+      "sha256": "b58d4d35eaf5aaa8b4a4f621baf2a641388a3b39d98cca839ea87493d82b6c83"
+    },
+    "units.csv.gz": {
+      "bytes": 16775,
+      "rows": 538,
+      "sha256": "3344d271b1ea6c74cfd68d3947917fc0c1cce745639dd29e33a547e2e5407429"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 538,
+  "skipped_empty_rows": 0,
+  "source_period_counts": {
+    "2024": 538
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "CY",
+  "validation": {
+    "core": "validated",
+    "overall": "partially validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

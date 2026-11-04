@@ -1,0 +1,111 @@
+{
+  "country": "DZ",
+  "decree_date": "2026-05-25",
+  "limits": [
+    "Only names, source codes and seats are transcribed.",
+    "No municipality membership, boundaries, transport routing or effective operational date inferred.",
+    "No automatic crosswalk to GeoNames or ISO 3166-2.",
+    "Official document has not been relicensed or redistributed."
+  ],
+  "operational_effective_on": null,
+  "publication_date": "2026-06-03",
+  "records": [
+    {
+      "geonames_id": null,
+      "id": "dz:joradp:wilaya:59",
+      "iso_3166_2": null,
+      "name_fr": "Aflou",
+      "seat_name_fr": "Aflou",
+      "source_code": "59"
+    },
+    {
+      "geonames_id": null,
+      "id": "dz:joradp:wilaya:60",
+      "iso_3166_2": null,
+      "name_fr": "Barika",
+      "seat_name_fr": "Barika",
+      "source_code": "60"
+    },
+    {
+      "geonames_id": null,
+      "id": "dz:joradp:wilaya:61",
+      "iso_3166_2": null,
+      "name_fr": "El Kantara",
+      "seat_name_fr": "El Kantara",
+      "source_code": "61"
+    },
+    {
+      "geonames_id": null,
+      "id": "dz:joradp:wilaya:62",
+      "iso_3166_2": null,
+      "name_fr": "Bir El Ater",
+      "seat_name_fr": "Bir El Ater",
+      "source_code": "62"
+    },
+    {
+      "geonames_id": null,
+      "id": "dz:joradp:wilaya:63",
+      "iso_3166_2": null,
+      "name_fr": "El Aricha",
+      "seat_name_fr": "El Aricha",
+      "source_code": "63"
+    },
+    {
+      "geonames_id": null,
+      "id": "dz:joradp:wilaya:64",
+      "iso_3166_2": null,
+      "name_fr": "Ksar Chellala",
+      "seat_name_fr": "Ksar Chellala",
+      "source_code": "64"
+    },
+    {
+      "geonames_id": null,
+      "id": "dz:joradp:wilaya:65",
+      "iso_3166_2": null,
+      "name_fr": "Aïn Ouessara",
+      "seat_name_fr": "Aïn Ouessara",
+      "source_code": "65"
+    },
+    {
+      "geonames_id": null,
+      "id": "dz:joradp:wilaya:66",
+      "iso_3166_2": null,
+      "name_fr": "Messaad",
+      "seat_name_fr": "Messaad",
+      "source_code": "66"
+    },
+    {
+      "geonames_id": null,
+      "id": "dz:joradp:wilaya:67",
+      "iso_3166_2": null,
+      "name_fr": "Ksar El Boukhari",
+      "seat_name_fr": "Ksar El Boukhari",
+      "source_code": "67"
+    },
+    {
+      "geonames_id": null,
+      "id": "dz:joradp:wilaya:68",
+      "iso_3166_2": null,
+      "name_fr": "Bou Saâda",
+      "seat_name_fr": "Bou Saâda",
+      "source_code": "68"
+    },
+    {
+      "geonames_id": null,
+      "id": "dz:joradp:wilaya:69",
+      "iso_3166_2": null,
+      "name_fr": "El Abiodh Sidi Cheikh",
+      "seat_name_fr": "El Abiodh Sidi Cheikh",
+      "source_code": "69"
+    }
+  ],
+  "reviewed_on": "2026-10-15",
+  "schema_version": 1,
+  "source_code_namespace": "JORADP wilaya ordinal; not an ISO or GeoNames admin code",
+  "source_document_archived": false,
+  "source_document_sha256": null,
+  "source_page": 5,
+  "source_title": "Journal officiel de la République algérienne No. 40, page 5, décret présidentiel 26-206",
+  "source_url": "https://www.joradp.dz/FTP/jo-francais/2026/F2026040.pdf",
+  "verification": "Official French page text and rendered page visually checked."
+}

@@ -1,0 +1,328 @@
+{
+  "archive_bytes": 11530456,
+  "archive_sha256": "306dbe73ebfc60eb0e1f1b62461e3a2488d7d2baa23e90e55e6d734eb238c99d",
+  "parts": [
+    {
+      "path": "countries/AU/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "ebb04fe07140fdf1037801fd0e3ab572e828bd9fdaf50f6d5c387bbbf70a7c65",
+      "bytes": 524288,
+      "sha256": "34b6e3fba8d6bf760990680b12e6683b89f8d56d9f2edb80afcc1c4acf4bf723"
+    },
+    {
+      "path": "countries/AU/part-002.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "7627791652b12716ed2299f5e13667120d5c888e6dd22c93da297f9da5f463b5",
+      "bytes": 524288,
+      "sha256": "3cc85f1a04c203ba2eee126288d5e535f40cc91017b6b2528ed639cf93758e17"
+    },
+    {
+      "path": "countries/AU/part-003.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "1de2805ecdbd68c5170ae360ebc1e165de3a62b1aec213389aedca21cd7f754a",
+      "bytes": 524288,
+      "sha256": "bdc27627587be01d654906100dffb9df97e06c82c1ff2f18118176198339cca2"
+    },
+    {
+      "path": "countries/AU/part-004.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "a33564c14b383ce3ec278256596c451e34d0fc00669ef0b1876888aad9666339",
+      "bytes": 524288,
+      "sha256": "c5b1f42b01e0ed41b4add1e3614a71231805c68dbf07c29e20b21c8df9498adf"
+    },
+    {
+      "path": "countries/AU/part-005.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "0852aeb36575839eafd5f4a760119f6722198da234d9c58c28ca8f27d81d7288",
+      "bytes": 524288,
+      "sha256": "6204772dcdae95868b796b80578e63ae1bca052e9cfe38b9c8e893560f5d9439"
+    },
+    {
+      "path": "countries/AU/part-006.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "178cc47469fceb276d7eeaf036b717d24a75a518b382940673cd1902d2e69a30",
+      "bytes": 524288,
+      "sha256": "98c7b362d87517d5b3754ca306c08d3bf2c135cf97b23417613076331f3f4aee"
+    },
+    {
+      "path": "countries/AU/part-007.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "d9579326a8740e0c53b4a6ff1e94cd2916c416620aff59a11f686359ff1dc71a",
+      "bytes": 524288,
+      "sha256": "f6b535bfb37877c3cc00f58b0474df4c08fbe3c2fb85b20a8814040948bf219d"
+    },
+    {
+      "path": "countries/AU/part-008.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "17fb9ce83b5851e6fabaa2e88f3c4c2881d8fd5acc3b51dbe9e527180ac83f50",
+      "bytes": 524288,
+      "sha256": "58a4dbc52d244fb2b056f19d0e3b8437d2fd508b8e7617f2ff66783ed64052c2"
+    },
+    {
+      "path": "countries/AU/part-009.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "3a14fdc90c698af95f8e7f6f3186850cc2155addd68c5838d93c0965ce9080e8",
+      "bytes": 524288,
+      "sha256": "73349ef733ac4208f3bc57e93c333a5cf43b44fcd9b2265de6ffeccab8fa439e"
+    },
+    {
+      "path": "countries/AU/part-010.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "485631f73e7c0f6f8e3375fed0654c3956ca5442e4f44f10c2a3b8225fc79354",
+      "bytes": 524288,
+      "sha256": "b93e0e2bf05bb9d9dbfcd5faf154e22bb8f17a84f53503cdf014d2fb487836b8"
+    },
+    {
+      "path": "countries/AU/part-011.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "3bed5052155b963319865e667b173089dc5561035024c0cb1950e8976c2a433b",
+      "bytes": 524288,
+      "sha256": "9c12f6f8025dfbe5be3ed12938789c8591d78411b9ef39034b9fc5d538177174"
+    },
+    {
+      "path": "countries/AU/part-012.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "e20553370c7e855000a45d225d2a9cef18c48f5e86fed10cba08993cd41041b7",
+      "bytes": 524288,
+      "sha256": "cdc10b0b57bbbf61362e6087a395e4c329ced2c656da11b60e5bf419e674c279"
+    },
+    {
+      "path": "countries/AU/part-013.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "040a19b0f01e0faf9a473600b7b25cbc3c46ca80fc471c8271d0a4b1ef11462b",
+      "bytes": 524288,
+      "sha256": "a559ff50d30a8e789627aadc462abc2721737172f610546b9205d5f337470e80"
+    },
+    {
+      "path": "countries/AU/part-014.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "0984915b5ddc94d95f37c43c1d8981f7b62154db67fe63996369708503114aea",
+      "bytes": 524288,
+      "sha256": "e8aa3e5fa844e8fd4dad0aa5238eb61dc92e3749cda5ccecadf13972c8a17893"
+    },
+    {
+      "path": "countries/AU/part-015.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "8792f73de4cabab123be58cae3d544235a3a1c6ce39c7c087a9fe6144df669e6",
+      "bytes": 524288,
+      "sha256": "e0641bf4fa37d7b91a65cc49b7b58f5c02da04cd37b514be4d532f39307789ea"
+    },
+    {
+      "path": "countries/AU/part-016.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "e131c8d2967d62e8e5a801ecdb1bfe30f12beda4f14dac9bcf0492c02ca160e4",
+      "bytes": 524288,
+      "sha256": "d3f302c30c1d7491c12056bd78b5cb18c524d58d4857d1d0809c35e4a4fc709f"
+    },
+    {
+      "path": "countries/AU/part-017.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "7fb417f8ddad3e022445ff50277f886f1d22a6ad7457f04057a2756dbd139bf8",
+      "bytes": 524288,
+      "sha256": "ae05e3b2a6d3e15d87745c1630304c1978fc3290f943772a7009c6a0635f2b51"
+    },
+    {
+      "path": "countries/AU/part-018.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "a266461e4932c5cd2f0f0d06b3202179be19162078c93d08c5b380902c764772",
+      "bytes": 524288,
+      "sha256": "345a05f92638063cc177a569ddda8bf001343ff53e053b26976832c211e7cf50"
+    },
+    {
+      "path": "countries/AU/part-019.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "efc1ee21ab6662bbc78f5da06260b25a1badcb788e61d503e8f57805b7615ac6",
+      "bytes": 524288,
+      "sha256": "36a186f9f0319bf38e406c7718fd319a2a35d1f8bd5ee571fcb580d7dc4047c8"
+    },
+    {
+      "path": "countries/AU/part-020.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "75e080a5e2b4f6c7c6b18f166fffa57884ce110af190441c02514abbe8ed197a",
+      "bytes": 524288,
+      "sha256": "7f2fab2c68d64934f5569cad76af0b70973e9a0deddc7593f14b676f0a045199"
+    },
+    {
+      "path": "countries/AU/part-021.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "7734d0444952f8969fd4526e4b29455b6411e168c6d09d1aadd03c542d5accbf",
+      "bytes": 524288,
+      "sha256": "916e82335875851d8554b16540c9b16a0e43044741353c8ebe34588ccf6c8b56"
+    },
+    {
+      "path": "countries/AU/part-022.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 693881,
+      "stored_sha256": "6e6236e2a41cb61cc55b5992f8da311f6ebb67867df71b7425b5e150cf9f45db",
+      "bytes": 520408,
+      "sha256": "67487eade180e8a69dff8f72767919b86b8561048b652d6f80f591e5ae470a5c"
+    }
+  ],
+  "members": {
+    "base/data/australia_new_zealand/AU/index.json": {
+      "bytes": 7705,
+      "sha256": "19996573a0e2844ee22a1d0f14ab0285919681541cac30fa94e118aa67514f4c"
+    },
+    "base/data/australia_new_zealand/AU/places.csv": {
+      "bytes": 9319023,
+      "sha256": "32f8b5d29767855995a761883b21c25f435ec3b3e5342678edc93e1c88ca20e6"
+    },
+    "base/data/australia_new_zealand/AU/places.jsonl": {
+      "bytes": 20865696,
+      "sha256": "fcddb9b9c3c250b49b6ec84c821a7c2db894d27e504becc31ae5b69c4a2f9396"
+    },
+    "base/official/AU/AU-ACT.csv": {
+      "bytes": 1005,
+      "sha256": "927e12bc0c835e12fed28b1808145c5dbe9ac18363ac03d87525c9f989cc9e2e"
+    },
+    "base/official/AU/AU-NSW.csv": {
+      "bytes": 27861,
+      "sha256": "9d054ac5fb5776a1e4f8cce8399092ab71206beb852bdd18cfefcb84d33cb0e3"
+    },
+    "base/official/AU/AU-NT.csv": {
+      "bytes": 5036,
+      "sha256": "7c600b8771c0a0566ef7be4c880a15f2d133c67d60c8ab81eb9815eac4fe6a7b"
+    },
+    "base/official/AU/AU-OT.csv": {
+      "bytes": 1448,
+      "sha256": "b9ea84ed9e740ebebda3da28a92ae66f0df0343ef817d3514f9bb09210e81d58"
+    },
+    "base/official/AU/AU-OUT.csv": {
+      "bytes": 497,
+      "sha256": "6b49bd3250ba23afd122e3e920583ac8173a47f25068f0c4841c6feecdac47c9"
+    },
+    "base/official/AU/AU-QLD.csv": {
+      "bytes": 16780,
+      "sha256": "0cad7d599c51e98622cf4da03c4fa826ae347e0813153b6177c5048375a543e0"
+    },
+    "base/official/AU/AU-SA.csv": {
+      "bytes": 15695,
+      "sha256": "a663c8a298705cca1322d2c020c02e286460b6c18c6c3f71b5173d6fe10d062e"
+    },
+    "base/official/AU/AU-TAS.csv": {
+      "bytes": 6679,
+      "sha256": "519ada74a8022e1ffddffa8abd71167b9832121d310319701a67782069b72840"
+    },
+    "base/official/AU/AU-VIC.csv": {
+      "bytes": 16980,
+      "sha256": "8178269735df38e8a1b324e3ba66534324b8ab4213e182fbc8766a784c709c35"
+    },
+    "base/official/AU/AU-WA.csv": {
+      "bytes": 29621,
+      "sha256": "4f0ef0a11bd0e619fecd1c2d8918417e23b6bb0dee2deb6ef7c2c31756d56752"
+    },
+    "base/official/AU/anchors.csv": {
+      "bytes": 1394,
+      "sha256": "c183cc7dfdba923af3707cabcee883148cc23f9923c8d5364b195772baa48741"
+    },
+    "base/official/AU/evidence/au-replay-20260926.json": {
+      "bytes": 4667,
+      "sha256": "91b2fb2a6b6cb77385d0d91b0d2cbf8c64f703cb82034db1e32e43ba511f220d"
+    },
+    "base/official/AU/evidence/au-verification-20260926.json": {
+      "bytes": 4372,
+      "sha256": "bb2a2abaf05564136369256e4e844bdb73728822e4e7164b69a26228983c12fe"
+    },
+    "base/official/AU/evidence/australia_hierarchy_ja.md": {
+      "bytes": 2534,
+      "sha256": "0ddf685a9d5e07ff4aacbb651839357ad4e4bedde3ee965f6a2bc7da3abba7a1"
+    },
+    "base/official/AU/import_provenance.json": {
+      "bytes": 4980,
+      "sha256": "28a8a6a6d005318b584c69fd3c3e043c80b63541806e53e5d969e4c391408f6d"
+    },
+    "base/official/AU/index.json": {
+      "bytes": 3736,
+      "sha256": "891a762ee50721534036b65c0857aafddc665bf752925098222cc3ee3cab556b"
+    },
+    "base/official/AU/manifest.json": {
+      "bytes": 4382,
+      "sha256": "b0bd82156acf556d29867cf14e75e495e75fe3773dfa27e68b50cad82055b310"
+    },
+    "base/official/AU/third_party/CSC-ODbL.txt": {
+      "bytes": 25364,
+      "sha256": "6042621cae96bbce3a10739b480a074e25b0ea23025c00d7874582ad2c47b780"
+    },
+    "base/official/AU/third_party/CommerceGuys-MIT.txt": {
+      "bytes": 1104,
+      "sha256": "bcce22529dae53a1e1c8c03b79ccd09a921a0f0b4ecff04f73ad98aba8bf9634"
+    },
+    "base/official/AU/third_party/ISO-reference-LGPL-2.1.txt": {
+      "bytes": 24463,
+      "sha256": "3fa39c6e18a3a4411082b64c164deae1d8f47b03a4d45304c1f0ae478626e382"
+    },
+    "base/official/AU/third_party/Unicode-3.0.txt": {
+      "bytes": 2036,
+      "sha256": "780ed0d1e595f6bb3e7cad757ea147315596b96e75d6a271ae95e882185c8aa7"
+    },
+    "base/official/AU/unmatched-source-rows.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "base/official/AU/upstream_DATA_LICENSES.md": {
+      "bytes": 32765,
+      "sha256": "28c18d3d47d233e591889110f8cf36250bf1c4ade6b6f8a73ff1e45a793c6f48"
+    },
+    "base/sources/geonames/AU.zip": {
+      "bytes": 5744984,
+      "sha256": "caec9deccc7d9a8b0aea11e947b1c88b847f1e5004bdc8f4863a0c54ef5d0eb5"
+    },
+    "base/sources/geonames/AU.zip.download.json": {
+      "bytes": 308,
+      "sha256": "597417f617b45746331302e0ea7f241ff60053922d37a154eee31f3f7528c130"
+    },
+    "locale/names.csv": {
+      "bytes": 2183862,
+      "sha256": "45dc2c43c43418bdbaf0dfd19e3c4aed3723738ff36bfba20e6be64824d689d6"
+    },
+    "locale/names.jsonl": {
+      "bytes": 4788585,
+      "sha256": "fedf540b5a50f66cf192fd28e048320dc2251b8bb7cec1fd71bde3ed550ce9d7"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 19085,
+      "sha256": "c3f0076e27bae3bcb806a3160d7377054b31efb2f487e96b92864eddf3772857"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 45319,
+      "sha256": "4b1c6fbdae3b06822d2ba9d21ae64febfa32a146b2b16838423d1136353afc0b"
+    },
+    "locale/sources/address-templates/AU.json": {
+      "bytes": 794,
+      "sha256": "7b224db7ce8e596e634e73f70c6630840cd45dc60ef872601f291bf903966cc6"
+    },
+    "locale/sources/address-templates/AU.json.download.json": {
+      "bytes": 271,
+      "sha256": "57e85f8afd6763d05af2c909e637dc9bb8840d765f28417fcf6126302778f7dc"
+    },
+    "locale/sources/alternatenames/AU.zip": {
+      "bytes": 2744877,
+      "sha256": "a792173785ab094c8aa4f7ad2b3dc8a3d2d4df33820d3659ede4aa35631fa240"
+    },
+    "locale/sources/alternatenames/AU.zip.download.json": {
+      "bytes": 285,
+      "sha256": "3cece3b55a2a106172759536a89c7e53c97af88bb73827da536a728bb60bd3c1"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "ATF",
+    "country": "TF",
+    "geonames_continent": "AN",
+    "geonames_country_name": "French Southern Territories",
+    "geonames_id": "1546748",
+    "id": "country:TF",
+    "m49": "260",
+    "name_en": "French Southern Territories",
+    "numeric": "260",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 3,
+    "admin_rows": 10,
+    "ambiguous_parents": 0,
+    "country": "TF",
+    "country_scope_only": 1,
+    "localities_without_adm1": 1,
+    "locality_rows": 3,
+    "name_en": "French Southern Territories",
+    "other_admin_rows": 2,
+    "region": "Eastern Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 5,
+    "ADM2": 5,
+    "ADMD": 1,
+    "PCLIX": 1,
+    "PPL": 2,
+    "PPLC": 1
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 5205,
+      "rows": 15,
+      "sha256": "83731fb284f2444ad99034ce471ae5744f1b646febab00498b693aeee0b2dbd1",
+      "uncompressed_sha256": "f6c3826f0722f30005c6e4b9de1756cd2843555dd8f90621f165c18e51d56856"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 1,
+    "not_assigned_for_other_feature": 2,
+    "source_admin_code": 7,
+    "source_country": 5
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 5,
+      "sha256": "58cba64f2e4653f3346e1c9067cde360952157f8f84d0429cd525bb2545c855d"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 60205,
+    "discarded_feature_classes": {
+      "H": 543,
+      "L": 20,
+      "R": 2,
+      "S": 47,
+      "T": 1017,
+      "U": 3,
+      "V": 3
+    },
+    "retained_rows": 15,
+    "retrieved_on": "2026-09-26",
+    "sha256": "a5e3dd490ec10ed6a3804ee98463b95c88ab6bbfb6d46140db5b7a408f26d113",
+    "source_rows": 1650,
+    "url": "https://download.geonames.org/export/dump/TF.zip"
+  },
+  "source_modified_max": "2026-06-24",
+  "source_modified_min": "2008-03-16"
+}

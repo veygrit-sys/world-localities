@@ -1,0 +1,84 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "GNQ",
+    "country": "GQ",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Equatorial Guinea",
+    "geonames_id": "2309096",
+    "id": "country:GQ",
+    "m49": "226",
+    "name_en": "Equatorial Guinea",
+    "numeric": "226",
+    "region": "Middle Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 2048,
+    "admin_rows": 77,
+    "ambiguous_parents": 0,
+    "country": "GQ",
+    "country_scope_only": 2005,
+    "localities_without_adm1": 2005,
+    "locality_rows": 2085,
+    "name_en": "Equatorial Guinea",
+    "other_admin_rows": 4,
+    "region": "Middle Africa",
+    "unresolved_parents": 37
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 8,
+    "ADM2": 32,
+    "ADM3": 37,
+    "ADMD": 3,
+    "PCLI": 1,
+    "PPL": 2040,
+    "PPLA": 7,
+    "PPLC": 1,
+    "PPLQ": 37
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 66087,
+      "rows": 2166,
+      "sha256": "0554e3f6c5a33a198f0545c9588a5062e4e2c25c4c6cc019589c10c3e2afbdeb",
+      "uncompressed_sha256": "110e9f98596ec25a6cdd14ca8e0f35d0906536ac7a071a8302f199adb7a1f630"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 2005,
+    "missing_code": 37,
+    "not_assigned_for_other_feature": 4,
+    "source_admin_code": 112,
+    "source_country": 8
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 8,
+      "sha256": "ed56cbd09618ae13292c52fc6339c832a959b9386d59f642423f9f5ccc513870"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 113650,
+    "discarded_feature_classes": {
+      "H": 1504,
+      "L": 4,
+      "S": 504,
+      "T": 219,
+      "V": 1
+    },
+    "retained_rows": 2166,
+    "retrieved_on": "2026-09-26",
+    "sha256": "9515801bf354b42648e98a97a4c14f0a4f6ef57ec8e4eb1293787d8f8dd8b738",
+    "source_rows": 4398,
+    "url": "https://download.geonames.org/export/dump/GQ.zip"
+  },
+  "source_modified_max": "2026-09-02",
+  "source_modified_min": "1994-01-06"
+}

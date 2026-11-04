@@ -1,0 +1,100 @@
+{
+  "archive_bytes": 2257237,
+  "archive_sha256": "f28a069b7fc92a682e178e44030ec869e080638cae48192933feef209c7a5edf",
+  "parts": [
+    {
+      "path": "countries/NZ/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "6376aceb2d8ab5355ebc5c402aa814d56c19309c88374627ecf0bd2637ddb946",
+      "bytes": 524288,
+      "sha256": "21b6aa5ee661b6f37ae9b76b299d83e332b38b471767584374c99773a18e5a12"
+    },
+    {
+      "path": "countries/NZ/part-002.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "b25d3d153259e4188cfe1449c39fb0d5b7d88010d0bf4ea777737dfc13926930",
+      "bytes": 524288,
+      "sha256": "902252890fab62d1c068a45ab6df155140779c97b7cd8571344239daccc1f6f2"
+    },
+    {
+      "path": "countries/NZ/part-003.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "251360bbe5dec4c426329324beaadfaf31405c047ba9b934cd59e2762afdc118",
+      "bytes": 524288,
+      "sha256": "d03891a11f6728bbeaa9fe2d66926ea5aaacc0a11449b2270618a00659809da3"
+    },
+    {
+      "path": "countries/NZ/part-004.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "72ba1910000a5c855272d0b096dee3cab4b131f6389cdf30722dc489dc48d13e",
+      "bytes": 524288,
+      "sha256": "7e87b03c3a740db42a791048284fd961bc24317f462cb84018d9539c5bb6c07c"
+    },
+    {
+      "path": "countries/NZ/part-005.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 213449,
+      "stored_sha256": "6a2bfaaf28f740f5c0cf48094016ce4419275d43c1712a19c4927ecf6e74f9dd",
+      "bytes": 160085,
+      "sha256": "9d3d1f8bda2df03f85935e2b1a3794d8d2efc36886e90b470fbe55a021963f82"
+    }
+  ],
+  "members": {
+    "base/data/australia_new_zealand/NZ/index.json": {
+      "bytes": 4679,
+      "sha256": "123c7a21144c6ac30b2dc53caf5e8a94251996f8e3892005a4840428a00dcd65"
+    },
+    "base/data/australia_new_zealand/NZ/places.csv": {
+      "bytes": 1585044,
+      "sha256": "0fc5df0fd46a74a9efcb2b00b14cbe31de34f7ee7578ab73bfd71cd273e45bad"
+    },
+    "base/data/australia_new_zealand/NZ/places.jsonl": {
+      "bytes": 3564474,
+      "sha256": "879caaed4f74511c09123e9aca624bca08493314c2d9967f30b89256118ee436"
+    },
+    "base/sources/geonames/NZ.zip": {
+      "bytes": 1434788,
+      "sha256": "b4826750c0ce65ca9cc63706de0d4e093f988537c002bbfee36c5f888c9b5a95"
+    },
+    "base/sources/geonames/NZ.zip.download.json": {
+      "bytes": 308,
+      "sha256": "217b9028a5597e1aa25e017bb5964279798f6ade9a78bbfd68822f6a98506bbb"
+    },
+    "locale/names.csv": {
+      "bytes": 476163,
+      "sha256": "60589f390c1b659ee64008bd45d5841b02d0dd6b012ebdda7a555acc2316de58"
+    },
+    "locale/names.jsonl": {
+      "bytes": 1034422,
+      "sha256": "52f2f208f6d2b15b0f4ac316de7ad90b60f70ac331543c110fbb8d6da2781a50"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 493,
+      "sha256": "9092b0ae38173cc97369a58010899a321c5906bfde0d009795b8d6daa684cf4b"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 870,
+      "sha256": "7b74b280aed38c312c3f6027a193f9f17754d649c03f456ef2eece817205860a"
+    },
+    "locale/sources/address-templates/NZ.json": {
+      "bytes": 212,
+      "sha256": "9dba8dc96b7f96318930ee020795adab986c69233e36ae1af6cb10d8e8c4845d"
+    },
+    "locale/sources/address-templates/NZ.json.download.json": {
+      "bytes": 271,
+      "sha256": "3c171ce4a0f81c26f0f4f14720e5c8aa15bd000e12ed5a5220dfddf0337fbd4b"
+    },
+    "locale/sources/alternatenames/NZ.zip": {
+      "bytes": 286029,
+      "sha256": "25c8d200d0fd7611809f0fff4fe2c3038fa21b7caca4f5a87d0bff97fdc50b90"
+    },
+    "locale/sources/alternatenames/NZ.zip.download.json": {
+      "bytes": 284,
+      "sha256": "b6759a5909841a079679dd099b797fed0a63d9b5ecb6b99c36b846778f32cf38"
+    }
+  }
+}

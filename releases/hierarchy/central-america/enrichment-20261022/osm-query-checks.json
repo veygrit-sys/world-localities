@@ -1,0 +1,176 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-21T19:07:36.438503+00:00",
+  "checks": [
+    {
+      "extract_code": "BZ",
+      "kind": "roads",
+      "id": "osm:way:25878481",
+      "status": "PASS",
+      "original_number": null
+    },
+    {
+      "extract_code": "BZ",
+      "kind": "address-numbers",
+      "id": "osm:node:877583586",
+      "status": "PASS",
+      "original_number": "201"
+    },
+    {
+      "extract_code": "BZ",
+      "kind": "administrative",
+      "id": "osm:way:11801171",
+      "status": "PASS",
+      "original_number": null
+    },
+    {
+      "extract_code": "CR",
+      "kind": "roads",
+      "id": "osm:way:12569980",
+      "status": "PASS",
+      "original_number": null
+    },
+    {
+      "extract_code": "CR",
+      "kind": "address-numbers",
+      "id": "osm:node:459837504",
+      "status": "PASS",
+      "original_number": "0004"
+    },
+    {
+      "extract_code": "CR",
+      "kind": "administrative",
+      "id": "osm:way:11801339",
+      "status": "PASS",
+      "original_number": null
+    },
+    {
+      "extract_code": "GT",
+      "kind": "roads",
+      "id": "osm:way:4426020",
+      "status": "PASS",
+      "original_number": null
+    },
+    {
+      "extract_code": "GT",
+      "kind": "address-numbers",
+      "id": "osm:node:282740457",
+      "status": "PASS",
+      "original_number": "111"
+    },
+    {
+      "extract_code": "GT",
+      "kind": "administrative",
+      "id": "osm:way:11801171",
+      "status": "PASS",
+      "original_number": null
+    },
+    {
+      "extract_code": "HN",
+      "kind": "roads",
+      "id": "osm:way:25328408",
+      "status": "PASS",
+      "original_number": null
+    },
+    {
+      "extract_code": "HN",
+      "kind": "address-numbers",
+      "id": "osm:node:416528673",
+      "status": "PASS",
+      "original_number": "1001"
+    },
+    {
+      "extract_code": "HN",
+      "kind": "administrative",
+      "id": "osm:way:11801131",
+      "status": "PASS",
+      "original_number": null
+    },
+    {
+      "extract_code": "MX",
+      "kind": "roads",
+      "id": "osm:way:4564450",
+      "status": "PASS",
+      "original_number": null
+    },
+    {
+      "extract_code": "MX",
+      "kind": "address-numbers",
+      "id": "osm:node:293208350",
+      "status": "PASS",
+      "original_number": "443"
+    },
+    {
+      "extract_code": "MX",
+      "kind": "administrative",
+      "id": "osm:node:2987857384",
+      "status": "PASS",
+      "original_number": null
+    },
+    {
+      "extract_code": "NI",
+      "kind": "roads",
+      "id": "osm:way:16944435",
+      "status": "PASS",
+      "original_number": null
+    },
+    {
+      "extract_code": "NI",
+      "kind": "address-numbers",
+      "id": "osm:node:313060256",
+      "status": "PASS",
+      "original_number": "De la iglesia del Carmen 1 c. 1/2 abajo"
+    },
+    {
+      "extract_code": "NI",
+      "kind": "administrative",
+      "id": "osm:way:11801180",
+      "status": "PASS",
+      "original_number": null
+    },
+    {
+      "extract_code": "PA",
+      "kind": "roads",
+      "id": "osm:way:12447677",
+      "status": "PASS",
+      "original_number": null
+    },
+    {
+      "extract_code": "PA",
+      "kind": "address-numbers",
+      "id": "osm:node:2177391794",
+      "status": "PASS",
+      "original_number": "Local 2"
+    },
+    {
+      "extract_code": "PA",
+      "kind": "administrative",
+      "id": "osm:way:11801339",
+      "status": "PASS",
+      "original_number": null
+    },
+    {
+      "extract_code": "SV",
+      "kind": "roads",
+      "id": "osm:way:18613699",
+      "status": "PASS",
+      "original_number": null
+    },
+    {
+      "extract_code": "SV",
+      "kind": "address-numbers",
+      "id": "osm:node:636300296",
+      "status": "PASS",
+      "original_number": "Local 15"
+    },
+    {
+      "extract_code": "SV",
+      "kind": "administrative",
+      "id": "osm:way:11801131",
+      "status": "PASS",
+      "original_number": null
+    }
+  ],
+  "check_count": 24,
+  "deliverability_in_scope": false
+}

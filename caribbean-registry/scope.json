@@ -1,0 +1,441 @@
+{
+  "countries": [
+    {
+      "alpha3": "ATG",
+      "country": "AG",
+      "geonames_country_name": "Antigua and Barbuda",
+      "geonames_id": "3576396",
+      "id": "country:AG",
+      "m49": "028",
+      "name_en": "Antigua and Barbuda",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "en-AG"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "AIA",
+      "country": "AI",
+      "geonames_country_name": "Anguilla",
+      "geonames_id": "3573511",
+      "id": "country:AI",
+      "m49": "660",
+      "name_en": "Anguilla",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "en-AI"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "ABW",
+      "country": "AW",
+      "geonames_country_name": "Aruba",
+      "geonames_id": "3577279",
+      "id": "country:AW",
+      "m49": "533",
+      "name_en": "Aruba",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "nl-AW",
+        "pap",
+        "es",
+        "en"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "BRB",
+      "country": "BB",
+      "geonames_country_name": "Barbados",
+      "geonames_id": "3374084",
+      "id": "country:BB",
+      "m49": "052",
+      "name_en": "Barbados",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "en-BB"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "BLM",
+      "country": "BL",
+      "geonames_country_name": "Saint Barthelemy",
+      "geonames_id": "3578476",
+      "id": "country:BL",
+      "m49": "652",
+      "name_en": "Saint Barthélemy",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "fr"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "BES",
+      "country": "BQ",
+      "geonames_country_name": "Bonaire, Saint Eustatius and Saba ",
+      "geonames_id": "7626844",
+      "id": "country:BQ",
+      "m49": "535",
+      "name_en": "Bonaire, Sint Eustatius and Saba",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "nl",
+        "pap",
+        "en"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "BHS",
+      "country": "BS",
+      "geonames_country_name": "Bahamas",
+      "geonames_id": "3572887",
+      "id": "country:BS",
+      "m49": "044",
+      "name_en": "Bahamas",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "en-BS"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "CUW",
+      "country": "CW",
+      "geonames_country_name": "Curacao",
+      "geonames_id": "7626836",
+      "id": "country:CW",
+      "m49": "531",
+      "name_en": "Curaçao",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "nl",
+        "pap"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "DMA",
+      "country": "DM",
+      "geonames_country_name": "Dominica",
+      "geonames_id": "3575830",
+      "id": "country:DM",
+      "m49": "212",
+      "name_en": "Dominica",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "en-DM"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "DOM",
+      "country": "DO",
+      "geonames_country_name": "Dominican Republic",
+      "geonames_id": "3508796",
+      "id": "country:DO",
+      "m49": "214",
+      "name_en": "Dominican Republic",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "es-DO"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "GRD",
+      "country": "GD",
+      "geonames_country_name": "Grenada",
+      "geonames_id": "3580239",
+      "id": "country:GD",
+      "m49": "308",
+      "name_en": "Grenada",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "en-GD"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "GLP",
+      "country": "GP",
+      "geonames_country_name": "Guadeloupe",
+      "geonames_id": "3579143",
+      "id": "country:GP",
+      "m49": "312",
+      "name_en": "Guadeloupe",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "fr-GP"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "HTI",
+      "country": "HT",
+      "geonames_country_name": "Haiti",
+      "geonames_id": "3723988",
+      "id": "country:HT",
+      "m49": "332",
+      "name_en": "Haiti",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "ht",
+        "fr-HT"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "JAM",
+      "country": "JM",
+      "geonames_country_name": "Jamaica",
+      "geonames_id": "3489940",
+      "id": "country:JM",
+      "m49": "388",
+      "name_en": "Jamaica",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "en-JM"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "KNA",
+      "country": "KN",
+      "geonames_country_name": "Saint Kitts and Nevis",
+      "geonames_id": "3575174",
+      "id": "country:KN",
+      "m49": "659",
+      "name_en": "Saint Kitts and Nevis",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "en-KN"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "CYM",
+      "country": "KY",
+      "geonames_country_name": "Cayman Islands",
+      "geonames_id": "3580718",
+      "id": "country:KY",
+      "m49": "136",
+      "name_en": "Cayman Islands",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "en-KY"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "LCA",
+      "country": "LC",
+      "geonames_country_name": "Saint Lucia",
+      "geonames_id": "3576468",
+      "id": "country:LC",
+      "m49": "662",
+      "name_en": "Saint Lucia",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "en-LC"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "MAF",
+      "country": "MF",
+      "geonames_country_name": "Saint Martin",
+      "geonames_id": "3578421",
+      "id": "country:MF",
+      "m49": "663",
+      "name_en": "Saint Martin (French Part)",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "fr"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "MTQ",
+      "country": "MQ",
+      "geonames_country_name": "Martinique",
+      "geonames_id": "3570311",
+      "id": "country:MQ",
+      "m49": "474",
+      "name_en": "Martinique",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "fr-MQ"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "MSR",
+      "country": "MS",
+      "geonames_country_name": "Montserrat",
+      "geonames_id": "3578097",
+      "id": "country:MS",
+      "m49": "500",
+      "name_en": "Montserrat",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "en-MS"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "PRI",
+      "country": "PR",
+      "geonames_country_name": "Puerto Rico",
+      "geonames_id": "4566966",
+      "id": "country:PR",
+      "m49": "630",
+      "name_en": "Puerto Rico",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "en-PR",
+        "es-PR"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "SXM",
+      "country": "SX",
+      "geonames_country_name": "Sint Maarten",
+      "geonames_id": "7609695",
+      "id": "country:SX",
+      "m49": "534",
+      "name_en": "Sint Maarten (Dutch part)",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "nl",
+        "en"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "TCA",
+      "country": "TC",
+      "geonames_country_name": "Turks and Caicos Islands",
+      "geonames_id": "3576916",
+      "id": "country:TC",
+      "m49": "796",
+      "name_en": "Turks and Caicos Islands",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "en-TC"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "TTO",
+      "country": "TT",
+      "geonames_country_name": "Trinidad and Tobago",
+      "geonames_id": "3573591",
+      "id": "country:TT",
+      "m49": "780",
+      "name_en": "Trinidad and Tobago",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "en-TT",
+        "hns",
+        "fr",
+        "es",
+        "zh"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "VCT",
+      "country": "VC",
+      "geonames_country_name": "Saint Vincent and the Grenadines",
+      "geonames_id": "3577815",
+      "id": "country:VC",
+      "m49": "670",
+      "name_en": "Saint Vincent and the Grenadines",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "en-VC",
+        "fr"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "VGB",
+      "country": "VG",
+      "geonames_country_name": "British Virgin Islands",
+      "geonames_id": "3577718",
+      "id": "country:VG",
+      "m49": "092",
+      "name_en": "British Virgin Islands",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "en-VG"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "VIR",
+      "country": "VI",
+      "geonames_country_name": "U.S. Virgin Islands",
+      "geonames_id": "4796775",
+      "id": "country:VI",
+      "m49": "850",
+      "name_en": "United States Virgin Islands",
+      "region": "Caribbean",
+      "region_m49": "029",
+      "source_language_codes": [
+        "en-VI"
+      ],
+      "status": "source_country_or_area"
+    }
+  ],
+  "country_info_sha256": "93bafc525813f22e4711ff9ed6d626343094ce48c26388dc7c49189b3d7d5512",
+  "m49_scope_count": 28,
+  "omitted_countries": [
+    {
+      "country": "CU",
+      "name_en": "Cuba",
+      "reason": "Country upload is pending approval; no Cuba country files are included in this partial publication.",
+      "status": "omitted_from_this_publication"
+    }
+  ],
+  "published_scope_count": 27,
+  "region_m49": "029",
+  "retrieved_on": "2026-10-01",
+  "schema_version": 1,
+  "scope_name": "UN M49 Caribbean partial publication: 27 of 28 countries and areas",
+  "scope_note": "This publication includes 27 of 28 M49 Caribbean countries/areas. Cuba (CU) is omitted in full. Statistical grouping only; does not imply any position on sovereignty. Puerto Rico and US Virgin Islands remain independent source country scopes; do not add counts to overlapping US official snapshots.",
+  "source_html_sha256": "4d5cabcb10ad9ef184553b5e64c0a34ba8deeb20dab2e02cd0be3599b93bb01d",
+  "source_url": "https://unstats.un.org/unsd/methodology/m49/"
+}

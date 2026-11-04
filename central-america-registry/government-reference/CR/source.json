@@ -1,0 +1,370 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cantones-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cantones-cs</b></p><a name=\"cantones-cs\"> </a><a name=\"hccantones-cs\"> </a><p>This case-sensitive code system <code>https://ministeriodesalud.go.cr/fhir/CodeSystem/cantones-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">101<a name=\"cantones-cs-101\"> </a></td><td>San José</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"cantones-cs-102\"> </a></td><td>Escazú</td></tr><tr><td style=\"white-space:nowrap\">103<a name=\"cantones-cs-103\"> </a></td><td>Desamparados</td></tr><tr><td style=\"white-space:nowrap\">104<a name=\"cantones-cs-104\"> </a></td><td>Puriscal</td></tr><tr><td style=\"white-space:nowrap\">105<a name=\"cantones-cs-105\"> </a></td><td>Tarrazú</td></tr><tr><td style=\"white-space:nowrap\">106<a name=\"cantones-cs-106\"> </a></td><td>Aserrí</td></tr><tr><td style=\"white-space:nowrap\">107<a name=\"cantones-cs-107\"> </a></td><td>Mora</td></tr><tr><td style=\"white-space:nowrap\">108<a name=\"cantones-cs-108\"> </a></td><td>Goicoechea</td></tr><tr><td style=\"white-space:nowrap\">109<a name=\"cantones-cs-109\"> </a></td><td>Santa Ana</td></tr><tr><td style=\"white-space:nowrap\">110<a name=\"cantones-cs-110\"> </a></td><td>Alajuelita</td></tr><tr><td style=\"white-space:nowrap\">111<a name=\"cantones-cs-111\"> </a></td><td>Vázquez de Coronado</td></tr><tr><td style=\"white-space:nowrap\">112<a name=\"cantones-cs-112\"> </a></td><td>Acosta</td></tr><tr><td style=\"white-space:nowrap\">113<a name=\"cantones-cs-113\"> </a></td><td>Tibás</td></tr><tr><td style=\"white-space:nowrap\">114<a name=\"cantones-cs-114\"> </a></td><td>Moravia</td></tr><tr><td style=\"white-space:nowrap\">115<a name=\"cantones-cs-115\"> </a></td><td>Montes de Oca</td></tr><tr><td style=\"white-space:nowrap\">116<a name=\"cantones-cs-116\"> </a></td><td>Turrubares</td></tr><tr><td style=\"white-space:nowrap\">117<a name=\"cantones-cs-117\"> </a></td><td>Dota</td></tr><tr><td style=\"white-space:nowrap\">118<a name=\"cantones-cs-118\"> </a></td><td>Curridabat</td></tr><tr><td style=\"white-space:nowrap\">119<a name=\"cantones-cs-119\"> </a></td><td>Pérez Zeledón</td></tr><tr><td style=\"white-space:nowrap\">120<a name=\"cantones-cs-120\"> </a></td><td>León Cortés Castro</td></tr><tr><td style=\"white-space:nowrap\">201<a name=\"cantones-cs-201\"> </a></td><td>Alajuela</td></tr><tr><td style=\"white-space:nowrap\">202<a name=\"cantones-cs-202\"> </a></td><td>San Ramón</td></tr><tr><td style=\"white-space:nowrap\">203<a name=\"cantones-cs-203\"> </a></td><td>Grecia</td></tr><tr><td style=\"white-space:nowrap\">204<a name=\"cantones-cs-204\"> </a></td><td>San Mateo</td></tr><tr><td style=\"white-space:nowrap\">205<a name=\"cantones-cs-205\"> </a></td><td>Atenas</td></tr><tr><td style=\"white-space:nowrap\">206<a name=\"cantones-cs-206\"> </a></td><td>Naranjo</td></tr><tr><td style=\"white-space:nowrap\">207<a name=\"cantones-cs-207\"> </a></td><td>Palmares</td></tr><tr><td style=\"white-space:nowrap\">208<a name=\"cantones-cs-208\"> </a></td><td>Poás</td></tr><tr><td style=\"white-space:nowrap\">209<a name=\"cantones-cs-209\"> </a></td><td>Orotina</td></tr><tr><td style=\"white-space:nowrap\">210<a name=\"cantones-cs-210\"> </a></td><td>San Carlos</td></tr><tr><td style=\"white-space:nowrap\">211<a name=\"cantones-cs-211\"> </a></td><td>Zarcero</td></tr><tr><td style=\"white-space:nowrap\">212<a name=\"cantones-cs-212\"> </a></td><td>Sarchí</td></tr><tr><td style=\"white-space:nowrap\">213<a name=\"cantones-cs-213\"> </a></td><td>Upala</td></tr><tr><td style=\"white-space:nowrap\">214<a name=\"cantones-cs-214\"> </a></td><td>Los Chiles</td></tr><tr><td style=\"white-space:nowrap\">215<a name=\"cantones-cs-215\"> </a></td><td>Guatuso</td></tr><tr><td style=\"white-space:nowrap\">216<a name=\"cantones-cs-216\"> </a></td><td>Río Cuarto</td></tr><tr><td style=\"white-space:nowrap\">301<a name=\"cantones-cs-301\"> </a></td><td>Cartago</td></tr><tr><td style=\"white-space:nowrap\">302<a name=\"cantones-cs-302\"> </a></td><td>Paraíso</td></tr><tr><td style=\"white-space:nowrap\">303<a name=\"cantones-cs-303\"> </a></td><td>La Unión</td></tr><tr><td style=\"white-space:nowrap\">304<a name=\"cantones-cs-304\"> </a></td><td>Jiménez</td></tr><tr><td style=\"white-space:nowrap\">305<a name=\"cantones-cs-305\"> </a></td><td>Turrialba</td></tr><tr><td style=\"white-space:nowrap\">306<a name=\"cantones-cs-306\"> </a></td><td>Alvarado</td></tr><tr><td style=\"white-space:nowrap\">307<a name=\"cantones-cs-307\"> </a></td><td>Oreamuno</td></tr><tr><td style=\"white-space:nowrap\">308<a name=\"cantones-cs-308\"> </a></td><td>El Guarco</td></tr><tr><td style=\"white-space:nowrap\">401<a name=\"cantones-cs-401\"> </a></td><td>Heredia</td></tr><tr><td style=\"white-space:nowrap\">402<a name=\"cantones-cs-402\"> </a></td><td>Barva</td></tr><tr><td style=\"white-space:nowrap\">403<a name=\"cantones-cs-403\"> </a></td><td>Santo Domingo</td></tr><tr><td style=\"white-space:nowrap\">404<a name=\"cantones-cs-404\"> </a></td><td>Santa Bárbara</td></tr><tr><td style=\"white-space:nowrap\">405<a name=\"cantones-cs-405\"> </a></td><td>San Rafael</td></tr><tr><td style=\"white-space:nowrap\">406<a name=\"cantones-cs-406\"> </a></td><td>San Isidro</td></tr><tr><td style=\"white-space:nowrap\">407<a name=\"cantones-cs-407\"> </a></td><td>Belén</td></tr><tr><td style=\"white-space:nowrap\">408<a name=\"cantones-cs-408\"> </a></td><td>Flores</td></tr><tr><td style=\"white-space:nowrap\">409<a name=\"cantones-cs-409\"> </a></td><td>San Pablo</td></tr><tr><td style=\"white-space:nowrap\">410<a name=\"cantones-cs-410\"> </a></td><td>Sarapiquí</td></tr><tr><td style=\"white-space:nowrap\">501<a name=\"cantones-cs-501\"> </a></td><td>Liberia</td></tr><tr><td style=\"white-space:nowrap\">502<a name=\"cantones-cs-502\"> </a></td><td>Nicoya</td></tr><tr><td style=\"white-space:nowrap\">503<a name=\"cantones-cs-503\"> </a></td><td>Santa Cruz</td></tr><tr><td style=\"white-space:nowrap\">504<a name=\"cantones-cs-504\"> </a></td><td>Bagaces</td></tr><tr><td style=\"white-space:nowrap\">505<a name=\"cantones-cs-505\"> </a></td><td>Carrillo</td></tr><tr><td style=\"white-space:nowrap\">506<a name=\"cantones-cs-506\"> </a></td><td>Cañas</td></tr><tr><td style=\"white-space:nowrap\">507<a name=\"cantones-cs-507\"> </a></td><td>Abangares</td></tr><tr><td style=\"white-space:nowrap\">508<a name=\"cantones-cs-508\"> </a></td><td>Tilarán</td></tr><tr><td style=\"white-space:nowrap\">509<a name=\"cantones-cs-509\"> </a></td><td>Nandayure</td></tr><tr><td style=\"white-space:nowrap\">510<a name=\"cantones-cs-510\"> </a></td><td>La Cruz</td></tr><tr><td style=\"white-space:nowrap\">511<a name=\"cantones-cs-511\"> </a></td><td>Hojancha</td></tr><tr><td style=\"white-space:nowrap\">601<a name=\"cantones-cs-601\"> </a></td><td>Puntarenas</td></tr><tr><td style=\"white-space:nowrap\">602<a name=\"cantones-cs-602\"> </a></td><td>Esparza</td></tr><tr><td style=\"white-space:nowrap\">603<a name=\"cantones-cs-603\"> </a></td><td>Buenos Aires</td></tr><tr><td style=\"white-space:nowrap\">604<a name=\"cantones-cs-604\"> </a></td><td>Montes de Oro</td></tr><tr><td style=\"white-space:nowrap\">605<a name=\"cantones-cs-605\"> </a></td><td>Osa</td></tr><tr><td style=\"white-space:nowrap\">606<a name=\"cantones-cs-606\"> </a></td><td>Quepos</td></tr><tr><td style=\"white-space:nowrap\">607<a name=\"cantones-cs-607\"> </a></td><td>Golfito</td></tr><tr><td style=\"white-space:nowrap\">608<a name=\"cantones-cs-608\"> </a></td><td>Coto Brus</td></tr><tr><td style=\"white-space:nowrap\">609<a name=\"cantones-cs-609\"> </a></td><td>Parrita</td></tr><tr><td style=\"white-space:nowrap\">610<a name=\"cantones-cs-610\"> </a></td><td>Corredores</td></tr><tr><td style=\"white-space:nowrap\">611<a name=\"cantones-cs-611\"> </a></td><td>Garabito</td></tr><tr><td style=\"white-space:nowrap\">612<a name=\"cantones-cs-612\"> </a></td><td>Monteverde</td></tr><tr><td style=\"white-space:nowrap\">613<a name=\"cantones-cs-613\"> </a></td><td>Puerto Jiménez</td></tr><tr><td style=\"white-space:nowrap\">701<a name=\"cantones-cs-701\"> </a></td><td>Limón</td></tr><tr><td style=\"white-space:nowrap\">702<a name=\"cantones-cs-702\"> </a></td><td>Pococí</td></tr><tr><td style=\"white-space:nowrap\">703<a name=\"cantones-cs-703\"> </a></td><td>Siquirres</td></tr><tr><td style=\"white-space:nowrap\">704<a name=\"cantones-cs-704\"> </a></td><td>Talamanca</td></tr><tr><td style=\"white-space:nowrap\">705<a name=\"cantones-cs-705\"> </a></td><td>Matina</td></tr><tr><td style=\"white-space:nowrap\">706<a name=\"cantones-cs-706\"> </a></td><td>Guácimo</td></tr></table></div>"
+  },
+  "url" : "https://ministeriodesalud.go.cr/fhir/CodeSystem/cantones-cs",
+  "version" : "1.1.0-ballot",
+  "name" : "Cantones",
+  "title" : "Cantones de Costa Rica",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-09-20T00:00:00-03:00",
+  "publisher" : "Ministerio de Salud de Costa Rica",
+  "contact" : [{
+    "name" : "Ministerio de Salud de Costa Rica",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ministeriodesalud.go.cr/fhir"
+    }]
+  }],
+  "description" : "Cantones de Costa Rica",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CR",
+      "display" : "Costa Rica"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 84,
+  "concept" : [{
+    "code" : "101",
+    "display" : "San José"
+  },
+  {
+    "code" : "102",
+    "display" : "Escazú"
+  },
+  {
+    "code" : "103",
+    "display" : "Desamparados"
+  },
+  {
+    "code" : "104",
+    "display" : "Puriscal"
+  },
+  {
+    "code" : "105",
+    "display" : "Tarrazú"
+  },
+  {
+    "code" : "106",
+    "display" : "Aserrí"
+  },
+  {
+    "code" : "107",
+    "display" : "Mora"
+  },
+  {
+    "code" : "108",
+    "display" : "Goicoechea"
+  },
+  {
+    "code" : "109",
+    "display" : "Santa Ana"
+  },
+  {
+    "code" : "110",
+    "display" : "Alajuelita"
+  },
+  {
+    "code" : "111",
+    "display" : "Vázquez de Coronado"
+  },
+  {
+    "code" : "112",
+    "display" : "Acosta"
+  },
+  {
+    "code" : "113",
+    "display" : "Tibás"
+  },
+  {
+    "code" : "114",
+    "display" : "Moravia"
+  },
+  {
+    "code" : "115",
+    "display" : "Montes de Oca"
+  },
+  {
+    "code" : "116",
+    "display" : "Turrubares"
+  },
+  {
+    "code" : "117",
+    "display" : "Dota"
+  },
+  {
+    "code" : "118",
+    "display" : "Curridabat"
+  },
+  {
+    "code" : "119",
+    "display" : "Pérez Zeledón"
+  },
+  {
+    "code" : "120",
+    "display" : "León Cortés Castro"
+  },
+  {
+    "code" : "201",
+    "display" : "Alajuela"
+  },
+  {
+    "code" : "202",
+    "display" : "San Ramón"
+  },
+  {
+    "code" : "203",
+    "display" : "Grecia"
+  },
+  {
+    "code" : "204",
+    "display" : "San Mateo"
+  },
+  {
+    "code" : "205",
+    "display" : "Atenas"
+  },
+  {
+    "code" : "206",
+    "display" : "Naranjo"
+  },
+  {
+    "code" : "207",
+    "display" : "Palmares"
+  },
+  {
+    "code" : "208",
+    "display" : "Poás"
+  },
+  {
+    "code" : "209",
+    "display" : "Orotina"
+  },
+  {
+    "code" : "210",
+    "display" : "San Carlos"
+  },
+  {
+    "code" : "211",
+    "display" : "Zarcero"
+  },
+  {
+    "code" : "212",
+    "display" : "Sarchí"
+  },
+  {
+    "code" : "213",
+    "display" : "Upala"
+  },
+  {
+    "code" : "214",
+    "display" : "Los Chiles"
+  },
+  {
+    "code" : "215",
+    "display" : "Guatuso"
+  },
+  {
+    "code" : "216",
+    "display" : "Río Cuarto"
+  },
+  {
+    "code" : "301",
+    "display" : "Cartago"
+  },
+  {
+    "code" : "302",
+    "display" : "Paraíso"
+  },
+  {
+    "code" : "303",
+    "display" : "La Unión"
+  },
+  {
+    "code" : "304",
+    "display" : "Jiménez"
+  },
+  {
+    "code" : "305",
+    "display" : "Turrialba"
+  },
+  {
+    "code" : "306",
+    "display" : "Alvarado"
+  },
+  {
+    "code" : "307",
+    "display" : "Oreamuno"
+  },
+  {
+    "code" : "308",
+    "display" : "El Guarco"
+  },
+  {
+    "code" : "401",
+    "display" : "Heredia"
+  },
+  {
+    "code" : "402",
+    "display" : "Barva"
+  },
+  {
+    "code" : "403",
+    "display" : "Santo Domingo"
+  },
+  {
+    "code" : "404",
+    "display" : "Santa Bárbara"
+  },
+  {
+    "code" : "405",
+    "display" : "San Rafael"
+  },
+  {
+    "code" : "406",
+    "display" : "San Isidro"
+  },
+  {
+    "code" : "407",
+    "display" : "Belén"
+  },
+  {
+    "code" : "408",
+    "display" : "Flores"
+  },
+  {
+    "code" : "409",
+    "display" : "San Pablo"
+  },
+  {
+    "code" : "410",
+    "display" : "Sarapiquí"
+  },
+  {
+    "code" : "501",
+    "display" : "Liberia"
+  },
+  {
+    "code" : "502",
+    "display" : "Nicoya"
+  },
+  {
+    "code" : "503",
+    "display" : "Santa Cruz"
+  },
+  {
+    "code" : "504",
+    "display" : "Bagaces"
+  },
+  {
+    "code" : "505",
+    "display" : "Carrillo"
+  },
+  {
+    "code" : "506",
+    "display" : "Cañas"
+  },
+  {
+    "code" : "507",
+    "display" : "Abangares"
+  },
+  {
+    "code" : "508",
+    "display" : "Tilarán"
+  },
+  {
+    "code" : "509",
+    "display" : "Nandayure"
+  },
+  {
+    "code" : "510",
+    "display" : "La Cruz"
+  },
+  {
+    "code" : "511",
+    "display" : "Hojancha"
+  },
+  {
+    "code" : "601",
+    "display" : "Puntarenas"
+  },
+  {
+    "code" : "602",
+    "display" : "Esparza"
+  },
+  {
+    "code" : "603",
+    "display" : "Buenos Aires"
+  },
+  {
+    "code" : "604",
+    "display" : "Montes de Oro"
+  },
+  {
+    "code" : "605",
+    "display" : "Osa"
+  },
+  {
+    "code" : "606",
+    "display" : "Quepos"
+  },
+  {
+    "code" : "607",
+    "display" : "Golfito"
+  },
+  {
+    "code" : "608",
+    "display" : "Coto Brus"
+  },
+  {
+    "code" : "609",
+    "display" : "Parrita"
+  },
+  {
+    "code" : "610",
+    "display" : "Corredores"
+  },
+  {
+    "code" : "611",
+    "display" : "Garabito"
+  },
+  {
+    "code" : "612",
+    "display" : "Monteverde"
+  },
+  {
+    "code" : "613",
+    "display" : "Puerto Jiménez"
+  },
+  {
+    "code" : "701",
+    "display" : "Limón"
+  },
+  {
+    "code" : "702",
+    "display" : "Pococí"
+  },
+  {
+    "code" : "703",
+    "display" : "Siquirres"
+  },
+  {
+    "code" : "704",
+    "display" : "Talamanca"
+  },
+  {
+    "code" : "705",
+    "display" : "Matina"
+  },
+  {
+    "code" : "706",
+    "display" : "Guácimo"
+  }]
+}

@@ -1,0 +1,13 @@
+{
+  "verified_on": "2026-10-01",
+  "workflow_run": "https://github.com/rei-k/world-localities/actions/runs/36810987630",
+  "workflow_result": "success",
+  "code_commit": "b10165b497b71c5b2285d80c3b4010baa36c3445",
+  "generated_data_commit": "a03a861e47a7a1750ea252711d57b898951f22f2",
+  "source_roman_fields_replayed": 365601,
+  "replay_mismatches": 0,
+  "algorithm_omitted_fields": 295029,
+  "literal_exception_fields": 70572,
+  "unit_tests_passed": 16,
+  "training_executed": false
+}

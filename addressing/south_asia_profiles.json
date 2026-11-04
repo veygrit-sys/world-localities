@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "region": "Southern Asia",
+  "reviewed_at": "2026-10-16",
+  "purpose": "Native-language and English address display profiles with explicit evidence status; not an address-existence or deliverability claim.",
+  "overrides": [
+    "AF",
+    "BD",
+    "BT",
+    "IN",
+    "IR",
+    "IR_en",
+    "IR_fa",
+    "LK",
+    "MV",
+    "NP",
+    "PK"
+  ],
+  "countries": {
+    "AF": {
+      "native_languages": ["fa-AF", "ps"],
+      "default_native_language": "fa-AF",
+      "native_profile": "AF_fa",
+      "native_profiles": {
+        "fa-AF": "AF_fa",
+        "ps": "AF_ps"
+      },
+      "native_scripts": {
+        "fa-AF": "Arab",
+        "ps": "Arab"
+      },
+      "english_profile": "AF_en",
+      "country_names": {
+        "fa-AF": "افغانستان",
+        "ps": "افغانستان",
+        "en": "Afghanistan"
+      },
+      "romanization_policy": "Require Afghan Post, another authority, or the user to supply the Latin form. Dari or Pashto text is never automatically promoted to verified English.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "Afghan Post",
+          "url": "https://afghanpost.gov.af/index.php/en/postal-code",
+          "scope": "Current six-digit postcode system and domestic addressing standard"
+        },
+        {
+          "authority": "Universal Postal Union and Afghan Post",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/afgEn.pdf",
+          "scope": "July 2025 urban, rural, building and post-office-box address formats"
+        }
+      ]
+    },
+    "BD": {
+      "native_languages": ["bn"],
+      "default_native_language": "bn",
+      "native_profile": "BD_bn",
+      "native_profiles": {"bn": "BD_bn"},
+      "native_scripts": {"bn": "Beng"},
+      "english_profile": "BD_en",
+      "country_names": {
+        "bn": "বাংলাদেশ",
+        "en": "Bangladesh"
+      },
+      "romanization_policy": "Use the designated operator or user-confirmed Latin spelling for English output; Bengali-script values are retained separately.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "Bangladesh Post, Dhaka GPO",
+          "url": "https://dhkgpo.pmgmetro.bdpost.gov.bd/pages/static-pages/695e3b0cc4774958d7b7230a",
+          "scope": "Required recipient, organization, house, floor, unit, road, thana, district and postcode elements"
+        },
+        {
+          "authority": "Universal Postal Union and Bangladesh Post",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/bgdEn.pdf",
+          "scope": "Four-digit postcode position, delivery post office and district address order"
+        }
+      ]
+    },
+    "BT": {
+      "native_languages": ["dz"],
+      "default_native_language": "dz",
+      "native_profile": "BT_dz",
+      "native_profiles": {"dz": "BT_dz"},
+      "native_scripts": {"dz": "Tibt"},
+      "english_profile": "BT_en",
+      "country_names": {
+        "dz": "འབྲུག་ཡུལ་",
+        "en": "Bhutan"
+      },
+      "romanization_policy": "Require a Bhutan Post or user-confirmed Latin form for English output; Dzongkha is not automatically transliterated.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "Bhutan Post",
+          "url": "https://bhutanpost.bt/postcode/searchpostcode-exec.php",
+          "scope": "Official Dzongkhag, Gewog, post-office and postcode lookup"
+        },
+        {
+          "authority": "Universal Postal Union and Bhutan Post",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/btnEn.pdf",
+          "scope": "Street, flat, zone, rural, organization and post-office-box formats"
+        }
+      ]
+    },
+    "IN": {
+      "native_languages": ["hi"],
+      "default_native_language": "hi",
+      "native_profile": "IN_hi",
+      "native_profiles": {"hi": "IN_hi"},
+      "native_scripts": {"hi": "Deva"},
+      "english_profile": "IN_en",
+      "country_names": {
+        "hi": "भारत",
+        "en": "India"
+      },
+      "romanization_policy": "English output requires explicit Roman-letter values as recommended by India Post; Hindi values are not silently transliterated.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "India Post",
+          "url": "https://www.indiapost.gov.in/mailproducts/internationalservices/moreinfo",
+          "scope": "Official international address element order and Roman-letter guidance"
+        },
+        {
+          "authority": "Universal Postal Union and India Post",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/indEn.pdf",
+          "scope": "Urban, rural, building and post-office-box formats and six-digit PIN position"
+        }
+      ]
+    },
+    "IR": {
+      "native_languages": ["fa"],
+      "default_native_language": "fa",
+      "native_profile": "IR_fa",
+      "native_profiles": {"fa": "IR_fa"},
+      "native_scripts": {"fa": "Arab"},
+      "english_profile": "IR_en",
+      "country_names": {
+        "fa": "ایران",
+        "en": "Iran (Islamic Republic of)"
+      },
+      "romanization_policy": "English output requires an authority-backed or user-confirmed Latin form; Persian script is preserved as a distinct address representation.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "Universal Postal Union and National Post Company of Iran",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/irnEn.pdf",
+          "scope": "October 2023 urban, rural and postal-service formats and ten-digit postcode position"
+        }
+      ]
+    },
+    "LK": {
+      "native_languages": ["si", "ta"],
+      "default_native_language": "si",
+      "native_profile": "LK_si",
+      "native_profiles": {
+        "si": "LK_si",
+        "ta": "LK_ta"
+      },
+      "native_scripts": {
+        "si": "Sinh",
+        "ta": "Taml"
+      },
+      "english_profile": "LK_en",
+      "country_names": {
+        "si": "ශ්‍රී ලංකාව",
+        "ta": "இலங்கை",
+        "en": "Sri Lanka"
+      },
+      "romanization_policy": "Use Sri Lanka Post or user-confirmed English locality forms. Sinhala and Tamil remain separate and cannot silently populate English.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "Sri Lanka Post",
+          "url": "https://slpost.gov.lk/services/sending-and-receiving-mail/",
+          "scope": "Current official element order, postal-town and postcode rules, examples and P.O. Box handling"
+        },
+        {
+          "authority": "Universal Postal Union and Sri Lanka Post",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/lkaEn.pdf",
+          "scope": "Five-digit postcode and international address example"
+        }
+      ]
+    },
+    "MV": {
+      "native_languages": ["dv"],
+      "default_native_language": "dv",
+      "native_profile": "MV_dv",
+      "native_profiles": {"dv": "MV_dv"},
+      "native_scripts": {"dv": "Thaa"},
+      "english_profile": "MV_en",
+      "country_names": {
+        "dv": "ދިވެހިރާއްޖެ",
+        "en": "Maldives"
+      },
+      "romanization_policy": "English output requires a Maldives authority or user-confirmed Latin form; Thaana-script values are never relabelled as English.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {
+          "authority": "Universal Postal Union and Maldives Post",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/mdvEn.pdf",
+          "scope": "Five-digit postcode position, Malé regions, atoll ranges and operator example"
+        },
+        {
+          "authority": "Maldives Inland Revenue Authority",
+          "url": "https://www.mira.gov.mv/Files/GetFile/7082b3c6-9df3-48c4-8cd1-cc59e0202e07",
+          "scope": "Government postal-address fields for building, level, apartment, street, postcode, city or atoll, district or island"
+        }
+      ]
+    },
+    "NP": {
+      "native_languages": ["ne"],
+      "default_native_language": "ne",
+      "native_profile": "NP_ne",
+      "native_profiles": {"ne": "NP_ne"},
+      "native_scripts": {"ne": "Deva"},
+      "english_profile": "NP_en",
+      "country_names": {
+        "ne": "नेपाल",
+        "en": "Nepal"
+      },
+      "romanization_policy": "Require a Nepal Post or user-confirmed Latin form. The current postcode value must come from the new federal postcode source rather than automatic conversion of a legacy code.",
+      "evidence_status": "provisional",
+      "sources": [
+        {
+          "authority": "Department of Postal Service, Nepal",
+          "url": "https://chitwan.nepalpost.gov.np/content/13192/notice-of-using-a-new-postal-code-/",
+          "scope": "2025 notice and examples for new federal local-level and ward-level postal codes"
+        },
+        {
+          "authority": "Universal Postal Union and Nepal Post",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/nplEn.pdf",
+          "scope": "Legacy five-digit address-line order retained only as historical format evidence"
+        }
+      ]
+    },
+    "PK": {
+      "native_languages": ["ur"],
+      "default_native_language": "ur",
+      "native_profile": "PK_ur",
+      "native_profiles": {"ur": "PK_ur"},
+      "native_scripts": {"ur": "Arab"},
+      "english_profile": "PK_en",
+      "country_names": {
+        "ur": "پاکستان",
+        "en": "Pakistan"
+      },
+      "romanization_policy": "Require Pakistan Post or user-confirmed Latin forms for English output; Urdu values remain separately tagged and script-checked.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {
+          "authority": "Pakistan Post",
+          "url": "https://pakpost.gov.pk/postcodes.php",
+          "scope": "Current official delivery and non-delivery post-office postcode directories"
+        },
+        {
+          "authority": "Universal Postal Union and Pakistan Post",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/pakEn.pdf",
+          "scope": "Five-digit postcode position and house, street, sector, locality address order"
+        }
+      ]
+    }
+  },
+  "profile_status": {
+    "AF": "official_guidance",
+    "AF_en": "official_guidance",
+    "AF_fa": "official_guidance",
+    "AF_ps": "official_guidance",
+    "BD": "official_guidance",
+    "BD_bn": "official_guidance",
+    "BD_en": "official_guidance",
+    "BT": "official_guidance",
+    "BT_dz": "official_guidance",
+    "BT_en": "official_guidance",
+    "IN": "official_guidance",
+    "IN_en": "official_guidance",
+    "IN_hi": "official_guidance",
+    "IR": "official_guidance",
+    "IR_en": "official_guidance",
+    "IR_fa": "official_guidance",
+    "LK": "official_guidance",
+    "LK_en": "official_guidance",
+    "LK_si": "official_guidance",
+    "LK_ta": "official_guidance",
+    "MV": "source_derived_domestic",
+    "MV_dv": "source_derived_domestic",
+    "MV_en": "source_derived_domestic",
+    "NP": "provisional",
+    "NP_en": "provisional",
+    "NP_ne": "provisional",
+    "PK": "source_derived_domestic",
+    "PK_en": "source_derived_domestic",
+    "PK_ur": "source_derived_domestic"
+  },
+  "profiles": {
+    "AF": {
+      "country_code": "AF",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house_number}}} {{{road}}}\n{{{neighbourhood}}}\n{{{subpremise}}} {{{house}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} || {{{state_district}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"
+    },
+    "AF_en": {"country_code": "AF", "language": "en", "use_country": "AF"},
+    "AF_fa": {"country_code": "AF", "language": "fa", "use_country": "AF"},
+    "AF_ps": {"country_code": "AF", "language": "ps", "use_country": "AF"},
+    "BD": {
+      "country_code": "BD",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{village}}} || {{{hamlet}}} {{/first}}\n{{{postal_city}}}\n{{{city_district}}}\n{{#first}} {{{city}}} || {{{town}}} || {{{state_district}}} || {{{state}}} {{/first}} - {{{postcode}}}\n{{{po_box}}}\n{{{country}}}\n",
+      "postformat_replace": [[" -\\n", "\\n"]]
+    },
+    "BD_bn": {"country_code": "BD", "language": "bn", "use_country": "BD"},
+    "BD_en": {"country_code": "BD", "language": "en", "use_country": "BD"},
+    "BT": {
+      "country_code": "BT",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house_number}}} {{{road}}}, {{{house}}}\n{{{subpremise}}}\n{{{neighbourhood}}}\n{{#first}} {{{village}}} || {{{hamlet}}} || {{{suburb}}} {{/first}}\n{{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} || {{{state_district}}} {{/first}} {{{postcode}}}\n{{{state}}}\n{{{po_box}}}\n{{{country}}}\n"
+    },
+    "BT_dz": {"country_code": "BT", "language": "dz", "use_country": "BT"},
+    "BT_en": {"country_code": "BT", "language": "en", "use_country": "BT"},
+    "IN": {
+      "country_code": "IN",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{neighbourhood}}}\n{{{suburb}}}\n{{{city_district}}}\n{{#first}} {{{village}}} || {{{hamlet}}} {{/first}}\n{{{postal_city}}}\n{{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} {{/first}}\n{{#first}} {{{county}}} || {{{state_district}}} {{/first}}\n{{{state}}}\n{{{postcode}}}\n{{{po_box}}}\n{{{country}}}\n"
+    },
+    "IN_en": {"country_code": "IN", "language": "en", "use_country": "IN"},
+    "IN_hi": {"country_code": "IN", "language": "hi", "use_country": "IN"},
+    "IR": {
+      "country_code": "IR",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{city_district}}} {{/first}}\n{{{road}}}\n{{{house_number}}}\n{{{subpremise}}}\n{{{house}}}\n{{{state}}}\n{{{postcode}}}\n{{{po_box}}}\n{{{country}}}\n"
+    },
+    "IR_en": {"country_code": "IR", "language": "en", "use_country": "IR"},
+    "IR_fa": {"country_code": "IR", "language": "fa", "use_country": "IR"},
+    "LK": {
+      "country_code": "LK",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{village}}} || {{{hamlet}}} {{/first}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} {{/first}} {{{postcode}}}\n{{{state}}}\n{{{po_box}}}\n{{{country}}}\n"
+    },
+    "LK_en": {"country_code": "LK", "language": "en", "use_country": "LK"},
+    "LK_si": {"country_code": "LK", "language": "si", "use_country": "LK"},
+    "LK_ta": {"country_code": "LK", "language": "ta", "use_country": "LK"},
+    "MV": {
+      "country_code": "MV",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{neighbourhood}}}\n{{#first}} {{{village}}} || {{{island}}} || {{{hamlet}}} {{/first}}\n{{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} || {{{state}}} {{/first}} {{{postcode}}}\n{{{po_box}}}\n{{{country}}}\n"
+    },
+    "MV_dv": {"country_code": "MV", "language": "dv", "use_country": "MV"},
+    "MV_en": {"country_code": "MV", "language": "en", "use_country": "MV"},
+    "NP": {
+      "country_code": "NP",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} {{/first}}\n{{{village}}}\n{{{postal_city}}}\n{{#first}} {{{city}}} || {{{town}}} {{/first}}\n{{#first}} {{{municipality}}} || {{{county}}} || {{{state_district}}} || {{{state}}} {{/first}} {{{postcode}}}\n{{{po_box}}}\n{{{country}}}\n"
+    },
+    "NP_en": {"country_code": "NP", "language": "en", "use_country": "NP"},
+    "NP_ne": {"country_code": "NP", "language": "ne", "use_country": "NP"},
+    "PK": {
+      "country_code": "PK",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{city_district}}} {{/first}}\n{{#first}} {{{city}}} || {{{town}}} || {{{municipality}}} || {{{state_district}}} {{/first}} - {{{postcode}}}\n{{{state}}}\n{{{po_box}}}\n{{{country}}}\n",
+      "postformat_replace": [[" -\\n", "\\n"]]
+    },
+    "PK_en": {"country_code": "PK", "language": "en", "use_country": "PK"},
+    "PK_ur": {"country_code": "PK", "language": "ur", "use_country": "PK"}
+  }
+}

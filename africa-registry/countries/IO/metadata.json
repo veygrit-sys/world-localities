@@ -1,0 +1,73 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "IOT",
+    "country": "IO",
+    "geonames_continent": "AS",
+    "geonames_country_name": "British Indian Ocean Territory",
+    "geonames_id": "1282588",
+    "id": "country:IO",
+    "m49": "086",
+    "name_en": "British Indian Ocean Territory",
+    "numeric": "086",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 3,
+    "admin_rows": 0,
+    "ambiguous_parents": 0,
+    "country": "IO",
+    "country_scope_only": 6,
+    "localities_without_adm1": 6,
+    "locality_rows": 6,
+    "name_en": "British Indian Ocean Territory",
+    "other_admin_rows": 1,
+    "region": "Eastern Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "PCLD": 1,
+    "PPLL": 3,
+    "PPLQ": 3
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 5512,
+      "rows": 7,
+      "sha256": "f27c16dadbfa05843f6364047a053924e1e0785b5a3f3ed4c389e9d3f0e7dee9",
+      "uncompressed_sha256": "9cd054c9abe432f765e0934f2832e1e0a254be4ac0417bf13d2321a07385d8d6"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 6,
+    "not_assigned_for_other_feature": 1
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 0,
+      "sha256": "6fe5bf94663e3f1bddc0b9a464613de7e45a6c2fb10f5a5f4b51e70f1c4c31c2"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 12776,
+    "discarded_feature_classes": {
+      "H": 30,
+      "S": 4,
+      "T": 82
+    },
+    "retained_rows": 7,
+    "retrieved_on": "2026-09-26",
+    "sha256": "6104e55a610f587dd9dfe6557c60d5c1634b60d3a66587ed9fbb34b624011113",
+    "source_rows": 123,
+    "url": "https://download.geonames.org/export/dump/IO.zip"
+  },
+  "source_modified_max": "2026-05-24",
+  "source_modified_min": "2021-06-09"
+}

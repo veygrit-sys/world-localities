@@ -1,0 +1,91 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "MDA",
+    "country": "MD",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Moldova",
+    "geonames_id": "617790",
+    "id": "country:MD",
+    "m49": "498",
+    "m49_region": "Europe",
+    "name_en": "Republic of Moldova",
+    "region": "Eastern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 1813,
+    "admin_rows": 37,
+    "ambiguous_parents": 0,
+    "country": "MD",
+    "country_scope_only": 20,
+    "localities_without_adm1": 21,
+    "locality_rows": 1814,
+    "name_en": "Republic of Moldova",
+    "other_admin_rows": 4,
+    "region": "Eastern Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 37,
+    "ADMD": 4,
+    "PPL": 1758,
+    "PPLA": 36,
+    "PPLC": 1,
+    "PPLL": 2,
+    "PPLW": 1,
+    "PPLX": 16
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 134112,
+      "rows": 1855,
+      "sha256": "40b244930cae240a0fe8cf06137fdeef34c1b58881b639a264384323467587a3",
+      "uncompressed_sha256": "ea8a05c5c2afe61905985c567462a9eb170640dc20844a6bf8f8ec35457fc8bb"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 20,
+    "historical_parent_not_asserted": 1,
+    "not_assigned_for_other_feature": 4,
+    "source_admin_code": 1793,
+    "source_country": 37
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 37,
+      "sha256": "afb08546dca8f95dfd9f3188150be141f57a598f8ee64bfc3afe003633448755"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 2512,
+    "bytes": 154753,
+    "excluded_feature_class_counts": {
+      "A": 2,
+      "H": 212,
+      "L": 47,
+      "R": 1,
+      "S": 300,
+      "T": 86,
+      "V": 9
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:54:50 GMT",
+    "retained_rows": 1855,
+    "retrieved_at": "2026-09-29T11:14:18.280332+00:00",
+    "sha256": "d1d2e92768a261f1342a2204ca249043ab07e53603f5ec45130c9e49bf5accc3",
+    "url": "https://download.geonames.org/export/dump/MD.zip"
+  },
+  "source_modified_max": "2026-09-21",
+  "source_modified_min": "2007-05-30"
+}

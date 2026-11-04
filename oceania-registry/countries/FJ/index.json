@@ -1,0 +1,84 @@
+{
+  "archive_bytes": 1068492,
+  "archive_sha256": "68ae096a55e6dd197651ee4407ff5593609dd914724b0f14fb1bd2e096e54776",
+  "parts": [
+    {
+      "path": "countries/FJ/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "2f71d5b2a84418f241e379c6bc08d11a26e238ff9daaa8ecdef5caf562c8a0cf",
+      "bytes": 524288,
+      "sha256": "a623f18329ce7f692f753e2e00efb942f108ea882954e2c9781c858d7bde2bf4"
+    },
+    {
+      "path": "countries/FJ/part-002.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "83cc15f13e504850269b952cd6191ec2be41ca8c33ae5b6085d97d95358423b8",
+      "bytes": 524288,
+      "sha256": "4e841e361e41b056a30bcee16e3479de22da0dd39d554d3f00b317baac888849"
+    },
+    {
+      "path": "countries/FJ/part-003.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 26557,
+      "stored_sha256": "ec68e93f5077dda5e9635e6c0c47af50491813617b9cbfd4e359a659e5ea109e",
+      "bytes": 19916,
+      "sha256": "c6453e351ba787dd8f7a69ba56775ef8eb52160380beea1de1005a9a960f38a7"
+    }
+  ],
+  "members": {
+    "base/data/melanesia/FJ/index.json": {
+      "bytes": 4146,
+      "sha256": "08d55b95ffa97b4bd8386ef50000f02c15523ee56ba658fd60f1d1fbf96857f0"
+    },
+    "base/data/melanesia/FJ/places.csv": {
+      "bytes": 1071711,
+      "sha256": "dffcf149b533f62025c5377a3d8d97c610d74cbdf5bb1d8f8e80cbe8847f343d"
+    },
+    "base/data/melanesia/FJ/places.jsonl": {
+      "bytes": 2425142,
+      "sha256": "bcb1c884398a8a0d1a0eab4e47f12b62d3a3a7e22b2830e1a6a14addfd53c23d"
+    },
+    "base/sources/geonames/FJ.zip": {
+      "bytes": 458622,
+      "sha256": "25b91e56c5395279357b6bb6a751a705adec3c284b1528db1d4fcab0dd295dca"
+    },
+    "base/sources/geonames/FJ.zip.download.json": {
+      "bytes": 306,
+      "sha256": "2e21b7626fcc5d4478ce82a1430ca130019b9c1340b903ceca6755a2327a2632"
+    },
+    "locale/names.csv": {
+      "bytes": 428126,
+      "sha256": "fa8b60aa948cf6bccdaaf36f162568e6795bc2bedf034c482b6e97e6df981a39"
+    },
+    "locale/names.jsonl": {
+      "bytes": 940995,
+      "sha256": "f88835432cbe3f6365ec1051e2a62e09705d903efcecb82d2ac7015d814fad3a"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 3,
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "locale/sources/address-templates/FJ.json": {
+      "bytes": 41,
+      "sha256": "10da80126f0ace0092431d51b0917897c1bd5683d841d30c3a1e4439f589f768"
+    },
+    "locale/sources/address-templates/FJ.json.download.json": {
+      "bytes": 270,
+      "sha256": "6d5bd170515528837d95d08f95bbffe5f8d71ad9b0f6a238a380dbd110efe4e3"
+    },
+    "locale/sources/alternatenames/FJ.zip": {
+      "bytes": 259609,
+      "sha256": "f178be98495a89d31c55731fa6783df84fb4b098c8f37d660e9914977b9a6d47"
+    },
+    "locale/sources/alternatenames/FJ.zip.download.json": {
+      "bytes": 284,
+      "sha256": "2d753d33340e793bc225756e25a01328136296997222be5ac119d676886397d6"
+    }
+  }
+}

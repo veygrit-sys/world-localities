@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "country_codes": [
+    "AT",
+    "BE",
+    "CH",
+    "DE",
+    "FR",
+    "GB",
+    "IE",
+    "LI",
+    "LU",
+    "MC",
+    "NL"
+  ],
+  "country_count": 11,
+  "m49_western_europe_country_codes": [
+    "AT",
+    "BE",
+    "CH",
+    "DE",
+    "FR",
+    "LI",
+    "LU",
+    "MC",
+    "NL"
+  ],
+  "legacy_group_additions": [
+    "GB",
+    "IE"
+  ],
+  "m49_classification_of_legacy_additions": "Northern Europe",
+  "scope_basis": "Continue the Western Europe 2026-10-17 package; preserve M49 classification separately.",
+  "france_scope": "Metropolitan France including Corsica; overseas jurisdictions remain in their own regional packages.",
+  "deliverability_in_scope": false,
+  "national_completeness_verified": false
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "responses": 391,
+  "observations": 8377,
+  "ordered_rows_sha256": "635c4271a32db4633cc9730886d75a6c962927dc479d103b15b385ba9313cd54",
+  "implementation_sha256": "b098fafbf60c5c52d6e99345edb5ef8764aa60ed598eb48e65eb28607ec24b8a",
+  "named_village_references": 7781,
+  "unnamed_village_references": 206,
+  "parent_assignment": "API request binding; no prefix inference",
+  "legal_effective_date": null,
+  "atomic_snapshot": false,
+  "national_completeness_verified": false
+}

@@ -1,0 +1,83 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "GAB",
+    "country": "GA",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Gabon",
+    "geonames_id": "2400553",
+    "id": "country:GA",
+    "m49": "266",
+    "name_en": "Gabon",
+    "numeric": "266",
+    "region": "Middle Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 3936,
+    "admin_rows": 58,
+    "ambiguous_parents": 0,
+    "country": "GA",
+    "country_scope_only": 1,
+    "localities_without_adm1": 1,
+    "locality_rows": 3936,
+    "name_en": "Gabon",
+    "other_admin_rows": 1,
+    "region": "Middle Africa",
+    "unresolved_parents": 1
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 9,
+    "ADM2": 48,
+    "ADM4": 1,
+    "PCLI": 1,
+    "PPL": 3917,
+    "PPLA": 8,
+    "PPLC": 1,
+    "PPLX": 10
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 115801,
+      "rows": 3995,
+      "sha256": "877b7a81cbddc0a129b4ece1eaba482f5fa3ccd1eb08317098dc77ae1cca6d4f",
+      "uncompressed_sha256": "05e6890af979c222ffe21bb370f48a5566a5be76f6c770439b2356333d22b91a"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 1,
+    "missing_code": 1,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 3983,
+    "source_country": 9
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 9,
+      "sha256": "784d8d4db05c7aa8a6817eedce1d0eb52a049c89fa91d2ec7b755acdebc38826"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 171316,
+    "discarded_feature_classes": {
+      "H": 2375,
+      "L": 26,
+      "S": 75,
+      "T": 424,
+      "V": 7
+    },
+    "retained_rows": 3995,
+    "retrieved_on": "2026-09-26",
+    "sha256": "fd3f027e5f1c357cba787c6f35a664bf7a1bca4e020337eb38d52a490faf8023",
+    "source_rows": 6902,
+    "url": "https://download.geonames.org/export/dump/GA.zip"
+  },
+  "source_modified_max": "2026-08-30",
+  "source_modified_min": "1993-12-23"
+}

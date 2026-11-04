@@ -1,0 +1,68 @@
+{
+  "archive_bytes": 188803,
+  "archive_sha256": "221be7b80c966fbc4b56a1f8dea78c281c7239ab68a53604315a068c863a141d",
+  "parts": [
+    {
+      "path": "countries/PW/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 251741,
+      "stored_sha256": "1ecd35417117b7b6f6531b45cb78e776304067cdb7cf4ce5ecdafaf329360020",
+      "bytes": 188803,
+      "sha256": "221be7b80c966fbc4b56a1f8dea78c281c7239ab68a53604315a068c863a141d"
+    }
+  ],
+  "members": {
+    "base/data/micronesia/PW/index.json": {
+      "bytes": 3104,
+      "sha256": "19b5b046c9b2df84e80b99fe09617880920a83d8019ddb8d3e09bf3b2376f36b"
+    },
+    "base/data/micronesia/PW/places.csv": {
+      "bytes": 74453,
+      "sha256": "ed5dda2ed1d953f399c773d69c65f24b8c78e6319f85295f2933474a977c6ac4"
+    },
+    "base/data/micronesia/PW/places.jsonl": {
+      "bytes": 130645,
+      "sha256": "9709a4d7488153dfb2d644cc963099e0117dbd756d0add4b1fee1296e8381367"
+    },
+    "base/sources/geonames/PW.zip": {
+      "bytes": 49589,
+      "sha256": "c27d310d90e6df455472289bba0bfbab468f62ae37b6135c0792335429a35cdb"
+    },
+    "base/sources/geonames/PW.zip.download.json": {
+      "bytes": 304,
+      "sha256": "5b9275cda19f9f8eba8fc4e25527d1895a4a6b0d68cc4bacaad8f59cdf92e4d7"
+    },
+    "locale/names.csv": {
+      "bytes": 237683,
+      "sha256": "3cb0eca943509d7a79907e45281730e8ecc47c8e8cb44fcfa01ec908fa82ac5c"
+    },
+    "locale/names.jsonl": {
+      "bytes": 521644,
+      "sha256": "c5dad45c0c3a76930c4c95ad7d62122b525277f2035418df5951d1c62427a2ae"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 246,
+      "sha256": "4e729ac270fd603166f83a6dc272b805bbfa625c099f5cb873a00c7f0c80ca3f"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 285,
+      "sha256": "cb0ca9cd2f1a216a95be8a14ad5c47d83c3149f81a57034253ff5425c17d9e82"
+    },
+    "locale/sources/address-templates/PW.json": {
+      "bytes": 527,
+      "sha256": "e939d24a4ecda082f452ddbc337b834336c5716736cb553c2c3ef16ca070103f"
+    },
+    "locale/sources/address-templates/PW.json.download.json": {
+      "bytes": 271,
+      "sha256": "83804993a17d2e77fd99c7f9f68be6d10da89a6c959531906ed8150c97b13a17"
+    },
+    "locale/sources/alternatenames/PW.zip": {
+      "bytes": 46227,
+      "sha256": "8221e20202ee9fb572d99b20a8fbb4f46a800d64b57ccf27a8f8e1871713a5ec"
+    },
+    "locale/sources/alternatenames/PW.zip.download.json": {
+      "bytes": 283,
+      "sha256": "3f6b20320d58d3fd68cbfffa36b5457b1ff7e655bf1075595892880ee7aa8adb"
+    }
+  }
+}

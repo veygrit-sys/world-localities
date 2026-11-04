@@ -1,0 +1,97 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "ISL",
+    "country": "IS",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Iceland",
+    "geonames_id": "2629691",
+    "id": "country:IS",
+    "m49": "352",
+    "m49_region": "Europe",
+    "name_en": "Iceland",
+    "region": "Northern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 116,
+    "admin_rows": 73,
+    "ambiguous_parents": 0,
+    "country": "IS",
+    "country_scope_only": 0,
+    "localities_without_adm1": 0,
+    "locality_rows": 117,
+    "name_en": "Iceland",
+    "other_admin_rows": 249,
+    "region": "Northern Europe",
+    "unresolved_parents": 1
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 8,
+    "ADM1H": 13,
+    "ADM2": 64,
+    "ADM2H": 17,
+    "ADM4": 1,
+    "ADMD": 219,
+    "PPL": 103,
+    "PPLA": 7,
+    "PPLA2": 1,
+    "PPLC": 1,
+    "PPLF": 1,
+    "PPLL": 3,
+    "PPLX": 1
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 30552,
+      "rows": 439,
+      "sha256": "92fb2cb9a70c144d7814727cfb5196c6bbe4bc2c9b35ad54ceecf69a72e2efe0",
+      "uncompressed_sha256": "291a404fbff242238c8ec304a8b4f9599efd4c2db2a02fe9f3e77bfe4e0de323"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "historical_parent_not_asserted": 30,
+    "missing_code": 1,
+    "not_assigned_for_other_feature": 219,
+    "source_admin_code": 181,
+    "source_country": 8
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 8,
+      "sha256": "bcba08b947aa126bc928fe50f1d7b6acf26e500ae184edcd71b81e305c637576"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 16296,
+    "bytes": 469626,
+    "excluded_feature_class_counts": {
+      "A": 2,
+      "H": 2957,
+      "L": 237,
+      "R": 7,
+      "S": 5758,
+      "T": 6574,
+      "U": 29,
+      "V": 293
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:54:15 GMT",
+    "retained_rows": 439,
+    "retrieved_at": "2026-09-29T11:14:02.605616+00:00",
+    "sha256": "6adb054cce70153fce18edaaf8f8fc8cab99bc355ab64d57783e2aa869c03e62",
+    "url": "https://download.geonames.org/export/dump/IS.zip"
+  },
+  "source_modified_max": "2026-06-10",
+  "source_modified_min": "1994-01-14"
+}

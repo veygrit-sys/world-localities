@@ -1,0 +1,7 @@
+address_candidates,admin_rows,ambiguous_parents,country,country_scope_only,localities_without_adm1,locality_rows,name_en,other_admin_rows,region,unresolved_parents
+521,8,0,BZ,1,1,528,Belize,1,Central America,0
+16951,362,0,GT,0,0,16981,Guatemala,20,Central America,6
+12965,316,0,HN,0,0,12966,Honduras,4,Central America,0
+2609,177,0,NI,1,1,2632,Nicaragua,8,Central America,2
+13238,775,0,PA,0,0,13267,Panama,1,Central America,0
+4889,321,0,SV,1,1,4889,El Salvador,1,Central America,0

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "db": "snapshot-workspace/north/Veygrit_NorthAmerica_20261017/address-points/generated/north_america_hierarchy.sqlite",
+  "nodes": 956487,
+  "countries": 3,
+  "supplementary_areas": 3,
+  "source_observation_counts": {
+    "us-geonames-geonames": 216561,
+    "ca-geonames-geonames": 25162,
+    "mx-geonames-geonames": 301991,
+    "bm-geonames-geonames": 42,
+    "gl-geonames-geonames": 227,
+    "pm-geonames-geonames": 15,
+    "gn-admin1CodesASCII": 114,
+    "gn-admin2Codes": 7258,
+    "us-census-state": 51,
+    "us-census-counties": 3144,
+    "us-census-cousubs": 35442,
+    "us-census-place": 32071,
+    "ca-statcan-sgc-eng": 5473,
+    "ca-statcan-sgc-fra": 5473,
+    "mx-inegi-catun_entidad": 32,
+    "mx-inegi-catun_municipio": 2478,
+    "mx-inegi-min_con_acento": 296649,
+    "pm-insee-cog-2026": 3,
+    "ca-statcan-oda-nt": 6996,
+    "pm-ban-975": 3049,
+    "us-census-dc-featnames": 18291,
+    "us-census-dc-addr": 23043
+  }
+}

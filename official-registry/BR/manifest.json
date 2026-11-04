@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "country": "BR",
+  "vintage": null,
+  "observed_at": "2026-09-26T06:17:18.008790+00:00",
+  "source_manifest": {
+    "scope": "BR_official_v1",
+    "adapter_version": 1,
+    "world_registry_sha256": "ced17f87104f42d967777de4b50117f7ad5f2f415327a9e2b75f31250897920f",
+    "files": {
+      "br-states.json": {
+        "url": "https://servicodados.ibge.gov.br/api/v1/localidades/estados",
+        "sha256": "8de577f0bf8ae5f10cfca9870520c37a71c071ed34ffae09af1fae967385db7f",
+        "bytes": 491,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "br-municipalities.json": {
+        "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios",
+        "sha256": "d07362079fbab429bab2e9b833628b58419ce1d183630bc94808faf167097635",
+        "bytes": 111623,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      }
+    },
+    "source_reference_date": null,
+    "reference_date_status": "not_provided_by_source",
+    "sha256": "b203b69457f4f689abb359329b05ca8b44dfabe4953058d4b87beace64a1fe08"
+  },
+  "claims": {
+    "all_world_localities_complete": false,
+    "all_postal_city_names_complete": false,
+    "all_languages_complete": false,
+    "street_addresses_complete": false,
+    "deliverability_verified": false
+  },
+  "sha256": {
+    "anchors.csv": "241e5bee4813cc403ed7de977d577751bb92ff494cc10a91df6a68850bd00019",
+    "BR-AC.csv": "56978709f1c2dcb64996b7e406f29aa17489093a350a3c2d65f155e0996d8fc8",
+    "BR-AL.csv": "fd2a879cdc5f2d8fb0a58711ba0e4bca41000b72ccf108d76ec96ec0b436bed9",
+    "BR-AM.csv": "ed2a404d8eb29971461f9c9e532990c03ec4b3dcfc14dcb810048e4a6f86d42c",
+    "BR-AP.csv": "a1b17ffc3b30738a95b8668a152935eb036f873940e66569f8569418e8131c3d",
+    "BR-BA.csv": "4b36a57fac7c355b0e8292677bae0674afaa5f6aa87420cda82bf0ba9cf5ca1f",
+    "BR-CE.csv": "dd690b1decd030fd1a86c5191908522d6c4bb5fb66af67027944d2c62a4178da",
+    "BR-DF.csv": "dc9cf80beefd2134fb3a4feea7332f5277a297ce02f0a86d09198ac868ccd84b",
+    "BR-ES.csv": "681e724c147c286fb199d2652e88374cb0a03102fad31de54a79a60e1666e7b7",
+    "BR-GO.csv": "1e8c8397a3487f825f3c45ccd594b7e6a321d01f80df8149d2e7dc569a716445",
+    "BR-MA.csv": "4889c51aad81e50815949d960bc560bf46fc12e419d09fae1244db7208a4a29f",
+    "BR-MG.csv": "a8b727e195b23743670180e7e70dca5171e5b9561d4ed49fb16bdd49a3a1aa2a",
+    "BR-MS.csv": "7b45d1d3b6ca3186f746e17a512bafd87e13b6ad415764e2729ef23b037386fa",
+    "BR-MT.csv": "5b4cc30c14e48f4b753c0a4351f77b505df845a7be1639cd39ba90704ee59c1e",
+    "BR-PA.csv": "964bafe8f5e0901691ae988127ef2e7c2377f93d32ea584b26e30212dcdfb9ed",
+    "BR-PB.csv": "4933449b94213dc38d05fa2876c08ad1b16e6c36e412b517dc2c9917a9af96a1",
+    "BR-PE.csv": "adb6bc5d7145c1a3075a7386508f8500e84fcbf2dd4ed0948c24afdfcf27f597",
+    "BR-PI.csv": "c053f4c7c32638835a18a404a0b53f22538dbb23f359030bbf92cd108629a7ab",
+    "BR-PR.csv": "62feabdbc355e3b8876669e870e5f8d9e3bdf1ee087042ff73f3ba1adb8f9178",
+    "BR-RJ.csv": "2377df6b6b3ceaed8aa03dc4a1dcc32ec6d0d4780d11ba262f8540164f3902a3",
+    "BR-RN.csv": "ca41bdcb61b2992587e33d4456c71b5b3b26e234b98e091a4350ee0bec81487f",
+    "BR-RO.csv": "13bee432fa2c1b0fbd911248ebedb4a8d1bd89f45f2856ad20d2a46fb7eb374d",
+    "BR-RR.csv": "e0e2c8fffbb6a0ab3b384ef36c512dc40f45a7a8367ab6f6c764e6e93ccb981b",
+    "BR-RS.csv": "1e6f4d6d13088829a6cc54627c97287fc67e7801b1fdfb46cba87f4b3ab1c949",
+    "BR-SC.csv": "5ac0e7608b425eedb63f41dc1675619587054c03c6135620ed4ed37ed07bf0cf",
+    "BR-SE.csv": "02faefef74032b908e35788378637b82120bbd4dfb07c27aa9dcd5e49538a915",
+    "BR-SP.csv": "2c41d61ba37d099b9ccf489f9eb4bf5f6ef0bdd98c4846bc52b8116437b29d55",
+    "BR-TO.csv": "4e54050d42d3021437e4890bddcd60805f2660cab7f54be982b42636a677ffcd",
+    "unmatched-source-rows.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "index.json": "34287169b39b199c7dda72a3e715d3357251dcfd239690c599bf3bcfb89c4d27"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "region": "south-america",
+  "checked_at": "2026-10-19T00:10:44.397037+00:00",
+  "world_complete": false,
+  "deliverability_in_scope": false,
+  "checks": [
+    {
+      "check": "regional_regressions",
+      "status": "PASS"
+    },
+    {
+      "check": "repository_layout_and_duplicate_code_contract",
+      "status": "PASS"
+    },
+    {
+      "check": "public_CLI_help_and_scope_load",
+      "status": "PASS"
+    }
+  ],
+  "tests_run": 68,
+  "repository_layout": {
+    "consumer_count": 11,
+    "duplicate_python_basenames": [
+      "__init__.py",
+      "__main__.py",
+      "build.py",
+      "query.py"
+    ],
+    "exact_duplicate_python_files": 0,
+    "python_files": 121,
+    "registry_count": 10,
+    "shared_component_count": 3,
+    "status": "passed"
+  },
+  "scope_count": 16,
+  "real_archive_restore": {
+    "files": 152,
+    "status": "PASS"
+  },
+  "shared_restore_regressions": {
+    "tests_run": 7,
+    "status": "PASS"
+  },
+  "real_data_root_build_and_queries": {
+    "build": "PASS",
+    "checks": [
+      {
+        "arguments": [
+          "loop",
+          "--scope",
+          "all"
+        ],
+        "status": "PASS",
+        "result_count": 0
+      },
+      {
+        "arguments": [
+          "search",
+          "--country",
+          "AR",
+          "--text",
+          "Buenos"
+        ],
+        "status": "PASS",
+        "result_count": 16
+      },
+      {
+        "arguments": [
+          "search",
+          "--country",
+          "PY",
+          "--text",
+          "Asuncion"
+        ],
+        "status": "PASS",
+        "result_count": 20
+      }
+    ]
+  },
+  "not_performed": [
+    "Worldwide administrative, road and assigned-number completeness certification",
+    "Postal deliverability verification",
+    "Full replay of every original source row in this GitHub integration batch"
+  ],
+  "historical_release_reports_are_not_this_test_run": true
+}

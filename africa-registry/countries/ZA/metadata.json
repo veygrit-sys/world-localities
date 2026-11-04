@@ -1,0 +1,92 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "ZAF",
+    "country": "ZA",
+    "geonames_continent": "AF",
+    "geonames_country_name": "South Africa",
+    "geonames_id": "953987",
+    "id": "country:ZA",
+    "m49": "710",
+    "name_en": "South Africa",
+    "numeric": "710",
+    "region": "Southern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 13526,
+    "admin_rows": 296,
+    "ambiguous_parents": 0,
+    "country": "ZA",
+    "country_scope_only": 3,
+    "localities_without_adm1": 3,
+    "locality_rows": 13529,
+    "name_en": "South Africa",
+    "other_admin_rows": 3,
+    "region": "Southern Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 9,
+    "ADM2": 52,
+    "ADM3": 234,
+    "ADM3H": 1,
+    "ADM4": 1,
+    "ADMD": 1,
+    "PCLI": 1,
+    "PPL": 12216,
+    "PPLA": 9,
+    "PPLA2": 39,
+    "PPLA3": 164,
+    "PPLC": 1,
+    "PPLF": 2,
+    "PPLL": 182,
+    "PPLX": 915,
+    "STLMT": 1
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 533426,
+      "rows": 13828,
+      "sha256": "f32d5f87f40f8ca9014f52f468a607db5e4daf6d665bd6224226aad236a7396f",
+      "uncompressed_sha256": "6cea36c6a11a978fce65f90fef35cf2a3ef2341e83aec37366ba38b426fb65d8"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 3,
+    "not_assigned_for_other_feature": 3,
+    "source_admin_code": 13813,
+    "source_country": 9
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 9,
+      "sha256": "a43b371aa87991e6e61f83dc08113e2ef8527f5738c035cf59e049a4a4a851c4"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 2694932,
+    "discarded_feature_classes": {
+      "H": 11148,
+      "L": 2000,
+      "R": 44,
+      "S": 58119,
+      "T": 17846,
+      "U": 1,
+      "V": 226
+    },
+    "retained_rows": 13828,
+    "retrieved_on": "2026-09-26",
+    "sha256": "b36fb219f4baf95c7c1a44c7a9380bf513be3f9e8bd6dbbb5f616009ef447005",
+    "source_rows": 103212,
+    "url": "https://download.geonames.org/export/dump/ZA.zip"
+  },
+  "source_modified_max": "2026-09-21",
+  "source_modified_min": "2004-04-27"
+}

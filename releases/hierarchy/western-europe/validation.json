@@ -1,0 +1,2042 @@
+{
+  "schema_version": 1,
+  "region": "western-europe",
+  "status": "PASS",
+  "scope_codes": [
+    "AT",
+    "BE",
+    "CH",
+    "DE",
+    "FR",
+    "GB",
+    "IE",
+    "LI",
+    "LU",
+    "MC",
+    "NL"
+  ],
+  "audited_country": null,
+  "implementation_sha256": "db8eee72bef2231c339644fcc73173dc70bdd2c57db5011ee1293322e5a86bf0",
+  "manifest_sha256": "15c273157f017c9fc06262131be5096d0c3af40d849e636a447b699a9069c84a",
+  "source_reports": [
+    {
+      "id": "AT-register",
+      "country": "AT",
+      "source_sha256": "3696f8de70d69847d9f305330500f45836cea3e59884693bdd52fa6220f8f0e1",
+      "canonical_rows_sha256": "0bda2252d95e90bfa1d21c6166cce5a73e04cb57c64bfe9b884c5efbf60a5cfb",
+      "counts": {
+        "municipality": 2092,
+        "locality": 17022,
+        "street": 138112,
+        "address": 2529222,
+        "numbered_address_rows": 2529222,
+        "statistical_area": 8843,
+        "building": 2538894,
+        "parcel_link": 3161178,
+        "building_function": 822118
+      },
+      "member_rows": {
+        "GEMEINDE.csv": 2092,
+        "ORTSCHAFT.csv": 17022,
+        "STRASSE.csv": 138112,
+        "ADRESSE.csv": 2529222,
+        "ZAEHLSPRENGEL.csv": 8843,
+        "GEBAEUDE.csv": 2538894,
+        "ADRESSE_GST.csv": 3161178,
+        "GEBAEUDE_FUNKTION.csv": 822118
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "BE-brussels",
+      "country": "BE",
+      "source_sha256": "f9327e0a3db86b6015e935295c1e917b968ae96beb2843b97de10745e7d6e80f",
+      "canonical_rows_sha256": "7e3f944bb90367f2540fd6b76e31b142c10273534b26183ef47e15a70ec37e88",
+      "counts": {
+        "address": 848954,
+        "numbered_address_rows": 848954,
+        "rows_with_box_number": 621773
+      },
+      "member_rows": {
+        "openaddress-bebru.csv": 848954
+      },
+      "source_status_counts": {
+        "address:current": 663426,
+        "address:proposed": 180630,
+        "address:retired": 3457,
+        "address:rejected": 1441
+      },
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "BE-flanders",
+      "country": "BE",
+      "source_sha256": "d9372173646d342dbfe853ae06f910069028dfea544adb7593dba865913be624",
+      "canonical_rows_sha256": "56c38e64cdfb6dadd53df9d81ead051ba942c0077b7753024baddfae8b227420",
+      "counts": {
+        "address": 4220948,
+        "numbered_address_rows": 4220948,
+        "rows_with_box_number": 1317855
+      },
+      "member_rows": {
+        "openaddress-bevlg.csv": 4220948
+      },
+      "source_status_counts": {
+        "address:current": 3886433,
+        "address:retired": 283041,
+        "address:proposed": 48220,
+        "address:rejected": 3254
+      },
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "BE-wallonia",
+      "country": "BE",
+      "source_sha256": "0e4ce8caae03556c1cd9bbf4947a7d31d84bb5e3601f16d05abad413a58da2c5",
+      "canonical_rows_sha256": "14aa02d6e1499ef052c5db29330ce2856c146ccdda5d5f19c0bb7b0b61932216",
+      "counts": {
+        "address": 2108219,
+        "numbered_address_rows": 2108219,
+        "rows_with_box_number": 490476
+      },
+      "member_rows": {
+        "openaddress-bewal.csv": 2108219
+      },
+      "source_status_counts": {
+        "address:current": 2108219
+      },
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "BE-streets-addressed",
+      "country": "BE",
+      "source_sha256": "09238bc8d97ab8bf17d76c22c050c64a9791e0c20709f3e5279bb4389724ad36",
+      "canonical_rows_sha256": "09cea8e433c31c07c551d1f2a8e2c4b22253dc0ae031ef0fdf4edf03d010ae24",
+      "counts": {
+        "street": 145823
+      },
+      "member_rows": {
+        "Brussels_postal_street.csv": 5154,
+        "Flanders_postal_street.csv": 81838,
+        "Wallonia_postal_street.csv": 58831
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "BE-streets-empty",
+      "country": "BE",
+      "source_sha256": "f8c92d469d26d6533cc67d4f5bce6caae6a9e3c217e145760ac31f0c20828d8a",
+      "canonical_rows_sha256": "515008cd3707f79afdc42be9c93e6688e97f002b0ed38d222f164dad789a0604",
+      "counts": {
+        "street": 12083
+      },
+      "member_rows": {
+        "Brussels_empty_street.csv": 849,
+        "Flanders_empty_street.csv": 7379,
+        "Wallonia_empty_street.csv": 3855
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "CH-addresses",
+      "country": "CH",
+      "source_sha256": "137521e3ef571f121dc9e8e44c40022a772f8e232916dfa8d36e9e7ed68c86e6",
+      "canonical_rows_sha256": "80507c5a7eb07846e39530f70f0be7a96dfde723255497e6b74d5b63742ca13f",
+      "counts": {
+        "address": 3306620,
+        "numbered_address_rows": 3228636
+      },
+      "member_rows": {
+        "amtliches-gebaeudeadressverzeichnis_ch_2056.csv": 3306620
+      },
+      "source_status_counts": {
+        "address:real": 3255312,
+        "address:planned": 51308
+      },
+      "source_official_flag_counts": {
+        "address:false": 842895,
+        "address:true": 2463725
+      },
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "CH-streets",
+      "country": "CH",
+      "source_sha256": "d82e0795b745e83b6c2385610eb6ee08eb2beaa92bd435c1c7ffd2a1afa1e7ae",
+      "canonical_rows_sha256": "4c45d5f9030d8857362fb0a11e7869fbf4f0da4ba97911886c4f884ea11f4b41",
+      "counts": {
+        "street": 224629
+      },
+      "member_rows": {
+        "amtliches-strassenverzeichnis_ch_2056.csv": 224629
+      },
+      "source_status_counts": {
+        "street:real": 224513,
+        "street:planned": 116
+      },
+      "source_official_flag_counts": {
+        "street:true": 221313,
+        "street:false": 3316
+      },
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "LI-addresses",
+      "country": "LI",
+      "source_sha256": "ea8592ccc2ef85a7db73473e5a21ac62be5a3b39bba6f16dcea597636983bcea",
+      "canonical_rows_sha256": "ca360a4c85127fcd6dd86738db0c909566064803ab7398758289d1d5b6b24132",
+      "counts": {
+        "address": 12966,
+        "numbered_address_rows": 12966
+      },
+      "member_rows": {
+        "dataset.csv": 12966
+      },
+      "source_status_counts": {
+        "address:real": 12733,
+        "address:planned": 233
+      },
+      "source_official_flag_counts": {
+        "address:TRUE": 12962,
+        "address:FALSE": 4
+      },
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "LI-streets",
+      "country": "LI",
+      "source_sha256": "6604ed5e171897058a669f990dce2b72b8077a168f42042088301e5d11602674",
+      "canonical_rows_sha256": "734df96c8126fdfa24facafe95b69bb092b7fcaec17eaace717f700a13843491",
+      "counts": {
+        "street": 1237,
+        "named_area": 1
+      },
+      "member_rows": {
+        "OfficialIndexOfStreetsStreet.dbf": 1237,
+        "OfficialIndexOfStreetsArea.dbf": 1
+      },
+      "source_status_counts": {
+        "street:real": 1237,
+        "named_area:real": 1
+      },
+      "source_official_flag_counts": {
+        "street:TRUE": 1237,
+        "named_area:TRUE": 1
+      },
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "LU-caclr",
+      "country": "LU",
+      "source_sha256": "2b47018cb747ca72af60a52d27760edaaf1d670aea6d9d888bfaded224e07757",
+      "canonical_rows_sha256": "b66ab4787a51852342fc8b8fa56764cd7854c9364de223e2009e5088999b1547",
+      "counts": {
+        "municipality": 132,
+        "canton_reference": 13,
+        "locality": 590,
+        "street": 9963,
+        "address": 248634,
+        "numbered_address_rows": 238657,
+        "locality_alias": 144,
+        "street_alias": 1538,
+        "postcode_reference": 4430,
+        "road_number_reference": 424,
+        "historical_district_reference": 3,
+        "building_designation": 182,
+        "quarter_reference": 24,
+        "street_postcode_link": 9462
+      },
+      "member_rows": {
+        "COMMUALL": 132,
+        "CANTON": 13,
+        "LOCALITE": 590,
+        "RUE": 9963,
+        "IMMEUBLE": 248634,
+        "ALIAS.LOCALITE": 144,
+        "ALIAS.RUE": 1538,
+        "CODEPT": 4430,
+        "CPTCH": 424,
+        "DISTRICT": 3,
+        "IMMDESIG": 182,
+        "QUARTIER": 24,
+        "TR.DICACOLO.RUCP": 9462
+      },
+      "source_status_counts": {
+        "municipality:current": 100,
+        "municipality:historical": 32,
+        "locality:current": 565,
+        "locality:ended": 25,
+        "street:current": 9390,
+        "street:ended": 573,
+        "address:ended": 45111,
+        "address:current": 203523
+      },
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-01",
+      "country": "FR",
+      "source_sha256": "ddf29ec6572be4114a08b0a8f4665d7e4abeeb5cf01d767da96bb6f98f6aabd9",
+      "canonical_rows_sha256": "072199d339c8437182723dd7fcd4430f39d84039d125f9e3676676a8697fa7ee",
+      "counts": {
+        "address": 262839,
+        "numbered_address_rows": 262839
+      },
+      "member_rows": {
+        "FR-adresses-01.csv.gz": 262839
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-02",
+      "country": "FR",
+      "source_sha256": "81277f418bebb4f33632ab2d44ae3a0c183a0e893a2339a012ab3c775fa3a69e",
+      "canonical_rows_sha256": "fc2f0c20241640dc80c2d90dca505ab5a325c961412be0240daf1a1502aedf5b",
+      "counts": {
+        "address": 250736,
+        "numbered_address_rows": 250736
+      },
+      "member_rows": {
+        "FR-adresses-02.csv.gz": 250736
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-03",
+      "country": "FR",
+      "source_sha256": "818b63b631abacf472b7ccba474e61c7f7e9d974c9e6671687910c5af8bb2fbe",
+      "canonical_rows_sha256": "fcf95df7c6744e4071c8d09804d8fb63bee12f237adfaf1021e816e30a7fc8c8",
+      "counts": {
+        "address": 192880,
+        "numbered_address_rows": 192880
+      },
+      "member_rows": {
+        "FR-adresses-03.csv.gz": 192880
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-04",
+      "country": "FR",
+      "source_sha256": "936a655513a17b79f2e03276449c3d436b40f41e3863f0f8fd5295c9d0ccf440",
+      "canonical_rows_sha256": "b32500fa1527cf8db989cbd92509698189cdf248fc3ce4fbd7f7b5e00ecc3488",
+      "counts": {
+        "address": 103603,
+        "numbered_address_rows": 103603
+      },
+      "member_rows": {
+        "FR-adresses-04.csv.gz": 103603
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-05",
+      "country": "FR",
+      "source_sha256": "ebba977c33771f9e30a54928377d3d7eade7ff05e3846478b43141dfba2bc51f",
+      "canonical_rows_sha256": "2c78655137393aefb446e882ca285180c6ba062c280a10a8afc8c09afa031a22",
+      "counts": {
+        "address": 81562,
+        "numbered_address_rows": 81562
+      },
+      "member_rows": {
+        "FR-adresses-05.csv.gz": 81562
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-06",
+      "country": "FR",
+      "source_sha256": "5224ca51d48bdcfc6582e5699956699fb88383e44da54897d91877bdb43d5310",
+      "canonical_rows_sha256": "3da5357b296e3ed66d5f1810769e05d3fd5ccdea739cdfe8e36b311cc21680aa",
+      "counts": {
+        "address": 220338,
+        "numbered_address_rows": 220338
+      },
+      "member_rows": {
+        "FR-adresses-06.csv.gz": 220338
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-07",
+      "country": "FR",
+      "source_sha256": "6bb3b0f1abd6fde581305322399f125c4e8f90b0305af30f1d6a9012e7c7b63a",
+      "canonical_rows_sha256": "e170aa5ea29ac8571958477c92fe55d5fe2a69a1bbe314ed43a65950f0e705eb",
+      "counts": {
+        "address": 197890,
+        "numbered_address_rows": 197890
+      },
+      "member_rows": {
+        "FR-adresses-07.csv.gz": 197890
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-08",
+      "country": "FR",
+      "source_sha256": "034bcef2a2c1fd9841ae871369f624299a0cd2d9160eb16aae50631fede86c1d",
+      "canonical_rows_sha256": "266483082ac9371d2305fa8f8ab6c6a917193ce8acb0e6bd9046898aea2d20aa",
+      "counts": {
+        "address": 132876,
+        "numbered_address_rows": 132876
+      },
+      "member_rows": {
+        "FR-adresses-08.csv.gz": 132876
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-09",
+      "country": "FR",
+      "source_sha256": "6780af9c82c830ec80d66e5168cdf3dbc9c892fab9277350f39da66a22b97c25",
+      "canonical_rows_sha256": "35143bf1ebfe7a40a7606082731e8a3a733fdba5f0624758f6db1eec2a87f04d",
+      "counts": {
+        "address": 116842,
+        "numbered_address_rows": 116842
+      },
+      "member_rows": {
+        "FR-adresses-09.csv.gz": 116842
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-10",
+      "country": "FR",
+      "source_sha256": "042e9ce3f0d7ad1abce8525669c9039c1ac884c622999e86f7e78f2d3e5c6691",
+      "canonical_rows_sha256": "137301b15f30ff88b01638a313f2eed27740167d4cb07a7dfa506348985922e3",
+      "counts": {
+        "address": 147827,
+        "numbered_address_rows": 147827
+      },
+      "member_rows": {
+        "FR-adresses-10.csv.gz": 147827
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-11",
+      "country": "FR",
+      "source_sha256": "2143afb4233b3f48dbe52305d8e758b0ac292a11545d49dcbf5c8b91a761be4d",
+      "canonical_rows_sha256": "0a9cd192ebeb5ccf3ae64400c7d413e1ed5525f8f1f2c7f8cac1bff4d80d407b",
+      "counts": {
+        "address": 242206,
+        "numbered_address_rows": 242206
+      },
+      "member_rows": {
+        "FR-adresses-11.csv.gz": 242206
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-12",
+      "country": "FR",
+      "source_sha256": "f90901dfc60f5bd147115e5616809fb4d1868b69bc8d56f791aa406b856922e9",
+      "canonical_rows_sha256": "4b1e3a851290c8e561940bdad93604d5357137163eb2cec678ed7d1d7290159e",
+      "counts": {
+        "address": 178900,
+        "numbered_address_rows": 178900
+      },
+      "member_rows": {
+        "FR-adresses-12.csv.gz": 178900
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-13",
+      "country": "FR",
+      "source_sha256": "8e4065fa3e6003901bb9e7647cace1cc149c8fe74ed35c92674c6528dd3432a6",
+      "canonical_rows_sha256": "f97bf368a43491d7ac1656f53fc2a03e8acc450395f782aa9459cf4f7ee2549b",
+      "counts": {
+        "address": 460584,
+        "numbered_address_rows": 460584
+      },
+      "member_rows": {
+        "FR-adresses-13.csv.gz": 460584
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-14",
+      "country": "FR",
+      "source_sha256": "014a878f85eb3b661487737fb1d10eacdc43c0e8dbbca6f8aa5d1243d864e080",
+      "canonical_rows_sha256": "1ddbeb6aecf224a6cd319a2b4c661050f6b8ed2788ce2fdb1c51f6be9cd929a8",
+      "counts": {
+        "address": 317189,
+        "numbered_address_rows": 317189
+      },
+      "member_rows": {
+        "FR-adresses-14.csv.gz": 317189
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-15",
+      "country": "FR",
+      "source_sha256": "03aca4657f956b66941ac115f8cc89a6606b935a525329049d12842057b83e1c",
+      "canonical_rows_sha256": "0c663b447ef10d9aa38a44cfeaca57e29805f834e72db8e922304098ff5a3f51",
+      "counts": {
+        "address": 103273,
+        "numbered_address_rows": 103273
+      },
+      "member_rows": {
+        "FR-adresses-15.csv.gz": 103273
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-16",
+      "country": "FR",
+      "source_sha256": "12a80d3032575e5993d1efcec3b7b55d55b200cb9129081b12ea0284cc38fa52",
+      "canonical_rows_sha256": "b83998fccc4a154874173e653efe2e91931cf9a02437bef123bc5001a10a6d38",
+      "counts": {
+        "address": 210842,
+        "numbered_address_rows": 210842
+      },
+      "member_rows": {
+        "FR-adresses-16.csv.gz": 210842
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-17",
+      "country": "FR",
+      "source_sha256": "d63362e98d1fbe3985912aa8a8f908b147a661e20a0d3481ee89489a979f5329",
+      "canonical_rows_sha256": "5a2098431616a5f042e44bd9d59d3385bcf257e64cd3ab742bccf4dc27344b2c",
+      "counts": {
+        "address": 436011,
+        "numbered_address_rows": 436011
+      },
+      "member_rows": {
+        "FR-adresses-17.csv.gz": 436011
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-18",
+      "country": "FR",
+      "source_sha256": "2cc793fc577ff066c904e80d5bc3eecb8ad6a994e7f79529a90722f0dad4794b",
+      "canonical_rows_sha256": "6d7b3740260156b906ecf775512e497d4e3f9f38b76930855e632b7bfb914927",
+      "counts": {
+        "address": 183601,
+        "numbered_address_rows": 183601
+      },
+      "member_rows": {
+        "FR-adresses-18.csv.gz": 183601
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-19",
+      "country": "FR",
+      "source_sha256": "d8370b49d420c9cd31c99f77192341211546b8ca92a6b966545ffe5e351e49a9",
+      "canonical_rows_sha256": "df980ce2fe6b4a5513927093a8a6f722b558680a3b8670027416c0e966419b1c",
+      "counts": {
+        "address": 160601,
+        "numbered_address_rows": 160601
+      },
+      "member_rows": {
+        "FR-adresses-19.csv.gz": 160601
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-21",
+      "country": "FR",
+      "source_sha256": "5324b83fae20f4f2b9783ae265b3181f125eaf95a6e9aeb3f6c53adf56afbc9c",
+      "canonical_rows_sha256": "cf703ccf2196f12b92be29c88e62137da61839f526627e61c31f74cb0f112589",
+      "counts": {
+        "address": 213498,
+        "numbered_address_rows": 213498
+      },
+      "member_rows": {
+        "FR-adresses-21.csv.gz": 213498
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-22",
+      "country": "FR",
+      "source_sha256": "1b94bf3bb2d0804fce908bddbbe2d89bac0adeeda0cd8f4ac3c9dd705d811d9d",
+      "canonical_rows_sha256": "b19223c5a116a8b0b7911e29156f869386c091b9639fde086a0b6f9465c23a46",
+      "counts": {
+        "address": 375967,
+        "numbered_address_rows": 375967
+      },
+      "member_rows": {
+        "FR-adresses-22.csv.gz": 375967
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-23",
+      "country": "FR",
+      "source_sha256": "35ca0ad9fd71fdd3d13d3eb207b02cba4bfc7c85adfe71602591ee3f58d573ff",
+      "canonical_rows_sha256": "8d4e0c5627ad70bd0bcc8b751e9e8e62017ae95bc38ef8bc246de9c663d6b5f6",
+      "counts": {
+        "address": 94025,
+        "numbered_address_rows": 94025
+      },
+      "member_rows": {
+        "FR-adresses-23.csv.gz": 94025
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-24",
+      "country": "FR",
+      "source_sha256": "fa7204488bb5626ee8a190e82a85819fdfde3bba3f3aa6aae722124dc77082dd",
+      "canonical_rows_sha256": "fefb3ecd49ba336ecce91fe02778083c44430c376cf8464908331385350b11c7",
+      "counts": {
+        "address": 273310,
+        "numbered_address_rows": 273310
+      },
+      "member_rows": {
+        "FR-adresses-24.csv.gz": 273310
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-25",
+      "country": "FR",
+      "source_sha256": "3fcf9176bd5370751bd4e7ae163b145c58d55bc1233ebfea609072617abee489",
+      "canonical_rows_sha256": "7348784b30f312f902f2bc234c25ea2c24964a60acaa2417bf1d1ddd7f482b48",
+      "counts": {
+        "address": 197742,
+        "numbered_address_rows": 197742
+      },
+      "member_rows": {
+        "FR-adresses-25.csv.gz": 197742
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-26",
+      "country": "FR",
+      "source_sha256": "3aba9435724865aa09946a908720af5a332787bb4a5f1dddf0555427f5645d59",
+      "canonical_rows_sha256": "139968573f764458383c4deb71b7f00954d005bb311778bbf39e62e7ddff2bd9",
+      "counts": {
+        "address": 235131,
+        "numbered_address_rows": 235131
+      },
+      "member_rows": {
+        "FR-adresses-26.csv.gz": 235131
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-27",
+      "country": "FR",
+      "source_sha256": "2b94bc5b911461661d74d8915b04c53b9ef150473502ec91714ff602e982830f",
+      "canonical_rows_sha256": "9fa7923eb8140a181b3c643d0570c53fa9022ed1b42d7a1da6bbf95f95252acb",
+      "counts": {
+        "address": 287680,
+        "numbered_address_rows": 287680
+      },
+      "member_rows": {
+        "FR-adresses-27.csv.gz": 287680
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-28",
+      "country": "FR",
+      "source_sha256": "c44bdbfb2168435584b586bae199e2f6beb95c2c80025e955728f67e42f5718e",
+      "canonical_rows_sha256": "bdb6baa8c230d96769ea71068e9f9ae7f3659d88e0060371e54b937c1055d910",
+      "counts": {
+        "address": 201779,
+        "numbered_address_rows": 201779
+      },
+      "member_rows": {
+        "FR-adresses-28.csv.gz": 201779
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-29",
+      "country": "FR",
+      "source_sha256": "546b8bf2003c9ceb2801c1c97c0aeeec5e0dac882a913d15488af0b0fb95eb43",
+      "canonical_rows_sha256": "d27300ba691d78814c92bd3f895cb29ad0a63da50779d9f1c456102a1907ef52",
+      "counts": {
+        "address": 503665,
+        "numbered_address_rows": 503665
+      },
+      "member_rows": {
+        "FR-adresses-29.csv.gz": 503665
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-2A",
+      "country": "FR",
+      "source_sha256": "f6936724fb9f739fa4264da953f64cbf5eb723c6caf17e45d1b63a7dbd5668c0",
+      "canonical_rows_sha256": "291d1d0ff0c4e61a100ca62801a742145702ca0abb2c15c90aed7f8925604fe6",
+      "counts": {
+        "address": 57567,
+        "numbered_address_rows": 57567
+      },
+      "member_rows": {
+        "FR-adresses-2A.csv.gz": 57567
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-2B",
+      "country": "FR",
+      "source_sha256": "0f01494a8b8867f2b4dc7131f05aa6ecbc34ac892d27d74846a6f05389fa4e45",
+      "canonical_rows_sha256": "a61124da28d08ce7a87f61530f6aaf00a99f3417fc7311908c5b087dd8839f87",
+      "counts": {
+        "address": 77652,
+        "numbered_address_rows": 77652
+      },
+      "member_rows": {
+        "FR-adresses-2B.csv.gz": 77652
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-30",
+      "country": "FR",
+      "source_sha256": "7f2d630726d47e8b1094c9d2aa6a361f5609c65bef133641a2d6eca20d978622",
+      "canonical_rows_sha256": "c8d4a07766070044cd703bd74b18bf19b754e647352d78160be5f05638509016",
+      "counts": {
+        "address": 339693,
+        "numbered_address_rows": 339693
+      },
+      "member_rows": {
+        "FR-adresses-30.csv.gz": 339693
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-31",
+      "country": "FR",
+      "source_sha256": "4456e74b57c59e4043589f5fec06fc8ecc75b3cc562e2792e8c10717d7e81f74",
+      "canonical_rows_sha256": "d24dabdbf144ec72e440c3d2ea4f045e3a9bf924b9116404a9a11d1565455f2a",
+      "counts": {
+        "address": 457844,
+        "numbered_address_rows": 457844
+      },
+      "member_rows": {
+        "FR-adresses-31.csv.gz": 457844
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-32",
+      "country": "FR",
+      "source_sha256": "adbfd8e3fe84c5fb3bdae9d9c63421613c57369f413d178745380fe0953b56fc",
+      "canonical_rows_sha256": "506daa7335432abc97d0ee5302f8dbdd3b66eb443feec9f80b5a78f0077bef45",
+      "counts": {
+        "address": 115802,
+        "numbered_address_rows": 115802
+      },
+      "member_rows": {
+        "FR-adresses-32.csv.gz": 115802
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-33",
+      "country": "FR",
+      "source_sha256": "7fb5609aaeb79c4b2483e9d25c671d5ed5c83249b0ad626ed28e069d3ef972ff",
+      "canonical_rows_sha256": "b9c73e95284f9bc2700450d2ce4880cf2b5fc2e4377487c34992fb28c0c881cc",
+      "counts": {
+        "address": 730278,
+        "numbered_address_rows": 730278
+      },
+      "member_rows": {
+        "FR-adresses-33.csv.gz": 730278
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-34",
+      "country": "FR",
+      "source_sha256": "4ec9efd5af46c9bb8972bde1c836d54819dc0a1129f309b63e69d4fac38feb4e",
+      "canonical_rows_sha256": "239b0a2d82490fc5e24b13ca31c98f52e902831eb12b408a8442efcf9b9fe588",
+      "counts": {
+        "address": 453323,
+        "numbered_address_rows": 453323
+      },
+      "member_rows": {
+        "FR-adresses-34.csv.gz": 453323
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-35",
+      "country": "FR",
+      "source_sha256": "fa756fa692a14ede5238550fb501442cee069c824eceaf727a79476cc8f77ecb",
+      "canonical_rows_sha256": "abbfb96d710e0f6d7b9e416aaf9edea0062d437adac4b1939b2ffa05b918b631",
+      "counts": {
+        "address": 438326,
+        "numbered_address_rows": 438326
+      },
+      "member_rows": {
+        "FR-adresses-35.csv.gz": 438326
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-36",
+      "country": "FR",
+      "source_sha256": "544a256b5c35de37ca1308ab63af9c24b0312febe0d4f604765792883f0a8d1d",
+      "canonical_rows_sha256": "250253e5f9cb793eb101aee60733b7084b1ac5d890d8aa7f233714e8f336bf54",
+      "counts": {
+        "address": 139568,
+        "numbered_address_rows": 139568
+      },
+      "member_rows": {
+        "FR-adresses-36.csv.gz": 139568
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-37",
+      "country": "FR",
+      "source_sha256": "59345d469ac9eaa208e379e56375989b052be8bdf273075be1330d803762a262",
+      "canonical_rows_sha256": "3b4150c5072cab9b7d9b5949d59a941162e5115f797ceba14c424dc0adb36bc1",
+      "counts": {
+        "address": 275059,
+        "numbered_address_rows": 275059
+      },
+      "member_rows": {
+        "FR-adresses-37.csv.gz": 275059
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-38",
+      "country": "FR",
+      "source_sha256": "0c5f078c23f6776d0ecd6947674871f39d186c0aea3580784a0b095b3da202a3",
+      "canonical_rows_sha256": "d87a6ed19a8d1fa1e88a108475c6bfb72555308dc73faeeda985f54ee8749b63",
+      "counts": {
+        "address": 428917,
+        "numbered_address_rows": 428917
+      },
+      "member_rows": {
+        "FR-adresses-38.csv.gz": 428917
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-39",
+      "country": "FR",
+      "source_sha256": "049584078d3e4ca1a61faebd1341e7986af26212203d0f8274b6cc7ee5f921b6",
+      "canonical_rows_sha256": "5ae8471443be8de14efdaa4f79b9cc617ea4e83270cf77ce40eca7f0832c769d",
+      "counts": {
+        "address": 130229,
+        "numbered_address_rows": 130229
+      },
+      "member_rows": {
+        "FR-adresses-39.csv.gz": 130229
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-40",
+      "country": "FR",
+      "source_sha256": "2eae63db071ec71d50d49e18f55f0b6707f7d113bc1eb8dee25e914210941572",
+      "canonical_rows_sha256": "084e61195328bc9cff69f7de32038b819e21a50c2f4baca046733a438665db7e",
+      "counts": {
+        "address": 251288,
+        "numbered_address_rows": 251288
+      },
+      "member_rows": {
+        "FR-adresses-40.csv.gz": 251288
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-41",
+      "country": "FR",
+      "source_sha256": "6781b0a300bbc6ca3e3604a4263fbf7a2dd04d2a08b66d2ccd6451aef0001334",
+      "canonical_rows_sha256": "6a9aa64901e18395467059d1d86315459fc171aeaf95618d359a632a4d20d62a",
+      "counts": {
+        "address": 187804,
+        "numbered_address_rows": 187804
+      },
+      "member_rows": {
+        "FR-adresses-41.csv.gz": 187804
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-42",
+      "country": "FR",
+      "source_sha256": "19f57d45a1a8f10269eb5eebb15bd251c87b57d206884ed3069cd03fc86ce121",
+      "canonical_rows_sha256": "9de511f5d88a599f3b138b59e10a8120d75811435f8ace6817e75dec3341721f",
+      "counts": {
+        "address": 272483,
+        "numbered_address_rows": 272483
+      },
+      "member_rows": {
+        "FR-adresses-42.csv.gz": 272483
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-43",
+      "country": "FR",
+      "source_sha256": "57f4e1ee48bf8d3853832bf41b7273d69b55795492d3602fbe2b5cac73343c26",
+      "canonical_rows_sha256": "7a3d8da68bb5512c6a54f6cd6023397b4348d8d8a65647854db3e40749a86143",
+      "counts": {
+        "address": 147396,
+        "numbered_address_rows": 147396
+      },
+      "member_rows": {
+        "FR-adresses-43.csv.gz": 147396
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-44",
+      "country": "FR",
+      "source_sha256": "7b82e1a93949dfe57cde286c0c7718d849c3312eacd9ffe103d6d8a6a6add8be",
+      "canonical_rows_sha256": "1dd8212ccf2c3bd144b8df7ea83529da337676343e79bcad7d4fa7aba4413750",
+      "counts": {
+        "address": 583345,
+        "numbered_address_rows": 583345
+      },
+      "member_rows": {
+        "FR-adresses-44.csv.gz": 583345
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-45",
+      "country": "FR",
+      "source_sha256": "be927343a4338b1600816339310f6e6e5da0632ccd9abbfa21f5109ce0ae90d4",
+      "canonical_rows_sha256": "3fea02fe857b90b25f3dc32fb82813da2b558b6aaeb92a358a4f8bce12822e0e",
+      "counts": {
+        "address": 288341,
+        "numbered_address_rows": 288341
+      },
+      "member_rows": {
+        "FR-adresses-45.csv.gz": 288341
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-46",
+      "country": "FR",
+      "source_sha256": "276d6a9497ec2f51456f4f64e86a1d913005367db01a08982c0ae0f611bbb677",
+      "canonical_rows_sha256": "b96a9e631b9772e16d8abce44c30ce8483cb697f1e89f1fd5b0f0454b057dc48",
+      "counts": {
+        "address": 127384,
+        "numbered_address_rows": 127384
+      },
+      "member_rows": {
+        "FR-adresses-46.csv.gz": 127384
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-47",
+      "country": "FR",
+      "source_sha256": "bbdb99b662ee39d25d0fdbcad0273e188b810f77f995b52eb488a9f92ac1bd5c",
+      "canonical_rows_sha256": "6a805e25e4761e92424115043e7270c606d357a0e58fdf69031b24add6b9e180",
+      "counts": {
+        "address": 203728,
+        "numbered_address_rows": 203728
+      },
+      "member_rows": {
+        "FR-adresses-47.csv.gz": 203728
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-48",
+      "country": "FR",
+      "source_sha256": "f7212cfae7fa00cfc284a581548acab34400d063c07b3cc2630e903445ad5c2f",
+      "canonical_rows_sha256": "d6142a38dd56ae003ed591bb7ce4e24455e63f1f5dec3122001d57ef0e983ccd",
+      "counts": {
+        "address": 63220,
+        "numbered_address_rows": 63220
+      },
+      "member_rows": {
+        "FR-adresses-48.csv.gz": 63220
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-49",
+      "country": "FR",
+      "source_sha256": "f53fb4b0c5682dfca2aec93ccdc50d413a37f19b82ff120a8a7b85a41be4f1ef",
+      "canonical_rows_sha256": "8ecf892fe29d136c2a781425e97c4029bd5eaa46d887ec6ffe63c3c4effae109",
+      "counts": {
+        "address": 353146,
+        "numbered_address_rows": 353146
+      },
+      "member_rows": {
+        "FR-adresses-49.csv.gz": 353146
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-50",
+      "country": "FR",
+      "source_sha256": "5b1f35e97fe0cfe03ba8ef87f34f56621642a6977d6b31f706e87749d42da9fc",
+      "canonical_rows_sha256": "a48f26354fcbfe38ef53413691ab4fe895bd80263df4ca608df0940df35c33b5",
+      "counts": {
+        "address": 302422,
+        "numbered_address_rows": 302422
+      },
+      "member_rows": {
+        "FR-adresses-50.csv.gz": 302422
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-51",
+      "country": "FR",
+      "source_sha256": "f05d956dcce08a77e23d3711eb7e405f6586aba90aacca57da30dd226fb66910",
+      "canonical_rows_sha256": "aa5613b7bb33ea7fa968edac9694dffd79dc9029f72d6c92850bd4ec6562bd52",
+      "counts": {
+        "address": 216864,
+        "numbered_address_rows": 216864
+      },
+      "member_rows": {
+        "FR-adresses-51.csv.gz": 216864
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-52",
+      "country": "FR",
+      "source_sha256": "dd64163638c88be018d8306a53074e1403654a367e3b175d39960f9d900ef76f",
+      "canonical_rows_sha256": "e5de2e7fec72ad6c5a8480d14da4d8dbd831fbbf2d808fa2be3c643e5e63c588",
+      "counts": {
+        "address": 97445,
+        "numbered_address_rows": 97445
+      },
+      "member_rows": {
+        "FR-adresses-52.csv.gz": 97445
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-53",
+      "country": "FR",
+      "source_sha256": "2789042ec965c60ea407a876e343bd065d7710fa2156460798343610da5fd9e0",
+      "canonical_rows_sha256": "e9f4e4b0c69ff8645865b68ada2a9ddee7287b2580e0af90eb565bcc1a341b57",
+      "counts": {
+        "address": 161447,
+        "numbered_address_rows": 161447
+      },
+      "member_rows": {
+        "FR-adresses-53.csv.gz": 161447
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-54",
+      "country": "FR",
+      "source_sha256": "8503782bc0bd3d7162a937e4273103063d2efe82273506683edc33a16491b7ab",
+      "canonical_rows_sha256": "ae7f108973f0cf1aefbe92e531aaee53dca101d4d68685c49d8c5578b947645a",
+      "counts": {
+        "address": 266541,
+        "numbered_address_rows": 266541
+      },
+      "member_rows": {
+        "FR-adresses-54.csv.gz": 266541
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-55",
+      "country": "FR",
+      "source_sha256": "0154c5cc3f04fe1e89a573d1be5bcc27909bbbf3ecdb344704d4c0ff68ab545f",
+      "canonical_rows_sha256": "138a01910b1beb1dff403e8fe1b9d016d0b1f7eb0921c85d18f7f4eb67446b84",
+      "counts": {
+        "address": 100044,
+        "numbered_address_rows": 100044
+      },
+      "member_rows": {
+        "FR-adresses-55.csv.gz": 100044
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-56",
+      "country": "FR",
+      "source_sha256": "b74a8d7fc211fe2d6bd47f2ca1619591dc25c114d1d94a01e86bdceb37f0392f",
+      "canonical_rows_sha256": "11aa633db18c9e0ddde5e39886bf3a4c3d6ae1fae9aa455c058c5b9182b3ab21",
+      "counts": {
+        "address": 435771,
+        "numbered_address_rows": 435771
+      },
+      "member_rows": {
+        "FR-adresses-56.csv.gz": 435771
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-57",
+      "country": "FR",
+      "source_sha256": "5c976ce9cfac00240d13f41f309f63830f75264fa9982efcdbb4897dbaddbd3b",
+      "canonical_rows_sha256": "ea29d8b71d0089d9ebc26ed88002e7548115f7b5880dcaeca3ab69379d14de0a",
+      "counts": {
+        "address": 382499,
+        "numbered_address_rows": 382499
+      },
+      "member_rows": {
+        "FR-adresses-57.csv.gz": 382499
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-58",
+      "country": "FR",
+      "source_sha256": "1eac753a2232f552463359954aeb1dd19200c9d0149773aa538f8cfb7b4f49d6",
+      "canonical_rows_sha256": "cbeb61830cdd7c8b62a83c178c4bfc46a05406f04490f18fcc7869f8a8f55330",
+      "counts": {
+        "address": 142371,
+        "numbered_address_rows": 142371
+      },
+      "member_rows": {
+        "FR-adresses-58.csv.gz": 142371
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-59",
+      "country": "FR",
+      "source_sha256": "3cf221cc7e2284e7a15daacec6c071a29af174c5543672bb320091d573fe419c",
+      "canonical_rows_sha256": "2665b97d7ab3035fdd2f1967c33eb68fe109af44d2dd5d3b3b0c20f5b29efe2f",
+      "counts": {
+        "address": 1011249,
+        "numbered_address_rows": 1011249
+      },
+      "member_rows": {
+        "FR-adresses-59.csv.gz": 1011249
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-60",
+      "country": "FR",
+      "source_sha256": "98b71ae5750e729163e97b345e5d5c35689f5d7f5f3045b3ac4c37211df6bc01",
+      "canonical_rows_sha256": "d20c3116786ded005d4d1482ad7c7c380454552bd197036bcdb773067ab6356e",
+      "counts": {
+        "address": 314619,
+        "numbered_address_rows": 314619
+      },
+      "member_rows": {
+        "FR-adresses-60.csv.gz": 314619
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-61",
+      "country": "FR",
+      "source_sha256": "9556a0d990b847891ac46b4ab44ae2e8ee5d350daf3d2ae7e9f69840fb142d33",
+      "canonical_rows_sha256": "d086826e1c04904d54653ec31ce58a0de79a9a64b7d1c1226cd45d30cf57bee8",
+      "counts": {
+        "address": 176592,
+        "numbered_address_rows": 176592
+      },
+      "member_rows": {
+        "FR-adresses-61.csv.gz": 176592
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-62",
+      "country": "FR",
+      "source_sha256": "32b5ebf0d2a87e465882b6d38e9ce3512bf90da2698608a643e35d7b2a492c6b",
+      "canonical_rows_sha256": "e044bf8b7e8107ae490558b448498496c25232bb6ba7c29d8d499874b891c8f6",
+      "counts": {
+        "address": 690889,
+        "numbered_address_rows": 690889
+      },
+      "member_rows": {
+        "FR-adresses-62.csv.gz": 690889
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-63",
+      "country": "FR",
+      "source_sha256": "56bd24566a4d9656402dea36f5dc31f47d1b751f1e22d0e057e0a379f42c21c6",
+      "canonical_rows_sha256": "c63e096e414a2adeb613c6c2a7ef4215b66313056ab510b1b2ad4e9405ade229",
+      "counts": {
+        "address": 326985,
+        "numbered_address_rows": 326985
+      },
+      "member_rows": {
+        "FR-adresses-63.csv.gz": 326985
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-64",
+      "country": "FR",
+      "source_sha256": "47d6f2619ad26730133f7775d658b3f5ea580ce7a484b676a9449c09e8d09caf",
+      "canonical_rows_sha256": "6180973f44a36597d42037445fdf4a6fcb0700c84104e5ba655b3afca2de2826",
+      "counts": {
+        "address": 272396,
+        "numbered_address_rows": 272396
+      },
+      "member_rows": {
+        "FR-adresses-64.csv.gz": 272396
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-65",
+      "country": "FR",
+      "source_sha256": "f21b9bfffd9fab1656425f3c2c94cac90855d70d9f28915ce88a7537ff8e8384",
+      "canonical_rows_sha256": "7f312f3a0a640f4abd4c95976783d5b316e0b7490eb5f843a81caed05d265a67",
+      "counts": {
+        "address": 126231,
+        "numbered_address_rows": 126231
+      },
+      "member_rows": {
+        "FR-adresses-65.csv.gz": 126231
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-66",
+      "country": "FR",
+      "source_sha256": "20e572299d7b27d05cd599322c9216d084f078a5ef67435dd9723a8a83ed76bd",
+      "canonical_rows_sha256": "b1e699ddaa18bf147eda62892ff71df95492dbc065aa6329b9310769fe8fe137",
+      "counts": {
+        "address": 255296,
+        "numbered_address_rows": 255296
+      },
+      "member_rows": {
+        "FR-adresses-66.csv.gz": 255296
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-67",
+      "country": "FR",
+      "source_sha256": "5b86e51839f638292a62fef7ae33bf703b57a98f42513ae45e3a6363763a8a12",
+      "canonical_rows_sha256": "5764acd526b0a38719a047612d57d54abb689c0753435e8a15da428d4ef6319a",
+      "counts": {
+        "address": 339086,
+        "numbered_address_rows": 339086
+      },
+      "member_rows": {
+        "FR-adresses-67.csv.gz": 339086
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-68",
+      "country": "FR",
+      "source_sha256": "6e08be1cc441d22f6baab9e7040e0c208e20110b4b01a4bf48253240522b80b0",
+      "canonical_rows_sha256": "c178f52e3382a26e683344e1b990517ee916888012289ff5cc624a04e3e5adc3",
+      "counts": {
+        "address": 259114,
+        "numbered_address_rows": 259114
+      },
+      "member_rows": {
+        "FR-adresses-68.csv.gz": 259114
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-69",
+      "country": "FR",
+      "source_sha256": "df429d6171effc974d68156e9a18780922430d2cdd7e7828d4c3368ac4a79390",
+      "canonical_rows_sha256": "671efa3a0b20e6043861d4e205dab107e88ded6df7ab3698d815f52bd3dce22b",
+      "counts": {
+        "address": 353497,
+        "numbered_address_rows": 353497
+      },
+      "member_rows": {
+        "FR-adresses-69.csv.gz": 353497
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-70",
+      "country": "FR",
+      "source_sha256": "8fe2a8f2463985755147c8c3cc7d84a125ba16dc300fa1e271a3db46161a4ba7",
+      "canonical_rows_sha256": "0bb6e81d0e496c4c9a438fba15b0bdc0ab6a14e8db5c380fe9a15fd3a7ba340c",
+      "counts": {
+        "address": 130709,
+        "numbered_address_rows": 130709
+      },
+      "member_rows": {
+        "FR-adresses-70.csv.gz": 130709
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-71",
+      "country": "FR",
+      "source_sha256": "6bb039d5041e646a0a9af8329c96a76c1ba6387d9914850941a8c74fd8e54fb8",
+      "canonical_rows_sha256": "d9932c24566481001f24d06837612427ddd72df788024f6ea6f264c7a4d512d7",
+      "counts": {
+        "address": 276553,
+        "numbered_address_rows": 276553
+      },
+      "member_rows": {
+        "FR-adresses-71.csv.gz": 276553
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-72",
+      "country": "FR",
+      "source_sha256": "d0d2ca64f53658a81cec6d71b0fb77b1110f30c90de10401f42100b8fdcc9a2e",
+      "canonical_rows_sha256": "70db4250c9669d61fd167a9fdcf76bcb5ec4ef9f38840a4e85e92a03f0de2ef7",
+      "counts": {
+        "address": 261292,
+        "numbered_address_rows": 261292
+      },
+      "member_rows": {
+        "FR-adresses-72.csv.gz": 261292
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-73",
+      "country": "FR",
+      "source_sha256": "50456b02c0904000c1176323d209f79ae54cd323a535e6bb36493ca2cbe68095",
+      "canonical_rows_sha256": "9296040a69285680b10c733e4a5fb8f53dd941706aa8a94f39be601cb4286bfc",
+      "counts": {
+        "address": 184724,
+        "numbered_address_rows": 184724
+      },
+      "member_rows": {
+        "FR-adresses-73.csv.gz": 184724
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-74",
+      "country": "FR",
+      "source_sha256": "01c80bafe4868cc387913a69abe5c50f2ad25959d5e339e924433d982fb487ee",
+      "canonical_rows_sha256": "2575992dfeb5ce9eaec4dee93bfa16fc4ea8ea5e7118ec8d5c38cf5f0870af3b",
+      "counts": {
+        "address": 282646,
+        "numbered_address_rows": 282646
+      },
+      "member_rows": {
+        "FR-adresses-74.csv.gz": 282646
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-75",
+      "country": "FR",
+      "source_sha256": "cdf1d8871cd50ca7117066e041da9e729016e487b76555455a8fd0633a20e2f1",
+      "canonical_rows_sha256": "3b6e5a4dd90d690a058fb7a54d79a0988982d8b2fda4a962761e456a584fe28b",
+      "counts": {
+        "address": 152628,
+        "numbered_address_rows": 152628
+      },
+      "member_rows": {
+        "FR-adresses-75.csv.gz": 152628
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-76",
+      "country": "FR",
+      "source_sha256": "66d7f4c9853295d59b1ac86accc81904735e16c6c50ae7d178d7969dd16ed4f4",
+      "canonical_rows_sha256": "04b8c7f10f29548c6e257b34db3406fa8ea15d232d28bb837d83942a1d51b686",
+      "counts": {
+        "address": 464964,
+        "numbered_address_rows": 464964
+      },
+      "member_rows": {
+        "FR-adresses-76.csv.gz": 464964
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-77",
+      "country": "FR",
+      "source_sha256": "286ca9a6ac5356ff3e30861fea962ce2e84a5e97b3a07942b4381373a1bf5fbc",
+      "canonical_rows_sha256": "a7cd39dc04141977bc8bfd92a1875d74657f99ee00617c53f22d63c459e104eb",
+      "counts": {
+        "address": 452718,
+        "numbered_address_rows": 452718
+      },
+      "member_rows": {
+        "FR-adresses-77.csv.gz": 452718
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-78",
+      "country": "FR",
+      "source_sha256": "1d63e64d9b1191760e387aff444f371f701c31050ddae459f9e875af308a6d31",
+      "canonical_rows_sha256": "f3df0a332f70094931d64a9eb10b91674eb3f4607d8a4d54dc315aaf3aa1a396",
+      "counts": {
+        "address": 344047,
+        "numbered_address_rows": 344047
+      },
+      "member_rows": {
+        "FR-adresses-78.csv.gz": 344047
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-79",
+      "country": "FR",
+      "source_sha256": "55ae82996d4a08f2225f3b36e57e2447823c85d25bc84e7bbc76d8737a8f5c7e",
+      "canonical_rows_sha256": "c0d0804e5a90aeb251b0c981d8937cc4ef52b7a747503aed1af1aca44d830b34",
+      "counts": {
+        "address": 209036,
+        "numbered_address_rows": 209036
+      },
+      "member_rows": {
+        "FR-adresses-79.csv.gz": 209036
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-80",
+      "country": "FR",
+      "source_sha256": "31b565f99bf799356a69548e3a70c02b1ff50bb49cdfce7392aa6c6cf4f81283",
+      "canonical_rows_sha256": "21b639db3f408e79fb5818f6fe24af22c1c1e4b56bb81e60ca382cb472af23fe",
+      "counts": {
+        "address": 275768,
+        "numbered_address_rows": 275768
+      },
+      "member_rows": {
+        "FR-adresses-80.csv.gz": 275768
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-81",
+      "country": "FR",
+      "source_sha256": "cc552ae85c95c457c824686bd2064255051d1a7e320e917ec049cc4b1bf9c897",
+      "canonical_rows_sha256": "b12d4fb7c15c136f880185175f5edc28efe234dea6e217342c92d896ebf57412",
+      "counts": {
+        "address": 221717,
+        "numbered_address_rows": 221717
+      },
+      "member_rows": {
+        "FR-adresses-81.csv.gz": 221717
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-82",
+      "country": "FR",
+      "source_sha256": "a9d14d2a0c5bdc1840285a4645804f94149095f2e1e5d3f4bafc96d5155972bd",
+      "canonical_rows_sha256": "97e8c564597fb25db926b9cc0bbaef2a17d4ed938b92cbb34d1225bdef84e554",
+      "counts": {
+        "address": 136449,
+        "numbered_address_rows": 136449
+      },
+      "member_rows": {
+        "FR-adresses-82.csv.gz": 136449
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-83",
+      "country": "FR",
+      "source_sha256": "4f6c6ffafeaf6f9416e88969567b94d04fe820e5e44a284c9970918674027bb0",
+      "canonical_rows_sha256": "92b21e5f3d63f056f8f77a184f4959d2433d111caa0c58e40ee593cd6a4d0b0a",
+      "counts": {
+        "address": 403490,
+        "numbered_address_rows": 403490
+      },
+      "member_rows": {
+        "FR-adresses-83.csv.gz": 403490
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-84",
+      "country": "FR",
+      "source_sha256": "a5a32777d120b59f28a9358b72e97a22639f89e39263865cf0157484173c9033",
+      "canonical_rows_sha256": "957242564fee407df484fda1c3cb266b1081b163faef00d4cb4254cee541a320",
+      "counts": {
+        "address": 257325,
+        "numbered_address_rows": 257325
+      },
+      "member_rows": {
+        "FR-adresses-84.csv.gz": 257325
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-85",
+      "country": "FR",
+      "source_sha256": "ff3af4302ac5e337c9a76f8157471ef28f0c93166496a98f0aaecb573bac2d8c",
+      "canonical_rows_sha256": "9d57efce8c555133a603065f962ca6597ad40226dd957ad848f40b9a7cdccdc2",
+      "counts": {
+        "address": 439430,
+        "numbered_address_rows": 439430
+      },
+      "member_rows": {
+        "FR-adresses-85.csv.gz": 439430
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-86",
+      "country": "FR",
+      "source_sha256": "2e9dc82cf7313d83000c78c175a8dd0d98ec03376d2ff45537940c6746b98e3d",
+      "canonical_rows_sha256": "a33b2595580a858bb2612d57a220f39a776ee270924b1bbd033bea384e3d4525",
+      "counts": {
+        "address": 214280,
+        "numbered_address_rows": 214280
+      },
+      "member_rows": {
+        "FR-adresses-86.csv.gz": 214280
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-87",
+      "country": "FR",
+      "source_sha256": "2c1625f4a697eb07be078a92e1a01e35bc6b61921e4ca04a56ee2626c7a25352",
+      "canonical_rows_sha256": "74496d530e543942616d3a4d19329576aa0fea5eb2f9870ff30917bd977f63ce",
+      "counts": {
+        "address": 182738,
+        "numbered_address_rows": 182738
+      },
+      "member_rows": {
+        "FR-adresses-87.csv.gz": 182738
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-88",
+      "country": "FR",
+      "source_sha256": "c414a7cbbd08d397e0abee4a136cf61b81f4299683e47c11734a877b903ddb41",
+      "canonical_rows_sha256": "649e6986ce25e7a5855a14c3562a3a9c74eb752fdc760ed20c6e96d5c88d2fab",
+      "counts": {
+        "address": 189394,
+        "numbered_address_rows": 189394
+      },
+      "member_rows": {
+        "FR-adresses-88.csv.gz": 189394
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-89",
+      "country": "FR",
+      "source_sha256": "7c4f16f1fc5407ee646c2ddee3ac2844c423641a051a99006be3d54147829b4f",
+      "canonical_rows_sha256": "9540525b7e3235610ecf24349569ef242fab914ff7571221d6df8a0189e23e3f",
+      "counts": {
+        "address": 198750,
+        "numbered_address_rows": 198750
+      },
+      "member_rows": {
+        "FR-adresses-89.csv.gz": 198750
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-90",
+      "country": "FR",
+      "source_sha256": "4f6d232e85846bb035053560610674304dd059c763acf4319da6c98be6be6d0f",
+      "canonical_rows_sha256": "d98a96b6f51f718a50fba016223009f72b478025711808b7b6508e9d86643af6",
+      "counts": {
+        "address": 45080,
+        "numbered_address_rows": 45080
+      },
+      "member_rows": {
+        "FR-adresses-90.csv.gz": 45080
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-91",
+      "country": "FR",
+      "source_sha256": "77ef6d8720d494744787faddac13ce6db3f357e6753a06c6b7de2ec0d7d2ed7e",
+      "canonical_rows_sha256": "e74f47f7f912683c0ee818c1d9308573094485e75a29ad5aba38da2eb5f89fa4",
+      "counts": {
+        "address": 336893,
+        "numbered_address_rows": 336893
+      },
+      "member_rows": {
+        "FR-adresses-91.csv.gz": 336893
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-92",
+      "country": "FR",
+      "source_sha256": "30a0cd550e99c3b26ce180d5a69c1e8601bcbe9ade8b9e815dfb414ee81b4892",
+      "canonical_rows_sha256": "1ab8a537747b3a628c6cd63d2329a0fb08f28d65bab3844b631ec41f44901ca9",
+      "counts": {
+        "address": 166273,
+        "numbered_address_rows": 166273
+      },
+      "member_rows": {
+        "FR-adresses-92.csv.gz": 166273
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-93",
+      "country": "FR",
+      "source_sha256": "2f2d837e0feaa0d26e1a87ba6ec9ea5cdd8a7ffd64b8bb7e8a11dc07c1dd84c7",
+      "canonical_rows_sha256": "d033d6b9755143caccb1038788c0f518d34e11614ef086bc5c259376d1beb642",
+      "counts": {
+        "address": 235237,
+        "numbered_address_rows": 235237
+      },
+      "member_rows": {
+        "FR-adresses-93.csv.gz": 235237
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-94",
+      "country": "FR",
+      "source_sha256": "79dc93e4cb2684b325b098161f5f28bcbe80db5d0f00d64ba0d9f7112962abc8",
+      "canonical_rows_sha256": "c56c5cf80fb683873d1178ba77fe06a37152d893fa52390ddde78bdbd4f347a7",
+      "counts": {
+        "address": 202484,
+        "numbered_address_rows": 202484
+      },
+      "member_rows": {
+        "FR-adresses-94.csv.gz": 202484
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    },
+    {
+      "id": "FR-BAN-95",
+      "country": "FR",
+      "source_sha256": "4b1e1d2f1fcf9227dfe4a68bbf0d0bea2d524a26761f9816f3cfe556136ec14a",
+      "canonical_rows_sha256": "fc2f8dd47e13f9aa346809dd3021c427d8cacb01c3b91ac6943b54eaeda8ce63",
+      "counts": {
+        "address": 286850,
+        "numbered_address_rows": 286850
+      },
+      "member_rows": {
+        "FR-adresses-95.csv.gz": 286850
+      },
+      "source_status_counts": {},
+      "source_official_flag_counts": {},
+      "unresolved_reference_counts": {},
+      "source_integrity": "PASS",
+      "national_completeness_verified": false
+    }
+  ],
+  "source_row_replay": "PASS",
+  "national_completeness_verified": false,
+  "deliverability_in_scope": false,
+  "counts_semantics": "Source observations, including historical, provisional, planned and unofficial records. Not unique real-world addresses.",
+  "validation_scope": "Each accepted file was hashed; all parsed source rows were read twice and canonical hashes/counts compared; ZIP CRCs or gzip trailers were checked. AT municipality/locality/street and LU composite-code references were checked. Empty reference counts for other formats do not certify their administrative hierarchy."
+}

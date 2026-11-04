@@ -1,0 +1,57 @@
+address_candidates,admin_rows,ambiguous_parents,country,country_scope_only,localities_without_adm1,locality_rows,name_en,other_admin_rows,region,unresolved_parents
+17137,184,0,AO,154,630,19727,Angola,3,Middle Africa,477
+10397,108,0,BF,68,95,10400,Burkina Faso,1,Western Africa,34
+6977,2752,0,BI,0,0,6977,Burundi,17,Eastern Africa,349
+3760,628,0,BJ,14,14,3760,Benin,3,Western Africa,9
+1817,42,0,BW,174,174,1820,Botswana,4,Southern Africa,0
+5694,92,0,CF,18,18,5707,Central African Republic,1,Middle Africa,118
+5781,110,0,CG,12,12,5807,Congo,8,Middle Africa,0
+12071,281,0,CI,41,50,12076,Côte d’Ivoire,19,Western Africa,60
+14368,88,0,CM,80,81,14374,Cameroon,7,Middle Africa,39
+2846,54,0,CV,27,27,2846,Cabo Verde,1,Western Africa,79
+70,9,0,DJ,3,3,70,Djibouti,1,Eastern Africa,0
+8303,2147,0,DZ,5,5,8333,Algeria,12,Northern Africa,64
+12045,166,0,EG,22,22,12088,Egypt,36,Northern Africa,1
+49,0,0,EH,49,50,50,Western Sahara,1,Northern Africa,1
+1366,64,0,ER,5,5,1367,Eritrea,6,Eastern Africa,0
+11103,375,0,ET,6,162,11114,Ethiopia,100,Eastern Africa,251
+3936,58,0,GA,1,1,3936,Gabon,1,Middle Africa,1
+15964,282,0,GH,38,39,15997,Ghana,10,Western Africa,11
+2015,43,0,GM,2,2,2037,Gambia,2,Western Africa,0
+6810,351,0,GN,0,1,6813,Guinea,2,Western Africa,236
+2048,77,0,GQ,2005,2005,2085,Equatorial Guinea,4,Middle Africa,37
+3889,48,0,GW,3597,3597,4304,Guinea-Bissau,4,Western Africa,0
+3,0,0,IO,6,6,6,British Indian Ocean Territory,1,Eastern Africa,0
+6953,96,0,KE,2,54,6957,Kenya,2328,Eastern Africa,69
+393,3,0,KM,28,28,394,Comoros,1,Eastern Africa,0
+6323,857,0,LR,6,6,6325,Liberia,5,Western Africa,618
+399,158,0,LS,239,239,400,Lesotho,1,Southern Africa,132
+906,24,0,LY,2,22,909,Libya,36,Northern Africa,21
+15797,114,0,ML,1175,1175,15857,Mali,1,Western Africa,42
+7633,71,0,MR,54,55,7653,Mauritania,2,Western Africa,140
+560,12,0,MU,39,39,561,Mauritius,1,Eastern Africa,0
+7980,35,0,MW,14,14,7980,Malawi,2,Eastern Africa,3
+22675,182,0,MZ,1481,1481,22688,Mozambique,31,Eastern Africa,6
+2908,62,0,NA,2,8,2913,Namibia,2,Southern Africa,7
+13063,131,0,NE,2,2,13064,Niger,1,Western Africa,56
+783,30,0,RE,432,432,783,Réunion,1,Eastern Africa,0
+10230,2599,0,RW,1,1,10260,Rwanda,35,Eastern Africa,0
+52,28,0,SC,6,6,52,Seychelles,2,Eastern Africa,0
+7871,109,0,SD,26,67,8153,Sudan,7,Northern Africa,42
+20,11,0,SH,0,0,20,Saint Helena,1,Western Africa,0
+14385,200,0,SL,5,5,14401,Sierra Leone,1,Western Africa,260
+11788,199,0,SN,2,2,11789,Senegal,1,Western Africa,21
+4509,105,0,SO,6,6,4512,Somalia,3,Eastern Africa,21
+5309,38,0,SS,5,6,5341,South Sudan,37,Eastern Africa,1
+563,9,0,ST,0,0,563,Sao Tome and Principe,1,Middle Africa,0
+703,50,0,SZ,24,24,703,Eswatini,2,Southern Africa,9
+12274,156,0,TD,10,10,12278,Chad,4,Middle Africa,0
+3,10,0,TF,1,1,3,French Southern Territories,2,Eastern Africa,0
+4218,35,0,TG,3466,3466,4218,Togo,1,Western Africa,0
+2221,2372,0,TN,2,2,2245,Tunisia,14,Northern Africa,0
+7758,3844,0,TZ,10,10,7758,United Republic of Tanzania,281,Eastern Africa,3
+11450,3874,0,UG,2,2,11455,Uganda,74,Eastern Africa,164
+156,17,0,YT,6,6,158,Mayotte,1,Eastern Africa,0
+13526,296,0,ZA,3,3,13529,South Africa,3,Southern Africa,0
+13045,120,0,ZM,15,15,13131,Zambia,171,Eastern Africa,11
+2099,76,0,ZW,2,2,2101,Zimbabwe,11,Eastern Africa,3

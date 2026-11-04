@@ -1,0 +1,91 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "MOZ",
+    "country": "MZ",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Mozambique",
+    "geonames_id": "1036973",
+    "id": "country:MZ",
+    "m49": "508",
+    "name_en": "Mozambique",
+    "numeric": "508",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 22675,
+    "admin_rows": 182,
+    "ambiguous_parents": 0,
+    "country": "MZ",
+    "country_scope_only": 1481,
+    "localities_without_adm1": 1481,
+    "locality_rows": 22688,
+    "name_en": "Mozambique",
+    "other_admin_rows": 31,
+    "region": "Eastern Africa",
+    "unresolved_parents": 6
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 11,
+    "ADM2": 164,
+    "ADM3": 7,
+    "ADMD": 30,
+    "PCLI": 1,
+    "PPL": 22604,
+    "PPLA": 10,
+    "PPLA2": 2,
+    "PPLA3": 2,
+    "PPLC": 1,
+    "PPLL": 5,
+    "PPLQ": 1,
+    "PPLS": 1,
+    "PPLW": 11,
+    "PPLX": 51
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 659135,
+      "rows": 22901,
+      "sha256": "5b1bc1c3dc5225d66b1dbc82d9055064a33143bbe2acd848823d95e9d087170b",
+      "uncompressed_sha256": "92a3bccefda32299f2bc12de965e6436307ad2d96aaa82c80a7bee27a75f5ce5"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 1481,
+    "missing_code": 6,
+    "not_assigned_for_other_feature": 31,
+    "source_admin_code": 21372,
+    "source_country": 11
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 11,
+      "sha256": "1e608487357e8f8653468c234a27f622e28fddeb96d910d5868aee5df6caa28b"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 1216082,
+    "discarded_feature_classes": {
+      "H": 17443,
+      "L": 603,
+      "R": 4,
+      "S": 3585,
+      "T": 4582,
+      "V": 16
+    },
+    "retained_rows": 22901,
+    "retrieved_on": "2026-09-26",
+    "sha256": "2deb88fb7034483868722acda1db06667af57392296243c2440eb1eaecee6280",
+    "source_rows": 49134,
+    "url": "https://download.geonames.org/export/dump/MZ.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1993-11-18"
+}

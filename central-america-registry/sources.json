@@ -1,0 +1,132 @@
+{
+  "code_adaptation": {
+    "commit": "4efec82671b15a6bca4f0099acb6377c55af9aae",
+    "license": "MIT",
+    "path": "address-foundation/africa-registry",
+    "repository": "rei-k/world-address"
+  },
+  "files": {
+    "BZ.zip": {
+      "bytes": 78365,
+      "retrieved_on": "2026-10-01",
+      "sha256": "f77735560dec7491f0dcb4235e95bcf87212bd31e3f9165babb607134d961428",
+      "url": "https://download.geonames.org/export/dump/BZ.zip"
+    },
+    "GT.zip": {
+      "bytes": 1047133,
+      "retrieved_on": "2026-10-01",
+      "sha256": "6b6af2d918d4c885913827410ce0cf2ebcae0919b4052b0658ff5ed491f597f7",
+      "url": "https://download.geonames.org/export/dump/GT.zip"
+    },
+    "HN.zip": {
+      "bytes": 483031,
+      "retrieved_on": "2026-10-01",
+      "sha256": "caad534c4f4f4eb6711a6edbe5efb136e258b5889d1271beb828c975750ceba5",
+      "url": "https://download.geonames.org/export/dump/HN.zip"
+    },
+    "NI.zip": {
+      "bytes": 234784,
+      "retrieved_on": "2026-10-01",
+      "sha256": "000a409e4e5f94660d74cb8e9dadcaa439d9669efc74df93d14b2535cd075563",
+      "url": "https://download.geonames.org/export/dump/NI.zip"
+    },
+    "PA.zip": {
+      "bytes": 931930,
+      "retrieved_on": "2026-10-01",
+      "sha256": "e3e6308a2c46c35eb01a2add6cc61906386a7edb4db55f87eb573de15a7c69f9",
+      "url": "https://download.geonames.org/export/dump/PA.zip"
+    },
+    "SV.zip": {
+      "bytes": 231933,
+      "retrieved_on": "2026-10-01",
+      "sha256": "e888556384264dcae78115c834c20fae0e98b4061524e543b2314301b7098aa5",
+      "url": "https://download.geonames.org/export/dump/SV.zip"
+    },
+    "alternatenames/BZ.zip": {
+      "bytes": 40258,
+      "last_modified": "Thu, 01 Oct 2026 02:11:52 GMT",
+      "retrieved_on": "2026-10-01",
+      "sha256": "feb91e4a88105d6f0e89a328e982b3616ae96eca4d9df00a21f15f7981b21cb4",
+      "url": "https://download.geonames.org/export/dump/alternatenames/BZ.zip"
+    },
+    "alternatenames/GT.zip": {
+      "bytes": 473619,
+      "last_modified": "Thu, 01 Oct 2026 02:12:28 GMT",
+      "retrieved_on": "2026-10-01",
+      "sha256": "951251bdb1d863d857363a2c23b20693442f6d7a3e540742e290425d5a2cacce",
+      "url": "https://download.geonames.org/export/dump/alternatenames/GT.zip"
+    },
+    "alternatenames/HN.zip": {
+      "bytes": 169089,
+      "last_modified": "Thu, 01 Oct 2026 02:12:29 GMT",
+      "retrieved_on": "2026-10-01",
+      "sha256": "cd399360be7b1d5d4a30ff5fe6877a9cdaa5c237a3267634943f083fecc8b7a2",
+      "url": "https://download.geonames.org/export/dump/alternatenames/HN.zip"
+    },
+    "alternatenames/NI.zip": {
+      "bytes": 186489,
+      "last_modified": "Thu, 01 Oct 2026 02:13:03 GMT",
+      "retrieved_on": "2026-10-01",
+      "sha256": "dda9c0cd1fffc37b77915907a1e5b8c8aa5b95d1fa9246b883f87e2e6d42d1dc",
+      "url": "https://download.geonames.org/export/dump/alternatenames/NI.zip"
+    },
+    "alternatenames/PA.zip": {
+      "bytes": 437608,
+      "last_modified": "Thu, 01 Oct 2026 02:13:10 GMT",
+      "retrieved_on": "2026-10-01",
+      "sha256": "796d12c571d46d7ddd2b60bb199257a363f5b7344b02ab463eefb9a04c1af663",
+      "url": "https://download.geonames.org/export/dump/alternatenames/PA.zip"
+    },
+    "alternatenames/SV.zip": {
+      "bytes": 126226,
+      "last_modified": "Thu, 01 Oct 2026 02:13:28 GMT",
+      "retrieved_on": "2026-10-01",
+      "sha256": "deccd0e56b932496ee03e77f3b4fbf81c22064c8ea9e1bebea0decdf34112cba",
+      "url": "https://download.geonames.org/export/dump/alternatenames/SV.zip"
+    },
+    "countryInfo.txt": {
+      "bytes": 31267,
+      "original_download_sha256": "93bafc525813f22e4711ff9ed6d626343094ce48c26388dc7c49189b3d7d5512",
+      "retrieved_on": "2026-10-01",
+      "sha256": "231592b85c430bb01a31d026b9143ab3d88f8797af3acd82131c68ab92ab375f",
+      "transformation": "Original countryInfo metadata text with CR row omitted for this partial publication; source URL describes the original download",
+      "url": "https://download.geonames.org/export/dump/countryInfo.txt"
+    },
+    "readme.txt": {
+      "bytes": 8843,
+      "retrieved_on": "2026-10-01",
+      "sha256": "b1957379b6c1242c700c98ac9a8aa0a09f56c3c0a50ee72175527005f48ef2c5",
+      "url": "https://download.geonames.org/export/dump/readme.txt"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "previous_inventory_checked": {
+    "existing_MX": "official-registry/MX copied independently; excluded from this layer",
+    "existing_non_MX_Central_America": "Multilingual subdivision catalogues, not the full A/P country extracts",
+    "release_inventory_checked_on": "2026-10-01",
+    "source_catalogues_used_as_data": false,
+    "world_address_commit": "4efec82671b15a6bca4f0099acb6377c55af9aae"
+  },
+  "publication_scope": {
+    "included": [
+      "BZ",
+      "GT",
+      "HN",
+      "NI",
+      "PA",
+      "SV"
+    ],
+    "included_count": 6,
+    "m49_member_count": 8,
+    "pending": [
+      "CR"
+    ],
+    "separate": [
+      "MX"
+    ]
+  },
+  "schema_version": 1,
+  "scope_checked_on": "2026-10-01",
+  "scope_m49": "013",
+  "scope_source": "https://unstats.un.org/unsd/methodology/m49/"
+}

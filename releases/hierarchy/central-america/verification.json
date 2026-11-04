@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "region": "central-america",
+  "checked_at": "2026-10-21T17:50:30.764277+00:00",
+  "snapshot_date": "2026-10-17",
+  "world_complete": false,
+  "regional_complete": false,
+  "deliverability_in_scope": false,
+  "checks": [
+    {
+      "check": "archive_size_sha256_crc_and_restore",
+      "status": "PASS",
+      "archives": 1,
+      "archive_members": 99
+    },
+    {
+      "check": "original_manifest_file_integrity_after_run",
+      "status": "PASS",
+      "files": 98
+    },
+    {
+      "check": "all_installed_regional_regressions",
+      "status": "PASS",
+      "tests": 184,
+      "central_america_tests_included": 63
+    },
+    {
+      "check": "archive_restoration_regressions",
+      "status": "PASS",
+      "tests": 7
+    },
+    {
+      "check": "repository_layout_regressions",
+      "status": "PASS",
+      "tests": 5
+    },
+    {
+      "check": "full_original_row_replay",
+      "status": "PASS",
+      "source_objects": 32,
+      "source_series": 16,
+      "rows": 91044
+    },
+    {
+      "check": "country_alternate_name_replay",
+      "status": "PASS",
+      "countries": 7,
+      "rows": 71556
+    },
+    {
+      "check": "independent_xlsx_reader_comparison",
+      "status": "PASS",
+      "worksheets": 17,
+      "rows": 30419,
+      "cells": 545448
+    },
+    {
+      "check": "regional_cli_real_data_checks",
+      "status": "PASS",
+      "checks": 14
+    },
+    {
+      "check": "unified_cli_help_and_scope_rejection",
+      "status": "PASS",
+      "regions": 3
+    },
+    {
+      "check": "sqlite_integrity_foreign_keys_same_country_acyclic_ranks",
+      "status": "PASS"
+    },
+    {
+      "check": "historical_reports_preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "candidate_isolation_and_no_old_raw_requirement",
+      "status": "PASS",
+      "network_mocked": true
+    },
+    {
+      "check": "git_diff_whitespace",
+      "status": "PASS"
+    }
+  ],
+  "tests_run": 196,
+  "country_count": 7,
+  "m49_country_count_including_referenced_mexico": 8,
+  "counts": {
+    "nodes": 89952,
+    "names": 256334,
+    "links": 263085,
+    "observations": 91044,
+    "issues": 81
+  },
+  "known_source_issue_records": 81,
+  "details": {
+    "validation": "validation.json",
+    "cli": "cli-verification.json",
+    "workbook": "workbook-readback.json",
+    "completeness": "coverage.json"
+  },
+  "not_performed": [
+    "Nationwide administrative completeness certification for all current legal tiers",
+    "Nationwide addressed-street and physical-road inventory acquisition and reconciliation",
+    "Nationwide assigned-address-number acquisition and reconciliation",
+    "Network end-to-end refresh of all 32 source objects",
+    "Postal deliverability verification (out of scope)"
+  ],
+  "historical_release_reports_are_not_this_test_run": true,
+  "source_data_changed": false
+}

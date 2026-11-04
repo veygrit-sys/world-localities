@@ -1,0 +1,1192 @@
+{
+  "source_repository": "rei-k/world-address",
+  "source_commit": "538a91443823939451c66799604342c2724bc10a",
+  "source_pr": "https://github.com/rei-k/world-address/pull/407",
+  "destination_repository": "rei-k/world-localities",
+  "scope": "Completed Oceania locality, multilingual name and direct-ID postal relationship pack; no Address1 data collection.",
+  "files": [
+    {
+      "source_path": "address-foundation/region-packs/oceania/BASE_DATASET_README.md",
+      "destination_path": "oceania-registry/BASE_DATASET_README.md",
+      "source_git_blob_sha": "48dedd4b16ea6abfa401cdb2d3a0c11c606af844",
+      "source_bytes": 9936,
+      "destination_bytes": 9936,
+      "destination_git_blob_sha": "48dedd4b16ea6abfa401cdb2d3a0c11c606af844",
+      "destination_sha256": "dd4ef2cf015ae766bc8597904bfa294f754bef7849b18cc147101dc4603526e2",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/LICENSE",
+      "destination_path": "oceania-registry/LICENSE",
+      "source_git_blob_sha": "2b238d1f988f5a1f61d593f48906336e8e109134",
+      "source_bytes": 1082,
+      "destination_bytes": 1082,
+      "destination_git_blob_sha": "2b238d1f988f5a1f61d593f48906336e8e109134",
+      "destination_sha256": "17cd411bfb5a12777ad3056ad0061bab27fcc5a1a8a506bb5ba50b98fdd6c974",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/LICENSES.md",
+      "destination_path": "oceania-registry/LICENSES.md",
+      "source_git_blob_sha": "411db38af48bdd7d1f2c86ec04f43e8f50a24c8c",
+      "source_bytes": 3599,
+      "destination_bytes": 3599,
+      "destination_git_blob_sha": "411db38af48bdd7d1f2c86ec04f43e8f50a24c8c",
+      "destination_sha256": "c41dc27eca19adbe47a270ce2e43bd9290215d231f5c38423096b43d385342c7",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/README.md",
+      "destination_path": "oceania-registry/README.md",
+      "source_git_blob_sha": "79e806b92c4f5cb46bb5aa103cabfe3d05e835ef",
+      "source_bytes": 7194,
+      "destination_bytes": 8114,
+      "destination_git_blob_sha": "87dd2b1c6bc654017463e8197270e030b7e363a0",
+      "destination_sha256": "e1c91d5462c1e108106e300a60e118d1fb57d170f94391772043973c9d1f3416",
+      "identical_to_source": false
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries.csv",
+      "destination_path": "oceania-registry/countries.csv",
+      "source_git_blob_sha": "da7cd51f9ade1385d6228c93a2611947b468472c",
+      "source_bytes": 3242,
+      "destination_bytes": 3242,
+      "destination_git_blob_sha": "da7cd51f9ade1385d6228c93a2611947b468472c",
+      "destination_sha256": "8c844f1fea5b95b584bbfc3fae205e971651502c1fad75f737bde2e391747234",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries.json",
+      "destination_path": "oceania-registry/countries.json",
+      "source_git_blob_sha": "ac4d2d4101a93e2643192ce3f9331af01ea574f6",
+      "source_bytes": 10765,
+      "destination_bytes": 10765,
+      "destination_git_blob_sha": "ac4d2d4101a93e2643192ce3f9331af01ea574f6",
+      "destination_sha256": "a6b2b9b7b8625985accdefaa50ce9d835ce2d1fae434fc843e88ea6b1a4561ab",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AS/index.json",
+      "destination_path": "oceania-registry/countries/AS/index.json",
+      "source_git_blob_sha": "eafe098703606865f3aa5c20ba6529fea55dc04f",
+      "source_bytes": 2482,
+      "destination_bytes": 2482,
+      "destination_git_blob_sha": "eafe098703606865f3aa5c20ba6529fea55dc04f",
+      "destination_sha256": "d229346f1a821e2833713b2385199c62c2d43409f4b2c61d00009ebfb3ac0664",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AS/part-001.b64",
+      "destination_path": "oceania-registry/countries/AS/part-001.b64",
+      "source_git_blob_sha": "9a851a01b447a28f1593b8890d5aa71c18a63527",
+      "source_bytes": 136209,
+      "destination_bytes": 136209,
+      "destination_git_blob_sha": "9a851a01b447a28f1593b8890d5aa71c18a63527",
+      "destination_sha256": "de759c69d2bade100a1e7714ed8c55f1a4742dc24dc37aabccb41795eb2c7d3b",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/index.json",
+      "destination_path": "oceania-registry/countries/AU/index.json",
+      "source_git_blob_sha": "ff10a8ec83ada0526edd81bb9182c784475fdd70",
+      "source_bytes": 12839,
+      "destination_bytes": 12839,
+      "destination_git_blob_sha": "ff10a8ec83ada0526edd81bb9182c784475fdd70",
+      "destination_sha256": "fa9ebdaa4d090d15805046f4b92127e099bd606659225bbd77fc06b3b8f30114",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-001.b64",
+      "destination_path": "oceania-registry/countries/AU/part-001.b64",
+      "source_git_blob_sha": "1f0fbc00fa06698656f1a97787ae9f7fc0e13908",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "1f0fbc00fa06698656f1a97787ae9f7fc0e13908",
+      "destination_sha256": "ebb04fe07140fdf1037801fd0e3ab572e828bd9fdaf50f6d5c387bbbf70a7c65",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-002.b64",
+      "destination_path": "oceania-registry/countries/AU/part-002.b64",
+      "source_git_blob_sha": "aa10d282e8ffd7137e5e508a98a48c848d0d629c",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "aa10d282e8ffd7137e5e508a98a48c848d0d629c",
+      "destination_sha256": "7627791652b12716ed2299f5e13667120d5c888e6dd22c93da297f9da5f463b5",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-003.b64",
+      "destination_path": "oceania-registry/countries/AU/part-003.b64",
+      "source_git_blob_sha": "8fb7180f640041b86230d5a770e6b73a17a3d2e2",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "8fb7180f640041b86230d5a770e6b73a17a3d2e2",
+      "destination_sha256": "1de2805ecdbd68c5170ae360ebc1e165de3a62b1aec213389aedca21cd7f754a",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-004.b64",
+      "destination_path": "oceania-registry/countries/AU/part-004.b64",
+      "source_git_blob_sha": "f5225938cd61348404a6ad9a86ba2a0c0977ac33",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "f5225938cd61348404a6ad9a86ba2a0c0977ac33",
+      "destination_sha256": "a33564c14b383ce3ec278256596c451e34d0fc00669ef0b1876888aad9666339",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-005.b64",
+      "destination_path": "oceania-registry/countries/AU/part-005.b64",
+      "source_git_blob_sha": "093283a1d2fa5f5d4076f1303bde554e2481984b",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "093283a1d2fa5f5d4076f1303bde554e2481984b",
+      "destination_sha256": "0852aeb36575839eafd5f4a760119f6722198da234d9c58c28ca8f27d81d7288",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-006.b64",
+      "destination_path": "oceania-registry/countries/AU/part-006.b64",
+      "source_git_blob_sha": "1db016e1771df57e6e4fc10e59d0452624cbabe3",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "1db016e1771df57e6e4fc10e59d0452624cbabe3",
+      "destination_sha256": "178cc47469fceb276d7eeaf036b717d24a75a518b382940673cd1902d2e69a30",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-007.b64",
+      "destination_path": "oceania-registry/countries/AU/part-007.b64",
+      "source_git_blob_sha": "6a5b132140451405ec0446a19aaf2dcbf5d1e871",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "6a5b132140451405ec0446a19aaf2dcbf5d1e871",
+      "destination_sha256": "d9579326a8740e0c53b4a6ff1e94cd2916c416620aff59a11f686359ff1dc71a",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-008.b64",
+      "destination_path": "oceania-registry/countries/AU/part-008.b64",
+      "source_git_blob_sha": "cf88b64e34865a1194ff86eb88f3330cd7afb885",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "cf88b64e34865a1194ff86eb88f3330cd7afb885",
+      "destination_sha256": "17fb9ce83b5851e6fabaa2e88f3c4c2881d8fd5acc3b51dbe9e527180ac83f50",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-009.b64",
+      "destination_path": "oceania-registry/countries/AU/part-009.b64",
+      "source_git_blob_sha": "8960ded2ed483de3c743a01aa18ae965468e0910",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "8960ded2ed483de3c743a01aa18ae965468e0910",
+      "destination_sha256": "3a14fdc90c698af95f8e7f6f3186850cc2155addd68c5838d93c0965ce9080e8",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-010.b64",
+      "destination_path": "oceania-registry/countries/AU/part-010.b64",
+      "source_git_blob_sha": "1ced0b340b172b33f931766c058671a71156b8f5",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "1ced0b340b172b33f931766c058671a71156b8f5",
+      "destination_sha256": "485631f73e7c0f6f8e3375fed0654c3956ca5442e4f44f10c2a3b8225fc79354",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-011.b64",
+      "destination_path": "oceania-registry/countries/AU/part-011.b64",
+      "source_git_blob_sha": "ab342019eae19d3df36fc8875cbd27e2af300a66",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "ab342019eae19d3df36fc8875cbd27e2af300a66",
+      "destination_sha256": "3bed5052155b963319865e667b173089dc5561035024c0cb1950e8976c2a433b",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-012.b64",
+      "destination_path": "oceania-registry/countries/AU/part-012.b64",
+      "source_git_blob_sha": "88e95c26ee472a424a220119dd7384ef3e1a2c11",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "88e95c26ee472a424a220119dd7384ef3e1a2c11",
+      "destination_sha256": "e20553370c7e855000a45d225d2a9cef18c48f5e86fed10cba08993cd41041b7",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-013.b64",
+      "destination_path": "oceania-registry/countries/AU/part-013.b64",
+      "source_git_blob_sha": "e7e50010835de9a61c9b7d07df0ab0a9bf4e8aeb",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "e7e50010835de9a61c9b7d07df0ab0a9bf4e8aeb",
+      "destination_sha256": "040a19b0f01e0faf9a473600b7b25cbc3c46ca80fc471c8271d0a4b1ef11462b",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-014.b64",
+      "destination_path": "oceania-registry/countries/AU/part-014.b64",
+      "source_git_blob_sha": "db0b3ba80b38a9d71e83fd0dcf01841bb42af8d2",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "db0b3ba80b38a9d71e83fd0dcf01841bb42af8d2",
+      "destination_sha256": "0984915b5ddc94d95f37c43c1d8981f7b62154db67fe63996369708503114aea",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-015.b64",
+      "destination_path": "oceania-registry/countries/AU/part-015.b64",
+      "source_git_blob_sha": "754b80961b5b7a870c20df092e365ea4952d90d5",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "754b80961b5b7a870c20df092e365ea4952d90d5",
+      "destination_sha256": "8792f73de4cabab123be58cae3d544235a3a1c6ce39c7c087a9fe6144df669e6",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-016.b64",
+      "destination_path": "oceania-registry/countries/AU/part-016.b64",
+      "source_git_blob_sha": "7b17e70330708072d5b98d71eab3e127588bc719",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "7b17e70330708072d5b98d71eab3e127588bc719",
+      "destination_sha256": "e131c8d2967d62e8e5a801ecdb1bfe30f12beda4f14dac9bcf0492c02ca160e4",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-017.b64",
+      "destination_path": "oceania-registry/countries/AU/part-017.b64",
+      "source_git_blob_sha": "ac74b58c71b7cb79b41f7f4a8f79bb256c585e07",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "ac74b58c71b7cb79b41f7f4a8f79bb256c585e07",
+      "destination_sha256": "7fb417f8ddad3e022445ff50277f886f1d22a6ad7457f04057a2756dbd139bf8",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-018.b64",
+      "destination_path": "oceania-registry/countries/AU/part-018.b64",
+      "source_git_blob_sha": "b6fc43268ab43c421a7afd20cc6b98d88aeeedae",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "b6fc43268ab43c421a7afd20cc6b98d88aeeedae",
+      "destination_sha256": "a266461e4932c5cd2f0f0d06b3202179be19162078c93d08c5b380902c764772",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-019.b64",
+      "destination_path": "oceania-registry/countries/AU/part-019.b64",
+      "source_git_blob_sha": "c57e8db5cd27ebedae5536971969ec8cf756bbe8",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "c57e8db5cd27ebedae5536971969ec8cf756bbe8",
+      "destination_sha256": "efc1ee21ab6662bbc78f5da06260b25a1badcb788e61d503e8f57805b7615ac6",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-020.b64",
+      "destination_path": "oceania-registry/countries/AU/part-020.b64",
+      "source_git_blob_sha": "ce43a5393033dff75ffc43c00b3e670c1e2fdf0a",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "ce43a5393033dff75ffc43c00b3e670c1e2fdf0a",
+      "destination_sha256": "75e080a5e2b4f6c7c6b18f166fffa57884ce110af190441c02514abbe8ed197a",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-021.b64",
+      "destination_path": "oceania-registry/countries/AU/part-021.b64",
+      "source_git_blob_sha": "cd6304bca8927616ba79004eb94c9432a67b722d",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "cd6304bca8927616ba79004eb94c9432a67b722d",
+      "destination_sha256": "7734d0444952f8969fd4526e4b29455b6411e168c6d09d1aadd03c542d5accbf",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/AU/part-022.b64",
+      "destination_path": "oceania-registry/countries/AU/part-022.b64",
+      "source_git_blob_sha": "ce942cce799f0d11b416040e44bd586ee47466bb",
+      "source_bytes": 693881,
+      "destination_bytes": 693881,
+      "destination_git_blob_sha": "ce942cce799f0d11b416040e44bd586ee47466bb",
+      "destination_sha256": "6e6236e2a41cb61cc55b5992f8da311f6ebb67867df71b7425b5e150cf9f45db",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/CC/index.json",
+      "destination_path": "oceania-registry/countries/CC/index.json",
+      "source_git_blob_sha": "7325c9581de20f4642f1373500c22c71fde1f924",
+      "source_bytes": 2504,
+      "destination_bytes": 2504,
+      "destination_git_blob_sha": "7325c9581de20f4642f1373500c22c71fde1f924",
+      "destination_sha256": "658f4e0fcb2e693246bcb9d2cfba3e1df8e1ef934919985c24e87f12550d6a97",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/CC/part-001.b64",
+      "destination_path": "oceania-registry/countries/CC/part-001.b64",
+      "source_git_blob_sha": "85edaf22095d1c89ae8b67914160f0a934a73908",
+      "source_bytes": 39689,
+      "destination_bytes": 39689,
+      "destination_git_blob_sha": "85edaf22095d1c89ae8b67914160f0a934a73908",
+      "destination_sha256": "10b79e2e7b7f41dcac5b265527269da4decc00936c081b7a073945442246f9d9",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/CK/index.json",
+      "destination_path": "oceania-registry/countries/CK/index.json",
+      "source_git_blob_sha": "26f96a38a8c52b9f6dee814c2c1ec03326bfa3d0",
+      "source_bytes": 2474,
+      "destination_bytes": 2474,
+      "destination_git_blob_sha": "26f96a38a8c52b9f6dee814c2c1ec03326bfa3d0",
+      "destination_sha256": "d1350c5a10f4d84d5f67ed185524ab8101d1310460cd929bdfb3cc0cccffc293",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/CK/part-001.b64",
+      "destination_path": "oceania-registry/countries/CK/part-001.b64",
+      "source_git_blob_sha": "16205f5602f796331bbf6a40bc31f9e17de459ad",
+      "source_bytes": 107861,
+      "destination_bytes": 107861,
+      "destination_git_blob_sha": "16205f5602f796331bbf6a40bc31f9e17de459ad",
+      "destination_sha256": "eecfe23813ac357f5300f670346fe346b746f3a5f354f4e9e365ab92d28c7951",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/CX/index.json",
+      "destination_path": "oceania-registry/countries/CX/index.json",
+      "source_git_blob_sha": "c39297085e406c1a49349c38025924bc914f9746",
+      "source_bytes": 2508,
+      "destination_bytes": 2508,
+      "destination_git_blob_sha": "c39297085e406c1a49349c38025924bc914f9746",
+      "destination_sha256": "12e2a20787a7bdb240cc5b0be86c91fbd2a0dd63ff23011e9bf8af4ba2e66b9e",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/CX/part-001.b64",
+      "destination_path": "oceania-registry/countries/CX/part-001.b64",
+      "source_git_blob_sha": "7ab42c005006218edeaf1035b00059a23c11047f",
+      "source_bytes": 42597,
+      "destination_bytes": 42597,
+      "destination_git_blob_sha": "7ab42c005006218edeaf1035b00059a23c11047f",
+      "destination_sha256": "39748e6c6eb766f80882f847cc4341ffbbe831bd0bb33eb99e7dd9f0e45275a5",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/FJ/index.json",
+      "destination_path": "oceania-registry/countries/FJ/index.json",
+      "source_git_blob_sha": "669083003dff198fe116bf0c2577b1dc2a8801c3",
+      "source_bytes": 3119,
+      "destination_bytes": 3119,
+      "destination_git_blob_sha": "669083003dff198fe116bf0c2577b1dc2a8801c3",
+      "destination_sha256": "b2c780fc9a85fcb8ffca8de868bba3bcb0d3f147e33284b47765613f02be02d5",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/FJ/part-001.b64",
+      "destination_path": "oceania-registry/countries/FJ/part-001.b64",
+      "source_git_blob_sha": "0e30a20dab68068f3a6372dc60da37753f35fd75",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "0e30a20dab68068f3a6372dc60da37753f35fd75",
+      "destination_sha256": "2f71d5b2a84418f241e379c6bc08d11a26e238ff9daaa8ecdef5caf562c8a0cf",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/FJ/part-002.b64",
+      "destination_path": "oceania-registry/countries/FJ/part-002.b64",
+      "source_git_blob_sha": "9ad78a6e99a0049dd8cba89165e52870b9160181",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "9ad78a6e99a0049dd8cba89165e52870b9160181",
+      "destination_sha256": "83cc15f13e504850269b952cd6191ec2be41ca8c33ae5b6085d97d95358423b8",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/FJ/part-003.b64",
+      "destination_path": "oceania-registry/countries/FJ/part-003.b64",
+      "source_git_blob_sha": "012c3b89251aba0ed02e3d2e4b1432dd3630615d",
+      "source_bytes": 26557,
+      "destination_bytes": 26557,
+      "destination_git_blob_sha": "012c3b89251aba0ed02e3d2e4b1432dd3630615d",
+      "destination_sha256": "ec68e93f5077dda5e9635e6c0c47af50491813617b9cbfd4e359a659e5ea109e",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/FM/index.json",
+      "destination_path": "oceania-registry/countries/FM/index.json",
+      "source_git_blob_sha": "ae95e01536da95f66695319d2781110d07009434",
+      "source_bytes": 2482,
+      "destination_bytes": 2482,
+      "destination_git_blob_sha": "ae95e01536da95f66695319d2781110d07009434",
+      "destination_sha256": "581572536b89ca04375a2d898851d038de3630b780d15ef8dcb1e831ec1d3b83",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/FM/part-001.b64",
+      "destination_path": "oceania-registry/countries/FM/part-001.b64",
+      "source_git_blob_sha": "fb86b5555e6d4cfa5d0223347de676c93900d09b",
+      "source_bytes": 342777,
+      "destination_bytes": 342777,
+      "destination_git_blob_sha": "fb86b5555e6d4cfa5d0223347de676c93900d09b",
+      "destination_sha256": "23f76f0b86d7f294a78a9422d74321e60bb3d8dd77bc778f36d6e21ac3cfa600",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/GU/index.json",
+      "destination_path": "oceania-registry/countries/GU/index.json",
+      "source_git_blob_sha": "64be5f340d2098e34f98ba0bb91a77cc51e3ab27",
+      "source_bytes": 2487,
+      "destination_bytes": 2487,
+      "destination_git_blob_sha": "64be5f340d2098e34f98ba0bb91a77cc51e3ab27",
+      "destination_sha256": "0979afaf7fbda354b22e50f9b8b7fe3acdc0f648361ee8fcaff0e9f88d1a1c27",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/GU/part-001.b64",
+      "destination_path": "oceania-registry/countries/GU/part-001.b64",
+      "source_git_blob_sha": "59290c894417968128b08e7591769ea478b043b3",
+      "source_bytes": 163005,
+      "destination_bytes": 163005,
+      "destination_git_blob_sha": "59290c894417968128b08e7591769ea478b043b3",
+      "destination_sha256": "65dd69635fd2511f1afe7dd06e8a4d13796848b57f73cc7ac59a0338000b83ba",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/HM/index.json",
+      "destination_path": "oceania-registry/countries/HM/index.json",
+      "source_git_blob_sha": "2fc5acf841599d4ddb57c7fbbaf03223aeaddec2",
+      "source_bytes": 2502,
+      "destination_bytes": 2502,
+      "destination_git_blob_sha": "2fc5acf841599d4ddb57c7fbbaf03223aeaddec2",
+      "destination_sha256": "2f76de28a0661e6553176e68ce04647f25aab7bb9b6f22eb790492d0b082568e",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/HM/part-001.b64",
+      "destination_path": "oceania-registry/countries/HM/part-001.b64",
+      "source_git_blob_sha": "3002593a69b83cbb2c2b1badcf912d5004898631",
+      "source_bytes": 43837,
+      "destination_bytes": 43837,
+      "destination_git_blob_sha": "3002593a69b83cbb2c2b1badcf912d5004898631",
+      "destination_sha256": "05567a0e26d60a7e1165d3bc7cdc2a1c4f673855fb78186c1a0855b448bafea3",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/KI/index.json",
+      "destination_path": "oceania-registry/countries/KI/index.json",
+      "source_git_blob_sha": "28b086e6aa903010608992108f0880bd56c70351",
+      "source_bytes": 2481,
+      "destination_bytes": 2481,
+      "destination_git_blob_sha": "28b086e6aa903010608992108f0880bd56c70351",
+      "destination_sha256": "3c777dadb8b1c596285a493cb81932b3ec757b5a999def3ce037690712c74c6a",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/KI/part-001.b64",
+      "destination_path": "oceania-registry/countries/KI/part-001.b64",
+      "source_git_blob_sha": "50514f9d6d37ff65cd27b5d2730d6dc559e1ede8",
+      "source_bytes": 154857,
+      "destination_bytes": 154857,
+      "destination_git_blob_sha": "50514f9d6d37ff65cd27b5d2730d6dc559e1ede8",
+      "destination_sha256": "0896e422be971dc59310549230143367eadf4f835e3e213bc82c33df297f21c6",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/MH/index.json",
+      "destination_path": "oceania-registry/countries/MH/index.json",
+      "source_git_blob_sha": "35beba3ce471cd963776c6031b630c37569f31c1",
+      "source_bytes": 2485,
+      "destination_bytes": 2485,
+      "destination_git_blob_sha": "35beba3ce471cd963776c6031b630c37569f31c1",
+      "destination_sha256": "2c7b66bfda1faff311d4e7cd16e876eb5a803669cb3f977a6a30addca4bad151",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/MH/part-001.b64",
+      "destination_path": "oceania-registry/countries/MH/part-001.b64",
+      "source_git_blob_sha": "eb3f98395e91862acd4272a8ba2b68958711eb1f",
+      "source_bytes": 224773,
+      "destination_bytes": 224773,
+      "destination_git_blob_sha": "eb3f98395e91862acd4272a8ba2b68958711eb1f",
+      "destination_sha256": "55ccd80843a685c70450d08de2ac0ccdbbc3ed34b0f4b0286c164fe7a24f8469",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/MP/index.json",
+      "destination_path": "oceania-registry/countries/MP/index.json",
+      "source_git_blob_sha": "eb19ba3105af1f89d694b39fafbf81e4ec490da2",
+      "source_bytes": 2482,
+      "destination_bytes": 2482,
+      "destination_git_blob_sha": "eb19ba3105af1f89d694b39fafbf81e4ec490da2",
+      "destination_sha256": "34666b171438f78ae0bc19af62c8081b758c1d1bce4f2f2427ab12402cfd51d1",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/MP/part-001.b64",
+      "destination_path": "oceania-registry/countries/MP/part-001.b64",
+      "source_git_blob_sha": "c91a94fa32ca6b8f82f65ae166a929836ad57b4f",
+      "source_bytes": 141885,
+      "destination_bytes": 141885,
+      "destination_git_blob_sha": "c91a94fa32ca6b8f82f65ae166a929836ad57b4f",
+      "destination_sha256": "811dbf5a3048ed4df9abf3367c8b9cbaacbc192dc8d5e82e0ffffef2aa9d7944",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/NC/index.json",
+      "destination_path": "oceania-registry/countries/NC/index.json",
+      "source_git_blob_sha": "c3fbccc90ffa6c71c8693fdb28bf43d89fd04c5d",
+      "source_bytes": 2486,
+      "destination_bytes": 2486,
+      "destination_git_blob_sha": "c3fbccc90ffa6c71c8693fdb28bf43d89fd04c5d",
+      "destination_sha256": "30fa1071b386a64810b59a35097d51d5c3c7dd3e1a29ff62d48c3ad238c86659",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/NC/part-001.b64",
+      "destination_path": "oceania-registry/countries/NC/part-001.b64",
+      "source_git_blob_sha": "0b1d3ff6da9f59a423570a8f55b7d16ce08f4d39",
+      "source_bytes": 429297,
+      "destination_bytes": 429297,
+      "destination_git_blob_sha": "0b1d3ff6da9f59a423570a8f55b7d16ce08f4d39",
+      "destination_sha256": "80202f335209289f3a9eb080ae28b77b2729b8de6049d56674a1ed17455e3ae7",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/NF/index.json",
+      "destination_path": "oceania-registry/countries/NF/index.json",
+      "source_git_blob_sha": "7056349b22eb15a74b971a44cd8743264978e669",
+      "source_bytes": 2508,
+      "destination_bytes": 2508,
+      "destination_git_blob_sha": "7056349b22eb15a74b971a44cd8743264978e669",
+      "destination_sha256": "ab67d4a9403d89d8b7661f6b086a6a246c37871a6f0caf6d691bbb9ae6c034f6",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/NF/part-001.b64",
+      "destination_path": "oceania-registry/countries/NF/part-001.b64",
+      "source_git_blob_sha": "6fcd9153d256c1e2cacec5ffa108025f1994d23a",
+      "source_bytes": 40121,
+      "destination_bytes": 40121,
+      "destination_git_blob_sha": "6fcd9153d256c1e2cacec5ffa108025f1994d23a",
+      "destination_sha256": "27bcb64225b41505fac8b361564f1f011bb584ec557f73f17845cfe512af4121",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/NR/index.json",
+      "destination_path": "oceania-registry/countries/NR/index.json",
+      "source_git_blob_sha": "57ebe667e1e2be85805c6e209943ddb6c627244d",
+      "source_bytes": 2480,
+      "destination_bytes": 2480,
+      "destination_git_blob_sha": "57ebe667e1e2be85805c6e209943ddb6c627244d",
+      "destination_sha256": "e6e9444f26b9f21347c99240daf127482dbed6ae6e74b17a81ccb929054e356d",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/NR/part-001.b64",
+      "destination_path": "oceania-registry/countries/NR/part-001.b64",
+      "source_git_blob_sha": "39e86b61cfd443f67116bce91680aca57c6825e8",
+      "source_bytes": 135673,
+      "destination_bytes": 135673,
+      "destination_git_blob_sha": "39e86b61cfd443f67116bce91680aca57c6825e8",
+      "destination_sha256": "a6f1b105316055491accc29387f993298332e21fa28186f897fac24b263b347d",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/NU/index.json",
+      "destination_path": "oceania-registry/countries/NU/index.json",
+      "source_git_blob_sha": "0a58b4d3fe518334195807fb9da7f736951a5fb8",
+      "source_bytes": 2470,
+      "destination_bytes": 2470,
+      "destination_git_blob_sha": "0a58b4d3fe518334195807fb9da7f736951a5fb8",
+      "destination_sha256": "727287a53f828c0207dfa2b8ea2b30f6d541abbc2822457b9b8d4994b21ea75b",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/NU/part-001.b64",
+      "destination_path": "oceania-registry/countries/NU/part-001.b64",
+      "source_git_blob_sha": "7988b3d0b0fc72e6826f35e842583c68867c178f",
+      "source_bytes": 53941,
+      "destination_bytes": 53941,
+      "destination_git_blob_sha": "7988b3d0b0fc72e6826f35e842583c68867c178f",
+      "destination_sha256": "475d856cb6f8d41ca6d961e0f4057becbc5e633b4cde339b93be86852a59125d",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/NZ/index.json",
+      "destination_path": "oceania-registry/countries/NZ/index.json",
+      "source_git_blob_sha": "09f6a3e32e0d4b4cf6bcfe8ac53c887daacfa553",
+      "source_bytes": 3802,
+      "destination_bytes": 3802,
+      "destination_git_blob_sha": "09f6a3e32e0d4b4cf6bcfe8ac53c887daacfa553",
+      "destination_sha256": "187fd946dea5d334f07b2fc408ab38cf5431c0a3546fa45d94c715b584a4d1fd",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/NZ/part-001.b64",
+      "destination_path": "oceania-registry/countries/NZ/part-001.b64",
+      "source_git_blob_sha": "701e6c1099e0a5d0b1ae690761d502c39805a6bc",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "701e6c1099e0a5d0b1ae690761d502c39805a6bc",
+      "destination_sha256": "6376aceb2d8ab5355ebc5c402aa814d56c19309c88374627ecf0bd2637ddb946",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/NZ/part-002.b64",
+      "destination_path": "oceania-registry/countries/NZ/part-002.b64",
+      "source_git_blob_sha": "84583e94eea2cb6db099770f0e4a60ba066a1273",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "84583e94eea2cb6db099770f0e4a60ba066a1273",
+      "destination_sha256": "b25d3d153259e4188cfe1449c39fb0d5b7d88010d0bf4ea777737dfc13926930",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/NZ/part-003.b64",
+      "destination_path": "oceania-registry/countries/NZ/part-003.b64",
+      "source_git_blob_sha": "691a2b41e2abdcd71d5eee6d20c3c27b978deea0",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "691a2b41e2abdcd71d5eee6d20c3c27b978deea0",
+      "destination_sha256": "251360bbe5dec4c426329324beaadfaf31405c047ba9b934cd59e2762afdc118",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/NZ/part-004.b64",
+      "destination_path": "oceania-registry/countries/NZ/part-004.b64",
+      "source_git_blob_sha": "9b1616227bff0e851bb057303700164b183bcace",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "9b1616227bff0e851bb057303700164b183bcace",
+      "destination_sha256": "72ba1910000a5c855272d0b096dee3cab4b131f6389cdf30722dc489dc48d13e",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/NZ/part-005.b64",
+      "destination_path": "oceania-registry/countries/NZ/part-005.b64",
+      "source_git_blob_sha": "cdd0f35b63a8d9a4f6ff855509d4babee0db1e75",
+      "source_bytes": 213449,
+      "destination_bytes": 213449,
+      "destination_git_blob_sha": "cdd0f35b63a8d9a4f6ff855509d4babee0db1e75",
+      "destination_sha256": "6a2bfaaf28f740f5c0cf48094016ce4419275d43c1712a19c4927ecf6e74f9dd",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/PF/index.json",
+      "destination_path": "oceania-registry/countries/PF/index.json",
+      "source_git_blob_sha": "aaf7b1e0619a59a3942250d75d763fda39726d3a",
+      "source_bytes": 2483,
+      "destination_bytes": 2483,
+      "destination_git_blob_sha": "aaf7b1e0619a59a3942250d75d763fda39726d3a",
+      "destination_sha256": "589060aab59486dd3bb3c716aa832c72f2e35e6e7c2daaee2ae55bbdf862b3bc",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/PF/part-001.b64",
+      "destination_path": "oceania-registry/countries/PF/part-001.b64",
+      "source_git_blob_sha": "a64de1b8e92f36d91e37cce0cf3b4ce9fb37e3a8",
+      "source_bytes": 413021,
+      "destination_bytes": 413021,
+      "destination_git_blob_sha": "a64de1b8e92f36d91e37cce0cf3b4ce9fb37e3a8",
+      "destination_sha256": "e6a4edb63f5adb8149bd607f1e135904ea58cf851d6d915382dbd932aed17c4e",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/PG/index.json",
+      "destination_path": "oceania-registry/countries/PG/index.json",
+      "source_git_blob_sha": "9cb2dac1b003cb169b209d4624a60838bda6f58b",
+      "source_bytes": 3442,
+      "destination_bytes": 3442,
+      "destination_git_blob_sha": "9cb2dac1b003cb169b209d4624a60838bda6f58b",
+      "destination_sha256": "922d6189343caa514b2838ca5a1c272f3659dbefc0580ac8d66006c2317f2af2",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/PG/part-001.b64",
+      "destination_path": "oceania-registry/countries/PG/part-001.b64",
+      "source_git_blob_sha": "1b2ac8abb484156f50bd3aca74e7e3e418b1a7cc",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "1b2ac8abb484156f50bd3aca74e7e3e418b1a7cc",
+      "destination_sha256": "4fb10f38514b9022387d5a8c36c9b03f38be6550b8f32e2e8a7a1f06889e3eed",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/PG/part-002.b64",
+      "destination_path": "oceania-registry/countries/PG/part-002.b64",
+      "source_git_blob_sha": "e15f6c89579b1a0f0c175e809fef6df665a1cd6a",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "e15f6c89579b1a0f0c175e809fef6df665a1cd6a",
+      "destination_sha256": "6446243bfe282279d8ebdbbcecbe09dee32b79baee89f31f0508edec7abc19e7",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/PG/part-003.b64",
+      "destination_path": "oceania-registry/countries/PG/part-003.b64",
+      "source_git_blob_sha": "f3f01203ca0dfe0293b8bc985a41098b8124fda2",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "f3f01203ca0dfe0293b8bc985a41098b8124fda2",
+      "destination_sha256": "ea88f6f7102cbec19a7892aff2d253c990367e4099e72f7ce420a0265ba77359",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/PG/part-004.b64",
+      "destination_path": "oceania-registry/countries/PG/part-004.b64",
+      "source_git_blob_sha": "bac634a8938e84116a149ea90c1904562345ced6",
+      "source_bytes": 664449,
+      "destination_bytes": 664449,
+      "destination_git_blob_sha": "bac634a8938e84116a149ea90c1904562345ced6",
+      "destination_sha256": "a5a9a3a140637f56b2a2eafa57e4b8903d1be8095125e51ae178fa5229d73cc7",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/PN/index.json",
+      "destination_path": "oceania-registry/countries/PN/index.json",
+      "source_git_blob_sha": "1a9a1ff0cbc9b5e8ee3b3ff0d5bfd4825b7295b2",
+      "source_bytes": 2468,
+      "destination_bytes": 2468,
+      "destination_git_blob_sha": "1a9a1ff0cbc9b5e8ee3b3ff0d5bfd4825b7295b2",
+      "destination_sha256": "a2680a6bad38dbb5c6bdd608628e17c2c207d8480fd1b663a61c220d47680097",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/PN/part-001.b64",
+      "destination_path": "oceania-registry/countries/PN/part-001.b64",
+      "source_git_blob_sha": "83d3a017c5bd78097638b30b339ac034d6acb64a",
+      "source_bytes": 38677,
+      "destination_bytes": 38677,
+      "destination_git_blob_sha": "83d3a017c5bd78097638b30b339ac034d6acb64a",
+      "destination_sha256": "13f3ab0856280addbe0b5b07208177b53e791790485a9cb6c229d9d76348ee10",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/PW/index.json",
+      "destination_path": "oceania-registry/countries/PW/index.json",
+      "source_git_blob_sha": "4ef46c9064f3a98230aa657454a538918b8f9242",
+      "source_bytes": 2485,
+      "destination_bytes": 2485,
+      "destination_git_blob_sha": "4ef46c9064f3a98230aa657454a538918b8f9242",
+      "destination_sha256": "d5751e8027fe59822a3724b2da86d6f74a87f4d9e47f0dc632773216ea1ad726",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/PW/part-001.b64",
+      "destination_path": "oceania-registry/countries/PW/part-001.b64",
+      "source_git_blob_sha": "73bd29e1274653a0610702727ed90a811ab5d36a",
+      "source_bytes": 251741,
+      "destination_bytes": 251741,
+      "destination_git_blob_sha": "73bd29e1274653a0610702727ed90a811ab5d36a",
+      "destination_sha256": "1ecd35417117b7b6f6531b45cb78e776304067cdb7cf4ce5ecdafaf329360020",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/SB/index.json",
+      "destination_path": "oceania-registry/countries/SB/index.json",
+      "source_git_blob_sha": "bae6c13c60cb7141457b496d25fa69373d8efbb7",
+      "source_bytes": 2801,
+      "destination_bytes": 2801,
+      "destination_git_blob_sha": "bae6c13c60cb7141457b496d25fa69373d8efbb7",
+      "destination_sha256": "cead3993f64a1f1e472557187c5805e63b9987e8e7f918187b39c6a0d8efbd85",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/SB/part-001.b64",
+      "destination_path": "oceania-registry/countries/SB/part-001.b64",
+      "source_git_blob_sha": "be98d38368de4fbd7386d88b4cb5889597ed5149",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "be98d38368de4fbd7386d88b4cb5889597ed5149",
+      "destination_sha256": "98d42673915cffe83156a5fcdddffdbde81b0e42632af0730a531937cfa1bbf6",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/SB/part-002.b64",
+      "destination_path": "oceania-registry/countries/SB/part-002.b64",
+      "source_git_blob_sha": "5f8ad93fc80952522bcb964b8eb2f57e5d9df7cd",
+      "source_bytes": 307241,
+      "destination_bytes": 307241,
+      "destination_git_blob_sha": "5f8ad93fc80952522bcb964b8eb2f57e5d9df7cd",
+      "destination_sha256": "3c2cca9d942809ec2acc60b8e4285ee45f6cf482bec7cb186312cd6c1a692a01",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/TK/index.json",
+      "destination_path": "oceania-registry/countries/TK/index.json",
+      "source_git_blob_sha": "6c7d4bebf39b276f22d7af9f0557d2a989b22391",
+      "source_bytes": 2468,
+      "destination_bytes": 2468,
+      "destination_git_blob_sha": "6c7d4bebf39b276f22d7af9f0557d2a989b22391",
+      "destination_sha256": "b05d1ce11e02316e35a7d31fae3e0af1ddd0221972f25b14693c965d8a2b2d29",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/TK/part-001.b64",
+      "destination_path": "oceania-registry/countries/TK/part-001.b64",
+      "source_git_blob_sha": "68ccc2dbf261e70b225bcdfe44235f339a180855",
+      "source_bytes": 47437,
+      "destination_bytes": 47437,
+      "destination_git_blob_sha": "68ccc2dbf261e70b225bcdfe44235f339a180855",
+      "destination_sha256": "83453ea262aad4686cdccbd03ad71e92a32a7c0f82c591cc005319c3f0dcf77e",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/TO/index.json",
+      "destination_path": "oceania-registry/countries/TO/index.json",
+      "source_git_blob_sha": "ec47334a76df3ba92a543ef3dcbc78cf61f5b4cf",
+      "source_bytes": 2474,
+      "destination_bytes": 2474,
+      "destination_git_blob_sha": "ec47334a76df3ba92a543ef3dcbc78cf61f5b4cf",
+      "destination_sha256": "c1617c026415279793c43f8559a563fd958f9dad30023e75f44cd45e1ba38f16",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/TO/part-001.b64",
+      "destination_path": "oceania-registry/countries/TO/part-001.b64",
+      "source_git_blob_sha": "01f4c281e9eb2427a5e40cb72dd3ca1dd572de58",
+      "source_bytes": 126005,
+      "destination_bytes": 126005,
+      "destination_git_blob_sha": "01f4c281e9eb2427a5e40cb72dd3ca1dd572de58",
+      "destination_sha256": "083f0f5ee1cc74f689f4125cb30aae3ae78aaf8891f8eed9b702b3f2e6f5ec0e",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/TV/index.json",
+      "destination_path": "oceania-registry/countries/TV/index.json",
+      "source_git_blob_sha": "8a5b1e45d74c4ed368b2468f3b143a2e0126b20d",
+      "source_bytes": 2473,
+      "destination_bytes": 2473,
+      "destination_git_blob_sha": "8a5b1e45d74c4ed368b2468f3b143a2e0126b20d",
+      "destination_sha256": "83996e28e62886d5df2f93ab3c4237f04a3b76fb862a40ec7dad13a64a5698ab",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/TV/part-001.b64",
+      "destination_path": "oceania-registry/countries/TV/part-001.b64",
+      "source_git_blob_sha": "a2f885ebb1a86d86fd7e85509414f325a02653b6",
+      "source_bytes": 95797,
+      "destination_bytes": 95797,
+      "destination_git_blob_sha": "a2f885ebb1a86d86fd7e85509414f325a02653b6",
+      "destination_sha256": "c5d3602e0e5f73369b6259a3d0c8720e39e9d96d80a7e85ad5581a8e597b983c",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/UM/index.json",
+      "destination_path": "oceania-registry/countries/UM/index.json",
+      "source_git_blob_sha": "4061b8ba7c0739bdcb1403c339b0aa7ab59eac2e",
+      "source_bytes": 2476,
+      "destination_bytes": 2476,
+      "destination_git_blob_sha": "4061b8ba7c0739bdcb1403c339b0aa7ab59eac2e",
+      "destination_sha256": "aadaf2a9d7efc59ad345eee0d2996ea6894260cdd98060b09984ae8dc6a7abfc",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/UM/part-001.b64",
+      "destination_path": "oceania-registry/countries/UM/part-001.b64",
+      "source_git_blob_sha": "f4db234a03ac68c25daf073950f814a4e949cc1c",
+      "source_bytes": 99889,
+      "destination_bytes": 99889,
+      "destination_git_blob_sha": "f4db234a03ac68c25daf073950f814a4e949cc1c",
+      "destination_sha256": "645b2073b98d2e582c8dbfd226a7d002fcddaa64127a9eb9b95e3e7d05036e5e",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/VU/index.json",
+      "destination_path": "oceania-registry/countries/VU/index.json",
+      "source_git_blob_sha": "0f4b4c3000d086ecee946db0a37a7509bb7b1eed",
+      "source_bytes": 2480,
+      "destination_bytes": 2480,
+      "destination_git_blob_sha": "0f4b4c3000d086ecee946db0a37a7509bb7b1eed",
+      "destination_sha256": "cb26566fb084cfeeded3bc7c52c7d3c4905c94cfe53df955c3004f7c182fc826",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/VU/part-001.b64",
+      "destination_path": "oceania-registry/countries/VU/part-001.b64",
+      "source_git_blob_sha": "67b2d57719123183bfd09019d4348a2c1273e686",
+      "source_bytes": 540409,
+      "destination_bytes": 540409,
+      "destination_git_blob_sha": "67b2d57719123183bfd09019d4348a2c1273e686",
+      "destination_sha256": "372312107c45752eb706b3bc006d534c7b665eb8b828c4db57b94fe305e0421b",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/WF/index.json",
+      "destination_path": "oceania-registry/countries/WF/index.json",
+      "source_git_blob_sha": "334c16f139c2f0b45793a28221934ddc960afc8c",
+      "source_bytes": 2479,
+      "destination_bytes": 2479,
+      "destination_git_blob_sha": "334c16f139c2f0b45793a28221934ddc960afc8c",
+      "destination_sha256": "40d956d7fd7d95526338c3e760017095ec3abfeff7cedc61a9dfad60c1b3c356",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/WF/part-001.b64",
+      "destination_path": "oceania-registry/countries/WF/part-001.b64",
+      "source_git_blob_sha": "5ee070ce7c57b59bf972fd74b9dc387386febb37",
+      "source_bytes": 106749,
+      "destination_bytes": 106749,
+      "destination_git_blob_sha": "5ee070ce7c57b59bf972fd74b9dc387386febb37",
+      "destination_sha256": "0ffe38c745febd078cf6f6b9540d86e4756a18c87d8a0ffbd46b7286c283dd9b",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/WS/index.json",
+      "destination_path": "oceania-registry/countries/WS/index.json",
+      "source_git_blob_sha": "f24b945b3d3138eda81752f04800ef3f0d83efdc",
+      "source_bytes": 2478,
+      "destination_bytes": 2478,
+      "destination_git_blob_sha": "f24b945b3d3138eda81752f04800ef3f0d83efdc",
+      "destination_sha256": "ba734d00d5f63efd837a8c3e1540822d8fadf66a2dfc9ae61718997bde8002e0",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/countries/WS/part-001.b64",
+      "destination_path": "oceania-registry/countries/WS/part-001.b64",
+      "source_git_blob_sha": "be33703b55c0bcef3fb7fbb56bfd4aa238103f2c",
+      "source_bytes": 236609,
+      "destination_bytes": 236609,
+      "destination_git_blob_sha": "be33703b55c0bcef3fb7fbb56bfd4aa238103f2c",
+      "destination_sha256": "2c44f768e939a5f237c882a63b3505715d794f8a746ba070e58ed4bf121e130c",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/country_profiles.json",
+      "destination_path": "oceania-registry/country_profiles.json",
+      "source_git_blob_sha": "147d51f4864aee69cfd58f0f4910575ebdad899e",
+      "source_bytes": 23622,
+      "destination_bytes": 23622,
+      "destination_git_blob_sha": "147d51f4864aee69cfd58f0f4910575ebdad899e",
+      "destination_sha256": "9b75dedfb2e652ce9bdf3f03d8bf4e0ebe1b528fb6a9bc479a3d8472f03a536c",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/coverage.csv",
+      "destination_path": "oceania-registry/coverage.csv",
+      "source_git_blob_sha": "4022b428cd79a279400c7210eada2f1be5cf86b3",
+      "source_bytes": 3483,
+      "destination_bytes": 3483,
+      "destination_git_blob_sha": "4022b428cd79a279400c7210eada2f1be5cf86b3",
+      "destination_sha256": "34154fbb0aa3827f1c7ff89d9ba75323c17d9dbbfc56d86d64259c5ad835bd50",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/coverage.json",
+      "destination_path": "oceania-registry/coverage.json",
+      "source_git_blob_sha": "f54f1982ec02d824278c9a879a63ea8d0a42152a",
+      "source_bytes": 12744,
+      "destination_bytes": 12744,
+      "destination_git_blob_sha": "f54f1982ec02d824278c9a879a63ea8d0a42152a",
+      "destination_sha256": "3ebc35fb2d9f9a6b3f7061597d61cf8ada7029b37a08dc1cda01cb3fa0939c01",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/locale_manifest.json",
+      "destination_path": "oceania-registry/locale_manifest.json",
+      "source_git_blob_sha": "e83c4acfb218da15417e8799c422eef13cc3f276",
+      "source_bytes": 20599,
+      "destination_bytes": 20599,
+      "destination_git_blob_sha": "e83c4acfb218da15417e8799c422eef13cc3f276",
+      "destination_sha256": "ba2f3e9b832390253f2bb0b379bc11f8317327596566ee7cf23fffeb87511bca",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/pack_manifest.json",
+      "destination_path": "oceania-registry/pack_manifest.json",
+      "source_git_blob_sha": "62ecd69672ba749a44402a68221527496f0c6013",
+      "source_bytes": 107478,
+      "destination_bytes": 107478,
+      "destination_git_blob_sha": "62ecd69672ba749a44402a68221527496f0c6013",
+      "destination_sha256": "92992eb4834234976f06feab973ae75c989c49247cbda49ff795730d85137697",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/quality/parent_issues.csv",
+      "destination_path": "oceania-registry/quality/parent_issues.csv",
+      "source_git_blob_sha": "18141cc4c9a5faef31d5dc6e4aa51f5bbeb8f694",
+      "source_bytes": 93860,
+      "destination_bytes": 93860,
+      "destination_git_blob_sha": "18141cc4c9a5faef31d5dc6e4aa51f5bbeb8f694",
+      "destination_sha256": "5be3f25091220c6d57419dbdefedf442839ae816a3c36ecb014a130c86d0b087",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/quality/split_validation.json",
+      "destination_path": "oceania-registry/quality/split_validation.json",
+      "source_git_blob_sha": "8cc5e4102058fe62da88acaa2701d1c4dd784aa7",
+      "source_bytes": 275,
+      "destination_bytes": 275,
+      "destination_git_blob_sha": "8cc5e4102058fe62da88acaa2701d1c4dd784aa7",
+      "destination_sha256": "33d67bc8d291e75cd43f4a465cb99c1c34d1d328f4b82fa436012cd3f49b9e19",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/quality/validation.json",
+      "destination_path": "oceania-registry/quality/validation.json",
+      "source_git_blob_sha": "253e598fcb76df576ec2c67f1db58beaea94d096",
+      "source_bytes": 6287,
+      "destination_bytes": 6287,
+      "destination_git_blob_sha": "253e598fcb76df576ec2c67f1db58beaea94d096",
+      "destination_sha256": "db2940e1affc47f5d6e47d4bba7a8df7b8cbfabce512481a99f9ac81c9723bf7",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/schema.json",
+      "destination_path": "oceania-registry/schema.json",
+      "source_git_blob_sha": "852df2c4d16b863198920d8406176e9401f49598",
+      "source_bytes": 2183,
+      "destination_bytes": 2183,
+      "destination_git_blob_sha": "852df2c4d16b863198920d8406176e9401f49598",
+      "destination_sha256": "d7e69b1f23ff82733c6f00fe9c0bb755448610026f1276d9588c098cf3e468b2",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/scripts/build_locale_data.py",
+      "destination_path": "oceania-registry/scripts/build_locale_data.py",
+      "source_git_blob_sha": "981dc2f9a7f2f72d6ef8c8ba5dfa3051eedf8801",
+      "source_bytes": 9893,
+      "destination_bytes": 9893,
+      "destination_git_blob_sha": "981dc2f9a7f2f72d6ef8c8ba5dfa3051eedf8801",
+      "destination_sha256": "8a5392521829bd8180d09c2792225287ae1cc40c7c9692f3ae4b0522dd1384d0",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/scripts/download_locale_sources.py",
+      "destination_path": "oceania-registry/scripts/download_locale_sources.py",
+      "source_git_blob_sha": "53d8bdaab939170ab5ee774f15f91aecbc3283ad",
+      "source_bytes": 3131,
+      "destination_bytes": 3131,
+      "destination_git_blob_sha": "53d8bdaab939170ab5ee774f15f91aecbc3283ad",
+      "destination_sha256": "1a3efc9af0ad22d2f2eb5574e8113b49d92218c1200857cb2890266888a8962a",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/scripts/extract_country.py",
+      "destination_path": "oceania-registry/scripts/extract_country.py",
+      "source_git_blob_sha": "bbf4545fa2c49d629454e4c2714451fa4b82e218",
+      "source_bytes": 1575,
+      "destination_bytes": 1575,
+      "destination_git_blob_sha": "f57f5e76c1a1e0585ed091cccadc919812daafc2",
+      "destination_sha256": "cfcf4fb20c0a32c0e843987fb1ee180ef9c7eb3cbedaf903f93e92ef679d97ed",
+      "identical_to_source": false
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/scripts/split_country_packs.py",
+      "destination_path": "oceania-registry/scripts/split_country_packs.py",
+      "source_git_blob_sha": "6c6c91050f36e8952fb09adbfce96d228352e495",
+      "source_bytes": 6182,
+      "destination_bytes": 6182,
+      "destination_git_blob_sha": "6c6c91050f36e8952fb09adbfce96d228352e495",
+      "destination_sha256": "81b9fa577588ee375e3d1bf43c4927d67618736f1a14e5e404334745d599aab4",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/scripts/validate_split_pack.py",
+      "destination_path": "oceania-registry/scripts/validate_split_pack.py",
+      "source_git_blob_sha": "00e6d65cb7a3292c1bed84c3b52511300b10c81f",
+      "source_bytes": 3846,
+      "destination_bytes": 3846,
+      "destination_git_blob_sha": "217b1f9fde6cb28a8ab3c4af94dbf2f1f0e67b9e",
+      "destination_sha256": "3331a54498567d86b0cb95c4fa86f939588d4e3dd9ea4111888b8d28de0651b6",
+      "identical_to_source": false
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/shared/index.json",
+      "destination_path": "oceania-registry/shared/index.json",
+      "source_git_blob_sha": "10a91d41bcfeace5358216d66c52715d37630019",
+      "source_bytes": 6056,
+      "destination_bytes": 6056,
+      "destination_git_blob_sha": "10a91d41bcfeace5358216d66c52715d37630019",
+      "destination_sha256": "dd98be79e09934b79a7a0c0954dde29bb4b1dfdcab5d5364cb49de2f068c3965",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/shared/part-001.b64",
+      "destination_path": "oceania-registry/shared/part-001.b64",
+      "source_git_blob_sha": "48da16c7d90abd4b2b679c8972893f87fb09a9b4",
+      "source_bytes": 699053,
+      "destination_bytes": 699053,
+      "destination_git_blob_sha": "48da16c7d90abd4b2b679c8972893f87fb09a9b4",
+      "destination_sha256": "e2fc69fb9ef91dab192e17ce7116b56a89a827a0c4ad3458d2a399b8c808d30a",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/shared/part-002.b64",
+      "destination_path": "oceania-registry/shared/part-002.b64",
+      "source_git_blob_sha": "d2bf63ce481b33e16414e4495e31dbb9d6309e4d",
+      "source_bytes": 464361,
+      "destination_bytes": 464361,
+      "destination_git_blob_sha": "d2bf63ce481b33e16414e4495e31dbb9d6309e4d",
+      "destination_sha256": "64f4ad28954ca6171a351bd26ef18d87f1a6d44677bcc18e3c390af6386e369a",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/sources.json",
+      "destination_path": "oceania-registry/sources.json",
+      "source_git_blob_sha": "20b439ccca548c638c9045ac2519266e3ef78ff6",
+      "source_bytes": 12197,
+      "destination_bytes": 12197,
+      "destination_git_blob_sha": "20b439ccca548c638c9045ac2519266e3ef78ff6",
+      "destination_sha256": "08f9dc73a568c5afa5ff1425562c220f2377d6fb663381b6884f925b9821dafb",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/summary.csv",
+      "destination_path": "oceania-registry/summary.csv",
+      "source_git_blob_sha": "4f3b971e07e13c1cb31c449af80605051d89aa49",
+      "source_bytes": 4083,
+      "destination_bytes": 4083,
+      "destination_git_blob_sha": "4f3b971e07e13c1cb31c449af80605051d89aa49",
+      "destination_sha256": "0620ea31018c7676bb0319d4a5da9f9c645496a02512c66f73c70647e12e0038",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/region-packs/oceania/summary.json",
+      "destination_path": "oceania-registry/summary.json",
+      "source_git_blob_sha": "721be9ed52343ed29ae6d9d4567402416b79ed35",
+      "source_bytes": 13588,
+      "destination_bytes": 13588,
+      "destination_git_blob_sha": "721be9ed52343ed29ae6d9d4567402416b79ed35",
+      "destination_sha256": "a0d6bed9a8cd86a4292716ec35d4db6568dd0651139879e3806de2a1b37616be",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/addresskit/region_names.py",
+      "destination_path": "oceania-registry/addresskit/region_names.py",
+      "source_git_blob_sha": "05af248f11b872852c3c69e6da71bf4285b4f744",
+      "source_bytes": 17884,
+      "destination_bytes": 17884,
+      "destination_git_blob_sha": "05af248f11b872852c3c69e6da71bf4285b4f744",
+      "destination_sha256": "cfacf413bf9aa4b6e7db9d6c4b40c1999cb2d8b32132273f54f560f8fe6a2eee",
+      "identical_to_source": true
+    },
+    {
+      "source_path": "address-foundation/tests/test_region_names.py",
+      "destination_path": "oceania-registry/tests/test_region_names.py",
+      "source_git_blob_sha": "4c518c19651e8d286a6dfe6b467b5681f08132d0",
+      "source_bytes": 9758,
+      "destination_bytes": 9758,
+      "destination_git_blob_sha": "4c518c19651e8d286a6dfe6b467b5681f08132d0",
+      "destination_sha256": "e20e13cc6ca8e8164766923083b136bb761c4cb38e078b890b3d35c8e078d920",
+      "identical_to_source": true
+    }
+  ],
+  "migration_date": "2026-10-01",
+  "original_source_files_verified": 117,
+  "data_payload_unchanged": true,
+  "adapted_files": [
+    "oceania-registry/README.md",
+    "oceania-registry/scripts/extract_country.py",
+    "oceania-registry/scripts/validate_split_pack.py"
+  ],
+  "additional_files": [
+    "oceania-registry/addresskit/__init__.py",
+    "oceania-registry/migration.json"
+  ],
+  "not_full_postal_or_official_language_coverage": true
+}

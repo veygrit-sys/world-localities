@@ -1,0 +1,103 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "SLV",
+    "country": "SV",
+    "geonames_continent": "NA",
+    "geonames_country_name": "El Salvador",
+    "geonames_id": "3585968",
+    "id": "country:SV",
+    "m49": "222",
+    "name_en": "El Salvador",
+    "numeric": "222",
+    "region": "Central America",
+    "reported_languages": [
+      "es-SV"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 4889,
+    "admin_rows": 321,
+    "ambiguous_parents": 0,
+    "country": "SV",
+    "country_scope_only": 1,
+    "localities_without_adm1": 1,
+    "locality_rows": 4889,
+    "name_en": "El Salvador",
+    "other_admin_rows": 1,
+    "region": "Central America",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 14,
+    "ADM2": 44,
+    "ADM3": 262,
+    "ADM4": 1,
+    "PCLI": 1,
+    "PPL": 3483,
+    "PPLA": 13,
+    "PPLC": 1,
+    "PPLX": 1392
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 175410,
+      "rows": 5211,
+      "sha256": "9af262a297b8065220384679e050f0608b763752fb2ace588b93effd7e5b680c",
+      "uncompressed_sha256": "e058b5dc4b525814e8bca354f1949320db595bc39a62abc0221fdcf02585961e"
+    }
+  },
+  "known_issues": [
+    {
+      "note": "Snapshot counts align with post-reform departments, municipalities and districts; counts alone do not verify names, boundaries, or every parent link.",
+      "official_reference_counts": {
+        "ADM1": 14,
+        "ADM2": 44,
+        "ADM3": 262
+      },
+      "reference_url": "https://www.asamblea.gob.sv/node/12819",
+      "reference_vintage": "2023 restructuring law, municipal organization implemented in 2024",
+      "source_feature_counts": {
+        "ADM1": 14,
+        "ADM2": 44,
+        "ADM3": 262
+      },
+      "status": "count_matches_reference_hierarchy_not_verified"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 1,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 5195,
+    "source_country": 14
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 14,
+      "sha256": "7a655dbaa750a5c87b53b20482d9b4d2744fda3f780df238eeca152d841ff34a"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 231933,
+    "discarded_feature_classes": {
+      "H": 1325,
+      "L": 82,
+      "R": 1,
+      "S": 509,
+      "T": 951
+    },
+    "retained_rows": 5211,
+    "retrieved_on": "2026-10-01",
+    "sha256": "e888556384264dcae78115c834c20fae0e98b4061524e543b2314301b7098aa5",
+    "source_rows": 8079,
+    "url": "https://download.geonames.org/export/dump/SV.zip"
+  },
+  "source_modified_max": "2026-09-28",
+  "source_modified_min": "1993-12-19"
+}

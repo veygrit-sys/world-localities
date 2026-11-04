@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "source": {
+    "id": "OSM-HK",
+    "country": "HK",
+    "format": "selected_osm_pbf",
+    "role": "supplementary_roads_addresses_administration",
+    "path": "projections/HK.osm.pbf",
+    "url": "https://download.geofabrik.de/asia/china/hong-kong-261020.osm.pbf",
+    "licence": "ODbL-1.0",
+    "licence_url": "https://www.openstreetmap.org/copyright",
+    "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+    "bytes": 10837738,
+    "national_completeness_verified": false,
+    "extract_membership_is_legal_country_membership": false,
+    "sha256": "729e65613d22807dfbeefc885ebca06f0eb826191d626ccb9e763f40ab96f0e9",
+    "retrieved_at": "2026-10-22T06:52:33.260230+00:00",
+    "resolved_url": "https://download.geofabrik.de/asia/china/hong-kong-261020.osm.pbf",
+    "http_metadata": {
+      "last-modified": "Tue, 20 Oct 2026 23:13:50 GMT",
+      "etag": "\"23fa9ff-65e4dc88c33cd\"",
+      "content-length": "37726719",
+      "content-type": "application/octet-stream"
+    },
+    "publisher_md5": "3b8af10f30749737b94e5e692fc71d71",
+    "publisher_checksum_stable_before_after": true,
+    "original_source_sha256": "64aadef2e2f1463babc1237ca86ad310ed693c7c8edd3e5b6a90ed21728a6dd7",
+    "original_source_bytes": 37726719,
+    "original_source_url": "https://download.geofabrik.de/asia/china/hong-kong-261020.osm.pbf",
+    "original_pbf_preserved_in_distribution": false
+  },
+  "counts": {
+    "observations": 275070,
+    "address_tags": 87217,
+    "house_number": 64508,
+    "administrative_tag": 292,
+    "interpolation": 57,
+    "active_road_way": 184203,
+    "named_road": 50247
+  },
+  "ordered_rows_sha256": "adb38982fe34f892dd6cd7b8fa46125f4a8b14d30517eede89e0e2eb3cde80e9",
+  "projection_implementation_sha256": "fcb287d96709c66ab9adc7c09d74e6f90bbd3f41a704caa46ac8da0846ad1712",
+  "classifier_implementation_sha256": {
+    "east_asia_sources.py": "8f779a8bf40a05c5fad87004c165f84d7a871bfc0301b92e7a7eb3d277a30075",
+    "osm_evidence.py": "ba8599b7bd9cf448fd7f6644bba35e146520ef7e7d32167764be2e09816e5484"
+  },
+  "verification": "Every selected native object re-read; canonical fields, counts and ordered digest match full original source audit",
+  "all_tags_versions_timestamps_and_ordered_references_preserved": true,
+  "untagged_dependency_nodes_copied": false,
+  "way_or_relation_geometry_assembled": false,
+  "interpolation_expanded": false,
+  "national_completeness_verified": false
+}

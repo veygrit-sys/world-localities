@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "countries": 29,
+  "members": 435,
+  "places": 46594,
+  "names": 37236,
+  "postal_links": 262,
+  "parts": 62,
+  "entities_including_country_roots": 46623,
+  "original_base_files_verified": 195,
+  "postal_relations_are_not_delivery_validation": true
+}

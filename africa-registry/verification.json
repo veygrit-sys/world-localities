@@ -1,0 +1,349 @@
+{
+  "countries": 56,
+  "errors": 0,
+  "file_and_country_checks": 728,
+  "limits": [
+    "Integrity checks do not certify current legal administrative boundaries.",
+    "Unresolved source references are retained and counted, not repaired by name matching."
+  ],
+  "reports": [
+    {
+      "country": "AO",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 19914
+    },
+    {
+      "country": "BF",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 10509
+    },
+    {
+      "country": "BI",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 9746
+    },
+    {
+      "country": "BJ",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 4391
+    },
+    {
+      "country": "BW",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 1866
+    },
+    {
+      "country": "CF",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 5800
+    },
+    {
+      "country": "CG",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 5925
+    },
+    {
+      "country": "CI",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 12376
+    },
+    {
+      "country": "CM",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 14469
+    },
+    {
+      "country": "CV",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 2901
+    },
+    {
+      "country": "DJ",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 80
+    },
+    {
+      "country": "DZ",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 10492
+    },
+    {
+      "country": "EG",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 12290
+    },
+    {
+      "country": "EH",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 51
+    },
+    {
+      "country": "ER",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 1437
+    },
+    {
+      "country": "ET",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 11589
+    },
+    {
+      "country": "GA",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 3995
+    },
+    {
+      "country": "GH",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 16289
+    },
+    {
+      "country": "GM",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 2082
+    },
+    {
+      "country": "GN",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 7166
+    },
+    {
+      "country": "GQ",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 2166
+    },
+    {
+      "country": "GW",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 4356
+    },
+    {
+      "country": "IO",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 7
+    },
+    {
+      "country": "KE",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 9381
+    },
+    {
+      "country": "KM",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 398
+    },
+    {
+      "country": "LR",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 7187
+    },
+    {
+      "country": "LS",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 559
+    },
+    {
+      "country": "LY",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 969
+    },
+    {
+      "country": "ML",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 15972
+    },
+    {
+      "country": "MR",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 7726
+    },
+    {
+      "country": "MU",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 574
+    },
+    {
+      "country": "MW",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 8017
+    },
+    {
+      "country": "MZ",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 22901
+    },
+    {
+      "country": "NA",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 2977
+    },
+    {
+      "country": "NE",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 13196
+    },
+    {
+      "country": "RE",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 814
+    },
+    {
+      "country": "RW",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 12894
+    },
+    {
+      "country": "SC",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 82
+    },
+    {
+      "country": "SD",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 8269
+    },
+    {
+      "country": "SH",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 32
+    },
+    {
+      "country": "SL",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 14602
+    },
+    {
+      "country": "SN",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 11989
+    },
+    {
+      "country": "SO",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 4620
+    },
+    {
+      "country": "SS",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 5416
+    },
+    {
+      "country": "ST",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 573
+    },
+    {
+      "country": "SZ",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 755
+    },
+    {
+      "country": "TD",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 12438
+    },
+    {
+      "country": "TF",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 15
+    },
+    {
+      "country": "TG",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 4254
+    },
+    {
+      "country": "TN",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 4631
+    },
+    {
+      "country": "TZ",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 11883
+    },
+    {
+      "country": "UG",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 15403
+    },
+    {
+      "country": "YT",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 176
+    },
+    {
+      "country": "ZA",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 13828
+    },
+    {
+      "country": "ZM",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 13422
+    },
+    {
+      "country": "ZW",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 2188
+    }
+  ],
+  "rows": 388038,
+  "schema_version": 1
+}

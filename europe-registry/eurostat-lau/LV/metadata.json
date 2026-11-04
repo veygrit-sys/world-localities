@@ -1,0 +1,35 @@
+{
+  "country": "LV",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 705,
+      "rows": 7,
+      "sha256": "e3c1e8d9d4ba962c3fd0ba03ffa289c9fe6165403b32c2939824479abd79d0a8"
+    },
+    "units.csv.gz": {
+      "bytes": 1392,
+      "rows": 43,
+      "sha256": "9eafa988d55c98f6f24dc6d250bc870b72685cfddfa7136b5e317186ffe5b42d"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 43,
+  "skipped_empty_rows": 34903,
+  "source_period_counts": {
+    "2024": 43
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "LV",
+  "validation": {
+    "core": "validated",
+    "overall": "validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

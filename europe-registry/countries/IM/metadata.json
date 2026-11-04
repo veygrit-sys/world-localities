@@ -1,0 +1,82 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "IMN",
+    "country": "IM",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Isle of Man",
+    "geonames_id": "3042225",
+    "id": "country:IM",
+    "m49": "833",
+    "m49_region": "Europe",
+    "name_en": "Isle of Man",
+    "region": "Northern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 43,
+    "admin_rows": 24,
+    "ambiguous_parents": 0,
+    "country": "IM",
+    "country_scope_only": 0,
+    "localities_without_adm1": 0,
+    "locality_rows": 43,
+    "name_en": "Isle of Man",
+    "other_admin_rows": 0,
+    "region": "Northern Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 24,
+    "PPL": 22,
+    "PPLA": 20,
+    "PPLC": 1
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 3857,
+      "rows": 67,
+      "sha256": "41749019623924d906e100244fb3b7f2603ebeaef0e82e44ee9d738d82c14c57",
+      "uncompressed_sha256": "42e09b6e37030526d6f2090dc2df5d7425847e21c298aa41fe3bfe4ae2e907eb"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "source_admin_code": 43,
+    "source_country": 24
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 24,
+      "sha256": "caaa863e0c0ca305293b1dfcc41451c2225de8c942f74afd668e9b6474ac1ae2"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 216,
+    "bytes": 12698,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 28,
+      "L": 1,
+      "S": 34,
+      "T": 85
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:53:43 GMT",
+    "retained_rows": 67,
+    "retrieved_at": "2026-09-29T11:14:01.734262+00:00",
+    "sha256": "0f7e354e1155542eb2024970d82cd0be386ce6ddaca7fbe037dc1fe774097e75",
+    "url": "https://download.geonames.org/export/dump/IM.zip"
+  },
+  "source_modified_max": "2026-06-30",
+  "source_modified_min": "2014-10-29"
+}

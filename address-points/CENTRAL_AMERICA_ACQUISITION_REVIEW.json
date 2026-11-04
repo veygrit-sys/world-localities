@@ -1,0 +1,38 @@
+{
+  "status": "validated_with_explicit_source_issues",
+  "review_date": "2026-10-17",
+  "retained_sources": 32,
+  "findings": [
+    {
+      "country": "SV",
+      "decision": "Separate 4 cartographic water features at ADM2 and ADM3; retain original rows and codes."
+    },
+    {
+      "country": "GT",
+      "decision": "Separate 2 lake features at ADM2; do not report 342 municipalities."
+    },
+    {
+      "country": "PA",
+      "decision": "IGN-derived ArcGIS item includes CC BY-NC-SA; did not acquire its feature data. HDX and GeoNames snapshots remain explicitly incomplete/currentness-unverified.",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/678b0f9f166144f89cabff6d66c9e993?f=pjson"
+    },
+    {
+      "country": "GT",
+      "decision": "INE CKAN locality catalogue request timed out twice; no household/person microdata acquired."
+    },
+    {
+      "country": "HN",
+      "decision": "Conflicting and dated postcode references; no mandatory regex rejection."
+    },
+    {
+      "country": "PA",
+      "decision": "New postal system announced May 2026; no obsolete regex applied."
+    },
+    {
+      "country": "HN",
+      "decision": "20 duplicated place P-codes cover 40 distinct source rows. Keep rows separate using source-sheet row suffix, flag duplicate_source_pcode; do not merge villages."
+    }
+  ],
+  "validation_file": "CENTRAL_AMERICA_VALIDATION.json",
+  "issue_records": 81
+}

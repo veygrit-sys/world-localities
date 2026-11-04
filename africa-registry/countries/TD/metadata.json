@@ -1,0 +1,84 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "TCD",
+    "country": "TD",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Chad",
+    "geonames_id": "2434508",
+    "id": "country:TD",
+    "m49": "148",
+    "name_en": "Chad",
+    "numeric": "148",
+    "region": "Middle Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 12274,
+    "admin_rows": 156,
+    "ambiguous_parents": 0,
+    "country": "TD",
+    "country_scope_only": 10,
+    "localities_without_adm1": 10,
+    "locality_rows": 12278,
+    "name_en": "Chad",
+    "other_admin_rows": 4,
+    "region": "Middle Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 23,
+    "ADM1H": 3,
+    "ADM2": 133,
+    "PCLI": 1,
+    "PPL": 12189,
+    "PPLA": 22,
+    "PPLC": 1,
+    "PPLF": 1,
+    "PPLQ": 3,
+    "PPLX": 62
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 396542,
+      "rows": 12438,
+      "sha256": "a23fb29f107d929d35e9d2a7df921250b275557ce886a7d9b794487746cd7c22",
+      "uncompressed_sha256": "66a76727e770c751393a58bc4ab76f9950424938f110215fe372ea68e233755f"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 10,
+    "not_assigned_for_other_feature": 4,
+    "source_admin_code": 12401,
+    "source_country": 23
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 23,
+      "sha256": "2d08bb1f79ed0ce48fb948166058f26a74c862041d2cc010c92e6a18bbd72980"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 606479,
+    "discarded_feature_classes": {
+      "H": 6416,
+      "L": 412,
+      "S": 162,
+      "T": 3449,
+      "V": 32
+    },
+    "retained_rows": 12438,
+    "retrieved_on": "2026-09-26",
+    "sha256": "390d4d7e84a919c4523a22d8119575c2e87e7426ae4941f47252a6001768e1e7",
+    "source_rows": 22909,
+    "url": "https://download.geonames.org/export/dump/TD.zip"
+  },
+  "source_modified_max": "2026-07-16",
+  "source_modified_min": "1993-12-18"
+}

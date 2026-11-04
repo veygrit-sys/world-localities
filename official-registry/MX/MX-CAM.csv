@@ -1,0 +1,14 @@
+id,code,source_type,category,name,lang,parent_id,state_id,state_code,address_country,address_candidate,postcodes,postcode_relations,government_status,department_code,collectivity_code,source_state_code,municipality_component,municipal_seat_locality_code,municipal_seat_name,municipal_seat_relation,statistics_available
+locality:mx:inegi:agem:04001,04001,municipality,municipality_geostatistical_area,Calkiní,es,admin:csc:3475,admin:csc:3475,MX-CAM,MX,1,,,,,,04,001,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:04002,04002,municipality,municipality_geostatistical_area,Campeche,es,admin:csc:3475,admin:csc:3475,MX-CAM,MX,1,,,,,,04,002,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:04003,04003,municipality,municipality_geostatistical_area,Carmen,es,admin:csc:3475,admin:csc:3475,MX-CAM,MX,1,,,,,,04,003,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:04004,04004,municipality,municipality_geostatistical_area,Champotón,es,admin:csc:3475,admin:csc:3475,MX-CAM,MX,1,,,,,,04,004,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:04005,04005,municipality,municipality_geostatistical_area,Hecelchakán,es,admin:csc:3475,admin:csc:3475,MX-CAM,MX,1,,,,,,04,005,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:04006,04006,municipality,municipality_geostatistical_area,Hopelchén,es,admin:csc:3475,admin:csc:3475,MX-CAM,MX,1,,,,,,04,006,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:04007,04007,municipality,municipality_geostatistical_area,Palizada,es,admin:csc:3475,admin:csc:3475,MX-CAM,MX,1,,,,,,04,007,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:04008,04008,municipality,municipality_geostatistical_area,Tenabo,es,admin:csc:3475,admin:csc:3475,MX-CAM,MX,1,,,,,,04,008,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:04009,04009,municipality,municipality_geostatistical_area,Escárcega,es,admin:csc:3475,admin:csc:3475,MX-CAM,MX,1,,,,,,04,009,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:04010,04010,municipality,municipality_geostatistical_area,Calakmul,es,admin:csc:3475,admin:csc:3475,MX-CAM,MX,1,,,,,,04,010,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:04011,04011,municipality,municipality_geostatistical_area,Candelaria,es,admin:csc:3475,admin:csc:3475,MX-CAM,MX,1,,,,,,04,011,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:04012,04012,municipality,municipality_geostatistical_area,Seybaplaya,es,admin:csc:3475,admin:csc:3475,MX-CAM,MX,1,,,,,,04,012,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:04013,04013,municipality,municipality_geostatistical_area,Dzitbalché,es,admin:csc:3475,admin:csc:3475,MX-CAM,MX,1,,,,,,04,013,0001,Dzitbalché,INEGI_cve_cab_attribute_not_municipality_alias,0

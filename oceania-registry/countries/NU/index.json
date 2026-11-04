@@ -1,0 +1,68 @@
+{
+  "archive_bytes": 40454,
+  "archive_sha256": "ff2393a89cd497915c20160497794d898423dac490b14f92dd35050a29d432d8",
+  "parts": [
+    {
+      "path": "countries/NU/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 53941,
+      "stored_sha256": "475d856cb6f8d41ca6d961e0f4057becbc5e633b4cde339b93be86852a59125d",
+      "bytes": 40454,
+      "sha256": "ff2393a89cd497915c20160497794d898423dac490b14f92dd35050a29d432d8"
+    }
+  ],
+  "members": {
+    "base/data/polynesia/NU/index.json": {
+      "bytes": 1810,
+      "sha256": "468957ed157c4eccf99af8324b1751d801ccf873a1deb41fbc39d634f216fb3d"
+    },
+    "base/data/polynesia/NU/places.csv": {
+      "bytes": 20813,
+      "sha256": "68fd3efab3e7f15b1f5d181fa16a00e156a399fa708a9383dffd4ec7a9d2a4fb"
+    },
+    "base/data/polynesia/NU/places.jsonl": {
+      "bytes": 48861,
+      "sha256": "f2500e80950e23f41d2167ccabefb67c839616eb223f1cd54d6de22bfdb512a8"
+    },
+    "base/sources/geonames/NU.zip": {
+      "bytes": 12141,
+      "sha256": "5ba4a923387e4f8878b6974cec5324ef38d77860c15086677cc5f7672b038adc"
+    },
+    "base/sources/geonames/NU.zip.download.json": {
+      "bytes": 304,
+      "sha256": "b22b31b4dc87ccca03c58216fe57f6ce1befd0327a267195f15283f83cf6c7eb"
+    },
+    "locale/names.csv": {
+      "bytes": 38320,
+      "sha256": "0827729970c00a5f579ce07920ee1bff6e2d583eb883e14f5f7699322835b975"
+    },
+    "locale/names.jsonl": {
+      "bytes": 87499,
+      "sha256": "4ff73ff8ccb76cca8ce767b170ca7104624acdefcc264dee9ab4bc2bc66122da"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 3,
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "locale/sources/address-templates/NU.json": {
+      "bytes": 41,
+      "sha256": "d26a2bd9df95d8c562e4ab27b463b4176e6263218519b177c1ac2e87b9526a49"
+    },
+    "locale/sources/address-templates/NU.json.download.json": {
+      "bytes": 270,
+      "sha256": "fd20bc38bf950d35dac86b54e1c77f5680feeb71f475add403175bcb60b01d0c"
+    },
+    "locale/sources/alternatenames/NU.zip": {
+      "bytes": 9616,
+      "sha256": "059d8ec99141a672ee58dc2ae0e6a264f6efd57da279f6f192c8f075d65a27d3"
+    },
+    "locale/sources/alternatenames/NU.zip.download.json": {
+      "bytes": 282,
+      "sha256": "29632fc1f263f9b1754060a56508c90d1d7d8973ec75a7d65205551c2204ebcd"
+    }
+  }
+}

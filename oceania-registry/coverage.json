@@ -1,0 +1,437 @@
+[
+  {
+    "country_code": "AS",
+    "base_entities_including_country": 250,
+    "language_tagged_names": 337,
+    "entities_with_tagged_names": 13,
+    "entities_with_current_english": 10,
+    "domestic_english_variant_names": 0,
+    "postal_links": 1,
+    "postal_linked_entities": 1,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 520,
+      "untagged_or_non_language": 166
+    }
+  },
+  {
+    "country_code": "AU",
+    "base_entities_including_country": 19975,
+    "language_tagged_names": 14634,
+    "entities_with_tagged_names": 6161,
+    "entities_with_current_english": 5501,
+    "domestic_english_variant_names": 0,
+    "postal_links": 156,
+    "postal_linked_entities": 156,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 204841,
+      "untagged_or_non_language": 24637
+    }
+  },
+  {
+    "country_code": "CC",
+    "base_entities_including_country": 3,
+    "language_tagged_names": 124,
+    "entities_with_tagged_names": 3,
+    "entities_with_current_english": 1,
+    "domestic_english_variant_names": 0,
+    "postal_links": 0,
+    "postal_linked_entities": 0,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 205,
+      "untagged_or_non_language": 7
+    }
+  },
+  {
+    "country_code": "CK",
+    "base_entities_including_country": 128,
+    "language_tagged_names": 314,
+    "entities_with_tagged_names": 79,
+    "entities_with_current_english": 16,
+    "domestic_english_variant_names": 0,
+    "postal_links": 0,
+    "postal_linked_entities": 0,
+    "template_status": "generic_fallback",
+    "excluded_rows": {
+      "untagged_or_non_language": 82,
+      "entity_outside_base_scope": 1153
+    }
+  },
+  {
+    "country_code": "CX",
+    "base_entities_including_country": 8,
+    "language_tagged_names": 145,
+    "entities_with_tagged_names": 3,
+    "entities_with_current_english": 2,
+    "domestic_english_variant_names": 0,
+    "postal_links": 1,
+    "postal_linked_entities": 1,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 80,
+      "untagged_or_non_language": 17
+    }
+  },
+  {
+    "country_code": "FJ",
+    "base_entities_including_country": 2351,
+    "language_tagged_names": 2882,
+    "entities_with_tagged_names": 1978,
+    "entities_with_current_english": 28,
+    "domestic_english_variant_names": 0,
+    "postal_links": 0,
+    "postal_linked_entities": 0,
+    "template_status": "generic_fallback",
+    "excluded_rows": {
+      "entity_outside_base_scope": 22163,
+      "untagged_or_non_language": 970
+    }
+  },
+  {
+    "country_code": "FM",
+    "base_entities_including_country": 555,
+    "language_tagged_names": 486,
+    "entities_with_tagged_names": 12,
+    "entities_with_current_english": 10,
+    "domestic_english_variant_names": 0,
+    "postal_links": 0,
+    "postal_linked_entities": 0,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 4004,
+      "untagged_or_non_language": 705
+    }
+  },
+  {
+    "country_code": "GU",
+    "base_entities_including_country": 151,
+    "language_tagged_names": 496,
+    "entities_with_tagged_names": 30,
+    "entities_with_current_english": 19,
+    "domestic_english_variant_names": 0,
+    "postal_links": 37,
+    "postal_linked_entities": 26,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 897,
+      "untagged_or_non_language": 164
+    }
+  },
+  {
+    "country_code": "HM",
+    "base_entities_including_country": 1,
+    "language_tagged_names": 113,
+    "entities_with_tagged_names": 1,
+    "entities_with_current_english": 1,
+    "domestic_english_variant_names": 0,
+    "postal_links": 0,
+    "postal_linked_entities": 0,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 299,
+      "untagged_or_non_language": 5
+    }
+  },
+  {
+    "country_code": "KI",
+    "base_entities_including_country": 248,
+    "language_tagged_names": 451,
+    "entities_with_tagged_names": 32,
+    "entities_with_current_english": 25,
+    "domestic_english_variant_names": 0,
+    "postal_links": 0,
+    "postal_linked_entities": 0,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "untagged_or_non_language": 334,
+      "entity_outside_base_scope": 707
+    }
+  },
+  {
+    "country_code": "MH",
+    "base_entities_including_country": 160,
+    "language_tagged_names": 838,
+    "entities_with_tagged_names": 32,
+    "entities_with_current_english": 29,
+    "domestic_english_variant_names": 0,
+    "postal_links": 2,
+    "postal_linked_entities": 2,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 4045,
+      "untagged_or_non_language": 194
+    }
+  },
+  {
+    "country_code": "MP",
+    "base_entities_including_country": 73,
+    "language_tagged_names": 261,
+    "entities_with_tagged_names": 8,
+    "entities_with_current_english": 7,
+    "domestic_english_variant_names": 0,
+    "postal_links": 3,
+    "postal_linked_entities": 3,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 1690,
+      "untagged_or_non_language": 79
+    }
+  },
+  {
+    "country_code": "NC",
+    "base_entities_including_country": 786,
+    "language_tagged_names": 575,
+    "entities_with_tagged_names": 200,
+    "entities_with_current_english": 23,
+    "domestic_english_variant_names": 0,
+    "postal_links": 52,
+    "postal_linked_entities": 48,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 4647,
+      "untagged_or_non_language": 392
+    }
+  },
+  {
+    "country_code": "NF",
+    "base_entities_including_country": 5,
+    "language_tagged_names": 155,
+    "entities_with_tagged_names": 2,
+    "entities_with_current_english": 2,
+    "domestic_english_variant_names": 0,
+    "postal_links": 1,
+    "postal_linked_entities": 1,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 108,
+      "untagged_or_non_language": 12
+    }
+  },
+  {
+    "country_code": "NR",
+    "base_entities_including_country": 30,
+    "language_tagged_names": 1417,
+    "entities_with_tagged_names": 23,
+    "entities_with_current_english": 23,
+    "domestic_english_variant_names": 0,
+    "postal_links": 0,
+    "postal_linked_entities": 0,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "untagged_or_non_language": 80,
+      "entity_outside_base_scope": 96
+    }
+  },
+  {
+    "country_code": "NU",
+    "base_entities_including_country": 50,
+    "language_tagged_names": 277,
+    "entities_with_tagged_names": 13,
+    "entities_with_current_english": 7,
+    "domestic_english_variant_names": 0,
+    "postal_links": 0,
+    "postal_linked_entities": 0,
+    "template_status": "generic_fallback",
+    "excluded_rows": {
+      "entity_outside_base_scope": 240,
+      "untagged_or_non_language": 46
+    }
+  },
+  {
+    "country_code": "NZ",
+    "base_entities_including_country": 3422,
+    "language_tagged_names": 3137,
+    "entities_with_tagged_names": 201,
+    "entities_with_current_english": 115,
+    "domestic_english_variant_names": 0,
+    "postal_links": 3,
+    "postal_linked_entities": 3,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 15906,
+      "untagged_or_non_language": 2712
+    }
+  },
+  {
+    "country_code": "PF",
+    "base_entities_including_country": 502,
+    "language_tagged_names": 616,
+    "entities_with_tagged_names": 192,
+    "entities_with_current_english": 23,
+    "domestic_english_variant_names": 0,
+    "postal_links": 2,
+    "postal_linked_entities": 1,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 7314,
+      "untagged_or_non_language": 446
+    }
+  },
+  {
+    "country_code": "PG",
+    "base_entities_including_country": 11781,
+    "language_tagged_names": 2513,
+    "entities_with_tagged_names": 254,
+    "entities_with_current_english": 244,
+    "domestic_english_variant_names": 0,
+    "postal_links": 0,
+    "postal_linked_entities": 0,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 13991,
+      "untagged_or_non_language": 7343
+    }
+  },
+  {
+    "country_code": "PN",
+    "base_entities_including_country": 2,
+    "language_tagged_names": 166,
+    "entities_with_tagged_names": 2,
+    "entities_with_current_english": 2,
+    "domestic_english_variant_names": 0,
+    "postal_links": 0,
+    "postal_linked_entities": 0,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 111,
+      "untagged_or_non_language": 5
+    }
+  },
+  {
+    "country_code": "PW",
+    "base_entities_including_country": 104,
+    "language_tagged_names": 1596,
+    "entities_with_tagged_names": 39,
+    "entities_with_current_english": 37,
+    "domestic_english_variant_names": 0,
+    "postal_links": 1,
+    "postal_linked_entities": 1,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 1941,
+      "untagged_or_non_language": 530
+    }
+  },
+  {
+    "country_code": "SB",
+    "base_entities_including_country": 3273,
+    "language_tagged_names": 1101,
+    "entities_with_tagged_names": 35,
+    "entities_with_current_english": 32,
+    "domestic_english_variant_names": 0,
+    "postal_links": 0,
+    "postal_linked_entities": 0,
+    "template_status": "generic_fallback",
+    "excluded_rows": {
+      "untagged_or_non_language": 1515,
+      "entity_outside_base_scope": 6828
+    }
+  },
+  {
+    "country_code": "TK",
+    "base_entities_including_country": 9,
+    "language_tagged_names": 268,
+    "entities_with_tagged_names": 6,
+    "entities_with_current_english": 6,
+    "domestic_english_variant_names": 0,
+    "postal_links": 0,
+    "postal_linked_entities": 0,
+    "template_status": "generic_fallback",
+    "excluded_rows": {
+      "entity_outside_base_scope": 60,
+      "untagged_or_non_language": 25
+    }
+  },
+  {
+    "country_code": "TO",
+    "base_entities_including_country": 178,
+    "language_tagged_names": 546,
+    "entities_with_tagged_names": 35,
+    "entities_with_current_english": 25,
+    "domestic_english_variant_names": 0,
+    "postal_links": 0,
+    "postal_linked_entities": 0,
+    "template_status": "generic_fallback",
+    "excluded_rows": {
+      "entity_outside_base_scope": 844,
+      "untagged_or_non_language": 160
+    }
+  },
+  {
+    "country_code": "TV",
+    "base_entities_including_country": 37,
+    "language_tagged_names": 676,
+    "entities_with_tagged_names": 16,
+    "entities_with_current_english": 15,
+    "domestic_english_variant_names": 0,
+    "postal_links": 0,
+    "postal_linked_entities": 0,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 379,
+      "untagged_or_non_language": 50
+    }
+  },
+  {
+    "country_code": "UM",
+    "base_entities_including_country": 21,
+    "language_tagged_names": 467,
+    "entities_with_tagged_names": 15,
+    "entities_with_current_english": 10,
+    "domestic_english_variant_names": 0,
+    "postal_links": 0,
+    "postal_linked_entities": 0,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 320,
+      "untagged_or_non_language": 55
+    }
+  },
+  {
+    "country_code": "VU",
+    "base_entities_including_country": 1931,
+    "language_tagged_names": 877,
+    "entities_with_tagged_names": 163,
+    "entities_with_current_english": 61,
+    "domestic_english_variant_names": 0,
+    "postal_links": 0,
+    "postal_linked_entities": 0,
+    "template_status": "generic_fallback",
+    "excluded_rows": {
+      "untagged_or_non_language": 638,
+      "entity_outside_base_scope": 4067
+    }
+  },
+  {
+    "country_code": "WF",
+    "base_entities_including_country": 142,
+    "language_tagged_names": 434,
+    "entities_with_tagged_names": 83,
+    "entities_with_current_english": 14,
+    "domestic_english_variant_names": 0,
+    "postal_links": 3,
+    "postal_linked_entities": 3,
+    "template_status": "country_specific",
+    "excluded_rows": {
+      "entity_outside_base_scope": 739,
+      "untagged_or_non_language": 90
+    }
+  },
+  {
+    "country_code": "WS",
+    "base_entities_including_country": 447,
+    "language_tagged_names": 1334,
+    "entities_with_tagged_names": 60,
+    "entities_with_current_english": 60,
+    "domestic_english_variant_names": 0,
+    "postal_links": 0,
+    "postal_linked_entities": 0,
+    "template_status": "generic_fallback",
+    "excluded_rows": {
+      "untagged_or_non_language": 616,
+      "entity_outside_base_scope": 710
+    }
+  }
+]

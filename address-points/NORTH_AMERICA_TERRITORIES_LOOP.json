@@ -1,0 +1,238 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-17T00:19:22.402169+00:00",
+  "scope": "territories",
+  "country_count": 0,
+  "supplementary_area_count": 3,
+  "countries": [
+    {
+      "code": "BM",
+      "name_ja": "バミューダ",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 11
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 31
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 31
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 31
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 31
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 31
+        }
+      ],
+      "issues": [],
+      "geonames_place_count": 31,
+      "linked_nodes": 42,
+      "nodes_requiring_source_review": 0,
+      "address_verified": false,
+      "national_coverage_verified": false
+    },
+    {
+      "code": "GL",
+      "name_ja": "グリーンランド",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 5
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 3
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 15
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 204
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 1
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 186
+        },
+        {
+          "field": "admin1",
+          "status": "unresolved",
+          "records": 17
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 194
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 10
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 204
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 204
+        }
+      ],
+      "issues": [
+        {
+          "code": "missing_reference",
+          "field": "admin1",
+          "observations": 30
+        },
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 1
+        }
+      ],
+      "geonames_place_count": 204,
+      "linked_nodes": 227,
+      "nodes_requiring_source_review": 31,
+      "address_verified": false,
+      "national_coverage_verified": false
+    },
+    {
+      "code": "PM",
+      "name_ja": "サンピエール・ミクロン",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 2
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 13
+        },
+        {
+          "namespace": "pm-ban",
+          "kind": "address_observation",
+          "nodes": 3049
+        },
+        {
+          "namespace": "pm-ban",
+          "kind": "street_label_group",
+          "nodes": 211
+        },
+        {
+          "namespace": "pm-insee-2026",
+          "kind": "collectivity",
+          "nodes": 1
+        },
+        {
+          "namespace": "pm-insee-2026",
+          "kind": "commune",
+          "nodes": 2
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 8
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 5
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 13
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 13
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 13
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 8
+        }
+      ],
+      "geonames_place_count": 13,
+      "linked_nodes": 3278,
+      "nodes_requiring_source_review": 8,
+      "address_verified": false,
+      "national_coverage_verified": false
+    }
+  ],
+  "structural_checks": {
+    "foreign_keys": "PASS",
+    "same_country_links": "PASS",
+    "acyclic_rank_order": "PASS"
+  },
+  "limit": "PASS means the processing and structural checks completed; it is not national address completeness."
+}

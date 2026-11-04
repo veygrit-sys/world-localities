@@ -1,0 +1,56 @@
+name: Western Europe source contracts
+
+on:
+  push:
+    paths:
+      - 'scripts/western_europe_sources.py'
+      - 'scripts/osm_pbf_lite.py'
+      - 'scripts/netherlands_bag.py'
+      - 'scripts/netherlands_reference_review.py'
+      - 'scripts/netherlands_gap_review.py'
+      - 'address-points/adapters/westerneurope.py'
+      - 'address-points/*WESTERN_EUROPE*'
+      - 'releases/hierarchy/western-europe/**'
+      - 'tests/test_western_europe_sources.py'
+      - 'tests/test_netherlands_bag.py'
+      - '.github/workflows/western-europe-source-quality.yml'
+  pull_request:
+    paths:
+      - 'scripts/western_europe_sources.py'
+      - 'scripts/osm_pbf_lite.py'
+      - 'scripts/netherlands_bag.py'
+      - 'scripts/netherlands_reference_review.py'
+      - 'scripts/netherlands_gap_review.py'
+      - 'address-points/adapters/westerneurope.py'
+      - 'address-points/*WESTERN_EUROPE*'
+      - 'releases/hierarchy/western-europe/**'
+      - 'tests/test_western_europe_sources.py'
+      - 'tests/test_netherlands_bag.py'
+      - '.github/workflows/western-europe-source-quality.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-contracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Preserve source identities, scripts, statuses and coverage boundaries
+        run: |
+          python3 -m unittest discover -s tests -p 'test_western_europe_sources.py' -v
+          python3 -m unittest discover -s tests -p 'test_netherlands_bag.py' -v
+          python3 scripts/western_europe_sources.py inventory
+          python3 scripts/hierarchy_cli.py --region western-europe -- inventory
+          python3 scripts/hierarchy_cli.py --region western-europe -- inventory --country NL
+          python3 scripts/netherlands_reference_review.py --help
+          python3 scripts/netherlands_gap_review.py --help
+          python3 scripts/hierarchy_cli.py --region western-europe -- --help
+          python3 -m localities layout

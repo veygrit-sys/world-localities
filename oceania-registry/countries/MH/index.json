@@ -1,0 +1,68 @@
+{
+  "archive_bytes": 168577,
+  "archive_sha256": "23ecfbb60352b2a8b7544cf055b95358a9b7c2c89f194fecbf19229b63ca20ed",
+  "parts": [
+    {
+      "path": "countries/MH/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 224773,
+      "stored_sha256": "55ccd80843a685c70450d08de2ac0ccdbbc3ed34b0f4b0286c164fe7a24f8469",
+      "bytes": 168577,
+      "sha256": "23ecfbb60352b2a8b7544cf055b95358a9b7c2c89f194fecbf19229b63ca20ed"
+    }
+  ],
+  "members": {
+    "base/data/micronesia/MH/index.json": {
+      "bytes": 2751,
+      "sha256": "179bf11d7e3674addcde75670efe821e764d61579c18d6b5244e6288a7bb820d"
+    },
+    "base/data/micronesia/MH/places.csv": {
+      "bytes": 74215,
+      "sha256": "85cdbff371a92329f8c5db691829dd342c2530b2bf355d7b704cd5cb59463c1c"
+    },
+    "base/data/micronesia/MH/places.jsonl": {
+      "bytes": 165071,
+      "sha256": "1cc483dc83be58a8b5240cc86cf2dc545081a8499f21a2c40f01ff475b22c5cf"
+    },
+    "base/sources/geonames/MH.zip": {
+      "bytes": 61506,
+      "sha256": "0ac890ca27e8e7f71cb5206755a25a02d6744eac96adfcbb7d11bdadb6d33174"
+    },
+    "base/sources/geonames/MH.zip.download.json": {
+      "bytes": 304,
+      "sha256": "15c45dae8d9d3a8fabe4ea1312b0a190533b0ee5fe2639adea73e5af7812c830"
+    },
+    "locale/names.csv": {
+      "bytes": 121311,
+      "sha256": "6120805a344bc3b8822b1c31dea1314a1617bf2e86fc51d4d0e1aa773d2d7e8e"
+    },
+    "locale/names.jsonl": {
+      "bytes": 270346,
+      "sha256": "179cc80fc3c502d1d58f6e30738bbe51a010d6e8e984d875ba8003550b7425f8"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 374,
+      "sha256": "a6b6160be9ae16f923128ccbb1403d46800c71f0fe05bfad7a62f2ff0a8182f3"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 582,
+      "sha256": "5f7b15f75100ab2a3b33a712b84598295f903dda79a8c2b45e938eac44d80067"
+    },
+    "locale/sources/address-templates/MH.json": {
+      "bytes": 275,
+      "sha256": "2b6fc507972235d68c2722ff6302537133ca31799e60009558c0ce7da12441c7"
+    },
+    "locale/sources/address-templates/MH.json.download.json": {
+      "bytes": 271,
+      "sha256": "035acd593ad859cce26ca471a8b5cdac7a047c5d79bb9eb8d723d6d31225ca98"
+    },
+    "locale/sources/alternatenames/MH.zip": {
+      "bytes": 52207,
+      "sha256": "57149884a263dfc280f6d88cd4d9da2d0abc7c32d0494659b21bcf25bf1362a8"
+    },
+    "locale/sources/alternatenames/MH.zip.download.json": {
+      "bytes": 283,
+      "sha256": "00d45cbafd8fcb32fbb4f2bcc1604ca3ddf8d9d7e42b506405b4717a29f56de5"
+    }
+  }
+}

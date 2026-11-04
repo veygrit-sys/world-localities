@@ -1,0 +1,357 @@
+{
+  "complete_official_country_coverage": false,
+  "complete_pack": true,
+  "complete_pack_definition": "All M49 South America countries/areas have source A/P gazetteer payloads; this is not official municipality or postal completeness.",
+  "complete_published_subset": true,
+  "countries": [
+    {
+      "country": "AR",
+      "metadata_sha256": "7ba8fb44842a6c90e37d145cb38eed03208468eb3a7f37fe69e37aa6fdc718b7"
+    },
+    {
+      "country": "BO",
+      "metadata_sha256": "c4099ec6376301da342ad3c8fa269e1aee9559fd45a65825c9567eac1149bc3c"
+    },
+    {
+      "country": "BR",
+      "metadata_sha256": "b40e3829ed4faa77ab76ce99c25bae58a6afeb513e6eef77e3f49ae633df8d0e"
+    },
+    {
+      "country": "BV",
+      "metadata_sha256": "1543367df5e1f5fac2875e091bd6fa90837a65f3e945374dcd19fc3941bda891"
+    },
+    {
+      "country": "CL",
+      "metadata_sha256": "92d54e246e4e4bcb0703f1b4dca963c884b38563d2601cd0f06bca8d5913a513"
+    },
+    {
+      "country": "CO",
+      "metadata_sha256": "49e0ae3440a50aaba43d6bb0f56f9e75ab41acf6a9f79ef29364e4ebe84adadf"
+    },
+    {
+      "country": "EC",
+      "metadata_sha256": "8b1de5b05dbd3543e99edd0c88d6a1fd165cdb03f056b1add98d3450b333fbdf"
+    },
+    {
+      "country": "FK",
+      "metadata_sha256": "ff6ac91f307b8fdf915d82574f19774534d9b9791ad9c270ea20ea749d3bf00e"
+    },
+    {
+      "country": "GF",
+      "metadata_sha256": "1679b1f80f8f7c14c207d2f55401ba1c92212da2a44841843e5dc8aa2b828775"
+    },
+    {
+      "country": "GS",
+      "metadata_sha256": "c532f098aad789fc37378019cd4b76dff25c4d46ebb25b31076fcb3c72305af1"
+    },
+    {
+      "country": "GY",
+      "metadata_sha256": "41daa8476cc8794788e9d10e92be54cdbca7101e1d72e19874d0819fec48e3f6"
+    },
+    {
+      "country": "PE",
+      "metadata_sha256": "eb612ca3ad67366fdee5eeae4f678dbbcb74e1d0232549d8a7ff40b886e1ce84"
+    },
+    {
+      "country": "PY",
+      "metadata_sha256": "b63802e881b1520ee8a91012c023c313b14e953fae7bac6905695f7428b158fe"
+    },
+    {
+      "country": "SR",
+      "metadata_sha256": "9492b0c2692951d8f97a23feebd32c6cb6826d4ac5bfc6c89b42b31f36cf5b56"
+    },
+    {
+      "country": "UY",
+      "metadata_sha256": "b2d4124f29d56cc7cba26624d0c3d34d7becb6f236c7d0a35651d2aa01fe43f8"
+    },
+    {
+      "country": "VE",
+      "metadata_sha256": "472fbc336c4cf57e911d5067e42118833e3e67e36a4bc45aa82db45a2a262893"
+    }
+  ],
+  "counts": {
+    "alternate_values": 339656,
+    "current_official_hierarchy_verified": false,
+    "errors": 0,
+    "full_municipality_coverage_verified": false,
+    "m49_country_area_count": 16,
+    "no_address1": true,
+    "pending_country_codes": [],
+    "postal_deliverability_verified": false,
+    "prepared_countries": 16,
+    "reports": [
+      {
+        "address_candidates": 14850,
+        "admin_rows": 605,
+        "alternate_values": 41207,
+        "ambiguous_parents": 0,
+        "country": "AR",
+        "country_scope_only": 0,
+        "derived_columns_replay": "exact",
+        "integrity": "passed",
+        "localities_without_adm1": 0,
+        "locality_rows": 14889,
+        "other_admin_rows": 2,
+        "rows": 15496,
+        "source_archive_replay": "exact",
+        "unresolved_parents": 1
+      },
+      {
+        "address_candidates": 25772,
+        "admin_rows": 760,
+        "alternate_values": 29028,
+        "ambiguous_parents": 0,
+        "country": "BO",
+        "country_scope_only": 52,
+        "derived_columns_replay": "exact",
+        "integrity": "passed",
+        "localities_without_adm1": 52,
+        "locality_rows": 25804,
+        "other_admin_rows": 3,
+        "rows": 26567,
+        "source_archive_replay": "not_run_original_source_archives_not_published",
+        "unresolved_parents": 207
+      },
+      {
+        "address_candidates": 72377,
+        "admin_rows": 5662,
+        "alternate_values": 137848,
+        "ambiguous_parents": 0,
+        "country": "BR",
+        "country_scope_only": 0,
+        "derived_columns_replay": "exact",
+        "integrity": "passed",
+        "localities_without_adm1": 0,
+        "locality_rows": 72393,
+        "other_admin_rows": 13,
+        "rows": 78068,
+        "source_archive_replay": "not_run_original_source_archives_not_published",
+        "unresolved_parents": 18
+      },
+      {
+        "address_candidates": 0,
+        "admin_rows": 0,
+        "alternate_values": 140,
+        "ambiguous_parents": 0,
+        "country": "BV",
+        "country_scope_only": 0,
+        "derived_columns_replay": "exact",
+        "integrity": "passed",
+        "localities_without_adm1": 0,
+        "locality_rows": 0,
+        "other_admin_rows": 1,
+        "rows": 1,
+        "source_archive_replay": "not_run_original_source_archives_not_published",
+        "unresolved_parents": 0
+      },
+      {
+        "address_candidates": 6929,
+        "admin_rows": 418,
+        "alternate_values": 13334,
+        "ambiguous_parents": 0,
+        "country": "CL",
+        "country_scope_only": 2,
+        "derived_columns_replay": "exact",
+        "integrity": "passed",
+        "localities_without_adm1": 2,
+        "locality_rows": 6967,
+        "other_admin_rows": 7,
+        "rows": 7392,
+        "source_archive_replay": "not_run_original_source_archives_not_published",
+        "unresolved_parents": 0
+      },
+      {
+        "address_candidates": 35929,
+        "admin_rows": 1492,
+        "alternate_values": 33661,
+        "ambiguous_parents": 0,
+        "country": "CO",
+        "country_scope_only": 1,
+        "derived_columns_replay": "exact",
+        "integrity": "passed",
+        "localities_without_adm1": 1,
+        "locality_rows": 35945,
+        "other_admin_rows": 27,
+        "rows": 37464,
+        "source_archive_replay": "not_run_original_source_archives_not_published",
+        "unresolved_parents": 78
+      },
+      {
+        "address_candidates": 11457,
+        "admin_rows": 1283,
+        "alternate_values": 15497,
+        "ambiguous_parents": 0,
+        "country": "EC",
+        "country_scope_only": 20,
+        "derived_columns_replay": "exact",
+        "integrity": "passed",
+        "localities_without_adm1": 20,
+        "locality_rows": 11458,
+        "other_admin_rows": 5,
+        "rows": 12746,
+        "source_archive_replay": "not_run_original_source_archives_not_published",
+        "unresolved_parents": 10
+      },
+      {
+        "address_candidates": 57,
+        "admin_rows": 0,
+        "alternate_values": 340,
+        "ambiguous_parents": 0,
+        "country": "FK",
+        "country_scope_only": 57,
+        "derived_columns_replay": "exact",
+        "integrity": "passed",
+        "localities_without_adm1": 57,
+        "locality_rows": 57,
+        "other_admin_rows": 1,
+        "rows": 58,
+        "source_archive_replay": "not_run_original_source_archives_not_published",
+        "unresolved_parents": 0
+      },
+      {
+        "address_candidates": 671,
+        "admin_rows": 26,
+        "alternate_values": 1246,
+        "ambiguous_parents": 0,
+        "country": "GF",
+        "country_scope_only": 144,
+        "derived_columns_replay": "exact",
+        "integrity": "passed",
+        "localities_without_adm1": 144,
+        "locality_rows": 741,
+        "other_admin_rows": 15,
+        "rows": 782,
+        "source_archive_replay": "not_run_original_source_archives_not_published",
+        "unresolved_parents": 0
+      },
+      {
+        "address_candidates": 3,
+        "admin_rows": 0,
+        "alternate_values": 203,
+        "ambiguous_parents": 0,
+        "country": "GS",
+        "country_scope_only": 4,
+        "derived_columns_replay": "exact",
+        "integrity": "passed",
+        "localities_without_adm1": 4,
+        "locality_rows": 4,
+        "other_admin_rows": 1,
+        "rows": 5,
+        "source_archive_replay": "not_run_original_source_archives_not_published",
+        "unresolved_parents": 0
+      },
+      {
+        "address_candidates": 906,
+        "admin_rows": 10,
+        "alternate_values": 2216,
+        "ambiguous_parents": 0,
+        "country": "GY",
+        "country_scope_only": 0,
+        "derived_columns_replay": "exact",
+        "integrity": "passed",
+        "localities_without_adm1": 0,
+        "locality_rows": 907,
+        "other_admin_rows": 52,
+        "rows": 969,
+        "source_archive_replay": "not_run_original_source_archives_not_published",
+        "unresolved_parents": 0
+      },
+      {
+        "address_candidates": 47449,
+        "admin_rows": 2095,
+        "alternate_values": 34284,
+        "ambiguous_parents": 0,
+        "country": "PE",
+        "country_scope_only": 0,
+        "derived_columns_replay": "exact",
+        "integrity": "passed",
+        "localities_without_adm1": 0,
+        "locality_rows": 47493,
+        "other_admin_rows": 3,
+        "rows": 49591,
+        "source_archive_replay": "not_run_original_source_archives_not_published",
+        "unresolved_parents": 233
+      },
+      {
+        "address_candidates": 6839,
+        "admin_rows": 8498,
+        "alternate_values": 9247,
+        "ambiguous_parents": 0,
+        "country": "PY",
+        "country_scope_only": 0,
+        "derived_columns_replay": "exact",
+        "integrity": "passed",
+        "localities_without_adm1": 0,
+        "locality_rows": 6868,
+        "other_admin_rows": 3,
+        "rows": 15369,
+        "source_archive_replay": "exact",
+        "unresolved_parents": 0
+      },
+      {
+        "address_candidates": 526,
+        "admin_rows": 78,
+        "alternate_values": 2251,
+        "ambiguous_parents": 0,
+        "country": "SR",
+        "country_scope_only": 2,
+        "derived_columns_replay": "exact",
+        "integrity": "passed",
+        "localities_without_adm1": 2,
+        "locality_rows": 553,
+        "other_admin_rows": 1,
+        "rows": 632,
+        "source_archive_replay": "not_run_original_source_archives_not_published",
+        "unresolved_parents": 0
+      },
+      {
+        "address_candidates": 1088,
+        "admin_rows": 144,
+        "alternate_values": 6134,
+        "ambiguous_parents": 0,
+        "country": "UY",
+        "country_scope_only": 0,
+        "derived_columns_replay": "exact",
+        "integrity": "passed",
+        "localities_without_adm1": 0,
+        "locality_rows": 1089,
+        "other_admin_rows": 1,
+        "rows": 1234,
+        "source_archive_replay": "not_run_original_source_archives_not_published",
+        "unresolved_parents": 1
+      },
+      {
+        "address_candidates": 25524,
+        "admin_rows": 451,
+        "alternate_values": 13020,
+        "ambiguous_parents": 0,
+        "country": "VE",
+        "country_scope_only": 1,
+        "derived_columns_replay": "exact",
+        "integrity": "passed",
+        "localities_without_adm1": 1,
+        "locality_rows": 25553,
+        "other_admin_rows": 1,
+        "rows": 26005,
+        "source_archive_replay": "not_run_original_source_archives_not_published",
+        "unresolved_parents": 6
+      }
+    ],
+    "rows": 272379,
+    "scope_countries": 16,
+    "source_archive_replay_countries": [
+      "AR",
+      "PY"
+    ],
+    "status": "passed"
+  },
+  "data_license": "CC-BY-4.0",
+  "external_country_area_count": 0,
+  "m49_country_area_count": 16,
+  "pack_country_area_count": 16,
+  "pending_country_area_count": 0,
+  "pending_country_codes": [],
+  "schema_version": 1,
+  "scope_m49": "005",
+  "source": "GeoNames"
+}

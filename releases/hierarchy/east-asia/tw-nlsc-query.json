@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "chain": [
+    {
+      "id": "village:63000010002",
+      "source_namespace": "TW-NLSC",
+      "level": "village",
+      "parent_id": "town:63000010",
+      "raw": {
+        "villageId": "63000010002",
+        "villageName": "莊敬里"
+      },
+      "record_kind": "village_reference",
+      "name_status": "supplied",
+      "source_response": "responses/ListVillage_A_A01.xml"
+    },
+    {
+      "id": "town:63000010",
+      "source_namespace": "TW-NLSC",
+      "level": "town",
+      "parent_id": "county:A",
+      "raw": {
+        "towncode": "63000010",
+        "towncode01": "A01",
+        "townname": "松山區"
+      },
+      "record_kind": "town_reference",
+      "name_status": "supplied",
+      "source_response": "responses/ListTown1_A.xml"
+    },
+    {
+      "id": "county:A",
+      "source_namespace": "TW-NLSC",
+      "level": "county",
+      "parent_id": null,
+      "raw": {
+        "countycode": "A",
+        "countyname": "臺北市",
+        "countycode01": "63000"
+      },
+      "record_kind": "county_reference",
+      "name_status": "supplied",
+      "source_response": "responses/ListCounty.xml"
+    }
+  ],
+  "parent_assignment": "explicit API request binding"
+}

@@ -1,0 +1,35 @@
+{
+  "country": "RO",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 5098,
+      "rows": 54,
+      "sha256": "bc71e78863c8c6d4781048c706c406a2e73600f3e9de712c2f75c7c4b287a5ad"
+    },
+    "units.csv.gz": {
+      "bytes": 71877,
+      "rows": 3181,
+      "sha256": "6da2104f3d846b069971b221c3ef6eb05d953168f0d1f4b46f5350f0838ad094"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 3181,
+  "skipped_empty_rows": 31765,
+  "source_period_counts": {
+    "2024": 3181
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "RO",
+  "validation": {
+    "core": "validated",
+    "overall": "validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

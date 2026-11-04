@@ -1,0 +1,89 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "SJM",
+    "country": "SJ",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Svalbard and Jan Mayen",
+    "geonames_id": "607072",
+    "id": "country:SJ",
+    "m49": "744",
+    "m49_region": "Europe",
+    "name_en": "Svalbard and Jan Mayen Islands",
+    "region": "Northern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 11,
+    "admin_rows": 6,
+    "ambiguous_parents": 0,
+    "country": "SJ",
+    "country_scope_only": 2,
+    "localities_without_adm1": 4,
+    "locality_rows": 13,
+    "name_en": "Svalbard and Jan Mayen Islands",
+    "other_admin_rows": 0,
+    "region": "Northern Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 2,
+    "ADM2": 4,
+    "PPL": 7,
+    "PPLA": 1,
+    "PPLC": 1,
+    "PPLL": 2,
+    "PPLQ": 2
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 3640,
+      "rows": 19,
+      "sha256": "1a94c4354a5a931f576ee4b022a71a87b878e176a04a003f3e46d71803142368",
+      "uncompressed_sha256": "3d5de33f84de45c5ee59ba8b0782474f7379de225632dda382d6d12ce234bf11"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 2,
+    "historical_parent_not_asserted": 2,
+    "source_admin_code": 13,
+    "source_country": 2
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 2,
+      "sha256": "3a7fb414bae4d82a317d9c4f92980030987e9b404f656ed1d54832f9487c5bd8"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 5545,
+    "bytes": 196843,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 1873,
+      "L": 67,
+      "R": 4,
+      "S": 60,
+      "T": 3496,
+      "U": 25
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:56:28 GMT",
+    "retained_rows": 19,
+    "retrieved_at": "2026-09-29T11:14:42.775374+00:00",
+    "sha256": "cb92de39bdf9d3f054d4d68caabd160a8e70339615736387ea43e31dec20edaa",
+    "url": "https://download.geonames.org/export/dump/SJ.zip"
+  },
+  "source_modified_max": "2026-07-18",
+  "source_modified_min": "2010-09-23"
+}

@@ -1,0 +1,87 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "BWA",
+    "country": "BW",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Botswana",
+    "geonames_id": "933860",
+    "id": "country:BW",
+    "m49": "072",
+    "name_en": "Botswana",
+    "numeric": "072",
+    "region": "Southern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 1817,
+    "admin_rows": 42,
+    "ambiguous_parents": 0,
+    "country": "BW",
+    "country_scope_only": 174,
+    "localities_without_adm1": 174,
+    "locality_rows": 1820,
+    "name_en": "Botswana",
+    "other_admin_rows": 4,
+    "region": "Southern Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 16,
+    "ADM2": 25,
+    "ADM3": 1,
+    "ADMD": 3,
+    "PCLI": 1,
+    "PPL": 698,
+    "PPLA": 11,
+    "PPLA2": 1,
+    "PPLC": 1,
+    "PPLF": 2,
+    "PPLH": 1,
+    "PPLL": 1070,
+    "PPLX": 36
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 67188,
+      "rows": 1866,
+      "sha256": "d49ba17a231a44e448ab98832dcaa29e3dc3f77041b5096ce34adf59b457a9ab",
+      "uncompressed_sha256": "6ead45671d64db59545eea700ff243afe0cc3f7d0a06f32f4dbc27a8e13d750c"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 174,
+    "not_assigned_for_other_feature": 4,
+    "source_admin_code": 1672,
+    "source_country": 16
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 16,
+      "sha256": "25013ffea9e66a63d03b18ecca5cec9e3879dbd96a3c40eeeb3625ff6e384b10"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 117314,
+    "discarded_feature_classes": {
+      "H": 649,
+      "L": 314,
+      "R": 1,
+      "S": 311,
+      "T": 852
+    },
+    "retained_rows": 1866,
+    "retrieved_on": "2026-09-26",
+    "sha256": "0f0d970e78d1a8d4fd75a1885eca53fea46ad866468c5902ee45fab9b95bf4ad",
+    "source_rows": 3993,
+    "url": "https://download.geonames.org/export/dump/BW.zip"
+  },
+  "source_modified_max": "2026-04-16",
+  "source_modified_min": "1993-12-22"
+}

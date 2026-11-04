@@ -1,0 +1,98 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "NIC",
+    "country": "NI",
+    "geonames_continent": "NA",
+    "geonames_country_name": "Nicaragua",
+    "geonames_id": "3617476",
+    "id": "country:NI",
+    "m49": "558",
+    "name_en": "Nicaragua",
+    "numeric": "558",
+    "region": "Central America",
+    "reported_languages": [
+      "es-NI",
+      "en"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 2609,
+    "admin_rows": 177,
+    "ambiguous_parents": 0,
+    "country": "NI",
+    "country_scope_only": 1,
+    "localities_without_adm1": 1,
+    "locality_rows": 2632,
+    "name_en": "Nicaragua",
+    "other_admin_rows": 8,
+    "region": "Central America",
+    "unresolved_parents": 2
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 17,
+    "ADM1H": 1,
+    "ADM2": 153,
+    "ADM3": 7,
+    "ADMD": 5,
+    "PCLI": 1,
+    "PPL": 2175,
+    "PPLA": 16,
+    "PPLA2": 136,
+    "PPLC": 1,
+    "PPLF": 17,
+    "PPLH": 1,
+    "PPLL": 7,
+    "PPLQ": 2,
+    "PPLS": 3,
+    "PPLX": 274,
+    "ZN": 1
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 128916,
+      "rows": 2817,
+      "sha256": "0e89c6b978b7ccdaa1716a1348a1be284add6ef97e80b43f10fa38c26c339d55",
+      "uncompressed_sha256": "3debdf84cd3b7f4b08e86263e408e4661f0cd7c97916c31f0677be95f14a4b23"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 1,
+    "missing_code": 1,
+    "missing_reference": 1,
+    "not_assigned_for_other_feature": 8,
+    "source_admin_code": 2789,
+    "source_country": 17
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 17,
+      "sha256": "27231e26d639a2c9a7b19b5c9e3a1226d9ddc709c9d9a36f1d7a5a7fa422233f"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 234784,
+    "discarded_feature_classes": {
+      "H": 1520,
+      "L": 218,
+      "R": 1,
+      "S": 809,
+      "T": 1127,
+      "U": 21
+    },
+    "retained_rows": 2817,
+    "retrieved_on": "2026-10-01",
+    "sha256": "000a409e4e5f94660d74cb8e9dadcaa439d9669efc74df93d14b2535cd075563",
+    "source_rows": 6513,
+    "url": "https://download.geonames.org/export/dump/NI.zip"
+  },
+  "source_modified_max": "2026-09-23",
+  "source_modified_min": "1993-12-27"
+}

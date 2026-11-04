@@ -1,0 +1,95 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "SDN",
+    "country": "SD",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Sudan",
+    "geonames_id": "366755",
+    "id": "country:SD",
+    "m49": "729",
+    "name_en": "Sudan",
+    "numeric": "729",
+    "region": "Northern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 7871,
+    "admin_rows": 109,
+    "ambiguous_parents": 0,
+    "country": "SD",
+    "country_scope_only": 26,
+    "localities_without_adm1": 67,
+    "locality_rows": 8153,
+    "name_en": "Sudan",
+    "other_admin_rows": 7,
+    "region": "Northern Africa",
+    "unresolved_parents": 42
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 18,
+    "ADM1H": 3,
+    "ADM2": 90,
+    "ADM3": 1,
+    "ADMD": 3,
+    "PCLI": 1,
+    "PPL": 7770,
+    "PPLA": 17,
+    "PPLA2": 1,
+    "PPLA3": 10,
+    "PPLC": 1,
+    "PPLF": 8,
+    "PPLL": 14,
+    "PPLQ": 39,
+    "PPLR": 2,
+    "PPLW": 233,
+    "PPLX": 58
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 302305,
+      "rows": 8269,
+      "sha256": "29c70561d1a9497a9dfcf4cef05e355c9b23fb485c81c601413d14354175e906",
+      "uncompressed_sha256": "e30965c8279366ec416a59a9be13e6a92323541870b691125bfde003adc2db90"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 26,
+    "missing_code": 1,
+    "missing_reference": 41,
+    "not_assigned_for_other_feature": 7,
+    "source_admin_code": 8176,
+    "source_country": 18
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 18,
+      "sha256": "96a5408e44c801e03efa9c9b0b1a86f12f1c7267b61bb73a1a0449b67c65700d"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 804612,
+    "discarded_feature_classes": {
+      "H": 9490,
+      "L": 1047,
+      "R": 81,
+      "S": 650,
+      "T": 7487,
+      "U": 1,
+      "V": 86
+    },
+    "retained_rows": 8269,
+    "retrieved_on": "2026-09-26",
+    "sha256": "02316294c080e8343c96d5127291cf0485481542983978021d7de1d7b6ff10d6",
+    "source_rows": 27111,
+    "url": "https://download.geonames.org/export/dump/SD.zip"
+  },
+  "source_modified_max": "2026-09-15",
+  "source_modified_min": "1993-09-24"
+}

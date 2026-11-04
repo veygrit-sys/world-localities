@@ -1,0 +1,17 @@
+id,code,source_type,category,name,lang,parent_id,state_id,state_code,address_country,address_candidate,postcodes,postcode_relations,government_status,department_code,collectivity_code,source_state_code,municipality_component,municipal_seat_locality_code,municipal_seat_name,municipal_seat_relation,statistics_available
+locality:mx:inegi:agem:09002,09002,municipality_equivalent,territorial_demarcation,Azcapotzalco,es,admin:csc:3473,admin:csc:3473,MX-CMX,MX,1,,,,,,09,002,,,,1
+locality:mx:inegi:agem:09003,09003,municipality_equivalent,territorial_demarcation,Coyoacán,es,admin:csc:3473,admin:csc:3473,MX-CMX,MX,1,,,,,,09,003,,,,1
+locality:mx:inegi:agem:09004,09004,municipality_equivalent,territorial_demarcation,Cuajimalpa de Morelos,es,admin:csc:3473,admin:csc:3473,MX-CMX,MX,1,,,,,,09,004,,,,1
+locality:mx:inegi:agem:09005,09005,municipality_equivalent,territorial_demarcation,Gustavo A. Madero,es,admin:csc:3473,admin:csc:3473,MX-CMX,MX,1,,,,,,09,005,,,,1
+locality:mx:inegi:agem:09006,09006,municipality_equivalent,territorial_demarcation,Iztacalco,es,admin:csc:3473,admin:csc:3473,MX-CMX,MX,1,,,,,,09,006,,,,1
+locality:mx:inegi:agem:09007,09007,municipality_equivalent,territorial_demarcation,Iztapalapa,es,admin:csc:3473,admin:csc:3473,MX-CMX,MX,1,,,,,,09,007,,,,1
+locality:mx:inegi:agem:09008,09008,municipality_equivalent,territorial_demarcation,La Magdalena Contreras,es,admin:csc:3473,admin:csc:3473,MX-CMX,MX,1,,,,,,09,008,,,,1
+locality:mx:inegi:agem:09009,09009,municipality_equivalent,territorial_demarcation,Milpa Alta,es,admin:csc:3473,admin:csc:3473,MX-CMX,MX,1,,,,,,09,009,,,,1
+locality:mx:inegi:agem:09010,09010,municipality_equivalent,territorial_demarcation,Álvaro Obregón,es,admin:csc:3473,admin:csc:3473,MX-CMX,MX,1,,,,,,09,010,,,,1
+locality:mx:inegi:agem:09011,09011,municipality_equivalent,territorial_demarcation,Tláhuac,es,admin:csc:3473,admin:csc:3473,MX-CMX,MX,1,,,,,,09,011,,,,1
+locality:mx:inegi:agem:09012,09012,municipality_equivalent,territorial_demarcation,Tlalpan,es,admin:csc:3473,admin:csc:3473,MX-CMX,MX,1,,,,,,09,012,,,,1
+locality:mx:inegi:agem:09013,09013,municipality_equivalent,territorial_demarcation,Xochimilco,es,admin:csc:3473,admin:csc:3473,MX-CMX,MX,1,,,,,,09,013,,,,1
+locality:mx:inegi:agem:09014,09014,municipality_equivalent,territorial_demarcation,Benito Juárez,es,admin:csc:3473,admin:csc:3473,MX-CMX,MX,1,,,,,,09,014,,,,1
+locality:mx:inegi:agem:09015,09015,municipality_equivalent,territorial_demarcation,Cuauhtémoc,es,admin:csc:3473,admin:csc:3473,MX-CMX,MX,1,,,,,,09,015,,,,1
+locality:mx:inegi:agem:09016,09016,municipality_equivalent,territorial_demarcation,Miguel Hidalgo,es,admin:csc:3473,admin:csc:3473,MX-CMX,MX,1,,,,,,09,016,,,,1
+locality:mx:inegi:agem:09017,09017,municipality_equivalent,territorial_demarcation,Venustiano Carranza,es,admin:csc:3473,admin:csc:3473,MX-CMX,MX,1,,,,,,09,017,,,,1

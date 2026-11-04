@@ -1,0 +1,85 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "LSO",
+    "country": "LS",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Lesotho",
+    "geonames_id": "932692",
+    "id": "country:LS",
+    "m49": "426",
+    "name_en": "Lesotho",
+    "numeric": "426",
+    "region": "Southern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 399,
+    "admin_rows": 158,
+    "ambiguous_parents": 0,
+    "country": "LS",
+    "country_scope_only": 239,
+    "localities_without_adm1": 239,
+    "locality_rows": 400,
+    "name_en": "Lesotho",
+    "other_admin_rows": 1,
+    "region": "Southern Africa",
+    "unresolved_parents": 132
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 10,
+    "ADM2": 15,
+    "ADM3": 133,
+    "PCLI": 1,
+    "PPL": 381,
+    "PPLA": 8,
+    "PPLA2": 1,
+    "PPLC": 1,
+    "PPLF": 1,
+    "PPLL": 1,
+    "PPLX": 7
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 27851,
+      "rows": 559,
+      "sha256": "3f24ecd8b9e27f0c3c434041fcb9187194dee7bcf3ce863d1491fe1d877ae83e",
+      "uncompressed_sha256": "b1b69c4557021cacd31b45669453d8ca11e9cab966499caaa77202c32e0c58b3"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 239,
+    "missing_code": 132,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 177,
+    "source_country": 10
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 10,
+      "sha256": "6489a2dd4528ed43911da9a47a387e5e6ab85ca451e807d567539afafa636923"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 51548,
+    "discarded_feature_classes": {
+      "H": 149,
+      "L": 4,
+      "S": 428,
+      "T": 309
+    },
+    "retained_rows": 559,
+    "retrieved_on": "2026-09-26",
+    "sha256": "b9544c4b94ab6bbcd0b233d0045b1ec8911c1947da76db5a6eb326919dcadd8c",
+    "source_rows": 1449,
+    "url": "https://download.geonames.org/export/dump/LS.zip"
+  },
+  "source_modified_max": "2026-04-16",
+  "source_modified_min": "1993-12-23"
+}

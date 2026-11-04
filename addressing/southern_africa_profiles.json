@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "region": "Southern Africa",
+  "reviewed_at": "2026-10-17",
+  "purpose": "Domestic-language and English address display profiles for all five UN M49 Southern Africa countries, with explicit postcode, Address2, street, rural-delivery and private-bag policies; not an address-existence, code-assignment, geocoding or deliverability claim.",
+  "locality_registry": {
+    "path": "africa-registry",
+    "materialized_scope_file": "africa-registry/coverage.csv",
+    "upstream_scope_file": "africa-registry/upstream/coverage.csv",
+    "country_directory": "africa-registry/countries",
+    "materialized_countries": ["BW", "LS", "NA", "SZ", "ZA"],
+    "upstream_only_countries": [],
+    "materialized_locality_rows": 19365,
+    "upstream_locality_rows": 19365,
+    "role": "GeoNames-derived locality candidates and administrative context. Address order and postcode policy come from this reviewed profile extension; locality rows do not prove a street number, postal assignment, geocode or deliverable address."
+  },
+  "overrides": ["BW", "LS", "NA", "SZ", "ZA"],
+  "countries": {
+    "BW": {
+      "native_languages": ["en", "tn-Latn"],
+      "default_native_language": "en",
+      "native_profile": "BW_en",
+      "native_profiles": {"en": "BW_en", "tn-Latn": "BW_tn"},
+      "native_scripts": {"en": "Latn", "tn-Latn": "Latn"},
+      "english_profile": "BW_en",
+      "country_names": {"en": "Botswana", "tn-Latn": "Botswana"},
+      "postcode_pattern": null,
+      "postcode_required": false,
+      "romanization_policy": "English and Setswana values remain independent even though both use Latin script. P.O. Box and Private Bag lines are preserved, physical street fields remain available for interoperability, and no postcode is synthesized.",
+      "evidence_status": "provisional",
+      "sources": [
+        {"authority": "Universal Postal Union and BotswanaPost", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/bwaEn.pdf", "scope": "P.O. Box and Private Bag examples with locality and country; public sheet dated September 2004"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "September 2025 list of destinations not requiring a postcode"},
+        {"authority": "Government of Botswana", "url": "https://gov.bw/about-our-country", "scope": "English official-language and Setswana national-language status"}
+      ]
+    },
+    "LS": {
+      "native_languages": ["st-Latn", "en"],
+      "default_native_language": "st-Latn",
+      "native_profile": "LS_st",
+      "native_profiles": {"st-Latn": "LS_st", "en": "LS_en"},
+      "native_scripts": {"st-Latn": "Latn", "en": "Latn"},
+      "english_profile": "LS_en",
+      "country_names": {"st-Latn": "Lesotho", "en": "Lesotho"},
+      "postcode_pattern": "\\d{3}",
+      "postcode_required": true,
+      "romanization_policy": "Sesotho and English address values are explicit alternatives and do not cross-fill. The three-digit postcode is syntax-checked but never inferred from the locality.",
+      "evidence_status": "provisional",
+      "sources": [
+        {"authority": "Universal Postal Union and Lesotho Postal Services", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/lsoEn.pdf", "scope": "P.O. Box, locality and three-digit postcode order; public sheet dated September 2004"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "August 2026 postcode requirement, three-digit length and numeric format"},
+        {"authority": "Government of Lesotho", "url": "https://www.gov.ls/about-lesotho/", "scope": "Sesotho and English language context"}
+      ]
+    },
+    "NA": {
+      "native_languages": ["en", "af-Latn", "de-Latn", "ng-Latn", "kj-Latn"],
+      "default_native_language": "en",
+      "native_profile": "NA_en",
+      "native_profiles": {"en": "NA_en", "af-Latn": "NA_af", "de-Latn": "NA_de", "ng-Latn": "NA_ng", "kj-Latn": "NA_kj"},
+      "native_scripts": {"en": "Latn", "af-Latn": "Latn", "de-Latn": "Latn", "ng-Latn": "Latn", "kj-Latn": "Latn"},
+      "english_profile": "NA_en",
+      "country_names": {"en": "Namibia", "af-Latn": "Namibië", "de-Latn": "Namibia", "ng-Latn": "Namibia", "kj-Latn": "Namibia"},
+      "postcode_pattern": "\\d{5}",
+      "postcode_required": true,
+      "romanization_policy": "English is the official language; Afrikaans, German, Oshindonga and Oshikwanyama are explicit user-supplied domestic alternatives supported for compatibility, not operator-certified translations. No transliteration, street translation, regional-name insertion or postcode assignment is automatic.",
+      "evidence_status": "provisional",
+      "sources": [
+        {"authority": "Universal Postal Union and NamPost", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/namEn.pdf", "scope": "September 2018 physical, rural, informal, multi-unit, P.O. Box and Private Bag hierarchy; five-digit postcode on its own final domestic line and omission of region names"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "August 2026 postcode requirement, five-digit length and numeric format"},
+        {"authority": "Government of Namibia", "url": "https://www.gov.na/documents/888545/1681264/Constitution%2Bof%2Bthe%2BRepublic%2Bof%2BNamibia.pdf/eaf0a7d5-44e5-c334-dea8-bf187b3d592d", "scope": "Constitution article 3: English official-language status and permitted use of other languages"},
+        {"authority": "Namibia Statistics Agency", "url": "https://nsa.org.na/wp-content/uploads/2025/09/Hardap-2023-Census-Regional-Profile.pdf", "scope": "2023 census evidence for domestic use of Afrikaans, Oshikwanyama and Oshindonga; language support does not imply postal certification"}
+      ]
+    },
+    "SZ": {
+      "native_languages": ["ss-Latn", "en"],
+      "default_native_language": "ss-Latn",
+      "native_profile": "SZ_ss",
+      "native_profiles": {"ss-Latn": "SZ_ss", "en": "SZ_en"},
+      "native_scripts": {"ss-Latn": "Latn", "en": "Latn"},
+      "english_profile": "SZ_en",
+      "country_names": {"ss-Latn": "eSwatini", "en": "Eswatini"},
+      "postcode_pattern": "[A-Z]\\d{3}",
+      "postcode_required": true,
+      "romanization_policy": "siSwati and English values stay distinct. The one-letter, three-digit postcode is syntax-checked without deriving it from the locality; lowercase input may validate but display text is preserved as supplied.",
+      "evidence_status": "provisional",
+      "sources": [
+        {"authority": "Universal Postal Union and Eswatini Posts and Telecommunications Corporation", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/swzEn.pdf", "scope": "August 2018 P.O. Box, locality and four-character alphanumeric postcode order"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "August 2026 postcode requirement and one-letter plus three-digit format"},
+        {"authority": "Parliament of the Kingdom of Eswatini", "url": "https://parliament.gov.sz/legislation/Constitution_of_the_Kingdom_of_Swaziland_Act_No_001_of_2005.pdf", "scope": "Constitution section 3: siSwati and English official-language status"}
+      ]
+    },
+    "ZA": {
+      "native_languages": ["en", "af-Latn", "nr-Latn", "xh-Latn", "zu-Latn", "nso-Latn", "st-Latn", "tn-Latn", "ss-Latn", "ve-Latn", "ts-Latn"],
+      "default_native_language": "en",
+      "native_profile": "ZA_en",
+      "native_profiles": {"en": "ZA_en", "af-Latn": "ZA_af", "nr-Latn": "ZA_nr", "xh-Latn": "ZA_xh", "zu-Latn": "ZA_zu", "nso-Latn": "ZA_nso", "st-Latn": "ZA_st", "tn-Latn": "ZA_tn", "ss-Latn": "ZA_ss", "ve-Latn": "ZA_ve", "ts-Latn": "ZA_ts"},
+      "native_scripts": {"en": "Latn", "af-Latn": "Latn", "nr-Latn": "Latn", "xh-Latn": "Latn", "zu-Latn": "Latn", "nso-Latn": "Latn", "st-Latn": "Latn", "tn-Latn": "Latn", "ss-Latn": "Latn", "ve-Latn": "Latn", "ts-Latn": "Latn"},
+      "english_profile": "ZA_en",
+      "country_names": {"en": "South Africa", "af-Latn": "Suid-Afrika", "nr-Latn": "iSewula Afrika", "xh-Latn": "uMzantsi Afrika", "zu-Latn": "iNingizimu Afrika", "nso-Latn": "Afrika Borwa", "st-Latn": "Afrika Borwa", "tn-Latn": "Aforikaborwa", "ss-Latn": "iNingizimu Afrika", "ve-Latn": "Afurika Tshipembe", "ts-Latn": "Afrika-Dzonga"},
+      "postcode_pattern": "\\d{4}",
+      "postcode_required": true,
+      "non_text_official_language_policy": "South African Sign Language is an official language, but this postal text renderer has no signed-language serialization. It is documented here and intentionally excluded from the 11 written-language profile variants.",
+      "romanization_policy": "The 11 written official languages are selected explicitly and never cross-fill solely because they share Latin script. The four-digit postcode is not inferred; a province or city is not inserted into the coded standard line. Street, complex/unit, rural delivery-point, P.O. Box and Private Bag values remain user-supplied.",
+      "evidence_status": "provisional",
+      "sources": [
+        {"authority": "Universal Postal Union and South African Post Office", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/zafEn.pdf", "scope": "February 2010 urban, complex-unit, rural, P.O. Box and Private Bag formats; four-digit postcode on its own line and province/city omission when coded"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "August 2026 postcode requirement, four-digit length and numeric format"},
+        {"authority": "South African Government", "url": "https://www.gov.za/about-sa/south-africa-glance", "scope": "Current list of 12 official languages, including South African Sign Language"},
+        {"authority": "South African Government", "url": "https://www.gov.za/documents/constitution/constitution-republic-south-africa-1996-chapter-1-founding-provisions-04-feb", "scope": "Constitution section 6 written-language list and equal-status policy"},
+        {"authority": "South African Department of Sport, Arts and Culture", "url": "https://www.dsac.gov.za/sites/default/files/2024-10/Life%20Orientation%20Terminology%20Book_1.pdf", "scope": "Official multilingual terminology for the country name; postal street and premises translations remain user-supplied"}
+      ]
+    }
+  },
+  "profiles": {
+    "BW": {"country_code": "BW", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{neighbourhood}}}\n{{{village}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} {{/first}}\n{{{country}}}\n"},
+    "BW_en": {"country_code": "BW", "language": "en", "use_country": "BW"},
+    "BW_tn": {"country_code": "BW", "language": "tn", "use_country": "BW"},
+    "LS": {"country_code": "LS", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{neighbourhood}}}\n{{{village}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} {{/first}} {{{postcode}}}\n{{{country}}}\n"},
+    "LS_st": {"country_code": "LS", "language": "st", "use_country": "LS"},
+    "LS_en": {"country_code": "LS", "language": "en", "use_country": "LS"},
+    "NA": {"country_code": "NA", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{neighbourhood}}}\n{{{village}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} {{/first}}\n{{{postcode}}}\n{{{country}}}\n"},
+    "NA_en": {"country_code": "NA", "language": "en", "use_country": "NA"},
+    "NA_af": {"country_code": "NA", "language": "af", "use_country": "NA"},
+    "NA_de": {"country_code": "NA", "language": "de", "use_country": "NA"},
+    "NA_ng": {"country_code": "NA", "language": "ng", "use_country": "NA"},
+    "NA_kj": {"country_code": "NA", "language": "kj", "use_country": "NA"},
+    "SZ": {"country_code": "SZ", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{neighbourhood}}}\n{{{village}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} {{/first}}\n{{{postcode}}}\n{{{country}}}\n"},
+    "SZ_ss": {"country_code": "SZ", "language": "ss", "use_country": "SZ"},
+    "SZ_en": {"country_code": "SZ", "language": "en", "use_country": "SZ"},
+    "ZA": {"country_code": "ZA", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{neighbourhood}}}\n{{{village}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} {{/first}}\n{{{postcode}}}\n{{{country}}}\n"},
+    "ZA_en": {"country_code": "ZA", "language": "en", "use_country": "ZA"},
+    "ZA_af": {"country_code": "ZA", "language": "af", "use_country": "ZA"},
+    "ZA_nr": {"country_code": "ZA", "language": "nr", "use_country": "ZA"},
+    "ZA_xh": {"country_code": "ZA", "language": "xh", "use_country": "ZA"},
+    "ZA_zu": {"country_code": "ZA", "language": "zu", "use_country": "ZA"},
+    "ZA_nso": {"country_code": "ZA", "language": "nso", "use_country": "ZA"},
+    "ZA_st": {"country_code": "ZA", "language": "st", "use_country": "ZA"},
+    "ZA_tn": {"country_code": "ZA", "language": "tn", "use_country": "ZA"},
+    "ZA_ss": {"country_code": "ZA", "language": "ss", "use_country": "ZA"},
+    "ZA_ve": {"country_code": "ZA", "language": "ve", "use_country": "ZA"},
+    "ZA_ts": {"country_code": "ZA", "language": "ts", "use_country": "ZA"}
+  },
+  "profile_status": {
+    "BW": "provisional", "BW_en": "provisional", "BW_tn": "provisional",
+    "LS": "provisional", "LS_st": "provisional", "LS_en": "provisional",
+    "NA": "provisional", "NA_en": "provisional", "NA_af": "provisional", "NA_de": "provisional", "NA_ng": "provisional", "NA_kj": "provisional",
+    "SZ": "provisional", "SZ_ss": "provisional", "SZ_en": "provisional",
+    "ZA": "provisional", "ZA_en": "provisional", "ZA_af": "provisional", "ZA_nr": "provisional", "ZA_xh": "provisional", "ZA_zu": "provisional", "ZA_nso": "provisional", "ZA_st": "provisional", "ZA_tn": "provisional", "ZA_ss": "provisional", "ZA_ve": "provisional", "ZA_ts": "provisional"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "COG",
+    "country": "CG",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Republic of the Congo",
+    "geonames_id": "2260494",
+    "id": "country:CG",
+    "m49": "178",
+    "name_en": "Congo",
+    "numeric": "178",
+    "region": "Middle Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 5781,
+    "admin_rows": 110,
+    "ambiguous_parents": 0,
+    "country": "CG",
+    "country_scope_only": 12,
+    "localities_without_adm1": 12,
+    "locality_rows": 5807,
+    "name_en": "Congo",
+    "other_admin_rows": 8,
+    "region": "Middle Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 12,
+    "ADM2": 89,
+    "ADM2H": 2,
+    "ADM3": 9,
+    "ADMD": 5,
+    "PCLI": 1,
+    "PPL": 5763,
+    "PPLA": 11,
+    "PPLA2": 2,
+    "PPLC": 1,
+    "PPLL": 1,
+    "PPLQ": 26,
+    "PPLX": 3
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 185280,
+      "rows": 5925,
+      "sha256": "872e2dfae1e726771cc8235c3820a76d59468b3eb34ba035114e6c490f04f2c6",
+      "uncompressed_sha256": "4261f920890947fffcca8982d0b7f33d2698d2dbc4a9e92c3d013d3ed35882a2"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 12,
+    "not_assigned_for_other_feature": 8,
+    "source_admin_code": 5893,
+    "source_country": 12
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 12,
+      "sha256": "da43c4bcb56160666030112d56bec326426bce2505d5200657f43106f08cf282"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 259809,
+    "discarded_feature_classes": {
+      "H": 3354,
+      "L": 282,
+      "R": 2,
+      "S": 148,
+      "T": 281,
+      "V": 128
+    },
+    "retained_rows": 5925,
+    "retrieved_on": "2026-09-26",
+    "sha256": "1d69baa27b0bad5dbf94dd33a59f2472c2a638df2ee75f18092016338233e9cb",
+    "source_rows": 10120,
+    "url": "https://download.geonames.org/export/dump/CG.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1994-01-06"
+}

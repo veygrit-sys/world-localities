@@ -1,0 +1,85 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "CAF",
+    "country": "CF",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Central African Republic",
+    "geonames_id": "239880",
+    "id": "country:CF",
+    "m49": "140",
+    "name_en": "Central African Republic",
+    "numeric": "140",
+    "region": "Middle Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 5694,
+    "admin_rows": 92,
+    "ambiguous_parents": 0,
+    "country": "CF",
+    "country_scope_only": 18,
+    "localities_without_adm1": 18,
+    "locality_rows": 5707,
+    "name_en": "Central African Republic",
+    "other_admin_rows": 1,
+    "region": "Middle Africa",
+    "unresolved_parents": 118
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 20,
+    "ADM2": 71,
+    "ADM3": 1,
+    "PCLI": 1,
+    "PPL": 5671,
+    "PPLA": 19,
+    "PPLC": 1,
+    "PPLH": 1,
+    "PPLL": 3,
+    "PPLQ": 12
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 198098,
+      "rows": 5800,
+      "sha256": "6c044c6b6c215e591e2af26f7d41e5c4731de0ebd9fa26e4758daa850c48664a",
+      "uncompressed_sha256": "c2aa0bd0df8c5c54fb0bd83592a687349e181d0ba5bf1c0a3890a4b569331c71"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 18,
+    "missing_reference": 118,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 5643,
+    "source_country": 20
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 20,
+      "sha256": "f0f169fea365491d73b17bd85b5b91be271018269ee9b4ab016a601fdaa1774f"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 366448,
+    "discarded_feature_classes": {
+      "H": 9041,
+      "L": 40,
+      "S": 125,
+      "T": 465,
+      "V": 9
+    },
+    "retained_rows": 5800,
+    "retrieved_on": "2026-09-26",
+    "sha256": "0f7f4bdc52227a7002d3f5f318890ac24314b7df67dd639a8a040416a9a47a3d",
+    "source_rows": 15480,
+    "url": "https://download.geonames.org/export/dump/CF.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1993-12-22"
+}

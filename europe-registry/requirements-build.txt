@@ -1,0 +1,2 @@
+# Only needed to import the pinned Eurostat workbook.
+openpyxl>=3.1,<4

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-09-26",
+  "all_countries_independently_verified": false,
+  "notes": "Targeted checks, not an exhaustive survey of administrative reforms. Matching a count does not prove matching boundaries or identities.",
+  "countries": {
+    "BF": {
+      "status": "known_administrative_reform_mismatch",
+      "geonames_adm1_count_in_this_snapshot": 13,
+      "official_reference_adm1_count": 17,
+      "official_reference_adm2_count": 47,
+      "reference_date": "2025-07-02",
+      "source_urls": ["https://www.presidencedufaso.bf/conseil-des-ministres-du-2-juillet-2025/", "https://www.igb.bf/les-cartes-administratives/"],
+      "action": "Retain source IDs for historical lookup; reconcile with the reformed official regions before using the hierarchy as current. Do not automatically rename or reassign settlements."
+    },
+    "BI": {
+      "status": "known_administrative_reform_mismatch",
+      "geonames_adm1_count_in_this_snapshot": 16,
+      "official_reference_adm1_count": 5,
+      "official_reference_adm2_count": 42,
+      "reference_date": "2023-03-16",
+      "source_urls": ["https://www.ceniburundi.bi/wp-content/uploads/2024/06/LOI-n%C2%B05-du-16-mars-2023DETERMINATION-ET-DELIMITATION-DES-PROVINCES-COMMUNES-ZONES-ET-QUARTIERS.pdf"],
+      "action": "Reconcile source provinces and descendants with the new official hierarchy before current administrative use. Preserve the original source snapshot."
+    }
+  }
+}

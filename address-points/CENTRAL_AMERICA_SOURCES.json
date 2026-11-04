@@ -1,0 +1,796 @@
+{
+  "schema_version": 1,
+  "release_date": "2026-10-17",
+  "sources": [
+    {
+      "id": "bz-codab-gazetteer",
+      "country": "BZ",
+      "path": "BZ/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/8b2c9a50-82d5-4c31-9b4d-9f7bec2934c6/resource/fb85e5ba-9970-4964-be97-cdfcbaf1e1e8/download/blz_admin_boundaries.xlsx",
+      "format": "xlsx",
+      "title": "Belize - Subnational Administrative Boundaries gazetteer",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "Belize administrative level 0-1 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 1 level:  \n- Admin 1: 6   \n  \n  \nDates associated with this dataset:  \n- 07 November 2024: dataset reviewed for accuracy and completeness  \n- 10 September 2021: valid for use by the humanitarian community  \n- 08 September 2017: last edit to the dataset before publishing  \n- 08 September 2017: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "retrieved_at": "2026-10-17T01:11:10.971059+00:00",
+      "bytes": 8961,
+      "sha256": "c076d6d07434e92354abe7dd8f3a46d9592f16a6fe63d157bcdf5c38780af662",
+      "selected_for_index": true,
+      "namespace": "codab-bz-v01",
+      "layers": [
+        {
+          "sheet": "blz_admin1",
+          "level": 1,
+          "kind": "district",
+          "expected_administrative_count": 6,
+          "non_administrative_codes": []
+        }
+      ],
+      "version": "v01",
+      "coverage_notes_ja": "COD-ABの6地区。市・村を全国行政レベル2として網羅した資料ではない。GeoNamesの地名と独立管理。"
+    },
+    {
+      "id": "bz-codab-metadata",
+      "country": "BZ",
+      "path": "BZ/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-blz",
+      "format": "json",
+      "title": "Belize - Subnational Administrative Boundaries catalogue metadata",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "Belize administrative level 0-1 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 1 level:  \n- Admin 1: 6   \n  \n  \nDates associated with this dataset:  \n- 07 November 2024: dataset reviewed for accuracy and completeness  \n- 10 September 2021: valid for use by the humanitarian community  \n- 08 September 2017: last edit to the dataset before publishing  \n- 08 September 2017: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "retrieved_at": "2026-10-17T01:10:01.508338+00:00",
+      "bytes": 32758,
+      "sha256": "8927ba5c4c90328846c253e028f3fdfb8f98a2191080535487821b3849c78fae",
+      "selected_for_index": false
+    },
+    {
+      "id": "bz-geonames-geonames",
+      "country": "BZ",
+      "path": "BZ/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/BZ.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames BZ geonames",
+      "sha256": "b5a0007d4edbb49536267a04a801aaca833bc0d10c2f22a7aac56e893755ec42",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:10:02.950558+00:00",
+      "bytes": 78367,
+      "final_url": "https://download.geonames.org/export/dump/BZ.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:00:40 GMT",
+        "ETag": "\"1321f-65deb87fa3057\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "bz-geonames-names",
+      "country": "BZ",
+      "path": "BZ/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/BZ.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames BZ names",
+      "sha256": "eba95c963d82963a00f2aa2b516868e5f07044ddeec0953ac6a34797f31eb0a4",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:10:02.953892+00:00",
+      "bytes": 40258,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/BZ.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:03 GMT",
+        "ETag": "\"9d42-65debad253a56\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "cr-codab-gazetteer",
+      "country": "CR",
+      "path": "CR/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/7cf2b2c2-ad83-4f65-aa69-dae9c574df13/resource/f3530865-1419-4ffa-bf51-e0100f4266a5/download/cri_admin_boundaries.xlsx",
+      "format": "xlsx",
+      "title": "Costa Rica - Subnational Administrative Boundaries gazetteer",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "Costa Rica National Statistics Office (NSO)",
+      "vintage_notes": "Costa Rica administrative level 0-3 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 3 levels:  \n- Admin 1: 7   \n- Admin 2: 84   \n- Admin 3: 492   \n  \n  \nDates associated with this dataset:  \n- 06 December 2024: dataset reviewed for accuracy and completeness  \n- 03 December 2024: valid for use by the humanitarian community  \n- 21 June 2022: last edit to the dataset before publishing  \n- 21 June 2022: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "retrieved_at": "2026-10-17T01:11:19.773052+00:00",
+      "bytes": 178358,
+      "sha256": "e0b0507e355b1e38c0a46d988eacc8d6dedd324783fb7514c78632d0a3ef7cbf",
+      "selected_for_index": true,
+      "namespace": "codab-cr-v01",
+      "layers": [
+        {
+          "sheet": "cri_admin1",
+          "level": 1,
+          "kind": "province",
+          "expected_administrative_count": 7,
+          "non_administrative_codes": []
+        },
+        {
+          "sheet": "cri_admin2",
+          "level": 2,
+          "kind": "canton",
+          "expected_administrative_count": 84,
+          "non_administrative_codes": []
+        },
+        {
+          "sheet": "cri_admin3",
+          "level": 3,
+          "kind": "district",
+          "expected_administrative_count": 492,
+          "non_administrative_codes": []
+        }
+      ],
+      "version": "v01",
+      "coverage_notes_ja": "COD-ABは7州・84カントン・492地区。GeoNamesは82カントン相当・474地区で不足がある。COD-ABとGeoNamesのコード体系を混同しない。"
+    },
+    {
+      "id": "cr-codab-metadata",
+      "country": "CR",
+      "path": "CR/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-cri",
+      "format": "json",
+      "title": "Costa Rica - Subnational Administrative Boundaries catalogue metadata",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "Costa Rica National Statistics Office (NSO)",
+      "vintage_notes": "Costa Rica administrative level 0-3 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 3 levels:  \n- Admin 1: 7   \n- Admin 2: 84   \n- Admin 3: 492   \n  \n  \nDates associated with this dataset:  \n- 06 December 2024: dataset reviewed for accuracy and completeness  \n- 03 December 2024: valid for use by the humanitarian community  \n- 21 June 2022: last edit to the dataset before publishing  \n- 21 June 2022: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "retrieved_at": "2026-10-17T01:09:55.380371+00:00",
+      "bytes": 19714,
+      "sha256": "22368c44d4831c021bfa96eb9f61b53c5e76b5a1b1607ae7e409a02d03a6763d",
+      "selected_for_index": false
+    },
+    {
+      "id": "cr-geonames-geonames",
+      "country": "CR",
+      "path": "CR/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/CR.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames CR geonames",
+      "sha256": "e129022c31d5876db42865686cbc86292c4591c7486d349855de2b47c04e19e2",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:10:17.152866+00:00",
+      "bytes": 586165,
+      "final_url": "https://download.geonames.org/export/dump/CR.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:01:36 GMT",
+        "ETag": "\"8f1b5-65deb8b561bd3\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "cr-geonames-names",
+      "country": "CR",
+      "path": "CR/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/CR.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames CR names",
+      "sha256": "bfb3b9d08a0cf1c5e77160201598672da4b3acb775dc022b0bf99c09279cfc46",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:10:17.219028+00:00",
+      "bytes": 257068,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/CR.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:22 GMT",
+        "ETag": "\"3ec2c-65debae3d35da\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "gn-admin1CodesASCII",
+      "country": "COMMON",
+      "path": "COMMON/admin1CodesASCII.txt",
+      "url": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+      "format": "tsv",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames admin1CodesASCII.txt",
+      "retrieved_at": "2026-10-17T00:07:11.944936+00:00",
+      "bytes": 151583,
+      "sha256": "1da92a6323a5fec3176f3f743bf4cf4040fd56a876da55e46fbca23c863aa60a",
+      "final_url": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:07:51 GMT",
+        "ETag": "\"2501f-65deba1a96d66\"",
+        "Content-Type": "text/plain; charset=utf-8"
+      },
+      "selected_for_index": true,
+      "inherited_from": "Veygrit_NorthAmerica_20261017.zip"
+    },
+    {
+      "id": "gn-admin2Codes",
+      "country": "COMMON",
+      "path": "COMMON/admin2Codes.txt",
+      "url": "https://download.geonames.org/export/dump/admin2Codes.txt",
+      "format": "tsv",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames admin2Codes.txt",
+      "retrieved_at": "2026-10-17T00:07:17.339170+00:00",
+      "bytes": 2366323,
+      "sha256": "985b37390cad51f51b03897e503748db5acddfd9442438532cfab1ac9fd1cbcd",
+      "final_url": "https://download.geonames.org/export/dump/admin2Codes.txt",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:07:51 GMT",
+        "ETag": "\"241b73-65deba1a96d66\"",
+        "Content-Type": "text/plain; charset=utf-8"
+      },
+      "selected_for_index": true,
+      "inherited_from": "Veygrit_NorthAmerica_20261017.zip"
+    },
+    {
+      "id": "gn-countryInfo",
+      "country": "COMMON",
+      "path": "COMMON/countryInfo.txt",
+      "url": "https://download.geonames.org/export/dump/countryInfo.txt",
+      "format": "tsv",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames countryInfo.txt",
+      "retrieved_at": "2026-10-17T00:07:17.431014+00:00",
+      "bytes": 31690,
+      "sha256": "c55f638cfaafb4fe45a9aa15120a0f1f78e8a34a8e1847d7b9320cf740fbc9ab",
+      "final_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:13:35 GMT",
+        "ETag": "\"7bca-65debb6340838\"",
+        "Content-Type": "text/plain; charset=utf-8"
+      },
+      "selected_for_index": false,
+      "inherited_from": "Veygrit_NorthAmerica_20261017.zip"
+    },
+    {
+      "id": "gn-readme",
+      "country": "COMMON",
+      "path": "COMMON/readme.txt",
+      "url": "https://download.geonames.org/export/dump/readme.txt",
+      "format": "tsv",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames readme.txt",
+      "retrieved_at": "2026-10-17T00:07:17.643009+00:00",
+      "bytes": 8843,
+      "sha256": "b1957379b6c1242c700c98ac9a8aa0a09f56c3c0a50ee72175527005f48ef2c5",
+      "final_url": "https://download.geonames.org/export/dump/readme.txt",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 01:57:47 GMT",
+        "ETag": "\"228b-65deb7dae7285\"",
+        "Content-Type": "text/plain; charset=utf-8"
+      },
+      "selected_for_index": false,
+      "inherited_from": "Veygrit_NorthAmerica_20261017.zip"
+    },
+    {
+      "id": "gt-codab-gazetteer",
+      "country": "GT",
+      "path": "GT/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/0b20f310-7d22-479c-b7e2-e1bb9737fa72/resource/ff1d625b-b657-4a70-8b26-40ebbc2fd983/download/gtm_admin_boundaries.xlsx",
+      "format": "xlsx",
+      "title": "Guatemala - Subnational Administrative Boundaries gazetteer",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "Coordinadora Nacional Para La Reducción De Desastres",
+      "vintage_notes": "Guatemala administrative level 0-2 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 2 levels:  \n- Admin 1: 22   \n- Admin 2: 342   \n  \n  \nDates associated with this dataset:  \n- 30 October 2025: dataset reviewed for accuracy and completeness  \n- 07 February 2019: valid for use by the humanitarian community  \n- 15 February 2019: last edit to the dataset before publishing  \n- 15 February 2019: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "retrieved_at": "2026-10-17T01:13:13.342301+00:00",
+      "bytes": 70659,
+      "sha256": "c8434489cf8d06b9a033f8dd5ecad38f8edf2e3ed854d37cf2aca3279608c40e",
+      "selected_for_index": true,
+      "namespace": "codab-gt-v01",
+      "layers": [
+        {
+          "sheet": "gtm_admin1",
+          "level": 1,
+          "kind": "department",
+          "expected_administrative_count": 22,
+          "non_administrative_codes": []
+        },
+        {
+          "sheet": "gtm_admin2",
+          "level": 2,
+          "kind": "municipality",
+          "expected_administrative_count": 340,
+          "non_administrative_codes": [
+            "GT0100",
+            "GT0700"
+          ]
+        }
+      ],
+      "version": "v01",
+      "coverage_notes_ja": "COD-ABの22県・340市町村。2湖を市町村から分離。原区分は2019年版、2025年の確認日を新設・廃止の施行日とは扱わない。"
+    },
+    {
+      "id": "gt-codab-metadata",
+      "country": "GT",
+      "path": "GT/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-gtm",
+      "format": "json",
+      "title": "Guatemala - Subnational Administrative Boundaries catalogue metadata",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "Coordinadora Nacional Para La Reducción De Desastres",
+      "vintage_notes": "Guatemala administrative level 0-2 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 2 levels:  \n- Admin 1: 22   \n- Admin 2: 342   \n  \n  \nDates associated with this dataset:  \n- 30 October 2025: dataset reviewed for accuracy and completeness  \n- 07 February 2019: valid for use by the humanitarian community  \n- 15 February 2019: last edit to the dataset before publishing  \n- 15 February 2019: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "retrieved_at": "2026-10-17T01:11:06.736052+00:00",
+      "bytes": 34855,
+      "sha256": "1f4b7127c80b7c98a1463e7fc3193a55fe6f3d21835104fb5d5827077520a19f",
+      "selected_for_index": false
+    },
+    {
+      "id": "gt-geonames-geonames",
+      "country": "GT",
+      "path": "GT/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/GT.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames GT geonames",
+      "sha256": "a22197ff812a7337829aacf279213a2bc9276f4d261c0a3107b2c9622ea16bec",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:10:02.952415+00:00",
+      "bytes": 1047270,
+      "final_url": "https://download.geonames.org/export/dump/GT.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:02:35 GMT",
+        "ETag": "\"ffae6-65deb8edbd9b8\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "gt-geonames-names",
+      "country": "GT",
+      "path": "GT/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/GT.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames GT names",
+      "sha256": "276cc0b6cc43e8c54bb36dbd95aae920aca403bab717cdcf209124ee0215433c",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:10:02.953324+00:00",
+      "bytes": 473783,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/GT.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:40 GMT",
+        "ETag": "\"73ab7-65debaf576ba5\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "hn-codab-gazetteer",
+      "country": "HN",
+      "path": "HN/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/bd62fb53-64d3-478f-9ca8-38e4a2de19c0/resource/f12349c7-bc5f-4655-a34d-972f761266b5/download/hnd_admin_boundaries.xlsx",
+      "format": "xlsx",
+      "title": "Honduras - Subnational Administrative Boundaries gazetteer",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "Sistema Nacional de Información Territorial (SINIT), Secretaria Técnica de Planificación y Cooperación Externa (SEPLAN), 2010",
+      "vintage_notes": "Honduras administrative level 0-2 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 2 levels:  \n- Admin 1: 18   \n- Admin 2: 298   \n  \n  \nDates associated with this dataset:  \n- 30 October 2025: dataset reviewed for accuracy and completeness  \n- 05 October 2016: valid for use by the humanitarian community  \n- 25 June 2015: last edit to the dataset before publishing  \n- 25 June 2015: boundaries created by the source  \n  \nContributed by [OCHA Latin America and the Caribbean (ROLAC)](https://data.humdata.org/organization/ocha-rolac).  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "retrieved_at": "2026-10-17T01:11:19.886318+00:00",
+      "bytes": 1669088,
+      "sha256": "9d8472701dc2c9eb78702f901ac774ade980032265c2770256b856f5c0a43e8d",
+      "selected_for_index": true,
+      "namespace": "codab-hn-v01",
+      "layers": [
+        {
+          "sheet": "hnd_admin1",
+          "level": 1,
+          "kind": "department",
+          "expected_administrative_count": 18,
+          "non_administrative_codes": []
+        },
+        {
+          "sheet": "hnd_admin2",
+          "level": 2,
+          "kind": "municipality",
+          "expected_administrative_count": 298,
+          "non_administrative_codes": []
+        },
+        {
+          "sheet": "hnd_populatedplaces",
+          "level": 5,
+          "kind": "populated_place",
+          "expected_source_rows": 27969
+        }
+      ],
+      "version": "v01",
+      "coverage_notes_ja": "COD-ABは18県・298市町村と27,969の集落参照行。地理原典2015年、集落参照2016年。現時点の住所実在や人口を保証しない。"
+    },
+    {
+      "id": "hn-codab-metadata",
+      "country": "HN",
+      "path": "HN/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-hnd",
+      "format": "json",
+      "title": "Honduras - Subnational Administrative Boundaries catalogue metadata",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "Sistema Nacional de Información Territorial (SINIT), Secretaria Técnica de Planificación y Cooperación Externa (SEPLAN), 2010",
+      "vintage_notes": "Honduras administrative level 0-2 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 2 levels:  \n- Admin 1: 18   \n- Admin 2: 298   \n  \n  \nDates associated with this dataset:  \n- 30 October 2025: dataset reviewed for accuracy and completeness  \n- 05 October 2016: valid for use by the humanitarian community  \n- 25 June 2015: last edit to the dataset before publishing  \n- 25 June 2015: boundaries created by the source  \n  \nContributed by [OCHA Latin America and the Caribbean (ROLAC)](https://data.humdata.org/organization/ocha-rolac).  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "retrieved_at": "2026-10-17T01:09:55.458996+00:00",
+      "bytes": 29447,
+      "sha256": "4467093c1acbe148a4767503d0de33bb7e5dac4a9c76d71200c323705eae95d4",
+      "selected_for_index": false
+    },
+    {
+      "id": "hn-geonames-geonames",
+      "country": "HN",
+      "path": "HN/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/HN.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames HN geonames",
+      "sha256": "6a91afac98864c110ff2e0f29888ef8125e87425d69140246f2a65b589b434f5",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:10:10.184662+00:00",
+      "bytes": 482858,
+      "final_url": "https://download.geonames.org/export/dump/HN.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:02:36 GMT",
+        "ETag": "\"75e2a-65deb8eee3c79\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "hn-geonames-names",
+      "country": "HN",
+      "path": "HN/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/HN.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames HN names",
+      "sha256": "08643f1b75b5c86a56f151eb17da0a4258693db028e055bd1eb07bc639b9109c",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:10:10.316611+00:00",
+      "bytes": 169181,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/HN.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:40 GMT",
+        "ETag": "\"294dd-65debaf5bd864\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "ni-codab-gazetteer",
+      "country": "NI",
+      "path": "NI/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/98e9bcfe-6565-4372-8422-f57d5b209448/resource/19ff0c98-606d-40cb-9e42-f0539b58a33f/download/nic_admin_boundaries.xlsx",
+      "format": "xlsx",
+      "title": "Nicaragua - Subnational Administrative Boundaries gazetteer",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "Nicaragua administrative level 0-2 boundaries (COD-AB) dataset version 02.  \n  \nThis dataset is structured into 2 levels:  \n- Admin 1: 17 Department or autonomous region (Departamento o región autónoma)  \n- Admin 2: 153 municipality (municipio)  \n  \n  \nDates associated with this dataset:  \n- 07 November 2024: dataset reviewed for accuracy and completeness  \n- 27 November 2023: valid for use by the humanitarian community  \n- 11 October 2017: last edit to the dataset before publishing  \n- 11 October 2017: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "retrieved_at": "2026-10-17T01:11:19.733814+00:00",
+      "bytes": 66352,
+      "sha256": "a7e3230b2320795ff102c00136d38eafc96150db53db85ac3551e0d537753d61",
+      "selected_for_index": true,
+      "namespace": "codab-ni-v02",
+      "layers": [
+        {
+          "sheet": "nic_admin1",
+          "level": 1,
+          "kind": "department_or_autonomous_region",
+          "expected_administrative_count": 17,
+          "non_administrative_codes": []
+        },
+        {
+          "sheet": "nic_admin2",
+          "level": 2,
+          "kind": "municipality",
+          "expected_administrative_count": 153,
+          "non_administrative_codes": []
+        }
+      ],
+      "version": "v02",
+      "coverage_notes_ja": "COD-ABは15県・2自治地域を含む17の上位区分、153市町村。原地理データ2017年、valid_onは2023年。"
+    },
+    {
+      "id": "ni-codab-metadata",
+      "country": "NI",
+      "path": "NI/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-nic",
+      "format": "json",
+      "title": "Nicaragua - Subnational Administrative Boundaries catalogue metadata",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "Nicaragua administrative level 0-2 boundaries (COD-AB) dataset version 02.  \n  \nThis dataset is structured into 2 levels:  \n- Admin 1: 17 Department or autonomous region (Departamento o región autónoma)  \n- Admin 2: 153 municipality (municipio)  \n  \n  \nDates associated with this dataset:  \n- 07 November 2024: dataset reviewed for accuracy and completeness  \n- 27 November 2023: valid for use by the humanitarian community  \n- 11 October 2017: last edit to the dataset before publishing  \n- 11 October 2017: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "retrieved_at": "2026-10-17T01:10:01.632095+00:00",
+      "bytes": 38408,
+      "sha256": "e9682f0335ecf9eaa731f8023c991d523294107fad711c10384501bf78dd4475",
+      "selected_for_index": false
+    },
+    {
+      "id": "ni-geonames-geonames",
+      "country": "NI",
+      "path": "NI/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/NI.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames NI geonames",
+      "sha256": "8e89e627a94ceee979dc35b9203f8336bd0e70da9f376509f13bfe6ae6aa8e23",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:10:16.759005+00:00",
+      "bytes": 234794,
+      "final_url": "https://download.geonames.org/export/dump/NI.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:04:38 GMT",
+        "ETag": "\"3952a-65deb9633788d\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "ni-geonames-names",
+      "country": "NI",
+      "path": "NI/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/NI.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames NI names",
+      "sha256": "229b5d52f55efc349e37cf4c327b0946d6428b4ec4d2b10ebdcbeec6f5aa028f",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:10:16.949576+00:00",
+      "bytes": 186489,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/NI.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:12:18 GMT",
+        "ETag": "\"2d879-65debb1939b66\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "pa-codab-gazetteer",
+      "country": "PA",
+      "path": "PA/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/19b220b3-2802-432b-b93d-b1a2f2ee347a/resource/5902df40-4437-430c-97a3-f3882bba0f2f/download/pan_admin_boundaries.xlsx",
+      "format": "xlsx",
+      "title": "Panama - Subnational Administrative Boundaries gazetteer",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "Panama administrative level 0-3 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 3 levels:  \n- Admin 1: 13 province or indigenous territory (provincia o comarca comarca indígena)  \n- Admin 2: 76 district or indigenous territory (distrito o comarca indígena)  \n- Admin 3: 594 municpiality (corregimiento)  \n  \n  \nDates associated with this dataset:  \n- 30 October 2025: dataset reviewed for accuracy and completeness  \n- 20 October 2021: valid for use by the humanitarian community  \n- 15 June 2020: last edit to the dataset before publishing  \n- 15 June 2020: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "retrieved_at": "2026-10-17T01:13:13.339882+00:00",
+      "bytes": 138931,
+      "sha256": "c74f908fecb00a2f459bb62b4febada63e6ab9b355cb139dc57121966a478cec",
+      "selected_for_index": true,
+      "namespace": "codab-pa-v01",
+      "layers": [
+        {
+          "sheet": "pan_admin1",
+          "level": 1,
+          "kind": "province_or_comarca",
+          "expected_administrative_count": 13,
+          "non_administrative_codes": []
+        },
+        {
+          "sheet": "pan_admin2",
+          "level": 2,
+          "kind": "district_or_comarca",
+          "expected_administrative_count": 76,
+          "non_administrative_codes": []
+        },
+        {
+          "sheet": "pan_admin3",
+          "level": 3,
+          "kind": "corregimiento",
+          "expected_administrative_count": 594,
+          "non_administrative_codes": []
+        }
+      ],
+      "version": "v01",
+      "coverage_notes_ja": "COD-ABは2020年の原地理データを基にした旧版で13上位区分・76地区相当・594コレヒミエント。2025年IGN公表の82地区・699コレヒミエントより不足。GeoNamesは14 ADM1・82 ADM2・679 ADM3だがNaso Tjër Diの階層がIGN説明と異なる。両系統とも現行全国行政区分の完成扱いにしない。"
+    },
+    {
+      "id": "pa-codab-metadata",
+      "country": "PA",
+      "path": "PA/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-pan",
+      "format": "json",
+      "title": "Panama - Subnational Administrative Boundaries catalogue metadata",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "Panama administrative level 0-3 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 3 levels:  \n- Admin 1: 13 province or indigenous territory (provincia o comarca comarca indígena)  \n- Admin 2: 76 district or indigenous territory (distrito o comarca indígena)  \n- Admin 3: 594 municpiality (corregimiento)  \n  \n  \nDates associated with this dataset:  \n- 30 October 2025: dataset reviewed for accuracy and completeness  \n- 20 October 2021: valid for use by the humanitarian community  \n- 15 June 2020: last edit to the dataset before publishing  \n- 15 June 2020: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "retrieved_at": "2026-10-17T01:11:06.845426+00:00",
+      "bytes": 35678,
+      "sha256": "0e2816f93b1fecb2d6576922f58eb2adf717e7b8249e7f55db379fac337839cc",
+      "selected_for_index": false
+    },
+    {
+      "id": "pa-geonames-geonames",
+      "country": "PA",
+      "path": "PA/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/PA.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames PA geonames",
+      "sha256": "d1f06645903d8ffb3d8a28172d05c13a602a6af84ce6fd04315ffba5aaf8d1c9",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:10:23.704780+00:00",
+      "bytes": 931970,
+      "final_url": "https://download.geonames.org/export/dump/PA.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:05:05 GMT",
+        "ETag": "\"e3882-65deb97c706ec\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "pa-geonames-names",
+      "country": "PA",
+      "path": "PA/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/PA.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames PA names",
+      "sha256": "0204519c923c3c81afca729493baf7762b99ed2a2dd7059a1353139f06a68d40",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:10:23.836735+00:00",
+      "bytes": 437738,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/PA.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:12:25 GMT",
+        "ETag": "\"6adea-65debb2078574\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "sv-codab-gazetteer",
+      "country": "SV",
+      "path": "SV/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/08bfc7f6-3acc-45df-a69a-b853cf1cff05/resource/bdb2ce73-0ec0-499e-9dce-d981bc997e82/download/slv_admin_boundaries.xlsx",
+      "format": "xlsx",
+      "title": "El Salvador - Subnational Administrative Boundaries gazetteer",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "El Salvador administrative level 0-3 boundaries (COD-AB) dataset version 02.  \n  \nThis dataset is structured into 3 levels:  \n- Admin 1: 14 departamento  \n- Admin 2: 48 municipio  \n- Admin 3: 266 distrito  \n  \n  \nDates associated with this dataset:  \n- 30 October 2025: dataset reviewed for accuracy and completeness  \n- 19 August 2024: valid for use by the humanitarian community  \n- 29 May 2020: last edit to the dataset before publishing  \n- 29 May 2020: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "retrieved_at": "2026-10-17T01:13:13.382259+00:00",
+      "bytes": 103325,
+      "sha256": "5ca1d18efbf4ffdd1650e4f914d4a55f0743cc8d40d7f979d36c446cdae51cde",
+      "selected_for_index": true,
+      "namespace": "codab-sv-v02",
+      "layers": [
+        {
+          "sheet": "slv_admin1",
+          "level": 1,
+          "kind": "department",
+          "expected_administrative_count": 14,
+          "non_administrative_codes": []
+        },
+        {
+          "sheet": "slv_admin2",
+          "level": 2,
+          "kind": "municipality",
+          "expected_administrative_count": 44,
+          "non_administrative_codes": [
+            "SV03999",
+            "SV10899",
+            "SV12998",
+            "SV12999"
+          ]
+        },
+        {
+          "sheet": "slv_admin3",
+          "level": 3,
+          "kind": "district",
+          "expected_administrative_count": 262,
+          "non_administrative_codes": [
+            "SV03999001",
+            "SV10899001",
+            "SV12998001",
+            "SV12999001"
+          ]
+        }
+      ],
+      "version": "v02",
+      "coverage_notes_ja": "2024年の県・市町村・地区の3階層。44市町村・262地区に加え、地図を埋めるための湖・貯水池各4行があり、行政区分とは分離する。"
+    },
+    {
+      "id": "sv-codab-metadata",
+      "country": "SV",
+      "path": "SV/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-slv",
+      "format": "json",
+      "title": "El Salvador - Subnational Administrative Boundaries catalogue metadata",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "El Salvador administrative level 0-3 boundaries (COD-AB) dataset version 02.  \n  \nThis dataset is structured into 3 levels:  \n- Admin 1: 14 departamento  \n- Admin 2: 48 municipio  \n- Admin 3: 266 distrito  \n  \n  \nDates associated with this dataset:  \n- 30 October 2025: dataset reviewed for accuracy and completeness  \n- 19 August 2024: valid for use by the humanitarian community  \n- 29 May 2020: last edit to the dataset before publishing  \n- 29 May 2020: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "retrieved_at": "2026-10-17T01:11:06.797559+00:00",
+      "bytes": 40294,
+      "sha256": "128cfab98a6b1a0ac43464d2664e89526a49f820c0fcc47b3ffac5c8514cb782",
+      "selected_for_index": false
+    },
+    {
+      "id": "sv-geonames-geonames",
+      "country": "SV",
+      "path": "SV/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/SV.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames SV geonames",
+      "sha256": "bf2207858efb0055483c289aaa9492898ab02e3a325f086d3cf18925d545179f",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:10:10.033247+00:00",
+      "bytes": 231950,
+      "final_url": "https://download.geonames.org/export/dump/SV.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:05:55 GMT",
+        "ETag": "\"38a0e-65deb9acb0fb9\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "sv-geonames-names",
+      "country": "SV",
+      "path": "SV/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/SV.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames SV names",
+      "sha256": "ab5d8753551a87d49f548ec5b5b06c206545cb862f5a721564d2d26a346a31e9",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:10:10.169318+00:00",
+      "bytes": 126313,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/SV.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:12:45 GMT",
+        "ETag": "\"1ed69-65debb32ca40e\"",
+        "Content-Type": "application/zip"
+      }
+    }
+  ],
+  "required_source_ids": [
+    "bz-codab-gazetteer",
+    "bz-codab-metadata",
+    "bz-geonames-geonames",
+    "bz-geonames-names",
+    "cr-codab-gazetteer",
+    "cr-codab-metadata",
+    "cr-geonames-geonames",
+    "cr-geonames-names",
+    "gn-admin1CodesASCII",
+    "gn-admin2Codes",
+    "gn-countryInfo",
+    "gn-readme",
+    "gt-codab-gazetteer",
+    "gt-codab-metadata",
+    "gt-geonames-geonames",
+    "gt-geonames-names",
+    "hn-codab-gazetteer",
+    "hn-codab-metadata",
+    "hn-geonames-geonames",
+    "hn-geonames-names",
+    "ni-codab-gazetteer",
+    "ni-codab-metadata",
+    "ni-geonames-geonames",
+    "ni-geonames-names",
+    "pa-codab-gazetteer",
+    "pa-codab-metadata",
+    "pa-geonames-geonames",
+    "pa-geonames-names",
+    "sv-codab-gazetteer",
+    "sv-codab-metadata",
+    "sv-geonames-geonames",
+    "sv-geonames-names"
+  ],
+  "failures": [],
+  "snapshot_policy": "Original byte hashes identify snapshots; rolling URLs are not immutable versions."
+}

@@ -1,0 +1,78 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "ESH",
+    "country": "EH",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Western Sahara",
+    "geonames_id": "2461445",
+    "id": "country:EH",
+    "m49": "732",
+    "name_en": "Western Sahara",
+    "numeric": "732",
+    "region": "Northern Africa",
+    "status": "disputed"
+  },
+  "counts": {
+    "address_candidates": 49,
+    "admin_rows": 0,
+    "ambiguous_parents": 0,
+    "country": "EH",
+    "country_scope_only": 49,
+    "localities_without_adm1": 50,
+    "locality_rows": 50,
+    "name_en": "Western Sahara",
+    "other_admin_rows": 1,
+    "region": "Northern Africa",
+    "unresolved_parents": 1
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "PPL": 46,
+    "PPLA": 2,
+    "PPLA2": 1,
+    "PPLQ": 1,
+    "TERR": 1
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 5658,
+      "rows": 51,
+      "sha256": "ed407adebca97d4ea76b73b24ec6d6aeb0f297a2226511ccadd05e10ff9b7080",
+      "uncompressed_sha256": "bf2a86e06be9f4558baf07f282960f0b6312c17d5bef8c1c26e26246ef99131c"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 49,
+    "missing_reference": 1,
+    "not_assigned_for_other_feature": 1
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 0,
+      "sha256": "6fe5bf94663e3f1bddc0b9a464613de7e45a6c2fb10f5a5f4b51e70f1c4c31c2"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 70065,
+    "discarded_feature_classes": {
+      "H": 938,
+      "L": 367,
+      "R": 2,
+      "S": 169,
+      "T": 759
+    },
+    "retained_rows": 51,
+    "retrieved_on": "2026-09-26",
+    "sha256": "5e96e27e2fba59ef4bf284f0baaee54bb2ece782f1a2cb3bad48870074a3b061",
+    "source_rows": 2286,
+    "url": "https://download.geonames.org/export/dump/EH.zip"
+  },
+  "source_modified_max": "2026-06-01",
+  "source_modified_min": "1993-12-18"
+}

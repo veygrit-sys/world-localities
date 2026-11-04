@@ -1,0 +1,294 @@
+{
+  "observed_on": "2026-10-01",
+  "profiles": 52,
+  "partially_enriched_profiles": 2,
+  "pending_profiles": 50,
+  "fully_enriched_profiles": 0,
+  "countries": [
+    {
+      "country": "AE",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "AF",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "AM",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "AZ",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "BD",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "BH",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "BN",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "BT",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "CN",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "CY",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "GE",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "HK",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "ID",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "IL",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "IN",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "IQ",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "IR",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "JO",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "JP",
+      "status": "partial",
+      "full_official_coverage": false,
+      "coverage": "JP/coverage.json",
+      "included": [
+        "official_code_links",
+        "Japanese",
+        "kana",
+        "source_romanization",
+        "complete_7_digit_postal_rows"
+      ],
+      "remaining": [
+        "full_English_names",
+        "business_postcodes",
+        "confirmed_GeoNames_crosswalks",
+        "point_address_validation"
+      ]
+    },
+    {
+      "country": "KG",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "KH",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "KP",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "KR",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "KW",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "KZ",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "LA",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "LB",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "LK",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "MM",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "MN",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "MO",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "MV",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "MY",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "NP",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "OM",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "PH",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "PK",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "PS",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "QA",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "RU",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "SA",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "SG",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "SY",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "TH",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "TJ",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "TL",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "TM",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "TR",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "TW",
+      "status": "partial",
+      "full_official_coverage": false,
+      "coverage": "TW/coverage.json",
+      "included": [
+        "postal_authority_Chinese_English_pairs",
+        "3_digit_prefix_links"
+      ],
+      "remaining": [
+        "complete_6_digit_postcodes",
+        "official_administrative_IDs",
+        "currentness_beyond_published_snapshot",
+        "point_address_validation"
+      ]
+    },
+    {
+      "country": "UZ",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "VN",
+      "status": "pending",
+      "full_official_coverage": false
+    },
+    {
+      "country": "YE",
+      "status": "pending",
+      "full_official_coverage": false
+    }
+  ]
+}

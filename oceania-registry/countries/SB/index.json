@@ -1,0 +1,76 @@
+{
+  "archive_bytes": 754717,
+  "archive_sha256": "862b63518730c82a9ab4db48224894e3db2fd7f441cdf5f4e4851c4c938f6cc5",
+  "parts": [
+    {
+      "path": "countries/SB/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "98d42673915cffe83156a5fcdddffdbde81b0e42632af0730a531937cfa1bbf6",
+      "bytes": 524288,
+      "sha256": "062160d2a93045fb93b613f6f2d1bd9ef757756d2a6cded4e0adb31e1d422a92"
+    },
+    {
+      "path": "countries/SB/part-002.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 307241,
+      "stored_sha256": "3c2cca9d942809ec2acc60b8e4285ee45f6cf482bec7cb186312cd6c1a692a01",
+      "bytes": 230429,
+      "sha256": "681ceeb6700e2d2a2582640d2fb08474a4c4751ac5073ab0071472c1004c2129"
+    }
+  ],
+  "members": {
+    "base/data/melanesia/SB/index.json": {
+      "bytes": 2706,
+      "sha256": "741f7a672610ff07de49717948f4c319187db0c2ab6080b03de3acfffc4f413a"
+    },
+    "base/data/melanesia/SB/places.csv": {
+      "bytes": 1457884,
+      "sha256": "1edba31d6e467af3596605e94918c8401875bd33d903639e0c26814d300a381e"
+    },
+    "base/data/melanesia/SB/places.jsonl": {
+      "bytes": 3353011,
+      "sha256": "c56822c83bab62450d1dfad6b91ef7fffa715cd32d404f1687ba0ced46a500e4"
+    },
+    "base/sources/geonames/SB.zip": {
+      "bytes": 263242,
+      "sha256": "34ceea5d8fecdb53c8ec5fd55ff0aad0af0c2c723e9c211ffe546d994d83a560"
+    },
+    "base/sources/geonames/SB.zip.download.json": {
+      "bytes": 306,
+      "sha256": "c9484a2a2f92da2e2d44f33ea72969d48b342b684ca018bba5e2443e125b0682"
+    },
+    "locale/names.csv": {
+      "bytes": 169450,
+      "sha256": "243c3dd080f4c490c92ca46abd5aaef124c2a8f1152da991b75d2cbb84fbeb49"
+    },
+    "locale/names.jsonl": {
+      "bytes": 365297,
+      "sha256": "bcb54667cb0186e6fdebe0dca12cb148b527c1859c6dcfda0221b5c98624a69c"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 3,
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "locale/sources/address-templates/SB.json": {
+      "bytes": 52,
+      "sha256": "291cc6d20f01caeb0db86b7157cd7d42a87a0d93e2f997b079fdc515feda0395"
+    },
+    "locale/sources/address-templates/SB.json.download.json": {
+      "bytes": 270,
+      "sha256": "b505cd00292b99e5d004add838aaae8a9516c9e4a63f5e6bbd6de9689d4688e8"
+    },
+    "locale/sources/alternatenames/SB.zip": {
+      "bytes": 101288,
+      "sha256": "ff09c98b9cbf29fbe40c84d3e1c64977e0bc13f7081cfb1b1668cd03ad5d046f"
+    },
+    "locale/sources/alternatenames/SB.zip.download.json": {
+      "bytes": 284,
+      "sha256": "35a63784be1f8907372e6d01c1cdecb77a027278f0c9bec0e7dd6e34ed568d12"
+    }
+  }
+}

@@ -1,0 +1,499 @@
+{
+  "countries": [
+    {
+      "alpha3": "ARG",
+      "country": "AR",
+      "geonames_continent": "SA",
+      "geonames_id": "3865483",
+      "id": "country:AR",
+      "m49": "032",
+      "name_en": "Argentina",
+      "region": "South America",
+      "region_m49": "005",
+      "source_country_languages": [
+        "es-AR",
+        "en",
+        "it",
+        "de",
+        "fr",
+        "gn"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "BOL",
+      "country": "BO",
+      "geonames_continent": "SA",
+      "geonames_id": "3923057",
+      "id": "country:BO",
+      "m49": "068",
+      "name_en": "Bolivia (Plurinational State of)",
+      "region": "South America",
+      "region_m49": "005",
+      "source_country_languages": [
+        "es-BO",
+        "qu",
+        "ay"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "BRA",
+      "country": "BR",
+      "geonames_continent": "SA",
+      "geonames_id": "3469034",
+      "id": "country:BR",
+      "m49": "076",
+      "name_en": "Brazil",
+      "region": "South America",
+      "region_m49": "005",
+      "source_country_languages": [
+        "pt-BR",
+        "es",
+        "en",
+        "fr"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "BVT",
+      "country": "BV",
+      "geonames_continent": "AN",
+      "geonames_id": "3371123",
+      "id": "country:BV",
+      "m49": "074",
+      "name_en": "Bouvet Island",
+      "region": "South America",
+      "region_m49": "005",
+      "source_country_languages": [],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "CHL",
+      "country": "CL",
+      "geonames_continent": "SA",
+      "geonames_id": "3895114",
+      "id": "country:CL",
+      "m49": "152",
+      "name_en": "Chile",
+      "region": "South America",
+      "region_m49": "005",
+      "source_country_languages": [
+        "es-CL"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "COL",
+      "country": "CO",
+      "geonames_continent": "SA",
+      "geonames_id": "3686110",
+      "id": "country:CO",
+      "m49": "170",
+      "name_en": "Colombia",
+      "region": "South America",
+      "region_m49": "005",
+      "source_country_languages": [
+        "es-CO"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "ECU",
+      "country": "EC",
+      "geonames_continent": "SA",
+      "geonames_id": "3658394",
+      "id": "country:EC",
+      "m49": "218",
+      "name_en": "Ecuador",
+      "region": "South America",
+      "region_m49": "005",
+      "source_country_languages": [
+        "es-EC"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "FLK",
+      "country": "FK",
+      "geonames_continent": "SA",
+      "geonames_id": "3474414",
+      "id": "country:FK",
+      "m49": "238",
+      "name_en": "Falkland Islands (Malvinas)",
+      "region": "South America",
+      "region_m49": "005",
+      "source_country_languages": [
+        "en-FK"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "GUF",
+      "country": "GF",
+      "geonames_continent": "SA",
+      "geonames_id": "3381670",
+      "id": "country:GF",
+      "m49": "254",
+      "name_en": "French Guiana",
+      "region": "South America",
+      "region_m49": "005",
+      "source_country_languages": [
+        "fr-GF"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "SGS",
+      "country": "GS",
+      "geonames_continent": "AN",
+      "geonames_id": "3474415",
+      "id": "country:GS",
+      "m49": "239",
+      "name_en": "South Georgia and the South Sandwich Islands",
+      "region": "South America",
+      "region_m49": "005",
+      "source_country_languages": [
+        "en"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "GUY",
+      "country": "GY",
+      "geonames_continent": "SA",
+      "geonames_id": "3378535",
+      "id": "country:GY",
+      "m49": "328",
+      "name_en": "Guyana",
+      "region": "South America",
+      "region_m49": "005",
+      "source_country_languages": [
+        "en-GY"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "PER",
+      "country": "PE",
+      "geonames_continent": "SA",
+      "geonames_id": "3932488",
+      "id": "country:PE",
+      "m49": "604",
+      "name_en": "Peru",
+      "region": "South America",
+      "region_m49": "005",
+      "source_country_languages": [
+        "es-PE",
+        "qu",
+        "ay"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "PRY",
+      "country": "PY",
+      "geonames_continent": "SA",
+      "geonames_id": "3437598",
+      "id": "country:PY",
+      "m49": "600",
+      "name_en": "Paraguay",
+      "region": "South America",
+      "region_m49": "005",
+      "source_country_languages": [
+        "es-PY",
+        "gn"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "SUR",
+      "country": "SR",
+      "geonames_continent": "SA",
+      "geonames_id": "3382998",
+      "id": "country:SR",
+      "m49": "740",
+      "name_en": "Suriname",
+      "region": "South America",
+      "region_m49": "005",
+      "source_country_languages": [
+        "nl-SR",
+        "en",
+        "srn",
+        "hns",
+        "jv"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "URY",
+      "country": "UY",
+      "geonames_continent": "SA",
+      "geonames_id": "3439705",
+      "id": "country:UY",
+      "m49": "858",
+      "name_en": "Uruguay",
+      "region": "South America",
+      "region_m49": "005",
+      "source_country_languages": [
+        "es-UY"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "VEN",
+      "country": "VE",
+      "geonames_continent": "SA",
+      "geonames_id": "3625428",
+      "id": "country:VE",
+      "m49": "862",
+      "name_en": "Venezuela (Bolivarian Republic of)",
+      "region": "South America",
+      "region_m49": "005",
+      "source_country_languages": [
+        "es-VE"
+      ],
+      "status": "source_country_or_area"
+    }
+  ],
+  "m49_country_area_count": 16,
+  "pending_countries": [],
+  "published_country_area_count": 16,
+  "related_separate_layers": [
+    {
+      "country": "BR",
+      "layer": "official-registry/countries/BR",
+      "note": "Existing official IBGE municipality layer; not duplicated or reconciled with this pack."
+    }
+  ],
+  "retrieved_on": "2026-10-01",
+  "schema_version": 1,
+  "scope_m49": "005",
+  "source_rows": [
+    [
+      "001",
+      "World",
+      "019",
+      "Americas",
+      "419",
+      "Latin America and the Caribbean",
+      "005",
+      "South America",
+      "Argentina",
+      "032",
+      "AR",
+      "ARG"
+    ],
+    [
+      "001",
+      "World",
+      "019",
+      "Americas",
+      "419",
+      "Latin America and the Caribbean",
+      "005",
+      "South America",
+      "Bolivia (Plurinational State of)",
+      "068",
+      "BO",
+      "BOL"
+    ],
+    [
+      "001",
+      "World",
+      "019",
+      "Americas",
+      "419",
+      "Latin America and the Caribbean",
+      "005",
+      "South America",
+      "Bouvet Island",
+      "074",
+      "BV",
+      "BVT"
+    ],
+    [
+      "001",
+      "World",
+      "019",
+      "Americas",
+      "419",
+      "Latin America and the Caribbean",
+      "005",
+      "South America",
+      "Brazil",
+      "076",
+      "BR",
+      "BRA"
+    ],
+    [
+      "001",
+      "World",
+      "019",
+      "Americas",
+      "419",
+      "Latin America and the Caribbean",
+      "005",
+      "South America",
+      "Chile",
+      "152",
+      "CL",
+      "CHL"
+    ],
+    [
+      "001",
+      "World",
+      "019",
+      "Americas",
+      "419",
+      "Latin America and the Caribbean",
+      "005",
+      "South America",
+      "Colombia",
+      "170",
+      "CO",
+      "COL"
+    ],
+    [
+      "001",
+      "World",
+      "019",
+      "Americas",
+      "419",
+      "Latin America and the Caribbean",
+      "005",
+      "South America",
+      "Ecuador",
+      "218",
+      "EC",
+      "ECU"
+    ],
+    [
+      "001",
+      "World",
+      "019",
+      "Americas",
+      "419",
+      "Latin America and the Caribbean",
+      "005",
+      "South America",
+      "Falkland Islands (Malvinas)",
+      "238",
+      "FK",
+      "FLK"
+    ],
+    [
+      "001",
+      "World",
+      "019",
+      "Americas",
+      "419",
+      "Latin America and the Caribbean",
+      "005",
+      "South America",
+      "French Guiana",
+      "254",
+      "GF",
+      "GUF"
+    ],
+    [
+      "001",
+      "World",
+      "019",
+      "Americas",
+      "419",
+      "Latin America and the Caribbean",
+      "005",
+      "South America",
+      "Guyana",
+      "328",
+      "GY",
+      "GUY"
+    ],
+    [
+      "001",
+      "World",
+      "019",
+      "Americas",
+      "419",
+      "Latin America and the Caribbean",
+      "005",
+      "South America",
+      "Paraguay",
+      "600",
+      "PY",
+      "PRY"
+    ],
+    [
+      "001",
+      "World",
+      "019",
+      "Americas",
+      "419",
+      "Latin America and the Caribbean",
+      "005",
+      "South America",
+      "Peru",
+      "604",
+      "PE",
+      "PER"
+    ],
+    [
+      "001",
+      "World",
+      "019",
+      "Americas",
+      "419",
+      "Latin America and the Caribbean",
+      "005",
+      "South America",
+      "South Georgia and the South Sandwich Islands",
+      "239",
+      "GS",
+      "SGS"
+    ],
+    [
+      "001",
+      "World",
+      "019",
+      "Americas",
+      "419",
+      "Latin America and the Caribbean",
+      "005",
+      "South America",
+      "Suriname",
+      "740",
+      "SR",
+      "SUR"
+    ],
+    [
+      "001",
+      "World",
+      "019",
+      "Americas",
+      "419",
+      "Latin America and the Caribbean",
+      "005",
+      "South America",
+      "Uruguay",
+      "858",
+      "UY",
+      "URY"
+    ],
+    [
+      "001",
+      "World",
+      "019",
+      "Americas",
+      "419",
+      "Latin America and the Caribbean",
+      "005",
+      "South America",
+      "Venezuela (Bolivarian Republic of)",
+      "862",
+      "VE",
+      "VEN"
+    ]
+  ],
+  "source_url": "https://unstats.un.org/unsd/methodology/m49/"
+}

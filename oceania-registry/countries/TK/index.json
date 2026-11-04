@@ -1,0 +1,68 @@
+{
+  "archive_bytes": 35577,
+  "archive_sha256": "70d0e8a44aa61c454e7e08c906975c12580faa8fb7b4cf09f185dca1618d99d6",
+  "parts": [
+    {
+      "path": "countries/TK/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 47437,
+      "stored_sha256": "83453ea262aad4686cdccbd03ad71e92a32a7c0f82c591cc005319c3f0dcf77e",
+      "bytes": 35577,
+      "sha256": "70d0e8a44aa61c454e7e08c906975c12580faa8fb7b4cf09f185dca1618d99d6"
+    }
+  ],
+  "members": {
+    "base/data/polynesia/TK/index.json": {
+      "bytes": 1884,
+      "sha256": "356f577d20a745cd1d3031455d41b89c99b4be37e3723c2452a321b6f21287aa"
+    },
+    "base/data/polynesia/TK/places.csv": {
+      "bytes": 7140,
+      "sha256": "f166b40f75c53dcf6e8247284a76cc344d23acc45ad024c85495cc0732008ddb"
+    },
+    "base/data/polynesia/TK/places.jsonl": {
+      "bytes": 11043,
+      "sha256": "17b23c58e8303086b22a44cdeab535c73c26c70f2250ca7c9371d5d457629911"
+    },
+    "base/sources/geonames/TK.zip": {
+      "bytes": 9215,
+      "sha256": "c1b3c60d33310f60cec2dadc32c9dc45a01ca837100c4907416277b8f01f1ac4"
+    },
+    "base/sources/geonames/TK.zip.download.json": {
+      "bytes": 303,
+      "sha256": "b0edd0b3a6c604d57334634b585b16039846a69b86340e147473f8f96b497cda"
+    },
+    "locale/names.csv": {
+      "bytes": 38945,
+      "sha256": "a717b2fd00151eb1bf9eb3c80eb2658786ef5e136cdf6375af53635ce00b6b01"
+    },
+    "locale/names.jsonl": {
+      "bytes": 86522,
+      "sha256": "db4325cf5e1f36b6b319436e4a315790938241b5223ebd2e1deb725bf3548265"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 3,
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "locale/sources/address-templates/TK.json": {
+      "bytes": 44,
+      "sha256": "ab12b192a4bb7ff1be5b8a9bfa32536073df4dacbe8cd30656983558efc9125f"
+    },
+    "locale/sources/address-templates/TK.json.download.json": {
+      "bytes": 270,
+      "sha256": "a81def4e502ceb07aed6f38c15c60aac86a686d8c28452fd9fec49683d638967"
+    },
+    "locale/sources/alternatenames/TK.zip": {
+      "bytes": 7999,
+      "sha256": "6a167b36914d1963e76026ed48e5d86acb4152aa63f513bfda95a0f29caf6a90"
+    },
+    "locale/sources/alternatenames/TK.zip.download.json": {
+      "bytes": 282,
+      "sha256": "b502a291de0c5165da2b5386676107101b0dab0a0613349bdeb299ccf30077a0"
+    }
+  }
+}

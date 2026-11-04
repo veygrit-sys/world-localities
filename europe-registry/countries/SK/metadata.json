@@ -1,0 +1,98 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "SVK",
+    "country": "SK",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Slovakia",
+    "geonames_id": "3057568",
+    "id": "country:SK",
+    "m49": "703",
+    "m49_region": "Europe",
+    "name_en": "Slovakia",
+    "region": "Eastern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 5034,
+    "admin_rows": 3014,
+    "ambiguous_parents": 0,
+    "country": "SK",
+    "country_scope_only": 7,
+    "localities_without_adm1": 38,
+    "locality_rows": 5069,
+    "name_en": "Slovakia",
+    "other_admin_rows": 4,
+    "region": "Eastern Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 8,
+    "ADM2": 79,
+    "ADM3": 2927,
+    "ADMD": 4,
+    "PPL": 4882,
+    "PPLA": 7,
+    "PPLA2": 54,
+    "PPLA3": 6,
+    "PPLC": 1,
+    "PPLCH": 1,
+    "PPLH": 27,
+    "PPLL": 31,
+    "PPLQ": 3,
+    "PPLS": 4,
+    "PPLX": 53
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 416606,
+      "rows": 8087,
+      "sha256": "0c87f3951a00b869f7d8d48ad1d90301efe8ecdae08edaaf3c225b3ca5d6945c",
+      "uncompressed_sha256": "2595ce9fbee64c7b5b857d3c1302fbcfb621960d03a6fdab6cd70c4417c16945"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 7,
+    "historical_parent_not_asserted": 31,
+    "not_assigned_for_other_feature": 4,
+    "source_admin_code": 8037,
+    "source_country": 8
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 8,
+      "sha256": "ca5dc11e9e1a0ff32de117fe952bce86370919de743b91c8c4037a55c01e6fcc"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 11343,
+    "bytes": 452508,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 468,
+      "L": 35,
+      "R": 5,
+      "S": 1030,
+      "T": 1704,
+      "V": 13
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:56:29 GMT",
+    "retained_rows": 8087,
+    "retrieved_at": "2026-09-29T11:14:42.994120+00:00",
+    "sha256": "d57aa738efdd607b1e6b2f8349ad2df12192357292e57aea91150ac304c4f6ea",
+    "url": "https://download.geonames.org/export/dump/SK.zip"
+  },
+  "source_modified_max": "2026-09-21",
+  "source_modified_min": "1993-12-18"
+}

@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "commit": "ed6af9255cc20d8326a7e37a6aa8f508a74c99ed",
+  "runs": [
+    {
+      "id": 39744933858,
+      "name": "Source-qualified hierarchy checks",
+      "url": "https://github.com/rei-k/world-localities/actions/runs/39744933858",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "ed6af9255cc20d8326a7e37a6aa8f508a74c99ed"
+    },
+    {
+      "id": 39744933855,
+      "name": "Caribbean hierarchy and official source contracts",
+      "url": "https://github.com/rei-k/world-localities/actions/runs/39744933855",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "ed6af9255cc20d8326a7e37a6aa8f508a74c99ed"
+    },
+    {
+      "id": 39744933869,
+      "name": "East Asia source and coverage checks",
+      "url": "https://github.com/rei-k/world-localities/actions/runs/39744933869",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "ed6af9255cc20d8326a7e37a6aa8f508a74c99ed"
+    }
+  ],
+  "national_completeness_verified": false,
+  "deliverability_in_scope": false
+}

@@ -1,0 +1,92 @@
+{
+  "archive_bytes": 2071199,
+  "archive_sha256": "a9e68d623f74bdfa36742fe5ed8a5990be07820366a91af54b63e0f9f4ea07b0",
+  "parts": [
+    {
+      "path": "countries/PG/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "4fb10f38514b9022387d5a8c36c9b03f38be6550b8f32e2e8a7a1f06889e3eed",
+      "bytes": 524288,
+      "sha256": "823db186cc61453c5bf0d5c833c56ce5f26bc44e5e8a9e4b375397dd859fd09b"
+    },
+    {
+      "path": "countries/PG/part-002.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "6446243bfe282279d8ebdbbcecbe09dee32b79baee89f31f0508edec7abc19e7",
+      "bytes": 524288,
+      "sha256": "41ef385e4879592a3443aaad0258bb1551124d78ab15864cfe256451363318a6"
+    },
+    {
+      "path": "countries/PG/part-003.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 699053,
+      "stored_sha256": "ea88f6f7102cbec19a7892aff2d253c990367e4099e72f7ce420a0265ba77359",
+      "bytes": 524288,
+      "sha256": "e3a8b5c411d6173b9a6f7434ccd4374262f20497b668650e006457c439f5f46f"
+    },
+    {
+      "path": "countries/PG/part-004.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 664449,
+      "stored_sha256": "a5a9a3a140637f56b2a2eafa57e4b8903d1be8095125e51ae178fa5229d73cc7",
+      "bytes": 498335,
+      "sha256": "9fdb4bf99b2ded7f6009872ce801ac581752c679a1856c8e5d1d2c3c6935df9f"
+    }
+  ],
+  "members": {
+    "base/data/melanesia/PG/index.json": {
+      "bytes": 4345,
+      "sha256": "379411df1e2d08e9ad7bdf0e81325a43e592c9a28c478f742123fe8b3247ad80"
+    },
+    "base/data/melanesia/PG/places.csv": {
+      "bytes": 4955516,
+      "sha256": "1f1cd66bd4ed5b5ac5673766c63c1603383827cd0fde34f2ee052fb3cd2869eb"
+    },
+    "base/data/melanesia/PG/places.jsonl": {
+      "bytes": 11798255,
+      "sha256": "dbb9ac84308a62894e81641b0b2ff233d7c1ada0b7191945c0ec93c96f39cc68"
+    },
+    "base/sources/geonames/PG.zip": {
+      "bytes": 618831,
+      "sha256": "78d078b696c0731d89be2df7e8913ee0e6588161017c4a8b62143af0b8678e5f"
+    },
+    "base/sources/geonames/PG.zip.download.json": {
+      "bytes": 306,
+      "sha256": "de19fd30918c1e3444fa84b9cb4c4ff1736a2b372b5c59d247f0fd62ebf949af"
+    },
+    "locale/names.csv": {
+      "bytes": 386490,
+      "sha256": "d5d7b3ba98e4b0921fd609cddb379047f25c35c2eeb1443001f5268b4f2dd370"
+    },
+    "locale/names.jsonl": {
+      "bytes": 833675,
+      "sha256": "cb48a8906c2b5d4b7634afdb7361a1fd64a91f169d5e71f8a0e37e594e1b6472"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 3,
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "locale/sources/address-templates/PG.json": {
+      "bytes": 655,
+      "sha256": "6455c5c5db033130da22687c4c3a5e6d8fdb8be38dd90911bd745494e6d3f94e"
+    },
+    "locale/sources/address-templates/PG.json.download.json": {
+      "bytes": 271,
+      "sha256": "2cbb9881fef2a0f805af5cd3c486bb19a1dbf55175584e9ba2387807b05a669b"
+    },
+    "locale/sources/alternatenames/PG.zip": {
+      "bytes": 245340,
+      "sha256": "114e90f7782d9636e1fbf838d0548820f899e51a4062ea1043ffd8cc7d7118ef"
+    },
+    "locale/sources/alternatenames/PG.zip.download.json": {
+      "bytes": 284,
+      "sha256": "6b6f3c1a669e3fee0e4dd880bd05b7f70501ebc4717e683f5ed01276105f7245"
+    }
+  }
+}

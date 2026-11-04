@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "checked_at": "2026-10-21T19:25:33.247171+00:00",
+  "scope_codes": [
+    "BZ",
+    "CR",
+    "GT",
+    "HN",
+    "MX",
+    "NI",
+    "PA",
+    "SV"
+  ],
+  "osmium_version": "4.3.2",
+  "osm": {
+    "raw_extracts": 8,
+    "raw_bytes": 1043836421,
+    "replayed_observations": 7123066,
+    "tags_topology_node_and_way_coordinate_replay": "PASS",
+    "report": "osm-replay.json",
+    "query_checks": 24,
+    "query_report": "osm-query-checks.json",
+    "export": "osm-export.json"
+  },
+  "mexico_address_csv": {
+    "source_rows": 31236822,
+    "nonplaceholder_number_string_rows": 15325709,
+    "compressed_source_sha256": "090735bf608a3202a141da670d960a05dbe464893ba49208fc37c30485f5bedc",
+    "csv_full_read_and_crc": "PASS",
+    "sequential_original_row_keys": "PASS",
+    "byte_exact_split_archive_reconstruction": "PASS",
+    "report": "mx-address-validation.json"
+  },
+  "costa_rica_current_reference": {
+    "districts": 494,
+    "parent_reference_checks": {
+      "province_codes": 7,
+      "canton_codes": 84,
+      "district_codes": 494,
+      "conflicting_parent_names_or_codes": 0,
+      "all_source_rows_loaded": true,
+      "wfs_reported_count": 494,
+      "geometry_not_in_public_reference": true
+    },
+    "report": "cr-current-districts.json"
+  },
+  "tests": {
+    "run": 290,
+    "failures": 0,
+    "errors": 0,
+    "report": "test-results.json"
+  },
+  "data_archive": {
+    "parts": 6,
+    "sha_checked_data_members": 21,
+    "zip_crc_checked_members": 22,
+    "report": "data-archive-verification.json",
+    "source_and_derived_data_saved_separately_from_git": true,
+    "delivery_files": [
+      {
+        "file": "MX_Addresses_Source_20261022.part01.zip",
+        "status": "succeeded"
+      },
+      {
+        "file": "MX_Addresses_Source_20261022.part02.zip",
+        "status": "succeeded"
+      },
+      {
+        "file": "MX_Addresses_Source_20261022.manifest.json",
+        "status": "succeeded"
+      },
+      {
+        "file": "CA_OSM_20261022_01.zip",
+        "status": "succeeded"
+      },
+      {
+        "file": "CA_OSM_20261022_02.zip",
+        "status": "succeeded"
+      },
+      {
+        "file": "CA_OSM_20261022_03.zip",
+        "status": "succeeded"
+      },
+      {
+        "file": "CA_OSM_20261022_04.zip",
+        "status": "succeeded"
+      },
+      {
+        "file": "CA_OSM_20261022_05.zip",
+        "status": "succeeded"
+      },
+      {
+        "file": "CA_OSM_20261022_06.zip",
+        "status": "succeeded"
+      },
+      {
+        "file": "CA_OSM_20261022.manifest.json",
+        "status": "succeeded"
+      }
+    ]
+  },
+  "national_completeness_verified": false,
+  "issuing_authority_assignment_verified": false,
+  "buffered_extract_legal_membership_verified": false,
+  "administrative_relation_polygons_assembled": false,
+  "remaining_domain_checks": 32,
+  "deliverability_in_scope": false
+}

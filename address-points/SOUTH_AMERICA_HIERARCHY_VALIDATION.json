@@ -1,0 +1,342 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-16T23:39:18.492440+00:00",
+  "behavior_tests": 68,
+  "source_integrity_objects": 54,
+  "observation_replays": [
+    {
+      "source": "ar-geonames-geonames",
+      "rows": 15460,
+      "sha256": "f487427844cf23814640d4ab59babea68d6f1f0440a1f4a05f638c73aaac9720",
+      "status": "PASS"
+    },
+    {
+      "source": "ar-georef-departamentos",
+      "rows": 529,
+      "sha256": "88746289b339c3da99a405a9896bb91ca661d5338fc24e1da00ea396df28b1e4",
+      "status": "PASS"
+    },
+    {
+      "source": "ar-georef-localidades",
+      "rows": 4037,
+      "sha256": "a4232b60ca04a96a8b6f304167b923b843a6ca54f51da4d45014a0078218001a",
+      "status": "PASS"
+    },
+    {
+      "source": "ar-georef-localidades-censales",
+      "rows": 4027,
+      "sha256": "653a07ea645df64c9f5404a1ef5a00caf7f24fce3465145547ef7318724fa437",
+      "status": "PASS"
+    },
+    {
+      "source": "ar-georef-municipios",
+      "rows": 2082,
+      "sha256": "d44e64de33edc1738c72b6fcd4f6ef16e17188fc4f67ba35869082ec20b7c1c9",
+      "status": "PASS"
+    },
+    {
+      "source": "ar-georef-provincias",
+      "rows": 24,
+      "sha256": "8db4cb8701d38f33aa45213bb31e7b6423a995377ac7a7097cee3d0c4726d318",
+      "status": "PASS"
+    },
+    {
+      "source": "bo-geonames-geonames",
+      "rows": 26532,
+      "sha256": "b239ee87017e01773465e4e849b65fae75f8af84a14871fd739f63f790d1bdac",
+      "status": "PASS"
+    },
+    {
+      "source": "br-geonames-geonames",
+      "rows": 78047,
+      "sha256": "153460057cdf886acc022fb49d6a64ee27a5ff47715862cbf99312838aba0469",
+      "status": "PASS"
+    },
+    {
+      "source": "br-ibge-distritos",
+      "rows": 10751,
+      "sha256": "827062938c0480079f5cf0a0628fe7c52d6058c347702ae416b8249ddc04112f",
+      "status": "PASS"
+    },
+    {
+      "source": "br-ibge-estados",
+      "rows": 27,
+      "sha256": "ef41ea052df397cea49ffa73bb2c5b0989b95560b12a9b815089e288f92a5f3b",
+      "status": "PASS"
+    },
+    {
+      "source": "br-ibge-municipios",
+      "rows": 5571,
+      "sha256": "4ab1c23895cf4174b64ecc2d15a6bfd88e19ca9d54fe17b2b59c0d3056bcbfab",
+      "status": "PASS"
+    },
+    {
+      "source": "br-ibge-subdistritos",
+      "rows": 646,
+      "sha256": "3c05238228fa902dc048250b845e1e4123f756c78cc24fa524351940242b42e9",
+      "status": "PASS"
+    },
+    {
+      "source": "cl-geonames-geonames",
+      "rows": 7352,
+      "sha256": "4468ba40a88ae928de44cdd547561a0e393cfe50b2e303210b63d0f379a57048",
+      "status": "PASS"
+    },
+    {
+      "source": "co-dane-divipola",
+      "rows": 1122,
+      "sha256": "fadb18687952770618ddd77757063b7c44050d763969f7d1be9e85cacfdab9c1",
+      "status": "PASS"
+    },
+    {
+      "source": "co-geonames-geonames",
+      "rows": 37425,
+      "sha256": "8b9880c5b5613d764e173791bbb0c295a6fcec64a2041a380f78043fd7774608",
+      "status": "PASS"
+    },
+    {
+      "source": "ec-geonames-geonames",
+      "rows": 12740,
+      "sha256": "687249ebe0842e4c74c2570cc77b0b6a99b37556301b482211ea00c10ff9e71e",
+      "status": "PASS"
+    },
+    {
+      "source": "fk-geonames-geonames",
+      "rows": 57,
+      "sha256": "dbe159a5ed7fe56eeb669cd105e5815c396a9737ae4d18d4607aa3f2e5c09c0f",
+      "status": "PASS"
+    },
+    {
+      "source": "gf-ban-973",
+      "rows": 60905,
+      "sha256": "71320113820391ee822248d2e17bfef6a93f93c6885005b5ed360475c8b4db54",
+      "status": "PASS"
+    },
+    {
+      "source": "gf-geonames-geonames",
+      "rows": 697,
+      "sha256": "07e78d6a55bbea844fe6a2b442074fc708ec4095d26d522ec8ffc760f6b90e0f",
+      "status": "PASS"
+    },
+    {
+      "source": "gf-insee-cog-2026",
+      "rows": 27,
+      "sha256": "b92ca0004389ae687e0bcc8af10c39024ddfc9dd85c51f58c086c15adfa1b726",
+      "status": "PASS"
+    },
+    {
+      "source": "gn-admin1CodesASCII",
+      "rows": 242,
+      "sha256": "6093371a4b24f451fb1cdd6d32da5095ab39d79e8269115b7663a0c65e2a9352",
+      "status": "PASS"
+    },
+    {
+      "source": "gn-admin2Codes",
+      "rows": 8580,
+      "sha256": "afde86b5f6afa24e920a22b9f1dfc03f02e6736fb11d42140e7e061ff910d24e",
+      "status": "PASS"
+    },
+    {
+      "source": "gs-geonames-geonames",
+      "rows": 3,
+      "sha256": "25f3e0f6582ac81c3a1e7ded4b3ed3cafe18dedeb6964acfa0dcfe4950d40cf4",
+      "status": "PASS"
+    },
+    {
+      "source": "gy-geonames-geonames",
+      "rows": 917,
+      "sha256": "1aead4af9e2dd8b908aa1c4f774ae343e84bd5d6a411ded8936948c6dffc1bf0",
+      "status": "PASS"
+    },
+    {
+      "source": "pe-geonames-geonames",
+      "rows": 49550,
+      "sha256": "dff1ef906b6a6efed16b32afcb034fa75f69972e0826013b8bb451de29612728",
+      "status": "PASS"
+    },
+    {
+      "source": "pe-inei-ubigeos",
+      "rows": 1892,
+      "sha256": "258c7e0b3b056cf62a199b8309f347164ca306c332b64cb3f09573088856eaa5",
+      "status": "PASS"
+    },
+    {
+      "source": "py-geonames-geonames",
+      "rows": 15337,
+      "sha256": "e11b2144f3b1bb8253d0ae4f9ae6608419cbb5a93f03a6e535db265cd59d510f",
+      "status": "PASS"
+    },
+    {
+      "source": "py-ine-barloc",
+      "rows": 7995,
+      "sha256": "f7792eb2bbbecfa37a2800476c91baa3178883f10ecb7ad193919c7d2d44e0b7",
+      "status": "PASS"
+    },
+    {
+      "source": "py-ine-departamentos",
+      "rows": 18,
+      "sha256": "991b31353c8ba8aec4a11de56b3a2f488dc312246df11802bf9222a6b6e3016c",
+      "status": "PASS"
+    },
+    {
+      "source": "py-ine-distritos",
+      "rows": 263,
+      "sha256": "559345a91418eb50ca4687be5295f8d9c2595ed16db8454c225d65fd5b717690",
+      "status": "PASS"
+    },
+    {
+      "source": "sr-geonames-geonames",
+      "rows": 605,
+      "sha256": "9d855899dc65ce367d351fbc5776ab62f04635b3781957ad2b9bf2f01072e060",
+      "status": "PASS"
+    },
+    {
+      "source": "uy-geonames-geonames",
+      "rows": 1232,
+      "sha256": "9206f28734624a313d72e1b51ea928918bf0b7364973a360f82573840c69ab48",
+      "status": "PASS"
+    },
+    {
+      "source": "uy-ide-calles-2020",
+      "rows": 28928,
+      "sha256": "ea2ec2471bce6f00f10c38123063321e7dec917bf280dcea4b1d3f5802285b37",
+      "status": "PASS"
+    },
+    {
+      "source": "ve-geonames-geonames",
+      "rows": 25976,
+      "sha256": "918908b125a3640b2c5cae4b6e871b530f493e188d67186ce9533d630f8e295e",
+      "status": "PASS"
+    }
+  ],
+  "country_checks": [
+    {
+      "code": "AR",
+      "scope": "country",
+      "status": "PASS",
+      "example_node": "gn:10172104",
+      "geonames_path_available": true
+    },
+    {
+      "code": "BO",
+      "scope": "country",
+      "status": "PASS",
+      "example_node": "gn:10340676",
+      "geonames_path_available": true
+    },
+    {
+      "code": "BR",
+      "scope": "country",
+      "status": "PASS",
+      "example_node": "gn:10128390",
+      "geonames_path_available": true
+    },
+    {
+      "code": "CL",
+      "scope": "country",
+      "status": "PASS",
+      "example_node": "gn:10281471",
+      "geonames_path_available": true
+    },
+    {
+      "code": "CO",
+      "scope": "country",
+      "status": "PASS",
+      "example_node": "gn:10017280",
+      "geonames_path_available": true
+    },
+    {
+      "code": "EC",
+      "scope": "country",
+      "status": "PASS",
+      "example_node": "gn:10174980",
+      "geonames_path_available": true
+    },
+    {
+      "code": "GY",
+      "scope": "country",
+      "status": "PASS",
+      "example_node": "gn:12421320",
+      "geonames_path_available": true
+    },
+    {
+      "code": "PY",
+      "scope": "country",
+      "status": "PASS",
+      "example_node": "gn:10341407",
+      "geonames_path_available": true
+    },
+    {
+      "code": "PE",
+      "scope": "country",
+      "status": "PASS",
+      "example_node": "gn:10174928",
+      "geonames_path_available": true
+    },
+    {
+      "code": "SR",
+      "scope": "country",
+      "status": "PASS",
+      "example_node": "gn:10349653",
+      "geonames_path_available": true
+    },
+    {
+      "code": "UY",
+      "scope": "country",
+      "status": "PASS",
+      "example_node": "gn:10097999",
+      "geonames_path_available": true
+    },
+    {
+      "code": "VE",
+      "scope": "country",
+      "status": "PASS",
+      "example_node": "gn:10174110",
+      "geonames_path_available": true
+    },
+    {
+      "code": "GF",
+      "scope": "supplementary_area",
+      "status": "PASS",
+      "example_node": "gn:10311422",
+      "geonames_path_available": true
+    },
+    {
+      "code": "FK",
+      "scope": "supplementary_area",
+      "status": "PASS",
+      "example_node": "gn:11610203",
+      "geonames_path_available": true
+    },
+    {
+      "code": "GS",
+      "scope": "supplementary_area",
+      "status": "PASS",
+      "example_node": "gn:13513010",
+      "geonames_path_available": true
+    },
+    {
+      "code": "BV",
+      "scope": "supplementary_area",
+      "status": "PASS",
+      "example_node": null,
+      "geonames_path_available": false
+    }
+  ],
+  "structural_checks": {
+    "foreign_keys": "PASS",
+    "same_country_links": "PASS",
+    "acyclic_rank_order": "PASS"
+  },
+  "sqlite_integrity": "PASS",
+  "counts": {
+    "nodes": 344537,
+    "links": 917389,
+    "observations": 409596,
+    "names": 920936,
+    "issues": 591
+  },
+  "country_count": 12,
+  "supplementary_area_count": 4,
+  "limit": "Tests prove source fidelity, deterministic navigation and conservative mismatch handling, not national coverage or deliverability."
+}

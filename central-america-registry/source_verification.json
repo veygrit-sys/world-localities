@@ -1,0 +1,127 @@
+{
+  "countries": 6,
+  "entities": 53257,
+  "errors": 0,
+  "language_tagged_names": 42606,
+  "limits": [
+    "Source replay and referential checks do not certify source accuracy or current legal hierarchy.",
+    "Raw GeoNames A/P scope is not every real-world settlement or an official municipal register."
+  ],
+  "postal_links": 6,
+  "reports": [
+    {
+      "country": "BZ",
+      "entities": 537,
+      "errors": 0,
+      "locale": {
+        "country": "BZ",
+        "entities_with_current_english": 61,
+        "entities_with_current_spanish": 85,
+        "entities_with_names": 126,
+        "errors": 0,
+        "language_tagged_names": 1093,
+        "postal_linked_entities": 0,
+        "postal_links": 0,
+        "source_replay": "exact"
+      },
+      "source_replay": "exact",
+      "source_rows": 2397,
+      "unresolved_parents": 0
+    },
+    {
+      "country": "GT",
+      "entities": 17363,
+      "errors": 0,
+      "locale": {
+        "country": "GT",
+        "entities_with_current_english": 49,
+        "entities_with_current_spanish": 15347,
+        "entities_with_names": 15410,
+        "errors": 0,
+        "language_tagged_names": 17697,
+        "postal_linked_entities": 0,
+        "postal_links": 0,
+        "source_replay": "exact"
+      },
+      "source_replay": "exact",
+      "source_rows": 36721,
+      "unresolved_parents": 6
+    },
+    {
+      "country": "HN",
+      "entities": 13286,
+      "errors": 0,
+      "locale": {
+        "country": "HN",
+        "entities_with_current_english": 42,
+        "entities_with_current_spanish": 1282,
+        "entities_with_names": 1327,
+        "errors": 0,
+        "language_tagged_names": 2928,
+        "postal_linked_entities": 4,
+        "postal_links": 4,
+        "source_replay": "exact"
+      },
+      "source_replay": "exact",
+      "source_rows": 20011,
+      "unresolved_parents": 0
+    },
+    {
+      "country": "NI",
+      "entities": 2817,
+      "errors": 0,
+      "locale": {
+        "country": "NI",
+        "entities_with_current_english": 48,
+        "entities_with_current_spanish": 1176,
+        "entities_with_names": 1203,
+        "errors": 0,
+        "language_tagged_names": 3483,
+        "postal_linked_entities": 0,
+        "postal_links": 0,
+        "source_replay": "exact"
+      },
+      "source_replay": "exact",
+      "source_rows": 6513,
+      "unresolved_parents": 2
+    },
+    {
+      "country": "PA",
+      "entities": 14043,
+      "errors": 0,
+      "locale": {
+        "country": "PA",
+        "entities_with_current_english": 159,
+        "entities_with_current_spanish": 11061,
+        "entities_with_names": 11124,
+        "errors": 0,
+        "language_tagged_names": 13624,
+        "postal_linked_entities": 2,
+        "postal_links": 2,
+        "source_replay": "exact"
+      },
+      "source_replay": "exact",
+      "source_rows": 31269,
+      "unresolved_parents": 0
+    },
+    {
+      "country": "SV",
+      "entities": 5211,
+      "errors": 0,
+      "locale": {
+        "country": "SV",
+        "entities_with_current_english": 41,
+        "entities_with_current_spanish": 1675,
+        "entities_with_names": 1692,
+        "errors": 0,
+        "language_tagged_names": 3781,
+        "postal_linked_entities": 0,
+        "postal_links": 0,
+        "source_replay": "exact"
+      },
+      "source_replay": "exact",
+      "source_rows": 8079,
+      "unresolved_parents": 0
+    }
+  ]
+}

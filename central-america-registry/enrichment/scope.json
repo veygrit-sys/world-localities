@@ -1,0 +1,25 @@
+{
+  "countries": [
+    {
+      "alpha3": "CRI",
+      "country": "CR",
+      "geonames_continent": "NA",
+      "geonames_country_name": "Costa Rica",
+      "geonames_id": "3624060",
+      "id": "country:CR",
+      "m49": "188",
+      "name_en": "Costa Rica",
+      "numeric": "188",
+      "region": "Central America",
+      "reported_languages": [
+        "es-CR",
+        "en"
+      ],
+      "status": "source_country_or_area"
+    }
+  ],
+  "publication": "Additive Costa Rica source supplement; six-country historical base unchanged",
+  "region_m49": "013",
+  "schema_version": 1,
+  "source_url": "https://unstats.un.org/unsd/methodology/m49/overview/"
+}

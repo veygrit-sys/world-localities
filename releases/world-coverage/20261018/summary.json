@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-18",
+  "github_batch": "01-world-coverage",
+  "publication_scope": "scope_definitions_coverage_audit_and_remaining_work_only",
+  "world_scope_count": 250,
+  "scope_definition": {
+    "un_m49_snapshot_published_rows": 248,
+    "snapshot_date": "2026-10-17",
+    "technical_additional_codes": [
+      "TW",
+      "XK"
+    ],
+    "count_is_not_sovereign_country_count": true
+  },
+  "target_dimensions": [
+    "administrative_units",
+    "addressed_streets",
+    "physical_roads",
+    "assigned_address_numbers"
+  ],
+  "deliverability_in_scope": false,
+  "building_or_unit_autofill_in_scope": false,
+  "world_complete": false,
+  "fully_complete_scope_count": 0,
+  "open_dimension_tasks": 1000,
+  "counts_added_in_address_expansion": {
+    "administrative_current_source_records": 41110,
+    "street_register_observations": 235536,
+    "address_source_observations": 30517925,
+    "current_number_observations": 30339033,
+    "physical_road_network_records_added_this_iteration": 0
+  },
+  "country_scopes_with_new_address_data": [
+    "BL",
+    "CH",
+    "FR",
+    "GF",
+    "GP",
+    "LI",
+    "LU",
+    "MF",
+    "MQ",
+    "NC",
+    "PF",
+    "PM",
+    "RE",
+    "YT"
+  ],
+  "address_observation_semantics": "Source-qualified observations, including overlapping national/departmental exports and historical/non-official records; not a count of unique houses.",
+  "unknown_coverage_fraction": null,
+  "unknown_denominator_value": null,
+  "original_dataset_payloads_published_in_this_batch": false,
+  "source_row_replays_rerun_in_this_batch": false,
+  "empty_exports_requiring_review": [
+    "ban-984",
+    "ban-986",
+    "ban-989"
+  ],
+  "coverage_csv": {
+    "path": "coverage.csv",
+    "bytes": 21025,
+    "sha256": "38e089a4d8875519382db4eb1aa260cbd94899b9566fc768450118415036d305"
+  },
+  "provenance": {
+    "saved_release_filename": "Veygrit_Global_Address_Release_20261018.json",
+    "saved_release_bytes": 4607,
+    "saved_release_sha256": "03fdb12c8f1c83a60bf28fac36bce18ce16a032a287efead71781f09e8db4f6f"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "alternate_values_file": {
+    "bytes": 536003,
+    "filename": "alternate-values.csv.gz",
+    "rows": 33661,
+    "sha256": "b64f8cab878ed1d4cf76468a883069cde60b15dbc7224c4bd3b30ff9faee0420",
+    "uncompressed_sha256": "9992cdb1717a0a1738b9d33eddd5c7f34428a136e09041c9e6f0f455581c064c"
+  },
+  "alternate_values_source": {
+    "bytes": 659217,
+    "retained_rows": 33661,
+    "retrieved_on": "2026-10-01",
+    "sha256": "1aac98cf276912d57812e34c84a1562fcd3bda71cdc12b8b7a2cb12d7d39a9a8",
+    "source_columns": 10,
+    "source_rows": 62005,
+    "url": "https://download.geonames.org/export/dump/alternatenames/CO.zip"
+  },
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "COL",
+    "country": "CO",
+    "geonames_continent": "SA",
+    "geonames_id": "3686110",
+    "id": "country:CO",
+    "m49": "170",
+    "name_en": "Colombia",
+    "region": "South America",
+    "region_m49": "005",
+    "source_country_languages": [
+      "es-CO"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 35929,
+    "admin_rows": 1492,
+    "ambiguous_parents": 0,
+    "country": "CO",
+    "country_scope_only": 1,
+    "localities_without_adm1": 1,
+    "locality_rows": 35945,
+    "name_en": "Colombia",
+    "other_admin_rows": 27,
+    "region": "South America",
+    "unresolved_parents": 78
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 33,
+    "ADM2": 1122,
+    "ADM2H": 1,
+    "ADM3": 36,
+    "ADM4": 301,
+    "ADMD": 22,
+    "PCLI": 1,
+    "PPL": 31404,
+    "PPLA": 31,
+    "PPLA2": 1013,
+    "PPLA3": 1,
+    "PPLC": 1,
+    "PPLF": 4,
+    "PPLH": 1,
+    "PPLL": 1496,
+    "PPLQ": 7,
+    "PPLW": 4,
+    "PPLX": 1983,
+    "PRSH": 1,
+    "ZN": 2
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 1333883,
+      "rows": 37464,
+      "sha256": "37c2359a87f0ab7a7e7f459f0e3288bb0e5a6ac603447d341e129c3d6e793aa3",
+      "uncompressed_sha256": "a626480b1b843720181f9f17bc18e74f887b06eaf626f5abb6174b54a6faaaef"
+    }
+  },
+  "known_issues": [],
+  "label_coverage": {
+    "current_country_language_name_entities": 9262,
+    "current_english_name_entities": 298,
+    "language_tagged_name_entities": 9655,
+    "missing_country_language_name_entities": 28202,
+    "missing_english_name_entities": 37166,
+    "native_label_rule": "Exact source language tag matched against countryInfo language list; no language is inferred from primary name, ASCII, spelling or script. Country-language match is not proof of each place's indigenous language."
+  },
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 1,
+    "missing_reference": 78,
+    "not_assigned_for_other_feature": 27,
+    "source_admin_code": 37325,
+    "source_country": 33
+  },
+  "postal_coverage": {
+    "note": "Only source post-tag values, if any; not joined by place name and not delivery validation.",
+    "postal_deliverability_verified": false,
+    "postal_validation": false,
+    "source_postal_value_rows": 0
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 33,
+      "sha256": "50e92a7b3d241599a80170bd95b9c01b2c073c8e2ceac1eb1c9e12fc33ea987a"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 2248809,
+    "discarded_feature_classes": {
+      "H": 22860,
+      "L": 3485,
+      "R": 20,
+      "S": 11001,
+      "T": 7092,
+      "V": 171
+    },
+    "retained_rows": 37464,
+    "retrieved_on": "2026-10-01",
+    "sha256": "422d378408aec9f41dca992abd4ade60f4d53657f78941fe023984448991b968",
+    "source_rows": 82093,
+    "url": "https://download.geonames.org/export/dump/CO.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1993-12-08"
+}

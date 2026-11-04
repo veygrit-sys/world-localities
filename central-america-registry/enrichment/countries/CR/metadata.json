@@ -1,0 +1,98 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "CRI",
+    "country": "CR",
+    "geonames_continent": "NA",
+    "geonames_country_name": "Costa Rica",
+    "geonames_id": "3624060",
+    "id": "country:CR",
+    "m49": "188",
+    "name_en": "Costa Rica",
+    "numeric": "188",
+    "region": "Central America",
+    "reported_languages": [
+      "es-CR",
+      "en"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 5781,
+    "admin_rows": 564,
+    "ambiguous_parents": 0,
+    "country": "CR",
+    "country_scope_only": 0,
+    "localities_without_adm1": 0,
+    "locality_rows": 5900,
+    "name_en": "Costa Rica",
+    "other_admin_rows": 1,
+    "region": "Central America",
+    "unresolved_parents": 1
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 7,
+    "ADM2": 82,
+    "ADM3": 474,
+    "ADM4": 1,
+    "PCLI": 1,
+    "PPL": 4485,
+    "PPLA": 6,
+    "PPLA2": 8,
+    "PPLA3": 12,
+    "PPLA4": 3,
+    "PPLC": 1,
+    "PPLL": 8,
+    "PPLQ": 119,
+    "PPLX": 1258
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 228829,
+      "rows": 6465,
+      "sha256": "fb2b13435359c6bd3876a1ebdb3dd14d7d99d67dd662bbba2b88a1044541d66d",
+      "uncompressed_sha256": "550345887674a36de4177068fb6dd3ed41ff41fdfbd8560e46b350ed5bb6e22d"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "missing_code": 1,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 6456,
+    "source_country": 7
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 7,
+      "sha256": "b11b9676f2b594648bcd1171d61f7589209e91042f9729a41a86bd39b00b127f"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 586165,
+    "discarded_feature_classes": {
+      "H": 6801,
+      "L": 798,
+      "R": 6,
+      "S": 4401,
+      "T": 2908,
+      "U": 3,
+      "V": 44
+    },
+    "etag": "\"8f1b5-65dd772307a20\"",
+    "final_url": "https://download.geonames.org/export/dump/CR.zip",
+    "last_modified": "Thu, 15 Oct 2026 02:02:55 GMT",
+    "retained_rows": 6465,
+    "retrieved_at": "2026-10-15T08:35:18.376361+00:00",
+    "retrieved_on": "2026-10-15",
+    "sha256": "ed42565b78a47a95cc286a5c53e78a7bce5019bcc5106730a985ef69b7180e35",
+    "source_rows": 21426,
+    "url": "https://download.geonames.org/export/dump/CR.zip"
+  },
+  "source_modified_max": "2026-10-14",
+  "source_modified_min": "2012-01-18"
+}

@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "country": "MX",
+  "vintage": "2025-07",
+  "observed_at": "2026-09-26T08:15:49.123932+00:00",
+  "source_manifest": {
+    "scope": "MX_official_v1",
+    "adapter_version": 1,
+    "world_registry_sha256": "d48c070706f7da137fa4aa912f798be9773589b1a92addff2ce46259433b072e",
+    "files": {
+      "mx-states.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgee/",
+        "sha256": "504d80452aa87d483ae5c927c3dad6f666f517e93a68ee09c2c076ac3422e8c6",
+        "bytes": 5958,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-01.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/01",
+        "sha256": "3143fa70bf5200f619607e444072264a37210244df7826ae28bfee5c645a82d1",
+        "bytes": 2287,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-02.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/02",
+        "sha256": "31e633c6ea1b3704bcdc175d75a535a56a35629962789d6acd1a1cd9ca350e65",
+        "bytes": 1416,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-03.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/03",
+        "sha256": "243080b6c4571587e2f2d3b3b0823ea6d0fb78fff1fbe5adf195c8a7ce807189",
+        "bytes": 1065,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-04.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/04",
+        "sha256": "8cc5f12b823ac594dc72eda819f72fb9786589e5031f05816594951dafb106e5",
+        "bytes": 2514,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-05.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/05",
+        "sha256": "25a91ad8e4bf84037a22d49eace530033523c822958a0fe9737b96a1cf23d04a",
+        "bytes": 7305,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-06.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/06",
+        "sha256": "d3915837448bdf7004688bcefc2b542aef6f6285af5705566a1be4f42c99ecf9",
+        "bytes": 2030,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-07.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/07",
+        "sha256": "8bf119b5cc25a0421ee7c86f5d52948aae50377a8c4820b2e2bfec9b8ea43145",
+        "bytes": 24090,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-08.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/08",
+        "sha256": "a60a4234c34c2c7b893f15cea664ae70f3bb8d27e4025fc23972788040d51900",
+        "bytes": 12879,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-09.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/09",
+        "sha256": "b11a202fd0ed19956b098f1f2f3e8a4d9edcca6c7ea5408534da1ef0b02510e2",
+        "bytes": 3298,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-10.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/10",
+        "sha256": "0dad1522e9c14b269ac2a5976810cdae6c638e9b2cff1bebcf8a87fbebabfccd",
+        "bytes": 7561,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-11.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/11",
+        "sha256": "ad8a28c7d7bdbbe993cea70a6ed7bdc66c25d545e3759aadf3990429add63f88",
+        "bytes": 9116,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-12.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/12",
+        "sha256": "0fe0da20b587e90d1e304cebaa7cad21948be1d50a2ce8992f0a25f059c5ed7e",
+        "bytes": 16492,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-13.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/13",
+        "sha256": "d44e31190fdb6142f776023d55fe4e6cac332b5238456433b29e867848e03b84",
+        "bytes": 16415,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-14.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/14",
+        "sha256": "e5e35a99b9dac7d33128403adc8400bfeabee28334333c04a269c88c95ee1a38",
+        "bytes": 24311,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-15.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/15",
+        "sha256": "cf14d09d1db9e158ac8a1fa7483225bc447388ef5ffc00fa61517dd2614f3a62",
+        "bytes": 24306,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-16.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/16",
+        "sha256": "dd3370193086485db54a865a49fae64fec07101bc92aa4ccb27f0811acde5514",
+        "bytes": 21619,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-17.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/17",
+        "sha256": "eae31f8203faa218efa7d94b4f1dcd7270e88a020d7f15bf0900490a7ca3eb2a",
+        "bytes": 7064,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-18.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/18",
+        "sha256": "9b06caef35c52234532858ea72ba68efcd6b5aceb050ab3d6faa50f22945da37",
+        "bytes": 3971,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-19.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/19",
+        "sha256": "31f5a3912494ba652d25964af7871190d9e83c258a2b6fbed9e31f5d33fbf19e",
+        "bytes": 9866,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-20.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/20",
+        "sha256": "39c2b503a15eddf5c3bef56b16892ff896a5aa7ba57ae151dadc0f3c7db72fdc",
+        "bytes": 112770,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-21.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/21",
+        "sha256": "054a9fb30faf071eee7c915c63a352cee67e5215bd1a367512818c463dffc8f2",
+        "bytes": 41995,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-22.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/22",
+        "sha256": "5bc7b1678d062666c32423b7dc9cae9b9e80cda7e23caf22ed79edd56159b935",
+        "bytes": 3621,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-23.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/23",
+        "sha256": "ea31ed8bfb6df4fbbb79788f7e8344d163bae1d4e4754290c0bc3d1b67b86440",
+        "bytes": 2332,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-24.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/24",
+        "sha256": "795baf09719d8c8462a93d843b5efaaf3ca333e2688d6ae63e4bac0358ba334c",
+        "bytes": 11436,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-25.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/25",
+        "sha256": "823d6637b08395c702c753dd2f5b1d1f45ced39271b79bb55f1fe8cd9afb4444",
+        "bytes": 3785,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-26.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/26",
+        "sha256": "ab63badd30cff561c658040c3c81eba8141ddaa4b7e2c206c22b681d310277be",
+        "bytes": 13614,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-27.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/27",
+        "sha256": "21d2fee2a258f0ba229d3765b8227b31a42279813f7888e85384070305108b90",
+        "bytes": 3376,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-28.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/28",
+        "sha256": "7c2a43bb4b067fb043f417cc6e1c2a5f16c74afe68d7fc8492cb45a480151369",
+        "bytes": 8252,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-29.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/29",
+        "sha256": "fa32c92c55beb6b3adb006d96009b26a3c92d95225d248884530d8171ca700e1",
+        "bytes": 11901,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-30.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/30",
+        "sha256": "661c235fa4cc60a23f2632d44dc61dce4c714b4567f52a9b2271a346399c91c3",
+        "bytes": 40815,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-31.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/31",
+        "sha256": "8f93f889d64f90eaf8dcfe10ae666b61e43c9dfbccb11bee496dfac40b30d0b1",
+        "bytes": 19873,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "mx-municipalities-32.json": {
+        "url": "https://gaia.inegi.org.mx/wscatgeo/v2/mgem/32",
+        "sha256": "067fb84e1526a1a390658cf5d98dd0c7b159c58a277cb28cd7137332bce05f50",
+        "bytes": 11286,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      }
+    },
+    "source_reference_date": null,
+    "reference_date_status": "not_provided_by_source",
+    "sha256": "24a8bbe1b66b3c7f668af9b926677e59bad314f0cc7c51c2cde3feddd631e3cd"
+  },
+  "claims": {
+    "all_world_localities_complete": false,
+    "all_postal_city_names_complete": false,
+    "all_languages_complete": false,
+    "street_addresses_complete": false,
+    "deliverability_verified": false
+  },
+  "sha256": {
+    "anchors.csv": "4eb0fe6a475cfcd79b2fafac41412b29cc4561b5e67a52389383d50677ffda03",
+    "MX-AGU.csv": "84012b52e6911230d0bcc2b31e4c69c6f0e03702d18ac9fa07a0568c60b1a30e",
+    "MX-BCN.csv": "abd1d5f8f9b6158f7566b785ba381c1160fafe8c31658ade5bbdde7221b81aa2",
+    "MX-BCS.csv": "628d7e34c45cd47eb6b8bb28d1dc90b06d7ec0cdcb85e3db352b1a19de456f76",
+    "MX-CAM.csv": "ba14bcd47dd8d2df2380e67f3d2fd0249a23b1373841fab96db5141b076c706a",
+    "MX-CHH.csv": "a2be1561267c996572a5743ab7e06efe9326205fd18669ae2fd64f5626bbffbe",
+    "MX-CHP.csv": "3c6908a44d77e821eb1caf1f32d8825e435c91a00d15e0f83908abac54038168",
+    "MX-CMX.csv": "634cdf95c0987a1cfd0ccc302f5b1e744e740cc7b14bf8c86eff781872104ee8",
+    "MX-COA.csv": "eb62baef524cd88907c003259de6dd4d7ccdda2dd7c2312bd9ba5ce72eca9156",
+    "MX-COL.csv": "d529159d19ee46b3fb638e7c74eba65d8445207838dea2e27bcb797bc496df62",
+    "MX-DUR.csv": "9bf0151667d2e25a96ba2a8d530398e51f12f65d182c3e720e8d367ea0be7fc4",
+    "MX-GRO.csv": "5d02dc7181840c246e736ab5c500cd279b6030e6531aadf609dce85b3de5ec59",
+    "MX-GUA.csv": "3b6290da4e1519b6268dd6c7f1b8c88d5c6015887d5b47d081512f170842f56a",
+    "MX-HID.csv": "549ee328b5d112c0df77c37f534125b2bad82b2f79f3c893c6fb40b16229845a",
+    "MX-JAL.csv": "c06c87d07c0e3a1bb6042d15fddbbede120f06b09678ced8889ba5cc42bd603d",
+    "MX-MEX.csv": "1b2363e81f673e54639144fdfaa09aa0e299bf9a2b2833af4ed15a42dd63fb79",
+    "MX-MIC.csv": "846c6cadf52c15836f6075aa3897ed3fd94364e87a413e33f5c5d92d28b8f5f6",
+    "MX-MOR.csv": "9398336fbde8abc61e23c34cb53a73a21d1b5ce68b0e9d69c3688406dd4aad30",
+    "MX-NAY.csv": "42d3479a29e64f50ab1c97aea099ee7d93d9c7b178de6df29cb2db506c94cc73",
+    "MX-NLE.csv": "6682d751e0243867ac940f1384ad01abdfef7afb69f4eb9878e5f0cd3b509b02",
+    "MX-OAX.csv": "2a551705eb3d84093d44e47c911fc2e5f92467a7ecec5c17a5cf20469067e414",
+    "MX-PUE.csv": "288983049e1bc759eb3edb30090c76430ee044a9b481689a7614363f0da15ed3",
+    "MX-QUE.csv": "082fd6203c23f5680f75b5424ff2adacf0a86d68adbb9a35d8340244c97eeb50",
+    "MX-ROO.csv": "57d1957132a06f712c30cbbc65b380841acc7e8caddf829e3d2df7bbbcb77494",
+    "MX-SIN.csv": "b97c9e6686afaf07ba4bcfc23f015752971d10bbcced6a3ce1fb3bb4b3cdd4ae",
+    "MX-SLP.csv": "1043600deed20ba06f8b6f40200383fab15e42e4f2fffac1f31b807514afc1ae",
+    "MX-SON.csv": "072fd2b338855f761ff1f5fe6d69bf2e7c288c361f18e067022e6ec2942ed08d",
+    "MX-TAB.csv": "e65782b4fcc334192c695f15f1a98cd00c3b024ea9272e95f4077eb6796a19c8",
+    "MX-TAM.csv": "3db997cda172f16c790dce043909af514a20fa6b31b0313bea5d9f4c633870bd",
+    "MX-TLA.csv": "fa595acb3cfb20b858beed45998d0a22539ddb8d010219a901ce95d89f511990",
+    "MX-VER.csv": "a51125299b90ed376bc03499fc5fd7501b4eebd2dd68f70bc2818de12220d5d5",
+    "MX-YUC.csv": "e1be49c7e8661f3ef42e0b6ac0507c96e6161a593a578009cac895e02845fa56",
+    "MX-ZAC.csv": "eabcca53898f9f9e0829912ea2fad140ad18ae81c07e03ee93fde833ba256e23",
+    "unmatched-source-rows.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "index.json": "a67f7c3f58fd0df46c06938331ccafd4b14ad1beb96d320a43b1aa9d040a453a"
+  }
+}

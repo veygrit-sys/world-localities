@@ -1,0 +1,429 @@
+{
+  "countries": [
+    {
+      "alpha3": "KGZ",
+      "country": "KG",
+      "id": "country:KG",
+      "name_en": "Kyrgyzstan",
+      "region": "central_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "KAZ",
+      "country": "KZ",
+      "id": "country:KZ",
+      "name_en": "Kazakhstan",
+      "region": "central_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "TJK",
+      "country": "TJ",
+      "id": "country:TJ",
+      "name_en": "Tajikistan",
+      "region": "central_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "TKM",
+      "country": "TM",
+      "id": "country:TM",
+      "name_en": "Turkmenistan",
+      "region": "central_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "UZB",
+      "country": "UZ",
+      "id": "country:UZ",
+      "name_en": "Uzbekistan",
+      "region": "central_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "CHN",
+      "country": "CN",
+      "id": "country:CN",
+      "name_en": "China",
+      "region": "east_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "HKG",
+      "country": "HK",
+      "id": "country:HK",
+      "name_en": "Hong Kong",
+      "region": "east_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "JPN",
+      "country": "JP",
+      "id": "country:JP",
+      "name_en": "Japan",
+      "region": "east_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "PRK",
+      "country": "KP",
+      "id": "country:KP",
+      "name_en": "North Korea",
+      "region": "east_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "KOR",
+      "country": "KR",
+      "id": "country:KR",
+      "name_en": "South Korea",
+      "region": "east_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "MNG",
+      "country": "MN",
+      "id": "country:MN",
+      "name_en": "Mongolia",
+      "region": "east_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "MAC",
+      "country": "MO",
+      "id": "country:MO",
+      "name_en": "Macao",
+      "region": "east_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "TWN",
+      "country": "TW",
+      "id": "country:TW",
+      "name_en": "Taiwan",
+      "region": "east_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "AFG",
+      "country": "AF",
+      "id": "country:AF",
+      "name_en": "Afghanistan",
+      "region": "south_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "BGD",
+      "country": "BD",
+      "id": "country:BD",
+      "name_en": "Bangladesh",
+      "region": "south_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "BTN",
+      "country": "BT",
+      "id": "country:BT",
+      "name_en": "Bhutan",
+      "region": "south_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "IND",
+      "country": "IN",
+      "id": "country:IN",
+      "name_en": "India",
+      "region": "south_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "LKA",
+      "country": "LK",
+      "id": "country:LK",
+      "name_en": "Sri Lanka",
+      "region": "south_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "MDV",
+      "country": "MV",
+      "id": "country:MV",
+      "name_en": "Maldives",
+      "region": "south_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "NPL",
+      "country": "NP",
+      "id": "country:NP",
+      "name_en": "Nepal",
+      "region": "south_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "PAK",
+      "country": "PK",
+      "id": "country:PK",
+      "name_en": "Pakistan",
+      "region": "south_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "BRN",
+      "country": "BN",
+      "id": "country:BN",
+      "name_en": "Brunei",
+      "region": "southeast_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "IDN",
+      "country": "ID",
+      "id": "country:ID",
+      "name_en": "Indonesia",
+      "region": "southeast_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "KHM",
+      "country": "KH",
+      "id": "country:KH",
+      "name_en": "Cambodia",
+      "region": "southeast_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "LAO",
+      "country": "LA",
+      "id": "country:LA",
+      "name_en": "Laos",
+      "region": "southeast_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "MMR",
+      "country": "MM",
+      "id": "country:MM",
+      "name_en": "Myanmar",
+      "region": "southeast_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "MYS",
+      "country": "MY",
+      "id": "country:MY",
+      "name_en": "Malaysia",
+      "region": "southeast_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "PHL",
+      "country": "PH",
+      "id": "country:PH",
+      "name_en": "Philippines",
+      "region": "southeast_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "SGP",
+      "country": "SG",
+      "id": "country:SG",
+      "name_en": "Singapore",
+      "region": "southeast_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "THA",
+      "country": "TH",
+      "id": "country:TH",
+      "name_en": "Thailand",
+      "region": "southeast_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "TLS",
+      "country": "TL",
+      "id": "country:TL",
+      "name_en": "Timor Leste",
+      "region": "southeast_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "VNM",
+      "country": "VN",
+      "id": "country:VN",
+      "name_en": "Vietnam",
+      "region": "southeast_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "ARE",
+      "country": "AE",
+      "id": "country:AE",
+      "name_en": "United Arab Emirates",
+      "region": "west_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "BHR",
+      "country": "BH",
+      "id": "country:BH",
+      "name_en": "Bahrain",
+      "region": "west_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "ISR",
+      "country": "IL",
+      "id": "country:IL",
+      "name_en": "Israel",
+      "region": "west_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "IRQ",
+      "country": "IQ",
+      "id": "country:IQ",
+      "name_en": "Iraq",
+      "region": "west_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "IRN",
+      "country": "IR",
+      "id": "country:IR",
+      "name_en": "Iran",
+      "region": "west_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "JOR",
+      "country": "JO",
+      "id": "country:JO",
+      "name_en": "Jordan",
+      "region": "west_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "KWT",
+      "country": "KW",
+      "id": "country:KW",
+      "name_en": "Kuwait",
+      "region": "west_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "LBN",
+      "country": "LB",
+      "id": "country:LB",
+      "name_en": "Lebanon",
+      "region": "west_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "OMN",
+      "country": "OM",
+      "id": "country:OM",
+      "name_en": "Oman",
+      "region": "west_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "PSE",
+      "country": "PS",
+      "id": "country:PS",
+      "name_en": "Palestinian Territory",
+      "region": "west_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "QAT",
+      "country": "QA",
+      "id": "country:QA",
+      "name_en": "Qatar",
+      "region": "west_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "SAU",
+      "country": "SA",
+      "id": "country:SA",
+      "name_en": "Saudi Arabia",
+      "region": "west_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "SYR",
+      "country": "SY",
+      "id": "country:SY",
+      "name_en": "Syria",
+      "region": "west_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "TUR",
+      "country": "TR",
+      "id": "country:TR",
+      "name_en": "Turkey",
+      "region": "west_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "YEM",
+      "country": "YE",
+      "id": "country:YE",
+      "name_en": "Yemen",
+      "region": "west_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "ARM",
+      "country": "AM",
+      "id": "country:AM",
+      "name_en": "Armenia",
+      "region": "caucasus",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "AZE",
+      "country": "AZ",
+      "id": "country:AZ",
+      "name_en": "Azerbaijan",
+      "region": "caucasus",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "GEO",
+      "country": "GE",
+      "id": "country:GE",
+      "name_en": "Georgia",
+      "region": "caucasus",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "CYP",
+      "country": "CY",
+      "id": "country:CY",
+      "name_en": "Cyprus",
+      "region": "additional_asia",
+      "scope": "asia_country_or_area"
+    },
+    {
+      "alpha3": "RUS",
+      "country": "RU",
+      "id": "country:RU",
+      "name_en": "Russia",
+      "region": "transcontinental_supplement",
+      "scope": "whole_country_transcontinental_supplement"
+    }
+  ],
+  "country_name_source": {
+    "bytes": 31678,
+    "last_modified": "Wed, 30 Sep 2026 02:05:00 GMT",
+    "retrieved_at": "2026-09-30T16:58:44.381404+00:00",
+    "sha256": "93bafc525813f22e4711ff9ed6d626343094ce48c26388dc7c49189b3d7d5512",
+    "url": "https://download.geonames.org/export/dump/countryInfo.txt"
+  },
+  "schema_version": 1,
+  "scope_note": "51 Asian country/area profiles including the existing separately coded Taiwan profile, plus the whole Russian Federation as a transcontinental supplement. No boundary edits or territorial reassignments."
+}

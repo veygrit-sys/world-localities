@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "scope_codes": [
+    "BZ",
+    "CR",
+    "GT",
+    "HN",
+    "MX",
+    "NI",
+    "PA",
+    "SV"
+  ],
+  "sources": [
+    {
+      "country_extract": "BZ",
+      "source_id": "geofabrik-osm-bz",
+      "extract_id": "belize",
+      "requested_url": "https://download.geofabrik.de/central-america/belize-latest.osm.pbf",
+      "resolved_url": "https://download.geofabrik.de/central-america/belize-261020.osm.pbf",
+      "retrieved_at": "2026-10-21T17:56:44.596006+00:00",
+      "bytes": 18276303,
+      "sha256": "dc2157d616d286e03f82af41b697b30c930cfd0dce0fc3e7ffb65cee12077361",
+      "publisher_md5": "e1e82cd5d25ec1c9a61378c4b89a874b",
+      "publisher_checksum_stable_before_after": true,
+      "http_metadata": {
+        "last-modified": "Tue, 20 Oct 2026 22:51:39 GMT",
+        "etag": "\"116dfcf-65e4d793acbef\"",
+        "content-length": "18276303",
+        "content-type": "application/octet-stream"
+      },
+      "licence": "ODbL-1.0",
+      "licence_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+      "path": "sources/BZ.osm.pbf",
+      "extract_is_not_a_legal_country_boundary": true
+    },
+    {
+      "country_extract": "CR",
+      "source_id": "geofabrik-osm-cr",
+      "extract_id": "costa-rica",
+      "requested_url": "https://download.geofabrik.de/central-america/costa-rica-latest.osm.pbf",
+      "resolved_url": "https://download.geofabrik.de/central-america/costa-rica-261020.osm.pbf",
+      "retrieved_at": "2026-10-21T17:56:44.599696+00:00",
+      "bytes": 39102133,
+      "sha256": "cd3379db91b6d728529cd55885248a6deb04fee2e1d70e2ea463f6793929e9fd",
+      "publisher_md5": "559a960dc62ac93c4241b839c7257e91",
+      "publisher_checksum_stable_before_after": true,
+      "http_metadata": {
+        "last-modified": "Tue, 20 Oct 2026 22:51:45 GMT",
+        "etag": "\"254a6b5-65e4d79909129\"",
+        "content-length": "39102133",
+        "content-type": "application/octet-stream"
+      },
+      "licence": "ODbL-1.0",
+      "licence_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+      "path": "sources/CR.osm.pbf",
+      "extract_is_not_a_legal_country_boundary": true
+    },
+    {
+      "country_extract": "GT",
+      "source_id": "geofabrik-osm-gt",
+      "extract_id": "guatemala",
+      "requested_url": "https://download.geofabrik.de/central-america/guatemala-latest.osm.pbf",
+      "resolved_url": "https://download.geofabrik.de/central-america/guatemala-261020.osm.pbf",
+      "retrieved_at": "2026-10-21T17:57:12.883733+00:00",
+      "bytes": 131378084,
+      "sha256": "c1c70bb273dd08d263e60370e37fa5a9ae6298bf4357b2c996a7d4a3528b5639",
+      "publisher_md5": "d7200d5c12afc61c840ee2765ab70034",
+      "publisher_checksum_stable_before_after": true,
+      "http_metadata": {
+        "last-modified": "Tue, 20 Oct 2026 22:51:07 GMT",
+        "etag": "\"7d4aba4-65e4d7753de79\"",
+        "content-length": "131378084",
+        "content-type": "application/octet-stream"
+      },
+      "licence": "ODbL-1.0",
+      "licence_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+      "path": "sources/GT.osm.pbf",
+      "extract_is_not_a_legal_country_boundary": true
+    },
+    {
+      "country_extract": "HN",
+      "source_id": "geofabrik-osm-hn",
+      "extract_id": "honduras",
+      "requested_url": "https://download.geofabrik.de/central-america/honduras-latest.osm.pbf",
+      "resolved_url": "https://download.geofabrik.de/central-america/honduras-261020.osm.pbf",
+      "retrieved_at": "2026-10-21T17:57:14.463745+00:00",
+      "bytes": 74365286,
+      "sha256": "f28e1301e61d89b01237148e0a6d2cb8cdbbb12c2b555b9051da5f4e1cbfd327",
+      "publisher_md5": "e3250d6158f3a21f785b57784e6606b3",
+      "publisher_checksum_stable_before_after": true,
+      "http_metadata": {
+        "last-modified": "Tue, 20 Oct 2026 22:50:42 GMT",
+        "etag": "\"46eb966-65e4d75d7d871\"",
+        "content-length": "74365286",
+        "content-type": "application/octet-stream"
+      },
+      "licence": "ODbL-1.0",
+      "licence_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+      "path": "sources/HN.osm.pbf",
+      "extract_is_not_a_legal_country_boundary": true
+    },
+    {
+      "country_extract": "MX",
+      "source_id": "geofabrik-osm-mx",
+      "extract_id": "mexico",
+      "requested_url": "https://download.geofabrik.de/north-america/mexico-latest.osm.pbf",
+      "resolved_url": "https://download.geofabrik.de/north-america/mexico-261020.osm.pbf",
+      "retrieved_at": "2026-10-21T17:57:43.035714+00:00",
+      "bytes": 647294299,
+      "sha256": "239794a0c709e2ad03409c420d5925a11bd2958dd4aff7acaa86fac40045ac3c",
+      "publisher_md5": "66ac34a1b37eeb295a53093b26eec4cd",
+      "publisher_checksum_stable_before_after": true,
+      "http_metadata": {
+        "last-modified": "Tue, 20 Oct 2026 23:45:17 GMT",
+        "etag": "\"2694ed5b-65e4e39017a78\"",
+        "content-length": "647294299",
+        "content-type": "application/octet-stream"
+      },
+      "licence": "ODbL-1.0",
+      "licence_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+      "path": "sources/MX.osm.pbf",
+      "extract_is_not_a_legal_country_boundary": true
+    },
+    {
+      "country_extract": "NI",
+      "source_id": "geofabrik-osm-ni",
+      "extract_id": "nicaragua",
+      "requested_url": "https://download.geofabrik.de/central-america/nicaragua-latest.osm.pbf",
+      "resolved_url": "https://download.geofabrik.de/central-america/nicaragua-261020.osm.pbf",
+      "retrieved_at": "2026-10-21T17:57:14.260354+00:00",
+      "bytes": 61851066,
+      "sha256": "99b87bd83e061985ca00533718a309301ae8cda0a5a4e473fc686cded0d90455",
+      "publisher_md5": "97e0b9de422d8fb491ec7c4a70baaf48",
+      "publisher_checksum_stable_before_after": true,
+      "http_metadata": {
+        "last-modified": "Tue, 20 Oct 2026 22:51:17 GMT",
+        "etag": "\"3afc5ba-65e4d77e88580\"",
+        "content-length": "61851066",
+        "content-type": "application/octet-stream"
+      },
+      "licence": "ODbL-1.0",
+      "licence_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+      "path": "sources/NI.osm.pbf",
+      "extract_is_not_a_legal_country_boundary": true
+    },
+    {
+      "country_extract": "PA",
+      "source_id": "geofabrik-osm-pa",
+      "extract_id": "panama",
+      "requested_url": "https://download.geofabrik.de/central-america/panama-latest.osm.pbf",
+      "resolved_url": "https://download.geofabrik.de/central-america/panama-261020.osm.pbf",
+      "retrieved_at": "2026-10-21T17:57:42.899715+00:00",
+      "bytes": 36387813,
+      "sha256": "2bfe8579d7cdeb62ba68c871927766d26c1be4ff260833e56020fc20000b94b2",
+      "publisher_md5": "cc8c58e1f9cf81d7c76752afd7ba2585",
+      "publisher_checksum_stable_before_after": true,
+      "http_metadata": {
+        "last-modified": "Tue, 20 Oct 2026 22:50:50 GMT",
+        "etag": "\"22b3be5-65e4d7646a7e3\"",
+        "content-length": "36387813",
+        "content-type": "application/octet-stream"
+      },
+      "licence": "ODbL-1.0",
+      "licence_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+      "path": "sources/PA.osm.pbf",
+      "extract_is_not_a_legal_country_boundary": true
+    },
+    {
+      "country_extract": "SV",
+      "source_id": "geofabrik-osm-sv",
+      "extract_id": "el-salvador",
+      "requested_url": "https://download.geofabrik.de/central-america/el-salvador-latest.osm.pbf",
+      "resolved_url": "https://download.geofabrik.de/central-america/el-salvador-261020.osm.pbf",
+      "retrieved_at": "2026-10-21T17:56:44.791988+00:00",
+      "bytes": 35181437,
+      "sha256": "8fff9c8ec474e0aa93ca8363aa6feec331efe1e57785cea185aedcfe14a1a36f",
+      "publisher_md5": "0262f193689528b015cfc50ab4c303d2",
+      "publisher_checksum_stable_before_after": true,
+      "http_metadata": {
+        "last-modified": "Tue, 20 Oct 2026 22:50:30 GMT",
+        "etag": "\"218d37d-65e4d751c253b\"",
+        "content-length": "35181437",
+        "content-type": "application/octet-stream"
+      },
+      "licence": "ODbL-1.0",
+      "licence_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+      "path": "sources/SV.osm.pbf",
+      "extract_is_not_a_legal_country_boundary": true
+    }
+  ],
+  "national_completeness_verified": false,
+  "deliverability_in_scope": false
+}

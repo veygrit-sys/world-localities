@@ -1,0 +1,11 @@
+id,code,source_type,category,name,lang,parent_id,state_id,state_code,address_country,address_candidate,postcodes,postcode_relations,government_status,department_code,collectivity_code,source_state_code,municipality_component,municipal_seat_locality_code,municipal_seat_name,municipal_seat_relation,statistics_available
+locality:mx:inegi:agem:06001,06001,municipality,municipality_geostatistical_area,Armería,es,admin:csc:3472,admin:csc:3472,MX-COL,MX,1,,,,,,06,001,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:06002,06002,municipality,municipality_geostatistical_area,Colima,es,admin:csc:3472,admin:csc:3472,MX-COL,MX,1,,,,,,06,002,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:06003,06003,municipality,municipality_geostatistical_area,Comala,es,admin:csc:3472,admin:csc:3472,MX-COL,MX,1,,,,,,06,003,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:06004,06004,municipality,municipality_geostatistical_area,Coquimatlán,es,admin:csc:3472,admin:csc:3472,MX-COL,MX,1,,,,,,06,004,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:06005,06005,municipality,municipality_geostatistical_area,Cuauhtémoc,es,admin:csc:3472,admin:csc:3472,MX-COL,MX,1,,,,,,06,005,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:06006,06006,municipality,municipality_geostatistical_area,Ixtlahuacán,es,admin:csc:3472,admin:csc:3472,MX-COL,MX,1,,,,,,06,006,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:06007,06007,municipality,municipality_geostatistical_area,Manzanillo,es,admin:csc:3472,admin:csc:3472,MX-COL,MX,1,,,,,,06,007,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:06008,06008,municipality,municipality_geostatistical_area,Minatitlán,es,admin:csc:3472,admin:csc:3472,MX-COL,MX,1,,,,,,06,008,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:06009,06009,municipality,municipality_geostatistical_area,Tecomán,es,admin:csc:3472,admin:csc:3472,MX-COL,MX,1,,,,,,06,009,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:06010,06010,municipality,municipality_geostatistical_area,Villa de Álvarez,es,admin:csc:3472,admin:csc:3472,MX-COL,MX,1,,,,,,06,010,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1

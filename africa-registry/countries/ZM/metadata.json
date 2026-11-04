@@ -1,0 +1,90 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "ZMB",
+    "country": "ZM",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Zambia",
+    "geonames_id": "895949",
+    "id": "country:ZM",
+    "m49": "894",
+    "name_en": "Zambia",
+    "numeric": "894",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 13045,
+    "admin_rows": 120,
+    "ambiguous_parents": 0,
+    "country": "ZM",
+    "country_scope_only": 15,
+    "localities_without_adm1": 15,
+    "locality_rows": 13131,
+    "name_en": "Zambia",
+    "other_admin_rows": 171,
+    "region": "Eastern Africa",
+    "unresolved_parents": 11
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 10,
+    "ADM2": 108,
+    "ADM3": 1,
+    "ADM4": 1,
+    "ADMD": 155,
+    "PCLI": 1,
+    "PPL": 13004,
+    "PPLA": 9,
+    "PPLA2": 2,
+    "PPLC": 1,
+    "PPLQ": 86,
+    "PPLX": 29,
+    "PRSH": 15
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 362259,
+      "rows": 13422,
+      "sha256": "74cf1910049aadb2adea02b15378c205e2a26d0e11131fad9f58b01433b51252",
+      "uncompressed_sha256": "e1261218557534e4be1d76bfa0f331b8827c84204cd051846d40710cb4980d08"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 15,
+    "missing_code": 1,
+    "missing_reference": 10,
+    "not_assigned_for_other_feature": 171,
+    "source_admin_code": 13215,
+    "source_country": 10
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 10,
+      "sha256": "9a9a084ae3ab7f92bad2dbcb87c92bc07bf19b6d6416eb197f095f0fed4e56ae"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 672520,
+    "discarded_feature_classes": {
+      "H": 10200,
+      "L": 338,
+      "R": 6,
+      "S": 1643,
+      "T": 3294,
+      "V": 330
+    },
+    "retained_rows": 13422,
+    "retrieved_on": "2026-09-26",
+    "sha256": "25402f2b5cd389c6cb720ea4208f006e6d2420918e7cbb6c867bc52d6e07f70a",
+    "source_rows": 29233,
+    "url": "https://download.geonames.org/export/dump/ZM.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1994-01-08"
+}

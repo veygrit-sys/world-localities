@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "checked_on": "2026-10-01",
+  "source_files_byte_and_git_sha_verified": 117,
+  "post_migration_split_pack_validation": "pass",
+  "unit_tests": {
+    "command": "cd oceania-registry && python -m unittest discover -s tests -p test_region_names.py -v",
+    "passed": 20
+  },
+  "smoke_checks": [
+    {
+      "command": "python scripts/extract_country.py --country AS --output <empty-directory>",
+      "extracted_files": 13
+    },
+    {
+      "command": "python -m addresskit.region_names --pack . label country:NZ --mode local --locale mi",
+      "entity_id": "country:NZ",
+      "text": "Aotearoa"
+    },
+    {
+      "command": "python -m addresskit.region_names --pack . postal AU 0812",
+      "entity_ids": [
+        "geonames:2079692"
+      ],
+      "delivery_validated": false
+    }
+  ],
+  "scope": "Checks validate this stored snapshot and reader, not worldwide coverage, legal administrative status, or delivery validity."
+}

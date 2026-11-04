@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "region": "Northern America",
+  "reviewed_at": "2026-10-17",
+  "purpose": "Domestic-language and English address display profiles for all five UN M49 Northern America countries or areas, with explicit postcode, Address2, street, rural-route and P.O. Box policies; not an address-existence, postal-assignment, geocoding or deliverability claim.",
+  "locality_registry": {
+    "path": "north-america-registry",
+    "scope_file": "north-america-registry/scope.json",
+    "administrative_seed_file": "north-america-registry/admin-seeds.json",
+    "materialized_source_layers": {"CA": "official-registry/CA", "US": "official-registry/US"},
+    "materialized_countries": ["CA", "US"],
+    "pending_locality_source_countries": ["BM", "GL", "PM"],
+    "source_locality_rows_in_m49_area": 72567,
+    "administrative_seed_counts": {"BM": 11, "GL": 5, "PM": 2},
+    "role": "Official preserved locality/statistical snapshots for Canada and the United States, excluding Puerto Rico from the M49 Northern America view, plus clearly separated administrative-name seeds for Bermuda, Greenland and Saint Pierre and Miquelon. None proves a street, house number, postcode assignment, geocode or deliverable address."
+  },
+  "overrides": ["BM", "CA", "CA_en", "CA_fr", "GL", "PM", "US"],
+  "countries": {
+    "BM": {
+      "native_languages": ["en"],
+      "default_native_language": "en",
+      "native_profile": "BM_en",
+      "native_profiles": {"en": "BM_en"},
+      "native_scripts": {"en": "Latn"},
+      "english_profile": "BM_en",
+      "country_names": {"en": "Bermuda"},
+      "postcode_pattern": "[A-Z]{2} ?(?:\\d{2}|[A-Z]{2})",
+      "postcode_required": true,
+      "romanization_policy": "English values are preserved as supplied. Home-delivery postcodes use two letters plus two digits; P.O. Box postcodes use four letters and repeat the delivery-office prefix in the P.O. Box line. Syntax and prefix consistency do not prove assignment.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Universal Postal Union and Bermuda Post Office", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/bmuEn.pdf", "scope": "April 2026 home-delivery, unit, street and P.O. Box formats; numeric-route and alphabetic P.O. Box postcode forms"},
+        {"authority": "Government of Bermuda", "url": "https://www.gov.bm/post-office-locations", "scope": "Current post-office street, locality and postcode examples"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "August 2026 postcode requirement"}
+      ]
+    },
+    "CA": {
+      "native_languages": ["en", "fr-Latn"],
+      "default_native_language": "en",
+      "native_profile": "CA_en",
+      "native_profiles": {"en": "CA_en", "fr-Latn": "CA_fr"},
+      "native_scripts": {"en": "Latn", "fr-Latn": "Latn"},
+      "english_profile": "CA_en",
+      "country_names": {"en": "Canada", "fr-Latn": "Canada"},
+      "postcode_pattern": "[ABCEGHJ-NPRSTVXY]\\d[ABCEGHJ-NPRSTVWXYZ] ?\\d[ABCEGHJ-NPRSTVWXYZ]\\d",
+      "postcode_required": true,
+      "romanization_policy": "English and French values remain independent. The renderer preserves Address2/additional delivery information, civic address, rural-route or P.O. Box lines and province/territory codes without translating street names or assigning a postal code.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Canada Post", "url": "https://www.canadapost-postescanada.ca/cpc/en/support/articles/addressing-guidelines/canadian-addresses.page", "scope": "Current civic, additional-delivery-information, rural-route, general-delivery and P.O. Box address order"},
+        {"authority": "Canada Post", "url": "https://www.canadapost-postescanada.ca/cpc/en/support/articles/addressing-guidelines/postal-codes.page", "scope": "Current ANA NAN six-character postcode structure"},
+        {"authority": "Universal Postal Union and Canada Post", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/canEn.pdf", "scope": "Province symbols and private, P.O. Box, rural-route and general-delivery examples"},
+        {"authority": "Government of Canada", "url": "https://justice.canada.ca/eng/csj-sjc/rfc-dlc/ccrf-ccdl/check/art16.html", "scope": "English and French official-language status"}
+      ]
+    },
+    "GL": {
+      "native_languages": ["kl-Latn", "da-Latn"],
+      "default_native_language": "kl-Latn",
+      "native_profile": "GL_kl",
+      "native_profiles": {"kl-Latn": "GL_kl", "da-Latn": "GL_da"},
+      "native_scripts": {"kl-Latn": "Latn", "da-Latn": "Latn"},
+      "english_profile": "GL_en",
+      "country_names": {"kl-Latn": "Kalaallit Nunaat", "da-Latn": "Grønland", "en": "Greenland"},
+      "postcode_pattern": "39\\d{2}",
+      "postcode_required": true,
+      "romanization_policy": "Greenlandic, Danish and English values stay explicit. Proper names and street text are not translated automatically; the four-digit Greenland routing range is syntax-checked without assigning a locality or P.O. Box.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/grlEn.pdf", "scope": "Greenland instruction to use the Denmark address format"},
+        {"authority": "Universal Postal Union and PostNord Denmark", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/dnkEn.pdf", "scope": "May 2024 street, house number, floor, P.O. Box, four-digit postcode and locality order"},
+        {"authority": "Tusass", "url": "https://www.tusass.gl/en/support/opening-hours/", "scope": "Current Greenland operator examples using street/building, P.O. Box, 39xx postcode and locality"},
+        {"authority": "Statistics Greenland", "url": "https://stat.gl/publ/en/sa/201001/contents/Offices%20of%20the%20Danish%20Commonwealth.htm", "scope": "Greenlandic official-language status"},
+        {"authority": "Government of Greenland", "url": "https://naalakkersuisut.gl/-/media/horinger/2024/12/1812_anorthosite/bilag/5-vsb-eng.pdf", "scope": "Greenlandic official language and Danish use in official contexts"}
+      ]
+    },
+    "PM": {
+      "native_languages": ["fr-Latn"],
+      "default_native_language": "fr-Latn",
+      "native_profile": "PM_fr",
+      "native_profiles": {"fr-Latn": "PM_fr"},
+      "native_scripts": {"fr-Latn": "Latn"},
+      "english_profile": "PM_en",
+      "country_names": {"fr-Latn": "Saint-Pierre-et-Miquelon, France", "en": "Saint Pierre and Miquelon, France"},
+      "postcode_pattern": "97500",
+      "postcode_required": true,
+      "romanization_policy": "French and English values remain independent. The French postal route and fixed 97500 code are preserved; neither commune, street nor P.O. Box is inferred from that shared code.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {"authority": "Universal Postal Union and La Poste", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/spmEn.pdf", "scope": "Five-digit code before locality and French address-format inheritance"},
+        {"authority": "La Poste", "url": "https://localiser.laposte.fr/saint-pierre-et-miquelon/st-pierre-et-miquelon", "scope": "Current Saint-Pierre and Miquelon post-office street and fixed 97500 examples"},
+        {"authority": "Services de l’État à Saint-Pierre et Miquelon", "url": "https://www.saint-pierre-et-miquelon.gouv.fr/Outils/Horaires-et-coordonnees", "scope": "Current official street, P.O. Box, 97500 and locality example"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "August 2026 postcode requirement"}
+      ]
+    },
+    "US": {
+      "native_languages": ["en"],
+      "default_native_language": "en",
+      "native_profile": "US_en",
+      "native_profiles": {"en": "US_en"},
+      "native_scripts": {"en": "Latn"},
+      "english_profile": "US_en",
+      "country_names": {"en": "United States of America"},
+      "postcode_pattern": "\\d{5}(?:-\\d{4})?",
+      "postcode_required": true,
+      "romanization_policy": "USPS-standard English labels and user-supplied proper names are preserved. ZIP or ZIP+4 syntax, state abbreviations, secondary units, P.O. Box, rural route, highway contract, military and general-delivery lines are never synthesized into proof of assignment or deliverability.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "United States Postal Service", "url": "https://pe.usps.com/CPIM/ftp/pubs/Pub28/pub28.pdf", "scope": "October 2024 Publication 28 address types, delivery line, last line, secondary unit, P.O. Box, rural route, highway contract, military and general delivery"},
+        {"authority": "United States Postal Service", "url": "https://pe.usps.com/text/pub28/28c2_003.htm", "scope": "Current secondary unit designators and preferred placement at the end of the delivery address line"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "August 2026 ZIP+4 length and postcode requirement"}
+      ]
+    }
+  },
+  "profiles": {
+    "BM": {"country_code": "BM", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} || {{{state}}} {{/first}} {{{postcode}}}\n{{{country}}}\n"},
+    "BM_en": {"country_code": "BM", "language": "en", "use_country": "BM"},
+    "CA": {"country_code": "CA", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{place}}}\n{{{po_box}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}} {{#first}} {{{state_code}}} || {{{state}}} {{/first}}  {{{postcode}}}\n{{{country}}}\n", "postformat_replace": [[" ([A-Za-z]{2}) +([A-Za-z]\\d[A-Za-z])(\\d[A-Za-z]\\d)(?=\\n|$)", " $1 $2 $3"]]},
+    "CA_en": {"country_code": "CA", "language": "en", "use_country": "CA"},
+    "CA_fr": {"country_code": "CA", "language": "fr", "use_country": "CA"},
+    "GL": {"country_code": "GL", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{road}}} {{{house_number}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}}\n{{{country}}}\n"},
+    "GL_kl": {"country_code": "GL", "language": "kl", "use_country": "GL"},
+    "GL_da": {"country_code": "GL", "language": "da", "use_country": "GL"},
+    "GL_en": {"country_code": "GL", "language": "en", "use_country": "GL"},
+    "PM": {"country_code": "PM", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{place}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}}\n{{{country}}}\n"},
+    "PM_fr": {"country_code": "PM", "language": "fr", "use_country": "PM"},
+    "PM_en": {"country_code": "PM", "language": "en", "use_country": "PM"},
+    "US": {"country_code": "US", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{house_number}}} {{{road}}} {{{subpremise}}}\n{{{po_box}}}\n{{{place}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{state_district}}} {{/first}}, {{#first}} {{{state_code}}} || {{{state}}} {{/first}}  {{{postcode}}}\n{{{country}}}\n"},
+    "US_en": {"country_code": "US", "language": "en", "use_country": "US"}
+  },
+  "profile_status": {
+    "BM": "official_guidance", "BM_en": "official_guidance",
+    "CA": "official_guidance", "CA_en": "official_guidance", "CA_fr": "official_guidance",
+    "GL": "source_derived_domestic", "GL_kl": "source_derived_domestic", "GL_da": "source_derived_domestic", "GL_en": "source_derived_domestic",
+    "PM": "source_derived_domestic", "PM_fr": "source_derived_domestic", "PM_en": "source_derived_domestic",
+    "US": "official_guidance", "US_en": "official_guidance"
+  }
+}

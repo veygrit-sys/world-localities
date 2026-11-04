@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "source_repository": "rei-k/world-address",
+  "source_commit": "8e30ef141e40769fa932adeb2f901505023bfd1e",
+  "source_path": "address-foundation/asia-registry",
+  "destination_repository": "rei-k/world-localities",
+  "destination_path": "asia-registry",
+  "profiles": 52,
+  "total_rows": 3277921,
+  "volumes": 59,
+  "volume_bytes": 127046829,
+  "source_files": [
+    {
+      "path": "asia-registry/.gitignore",
+      "git_blob_sha": "6f173372eb5ae93b165d15f2159d2119aff0e2b7",
+      "bytes": 24
+    },
+    {
+      "path": "asia-registry/NOTICE.md",
+      "git_blob_sha": "ae9a013d17ed790837d7507fdd5b20710c8f63fe",
+      "bytes": 1363
+    },
+    {
+      "path": "asia-registry/SCHEMA.md",
+      "git_blob_sha": "1125b5924bac8760763f71ecbe9e1b8fda1b4891",
+      "bytes": 2524
+    },
+    {
+      "path": "asia-registry/archives.json",
+      "git_blob_sha": "c8b89c77ecb2752852604f12d26fa10d8d658e1d",
+      "bytes": 55726
+    },
+    {
+      "path": "asia-registry/build.py",
+      "git_blob_sha": "3fa4da757db4e30a1f180c38f5b5f5be65b65955",
+      "bytes": 17094
+    },
+    {
+      "path": "asia-registry/country-archives/AE.zip",
+      "git_blob_sha": "130130a1913a19f5c2793a0d22f5307aa118520f",
+      "bytes": 149106
+    },
+    {
+      "path": "asia-registry/country-archives/AF.zip",
+      "git_blob_sha": "a2eea3bcf049b97da517be9341165453f1be5b6c",
+      "bytes": 2381363
+    },
+    {
+      "path": "asia-registry/country-archives/AM.zip",
+      "git_blob_sha": "65f083a364d55b82f4e8219171bb4461d3171261",
+      "bytes": 225106
+    },
+    {
+      "path": "asia-registry/country-archives/AZ.zip",
+      "git_blob_sha": "907d184c902c4eb3c464aa289df201cede025f4f",
+      "bytes": 543052
+    },
+    {
+      "path": "asia-registry/country-archives/BD.zip",
+      "git_blob_sha": "584676bc748a3ac317b1cf0ae94e47933e94ed79",
+      "bytes": 2033122
+    },
+    {
+      "path": "asia-registry/country-archives/BH.zip",
+      "git_blob_sha": "1b7f16c2751efacdf24a708f588ef51103207aae",
+      "bytes": 24298
+    },
+    {
+      "path": "asia-registry/country-archives/BN.zip",
+      "git_blob_sha": "234c8f4dddb8a14b7785729e90d8cfc22ca61095",
+      "bytes": 26835
+    },
+    {
+      "path": "asia-registry/country-archives/BT.zip",
+      "git_blob_sha": "98d5c7fc4b83e0a31b6a2ebf5e5f9eece4d3c93b",
+      "bytes": 37053
+    },
+    {
+      "path": "asia-registry/country-archives/CN.zip.part001",
+      "git_blob_sha": "9d0c76453e02a2f71526a6b0e4ac9885523a5f4b",
+      "bytes": 8388608
+    },
+    {
+      "path": "asia-registry/country-archives/CN.zip.part002",
+      "git_blob_sha": "1c33ed54cfecc0414e91933a39d24b8819c001a5",
+      "bytes": 8388608
+    },
+    {
+      "path": "asia-registry/country-archives/CN.zip.part003",
+      "git_blob_sha": "a643fe9831e5d009f78faf21f3a033942d66d171",
+      "bytes": 8388608
+    },
+    {
+      "path": "asia-registry/country-archives/CN.zip.part004",
+      "git_blob_sha": "8eb06ad1dc23c4ea2f678e83598e304ab29997a5",
+      "bytes": 8388608
+    },
+    {
+      "path": "asia-registry/country-archives/CN.zip.part005",
+      "git_blob_sha": "d8cdd440da7c1bce1904ac03de3855386a017f4c",
+      "bytes": 3616659
+    },
+    {
+      "path": "asia-registry/country-archives/CY.zip",
+      "git_blob_sha": "e11a68f6802e669a43009c191ac36ce53b6aa853",
+      "bytes": 105717
+    },
+    {
+      "path": "asia-registry/country-archives/GE.zip",
+      "git_blob_sha": "d5740561626a8c309e11f72d6c3b1c14d6d69d85",
+      "bytes": 353952
+    },
+    {
+      "path": "asia-registry/country-archives/HK.zip",
+      "git_blob_sha": "671fdaaa84550bd9b34ef6d57974ec2b9809caa0",
+      "bytes": 82628
+    },
+    {
+      "path": "asia-registry/country-archives/ID.zip.part001",
+      "git_blob_sha": "682c79f5985d5672a226f5914be2d5ed9e5ee61d",
+      "bytes": 8388608
+    },
+    {
+      "path": "asia-registry/country-archives/ID.zip.part002",
+      "git_blob_sha": "55ff8c7195a8063b2d92f6115583016baca3a1c0",
+      "bytes": 1103930
+    },
+    {
+      "path": "asia-registry/country-archives/IL.zip",
+      "git_blob_sha": "851c54efd07766d86f002a757a5a85cc13939bb7",
+      "bytes": 176925
+    },
+    {
+      "path": "asia-registry/country-archives/IN.zip.part001",
+      "git_blob_sha": "1df680458f76e9c936dc8d20ba4398517b412c8b",
+      "bytes": 8388608
+    },
+    {
+      "path": "asia-registry/country-archives/IN.zip.part002",
+      "git_blob_sha": "23323c426bca62c2046857e93c4eecad08640379",
+      "bytes": 7629830
+    },
+    {
+      "path": "asia-registry/country-archives/IQ.zip",
+      "git_blob_sha": "2da588d02dbcaebec43510659f9692b6c2602376",
+      "bytes": 1504933
+    },
+    {
+      "path": "asia-registry/country-archives/IR.zip",
+      "git_blob_sha": "66255a1134ad694de5bdb625313b3c2d33e84d8c",
+      "bytes": 5241943
+    },
+    {
+      "path": "asia-registry/country-archives/JO.zip",
+      "git_blob_sha": "12902d9bbe8284c299b28d970569585ba15c0fe6",
+      "bytes": 140973
+    },
+    {
+      "path": "asia-registry/country-archives/JP.zip",
+      "git_blob_sha": "1fa7d6e528f685118b2ac9a96b414b655a8a917d",
+      "bytes": 3081845
+    },
+    {
+      "path": "asia-registry/country-archives/KG.zip",
+      "git_blob_sha": "f49eb55fa31704c32844a0fb4e0bac6cd60d93ec",
+      "bytes": 168189
+    },
+    {
+      "path": "asia-registry/country-archives/KH.zip",
+      "git_blob_sha": "8151e073ec767c17dc23d2cd4e06bc8b3814a313",
+      "bytes": 719540
+    },
+    {
+      "path": "asia-registry/country-archives/KP.zip",
+      "git_blob_sha": "f4a2869b2a48dc120e7114c73bf9bfd25ad365fb",
+      "bytes": 1858414
+    },
+    {
+      "path": "asia-registry/country-archives/KR.zip",
+      "git_blob_sha": "9ed17c8c37f09027f41bfde35db647afad0ae992",
+      "bytes": 2984381
+    },
+    {
+      "path": "asia-registry/country-archives/KW.zip",
+      "git_blob_sha": "f563b1f8acb45ade51e5dd01be969fe2a2ee2f2b",
+      "bytes": 29633
+    },
+    {
+      "path": "asia-registry/country-archives/KZ.zip",
+      "git_blob_sha": "5b5515db80079c87a5420b0d080c005c6182978e",
+      "bytes": 697761
+    },
+    {
+      "path": "asia-registry/country-archives/LA.zip",
+      "git_blob_sha": "9dbb1fc7c686986bcde3ccc04c4f91d6ea61ed4c",
+      "bytes": 544271
+    },
+    {
+      "path": "asia-registry/country-archives/LB.zip",
+      "git_blob_sha": "e15cc4649fde0199ac29a4a220841f707363bef3",
+      "bytes": 237267
+    },
+    {
+      "path": "asia-registry/country-archives/LK.zip",
+      "git_blob_sha": "b0b64c05f133bf0ef61ba74c985fda0e1900366d",
+      "bytes": 1211220
+    },
+    {
+      "path": "asia-registry/country-archives/MM.zip",
+      "git_blob_sha": "db29b26eb0ffed830ee871eea50277727f8e6ade",
+      "bytes": 2083225
+    },
+    {
+      "path": "asia-registry/country-archives/MN.zip",
+      "git_blob_sha": "610d9f3305f7cb394fd3ad9ee7e4fa45a2563cb2",
+      "bytes": 155829
+    },
+    {
+      "path": "asia-registry/country-archives/MO.zip",
+      "git_blob_sha": "9c7270a2feb86a9c049a779701a03c6a84094850",
+      "bytes": 11703
+    },
+    {
+      "path": "asia-registry/country-archives/MV.zip",
+      "git_blob_sha": "c3f3a922ed63c5b805bb5ed40602480cffcf8d3f",
+      "bytes": 28726
+    },
+    {
+      "path": "asia-registry/country-archives/MY.zip",
+      "git_blob_sha": "741a80a06790ec667692d242cace6f7a3490db63",
+      "bytes": 737547
+    },
+    {
+      "path": "asia-registry/country-archives/NP.zip",
+      "git_blob_sha": "40342ac37c62e9518e4aca89ecdbf4b0238cea15",
+      "bytes": 3433951
+    },
+    {
+      "path": "asia-registry/country-archives/OM.zip",
+      "git_blob_sha": "0bbea75fe030f472dea301f075384061aebd5b14",
+      "bytes": 347989
+    },
+    {
+      "path": "asia-registry/country-archives/PH.zip",
+      "git_blob_sha": "9fc9075832a0b15154d48253ce2b865568b376e4",
+      "bytes": 2325819
+    },
+    {
+      "path": "asia-registry/country-archives/PK.zip",
+      "git_blob_sha": "92488a5a05f5906a165614ebde4783a1a33316c0",
+      "bytes": 4802367
+    },
+    {
+      "path": "asia-registry/country-archives/PS.zip",
+      "git_blob_sha": "7b32da09fc8471869507a646a7c046c679846cb0",
+      "bytes": 90238
+    },
+    {
+      "path": "asia-registry/country-archives/QA.zip",
+      "git_blob_sha": "d3df497632a551a848d96a732a8167852c17e2ee",
+      "bytes": 35306
+    },
+    {
+      "path": "asia-registry/country-archives/RU.zip.part001",
+      "git_blob_sha": "200a3d0fb2dfe718c5c3832bbd7543a5af21f344",
+      "bytes": 8388608
+    },
+    {
+      "path": "asia-registry/country-archives/RU.zip.part002",
+      "git_blob_sha": "7bbfa893d19aa327919ce81ee21205134547c94b",
+      "bytes": 724254
+    },
+    {
+      "path": "asia-registry/country-archives/SA.zip",
+      "git_blob_sha": "2ead6d5bc4c7ee12cc3d38d2d3e5f26beed3a7c3",
+      "bytes": 291255
+    },
+    {
+      "path": "asia-registry/country-archives/SG.zip",
+      "git_blob_sha": "7027b3b8cf871c5697a01c23e73278d8242aae52",
+      "bytes": 20468
+    },
+    {
+      "path": "asia-registry/country-archives/SY.zip",
+      "git_blob_sha": "60fcf4ab7774bb1474db955398988044e650e3e1",
+      "bytes": 810969
+    },
+    {
+      "path": "asia-registry/country-archives/TH.zip",
+      "git_blob_sha": "4211e22075ff5eac72d44b7cf844c26e7b61d0d5",
+      "bytes": 4671133
+    },
+    {
+      "path": "asia-registry/country-archives/TJ.zip",
+      "git_blob_sha": "0aa4d205fd046fba76a1d32351575454e89e25d7",
+      "bytes": 153850
+    },
+    {
+      "path": "asia-registry/country-archives/TL.zip",
+      "git_blob_sha": "69edf55a213e1c3a447138d53dcfc7501052287d",
+      "bytes": 154772
+    },
+    {
+      "path": "asia-registry/country-archives/TM.zip",
+      "git_blob_sha": "d86af45ca85bcbcf41e6c4a3e2c62bc5a3e852d2",
+      "bytes": 90069
+    },
+    {
+      "path": "asia-registry/country-archives/TR.zip",
+      "git_blob_sha": "9664bff82213215a913d90039bdae4763b300a74",
+      "bytes": 2971482
+    },
+    {
+      "path": "asia-registry/country-archives/TW.zip",
+      "git_blob_sha": "b317fb477b7372e298df948c2e6c4af88c1b72fe",
+      "bytes": 1397044
+    },
+    {
+      "path": "asia-registry/country-archives/UZ.zip",
+      "git_blob_sha": "9a09718201c4a369270c43564f36b9fc47c3bda2",
+      "bytes": 351226
+    },
+    {
+      "path": "asia-registry/country-archives/VN.zip",
+      "git_blob_sha": "ad8382da14da65a11d4417270c90e79ea36e8de0",
+      "bytes": 1984615
+    },
+    {
+      "path": "asia-registry/country-archives/YE.zip",
+      "git_blob_sha": "fd1f4efe08c4f4352d62c10fdf326e6e2dfc35fd",
+      "bytes": 3742790
+    },
+    {
+      "path": "asia-registry/manifest.json",
+      "git_blob_sha": "cacc3e3f6998dd13294c999bfac12949b4644b99",
+      "bytes": 41986
+    },
+    {
+      "path": "asia-registry/package.py",
+      "git_blob_sha": "6ec33c88653721b0826aa50a7c566767d00648ce",
+      "bytes": 6568
+    },
+    {
+      "path": "asia-registry/publication.json",
+      "git_blob_sha": "ffd9d33149ddab70ceefe76ac1aa84b91e85647f",
+      "bytes": 981
+    },
+    {
+      "path": "asia-registry/scope.json",
+      "git_blob_sha": "66380f3517997a7571ce627f978af432f4eb3c2a",
+      "bytes": 10116
+    },
+    {
+      "path": "asia-registry/verification.json",
+      "git_blob_sha": "4b6e966e6ef76ba97d2c5037e81ba86c2f72d3a3",
+      "bytes": 5690
+    }
+  ],
+  "excluded_source_files": [
+    "publish.py",
+    "publish-request.json"
+  ],
+  "modified_source_files": [
+    "README.md"
+  ],
+  "official_multilingual_status": "not_complete",
+  "postal_link_status": "not_joined_in_gazetteer",
+  "imported_on": "2026-10-01",
+  "verification": {
+    "byte_identical_source_files": 69,
+    "mismatches": 0,
+    "archive_volumes": 59,
+    "profiles_unpacked": 52,
+    "package_tests_passed": 5,
+    "source_structural_validation": "retained; exact source bytes, not a new official geography validation"
+  }
+}

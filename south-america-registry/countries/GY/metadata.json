@@ -1,0 +1,115 @@
+{
+  "alternate_values_file": {
+    "bytes": 40403,
+    "filename": "alternate-values.csv.gz",
+    "rows": 2216,
+    "sha256": "0d5f0bcedf9d15457f43bb97fdb9127144ad2392e06469004ce5e80c3b2292f9",
+    "uncompressed_sha256": "89ba74ed77b10515fb5982a66ef5c313766d7e1a426a343c4e0b30b31b738aeb"
+  },
+  "alternate_values_source": {
+    "bytes": 96639,
+    "retained_rows": 2216,
+    "retrieved_on": "2026-10-01",
+    "sha256": "8363b771dd940eda95162170bba5cf4c0b5773c85043b17e95dfad95aa3c2194",
+    "source_columns": 10,
+    "source_rows": 9061,
+    "url": "https://download.geonames.org/export/dump/alternatenames/GY.zip"
+  },
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "GUY",
+    "country": "GY",
+    "geonames_continent": "SA",
+    "geonames_id": "3378535",
+    "id": "country:GY",
+    "m49": "328",
+    "name_en": "Guyana",
+    "region": "South America",
+    "region_m49": "005",
+    "source_country_languages": [
+      "en-GY"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 906,
+    "admin_rows": 10,
+    "ambiguous_parents": 0,
+    "country": "GY",
+    "country_scope_only": 0,
+    "localities_without_adm1": 0,
+    "locality_rows": 907,
+    "name_en": "Guyana",
+    "other_admin_rows": 52,
+    "region": "South America",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 10,
+    "ADMD": 51,
+    "PCLI": 1,
+    "PPL": 707,
+    "PPLA": 9,
+    "PPLC": 1,
+    "PPLL": 55,
+    "PPLS": 1,
+    "PPLX": 134
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 41809,
+      "rows": 969,
+      "sha256": "140400cfcf670b7434287d68318be068f03faec009cb8865c8a2b12d22afe62d",
+      "uncompressed_sha256": "9719dd9e28167060b684ea2966a08c5fa4dd6c965f340e21bb8778b8ee437c68"
+    }
+  },
+  "known_issues": [],
+  "label_coverage": {
+    "current_country_language_name_entities": 433,
+    "current_english_name_entities": 433,
+    "language_tagged_name_entities": 456,
+    "missing_country_language_name_entities": 536,
+    "missing_english_name_entities": 536,
+    "native_label_rule": "Exact source language tag matched against countryInfo language list; no language is inferred from primary name, ASCII, spelling or script. Country-language match is not proof of each place's indigenous language."
+  },
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "not_assigned_for_other_feature": 52,
+    "source_admin_code": 907,
+    "source_country": 10
+  },
+  "postal_coverage": {
+    "note": "Only source post-tag values, if any; not joined by place name and not delivery validation.",
+    "postal_deliverability_verified": false,
+    "postal_validation": false,
+    "source_postal_value_rows": 0
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 10,
+      "sha256": "ff576ac81966ec7684f10d477dd3c9f763cf10f47ef03ad312dc1811eafb0d0c"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 174049,
+    "discarded_feature_classes": {
+      "H": 3254,
+      "L": 259,
+      "R": 24,
+      "S": 1088,
+      "T": 593,
+      "V": 3
+    },
+    "retained_rows": 969,
+    "retrieved_on": "2026-10-01",
+    "sha256": "3e05375027884ffc2cce08f47c738842af7ca68f9656dc977650016fdfac6990",
+    "source_rows": 6190,
+    "url": "https://download.geonames.org/export/dump/GY.zip"
+  },
+  "source_modified_max": "2026-09-21",
+  "source_modified_min": "1993-12-15"
+}

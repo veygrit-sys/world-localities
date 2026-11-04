@@ -1,0 +1,81 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "SYC",
+    "country": "SC",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Seychelles",
+    "geonames_id": "241170",
+    "id": "country:SC",
+    "m49": "690",
+    "name_en": "Seychelles",
+    "numeric": "690",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 52,
+    "admin_rows": 28,
+    "ambiguous_parents": 0,
+    "country": "SC",
+    "country_scope_only": 6,
+    "localities_without_adm1": 6,
+    "locality_rows": 52,
+    "name_en": "Seychelles",
+    "other_admin_rows": 2,
+    "region": "Eastern Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 28,
+    "ADMD": 1,
+    "PCLI": 1,
+    "PPL": 37,
+    "PPLA": 8,
+    "PPLC": 1,
+    "PPLX": 6
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 15778,
+      "rows": 82,
+      "sha256": "4e70f6173ac5aab54bf265ec9d9d1788ac1c6e0448ae422c685dbe5c6c83ac9b",
+      "uncompressed_sha256": "a1a40051c7325d4d9bc2ed1be354a0141353919afad59b5cc78f5344d455ed64"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 6,
+    "not_assigned_for_other_feature": 2,
+    "source_admin_code": 46,
+    "source_country": 28
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 28,
+      "sha256": "13f7f65d8fbe551c415a027cbd6af8ab1bbe92b610b654f2340cb78665352f88"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 33761,
+    "discarded_feature_classes": {
+      "H": 149,
+      "L": 1,
+      "S": 138,
+      "T": 204,
+      "V": 1
+    },
+    "retained_rows": 82,
+    "retrieved_on": "2026-09-26",
+    "sha256": "969abc30312dd9e8373b67b1382bc0050e3662ad48880bb6b231144b26312503",
+    "source_rows": 575,
+    "url": "https://download.geonames.org/export/dump/SC.zip"
+  },
+  "source_modified_max": "2026-09-02",
+  "source_modified_min": "2006-03-23"
+}

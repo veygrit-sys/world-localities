@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "regions": {
+    "south-america": {
+      "module": "southamerica_hierarchy",
+      "configuration_dir": "address-points",
+      "scope_file": "SOUTH_AMERICA_SCOPE.json",
+      "scope_codes": [
+        "AR",
+        "BO",
+        "BR",
+        "CL",
+        "CO",
+        "EC",
+        "GY",
+        "PY",
+        "PE",
+        "SR",
+        "UY",
+        "VE",
+        "GF",
+        "FK",
+        "GS",
+        "BV"
+      ],
+      "archive_manifest": "releases/hierarchy/south-america/archive.json",
+      "data_payloads_in_git": false
+    },
+    "north-america": {
+      "module": "northamerica",
+      "configuration_dir": "address-points",
+      "scope_file": "NORTH_AMERICA_SCOPE.json",
+      "scope_codes": [
+        "US",
+        "CA",
+        "MX",
+        "BM",
+        "GL",
+        "PM"
+      ],
+      "archive_manifest": "releases/hierarchy/north-america/archive.json",
+      "data_payloads_in_git": false
+    },
+    "central-america": {
+      "module": "centralamerica",
+      "configuration_dir": "address-points",
+      "scope_file": "CENTRAL_AMERICA_SCOPE.json",
+      "scope_codes": [
+        "BZ",
+        "GT",
+        "SV",
+        "HN",
+        "NI",
+        "CR",
+        "PA"
+      ],
+      "archive_manifest": "releases/hierarchy/central-america/archive.json",
+      "data_payloads_in_git": false
+    },
+    "caribbean": {
+      "module": "caribbean_hierarchy",
+      "configuration_dir": "address-points",
+      "scope_file": "CARIBBEAN_SCOPE.json",
+      "scope_codes": [
+        "AG",
+        "BS",
+        "BB",
+        "CU",
+        "DM",
+        "DO",
+        "GD",
+        "HT",
+        "JM",
+        "KN",
+        "LC",
+        "VC",
+        "TT",
+        "AI",
+        "AW",
+        "BQ",
+        "VG",
+        "KY",
+        "CW",
+        "GP",
+        "MQ",
+        "MS",
+        "PR",
+        "BL",
+        "MF",
+        "SX",
+        "TC",
+        "VI"
+      ],
+      "archive_manifest": "releases/hierarchy/caribbean/archive.json",
+      "data_payloads_in_git": false
+    },
+    "western-europe": {
+      "module": "westerneurope",
+      "configuration_dir": "address-points",
+      "scope_file": "WESTERN_EUROPE_SCOPE.json",
+      "scope_codes": [
+        "AT",
+        "BE",
+        "CH",
+        "DE",
+        "FR",
+        "GB",
+        "IE",
+        "LI",
+        "LU",
+        "MC",
+        "NL"
+      ],
+      "archive_manifest": "releases/hierarchy/western-europe/archive.json",
+      "data_payloads_in_git": false,
+      "interface": "source-qualified register audit/search; existing Europe hierarchy remains separate",
+      "source_manifests": [
+        "releases/hierarchy/western-europe/official-sources.json",
+        "releases/hierarchy/western-europe/netherlands/official-sources.json"
+      ],
+      "archive_manifests": [
+        "releases/hierarchy/western-europe/archive.json",
+        "releases/hierarchy/western-europe/netherlands/archive.json"
+      ]
+    },
+    "east-asia": {
+      "module": "eastasia",
+      "configuration_dir": "address-points",
+      "scope_file": "EAST_ASIA_SCOPE.json",
+      "scope_codes": [
+        "CN",
+        "HK",
+        "JP",
+        "KP",
+        "KR",
+        "MN",
+        "MO",
+        "TW"
+      ],
+      "archive_manifest": "releases/hierarchy/east-asia/archive.json",
+      "data_payloads_in_git": false
+    }
+  }
+}

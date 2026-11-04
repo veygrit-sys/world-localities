@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "source": {
+    "id": "OSM-KP",
+    "country": "KP",
+    "format": "selected_osm_pbf",
+    "role": "supplementary_roads_addresses_administration",
+    "path": "projections/KP.osm.pbf",
+    "url": "https://download.geofabrik.de/asia/north-korea-261020.osm.pbf",
+    "licence": "ODbL-1.0",
+    "licence_url": "https://www.openstreetmap.org/copyright",
+    "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+    "bytes": 6423724,
+    "national_completeness_verified": false,
+    "extract_membership_is_legal_country_membership": false,
+    "sha256": "6343614e8279b6eec54c99bfa1711617229759fc11e09f2b050b95a44b03abbe",
+    "retrieved_at": "2026-10-22T06:53:02.187758+00:00",
+    "resolved_url": "https://download.geofabrik.de/asia/north-korea-261020.osm.pbf",
+    "http_metadata": {
+      "last-modified": "Tue, 20 Oct 2026 23:08:16 GMT",
+      "etag": "\"589bf7d-65e4db4a623e1\"",
+      "content-length": "92913533",
+      "content-type": "application/octet-stream"
+    },
+    "publisher_md5": "8bf71868021ea454918b27fa6a8dc74a",
+    "publisher_checksum_stable_before_after": true,
+    "original_source_sha256": "3df1761a9711518307c79f9d2736668a0b8d6924b79aed0798e7a2484465533a",
+    "original_source_bytes": 92913533,
+    "original_source_url": "https://download.geofabrik.de/asia/north-korea-261020.osm.pbf",
+    "original_pbf_preserved_in_distribution": false
+  },
+  "counts": {
+    "observations": 262280,
+    "address_tags": 580,
+    "house_number": 193,
+    "named_road": 3088,
+    "active_road_way": 259605,
+    "administrative_tag": 1783
+  },
+  "ordered_rows_sha256": "b6cb492d43afe5a1194b165552f3b096015cf5eb282027b7ef9cb4ac036e105c",
+  "projection_implementation_sha256": "fcb287d96709c66ab9adc7c09d74e6f90bbd3f41a704caa46ac8da0846ad1712",
+  "classifier_implementation_sha256": {
+    "east_asia_sources.py": "8f779a8bf40a05c5fad87004c165f84d7a871bfc0301b92e7a7eb3d277a30075",
+    "osm_evidence.py": "ba8599b7bd9cf448fd7f6644bba35e146520ef7e7d32167764be2e09816e5484"
+  },
+  "verification": "Every selected native object re-read; canonical fields, counts and ordered digest match full original source audit",
+  "all_tags_versions_timestamps_and_ordered_references_preserved": true,
+  "untagged_dependency_nodes_copied": false,
+  "way_or_relation_geometry_assembled": false,
+  "interpolation_expanded": false,
+  "national_completeness_verified": false
+}

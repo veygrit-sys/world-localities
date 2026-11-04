@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/rei-k/world-localities/addressing/validation-result.schema.json",
+  "title": "Address validation result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "status",
+    "verification_level",
+    "verification_level_number",
+    "confidence",
+    "components",
+    "evidence",
+    "warnings",
+    "location_precision"
+  ],
+  "properties": {
+    "status": {
+      "enum": ["verified", "corrected", "ambiguous", "unsupported", "no_match"]
+    },
+    "verification_level": {
+      "enum": ["format", "parsed", "locality", "postal", "street", "premise", "subpremise", "deliverability"]
+    },
+    "verification_level_number": {"type": "integer", "minimum": 0, "maximum": 7},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "components": {
+      "type": "object",
+      "additionalProperties": {"type": "string"}
+    },
+    "evidence": {
+      "type": "array",
+      "items": {"type": "object"}
+    },
+    "warnings": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "location_precision": {
+      "enum": ["entrance", "rooftop", "building", "parcel", "interpolated", "street", "postal_area", "locality", "administrative", "unknown"]
+    }
+  }
+}

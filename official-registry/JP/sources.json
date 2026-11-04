@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "observed_on": "2026-10-01",
+  "sources": {
+    "jp-abr-snapshot": {
+      "provider": "Digital Agency Japan ABR / WorldAddress curated registry",
+      "repository": "https://github.com/rei-k/world-address",
+      "commit": "8e30ef141e40769fa932adeb2f901505023bfd1e",
+      "path": "address-foundation/japan-registry",
+      "source_observed_on": "2026-09-25",
+      "as_of": "2026-09-26",
+      "licence": "ODbL-1.0; ABR CC-BY-4.0 source terms retained",
+      "terms": "https://www.digital.go.jp/policies/base_registry_address_tos",
+      "note": "Pinned source rows and hierarchy retained; fresh ABR ZIP requests returned HTTP 403 on 2026-10-01. Six originally unresolved rows are not promoted into the address hierarchy."
+    },
+    "jp-post-utf": {
+      "provider": "Japan Post",
+      "url": "https://www.post.japanpost.jp/service/search/zipcode/download/utf/zip/utf_ken_all.zip",
+      "sha256": "444881769a631d2c36c644fc041e5ce62fe65d204ff498a601641ba1e66b5955",
+      "bytes": 2135514,
+      "published_on": "2026-09-30",
+      "licence": "LicenseRef-JapanPost-Postal-Data",
+      "terms": "https://www.post.japanpost.jp/service/search/zipcode/download/utf-readme.html"
+    },
+    "jp-post-roman": {
+      "provider": "Japan Post",
+      "url": "https://www.post.japanpost.jp/service/search/zipcode/download/roman/KEN_ALL_ROME.zip",
+      "sha256": "9764834dfd1d0148600c38b7fc4c00feae8443e81e68da3a49469447cd97707d",
+      "bytes": 1759193,
+      "published_on": "2025-06-18",
+      "reference_month": "2025-06",
+      "licence": "LicenseRef-JapanPost-Postal-Data",
+      "terms": "https://www.post.japanpost.jp/service/search/zipcode/download/readme_ro.html"
+    }
+  },
+  "bundled_files": {
+    "sources/postal-roman.zip": {
+      "bytes": 1759193,
+      "sha256": "9764834dfd1d0148600c38b7fc4c00feae8443e81e68da3a49469447cd97707d"
+    },
+    "sources/postal-utf.zip": {
+      "bytes": 2135514,
+      "sha256": "444881769a631d2c36c644fc041e5ce62fe65d204ff498a601641ba1e66b5955"
+    },
+    "sources/registry-manifest.json": {
+      "bytes": 53076,
+      "sha256": "9d4139e1e862f3e0259bd846f91875c0d78ba19213d97f413281619bbbf11a19"
+    },
+    "sources/registry.json.gz": {
+      "bytes": 88438,
+      "sha256": "b5e8c7edbbc159c1eb225b3e580be690fa28aa4603d1ee52008284fa8c40f933"
+    }
+  },
+  "romanization": {
+    "method": "jp-postal-kana-v1",
+    "reference": "https://www.post.japanpost.jp/service/search/zipcode/download/roman_shiyou.pdf",
+    "code_sha256": "21efdc70b474d6ce04498475d8e24ea3ebe6f5be58f912bc005e6ac1edd25028",
+    "storage_policy": "Omit only exact source matches; retain literal exceptions. New conversions are generated_unreviewed."
+  }
+}

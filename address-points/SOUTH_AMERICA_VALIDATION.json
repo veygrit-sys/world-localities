@@ -1,0 +1,743 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-16T23:39:34.502912+00:00",
+  "behavior_tests": 35,
+  "failures": 0,
+  "source_replays": [
+    {
+      "source": "ar-geonames-geonames",
+      "replayed_rows": 59096,
+      "canonical_sha256": "c9278e52774d617a50ee847ec6eb93b1515eae1a1978375a979b527bd455419c",
+      "status": "PASS"
+    },
+    {
+      "source": "ar-geonames-names",
+      "replayed_rows": 64829,
+      "canonical_sha256": "bd31425e9c4da103270dfeac228f827d2861167b91702909a129d91a4e754d54",
+      "status": "PASS"
+    },
+    {
+      "source": "ar-georef-localidades",
+      "replayed_rows": 4037,
+      "canonical_sha256": "fe9d4d4e1dee3b42d12144b9d4b09d430fff372fc9e8e78460f82cd303d54b51",
+      "status": "PASS"
+    },
+    {
+      "source": "ar-georef-provincias",
+      "replayed_rows": 24,
+      "canonical_sha256": "c348a9207fdb4f0ddb153659a4ef0fd3b53ce0ea236dd03a6678a712149d73d2",
+      "status": "PASS"
+    },
+    {
+      "source": "bo-geonames-geonames",
+      "replayed_rows": 40411,
+      "canonical_sha256": "d19f0b44f87238509d75fe8e1b4c7f1ef8f22ef582cf19283b747c26239c7a9d",
+      "status": "PASS"
+    },
+    {
+      "source": "bo-geonames-names",
+      "replayed_rows": 41755,
+      "canonical_sha256": "2c52020e00384ec43d33b9fdd88ad66af0824f81a83b09de11bd683b04a9dd21",
+      "status": "PASS"
+    },
+    {
+      "source": "br-geonames-geonames",
+      "replayed_rows": 235530,
+      "canonical_sha256": "67509b0700471cc343ca03870924e6bea7de4292dc1dd3b8b1c1b783f5576023",
+      "status": "PASS"
+    },
+    {
+      "source": "br-geonames-names",
+      "replayed_rows": 308715,
+      "canonical_sha256": "d0145b191508f4796101c049327632393b99dbd400b3ad4888111720d11d54d8",
+      "status": "PASS"
+    },
+    {
+      "source": "bv-geonames-geonames",
+      "replayed_rows": 48,
+      "canonical_sha256": "53c8387c14056e5707f4ff7102f2860b9b1907dd6f483e19a4b36f14c5b1feec",
+      "status": "PASS"
+    },
+    {
+      "source": "bv-geonames-names",
+      "replayed_rows": 320,
+      "canonical_sha256": "f22ae7e4eaa12b96ac9a3adbd959a0d92781ad3d1acca7e91952646bf764cbd4",
+      "status": "PASS"
+    },
+    {
+      "source": "cl-geonames-geonames",
+      "replayed_rows": 46467,
+      "canonical_sha256": "f2a52211ff7edafcab080e45d891aadae8f24a0888e5e1e6d11d8854a7907d78",
+      "status": "PASS"
+    },
+    {
+      "source": "cl-geonames-names",
+      "replayed_rows": 58531,
+      "canonical_sha256": "289976e6f48d28c0680b52f7aab7769223043049ad39425512ac8c6e45029a75",
+      "status": "PASS"
+    },
+    {
+      "source": "co-geonames-geonames",
+      "replayed_rows": 82095,
+      "canonical_sha256": "4d53803ceb87cfba3858b625fe7d0f9fb7e618d5889b8c7b817c770d38a227cb",
+      "status": "PASS"
+    },
+    {
+      "source": "co-geonames-names",
+      "replayed_rows": 62018,
+      "canonical_sha256": "f3ea2f226a0f16ebdf10312dd61daeb5242697a75bb3b3690813798c76cbd1e5",
+      "status": "PASS"
+    },
+    {
+      "source": "ec-geonames-geonames",
+      "replayed_rows": 21435,
+      "canonical_sha256": "fa7efd801c49a2e7396c02f0002d4b2949253b09585e4339da9b609d25a1d0fe",
+      "status": "PASS"
+    },
+    {
+      "source": "ec-geonames-names",
+      "replayed_rows": 24255,
+      "canonical_sha256": "5d449bd1e175804a5d767fafa5cc4f41d157f5fc2f19d526f1383a7669e02920",
+      "status": "PASS"
+    },
+    {
+      "source": "fk-geonames-geonames",
+      "replayed_rows": 1128,
+      "canonical_sha256": "7620e75db78b39122821d007e1f6e72f6ed47949613b6548a61a958bd16944fd",
+      "status": "PASS"
+    },
+    {
+      "source": "fk-geonames-names",
+      "replayed_rows": 2207,
+      "canonical_sha256": "885d0d9b5f9aeed11be6f9e2a87c969eff90074725f34a3b175ebb99ecb0708b",
+      "status": "PASS"
+    },
+    {
+      "source": "gf-ban-973",
+      "replayed_rows": 60905,
+      "canonical_sha256": "a2429cd5cc4a2bf31446217172ea5c32e0654653fc8599f75fbe98705b8469be",
+      "status": "PASS"
+    },
+    {
+      "source": "gf-geonames-geonames",
+      "replayed_rows": 3733,
+      "canonical_sha256": "c9267cd7775192563f7ed002892994cf8b91a733b910a8ee8142e610de73387c",
+      "status": "PASS"
+    },
+    {
+      "source": "gf-geonames-names",
+      "replayed_rows": 5422,
+      "canonical_sha256": "1ed0e7028ab6a8941f45a8a0016b08d35a91525e8880f90226d4f221cd4cf1ec",
+      "status": "PASS"
+    },
+    {
+      "source": "gs-geonames-geonames",
+      "replayed_rows": 814,
+      "canonical_sha256": "9ef9d330fd913dcf03773ecf8409f230f86745b0dd9feddaa803574398fb367d",
+      "status": "PASS"
+    },
+    {
+      "source": "gs-geonames-names",
+      "replayed_rows": 3077,
+      "canonical_sha256": "0f370e6904692fec0a2f13a230579fec1defcd670abde5e8bcbd71e933623fb9",
+      "status": "PASS"
+    },
+    {
+      "source": "gy-geonames-geonames",
+      "replayed_rows": 6190,
+      "canonical_sha256": "950e977ca3af11c360c3686afd1b5eace10dcbba87ac43ebb6af36bfeae1f1e7",
+      "status": "PASS"
+    },
+    {
+      "source": "gy-geonames-names",
+      "replayed_rows": 9061,
+      "canonical_sha256": "17366c87bd9be410b8eeb9e15d0802e24da8ea70c191b5affe9f32cb97749f87",
+      "status": "PASS"
+    },
+    {
+      "source": "pe-geonames-geonames",
+      "replayed_rows": 111524,
+      "canonical_sha256": "cf8b56ae00b59019c64dada74e7351efe5cd92edebcc6e8248566179aa331342",
+      "status": "PASS"
+    },
+    {
+      "source": "pe-geonames-names",
+      "replayed_rows": 90166,
+      "canonical_sha256": "f3035a8be86af36f740f2b7bad68302426ec85aa857deb7122b2c7e8ed19c600",
+      "status": "PASS"
+    },
+    {
+      "source": "py-geonames-geonames",
+      "replayed_rows": 18584,
+      "canonical_sha256": "8361c39722fa9cc70e2e854b4cc932223e99a8c6ecf022ed157f0f16229ef6db",
+      "status": "PASS"
+    },
+    {
+      "source": "py-geonames-names",
+      "replayed_rows": 12692,
+      "canonical_sha256": "3931a8abd296e276eaf1853781099ba31686f08659cd1423ff4a46cf2cd828b0",
+      "status": "PASS"
+    },
+    {
+      "source": "sr-geonames-geonames",
+      "replayed_rows": 2489,
+      "canonical_sha256": "2a96aaeaf01aa612c7731436f87598c665f812f8c5c7e24a68e6c33bf35956b2",
+      "status": "PASS"
+    },
+    {
+      "source": "sr-geonames-names",
+      "replayed_rows": 4920,
+      "canonical_sha256": "e1670bcc3f3fde8815bdfcf46e0e3679e7f4862f3f3b209f3fc16cc585c42d7a",
+      "status": "PASS"
+    },
+    {
+      "source": "uy-geonames-geonames",
+      "replayed_rows": 8165,
+      "canonical_sha256": "743abfaced24aafb3efcb915cfc3a7a399eb44ee12b26dc6e2bfd6add3592574",
+      "status": "PASS"
+    },
+    {
+      "source": "uy-geonames-names",
+      "replayed_rows": 17152,
+      "canonical_sha256": "d413a10072ea1c517c47ff3ae486340698eb1423196a2cf9cfdf44905b176482",
+      "status": "PASS"
+    },
+    {
+      "source": "ve-geonames-geonames",
+      "replayed_rows": 71057,
+      "canonical_sha256": "0c26df079a0e8667a45b8282176270731013d89b2969a1abbf7a2901271e7d1d",
+      "status": "PASS"
+    },
+    {
+      "source": "ve-geonames-names",
+      "replayed_rows": 33824,
+      "canonical_sha256": "eb995c9ea66b348e3d6459e20ac18d457c61e6402593bf82bd67f8fdf68f9232",
+      "status": "PASS"
+    }
+  ],
+  "real_data_queries": [
+    {
+      "country": "AR",
+      "layer": "place",
+      "record_key": "ar-geonames-geonames:12548904",
+      "name_query": "PASS",
+      "point_query": "PASS"
+    },
+    {
+      "country": "BO",
+      "layer": "place",
+      "record_key": "bo-geonames-geonames:11778699",
+      "name_query": "PASS",
+      "point_query": "PASS"
+    },
+    {
+      "country": "BV",
+      "layer": "feature",
+      "record_key": "bv-geonames-geonames:3371120",
+      "name_query": "PASS",
+      "point_query": "PASS"
+    },
+    {
+      "country": "BR",
+      "layer": "place",
+      "record_key": "br-geonames-geonames:12351042",
+      "name_query": "PASS",
+      "point_query": "PASS"
+    },
+    {
+      "country": "CL",
+      "layer": "place",
+      "record_key": "cl-geonames-geonames:3897113",
+      "name_query": "PASS",
+      "point_query": "PASS"
+    },
+    {
+      "country": "CO",
+      "layer": "place",
+      "record_key": "co-geonames-geonames:6851663",
+      "name_query": "PASS",
+      "point_query": "PASS"
+    },
+    {
+      "country": "EC",
+      "layer": "place",
+      "record_key": "ec-geonames-geonames:12543642",
+      "name_query": "PASS",
+      "point_query": "PASS"
+    },
+    {
+      "country": "FK",
+      "layer": "place",
+      "record_key": "fk-geonames-geonames:3473338",
+      "name_query": "PASS",
+      "point_query": "PASS"
+    },
+    {
+      "country": "GF",
+      "layer": "place",
+      "record_key": "gf-geonames-geonames:10311839",
+      "name_query": "PASS",
+      "point_query": "PASS"
+    },
+    {
+      "country": "GY",
+      "layer": "place",
+      "record_key": "gy-geonames-geonames:3377025",
+      "name_query": "PASS",
+      "point_query": "PASS"
+    },
+    {
+      "country": "PY",
+      "layer": "place",
+      "record_key": "py-geonames-geonames:11675448",
+      "name_query": "PASS",
+      "point_query": "PASS"
+    },
+    {
+      "country": "PE",
+      "layer": "place",
+      "record_key": "pe-geonames-geonames:13318327",
+      "name_query": "PASS",
+      "point_query": "PASS"
+    },
+    {
+      "country": "GS",
+      "layer": "place",
+      "record_key": "gs-geonames-geonames:13513010",
+      "name_query": "PASS",
+      "point_query": "PASS"
+    },
+    {
+      "country": "SR",
+      "layer": "place",
+      "record_key": "sr-geonames-geonames:8220853",
+      "name_query": "PASS",
+      "point_query": "PASS"
+    },
+    {
+      "country": "UY",
+      "layer": "place",
+      "record_key": "uy-geonames-geonames:10637766",
+      "name_query": "PASS",
+      "point_query": "PASS"
+    },
+    {
+      "country": "VE",
+      "layer": "place",
+      "record_key": "ve-geonames-geonames:12067320",
+      "name_query": "PASS",
+      "point_query": "PASS"
+    },
+    {
+      "country": "GF",
+      "layer": "address",
+      "record_key": "gf-ban-973:97301_0025_00025:row:37",
+      "name_query": "PASS",
+      "point_query": "PASS"
+    }
+  ],
+  "build_summary": {
+    "status": "PASS",
+    "schema_version": 1,
+    "built_at": "2026-10-16T23:37:05.362337+00:00",
+    "scope_count": 16,
+    "sources": [
+      {
+        "source": "ar-geonames-geonames",
+        "kind": "geonames",
+        "country": "AR",
+        "rows": 59096,
+        "feature": 43600,
+        "historic_or_abandoned_features": 34,
+        "country_code_mismatches": 0,
+        "place": 14889,
+        "admin": 607
+      },
+      {
+        "source": "bo-geonames-geonames",
+        "kind": "geonames",
+        "country": "BO",
+        "rows": 40411,
+        "feature": 13844,
+        "historic_or_abandoned_features": 32,
+        "country_code_mismatches": 0,
+        "place": 25804,
+        "admin": 763
+      },
+      {
+        "source": "br-geonames-geonames",
+        "kind": "geonames",
+        "country": "BR",
+        "rows": 235530,
+        "feature": 157462,
+        "historic_or_abandoned_features": 8,
+        "country_code_mismatches": 0,
+        "place": 72392,
+        "admin": 5676
+      },
+      {
+        "source": "bv-geonames-geonames",
+        "kind": "geonames",
+        "country": "BV",
+        "rows": 48,
+        "feature": 47,
+        "historic_or_abandoned_features": 0,
+        "country_code_mismatches": 0,
+        "admin": 1
+      },
+      {
+        "source": "cl-geonames-geonames",
+        "kind": "geonames",
+        "country": "CL",
+        "rows": 46467,
+        "feature": 39075,
+        "historic_or_abandoned_features": 33,
+        "country_code_mismatches": 0,
+        "place": 6967,
+        "admin": 425
+      },
+      {
+        "source": "co-geonames-geonames",
+        "kind": "geonames",
+        "country": "CO",
+        "rows": 82095,
+        "feature": 44631,
+        "historic_or_abandoned_features": 12,
+        "country_code_mismatches": 0,
+        "place": 35945,
+        "admin": 1519
+      },
+      {
+        "source": "ec-geonames-geonames",
+        "kind": "geonames",
+        "country": "EC",
+        "rows": 21435,
+        "place": 11458,
+        "historic_or_abandoned_features": 1,
+        "country_code_mismatches": 0,
+        "feature": 8689,
+        "admin": 1288
+      },
+      {
+        "source": "fk-geonames-geonames",
+        "kind": "geonames",
+        "country": "FK",
+        "rows": 1128,
+        "feature": 1070,
+        "historic_or_abandoned_features": 0,
+        "country_code_mismatches": 0,
+        "place": 57,
+        "admin": 1
+      },
+      {
+        "source": "gf-geonames-geonames",
+        "kind": "geonames",
+        "country": "GF",
+        "rows": 3733,
+        "place": 741,
+        "historic_or_abandoned_features": 70,
+        "country_code_mismatches": 0,
+        "feature": 2951,
+        "admin": 41
+      },
+      {
+        "source": "gs-geonames-geonames",
+        "kind": "geonames",
+        "country": "GS",
+        "rows": 814,
+        "feature": 809,
+        "historic_or_abandoned_features": 1,
+        "country_code_mismatches": 0,
+        "place": 4,
+        "admin": 1
+      },
+      {
+        "source": "gy-geonames-geonames",
+        "kind": "geonames",
+        "country": "GY",
+        "rows": 6190,
+        "feature": 5221,
+        "historic_or_abandoned_features": 0,
+        "country_code_mismatches": 0,
+        "place": 907,
+        "admin": 62
+      },
+      {
+        "source": "pe-geonames-geonames",
+        "kind": "geonames",
+        "country": "PE",
+        "rows": 111524,
+        "feature": 61933,
+        "historic_or_abandoned_features": 38,
+        "country_code_mismatches": 0,
+        "place": 47493,
+        "admin": 2098
+      },
+      {
+        "source": "py-geonames-geonames",
+        "kind": "geonames",
+        "country": "PY",
+        "rows": 18584,
+        "feature": 3215,
+        "historic_or_abandoned_features": 29,
+        "country_code_mismatches": 0,
+        "place": 6868,
+        "admin": 8501
+      },
+      {
+        "source": "sr-geonames-geonames",
+        "kind": "geonames",
+        "country": "SR",
+        "rows": 2489,
+        "feature": 1857,
+        "historic_or_abandoned_features": 26,
+        "country_code_mismatches": 0,
+        "place": 553,
+        "admin": 79
+      },
+      {
+        "source": "uy-geonames-geonames",
+        "kind": "geonames",
+        "country": "UY",
+        "rows": 8165,
+        "feature": 6931,
+        "historic_or_abandoned_features": 1,
+        "country_code_mismatches": 0,
+        "place": 1089,
+        "admin": 145
+      },
+      {
+        "source": "ve-geonames-geonames",
+        "kind": "geonames",
+        "country": "VE",
+        "rows": 71057,
+        "feature": 45052,
+        "historic_or_abandoned_features": 28,
+        "country_code_mismatches": 0,
+        "place": 25553,
+        "admin": 452
+      },
+      {
+        "source": "ar-geonames-names",
+        "kind": "names",
+        "country": "AR",
+        "rows": 64829,
+        "linked_rows": 64829,
+        "historic_or_time_bounded_aliases": 44,
+        "english_tagged_rows": 1230,
+        "domestic_english_tagged_rows": 0,
+        "unresolved_feature_id_examples": []
+      },
+      {
+        "source": "bo-geonames-names",
+        "kind": "names",
+        "country": "BO",
+        "rows": 41755,
+        "linked_rows": 41755,
+        "historic_or_time_bounded_aliases": 10,
+        "english_tagged_rows": 484,
+        "domestic_english_tagged_rows": 0,
+        "unresolved_feature_id_examples": []
+      },
+      {
+        "source": "br-geonames-names",
+        "kind": "names",
+        "country": "BR",
+        "rows": 308715,
+        "linked_rows": 308715,
+        "historic_or_time_bounded_aliases": 233,
+        "english_tagged_rows": 4586,
+        "domestic_english_tagged_rows": 0,
+        "unresolved_feature_id_examples": []
+      },
+      {
+        "source": "bv-geonames-names",
+        "kind": "names",
+        "country": "BV",
+        "rows": 320,
+        "linked_rows": 320,
+        "historic_or_time_bounded_aliases": 0,
+        "english_tagged_rows": 4,
+        "domestic_english_tagged_rows": 0,
+        "unresolved_feature_id_examples": []
+      },
+      {
+        "source": "cl-geonames-names",
+        "kind": "names",
+        "country": "CL",
+        "rows": 58531,
+        "linked_rows": 58531,
+        "historic_or_time_bounded_aliases": 115,
+        "english_tagged_rows": 1161,
+        "domestic_english_tagged_rows": 0,
+        "unresolved_feature_id_examples": []
+      },
+      {
+        "source": "co-geonames-names",
+        "kind": "names",
+        "country": "CO",
+        "rows": 62018,
+        "linked_rows": 62018,
+        "historic_or_time_bounded_aliases": 29,
+        "english_tagged_rows": 579,
+        "domestic_english_tagged_rows": 0,
+        "unresolved_feature_id_examples": []
+      },
+      {
+        "source": "ec-geonames-names",
+        "kind": "names",
+        "country": "EC",
+        "rows": 24255,
+        "linked_rows": 24255,
+        "historic_or_time_bounded_aliases": 12,
+        "english_tagged_rows": 635,
+        "domestic_english_tagged_rows": 0,
+        "unresolved_feature_id_examples": []
+      },
+      {
+        "source": "fk-geonames-names",
+        "kind": "names",
+        "country": "FK",
+        "rows": 2207,
+        "linked_rows": 2207,
+        "historic_or_time_bounded_aliases": 1,
+        "english_tagged_rows": 42,
+        "domestic_english_tagged_rows": 0,
+        "unresolved_feature_id_examples": []
+      },
+      {
+        "source": "gf-geonames-names",
+        "kind": "names",
+        "country": "GF",
+        "rows": 5422,
+        "linked_rows": 5422,
+        "historic_or_time_bounded_aliases": 1,
+        "english_tagged_rows": 27,
+        "domestic_english_tagged_rows": 0,
+        "unresolved_feature_id_examples": []
+      },
+      {
+        "source": "gs-geonames-names",
+        "kind": "names",
+        "country": "GS",
+        "rows": 3077,
+        "linked_rows": 3077,
+        "historic_or_time_bounded_aliases": 2,
+        "english_tagged_rows": 95,
+        "domestic_english_tagged_rows": 0,
+        "unresolved_feature_id_examples": []
+      },
+      {
+        "source": "gy-geonames-names",
+        "kind": "names",
+        "country": "GY",
+        "rows": 9061,
+        "linked_rows": 9061,
+        "historic_or_time_bounded_aliases": 4,
+        "english_tagged_rows": 1397,
+        "domestic_english_tagged_rows": 0,
+        "unresolved_feature_id_examples": []
+      },
+      {
+        "source": "pe-geonames-names",
+        "kind": "names",
+        "country": "PE",
+        "rows": 90166,
+        "linked_rows": 90166,
+        "historic_or_time_bounded_aliases": 46,
+        "english_tagged_rows": 993,
+        "domestic_english_tagged_rows": 0,
+        "unresolved_feature_id_examples": []
+      },
+      {
+        "source": "py-geonames-names",
+        "kind": "names",
+        "country": "PY",
+        "rows": 12692,
+        "linked_rows": 12692,
+        "historic_or_time_bounded_aliases": 4,
+        "english_tagged_rows": 95,
+        "domestic_english_tagged_rows": 0,
+        "unresolved_feature_id_examples": []
+      },
+      {
+        "source": "sr-geonames-names",
+        "kind": "names",
+        "country": "SR",
+        "rows": 4920,
+        "linked_rows": 4920,
+        "historic_or_time_bounded_aliases": 3,
+        "english_tagged_rows": 117,
+        "domestic_english_tagged_rows": 0,
+        "unresolved_feature_id_examples": []
+      },
+      {
+        "source": "uy-geonames-names",
+        "kind": "names",
+        "country": "UY",
+        "rows": 17152,
+        "linked_rows": 17152,
+        "historic_or_time_bounded_aliases": 39,
+        "english_tagged_rows": 409,
+        "domestic_english_tagged_rows": 0,
+        "unresolved_feature_id_examples": []
+      },
+      {
+        "source": "ve-geonames-names",
+        "kind": "names",
+        "country": "VE",
+        "rows": 33824,
+        "linked_rows": 33824,
+        "historic_or_time_bounded_aliases": 55,
+        "english_tagged_rows": 918,
+        "domestic_english_tagged_rows": 0,
+        "unresolved_feature_id_examples": []
+      },
+      {
+        "source": "ar-georef-localidades",
+        "kind": "georef",
+        "country": "AR",
+        "rows": 4037,
+        "parent_province_ids_verified": 4037
+      },
+      {
+        "source": "ar-georef-provincias",
+        "kind": "georef",
+        "country": "AR",
+        "rows": 24,
+        "parent_province_ids_verified": 0
+      },
+      {
+        "source": "gf-ban-973",
+        "kind": "ban",
+        "country": "GF",
+        "rows": 60905,
+        "municipality_certified_rows": 45249,
+        "position:segment": 11369,
+        "position:": 953,
+        "position:parcelle": 16690,
+        "position:entrée": 20383,
+        "position:service technique": 4,
+        "position:logement": 7889,
+        "position:bâtiment": 1917,
+        "position:délivrance postale": 831,
+        "position:cage d’escalier": 869,
+        "unique_source_ids": 60658,
+        "repeated_source_id_groups": 236,
+        "additional_observations_for_repeated_ids": 247
+      }
+    ],
+    "country_count": 12,
+    "supplementary_area_count": 4,
+    "record_rows": 773732,
+    "name_rows": 2221442,
+    "input_manifest_sha256": "0e00b1d84da1d423eb073f9f20c2f5d26a8ce23d20a9b2a0792812db41942d0a",
+    "rules_sha256": "9b3c50ada0478e8871b6239531e21cd808c5e61de3ab99a0b77ba8fe99c00c73",
+    "full_national_address_coverage_claimed": false,
+    "delivery_verified_rows": 0,
+    "generated_units": 0
+  },
+  "foreign_key_check": "PASS",
+  "sqlite_integrity_check": "PASS",
+  "limit": "Checks verify faithfully indexed source snapshots and behavior, not real-world coverage, location accuracy or postal deliverability."
+}

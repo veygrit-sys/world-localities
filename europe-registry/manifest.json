@@ -1,0 +1,1103 @@
+{
+  "address_candidates": 1007382,
+  "admin_rows": 126249,
+  "ambiguous_parents": 0,
+  "built_count": 57,
+  "countries": [
+    {
+      "country": "AD",
+      "counts": {
+        "address_candidates": 72,
+        "admin_rows": 7,
+        "ambiguous_parents": 0,
+        "country": "AD",
+        "country_scope_only": 0,
+        "localities_without_adm1": 0,
+        "locality_rows": 72,
+        "name_en": "Andorra",
+        "other_admin_rows": 1,
+        "region": "Southern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "4a75b0e983deae44834cd9452410d1b02b02fc5191eaa95e26a94a1006f047d0",
+      "parts": 1,
+      "rows": 80
+    },
+    {
+      "country": "AL",
+      "counts": {
+        "address_candidates": 4433,
+        "admin_rows": 466,
+        "ambiguous_parents": 0,
+        "country": "AL",
+        "country_scope_only": 0,
+        "localities_without_adm1": 12,
+        "locality_rows": 4448,
+        "name_en": "Albania",
+        "other_admin_rows": 260,
+        "region": "Southern Europe",
+        "unresolved_parents": 22
+      },
+      "metadata_sha256": "aed25f4bbfdc4d93e2480ffab0d8d12f69c3c51134f24c22f5a2a25243bad488",
+      "parts": 1,
+      "rows": 5174
+    },
+    {
+      "country": "AM",
+      "counts": {
+        "address_candidates": 1337,
+        "admin_rows": 94,
+        "ambiguous_parents": 0,
+        "country": "AM",
+        "country_scope_only": 17,
+        "localities_without_adm1": 887,
+        "locality_rows": 2271,
+        "name_en": "Armenia",
+        "other_admin_rows": 62,
+        "region": "Western Asia",
+        "unresolved_parents": 1
+      },
+      "metadata_sha256": "b7f118b7d1b5e62ad1e19b2c36a328ae67bfa55b3c1fba68c2a02142e1158ed7",
+      "parts": 1,
+      "rows": 2427
+    },
+    {
+      "country": "AT",
+      "counts": {
+        "address_candidates": 20869,
+        "admin_rows": 2248,
+        "ambiguous_parents": 0,
+        "country": "AT",
+        "country_scope_only": 1,
+        "localities_without_adm1": 8,
+        "locality_rows": 20912,
+        "name_en": "Austria",
+        "other_admin_rows": 441,
+        "region": "Western Europe",
+        "unresolved_parents": 31
+      },
+      "metadata_sha256": "bfb462780a0ec563294bb99598d407883544ea280ea5c80a6ee4be80ec20f57b",
+      "parts": 2,
+      "rows": 23601
+    },
+    {
+      "country": "AX",
+      "counts": {
+        "address_candidates": 338,
+        "admin_rows": 19,
+        "ambiguous_parents": 0,
+        "country": "AX",
+        "country_scope_only": 3,
+        "localities_without_adm1": 3,
+        "locality_rows": 338,
+        "name_en": "Åland Islands",
+        "other_admin_rows": 0,
+        "region": "Northern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "3c1e375e3d146e6facd54a32e0fef1944313b188671b3d4f01875c5ffabd633a",
+      "parts": 1,
+      "rows": 357
+    },
+    {
+      "country": "AZ",
+      "counts": {
+        "address_candidates": 5068,
+        "admin_rows": 96,
+        "ambiguous_parents": 0,
+        "country": "AZ",
+        "country_scope_only": 16,
+        "localities_without_adm1": 243,
+        "locality_rows": 5295,
+        "name_en": "Azerbaijan",
+        "other_admin_rows": 6,
+        "region": "Western Asia",
+        "unresolved_parents": 4
+      },
+      "metadata_sha256": "a99bb5fe36f5fb2c9ebbb27a5e1997c814c23e5174e6ebb61721b95e3075a9a6",
+      "parts": 1,
+      "rows": 5397
+    },
+    {
+      "country": "BA",
+      "counts": {
+        "address_candidates": 21412,
+        "admin_rows": 166,
+        "ambiguous_parents": 0,
+        "country": "BA",
+        "country_scope_only": 237,
+        "localities_without_adm1": 807,
+        "locality_rows": 21984,
+        "name_en": "Bosnia and Herzegovina",
+        "other_admin_rows": 2,
+        "region": "Southern Europe",
+        "unresolved_parents": 105
+      },
+      "metadata_sha256": "72ba0ee014e4bc9d395869e1760860a6a571e40aeca20879bfef2ec7f049a75c",
+      "parts": 2,
+      "rows": 22152
+    },
+    {
+      "country": "BE",
+      "counts": {
+        "address_candidates": 12655,
+        "admin_rows": 623,
+        "ambiguous_parents": 0,
+        "country": "BE",
+        "country_scope_only": 0,
+        "localities_without_adm1": 11,
+        "locality_rows": 12669,
+        "name_en": "Belgium",
+        "other_admin_rows": 42,
+        "region": "Western Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "5e05ec7da9853f1a07adfc1ee05c89376cf5fdac6d431969ede718fdf660035c",
+      "parts": 1,
+      "rows": 13334
+    },
+    {
+      "country": "BG",
+      "counts": {
+        "address_candidates": 7152,
+        "admin_rows": 2882,
+        "ambiguous_parents": 0,
+        "country": "BG",
+        "country_scope_only": 0,
+        "localities_without_adm1": 87,
+        "locality_rows": 7239,
+        "name_en": "Bulgaria",
+        "other_admin_rows": 64,
+        "region": "Eastern Europe",
+        "unresolved_parents": 77
+      },
+      "metadata_sha256": "f89fbdcff5f84889657dc3ac833207fc6672ba248597f06ef3229df0799f7ea3",
+      "parts": 1,
+      "rows": 10185
+    },
+    {
+      "country": "BY",
+      "counts": {
+        "address_candidates": 25562,
+        "admin_rows": 241,
+        "ambiguous_parents": 0,
+        "country": "BY",
+        "country_scope_only": 1255,
+        "localities_without_adm1": 2487,
+        "locality_rows": 26800,
+        "name_en": "Belarus",
+        "other_admin_rows": 1,
+        "region": "Eastern Europe",
+        "unresolved_parents": 76
+      },
+      "metadata_sha256": "91af144f9b9d3b8b1c56effb977df4045c97f63e1957419f636e4acdebfbb303",
+      "parts": 2,
+      "rows": 27042
+    },
+    {
+      "country": "CH",
+      "counts": {
+        "address_candidates": 13182,
+        "admin_rows": 2288,
+        "ambiguous_parents": 0,
+        "country": "CH",
+        "country_scope_only": 0,
+        "localities_without_adm1": 15,
+        "locality_rows": 13201,
+        "name_en": "Switzerland",
+        "other_admin_rows": 519,
+        "region": "Western Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "7666857064c6e10abdc84fdb16364ca284f24c835b244f8ebac858bbc72b9fbb",
+      "parts": 1,
+      "rows": 16008
+    },
+    {
+      "country": "CY",
+      "counts": {
+        "address_candidates": 793,
+        "admin_rows": 622,
+        "ambiguous_parents": 0,
+        "country": "CY",
+        "country_scope_only": 1,
+        "localities_without_adm1": 16,
+        "locality_rows": 822,
+        "name_en": "Cyprus",
+        "other_admin_rows": 4,
+        "region": "Western Asia",
+        "unresolved_parents": 3
+      },
+      "metadata_sha256": "69c560060410e9a2d20187bc8ce314d1a2ea0e465e0b5406e7b2e9173bb7caac",
+      "parts": 1,
+      "rows": 1448
+    },
+    {
+      "country": "CZ",
+      "counts": {
+        "address_candidates": 16624,
+        "admin_rows": 6426,
+        "ambiguous_parents": 0,
+        "country": "CZ",
+        "country_scope_only": 0,
+        "localities_without_adm1": 9,
+        "locality_rows": 16634,
+        "name_en": "Czechia",
+        "other_admin_rows": 4,
+        "region": "Eastern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "f9529c59057d107991ea727eb9bed495a47a55d1bddd1e489286942882556291",
+      "parts": 2,
+      "rows": 23064
+    },
+    {
+      "country": "DE",
+      "counts": {
+        "address_candidates": 80836,
+        "admin_rows": 11424,
+        "ambiguous_parents": 0,
+        "country": "DE",
+        "country_scope_only": 0,
+        "localities_without_adm1": 201,
+        "locality_rows": 82428,
+        "name_en": "Germany",
+        "other_admin_rows": 1325,
+        "region": "Western Europe",
+        "unresolved_parents": 191
+      },
+      "metadata_sha256": "dce330e7e2c736b6cd82dcb6df6db306bd922fe1cd36cb37852e872548428d1c",
+      "parts": 5,
+      "rows": 95177
+    },
+    {
+      "country": "DK",
+      "counts": {
+        "address_candidates": 7271,
+        "admin_rows": 114,
+        "ambiguous_parents": 0,
+        "country": "DK",
+        "country_scope_only": 0,
+        "localities_without_adm1": 12,
+        "locality_rows": 7288,
+        "name_en": "Denmark",
+        "other_admin_rows": 2,
+        "region": "Northern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "8de4179b60d1aca0b64c4a999862b5ddf390274bbadf957416853cf3d9bc712e",
+      "parts": 1,
+      "rows": 7404
+    },
+    {
+      "country": "EE",
+      "counts": {
+        "address_candidates": 7088,
+        "admin_rows": 4800,
+        "ambiguous_parents": 0,
+        "country": "EE",
+        "country_scope_only": 2,
+        "localities_without_adm1": 4,
+        "locality_rows": 7091,
+        "name_en": "Estonia",
+        "other_admin_rows": 246,
+        "region": "Northern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "1c548451ecdcd2da97177e77ec746308b44a04d34d1dc683a0234bb5fa1361e2",
+      "parts": 1,
+      "rows": 12137
+    },
+    {
+      "country": "ES",
+      "counts": {
+        "address_candidates": 30621,
+        "admin_rows": 8256,
+        "ambiguous_parents": 0,
+        "country": "ES",
+        "country_scope_only": 0,
+        "localities_without_adm1": 242,
+        "locality_rows": 30897,
+        "name_en": "Spain",
+        "other_admin_rows": 54,
+        "region": "Southern Europe",
+        "unresolved_parents": 131
+      },
+      "metadata_sha256": "752433ef9d6f08b372c168e22520d09539f9c1d83f1f2b3856bf41c03943cea6",
+      "parts": 2,
+      "rows": 39207
+    },
+    {
+      "country": "FI",
+      "counts": {
+        "address_candidates": 29158,
+        "admin_rows": 379,
+        "ambiguous_parents": 0,
+        "country": "FI",
+        "country_scope_only": 1,
+        "localities_without_adm1": 39,
+        "locality_rows": 29234,
+        "name_en": "Finland",
+        "other_admin_rows": 140,
+        "region": "Northern Europe",
+        "unresolved_parents": 49
+      },
+      "metadata_sha256": "e4b39c4cf46dea8ffa4c4bfcb40183147e6aa48783287ef2ed5b9a8f5347649a",
+      "parts": 2,
+      "rows": 29753
+    },
+    {
+      "country": "FO",
+      "counts": {
+        "address_candidates": 182,
+        "admin_rows": 38,
+        "ambiguous_parents": 0,
+        "country": "FO",
+        "country_scope_only": 0,
+        "localities_without_adm1": 3,
+        "locality_rows": 185,
+        "name_en": "Faroe Islands",
+        "other_admin_rows": 1,
+        "region": "Northern Europe",
+        "unresolved_parents": 3
+      },
+      "metadata_sha256": "f59abd4874eda45353add34dff9e0684b23b80c1ada624681b1f4fee7fc913da",
+      "parts": 1,
+      "rows": 224
+    },
+    {
+      "country": "FR",
+      "counts": {
+        "address_candidates": 81382,
+        "admin_rows": 35249,
+        "ambiguous_parents": 0,
+        "country": "FR",
+        "country_scope_only": 0,
+        "localities_without_adm1": 181,
+        "locality_rows": 81603,
+        "name_en": "France",
+        "other_admin_rows": 1858,
+        "region": "Western Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "f3661f6738780ea340673f0c1a1fd3c9cc59de21b8b7d385f8d6c444f8c6d726",
+      "parts": 6,
+      "rows": 118710
+    },
+    {
+      "country": "GB",
+      "counts": {
+        "address_candidates": 43680,
+        "admin_rows": 11782,
+        "ambiguous_parents": 0,
+        "country": "GB",
+        "country_scope_only": 6,
+        "localities_without_adm1": 30,
+        "locality_rows": 43712,
+        "name_en": "United Kingdom of Great Britain and Northern Ireland",
+        "other_admin_rows": 100,
+        "region": "Northern Europe",
+        "unresolved_parents": 13
+      },
+      "metadata_sha256": "67f326d8676256823d6dcd39f000bc4bdcaf54392ccdad5c79e3bd41e9f115e4",
+      "parts": 3,
+      "rows": 55594
+    },
+    {
+      "country": "GE",
+      "counts": {
+        "address_candidates": 5371,
+        "admin_rows": 99,
+        "ambiguous_parents": 0,
+        "country": "GE",
+        "country_scope_only": 558,
+        "localities_without_adm1": 622,
+        "locality_rows": 5417,
+        "name_en": "Georgia",
+        "other_admin_rows": 3,
+        "region": "Western Asia",
+        "unresolved_parents": 23
+      },
+      "metadata_sha256": "d2f1e01b6d248ee56c3e7d2e0bba53082dd5e877ab793e839497c8ea9889dc95",
+      "parts": 1,
+      "rows": 5519
+    },
+    {
+      "country": "GG",
+      "counts": {
+        "address_candidates": 262,
+        "admin_rows": 11,
+        "ambiguous_parents": 0,
+        "country": "GG",
+        "country_scope_only": 213,
+        "localities_without_adm1": 214,
+        "locality_rows": 262,
+        "name_en": "Guernsey",
+        "other_admin_rows": 1,
+        "region": "Northern Europe",
+        "unresolved_parents": 1
+      },
+      "metadata_sha256": "9e3fadf788e71ffa1f4a78f403efe1393c248c90317582b016218c827fa7009c",
+      "parts": 1,
+      "rows": 274
+    },
+    {
+      "country": "GI",
+      "counts": {
+        "address_candidates": 10,
+        "admin_rows": 0,
+        "ambiguous_parents": 0,
+        "country": "GI",
+        "country_scope_only": 10,
+        "localities_without_adm1": 10,
+        "locality_rows": 10,
+        "name_en": "Gibraltar",
+        "other_admin_rows": 0,
+        "region": "Southern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "fd345f681e481c52b11652e327fbd627a68f9778fa1a62e2f1425b1c88aa6d93",
+      "parts": 1,
+      "rows": 10
+    },
+    {
+      "country": "GR",
+      "counts": {
+        "address_candidates": 14894,
+        "admin_rows": 394,
+        "ambiguous_parents": 0,
+        "country": "GR",
+        "country_scope_only": 2,
+        "localities_without_adm1": 562,
+        "locality_rows": 15558,
+        "name_en": "Greece",
+        "other_admin_rows": 174,
+        "region": "Southern Europe",
+        "unresolved_parents": 4
+      },
+      "metadata_sha256": "e40ceedd3b20701180055168badc7835e8c16291bbae29090c221cfaff0bc9d4",
+      "parts": 1,
+      "rows": 16126
+    },
+    {
+      "country": "HR",
+      "counts": {
+        "address_candidates": 11526,
+        "admin_rows": 593,
+        "ambiguous_parents": 0,
+        "country": "HR",
+        "country_scope_only": 17,
+        "localities_without_adm1": 118,
+        "locality_rows": 11631,
+        "name_en": "Croatia",
+        "other_admin_rows": 2,
+        "region": "Southern Europe",
+        "unresolved_parents": 4
+      },
+      "metadata_sha256": "3a9bc2f18e216fd36cbae9c8ca2addcc118b4915452ca797505bcd242c1264a4",
+      "parts": 1,
+      "rows": 12226
+    },
+    {
+      "country": "HU",
+      "counts": {
+        "address_candidates": 16013,
+        "admin_rows": 217,
+        "ambiguous_parents": 0,
+        "country": "HU",
+        "country_scope_only": 1,
+        "localities_without_adm1": 166,
+        "locality_rows": 16024,
+        "name_en": "Hungary",
+        "other_admin_rows": 3,
+        "region": "Eastern Europe",
+        "unresolved_parents": 155
+      },
+      "metadata_sha256": "5ca7cc4a217c92b5f593ab2e9adf62fa6417a16cf13c7d10aaa9fc1b433681bd",
+      "parts": 1,
+      "rows": 16244
+    },
+    {
+      "country": "IE",
+      "counts": {
+        "address_candidates": 12149,
+        "admin_rows": 36,
+        "ambiguous_parents": 0,
+        "country": "IE",
+        "country_scope_only": 0,
+        "localities_without_adm1": 1,
+        "locality_rows": 12159,
+        "name_en": "Ireland",
+        "other_admin_rows": 7,
+        "region": "Northern Europe",
+        "unresolved_parents": 5
+      },
+      "metadata_sha256": "b762e39eb2e1d287cb5caaf32665186453fa7228532588b554e31477f4c95562",
+      "parts": 1,
+      "rows": 12202
+    },
+    {
+      "country": "IM",
+      "counts": {
+        "address_candidates": 43,
+        "admin_rows": 24,
+        "ambiguous_parents": 0,
+        "country": "IM",
+        "country_scope_only": 0,
+        "localities_without_adm1": 0,
+        "locality_rows": 43,
+        "name_en": "Isle of Man",
+        "other_admin_rows": 0,
+        "region": "Northern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "5cd38a3784cb7ff6c93ff108c6715fbd43f40b3cfdf011bf03c649806220272d",
+      "parts": 1,
+      "rows": 67
+    },
+    {
+      "country": "IS",
+      "counts": {
+        "address_candidates": 116,
+        "admin_rows": 73,
+        "ambiguous_parents": 0,
+        "country": "IS",
+        "country_scope_only": 0,
+        "localities_without_adm1": 0,
+        "locality_rows": 117,
+        "name_en": "Iceland",
+        "other_admin_rows": 249,
+        "region": "Northern Europe",
+        "unresolved_parents": 1
+      },
+      "metadata_sha256": "89712516b233b6a9ffe96260aa4b6c23e6eec2e0dfd49fbfed26c2cbd56e7572",
+      "parts": 1,
+      "rows": 439
+    },
+    {
+      "country": "IT",
+      "counts": {
+        "address_candidates": 62813,
+        "admin_rows": 8194,
+        "ambiguous_parents": 0,
+        "country": "IT",
+        "country_scope_only": 0,
+        "localities_without_adm1": 208,
+        "locality_rows": 63043,
+        "name_en": "Italy",
+        "other_admin_rows": 346,
+        "region": "Southern Europe",
+        "unresolved_parents": 21
+      },
+      "metadata_sha256": "2d341a06f1d5c6c13538f69256ec2fa801d64da075e9ddbc3d660b644d7d7e06",
+      "parts": 4,
+      "rows": 71583
+    },
+    {
+      "country": "JE",
+      "counts": {
+        "address_candidates": 85,
+        "admin_rows": 12,
+        "ambiguous_parents": 0,
+        "country": "JE",
+        "country_scope_only": 70,
+        "localities_without_adm1": 70,
+        "locality_rows": 85,
+        "name_en": "Jersey",
+        "other_admin_rows": 1,
+        "region": "Northern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "e5a2cde4a759c3d816ecbf1484c4cfc3a4bb69a2b3a27c62f840f05e61d640cd",
+      "parts": 1,
+      "rows": 98
+    },
+    {
+      "country": "LI",
+      "counts": {
+        "address_candidates": 361,
+        "admin_rows": 11,
+        "ambiguous_parents": 0,
+        "country": "LI",
+        "country_scope_only": 1,
+        "localities_without_adm1": 1,
+        "locality_rows": 361,
+        "name_en": "Liechtenstein",
+        "other_admin_rows": 5,
+        "region": "Western Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "416ac9f8e84bd641dfded601c8815089d323f53120f9b1f9c3ca7000f1ef4554",
+      "parts": 1,
+      "rows": 377
+    },
+    {
+      "country": "LT",
+      "counts": {
+        "address_candidates": 20759,
+        "admin_rows": 614,
+        "ambiguous_parents": 0,
+        "country": "LT",
+        "country_scope_only": 12,
+        "localities_without_adm1": 48,
+        "locality_rows": 20795,
+        "name_en": "Lithuania",
+        "other_admin_rows": 2,
+        "region": "Northern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "ddbfa2a2a259d0feb5650941e7dff173ba0e933527bb4b5318e13fe479742c9e",
+      "parts": 2,
+      "rows": 21411
+    },
+    {
+      "country": "LU",
+      "counts": {
+        "address_candidates": 692,
+        "admin_rows": 117,
+        "ambiguous_parents": 0,
+        "country": "LU",
+        "country_scope_only": 0,
+        "localities_without_adm1": 0,
+        "locality_rows": 692,
+        "name_en": "Luxembourg",
+        "other_admin_rows": 22,
+        "region": "Western Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "7e41d0eed19fbf576c87d6f9d04d51f0bb1cf814169f3ffdaca8e07650b0c59f",
+      "parts": 1,
+      "rows": 831
+    },
+    {
+      "country": "LV",
+      "counts": {
+        "address_candidates": 7743,
+        "admin_rows": 630,
+        "ambiguous_parents": 0,
+        "country": "LV",
+        "country_scope_only": 1,
+        "localities_without_adm1": 45,
+        "locality_rows": 7787,
+        "name_en": "Latvia",
+        "other_admin_rows": 80,
+        "region": "Northern Europe",
+        "unresolved_parents": 51
+      },
+      "metadata_sha256": "33cbb02ee863db317639f6ce73fabbd11fdef2f3303d8285860af942d91f7f60",
+      "parts": 1,
+      "rows": 8497
+    },
+    {
+      "country": "MC",
+      "counts": {
+        "address_candidates": 14,
+        "admin_rows": 1,
+        "ambiguous_parents": 0,
+        "country": "MC",
+        "country_scope_only": 14,
+        "localities_without_adm1": 14,
+        "locality_rows": 14,
+        "name_en": "Monaco",
+        "other_admin_rows": 17,
+        "region": "Western Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "50ec7f7662aff2766beeaa95b01edae4b904e7f03d1f1766cdf4d9d71ebcaf21",
+      "parts": 1,
+      "rows": 32
+    },
+    {
+      "country": "MD",
+      "counts": {
+        "address_candidates": 1813,
+        "admin_rows": 37,
+        "ambiguous_parents": 0,
+        "country": "MD",
+        "country_scope_only": 20,
+        "localities_without_adm1": 21,
+        "locality_rows": 1814,
+        "name_en": "Republic of Moldova",
+        "other_admin_rows": 4,
+        "region": "Eastern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "0a39ec2e45dd1339dcf7433f75eec592880c51882e8a048b3f51c5257cd59db6",
+      "parts": 1,
+      "rows": 1855
+    },
+    {
+      "country": "ME",
+      "counts": {
+        "address_candidates": 4015,
+        "admin_rows": 25,
+        "ambiguous_parents": 0,
+        "country": "ME",
+        "country_scope_only": 3,
+        "localities_without_adm1": 29,
+        "locality_rows": 4041,
+        "name_en": "Montenegro",
+        "other_admin_rows": 0,
+        "region": "Southern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "c4ef776a390747c4fbb9981c7e27a214e97cb40e4b4495bb8eddc8cc4fe362aa",
+      "parts": 1,
+      "rows": 4066
+    },
+    {
+      "country": "MK",
+      "counts": {
+        "address_candidates": 2633,
+        "admin_rows": 81,
+        "ambiguous_parents": 0,
+        "country": "MK",
+        "country_scope_only": 122,
+        "localities_without_adm1": 264,
+        "locality_rows": 2773,
+        "name_en": "North Macedonia",
+        "other_admin_rows": 15,
+        "region": "Southern Europe",
+        "unresolved_parents": 5
+      },
+      "metadata_sha256": "4566d8914457d48bcc39dab23142a3b81422fa12b4463dbcc2e1dcdb2015fd9f",
+      "parts": 1,
+      "rows": 2869
+    },
+    {
+      "country": "MT",
+      "counts": {
+        "address_candidates": 287,
+        "admin_rows": 68,
+        "ambiguous_parents": 0,
+        "country": "MT",
+        "country_scope_only": 0,
+        "localities_without_adm1": 0,
+        "locality_rows": 287,
+        "name_en": "Malta",
+        "other_admin_rows": 6,
+        "region": "Southern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "5c8f701dae2fd5f172e8512346dfb216240d60c96480e86907c0f7a1b51b71ab",
+      "parts": 1,
+      "rows": 361
+    },
+    {
+      "country": "NL",
+      "counts": {
+        "address_candidates": 7786,
+        "admin_rows": 370,
+        "ambiguous_parents": 0,
+        "country": "NL",
+        "country_scope_only": 1,
+        "localities_without_adm1": 15,
+        "locality_rows": 7805,
+        "name_en": "Netherlands (Kingdom of the)",
+        "other_admin_rows": 102,
+        "region": "Western Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "7d02c0a5b59e6911b06a48732f11a59b0fe281ddd51185f97cba8bc01cef36e2",
+      "parts": 1,
+      "rows": 8277
+    },
+    {
+      "country": "NO",
+      "counts": {
+        "address_candidates": 13801,
+        "admin_rows": 387,
+        "ambiguous_parents": 0,
+        "country": "NO",
+        "country_scope_only": 1,
+        "localities_without_adm1": 8,
+        "locality_rows": 13814,
+        "name_en": "Norway",
+        "other_admin_rows": 104,
+        "region": "Northern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "56ff8d1a26cd7e01df22e5439e75a23aedfdd9cb160e7c63470fd8b40d66354c",
+      "parts": 1,
+      "rows": 14305
+    },
+    {
+      "country": "PL",
+      "counts": {
+        "address_candidates": 47707,
+        "admin_rows": 2960,
+        "ambiguous_parents": 0,
+        "country": "PL",
+        "country_scope_only": 2,
+        "localities_without_adm1": 218,
+        "locality_rows": 47934,
+        "name_en": "Poland",
+        "other_admin_rows": 41,
+        "region": "Eastern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "9f2fbbf41db33be9784a770d58164862dbbcee87a2cced6f8411741c77000f26",
+      "parts": 3,
+      "rows": 50935
+    },
+    {
+      "country": "PT",
+      "counts": {
+        "address_candidates": 16604,
+        "admin_rows": 3587,
+        "ambiguous_parents": 0,
+        "country": "PT",
+        "country_scope_only": 0,
+        "localities_without_adm1": 5,
+        "locality_rows": 16615,
+        "name_en": "Portugal",
+        "other_admin_rows": 1913,
+        "region": "Southern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "c4f20a3fa479771319f9d79c831fd7da485d64141b2b1957303da5fd97ccbbdb",
+      "parts": 2,
+      "rows": 22115
+    },
+    {
+      "country": "RO",
+      "counts": {
+        "address_candidates": 18238,
+        "admin_rows": 3229,
+        "ambiguous_parents": 0,
+        "country": "RO",
+        "country_scope_only": 2,
+        "localities_without_adm1": 8,
+        "locality_rows": 18247,
+        "name_en": "Romania",
+        "other_admin_rows": 6,
+        "region": "Eastern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "e4e78c315be8f03b4db70f1357d5b166786fb6f28a449cc1c0007c29e3657364",
+      "parts": 2,
+      "rows": 21482
+    },
+    {
+      "country": "RS",
+      "counts": {
+        "address_candidates": 9509,
+        "admin_rows": 195,
+        "ambiguous_parents": 0,
+        "country": "RS",
+        "country_scope_only": 2,
+        "localities_without_adm1": 8,
+        "locality_rows": 9514,
+        "name_en": "Serbia",
+        "other_admin_rows": 5,
+        "region": "Southern Europe",
+        "unresolved_parents": 1
+      },
+      "metadata_sha256": "161ce0b266cd39e4b6909ece4eb54f0c8054218f2b4093a1efb7e251d83c4728",
+      "parts": 1,
+      "rows": 9714
+    },
+    {
+      "country": "RU",
+      "counts": {
+        "address_candidates": 191954,
+        "admin_rows": 3490,
+        "ambiguous_parents": 0,
+        "country": "RU",
+        "country_scope_only": 146,
+        "localities_without_adm1": 11236,
+        "locality_rows": 203205,
+        "name_en": "Russian Federation",
+        "other_admin_rows": 109,
+        "region": "Eastern Europe",
+        "unresolved_parents": 906
+      },
+      "metadata_sha256": "4917e33887dad11e4609022c48e94bb9a31a37db29d193ab6e2413bd8e0eb107",
+      "parts": 11,
+      "rows": 206804
+    },
+    {
+      "country": "SE",
+      "counts": {
+        "address_candidates": 28449,
+        "admin_rows": 4525,
+        "ambiguous_parents": 0,
+        "country": "SE",
+        "country_scope_only": 0,
+        "localities_without_adm1": 5,
+        "locality_rows": 28471,
+        "name_en": "Sweden",
+        "other_admin_rows": 7,
+        "region": "Northern Europe",
+        "unresolved_parents": 2
+      },
+      "metadata_sha256": "676dfa54a3b1509513a5c83dbd1d2e1a7212bfd94c9608ac81323fdfe0fb032f",
+      "parts": 2,
+      "rows": 33003
+    },
+    {
+      "country": "SI",
+      "counts": {
+        "address_candidates": 6579,
+        "admin_rows": 229,
+        "ambiguous_parents": 0,
+        "country": "SI",
+        "country_scope_only": 19,
+        "localities_without_adm1": 78,
+        "locality_rows": 6640,
+        "name_en": "Slovenia",
+        "other_admin_rows": 7,
+        "region": "Southern Europe",
+        "unresolved_parents": 1
+      },
+      "metadata_sha256": "bcd7d5fcff590928811d1233babe754e699b61c684220d9cbce389f2fc3c074e",
+      "parts": 1,
+      "rows": 6876
+    },
+    {
+      "country": "SJ",
+      "counts": {
+        "address_candidates": 11,
+        "admin_rows": 6,
+        "ambiguous_parents": 0,
+        "country": "SJ",
+        "country_scope_only": 2,
+        "localities_without_adm1": 4,
+        "locality_rows": 13,
+        "name_en": "Svalbard and Jan Mayen Islands",
+        "other_admin_rows": 0,
+        "region": "Northern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "557daadacf38fafc0046031a75c95a658026aa4b5225a1a49c47c04c8b0988f4",
+      "parts": 1,
+      "rows": 19
+    },
+    {
+      "country": "SK",
+      "counts": {
+        "address_candidates": 5034,
+        "admin_rows": 3014,
+        "ambiguous_parents": 0,
+        "country": "SK",
+        "country_scope_only": 7,
+        "localities_without_adm1": 38,
+        "locality_rows": 5069,
+        "name_en": "Slovakia",
+        "other_admin_rows": 4,
+        "region": "Eastern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "c9c3bd8cfef6257a533bccb665b3a7b45487993fa116a695ab664676626901a8",
+      "parts": 1,
+      "rows": 8087
+    },
+    {
+      "country": "SM",
+      "counts": {
+        "address_candidates": 24,
+        "admin_rows": 9,
+        "ambiguous_parents": 0,
+        "country": "SM",
+        "country_scope_only": 3,
+        "localities_without_adm1": 3,
+        "locality_rows": 24,
+        "name_en": "San Marino",
+        "other_admin_rows": 0,
+        "region": "Southern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "8bb7a7a8a3d7951c8792114d9bf085f1a6da9490471862c35f12ede9bc02e8b1",
+      "parts": 1,
+      "rows": 33
+    },
+    {
+      "country": "TR",
+      "counts": {
+        "address_candidates": 54451,
+        "admin_rows": 2614,
+        "ambiguous_parents": 0,
+        "country": "TR",
+        "country_scope_only": 1,
+        "localities_without_adm1": 216,
+        "locality_rows": 54678,
+        "name_en": "Türkiye",
+        "other_admin_rows": 25,
+        "region": "Western Asia",
+        "unresolved_parents": 1491
+      },
+      "metadata_sha256": "3e791e58693413073d911fb05f69cf3c1f2c4a6082ee5a5bf46f244930432677",
+      "parts": 3,
+      "rows": 57317
+    },
+    {
+      "country": "UA",
+      "counts": {
+        "address_candidates": 33323,
+        "admin_rows": 2132,
+        "ambiguous_parents": 0,
+        "country": "UA",
+        "country_scope_only": 8,
+        "localities_without_adm1": 423,
+        "locality_rows": 33742,
+        "name_en": "Ukraine",
+        "other_admin_rows": 535,
+        "region": "Eastern Europe",
+        "unresolved_parents": 184
+      },
+      "metadata_sha256": "de6544b3640e2a7ca54800deb98fb03420d5e4115abf4b9cc5b5770dd27f2a9d",
+      "parts": 2,
+      "rows": 36409
+    },
+    {
+      "country": "VA",
+      "counts": {
+        "address_candidates": 1,
+        "admin_rows": 0,
+        "ambiguous_parents": 0,
+        "country": "VA",
+        "country_scope_only": 1,
+        "localities_without_adm1": 1,
+        "locality_rows": 1,
+        "name_en": "Holy See",
+        "other_admin_rows": 0,
+        "region": "Southern Europe",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "2ef8e727470129b0a7c9ce866bcd06f78c38010b39490f7a10935cf2ba6eafd4",
+      "parts": 1,
+      "rows": 1
+    },
+    {
+      "country": "XK",
+      "counts": {
+        "address_candidates": 2597,
+        "admin_rows": 45,
+        "ambiguous_parents": 0,
+        "country": "XK",
+        "country_scope_only": 8,
+        "localities_without_adm1": 14,
+        "locality_rows": 2604,
+        "name_en": "Kosovo",
+        "other_admin_rows": 1,
+        "region": "Supplement",
+        "unresolved_parents": 0
+      },
+      "metadata_sha256": "34ea35a4106c186f449b9059a071ce8bed4c45cc2577aa6b40ef10be5ebf87f7",
+      "parts": 1,
+      "rows": 2650
+    }
+  ],
+  "country_scope_only": 2786,
+  "license": "CC-BY-4.0",
+  "localities_without_adm1": 19970,
+  "locality_rows": 1026412,
+  "missing_countries": [],
+  "official_completeness_verified": false,
+  "other_admin_rows": 8928,
+  "schema_version": 1,
+  "scope_count": 57,
+  "source": "GeoNames",
+  "total_rows": 1161589,
+  "unresolved_parents": 3561
+}

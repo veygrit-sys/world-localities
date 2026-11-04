@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "package": "localities",
+  "registries": [
+    {
+      "id": "official",
+      "path": "official-registry",
+      "role": "official_overlay",
+      "scope": "country-specific official codes, names, and postal joins"
+    },
+    {
+      "id": "africa",
+      "path": "africa-registry",
+      "role": "regional_registry",
+      "scope": "Africa"
+    },
+    {
+      "id": "asia",
+      "path": "asia-registry",
+      "role": "regional_registry",
+      "scope": "Asia with documented Russia supplement"
+    },
+    {
+      "id": "europe",
+      "path": "europe-registry",
+      "role": "regional_registry",
+      "scope": "Europe"
+    },
+    {
+      "id": "oceania",
+      "path": "oceania-registry",
+      "role": "regional_registry",
+      "scope": "Oceania"
+    },
+    {
+      "id": "americas",
+      "path": "americas-registry",
+      "role": "regional_coordinator",
+      "scope": "Americas quality audit and release coordination"
+    },
+    {
+      "id": "north-america",
+      "path": "north-america-registry",
+      "role": "regional_registry",
+      "scope": "UN M49 Northern America"
+    },
+    {
+      "id": "central-america",
+      "path": "central-america-registry",
+      "role": "regional_registry",
+      "scope": "UN M49 Central America",
+      "split_materialization": true
+    },
+    {
+      "id": "caribbean",
+      "path": "caribbean-registry",
+      "role": "regional_registry",
+      "scope": "UN M49 Caribbean",
+      "split_materialization": true
+    },
+    {
+      "id": "south-america",
+      "path": "south-america-registry",
+      "role": "regional_registry",
+      "scope": "UN M49 South America",
+      "split_materialization": true
+    }
+  ],
+  "shared_components": [
+    {
+      "module": "localities.geonames",
+      "consumers": [
+        "caribbean-registry/build.py",
+        "central-america-registry/build.py",
+        "south-america-registry/build.py",
+        "south-america-registry/publication.py",
+        "south-america-registry/query.py"
+      ]
+    },
+    {
+      "module": "localities.materialize",
+      "consumers": [
+        "central-america-registry/build.py",
+        "central-america-registry/build_names.py",
+        "central-america-registry/quality.py",
+        "central-america-registry/query.py",
+        "central-america-registry/verify.py",
+        "south-america-registry/build.py",
+        "south-america-registry/publication.py",
+        "south-america-registry/query.py"
+      ]
+    },
+    {
+      "module": "localities.query",
+      "consumers": [
+        "africa-registry/query.py",
+        "caribbean-registry/query.py",
+        "central-america-registry/query.py",
+        "south-america-registry/query.py"
+      ]
+    }
+  ],
+  "scoped_python_basenames": {
+    "__init__.py": "standard package marker",
+    "__main__.py": "package-scoped command line entry point",
+    "build.py": "registry-scoped build entry point",
+    "query.py": "registry-scoped query entry point"
+  }
+}

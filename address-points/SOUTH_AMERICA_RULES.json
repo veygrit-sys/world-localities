@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "release_date": "2026-10-17",
+  "scope_basis": "UN M49 South America; technical collection groups, no sovereignty decision",
+  "scope_source": "https://unstats.un.org/unsd/methodology/m49/",
+  "profiles": {
+    "AR": {
+      "name_ja": "アルゼンチン",
+      "name_en": "Argentina",
+      "name_language_hints": [
+        "es"
+      ],
+      "language_hints_are_not_an_exhaustive_official_language_list": true,
+      "postcode": {
+        "pattern": "[A-Z][0-9]{4}[A-Z]{3}",
+        "presence": "reference",
+        "legacy_pattern": "[0-9]{4}",
+        "extended_reference_pattern": null,
+        "assignment_verified": false
+      },
+      "render_template": "postcode_locality",
+      "ordinary_delivery_form": true,
+      "note_ja": "CPAは英字1＋数字4＋英字3。4桁旧コードは別状態で保持。数字で終わる街路名と番地の境界を推測しない。",
+      "sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/argEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2002-07",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        },
+        {
+          "url": "https://www.correoargentino.com.ar/formularios/cpa",
+          "publisher": "Correo Argentino",
+          "reviewed_on": "2026-10-17",
+          "role": "current_CPA_format"
+        }
+      ]
+    },
+    "BO": {
+      "name_ja": "ボリビア",
+      "name_en": "Bolivia",
+      "name_language_hints": [
+        "es",
+        "qu",
+        "ay"
+      ],
+      "language_hints_are_not_an_exhaustive_official_language_list": true,
+      "postcode": {
+        "pattern": null,
+        "presence": "not_required_by_reference",
+        "legacy_pattern": null,
+        "extended_reference_pattern": null,
+        "assignment_verified": false
+      },
+      "render_template": "locality",
+      "ordinary_delivery_form": true,
+      "note_ja": "参照資料の住所例は郵便番号なし。空欄を許容し、0000等を補わない。農村の共同体名・目印の原文を保存。",
+      "sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/bolEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2026-02",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ]
+    },
+    "BV": {
+      "name_ja": "ブーベ島",
+      "name_en": "Bouvet Island",
+      "name_language_hints": [],
+      "language_hints_are_not_an_exhaustive_official_language_list": true,
+      "postcode": {
+        "pattern": null,
+        "presence": "not_applicable",
+        "legacy_pattern": null,
+        "extended_reference_pattern": null,
+        "assignment_verified": false
+      },
+      "render_template": "locality",
+      "ordinary_delivery_form": false,
+      "note_ja": "M49の収集範囲として保持。通常の住宅配送フォームは提供せず、地理地物の参照のみ。",
+      "sources": [
+        {
+          "url": "https://npolar.no/en/themes/bouvetoya/",
+          "publisher": "Norwegian Polar Institute",
+          "reviewed_on": "2026-10-17",
+          "role": "geographic_reference"
+        }
+      ]
+    },
+    "BR": {
+      "name_ja": "ブラジル",
+      "name_en": "Brazil",
+      "name_language_hints": [
+        "pt"
+      ],
+      "language_hints_are_not_an_exhaustive_official_language_list": true,
+      "postcode": {
+        "pattern": "[0-9]{5}-?[0-9]{3}",
+        "presence": "reference",
+        "legacy_pattern": null,
+        "extended_reference_pattern": null,
+        "assignment_verified": false
+      },
+      "render_template": "brazil",
+      "ordinary_delivery_form": true,
+      "note_ja": "CEP8桁。Brasíliaのsector・quadra・blocoを一般街路番地へ強制分解しない。complementoは入力原文を維持。",
+      "sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/braEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2023",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ]
+    },
+    "CL": {
+      "name_ja": "チリ",
+      "name_en": "Chile",
+      "name_language_hints": [
+        "es"
+      ],
+      "language_hints_are_not_an_exhaustive_official_language_list": true,
+      "postcode": {
+        "pattern": "[0-9]{7}",
+        "presence": "reference",
+        "legacy_pattern": null,
+        "extended_reference_pattern": null,
+        "assignment_verified": false
+      },
+      "render_template": "postcode_locality_admin",
+      "ordinary_delivery_form": true,
+      "note_ja": "7桁。comunaとregiónを区別。s/n、km、農村の敷地名を保持。",
+      "sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/chlEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2017-03",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ]
+    },
+    "CO": {
+      "name_ja": "コロンビア",
+      "name_en": "Colombia",
+      "name_language_hints": [
+        "es"
+      ],
+      "language_hints_are_not_an_exhaustive_official_language_list": true,
+      "postcode": {
+        "pattern": "[0-9]{6}",
+        "presence": "reference",
+        "legacy_pattern": null,
+        "extended_reference_pattern": null,
+        "assignment_verified": false
+      },
+      "render_template": "locality_postcode_admin",
+      "ordinary_delivery_form": true,
+      "note_ja": "6桁。Calle/Carrera、方向、Bis、文字接尾辞、#、ハイフンを保存。複合番号を整数化しない。",
+      "sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/colEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2022-10",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ]
+    },
+    "EC": {
+      "name_ja": "エクアドル",
+      "name_en": "Ecuador",
+      "name_language_hints": [
+        "es"
+      ],
+      "language_hints_are_not_an_exhaustive_official_language_list": true,
+      "postcode": {
+        "pattern": "[0-9]{6}",
+        "presence": "reference",
+        "legacy_pattern": null,
+        "extended_reference_pattern": null,
+        "assignment_verified": false
+      },
+      "render_template": "postcode_locality",
+      "ordinary_delivery_form": true,
+      "note_ja": "6桁。主街路と交差街路、方向を含む番号、農村の目印を分けて保持。",
+      "sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/ecuEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2018-09",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ]
+    },
+    "FK": {
+      "name_ja": "フォークランド諸島（マルビナス）",
+      "name_en": "Falkland Islands (Malvinas)",
+      "name_language_hints": [
+        "en"
+      ],
+      "language_hints_are_not_an_exhaustive_official_language_list": true,
+      "postcode": {
+        "pattern": "FIQQ ?1ZZ",
+        "presence": "reference",
+        "legacy_pattern": null,
+        "extended_reference_pattern": null,
+        "assignment_verified": false
+      },
+      "render_template": "locality_then_postcode",
+      "ordinary_delivery_form": true,
+      "note_ja": "FIQQ 1ZZは地域共通。郵便番号から個別住所・配送可否を確定しない。原典の名称と国コードを保持。",
+      "sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/flkEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2005-08",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ]
+    },
+    "GF": {
+      "name_ja": "仏領ギアナ",
+      "name_en": "French Guiana",
+      "name_language_hints": [
+        "fr"
+      ],
+      "language_hints_are_not_an_exhaustive_official_language_list": true,
+      "postcode": {
+        "pattern": "973[0-9]{2}",
+        "presence": "reference",
+        "legacy_pattern": null,
+        "extended_reference_pattern": null,
+        "assignment_verified": false
+      },
+      "render_template": "postcode_locality",
+      "ordinary_delivery_form": true,
+      "note_ja": "郵便番号973xx。BANの自治体コード・認証フラグ・位置種別を保存しFRへ統合しない。国際宛名の国行は配送事業者の指定を確認。",
+      "sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/gufEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2011-08",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ]
+    },
+    "GY": {
+      "name_ja": "ガイアナ",
+      "name_en": "Guyana",
+      "name_language_hints": [
+        "en"
+      ],
+      "language_hints_are_not_an_exhaustive_official_language_list": true,
+      "postcode": {
+        "pattern": "[0-9]{7}",
+        "presence": "reference",
+        "legacy_pattern": null,
+        "extended_reference_pattern": null,
+        "assignment_verified": false
+      },
+      "render_template": "locality_then_postcode",
+      "ordinary_delivery_form": true,
+      "note_ja": "7桁制度を採用。UPU同資料の私書箱例に6桁の不整合あり。桁の追加や独自補正を行わず要確認とする。",
+      "sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/guyEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2025-08",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ]
+    },
+    "PY": {
+      "name_ja": "パラグアイ",
+      "name_en": "Paraguay",
+      "name_language_hints": [
+        "es",
+        "gn"
+      ],
+      "language_hints_are_not_an_exhaustive_official_language_list": true,
+      "postcode": {
+        "pattern": "[0-9]{6}",
+        "presence": "reference",
+        "legacy_pattern": "[0-9]{4}",
+        "extended_reference_pattern": null,
+        "assignment_verified": false
+      },
+      "render_template": "postcode_locality_admin",
+      "ordinary_delivery_form": true,
+      "note_ja": "6桁。先頭00を保存。4桁旧表記は自動変換しない。casi、esquina、ruta、km、compañía等の原文を保持。",
+      "sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/pryEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2018-09",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ]
+    },
+    "PE": {
+      "name_ja": "ペルー",
+      "name_en": "Peru",
+      "name_language_hints": [
+        "es",
+        "qu",
+        "ay"
+      ],
+      "language_hints_are_not_an_exhaustive_official_language_list": true,
+      "postcode": {
+        "pattern": "[0-9]{5}",
+        "presence": "reference",
+        "legacy_pattern": null,
+        "extended_reference_pattern": null,
+        "assignment_verified": false
+      },
+      "render_template": "postcode_own_line",
+      "ordinary_delivery_form": true,
+      "note_ja": "5桁。Jirón/Jr.、manzana、lote等は別構成要素。UBIGEOを郵便番号と同一視しない。",
+      "sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/perEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2013-01",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ]
+    },
+    "GS": {
+      "name_ja": "サウスジョージア・サウスサンドウィッチ諸島",
+      "name_en": "South Georgia and the South Sandwich Islands",
+      "name_language_hints": [
+        "en"
+      ],
+      "language_hints_are_not_an_exhaustive_official_language_list": true,
+      "postcode": {
+        "pattern": "SIQQ ?1ZZ",
+        "presence": "reference",
+        "legacy_pattern": null,
+        "extended_reference_pattern": null,
+        "assignment_verified": false
+      },
+      "render_template": "locality_then_postcode",
+      "ordinary_delivery_form": false,
+      "note_ja": "SIQQ 1ZZは地域共通。拠点・施設の地名と通常住宅・配送サービスを区別。",
+      "sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/sgsEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2005-08",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ]
+    },
+    "SR": {
+      "name_ja": "スリナム",
+      "name_en": "Suriname",
+      "name_language_hints": [
+        "nl"
+      ],
+      "language_hints_are_not_an_exhaustive_official_language_list": true,
+      "postcode": {
+        "pattern": null,
+        "presence": "not_required_by_reference",
+        "legacy_pattern": null,
+        "extended_reference_pattern": null,
+        "assignment_verified": false
+      },
+      "render_template": "locality",
+      "ordinary_delivery_form": true,
+      "note_ja": "参照資料に郵便番号形式の記載なし。未記載を許容し、現在の全制度不存在とは断定しない。district・集落・河川沿いの説明を保存。",
+      "sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/surEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2005-03",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ]
+    },
+    "UY": {
+      "name_ja": "ウルグアイ",
+      "name_en": "Uruguay",
+      "name_language_hints": [
+        "es"
+      ],
+      "language_hints_are_not_an_exhaustive_official_language_list": true,
+      "postcode": {
+        "pattern": "[0-9]{5}",
+        "presence": "reference",
+        "legacy_pattern": null,
+        "extended_reference_pattern": "[0-9]{5}-?[0-9]{5}",
+        "assignment_verified": false
+      },
+      "render_template": "uruguay",
+      "ordinary_delivery_form": true,
+      "note_ja": "通常のCP5桁。2014年公式文書の拡張CPA10桁は別の参考形式とし自動切捨てしない。manzana・solar・esquinaを保持。",
+      "sources": [
+        {
+          "url": "https://catalogodatos.gub.uy/es/dataset/correo-codigo-postal",
+          "publisher": "Correo Uruguayo / Uruguay Open Data",
+          "reviewed_on": "2026-10-17",
+          "role": "five_digit_postcode_reference"
+        },
+        {
+          "url": "https://catalogodatos.gub.uy/dataset/7eb3681f-3e58-475d-9cd4-4527dc6ab234/resource/a8bd1947-d096-4d3a-9a29-e9319aef5acf/download/elcodigopostaluruguayov220140801.pdf",
+          "publisher": "Correo Uruguayo",
+          "reference_date": "2014-08-01",
+          "role": "extended_CPA_reference_only"
+        },
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/uryEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2018-06",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference",
+          "retrieval_method": "direct PDF inspected locally",
+          "object_sha256": "9e1d30c880cb2eca0245c7c819c2a35071057ed3d877475bac6e51078f960782"
+        }
+      ]
+    },
+    "VE": {
+      "name_ja": "ベネズエラ",
+      "name_en": "Venezuela",
+      "name_language_hints": [
+        "es"
+      ],
+      "language_hints_are_not_an_exhaustive_official_language_list": true,
+      "postcode": {
+        "pattern": "[0-9]{4}",
+        "presence": "reference",
+        "legacy_pattern": null,
+        "extended_reference_pattern": null,
+        "assignment_verified": false
+      },
+      "render_template": "locality_postcode_admin",
+      "ordinary_delivery_form": true,
+      "note_ja": "4桁。estado・municipio・parroquia・urbanizaciónと建物・階・部屋を区別。",
+      "sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/venEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": null,
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ]
+    }
+  },
+  "global_policy": {
+    "preserve_raw": true,
+    "postcode_checks": "syntax only, never allocation or delivery proof",
+    "no_silent_country_inference": true,
+    "no_generated_house_numbers_or_units": true,
+    "original_names_are_not_translated": "English labels require source-tagged English aliases. ASCII is not English.",
+    "render_status": "project-authored reference-informed rendering; not S42 certified",
+    "free_text_parser": "not implemented; use structured fields or keep address_line1 unchanged",
+    "coordinates": "source points only; reverse results do not identify a containing region or a property entrance"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "region": "Middle Africa",
+  "reviewed_at": "2026-10-17",
+  "purpose": "Domestic-language and English address display profiles for all nine UN M49 Middle Africa countries, with explicit postcode syntax and evidence status; not an address-existence, code-assignment or deliverability claim.",
+  "locality_registry": {
+    "path": "africa-registry",
+    "materialized_scope_file": "africa-registry/coverage.csv",
+    "upstream_scope_file": "africa-registry/upstream/coverage.csv",
+    "country_directory": "africa-registry/countries",
+    "materialized_countries": ["AO", "CF", "CG", "CM", "GA", "GQ", "ST", "TD"],
+    "upstream_only_countries": ["CD"],
+    "materialized_locality_rows": 64477,
+    "upstream_locality_rows": 101713,
+    "role": "GeoNames-derived locality candidates and administrative context. The Democratic Republic of the Congo remains upstream-only in this snapshot. Address ordering and postcode policy come from this reviewed profile extension; locality rows do not prove a postal address."
+  },
+  "overrides": ["AO", "CD", "CF", "CG", "CM", "GA", "GQ", "ST", "TD"],
+  "countries": {
+    "AO": {
+      "native_languages": ["pt-Latn"],
+      "default_native_language": "pt-Latn",
+      "native_profile": "AO_pt",
+      "native_profiles": {"pt-Latn": "AO_pt"},
+      "native_scripts": {"pt-Latn": "Latn"},
+      "english_profile": "AO_en",
+      "country_names": {"pt-Latn": "Angola", "en": "Angola"},
+      "postcode_pattern": null,
+      "postcode_required": false,
+      "romanization_policy": "Portuguese and English values remain independent. Street, premises/floor and P.O. Box values are retained, and no postcode is synthesized from province or locality.",
+      "evidence_status": "provisional",
+      "sources": [
+        {"authority": "Universal Postal Union and Empresa Nacional de Correios de Angola", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/agoEn.pdf", "scope": "Street, premises/floor, P.O. Box, Luanda and country examples; public sheet dated September 2004"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "September 2025 list of destinations not requiring a postcode"}
+      ]
+    },
+    "CM": {
+      "native_languages": ["fr-Latn", "en"],
+      "default_native_language": "fr-Latn",
+      "native_profile": "CM_fr",
+      "native_profiles": {"fr-Latn": "CM_fr", "en": "CM_en"},
+      "native_scripts": {"fr-Latn": "Latn", "en": "Latn"},
+      "english_profile": "CM_en",
+      "country_names": {"fr-Latn": "Cameroun", "en": "Cameroon"},
+      "postcode_pattern": null,
+      "postcode_required": false,
+      "romanization_policy": "French and English are explicit alternatives and never cross-fill merely because both use Latin script. The public P.O. Box example has no postcode, so none is invented.",
+      "evidence_status": "provisional",
+      "sources": [
+        {"authority": "Universal Postal Union and Cameroon Postal Services", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/cmrEn.pdf", "scope": "P.O. Box, Yaoundé and country order; public sheet dated July 2002"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "September 2025 list of destinations not requiring a postcode"}
+      ]
+    },
+    "CF": {
+      "native_languages": ["fr-Latn", "sg-Latn"],
+      "default_native_language": "fr-Latn",
+      "native_profile": "CF_fr",
+      "native_profiles": {"fr-Latn": "CF_fr", "sg-Latn": "CF_sg"},
+      "native_scripts": {"fr-Latn": "Latn", "sg-Latn": "Latn"},
+      "english_profile": "CF_en",
+      "country_names": {"fr-Latn": "République centrafricaine", "sg-Latn": "Ködörösêse tî Bêafrîka", "en": "Central African Republic"},
+      "postcode_pattern": null,
+      "postcode_required": false,
+      "romanization_policy": "French, Sango and English values remain separate. Care-of or contact detail may be retained as Address2 only when supplied; no telephone, email or postcode is fabricated.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Universal Postal Union and Société Centrafricaine des Postes", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/cafEn.pdf", "scope": "March 2022 urban and P.O. Box examples with addressee, care-of, organization, locality and country"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "September 2025 list of destinations not requiring a postcode"}
+      ]
+    },
+    "TD": {
+      "native_languages": ["ar-Arab", "fr-Latn"],
+      "default_native_language": "ar-Arab",
+      "native_profile": "TD_ar",
+      "native_profiles": {"ar-Arab": "TD_ar", "fr-Latn": "TD_fr"},
+      "native_scripts": {"ar-Arab": "Arab", "fr-Latn": "Latn"},
+      "english_profile": "TD_en",
+      "country_names": {"ar-Arab": "تشاد", "fr-Latn": "Tchad", "en": "Chad"},
+      "postcode_pattern": null,
+      "postcode_required": false,
+      "romanization_policy": "Arabic, French and English values remain separate, with Arabic-script validation. The dated public example is P.O. Box plus N'Djamena and supplies no postcode.",
+      "evidence_status": "provisional",
+      "sources": [
+        {"authority": "Universal Postal Union and Société Tchadienne des Postes et de l’Épargne", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/tcdEn.pdf", "scope": "P.O. Box, N'Djamena and country order; public sheet dated September 2004"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "September 2025 list of destinations not requiring a postcode"}
+      ]
+    },
+    "CG": {
+      "native_languages": ["fr-Latn", "ln-Latn", "mkw-Latn"],
+      "default_native_language": "fr-Latn",
+      "native_profile": "CG_fr",
+      "native_profiles": {"fr-Latn": "CG_fr", "ln-Latn": "CG_ln", "mkw-Latn": "CG_mkw"},
+      "native_scripts": {"fr-Latn": "Latn", "ln-Latn": "Latn", "mkw-Latn": "Latn"},
+      "english_profile": "CG_en",
+      "country_names": {"fr-Latn": "République du Congo", "ln-Latn": "Republíki ya Kongó", "mkw-Latn": "Repubilika ya Kongo", "en": "Republic of the Congo"},
+      "postcode_pattern": null,
+      "postcode_required": false,
+      "romanization_policy": "French, Lingala, Kituba and English labels stay explicit. A national-language label is not treated as an operator-certified translation, and no postcode is inferred.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "September 2025 list of destinations not requiring a postcode"},
+        {"authority": "La Poste Congo", "url": "https://www.laposte.cg/", "scope": "Current operator contact address using street, central Brazzaville and country without a postcode"},
+        {"authority": "Government of the Republic of the Congo", "url": "https://fonction-publique.gouv.cg/fr/contact-us", "scope": "Current official P.O. Box, Brazzaville and country ordering example"}
+      ]
+    },
+    "CD": {
+      "native_languages": ["fr-Latn", "kg-Latn", "ln-Latn", "sw-Latn", "lua-Latn"],
+      "default_native_language": "fr-Latn",
+      "native_profile": "CD_fr",
+      "native_profiles": {"fr-Latn": "CD_fr", "kg-Latn": "CD_kg", "ln-Latn": "CD_ln", "sw-Latn": "CD_sw", "lua-Latn": "CD_lua"},
+      "native_scripts": {"fr-Latn": "Latn", "kg-Latn": "Latn", "ln-Latn": "Latn", "sw-Latn": "Latn", "lua-Latn": "Latn"},
+      "english_profile": "CD_en",
+      "country_names": {"fr-Latn": "République démocratique du Congo", "kg-Latn": "Repubilika ya Kôngo ya Dimokalasi", "ln-Latn": "Republíki ya Kongó Demokratíki", "sw-Latn": "Jamhuri ya Kidemokrasia ya Kongo", "lua-Latn": "Ditunga dia Kongu wa Mungalaata", "en": "Democratic Republic of the Congo"},
+      "postcode_pattern": "\\d{7}",
+      "postcode_required": true,
+      "romanization_policy": "French, Kongo, Lingala, Swahili, Tshiluba and English values remain independent. Seven-digit syntax is checked without deriving province, township, sector or delivery office from the digits.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Universal Postal Union and Société Congolaise des Postes et des Télécommunications", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/codEn.pdf", "scope": "September 2022 seven-digit postcode plus urban, rural, P.O. Box, poste-restante and care-of hierarchy"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "August 2026 postcode requirement, length and numeric format"}
+      ]
+    },
+    "GQ": {
+      "native_languages": ["es-Latn", "fr-Latn", "pt-Latn"],
+      "default_native_language": "es-Latn",
+      "native_profile": "GQ_es",
+      "native_profiles": {"es-Latn": "GQ_es", "fr-Latn": "GQ_fr", "pt-Latn": "GQ_pt"},
+      "native_scripts": {"es-Latn": "Latn", "fr-Latn": "Latn", "pt-Latn": "Latn"},
+      "english_profile": "GQ_en",
+      "country_names": {"es-Latn": "Guinea Ecuatorial", "fr-Latn": "Guinée équatoriale", "pt-Latn": "Guiné Equatorial", "en": "Equatorial Guinea"},
+      "postcode_pattern": null,
+      "postcode_required": false,
+      "romanization_policy": "Spanish, French, Portuguese and English values remain distinct. Premises, province, sub-province and locality are preserved without creating a postcode or telephone/email field.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Universal Postal Union and Guinea Ecuatorial de Correos y Telecomunicaciones", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/gnqEn.pdf", "scope": "March 2023 urban, rural and P.O. Box examples with premises and province/sub-province/locality hierarchy"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "September 2025 list of destinations not requiring a postcode"}
+      ]
+    },
+    "GA": {
+      "native_languages": ["fr-Latn"],
+      "default_native_language": "fr-Latn",
+      "native_profile": "GA_fr",
+      "native_profiles": {"fr-Latn": "GA_fr"},
+      "native_scripts": {"fr-Latn": "Latn"},
+      "english_profile": "GA_en",
+      "country_names": {"fr-Latn": "Gabon", "en": "Gabon"},
+      "postcode_pattern": "\\d{2}",
+      "postcode_required": true,
+      "romanization_policy": "French and English values remain explicit. The two-digit postcode and any separately supplied delivery-office code stay distinct; neither is derived from the locality.",
+      "evidence_status": "provisional",
+      "sources": [
+        {"authority": "Universal Postal Union and designated postal operator of Gabon", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/gabEn.pdf", "scope": "Home and P.O. Box examples with two-digit postcode, locality and separate delivery-office code; public sheet dated July 2002"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "August 2026 postcode requirement, two-digit length and numeric format"}
+      ]
+    },
+    "ST": {
+      "native_languages": ["pt-Latn"],
+      "default_native_language": "pt-Latn",
+      "native_profile": "ST_pt",
+      "native_profiles": {"pt-Latn": "ST_pt"},
+      "native_scripts": {"pt-Latn": "Latn"},
+      "english_profile": "ST_en",
+      "country_names": {"pt-Latn": "São Tomé e Príncipe", "en": "Sao Tome and Principe"},
+      "postcode_pattern": null,
+      "postcode_required": false,
+      "romanization_policy": "Portuguese and English values remain separate. Street, caixa postal, locality, island/district and country are preserved, while form-only dummy postal codes are rejected.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "September 2025 list of destinations not requiring a postcode"},
+        {"authority": "Government of São Tomé and Príncipe, National Petroleum Agency", "url": "https://www.anp-stp.gov.st/", "scope": "Current government example using street, caixa postal, São Tomé locality and country without a postcode"}
+      ]
+    }
+  },
+  "profiles": {
+    "AO": {"country_code": "AO", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{road}}} {{{house_number}}}\n{{{po_box}}}\n{{{neighbourhood}}}\n{{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"},
+    "AO_pt": {"country_code": "AO", "language": "pt", "use_country": "AO"}, "AO_en": {"country_code": "AO", "language": "en", "use_country": "AO"},
+    "CM": {"country_code": "CM", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{neighbourhood}}}\n{{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"},
+    "CM_fr": {"country_code": "CM", "language": "fr", "use_country": "CM"}, "CM_en": {"country_code": "CM", "language": "en", "use_country": "CM"},
+    "CF": {"country_code": "CF", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{neighbourhood}}}\n{{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"},
+    "CF_fr": {"country_code": "CF", "language": "fr", "use_country": "CF"}, "CF_sg": {"country_code": "CF", "language": "sg", "use_country": "CF"}, "CF_en": {"country_code": "CF", "language": "en", "use_country": "CF"},
+    "TD": {"country_code": "TD", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{neighbourhood}}}\n{{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"},
+    "TD_ar": {"country_code": "TD", "language": "ar", "use_country": "TD"}, "TD_fr": {"country_code": "TD", "language": "fr", "use_country": "TD"}, "TD_en": {"country_code": "TD", "language": "en", "use_country": "TD"},
+    "CG": {"country_code": "CG", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{neighbourhood}}}\n{{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"},
+    "CG_fr": {"country_code": "CG", "language": "fr", "use_country": "CG"}, "CG_ln": {"country_code": "CG", "language": "ln", "use_country": "CG"}, "CG_mkw": {"country_code": "CG", "language": "mkw", "use_country": "CG"}, "CG_en": {"country_code": "CG", "language": "en", "use_country": "CG"},
+    "CD": {"country_code": "CD", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{neighbourhood}}}\n{{{village}}}\n{{{place}}}\n{{{municipality}}}\n{{{postcode}}} {{#first}} {{{state}}} || {{{postal_city}}} || {{{city}}} || {{{town}}} {{/first}}\n{{{country}}}\n"},
+    "CD_fr": {"country_code": "CD", "language": "fr", "use_country": "CD"}, "CD_kg": {"country_code": "CD", "language": "kg", "use_country": "CD"}, "CD_ln": {"country_code": "CD", "language": "ln", "use_country": "CD"}, "CD_sw": {"country_code": "CD", "language": "sw", "use_country": "CD"}, "CD_lua": {"country_code": "CD", "language": "lua", "use_country": "CD"}, "CD_en": {"country_code": "CD", "language": "en", "use_country": "CD"},
+    "GQ": {"country_code": "GQ", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{state}}}\n{{{municipality}}}\n{{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}\n{{{country}}}\n"},
+    "GQ_es": {"country_code": "GQ", "language": "es", "use_country": "GQ"}, "GQ_fr": {"country_code": "GQ", "language": "fr", "use_country": "GQ"}, "GQ_pt": {"country_code": "GQ", "language": "pt", "use_country": "GQ"}, "GQ_en": {"country_code": "GQ", "language": "en", "use_country": "GQ"},
+    "GA": {"country_code": "GA", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{place}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{sorting_code}}}\n{{{country}}}\n"},
+    "GA_fr": {"country_code": "GA", "language": "fr", "use_country": "GA"}, "GA_en": {"country_code": "GA", "language": "en", "use_country": "GA"},
+    "ST": {"country_code": "ST", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{neighbourhood}}}\n{{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}}\n{{#first}} {{{island}}} || {{{state}}} {{/first}}\n{{{country}}}\n"},
+    "ST_pt": {"country_code": "ST", "language": "pt", "use_country": "ST"}, "ST_en": {"country_code": "ST", "language": "en", "use_country": "ST"}
+  },
+  "profile_status": {
+    "AO": "provisional", "AO_pt": "provisional", "AO_en": "provisional",
+    "CM": "provisional", "CM_fr": "provisional", "CM_en": "provisional",
+    "CF": "official_guidance", "CF_fr": "official_guidance", "CF_sg": "official_guidance", "CF_en": "official_guidance",
+    "TD": "provisional", "TD_ar": "provisional", "TD_fr": "provisional", "TD_en": "provisional",
+    "CG": "source_derived_domestic", "CG_fr": "source_derived_domestic", "CG_ln": "source_derived_domestic", "CG_mkw": "source_derived_domestic", "CG_en": "source_derived_domestic",
+    "CD": "official_guidance", "CD_fr": "official_guidance", "CD_kg": "official_guidance", "CD_ln": "official_guidance", "CD_sw": "official_guidance", "CD_lua": "official_guidance", "CD_en": "official_guidance",
+    "GQ": "official_guidance", "GQ_es": "official_guidance", "GQ_fr": "official_guidance", "GQ_pt": "official_guidance", "GQ_en": "official_guidance",
+    "GA": "provisional", "GA_fr": "provisional", "GA_en": "provisional",
+    "ST": "source_derived_domestic", "ST_pt": "source_derived_domestic", "ST_en": "source_derived_domestic"
+  }
+}

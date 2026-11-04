@@ -1,0 +1,94 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "CMR",
+    "country": "CM",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Cameroon",
+    "geonames_id": "2233387",
+    "id": "country:CM",
+    "m49": "120",
+    "name_en": "Cameroon",
+    "numeric": "120",
+    "region": "Middle Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 14368,
+    "admin_rows": 88,
+    "ambiguous_parents": 0,
+    "country": "CM",
+    "country_scope_only": 80,
+    "localities_without_adm1": 81,
+    "locality_rows": 14374,
+    "name_en": "Cameroon",
+    "other_admin_rows": 7,
+    "region": "Middle Africa",
+    "unresolved_parents": 39
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 10,
+    "ADM2": 58,
+    "ADM2H": 4,
+    "ADM3": 16,
+    "ADM4": 1,
+    "ADM5": 3,
+    "ADMD": 2,
+    "PCLI": 1,
+    "PPL": 14317,
+    "PPLA": 9,
+    "PPLA2": 1,
+    "PPLC": 1,
+    "PPLCH": 1,
+    "PPLF": 1,
+    "PPLH": 2,
+    "PPLL": 1,
+    "PPLQ": 2,
+    "PPLX": 39
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 421480,
+      "rows": 14469,
+      "sha256": "71da84fead320bc64367564df68f0a0ac6cc8dd7e26b3b808c81abd1be1b70ac",
+      "uncompressed_sha256": "4f8f577933427c4fd615ee6d5c2e393754e63ad52ed7b7165e52aaecd178fe64"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 80,
+    "missing_code": 20,
+    "missing_reference": 19,
+    "not_assigned_for_other_feature": 7,
+    "source_admin_code": 14333,
+    "source_country": 10
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 10,
+      "sha256": "4ef5cbd036a89eff3bedb92c3a2108a45988769797b333100c09ffeeb641d4f8"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 575361,
+    "discarded_feature_classes": {
+      "H": 7770,
+      "L": 158,
+      "S": 164,
+      "T": 1454,
+      "V": 46
+    },
+    "retained_rows": 14469,
+    "retrieved_on": "2026-09-26",
+    "sha256": "8cc86881b5220311336bb4285e8f7a3f82013805e64b07c0522b7c8c5852c326",
+    "source_rows": 24061,
+    "url": "https://download.geonames.org/export/dump/CM.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1994-02-10"
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-18T23:48:50.368306+00:00",
+  "scope": "Batch 01 CSV integrity, collection codes and saved-release count reconciliation only",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "250 unique two-letter country/area collection codes",
+      "status": "PASS"
+    },
+    {
+      "check": "BV HM AQ TW XK and Namibia NA retained as strings",
+      "status": "PASS"
+    },
+    {
+      "check": "Namibia code not parsed as missing",
+      "status": "PASS"
+    },
+    {
+      "check": "all four dimensions remain incomplete",
+      "status": "PASS"
+    },
+    {
+      "check": "unknown inventory denominators and coverage fractions remain blank",
+      "status": "PASS"
+    },
+    {
+      "check": "sum of new_admin_source_records matches saved release",
+      "status": "PASS"
+    },
+    {
+      "check": "sum of new_street_register_records matches saved release",
+      "status": "PASS"
+    },
+    {
+      "check": "sum of new_address_observations matches saved release",
+      "status": "PASS"
+    },
+    {
+      "check": "sum of new_current_number_observations matches saved release",
+      "status": "PASS"
+    },
+    {
+      "check": "sum of physical_road_records_added matches saved release",
+      "status": "PASS"
+    },
+    {
+      "check": "14 scopes with added address observations match saved release",
+      "status": "PASS"
+    },
+    {
+      "check": "250 scopes times four dimensions equals 1000 open tasks",
+      "status": "PASS"
+    },
+    {
+      "check": "world completeness false and deliverability excluded",
+      "status": "PASS"
+    },
+    {
+      "check": "CSV original bytes preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "README anchor matched exactly once",
+      "status": "PASS"
+    }
+  ],
+  "original_source_replays_rerun": false,
+  "previous_1064_test_run_is_not_a_validation_of_this_batch": true,
+  "world_complete": false,
+  "deliverability_in_scope": false
+}

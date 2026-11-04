@@ -1,0 +1,88 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "AND",
+    "country": "AD",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Andorra",
+    "geonames_id": "3041565",
+    "id": "country:AD",
+    "m49": "020",
+    "m49_region": "Europe",
+    "name_en": "Andorra",
+    "region": "Southern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 72,
+    "admin_rows": 7,
+    "ambiguous_parents": 0,
+    "country": "AD",
+    "country_scope_only": 0,
+    "localities_without_adm1": 0,
+    "locality_rows": 72,
+    "name_en": "Andorra",
+    "other_admin_rows": 1,
+    "region": "Southern Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 7,
+    "ADMD": 1,
+    "PPL": 53,
+    "PPLA": 6,
+    "PPLC": 1,
+    "PPLL": 2,
+    "PPLX": 10
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 8279,
+      "rows": 80,
+      "sha256": "c52f69201e229ebc3d903811c170616aabceafd4298034337410b43270e24f20",
+      "uncompressed_sha256": "66435e4650d61d145bd6d740696583f83e6dc84ce77a6cab2a332143d0b66cd4"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 72,
+    "source_country": 7
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 7,
+      "sha256": "3c33f7626f35cbfff1140356f57f0c306d02abed21847c2be4a5a5a7bdd92785"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 3267,
+    "bytes": 97846,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 726,
+      "L": 577,
+      "R": 121,
+      "S": 625,
+      "T": 932,
+      "V": 205
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:50:52 GMT",
+    "retained_rows": 80,
+    "retrieved_at": "2026-09-29T11:13:02.259614+00:00",
+    "sha256": "0d6211502ad8e8d9418c4bb6434096f72f7916fd85b999f18bfec1f398b6a7c3",
+    "url": "https://download.geonames.org/export/dump/AD.zip"
+  },
+  "source_modified_max": "2026-06-24",
+  "source_modified_min": "2007-04-05"
+}

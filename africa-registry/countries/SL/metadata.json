@@ -1,0 +1,88 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "SLE",
+    "country": "SL",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Sierra Leone",
+    "geonames_id": "2403846",
+    "id": "country:SL",
+    "m49": "694",
+    "name_en": "Sierra Leone",
+    "numeric": "694",
+    "region": "Western Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 14385,
+    "admin_rows": 200,
+    "ambiguous_parents": 0,
+    "country": "SL",
+    "country_scope_only": 5,
+    "localities_without_adm1": 5,
+    "locality_rows": 14401,
+    "name_en": "Sierra Leone",
+    "other_admin_rows": 1,
+    "region": "Western Africa",
+    "unresolved_parents": 260
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 5,
+    "ADM2": 16,
+    "ADM3": 177,
+    "ADM4": 2,
+    "PCLI": 1,
+    "PPL": 14344,
+    "PPLA": 4,
+    "PPLC": 1,
+    "PPLL": 1,
+    "PPLQ": 15,
+    "PPLW": 1,
+    "PPLX": 35
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 378464,
+      "rows": 14602,
+      "sha256": "f7e7da1e9fb64be51a1981e1266b849abf4b3688fced4db777ef4c1f7441ded6",
+      "uncompressed_sha256": "09f8c24186bfce10827364e65745b640c4e97d41bb73002afcbc0bd29456d90d"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 5,
+    "missing_code": 178,
+    "missing_reference": 82,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 14331,
+    "source_country": 5
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 5,
+      "sha256": "478273dd669cb479a2b8d0bb6bf3eef2202ea253c2f99c7e5ae2e959948a1f06"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 387090,
+    "discarded_feature_classes": {
+      "H": 2079,
+      "L": 37,
+      "R": 29,
+      "S": 84,
+      "T": 736
+    },
+    "retained_rows": 14602,
+    "retrieved_on": "2026-09-26",
+    "sha256": "5ac09c8d1f939d5519f454321921b331833482feccd7dc0669dc23bcf05394cd",
+    "source_rows": 17567,
+    "url": "https://download.geonames.org/export/dump/SL.zip"
+  },
+  "source_modified_max": "2026-09-22",
+  "source_modified_min": "1993-12-23"
+}
