@@ -1,4 +1,4 @@
-"""Source-aware, format-only address reference checks for TR, CY, KW and AE.
+"""Source-aware, format-only address reference checks for 9 West Asian countries.
 
 This module deliberately cannot certify that an address, postcode, Makani number,
 or other identifier exists. No live lookup or carrier check is performed.
@@ -13,7 +13,8 @@ import unicodedata
 from typing import Any
 
 RULES_PATH = Path(__file__).resolve().parents[1] / "registries" / "official" / "western-asia" / "rules.json"
-COUNTRIES = frozenset({"TR", "CY", "KW", "AE"})
+COUNTRIES = frozenset({"TR", "CY", "KW", "AE", "SA", "BH", "QA", "OM", "PS"})
+EXPANDED_COUNTRIES = frozenset({"SA", "BH", "QA", "OM", "PS"})
 BIDI_CONTROLS = re.compile(r"[\u202a-\u202e\u2066-\u2069]")
 VALID_DELIVERY_MODES = frozenset({"home", "po_box"})
 VALID_DIRECTIONS = frozenset({"domestic", "inbound"})
@@ -76,6 +77,12 @@ def validate_western_asia_reference(
     emirate: str | None = None, block: str | None = None,
     po_box: str | None = None, makani: str | None = None,
     onwani_postcode: str | None = None,
+    building_number: str | None = None, additional_number: str | None = None,
+    short_address: str | None = None, road: str | None = None,
+    district: str | None = None, city: str | None = None,
+    locality: str | None = None, zone: str | None = None,
+    street_number: str | None = None, phone: str | None = None,
+    require_complete: bool = False,
 ) -> dict[str, Any]:
     """Normalize and flag country-specific reference syntax without existence claims.
 
@@ -90,6 +97,22 @@ def validate_western_asia_reference(
         raise ValueError("delivery_mode must be home or po_box")
     if direction not in VALID_DIRECTIONS:
         raise ValueError("direction must be domestic or inbound")
+    if cc in EXPANDED_COUNTRIES:
+        from .western_asia_reference_expanded import validate_gulf_levant_reference
+        return validate_gulf_levant_reference(
+            cc, postcode=postcode, delivery_mode=delivery_mode,
+            direction=direction, po_box=po_box, block=block,
+            emirate=emirate, makani=makani, onwani_postcode=onwani_postcode,
+            building_number=building_number, additional_number=additional_number,
+            short_address=short_address, road=road, district=district,
+            city=city, locality=locality, zone=zone,
+            street_number=street_number, phone=phone, require_complete=require_complete,
+        )
+    if require_complete or any(val is not None for val in (
+        building_number, additional_number, short_address, road, district,
+        city, locality, zone, street_number, phone
+    )):
+        raise ValueError("Those additional fields are only supported for SA/BH/QA/OM/PS")
     values = {key: _text(val, key) for key, val in {
         "postcode": postcode, "emirate": emirate, "block": block,
         "po_box": po_box, "makani": makani, "onwani_postcode": onwani_postcode

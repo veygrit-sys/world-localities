@@ -149,6 +149,186 @@
           "reuse": "reference_only_stale"
         }
       ]
+    },
+    "SA": {
+      "country_code": "SA",
+      "locality_fields": [
+        "region",
+        "city",
+        "district",
+        "street",
+        "building_number",
+        "unit",
+        "additional_number",
+        "postal_code",
+        "short_address"
+      ],
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "sources": [
+        {
+          "id": "SA-SPL-NATIONAL",
+          "authority": "Saudi Post SPL",
+          "url": "https://portal.splonline.com.sa/en/national-address-1/",
+          "role": "five_digit_postcode_building_additional_number_short_address",
+          "publication": null,
+          "reuse": "reference_only_authorization_needed_for_api"
+        },
+        {
+          "id": "SA-SPL-DOORSTEP",
+          "authority": "Saudi Post SPL",
+          "url": "https://splonline.com.sa/en/door-step/",
+          "role": "short_address_four_letters_four_digits_national_address_components",
+          "publication": null,
+          "reuse": "reference_only"
+        }
+      ]
+    },
+    "BH": {
+      "country_code": "BH",
+      "locality_fields": [
+        "governorate",
+        "municipality",
+        "locality",
+        "block",
+        "road",
+        "building_number",
+        "postcode",
+        "po_box"
+      ],
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "sources": [
+        {
+          "id": "BH-UPU-2024",
+          "authority": "Universal Postal Union / Bahrain Post",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/bhrEn.pdf",
+          "role": "three_or_four_digit_postcode_and_home_po_box_order",
+          "publication": "2024-01",
+          "reuse": "reference_only"
+        }
+      ]
+    },
+    "QA": {
+      "country_code": "QA",
+      "locality_fields": [
+        "municipality",
+        "zone",
+        "street_number",
+        "building_number",
+        "po_box",
+        "phone"
+      ],
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "sources": [
+        {
+          "id": "QA-QPOST-STANDARDS",
+          "authority": "Qatar Post",
+          "url": "https://www.qatarpost.qa/Home/PostalStandards",
+          "role": "anwani_zone_street_building_home_and_po_box_standard",
+          "publication": null,
+          "reuse": "reference_only"
+        },
+        {
+          "id": "QA-QPOST-HOME",
+          "authority": "Qatar Post",
+          "url": "https://www.qatarpost.qa/homedelivery",
+          "role": "home_delivery_zone_street_building_and_po_box_subscription",
+          "publication": null,
+          "reuse": "reference_only"
+        },
+        {
+          "id": "QA-UPU-2024",
+          "authority": "Universal Postal Union / Qatar Post",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/qatEn.pdf",
+          "role": "doha_inbound_mail_and_phone_po_box_addressing",
+          "publication": "2024-08",
+          "reuse": "reference_only"
+        }
+      ]
+    },
+    "OM": {
+      "country_code": "OM",
+      "locality_fields": [
+        "governorate",
+        "wilayat",
+        "locality",
+        "post_office",
+        "postcode",
+        "po_box",
+        "street",
+        "building_number"
+      ],
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "sources": [
+        {
+          "id": "OM-UPU-2026",
+          "authority": "Universal Postal Union / Oman Post",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/omnEn.pdf",
+          "role": "three_digit_post_office_code_po_box_delivery_format",
+          "publication": "2026-01",
+          "reuse": "reference_only"
+        },
+        {
+          "id": "OM-OMANPOST-BOX",
+          "authority": "Oman Post",
+          "url": "https://www.omanpost.om/po-boxes",
+          "role": "po_box_subscription_and_delivery_service",
+          "publication": null,
+          "reuse": "reference_only"
+        }
+      ]
+    },
+    "PS": {
+      "country_code": "PS",
+      "locality_fields": [
+        "governorate",
+        "postal_sector",
+        "postal_zone",
+        "locality",
+        "road",
+        "building",
+        "delivery_point",
+        "po_box"
+      ],
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "sources": [
+        {
+          "id": "PS-UPU-2025",
+          "authority": "Universal Postal Union / Palestine Post",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/pseEn.pdf",
+          "role": "P_three_digits_plus_four_digit_delivery_point_postcode_structure",
+          "publication": "2025-05",
+          "reuse": "reference_only"
+        },
+        {
+          "id": "PS-POST-AREAS",
+          "authority": "Palestine Post",
+          "url": "https://www.palpost.ps/home/District/%D8%B1%D8%A7%D9%85%20%D8%A7%D9%84%D9%84%D9%87%20%D9%88%D8%A7%D9%84%D8%A8%D9%8A%D8%B1%D8%A9",
+          "role": "four_character_area_codes_and_localities",
+          "publication": null,
+          "reuse": "public_lookup_not_imported_reuse_review"
+        },
+        {
+          "id": "PS-POST-CONTACT",
+          "authority": "Palestine Post",
+          "url": "https://www.palpost.ps/home/contactUs",
+          "role": "full_delivery_point_example_P6100012",
+          "publication": null,
+          "reuse": "reference_only"
+        },
+        {
+          "id": "PS-POST-MINISTRY",
+          "authority": "Palestine Post / Ministry of Telecommunications and Digital Economy",
+          "url": "https://www.palpost.ps/home/reports/1254?culture=ar-SA",
+          "role": "four_character_area_fallback_when_full_delivery_code_unavailable",
+          "publication": "2023-03",
+          "reuse": "reference_only"
+        }
+      ]
     }
   }
 }

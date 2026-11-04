@@ -1,4 +1,4 @@
-"""Regression checks for four country-specific source-aware reference policies."""
+"""Regression checks for nine source-aware reference policies."""
 from pathlib import Path
 import json
 import sys
@@ -14,8 +14,8 @@ from addressing.western_asia_reference import (
 
 
 class ReferenceInventoryTests(unittest.TestCase):
-    def test_four_countries_have_sources_without_false_completeness(self):
-        self.assertEqual(COUNTRIES, {"TR", "CY", "KW", "AE"})
+    def test_nine_countries_have_sources_without_false_completeness(self):
+        self.assertEqual(COUNTRIES, {"TR", "CY", "KW", "AE", "SA", "BH", "QA", "OM", "PS"})
         self.assertEqual(set(reference_rules()["countries"]), COUNTRIES)
         for cc in COUNTRIES:
             record = inspect_western_asia_reference(cc)
