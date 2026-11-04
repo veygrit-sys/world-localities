@@ -1,0 +1,94 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "KEN",
+    "country": "KE",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Kenya",
+    "geonames_id": "192950",
+    "id": "country:KE",
+    "m49": "404",
+    "name_en": "Kenya",
+    "numeric": "404",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 6953,
+    "admin_rows": 96,
+    "ambiguous_parents": 0,
+    "country": "KE",
+    "country_scope_only": 2,
+    "localities_without_adm1": 54,
+    "locality_rows": 6957,
+    "name_en": "Kenya",
+    "other_admin_rows": 2328,
+    "region": "Eastern Africa",
+    "unresolved_parents": 69
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 47,
+    "ADM1H": 7,
+    "ADM2": 32,
+    "ADM2H": 7,
+    "ADM3": 11,
+    "ADM4": 6,
+    "ADMD": 2313,
+    "PCLI": 1,
+    "PPL": 6554,
+    "PPLA": 46,
+    "PPLA2": 2,
+    "PPLC": 1,
+    "PPLF": 3,
+    "PPLG": 1,
+    "PPLL": 66,
+    "PPLQ": 1,
+    "PPLX": 283
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 331704,
+      "rows": 9381,
+      "sha256": "708474aca57a33d55c6aaa4a465f914c570136053fc3fc71d437972df1060476",
+      "uncompressed_sha256": "0359d4ac9744c2c66f38441a76a013cb7199e05f631f60cc13b885ee28be949c"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 2,
+    "missing_code": 17,
+    "missing_reference": 52,
+    "not_assigned_for_other_feature": 2328,
+    "source_admin_code": 6935,
+    "source_country": 47
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 47,
+      "sha256": "08eb983be548b1c73f669e1fbe66d06a573bba48adec4ea11c38d04d6ad2ec3d"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 859668,
+    "discarded_feature_classes": {
+      "H": 6306,
+      "L": 6112,
+      "R": 188,
+      "S": 4265,
+      "T": 4994,
+      "V": 244
+    },
+    "retained_rows": 9381,
+    "retrieved_on": "2026-09-26",
+    "sha256": "4e65080b7291e73e895a6025c7bac129f5557fccd86ec6936e0f99cb15e5c42d",
+    "source_rows": 31490,
+    "url": "https://download.geonames.org/export/dump/KE.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1994-01-06"
+}

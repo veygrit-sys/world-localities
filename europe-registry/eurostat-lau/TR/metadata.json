@@ -1,0 +1,35 @@
+{
+  "country": "TR",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 11083,
+      "rows": 119,
+      "sha256": "ff1cafdc8ded29c6858ecedb859b4a7f06df66ee1b03d1632ec00fd8e13a7780"
+    },
+    "units.csv.gz": {
+      "bytes": 20107,
+      "rows": 973,
+      "sha256": "1c111f2f0b97ccb0d0926d9c6fc7ae56437243ee439e1e0abc2eff0d341e1858"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 973,
+  "skipped_empty_rows": 0,
+  "source_period_counts": {
+    "2024": 973
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "TR",
+  "validation": {
+    "core": "validated",
+    "overall": "not validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

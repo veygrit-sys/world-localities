@@ -1,0 +1,34 @@
+id,code,source_type,category,name,lang,parent_id,state_id,state_code,address_country,address_candidate,postcodes,postcode_relations,government_status,department_code,collectivity_code,source_state_code,municipality_component,municipal_seat_locality_code,municipal_seat_name,municipal_seat_relation,statistics_available
+admin:csc:3447,MX-CHH,AGEE,state,Chihuahua,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3448,MX-OAX,AGEE,state,Oaxaca,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3449,MX-SIN,AGEE,state,Sinaloa,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3450,MX-MEX,AGEE,state,México,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3451,MX-CHP,AGEE,state,Chiapas,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3452,MX-NLE,AGEE,state,Nuevo León,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3453,MX-DUR,AGEE,state,Durango,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3454,MX-TAB,AGEE,state,Tabasco,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3455,MX-QUE,AGEE,state,Querétaro,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3456,MX-AGU,AGEE,state,Aguascalientes,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3457,MX-BCN,AGEE,state,Baja California,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3458,MX-TLA,AGEE,state,Tlaxcala,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3459,MX-GRO,AGEE,state,Guerrero,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3460,MX-BCS,AGEE,state,Baja California Sur,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3461,MX-SLP,AGEE,state,San Luis Potosí,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3462,MX-ZAC,AGEE,state,Zacatecas,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3463,MX-TAM,AGEE,state,Tamaulipas,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3464,MX-VER,AGEE,state,Veracruz de Ignacio de la Llave,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3465,MX-MOR,AGEE,state,Morelos,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3466,MX-YUC,AGEE,state,Yucatán,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3467,MX-ROO,AGEE,state,Quintana Roo,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3468,MX-SON,AGEE,state,Sonora,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3469,MX-GUA,AGEE,state,Guanajuato,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3470,MX-HID,AGEE,state,Hidalgo,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3471,MX-COA,AGEE,state,Coahuila de Zaragoza,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3472,MX-COL,AGEE,state,Colima,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3473,MX-CMX,AGEE,federal district,Ciudad de México,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3474,MX-MIC,AGEE,state,Michoacán de Ocampo,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3475,MX-CAM,AGEE,state,Campeche,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3476,MX-PUE,AGEE,state,Puebla,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:3477,MX-NAY,AGEE,state,Nayarit,es,country:MX,,,,0,,,,,,,,,,,0
+admin:csc:4857,MX-JAL,AGEE,state,Jalisco,es,country:MX,,,,0,,,,,,,,,,,0
+country:MX,MX,,country,México,es,,,,,0,,,,,,,,,,,0

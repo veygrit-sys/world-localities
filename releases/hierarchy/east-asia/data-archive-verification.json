@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "wrapper_parts": 3,
+  "archive_bytes": 1249084307,
+  "archive_sha256": "e73550bb61cc568adda166dc50146f61058ac020502b389681e95dec81a962df",
+  "all_wrapper_sha256_and_crc_verified": true,
+  "virtual_reconstruction_sha256_verified": true,
+  "all_inner_members_sha256_bytes_and_crc_verified": true,
+  "verified_members": 458,
+  "original_osm_pbf_in_distribution": false,
+  "national_completeness_verified": false,
+  "deliverability_in_scope": false
+}

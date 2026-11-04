@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "source": {
+    "id": "OSM-MN",
+    "country": "MN",
+    "format": "selected_osm_pbf",
+    "role": "supplementary_roads_addresses_administration",
+    "path": "projections/MN.osm.pbf",
+    "url": "https://download.geofabrik.de/asia/mongolia-261020.osm.pbf",
+    "licence": "ODbL-1.0",
+    "licence_url": "https://www.openstreetmap.org/copyright",
+    "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+    "bytes": 4851901,
+    "national_completeness_verified": false,
+    "extract_membership_is_legal_country_membership": false,
+    "sha256": "d94649f781f3bcf8bffd55ca0fcbb83c7d8f2383924be1e65c86dec9d2eb68ff",
+    "retrieved_at": "2026-10-22T06:54:00.199480+00:00",
+    "resolved_url": "https://download.geofabrik.de/asia/mongolia-261020.osm.pbf",
+    "http_metadata": {
+      "last-modified": "Tue, 20 Oct 2026 23:02:54 GMT",
+      "etag": "\"3b7026c-65e4da171819c\"",
+      "content-length": "62325356",
+      "content-type": "application/octet-stream"
+    },
+    "publisher_md5": "6e24b875341dc7328d9482a68355ebf6",
+    "publisher_checksum_stable_before_after": true,
+    "original_source_sha256": "cf733796fa08eb4dc15cea167fbbdbd4775135fed99c3888b4a1150df6853290",
+    "original_source_bytes": 62325356,
+    "original_source_url": "https://download.geofabrik.de/asia/mongolia-261020.osm.pbf",
+    "original_pbf_preserved_in_distribution": false
+  },
+  "counts": {
+    "observations": 211595,
+    "address_tags": 85983,
+    "house_number": 6113,
+    "named_road": 6427,
+    "active_road_way": 123841,
+    "administrative_tag": 1732
+  },
+  "ordered_rows_sha256": "3bf849bcdc5febeec303dfd508e273f19ee7cd72e9367a4c37551dc5e1b10eec",
+  "projection_implementation_sha256": "fcb287d96709c66ab9adc7c09d74e6f90bbd3f41a704caa46ac8da0846ad1712",
+  "classifier_implementation_sha256": {
+    "east_asia_sources.py": "8f779a8bf40a05c5fad87004c165f84d7a871bfc0301b92e7a7eb3d277a30075",
+    "osm_evidence.py": "ba8599b7bd9cf448fd7f6644bba35e146520ef7e7d32167764be2e09816e5484"
+  },
+  "verification": "Every selected native object re-read; canonical fields, counts and ordered digest match full original source audit",
+  "all_tags_versions_timestamps_and_ordered_references_preserved": true,
+  "untagged_dependency_nodes_copied": false,
+  "way_or_relation_geometry_assembled": false,
+  "interpolation_expanded": false,
+  "national_completeness_verified": false
+}

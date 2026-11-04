@@ -1,0 +1,374 @@
+[
+  {
+    "kind": "road",
+    "source_id": "OSM-CN",
+    "osm_id": "osm:way:4195000",
+    "status": "PASS",
+    "method": "native numeric-ID prefilter plus complete type-qualified identity match",
+    "input": "verified_native_projection",
+    "projection_sha256": "8f883d1b349eff36f1590053b9cf9e5706639fea3f18dd419834f95aeea7807b",
+    "original_source_sha256": "f49b681caa41eb0db4ac8022868807f86deef29608820c036e086077fd108460",
+    "query_implementation_sha256": "1ace1ce84afb4794c2fd769936754871838f60a7fcbf679e4d89fd449a3cfcb7"
+  },
+  {
+    "kind": "address",
+    "source_id": "OSM-CN",
+    "osm_id": "osm:node:26466687",
+    "status": "PASS",
+    "method": "native numeric-ID prefilter plus complete type-qualified identity match",
+    "input": "verified_native_projection",
+    "projection_sha256": "8f883d1b349eff36f1590053b9cf9e5706639fea3f18dd419834f95aeea7807b",
+    "original_source_sha256": "f49b681caa41eb0db4ac8022868807f86deef29608820c036e086077fd108460",
+    "query_implementation_sha256": "1ace1ce84afb4794c2fd769936754871838f60a7fcbf679e4d89fd449a3cfcb7"
+  },
+  {
+    "kind": "admin",
+    "source_id": "OSM-CN",
+    "osm_id": "osm:node:1906399327",
+    "status": "PASS",
+    "method": "native numeric-ID prefilter plus complete type-qualified identity match",
+    "input": "verified_native_projection",
+    "projection_sha256": "8f883d1b349eff36f1590053b9cf9e5706639fea3f18dd419834f95aeea7807b",
+    "original_source_sha256": "f49b681caa41eb0db4ac8022868807f86deef29608820c036e086077fd108460",
+    "query_implementation_sha256": "1ace1ce84afb4794c2fd769936754871838f60a7fcbf679e4d89fd449a3cfcb7"
+  },
+  {
+    "kind": "road",
+    "source_id": "OSM-HK",
+    "osm_id": "osm:way:4195000",
+    "status": "PASS"
+  },
+  {
+    "kind": "address",
+    "source_id": "OSM-HK",
+    "osm_id": "osm:node:253288735",
+    "status": "PASS"
+  },
+  {
+    "kind": "admin",
+    "source_id": "OSM-HK",
+    "osm_id": "osm:node:1906399327",
+    "status": "PASS"
+  },
+  {
+    "kind": "road",
+    "source_id": "OSM-JP",
+    "osm_id": "osm:way:4847506",
+    "status": "PASS",
+    "method": "native numeric-ID prefilter plus complete type-qualified identity match",
+    "input": "verified_native_projection",
+    "projection_sha256": "da3d4f98ea8f001d7be61c0199cbae2b9be0665899d2c6e19034be6faaff541e",
+    "original_source_sha256": "4e2f82f4d891f744f78e0b878701ab2b28412243147b0e57908ac70dc9197b04",
+    "query_implementation_sha256": "1ace1ce84afb4794c2fd769936754871838f60a7fcbf679e4d89fd449a3cfcb7"
+  },
+  {
+    "kind": "address",
+    "source_id": "OSM-JP",
+    "osm_id": "osm:node:172670767",
+    "status": "PASS",
+    "method": "native numeric-ID prefilter plus complete type-qualified identity match",
+    "input": "verified_native_projection",
+    "projection_sha256": "da3d4f98ea8f001d7be61c0199cbae2b9be0665899d2c6e19034be6faaff541e",
+    "original_source_sha256": "4e2f82f4d891f744f78e0b878701ab2b28412243147b0e57908ac70dc9197b04",
+    "query_implementation_sha256": "1ace1ce84afb4794c2fd769936754871838f60a7fcbf679e4d89fd449a3cfcb7"
+  },
+  {
+    "kind": "admin",
+    "source_id": "OSM-JP",
+    "osm_id": "osm:node:11091957004",
+    "status": "PASS",
+    "method": "native numeric-ID prefilter plus complete type-qualified identity match",
+    "input": "verified_native_projection",
+    "projection_sha256": "da3d4f98ea8f001d7be61c0199cbae2b9be0665899d2c6e19034be6faaff541e",
+    "original_source_sha256": "4e2f82f4d891f744f78e0b878701ab2b28412243147b0e57908ac70dc9197b04",
+    "query_implementation_sha256": "1ace1ce84afb4794c2fd769936754871838f60a7fcbf679e4d89fd449a3cfcb7"
+  },
+  {
+    "kind": "road",
+    "source_id": "OSM-KP",
+    "osm_id": "osm:way:4915473",
+    "status": "PASS"
+  },
+  {
+    "kind": "address",
+    "source_id": "OSM-KP",
+    "osm_id": "osm:node:3090687107",
+    "status": "PASS"
+  },
+  {
+    "kind": "admin",
+    "source_id": "OSM-KP",
+    "osm_id": "osm:way:22529939",
+    "status": "PASS"
+  },
+  {
+    "kind": "road",
+    "source_id": "OSM-KR",
+    "osm_id": "osm:way:4476705",
+    "status": "PASS",
+    "method": "native numeric-ID prefilter plus complete type-qualified identity match",
+    "query_implementation_sha256": "1ace1ce84afb4794c2fd769936754871838f60a7fcbf679e4d89fd449a3cfcb7"
+  },
+  {
+    "kind": "address",
+    "source_id": "OSM-KR",
+    "osm_id": "osm:node:260128352",
+    "status": "PASS",
+    "method": "native numeric-ID prefilter plus complete type-qualified identity match",
+    "query_implementation_sha256": "1ace1ce84afb4794c2fd769936754871838f60a7fcbf679e4d89fd449a3cfcb7"
+  },
+  {
+    "kind": "admin",
+    "source_id": "OSM-KR",
+    "osm_id": "osm:node:14212360753",
+    "status": "PASS",
+    "method": "native numeric-ID prefilter plus complete type-qualified identity match",
+    "query_implementation_sha256": "1ace1ce84afb4794c2fd769936754871838f60a7fcbf679e4d89fd449a3cfcb7"
+  },
+  {
+    "kind": "road",
+    "source_id": "OSM-MN",
+    "osm_id": "osm:way:7843802",
+    "status": "PASS"
+  },
+  {
+    "kind": "address",
+    "source_id": "OSM-MN",
+    "osm_id": "osm:node:947444010",
+    "status": "PASS"
+  },
+  {
+    "kind": "admin",
+    "source_id": "OSM-MN",
+    "osm_id": "osm:way:25165858",
+    "status": "PASS"
+  },
+  {
+    "kind": "road",
+    "source_id": "OSM-MO",
+    "osm_id": "osm:way:22988070",
+    "status": "PASS"
+  },
+  {
+    "kind": "address",
+    "source_id": "OSM-MO",
+    "osm_id": "osm:node:2157626060",
+    "status": "PASS"
+  },
+  {
+    "kind": "admin",
+    "source_id": "OSM-MO",
+    "osm_id": "osm:way:386766618",
+    "status": "PASS"
+  },
+  {
+    "kind": "road",
+    "source_id": "OSM-TW",
+    "osm_id": "osm:way:4860359",
+    "status": "PASS",
+    "method": "native numeric-ID prefilter plus complete type-qualified identity match",
+    "input": "verified_native_projection",
+    "projection_sha256": "d3753c71c768fbb34bb8aa236839637af4007388d8b7f8cdbad314684de814a5",
+    "original_source_sha256": "96f448d5a77abf7ff375761ddecaf444d9c2131693ba651a4a642bb656327972",
+    "query_implementation_sha256": "1ace1ce84afb4794c2fd769936754871838f60a7fcbf679e4d89fd449a3cfcb7"
+  },
+  {
+    "kind": "address",
+    "source_id": "OSM-TW",
+    "osm_id": "osm:node:51334252",
+    "status": "PASS",
+    "method": "native numeric-ID prefilter plus complete type-qualified identity match",
+    "input": "verified_native_projection",
+    "projection_sha256": "d3753c71c768fbb34bb8aa236839637af4007388d8b7f8cdbad314684de814a5",
+    "original_source_sha256": "96f448d5a77abf7ff375761ddecaf444d9c2131693ba651a4a642bb656327972",
+    "query_implementation_sha256": "1ace1ce84afb4794c2fd769936754871838f60a7fcbf679e4d89fd449a3cfcb7"
+  },
+  {
+    "kind": "admin",
+    "source_id": "OSM-TW",
+    "osm_id": "osm:node:4042928019",
+    "status": "PASS",
+    "method": "native numeric-ID prefilter plus complete type-qualified identity match",
+    "input": "verified_native_projection",
+    "projection_sha256": "d3753c71c768fbb34bb8aa236839637af4007388d8b7f8cdbad314684de814a5",
+    "original_source_sha256": "96f448d5a77abf7ff375761ddecaf444d9c2131693ba651a4a642bb656327972",
+    "query_implementation_sha256": "1ace1ce84afb4794c2fd769936754871838f60a7fcbf679e4d89fd449a3cfcb7"
+  },
+  {
+    "source_id": "JP-ABR-residential-OA",
+    "status": "PASS",
+    "grain": "residential_position_subset",
+    "first_result": {
+      "id": "JP-ABR-residential-OA:0110110001001001001",
+      "ordinal": 1,
+      "raw": {
+        "id": "0110110001001001001",
+        "pref": "北海道",
+        "city": "札幌市中央区",
+        "street": "旭ケ丘１丁目",
+        "koaza": "",
+        "number": "1-1",
+        "postcode": "",
+        "lon": "141.319856069",
+        "lat": "43.044001792"
+      }
+    }
+  },
+  {
+    "source_id": "HK-ALS-OA",
+    "status": "PASS",
+    "grain": "address_lookup_observations",
+    "first_result": {
+      "id": "HK-ALS-OA:3350116067T20050430",
+      "ordinal": 1,
+      "raw": {
+        "Northing": "816067.0",
+        "Easting": "833501.0",
+        "CsuId": "3350116067T20050430",
+        "zh_Region": "香港",
+        "zh_District": "中西區",
+        "zh_StreetName": "必列者士街",
+        "BuildingNoFrom": "58",
+        "zh_EstateName": "英皇書院同學會小學",
+        "en_EstateName": "KING'S COLLEGE OLD BOYS' ASSOCIATION PRIMARY SCHOOL",
+        "en_StreetName": "BRIDGES STREET",
+        "en_District": "CENTRAL & WESTERN DISTRICT",
+        "en_Region": "HK",
+        "GeoAddress": "3350116067T20050430",
+        "StreetNumber": "58",
+        "Longitude": "114.15002",
+        "Latitude": "22.28348",
+        "BuildingNoTo": "",
+        "zh_BuildingName": "",
+        "en_BuildingName": "",
+        "zh_BlockNo": "",
+        "en_BlockNo": "",
+        "zh_BlockDescriptor": "",
+        "en_BlockDescriptor": "",
+        "en_BlockDescriptorPrecedenceIndicator": "",
+        "zh_PhaseName": "",
+        "en_PhaseName": "",
+        "zh_VillageName": "",
+        "en_VillageName": "",
+        "zh_PhaseNo": "",
+        "en_PhaseNo": "",
+        "zh_LocationName": "",
+        "en_LocationName": ""
+      }
+    }
+  },
+  {
+    "source_id": "TW-MOI-road-names-115",
+    "status": "PASS",
+    "grain": "road_names_without_house_numbers",
+    "first_result": {
+      "id": "TW-MOI-road-names-115:1",
+      "ordinal": 1,
+      "raw": {
+        "city": "宜蘭縣",
+        "site_id": "宜蘭縣三星鄉",
+        "road": "人和一路"
+      }
+    }
+  },
+  {
+    "source_id": "JP-Geolonia-towns",
+    "status": "PASS",
+    "grain": "town_location_reference_not_assigned_numbers",
+    "first_result": {
+      "id": "JP-Geolonia-towns:1",
+      "ordinal": 1,
+      "raw": {
+        "都道府県コード": "01",
+        "都道府県名": "北海道",
+        "都道府県名カナ": "ホッカイドウ",
+        "都道府県名ローマ字": "HOKKAIDO",
+        "市区町村コード": "01101",
+        "市区町村名": "札幌市中央区",
+        "市区町村名カナ": "サッポロシチュウオウク",
+        "市区町村名ローマ字": "SAPPORO SHI CHUO KU",
+        "大字町丁目名": "旭ケ丘一丁目",
+        "大字町丁目名カナ": "アサヒガオカ 1",
+        "大字町丁目名ローマ字": "ASAHIGAOKA 1",
+        "小字・通称名": "",
+        "緯度": "43.04223",
+        "経度": "141.319722"
+      }
+    }
+  },
+  {
+    "source_id": "CN-statistical-provinces",
+    "status": "PASS",
+    "grain": "statistical_provinces",
+    "first_result": {
+      "id": "CN-statistical-provinces:11",
+      "ordinal": 1,
+      "raw": {
+        "code": "11",
+        "name": "北京市"
+      }
+    }
+  },
+  {
+    "source_id": "CN-statistical-cities",
+    "status": "PASS",
+    "grain": "statistical_cities",
+    "first_result": {
+      "id": "CN-statistical-cities:1101",
+      "ordinal": 1,
+      "raw": {
+        "code": "1101",
+        "name": "市辖区",
+        "provinceCode": "11"
+      }
+    }
+  },
+  {
+    "source_id": "CN-statistical-areas",
+    "status": "PASS",
+    "grain": "statistical_areas",
+    "first_result": {
+      "id": "CN-statistical-areas:110101",
+      "ordinal": 1,
+      "raw": {
+        "code": "110101",
+        "name": "东城区",
+        "cityCode": "1101",
+        "provinceCode": "11"
+      }
+    }
+  },
+  {
+    "source_id": "CN-statistical-streets",
+    "status": "PASS",
+    "grain": "statistical_townships_not_roads",
+    "first_result": {
+      "id": "CN-statistical-streets:110101001",
+      "ordinal": 1,
+      "raw": {
+        "code": "110101001",
+        "name": "东华门街道",
+        "areaCode": "110101",
+        "cityCode": "1101",
+        "provinceCode": "11"
+      }
+    }
+  },
+  {
+    "source_id": "CN-statistical-villages",
+    "status": "PASS",
+    "grain": "statistical_villages",
+    "first_result": {
+      "id": "CN-statistical-villages:110101001001",
+      "ordinal": 1,
+      "raw": {
+        "code": "110101001001",
+        "name": "多福巷社区居委会",
+        "streetCode": "110101001",
+        "areaCode": "110101",
+        "cityCode": "1101",
+        "provinceCode": "11"
+      }
+    }
+  }
+]

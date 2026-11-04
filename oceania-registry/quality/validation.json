@@ -1,0 +1,240 @@
+{
+  "status": "passed",
+  "country_areas": 29,
+  "geonames_records": 46594,
+  "geonames_kind_counts": {
+    "populated_place": 43612,
+    "noncurrent_populated_place": 726,
+    "administrative_area": 2009,
+    "other_administrative_feature": 18,
+    "historical_administrative_area": 229
+  },
+  "by_country": {
+    "AU": {
+      "records": 19974,
+      "matched_selected_source_rows": 19974,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 13
+    },
+    "CX": {
+      "records": 7,
+      "matched_selected_source_rows": 7,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 7
+    },
+    "CC": {
+      "records": 2,
+      "matched_selected_source_rows": 2,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 2
+    },
+    "HM": {
+      "records": 0,
+      "matched_selected_source_rows": 0,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 0
+    },
+    "NZ": {
+      "records": 3421,
+      "matched_selected_source_rows": 3421,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 2,
+      "country_only_parent": 302
+    },
+    "NF": {
+      "records": 4,
+      "matched_selected_source_rows": 4,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 4
+    },
+    "FJ": {
+      "records": 2350,
+      "matched_selected_source_rows": 2350,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 72
+    },
+    "NC": {
+      "records": 785,
+      "matched_selected_source_rows": 785,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 60
+    },
+    "PG": {
+      "records": 11780,
+      "matched_selected_source_rows": 11780,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 48
+    },
+    "SB": {
+      "records": 3272,
+      "matched_selected_source_rows": 3272,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 287
+    },
+    "VU": {
+      "records": 1930,
+      "matched_selected_source_rows": 1930,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 11
+    },
+    "GU": {
+      "records": 150,
+      "matched_selected_source_rows": 150,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 19
+    },
+    "KI": {
+      "records": 247,
+      "matched_selected_source_rows": 247,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 3
+    },
+    "MH": {
+      "records": 159,
+      "matched_selected_source_rows": 159,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 33
+    },
+    "FM": {
+      "records": 554,
+      "matched_selected_source_rows": 554,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 4
+    },
+    "NR": {
+      "records": 29,
+      "matched_selected_source_rows": 29,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 14
+    },
+    "MP": {
+      "records": 72,
+      "matched_selected_source_rows": 72,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 4
+    },
+    "PW": {
+      "records": 103,
+      "matched_selected_source_rows": 103,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 18
+    },
+    "UM": {
+      "records": 20,
+      "matched_selected_source_rows": 20,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 9
+    },
+    "AS": {
+      "records": 249,
+      "matched_selected_source_rows": 249,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 2,
+      "country_only_parent": 7
+    },
+    "CK": {
+      "records": 127,
+      "matched_selected_source_rows": 127,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 86
+    },
+    "PF": {
+      "records": 501,
+      "matched_selected_source_rows": 501,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 4,
+      "country_only_parent": 77
+    },
+    "NU": {
+      "records": 49,
+      "matched_selected_source_rows": 49,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 49
+    },
+    "PN": {
+      "records": 1,
+      "matched_selected_source_rows": 1,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 1
+    },
+    "WS": {
+      "records": 446,
+      "matched_selected_source_rows": 446,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 314
+    },
+    "TK": {
+      "records": 8,
+      "matched_selected_source_rows": 8,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 3
+    },
+    "TO": {
+      "records": 177,
+      "matched_selected_source_rows": 177,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 9
+    },
+    "TV": {
+      "records": 36,
+      "matched_selected_source_rows": 36,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 8
+    },
+    "WF": {
+      "records": 141,
+      "matched_selected_source_rows": 141,
+      "unresolved_parent": 0,
+      "ancestor_fallback": 0,
+      "country_only_parent": 3
+    }
+  },
+  "max_observed_parent_chain_records": 4,
+  "official_au_source_codes": 567,
+  "official_au_role_counts": {
+    "unincorporated_area": 6,
+    "no_usual_address_non_spatial": 9,
+    "migratory_offshore_shipping_non_spatial": 9,
+    "local_government_area": 542,
+    "outside_australia_non_spatial": 1
+  },
+  "hard_errors": 0,
+  "unresolved_geo_parents": 0,
+  "checks": [
+    "all source SHA-256 checksums",
+    "all selected raw rows retained exactly once",
+    "CSV/JSONL equality",
+    "names, aliases, IDs, coordinates and raw admin codes match source",
+    "country membership",
+    "exact unique administrative-code references",
+    "no parent cycles",
+    "noncurrent records separated",
+    "AU pinned manifest and declared counts"
+  ],
+  "interpretation": "Integrity verification only; not independent verification of municipal legality, real-world completeness, boundaries or delivery."
+}

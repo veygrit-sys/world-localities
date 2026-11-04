@@ -1,0 +1,92 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "MNE",
+    "country": "ME",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Montenegro",
+    "geonames_id": "3194884",
+    "id": "country:ME",
+    "m49": "499",
+    "m49_region": "Europe",
+    "name_en": "Montenegro",
+    "region": "Southern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 4015,
+    "admin_rows": 25,
+    "ambiguous_parents": 0,
+    "country": "ME",
+    "country_scope_only": 3,
+    "localities_without_adm1": 29,
+    "locality_rows": 4041,
+    "name_en": "Montenegro",
+    "other_admin_rows": 0,
+    "region": "Southern Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 25,
+    "PPL": 3446,
+    "PPLA": 24,
+    "PPLC": 1,
+    "PPLCH": 2,
+    "PPLH": 1,
+    "PPLL": 529,
+    "PPLQ": 3,
+    "PPLW": 20,
+    "PPLX": 15
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 143704,
+      "rows": 4066,
+      "sha256": "abe35e761e7356baddc1ab12845804fab205fa44a9832c1868cb2b77fe8d1f38",
+      "uncompressed_sha256": "bbd4f55084faeac584795377d5d43418d9434c9384b4be87893af4da2c162915"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 3,
+    "historical_parent_not_asserted": 26,
+    "source_admin_code": 4012,
+    "source_country": 25
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 25,
+      "sha256": "9401f5835fae5931bfac59b14c38e7877cf9b30f6513b5701d7e601e2e66b321"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 14153,
+    "bytes": 376333,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 1512,
+      "L": 1701,
+      "R": 12,
+      "S": 1098,
+      "T": 5761,
+      "V": 2
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:54:50 GMT",
+    "retained_rows": 4066,
+    "retrieved_at": "2026-09-29T11:14:18.588264+00:00",
+    "sha256": "7363a7a3f1d66cd81ebdaf4a8d96ea637474cab5b31017cd9ea1ae46c1e288b2",
+    "url": "https://download.geonames.org/export/dump/ME.zip"
+  },
+  "source_modified_max": "2026-09-15",
+  "source_modified_min": "2012-01-19"
+}

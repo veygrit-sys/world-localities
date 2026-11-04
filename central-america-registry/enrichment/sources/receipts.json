@@ -1,0 +1,42 @@
+{
+  "CR.zip": {
+    "bytes": 586165,
+    "etag": "\"8f1b5-65dd772307a20\"",
+    "final_url": "https://download.geonames.org/export/dump/CR.zip",
+    "last_modified": "Thu, 15 Oct 2026 02:02:55 GMT",
+    "retrieved_at": "2026-10-15T08:35:18.376361+00:00",
+    "retrieved_on": "2026-10-15",
+    "sha256": "ed42565b78a47a95cc286a5c53e78a7bce5019bcc5106730a985ef69b7180e35",
+    "url": "https://download.geonames.org/export/dump/CR.zip"
+  },
+  "alternatenames/CR.zip": {
+    "bytes": 257068,
+    "etag": "\"3ec2c-65dd794e00173\"",
+    "final_url": "https://download.geonames.org/export/dump/alternatenames/CR.zip",
+    "last_modified": "Thu, 15 Oct 2026 02:12:37 GMT",
+    "retrieved_at": "2026-10-15T08:35:19.563915+00:00",
+    "retrieved_on": "2026-10-15",
+    "sha256": "589d80320b3ef60619c2843b533d403c747e50b3b40f72ff10a547d9d7357a5e",
+    "url": "https://download.geonames.org/export/dump/alternatenames/CR.zip"
+  },
+  "countryInfo.txt": {
+    "bytes": 31690,
+    "etag": "\"7bca-65dd79c91e453\"",
+    "final_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+    "last_modified": "Thu, 15 Oct 2026 02:14:46 GMT",
+    "retrieved_at": "2026-10-15T08:35:19.975801+00:00",
+    "retrieved_on": "2026-10-15",
+    "sha256": "c55f638cfaafb4fe45a9aa15120a0f1f78e8a34a8e1847d7b9320cf740fbc9ab",
+    "url": "https://download.geonames.org/export/dump/countryInfo.txt"
+  },
+  "readme.txt": {
+    "bytes": 8843,
+    "etag": "\"228b-65dd763c26318\"",
+    "final_url": "https://download.geonames.org/export/dump/readme.txt",
+    "last_modified": "Thu, 15 Oct 2026 01:58:53 GMT",
+    "retrieved_at": "2026-10-15T08:35:20.289237+00:00",
+    "retrieved_on": "2026-10-15",
+    "sha256": "b1957379b6c1242c700c98ac9a8aa0a09f56c3c0a50ee72175527005f48ef2c5",
+    "url": "https://download.geonames.org/export/dump/readme.txt"
+  }
+}

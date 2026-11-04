@@ -1,0 +1,90 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "GTM",
+    "country": "GT",
+    "geonames_continent": "NA",
+    "geonames_country_name": "Guatemala",
+    "geonames_id": "3595528",
+    "id": "country:GT",
+    "m49": "320",
+    "name_en": "Guatemala",
+    "numeric": "320",
+    "region": "Central America",
+    "reported_languages": [
+      "es-GT"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 16951,
+    "admin_rows": 362,
+    "ambiguous_parents": 0,
+    "country": "GT",
+    "country_scope_only": 0,
+    "localities_without_adm1": 0,
+    "locality_rows": 16981,
+    "name_en": "Guatemala",
+    "other_admin_rows": 20,
+    "region": "Central America",
+    "unresolved_parents": 6
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 22,
+    "ADM2": 340,
+    "ADMD": 19,
+    "PCLI": 1,
+    "PPL": 15433,
+    "PPLA": 21,
+    "PPLA2": 298,
+    "PPLC": 1,
+    "PPLF": 28,
+    "PPLL": 481,
+    "PPLQ": 2,
+    "PPLX": 717
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 605299,
+      "rows": 17363,
+      "sha256": "cbba59af36551842e9f0990744fde9ee54c92d6ff406d49808a43cbc371266c2",
+      "uncompressed_sha256": "a655e4b0515f8419be39916552d05b246923dc45b251e816e518709f77c6686f"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "missing_reference": 6,
+    "not_assigned_for_other_feature": 20,
+    "source_admin_code": 17315,
+    "source_country": 22
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 22,
+      "sha256": "510de9dce59b1940c8eee694b33ed641f1c512bb29e9ed291c6bf78b38c086b9"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 1047133,
+    "discarded_feature_classes": {
+      "H": 6172,
+      "L": 1937,
+      "R": 4,
+      "S": 9492,
+      "T": 1747,
+      "V": 6
+    },
+    "retained_rows": 17363,
+    "retrieved_on": "2026-10-01",
+    "sha256": "6b6af2d918d4c885913827410ce0cf2ebcae0919b4052b0658ff5ed491f597f7",
+    "source_rows": 36721,
+    "url": "https://download.geonames.org/export/dump/GT.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1993-12-23"
+}

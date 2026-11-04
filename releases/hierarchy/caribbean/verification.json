@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "region": "caribbean",
+  "checked_on_jst": "2026-10-22",
+  "complete": false,
+  "world_complete": false,
+  "deliverability_in_scope": false,
+  "checks": [
+    {
+      "check": "hierarchy_raw_source_integrity_and_full_selected_observation_replay",
+      "status": "PASS",
+      "source_objects": 106,
+      "selected_observation_rows": 93920,
+      "alias_rows": 61392,
+      "report": "hierarchy-replay.json"
+    },
+    {
+      "check": "official_BAN_and_Census_road_attributes_and_geometry_full_row_replay",
+      "status": "PASS",
+      "source_files": 85,
+      "source_rows": 510822,
+      "report": "official-replay.json"
+    },
+    {
+      "check": "INSEE_administrative_codes_and_explicit_collectivity_aliases",
+      "status": "PASS",
+      "references": 68,
+      "report": "administrative-crosscheck.json"
+    },
+    {
+      "check": "independent_openpyxl_selected_worksheet_readback",
+      "status": "PASS",
+      "worksheets": 25,
+      "rows": 3128,
+      "cells": 79207
+    },
+    {
+      "check": "pinned_data_archive_roundtrip_restore_and_all_85_raw_file_hashes",
+      "status": "PASS",
+      "archive_manifest": "official-data-archive.json"
+    },
+    {
+      "check": "OpenStreetMap_original_PBF_object_ID_version_tags_and_explicit_references_full_replay",
+      "status": "PASS",
+      "source_objects": 1788611,
+      "report": "osm-replay.json"
+    },
+    {
+      "check": "OpenStreetMap_archive_roundtrip_restore_and_normalized_row_digest",
+      "status": "PASS",
+      "records": 1788611,
+      "archive_manifest": "osm-data-archive.json"
+    },
+    {
+      "check": "OpenStreetMap_explicit_subarea_reference_audit",
+      "status": "REVIEW_REQUIRED",
+      "source_issues": 12,
+      "source_cycles": 0,
+      "report": "osm-parent-audit.json"
+    },
+    {
+      "check": "restored_OpenStreetMap_index_country_and_literal_number_queries",
+      "status": "PASS",
+      "countries": 28,
+      "report": "osm-query-checks.json"
+    }
+  ],
+  "test_suites": [
+    {
+      "suite": "All installed hierarchy regressions",
+      "tests_run": 247,
+      "status": "PASS"
+    },
+    {
+      "suite": "Official Caribbean source regressions",
+      "tests_run": 16,
+      "status": "PASS"
+    },
+    {
+      "suite": "Snapshot integrity regressions",
+      "tests_run": 7,
+      "status": "PASS"
+    },
+    {
+      "suite": "Repository layout regressions",
+      "tests_run": 5,
+      "status": "PASS"
+    },
+    {
+      "suite": "Existing Caribbean address-display regressions",
+      "tests_run": 21,
+      "status": "PASS"
+    },
+    {
+      "suite": "Existing Caribbean gazetteer regressions",
+      "tests_run": 13,
+      "status": "PASS"
+    },
+    {
+      "suite": "OpenStreetMap scope, literal-number, reference and snapshot regressions",
+      "tests_run": 14,
+      "status": "PASS"
+    }
+  ],
+  "tests_run": 323,
+  "hierarchy_nodes": 70789,
+  "ban_position_observations": 314632,
+  "ban_numbered_source_ids": 314290,
+  "road_feature_observations": 196190,
+  "not_performed": [
+    "Independent worldwide or national completeness certification of all four layers for all 28 countries/areas",
+    "Fresh re-acquisition of all 106 historical hierarchy source objects",
+    "Legal effective-date and boundary reconciliation for every administrative division",
+    "Assignment of every number and physical-road topology reconciliation",
+    "Delivery eligibility or deliverability verification"
+  ],
+  "historical_release_reports_are_not_this_test_run": true,
+  "data_licences": "Original notices in original/LICENSE_DATA.md and per-source licence fields in official-sources.json are retained.",
+  "osm_source_objects": 1788611,
+  "osm_road_ways": 1185849,
+  "osm_explicit_number_observations": 590970,
+  "source_policy": "official_and_open_data_source_layers_retained_separately",
+  "open_map_source_timestamp_utc": "2026-10-20T20:23:47Z",
+  "openaddresses_candidates": 14
+}

@@ -1,0 +1,174 @@
+{
+  "countries": [
+    {
+      "country": "AG",
+      "metadata_sha256": "fbf41aee7fd8843729d055cd3b532ab037a15bf78fef17bb2b8033cdbf92575e"
+    },
+    {
+      "country": "AI",
+      "metadata_sha256": "4d3572c1a870ff8fd78db46c014fe2420fe29c58e138aa3bbfd50d73e48aefe2"
+    },
+    {
+      "country": "AW",
+      "metadata_sha256": "6c2fecc6a41b881117b4a2934dca3a8be4c4a77178840092ad015c0aaf27fe1f"
+    },
+    {
+      "country": "BB",
+      "metadata_sha256": "d7d56c2b03db828207841c5e9c159d203fc440ecf4973b52b0d7ce806c4aa868"
+    },
+    {
+      "country": "BL",
+      "metadata_sha256": "87f647dd6ec9a2621c113019c96d46cff86476c4e61fabc15530e413e2f15399"
+    },
+    {
+      "country": "BQ",
+      "metadata_sha256": "f5b8d5eeb4ba1b86335eea8d02a9c37eae5e46974c179779796b8fab3e92736d"
+    },
+    {
+      "country": "BS",
+      "metadata_sha256": "137fedc43e80d6bd496199a8d13a5d72b3b6ed2b6e7bd566a5b50757bd93a0fc"
+    },
+    {
+      "country": "CW",
+      "metadata_sha256": "bf99670d741781dd4f64724bcca93130c39a6535a9013321adc1268e73fefca3"
+    },
+    {
+      "country": "DM",
+      "metadata_sha256": "0d544a65a45ed3042bd7d9125e2aebbf57182c93349d76786b8994626ae190ed"
+    },
+    {
+      "country": "DO",
+      "metadata_sha256": "c71816ed1a3cd9bad4aad187b3f885a543cfc63fcc917e0e92281200db73446b"
+    },
+    {
+      "country": "GD",
+      "metadata_sha256": "b3d5fea7bfc41d4f40ea78db6671a51aa7bbb1dfb45f1cc80e3f19d2a828d9bd"
+    },
+    {
+      "country": "GP",
+      "metadata_sha256": "c68879939f99f6b9e41af11b3bee16cc3cbd3830010d84b0cd0db0becde59e6e"
+    },
+    {
+      "country": "HT",
+      "metadata_sha256": "991e6494caab00004437cd09c20c0b17bb955149618d5f412c4b2696db39aee0"
+    },
+    {
+      "country": "JM",
+      "metadata_sha256": "796ac29f3eda4de8070598a40047c21857e2b8062908598703fdb62d517af512"
+    },
+    {
+      "country": "KN",
+      "metadata_sha256": "4bbe958e745880ebfbe646588564b76d336f72a0aba5917e26101adf2ddae3eb"
+    },
+    {
+      "country": "KY",
+      "metadata_sha256": "9d9ed9570d2f605246e08885e3d5960c3fe821ebbb162ac0ca03627988cd2de1"
+    },
+    {
+      "country": "LC",
+      "metadata_sha256": "84403b2da0665ed6dbc9f0c2447e998f4bfb8037d6f6282f06edaa93d7630953"
+    },
+    {
+      "country": "MF",
+      "metadata_sha256": "dd2399f0701117dac8f63102c1676bd524be921914e1d6774dce38d38cd9574f"
+    },
+    {
+      "country": "MQ",
+      "metadata_sha256": "555c4f2707ab048757316e79cc0ae1bbd472972cfa0e83ad21a2b26875e72dd4"
+    },
+    {
+      "country": "MS",
+      "metadata_sha256": "ee84676a1b59dc9a5641b756792b8bddf23fcb357fed758ce881d5f68d6d1ad8"
+    },
+    {
+      "country": "PR",
+      "metadata_sha256": "4282f3d5b7ec4e300bbea88ff30631df5fa6fede37ada392ee168fe7625c88d7"
+    },
+    {
+      "country": "SX",
+      "metadata_sha256": "03aa3daec55a334c100441955444c2446ae47bc30d56b92a851c8f9fb26808ad"
+    },
+    {
+      "country": "TC",
+      "metadata_sha256": "54dbce215273f9ebeb3b27abaf089bce06f7599acb11ec3727d3a5a4126bf7bd"
+    },
+    {
+      "country": "TT",
+      "metadata_sha256": "710752b9bd715c41686220aef30a0478d91b2995f7af2de6e1aab293235e214a"
+    },
+    {
+      "country": "VC",
+      "metadata_sha256": "f227128d2c12e67bae2a263f787af01398ed7a9c6980c6c8d5184de056bfd429"
+    },
+    {
+      "country": "VG",
+      "metadata_sha256": "9b8f9354fd13dc5f39ad3b54b67d3b961fcfffe81edea04a24ec1c5a06964044"
+    },
+    {
+      "country": "VI",
+      "metadata_sha256": "25c35ce7452f3919533d0cb04d76da96b8108b8afb5fb1194ab3af58c2e90c46"
+    }
+  ],
+  "coverage_claim": "Partial Caribbean publication: 27 of 28 M49 countries/areas; Cuba (CU) is omitted. All A/P rows for each included source-country extract; legal municipality, native/English label, and postal completeness unverified.",
+  "coverage_sha256": "32bace8470058981eeb016ef1e86cb8d37ecce9a6897acd0c2c003de36332974",
+  "license": "CC-BY-4.0",
+  "missing_countries": [
+    "CU"
+  ],
+  "omitted_countries": [
+    {
+      "country": "CU",
+      "name_en": "Cuba",
+      "reason": "Country upload is pending approval; no Cuba country files are included in this partial publication.",
+      "status": "omitted_from_this_publication"
+    }
+  ],
+  "prepared_count": 27,
+  "prepared_countries": [
+    "AG",
+    "AI",
+    "AW",
+    "BB",
+    "BL",
+    "BQ",
+    "BS",
+    "CW",
+    "DM",
+    "DO",
+    "GD",
+    "GP",
+    "HT",
+    "JM",
+    "KN",
+    "KY",
+    "LC",
+    "MF",
+    "MQ",
+    "MS",
+    "PR",
+    "SX",
+    "TC",
+    "TT",
+    "VC",
+    "VG",
+    "VI"
+  ],
+  "prepared_on": "2026-10-01",
+  "schema_version": 1,
+  "scope_count": 28,
+  "scope_sha256": "b73a11e6f4f3eded4170e94a00133c8a50049c97ec6e9d0ebb405b18ce444182",
+  "totals": {
+    "address_candidates": 31630,
+    "admin_rows": 18256,
+    "alternate_rows": 55255,
+    "ambiguous_parents": 0,
+    "country_scope_only": 2544,
+    "english_entities": 1296,
+    "entities": 50581,
+    "localities_without_adm1": 2547,
+    "locality_rows": 31942,
+    "other_admin_rows": 383,
+    "postal_rows": 196,
+    "unresolved_parents": 764
+  }
+}

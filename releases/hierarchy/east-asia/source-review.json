@@ -1,0 +1,152 @@
+{
+  "reviewed_at": "2026-10-22",
+  "source_policy": "official_and_open_data",
+  "provenance_receipts": [
+    {
+      "url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/jp/abr_residential.json",
+      "checked_at": "2026-10-22T06:58:09.037001+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/hk/countrywide.json",
+      "checked_at": "2026-10-22T06:58:09.038262+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/geolonia/japanese-addresses/384a5b52472363416275ac6c3e30a678b6b1252d/README.md",
+      "checked_at": "2026-10-22T06:58:09.038884+00:00",
+      "status": 200,
+      "path": "provenance/geolonia-readme.md",
+      "bytes": 9281,
+      "sha256": "0e9740bb8b89f401a1e899a66c366840994e4abd938134fc9ff969bf2c4ee0fc"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/modood/Administrative-divisions-of-China/c49d495b40ac73eb1a66f6eeae5f8fd10696f035/README.md",
+      "checked_at": "2026-10-22T06:58:12.950282+00:00",
+      "status": 200,
+      "path": "provenance/cn-readme.md",
+      "bytes": 6523,
+      "sha256": "44814b160f3d5e1d3157fb3db15e78d5d9e75b2f75a7eadd6e7f9934c3097ac5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/modood/Administrative-divisions-of-China/c49d495b40ac73eb1a66f6eeae5f8fd10696f035/LICENSE",
+      "checked_at": "2026-10-22T06:58:12.977058+00:00",
+      "status": 200,
+      "path": "provenance/cn-LICENSE",
+      "bytes": 479,
+      "sha256": "ee820ff0db4ce628569e0975ac27dc926052a9f85d102b101edb104311ef4d90"
+    },
+    {
+      "url": "https://www.digital.go.jp/policies/base_registry_address_tos",
+      "checked_at": "2026-10-22T06:58:13.015918+00:00",
+      "status": 200,
+      "path": "provenance/jp-terms.html",
+      "bytes": 53588,
+      "sha256": "452a31657dbf4de901037cd005d506885fc26e280858d4ad7e5ae5c4ac19ed23"
+    },
+    {
+      "url": "https://data.gov.hk/en/terms-and-conditions",
+      "checked_at": "2026-10-22T06:58:18.382520+00:00",
+      "status": 200,
+      "path": "provenance/hk-source-terms.html",
+      "bytes": 39948,
+      "sha256": "c901a8f56c42a4cbcb2502c10d3623309529500e38f5d6c247aab68c6149dde0"
+    },
+    {
+      "url": "https://data.gov.hk/en-data/dataset/hk-dpo-als_01-als",
+      "checked_at": "2026-10-22T06:58:20.587876+00:00",
+      "status": 200,
+      "path": "provenance/hk-source-page.html",
+      "bytes": 94824,
+      "sha256": "e2f8434bc951bc5f193fbeb6fb090b7e80c044c63d5b095ad08dbe4bed83876d"
+    },
+    {
+      "url": "https://data.gov.tw/dataset/35321",
+      "checked_at": "2026-10-22T06:58:20.612335+00:00",
+      "status": 200,
+      "path": "provenance/tw-road-source.html",
+      "bytes": 565335,
+      "sha256": "4131f74a52e631c555e323a5b8bdae00d8165ca25348900decd94ec0cdc832b1"
+    },
+    {
+      "url": "https://data.gov.tw/dataset/102011",
+      "checked_at": "2026-10-22T06:58:25.715975+00:00",
+      "status": 200,
+      "path": "provenance/tw-town-source.html",
+      "bytes": 525760,
+      "sha256": "46dfd6b2bfd31e89a0052b978f812fa959e978ac91cf351bd967baaed909404c"
+    },
+    {
+      "url": "https://data.gov.tw/dataset/102017",
+      "checked_at": "2026-10-22T06:58:26.498102+00:00",
+      "status": 200,
+      "path": "provenance/tw-village-source.html",
+      "bytes": 528583,
+      "sha256": "b1127c41eacaab6e7af730e7251b207317bebd4d80bcc66d898b94e17c10965e"
+    },
+    {
+      "url": "https://data.address-br.digital.go.jp/mt_pref/mt_pref_all.csv.zip",
+      "checked_at": "2026-10-22T06:58:27.913477+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://data.address-br.digital.go.jp/mt_city/mt_city_all.csv.zip",
+      "checked_at": "2026-10-22T06:58:28.580176+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://data.address-br.digital.go.jp/mt_town/mt_town_all.csv.zip",
+      "checked_at": "2026-10-22T06:58:28.856621+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "openaddresses_recipes": [
+    {
+      "url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/jp/countrywide.json",
+      "path": "provenance/oa-sources_jp_countrywide.json",
+      "bytes": 1911,
+      "sha256": "7204eee025ae3e30b0619fab3d8b189e492747becd8839f2c4c9a16e9f7bd723",
+      "upstream_commit": "694e3dea10cc7465907c0ad5eb6ff1f62deef3b9",
+      "generating_commit_of_uploaded_payload_is_known": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/scripts/jp/abr_residential.py",
+      "path": "provenance/oa-scripts_jp_abr_residential.py",
+      "bytes": 4713,
+      "sha256": "3218916e131aeab48e866cd24c3d1e42339793eea1ccb1ee2bcc772dc42200fc",
+      "upstream_commit": "694e3dea10cc7465907c0ad5eb6ff1f62deef3b9",
+      "generating_commit_of_uploaded_payload_is_known": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/hk/countrywide-en.json",
+      "path": "provenance/oa-sources_hk_countrywide-en.json",
+      "bytes": 1212,
+      "sha256": "28d5e165259ab96188c8ee30606516431b6777308163c268680c5e2c743e0368",
+      "upstream_commit": "694e3dea10cc7465907c0ad5eb6ff1f62deef3b9",
+      "generating_commit_of_uploaded_payload_is_known": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/hk/countrywide-zh.json",
+      "path": "provenance/oa-sources_hk_countrywide-zh.json",
+      "bytes": 1212,
+      "sha256": "7140dbe7cbe67fc5163b938fbd4dd0d0a9d87df7ab7c96f72bbc84216304287c",
+      "upstream_commit": "694e3dea10cc7465907c0ad5eb6ff1f62deef3b9",
+      "generating_commit_of_uploaded_payload_is_known": false
+    }
+  ],
+  "generating_commit_of_uploaded_OA_payloads_supplied": false,
+  "current_issuer_completeness_verified": false,
+  "remaining_acquisition": [
+    "JP complete official pref/city/town and residence/parcel masters: attempted CDN endpoints returned HTTP 403",
+    "KR official address and administrative masters not acquired",
+    "CN current official legal subdivision inventory not verified",
+    "HK ALS is non-exhaustive; district labels are source labels",
+    "MN/KP/MO official full registers not acquired",
+    "TW physical road inventory and complete assigned house numbers not verified"
+  ]
+}

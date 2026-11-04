@@ -1,0 +1,1368 @@
+{
+  "schema_version": 1,
+  "region": "caribbean",
+  "checked_on_jst": "2026-10-22",
+  "upstream_tree": "694e3dea10cc7465907c0ad5eb6ff1f62deef3b9",
+  "definitions": 14,
+  "sources": [
+    {
+      "country": "BS",
+      "source_definition_path": "sources/bs/fp/city_of_freeport.json",
+      "source_definition_url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/bs/fp/city_of_freeport.json",
+      "definition_sha256": "b4f492c223f9599b9262d6bf19e30fa835aaf6d5fd3dbbb4c1dcb72b9aaf91dd",
+      "url": "https://services5.arcgis.com/2A67EqGJx1Goyk7B/ArcGIS/rest/services/Address_points_Freeport_WGS84_LatLong/FeatureServer/0",
+      "protocol": "ESRI",
+      "published_license": null,
+      "coverage": {
+        "ISO 3166": {
+          "alpha2": "BS-FP",
+          "country": "Bahamas",
+          "subdivision": "City of Freeport"
+        },
+        "country": "bs",
+        "state": "fp",
+        "city": "Freeport"
+      },
+      "data_acquired": false,
+      "complete": false,
+      "deliverability_in_scope": false,
+      "status": "publisher_metadata_read_coverage_and_reuse_terms_need_verification",
+      "publisher_metadata": {
+        "name": "Address_WGS_84_GPS",
+        "type": "Feature Layer",
+        "copyrightText": "",
+        "serviceItemId": "0249ebefed134a4793560a0782669d45",
+        "objectIdField": "FID",
+        "maxRecordCount": 16000,
+        "capabilities": "Query",
+        "extent": {
+          "xmin": 720797.8233578897,
+          "ymin": 2932094.9325683946,
+          "xmax": 761155.7926478423,
+          "ymax": 2953814.6877558925,
+          "spatialReference": {
+            "wkid": 32617,
+            "latestWkid": 32617
+          }
+        }
+      },
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "City",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "Island",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "GPS_XY",
+          "type": "esriFieldTypeString"
+        }
+      ]
+    },
+    {
+      "country": "BS",
+      "source_definition_path": "sources/bs/new_providence.json",
+      "source_definition_url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/bs/new_providence.json",
+      "definition_sha256": "12d05acf304b9fff4b8b8deecefb90af92346ef1b02c7f7924adbbcf19735bad",
+      "url": "https://services1.arcgis.com/4oMMDQGZOv7y40Xb/arcgis/rest/services/New_Providence___Basemap_WFL1/FeatureServer/3",
+      "protocol": "ESRI",
+      "published_license": null,
+      "coverage": {
+        "ISO 3166": {
+          "alpha2": "BS-NP",
+          "country": "Bahamas",
+          "subdivision": "New Providence"
+        },
+        "country": "bs",
+        "state": "np"
+      },
+      "data_acquired": false,
+      "complete": false,
+      "deliverability_in_scope": false,
+      "status": "publisher_metadata_read_coverage_and_reuse_terms_need_verification",
+      "publisher_metadata": {
+        "name": "New Providence - Address Points",
+        "type": "Feature Layer",
+        "copyrightText": "",
+        "serviceItemId": "5d143764e55e4dc3a0e583b190e39351",
+        "objectIdField": "OBJECTID",
+        "maxRecordCount": 2000,
+        "capabilities": "Query",
+        "extent": {
+          "xmin": -8633249.122519808,
+          "ymin": 2873173.4902297836,
+          "xmax": -8599967.63961821,
+          "ymax": 2886835.4545010594,
+          "spatialReference": {
+            "wkid": 102100,
+            "latestWkid": 3857
+          }
+        }
+      },
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "name": "objectid_1",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "name": "class_name",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "sub_class",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "island_cod",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "house_id",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "name": "x_cord",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "y_cord",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "side_parit",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "distance",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "name": "street_nam",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "rid",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "name": "left_side",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "right_side",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "house_numb",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "shape_leng",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "status",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "shape_le_1",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "shape_le_2",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "orig_fid",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "name": "addresses",
+          "type": "esriFieldTypeString"
+        }
+      ]
+    },
+    {
+      "country": "CW",
+      "source_definition_path": "sources/cw/countrywide.json",
+      "source_definition_url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/cw/countrywide.json",
+      "definition_sha256": "08b4449d3eaac5d382bd65baa6519df39f398533779cde327740a0a4137e1386",
+      "url": "https://utility.arcgis.com/usrsvcs/servers/08fa093e94c04ceaac8c4c7c610fdca8/rest/services/Geoweb/BasiskaartCuracaov3New/MapServer/57",
+      "protocol": "ESRI",
+      "published_license": {
+        "attribution": true,
+        "attribution name": "Ministerie van Verkeer, Vervoer en Ruimtelijke Planning (VVRP), Curaçao",
+        "presumed": true,
+        "remarks": "https://basiskaart-vvrp.hub.arcgis.com/"
+      },
+      "coverage": {
+        "country": "cw",
+        "ISO 3166": {
+          "alpha2": "CW",
+          "country": "Curaçao"
+        }
+      },
+      "data_acquired": false,
+      "complete": false,
+      "deliverability_in_scope": false,
+      "status": "publisher_metadata_read_coverage_and_reuse_terms_need_verification",
+      "publisher_metadata": {
+        "name": "Huisnummers Adres Punten",
+        "type": "Feature Layer",
+        "copyrightText": "",
+        "serviceItemId": "b84e9c9ac13c41ceb2eb9f28f988ba65",
+        "objectIdField": null,
+        "maxRecordCount": 2000,
+        "capabilities": "Map,Query,Data",
+        "extent": {
+          "xmin": 25588.300943552902,
+          "ymin": 43729.62436160765,
+          "xmax": 68135.0945155858,
+          "ymax": 80554.6513804975,
+          "spatialReference": {
+            "wkt2": "PROJCRS[\"Transverse_Mercator_Curacao_LM\",BASEGEOGCRS[\"GCS_Curacao_LM\",DATUM[\"<custom>\",ELLIPSOID[\"<custom>\",6378388.0,297.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],ANGLEUNIT[\"Degree\",0.0174532925199433]],CONVERSION[\"Transverse_Mercator\",METHOD[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",42098.45,LENGTHUNIT[\"Meter\",1.0]],PARAMETER[\"False_Northing\",60044.53,LENGTHUNIT[\"Meter\",1.0]],PARAMETER[\"Central_Meridian\",-69.0088308333,ANGLEUNIT[\"Degree\",0.0174532925199433]],PARAMETER[\"Scale_Factor\",1.0,SCALEUNIT[\"Unity\",1.0]],PARAMETER[\"Latitude_Of_Origin\",12.1994847222,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CS[Cartesian,2],AXIS[\"Easting (X)\",east,ORDER[1]],AXIS[\"Northing (Y)\",north,ORDER[2]],LENGTHUNIT[\"Meter\",1.0]]",
+            "wkt": "PROJCS[\"Transverse_Mercator_Curacao_LM\",GEOGCS[\"GCS_Curacao_LM\",DATUM[\"<custom>\",SPHEROID[\"<custom>\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",42098.45],PARAMETER[\"False_Northing\",60044.53],PARAMETER[\"Central_Meridian\",-69.0088308333],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",12.1994847222],UNIT[\"Meter\",1.0]]",
+            "xyTolerance": 0.001,
+            "zTolerance": 0.001,
+            "mTolerance": 0.001,
+            "falseX": -6143482.02880648,
+            "falseY": -12291639.107818745,
+            "xyUnits": 409324523.1860478,
+            "falseZ": -100000,
+            "zUnits": 10000,
+            "falseM": -100000,
+            "mUnits": 10000
+          }
+        }
+      },
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "name": "Straatnaam",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "Huisnummer",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "Adres",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry"
+        }
+      ]
+    },
+    {
+      "country": "JM",
+      "source_definition_path": "sources/jm/august_town.json",
+      "source_definition_url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/jm/august_town.json",
+      "definition_sha256": "94a17348d3c6b0de585b6b95fe72464c187b0624a313bbcfc59927d1cbc50427",
+      "url": "https://s3.amazonaws.com/data.openaddresses.io/cache/jm/august_town.geojson",
+      "protocol": "http",
+      "published_license": {
+        "url": "https://www.openstreetmap.org/copyright",
+        "text": "ODbL",
+        "attribution": true,
+        "share-alike": true,
+        "attribution name": "OpenStreetMap contributors"
+      },
+      "coverage": {
+        "country": "jm",
+        "city": "August Town",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -76.73,
+            18.01
+          ]
+        }
+      },
+      "data_acquired": false,
+      "complete": false,
+      "deliverability_in_scope": false,
+      "status": "OSM_derived_duplicate_not_loaded_as_independent_source"
+    },
+    {
+      "country": "JM",
+      "source_definition_path": "sources/jm/countrywide.json",
+      "source_definition_url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/jm/countrywide.json",
+      "definition_sha256": "f3f0cc49cbfed6e0e318d40e531a61f994a2f0fc52321bf5c921293366d1c906",
+      "url": "https://data.openaddresses.io/cache/uploads/trescube/936e31/jamaica.geojson.zip",
+      "protocol": "http",
+      "published_license": null,
+      "coverage": {
+        "country": "jm",
+        "ISO 3166": {
+          "alpha2": "jm",
+          "country": "Jamaica"
+        }
+      },
+      "data_acquired": false,
+      "complete": false,
+      "deliverability_in_scope": false,
+      "status": "historical_public_download_reference_not_loaded"
+    },
+    {
+      "country": "KY",
+      "source_definition_path": "sources/ky/countrywide.json",
+      "source_definition_url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/ky/countrywide.json",
+      "definition_sha256": "c1a31ae389a486796b11cfd88559cd0979925d2f6d8bc1c6e79a1259171da7e3",
+      "url": "https://adapter1.caymanlandinfo.ky/wahost/rest/services/Layer_AddressLocator/MapServer/0",
+      "protocol": "ESRI",
+      "published_license": {
+        "url": "https://www.arcgis.com/home/item.html?id=f9847387857b462b956583a0bbbc51a9",
+        "text": "Crown Copyright, all rights reserved",
+        "attribution": true,
+        "attribution name": "Lands and Survey Department, Cayman Islands Government"
+      },
+      "coverage": {
+        "ISO 3166": {
+          "alpha2": "KY",
+          "country": "Cayman Islands"
+        },
+        "country": "ky"
+      },
+      "data_acquired": false,
+      "complete": false,
+      "deliverability_in_scope": false,
+      "status": "publisher_metadata_read_coverage_and_reuse_terms_need_verification",
+      "publisher_metadata": {
+        "name": "Address Locator",
+        "type": "Feature Layer",
+        "copyrightText": "",
+        "serviceItemId": "2263d2316b8149a6b99a2dfa7129b3af",
+        "objectIdField": null,
+        "maxRecordCount": 2000,
+        "capabilities": "Query,Map,Data",
+        "extent": {
+          "xmin": -81.41979035299994,
+          "ymin": 19.263056551000034,
+          "xmax": -79.72552698899995,
+          "ymax": 19.756431947000067,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326,
+            "xyTolerance": 8.983152841195215e-09,
+            "zTolerance": 0.001,
+            "mTolerance": 0.001,
+            "falseX": -400,
+            "falseY": -400,
+            "xyUnits": 999999999.9999999,
+            "falseZ": -100000,
+            "zUnits": 10000,
+            "falseM": -100000,
+            "mUnits": 10000
+          }
+        }
+      },
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "name": "DISPLAY",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "SEARCH1",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "SEARCH2",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "SEARCH3",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "SEARCH_SOUND",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry"
+        }
+      ]
+    },
+    {
+      "country": "TT",
+      "source_definition_path": "sources/tt/chaguanas.json",
+      "source_definition_url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/tt/chaguanas.json",
+      "definition_sha256": "c3f04f67937a7016797b84129d959498204388e692184a53d0b634bb89c7b867",
+      "url": "https://services1.arcgis.com/NUSHso3rgWERZOFF/ArcGIS/rest/services/TRN_Addresses_View/FeatureServer/0",
+      "protocol": "ESRI",
+      "published_license": null,
+      "coverage": {
+        "country": "tt",
+        "state": "cha"
+      },
+      "data_acquired": false,
+      "complete": false,
+      "deliverability_in_scope": false,
+      "status": "publisher_metadata_read_coverage_and_reuse_terms_need_verification",
+      "publisher_metadata": {
+        "name": "Chaguanas_Addresses",
+        "type": "Feature Layer",
+        "copyrightText": "",
+        "serviceItemId": "4543295448b04b54bb6c8fab4b6ca83f",
+        "objectIdField": "OBJECTID_12",
+        "maxRecordCount": 2000,
+        "capabilities": "Query",
+        "extent": {
+          "xmin": 670401.6418000003,
+          "ymin": 1161032.9093999993,
+          "xmax": 679079.2467999998,
+          "ymax": 1168716.1785000004,
+          "spatialReference": {
+            "wkid": 32620,
+            "latestWkid": 32620
+          }
+        }
+      },
+      "fields": [
+        {
+          "name": "OBJECTID_12",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "name": "FID_1",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "ROUTE",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "SURNAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "GIVEN_NAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "OLD_NUMBER",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "HOUSE_BLOC",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STREET_THO",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STREET_SIG",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TOWN_VILLA",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PO_NAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "COUNTY",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "COUNTRY",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TYPE_of_OC",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "Name_of_Or",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "POSTCODE",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "name": "HOUSE_BL_1",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "HOUSE_BLOC_BL",
+          "type": "esriFieldTypeString"
+        }
+      ]
+    },
+    {
+      "country": "TT",
+      "source_definition_path": "sources/tt/diamond_vale.json",
+      "source_definition_url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/tt/diamond_vale.json",
+      "definition_sha256": "92858d677ee05f9b588b643198cf76cf1741923c1766a26c24fbb1d8971b3cdd",
+      "url": "https://services1.arcgis.com/NUSHso3rgWERZOFF/ArcGIS/rest/services/DiamondVale_Addresses/FeatureServer/0",
+      "protocol": "ESRI",
+      "published_license": null,
+      "coverage": {
+        "ISO 3166": {
+          "alpha2": "TT-DMN",
+          "country": "Trinidad and Tobago",
+          "subdivision": "Diego Martin"
+        },
+        "country": "tt",
+        "state": "dmn"
+      },
+      "data_acquired": false,
+      "complete": false,
+      "deliverability_in_scope": false,
+      "status": "publisher_metadata_read_coverage_and_reuse_terms_need_verification",
+      "publisher_metadata": {
+        "name": "Diamond_Vale",
+        "type": "Feature Layer",
+        "copyrightText": "",
+        "serviceItemId": "9216999f2ee744e7904859dbad897129",
+        "objectIdField": "OBJECTID_1",
+        "maxRecordCount": 2000,
+        "capabilities": "Query,Sync",
+        "extent": {
+          "xmin": -6853541.0781,
+          "ymin": 1199557.8971000016,
+          "xmax": -6852254.522700001,
+          "ymax": 1201346.2707999982,
+          "spatialReference": {
+            "wkid": 102100,
+            "latestWkid": 3857
+          }
+        }
+      },
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "name": "FID_1",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "ROUTE",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "SURNAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "GIVEN_NAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "OLD_NUMBER",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "HOUSE_BLOC",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "HOUSE_BL_1",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "APTNO",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STREET_THO",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STREET_SIG",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TOWN_VILLA",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TOWN_VIL_1",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PO_NAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PRIMARY_PO",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "SECONDARY_",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TERTIARY_P",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "POSTCODE",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "COUNTRY",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "REGIONAL_C",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "NAME_OF_OR",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TYPE_OF_OC",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "DATA_CAPTU",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "AKA",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "CONDITION_",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STREET_S_1",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "REMARKS",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "BUILDING_N",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "EMAIL",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "HOUSE_BL_2",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "EVEN",
+          "type": "esriFieldTypeSmallInteger"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID"
+        }
+      ]
+    },
+    {
+      "country": "TT",
+      "source_definition_path": "sources/tt/san_fernando.json",
+      "source_definition_url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/tt/san_fernando.json",
+      "definition_sha256": "b4aeee57a604d8b878ade9498045dc28cacb03160603c69844226619f67e2714",
+      "url": "https://services1.arcgis.com/NUSHso3rgWERZOFF/ArcGIS/rest/services/SanFernandoAddress/FeatureServer/0",
+      "protocol": "ESRI",
+      "published_license": null,
+      "coverage": {
+        "ISO 3166": {
+          "alpha2": "TT-SFO",
+          "country": "Trinidad and Tobago",
+          "subdivision": "San Fernando"
+        },
+        "country": "tt",
+        "state": "sfo",
+        "city": "San Fernando"
+      },
+      "data_acquired": false,
+      "complete": false,
+      "deliverability_in_scope": false,
+      "status": "publisher_metadata_read_coverage_and_reuse_terms_need_verification",
+      "publisher_metadata": {
+        "name": "SFCC",
+        "type": "Feature Layer",
+        "copyrightText": "",
+        "serviceItemId": "4c512ada6bf64396aa267b6fe796c780",
+        "objectIdField": "OBJECTID",
+        "maxRecordCount": 1000,
+        "capabilities": "Query",
+        "extent": {
+          "xmin": -6846146.927148612,
+          "ymin": 1146202.5197611449,
+          "xmax": -6836519.683707051,
+          "ymax": 1154363.6319652663,
+          "spatialReference": {
+            "wkid": 102100,
+            "latestWkid": 3857
+          }
+        }
+      },
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "FID_1",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "ROUTE",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "SURNAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "GIVEN_NAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "OLD_NUMBER",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "HOUSE_BLOC",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "HOUSE_BL_1",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "APT_NO",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "BUILD_NAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STREET_THO",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STREET_SIG",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TOWN_VILLA",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TOWN_VIL_1",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PO_NAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PRIMARY_PO",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "SECONDARY_",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TERTIARY_P",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "POSTCODE",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "COUNTRY",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "REGIONAL_C",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "NAME_OF_OR",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TYPE_OF_OC",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "DATA_CAPTU",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "AKA",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "CONDITION_",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STREET_S_1",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "REMARKS",
+          "type": "esriFieldTypeString"
+        }
+      ]
+    },
+    {
+      "country": "TT",
+      "source_definition_path": "sources/tt/tobago.json",
+      "source_definition_url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/tt/tobago.json",
+      "definition_sha256": "c24146479dbe820cfcdcca1e92ab17a72faf86dc4804c151861ed4b510730bf5",
+      "url": "https://services1.arcgis.com/NUSHso3rgWERZOFF/ArcGIS/rest/services/TGO_Addresses_View/FeatureServer/0",
+      "protocol": "ESRI",
+      "published_license": null,
+      "coverage": {
+        "ISO 3166": {
+          "alpha2": "TT-TOB",
+          "country": "Trinidad and Tobago",
+          "subdivision": "Tobago"
+        },
+        "country": "tt",
+        "state": "tob"
+      },
+      "data_acquired": false,
+      "complete": false,
+      "deliverability_in_scope": false,
+      "status": "publisher_metadata_read_coverage_and_reuse_terms_need_verification",
+      "publisher_metadata": {
+        "name": "TGO_Addresses",
+        "type": "Feature Layer",
+        "copyrightText": "",
+        "serviceItemId": "bd341a88f4b944b39dc369bd1c12510b",
+        "objectIdField": "OBJECTID",
+        "maxRecordCount": 2000,
+        "capabilities": "Query",
+        "extent": {
+          "xmin": -6773261.306109272,
+          "ymin": 1247919.040523843,
+          "xmax": -6737989.167716196,
+          "ymax": 1269798.206244154,
+          "spatialReference": {
+            "wkid": 102100,
+            "latestWkid": 3857
+          }
+        }
+      },
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "name": "FID_1",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "ROUTE",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "SURNAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "OLD_NUMBER",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "HOUSE_BLOC",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "HOUSE_BL_1",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STREET_THO",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STREET_SIG",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TOWN_VILLA",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TOWN_VIL_1",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PO_NAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PRIMARY_PO",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "SECONDARY_",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TERTIARY_P",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "POSTCODE",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "COUNTRY",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TYPE_OF_OC",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "NAME_OF_OR",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "DATA_CAPTU",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "CONDITION_",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "AKA",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STREET_S_1",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "REMARKS",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "S42Adress",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STREET_ADDRESS",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID"
+        },
+        {
+          "name": "CreationDate",
+          "type": "esriFieldTypeDate"
+        },
+        {
+          "name": "Creator",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "EditDate",
+          "type": "esriFieldTypeDate"
+        },
+        {
+          "name": "Editor",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "HOUSE_BLOC_BL",
+          "type": "esriFieldTypeString"
+        }
+      ]
+    },
+    {
+      "country": "TT",
+      "source_definition_path": "sources/tt/trincity.json",
+      "source_definition_url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/tt/trincity.json",
+      "definition_sha256": "f0f4c7a49877868196be1614ff26d56a6f0e8222885dd9fdb339b8ef0e02b565",
+      "url": "https://services1.arcgis.com/NUSHso3rgWERZOFF/ArcGIS/rest/services/Trincity_Address/FeatureServer/0",
+      "protocol": "ESRI",
+      "published_license": null,
+      "coverage": {
+        "ISO 3166": {
+          "alpha2": "TT-TUP",
+          "country": "Trinidad and Tobago",
+          "subdivision": "Tunapuna-Piarco"
+        },
+        "country": "tt",
+        "state": "tup"
+      },
+      "data_acquired": false,
+      "complete": false,
+      "deliverability_in_scope": false,
+      "status": "publisher_metadata_read_coverage_and_reuse_terms_need_verification",
+      "publisher_metadata": {
+        "name": "Trincity_sample",
+        "type": "Feature Layer",
+        "copyrightText": "",
+        "serviceItemId": "c1a236c5f0664b178631f37a7641d89e",
+        "objectIdField": "OBJECTID",
+        "maxRecordCount": 2000,
+        "capabilities": "Query,Sync",
+        "extent": {
+          "xmin": -61.38511632268358,
+          "ymin": 10.620763829247398,
+          "xmax": -61.33149124651572,
+          "ymax": 10.657408391717532,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        }
+      },
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "FID_1",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "ROUTE",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "SURNAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "GIVEN_NAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "OLD_NUMBER",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "HOUSE_BLOC",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "HOUSE_BL_1",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "APT_NO",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "BUILDING_N",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STREET_THO",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STREET_SIG",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TOWN_VILLA",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TOWN_VIL_1",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PO_NAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "PRIMARY_PO",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "SECONDARY_",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TERTIARY_P",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "POSTCODE",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "COUNTRY",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "REGIONAL_C",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "NAME_OF_OR",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "TYPE_OF_OC",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "DATA_CAPTU",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "AKA",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "CONDITION_",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STREET_S_1",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "REMARKS",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID"
+        }
+      ]
+    },
+    {
+      "country": "PR",
+      "source_definition_path": "sources/us/pr/statewide.json",
+      "source_definition_url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/us/pr/statewide.json",
+      "definition_sha256": "3018ad95af27c82d883f9a35b3188e6853ca1c9e94c66ed0dd887e538b09db3e",
+      "url": "https://data.pr.gov/api/views/h9md-ic24/rows.csv?accessType=DOWNLOAD",
+      "protocol": "http",
+      "published_license": {
+        "text": "public domain",
+        "attribution": false,
+        "share-alike": false
+      },
+      "coverage": {
+        "US Census": {
+          "geoid": "72",
+          "state": "Puerto Rico"
+        },
+        "country": "us",
+        "state": "pr"
+      },
+      "data_acquired": false,
+      "complete": false,
+      "deliverability_in_scope": false,
+      "status": "historical_public_download_reference_not_loaded"
+    },
+    {
+      "country": "VG",
+      "source_definition_path": "sources/vg/countrywide.json",
+      "source_definition_url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/vg/countrywide.json",
+      "definition_sha256": "b4ea883a36f9c12806fc127850c92ebc1ff5d1c8e530af05afcbaf25e67b6e23",
+      "url": "https://www.bvimapping.gov.vg/arcgis/rest/services/MAPS/ADDRESSES/FeatureServer/0",
+      "protocol": "ESRI",
+      "published_license": null,
+      "coverage": {
+        "ISO 3166": {
+          "alpha2": "VG",
+          "country": "British Virgin Islands"
+        },
+        "country": "vg"
+      },
+      "data_acquired": false,
+      "complete": false,
+      "deliverability_in_scope": false,
+      "status": "publisher_metadata_read_coverage_and_reuse_terms_need_verification",
+      "publisher_metadata": {
+        "name": "BVIDATA.DBO.RT_BLDUSE_ADDRESSES_2019",
+        "type": "Feature Layer",
+        "copyrightText": "",
+        "serviceItemId": null,
+        "objectIdField": "OBJECTID",
+        "maxRecordCount": 1000,
+        "capabilities": "Query,Create,Update,Delete,Uploads,Editing",
+        "extent": {
+          "xmin": -5120900,
+          "ymin": -9998100,
+          "xmax": 332073.20999999996,
+          "ymax": 2041314.3599999994,
+          "spatialReference": {
+            "wkid": 26920,
+            "latestWkid": 26920,
+            "xyTolerance": 0.001,
+            "zTolerance": 0.001,
+            "mTolerance": 0.001,
+            "falseX": -5120900,
+            "falseY": -9998100,
+            "xyUnits": 450445547.3910538,
+            "falseZ": -100000,
+            "zUnits": 10000,
+            "falseM": -100000,
+            "mUnits": 10000
+          }
+        }
+      },
+      "fields": [
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "STREET_NAM",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "BUS_NAME",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "NO_UNITS",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "No_of_Floors",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "Postal_Code",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "name": "checkAddress",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "Territory",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "Island",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "add_",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "SECTION",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble"
+        }
+      ]
+    },
+    {
+      "country": "VI",
+      "source_definition_path": "sources/vi/statewide.json",
+      "source_definition_url": "https://raw.githubusercontent.com/openaddresses/openaddresses/694e3dea10cc7465907c0ad5eb6ff1f62deef3b9/sources/vi/statewide.json",
+      "definition_sha256": "2b0458b45076e9629941b53b14872c4b6758093018b4d5a7eacd70fd34e2c658",
+      "url": "https://v2.openaddresses.io/batch-prod/upload/1/ob0t5cm3f2s/vi-statewide.zip",
+      "protocol": "http",
+      "published_license": null,
+      "coverage": {
+        "country": "vi"
+      },
+      "data_acquired": false,
+      "complete": false,
+      "deliverability_in_scope": false,
+      "status": "historical_public_download_reference_not_loaded"
+    }
+  ],
+  "complete": false,
+  "deliverability_in_scope": false,
+  "policy": "An OpenAddresses definition or reachable ArcGIS service is not independent evidence of nationwide coverage or an open redistribution licence. OSM-derived duplicates are not added as independent observations."
+}

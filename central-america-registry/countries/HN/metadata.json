@@ -1,0 +1,92 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "HND",
+    "country": "HN",
+    "geonames_continent": "NA",
+    "geonames_country_name": "Honduras",
+    "geonames_id": "3608932",
+    "id": "country:HN",
+    "m49": "340",
+    "name_en": "Honduras",
+    "numeric": "340",
+    "region": "Central America",
+    "reported_languages": [
+      "es-HN",
+      "cab",
+      "miq"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 12965,
+    "admin_rows": 316,
+    "ambiguous_parents": 0,
+    "country": "HN",
+    "country_scope_only": 0,
+    "localities_without_adm1": 0,
+    "locality_rows": 12966,
+    "name_en": "Honduras",
+    "other_admin_rows": 4,
+    "region": "Central America",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 18,
+    "ADM2": 298,
+    "ADM3H": 1,
+    "ADMD": 2,
+    "PCLI": 1,
+    "PPL": 12151,
+    "PPLA": 17,
+    "PPLA2": 2,
+    "PPLC": 1,
+    "PPLL": 12,
+    "PPLW": 1,
+    "PPLX": 782
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 437932,
+      "rows": 13286,
+      "sha256": "32fcb23d3e57b02094109a38d8639a35cfd3e0e249f605ddfb17cb5c279a91e3",
+      "uncompressed_sha256": "b35ca3f694e02e456386567d64c2eb407fe03b9184c699ec8f4ede71ead20de4"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "not_assigned_for_other_feature": 4,
+    "source_admin_code": 13264,
+    "source_country": 18
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 18,
+      "sha256": "6f5372db5b1b515165093f3a4d850158615f78bf7faf32963d94d4b4c83b141c"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 483031,
+    "discarded_feature_classes": {
+      "H": 3528,
+      "L": 164,
+      "R": 1,
+      "S": 332,
+      "T": 2695,
+      "U": 4,
+      "V": 1
+    },
+    "retained_rows": 13286,
+    "retrieved_on": "2026-10-01",
+    "sha256": "caad534c4f4f4eb6711a6edbe5efb136e258b5889d1271beb828c975750ceba5",
+    "source_rows": 20011,
+    "url": "https://download.geonames.org/export/dump/HN.zip"
+  },
+  "source_modified_max": "2026-09-20",
+  "source_modified_min": "1993-12-23"
+}

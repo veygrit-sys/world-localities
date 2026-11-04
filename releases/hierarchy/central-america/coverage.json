@@ -1,0 +1,539 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-17",
+  "reviewed_on": "2026-10-22",
+  "m49_subregion": "central_america",
+  "m49_scope_codes": [
+    "BZ",
+    "CR",
+    "GT",
+    "HN",
+    "MX",
+    "NI",
+    "PA",
+    "SV"
+  ],
+  "batch_scope_codes": [
+    "BZ",
+    "GT",
+    "SV",
+    "HN",
+    "NI",
+    "CR",
+    "PA"
+  ],
+  "world_complete": false,
+  "regional_complete": false,
+  "deliverability_in_scope": false,
+  "completion_criteria": {
+    "administrative_units": "Dated official all-tier inventory reconciled by original IDs, parent links, legal scope and changes.",
+    "addressed_streets": "Official named streets and address-bearing local areas reconciled by issuing country and municipality.",
+    "physical_road_network": "Independent road inventory including unnamed and unnumbered roads; completeness is separate from addressed streets.",
+    "assigned_address_numbers": "Actual issuing-authority assignments, original number and suffix, status, locality and street references; do not expand potential numeric ranges."
+  },
+  "metrics_policy": {
+    "unknown_denominators": null,
+    "zero_source_rows_do_not_mean_zero_country_objects": true,
+    "functional_PASS_is_not_completeness": true,
+    "cross_source_records_are_not_summed_as_unique_places": true,
+    "extract_observations_are_not_legal_country_totals": true,
+    "house_number_strings_are_not_verified_assignments": true
+  },
+  "remaining_domain_checks": 32,
+  "countries": [
+    {
+      "code": "BZ",
+      "integration_region": "central-america",
+      "domains": {
+        "administrative_units": {
+          "status": "snapshot_loaded_current_completeness_unverified",
+          "namespace": "codab-bz-v01",
+          "source_id": "bz-codab-gazetteer",
+          "counts_by_source_kind": {
+            "district": 6
+          },
+          "national_expected_count": null,
+          "complete": false,
+          "osm_boundary_tag_reference": {
+            "source_id": "geofabrik-osm-bz",
+            "observation_records": 898,
+            "observation_unit": "Boundary-tagged OSM objects, not a count of administrative units."
+          }
+        },
+        "addressed_streets": {
+          "status": "named_osm_road_candidates_acquired_address_use_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-bz",
+          "named_osm_way_candidates": 7201
+        },
+        "physical_road_network": {
+          "status": "osm_road_evidence_acquired_national_completeness_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-bz",
+          "active_tagged_road_way_records": 37974,
+          "active_road_ways_with_missing_geometry": 0
+        },
+        "assigned_address_numbers": {
+          "status": "number_tag_observations_acquired_issuing_assignment_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-bz",
+          "osm_housenumber_tag_observations": 5677,
+          "interpolation_features_not_expanded": 0
+        }
+      },
+      "source_review_nodes": 1,
+      "coverage_notes_ja": "COD-ABの6地区。市・村を全国行政レベル2として網羅した資料ではない。GeoNamesの地名と独立管理。",
+      "next_steps": [
+        "基準日付きの公式全行政階層とID・親参照・改編を照合する。",
+        "取得済みOSMの道路・無名道路・住所候補を、国境内の所属と国・自治体別の独立した道路台帳で照合する。",
+        "番号文字列を発番元・原番号・接尾辞・状態・街路参照と照合する。番号なし・未採番・記述住所はそのまま保持する。"
+      ],
+      "included_in_supplemental_observation_counts": true
+    },
+    {
+      "code": "GT",
+      "integration_region": "central-america",
+      "domains": {
+        "administrative_units": {
+          "status": "snapshot_loaded_current_completeness_unverified",
+          "namespace": "codab-gt-v01",
+          "source_id": "gt-codab-gazetteer",
+          "counts_by_source_kind": {
+            "department": 22,
+            "municipality": 340
+          },
+          "national_expected_count": null,
+          "complete": false,
+          "osm_boundary_tag_reference": {
+            "source_id": "geofabrik-osm-gt",
+            "observation_records": 1895,
+            "observation_unit": "Boundary-tagged OSM objects, not a count of administrative units."
+          }
+        },
+        "addressed_streets": {
+          "status": "named_osm_road_candidates_acquired_address_use_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-gt",
+          "named_osm_way_candidates": 42923
+        },
+        "physical_road_network": {
+          "status": "osm_road_evidence_acquired_national_completeness_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-gt",
+          "active_tagged_road_way_records": 352168,
+          "active_road_ways_with_missing_geometry": 0
+        },
+        "assigned_address_numbers": {
+          "status": "number_tag_observations_acquired_issuing_assignment_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-gt",
+          "osm_housenumber_tag_observations": 15836,
+          "interpolation_features_not_expanded": 144
+        }
+      },
+      "source_review_nodes": 8,
+      "coverage_notes_ja": "COD-ABの22県・340市町村。2湖を市町村から分離。原区分は2019年版、2025年の確認日を新設・廃止の施行日とは扱わない。",
+      "next_steps": [
+        "基準日付きの公式全行政階層とID・親参照・改編を照合する。",
+        "取得済みOSMの道路・無名道路・住所候補を、国境内の所属と国・自治体別の独立した道路台帳で照合する。",
+        "番号文字列を発番元・原番号・接尾辞・状態・街路参照と照合する。番号なし・未採番・記述住所はそのまま保持する。"
+      ],
+      "included_in_supplemental_observation_counts": true
+    },
+    {
+      "code": "SV",
+      "integration_region": "central-america",
+      "domains": {
+        "administrative_units": {
+          "status": "snapshot_loaded_current_completeness_unverified",
+          "namespace": "codab-sv-v02",
+          "source_id": "sv-codab-gazetteer",
+          "counts_by_source_kind": {
+            "department": 14,
+            "municipality": 44,
+            "district": 262
+          },
+          "national_expected_count": null,
+          "complete": false,
+          "osm_boundary_tag_reference": {
+            "source_id": "geofabrik-osm-sv",
+            "observation_records": 2051,
+            "observation_unit": "Boundary-tagged OSM objects, not a count of administrative units."
+          }
+        },
+        "addressed_streets": {
+          "status": "named_osm_road_candidates_acquired_address_use_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-sv",
+          "named_osm_way_candidates": 33384
+        },
+        "physical_road_network": {
+          "status": "osm_road_evidence_acquired_national_completeness_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-sv",
+          "active_tagged_road_way_records": 121232,
+          "active_road_ways_with_missing_geometry": 0
+        },
+        "assigned_address_numbers": {
+          "status": "number_tag_observations_acquired_issuing_assignment_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-sv",
+          "osm_housenumber_tag_observations": 5460,
+          "interpolation_features_not_expanded": 0
+        }
+      },
+      "source_review_nodes": 9,
+      "coverage_notes_ja": "2024年の県・市町村・地区の3階層。44市町村・262地区に加え、地図を埋めるための湖・貯水池各4行があり、行政区分とは分離する。",
+      "next_steps": [
+        "基準日付きの公式全行政階層とID・親参照・改編を照合する。",
+        "取得済みOSMの道路・無名道路・住所候補を、国境内の所属と国・自治体別の独立した道路台帳で照合する。",
+        "番号文字列を発番元・原番号・接尾辞・状態・街路参照と照合する。番号なし・未採番・記述住所はそのまま保持する。"
+      ],
+      "included_in_supplemental_observation_counts": true
+    },
+    {
+      "code": "HN",
+      "integration_region": "central-america",
+      "domains": {
+        "administrative_units": {
+          "status": "snapshot_loaded_current_completeness_unverified",
+          "namespace": "codab-hn-v01",
+          "source_id": "hn-codab-gazetteer",
+          "counts_by_source_kind": {
+            "department": 18,
+            "municipality": 298,
+            "populated_place": 27969
+          },
+          "national_expected_count": null,
+          "complete": false,
+          "osm_boundary_tag_reference": {
+            "source_id": "geofabrik-osm-hn",
+            "observation_records": 3614,
+            "observation_unit": "Boundary-tagged OSM objects, not a count of administrative units."
+          }
+        },
+        "addressed_streets": {
+          "status": "named_osm_road_candidates_acquired_address_use_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-hn",
+          "named_osm_way_candidates": 27499
+        },
+        "physical_road_network": {
+          "status": "osm_road_evidence_acquired_national_completeness_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-hn",
+          "active_tagged_road_way_records": 198940,
+          "active_road_ways_with_missing_geometry": 0
+        },
+        "assigned_address_numbers": {
+          "status": "number_tag_observations_acquired_issuing_assignment_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-hn",
+          "osm_housenumber_tag_observations": 581,
+          "interpolation_features_not_expanded": 0
+        }
+      },
+      "source_review_nodes": 40,
+      "coverage_notes_ja": "COD-ABは18県・298市町村と27,969の集落参照行。地理原典2015年、集落参照2016年。現時点の住所実在や人口を保証しない。",
+      "next_steps": [
+        "基準日付きの公式全行政階層とID・親参照・改編を照合する。",
+        "取得済みOSMの道路・無名道路・住所候補を、国境内の所属と国・自治体別の独立した道路台帳で照合する。",
+        "番号文字列を発番元・原番号・接尾辞・状態・街路参照と照合する。番号なし・未採番・記述住所はそのまま保持する。"
+      ],
+      "included_in_supplemental_observation_counts": true
+    },
+    {
+      "code": "NI",
+      "integration_region": "central-america",
+      "domains": {
+        "administrative_units": {
+          "status": "snapshot_loaded_current_completeness_unverified",
+          "namespace": "codab-ni-v02",
+          "source_id": "ni-codab-gazetteer",
+          "counts_by_source_kind": {
+            "department_or_autonomous_region": 17,
+            "municipality": 153
+          },
+          "national_expected_count": null,
+          "complete": false,
+          "osm_boundary_tag_reference": {
+            "source_id": "geofabrik-osm-ni",
+            "observation_records": 7807,
+            "observation_unit": "Boundary-tagged OSM objects, not a count of administrative units."
+          }
+        },
+        "addressed_streets": {
+          "status": "named_osm_road_candidates_acquired_address_use_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-ni",
+          "named_osm_way_candidates": 18743
+        },
+        "physical_road_network": {
+          "status": "osm_road_evidence_acquired_national_completeness_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-ni",
+          "active_tagged_road_way_records": 119089,
+          "active_road_ways_with_missing_geometry": 0
+        },
+        "assigned_address_numbers": {
+          "status": "number_tag_observations_acquired_issuing_assignment_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-ni",
+          "osm_housenumber_tag_observations": 936,
+          "interpolation_features_not_expanded": 1
+        }
+      },
+      "source_review_nodes": 2,
+      "coverage_notes_ja": "COD-ABは15県・2自治地域を含む17の上位区分、153市町村。原地理データ2017年、valid_onは2023年。",
+      "next_steps": [
+        "基準日付きの公式全行政階層とID・親参照・改編を照合する。",
+        "取得済みOSMの道路・無名道路・住所候補を、国境内の所属と国・自治体別の独立した道路台帳で照合する。",
+        "番号文字列を発番元・原番号・接尾辞・状態・街路参照と照合する。番号なし・未採番・記述住所はそのまま保持する。"
+      ],
+      "included_in_supplemental_observation_counts": true
+    },
+    {
+      "code": "CR",
+      "integration_region": "central-america",
+      "domains": {
+        "administrative_units": {
+          "status": "snapshot_loaded_current_completeness_unverified",
+          "namespace": "codab-cr-v01",
+          "source_id": "cr-codab-gazetteer",
+          "counts_by_source_kind": {
+            "province": 7,
+            "canton": 84,
+            "district": 492
+          },
+          "national_expected_count": null,
+          "complete": false,
+          "osm_boundary_tag_reference": {
+            "source_id": "geofabrik-osm-cr",
+            "observation_records": 7588,
+            "observation_unit": "Boundary-tagged OSM objects, not a count of administrative units."
+          },
+          "current_official_reference": {
+            "namespace": "cr-snit-20261021",
+            "district_rows": 494,
+            "province_references": 7,
+            "canton_references": 84,
+            "file": "enrichment-20261022/cr-current-districts.json",
+            "difference": "enrichment-20261022/cr-district-difference.json",
+            "independent_legal_change_reconciliation_complete": false
+          }
+        },
+        "addressed_streets": {
+          "status": "named_osm_road_candidates_acquired_address_use_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-cr",
+          "named_osm_way_candidates": 78702
+        },
+        "physical_road_network": {
+          "status": "osm_road_evidence_acquired_national_completeness_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-cr",
+          "active_tagged_road_way_records": 163364,
+          "active_road_ways_with_missing_geometry": 0
+        },
+        "assigned_address_numbers": {
+          "status": "number_tag_observations_acquired_issuing_assignment_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-cr",
+          "osm_housenumber_tag_observations": 11747,
+          "interpolation_features_not_expanded": 0
+        }
+      },
+      "source_review_nodes": 7,
+      "coverage_notes_ja": "COD-ABは7州・84カントン・492地区。GeoNamesは82カントン相当・474地区で不足がある。COD-ABとGeoNamesのコード体系を混同しない。",
+      "next_steps": [
+        "SNITの全494地区と明示された親参照を、基準日付きの全改編法令・公式台帳と独立照合する。",
+        "取得済みOSMの道路・無名道路・住所候補を、国境内の所属と国・自治体別の独立した道路台帳で照合する。",
+        "番号文字列を発番元・原番号・接尾辞・状態・街路参照と照合する。番号なし・未採番・記述住所はそのまま保持する。"
+      ],
+      "included_in_supplemental_observation_counts": true
+    },
+    {
+      "code": "PA",
+      "integration_region": "central-america",
+      "domains": {
+        "administrative_units": {
+          "status": "known_outdated_snapshot",
+          "namespace": "codab-pa-v01",
+          "source_id": "pa-codab-gazetteer",
+          "counts_by_source_kind": {
+            "province_or_comarca": 13,
+            "district_or_comarca": 76,
+            "corregimiento": 594
+          },
+          "national_expected_count": null,
+          "complete": false,
+          "osm_boundary_tag_reference": {
+            "source_id": "geofabrik-osm-pa",
+            "observation_records": 2500,
+            "observation_unit": "Boundary-tagged OSM objects, not a count of administrative units."
+          },
+          "current_official_reported_counts": {
+            "districts": 82,
+            "corregimientos": 699,
+            "source_review": "enrichment-20261022/source-review.json",
+            "all_named_rows_ingested": false
+          }
+        },
+        "addressed_streets": {
+          "status": "named_osm_road_candidates_acquired_address_use_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-pa",
+          "named_osm_way_candidates": 25100
+        },
+        "physical_road_network": {
+          "status": "osm_road_evidence_acquired_national_completeness_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-pa",
+          "active_tagged_road_way_records": 122386,
+          "active_road_ways_with_missing_geometry": 0
+        },
+        "assigned_address_numbers": {
+          "status": "number_tag_observations_acquired_issuing_assignment_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-pa",
+          "osm_housenumber_tag_observations": 12061,
+          "interpolation_features_not_expanded": 0
+        }
+      },
+      "source_review_nodes": 14,
+      "coverage_notes_ja": "COD-ABは2020年の原地理データを基にした旧版で13上位区分・76地区相当・594コレヒミエント。2025年IGN公表の82地区・699コレヒミエントより不足。GeoNamesは14 ADM1・82 ADM2・679 ADM3だがNaso Tjër Diの階層がIGN説明と異なる。両系統とも現行全国行政区分の完成扱いにしない。",
+      "next_steps": [
+        "基準日付きの公式全行政階層とID・親参照・改編を照合する。",
+        "取得済みOSMの道路・無名道路・住所候補を、国境内の所属と国・自治体別の独立した道路台帳で照合する。",
+        "番号文字列を発番元・原番号・接尾辞・状態・街路参照と照合する。番号なし・未採番・記述住所はそのまま保持する。"
+      ],
+      "included_in_supplemental_observation_counts": true
+    },
+    {
+      "code": "MX",
+      "integration_region": "north-america",
+      "scope_file": "address-points/NORTH_AMERICA_SCOPE.json",
+      "integration_commit": "ea08aabb0abf6b72397130bad0bcd5b72ca42f12",
+      "verification": "releases/hierarchy/north-america/verification.json",
+      "included_in_this_batch_counts": false,
+      "domains": {
+        "administrative_units": {
+          "status": "snapshot_loaded_current_completeness_unverified",
+          "namespace": "mx-inegi-catalogue",
+          "counts_by_source_kind": {
+            "state": 32,
+            "municipality": 2478,
+            "locality": 296649
+          },
+          "national_expected_count": null,
+          "complete": false,
+          "osm_boundary_tag_reference": {
+            "source_id": "geofabrik-osm-mx",
+            "observation_records": 20857,
+            "observation_unit": "Boundary-tagged OSM objects, not a count of administrative units."
+          }
+        },
+        "addressed_streets": {
+          "status": "named_osm_road_candidates_acquired_address_use_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-mx",
+          "named_osm_way_candidates": 1722141
+        },
+        "physical_road_network": {
+          "status": "osm_road_evidence_acquired_national_completeness_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-mx",
+          "active_tagged_road_way_records": 4584799,
+          "active_road_ways_with_missing_geometry": 0
+        },
+        "assigned_address_numbers": {
+          "status": "number_tag_observations_acquired_issuing_assignment_unverified",
+          "national_expected_count": null,
+          "complete": false,
+          "records_in_referenced_baseline_snapshot": 0,
+          "supplemental_source_id": "geofabrik-osm-mx",
+          "osm_housenumber_tag_observations": 1107857,
+          "interpolation_features_not_expanded": 1387,
+          "inegi_digital_guard_csv": {
+            "source_id": "digital-guard-inegi-mx-pk0002.01-geoaddress",
+            "source_rows": 31236822,
+            "nonplaceholder_number_string_rows": 15325709,
+            "number_placeholder_rows": 15910873,
+            "empty_number_rows": 240,
+            "empty_state_label_rows": 70505,
+            "invalid_or_missing_coordinate_rows": 69880,
+            "issuing_authority_assignment_verified": false,
+            "national_completeness_verified": false,
+            "validation": "enrichment-20261022/mx-address-validation.json"
+          }
+        }
+      },
+      "included_in_supplemental_observation_counts": true,
+      "next_steps": [
+        "基準日付きの全行政階層を公式ID・親参照・改編と照合する。",
+        "取得済みOSMの道路・無名道路・住所候補を、国境内の所属と国・自治体別の独立した道路台帳で照合する。",
+        "番号文字列を発番元・原番号・接尾辞・状態・街路参照と照合する。番号なし・未採番・記述住所はそのまま保持する。"
+      ]
+    }
+  ],
+  "supplemental_evidence_as_of": "2026-10-21T19:02:45.429966+00:00",
+  "supplemental_scope_codes": [
+    "BZ",
+    "CR",
+    "GT",
+    "HN",
+    "MX",
+    "NI",
+    "PA",
+    "SV"
+  ],
+  "supplemental_source_review": "enrichment-20261022/source-review.json",
+  "supplemental_export": "enrichment-20261022/osm-export.json",
+  "supplemental_replay": "enrichment-20261022/osm-replay.json"
+}

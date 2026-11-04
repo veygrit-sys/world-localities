@@ -1,0 +1,87 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "LBR",
+    "country": "LR",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Liberia",
+    "geonames_id": "2275384",
+    "id": "country:LR",
+    "m49": "430",
+    "name_en": "Liberia",
+    "numeric": "430",
+    "region": "Western Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 6323,
+    "admin_rows": 857,
+    "ambiguous_parents": 0,
+    "country": "LR",
+    "country_scope_only": 6,
+    "localities_without_adm1": 6,
+    "locality_rows": 6325,
+    "name_en": "Liberia",
+    "other_admin_rows": 5,
+    "region": "Western Africa",
+    "unresolved_parents": 618
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 15,
+    "ADM2": 224,
+    "ADM3": 618,
+    "ADMD": 4,
+    "PCLI": 1,
+    "PPL": 6270,
+    "PPLA": 15,
+    "PPLA2": 1,
+    "PPLC": 1,
+    "PPLQ": 2,
+    "PPLX": 36
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 240434,
+      "rows": 7187,
+      "sha256": "9df33d0d5121970ec96dbb57750d18a5d4c5d209f4dc02b7d460025674832082",
+      "uncompressed_sha256": "491e06cd083a82504bb118773d3a87f4fd65e0464677612e47297ba5a563f52e"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 6,
+    "missing_code": 618,
+    "not_assigned_for_other_feature": 5,
+    "source_admin_code": 6543,
+    "source_country": 15
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 15,
+      "sha256": "db5cb628130704c1aa1d0bf10185437c9f8243811ea1c98e7f5b298f9f52cfbb"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 250121,
+    "discarded_feature_classes": {
+      "H": 848,
+      "L": 38,
+      "R": 8,
+      "S": 337,
+      "T": 393,
+      "V": 13
+    },
+    "retained_rows": 7187,
+    "retrieved_on": "2026-09-26",
+    "sha256": "752df30b0efaa523f5fcfd3eeb617004cda747953699a6706aadccbd6b64074b",
+    "source_rows": 8824,
+    "url": "https://download.geonames.org/export/dump/LR.zip"
+  },
+  "source_modified_max": "2026-04-16",
+  "source_modified_min": "1994-01-06"
+}

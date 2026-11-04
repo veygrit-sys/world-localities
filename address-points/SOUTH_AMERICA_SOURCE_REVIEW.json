@@ -1,0 +1,763 @@
+{
+  "schema_version": 2,
+  "review_date": "2026-10-17",
+  "country_status_is_not_national_address_completeness": true,
+  "countries": {
+    "AR": {
+      "name_ja": "アルゼンチン",
+      "implemented": [
+        "country_reference_profile",
+        "raw_name_preservation",
+        "language_tagged_aliases",
+        "gazetteer_search",
+        "reference_point_reverse_search",
+        "source_qualified_hierarchy",
+        "ancestor_filtered_search",
+        "selected_path_consistency_check",
+        "country_loop_audit"
+      ],
+      "source_ids": [
+        "ar-geonames-geonames",
+        "ar-geonames-names",
+        "ar-georef-localidades",
+        "ar-georef-provincias"
+      ],
+      "official_address_rows_acquired": false,
+      "official_administrative_rows_acquired": true,
+      "postal_assignment_database_acquired": false,
+      "national_street_and_house_number_coverage_complete": false,
+      "country_rule_note": "CPAは英字1＋数字4＋英字3。4桁旧コードは別状態で保持。数字で終わる街路名と番地の境界を推測しない。",
+      "format_sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/argEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2002-07",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        },
+        {
+          "url": "https://www.correoargentino.com.ar/formularios/cpa",
+          "publisher": "Correo Argentino",
+          "reviewed_on": "2026-10-17",
+          "role": "current_CPA_format"
+        }
+      ],
+      "open_gap": "全国の街路・郵便番号割当、異なるGeoref版の移行照合は未完了",
+      "scope_type": "country",
+      "hierarchy_source_ids": [
+        "gn-admin1CodesASCII",
+        "gn-admin2Codes",
+        "gn-countryInfo",
+        "gn-readme",
+        "ar-georef-departamentos",
+        "ar-georef-municipios",
+        "ar-georef-localidades-censales"
+      ],
+      "official_street_reference_rows_acquired": false
+    },
+    "BO": {
+      "name_ja": "ボリビア",
+      "implemented": [
+        "country_reference_profile",
+        "raw_name_preservation",
+        "language_tagged_aliases",
+        "gazetteer_search",
+        "reference_point_reverse_search",
+        "source_qualified_hierarchy",
+        "ancestor_filtered_search",
+        "selected_path_consistency_check",
+        "country_loop_audit"
+      ],
+      "source_ids": [
+        "bo-geonames-geonames",
+        "bo-geonames-names"
+      ],
+      "official_address_rows_acquired": false,
+      "official_administrative_rows_acquired": false,
+      "postal_assignment_database_acquired": false,
+      "national_street_and_house_number_coverage_complete": false,
+      "country_rule_note": "参照資料の住所例は郵便番号なし。空欄を許容し、0000等を補わない。農村の共同体名・目印の原文を保存。",
+      "format_sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/bolEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2026-02",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ],
+      "open_gap": "公式行政台帳の追加、親コード未記載の集落、街路・郵便番号対応が残る",
+      "scope_type": "country",
+      "hierarchy_source_ids": [
+        "gn-admin1CodesASCII",
+        "gn-admin2Codes",
+        "gn-countryInfo",
+        "gn-readme"
+      ],
+      "official_street_reference_rows_acquired": false
+    },
+    "BV": {
+      "name_ja": "ブーベ島",
+      "implemented": [
+        "country_reference_profile",
+        "raw_name_preservation",
+        "language_tagged_aliases",
+        "gazetteer_search",
+        "reference_point_reverse_search",
+        "source_qualified_hierarchy",
+        "ancestor_filtered_search",
+        "selected_path_consistency_check",
+        "country_loop_audit"
+      ],
+      "source_ids": [
+        "bv-geonames-geonames",
+        "bv-geonames-names"
+      ],
+      "official_address_rows_acquired": false,
+      "official_administrative_rows_acquired": false,
+      "postal_assignment_database_acquired": false,
+      "national_street_and_house_number_coverage_complete": false,
+      "country_rule_note": "M49の収集範囲として保持。通常の住宅配送フォームは提供せず、地理地物の参照のみ。",
+      "format_sources": [
+        {
+          "url": "https://npolar.no/en/themes/bouvetoya/",
+          "publisher": "Norwegian Polar Institute",
+          "reviewed_on": "2026-10-17",
+          "role": "geographic_reference"
+        }
+      ],
+      "open_gap": "集落・通常住所の収録対象にしない。M49由来の補足範囲",
+      "scope_type": "supplementary_area",
+      "hierarchy_source_ids": [
+        "gn-admin1CodesASCII",
+        "gn-admin2Codes",
+        "gn-countryInfo",
+        "gn-readme"
+      ],
+      "official_street_reference_rows_acquired": false
+    },
+    "BR": {
+      "name_ja": "ブラジル",
+      "implemented": [
+        "country_reference_profile",
+        "raw_name_preservation",
+        "language_tagged_aliases",
+        "gazetteer_search",
+        "reference_point_reverse_search",
+        "source_qualified_hierarchy",
+        "ancestor_filtered_search",
+        "selected_path_consistency_check",
+        "country_loop_audit"
+      ],
+      "source_ids": [
+        "br-geonames-geonames",
+        "br-geonames-names"
+      ],
+      "official_address_rows_acquired": false,
+      "official_administrative_rows_acquired": true,
+      "postal_assignment_database_acquired": false,
+      "national_street_and_house_number_coverage_complete": false,
+      "country_rule_note": "CEP8桁。Brasíliaのsector・quadra・blocoを一般街路番地へ強制分解しない。complementoは入力原文を維持。",
+      "format_sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/braEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2023",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ],
+      "open_gap": "GeoNames側の誤った上位コードは推測修正せず要確認。街路・CEP割当は未完了",
+      "scope_type": "country",
+      "hierarchy_source_ids": [
+        "gn-admin1CodesASCII",
+        "gn-admin2Codes",
+        "gn-countryInfo",
+        "gn-readme",
+        "br-ibge-estados",
+        "br-ibge-municipios",
+        "br-ibge-distritos",
+        "br-ibge-subdistritos"
+      ],
+      "official_street_reference_rows_acquired": false
+    },
+    "CL": {
+      "name_ja": "チリ",
+      "implemented": [
+        "country_reference_profile",
+        "raw_name_preservation",
+        "language_tagged_aliases",
+        "gazetteer_search",
+        "reference_point_reverse_search",
+        "source_qualified_hierarchy",
+        "ancestor_filtered_search",
+        "selected_path_consistency_check",
+        "country_loop_audit"
+      ],
+      "source_ids": [
+        "cl-geonames-geonames",
+        "cl-geonames-names"
+      ],
+      "official_address_rows_acquired": false,
+      "official_administrative_rows_acquired": false,
+      "postal_assignment_database_acquired": false,
+      "national_street_and_house_number_coverage_complete": false,
+      "country_rule_note": "7桁。comunaとregiónを区別。s/n、km、農村の敷地名を保持。",
+      "format_sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/chlEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2017-03",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ],
+      "open_gap": "公式台帳との全件突合、行政コード空欄、町名・街路の網羅は未完了",
+      "scope_type": "country",
+      "hierarchy_source_ids": [
+        "gn-admin1CodesASCII",
+        "gn-admin2Codes",
+        "gn-countryInfo",
+        "gn-readme"
+      ],
+      "official_street_reference_rows_acquired": false
+    },
+    "CO": {
+      "name_ja": "コロンビア",
+      "implemented": [
+        "country_reference_profile",
+        "raw_name_preservation",
+        "language_tagged_aliases",
+        "gazetteer_search",
+        "reference_point_reverse_search",
+        "source_qualified_hierarchy",
+        "ancestor_filtered_search",
+        "selected_path_consistency_check",
+        "country_loop_audit"
+      ],
+      "source_ids": [
+        "co-geonames-geonames",
+        "co-geonames-names"
+      ],
+      "official_address_rows_acquired": false,
+      "official_administrative_rows_acquired": true,
+      "postal_assignment_database_acquired": false,
+      "national_street_and_house_number_coverage_complete": false,
+      "country_rule_note": "6桁。Calle/Carrera、方向、Bis、文字接尾辞、#、ハイフンを保存。複合番号を整数化しない。",
+      "format_sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/colEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2022-10",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ],
+      "open_gap": "DANE資料の基準日は2024-12-30。集落・都市別街路・郵便番号割当は未完了",
+      "scope_type": "country",
+      "hierarchy_source_ids": [
+        "gn-admin1CodesASCII",
+        "gn-admin2Codes",
+        "gn-countryInfo",
+        "gn-readme",
+        "co-dane-divipola",
+        "co-dane-metadata"
+      ],
+      "official_street_reference_rows_acquired": false
+    },
+    "EC": {
+      "name_ja": "エクアドル",
+      "implemented": [
+        "country_reference_profile",
+        "raw_name_preservation",
+        "language_tagged_aliases",
+        "gazetteer_search",
+        "reference_point_reverse_search",
+        "source_qualified_hierarchy",
+        "ancestor_filtered_search",
+        "selected_path_consistency_check",
+        "country_loop_audit"
+      ],
+      "source_ids": [
+        "ec-geonames-geonames",
+        "ec-geonames-names"
+      ],
+      "official_address_rows_acquired": false,
+      "official_administrative_rows_acquired": false,
+      "postal_assignment_database_acquired": false,
+      "national_street_and_house_number_coverage_complete": false,
+      "country_rule_note": "6桁。主街路と交差街路、方向を含む番号、農村の目印を分けて保持。",
+      "format_sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/ecuEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2018-09",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ],
+      "open_gap": "公式最新行政台帳・町名・街路を追加する必要がある",
+      "scope_type": "country",
+      "hierarchy_source_ids": [
+        "gn-admin1CodesASCII",
+        "gn-admin2Codes",
+        "gn-countryInfo",
+        "gn-readme"
+      ],
+      "official_street_reference_rows_acquired": false
+    },
+    "FK": {
+      "name_ja": "フォークランド諸島（マルビナス）",
+      "implemented": [
+        "country_reference_profile",
+        "raw_name_preservation",
+        "language_tagged_aliases",
+        "gazetteer_search",
+        "reference_point_reverse_search",
+        "source_qualified_hierarchy",
+        "ancestor_filtered_search",
+        "selected_path_consistency_check",
+        "country_loop_audit"
+      ],
+      "source_ids": [
+        "fk-geonames-geonames",
+        "fk-geonames-names"
+      ],
+      "official_address_rows_acquired": false,
+      "official_administrative_rows_acquired": false,
+      "postal_assignment_database_acquired": false,
+      "national_street_and_house_number_coverage_complete": false,
+      "country_rule_note": "FIQQ 1ZZは地域共通。郵便番号から個別住所・配送可否を確定しない。原典の名称と国コードを保持。",
+      "format_sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/flkEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2005-08",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ],
+      "open_gap": "全国街路・番地台帳なし。補足地域として別集計",
+      "scope_type": "supplementary_area",
+      "hierarchy_source_ids": [
+        "gn-admin1CodesASCII",
+        "gn-admin2Codes",
+        "gn-countryInfo",
+        "gn-readme"
+      ],
+      "official_street_reference_rows_acquired": false
+    },
+    "GF": {
+      "name_ja": "仏領ギアナ",
+      "implemented": [
+        "country_reference_profile",
+        "raw_name_preservation",
+        "language_tagged_aliases",
+        "gazetteer_search",
+        "reference_point_reverse_search",
+        "source_qualified_hierarchy",
+        "ancestor_filtered_search",
+        "selected_path_consistency_check",
+        "country_loop_audit"
+      ],
+      "source_ids": [
+        "gf-ban-973",
+        "gf-geonames-geonames",
+        "gf-geonames-names"
+      ],
+      "official_address_rows_acquired": true,
+      "official_administrative_rows_acquired": true,
+      "postal_assignment_database_acquired": false,
+      "national_street_and_house_number_coverage_complete": false,
+      "country_rule_note": "郵便番号973xx。BANの自治体コード・認証フラグ・位置種別を保存しFRへ統合しない。国際宛名の国行は配送事業者の指定を確認。",
+      "format_sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/gufEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2011-08",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ],
+      "open_gap": "BANの全域網羅性・位置精度・配達可能性は未確認",
+      "scope_type": "supplementary_area",
+      "hierarchy_source_ids": [
+        "gn-admin1CodesASCII",
+        "gn-admin2Codes",
+        "gn-countryInfo",
+        "gn-readme",
+        "gf-insee-cog-2026"
+      ],
+      "official_street_reference_rows_acquired": true
+    },
+    "GY": {
+      "name_ja": "ガイアナ",
+      "implemented": [
+        "country_reference_profile",
+        "raw_name_preservation",
+        "language_tagged_aliases",
+        "gazetteer_search",
+        "reference_point_reverse_search",
+        "source_qualified_hierarchy",
+        "ancestor_filtered_search",
+        "selected_path_consistency_check",
+        "country_loop_audit"
+      ],
+      "source_ids": [
+        "gy-geonames-geonames",
+        "gy-geonames-names"
+      ],
+      "official_address_rows_acquired": false,
+      "official_administrative_rows_acquired": false,
+      "postal_assignment_database_acquired": false,
+      "national_street_and_house_number_coverage_complete": false,
+      "country_rule_note": "7桁制度を採用。UPU同資料の私書箱例に6桁の不整合あり。桁の追加や独自補正を行わず要確認とする。",
+      "format_sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/guyEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2025-08",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ],
+      "open_gap": "NDC等の公式下位行政層・街路・7桁郵便番号の割当表は未収録",
+      "scope_type": "country",
+      "hierarchy_source_ids": [
+        "gn-admin1CodesASCII",
+        "gn-admin2Codes",
+        "gn-countryInfo",
+        "gn-readme"
+      ],
+      "official_street_reference_rows_acquired": false
+    },
+    "PY": {
+      "name_ja": "パラグアイ",
+      "implemented": [
+        "country_reference_profile",
+        "raw_name_preservation",
+        "language_tagged_aliases",
+        "gazetteer_search",
+        "reference_point_reverse_search",
+        "source_qualified_hierarchy",
+        "ancestor_filtered_search",
+        "selected_path_consistency_check",
+        "country_loop_audit"
+      ],
+      "source_ids": [
+        "py-geonames-geonames",
+        "py-geonames-names"
+      ],
+      "official_address_rows_acquired": false,
+      "official_administrative_rows_acquired": true,
+      "postal_assignment_database_acquired": false,
+      "national_street_and_house_number_coverage_complete": false,
+      "country_rule_note": "6桁。先頭00を保存。4桁旧表記は自動変換しない。casi、esquina、ruta、km、compañía等の原文を保持。",
+      "format_sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/pryEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2018-09",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ],
+      "open_gap": "統計参照資料。全国街路・郵便番号割当は未完了。法的境界の証明ではない",
+      "scope_type": "country",
+      "hierarchy_source_ids": [
+        "gn-admin1CodesASCII",
+        "gn-admin2Codes",
+        "gn-countryInfo",
+        "gn-readme",
+        "py-ine-departamentos",
+        "py-ine-distritos",
+        "py-ine-barloc"
+      ],
+      "official_street_reference_rows_acquired": false
+    },
+    "PE": {
+      "name_ja": "ペルー",
+      "implemented": [
+        "country_reference_profile",
+        "raw_name_preservation",
+        "language_tagged_aliases",
+        "gazetteer_search",
+        "reference_point_reverse_search",
+        "source_qualified_hierarchy",
+        "ancestor_filtered_search",
+        "selected_path_consistency_check",
+        "country_loop_audit"
+      ],
+      "source_ids": [
+        "pe-geonames-geonames",
+        "pe-geonames-names"
+      ],
+      "official_address_rows_acquired": false,
+      "official_administrative_rows_acquired": true,
+      "postal_assignment_database_acquired": false,
+      "national_street_and_house_number_coverage_complete": false,
+      "country_rule_note": "5桁。Jirón/Jr.、manzana、lote等は別構成要素。UBIGEOを郵便番号と同一視しない。",
+      "format_sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/perEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2013-01",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ],
+      "open_gap": "公開参照表の版。GeoNames側の階層不整合、集落・街路・郵便番号割当が残る",
+      "scope_type": "country",
+      "hierarchy_source_ids": [
+        "gn-admin1CodesASCII",
+        "gn-admin2Codes",
+        "gn-countryInfo",
+        "gn-readme",
+        "pe-inei-ubigeos"
+      ],
+      "official_street_reference_rows_acquired": false
+    },
+    "GS": {
+      "name_ja": "サウスジョージア・サウスサンドウィッチ諸島",
+      "implemented": [
+        "country_reference_profile",
+        "raw_name_preservation",
+        "language_tagged_aliases",
+        "gazetteer_search",
+        "reference_point_reverse_search",
+        "source_qualified_hierarchy",
+        "ancestor_filtered_search",
+        "selected_path_consistency_check",
+        "country_loop_audit"
+      ],
+      "source_ids": [
+        "gs-geonames-geonames",
+        "gs-geonames-names"
+      ],
+      "official_address_rows_acquired": false,
+      "official_administrative_rows_acquired": false,
+      "postal_assignment_database_acquired": false,
+      "national_street_and_house_number_coverage_complete": false,
+      "country_rule_note": "SIQQ 1ZZは地域共通。拠点・施設の地名と通常住宅・配送サービスを区別。",
+      "format_sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/sgsEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2005-08",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ],
+      "open_gap": "通常の市町村階層や全国住所台帳を仮定しない。補足地域",
+      "scope_type": "supplementary_area",
+      "hierarchy_source_ids": [
+        "gn-admin1CodesASCII",
+        "gn-admin2Codes",
+        "gn-countryInfo",
+        "gn-readme"
+      ],
+      "official_street_reference_rows_acquired": false
+    },
+    "SR": {
+      "name_ja": "スリナム",
+      "implemented": [
+        "country_reference_profile",
+        "raw_name_preservation",
+        "language_tagged_aliases",
+        "gazetteer_search",
+        "reference_point_reverse_search",
+        "source_qualified_hierarchy",
+        "ancestor_filtered_search",
+        "selected_path_consistency_check",
+        "country_loop_audit"
+      ],
+      "source_ids": [
+        "sr-geonames-geonames",
+        "sr-geonames-names"
+      ],
+      "official_address_rows_acquired": false,
+      "official_administrative_rows_acquired": false,
+      "postal_assignment_database_acquired": false,
+      "national_street_and_house_number_coverage_complete": false,
+      "country_rule_note": "参照資料に郵便番号形式の記載なし。未記載を許容し、現在の全制度不存在とは断定しない。district・集落・河川沿いの説明を保存。",
+      "format_sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/surEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2005-03",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ],
+      "open_gap": "公式最新ressort台帳との突合、集落の下位コード、街路の収録が残る",
+      "scope_type": "country",
+      "hierarchy_source_ids": [
+        "gn-admin1CodesASCII",
+        "gn-admin2Codes",
+        "gn-countryInfo",
+        "gn-readme"
+      ],
+      "official_street_reference_rows_acquired": false
+    },
+    "UY": {
+      "name_ja": "ウルグアイ",
+      "implemented": [
+        "country_reference_profile",
+        "raw_name_preservation",
+        "language_tagged_aliases",
+        "gazetteer_search",
+        "reference_point_reverse_search",
+        "source_qualified_hierarchy",
+        "ancestor_filtered_search",
+        "selected_path_consistency_check",
+        "country_loop_audit"
+      ],
+      "source_ids": [
+        "uy-geonames-geonames",
+        "uy-geonames-names"
+      ],
+      "official_address_rows_acquired": false,
+      "official_administrative_rows_acquired": false,
+      "postal_assignment_database_acquired": false,
+      "national_street_and_house_number_coverage_complete": false,
+      "country_rule_note": "通常のCP5桁。2014年公式文書の拡張CPA10桁は別の参考形式とし自動切捨てしない。manzana・solar・esquinaを保持。",
+      "format_sources": [
+        {
+          "url": "https://catalogodatos.gub.uy/es/dataset/correo-codigo-postal",
+          "publisher": "Correo Uruguayo / Uruguay Open Data",
+          "reviewed_on": "2026-10-17",
+          "role": "five_digit_postcode_reference"
+        },
+        {
+          "url": "https://catalogodatos.gub.uy/dataset/7eb3681f-3e58-475d-9cd4-4527dc6ab234/resource/a8bd1947-d096-4d3a-9a29-e9319aef5acf/download/elcodigopostaluruguayov220140801.pdf",
+          "publisher": "Correo Uruguayo",
+          "reference_date": "2014-08-01",
+          "role": "extended_CPA_reference_only"
+        },
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/uryEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": "2018-06",
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference",
+          "retrieval_method": "direct PDF inspected locally",
+          "object_sha256": "9e1d30c880cb2eca0245c7c819c2a35071057ed3d877475bac6e51078f960782"
+        }
+      ],
+      "open_gap": "資料の鮮度確認と最新公式IDとの対応が必要。係争地表記2件を要確認に維持",
+      "scope_type": "country",
+      "hierarchy_source_ids": [
+        "gn-admin1CodesASCII",
+        "gn-admin2Codes",
+        "gn-countryInfo",
+        "gn-readme",
+        "uy-ide-calles-2020"
+      ],
+      "official_street_reference_rows_acquired": true
+    },
+    "VE": {
+      "name_ja": "ベネズエラ",
+      "implemented": [
+        "country_reference_profile",
+        "raw_name_preservation",
+        "language_tagged_aliases",
+        "gazetteer_search",
+        "reference_point_reverse_search",
+        "source_qualified_hierarchy",
+        "ancestor_filtered_search",
+        "selected_path_consistency_check",
+        "country_loop_audit"
+      ],
+      "source_ids": [
+        "ve-geonames-geonames",
+        "ve-geonames-names"
+      ],
+      "official_address_rows_acquired": false,
+      "official_administrative_rows_acquired": false,
+      "postal_assignment_database_acquired": false,
+      "national_street_and_house_number_coverage_complete": false,
+      "country_rule_note": "4桁。estado・municipio・parroquia・urbanizaciónと建物・階・部屋を区別。",
+      "format_sources": [
+        {
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/venEn.pdf",
+          "publisher": "Universal Postal Union",
+          "reference_date": null,
+          "reviewed_on": "2026-10-17",
+          "role": "address_format_reference_not_address_database"
+        }
+      ],
+      "open_gap": "公式行政台帳との突合、parroquia・街路・郵便番号割当は未完了",
+      "scope_type": "country",
+      "hierarchy_source_ids": [
+        "gn-admin1CodesASCII",
+        "gn-admin2Codes",
+        "gn-countryInfo",
+        "gn-readme"
+      ],
+      "official_street_reference_rows_acquired": false
+    }
+  },
+  "crs_sources": {
+    "geonames": {
+      "url": "https://download.geonames.org/export/dump/readme.txt",
+      "crs": "WGS84",
+      "precision": "source geographic point; not an entrance"
+    },
+    "georef": {
+      "url": "https://georef-ar-api.readthedocs.io/es/stable/etl-data/",
+      "crs": "WGS84 / EPSG:4326",
+      "precision": "province or locality centroid"
+    },
+    "ban": {
+      "url": "https://doc.adresse.data.gouv.fr/docs/documentation-generale/utiliser-la-base-adresse-nationale/les-fichiers-de-la-base-adresse-nationale",
+      "crs": "WGS84 for lon/lat; source x/y not used",
+      "precision": "row type_position preserved"
+    }
+  },
+  "next_source_candidates": [
+    {
+      "country": "BR",
+      "title": "IBGE API de localidades",
+      "url": "https://servicodados.ibge.gov.br/api/docs/localidades",
+      "status": "administrative_layers_acquired_in_v0_2",
+      "evidence": "IBGE states, municipalities, districts and subdistricts acquired with source hashes; street and CEP layers remain pending."
+    },
+    {
+      "country": "UY",
+      "title": "Direcciones Geográficas del Uruguay",
+      "url": "https://catalogodatos.gub.uy/dataset/ide-direcciones-geograficas-del-uruguay",
+      "status": "metadata_reviewed_not_acquired",
+      "evidence": "Official and non-official address records are mixed in the source and must be retained separately. Published EPSG:4326 and Uruguay open-government-data licence; acquire a dated object and replay before use."
+    },
+    {
+      "country": "AR",
+      "title": "Georef street and address resources",
+      "url": "https://georef-ar-api.readthedocs.io/es/stable/addresses/",
+      "status": "metadata_reviewed_not_acquired",
+      "evidence": "Street address geocoding can be an approximation. Never infer premise existence from address-range interpolation."
+    }
+  ],
+  "country_count": 12,
+  "supplementary_area_count": 4,
+  "country_codes": [
+    "AR",
+    "BO",
+    "BR",
+    "CL",
+    "CO",
+    "EC",
+    "GY",
+    "PY",
+    "PE",
+    "SR",
+    "UY",
+    "VE"
+  ],
+  "supplementary_area_codes": [
+    "GF",
+    "FK",
+    "GS",
+    "BV"
+  ],
+  "hierarchy_coordinate_policy": "New hierarchy edges use explicit source codes or qualified source label fields; no point-in-polygon or nearest-place inference."
+}

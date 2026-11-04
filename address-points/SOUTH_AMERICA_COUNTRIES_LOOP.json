@@ -1,0 +1,1154 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-16T23:40:15.983290+00:00",
+  "scope": "countries",
+  "country_count": 12,
+  "supplementary_area_count": 0,
+  "countries": [
+    {
+      "code": "AR",
+      "name_ja": "アルゼンチン",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "ar-georef-v1",
+          "kind": "census_locality",
+          "nodes": 4027
+        },
+        {
+          "namespace": "ar-georef-v1",
+          "kind": "department",
+          "nodes": 529
+        },
+        {
+          "namespace": "ar-georef-v1",
+          "kind": "locality",
+          "nodes": 4037
+        },
+        {
+          "namespace": "ar-georef-v1",
+          "kind": "municipality",
+          "nodes": 2082
+        },
+        {
+          "namespace": "ar-georef-v1",
+          "kind": "province",
+          "nodes": 24
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 24
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 529
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 52
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 14855
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 14855
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 2787
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 12068
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 14852
+        },
+        {
+          "field": "admin3",
+          "status": "resolved",
+          "records": 2
+        },
+        {
+          "field": "admin3",
+          "status": "unresolved",
+          "records": 1
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 14855
+        }
+      ],
+      "issues": [
+        {
+          "code": "missing_reference",
+          "field": "admin3",
+          "observations": 1
+        }
+      ],
+      "geonames_place_count": 14855,
+      "linked_nodes": 26159,
+      "nodes_requiring_source_review": 1,
+      "address_verified": false,
+      "national_coverage_verified": false
+    },
+    {
+      "code": "BO",
+      "name_ja": "ボリビア",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 9
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 112
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 539
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin4",
+          "nodes": 100
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 25772
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 52
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 25720
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 25699
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 72
+        },
+        {
+          "field": "admin2",
+          "status": "unresolved",
+          "records": 1
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 25728
+        },
+        {
+          "field": "admin3",
+          "status": "resolved",
+          "records": 43
+        },
+        {
+          "field": "admin3",
+          "status": "unresolved",
+          "records": 1
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 25738
+        },
+        {
+          "field": "admin4",
+          "status": "resolved",
+          "records": 34
+        }
+      ],
+      "issues": [
+        {
+          "code": "missing_reference",
+          "field": "admin2",
+          "observations": 1
+        },
+        {
+          "code": "missing_reference",
+          "field": "admin3",
+          "observations": 1
+        },
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 52
+        },
+        {
+          "code": "parent_tuple_conflict",
+          "field": "admin2",
+          "observations": 6
+        }
+      ],
+      "geonames_place_count": 25772,
+      "linked_nodes": 26532,
+      "nodes_requiring_source_review": 59,
+      "address_verified": false,
+      "national_coverage_verified": false
+    },
+    {
+      "code": "BR",
+      "name_ja": "ブラジル",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "br-ibge",
+          "kind": "district",
+          "nodes": 10751
+        },
+        {
+          "namespace": "br-ibge",
+          "kind": "municipality",
+          "nodes": 5571
+        },
+        {
+          "namespace": "br-ibge",
+          "kind": "state",
+          "nodes": 27
+        },
+        {
+          "namespace": "br-ibge",
+          "kind": "subdistrict",
+          "nodes": 646
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 27
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 5570
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 66
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 72384
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 72384
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 1096
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 71271
+        },
+        {
+          "field": "admin2",
+          "status": "unresolved",
+          "records": 17
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 72035
+        },
+        {
+          "field": "admin3",
+          "status": "resolved",
+          "records": 348
+        },
+        {
+          "field": "admin3",
+          "status": "unresolved",
+          "records": 1
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 72384
+        }
+      ],
+      "issues": [
+        {
+          "code": "parent_tuple_conflict",
+          "field": "admin2",
+          "observations": 17
+        },
+        {
+          "code": "parent_tuple_conflict",
+          "field": "admin3",
+          "observations": 1
+        }
+      ],
+      "geonames_place_count": 72384,
+      "linked_nodes": 95042,
+      "nodes_requiring_source_review": 18,
+      "address_verified": false,
+      "national_coverage_verified": false
+    },
+    {
+      "code": "CL",
+      "name_ja": "チリ",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 16
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 56
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 346
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 6934
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 2
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 6932
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 2451
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 4483
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 3028
+        },
+        {
+          "field": "admin3",
+          "status": "resolved",
+          "records": 3906
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 6934
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 2
+        }
+      ],
+      "geonames_place_count": 6934,
+      "linked_nodes": 7352,
+      "nodes_requiring_source_review": 2,
+      "address_verified": false,
+      "national_coverage_verified": false
+    },
+    {
+      "code": "CO",
+      "name_ja": "コロンビア",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "co-dane-2024",
+          "kind": "department",
+          "nodes": 33
+        },
+        {
+          "namespace": "co-dane-2024",
+          "kind": "municipal_unit",
+          "nodes": 1122
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 33
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 1122
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 36
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin4",
+          "nodes": 301
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 35933
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 1
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 35932
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 2897
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 33010
+        },
+        {
+          "field": "admin2",
+          "status": "unresolved",
+          "records": 26
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 35548
+        },
+        {
+          "field": "admin3",
+          "status": "resolved",
+          "records": 384
+        },
+        {
+          "field": "admin3",
+          "status": "unresolved",
+          "records": 1
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 35927
+        },
+        {
+          "field": "admin4",
+          "status": "resolved",
+          "records": 6
+        }
+      ],
+      "issues": [
+        {
+          "code": "missing_reference",
+          "field": "admin2",
+          "observations": 1
+        },
+        {
+          "code": "missing_reference",
+          "field": "admin3",
+          "observations": 53
+        },
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 1
+        },
+        {
+          "code": "parent_tuple_conflict",
+          "field": "admin2",
+          "observations": 25
+        }
+      ],
+      "geonames_place_count": 35933,
+      "linked_nodes": 38580,
+      "nodes_requiring_source_review": 80,
+      "address_verified": false,
+      "national_coverage_verified": false
+    },
+    {
+      "code": "EC",
+      "name_ja": "エクアドル",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 24
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 221
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 1038
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 11457
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 20
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 11437
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 1259
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 10198
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 1252
+        },
+        {
+          "field": "admin3",
+          "status": "resolved",
+          "records": 10195
+        },
+        {
+          "field": "admin3",
+          "status": "unresolved",
+          "records": 10
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 11457
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 20
+        },
+        {
+          "code": "parent_tuple_conflict",
+          "field": "admin3",
+          "observations": 10
+        }
+      ],
+      "geonames_place_count": 11457,
+      "linked_nodes": 12740,
+      "nodes_requiring_source_review": 30,
+      "address_verified": false,
+      "national_coverage_verified": false
+    },
+    {
+      "code": "GY",
+      "name_ja": "ガイアナ",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 10
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 907
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 907
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 907
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 907
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 907
+        }
+      ],
+      "issues": [],
+      "geonames_place_count": 907,
+      "linked_nodes": 917,
+      "nodes_requiring_source_review": 0,
+      "address_verified": false,
+      "national_coverage_verified": false
+    },
+    {
+      "code": "PY",
+      "name_ja": "パラグアイ",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 18
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 246
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 8234
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 6839
+        },
+        {
+          "namespace": "py-ine-statistical",
+          "kind": "department",
+          "nodes": 18
+        },
+        {
+          "namespace": "py-ine-statistical",
+          "kind": "district",
+          "nodes": 263
+        },
+        {
+          "namespace": "py-ine-statistical",
+          "kind": "neighbourhood_or_locality",
+          "nodes": 7995
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 6839
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 1987
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 4852
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 6765
+        },
+        {
+          "field": "admin3",
+          "status": "resolved",
+          "records": 74
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 6839
+        }
+      ],
+      "issues": [],
+      "geonames_place_count": 6839,
+      "linked_nodes": 23613,
+      "nodes_requiring_source_review": 0,
+      "address_verified": false,
+      "national_coverage_verified": false
+    },
+    {
+      "code": "PE",
+      "name_ja": "ペルー",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 26
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 196
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 1873
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 47455
+        },
+        {
+          "namespace": "pe-inei-reference",
+          "kind": "department",
+          "nodes": 25
+        },
+        {
+          "namespace": "pe-inei-reference",
+          "kind": "district",
+          "nodes": 1892
+        },
+        {
+          "namespace": "pe-inei-reference",
+          "kind": "province",
+          "nodes": 196
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 47455
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 218
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 47204
+        },
+        {
+          "field": "admin2",
+          "status": "unresolved",
+          "records": 33
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 3131
+        },
+        {
+          "field": "admin3",
+          "status": "resolved",
+          "records": 44111
+        },
+        {
+          "field": "admin3",
+          "status": "unresolved",
+          "records": 213
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 47455
+        }
+      ],
+      "issues": [
+        {
+          "code": "missing_reference",
+          "field": "admin3",
+          "observations": 198
+        },
+        {
+          "code": "parent_tuple_conflict",
+          "field": "admin2",
+          "observations": 33
+        },
+        {
+          "code": "parent_tuple_conflict",
+          "field": "admin3",
+          "observations": 15
+        }
+      ],
+      "geonames_place_count": 47455,
+      "linked_nodes": 51663,
+      "nodes_requiring_source_review": 231,
+      "address_verified": false,
+      "national_coverage_verified": false
+    },
+    {
+      "code": "SR",
+      "name_ja": "スリナム",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 10
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 68
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 527
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 2
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 525
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 525
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 2
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 527
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 527
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 2
+        }
+      ],
+      "geonames_place_count": 527,
+      "linked_nodes": 605,
+      "nodes_requiring_source_review": 2,
+      "address_verified": false,
+      "national_coverage_verified": false
+    },
+    {
+      "code": "UY",
+      "name_ja": "ウルグアイ",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 19
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 124
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 1
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 1088
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        },
+        {
+          "namespace": "uy-ide-2020",
+          "kind": "source_department_label",
+          "nodes": 20
+        },
+        {
+          "namespace": "uy-ide-2020",
+          "kind": "source_locality_label",
+          "nodes": 740
+        },
+        {
+          "namespace": "uy-ide-2020",
+          "kind": "street",
+          "nodes": 28926
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 1088
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 574
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 514
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 1088
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 1088
+        }
+      ],
+      "issues": [
+        {
+          "code": "disputed_source_label",
+          "field": "departamento",
+          "observations": 2
+        }
+      ],
+      "geonames_place_count": 1088,
+      "linked_nodes": 30918,
+      "nodes_requiring_source_review": 2,
+      "address_verified": false,
+      "national_coverage_verified": false
+    },
+    {
+      "code": "VE",
+      "name_ja": "ベネズエラ",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 25
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 335
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 91
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 25525
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 25525
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 772
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 24747
+        },
+        {
+          "field": "admin2",
+          "status": "unresolved",
+          "records": 6
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 25480
+        },
+        {
+          "field": "admin3",
+          "status": "resolved",
+          "records": 45
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 25525
+        }
+      ],
+      "issues": [
+        {
+          "code": "parent_tuple_conflict",
+          "field": "admin2",
+          "observations": 6
+        }
+      ],
+      "geonames_place_count": 25525,
+      "linked_nodes": 25976,
+      "nodes_requiring_source_review": 6,
+      "address_verified": false,
+      "national_coverage_verified": false
+    }
+  ],
+  "structural_checks": {
+    "foreign_keys": "PASS",
+    "same_country_links": "PASS",
+    "acyclic_rank_order": "PASS"
+  },
+  "limit": "PASS means the processing and structural checks completed; it is not national address completeness."
+}

@@ -1,0 +1,30 @@
+country_code,name_en,subregion,administrative_areas,populated_places,noncurrent_places,other_administrative_features,total_records,unresolved_parent,ancestor_fallback,country_only_parent,data_path,coverage_status
+AU,Australia,australia_new_zealand,678,19204,89,3,19974,0,0,13,data/australia_new_zealand/AU/places.csv,source_extract_not_official_municipal_completeness
+CX,Christmas Island,australia_new_zealand,0,6,1,0,7,0,0,7,data/australia_new_zealand/CX/places.csv,source_extract_not_official_municipal_completeness
+CC,Cocos (Keeling) Islands,australia_new_zealand,0,2,0,0,2,0,0,2,data/australia_new_zealand/CC/places.csv,source_extract_not_official_municipal_completeness
+HM,Heard Island and McDonald Islands,australia_new_zealand,0,0,0,0,0,0,0,0,data/australia_new_zealand/HM/places.csv,no_selected_features_in_source
+NZ,New Zealand,australia_new_zealand,206,3037,178,0,3421,0,2,302,data/australia_new_zealand/NZ/places.csv,source_extract_not_official_municipal_completeness
+NF,Norfolk Island,australia_new_zealand,0,4,0,0,4,0,0,4,data/australia_new_zealand/NF/places.csv,source_extract_not_official_municipal_completeness
+FJ,Fiji,melanesia,109,2241,0,0,2350,0,0,72,data/melanesia/FJ/places.csv,source_extract_not_official_municipal_completeness
+NC,New Caledonia,melanesia,44,740,1,0,785,0,0,60,data/melanesia/NC/places.csv,source_extract_not_official_municipal_completeness
+PG,Papua New Guinea,melanesia,158,11546,76,0,11780,0,0,48,data/melanesia/PG/places.csv,source_extract_not_official_municipal_completeness
+SB,Solomon Islands,melanesia,193,2549,530,0,3272,0,0,287,data/melanesia/SB/places.csv,source_extract_not_official_municipal_completeness
+VU,Vanuatu,melanesia,8,1907,15,0,1930,0,0,11,data/melanesia/VU/places.csv,source_extract_not_official_municipal_completeness
+GU,Guam,micronesia,19,127,4,0,150,0,0,19,data/micronesia/GU/places.csv,source_extract_not_official_municipal_completeness
+KI,Kiribati,micronesia,40,192,15,0,247,0,0,3,data/micronesia/KI/places.csv,source_extract_not_official_municipal_completeness
+MH,Marshall Islands,micronesia,33,111,1,14,159,0,0,33,data/micronesia/MH/places.csv,source_extract_not_official_municipal_completeness
+FM,Micronesia (Federated States of),micronesia,82,466,6,0,554,0,0,4,data/micronesia/FM/places.csv,source_extract_not_official_municipal_completeness
+NR,Naoero,micronesia,14,15,0,0,29,0,0,14,data/micronesia/NR/places.csv,source_extract_not_official_municipal_completeness
+MP,Northern Mariana Islands,micronesia,16,48,8,0,72,0,0,4,data/micronesia/MP/places.csv,source_extract_not_official_municipal_completeness
+PW,Palau,micronesia,17,84,2,0,103,0,0,18,data/micronesia/PW/places.csv,source_extract_not_official_municipal_completeness
+UM,United States Minor Outlying Islands,micronesia,9,7,4,0,20,0,0,9,data/micronesia/UM/places.csv,source_extract_not_official_municipal_completeness
+AS,American Samoa,polynesia,99,127,22,1,249,0,2,7,data/polynesia/AS/places.csv,source_extract_not_official_municipal_completeness
+CK,Cook Islands,polynesia,71,56,0,0,127,0,0,86,data/polynesia/CK/places.csv,source_extract_not_official_municipal_completeness
+PF,French Polynesia,polynesia,93,406,2,0,501,0,4,77,data/polynesia/PF/places.csv,source_extract_not_official_municipal_completeness
+NU,Niue,polynesia,0,49,0,0,49,0,0,49,data/polynesia/NU/places.csv,source_extract_not_official_municipal_completeness
+PN,Pitcairn,polynesia,0,1,0,0,1,0,0,1,data/polynesia/PN/places.csv,source_extract_not_official_municipal_completeness
+WS,Samoa,polynesia,38,408,0,0,446,0,0,314,data/polynesia/WS/places.csv,source_extract_not_official_municipal_completeness
+TK,Tokelau,polynesia,3,5,0,0,8,0,0,3,data/polynesia/TK/places.csv,source_extract_not_official_municipal_completeness
+TO,Tonga,polynesia,28,149,0,0,177,0,0,9,data/polynesia/TO/places.csv,source_extract_not_official_municipal_completeness
+TV,Tuvalu,polynesia,9,26,1,0,36,0,0,8,data/polynesia/TV/places.csv,source_extract_not_official_municipal_completeness
+WF,Wallis and Futuna Islands,polynesia,42,99,0,0,141,0,0,3,data/polynesia/WF/places.csv,source_extract_not_official_municipal_completeness

@@ -1,0 +1,78 @@
+{
+  "checked_at": "2026-10-21T19:01:44.448523+00:00",
+  "extracts": [
+    {
+      "extract_code": "BZ",
+      "source_sha256": "dc2157d616d286e03f82af41b697b30c930cfd0dce0fc3e7ffb65cee12077361",
+      "pbf_header": {
+        "generator": "osmium/1.16.0",
+        "osmosis_replication_timestamp": "2026-10-20T20:23:47Z",
+        "osmosis_replication_sequence_number": "4941"
+      }
+    },
+    {
+      "extract_code": "CR",
+      "source_sha256": "cd3379db91b6d728529cd55885248a6deb04fee2e1d70e2ea463f6793929e9fd",
+      "pbf_header": {
+        "generator": "osmium/1.16.0",
+        "osmosis_replication_timestamp": "2026-10-20T20:23:47Z",
+        "osmosis_replication_sequence_number": "2080"
+      }
+    },
+    {
+      "extract_code": "GT",
+      "source_sha256": "c1c70bb273dd08d263e60370e37fa5a9ae6298bf4357b2c996a7d4a3528b5639",
+      "pbf_header": {
+        "generator": "osmium/1.16.0",
+        "osmosis_replication_timestamp": "2026-10-20T20:23:47Z",
+        "osmosis_replication_sequence_number": "4941"
+      }
+    },
+    {
+      "extract_code": "HN",
+      "source_sha256": "f28e1301e61d89b01237148e0a6d2cb8cdbbb12c2b555b9051da5f4e1cbfd327",
+      "pbf_header": {
+        "generator": "osmium/1.16.0",
+        "osmosis_replication_timestamp": "2026-10-20T20:23:47Z",
+        "osmosis_replication_sequence_number": "2080"
+      }
+    },
+    {
+      "extract_code": "MX",
+      "source_sha256": "239794a0c709e2ad03409c420d5925a11bd2958dd4aff7acaa86fac40045ac3c",
+      "pbf_header": {
+        "generator": "osmium/1.16.0",
+        "osmosis_replication_timestamp": "2026-10-20T20:23:47Z",
+        "osmosis_replication_sequence_number": "4947"
+      }
+    },
+    {
+      "extract_code": "NI",
+      "source_sha256": "99b87bd83e061985ca00533718a309301ae8cda0a5a4e473fc686cded0d90455",
+      "pbf_header": {
+        "generator": "osmium/1.16.0",
+        "osmosis_replication_timestamp": "2026-10-20T20:23:47Z",
+        "osmosis_replication_sequence_number": "4076"
+      }
+    },
+    {
+      "extract_code": "PA",
+      "source_sha256": "2bfe8579d7cdeb62ba68c871927766d26c1be4ff260833e56020fc20000b94b2",
+      "pbf_header": {
+        "generator": "osmium/1.16.0",
+        "osmosis_replication_timestamp": "2026-10-20T20:23:47Z",
+        "osmosis_replication_sequence_number": "1876"
+      }
+    },
+    {
+      "extract_code": "SV",
+      "source_sha256": "8fff9c8ec474e0aa93ca8363aa6feec331efe1e57785cea185aedcfe14a1a36f",
+      "pbf_header": {
+        "generator": "osmium/1.16.0",
+        "osmosis_replication_timestamp": "2026-10-20T20:23:47Z",
+        "osmosis_replication_sequence_number": "2080"
+      }
+    }
+  ],
+  "source_timestamp_is_not_a_legal_effective_date": true
+}

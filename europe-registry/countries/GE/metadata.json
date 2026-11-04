@@ -1,0 +1,99 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "GEO",
+    "country": "GE",
+    "geonames_continent": "AS",
+    "geonames_country_name": "Georgia",
+    "geonames_id": "614540",
+    "id": "country:GE",
+    "m49": "268",
+    "m49_region": "Asia",
+    "name_en": "Georgia",
+    "region": "Western Asia",
+    "scope_group": "supplement",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 5371,
+    "admin_rows": 99,
+    "ambiguous_parents": 0,
+    "country": "GE",
+    "country_scope_only": 558,
+    "localities_without_adm1": 622,
+    "locality_rows": 5417,
+    "name_en": "Georgia",
+    "other_admin_rows": 3,
+    "region": "Western Asia",
+    "unresolved_parents": 23
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 12,
+    "ADM1H": 1,
+    "ADM2": 84,
+    "ADM3": 3,
+    "ADMD": 2,
+    "PPL": 5260,
+    "PPLA": 11,
+    "PPLA2": 61,
+    "PPLC": 1,
+    "PPLH": 1,
+    "PPLL": 2,
+    "PPLQ": 44,
+    "PPLS": 1,
+    "PPLX": 36
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 324380,
+      "rows": 5519,
+      "sha256": "bd7ca8973103dabd050fb0bf84afb83582c483913cc2778e12201e335ce18ca3",
+      "uncompressed_sha256": "9e7736c3a45dd84f090aaff68d5b20363f85cff8cdbe6bf63129c019374457cd"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 558,
+    "historical_parent_not_asserted": 46,
+    "missing_code": 3,
+    "missing_reference": 20,
+    "not_assigned_for_other_feature": 2,
+    "source_admin_code": 4878,
+    "source_country": 12
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 12,
+      "sha256": "08e617a91f1fcb5e1954d7b232664613b8fe8f46159e0e77b768c18f8945ff7e"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 9464,
+    "bytes": 448545,
+    "excluded_feature_class_counts": {
+      "A": 2,
+      "H": 1354,
+      "L": 456,
+      "R": 11,
+      "S": 797,
+      "T": 1322,
+      "V": 3
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:53:23 GMT",
+    "retained_rows": 5519,
+    "retrieved_at": "2026-09-29T11:13:45.252701+00:00",
+    "sha256": "df1173738e643c88f5424b5961ebc6341d52de69cfcfdbdf3f8227ace1176557",
+    "url": "https://download.geonames.org/export/dump/GE.zip"
+  },
+  "source_modified_max": "2026-09-11",
+  "source_modified_min": "2001-08-30"
+}

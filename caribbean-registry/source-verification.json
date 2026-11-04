@@ -1,0 +1,235 @@
+{
+  "checks": [
+    "Retained A/P source rows equal shipped original 19 fields exactly",
+    "Every exact-ID in-scope alternateNamesV2 row equals shipped source fields",
+    "Source archive SHA256 matches country metadata"
+  ],
+  "errors": 0,
+  "limitations": [
+    "This verifies fidelity to the acquired source archives, not their independent truth or legal completeness."
+  ],
+  "omitted_countries": [
+    "CU"
+  ],
+  "reports": [
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 1324,
+      "country": "AG",
+      "entity_raw_fields_match": true,
+      "entity_rows": 199,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 605,
+      "country": "AI",
+      "entity_raw_fields_match": true,
+      "entity_rows": 60,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 412,
+      "country": "AW",
+      "entity_raw_fields_match": true,
+      "entity_rows": 173,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 1368,
+      "country": "BB",
+      "entity_raw_fields_match": true,
+      "entity_rows": 600,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 308,
+      "country": "BL",
+      "entity_raw_fields_match": true,
+      "entity_rows": 30,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 385,
+      "country": "BQ",
+      "entity_raw_fields_match": true,
+      "entity_rows": 123,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 2891,
+      "country": "BS",
+      "entity_raw_fields_match": true,
+      "entity_rows": 396,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 269,
+      "country": "CW",
+      "entity_raw_fields_match": true,
+      "entity_rows": 102,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 1447,
+      "country": "DM",
+      "entity_raw_fields_match": true,
+      "entity_rows": 143,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 10638,
+      "country": "DO",
+      "entity_raw_fields_match": true,
+      "entity_rows": 22642,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 894,
+      "country": "GD",
+      "entity_raw_fields_match": true,
+      "entity_rows": 308,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 2153,
+      "country": "GP",
+      "entity_raw_fields_match": true,
+      "entity_rows": 1616,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 9426,
+      "country": "HT",
+      "entity_raw_fields_match": true,
+      "entity_rows": 11716,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 6365,
+      "country": "JM",
+      "entity_raw_fields_match": true,
+      "entity_rows": 4711,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 1188,
+      "country": "KN",
+      "entity_raw_fields_match": true,
+      "entity_rows": 144,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 423,
+      "country": "KY",
+      "entity_raw_fields_match": true,
+      "entity_rows": 95,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 957,
+      "country": "LC",
+      "entity_raw_fields_match": true,
+      "entity_rows": 896,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 227,
+      "country": "MF",
+      "entity_raw_fields_match": true,
+      "entity_rows": 64,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 2192,
+      "country": "MQ",
+      "entity_raw_fields_match": true,
+      "entity_rows": 1335,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 302,
+      "country": "MS",
+      "entity_raw_fields_match": true,
+      "entity_rows": 87,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 6664,
+      "country": "PR",
+      "entity_raw_fields_match": true,
+      "entity_rows": 3635,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 226,
+      "country": "SX",
+      "entity_raw_fields_match": true,
+      "entity_rows": 63,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 192,
+      "country": "TC",
+      "entity_raw_fields_match": true,
+      "entity_rows": 44,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 1757,
+      "country": "TT",
+      "entity_raw_fields_match": true,
+      "entity_rows": 512,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 1029,
+      "country": "VC",
+      "entity_raw_fields_match": true,
+      "entity_rows": 172,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 376,
+      "country": "VG",
+      "entity_raw_fields_match": true,
+      "entity_rows": 143,
+      "source_zip_hashes_match": true
+    },
+    {
+      "alternate_raw_fields_match": true,
+      "alternate_rows": 1237,
+      "country": "VI",
+      "entity_raw_fields_match": true,
+      "entity_rows": 572,
+      "source_zip_hashes_match": true
+    }
+  ],
+  "source_archives": 54,
+  "source_countries": 27,
+  "verified_on": "2026-10-01"
+}

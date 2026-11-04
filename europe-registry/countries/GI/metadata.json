@@ -1,0 +1,81 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "GIB",
+    "country": "GI",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Gibraltar",
+    "geonames_id": "2411586",
+    "id": "country:GI",
+    "m49": "292",
+    "m49_region": "Europe",
+    "name_en": "Gibraltar",
+    "region": "Southern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 10,
+    "admin_rows": 0,
+    "ambiguous_parents": 0,
+    "country": "GI",
+    "country_scope_only": 10,
+    "localities_without_adm1": 10,
+    "locality_rows": 10,
+    "name_en": "Gibraltar",
+    "other_admin_rows": 0,
+    "region": "Southern Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "PPL": 1,
+    "PPLC": 1,
+    "PPLX": 8
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 1039,
+      "rows": 10,
+      "sha256": "141ded76bc438f1649321736c703a6550821e938a5f3b1c723c82ad8758f6b0a",
+      "uncompressed_sha256": "d6df8bcc98a13ee8c36be9a42b3a8510b1f4904b1656284716bbaed9d13d45de"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 10
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 0,
+      "sha256": "6fe5bf94663e3f1bddc0b9a464613de7e45a6c2fb10f5a5f4b51e70f1c4c31c2"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 267,
+    "bytes": 15497,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 18,
+      "L": 16,
+      "R": 6,
+      "S": 191,
+      "T": 25
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:53:24 GMT",
+    "retained_rows": 10,
+    "retrieved_at": "2026-09-29T11:13:44.815732+00:00",
+    "sha256": "5d4ce9877b8d65e936d64cffa0701912530f4b65500cfb4de6e74a9487e115f7",
+    "url": "https://download.geonames.org/export/dump/GI.zip"
+  },
+  "source_modified_max": "2025-10-01",
+  "source_modified_min": "2011-09-06"
+}

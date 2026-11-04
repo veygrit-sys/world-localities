@@ -1,0 +1,82 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "SMR",
+    "country": "SM",
+    "geonames_continent": "EU",
+    "geonames_country_name": "San Marino",
+    "geonames_id": "3168068",
+    "id": "country:SM",
+    "m49": "674",
+    "m49_region": "Europe",
+    "name_en": "San Marino",
+    "region": "Southern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 24,
+    "admin_rows": 9,
+    "ambiguous_parents": 0,
+    "country": "SM",
+    "country_scope_only": 3,
+    "localities_without_adm1": 3,
+    "locality_rows": 24,
+    "name_en": "San Marino",
+    "other_admin_rows": 0,
+    "region": "Southern Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 9,
+    "PPL": 15,
+    "PPLA": 8,
+    "PPLC": 1
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 7087,
+      "rows": 33,
+      "sha256": "78833114bbe748145bb077c69b421b9445722282e8177e80d7510fcb56a01f02",
+      "uncompressed_sha256": "c25de83a81b77bef0ac8b54e5ac21d5e8f8ea6e5584bafa7a2c186ae50f30169"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 3,
+    "source_admin_code": 21,
+    "source_country": 9
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 9,
+      "sha256": "2d5101da3610d7b6809bd3ee1ba56c2f48ecc61e32d73f44014cc0b5cc36bc7a"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 71,
+    "bytes": 12138,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "L": 8,
+      "S": 28,
+      "T": 1
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:56:29 GMT",
+    "retained_rows": 33,
+    "retrieved_at": "2026-09-29T11:14:50.943941+00:00",
+    "sha256": "0690848287ee07d3d8642b1973dac0afc985c8df67bc86d329f396556bff6d62",
+    "url": "https://download.geonames.org/export/dump/SM.zip"
+  },
+  "source_modified_max": "2026-09-02",
+  "source_modified_min": "2012-02-11"
+}

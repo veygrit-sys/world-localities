@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "region": "south-america",
+  "snapshot_date": "2026-10-17",
+  "archives": [
+    {
+      "name": "Veygrit_SouthAmerica_20261017.zip",
+      "bytes": 35483056,
+      "sha256": "fddf5f36be156cff3414d5e4f19df60efbdf30e73d9e9a2fe52d5369274cd282",
+      "files": 152,
+      "roots": [
+        "Veygrit_SouthAmerica_20261017"
+      ]
+    }
+  ],
+  "selected_files": [
+    {
+      "path": "releases/hierarchy/south-america/original/COUNTRY_RESULTS_JA.md",
+      "archive_member": "Veygrit_SouthAmerica_20261017/COUNTRY_RESULTS_JA.md",
+      "original_sha256": "b21e9f2f8e4e6a373e7e93c3e878963a62d26e25a6ffede8d51cf68f31288deb",
+      "git_sha256": "b21e9f2f8e4e6a373e7e93c3e878963a62d26e25a6ffede8d51cf68f31288deb"
+    },
+    {
+      "path": "releases/hierarchy/south-america/original/LICENSE_DATA.md",
+      "archive_member": "Veygrit_SouthAmerica_20261017/LICENSE_DATA.md",
+      "original_sha256": "4a0487999b3baf9ec45b2922a97621d759bdd5b788126a5913a83c235e7fed81",
+      "git_sha256": "4a0487999b3baf9ec45b2922a97621d759bdd5b788126a5913a83c235e7fed81"
+    },
+    {
+      "path": "releases/hierarchy/south-america/original/MANIFEST.json",
+      "archive_member": "Veygrit_SouthAmerica_20261017/MANIFEST.json",
+      "original_sha256": "ff957911f79e7b498254348ca01a02438aa134216de3148b34d2821a8059d222",
+      "git_sha256": "ff957911f79e7b498254348ca01a02438aa134216de3148b34d2821a8059d222"
+    },
+    {
+      "path": "releases/hierarchy/south-america/original/README_JA.md",
+      "archive_member": "Veygrit_SouthAmerica_20261017/README_JA.md",
+      "original_sha256": "7239a6691dc86f649460cdfcd08a0f35f7bc0512a26eb8db9227bbd07daa8bc6",
+      "git_sha256": "7239a6691dc86f649460cdfcd08a0f35f7bc0512a26eb8db9227bbd07daa8bc6"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_ACQUISITION_REVIEW.json",
+      "archive_member": "Veygrit_SouthAmerica_20261017/address-points/SOUTH_AMERICA_ACQUISITION_REVIEW.json",
+      "original_sha256": "5b63c145f5bb3b163372baa236866321d9e1aaa8442bf74eb67a9974c8014701",
+      "git_sha256": "5b63c145f5bb3b163372baa236866321d9e1aaa8442bf74eb67a9974c8014701"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_BUILD.json",
+      "archive_member": "Veygrit_SouthAmerica_20261017/address-points/SOUTH_AMERICA_BUILD.json",
+      "original_sha256": "6987a5a6f834e82d453ae6b37f9c73f27b5cf1e861a40e9073b0a7467054d725",
+      "git_sha256": "6987a5a6f834e82d453ae6b37f9c73f27b5cf1e861a40e9073b0a7467054d725"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_COUNTRIES_LOOP.json",
+      "archive_member": "Veygrit_SouthAmerica_20261017/address-points/SOUTH_AMERICA_COUNTRIES_LOOP.json",
+      "original_sha256": "c27cda27abc7b4a7b273eeb126f5d93a3323c2fc85302333d3260e72ee5f2b4a",
+      "git_sha256": "c27cda27abc7b4a7b273eeb126f5d93a3323c2fc85302333d3260e72ee5f2b4a"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_HIERARCHY_BUILD.json",
+      "archive_member": "Veygrit_SouthAmerica_20261017/address-points/SOUTH_AMERICA_HIERARCHY_BUILD.json",
+      "original_sha256": "879ca8b2d384c23c00d55c1fed374770181f3b2e6f72af22907f60d221d1ddc1",
+      "git_sha256": "879ca8b2d384c23c00d55c1fed374770181f3b2e6f72af22907f60d221d1ddc1"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_HIERARCHY_LOOP.json",
+      "archive_member": "Veygrit_SouthAmerica_20261017/address-points/SOUTH_AMERICA_HIERARCHY_LOOP.json",
+      "original_sha256": "fe8c40342e8c4bced9ac551f3ac621ad70b4450d54fa80be83796e4691204445",
+      "git_sha256": "fe8c40342e8c4bced9ac551f3ac621ad70b4450d54fa80be83796e4691204445"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_HIERARCHY_SOURCES.json",
+      "archive_member": "Veygrit_SouthAmerica_20261017/address-points/SOUTH_AMERICA_HIERARCHY_SOURCES.json",
+      "original_sha256": "3c1274b667536643b8be69f57017c42dedc9f057a13bc0f58b1b1425affac5d1",
+      "git_sha256": "3c1274b667536643b8be69f57017c42dedc9f057a13bc0f58b1b1425affac5d1"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_HIERARCHY_VALIDATION.json",
+      "archive_member": "Veygrit_SouthAmerica_20261017/address-points/SOUTH_AMERICA_HIERARCHY_VALIDATION.json",
+      "original_sha256": "f4ef5ef3a5f4c022b7621f18502d2ea943296a0c8d05652956021b90b93c716c",
+      "git_sha256": "f4ef5ef3a5f4c022b7621f18502d2ea943296a0c8d05652956021b90b93c716c"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_RULES.json",
+      "archive_member": "Veygrit_SouthAmerica_20261017/address-points/SOUTH_AMERICA_RULES.json",
+      "original_sha256": "9b3c50ada0478e8871b6239531e21cd808c5e61de3ab99a0b77ba8fe99c00c73",
+      "git_sha256": "9b3c50ada0478e8871b6239531e21cd808c5e61de3ab99a0b77ba8fe99c00c73"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_SCOPE.json",
+      "archive_member": "Veygrit_SouthAmerica_20261017/address-points/SOUTH_AMERICA_SCOPE.json",
+      "original_sha256": "cd6c0f69d36ca52866e4293a2a495836278faca4b98f4049a013c9f2ff985ca7",
+      "git_sha256": "cd6c0f69d36ca52866e4293a2a495836278faca4b98f4049a013c9f2ff985ca7"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_SOURCES.json",
+      "archive_member": "Veygrit_SouthAmerica_20261017/address-points/SOUTH_AMERICA_SOURCES.json",
+      "original_sha256": "0e00b1d84da1d423eb073f9f20c2f5d26a8ce23d20a9b2a0792812db41942d0a",
+      "git_sha256": "0e00b1d84da1d423eb073f9f20c2f5d26a8ce23d20a9b2a0792812db41942d0a"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_SOURCE_REVIEW.json",
+      "archive_member": "Veygrit_SouthAmerica_20261017/address-points/SOUTH_AMERICA_SOURCE_REVIEW.json",
+      "original_sha256": "7bae13718368d71ca15e6e8d224730b862b6cef693e2000db27f6657cc1fccb0",
+      "git_sha256": "7bae13718368d71ca15e6e8d224730b862b6cef693e2000db27f6657cc1fccb0"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_SUPPLEMENTARY_LOOP.json",
+      "archive_member": "Veygrit_SouthAmerica_20261017/address-points/SOUTH_AMERICA_SUPPLEMENTARY_LOOP.json",
+      "original_sha256": "4cc6c62f446f4606779c04c83789a78b10d3ef6a7fe2a11199ad95cbcc95fd5a",
+      "git_sha256": "4cc6c62f446f4606779c04c83789a78b10d3ef6a7fe2a11199ad95cbcc95fd5a"
+    },
+    {
+      "path": "address-points/SOUTH_AMERICA_VALIDATION.json",
+      "archive_member": "Veygrit_SouthAmerica_20261017/address-points/SOUTH_AMERICA_VALIDATION.json",
+      "original_sha256": "73665a2753fe91108138cf9c006452de1932add6a0c09db261fba6a75747ad25",
+      "git_sha256": "73665a2753fe91108138cf9c006452de1932add6a0c09db261fba6a75747ad25"
+    },
+    {
+      "path": "address-points/adapters/southamerica.py",
+      "archive_member": "Veygrit_SouthAmerica_20261017/address-points/adapters/southamerica.py",
+      "original_sha256": "ebf9cab4487d4a79f725332695609a6a1b9a0a3cbf9e3ba47fbe120e3e64f680",
+      "git_sha256": "68231110c315c8fd697a41e5cfcca03701a9591c4197463c2d1c0fe31292f7a8"
+    },
+    {
+      "path": "address-points/adapters/southamerica_fetch.py",
+      "archive_member": "Veygrit_SouthAmerica_20261017/address-points/adapters/southamerica_fetch.py",
+      "original_sha256": "d5601cde249d2380f11d333acd88ca708586f04d2ce7b220cc6e1dd707957d68",
+      "git_sha256": "9d7310f332bc7203f27ce2ab396c86124f3665df6783d48adeaa52efced73115"
+    },
+    {
+      "path": "address-points/adapters/southamerica_hierarchy.py",
+      "archive_member": "Veygrit_SouthAmerica_20261017/address-points/adapters/southamerica_hierarchy.py",
+      "original_sha256": "1e2547e6ffeb5fa38bef259cb2925f076a2c966257890f7fd39ff35cfcad1838",
+      "git_sha256": "1e2547e6ffeb5fa38bef259cb2925f076a2c966257890f7fd39ff35cfcad1838"
+    },
+    {
+      "path": "address-points/adapters/southamerica_hierarchy_validate.py",
+      "archive_member": "Veygrit_SouthAmerica_20261017/address-points/adapters/southamerica_hierarchy_validate.py",
+      "original_sha256": "e78f28b61c8c336f87999e8315b9a1518ba90c9bc6dcd9c65c70468e15afe207",
+      "git_sha256": "e78f28b61c8c336f87999e8315b9a1518ba90c9bc6dcd9c65c70468e15afe207"
+    },
+    {
+      "path": "address-points/adapters/southamerica_validate.py",
+      "archive_member": "Veygrit_SouthAmerica_20261017/address-points/adapters/southamerica_validate.py",
+      "original_sha256": "44328bd1424f0353691520823e8a2d62c60c5e45e4dee8ff7b23a0c89cf0bb87",
+      "git_sha256": "44328bd1424f0353691520823e8a2d62c60c5e45e4dee8ff7b23a0c89cf0bb87"
+    },
+    {
+      "path": "hierarchy-tests/test_hierarchy_south_america_southamerica.py",
+      "archive_member": "Veygrit_SouthAmerica_20261017/tests/test_southamerica.py",
+      "original_sha256": "719e20fd11719ef3c03c7d456c7dcae79a5e5a31aa1a2b1d01deb0b43765b9d4",
+      "git_sha256": "0083309f7c6d7e00d0f00ddad003056548b1af1af2b7e908dc6ac0e1e6063930"
+    },
+    {
+      "path": "hierarchy-tests/test_hierarchy_south_america_southamerica_hierarchy.py",
+      "archive_member": "Veygrit_SouthAmerica_20261017/tests/test_southamerica_hierarchy.py",
+      "original_sha256": "fa232f70da6366eda95ef38a969977a90db3165ee0483dd9db1a9b2d0e71fc32",
+      "git_sha256": "fa232f70da6366eda95ef38a969977a90db3165ee0483dd9db1a9b2d0e71fc32"
+    }
+  ],
+  "world_complete": false,
+  "deliverability_in_scope": false,
+  "data_payloads_in_git": false,
+  "metadata_and_code_adjustments": [
+    "Public provenance removes private file handles and expiring signature query strings.",
+    "Test basenames are region-qualified.",
+    "Regional data roots may be supplied explicitly; source identifiers and values are unchanged.",
+    "Large historical reports may be gzip-compressed without losing their contents."
+  ]
+}

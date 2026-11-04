@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "country": "CA",
+  "vintage": "2025",
+  "observed_at": "2026-09-26T09:09:55.530780+00:00",
+  "source_manifest": {
+    "scope": "CA_official_v1",
+    "adapter_version": 1,
+    "world_registry_sha256": "ac4fc93fe70a7ab44c4e36600af3e2bcea6a81846ca2cad858041830e7db1cef",
+    "files": {
+      "ca-csd-2025-service.json": {
+        "url": "https://geo.statcan.gc.ca/geo_wa/rest/services/2025/lcsd000a25s_e/MapServer?f=pjson",
+        "sha256": "209e5d453816d8dbe5b8808f4a05fce77571da2c2ae54ea813e246bec7ad46df",
+        "bytes": 3594,
+        "last_modified": null,
+        "etag": "\"d6d6f7f7\"",
+        "mode": "offline_rebuild"
+      },
+      "ca-csd-2025-0.json": {
+        "url": "https://geo.statcan.gc.ca/geo_wa/rest/services/2025/lcsd000a25s_e/MapServer/0/query?where=1%3D1&outFields=PRUID%2CPRNAME%2CCDUID%2CCDNAME%2CCDTYPE%2CCSDUID%2CCSDNAME%2CCSDTYPE&returnGeometry=false&orderByFields=CSDUID&resultOffset=0&resultRecordCount=2000&f=json",
+        "sha256": "d58b0b45308c7df25b4cb96c382c0089d254c91bffee1d1c9eb695bd8a56a377",
+        "bytes": 370982,
+        "last_modified": null,
+        "etag": "\"F1C8nVrnHS73K556_1749224105\"",
+        "mode": "offline_rebuild"
+      },
+      "ca-csd-2025-2000.json": {
+        "url": "https://geo.statcan.gc.ca/geo_wa/rest/services/2025/lcsd000a25s_e/MapServer/0/query?where=1%3D1&outFields=PRUID%2CPRNAME%2CCDUID%2CCDNAME%2CCDTYPE%2CCSDUID%2CCSDNAME%2CCSDTYPE&returnGeometry=false&orderByFields=CSDUID&resultOffset=2000&resultRecordCount=2000&f=json",
+        "sha256": "9526172e1d9b78834bf225f7f6d69d6df5a9a7fd5da202471cd01230133bca2d",
+        "bytes": 334170,
+        "last_modified": null,
+        "etag": "\"F1C8nVrnHS73K556_1749224105\"",
+        "mode": "offline_rebuild"
+      },
+      "ca-csd-2025-4000.json": {
+        "url": "https://geo.statcan.gc.ca/geo_wa/rest/services/2025/lcsd000a25s_e/MapServer/0/query?where=1%3D1&outFields=PRUID%2CPRNAME%2CCDUID%2CCDNAME%2CCDTYPE%2CCSDUID%2CCSDNAME%2CCSDTYPE&returnGeometry=false&orderByFields=CSDUID&resultOffset=4000&resultRecordCount=2000&f=json",
+        "sha256": "985daef2ed5886b2aff65c085776cc2db2c580f47448f5b3d9c0f025fdb80a54",
+        "bytes": 199917,
+        "last_modified": null,
+        "etag": "\"F1C8nVrnHS73K556_1749224105\"",
+        "mode": "offline_rebuild"
+      },
+      "ca-csd-2025-reference.html": {
+        "url": "https://www150.statcan.gc.ca/n1/pub/92-162-g/92-162-g2025001-eng.htm",
+        "sha256": "28c24cf5ab07010f1a205f049ef000aafff3047ea79dfc1d46b439345e151d9e",
+        "bytes": 41538,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "ca-csd-2025-types.html": {
+        "url": "https://www150.statcan.gc.ca/n1/pub/92-162-g/2025001/tbl/tbl4.2-eng.htm",
+        "sha256": "f61fbf1334ec1ebdafd9d05aa9f3e5580b8f40f6245cf074f9500069a15c32ad",
+        "bytes": 100514,
+        "last_modified": null,
+        "etag": null,
+        "mode": "offline_rebuild"
+      },
+      "ca-statcan-open-licence.html": {
+        "url": "https://www.statcan.gc.ca/en/terms-conditions/open-licence",
+        "sha256": "2e9cfa14534c14c27fcfc75c20a3dfcf447ad5d6e379e37ef765607d69587c88",
+        "bytes": 27005,
+        "last_modified": "Sat, 26 Sep 2026 09:04:48 GMT",
+        "etag": "W/\"1790413488\"",
+        "source_time": "2026-09-26T09:04:48+00:00",
+        "mode": "offline_rebuild"
+      }
+    },
+    "source_reference_date": "2025-01-01",
+    "reference_date_status": "source_supplied",
+    "sha256": "9e184419e8079a5b729b87692a8c67d2d29f2764292ad8f2bf3c9e007c9b746b"
+  },
+  "claims": {
+    "all_world_localities_complete": false,
+    "all_postal_city_names_complete": false,
+    "all_languages_complete": false,
+    "street_addresses_complete": false,
+    "deliverability_verified": false
+  },
+  "sha256": {
+    "anchors.csv": "827c66ff407126ca6659747cff216d00786c7643c6ad2149b84afdb421e416c3",
+    "CA-AB.csv": "31e08e0abca2dfe3cbf876397eb0253810afa288c763454f3ea39f669b28615f",
+    "CA-BC.csv": "f0553dc726691ba19306e9f5bca262c5617115c85986001b5e6c8082927fdce7",
+    "CA-MB.csv": "24d7506c2fad03fe0874916af69d2e1be95a2c6d6a334e734c8004e4b8f39037",
+    "CA-NB.csv": "860ea02ef494d7b55025b1d6b398a498845d9c90c88edb8c97eeeaf1e7653986",
+    "CA-NL.csv": "4cf887672a163f1c707745dd23b493fbc025232ccef8fe19ad78ad0a7c791c0e",
+    "CA-NS.csv": "285e7673ade53456b2ed649bfd759115af0e5bb57aa0f444ea0a06aeb9f2c70d",
+    "CA-NT.csv": "153e9874229a5ba1ec73f2594dfbbd5f1cd407b3e6c8350d6b87b8f1a947ba44",
+    "CA-NU.csv": "e10283ab03b350f97081e229862f1d818777da2672c49115be294adf74bf081f",
+    "CA-ON.csv": "67d538f8b6a97b3c15f734f12de7ae5473ff676cccf6d6846e5708df4b01917c",
+    "CA-PE.csv": "4515774625a460fa99c868715c70beb716382e4af97e6a7a2be2fd0e25e90b1c",
+    "CA-QC.csv": "bdea2a37c580e8fe20a3829b3339be0b519e7b79c0fa25acdc71cd47606d4654",
+    "CA-SK.csv": "6d9f879841c94476c71cc85b583004c4f1ee265e8fcd49065f8771aa3015b3b9",
+    "CA-YT.csv": "e99b398fcddb925aac66f7caba2c4d30dfc82ff81053e3763ff8c0e22cb6104c",
+    "unmatched-source-rows.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "index.json": "69ee9d7290246f1e9c49c46b28eaf10b42c198e0148536c25b8a8113cf15c357"
+  }
+}

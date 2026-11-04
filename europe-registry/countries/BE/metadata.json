@@ -1,0 +1,100 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "BEL",
+    "country": "BE",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Belgium",
+    "geonames_id": "2802361",
+    "id": "country:BE",
+    "m49": "056",
+    "m49_region": "Europe",
+    "name_en": "Belgium",
+    "region": "Western Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 12655,
+    "admin_rows": 623,
+    "ambiguous_parents": 0,
+    "country": "BE",
+    "country_scope_only": 0,
+    "localities_without_adm1": 11,
+    "locality_rows": 12669,
+    "name_en": "Belgium",
+    "other_admin_rows": 42,
+    "region": "Western Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 3,
+    "ADM2": 11,
+    "ADM3": 43,
+    "ADM4": 565,
+    "ADM4H": 42,
+    "ADM5": 1,
+    "PPL": 12421,
+    "PPLA": 1,
+    "PPLA3": 17,
+    "PPLA4": 21,
+    "PPLA5": 6,
+    "PPLC": 1,
+    "PPLF": 1,
+    "PPLH": 1,
+    "PPLL": 12,
+    "PPLQ": 5,
+    "PPLR": 2,
+    "PPLW": 5,
+    "PPLX": 176
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 610397,
+      "rows": 13334,
+      "sha256": "0b8815740f35d77afdb1f72659291a459eaff6ddc2ff2f0e85adadd12f53470d",
+      "uncompressed_sha256": "25f3f076f8f694709572eb9dc54a876d3d9181dbfb8e153fc901d0b98e0df41f"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "historical_parent_not_asserted": 53,
+    "source_admin_code": 13278,
+    "source_country": 3
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 3,
+      "sha256": "b4b138b4883aa7dbb3ec0230afaba54f8413994d11d079fa1ba9a9226f13b53d"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 20349,
+    "bytes": 678019,
+    "excluded_feature_class_counts": {
+      "A": 3,
+      "H": 1823,
+      "L": 111,
+      "R": 52,
+      "S": 3378,
+      "T": 187,
+      "V": 1461
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:51:29 GMT",
+    "retained_rows": 13334,
+    "retrieved_at": "2026-09-29T11:13:11.139858+00:00",
+    "sha256": "743ef5b069261aaddb3835b90cf6b09e3720d88d5b7863ee52cff68fc7de5fc3",
+    "url": "https://download.geonames.org/export/dump/BE.zip"
+  },
+  "source_modified_max": "2026-09-21",
+  "source_modified_min": "2008-06-15"
+}

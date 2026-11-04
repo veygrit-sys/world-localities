@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "representation": "ordered raw binary chunks; exact byte concatenation",
+  "chunk_size_limit_bytes": 524288,
+  "files": [
+    {
+      "country": "GT",
+      "path": "sources/GT.zip",
+      "bytes": 1047133,
+      "sha256": "6b6af2d918d4c885913827410ce0cf2ebcae0919b4052b0658ff5ed491f597f7",
+      "parts": [
+        {
+          "path": ".parts/GT/sources/GT.zip/part-0001.bin",
+          "bytes": 524288,
+          "sha256": "e54935ed50ebd30665315908faa7983d9feb80d21f9a82c451bb281bbf031e8d"
+        },
+        {
+          "path": ".parts/GT/sources/GT.zip/part-0002.bin",
+          "bytes": 522845,
+          "sha256": "1ca97c16e599e30e629cd0ba46ec783250d7224b201f7cb5c118312420993707"
+        }
+      ]
+    },
+    {
+      "country": "PA",
+      "path": "sources/PA.zip",
+      "bytes": 931930,
+      "sha256": "e3e6308a2c46c35eb01a2add6cc61906386a7edb4db55f87eb573de15a7c69f9",
+      "parts": [
+        {
+          "path": ".parts/PA/sources/PA.zip/part-0001.bin",
+          "bytes": 524288,
+          "sha256": "a29a8951fc10fce2a9e61cc892a82c4dc232b103bb76329667e126879c9dc40d"
+        },
+        {
+          "path": ".parts/PA/sources/PA.zip/part-0002.bin",
+          "bytes": 407642,
+          "sha256": "1a77df60cda6ee96a52a9c78185dedf90827e6d797254c9e0ba911e24a99c369"
+        }
+      ]
+    }
+  ]
+}

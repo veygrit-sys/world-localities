@@ -1,0 +1,102 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "BDI",
+    "country": "BI",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Burundi",
+    "geonames_id": "433561",
+    "id": "country:BI",
+    "m49": "108",
+    "name_en": "Burundi",
+    "numeric": "108",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 6977,
+    "admin_rows": 2752,
+    "ambiguous_parents": 0,
+    "country": "BI",
+    "country_scope_only": 0,
+    "localities_without_adm1": 0,
+    "locality_rows": 6977,
+    "name_en": "Burundi",
+    "other_admin_rows": 17,
+    "region": "Eastern Africa",
+    "unresolved_parents": 349
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 16,
+    "ADM1H": 3,
+    "ADM2": 119,
+    "ADM2H": 13,
+    "ADM3": 2615,
+    "ADM4": 2,
+    "PCLI": 1,
+    "PPL": 1204,
+    "PPLA": 14,
+    "PPLA2": 4,
+    "PPLA3": 1,
+    "PPLC": 1,
+    "PPLL": 5741,
+    "PPLX": 12
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 279013,
+      "rows": 9746,
+      "sha256": "cc2ae424bf8c13debe9b930409ef57d844841fa96213d666b8c1fb567360f604",
+      "uncompressed_sha256": "a99e7dde9e75a4dc4c2de4b312ce125ecb0533d8f8b99e3a3339e54860c88c58"
+    }
+  },
+  "known_issues": [
+    {
+      "action": "Reconcile source provinces and descendants with the new official hierarchy before current administrative use. Preserve the original source snapshot.",
+      "geonames_adm1_count_in_this_snapshot": 16,
+      "official_reference_adm1_count": 5,
+      "official_reference_adm2_count": 42,
+      "reference_date": "2023-03-16",
+      "source_urls": [
+        "https://www.ceniburundi.bi/wp-content/uploads/2024/06/LOI-n%C2%B05-du-16-mars-2023DETERMINATION-ET-DELIMITATION-DES-PROVINCES-COMMUNES-ZONES-ET-QUARTIERS.pdf"
+      ],
+      "status": "known_administrative_reform_mismatch"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "missing_code": 2,
+    "missing_reference": 347,
+    "not_assigned_for_other_feature": 17,
+    "source_admin_code": 9364,
+    "source_country": 16
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 16,
+      "sha256": "c3a9806b6bda587b916a4d736625ff804f2a6b0f58e8f171440efbdc85d72872"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 331141,
+    "discarded_feature_classes": {
+      "H": 2366,
+      "L": 403,
+      "R": 17,
+      "S": 776,
+      "T": 624,
+      "V": 202
+    },
+    "retained_rows": 9746,
+    "retrieved_on": "2026-09-26",
+    "sha256": "d094c1563ce79d09eeb0a90ab0486c87fa64122644030e26801f2ed95a034db1",
+    "source_rows": 14134,
+    "url": "https://download.geonames.org/export/dump/BI.zip"
+  },
+  "source_modified_max": "2026-08-30",
+  "source_modified_min": "2001-04-20"
+}

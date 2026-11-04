@@ -1,0 +1,3 @@
+# Costa Rica GeoNames supplement
+
+Data: GeoNames, https://www.geonames.org/ and https://download.geonames.org/export/dump/. CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. Original country and alternate-name extracts are retained with download receipts. Changes: A/P feature selection, source-code parent links, language-tag filtering and deterministic CSV/gzip packaging. No official translation, postal assignment or delivery guarantee is implied. The countryInfo country root label mapping is explicit. Existing six-country CC BY 4.0 data and separate Mexico ODbL-linked material retain their licences.

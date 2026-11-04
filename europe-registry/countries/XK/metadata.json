@@ -1,0 +1,94 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": null,
+    "code_status": "GeoNames user-assigned code; not an officially assigned ISO 3166-1 alpha-2 code",
+    "country": "XK",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Kosovo",
+    "geonames_id": "831053",
+    "id": "country:XK",
+    "m49": null,
+    "m49_region": null,
+    "name_en": "Kosovo",
+    "region": "Supplement",
+    "scope_group": "supplement",
+    "status": "disputed"
+  },
+  "counts": {
+    "address_candidates": 2597,
+    "admin_rows": 45,
+    "ambiguous_parents": 0,
+    "country": "XK",
+    "country_scope_only": 8,
+    "localities_without_adm1": 14,
+    "locality_rows": 2604,
+    "name_en": "Kosovo",
+    "other_admin_rows": 1,
+    "region": "Supplement",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 7,
+    "ADM2": 38,
+    "ADMD": 1,
+    "PPL": 2217,
+    "PPLA": 6,
+    "PPLA2": 30,
+    "PPLC": 1,
+    "PPLL": 310,
+    "PPLQ": 6,
+    "PPLR": 1,
+    "PPLX": 33
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 131705,
+      "rows": 2650,
+      "sha256": "cd317a406a5f429773858d075cbb7825be9cd8d59001bdacbb82c45796a177a6",
+      "uncompressed_sha256": "a1f609896811f9b315d2598f0b7ee2f885fc6c9775513363537c6484712248b4"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 8,
+    "historical_parent_not_asserted": 6,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 2628,
+    "source_country": 7
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 7,
+      "sha256": "ba9dfa0bae260aa5508047450c0a1f833d39364d7cd735935e8f1403efb5e385"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 6292,
+    "bytes": 221994,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 703,
+      "L": 625,
+      "S": 272,
+      "T": 2013,
+      "V": 28
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:58:06 GMT",
+    "retained_rows": 2650,
+    "retrieved_at": "2026-09-29T11:14:59.032189+00:00",
+    "sha256": "cc98b019c9cc45d54903d6689732bd7bdc03e95f7feff4a7e897876f1b38a278",
+    "url": "https://download.geonames.org/export/dump/XK.zip"
+  },
+  "source_modified_max": "2026-08-31",
+  "source_modified_min": "2010-02-14"
+}

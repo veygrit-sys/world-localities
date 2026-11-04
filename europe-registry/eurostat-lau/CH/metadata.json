@@ -1,0 +1,35 @@
+{
+  "country": "CH",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 3252,
+      "rows": 34,
+      "sha256": "7953ad0de54659899174892903a00bfcf3cde45e1be642aa45262a0d6ee66672"
+    },
+    "units.csv.gz": {
+      "bytes": 43633,
+      "rows": 2131,
+      "sha256": "71146ec7e5e403acebae3b3a4f3fea8c6ef69394e3f84efbc14136756f210092"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 2131,
+  "skipped_empty_rows": 32815,
+  "source_period_counts": {
+    "2024": 2131
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "CH",
+  "validation": {
+    "core": "validated",
+    "overall": "validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

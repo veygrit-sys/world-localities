@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "release_date": "2026-10-17",
+  "country_codes": [
+    "BZ",
+    "GT",
+    "SV",
+    "HN",
+    "NI",
+    "CR",
+    "PA"
+  ],
+  "supplementary_area_codes": [],
+  "profiles": {
+    "BZ": {
+      "name_ja": "ベリーズ",
+      "name_en": "Belize",
+      "postcode_pattern": null,
+      "postcode_note": "UPUの住所例には郵便番号がなく、本版では郵便番号を必須にしない。",
+      "coverage_notes_ja": "COD-ABの6地区。市・村を全国行政レベル2として網羅した資料ではない。GeoNamesの地名と独立管理。",
+      "administrative_kinds": [
+        "district"
+      ],
+      "expected_codab_administrative_counts": [
+        6
+      ],
+      "address_points_acquired": false,
+      "street_names_nationwide_acquired": false
+    },
+    "GT": {
+      "name_ja": "グアテマラ",
+      "name_en": "Guatemala",
+      "postcode_pattern": "[0-9]{5}",
+      "postcode_note": "形式一致のみを確認。割当・配送可否の検証は行わない。",
+      "coverage_notes_ja": "COD-ABの22県・340市町村。2湖を市町村から分離。原区分は2019年版、2025年の確認日を新設・廃止の施行日とは扱わない。",
+      "administrative_kinds": [
+        "department",
+        "municipality"
+      ],
+      "expected_codab_administrative_counts": [
+        22,
+        340
+      ],
+      "address_points_acquired": false,
+      "street_names_nationwide_acquired": false
+    },
+    "SV": {
+      "name_ja": "エルサルバドル",
+      "name_en": "El Salvador",
+      "postcode_pattern": "(?:CP ?)?[0-9]{4}",
+      "postcode_note": "形式一致のみを確認。割当・配送可否の検証は行わない。",
+      "coverage_notes_ja": "2024年の県・市町村・地区の3階層。44市町村・262地区に加え、地図を埋めるための湖・貯水池各4行があり、行政区分とは分離する。",
+      "administrative_kinds": [
+        "department",
+        "municipality",
+        "district"
+      ],
+      "expected_codab_administrative_counts": [
+        14,
+        44,
+        262
+      ],
+      "address_points_acquired": false,
+      "street_names_nationwide_acquired": false
+    },
+    "HN": {
+      "name_ja": "ホンジュラス",
+      "name_en": "Honduras",
+      "postcode_pattern": null,
+      "postcode_note": "UPU公開資料は2004年の英字2字+数字4桁、GeoNamesは数字6桁。現行の全国規則を確定できないため入力を保持して要確認とする。",
+      "coverage_notes_ja": "COD-ABは18県・298市町村と27,969の集落参照行。地理原典2015年、集落参照2016年。現時点の住所実在や人口を保証しない。",
+      "administrative_kinds": [
+        "department",
+        "municipality"
+      ],
+      "expected_codab_administrative_counts": [
+        18,
+        298
+      ],
+      "address_points_acquired": false,
+      "street_names_nationwide_acquired": false
+    },
+    "NI": {
+      "name_ja": "ニカラグア",
+      "name_en": "Nicaragua",
+      "postcode_pattern": "[0-9]{5}",
+      "postcode_note": "形式一致のみを確認。割当・配送可否の検証は行わない。",
+      "coverage_notes_ja": "COD-ABは15県・2自治地域を含む17の上位区分、153市町村。原地理データ2017年、valid_onは2023年。",
+      "administrative_kinds": [
+        "department_or_autonomous_region",
+        "municipality"
+      ],
+      "expected_codab_administrative_counts": [
+        17,
+        153
+      ],
+      "address_points_acquired": false,
+      "street_names_nationwide_acquired": false
+    },
+    "CR": {
+      "name_ja": "コスタリカ",
+      "name_en": "Costa Rica",
+      "postcode_pattern": "[0-9]{5}",
+      "postcode_note": "形式一致のみを確認。割当・配送可否の検証は行わない。",
+      "coverage_notes_ja": "COD-ABは7州・84カントン・492地区。GeoNamesは82カントン相当・474地区で不足がある。COD-ABとGeoNamesのコード体系を混同しない。",
+      "administrative_kinds": [
+        "province",
+        "canton",
+        "district"
+      ],
+      "expected_codab_administrative_counts": [
+        7,
+        84,
+        492
+      ],
+      "address_points_acquired": false,
+      "street_names_nationwide_acquired": false
+    },
+    "PA": {
+      "name_ja": "パナマ",
+      "name_en": "Panama",
+      "postcode_pattern": null,
+      "postcode_note": "Correos Panamáは2026年5月に新たな地理参照型の郵便番号体系を発表。旧4桁・GeoNamesの5桁規則を現行の全国規則として適用しない。",
+      "coverage_notes_ja": "COD-ABは2020年の原地理データを基にした旧版で13上位区分・76地区相当・594コレヒミエント。2025年IGN公表の82地区・699コレヒミエントより不足。GeoNamesは14 ADM1・82 ADM2・679 ADM3だがNaso Tjër Diの階層がIGN説明と異なる。両系統とも現行全国行政区分の完成扱いにしない。",
+      "administrative_kinds": [
+        "province_or_comarca",
+        "district_or_comarca",
+        "corregimiento"
+      ],
+      "expected_codab_administrative_counts": [
+        13,
+        76,
+        594
+      ],
+      "address_points_acquired": false,
+      "street_names_nationwide_acquired": false
+    }
+  },
+  "identity_policy": "Exact original codes in source-qualified namespaces; never merge on names or coordinates.",
+  "address2_policy_ja": "Address2という欄名だけで地理階層を推定しない。町・街路・番地と建物・部屋を分ける。今回は行政区分と集落参照を実装し、番地や部屋の自動生成は行わない。"
+}

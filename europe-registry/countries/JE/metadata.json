@@ -1,0 +1,87 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "JEY",
+    "country": "JE",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Jersey",
+    "geonames_id": "3042142",
+    "id": "country:JE",
+    "m49": "832",
+    "m49_region": "Europe",
+    "name_en": "Jersey",
+    "region": "Northern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 85,
+    "admin_rows": 12,
+    "ambiguous_parents": 0,
+    "country": "JE",
+    "country_scope_only": 70,
+    "localities_without_adm1": 70,
+    "locality_rows": 85,
+    "name_en": "Jersey",
+    "other_admin_rows": 1,
+    "region": "Northern Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 12,
+    "ADMD": 1,
+    "PPL": 80,
+    "PPLA": 1,
+    "PPLC": 1,
+    "PPLL": 3
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 5277,
+      "rows": 98,
+      "sha256": "f9ffe50c2926ff3d0d3b52ce045250d0db1bf09a27dd04da4fb6d85028b09d34",
+      "uncompressed_sha256": "6581c2d27c497a6e6ee7d2b2ed5996e1ac055f2e79ac9c5fc1bdc891b56bc3ed"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 70,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 15,
+    "source_country": 12
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 12,
+      "sha256": "ee628fdca25afcf4cf45204e069f02f3cc7c1a65d44c15673fbffc7718ad86cd"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 495,
+    "bytes": 19821,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 151,
+      "L": 4,
+      "S": 106,
+      "T": 134,
+      "V": 1
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:54:19 GMT",
+    "retained_rows": 98,
+    "retrieved_at": "2026-09-29T11:14:02.056613+00:00",
+    "sha256": "9211fcf2e741535e4ec24329105ccb700f894129ef5c308ceed1f3aa847469bd",
+    "url": "https://download.geonames.org/export/dump/JE.zip"
+  },
+  "source_modified_max": "2026-05-07",
+  "source_modified_min": "2007-06-15"
+}

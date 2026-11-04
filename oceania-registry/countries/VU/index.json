@@ -1,0 +1,68 @@
+{
+  "archive_bytes": 405304,
+  "archive_sha256": "3ea658715abce4444685dc162d95ae5df6ca67af52a16c02aeea1e85e4697105",
+  "parts": [
+    {
+      "path": "countries/VU/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 540409,
+      "stored_sha256": "372312107c45752eb706b3bc006d534c7b665eb8b828c4db57b94fe305e0421b",
+      "bytes": 405304,
+      "sha256": "3ea658715abce4444685dc162d95ae5df6ca67af52a16c02aeea1e85e4697105"
+    }
+  ],
+  "members": {
+    "base/data/melanesia/VU/index.json": {
+      "bytes": 2948,
+      "sha256": "c550a94959159d400296b9a947477234318e982015bc13e5631cabc6ec3ed2bb"
+    },
+    "base/data/melanesia/VU/places.csv": {
+      "bytes": 799305,
+      "sha256": "c812170d1b71448298351c3cb163a1085389552f2ce3306b6b2d3e95750344e0"
+    },
+    "base/data/melanesia/VU/places.jsonl": {
+      "bytes": 1920914,
+      "sha256": "d425ab1f2ca8ac6b9da3c2062e3f34cd1fd11c9093b4960c0a1324651a1b0609"
+    },
+    "base/sources/geonames/VU.zip": {
+      "bytes": 135953,
+      "sha256": "4f53660d29124cba12071f6cb20d52747df594fef359dacbf4f4184afaecb434"
+    },
+    "base/sources/geonames/VU.zip.download.json": {
+      "bytes": 306,
+      "sha256": "d67c19eb994cc6994ad0642e2be126866ce037e2e2cdef05f3b5256919e6cfd3"
+    },
+    "locale/names.csv": {
+      "bytes": 128370,
+      "sha256": "f2f6204dd76c86a864b0390081b0bc172f9cf08ee38cd2908f80f737f0acf772"
+    },
+    "locale/names.jsonl": {
+      "bytes": 284349,
+      "sha256": "a04d8869e51e8439ab3aae4a494aa25bfa4966d596dc25b686d47bb0b6b11138"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 3,
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "locale/sources/address-templates/VU.json": {
+      "bytes": 44,
+      "sha256": "52dad07fd3df7f442426c9e590be270ad7ad0b2e5c162f35ab5aecfec75aa6f2"
+    },
+    "locale/sources/address-templates/VU.json.download.json": {
+      "bytes": 270,
+      "sha256": "7edbd1a6c344edd6ab09e6fe8fe813d84ac05b12b5411ab1bde707f51a9203b3"
+    },
+    "locale/sources/alternatenames/VU.zip": {
+      "bytes": 66268,
+      "sha256": "a531804c72955185d6540c26957501b52c18dd9a0013fdd5e37cc5b069a128c2"
+    },
+    "locale/sources/alternatenames/VU.zip.download.json": {
+      "bytes": 283,
+      "sha256": "4b2c685f38a7a3ff93d2a0c146dbc855aa9a1d7a6d197bc8a7917f4f089d7266"
+    }
+  }
+}

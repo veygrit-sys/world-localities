@@ -1,0 +1,251 @@
+﻿code,name,new_admin_source_records,new_street_register_records,new_address_observations,new_current_number_observations,physical_road_records_added,all_admin_complete,all_addressed_streets_complete,all_physical_roads_complete,all_assigned_numbers_complete,independent_inventory_count,coverage_fraction,next_action
+AD,Andorra,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+AE,United Arab Emirates,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+AF,Afghanistan,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+AG,Antigua and Barbuda,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+AI,Anguilla,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+AL,Albania,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+AM,Armenia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+AO,Angola,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+AQ,Antarctica,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+AR,Argentina,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+AS,American Samoa,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+AT,Austria,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+AU,Australia,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+AW,Aruba,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+AX,Aland Islands,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+AZ,Azerbaijan,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BA,Bosnia and Herzegovina,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BB,Barbados,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BD,Bangladesh,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BE,Belgium,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BF,Burkina Faso,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BG,Bulgaria,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BH,Bahrain,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BI,Burundi,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BJ,Benin,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BL,Saint Barthelemy,2,0,11122,11122,0,False,False,False,False,,,authority_inventory_required
+BM,Bermuda,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BN,Brunei,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+BO,Bolivia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BQ,"Bonaire, Saint Eustatius and Saba ",0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BR,Brazil,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BS,Bahamas,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BT,Bhutan,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BV,Bouvet Island,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BW,Botswana,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BY,Belarus,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+BZ,Belize,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+CA,Canada,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+CC,Cocos Islands,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+CD,Democratic Republic of the Congo,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+CF,Central African Republic,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+CG,Republic of the Congo,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+CH,Switzerland,0,224629,3304410,3180256,0,False,False,False,False,,,authority_inventory_required
+CI,Ivory Coast,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+CK,Cook Islands,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+CL,Chile,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+CM,Cameroon,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+CN,China,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+CO,Colombia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+CR,Costa Rica,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+CU,Cuba,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+CV,Cabo Verde,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+CW,Curacao,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+CX,Christmas Island,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+CY,Cyprus,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+CZ,Czechia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+DE,Germany,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+DJ,Djibouti,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+DK,Denmark,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+DM,Dominica,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+DO,Dominican Republic,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+DZ,Algeria,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+EC,Ecuador,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+EE,Estonia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+EG,Egypt,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+EH,Western Sahara,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+ER,Eritrea,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+ES,Spain,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+ET,Ethiopia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+FI,Finland,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+FJ,Fiji,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+FK,Falkland Islands,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+FM,Micronesia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+FO,Faroe Islands,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+FR,France,40109,0,25288957,25288957,0,False,False,False,False,,,authority_inventory_required
+GA,Gabon,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+GB,United Kingdom,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+GD,Grenada,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+GE,Georgia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+GF,French Guiana,28,0,121810,121810,0,False,False,False,False,,,authority_inventory_required
+GG,Guernsey,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+GH,Ghana,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+GI,Gibraltar,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+GL,Greenland,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+GM,Gambia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+GN,Guinea,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+GP,Guadeloupe,65,0,326882,326882,0,False,False,False,False,,,authority_inventory_required
+GQ,Equatorial Guinea,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+GR,Greece,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+GS,South Georgia and the South Sandwich Islands,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+GT,Guatemala,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+GU,Guam,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+GW,Guinea-Bissau,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+GY,Guyana,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+HK,Hong Kong,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+HM,Heard Island and McDonald Islands,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+HN,Honduras,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+HR,Croatia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+HT,Haiti,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+HU,Hungary,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+ID,Indonesia,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+IE,Ireland,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+IL,Israel,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+IM,Isle of Man,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+IN,India,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+IO,British Indian Ocean Territory,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+IQ,Iraq,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+IR,Iran,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+IS,Iceland,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+IT,Italy,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+JE,Jersey,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+JM,Jamaica,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+JO,Jordan,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+JP,Japan,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+KE,Kenya,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+KG,Kyrgyzstan,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+KH,Cambodia,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+KI,Kiribati,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+KM,Comoros,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+KN,Saint Kitts and Nevis,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+KP,North Korea,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+KR,South Korea,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+KW,Kuwait,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+KY,Cayman Islands,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+KZ,Kazakhstan,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+LA,Laos,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+LB,Lebanon,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+LC,Saint Lucia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+LI,Liechtenstein,0,944,12966,12733,0,False,False,False,False,,,authority_inventory_required
+LK,Sri Lanka,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+LR,Liberia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+LS,Lesotho,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+LT,Lithuania,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+LU,Luxembourg,665,9963,248622,194117,0,False,False,False,False,,,authority_inventory_required
+LV,Latvia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+LY,Libya,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+MA,Morocco,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+MC,Monaco,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+MD,Moldova,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+ME,Montenegro,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+MF,Saint Martin,2,0,14716,14716,0,False,False,False,False,,,authority_inventory_required
+MG,Madagascar,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+MH,Marshall Islands,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+MK,North Macedonia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+ML,Mali,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+MM,Myanmar,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+MN,Mongolia,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+MO,Macao,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+MP,Northern Mariana Islands,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+MQ,Martinique,41,0,276602,276602,0,False,False,False,False,,,authority_inventory_required
+MR,Mauritania,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+MS,Montserrat,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+MT,Malta,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+MU,Mauritius,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+MV,Maldives,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+MW,Malawi,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+MX,Mexico,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+MY,Malaysia,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+MZ,Mozambique,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+NA,Namibia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+NC,New Caledonia,34,0,103404,103404,0,False,False,False,False,,,authority_inventory_required
+NE,Niger,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+NF,Norfolk Island,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+NG,Nigeria,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+NI,Nicaragua,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+NL,The Netherlands,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+NO,Norway,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+NP,Nepal,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+NR,Nauru,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+NU,Niue,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+NZ,New Zealand,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+OM,Oman,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+PA,Panama,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+PE,Peru,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+PF,French Polynesia,49,0,15426,15426,0,False,False,False,False,,,authority_inventory_required
+PG,Papua New Guinea,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+PH,Philippines,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+PK,Pakistan,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+PL,Poland,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+PM,Saint Pierre and Miquelon,3,0,6098,6098,0,False,False,False,False,,,authority_inventory_required
+PN,Pitcairn,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+PR,Puerto Rico,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+PS,Palestinian Territory,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+PT,Portugal,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+PW,Palau,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+PY,Paraguay,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+QA,Qatar,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+RE,Reunion,65,0,681450,681450,0,False,False,False,False,,,authority_inventory_required
+RO,Romania,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+RS,Serbia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+RU,Russia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+RW,Rwanda,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SA,Saudi Arabia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SB,Solomon Islands,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SC,Seychelles,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SD,Sudan,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SE,Sweden,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SG,Singapore,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+SH,Saint Helena,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SI,Slovenia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SJ,Svalbard and Jan Mayen,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SK,Slovakia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SL,Sierra Leone,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SM,San Marino,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SN,Senegal,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SO,Somalia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SR,Suriname,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SS,South Sudan,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+ST,Sao Tome and Principe,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SV,El Salvador,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SX,Sint Maarten,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SY,Syria,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+SZ,Eswatini,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+TC,Turks and Caicos Islands,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+TD,Chad,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+TF,French Southern Territories,6,0,0,0,0,False,False,False,False,,,authority_inventory_required
+TG,Togo,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+TH,Thailand,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+TJ,Tajikistan,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+TK,Tokelau,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+TL,Timor Leste,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+TM,Turkmenistan,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+TN,Tunisia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+TO,Tonga,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+TR,Turkey,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+TT,Trinidad and Tobago,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+TV,Tuvalu,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+TW,Taiwan,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+TZ,Tanzania,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+UA,Ukraine,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+UG,Uganda,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+UM,United States Minor Outlying Islands,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+US,United States,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+UY,Uruguay,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+UZ,Uzbekistan,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+VA,Vatican,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+VC,Saint Vincent and the Grenadines,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+VE,Venezuela,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+VG,British Virgin Islands,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+VI,U.S. Virgin Islands,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+VN,Vietnam,0,0,0,0,0,False,False,False,False,,,prior_reference_requires_payload_and_inventory_validation
+VU,Vanuatu,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+WF,Wallis and Futuna,4,0,0,0,0,False,False,False,False,,,authority_inventory_required
+WS,Samoa,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+XK,Kosovo,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+YE,Yemen,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+YT,Mayotte,37,0,105460,105460,0,False,False,False,False,,,authority_inventory_required
+ZA,South Africa,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+ZM,Zambia,0,0,0,0,0,False,False,False,False,,,authority_inventory_required
+ZW,Zimbabwe,0,0,0,0,0,False,False,False,False,,,authority_inventory_required

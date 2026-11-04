@@ -1,0 +1,35 @@
+{
+  "country": "NL",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 5276,
+      "rows": 56,
+      "sha256": "d4b629acffec20e012098072badb58d2390d01c48a66aa9efea58768facedfa7"
+    },
+    "units.csv.gz": {
+      "bytes": 8377,
+      "rows": 342,
+      "sha256": "56ab127438879729838ab36fb34960a9ad1d235cf9643bfe0b252336d88efa8d"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 342,
+  "skipped_empty_rows": 34604,
+  "source_period_counts": {
+    "2024": 342
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "NL",
+  "validation": {
+    "core": "validated",
+    "overall": "validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

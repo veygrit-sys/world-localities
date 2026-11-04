@@ -1,0 +1,1380 @@
+{
+  "source_repo": "rei-k/world-address",
+  "source_commit": "4efec82671b15a6bca4f0099acb6377c55af9aae",
+  "status": "partial_56_of_60_countries",
+  "source_files_verified": 187,
+  "missing_source_files": [
+    {
+      "path": "address-foundation/africa-registry/countries/CD/entities.csv.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa68c6183d8664832f8fcb448fa623c7b881ef26",
+      "size": 1138402,
+      "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/aa68c6183d8664832f8fcb448fa623c7b881ef26"
+    },
+    {
+      "path": "address-foundation/africa-registry/countries/MA/entities.csv.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d19113460b29237ed0875087b7495d46491559b",
+      "size": 1736680,
+      "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/2d19113460b29237ed0875087b7495d46491559b"
+    },
+    {
+      "path": "address-foundation/africa-registry/countries/MG/entities.csv.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd414913f908362f0976a34b41f4bd72bd1e982e",
+      "size": 1699675,
+      "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/cd414913f908362f0976a34b41f4bd72bd1e982e"
+    },
+    {
+      "path": "address-foundation/africa-registry/countries/NG/entities.csv.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f47e339f54fd7d34162d16dc1fd73d92c02d1087",
+      "size": 2141219,
+      "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/f47e339f54fd7d34162d16dc1fd73d92c02d1087"
+    }
+  ],
+  "included_country_count": 56,
+  "records": 388038,
+  "source_byte_receipts": [
+    {
+      "source_path": "address-foundation/africa-registry/NOTICE.md",
+      "path": "africa-registry/NOTICE.md",
+      "bytes": 1548,
+      "git_blob_sha": "aee222f1fd54985bfe49076f592e20c9d57cd062",
+      "sha256": "f881e763ff156c6db908b9125df736f9fb36c0ee39da2e6d55578ad8bc532b13"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/README.md",
+      "path": "africa-registry/README.md",
+      "bytes": 8159,
+      "git_blob_sha": "9fcbdb9a0f17f046a3736365fc3773b2844eaa19",
+      "sha256": "9696f61c89325029c76af6f7bbb6b6bd27f6374a45ac6b5c210b6f5ae1a6d1a0"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/build.py",
+      "path": "africa-registry/build.py",
+      "bytes": 17870,
+      "git_blob_sha": "b56ad8d99d807d60eafe4ae862640c088507ecf1",
+      "sha256": "c3382e163263c22563a73a077101cee2e53fb24c4ae409c217b813e5bf5e5dbc"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/AO/admin1.csv",
+      "path": "africa-registry/countries/AO/admin1.csv",
+      "bytes": 30763,
+      "git_blob_sha": "618b355b26e27a1fdf15a53b862073e6c733722b",
+      "sha256": "a731ce7a78f88562f0fb2e86c2f6036a835a943324ee3051d83d496b338d2e84"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/AO/entities.csv.gz",
+      "path": "africa-registry/countries/AO/entities.csv.gz",
+      "bytes": 602474,
+      "git_blob_sha": "f18f3644b31ef174df584d3682607823ddb667d7",
+      "sha256": "478e705d74f8a45de9ad1f694f8ba4d5783777a627ba643364afb969a045f246"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/AO/metadata.json",
+      "path": "africa-registry/countries/AO/metadata.json",
+      "bytes": 2386,
+      "git_blob_sha": "36a464981d9012c984465966c046f4466fa52ae3",
+      "sha256": "5924b7974ba94efae13575ea343457d1be811b0180d454987c1bdce2d53f3c4d"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/BF/admin1.csv",
+      "path": "africa-registry/countries/BF/admin1.csv",
+      "bytes": 18545,
+      "git_blob_sha": "a7d193940a27f1b6d4ac724d82e9d76bda205a17",
+      "sha256": "d8447dc8505ec760f5ec8701104d33acfafd8e1592facd803bed665dec2bb114"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/BF/entities.csv.gz",
+      "path": "africa-registry/countries/BF/entities.csv.gz",
+      "bytes": 343370,
+      "git_blob_sha": "ce1979b1600e74e09ab022f6ac11fe0bf5cc5c77",
+      "sha256": "38ede09ac9d1d5cce7ae231eb486626689cc189393e7fdb88d735efd8bc075a4"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/BF/metadata.json",
+      "path": "africa-registry/countries/BF/metadata.json",
+      "bytes": 2971,
+      "git_blob_sha": "f731382a59aaa499687026cb16eec3b11b632e2f",
+      "sha256": "86eed21fe4c698ad83e5fd9dabd006db4a2f403af433c76d51e3e00d8c00cf7f"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/BI/admin1.csv",
+      "path": "africa-registry/countries/BI/admin1.csv",
+      "bytes": 26445,
+      "git_blob_sha": "c3b775a09e385bf5df4bfc3801d82b3c64707f81",
+      "sha256": "c3a9806b6bda587b916a4d736625ff804f2a6b0f58e8f171440efbdc85d72872"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/BI/entities.csv.gz",
+      "path": "africa-registry/countries/BI/entities.csv.gz",
+      "bytes": 279013,
+      "git_blob_sha": "3fe12970f8b8fc65acab3409942a0d06a0f6ac7e",
+      "sha256": "cc2ae424bf8c13debe9b930409ef57d844841fa96213d666b8c1fb567360f604"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/BI/metadata.json",
+      "path": "africa-registry/countries/BI/metadata.json",
+      "bytes": 2958,
+      "git_blob_sha": "bb6ba8af84df283520b4922a301b9018e523af5c",
+      "sha256": "535985f715a84c07d7ee1a588db9ba3e6171d2067aed2c773d8215e21bb04537"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/BJ/admin1.csv",
+      "path": "africa-registry/countries/BJ/admin1.csv",
+      "bytes": 18484,
+      "git_blob_sha": "a9810959a7d7faab22343e04a0354a8f12dc6245",
+      "sha256": "aea031befce85034abe29712804abab0d0880a35b6887b2ac6c76a752010b20a"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/BJ/entities.csv.gz",
+      "path": "africa-registry/countries/BJ/entities.csv.gz",
+      "bytes": 152094,
+      "git_blob_sha": "895151cd199c30b47afbb0e14f0d78f453aa0248",
+      "sha256": "4d99881aee12350a2d70a21e0272f1850de5eb6ea810df88ff738b857ed26ed9"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/BJ/metadata.json",
+      "path": "africa-registry/countries/BJ/metadata.json",
+      "bytes": 2282,
+      "git_blob_sha": "988311437fb75b4b8e26415d54b6640b1e1ceeb9",
+      "sha256": "1cc2a98b3d43f9ebe7238d87c7f982e18d66ea4b87551760223531e14c41e922"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/BW/admin1.csv",
+      "path": "africa-registry/countries/BW/admin1.csv",
+      "bytes": 16961,
+      "git_blob_sha": "01be4b7c207d8fc07ebd4aee5f65e7a2cee2492e",
+      "sha256": "25013ffea9e66a63d03b18ecca5cec9e3879dbd96a3c40eeeb3625ff6e384b10"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/BW/entities.csv.gz",
+      "path": "africa-registry/countries/BW/entities.csv.gz",
+      "bytes": 67188,
+      "git_blob_sha": "eec971c631b09060e9ea0a9d38fcc77dfc077973",
+      "sha256": "d49ba17a231a44e448ab98832dcaa29e3dc3f77041b5096ce34adf59b457a9ab"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/BW/metadata.json",
+      "path": "africa-registry/countries/BW/metadata.json",
+      "bytes": 2284,
+      "git_blob_sha": "12b55d28ed42297e9ebb1566be97be02b2f3254a",
+      "sha256": "f38b27e90e2f635331cd7d28a28db42e623242381ffdb51470aa79bb7d543949"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/CD/admin1.csv",
+      "path": "africa-registry/countries/CD/admin1.csv",
+      "bytes": 27007,
+      "git_blob_sha": "c2a176685bdd843c83d947a0ac9d26c420d3ae1f",
+      "sha256": "2c44429d20b2db4991aa7f41b73c70d7532e39bd29cb525c8d4304eaf45695e3"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/CD/metadata.json",
+      "path": "africa-registry/countries/CD/metadata.json",
+      "bytes": 2514,
+      "git_blob_sha": "36a286432179ffc5cd4691121d66c6bda2f4786c",
+      "sha256": "a87d3b169e0b7e22853b92381cebb64a7384fdaee24ac1dcba5a55669a148375"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/CF/admin1.csv",
+      "path": "africa-registry/countries/CF/admin1.csv",
+      "bytes": 30340,
+      "git_blob_sha": "527f0bf69e35e1e299a45b53f1caa90b59231d75",
+      "sha256": "f0f169fea365491d73b17bd85b5b91be271018269ee9b4ab016a601fdaa1774f"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/CF/entities.csv.gz",
+      "path": "africa-registry/countries/CF/entities.csv.gz",
+      "bytes": 198098,
+      "git_blob_sha": "0ab4f7a20decf6ec57576d5b483c24174fba15f9",
+      "sha256": "6c044c6b6c215e591e2af26f7d41e5c4731de0ebd9fa26e4758daa850c48664a"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/CF/metadata.json",
+      "path": "africa-registry/countries/CF/metadata.json",
+      "bytes": 2311,
+      "git_blob_sha": "021c3d0e0b1f2bfd5438152645fb00561559f2a5",
+      "sha256": "b59c963168aecfe7772963c3d4189815e47ecff537c0bafcc7e87a9f344d999c"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/CG/admin1.csv",
+      "path": "africa-registry/countries/CG/admin1.csv",
+      "bytes": 16951,
+      "git_blob_sha": "aa0277011e79d27d53c186bb331273bbc6aa51aa",
+      "sha256": "da43c4bcb56160666030112d56bec326426bce2505d5200657f43106f08cf282"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/CG/entities.csv.gz",
+      "path": "africa-registry/countries/CG/entities.csv.gz",
+      "bytes": 185280,
+      "git_blob_sha": "0e4e02472279951674eabb0aac607daf5fa17a92",
+      "sha256": "872e2dfae1e726771cc8235c3820a76d59468b3eb34ba035114e6c490f04f2c6"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/CG/metadata.json",
+      "path": "africa-registry/countries/CG/metadata.json",
+      "bytes": 2304,
+      "git_blob_sha": "48599875fb92714efa17f76e310bb869b91851f3",
+      "sha256": "e5c4034417f6796ab3ebfda703024d23dfb11769530a0327abdf23f51c99832f"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/CI/admin1.csv",
+      "path": "africa-registry/countries/CI/admin1.csv",
+      "bytes": 17267,
+      "git_blob_sha": "ad33765250185d4befed7ffabb65737d61b13a79",
+      "sha256": "2299b538dba74fb05db612f1dac84a39425293a27a8fe9422590a7c98f4fac1a"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/CI/entities.csv.gz",
+      "path": "africa-registry/countries/CI/entities.csv.gz",
+      "bytes": 439723,
+      "git_blob_sha": "319e32109714c974baa8cc38a63ee56ca151d8bf",
+      "sha256": "7be466fe244ed2e76ce36d5a92dc5add1e5a6a3550b225a366e0f28c6077098b"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/CI/metadata.json",
+      "path": "africa-registry/countries/CI/metadata.json",
+      "bytes": 2433,
+      "git_blob_sha": "8551cd2404d55b092b9b3d38b45227d35eaafa1a",
+      "sha256": "f5093b4fbb9d7f07986226cbcc61a5ca0ea1bab4e7548689a21397588d512b14"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/CM/admin1.csv",
+      "path": "africa-registry/countries/CM/admin1.csv",
+      "bytes": 16400,
+      "git_blob_sha": "0192917d82200a8c87f4dbee730a9d483efd1164",
+      "sha256": "4ef5cbd036a89eff3bedb92c3a2108a45988769797b333100c09ffeeb641d4f8"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/CM/entities.csv.gz",
+      "path": "africa-registry/countries/CM/entities.csv.gz",
+      "bytes": 421480,
+      "git_blob_sha": "1c7cfceb817d1caa1c16bd82292d27110cde3feb",
+      "sha256": "71da84fead320bc64367564df68f0a0ac6cc8dd7e26b3b808c81abd1be1b70ac"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/CM/metadata.json",
+      "path": "africa-registry/countries/CM/metadata.json",
+      "bytes": 2418,
+      "git_blob_sha": "65123e84572d5af08509ffdb9551e46e8b016728",
+      "sha256": "55bab32d74f4039b47a3f21f34ad5b4c5da61244f33d7bfa8b82f18f25179840"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/CV/admin1.csv",
+      "path": "africa-registry/countries/CV/admin1.csv",
+      "bytes": 15320,
+      "git_blob_sha": "eea36ab2cc119102105e1f6d4fc33e8adf171a7a",
+      "sha256": "bbdd11eeb006e5999e90e9e1044baf78dc1ba8b45ba81dd5e38972aa8e9c3dad"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/CV/entities.csv.gz",
+      "path": "africa-registry/countries/CV/entities.csv.gz",
+      "bytes": 104338,
+      "git_blob_sha": "1d6d5be89bc5301e503caee5fdf99f575214b349",
+      "sha256": "40a82ea48e41822b1fddc4c668631d69032050e4b9347a300df7d2cb65b6ed7f"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/CV/metadata.json",
+      "path": "africa-registry/countries/CV/metadata.json",
+      "bytes": 2258,
+      "git_blob_sha": "46e880b77f08bea5d8f10771b3eaf1bc1a896df6",
+      "sha256": "ece94d6840357d19c8431d0b40d587a201940aa3822bfe39926c9298011e5aec"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/DJ/admin1.csv",
+      "path": "africa-registry/countries/DJ/admin1.csv",
+      "bytes": 9326,
+      "git_blob_sha": "412c3e58dc663f2d4f5e3d6f2157c00ed6749407",
+      "sha256": "90f67c0731ce8370be833c60b6627a1c0723fae944135014dc7c69fa7b040677"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/DJ/entities.csv.gz",
+      "path": "africa-registry/countries/DJ/entities.csv.gz",
+      "bytes": 9592,
+      "git_blob_sha": "902a14cea027b9112f62e1245b5efd25f72939da",
+      "sha256": "f11cdfbb4672be3bcad18139a47ed42519a7ba0f45be4ef60e19ee62382ab5dc"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/DJ/metadata.json",
+      "path": "africa-registry/countries/DJ/metadata.json",
+      "bytes": 2180,
+      "git_blob_sha": "1477fc19fc03af2491e6e4e36097bb09e5a398f1",
+      "sha256": "058bbf59973f3f9a4e298401301e1499d55331c0507c72ed639d569d31f30251"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/DZ/admin1.csv",
+      "path": "africa-registry/countries/DZ/admin1.csv",
+      "bytes": 93061,
+      "git_blob_sha": "e5a441894de60793316bf8cdd5c5d8a4c19b4b86",
+      "sha256": "8c31b267c615d58d116ed4e650522d109843550b326f4491fe2872d448baf6d6"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/DZ/entities.csv.gz",
+      "path": "africa-registry/countries/DZ/entities.csv.gz",
+      "bytes": 542189,
+      "git_blob_sha": "10a462dc01209119cf95565ec865b4c327a42e69",
+      "sha256": "152d52545a90a7f6e75c313d13c46b3726834c718fe368d703b3db11bc0c87a1"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/DZ/metadata.json",
+      "path": "africa-registry/countries/DZ/metadata.json",
+      "bytes": 2438,
+      "git_blob_sha": "312df6a79560ac7a6425bdbeb20abef610f19890",
+      "sha256": "1eb3bc950a845d1060fe063e96aa6e284dcf2f0b1aeeaa71e596bb491a1fbabc"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/EG/admin1.csv",
+      "path": "africa-registry/countries/EG/admin1.csv",
+      "bytes": 61809,
+      "git_blob_sha": "604288ebc68756ec27c0cb8a3a3a7a4b3a7a4d96",
+      "sha256": "4a07599cbaab598d747f9fca672220c41408ab145b59377c70c61dfa2d9d593f"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/EG/entities.csv.gz",
+      "path": "africa-registry/countries/EG/entities.csv.gz",
+      "bytes": 724699,
+      "git_blob_sha": "22e2c94f4a507f14dd604ad3a7e44fbb71202fff",
+      "sha256": "dd0086bb896cb333d51c84ff720fa958b597567c1b7ae2b741dcfd3d37045fc2"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/EG/metadata.json",
+      "path": "africa-registry/countries/EG/metadata.json",
+      "bytes": 2402,
+      "git_blob_sha": "65e33f19bd90369618e4cd821a06641f4eec68cd",
+      "sha256": "cab6ff7ad9194a62574fe76566a644544b937dc667163e0697afc51d61fc6a0e"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/EH/admin1.csv",
+      "path": "africa-registry/countries/EH/admin1.csv",
+      "bytes": 355,
+      "git_blob_sha": "fe4737e1b0de1368aec4e03805415002d0850296",
+      "sha256": "6fe5bf94663e3f1bddc0b9a464613de7e45a6c2fb10f5a5f4b51e70f1c4c31c2"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/EH/entities.csv.gz",
+      "path": "africa-registry/countries/EH/entities.csv.gz",
+      "bytes": 5658,
+      "git_blob_sha": "f2b4f14e34d7dd74bbd0579aa2f8a4175b741c6c",
+      "sha256": "ed407adebca97d4ea76b73b24ec6d6aeb0f297a2226511ccadd05e10ff9b7080"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/EH/metadata.json",
+      "path": "africa-registry/countries/EH/metadata.json",
+      "bytes": 2117,
+      "git_blob_sha": "fd4da3e6f513181bf94e6340461b998252776afe",
+      "sha256": "146f7b336a415527fcdccebf14c85b46b73375584f15bc68ea965bbcae1bcdda"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ER/admin1.csv",
+      "path": "africa-registry/countries/ER/admin1.csv",
+      "bytes": 12481,
+      "git_blob_sha": "eadf387c17b774a5af00b6a852e60a34fad3a91f",
+      "sha256": "574e319c21c2b5670be3e9c160340d995cd6b6706ba655acded4bd4b4aacc600"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ER/entities.csv.gz",
+      "path": "africa-registry/countries/ER/entities.csv.gz",
+      "bytes": 61303,
+      "git_blob_sha": "61dca17a9ca90dcae8139a196a919242c0c16b2b",
+      "sha256": "dbb56d2ecb4cbfc303fe186cf3f7097129649548201360ced71a1cca28c38dac"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ER/metadata.json",
+      "path": "africa-registry/countries/ER/metadata.json",
+      "bytes": 2224,
+      "git_blob_sha": "fa60bb47d82942da0cbf33f61359f239e4c3b4d0",
+      "sha256": "c8dfb96abcdd4af6acccd707a051fd8b302366daf8ee905ab6e451d270359399"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ET/admin1.csv",
+      "path": "africa-registry/countries/ET/admin1.csv",
+      "bytes": 18311,
+      "git_blob_sha": "b496e7ba0f8b91eca522cf4a7261c79a43f98005",
+      "sha256": "75dd8b500096672c2d31129cac659b56abe01f175f229e428cde12784292bf19"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ET/entities.csv.gz",
+      "path": "africa-registry/countries/ET/entities.csv.gz",
+      "bytes": 372168,
+      "git_blob_sha": "855277771f249c09d3b409964da1d9547d98efb9",
+      "sha256": "5481624c1e9f3628839527731c51dee79b38b80b15f3027dbff8d9d49299e3a2"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ET/metadata.json",
+      "path": "africa-registry/countries/ET/metadata.json",
+      "bytes": 2386,
+      "git_blob_sha": "1805807f683429412c145c7365ce3b96653533e5",
+      "sha256": "3ac948dbe9dc05cd08baffc3ad6ecfcd639cef9f4a7a363ddab6382a89dfa6d0"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/GA/admin1.csv",
+      "path": "africa-registry/countries/GA/admin1.csv",
+      "bytes": 15877,
+      "git_blob_sha": "788c4d61e67e9403b257fc5a2b4a0e81d5ea52f5",
+      "sha256": "784d8d4db05c7aa8a6817eedce1d0eb52a049c89fa91d2ec7b755acdebc38826"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/GA/entities.csv.gz",
+      "path": "africa-registry/countries/GA/entities.csv.gz",
+      "bytes": 115801,
+      "git_blob_sha": "81bfd50ab96ce4ff4f9f44a8b8c1bdc01b76512d",
+      "sha256": "877b7a81cbddc0a129b4ece1eaba482f5fa3ccd1eb08317098dc77ae1cca6d4f"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/GA/metadata.json",
+      "path": "africa-registry/countries/GA/metadata.json",
+      "bytes": 2207,
+      "git_blob_sha": "120c5751f384ce4ccbe36bca134263c64a43e152",
+      "sha256": "5b702b13ae03b8d64a67711206033ca771b7dd76acb00c2e0251a6668003088b"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/GH/admin1.csv",
+      "path": "africa-registry/countries/GH/admin1.csv",
+      "bytes": 5231,
+      "git_blob_sha": "36c52eb0e0062c1353be1ac7fbeab41d513ec97b",
+      "sha256": "9749507ffed85a3ab7e8701ec1ec765b5c1c1955a0e543d735d28c024bc24235"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/GH/entities.csv.gz",
+      "path": "africa-registry/countries/GH/entities.csv.gz",
+      "bytes": 545443,
+      "git_blob_sha": "693d15a1a85c3129efc1cf41fed213df15b041d6",
+      "sha256": "c1d80dcfbffb4a677c13ee529654c234e2ecfe5646e0bd81f96b9d6f12129625"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/GH/metadata.json",
+      "path": "africa-registry/countries/GH/metadata.json",
+      "bytes": 2379,
+      "git_blob_sha": "d10fd3419cad562ae8ad172171a778840c66e0b9",
+      "sha256": "fbe6b95c6ae15c18db55693d94fd5ad94f5b80e9201262511924bf005eeaf13b"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/GM/admin1.csv",
+      "path": "africa-registry/countries/GM/admin1.csv",
+      "bytes": 10000,
+      "git_blob_sha": "1598c4ba9288b4bc9c119150992c3e47f3306650",
+      "sha256": "b7fd9ae9c7eace4d98240079de9b722305c1a0069d2bfa5d81c89acb1b663656"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/GM/entities.csv.gz",
+      "path": "africa-registry/countries/GM/entities.csv.gz",
+      "bytes": 65598,
+      "git_blob_sha": "4837314c917480182fbcc7465b7fcfb81ec39461",
+      "sha256": "fcbf8d7ccebd40c3d6981186254ed6422ab208ed6be327523491307ce9732bf9"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/GM/metadata.json",
+      "path": "africa-registry/countries/GM/metadata.json",
+      "bytes": 2201,
+      "git_blob_sha": "653460c316c675a8157d052052ee9309d467b91f",
+      "sha256": "0be6dfcbdd16e0974c30916f9d3a9fecc1648627a735a0bab22b422aa5aecefa"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/GN/admin1.csv",
+      "path": "africa-registry/countries/GN/admin1.csv",
+      "bytes": 11174,
+      "git_blob_sha": "0958a73e8d33c5c9b5ef4fdfd0512cae56b7dfe4",
+      "sha256": "e52d422fb8355198a0de9862593a8e2ecc5262be6fb715b50557e9b600ed492b"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/GN/entities.csv.gz",
+      "path": "africa-registry/countries/GN/entities.csv.gz",
+      "bytes": 217460,
+      "git_blob_sha": "7443a3ed505393a06e8306632de61896194859fb",
+      "sha256": "2b28b25c8b3d43937ca62cdb21d3772a3bda0fe3506e6ef80cf3f1a8dae835ee"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/GN/metadata.json",
+      "path": "africa-registry/countries/GN/metadata.json",
+      "bytes": 2297,
+      "git_blob_sha": "7aacd7aab3a0cd5a33d527a6a00e20538a587675",
+      "sha256": "204beec45a71e1d280e440c88ef582e6bf9ea2ac010ef2ea04d081a80cd05990"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/GQ/admin1.csv",
+      "path": "africa-registry/countries/GQ/admin1.csv",
+      "bytes": 5275,
+      "git_blob_sha": "da15f83bef67c35f85599681eb67d5a1f96dfdda",
+      "sha256": "ed56cbd09618ae13292c52fc6339c832a959b9386d59f642423f9f5ccc513870"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/GQ/entities.csv.gz",
+      "path": "africa-registry/countries/GQ/entities.csv.gz",
+      "bytes": 66087,
+      "git_blob_sha": "37fce2b7ef627b669cebec89b9761ad12389d312",
+      "sha256": "0554e3f6c5a33a198f0545c9588a5062e4e2c25c4c6cc019589c10c3e2afbdeb"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/GQ/metadata.json",
+      "path": "africa-registry/countries/GQ/metadata.json",
+      "bytes": 2268,
+      "git_blob_sha": "99654eacea2a3f199e7d31e176e5bb3e25e1ceaa",
+      "sha256": "65acb7d5dc6c4fecd211a1b1fe90d17b487c42b5d36e4f56fc86cf9663e311dd"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/GW/admin1.csv",
+      "path": "africa-registry/countries/GW/admin1.csv",
+      "bytes": 4798,
+      "git_blob_sha": "af13ff061ce8049e387bf4a57761f06518e5730e",
+      "sha256": "913ba46d0bc7326e638659004fb6b9c6e15b0928028ab2cafb5aa9fffd5fd559"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/GW/entities.csv.gz",
+      "path": "africa-registry/countries/GW/entities.csv.gz",
+      "bytes": 112828,
+      "git_blob_sha": "70fb015ee03ee7d7a42d08c086b9bf1998eabca1",
+      "sha256": "68b014af9afd10589781b7361e2e3fb346f9c3cddc9be6b8dcf2a49269830178"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/GW/metadata.json",
+      "path": "africa-registry/countries/GW/metadata.json",
+      "bytes": 2251,
+      "git_blob_sha": "7f54932a33d9789d8051b336504a993a2efcea4b",
+      "sha256": "89db4eee8f1635ed4c4abb4be56fc66b64575d453c89ef297d7b1d168c9c0686"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/IO/admin1.csv",
+      "path": "africa-registry/countries/IO/admin1.csv",
+      "bytes": 355,
+      "git_blob_sha": "fe4737e1b0de1368aec4e03805415002d0850296",
+      "sha256": "6fe5bf94663e3f1bddc0b9a464613de7e45a6c2fb10f5a5f4b51e70f1c4c31c2"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/IO/entities.csv.gz",
+      "path": "africa-registry/countries/IO/entities.csv.gz",
+      "bytes": 5512,
+      "git_blob_sha": "194e4f386afc2b180950cc46726b448224ad9b72",
+      "sha256": "f27c16dadbfa05843f6364047a053924e1e0785b5a3f3ed4c389e9d3f0e7dee9"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/IO/metadata.json",
+      "path": "africa-registry/countries/IO/metadata.json",
+      "bytes": 2076,
+      "git_blob_sha": "6e41d1b026d26d144304e68bc3559b040bb8c5e3",
+      "sha256": "0c8b707f96ef3947d96af7c75bf8dca1de577f8cdeb394a1ee44dc7cecc9cb67"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/KE/admin1.csv",
+      "path": "africa-registry/countries/KE/admin1.csv",
+      "bytes": 47494,
+      "git_blob_sha": "e093909166ebc01ee3bc6fb623abbc63621a70a2",
+      "sha256": "08eb983be548b1c73f669e1fbe66d06a573bba48adec4ea11c38d04d6ad2ec3d"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/KE/entities.csv.gz",
+      "path": "africa-registry/countries/KE/entities.csv.gz",
+      "bytes": 331704,
+      "git_blob_sha": "4fecc4c0e020f60e853a2125416e1066bb7522ed",
+      "sha256": "708474aca57a33d55c6aaa4a465f914c570136053fc3fc71d437972df1060476"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/KE/metadata.json",
+      "path": "africa-registry/countries/KE/metadata.json",
+      "bytes": 2418,
+      "git_blob_sha": "a7fc4aca2c685b44041f44914a7397212a9419a0",
+      "sha256": "1010828546724a2c0c7a9dbb1903240393ae3614b94a4659978c2c8d4c45aab5"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/KM/admin1.csv",
+      "path": "africa-registry/countries/KM/admin1.csv",
+      "bytes": 3360,
+      "git_blob_sha": "509d66660e7793abe3abe10eb72cfea44e945b4e",
+      "sha256": "50c4ba70571e7011b367452af607af96b3a93af08a0eee9780953f9ff852c914"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/KM/entities.csv.gz",
+      "path": "africa-registry/countries/KM/entities.csv.gz",
+      "bytes": 18328,
+      "git_blob_sha": "48e0c8f391ebf14c5219720ba3613c6dbdb8ab91",
+      "sha256": "0d2d23814c835f0a033f2e2ca55db8ddf193473c61388b39318d21f676cf3ab3"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/KM/metadata.json",
+      "path": "africa-registry/countries/KM/metadata.json",
+      "bytes": 2168,
+      "git_blob_sha": "33f93693610caf849d66b9ff41e19272601eeebb",
+      "sha256": "2739fd96ae07fe4757a64a72439bae99436d1586c9a845f1bb2477278cb70d36"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/LR/admin1.csv",
+      "path": "africa-registry/countries/LR/admin1.csv",
+      "bytes": 22739,
+      "git_blob_sha": "1afc88eba55099aa8d106c9cce572813fef5e95d",
+      "sha256": "db5cb628130704c1aa1d0bf10185437c9f8243811ea1c98e7f5b298f9f52cfbb"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/LR/entities.csv.gz",
+      "path": "africa-registry/countries/LR/entities.csv.gz",
+      "bytes": 240434,
+      "git_blob_sha": "b90c558e0098cef10844a09ed177e59960815877",
+      "sha256": "9df33d0d5121970ec96dbb57750d18a5d4c5d209f4dc02b7d460025674832082"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/LR/metadata.json",
+      "path": "africa-registry/countries/LR/metadata.json",
+      "bytes": 2288,
+      "git_blob_sha": "233acadfce92ff2f2ae90fa34877439a26c75f08",
+      "sha256": "6bea5f18e0f74f63625e6b76b46212fbd0121bdb3c2332a60c1a4b8241336f0c"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/LS/admin1.csv",
+      "path": "africa-registry/countries/LS/admin1.csv",
+      "bytes": 16758,
+      "git_blob_sha": "31e4c165a7a0729e522f572ccfd7ecce39c97a7b",
+      "sha256": "6489a2dd4528ed43911da9a47a387e5e6ab85ca451e807d567539afafa636923"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/LS/entities.csv.gz",
+      "path": "africa-registry/countries/LS/entities.csv.gz",
+      "bytes": 27851,
+      "git_blob_sha": "a40374ad6dd52e10dc49e21b77f5e587f03e3ec4",
+      "sha256": "3f24ecd8b9e27f0c3c434041fcb9187194dee7bcf3ce863d1491fe1d877ae83e"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/LS/metadata.json",
+      "path": "africa-registry/countries/LS/metadata.json",
+      "bytes": 2254,
+      "git_blob_sha": "b82637621e0e7ed6fcd860ed266f8dfddaffd6f3",
+      "sha256": "1c2b9aa2aca3d05434dabc02d6ef819b59e8f63ad5edc975b7b1fb595bd19257"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/LY/admin1.csv",
+      "path": "africa-registry/countries/LY/admin1.csv",
+      "bytes": 21220,
+      "git_blob_sha": "52184cc461ea7f9b2b0095ba48a44dfae407919f",
+      "sha256": "893472e73539b3a49d612409af47a4a7523f0c801877a2d195767fe53dcf0479"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/LY/entities.csv.gz",
+      "path": "africa-registry/countries/LY/entities.csv.gz",
+      "bytes": 73379,
+      "git_blob_sha": "bfdbdd0218e329f223b6bc1464af1d5986a8344b",
+      "sha256": "5dcd691ab08a8d615d972fa8088a4fa29e2c9fb00d69444389780c09ec5aaf80"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/LY/metadata.json",
+      "path": "africa-registry/countries/LY/metadata.json",
+      "bytes": 2343,
+      "git_blob_sha": "b24b51310db5f2b3765d4e8de33c58d72ba3db2b",
+      "sha256": "96aa8001284e42bd655f36ebb1a53e755cea29bea1d0ac2d6fe114911cdf07f2"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/MA/admin1.csv",
+      "path": "africa-registry/countries/MA/admin1.csv",
+      "bytes": 8355,
+      "git_blob_sha": "4aa2ff84c7a9c0f6214cd34c988f5dccbdaf967a",
+      "sha256": "5b946c1dcafb941758f760ef6f697b6fcb980adcd0e7ef3779a918bcf195a98c"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/MA/metadata.json",
+      "path": "africa-registry/countries/MA/metadata.json",
+      "bytes": 2494,
+      "git_blob_sha": "cb8b19e36ee648241537fd608180f52b337d9576",
+      "sha256": "fd7da4b5c236ec21360e21f96118d1ae4fcea4447ddf9bee75b4937215472c72"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/MG/admin1.csv",
+      "path": "africa-registry/countries/MG/admin1.csv",
+      "bytes": 8171,
+      "git_blob_sha": "5afeaaf2e5ea607c05b65b1340634ea95d9a1635",
+      "sha256": "a509f4e7fb27919f48caebbadd13c3d9eb7b1833c12b3a1e5c39f2817f8baf14"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/MG/metadata.json",
+      "path": "africa-registry/countries/MG/metadata.json",
+      "bytes": 2403,
+      "git_blob_sha": "632d50f94892c42eceb39bed623cdd45f02dc298",
+      "sha256": "1be92b7ed5fb8b2672608c509ad3abe5e02d640f67aa4fdb448af2725081c0b0"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ML/admin1.csv",
+      "path": "africa-registry/countries/ML/admin1.csv",
+      "bytes": 13528,
+      "git_blob_sha": "c5268aba352cb8d74e80808b776e7cab00f73e1b",
+      "sha256": "2cb2bd2d4ff2e03c8ed26a5410cfdd8cb0a7bbc7b1a419e139ea4eca832f3142"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ML/entities.csv.gz",
+      "path": "africa-registry/countries/ML/entities.csv.gz",
+      "bytes": 508771,
+      "git_blob_sha": "e356cb0ed0da4efd30cf743789a9255749e06d95",
+      "sha256": "6435b7f49f53ccb601a4756b44bd5b46fbadbcf27780b1b61b026c8c3568b9a8"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ML/metadata.json",
+      "path": "africa-registry/countries/ML/metadata.json",
+      "bytes": 2373,
+      "git_blob_sha": "942232250df7b27bb19675cbcdd236f5786f44b9",
+      "sha256": "9ef681a6bb7aec277f824489d9a31a142366161893fbc9d5ab6b04d2ab741384"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/MR/admin1.csv",
+      "path": "africa-registry/countries/MR/admin1.csv",
+      "bytes": 26607,
+      "git_blob_sha": "561b894f7c437158cfa0b56c2ef44644f45b4721",
+      "sha256": "d33cb2f130b0f6c323e2ee42e0c5da84caec6baa1d386c217464410b8541a1c2"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/MR/entities.csv.gz",
+      "path": "africa-registry/countries/MR/entities.csv.gz",
+      "bytes": 286991,
+      "git_blob_sha": "07afe24f56dd643a59b8c62daa07e6ab918f91bd",
+      "sha256": "c334b11a04669ed9bc15042f3c682e19a94fcd83ffbdce084302f215d8706954"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/MR/metadata.json",
+      "path": "africa-registry/countries/MR/metadata.json",
+      "bytes": 2346,
+      "git_blob_sha": "50eaae2826ab9cb968a6430f47b3d0d4f4f4c7f1",
+      "sha256": "fe85c140655c857c0befcfda5b6fa66e462746c59854abc86c3893fe31f1671e"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/MU/admin1.csv",
+      "path": "africa-registry/countries/MU/admin1.csv",
+      "bytes": 6621,
+      "git_blob_sha": "092b7c22ffc352171efc80e9a1c0b3283c28cb8e",
+      "sha256": "4cb98e6c1d2fef88baaa9f53044f6e3614cc0a033f8036e347e0b1b08719384a"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/MU/entities.csv.gz",
+      "path": "africa-registry/countries/MU/entities.csv.gz",
+      "bytes": 27249,
+      "git_blob_sha": "c0c60bbf458ad2c61df8c7ad0d247699a2acdaac",
+      "sha256": "0c5b5ea70dc8ff72404158f608998bd06c7f517dc3405559b8c5b557965dd794"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/MU/metadata.json",
+      "path": "africa-registry/countries/MU/metadata.json",
+      "bytes": 2195,
+      "git_blob_sha": "0a06ac92691ad4d988865b475597bebdc65e7c1f",
+      "sha256": "462f2716865acd55cb5106428b06e07028f17ce70d04d06f695e70c9e3e2ed9d"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/MW/admin1.csv",
+      "path": "africa-registry/countries/MW/admin1.csv",
+      "bytes": 5324,
+      "git_blob_sha": "00eef4077dd90b98c06d01cff162799d9275e7a6",
+      "sha256": "7a1bb8b6b039704528430d360b2e56af7ac68af9bf89f42476f855c6539b53d8"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/MW/entities.csv.gz",
+      "path": "africa-registry/countries/MW/entities.csv.gz",
+      "bytes": 245863,
+      "git_blob_sha": "8245eb0a3707a19811db95c84504941c8abd9c5b",
+      "sha256": "295755ec02390795cf2fc51fddd7e780cd1ecace8e93eaa8cf36f80a3d6674dd"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/MW/metadata.json",
+      "path": "africa-registry/countries/MW/metadata.json",
+      "bytes": 2296,
+      "git_blob_sha": "b172f55b5297b9578505820959cea92a1f455d24",
+      "sha256": "35176d486957da6e43982f0053aa8811908e5596b8f6265b66d2b0875a1e675e"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/MZ/admin1.csv",
+      "path": "africa-registry/countries/MZ/admin1.csv",
+      "bytes": 17195,
+      "git_blob_sha": "fd6f358a660b0676400c1116290f081f4cb57d82",
+      "sha256": "1e608487357e8f8653468c234a27f622e28fddeb96d910d5868aee5df6caa28b"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/MZ/entities.csv.gz",
+      "path": "africa-registry/countries/MZ/entities.csv.gz",
+      "bytes": 659135,
+      "git_blob_sha": "5a565b0f2da5d7c979822ac5e37f7ee57b80d280",
+      "sha256": "5b1bc1c3dc5225d66b1dbc82d9055064a33143bbe2acd848823d95e9d087170b"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/MZ/metadata.json",
+      "path": "africa-registry/countries/MZ/metadata.json",
+      "bytes": 2378,
+      "git_blob_sha": "3280b6c871602eae2cd69d79ec53d6124e5b72ab",
+      "sha256": "3477aa22cfa275abf9f8d7f1d062dc5103b014f8adb1787670a0d3048b079467"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/NA/admin1.csv",
+      "path": "africa-registry/countries/NA/admin1.csv",
+      "bytes": 23021,
+      "git_blob_sha": "100593ebe8c18e953ab92c6b485d66dc0019b25f",
+      "sha256": "9c91bca3e33eb5f1b40881dd67f95a15a7e25002338e438899c2510b04690aa1"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/NA/entities.csv.gz",
+      "path": "africa-registry/countries/NA/entities.csv.gz",
+      "bytes": 105860,
+      "git_blob_sha": "45e55e4465f574ecd6f9a799e788ce460283f37b",
+      "sha256": "d34b5d9c0a58f134990b70362975a03a1475f7c50fafffb5adea25b29819256c"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/NA/metadata.json",
+      "path": "africa-registry/countries/NA/metadata.json",
+      "bytes": 2346,
+      "git_blob_sha": "b61a4be1eee50d319c80bb415cb8ecdfacc65e56",
+      "sha256": "1182d2af20fe8861e934cea52a9356780bd941df64a7577b7ed4458d585f5001"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/NE/admin1.csv",
+      "path": "africa-registry/countries/NE/admin1.csv",
+      "bytes": 11497,
+      "git_blob_sha": "59188bf049e85384f6c9be20ae17abc2513a6c98",
+      "sha256": "2c55ace0e14a46e8fdffa79429dc543a8f1a2934030416b332e842baa11aa3aa"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/NE/entities.csv.gz",
+      "path": "africa-registry/countries/NE/entities.csv.gz",
+      "bytes": 405055,
+      "git_blob_sha": "e4e60f947c6eceb2b11bfa62d71dce3ae96830f8",
+      "sha256": "18346a81e4ef0efbe6a9d59d663c141ccd13dbc3649d674a2c41c8f74088d03a"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/NE/metadata.json",
+      "path": "africa-registry/countries/NE/metadata.json",
+      "bytes": 2312,
+      "git_blob_sha": "d79d075c200bc31503056789d260999d8a96aa2c",
+      "sha256": "5c06067d79e5fcb18197384ba57842bf78798dfd5f56585b6d70516f27122c51"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/NG/admin1.csv",
+      "path": "africa-registry/countries/NG/admin1.csv",
+      "bytes": 58616,
+      "git_blob_sha": "a721a62858451335900ba740616463ee0fe2bf77",
+      "sha256": "b7cc560c2401443eafba7f9c793bbbafa246ef18b5a1626fa98241042229646a"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/NG/metadata.json",
+      "path": "africa-registry/countries/NG/metadata.json",
+      "bytes": 2452,
+      "git_blob_sha": "8fda0650eed430ec5e2cfb7cb20f895af1c8f245",
+      "sha256": "b4aed5b7c84dfa0d3768d1533facac2b4d95e23462244d387329788a40cc29d5"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/RE/admin1.csv",
+      "path": "africa-registry/countries/RE/admin1.csv",
+      "bytes": 994,
+      "git_blob_sha": "b79660f861d90ddbe7df07e1bc88eff09bacebb5",
+      "sha256": "da86a5c6222bbbddc8554e95a72ac41691def41bb55240fd79ff6a4e34e307c0"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/RE/entities.csv.gz",
+      "path": "africa-registry/countries/RE/entities.csv.gz",
+      "bytes": 30962,
+      "git_blob_sha": "8ad064a612531d84ad3d356062dc1fdbc02ca911",
+      "sha256": "75b9bbcc7dc2a4145685f55fd7b1659e2fedda17cd229c57fe576b91e78ea984"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/RE/metadata.json",
+      "path": "africa-registry/countries/RE/metadata.json",
+      "bytes": 2237,
+      "git_blob_sha": "f30495ed03cd5a30d26d5838f8f45964af066021",
+      "sha256": "6270a6005a01187e000831d5ff32420b799605f2ef6196f199b9687ba532ae8e"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/RW/admin1.csv",
+      "path": "africa-registry/countries/RW/admin1.csv",
+      "bytes": 10496,
+      "git_blob_sha": "8339a4e4a2e1ba948ac035595865b575273bd33b",
+      "sha256": "a1de86ce8e671163c55defe49b82ade9dedbfe273549d17024c38bf3d5daf6b3"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/RW/entities.csv.gz",
+      "path": "africa-registry/countries/RW/entities.csv.gz",
+      "bytes": 403067,
+      "git_blob_sha": "88834d03179116e6205e883aafe8a4b9dbc83998",
+      "sha256": "850b4c5143fd06257f3ed9e2afbbffeef0e3a2fae8652606ed8fc55bc9f0617e"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/RW/metadata.json",
+      "path": "africa-registry/countries/RW/metadata.json",
+      "bytes": 2335,
+      "git_blob_sha": "abf0a0f042d6d5bbba2dc0061bef749103ca6c3b",
+      "sha256": "d6b6461cc5c6fe221f2237be573d63b9cc4c007a8ee8401b9584a6c354e0339d"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SC/admin1.csv",
+      "path": "africa-registry/countries/SC/admin1.csv",
+      "bytes": 26459,
+      "git_blob_sha": "a7577a9d6d7ad4c3fd6d4bbcfdd6f9591568303b",
+      "sha256": "13f7f65d8fbe551c415a027cbd6af8ab1bbe92b610b654f2340cb78665352f88"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SC/entities.csv.gz",
+      "path": "africa-registry/countries/SC/entities.csv.gz",
+      "bytes": 15778,
+      "git_blob_sha": "a6d33b52ce459f8c50ae9fbe13ca6494115ca5b6",
+      "sha256": "4e70f6173ac5aab54bf265ec9d9d1788ac1c6e0448ae422c685dbe5c6c83ac9b"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SC/metadata.json",
+      "path": "africa-registry/countries/SC/metadata.json",
+      "bytes": 2170,
+      "git_blob_sha": "080af6df29b939dc8fb05fea257f3825d6b9bb09",
+      "sha256": "2db37688f5ee324f984c7f6a0aa02d58855d6c88ff4c5cbc7494dbf653ca58bf"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SD/admin1.csv",
+      "path": "africa-registry/countries/SD/admin1.csv",
+      "bytes": 36768,
+      "git_blob_sha": "21a203801a5fbd211712fa8744b7dfde36fc49ef",
+      "sha256": "96a5408e44c801e03efa9c9b0b1a86f12f1c7267b61bb73a1a0449b67c65700d"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SD/entities.csv.gz",
+      "path": "africa-registry/countries/SD/entities.csv.gz",
+      "bytes": 302305,
+      "git_blob_sha": "26523890eb14421af6e74d9d4bcc9d88a65f1e64",
+      "sha256": "29c70561d1a9497a9dfcf4cef05e355c9b23fb485c81c601413d14354175e906"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SD/metadata.json",
+      "path": "africa-registry/countries/SD/metadata.json",
+      "bytes": 2426,
+      "git_blob_sha": "edf62116481382f128395b814ab6e3980f005fae",
+      "sha256": "7d113a56590baecbf916ef7437559a6dfae02e5501c4e7e8c6b9adc698f53ef9"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SH/admin1.csv",
+      "path": "africa-registry/countries/SH/admin1.csv",
+      "bytes": 2515,
+      "git_blob_sha": "7303eb1ee2603d9c69c43c5f9f41d55ad5eadf22",
+      "sha256": "ebae2af1639802cbce7104636818a5d97bbfcf4b9ae02098b028d3bd20a4f0b2"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SH/entities.csv.gz",
+      "path": "africa-registry/countries/SH/entities.csv.gz",
+      "bytes": 5603,
+      "git_blob_sha": "92eb28d52ba569a65f4a079af84f3e5f467ed5e9",
+      "sha256": "0f72886b3edcfb891932b5dbfebd32b05fecb591e1c15f27afbba57769774581"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SH/metadata.json",
+      "path": "africa-registry/countries/SH/metadata.json",
+      "bytes": 2115,
+      "git_blob_sha": "118cd4b6057c6a8f25e14351e90a4c1418a3a8d7",
+      "sha256": "a555bed45d045fed759bf9f18d615acec008645ffef6397f7de5197b67a87605"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SL/admin1.csv",
+      "path": "africa-registry/countries/SL/admin1.csv",
+      "bytes": 9830,
+      "git_blob_sha": "1c118d96e4f562df5cb187aca86712b73d475f4f",
+      "sha256": "478273dd669cb479a2b8d0bb6bf3eef2202ea253c2f99c7e5ae2e959948a1f06"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SL/entities.csv.gz",
+      "path": "africa-registry/countries/SL/entities.csv.gz",
+      "bytes": 378464,
+      "git_blob_sha": "a613e1abb2bdbfe41df5edb9c6383d140eb76f1c",
+      "sha256": "f7e7da1e9fb64be51a1981e1266b849abf4b3688fced4db777ef4c1f7441ded6"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SL/metadata.json",
+      "path": "africa-registry/countries/SL/metadata.json",
+      "bytes": 2335,
+      "git_blob_sha": "2a5bc2780ee969a9a8e980511546cff2ee3b2c0d",
+      "sha256": "782cdbb5e70b1b0fc3271da11ff3c9fe08c8b5c93c56ec72145b3dccc23f419f"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SN/admin1.csv",
+      "path": "africa-registry/countries/SN/admin1.csv",
+      "bytes": 16265,
+      "git_blob_sha": "d8e29ad0159eeeed722ac07f30d0ada13d153108",
+      "sha256": "0d3789dd1f58e2a0faeedb704a074418e46254c2ff673c735ed48b7a99d07384"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SN/entities.csv.gz",
+      "path": "africa-registry/countries/SN/entities.csv.gz",
+      "bytes": 401014,
+      "git_blob_sha": "a29f567746fca70a80b60eafd67204e31c9cbc44",
+      "sha256": "5757917c8a4d428443cc7218803e86b92dc63e3766ac77a40cf3e90a0ee770f8"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SN/metadata.json",
+      "path": "africa-registry/countries/SN/metadata.json",
+      "bytes": 2339,
+      "git_blob_sha": "7d3e089a94b6cd42ef8a4080e575a474a8c4ebd3",
+      "sha256": "de6627888a8774417e05a9015a6352003f920644a3c884dc053c135391a086cf"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SO/admin1.csv",
+      "path": "africa-registry/countries/SO/admin1.csv",
+      "bytes": 10440,
+      "git_blob_sha": "4bfeb504247aaaae4e4de90841848a7dfc9bed91",
+      "sha256": "626166b950cd84a244f1633020e489349b5ea188646d283da98dfa37c2992578"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SO/entities.csv.gz",
+      "path": "africa-registry/countries/SO/entities.csv.gz",
+      "bytes": 163956,
+      "git_blob_sha": "5da6ab1b2ff338f30f44d51c065fccda201b1d77",
+      "sha256": "8be04031ccf2d2dfea53198d167b36e3ea3b8a9b022ff18747eca4525b0a9ad7"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SO/metadata.json",
+      "path": "africa-registry/countries/SO/metadata.json",
+      "bytes": 2306,
+      "git_blob_sha": "1ee31a3eab196a31e5f8fc47f5571e683572c64e",
+      "sha256": "eb1b7e2afcbfe0aa22659af296c1a8202c25dab3d7c7a7271eb2f7a81b4db376"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SS/admin1.csv",
+      "path": "africa-registry/countries/SS/admin1.csv",
+      "bytes": 22022,
+      "git_blob_sha": "dd5f463db9682fcc51bc72a4038da4f2fbbf9c61",
+      "sha256": "dc778a86bfc3d1622e4b5002cd47e0c139537cf7f9a6003aa77b253bffc789d1"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SS/entities.csv.gz",
+      "path": "africa-registry/countries/SS/entities.csv.gz",
+      "bytes": 171560,
+      "git_blob_sha": "d56718291d74a5b12eb993a19ac366dc1eef6e95",
+      "sha256": "62264b9f7478087368ce7d7a2fff4a2573cfd00013c8cd30d606e1db6655356e"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SS/metadata.json",
+      "path": "africa-registry/countries/SS/metadata.json",
+      "bytes": 2304,
+      "git_blob_sha": "22f8e931c78e700b8ad21eb0cb1379abe5401084",
+      "sha256": "5db8643e3f188153df457faddad75db3b4ab1c7d415025e8849c8edf5fa75dcf"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ST/admin1.csv",
+      "path": "africa-registry/countries/ST/admin1.csv",
+      "bytes": 2796,
+      "git_blob_sha": "d3a4f32fc0a13b9b5624eb64f3b90441ab8cfeea",
+      "sha256": "78b7227c53710aaee8e4825a06fd771f75400f37538f3f62d58d118c061e0473"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ST/entities.csv.gz",
+      "path": "africa-registry/countries/ST/entities.csv.gz",
+      "bytes": 23877,
+      "git_blob_sha": "509d90ce989f9dc99a8ba29afef036559b466877",
+      "sha256": "61701f5ef49eef22f8b1f92139c7eb739500a52aa568dcf5c4faf4f99f1ccf74"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ST/metadata.json",
+      "path": "africa-registry/countries/ST/metadata.json",
+      "bytes": 2208,
+      "git_blob_sha": "846841017ff8bcfffa67b1dc0bea4c572b8fd6b6",
+      "sha256": "3f8b3fb2e2d039c1eec4da2eb00e50c58c6f6e20d61932fac61367d16f346ea8"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SZ/admin1.csv",
+      "path": "africa-registry/countries/SZ/admin1.csv",
+      "bytes": 6081,
+      "git_blob_sha": "daf1abf1f68e84fd61717a84edd0d8de84000ff6",
+      "sha256": "88bb5b75a5ba74e562347edd725df7e1506efbeda49a4a5f36bd51ed6bb3e586"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SZ/entities.csv.gz",
+      "path": "africa-registry/countries/SZ/entities.csv.gz",
+      "bytes": 27986,
+      "git_blob_sha": "f0f7425ae7190da0a13d3accfc30affe48666a8d",
+      "sha256": "2ecb295f825784bc5b6e9d74f78b2f4b069cc31d50432d9f6b37b419e209a57a"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/SZ/metadata.json",
+      "path": "africa-registry/countries/SZ/metadata.json",
+      "bytes": 2316,
+      "git_blob_sha": "ac6b2fb972829d4763411cf15ec0bbe0672b7c15",
+      "sha256": "308204ed8e912ef68ac38a5cf29adf2b8d37b021ef0d33a7a271fb0c965adb5b"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/TD/admin1.csv",
+      "path": "africa-registry/countries/TD/admin1.csv",
+      "bytes": 39687,
+      "git_blob_sha": "f3e7f418f0555e0b341c5800fa60a3e6cf027a25",
+      "sha256": "2d08bb1f79ed0ce48fb948166058f26a74c862041d2cc010c92e6a18bbd72980"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/TD/entities.csv.gz",
+      "path": "africa-registry/countries/TD/entities.csv.gz",
+      "bytes": 396542,
+      "git_blob_sha": "8b22241cdeba727c69814fea70dd0df713057339",
+      "sha256": "a23fb29f107d929d35e9d2a7df921250b275557ce886a7d9b794487746cd7c22"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/TD/metadata.json",
+      "path": "africa-registry/countries/TD/metadata.json",
+      "bytes": 2232,
+      "git_blob_sha": "f2ffbb05cc20632b84004b842f0dbb8d711459a2",
+      "sha256": "b001f27798b312f2352319f66e975f6725322b989641afa975a6dac7f070b3b2"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/TF/admin1.csv",
+      "path": "africa-registry/countries/TF/admin1.csv",
+      "bytes": 2036,
+      "git_blob_sha": "627dcfdd5ac8f28a2321acac0fd22c7b9dfa1a8c",
+      "sha256": "58cba64f2e4653f3346e1c9067cde360952157f8f84d0429cd525bb2545c855d"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/TF/entities.csv.gz",
+      "path": "africa-registry/countries/TF/entities.csv.gz",
+      "bytes": 5205,
+      "git_blob_sha": "8c0333ecb73b9d9fde39e9ef7b5c08623a702cce",
+      "sha256": "83731fb284f2444ad99034ce471ae5744f1b646febab00498b693aeee0b2dbd1"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/TF/metadata.json",
+      "path": "africa-registry/countries/TF/metadata.json",
+      "bytes": 2230,
+      "git_blob_sha": "e4261f0e7dbb164a91c34d374794fc8e7ffc4c75",
+      "sha256": "df257b304ae9d63ffc1928221f770d42be388537eb591dde9c2f18a71fcc226a"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/TG/admin1.csv",
+      "path": "africa-registry/countries/TG/admin1.csv",
+      "bytes": 7722,
+      "git_blob_sha": "1ab07d213eca570e805b40d0dde8a90691ee3672",
+      "sha256": "30ed607cedd649c75157899d392feaf8d4281d06a6a9491c84209cbb8e902a45"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/TG/entities.csv.gz",
+      "path": "africa-registry/countries/TG/entities.csv.gz",
+      "bytes": 119821,
+      "git_blob_sha": "d158c18b5746ad3a971da90b66b06006c8977be8",
+      "sha256": "1f9ae77eda079b5604ea42c1b6450a8c347034beb94a746b2f30ed3ece2e930c"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/TG/metadata.json",
+      "path": "africa-registry/countries/TG/metadata.json",
+      "bytes": 2177,
+      "git_blob_sha": "19508c0916f519fc2f2365365fe77dcafee74eab",
+      "sha256": "2f0eaaa6f7376d1c00652a6f91529807567124c985230ae8d3859a783fcda2ac"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/TN/admin1.csv",
+      "path": "africa-registry/countries/TN/admin1.csv",
+      "bytes": 49663,
+      "git_blob_sha": "beff5eefee0af952e38c99631bbdc925f72489c5",
+      "sha256": "8f1031b949ebdba04865c30902e8323babcde8caa5ca2c1a490d6f3481044fba"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/TN/entities.csv.gz",
+      "path": "africa-registry/countries/TN/entities.csv.gz",
+      "bytes": 271302,
+      "git_blob_sha": "d61b6ccbd070f2e0a6441e2f2bbf68ec491e48fc",
+      "sha256": "1155013a73f1b85b84b749010a15ef82ab54e3e93cd8513e0cefdc5ce58bf2e0"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/TN/metadata.json",
+      "path": "africa-registry/countries/TN/metadata.json",
+      "bytes": 2355,
+      "git_blob_sha": "80caaeded9b88b9a19b67395f6788e1da3e4d769",
+      "sha256": "34ae5cbf5218803dbdc5e5c4b6eacff7720953818090dd3110b66693069a61e3"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/TZ/admin1.csv",
+      "path": "africa-registry/countries/TZ/admin1.csv",
+      "bytes": 44482,
+      "git_blob_sha": "71faf41a73e71764ad8b85f1feefc88bf1cf9c1f",
+      "sha256": "4b508863691e86424a5fabe2dcc224316628f2b70f216fa88ea15a7c375de472"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/TZ/entities.csv.gz",
+      "path": "africa-registry/countries/TZ/entities.csv.gz",
+      "bytes": 444416,
+      "git_blob_sha": "68213c5a958f78732271e13422e2ed52b42151b1",
+      "sha256": "745141c541259383377da0974bb08bc5d200d4266613b7ea01eb4f12d7cc8333"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/TZ/metadata.json",
+      "path": "africa-registry/countries/TZ/metadata.json",
+      "bytes": 2379,
+      "git_blob_sha": "2958743493c481f100f6eaab0c5460edd80c66be",
+      "sha256": "0b1eb4cd4c60464acf5f5a3c68ea557733d9d978ed3761fb9991c7aa2c809033"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/UG/admin1.csv",
+      "path": "africa-registry/countries/UG/admin1.csv",
+      "bytes": 7007,
+      "git_blob_sha": "f514d036aab2c5f9d684d2bb4c8e3abbb351c767",
+      "sha256": "91ba05cd942b02eef948b4026da585dc369f420546442fe480a6bdda72edc5f3"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/UG/entities.csv.gz",
+      "path": "africa-registry/countries/UG/entities.csv.gz",
+      "bytes": 568382,
+      "git_blob_sha": "781b7439102f7d0893a3fc1e257f42acd14282ae",
+      "sha256": "505c090504fa653ec6514577979313efee828906f53f879939466a1febcd7446"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/UG/metadata.json",
+      "path": "africa-registry/countries/UG/metadata.json",
+      "bytes": 2448,
+      "git_blob_sha": "4a35f8d4fcef69db6dc1909515617748a4f3c68b",
+      "sha256": "a28cb0facd8e6fb1bab9ea963b068fb5081014c687376587f15b7484aa2a97bb"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/YT/admin1.csv",
+      "path": "africa-registry/countries/YT/admin1.csv",
+      "bytes": 4979,
+      "git_blob_sha": "e839977ae0e30a4b473972b8214c733ae109036d",
+      "sha256": "876d61b07c7c60e68d634a0eeae7f1088c41e8683d6e12a5cf47e795d09ebc65"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/YT/entities.csv.gz",
+      "path": "africa-registry/countries/YT/entities.csv.gz",
+      "bytes": 9673,
+      "git_blob_sha": "f74872cd1231520d631339d8e83c3fac5609dade",
+      "sha256": "9c1d1a417fc8d8c50202cab6548778a2e2aab28c2800ca2d507586cccd1c94e1"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/YT/metadata.json",
+      "path": "africa-registry/countries/YT/metadata.json",
+      "bytes": 2183,
+      "git_blob_sha": "e607ddabb43186e12c037778e1d231c44d7b1415",
+      "sha256": "0e28a383d389a44a82225f1db5fab0573e62ebe193fa79e4024ece27358c5cb5"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ZA/admin1.csv",
+      "path": "africa-registry/countries/ZA/admin1.csv",
+      "bytes": 20478,
+      "git_blob_sha": "d07a1b411fca6b2f3c624d886982f10352747e10",
+      "sha256": "a43b371aa87991e6e61f83dc08113e2ef8527f5738c035cf59e049a4a4a851c4"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ZA/entities.csv.gz",
+      "path": "africa-registry/countries/ZA/entities.csv.gz",
+      "bytes": 533426,
+      "git_blob_sha": "e0d7151556293bf1c7ea44bc2b24755b19a81247",
+      "sha256": "f32d5f87f40f8ca9014f52f468a607db5e4daf6d665bd6224226aad236a7396f"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ZA/metadata.json",
+      "path": "africa-registry/countries/ZA/metadata.json",
+      "bytes": 2389,
+      "git_blob_sha": "a0d7abbd01ecfe1ff427c81702d8e0c49f03aed1",
+      "sha256": "661898617fca3ffdb07de33cba1566333bab6034c5575b3d3e553e37d47fca4c"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ZM/admin1.csv",
+      "path": "africa-registry/countries/ZM/admin1.csv",
+      "bytes": 19743,
+      "git_blob_sha": "9a898de919ee0d6b8950ff90f4ced37ab7b3aded",
+      "sha256": "9a9a084ae3ab7f92bad2dbcb87c92bc07bf19b6d6416eb197f095f0fed4e56ae"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ZM/entities.csv.gz",
+      "path": "africa-registry/countries/ZM/entities.csv.gz",
+      "bytes": 362259,
+      "git_blob_sha": "2f93ea02e61faefab7f4697c1211fec0750a97cb",
+      "sha256": "74cf1910049aadb2adea02b15378c205e2a26d0e11131fad9f58b01433b51252"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ZM/metadata.json",
+      "path": "africa-registry/countries/ZM/metadata.json",
+      "bytes": 2361,
+      "git_blob_sha": "14f4b6653f54bfd956073391be108ccb33453681",
+      "sha256": "888f8361b0c0c09b324df1ebf5e7dde4080b317b9ffbd232e88c8a8f5513e934"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ZW/admin1.csv",
+      "path": "africa-registry/countries/ZW/admin1.csv",
+      "bytes": 23762,
+      "git_blob_sha": "0b24419ede5153cdb2bc25d3d9feadb5dfd8ad4e",
+      "sha256": "93e35ce84399b79c64e5c92184ebef99c46e89b01067ba624b53961f2d2d2d0c"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ZW/entities.csv.gz",
+      "path": "africa-registry/countries/ZW/entities.csv.gz",
+      "bytes": 78132,
+      "git_blob_sha": "bb0de4389b88fd5e4f14a3c989474c3c8f7d58eb",
+      "sha256": "ef31a816efe45a2656593917a75194110a94dffed7fd735d20efd14c03a6041b"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/countries/ZW/metadata.json",
+      "path": "africa-registry/countries/ZW/metadata.json",
+      "bytes": 2291,
+      "git_blob_sha": "5621a4bb60d1e1c650b25750caa86591673a0c2e",
+      "sha256": "25a8e7bead13317f1401423da898cfc71de04cf00683f61c61756898832b8646"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/coverage.csv",
+      "path": "africa-registry/coverage.csv",
+      "bytes": 3468,
+      "git_blob_sha": "076a3343d2ccd96c6d1e6abf10804895c4f62692",
+      "sha256": "37a48e6626228f44cfcfdaf95a97c905e7cbe4ec24b9b6ad5ec5261894f256dc"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/manifest.json",
+      "path": "africa-registry/manifest.json",
+      "bytes": 8340,
+      "git_blob_sha": "8e3e46ae6798adc2e95a3841714e12a943842bc3",
+      "sha256": "d3072f1a11364ee9f8f44c8c8fc35a5ae499f7028cc7ebc1683e69d71fb40ec5"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/query.py",
+      "path": "africa-registry/query.py",
+      "bytes": 2622,
+      "git_blob_sha": "327dd60005e79a0cb64bc83f7e33abc027f518da",
+      "sha256": "0a3df69321a5f3f4a4190afee26043d56cef53f5be5d1be45fedf09ed64bd437"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/schema.json",
+      "path": "africa-registry/schema.json",
+      "bytes": 5690,
+      "git_blob_sha": "f51ce79c911e28d16cd940add928333da8435898",
+      "sha256": "9b29915e4aee8fcb09fa400df59ba4504c51730fe6ad01fe7dfc03f7e799a9a9"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/scope.json",
+      "path": "africa-registry/scope.json",
+      "bytes": 24753,
+      "git_blob_sha": "f520d0b058ae88090b6223f99ad82e0e3056886f",
+      "sha256": "b5bffc6a0f92776b960ae3659ee13befcdf9400601d2dbec1fd2d6e77b3d91ee"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/source_freshness.json",
+      "path": "africa-registry/source_freshness.json",
+      "bytes": 1469,
+      "git_blob_sha": "42a55a08835011776572f5b3e796e3889db45b85",
+      "sha256": "41b6649021571eb3bd19f45d8f253c3e37d0208bf0e727dcf6b3dcfa6e099b96"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/test_africa.py",
+      "path": "africa-registry/test_africa.py",
+      "bytes": 2729,
+      "git_blob_sha": "219895666c0f1c24df4d62eca0e10b7a39e6d544",
+      "sha256": "2dbdd413a6628a423ebae0ad4eb8ec6ffba1b8b4c9bc61d009e77cbfff32c458"
+    },
+    {
+      "source_path": "address-foundation/africa-registry/verification.json",
+      "path": "africa-registry/verification.json",
+      "bytes": 6864,
+      "git_blob_sha": "454ef9b27f411b230b31815005429b6f7bf53c78",
+      "sha256": "1b9a4a9b0f65ea6856bca71a673afe55e7421bd18b41e1d05ebe1b418d3eecab"
+    }
+  ],
+  "data_payloads_changed": false,
+  "metadata_changes": [
+    "scope.json restricted to 56 included countries",
+    "manifest.json and coverage.csv regenerated for subset",
+    "verification.json regenerated by original verifier",
+    "README.md documents subset",
+    "LICENSE copied from original parent"
+  ],
+  "upstream_documents_retained": true,
+  "validation": {
+    "countries": 56,
+    "records": 388038,
+    "file_and_country_checks": 728,
+    "errors": 0,
+    "unit_tests_passed": 8
+  },
+  "source_verified_but_not_included_country_files": [
+    "address-foundation/africa-registry/countries/CD/admin1.csv",
+    "address-foundation/africa-registry/countries/CD/metadata.json",
+    "address-foundation/africa-registry/countries/MA/admin1.csv",
+    "address-foundation/africa-registry/countries/MA/metadata.json",
+    "address-foundation/africa-registry/countries/MG/admin1.csv",
+    "address-foundation/africa-registry/countries/MG/metadata.json",
+    "address-foundation/africa-registry/countries/NG/admin1.csv",
+    "address-foundation/africa-registry/countries/NG/metadata.json"
+  ],
+  "code_license_source": "https://github.com/rei-k/world-address/blob/4efec82671b15a6bca4f0099acb6377c55af9aae/address-foundation/LICENSE"
+}

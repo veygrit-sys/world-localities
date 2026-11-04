@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "country": "MX",
+  "vintage": "2025-07",
+  "counts": {
+    "regions": 32,
+    "source_localities": 2478,
+    "municipalities": 2462,
+    "territorial_demarcations": 16,
+    "municipal_seat_attributes": 2462,
+    "municipal_seat_names_present": 37,
+    "population_statistics_missing": 9,
+    "categories": {
+      "municipality_geostatistical_area": 2462,
+      "territorial_demarcation": 16
+    },
+    "source_reference_date": null,
+    "source_reference_period": "2025-07",
+    "source_vintage": "2025-07",
+    "statistics_reference": "INEGI. Censo de Población y Vivienda, 2020",
+    "coverage": "All 32 AGEE; all current AGEM municipality areas and Mexico City territorial demarcations",
+    "postal_coverage": "not_loaded; Correos de México catalogue redistribution was not selected",
+    "address1_coverage": "not_loaded; INEGI vialidad/asentamiento endpoints are separate from this municipality snapshot"
+  },
+  "regions": [
+    {
+      "code": "MX-AGU",
+      "id": "admin:csc:3456",
+      "name": "Aguascalientes",
+      "file": "MX-AGU.csv",
+      "localities": 11,
+      "address_candidates": 11
+    },
+    {
+      "code": "MX-BCN",
+      "id": "admin:csc:3457",
+      "name": "Baja California",
+      "file": "MX-BCN.csv",
+      "localities": 7,
+      "address_candidates": 7
+    },
+    {
+      "code": "MX-BCS",
+      "id": "admin:csc:3460",
+      "name": "Baja California Sur",
+      "file": "MX-BCS.csv",
+      "localities": 5,
+      "address_candidates": 5
+    },
+    {
+      "code": "MX-CAM",
+      "id": "admin:csc:3475",
+      "name": "Campeche",
+      "file": "MX-CAM.csv",
+      "localities": 13,
+      "address_candidates": 13
+    },
+    {
+      "code": "MX-CHH",
+      "id": "admin:csc:3447",
+      "name": "Chihuahua",
+      "file": "MX-CHH.csv",
+      "localities": 67,
+      "address_candidates": 67
+    },
+    {
+      "code": "MX-CHP",
+      "id": "admin:csc:3451",
+      "name": "Chiapas",
+      "file": "MX-CHP.csv",
+      "localities": 124,
+      "address_candidates": 124
+    },
+    {
+      "code": "MX-CMX",
+      "id": "admin:csc:3473",
+      "name": "Ciudad de México",
+      "file": "MX-CMX.csv",
+      "localities": 16,
+      "address_candidates": 16
+    },
+    {
+      "code": "MX-COA",
+      "id": "admin:csc:3471",
+      "name": "Coahuila de Zaragoza",
+      "file": "MX-COA.csv",
+      "localities": 38,
+      "address_candidates": 38
+    },
+    {
+      "code": "MX-COL",
+      "id": "admin:csc:3472",
+      "name": "Colima",
+      "file": "MX-COL.csv",
+      "localities": 10,
+      "address_candidates": 10
+    },
+    {
+      "code": "MX-DUR",
+      "id": "admin:csc:3453",
+      "name": "Durango",
+      "file": "MX-DUR.csv",
+      "localities": 39,
+      "address_candidates": 39
+    },
+    {
+      "code": "MX-GRO",
+      "id": "admin:csc:3459",
+      "name": "Guerrero",
+      "file": "MX-GRO.csv",
+      "localities": 85,
+      "address_candidates": 85
+    },
+    {
+      "code": "MX-GUA",
+      "id": "admin:csc:3469",
+      "name": "Guanajuato",
+      "file": "MX-GUA.csv",
+      "localities": 46,
+      "address_candidates": 46
+    },
+    {
+      "code": "MX-HID",
+      "id": "admin:csc:3470",
+      "name": "Hidalgo",
+      "file": "MX-HID.csv",
+      "localities": 84,
+      "address_candidates": 84
+    },
+    {
+      "code": "MX-JAL",
+      "id": "admin:csc:4857",
+      "name": "Jalisco",
+      "file": "MX-JAL.csv",
+      "localities": 125,
+      "address_candidates": 125
+    },
+    {
+      "code": "MX-MEX",
+      "id": "admin:csc:3450",
+      "name": "México",
+      "file": "MX-MEX.csv",
+      "localities": 125,
+      "address_candidates": 125
+    },
+    {
+      "code": "MX-MIC",
+      "id": "admin:csc:3474",
+      "name": "Michoacán de Ocampo",
+      "file": "MX-MIC.csv",
+      "localities": 113,
+      "address_candidates": 113
+    },
+    {
+      "code": "MX-MOR",
+      "id": "admin:csc:3465",
+      "name": "Morelos",
+      "file": "MX-MOR.csv",
+      "localities": 36,
+      "address_candidates": 36
+    },
+    {
+      "code": "MX-NAY",
+      "id": "admin:csc:3477",
+      "name": "Nayarit",
+      "file": "MX-NAY.csv",
+      "localities": 20,
+      "address_candidates": 20
+    },
+    {
+      "code": "MX-NLE",
+      "id": "admin:csc:3452",
+      "name": "Nuevo León",
+      "file": "MX-NLE.csv",
+      "localities": 51,
+      "address_candidates": 51
+    },
+    {
+      "code": "MX-OAX",
+      "id": "admin:csc:3448",
+      "name": "Oaxaca",
+      "file": "MX-OAX.csv",
+      "localities": 570,
+      "address_candidates": 570
+    },
+    {
+      "code": "MX-PUE",
+      "id": "admin:csc:3476",
+      "name": "Puebla",
+      "file": "MX-PUE.csv",
+      "localities": 217,
+      "address_candidates": 217
+    },
+    {
+      "code": "MX-QUE",
+      "id": "admin:csc:3455",
+      "name": "Querétaro",
+      "file": "MX-QUE.csv",
+      "localities": 18,
+      "address_candidates": 18
+    },
+    {
+      "code": "MX-ROO",
+      "id": "admin:csc:3467",
+      "name": "Quintana Roo",
+      "file": "MX-ROO.csv",
+      "localities": 11,
+      "address_candidates": 11
+    },
+    {
+      "code": "MX-SIN",
+      "id": "admin:csc:3449",
+      "name": "Sinaloa",
+      "file": "MX-SIN.csv",
+      "localities": 20,
+      "address_candidates": 20
+    },
+    {
+      "code": "MX-SLP",
+      "id": "admin:csc:3461",
+      "name": "San Luis Potosí",
+      "file": "MX-SLP.csv",
+      "localities": 59,
+      "address_candidates": 59
+    },
+    {
+      "code": "MX-SON",
+      "id": "admin:csc:3468",
+      "name": "Sonora",
+      "file": "MX-SON.csv",
+      "localities": 72,
+      "address_candidates": 72
+    },
+    {
+      "code": "MX-TAB",
+      "id": "admin:csc:3454",
+      "name": "Tabasco",
+      "file": "MX-TAB.csv",
+      "localities": 17,
+      "address_candidates": 17
+    },
+    {
+      "code": "MX-TAM",
+      "id": "admin:csc:3463",
+      "name": "Tamaulipas",
+      "file": "MX-TAM.csv",
+      "localities": 43,
+      "address_candidates": 43
+    },
+    {
+      "code": "MX-TLA",
+      "id": "admin:csc:3458",
+      "name": "Tlaxcala",
+      "file": "MX-TLA.csv",
+      "localities": 60,
+      "address_candidates": 60
+    },
+    {
+      "code": "MX-VER",
+      "id": "admin:csc:3464",
+      "name": "Veracruz de Ignacio de la Llave",
+      "file": "MX-VER.csv",
+      "localities": 212,
+      "address_candidates": 212
+    },
+    {
+      "code": "MX-YUC",
+      "id": "admin:csc:3466",
+      "name": "Yucatán",
+      "file": "MX-YUC.csv",
+      "localities": 106,
+      "address_candidates": 106
+    },
+    {
+      "code": "MX-ZAC",
+      "id": "admin:csc:3462",
+      "name": "Zacatecas",
+      "file": "MX-ZAC.csv",
+      "localities": 58,
+      "address_candidates": 58
+    }
+  ],
+  "columns": [
+    "id",
+    "code",
+    "source_type",
+    "category",
+    "name",
+    "lang",
+    "parent_id",
+    "state_id",
+    "state_code",
+    "address_country",
+    "address_candidate",
+    "postcodes",
+    "postcode_relations",
+    "government_status",
+    "department_code",
+    "collectivity_code",
+    "source_state_code",
+    "municipality_component",
+    "municipal_seat_locality_code",
+    "municipal_seat_name",
+    "municipal_seat_relation",
+    "statistics_available"
+  ],
+  "format": "UTF-8 CSV; string codes; pipe-separated postcodes and parallel relations; source-specific IDs"
+}

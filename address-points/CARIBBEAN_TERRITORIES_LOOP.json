@@ -1,0 +1,1202 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-17T01:48:28.448124+00:00",
+  "scope": "territories",
+  "country_count": 0,
+  "supplementary_area_count": 15,
+  "countries": [
+    {
+      "code": "AI",
+      "name_ja": "アンギラ",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 14
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 45
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 30
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 15
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 45
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 45
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 45
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 45
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 30
+        }
+      ],
+      "geonames_place_count": 45,
+      "linked_nodes": 59,
+      "nodes_with_direct_source_issues": 30,
+      "nodes_requiring_source_review": 30,
+      "coverage_notes_ja": "GeoNamesの14上位区画は地区参照。選挙区・行政区・統計区を同一視しない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "AW",
+      "name_ja": "アルバ",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 172
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 172
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 172
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 172
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 172
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 172
+        }
+      ],
+      "issues": [],
+      "geonames_place_count": 172,
+      "linked_nodes": 172,
+      "nodes_with_direct_source_issues": 0,
+      "nodes_requiring_source_review": 0,
+      "coverage_notes_ja": "GeoNamesの集落参照。取得したGeoNamesにはADM1–5がなく、地域区分・統計区の全国コードは未収録。国→集落の接続だけを示す。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "BQ",
+      "name_ja": "ボネール、シント・ユースタティウスおよびサバ",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-bq-20261017",
+          "kind": "island_area_reference",
+          "nodes": 3
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 3
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 119
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 119
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 119
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 119
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 119
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 119
+        }
+      ],
+      "issues": [
+        {
+          "code": "legacy_administrative_fields",
+          "field": "source_review",
+          "observations": 3
+        }
+      ],
+      "geonames_place_count": 119,
+      "linked_nodes": 125,
+      "nodes_with_direct_source_issues": 3,
+      "nodes_requiring_source_review": 3,
+      "coverage_notes_ja": "BQは1補足地域。その下にBonaire・Sint Eustatius・Sabaの3島を持つ。COD-ABには旧ANT/ANコードも残るため原行を保持して要確認とする。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "VG",
+      "name_ja": "英領バージン諸島",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-vg-20261017",
+          "kind": "island_or_district_reference",
+          "nodes": 6
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 142
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 142
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 142
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 142
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 142
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 142
+        }
+      ],
+      "issues": [],
+      "geonames_place_count": 142,
+      "linked_nodes": 148,
+      "nodes_with_direct_source_issues": 0,
+      "nodes_requiring_source_review": 0,
+      "coverage_notes_ja": "COD-ABの6島・地区区画を独立した出典で保持。GeoNamesには行政区分がなく、両者の地名だけでリンクしない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "KY",
+      "name_ja": "ケイマン諸島",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-ky-20261017",
+          "kind": "district",
+          "nodes": 6
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 6
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 80
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 65
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 15
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 80
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 80
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 80
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 80
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 65
+        }
+      ],
+      "geonames_place_count": 80,
+      "linked_nodes": 92,
+      "nodes_with_direct_source_issues": 65,
+      "nodes_requiring_source_review": 65,
+      "coverage_notes_ja": "COD-ABの6地区。住所・郵便配達の実在は未検証。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "CW",
+      "name_ja": "キュラソー",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-cw-20261017",
+          "kind": "non_geographic_reporting_category",
+          "nodes": 1
+        },
+        {
+          "namespace": "codab-cw-20261017",
+          "kind": "source_adm1_area",
+          "nodes": 65
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 100
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 100
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 100
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 100
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 100
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 100
+        }
+      ],
+      "issues": [
+        {
+          "code": "non_geographic_source_category",
+          "field": "ADM1_PCODE",
+          "observations": 1
+        }
+      ],
+      "geonames_place_count": 100,
+      "linked_nodes": 166,
+      "nodes_with_direct_source_issues": 1,
+      "nodes_requiring_source_review": 1,
+      "coverage_notes_ja": "COD-ABの66行は65の参照区画と地理区画ではないHomeless respondents 1行。後者を分離して保持し、行政区画数に含めない。GeoNamesにADM1はなく、出典間の自動統合はしない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "GP",
+      "name_ja": "グアドループ",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 1
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 1
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 2
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin4",
+          "nodes": 32
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 1579
+        },
+        {
+          "namespace": "insee-2026",
+          "kind": "arrondissement",
+          "nodes": 2
+        },
+        {
+          "namespace": "insee-2026",
+          "kind": "commune",
+          "nodes": 32
+        },
+        {
+          "namespace": "insee-2026",
+          "kind": "department_code",
+          "nodes": 1
+        },
+        {
+          "namespace": "insee-2026",
+          "kind": "departmental_authority",
+          "nodes": 1
+        },
+        {
+          "namespace": "insee-2026",
+          "kind": "region",
+          "nodes": 1
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 1152
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 427
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 1152
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 427
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 1152
+        },
+        {
+          "field": "admin3",
+          "status": "resolved",
+          "records": 427
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 1152
+        },
+        {
+          "field": "admin4",
+          "status": "resolved",
+          "records": 427
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 1579
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 1152
+        }
+      ],
+      "geonames_place_count": 1579,
+      "linked_nodes": 1652,
+      "nodes_with_direct_source_issues": 1152,
+      "nodes_requiring_source_review": 1152,
+      "coverage_notes_ja": "INSEE COG 2026の地域・県・県権限団体・2郡・32コミューン。仏領サン・マルタンとサン・バルテルミーを含めない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "MQ",
+      "name_ja": "マルティニーク",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 1
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 1
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 4
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin4",
+          "nodes": 34
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 1294
+        },
+        {
+          "namespace": "insee-2026",
+          "kind": "arrondissement",
+          "nodes": 4
+        },
+        {
+          "namespace": "insee-2026",
+          "kind": "commune",
+          "nodes": 34
+        },
+        {
+          "namespace": "insee-2026",
+          "kind": "department_code",
+          "nodes": 1
+        },
+        {
+          "namespace": "insee-2026",
+          "kind": "departmental_authority",
+          "nodes": 1
+        },
+        {
+          "namespace": "insee-2026",
+          "kind": "region",
+          "nodes": 1
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 629
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 665
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 663
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 631
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 663
+        },
+        {
+          "field": "admin3",
+          "status": "resolved",
+          "records": 631
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 663
+        },
+        {
+          "field": "admin4",
+          "status": "resolved",
+          "records": 631
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 1294
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 629
+        }
+      ],
+      "geonames_place_count": 1294,
+      "linked_nodes": 1375,
+      "nodes_with_direct_source_issues": 629,
+      "nodes_requiring_source_review": 629,
+      "coverage_notes_ja": "INSEE COG 2026の地域・県コード・単一地方公共団体・4郡・34コミューン。県コードと単一団体を別の制度上の枝として保持。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "MS",
+      "name_ja": "モントセラト",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-ms-20261017",
+          "kind": "parish_reference",
+          "nodes": 3
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 3
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 60
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 3
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 57
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 60
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 60
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 60
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 60
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 3
+        },
+        {
+          "code": "settlement_current_use_requires_review",
+          "field": "source_review",
+          "observations": 1
+        }
+      ],
+      "geonames_place_count": 60,
+      "linked_nodes": 66,
+      "nodes_with_direct_source_issues": 4,
+      "nodes_requiring_source_review": 4,
+      "coverage_notes_ja": "COD-ABの3教区は地理参照。火山被害による避難区域等を考慮した居住・配送可能な住所の証明ではない。 Plymouthは放棄された町として公式観光資料に掲載されているため、GeoNamesのPPLC区分を保持した上で個別に要確認表示。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "PR",
+      "name_ja": "プエルトリコ",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 78
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 902
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 144
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 2475
+        },
+        {
+          "namespace": "pr-census-2026",
+          "kind": "barrio_or_barrio_pueblo",
+          "nodes": 939
+        },
+        {
+          "namespace": "pr-census-2026",
+          "kind": "census_place",
+          "nodes": 292
+        },
+        {
+          "namespace": "pr-census-2026",
+          "kind": "municipio",
+          "nodes": 78
+        },
+        {
+          "namespace": "pr-census-2026",
+          "kind": "territory",
+          "nodes": 1
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 2475
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 102
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 2373
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 2475
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 2475
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 2475
+        }
+      ],
+      "issues": [],
+      "geonames_place_count": 2475,
+      "linked_nodes": 4909,
+      "nodes_with_direct_source_issues": 0,
+      "nodes_requiring_source_review": 0,
+      "coverage_notes_ja": "US Census Gazetteer 2026のPR行だけを索引化。州相当72→municipio→barrio等の明示コードを接続。placeは自治体との親子コードを原典が持たないため推測で結合しない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "BL",
+      "name_ja": "サン・バルテルミー",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 29
+        },
+        {
+          "namespace": "insee-2026",
+          "kind": "collectivity",
+          "nodes": 1
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 29
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 29
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 29
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 29
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 29
+        }
+      ],
+      "issues": [],
+      "geonames_place_count": 29,
+      "linked_nodes": 30,
+      "nodes_with_direct_source_issues": 0,
+      "nodes_requiring_source_review": 0,
+      "coverage_notes_ja": "INSEEのcollectivity 977と5桁表現97701を同じ自治体の観測として保持。架空の下位コミューンを作らない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "MF",
+      "name_ja": "サン・マルタン（仏領）",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 62
+        },
+        {
+          "namespace": "insee-2026",
+          "kind": "collectivity",
+          "nodes": 1
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 62
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 62
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 62
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 62
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 62
+        }
+      ],
+      "issues": [],
+      "geonames_place_count": 62,
+      "linked_nodes": 63,
+      "nodes_with_direct_source_issues": 0,
+      "nodes_requiring_source_review": 0,
+      "coverage_notes_ja": "INSEEのcollectivity 978と5桁表現97801を同じ自治体の観測として保持。蘭領SXとは別の対象。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "SX",
+      "name_ja": "シント・マールテン（蘭領）",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-sx-v01",
+          "kind": "source_adm1_area",
+          "nodes": 8
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 62
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 62
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 62
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 62
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 62
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 62
+        }
+      ],
+      "issues": [],
+      "geonames_place_count": 62,
+      "linked_nodes": 70,
+      "nodes_with_direct_source_issues": 0,
+      "nodes_requiring_source_review": 0,
+      "coverage_notes_ja": "COD-ABの8原典区画。仏領MFとの親子接続を禁止。原行政データは2018年、使用確認日は2024年。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "TC",
+      "name_ja": "タークス・カイコス諸島",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-tc-20261017",
+          "kind": "district",
+          "nodes": 6
+        },
+        {
+          "namespace": "codab-tc-20261017",
+          "kind": "source_adm2_area",
+          "nodes": 30
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 41
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 41
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 41
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 41
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 41
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 41
+        }
+      ],
+      "issues": [],
+      "geonames_place_count": 41,
+      "linked_nodes": 77,
+      "nodes_with_direct_source_issues": 0,
+      "nodes_requiring_source_review": 0,
+      "coverage_notes_ja": "COD-ABの6地区・30下位区画。GeoNamesには行政階層がないため、集落を名称一致でCOD-AB区画へ接続しない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "VI",
+      "name_ja": "米領バージン諸島",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-vi-20261017",
+          "kind": "district",
+          "nodes": 3
+        },
+        {
+          "namespace": "codab-vi-20261017",
+          "kind": "subdistrict",
+          "nodes": 20
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 3
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 20
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 222
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 222
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 2
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 220
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 222
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 222
+        },
+        {
+          "field": "admin5",
+          "status": "not_supplied",
+          "records": 222
+        }
+      ],
+      "issues": [],
+      "geonames_place_count": 222,
+      "linked_nodes": 268,
+      "nodes_with_direct_source_issues": 0,
+      "nodes_requiring_source_review": 0,
+      "coverage_notes_ja": "COD-ABの3地区・20下位地区。2026 US Census Gazetteerの対象外なのでPRのデータを流用しない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    }
+  ],
+  "structural_checks": {
+    "foreign_keys": "PASS",
+    "same_country_links": "PASS",
+    "acyclic_rank_order": "PASS"
+  },
+  "limit": "PASS means the processing and structural checks completed; it is not national address completeness."
+}

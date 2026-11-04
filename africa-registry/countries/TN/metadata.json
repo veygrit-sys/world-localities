@@ -1,0 +1,91 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "TUN",
+    "country": "TN",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Tunisia",
+    "geonames_id": "2464461",
+    "id": "country:TN",
+    "m49": "788",
+    "name_en": "Tunisia",
+    "numeric": "788",
+    "region": "Northern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 2221,
+    "admin_rows": 2372,
+    "ambiguous_parents": 0,
+    "country": "TN",
+    "country_scope_only": 2,
+    "localities_without_adm1": 2,
+    "locality_rows": 2245,
+    "name_en": "Tunisia",
+    "other_admin_rows": 14,
+    "region": "Northern Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 24,
+    "ADM2": 264,
+    "ADM3": 2084,
+    "ADM3H": 2,
+    "ADMD": 11,
+    "PCLI": 1,
+    "PPL": 1773,
+    "PPLA": 23,
+    "PPLA2": 2,
+    "PPLC": 1,
+    "PPLCH": 2,
+    "PPLH": 21,
+    "PPLL": 13,
+    "PPLS": 1,
+    "PPLX": 409
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 271302,
+      "rows": 4631,
+      "sha256": "1155013a73f1b85b84b749010a15ef82ab54e3e93cd8513e0cefdc5ce58bf2e0",
+      "uncompressed_sha256": "2315db646fc7256a48c93016fdb9b5f9f92c28cc9bdea3da6f6de5db84d952a7"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 2,
+    "not_assigned_for_other_feature": 14,
+    "source_admin_code": 4591,
+    "source_country": 24
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 24,
+      "sha256": "8f1031b949ebdba04865c30902e8323babcde8caa5ca2c1a490d6f3481044fba"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 903951,
+    "discarded_feature_classes": {
+      "H": 6663,
+      "L": 1278,
+      "R": 2738,
+      "S": 6628,
+      "T": 3907,
+      "U": 1,
+      "V": 4
+    },
+    "retained_rows": 4631,
+    "retrieved_on": "2026-09-26",
+    "sha256": "b83ccdbd412cfb242a4620018a8398716c353ee433d97dd9d0c402b87386f793",
+    "source_rows": 25850,
+    "url": "https://download.geonames.org/export/dump/TN.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1996-04-26"
+}

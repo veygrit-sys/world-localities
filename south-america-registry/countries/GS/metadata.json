@@ -1,0 +1,107 @@
+{
+  "alternate_values_file": {
+    "bytes": 6744,
+    "filename": "alternate-values.csv.gz",
+    "rows": 203,
+    "sha256": "64d4e36be6bcb21e1143482f390b5e54306507686ddbb28e0ab3628805fba4d1",
+    "uncompressed_sha256": "96f61903cbca94b2589244ad93dfd2aa3b1b18b2b98aabe41ae8a49a672de8d5"
+  },
+  "alternate_values_source": {
+    "bytes": 42670,
+    "retained_rows": 203,
+    "retrieved_on": "2026-10-01",
+    "sha256": "cdaa3f7c3c82352e664fc4d49032774c12f42183ea73fade51da29a5ef2eddd2",
+    "source_columns": 10,
+    "source_rows": 3077,
+    "url": "https://download.geonames.org/export/dump/alternatenames/GS.zip"
+  },
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "SGS",
+    "country": "GS",
+    "geonames_continent": "AN",
+    "geonames_id": "3474415",
+    "id": "country:GS",
+    "m49": "239",
+    "name_en": "South Georgia and the South Sandwich Islands",
+    "region": "South America",
+    "region_m49": "005",
+    "source_country_languages": [
+      "en"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 3,
+    "admin_rows": 0,
+    "ambiguous_parents": 0,
+    "country": "GS",
+    "country_scope_only": 4,
+    "localities_without_adm1": 4,
+    "locality_rows": 4,
+    "name_en": "South Georgia and the South Sandwich Islands",
+    "other_admin_rows": 1,
+    "region": "South America",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "PCLD": 1,
+    "PPL": 2,
+    "PPLC": 1,
+    "PPLQ": 1
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 6018,
+      "rows": 5,
+      "sha256": "95a13c379b90c19e0bd28b36e448801834d630eda15927b0b60e80c90e3602c1",
+      "uncompressed_sha256": "454fed5319d5836c8217851c283275cf60c8fb23e9b4d08dda8c165bf8f9107e"
+    }
+  },
+  "known_issues": [],
+  "label_coverage": {
+    "current_country_language_name_entities": 4,
+    "current_english_name_entities": 4,
+    "language_tagged_name_entities": 4,
+    "missing_country_language_name_entities": 1,
+    "missing_english_name_entities": 1,
+    "native_label_rule": "Exact source language tag matched against countryInfo language list; no language is inferred from primary name, ASCII, spelling or script. Country-language match is not proof of each place's indigenous language."
+  },
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 4,
+    "not_assigned_for_other_feature": 1
+  },
+  "postal_coverage": {
+    "note": "Only source post-tag values, if any; not joined by place name and not delivery validation.",
+    "postal_deliverability_verified": false,
+    "postal_validation": false,
+    "source_postal_value_rows": 0
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 0,
+      "sha256": "6fe5bf94663e3f1bddc0b9a464613de7e45a6c2fb10f5a5f4b51e70f1c4c31c2"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 36519,
+    "discarded_feature_classes": {
+      "H": 263,
+      "L": 2,
+      "S": 2,
+      "T": 542
+    },
+    "retained_rows": 5,
+    "retrieved_on": "2026-10-01",
+    "sha256": "b06cc09b12cfe67a4893b20a3b671c0ac9d585353a5af0aba8936d34d70b5221",
+    "source_rows": 814,
+    "url": "https://download.geonames.org/export/dump/GS.zip"
+  },
+  "source_modified_max": "2025-09-08",
+  "source_modified_min": "2013-04-30"
+}

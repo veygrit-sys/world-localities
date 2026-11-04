@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-10-01",
+  "status": "design_only_not_trained",
+  "priority_tasks": [
+    "name_to_entity_id",
+    "same_name_disambiguation",
+    "typo_retrieval",
+    "hierarchy_date_consistency",
+    "clarify_or_abstain",
+    "source_name_selection",
+    "postal_candidate_set_resolution"
+  ],
+  "stages": [
+    "B0 deterministic retrieval and constraints",
+    "B1 supervised ranker",
+    "B2 optional SFT",
+    "R1 optional constrained action policy RL"
+  ],
+  "pilot_proposal": {
+    "profiles": [
+      "JP",
+      "KR",
+      "TW",
+      "SG",
+      "IN"
+    ],
+    "max_entities_per_profile": 2000,
+    "max_synthetic_examples_per_entity": 4,
+    "independent_gold_target_per_profile": 200
+  },
+  "official_inputs": {
+    "JP": "../../official-registry/JP/coverage.json",
+    "TW": "../../official-registry/TW/coverage.json"
+  },
+  "exclude_from_verified_gold": [
+    "ambiguous_or_unmatched_romanization",
+    "possibly_truncated_romanization",
+    "GeoNames_candidates",
+    "generated_unreviewed_names"
+  ],
+  "split_before_augmentation": [
+    "entity_id",
+    "confirmed_equivalence",
+    "aliases"
+  ],
+  "deduplicate_Europe_by_GeoNames_ID": true,
+  "additional_holdouts": [
+    "administrative_or_spatial_block",
+    "future_snapshot",
+    "minority_language_and_hard_cases"
+  ],
+  "retrieval_index_can_include_untrained_entities": true,
+  "evaluation_queries_and_labels_excluded_from_weight_training": true,
+  "rl_proposal": {
+    "actions": [
+      "retrieve",
+      "verify_source",
+      "ask_clarification",
+      "select_id",
+      "abstain"
+    ],
+    "max_tool_calls": 3,
+    "terminal_rewards": {
+      "correct_supported_id": 1,
+      "justified_abstain": 0.2,
+      "unnecessary_abstain": -0.2,
+      "wrong_id": -2,
+      "fabricated_id_source_or_official_claim": -3
+    },
+    "tool_call_cost": -0.02,
+    "hard_constraints": [
+      "existing_ID",
+      "source_evidence",
+      "confirmed_hierarchy",
+      "confirmed_validity"
+    ],
+    "include_all_abstain_baseline": true
+  },
+  "metrics": [
+    "retrieval_recall_at_k",
+    "conditional_ranking_accuracy",
+    "wrong_acceptance_at_matched_coverage",
+    "country_macro_accuracy",
+    "postal_set_accuracy",
+    "clarification_count",
+    "latency"
+  ],
+  "adoption_gate": "Held-out gain over B1/B2 at matched coverage or error; inspect confidence intervals, seed variation and country/hard-case regressions",
+  "training_runs": [],
+  "model_artifacts": []
+}

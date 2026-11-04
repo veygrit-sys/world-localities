@@ -1,0 +1,81 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "TGO",
+    "country": "TG",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Togo",
+    "geonames_id": "2363686",
+    "id": "country:TG",
+    "m49": "768",
+    "name_en": "Togo",
+    "numeric": "768",
+    "region": "Western Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 4218,
+    "admin_rows": 35,
+    "ambiguous_parents": 0,
+    "country": "TG",
+    "country_scope_only": 3466,
+    "localities_without_adm1": 3466,
+    "locality_rows": 4218,
+    "name_en": "Togo",
+    "other_admin_rows": 1,
+    "region": "Western Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 5,
+    "ADM2": 30,
+    "PCLI": 1,
+    "PPL": 4189,
+    "PPLA": 5,
+    "PPLC": 1,
+    "PPLX": 23
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 119821,
+      "rows": 4254,
+      "sha256": "1f9ae77eda079b5604ea42c1b6450a8c347034beb94a746b2f30ed3ece2e930c",
+      "uncompressed_sha256": "4314e8d06175c8c8c73b3a1fab2da3144ecb6c8d36f05d280e3c12d60282d1ed"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 3466,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 782,
+    "source_country": 5
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 5,
+      "sha256": "30ed607cedd649c75157899d392feaf8d4281d06a6a9491c84209cbb8e902a45"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 135320,
+    "discarded_feature_classes": {
+      "H": 1105,
+      "L": 64,
+      "S": 96,
+      "T": 293,
+      "V": 18
+    },
+    "retained_rows": 4254,
+    "retrieved_on": "2026-09-26",
+    "sha256": "768f9a8a3a77ff1ffcd52decc263f9f6168666ca08939f422a19b084f5a29fc5",
+    "source_rows": 5830,
+    "url": "https://download.geonames.org/export/dump/TG.zip"
+  },
+  "source_modified_max": "2026-08-30",
+  "source_modified_min": "1993-12-23"
+}

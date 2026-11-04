@@ -1,0 +1,89 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "SWZ",
+    "country": "SZ",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Eswatini",
+    "geonames_id": "934841",
+    "id": "country:SZ",
+    "m49": "748",
+    "name_en": "Eswatini",
+    "numeric": "748",
+    "region": "Southern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 703,
+    "admin_rows": 50,
+    "ambiguous_parents": 0,
+    "country": "SZ",
+    "country_scope_only": 24,
+    "localities_without_adm1": 24,
+    "locality_rows": 703,
+    "name_en": "Eswatini",
+    "other_admin_rows": 2,
+    "region": "Southern Africa",
+    "unresolved_parents": 9
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 4,
+    "ADM2": 38,
+    "ADM3": 8,
+    "ADMD": 1,
+    "PCLI": 1,
+    "PPL": 693,
+    "PPLA": 4,
+    "PPLA2": 1,
+    "PPLC": 1,
+    "PPLG": 1,
+    "PPLL": 2,
+    "PPLX": 1
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 27986,
+      "rows": 755,
+      "sha256": "2ecb295f825784bc5b6e9d74f78b2f4b069cc31d50432d9f6b37b419e209a57a",
+      "uncompressed_sha256": "cbd1d92ffb1ad039594aba09aad64bb3464d1f56c67cb7143d2c7d104edde68c"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 24,
+    "missing_code": 8,
+    "missing_reference": 1,
+    "not_assigned_for_other_feature": 2,
+    "source_admin_code": 716,
+    "source_country": 4
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 4,
+      "sha256": "88bb5b75a5ba74e562347edd725df7e1506efbeda49a4a5f36bd51ed6bb3e586"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 58762,
+    "discarded_feature_classes": {
+      "H": 407,
+      "L": 69,
+      "R": 1,
+      "S": 305,
+      "T": 425,
+      "V": 8
+    },
+    "retained_rows": 755,
+    "retrieved_on": "2026-09-26",
+    "sha256": "38d250400fe931359acb1c8568575dcea4adb91401011438f9ce6ef794f01249",
+    "source_rows": 1970,
+    "url": "https://download.geonames.org/export/dump/SZ.zip"
+  },
+  "source_modified_max": "2026-09-10",
+  "source_modified_min": "1993-12-22"
+}

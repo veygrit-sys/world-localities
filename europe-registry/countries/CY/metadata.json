@@ -1,0 +1,100 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "CYP",
+    "country": "CY",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Cyprus",
+    "geonames_id": "146669",
+    "id": "country:CY",
+    "m49": "196",
+    "m49_region": "Asia",
+    "name_en": "Cyprus",
+    "region": "Western Asia",
+    "scope_group": "supplement",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 793,
+    "admin_rows": 622,
+    "ambiguous_parents": 0,
+    "country": "CY",
+    "country_scope_only": 1,
+    "localities_without_adm1": 16,
+    "locality_rows": 822,
+    "name_en": "Cyprus",
+    "other_admin_rows": 4,
+    "region": "Western Asia",
+    "unresolved_parents": 3
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 6,
+    "ADM1H": 1,
+    "ADM2": 615,
+    "ADM2H": 2,
+    "ADM3": 1,
+    "ADMD": 1,
+    "PPL": 735,
+    "PPLA": 5,
+    "PPLA2": 6,
+    "PPLA3": 3,
+    "PPLC": 1,
+    "PPLF": 1,
+    "PPLL": 1,
+    "PPLQ": 15,
+    "PPLS": 13,
+    "PPLX": 42
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 91201,
+      "rows": 1448,
+      "sha256": "72b5e0891d5bea854d3c6d338b03957cb61fd491e9e7d7ce75d149a22aa28a95",
+      "uncompressed_sha256": "94a051b2faa373db4e51ce820e6c14d7559531fa24efa35daa6cfb011598e88e"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 1,
+    "historical_parent_not_asserted": 18,
+    "missing_reference": 3,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 1419,
+    "source_country": 6
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 6,
+      "sha256": "eff14c0b0ffddf5c687688f693c8af680b08add262634116b14e371cb0d8a414"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 7700,
+    "bytes": 292529,
+    "excluded_feature_class_counts": {
+      "A": 2,
+      "H": 709,
+      "L": 2453,
+      "R": 42,
+      "S": 2379,
+      "T": 495,
+      "V": 172
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:52:35 GMT",
+    "retained_rows": 1448,
+    "retrieved_at": "2026-09-29T11:13:19.740998+00:00",
+    "sha256": "945a0bc3e68d355f323447253375a950580f4b2939bf1b3571a72c0fb20ffdff",
+    "url": "https://download.geonames.org/export/dump/CY.zip"
+  },
+  "source_modified_max": "2026-08-14",
+  "source_modified_min": "2012-12-03"
+}

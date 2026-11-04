@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "db": "generated/central_america_hierarchy.sqlite",
+  "nodes": 89952,
+  "countries": 7,
+  "supplementary_areas": 0,
+  "source_observation_counts": {
+    "bz-geonames-geonames": 530,
+    "gt-geonames-geonames": 17341,
+    "sv-geonames-geonames": 5210,
+    "hn-geonames-geonames": 13281,
+    "ni-geonames-geonames": 2806,
+    "cr-geonames-geonames": 6345,
+    "pa-geonames-geonames": 14013,
+    "gn-admin1CodesASCII": 98,
+    "gn-admin2Codes": 1001,
+    "bz-codab-gazetteer": 6,
+    "cr-codab-gazetteer": 583,
+    "gt-codab-gazetteer": 364,
+    "hn-codab-gazetteer": 28285,
+    "ni-codab-gazetteer": 170,
+    "pa-codab-gazetteer": 683,
+    "sv-codab-gazetteer": 328
+  }
+}

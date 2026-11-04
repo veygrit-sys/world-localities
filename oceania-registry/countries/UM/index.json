@@ -1,0 +1,68 @@
+{
+  "archive_bytes": 74915,
+  "archive_sha256": "ead5a566020900f291c9dcb0f7db7cd776f683059f30af8eb8c282852726b755",
+  "parts": [
+    {
+      "path": "countries/UM/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 99889,
+      "stored_sha256": "645b2073b98d2e582c8dbfd226a7d002fcddaa64127a9eb9b95e3e7d05036e5e",
+      "bytes": 74915,
+      "sha256": "ead5a566020900f291c9dcb0f7db7cd776f683059f30af8eb8c282852726b755"
+    }
+  ],
+  "members": {
+    "base/data/micronesia/UM/index.json": {
+      "bytes": 2494,
+      "sha256": "1c8fbe4786f61fc4ceb8a61adfa956b32c3f662abe175597825e6232d87fa36f"
+    },
+    "base/data/micronesia/UM/places.csv": {
+      "bytes": 18811,
+      "sha256": "833e15b2f132dde5725830cda507d46bbf00e788f4f535bb83d09bf770a2310a"
+    },
+    "base/data/micronesia/UM/places.jsonl": {
+      "bytes": 28924,
+      "sha256": "13649ad0bc50ec8006cc509d2f15fb6b59737eff635ffdc75813906d8b246f15"
+    },
+    "base/sources/geonames/UM.zip": {
+      "bytes": 21116,
+      "sha256": "06b22852b086107281ce8e890d141d25b7d32ade9917cedaa5475f2cc4e621f9"
+    },
+    "base/sources/geonames/UM.zip.download.json": {
+      "bytes": 304,
+      "sha256": "751f8f372fba1dbe9c859fcef34c5165c2406e74114e4a84fe873ddcf5f86e79"
+    },
+    "locale/names.csv": {
+      "bytes": 72450,
+      "sha256": "b99c35837161164f093664598365e6cc56ad4f5b0c554ffedfe2ef80c75a2b9e"
+    },
+    "locale/names.jsonl": {
+      "bytes": 155449,
+      "sha256": "5ada611a0b0761193b341056f7b6b36290ab8ee529885bef76c540c82053a141"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 3,
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "locale/sources/address-templates/UM.json": {
+      "bytes": 262,
+      "sha256": "6e9b218044df4fd0950700d682741a6b3d3ce341f066bfd8a772b78e0d8dd203"
+    },
+    "locale/sources/address-templates/UM.json.download.json": {
+      "bytes": 271,
+      "sha256": "eb0526be8ef502eb6c5029807ad11e84d1bb31f80534afe572d3859684cca24a"
+    },
+    "locale/sources/alternatenames/UM.zip": {
+      "bytes": 16530,
+      "sha256": "69a2a971484c9211cb7c8cd3feb1d60360e155c56ca88debde74d1f482b6fd29"
+    },
+    "locale/sources/alternatenames/UM.zip.download.json": {
+      "bytes": 283,
+      "sha256": "36f0796ceeaf493211363757ac6167a0314e5ba4e5b4365d2d54af6aeb1702ef"
+    }
+  }
+}

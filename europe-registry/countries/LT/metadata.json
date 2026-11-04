@@ -1,0 +1,101 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "LTU",
+    "country": "LT",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Lithuania",
+    "geonames_id": "597427",
+    "id": "country:LT",
+    "m49": "440",
+    "m49_region": "Europe",
+    "name_en": "Lithuania",
+    "region": "Northern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 20759,
+    "admin_rows": 614,
+    "ambiguous_parents": 0,
+    "country": "LT",
+    "country_scope_only": 12,
+    "localities_without_adm1": 48,
+    "locality_rows": 20795,
+    "name_en": "Lithuania",
+    "other_admin_rows": 2,
+    "region": "Northern Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 10,
+    "ADM2": 60,
+    "ADM2H": 2,
+    "ADM3": 544,
+    "PPL": 20488,
+    "PPLA": 9,
+    "PPLA2": 30,
+    "PPLC": 1,
+    "PPLH": 22,
+    "PPLL": 27,
+    "PPLQ": 10,
+    "PPLW": 4,
+    "PPLX": 204
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 987607,
+      "rows": 20000,
+      "sha256": "2a4354606c6f0d80b244c7f7f43e4300fe25c46cf1737db6e3845344475195dc",
+      "uncompressed_sha256": "a0f591e3070ebd3453269a886eb2596dc0e081cb97824683f46886219897e63c"
+    },
+    "entities-0002.csv.gz": {
+      "bytes": 69287,
+      "rows": 1411,
+      "sha256": "3df157cbec8e24b2cffec0352d71689f6e565915c1f89a13bf02265015d42511",
+      "uncompressed_sha256": "f0b9b758bef6e28ee3608f9ecbc365e8f9cdf48199162f288622ad80adf5f82e"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 12,
+    "historical_parent_not_asserted": 38,
+    "source_admin_code": 21351,
+    "source_country": 10
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 10,
+      "sha256": "e32e264ff88fc127cd17261a91ab66ff119a49cf1c577abf9b7b2abd05f52141"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 34432,
+    "bytes": 1293574,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 7643,
+      "L": 168,
+      "R": 1,
+      "S": 529,
+      "T": 905,
+      "V": 3774
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:54:43 GMT",
+    "retained_rows": 21411,
+    "retrieved_at": "2026-09-29T11:14:10.973010+00:00",
+    "sha256": "c24a4f79dddf96fb4f6724b5ed53a79310e64fcc9a05cbe7a4a530feddfff27d",
+    "url": "https://download.geonames.org/export/dump/LT.zip"
+  },
+  "source_modified_max": "2026-09-28",
+  "source_modified_min": "2014-09-20"
+}

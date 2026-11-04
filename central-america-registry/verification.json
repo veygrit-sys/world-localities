@@ -1,0 +1,49 @@
+{
+  "countries": 6,
+  "errors": 0,
+  "file_and_country_checks": 78,
+  "limits": [
+    "Integrity checks do not certify current legal administrative boundaries.",
+    "Unresolved source references are retained and counted, not repaired by name matching."
+  ],
+  "reports": [
+    {
+      "country": "BZ",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 537
+    },
+    {
+      "country": "GT",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 17363
+    },
+    {
+      "country": "HN",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 13286
+    },
+    {
+      "country": "NI",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 2817
+    },
+    {
+      "country": "PA",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 14043
+    },
+    {
+      "country": "SV",
+      "integrity": "passed",
+      "replay": "exact",
+      "rows": 5211
+    }
+  ],
+  "rows": 53257,
+  "schema_version": 1
+}

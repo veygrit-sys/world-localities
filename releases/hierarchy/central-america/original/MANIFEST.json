@@ -1,0 +1,506 @@
+{
+  "package": "Veygrit_CentralAmerica_20261017",
+  "country_count": 7,
+  "country_codes": [
+    "BZ",
+    "GT",
+    "SV",
+    "HN",
+    "NI",
+    "CR",
+    "PA"
+  ],
+  "excludes_generated_index": true,
+  "files": [
+    {
+      "path": "COUNTRY_RESULTS_JA.md",
+      "bytes": 4699,
+      "sha256": "dbdbec2bed909bb807cc9d2cc1a037c734856a54921ea44e99afefae60252092"
+    },
+    {
+      "path": "LICENSE_DATA.md",
+      "bytes": 3112,
+      "sha256": "8a7b9fbcd276ec8abb1724cee8de747379bbfa239cdb02191e3cd8faeab98b7a"
+    },
+    {
+      "path": "POSTAL_REFERENCE_JA.md",
+      "bytes": 2982,
+      "sha256": "496e9f50ae6ce90827de2f1f405a226848a5979e1e80edba920272539031e0b1"
+    },
+    {
+      "path": "README_JA.md",
+      "bytes": 7914,
+      "sha256": "f929f2219e5935cf09d744ac95d3a3aed337a815c0d4501b6b091ff51dd51c1e"
+    },
+    {
+      "path": "address-points/CENTRAL_AMERICA_ACQUISITION_REVIEW.json",
+      "bytes": 1420,
+      "sha256": "d3ebb6f4638a68ce0d4af9c0fc3aa534608021c25542d1497fa3e9fa99172851"
+    },
+    {
+      "path": "address-points/CENTRAL_AMERICA_ALL_LOOP.json",
+      "bytes": 18232,
+      "sha256": "5c0390a8ab9b877b7371c1a914e2e284b247998393909d3ea3b61f24b1b71d01"
+    },
+    {
+      "path": "address-points/CENTRAL_AMERICA_BUILD.json",
+      "bytes": 781,
+      "sha256": "32c3be336e1d3387fb548e5702408556b93011936bb88896d152d493f0fb650a"
+    },
+    {
+      "path": "address-points/CENTRAL_AMERICA_COUNTRIES_LOOP.json",
+      "bytes": 18238,
+      "sha256": "f8dffffdc7d5decb47997812b6ac5bb94bb3169d1d39aad50b0bbd89586ed4f9"
+    },
+    {
+      "path": "address-points/CENTRAL_AMERICA_RULES.json",
+      "bytes": 5700,
+      "sha256": "c0886419c0091cc80d6a5de2ecb0710960a80bf2cb4be5ca333189688a8c1b76"
+    },
+    {
+      "path": "address-points/CENTRAL_AMERICA_SCOPE.json",
+      "bytes": 1005,
+      "sha256": "7f5935b32644c02bd136be15cd8f8b4b02e39a84e6396e5f90bd609d9d9d9413"
+    },
+    {
+      "path": "address-points/CENTRAL_AMERICA_SOURCES.json",
+      "bytes": 43767,
+      "sha256": "df45bb873c1e6d9d1b05f6213ab562e324b716ee7d0e0aa5b71cf9b2a0ee3102"
+    },
+    {
+      "path": "address-points/CENTRAL_AMERICA_VALIDATION.json",
+      "bytes": 7500,
+      "sha256": "3ebd893992c6d91a7ae8ed0f2fc15041394a034971fefe5c7f0c36215b4bf7c5"
+    },
+    {
+      "path": "address-points/adapters/centralamerica.py",
+      "bytes": 33406,
+      "sha256": "2c20204c68785580099768bb77d68d75ce75ddd7203b0f9ab3f3013603c70048"
+    },
+    {
+      "path": "address-points/adapters/centralamerica_common.py",
+      "bytes": 9415,
+      "sha256": "9c73f13b56dab04d55e8626d0ef0ea94978ae11ae692118491cbda2e6a8fb308"
+    },
+    {
+      "path": "address-points/adapters/centralamerica_fetch.py",
+      "bytes": 7202,
+      "sha256": "f4a92a8a05af537c68ea3aa2b90207cc431165e1dea7c269e6181003315d23f7"
+    },
+    {
+      "path": "address-points/adapters/centralamerica_validate.py",
+      "bytes": 11495,
+      "sha256": "c1e892afdde10a471a4bcafdce85e65f37eccc7881165395cae6b24d3f0d82e6"
+    },
+    {
+      "path": "address-points/reports/countries/BZ.json",
+      "bytes": 1931,
+      "sha256": "34bfa3a075e02f09a1563d6c9626ef66b404ab5fe449da26637ad57e274a314e"
+    },
+    {
+      "path": "address-points/reports/countries/CR.json",
+      "bytes": 3873,
+      "sha256": "75463f6fbc231e15cfe5e5d9ba162cfd122094b2935ecfdd51736e44fe331644"
+    },
+    {
+      "path": "address-points/reports/countries/GT.json",
+      "bytes": 3675,
+      "sha256": "46a34e9d058bf773107a8ac43c6bc90a1c33b340781093d950ab0b333c5aacf5"
+    },
+    {
+      "path": "address-points/reports/countries/HN.json",
+      "bytes": 13561,
+      "sha256": "c7a5bbb4a34312ad2999080e27a7269b810fc7edc18e494c4f24f1d989bc6b77"
+    },
+    {
+      "path": "address-points/reports/countries/NI.json",
+      "bytes": 2590,
+      "sha256": "b3a835aadc5e28941bec5abf3450f5ff20dce3bd58b526c8f45b7d88ea56c654"
+    },
+    {
+      "path": "address-points/reports/countries/PA.json",
+      "bytes": 6122,
+      "sha256": "8c0abc56ad826b5d83afb905e86b9c940da606c3f967334489ea2a122ca8cb09"
+    },
+    {
+      "path": "address-points/reports/countries/SV.json",
+      "bytes": 4301,
+      "sha256": "bf8ec66115bf95f8f91d90a8452869ecdb5e6acc318a04ab03998b45c2a809aa"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/BZ/cod-ab-gazetteer.xlsx",
+      "bytes": 8961,
+      "sha256": "c076d6d07434e92354abe7dd8f3a46d9592f16a6fe63d157bcdf5c38780af662"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/BZ/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 1910,
+      "sha256": "10b06677c4abe29205538b5bd815c330a42f7c3c4373b2b686ae4e3788324ba8"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/BZ/cod-ab-metadata.json",
+      "bytes": 32758,
+      "sha256": "8927ba5c4c90328846c253e028f3fdfb8f98a2191080535487821b3849c78fae"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/BZ/cod-ab-metadata.json.receipt.json",
+      "bytes": 1442,
+      "sha256": "23781974544c4e97eebeedcc1a95c293872db0ea3101b0996851d7c8eae7c594"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/BZ/geonames.zip",
+      "bytes": 78367,
+      "sha256": "b5a0007d4edbb49536267a04a801aaca833bc0d10c2f22a7aac56e893755ec42"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/BZ/geonames.zip.receipt.json",
+      "bytes": 702,
+      "sha256": "29d9c219040f421a0f93a79adfe98f1add7abd206f8fb7cc3b164e921063a1ab"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/BZ/names.zip",
+      "bytes": 40258,
+      "sha256": "eba95c963d82963a00f2aa2b516868e5f07044ddeec0953ac6a34797f31eb0a4"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/BZ/names.zip.receipt.json",
+      "bytes": 722,
+      "sha256": "2a88c6d32f48c7be3b5e9cfa3060cf325465a30f38b24ea6208b6b9c1812ae66"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/COMMON/admin1CodesASCII.txt",
+      "bytes": 151583,
+      "sha256": "1da92a6323a5fec3176f3f743bf4cf4040fd56a876da55e46fbca23c863aa60a"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/COMMON/admin1CodesASCII.txt.receipt.json",
+      "bytes": 781,
+      "sha256": "0a007cabd5d23c2c300817272c2c72104932faf36e5214ba0895112fd86d0814"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/COMMON/admin2Codes.txt",
+      "bytes": 2366323,
+      "sha256": "985b37390cad51f51b03897e503748db5acddfd9442438532cfab1ac9fd1cbcd"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/COMMON/admin2Codes.txt.receipt.json",
+      "bytes": 758,
+      "sha256": "fb62db95d799982d55c4a485681f7cbdb14f58995b844bd5b5d3e2f11e6d938b"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/COMMON/countryInfo.txt",
+      "bytes": 31690,
+      "sha256": "c55f638cfaafb4fe45a9aa15120a0f1f78e8a34a8e1847d7b9320cf740fbc9ab"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/COMMON/countryInfo.txt.receipt.json",
+      "bytes": 755,
+      "sha256": "bc89646393cfe240b1d3d201cc0275a0779c551565309f1ec0581966e2cf0f4a"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/COMMON/readme.txt",
+      "bytes": 8843,
+      "sha256": "b1957379b6c1242c700c98ac9a8aa0a09f56c3c0a50ee72175527005f48ef2c5"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/COMMON/readme.txt.receipt.json",
+      "bytes": 729,
+      "sha256": "4cf2ad29752e81ea62be90d3fc488ef82a43cf57cb147739fc6fd9e42036e0f2"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/CR/cod-ab-gazetteer.xlsx",
+      "bytes": 178358,
+      "sha256": "e0b0507e355b1e38c0a46d988eacc8d6dedd324783fb7514c78632d0a3ef7cbf"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/CR/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 2344,
+      "sha256": "ade1b3f53428895e2a90860c804f7b0a258a488e7efb8802cfe7fc3ec8265c09"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/CR/cod-ab-metadata.json",
+      "bytes": 19714,
+      "sha256": "22368c44d4831c021bfa96eb9f61b53c5e76b5a1b1607ae7e409a02d03a6763d"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/CR/cod-ab-metadata.json.receipt.json",
+      "bytes": 1508,
+      "sha256": "b92808384017217f61995320c97ad48cca6805e9994b0baa19c35918c26aa55c"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/CR/geonames.zip",
+      "bytes": 586165,
+      "sha256": "e129022c31d5876db42865686cbc86292c4591c7486d349855de2b47c04e19e2"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/CR/geonames.zip.receipt.json",
+      "bytes": 703,
+      "sha256": "6a53a5183706d476fdfe866acf428616301ab49a60512ae19769e7a5b5a41db5"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/CR/names.zip",
+      "bytes": 257068,
+      "sha256": "bfb3b9d08a0cf1c5e77160201598672da4b3acb775dc022b0bf99c09279cfc46"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/CR/names.zip.receipt.json",
+      "bytes": 724,
+      "sha256": "4870569e704a94f4c4de04a0448f118987110863fcc9b11c065b7288a75434f1"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/GT/cod-ab-gazetteer.xlsx",
+      "bytes": 70659,
+      "sha256": "c8434489cf8d06b9a033f8dd5ecad38f8edf2e3ed854d37cf2aca3279608c40e"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/GT/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 2219,
+      "sha256": "de9753f2becbfe899be65dfa0a249c51a098034f595c54d065a7b7e31448b292"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/GT/cod-ab-metadata.json",
+      "bytes": 34855,
+      "sha256": "1f4b7127c80b7c98a1463e7fc3193a55fe6f3d21835104fb5d5827077520a19f"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/GT/cod-ab-metadata.json.receipt.json",
+      "bytes": 1506,
+      "sha256": "4b89f6bd5972f5e20e5f55437b1fe5921d8ed94307f86182cdff3e6e2c99c35e"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/GT/geonames.zip",
+      "bytes": 1047270,
+      "sha256": "a22197ff812a7337829aacf279213a2bc9276f4d261c0a3107b2c9622ea16bec"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/GT/geonames.zip.receipt.json",
+      "bytes": 704,
+      "sha256": "35b2e11df63a79aa5d60a001c29f4f4cc8808254afe8852d6b433ca8debfd431"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/GT/names.zip",
+      "bytes": 473783,
+      "sha256": "276cc0b6cc43e8c54bb36dbd95aae920aca403bab717cdcf209124ee0215433c"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/GT/names.zip.receipt.json",
+      "bytes": 724,
+      "sha256": "36bbe993d0005f8a0a8483c9094543ea25ee18e1433f8c5988089c1cf5258835"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/HN/cod-ab-gazetteer.xlsx",
+      "bytes": 1669088,
+      "sha256": "9d8472701dc2c9eb78702f901ac774ade980032265c2770256b856f5c0a43e8d"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/HN/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 2497,
+      "sha256": "3633047e0ab78e35a838392cf699e5348c515c3695ae63136988b96abf76712d"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/HN/cod-ab-metadata.json",
+      "bytes": 29447,
+      "sha256": "4467093c1acbe148a4767503d0de33bb7e5dac4a9c76d71200c323705eae95d4"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/HN/cod-ab-metadata.json.receipt.json",
+      "bytes": 1687,
+      "sha256": "dac3f4ee8acfd029cffc68be45c337e0900d18dbe99e128a51267fd360168e48"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/HN/geonames.zip",
+      "bytes": 482858,
+      "sha256": "6a91afac98864c110ff2e0f29888ef8125e87425d69140246f2a65b589b434f5"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/HN/geonames.zip.receipt.json",
+      "bytes": 703,
+      "sha256": "ffec792739d0db4bffad5ba40d26b4d82d84ef73b3e93ba95a34006c5e824388"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/HN/names.zip",
+      "bytes": 169181,
+      "sha256": "08643f1b75b5c86a56f151eb17da0a4258693db028e055bd1eb07bc639b9109c"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/HN/names.zip.receipt.json",
+      "bytes": 724,
+      "sha256": "7f7134154e2a750f837fb6e018d29877e1cfb69760fc3eaa917a7c8c6b444efd"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/NI/cod-ab-gazetteer.xlsx",
+      "bytes": 66352,
+      "sha256": "a7e3230b2320795ff102c00136d38eafc96150db53db85ac3551e0d537753d61"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/NI/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 2211,
+      "sha256": "3d7a587f7f5c331e588d63f4416d064065c5547d2a26b6e8a3e45020a184632a"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/NI/cod-ab-metadata.json",
+      "bytes": 38408,
+      "sha256": "e9682f0335ecf9eaa731f8023c991d523294107fad711c10384501bf78dd4475"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/NI/cod-ab-metadata.json.receipt.json",
+      "bytes": 1554,
+      "sha256": "cae27f66c29573c9f61a6413750f68dd9ad208b9894709a1a931757a39f292ef"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/NI/geonames.zip",
+      "bytes": 234794,
+      "sha256": "8e89e627a94ceee979dc35b9203f8336bd0e70da9f376509f13bfe6ae6aa8e23"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/NI/geonames.zip.receipt.json",
+      "bytes": 703,
+      "sha256": "06e2b76497f657a627779afe6a84c2e1628211840c6d05176c442942127eb89b"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/NI/names.zip",
+      "bytes": 186489,
+      "sha256": "229b5d52f55efc349e37cf4c327b0946d6428b4ec4d2b10ebdcbeec6f5aa028f"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/NI/names.zip.receipt.json",
+      "bytes": 724,
+      "sha256": "a60945dae155efbd8380e522f9b1dd539ba05339387bdcdfabd851c4984bcb50"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/PA/cod-ab-gazetteer.xlsx",
+      "bytes": 138931,
+      "sha256": "c74f908fecb00a2f459bb62b4febada63e6ab9b355cb139dc57121966a478cec"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/PA/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 2686,
+      "sha256": "d2c46d13a3eeb07e468498918d56e903441f1c9caeff750cff9252b46cbbe592"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/PA/cod-ab-metadata.json",
+      "bytes": 35678,
+      "sha256": "0e2816f93b1fecb2d6576922f58eb2adf717e7b8249e7f55db379fac337839cc"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/PA/cod-ab-metadata.json.receipt.json",
+      "bytes": 1631,
+      "sha256": "1b237faf06378a919743b3de985b9bad3ca673a342c635d4dc5cd9df2bb320a3"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/PA/geonames.zip",
+      "bytes": 931970,
+      "sha256": "d1f06645903d8ffb3d8a28172d05c13a602a6af84ce6fd04315ffba5aaf8d1c9"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/PA/geonames.zip.receipt.json",
+      "bytes": 703,
+      "sha256": "3bbcd5e755ae7ea626b4c3c372b60a93cbee801e881acfea97e2ba0ae0d70cc8"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/PA/names.zip",
+      "bytes": 437738,
+      "sha256": "0204519c923c3c81afca729493baf7762b99ed2a2dd7059a1353139f06a68d40"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/PA/names.zip.receipt.json",
+      "bytes": 724,
+      "sha256": "e54d5ac2e19ef74dd24fd62b9b19f273b244b76d1754b50a9d2e7dd530ca8099"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/SV/cod-ab-gazetteer.xlsx",
+      "bytes": 103325,
+      "sha256": "5ca1d18efbf4ffdd1650e4f914d4a55f0743cc8d40d7f979d36c446cdae51cde"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/SV/cod-ab-gazetteer.xlsx.receipt.json",
+      "bytes": 2536,
+      "sha256": "d11b9df0e1813e3f9b8a81320816bc4e112b2be94af4a5ed36e0d68ede8c7054"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/SV/cod-ab-metadata.json",
+      "bytes": 40294,
+      "sha256": "128cfab98a6b1a0ac43464d2664e89526a49f820c0fcc47b3ffac5c8514cb782"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/SV/cod-ab-metadata.json.receipt.json",
+      "bytes": 1504,
+      "sha256": "dd12f5381993af118e24ab6a76ae4658da5ccc2f5e884fb62a468b99e8ff23f8"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/SV/geonames.zip",
+      "bytes": 231950,
+      "sha256": "bf2207858efb0055483c289aaa9492898ab02e3a325f086d3cf18925d545179f"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/SV/geonames.zip.receipt.json",
+      "bytes": 703,
+      "sha256": "6cc6de6f1fb53d5394b27c2b425ad08b1078fdd4c4a1b1504661fda021939ab4"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/SV/names.zip",
+      "bytes": 126313,
+      "sha256": "ab5d8753551a87d49f548ec5b5b06c206545cb862f5a721564d2d26a346a31e9"
+    },
+    {
+      "path": "address-points/sources/CENTRALAMERICA/SV/names.zip.receipt.json",
+      "bytes": 724,
+      "sha256": "0ddd678226e91441fdf0a28d8da614f5382542b09a8e10f923bd151768a13b94"
+    },
+    {
+      "path": "examples/cr_monteverde_path.json",
+      "bytes": 104,
+      "sha256": "f93e3be99110e79e5babdf452d53ca2be157d39926adb969dff35399ff312412"
+    },
+    {
+      "path": "examples/pa_old_snapshot_path.json",
+      "bytes": 75,
+      "sha256": "7bde659cac740ca8593ae2ee34411dac6b89c8677c550c5e16d23437132b909b"
+    },
+    {
+      "path": "examples/sv_san_salvador_path.json",
+      "bytes": 110,
+      "sha256": "1d2d7bf13f001ee1748e5b3f5bd8346703c51c97ec5a8155fa1e0bf33de315c2"
+    },
+    {
+      "path": "examples/sv_wrong_municipality_path.json",
+      "bytes": 82,
+      "sha256": "483b8d888cd2627d5b5db85aa99678f8cb0a8b7decb4c1d6dd5a5acc9ebca7e3"
+    },
+    {
+      "path": "tests/CLI_RESULTS.json",
+      "bytes": 2381,
+      "sha256": "55efe89e2984f9c8f0a83b51c2d958150b2fc8383fc9063ed28b60b0f8b700c6"
+    },
+    {
+      "path": "tests/RESULTS.txt",
+      "bytes": 7341,
+      "sha256": "61a1717d4b921fad8dd379e43883f8e9ce9552cf84a0a90635a1c3f9d3ecf644"
+    },
+    {
+      "path": "tests/WORKBOOK_READBACK.json",
+      "bytes": 2745,
+      "sha256": "f427eea5f5d28c20061f6674c52bb743a32930e2188e7ac3786d9f4e1fbd5ced"
+    },
+    {
+      "path": "tests/check_cli.py",
+      "bytes": 2840,
+      "sha256": "083032f8651006f9f5ff3c47c89cc032347343ea93492ba35851cb7859569dd7"
+    },
+    {
+      "path": "tests/check_xlsx_readback.py",
+      "bytes": 1856,
+      "sha256": "05918917890c543ac24e6133c12d31141bc76fd0a882ec245b2e7b7b8db97b31"
+    },
+    {
+      "path": "tests/requirements-optional.txt",
+      "bytes": 16,
+      "sha256": "06d28d69e958deafb09f0a44fcae9b548f15e4debc14ebc39aad5f0934856fbf"
+    },
+    {
+      "path": "tests/test_centralamerica.py",
+      "bytes": 14157,
+      "sha256": "dea4e4f94fb84fe1d7ba73af2fc9fc8c25ccbc128d1808fb57ff619fcd7371e0"
+    }
+  ]
+}

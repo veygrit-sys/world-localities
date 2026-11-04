@@ -1,0 +1,108 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "BIH",
+    "country": "BA",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Bosnia and Herzegovina",
+    "geonames_id": "3277605",
+    "id": "country:BA",
+    "m49": "070",
+    "m49_region": "Europe",
+    "name_en": "Bosnia and Herzegovina",
+    "region": "Southern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 21412,
+    "admin_rows": 166,
+    "ambiguous_parents": 0,
+    "country": "BA",
+    "country_scope_only": 237,
+    "localities_without_adm1": 807,
+    "locality_rows": 21984,
+    "name_en": "Bosnia and Herzegovina",
+    "other_admin_rows": 2,
+    "region": "Southern Europe",
+    "unresolved_parents": 105
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 3,
+    "ADM2": 18,
+    "ADM3": 145,
+    "ADMD": 2,
+    "PPL": 18816,
+    "PPLA": 2,
+    "PPLA2": 62,
+    "PPLA3": 69,
+    "PPLC": 1,
+    "PPLF": 1,
+    "PPLH": 1,
+    "PPLL": 2438,
+    "PPLQ": 18,
+    "PPLS": 1,
+    "PPLW": 551,
+    "PPLX": 24
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 624500,
+      "rows": 20000,
+      "sha256": "88094091f5fecf52925ec41f71f838213355befda77aa4150b2c6d61f3d10ef2",
+      "uncompressed_sha256": "105b6647d2bce2eb1f2701ea4b5e65823955802bd31c8a52fb190de62af2db97"
+    },
+    "entities-0002.csv.gz": {
+      "bytes": 77021,
+      "rows": 2152,
+      "sha256": "630fe25f6b91dc655bef5254f0a422cb9f04a4c03b5c178f2d1064b29b255b9d",
+      "uncompressed_sha256": "0b39c2cff09c8b0344829146425b5d93f13a3ad77e68279de84c64f4c1e8917f"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 237,
+    "historical_parent_not_asserted": 570,
+    "missing_code": 1,
+    "missing_reference": 104,
+    "not_assigned_for_other_feature": 2,
+    "source_admin_code": 21235,
+    "source_country": 3
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 3,
+      "sha256": "b1d96fd5ac8c441c2c4e9383d69c10211d793a7821d3bec0af194ae9ba446beb"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 51889,
+    "bytes": 1349411,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 6453,
+      "L": 5870,
+      "R": 7,
+      "S": 1472,
+      "T": 15880,
+      "U": 2,
+      "V": 52
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:51:27 GMT",
+    "retained_rows": 22152,
+    "retrieved_at": "2026-09-29T11:13:11.190778+00:00",
+    "sha256": "71f0a5c9109dc4e583c14e824ba2644d2eea844a655e3dc8583f10375bba9d7b",
+    "url": "https://download.geonames.org/export/dump/BA.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1995-07-20"
+}

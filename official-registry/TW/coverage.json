@@ -1,0 +1,59 @@
+{
+  "country": "TW",
+  "postal_areas": 371,
+  "official_bilingual_pairs": 371,
+  "names": 742,
+  "postal_links": 371,
+  "unique_three_digit_prefixes": 368,
+  "prefixes_shared_by_multiple_source_areas": {
+    "300": 3,
+    "600": 2
+  },
+  "complete_six_digit_links": 0,
+  "official_administrative_code_crosswalks": 0,
+  "files": {
+    "entities.csv": {
+      "rows": 371,
+      "bytes": 35538,
+      "sha256": "5146a5ed579b167bb407e9c4a4451dab5dbeb4e018b62542c70b3999cb4676d1",
+      "columns": [
+        "entity_id",
+        "country",
+        "kind",
+        "native_name",
+        "source_ref",
+        "source_row"
+      ]
+    },
+    "names.csv": {
+      "rows": 742,
+      "bytes": 94819,
+      "sha256": "b54416aa40eeab8604a5267b65b330e59991cbdca1608a44cb68ee997fe5cc19",
+      "columns": [
+        "entity_id",
+        "language",
+        "text",
+        "kind",
+        "audience",
+        "source_ref",
+        "source_row"
+      ]
+    },
+    "postal_links.csv": {
+      "rows": 371,
+      "bytes": 34492,
+      "sha256": "b84e5700823686281f6c6495b40660c9face777da414d45e7022305d58808d03",
+      "columns": [
+        "entity_id",
+        "country",
+        "scheme",
+        "code",
+        "code_kind",
+        "prefix_length",
+        "complete_code_length",
+        "source_ref",
+        "source_row"
+      ]
+    }
+  }
+}

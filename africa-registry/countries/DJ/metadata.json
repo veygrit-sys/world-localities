@@ -1,0 +1,82 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "DJI",
+    "country": "DJ",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Djibouti",
+    "geonames_id": "223816",
+    "id": "country:DJ",
+    "m49": "262",
+    "name_en": "Djibouti",
+    "numeric": "262",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 70,
+    "admin_rows": 9,
+    "ambiguous_parents": 0,
+    "country": "DJ",
+    "country_scope_only": 3,
+    "localities_without_adm1": 3,
+    "locality_rows": 70,
+    "name_en": "Djibouti",
+    "other_admin_rows": 1,
+    "region": "Eastern Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 6,
+    "ADM2": 3,
+    "PCLI": 1,
+    "PPL": 59,
+    "PPLA": 5,
+    "PPLC": 1,
+    "PPLL": 1,
+    "PPLX": 4
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 9592,
+      "rows": 80,
+      "sha256": "f11cdfbb4672be3bcad18139a47ed42519a7ba0f45be4ef60e19ee62382ab5dc",
+      "uncompressed_sha256": "f9ae9f48a6c21b712f28eeb43238d5678602dcb77b69262da58b9076834d2c15"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 3,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 70,
+    "source_country": 6
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 6,
+      "sha256": "90f67c0731ce8370be833c60b6627a1c0723fae944135014dc7c69fa7b040677"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 171819,
+    "discarded_feature_classes": {
+      "H": 3300,
+      "L": 192,
+      "S": 74,
+      "T": 1813,
+      "V": 34
+    },
+    "retained_rows": 80,
+    "retrieved_on": "2026-09-26",
+    "sha256": "a9a3377eb775e1e7f96e25f97604bc63f37da9bec1a685260df0e42ea67cb51d",
+    "source_rows": 5493,
+    "url": "https://download.geonames.org/export/dump/DJ.zip"
+  },
+  "source_modified_max": "2026-09-22",
+  "source_modified_min": "2000-11-15"
+}

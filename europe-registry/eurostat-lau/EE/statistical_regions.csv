@@ -1,0 +1,8 @@
+id,country,source_code,level,parent_id,relation,name_status
+eurostat:nuts:2024:EE0,EE,EE0,1,country:EE,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:EE00,EE,EE00,2,eurostat:nuts:2024:EE0,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:EE001,EE,EE001,3,eurostat:nuts:2024:EE00,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:EE004,EE,EE004,3,eurostat:nuts:2024:EE00,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:EE008,EE,EE008,3,eurostat:nuts:2024:EE00,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:EE009,EE,EE009,3,eurostat:nuts:2024:EE00,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:EE00A,EE,EE00A,3,eurostat:nuts:2024:EE00,statistical_code_prefix,not_loaded

@@ -1,0 +1,16 @@
+{
+  "HK-ALS-OA": {
+    "missing_coordinate_rows": 1,
+    "invalid_nonempty_coordinate_rows": 0,
+    "coordinate_values_rewritten": false,
+    "repeated_geoaddress_observations": 27751,
+    "distinct_geoaddress_strings": 154371,
+    "nonempty_streetnumber_rows": 179934,
+    "duplicates_retained": true
+  },
+  "JP-Geolonia-towns": {
+    "missing_coordinate_rows": 469,
+    "invalid_nonempty_coordinate_rows": 0,
+    "coordinate_values_rewritten": false
+  }
+}

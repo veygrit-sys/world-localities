@@ -1,0 +1,35 @@
+{
+  "country": "NO",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 2397,
+      "rows": 25,
+      "sha256": "b973e42fd0e33a6985dc4dbe868b38e96f3a08fcfee8fb3c76336e60516921e4"
+    },
+    "units.csv.gz": {
+      "bytes": 8342,
+      "rows": 379,
+      "sha256": "269208b1b5269c4474f8549375e36b2f7b39d2a2a3ba5d0128db0d8de2075a7b"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 379,
+  "skipped_empty_rows": 34567,
+  "source_period_counts": {
+    "2024": 379
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "NO",
+  "validation": {
+    "core": "validated",
+    "overall": "validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

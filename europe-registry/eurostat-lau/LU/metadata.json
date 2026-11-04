@@ -1,0 +1,35 @@
+{
+  "country": "LU",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 325,
+      "rows": 3,
+      "sha256": "f40057c85dbce9c3a3054151c24e9f5c8a8b9379a4db2e7ecbe7df52ea906c04"
+    },
+    "units.csv.gz": {
+      "bytes": 2300,
+      "rows": 100,
+      "sha256": "62244dec466c47b98b3dc4bcb6fcdd054a37fe2563b32db370b495b9b9820d44"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 100,
+  "skipped_empty_rows": 34846,
+  "source_period_counts": {
+    "2024": 100
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "LU",
+  "validation": {
+    "core": "validated",
+    "overall": "validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

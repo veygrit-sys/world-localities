@@ -1,0 +1,31 @@
+{
+  "status": "SOURCE_CODES_COMPARED",
+  "baseline_namespace": "codab-cr-v01",
+  "baseline_districts": 492,
+  "current_namespace": "cr-snit-20261021",
+  "current_districts": 494,
+  "comparison": "Country code prefix removed only for exact source-code comparison; namespaces and source rows remain separate.",
+  "added_source_codes": [
+    {
+      "FID": "limitedistrital_5k.494",
+      "CÓDIGO_DTA": "50405",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Bagaces",
+      "DISTRITO": "Pijije",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "504"
+    },
+    {
+      "FID": "limitedistrital_5k.492",
+      "CÓDIGO_DTA": "60310",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Buenos Aires",
+      "DISTRITO": "Cabagra",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "603"
+    }
+  ],
+  "removed_source_codes": [],
+  "national_legal_completeness_verified": false,
+  "deliverability_in_scope": false
+}

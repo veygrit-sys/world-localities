@@ -1,0 +1,102 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "BFA",
+    "country": "BF",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Burkina Faso",
+    "geonames_id": "2361809",
+    "id": "country:BF",
+    "m49": "854",
+    "name_en": "Burkina Faso",
+    "numeric": "854",
+    "region": "Western Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 10397,
+    "admin_rows": 108,
+    "ambiguous_parents": 0,
+    "country": "BF",
+    "country_scope_only": 68,
+    "localities_without_adm1": 95,
+    "locality_rows": 10400,
+    "name_en": "Burkina Faso",
+    "other_admin_rows": 1,
+    "region": "Western Africa",
+    "unresolved_parents": 34
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 13,
+    "ADM2": 45,
+    "ADM3": 50,
+    "PCLI": 1,
+    "PPL": 10272,
+    "PPLA": 11,
+    "PPLA2": 32,
+    "PPLA3": 32,
+    "PPLC": 1,
+    "PPLH": 2,
+    "PPLL": 7,
+    "PPLQ": 1,
+    "PPLX": 42
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 343370,
+      "rows": 10509,
+      "sha256": "38ede09ac9d1d5cce7ae231eb486626689cc189393e7fdb88d735efd8bc075a4",
+      "uncompressed_sha256": "526aabfba9fb97cca507026d9ccf446518efd0a314f62d425c610fd9820af72f"
+    }
+  },
+  "known_issues": [
+    {
+      "action": "Retain source IDs for historical lookup; reconcile with the reformed official regions before using the hierarchy as current. Do not automatically rename or reassign settlements.",
+      "geonames_adm1_count_in_this_snapshot": 13,
+      "official_reference_adm1_count": 17,
+      "official_reference_adm2_count": 47,
+      "reference_date": "2025-07-02",
+      "source_urls": [
+        "https://www.presidencedufaso.bf/conseil-des-ministres-du-2-juillet-2025/",
+        "https://www.igb.bf/les-cartes-administratives/"
+      ],
+      "status": "known_administrative_reform_mismatch"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 68,
+    "missing_code": 3,
+    "missing_reference": 31,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 10393,
+    "source_country": 13
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 13,
+      "sha256": "d8447dc8505ec760f5ec8701104d33acfafd8e1592facd803bed665dec2bb114"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 330419,
+    "discarded_feature_classes": {
+      "H": 779,
+      "L": 146,
+      "S": 499,
+      "T": 276,
+      "V": 18
+    },
+    "retained_rows": 10509,
+    "retrieved_on": "2026-09-26",
+    "sha256": "6c9a5e32c510d793810dafc48d0d91bf36607cc6a75f7a1fcb7034ddebdccb15",
+    "source_rows": 12227,
+    "url": "https://download.geonames.org/export/dump/BF.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1993-12-30"
+}

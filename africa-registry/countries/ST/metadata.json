@@ -1,0 +1,82 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "STP",
+    "country": "ST",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Sao Tome and Principe",
+    "geonames_id": "2410758",
+    "id": "country:ST",
+    "m49": "678",
+    "name_en": "Sao Tome and Principe",
+    "numeric": "678",
+    "region": "Middle Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 563,
+    "admin_rows": 9,
+    "ambiguous_parents": 0,
+    "country": "ST",
+    "country_scope_only": 0,
+    "localities_without_adm1": 0,
+    "locality_rows": 563,
+    "name_en": "Sao Tome and Principe",
+    "other_admin_rows": 1,
+    "region": "Middle Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 2,
+    "ADM2": 7,
+    "PCLI": 1,
+    "PPL": 535,
+    "PPLA": 1,
+    "PPLA2": 3,
+    "PPLC": 1,
+    "PPLL": 16,
+    "PPLX": 7
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 23877,
+      "rows": 573,
+      "sha256": "61701f5ef49eef22f8b1f92139c7eb739500a52aa568dcf5c4faf4f99f1ccf74",
+      "uncompressed_sha256": "f8c61fe548e7bb6c2d48ec8c582a5d6053fe182e5d40dcb94fd629e3d2dd6165"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 570,
+    "source_country": 2
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 2,
+      "sha256": "78b7227c53710aaee8e4825a06fd771f75400f37538f3f62d58d118c061e0473"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 46143,
+    "discarded_feature_classes": {
+      "H": 273,
+      "L": 15,
+      "R": 1,
+      "S": 47,
+      "T": 392
+    },
+    "retained_rows": 573,
+    "retrieved_on": "2026-09-26",
+    "sha256": "e71097cb3f60e14f78637d479829c853b3d71b6bd6540634b8cf51b2ef387aca",
+    "source_rows": 1301,
+    "url": "https://download.geonames.org/export/dump/ST.zip"
+  },
+  "source_modified_max": "2026-07-18",
+  "source_modified_min": "2011-04-08"
+}

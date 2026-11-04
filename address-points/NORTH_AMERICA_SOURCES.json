@@ -1,0 +1,758 @@
+{
+  "schema_version": 1,
+  "release_date": "2026-10-17",
+  "sources": [
+    {
+      "id": "bm-geonames-geonames",
+      "country": "BM",
+      "path": "BM/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/BM.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames BM geonames",
+      "retrieved_at": "2026-10-17T00:06:54.950375+00:00",
+      "bytes": 24831,
+      "sha256": "3913253200427b2938970c38c57da2ddce8f53019e1f793baa43b035809cf93c",
+      "final_url": "https://download.geonames.org/export/dump/BM.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:00:29 GMT",
+        "ETag": "\"60ff-65deb874f25d4\"",
+        "Content-Type": "application/zip"
+      },
+      "selected_for_index": true
+    },
+    {
+      "id": "bm-geonames-names",
+      "country": "BM",
+      "path": "BM/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/BM.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames alternate names BM",
+      "retrieved_at": "2026-10-17T00:07:49.883763+00:00",
+      "bytes": 14542,
+      "sha256": "e1bd7d5ddff64e66675e84442d054bb998ffd58cac45e87131de3aa3cc8ce183",
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/BM.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:00 GMT",
+        "ETag": "\"38ce-65debacf06f7f\"",
+        "Content-Type": "application/zip"
+      },
+      "selected_for_index": true
+    },
+    {
+      "id": "ca-statcan-oda-nt",
+      "country": "CA",
+      "path": "CA/ODA_NT_v1.zip",
+      "url": "https://www150.statcan.gc.ca/n1/en/pub/46-26-0001/2021001/ODA_NT_v1.zip",
+      "format": "zip",
+      "licence": "Open Government Licence - Canada",
+      "terms_url": "https://open.canada.ca/en/open-government-licence-canada",
+      "vintage": "ODA v1; upstream data gathered January-April 2021",
+      "retrieved_at": "2026-10-16T10:05:00Z",
+      "bytes": 791711,
+      "sha256": "7ff6b052f71b746bed13669b9aa92340792b700c90458e9c038b6a8c599f90bd",
+      "title": "Statistics Canada Open Database of Addresses v1, Northwest Territories",
+      "inherited_from": "Veygrit_world-localities_GitHub_20261016.zip version 8",
+      "original_receipt": {
+        "schema_version": 1,
+        "country": "CA",
+        "country_stage": "acquired",
+        "source_type": "official_address_point_aggregation",
+        "dataset": "Statistics Canada Open Database of Addresses v1, Northwest Territories",
+        "distribution_url": "https://www150.statcan.gc.ca/n1/en/pub/46-26-0001/2021001/ODA_NT_v1.zip",
+        "terms_url": "https://open.canada.ca/en/open-government-licence-canada",
+        "licence": "Open Government Licence - Canada",
+        "expected_format": "ZIP containing CSV, source catalogue CSV and metadata PDF",
+        "territorial_scope_rule": "PRUID 61 / Northwest Territories fixture only; do not treat it as complete current Canadian coverage.",
+        "source_vintage": "ODA v1; upstream data gathered January-April 2021",
+        "retrieved_at": "2026-10-16T10:05:00Z",
+        "source_url": "https://www150.statcan.gc.ca/n1/en/pub/46-26-0001/2021001/ODA_NT_v1.zip",
+        "source_object_sha256": "7ff6b052f71b746bed13669b9aa92340792b700c90458e9c038b6a8c599f90bd",
+        "bytes": 791711,
+        "receipt_path": "sources/AMERICAS/CA/acquisition_receipt.json",
+        "artifacts": [
+          {
+            "path": "raw/ODA_NT_v1.zip",
+            "bytes": 791711,
+            "sha256": "7ff6b052f71b746bed13669b9aa92340792b700c90458e9c038b6a8c599f90bd"
+          }
+        ],
+        "expected_metrics": {
+          "address_rows": 6996,
+          "unique_ids": 6996,
+          "explicit_unit_rows": 1297,
+          "postal_code_rows": 0,
+          "provider": "City of Yellowknife",
+          "exact_duplicate_rows": 0
+        },
+        "limitations": [
+          "This is an experimental 2021 aggregation of government open data, not a current national register.",
+          "Coverage is incomplete across Canada and source reference periods vary.",
+          "Statistics Canada standardized and deduplicated source data; preserved full_addr is not a delivery guarantee.",
+          "Only the explicit unit column can populate Address2; no unit is parsed from full_addr."
+        ]
+      },
+      "selected_for_index": true,
+      "member": "ODA_NT_v1.csv"
+    },
+    {
+      "id": "ca-geonames-geonames",
+      "country": "CA",
+      "path": "CA/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/CA.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames CA geonames",
+      "retrieved_at": "2026-10-17T00:06:38.932051+00:00",
+      "bytes": 8108526,
+      "sha256": "72d043cc9381fafc1012ad4a10c329e38919a2394c227907fcc6857a9c8665cf",
+      "final_url": "https://download.geonames.org/export/dump/CA.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:00:48 GMT",
+        "ETag": "\"7bb9ee-65deb88776140\"",
+        "Content-Type": "application/zip"
+      },
+      "selected_for_index": true
+    },
+    {
+      "id": "ca-geonames-names",
+      "country": "CA",
+      "path": "CA/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/CA.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames alternate names CA",
+      "retrieved_at": "2026-10-17T00:07:49.883371+00:00",
+      "bytes": 906285,
+      "sha256": "fe04f52b80742fc078987262e9df3de7bf089b0a09710ab79d6b45c498cc16ba",
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/CA.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:04 GMT",
+        "ETag": "\"dd42d-65debad2c950a\"",
+        "Content-Type": "application/zip"
+      },
+      "selected_for_index": true
+    },
+    {
+      "id": "ca-statcan-sgc-eng",
+      "country": "CA",
+      "path": "CA/sgc-2021-eng.csv",
+      "url": "https://www.statcan.gc.ca/en/statistical-programs/document/sgc-cgt-2021-structure-eng.csv",
+      "format": "csv",
+      "licence": "Statistics-Canada-Open-Licence",
+      "vintage": "2021 SGC",
+      "title": "Statistics Canada SGC 2021 eng",
+      "retrieved_at": "2026-10-17T00:07:27.760394+00:00",
+      "bytes": 239897,
+      "sha256": "55f6eb915415b4aa911c6fce3cbaced641c4ed9af023bebc414b2929721a62d2",
+      "final_url": "https://www.statcan.gc.ca/en/statistical-programs/document/sgc-cgt-2021-structure-eng.csv",
+      "http_metadata": {
+        "Content-Type": "text/csv; charset=UTF-8"
+      },
+      "selected_for_index": true,
+      "encoding": "cp1252"
+    },
+    {
+      "id": "ca-statcan-sgc-fra",
+      "country": "CA",
+      "path": "CA/sgc-2021-fra.csv",
+      "url": "https://www.statcan.gc.ca/fr/programmes-statistiques/document/sgc-cgt-2021-structure-fra.csv",
+      "format": "csv",
+      "licence": "Statistics-Canada-Open-Licence",
+      "vintage": "2021 SGC",
+      "title": "Statistics Canada SGC 2021 fra",
+      "retrieved_at": "2026-10-17T00:07:27.778646+00:00",
+      "bytes": 283562,
+      "sha256": "6e310e740c67770d3cc060d3b41079a827adf2edfb229a84745fc8fa5e67085a",
+      "final_url": "https://www.statcan.gc.ca/fr/programmes-statistiques/document/sgc-cgt-2021-structure-fra.csv",
+      "http_metadata": {
+        "Content-Type": "text/csv; charset=UTF-8"
+      },
+      "selected_for_index": true,
+      "encoding": "cp1252"
+    },
+    {
+      "id": "gn-admin1CodesASCII",
+      "country": "COMMON",
+      "path": "COMMON/admin1CodesASCII.txt",
+      "url": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+      "format": "tsv",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames admin1CodesASCII.txt",
+      "retrieved_at": "2026-10-17T00:07:11.944936+00:00",
+      "bytes": 151583,
+      "sha256": "1da92a6323a5fec3176f3f743bf4cf4040fd56a876da55e46fbca23c863aa60a",
+      "final_url": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:07:51 GMT",
+        "ETag": "\"2501f-65deba1a96d66\"",
+        "Content-Type": "text/plain; charset=utf-8"
+      },
+      "selected_for_index": true
+    },
+    {
+      "id": "gn-admin2Codes",
+      "country": "COMMON",
+      "path": "COMMON/admin2Codes.txt",
+      "url": "https://download.geonames.org/export/dump/admin2Codes.txt",
+      "format": "tsv",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames admin2Codes.txt",
+      "retrieved_at": "2026-10-17T00:07:17.339170+00:00",
+      "bytes": 2366323,
+      "sha256": "985b37390cad51f51b03897e503748db5acddfd9442438532cfab1ac9fd1cbcd",
+      "final_url": "https://download.geonames.org/export/dump/admin2Codes.txt",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:07:51 GMT",
+        "ETag": "\"241b73-65deba1a96d66\"",
+        "Content-Type": "text/plain; charset=utf-8"
+      },
+      "selected_for_index": true
+    },
+    {
+      "id": "gn-countryInfo",
+      "country": "COMMON",
+      "path": "COMMON/countryInfo.txt",
+      "url": "https://download.geonames.org/export/dump/countryInfo.txt",
+      "format": "tsv",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames countryInfo.txt",
+      "retrieved_at": "2026-10-17T00:07:17.431014+00:00",
+      "bytes": 31690,
+      "sha256": "c55f638cfaafb4fe45a9aa15120a0f1f78e8a34a8e1847d7b9320cf740fbc9ab",
+      "final_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:13:35 GMT",
+        "ETag": "\"7bca-65debb6340838\"",
+        "Content-Type": "text/plain; charset=utf-8"
+      },
+      "selected_for_index": false
+    },
+    {
+      "id": "gn-readme",
+      "country": "COMMON",
+      "path": "COMMON/readme.txt",
+      "url": "https://download.geonames.org/export/dump/readme.txt",
+      "format": "tsv",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames readme.txt",
+      "retrieved_at": "2026-10-17T00:07:17.643009+00:00",
+      "bytes": 8843,
+      "sha256": "b1957379b6c1242c700c98ac9a8aa0a09f56c3c0a50ee72175527005f48ef2c5",
+      "final_url": "https://download.geonames.org/export/dump/readme.txt",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 01:57:47 GMT",
+        "ETag": "\"228b-65deb7dae7285\"",
+        "Content-Type": "text/plain; charset=utf-8"
+      },
+      "selected_for_index": false
+    },
+    {
+      "id": "gl-geonames-geonames",
+      "country": "GL",
+      "path": "GL/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/GL.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames GL geonames",
+      "retrieved_at": "2026-10-17T00:07:00.969657+00:00",
+      "bytes": 224858,
+      "sha256": "3fc4572d96af2e8e00bc7d21d3b94b50dea03d2646ecf48c4f3fbd2be454c249",
+      "final_url": "https://download.geonames.org/export/dump/GL.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:02:31 GMT",
+        "ETag": "\"36e5a-65deb8ea29a53\"",
+        "Content-Type": "application/zip"
+      },
+      "selected_for_index": true
+    },
+    {
+      "id": "gl-geonames-names",
+      "country": "GL",
+      "path": "GL/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/GL.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames alternate names GL",
+      "retrieved_at": "2026-10-17T00:07:55.310806+00:00",
+      "bytes": 140615,
+      "sha256": "db85903170a22df5897248fea008def438c4c8a1de60402598018471802b5193",
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/GL.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:39 GMT",
+        "ETag": "\"22547-65debaf42e223\"",
+        "Content-Type": "application/zip"
+      },
+      "selected_for_index": true
+    },
+    {
+      "id": "mx-inegi-catun_entidad",
+      "country": "MX",
+      "path": "MX/catun_entidad.zip",
+      "url": "https://www.inegi.org.mx/contenidos/app/ageeml/catun_entidad.zip",
+      "format": "zip",
+      "licence": "INEGI-free-use",
+      "vintage": "Archive member AGEEML_202512121056362_utf.csv; do not infer statistical reference date from file creation timestamp",
+      "title": "INEGI Catálogo Único catun_entidad",
+      "retrieved_at": "2026-10-17T00:07:56.408934+00:00",
+      "bytes": 12210,
+      "sha256": "58800dddb6f523efc1a8771f2d2d19c3f1b467d4422735898ba1047cf0c78899",
+      "final_url": "https://www.inegi.org.mx/contenidos/app/ageeml/catun_entidad.zip",
+      "http_metadata": {
+        "Content-Type": "application/x-zip-compressed",
+        "Last-Modified": "Mon, 15 Dec 2025 12:00:22 GMT",
+        "ETag": "\"d817d263ba6ddc1:0\""
+      },
+      "selected_for_index": true,
+      "member": "AGEEML_202512121056362_utf.csv"
+    },
+    {
+      "id": "mx-inegi-catun_municipio",
+      "country": "MX",
+      "path": "MX/catun_municipio.zip",
+      "url": "https://www.inegi.org.mx/contenidos/app/ageeml/catun_municipio.zip",
+      "format": "zip",
+      "licence": "INEGI-free-use",
+      "vintage": "Archive member AGEEML_20268211656753_utf8.csv; do not infer statistical reference date from file creation timestamp",
+      "title": "INEGI Catálogo Único catun_municipio",
+      "retrieved_at": "2026-10-17T00:07:57.448238+00:00",
+      "bytes": 543280,
+      "sha256": "cb0f21fb4c53d2c0adca356ca669646372f9b81b2cdcbd51745c01acaec7204f",
+      "final_url": "https://www.inegi.org.mx/contenidos/app/ageeml/catun_municipio.zip",
+      "http_metadata": {
+        "Content-Type": "application/x-zip-compressed",
+        "Last-Modified": "Tue, 25 Aug 2026 17:54:19 GMT",
+        "ETag": "\"ccba23c1ba34dd1:0\""
+      },
+      "selected_for_index": true,
+      "member": "AGEEML_20268211656753_utf8.csv"
+    },
+    {
+      "id": "mx-geonames-geonames",
+      "country": "MX",
+      "path": "MX/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/MX.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames MX geonames",
+      "retrieved_at": "2026-10-17T00:06:46.736273+00:00",
+      "bytes": 15069484,
+      "sha256": "c7bf744176d4f4d3e1f2f99015edc4c657f5b80a03d5ae7e8fa8466bfe5ba3df",
+      "final_url": "https://download.geonames.org/export/dump/MX.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:04:31 GMT",
+        "ETag": "\"e5f12c-65deb95c58d91\"",
+        "Content-Type": "application/zip"
+      },
+      "selected_for_index": true
+    },
+    {
+      "id": "mx-inegi-min_con_acento",
+      "country": "MX",
+      "path": "MX/min_con_acento.zip",
+      "url": "https://www.inegi.org.mx/contenidos/app/ageeml/min_con_acento.zip",
+      "format": "zip",
+      "licence": "INEGI-free-use",
+      "vintage": "Archive member AGEEML_202610131447506_utf.csv; do not infer statistical reference date from file creation timestamp",
+      "title": "INEGI Catálogo Único min_con_acento",
+      "retrieved_at": "2026-10-17T00:08:01.032774+00:00",
+      "bytes": 120552285,
+      "sha256": "75227619e3252b7f854d5c275f17cb34014811f3414e284b86ab0bff667593f7",
+      "final_url": "https://www.inegi.org.mx/contenidos/app/ageeml/min_con_acento.zip",
+      "http_metadata": {
+        "Content-Type": "application/x-zip-compressed",
+        "Last-Modified": "Thu, 15 Oct 2026 12:00:26 GMT",
+        "ETag": "\"52b938c49c5cdd1:0\""
+      },
+      "selected_for_index": true,
+      "member": "AGEEML_202610131447506_utf.csv"
+    },
+    {
+      "id": "mx-geonames-names",
+      "country": "MX",
+      "path": "MX/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/MX.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames alternate names MX",
+      "retrieved_at": "2026-10-17T00:07:49.882939+00:00",
+      "bytes": 7458639,
+      "sha256": "7d5233e58717469603db160d69f220aeb8952dcf413cb30553c36fde8245f641",
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/MX.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:12:16 GMT",
+        "ETag": "\"71cf4f-65debb17c56b7\"",
+        "Content-Type": "application/zip"
+      },
+      "selected_for_index": true
+    },
+    {
+      "id": "pm-ban-975",
+      "country": "PM",
+      "path": "PM/adresses-975.csv.gz",
+      "url": "https://adresse.data.gouv.fr/data/ban/adresses/latest/csv/adresses-975.csv.gz",
+      "format": "csv.gz",
+      "licence": "Licence Ouverte 2.0 / Etalab",
+      "terms_url": "https://adresse.data.gouv.fr/decouvrir-la-BAN",
+      "vintage": "2026-10-15",
+      "retrieved_at": "2026-10-16T10:06:00Z",
+      "bytes": 87016,
+      "sha256": "e674068b478bd12123ea8de6f2b60931602a791649d24db8ce6fb4c88d6d6985",
+      "title": "Base Adresse Nationale department 975 CSV snapshot",
+      "inherited_from": "Veygrit_world-localities_GitHub_20261016.zip version 8",
+      "original_receipt": {
+        "schema_version": 1,
+        "country": "PM",
+        "country_stage": "acquired",
+        "source_type": "official_address_register",
+        "dataset": "Base Adresse Nationale department 975 CSV snapshot",
+        "distribution_url": "https://adresse.data.gouv.fr/data/ban/adresses/latest/csv/adresses-975.csv.gz",
+        "terms_url": "https://adresse.data.gouv.fr/decouvrir-la-BAN",
+        "licence": "Licence Ouverte 2.0 / Etalab",
+        "expected_format": "GZIP-compressed semicolon-delimited UTF-8 CSV",
+        "territorial_scope_rule": "Keep code_insee 97501 and 97502 inside PM; do not collapse them into FR.",
+        "source_snapshot": "2026-10-15",
+        "retrieved_at": "2026-10-16T10:06:00Z",
+        "source_url": "https://adresse.data.gouv.fr/data/ban/adresses/latest/csv/adresses-975.csv.gz",
+        "source_object_sha256": "e674068b478bd12123ea8de6f2b60931602a791649d24db8ce6fb4c88d6d6985",
+        "bytes": 87016,
+        "receipt_path": "sources/AMERICAS/PM/acquisition_receipt.json",
+        "artifacts": [
+          {
+            "path": "raw/adresses-975.csv.gz",
+            "bytes": 87016,
+            "sha256": "e674068b478bd12123ea8de6f2b60931602a791649d24db8ce6fb4c88d6d6985"
+          }
+        ],
+        "expected_metrics": {
+          "address_rows": 3049,
+          "unique_ids": 3049,
+          "commune_codes": [
+            "97501",
+            "97502"
+          ],
+          "certified_rows": 2697,
+          "uncertified_rows": 352,
+          "exact_duplicate_rows": 0
+        },
+        "limitations": [
+          "A BAN row is an address reference, not confirmation of occupancy or successful delivery.",
+          "The stored snapshot contains 2,697 municipality-certified rows and 352 uncertified rows; certification status is retained per row.",
+          "No unit, floor or apartment field is present; Address2 remains empty.",
+          "Source labels and certification status are retained without upgrading inconnue or uncertified rows."
+        ]
+      },
+      "selected_for_index": true,
+      "delimiter": ";"
+    },
+    {
+      "id": "pm-insee-cog-2026",
+      "country": "PM",
+      "kind": "insee",
+      "url": "https://www.insee.fr/fr/statistiques/fichier/8740222/cog_ensemble_2026_csv.zip",
+      "path": "PM/cog-2026.zip",
+      "licence": "Licence Ouverte 2.0",
+      "terms_url": "https://www.insee.fr/fr/information/2008466",
+      "attribution": "INSEE COG 2026",
+      "sha256": "5c037e2977c9d476cfe2e7b7f923bbe09a87cbe448c59e492a71ef6a917aa53f",
+      "bytes": 1961824,
+      "retrieved_at": "2026-10-16T23:20:52.503178+00:00",
+      "resolved_url": "https://www.insee.fr/fr/statistiques/fichier/8740222/cog_ensemble_2026_csv.zip",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "raw_object_preserved": true,
+      "format": "zip",
+      "inherited_from": "South America v0.2 same national COG archive; PM code filter is independently applied",
+      "selected_for_index": true,
+      "vintage": "COG 2026"
+    },
+    {
+      "id": "pm-geonames-geonames",
+      "country": "PM",
+      "path": "PM/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/PM.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames PM geonames",
+      "retrieved_at": "2026-10-17T00:07:06.339211+00:00",
+      "bytes": 20767,
+      "sha256": "a8ecde4527bc74f34859d19c8b67809da70c277effbfb903d91462cd52a56d6b",
+      "final_url": "https://download.geonames.org/export/dump/PM.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:05:22 GMT",
+        "ETag": "\"511f-65deb98c905d8\"",
+        "Content-Type": "application/zip"
+      },
+      "selected_for_index": true
+    },
+    {
+      "id": "pm-geonames-names",
+      "country": "PM",
+      "path": "PM/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/PM.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames alternate names PM",
+      "retrieved_at": "2026-10-17T00:07:56.004258+00:00",
+      "bytes": 10977,
+      "sha256": "022f0e193a15435d560482499def03efccb3461f8f1d4fb763c650c9b17c92dd",
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/PM.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:12:30 GMT",
+        "ETag": "\"2ae1-65debb24911ba\"",
+        "Content-Type": "application/zip"
+      },
+      "selected_for_index": true
+    },
+    {
+      "id": "us-census-counties",
+      "country": "US",
+      "path": "US/2026_Gaz_counties_national.zip",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+      "format": "zip",
+      "licence": "US-government-work",
+      "vintage": "2026",
+      "title": "US Census Gazetteer counties",
+      "retrieved_at": "2026-10-17T00:07:23.055401+00:00",
+      "bytes": 139190,
+      "sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+      "final_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+      "http_metadata": {
+        "Content-Type": "application/zip",
+        "Last-Modified": "Tue, 08 Sep 2026 21:00:12 GMT"
+      },
+      "selected_for_index": true,
+      "member": "2026_Gaz_counties_national.txt",
+      "delimiter": "|"
+    },
+    {
+      "id": "us-census-cousubs",
+      "country": "US",
+      "path": "US/2026_Gaz_cousubs_national.zip",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_cousubs_national.zip",
+      "format": "zip",
+      "licence": "US-government-work",
+      "vintage": "2026",
+      "title": "US Census Gazetteer cousubs",
+      "retrieved_at": "2026-10-17T00:07:23.105718+00:00",
+      "bytes": 1476658,
+      "sha256": "9d528b39b70a27075c863b1572f27eadaf24484d5435fac17fc3b4cdd36434c2",
+      "final_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_cousubs_national.zip",
+      "http_metadata": {
+        "Content-Type": "application/zip",
+        "Last-Modified": "Tue, 08 Sep 2026 21:00:12 GMT"
+      },
+      "selected_for_index": true,
+      "member": "2026_Gaz_cousubs_national.txt",
+      "delimiter": "|"
+    },
+    {
+      "id": "us-census-place",
+      "country": "US",
+      "path": "US/2026_Gaz_place_national.zip",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+      "format": "zip",
+      "licence": "US-government-work",
+      "vintage": "2026",
+      "title": "US Census Gazetteer place",
+      "retrieved_at": "2026-10-17T00:07:23.591814+00:00",
+      "bytes": 1214650,
+      "sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+      "final_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+      "http_metadata": {
+        "Content-Type": "application/zip",
+        "Last-Modified": "Tue, 08 Sep 2026 21:00:12 GMT"
+      },
+      "selected_for_index": true,
+      "member": "2026_Gaz_place_national.txt",
+      "delimiter": "|"
+    },
+    {
+      "id": "us-census-state",
+      "country": "US",
+      "path": "US/2026_Gaz_state_national.zip",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_state_national.zip",
+      "format": "zip",
+      "licence": "US-government-work",
+      "vintage": "2026",
+      "title": "US Census Gazetteer state",
+      "retrieved_at": "2026-10-17T00:07:22.882411+00:00",
+      "bytes": 2865,
+      "sha256": "54352ca34f869b4deca03a65da72cccb8e9f0c2702340061949b63c76c63f852",
+      "final_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_state_national.zip",
+      "http_metadata": {
+        "Content-Type": "application/zip",
+        "Last-Modified": "Tue, 08 Sep 2026 21:00:12 GMT"
+      },
+      "selected_for_index": true,
+      "member": "2026_Gaz_state_national.txt",
+      "delimiter": "|"
+    },
+    {
+      "id": "us-geonames-geonames",
+      "country": "US",
+      "path": "US/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/US.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames US geonames",
+      "retrieved_at": "2026-10-17T00:06:38.930874+00:00",
+      "bytes": 71108454,
+      "sha256": "e845d3d6b36f8258bc8d343e07f920e6aa49bf087384e1e1a8d75866e3c6dba9",
+      "final_url": "https://download.geonames.org/export/dump/US.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:07:36 GMT",
+        "ETag": "\"43d0766-65deba0c65043\"",
+        "Content-Type": "application/zip"
+      },
+      "selected_for_index": true
+    },
+    {
+      "id": "us-geonames-names",
+      "country": "US",
+      "path": "US/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/US.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames alternate names US",
+      "retrieved_at": "2026-10-17T00:07:49.881870+00:00",
+      "bytes": 22929747,
+      "sha256": "454d80e7eedac12af4305213441401a87691dbc8922a2ddb84da007b496bb5c0",
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/US.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:13:09 GMT",
+        "ETag": "\"15de153-65debb4a20c25\"",
+        "Content-Type": "application/zip"
+      },
+      "selected_for_index": true
+    },
+    {
+      "id": "us-census-dc-addr",
+      "country": "US",
+      "path": "US/tl_2026_11001_addr.zip",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2026/ADDR/tl_2026_11001_addr.zip",
+      "format": "zip",
+      "licence": "United States Government work; copyright protection is unavailable under 17 U.S.C. 105. Cite the U.S. Census Bureau.",
+      "terms_url": "https://www.census.gov/programs-surveys/geography/technical-documentation/complete-technical-documentation/tiger-geo-line.html",
+      "vintage": "2026",
+      "retrieved_at": "2026-10-16T10:04:00Z",
+      "bytes": 312273,
+      "sha256": "ef0758448c1c4612989c9dc8856bfd7833318c75a61b1997a0128e10396ed29a",
+      "title": "2026 TIGER/Line Address Ranges, District of Columbia county-equivalent 11001",
+      "inherited_from": "Veygrit_world-localities_GitHub_20261016.zip version 8",
+      "original_receipt": {
+        "schema_version": 1,
+        "country": "US",
+        "country_stage": "acquired",
+        "source_type": "official_address_range",
+        "dataset": "2026 TIGER/Line Address Ranges, District of Columbia county-equivalent 11001",
+        "distribution_url": "https://www2.census.gov/geo/tiger/TIGER2026/ADDR/tl_2026_11001_addr.zip",
+        "terms_url": "https://www.census.gov/programs-surveys/geography/technical-documentation/complete-technical-documentation/tiger-geo-line.html",
+        "licence": "United States Government work; copyright protection is unavailable under 17 U.S.C. 105. Cite the U.S. Census Bureau.",
+        "expected_format": "ZIP containing dBASE relationship table and metadata",
+        "territorial_scope_rule": "FIPS 11001 only; do not treat the fixture as national United States coverage or apply it to PR or VI.",
+        "source_vintage": "2026",
+        "retrieved_at": "2026-10-16T10:04:00Z",
+        "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/ADDR/tl_2026_11001_addr.zip",
+        "source_object_sha256": "ef0758448c1c4612989c9dc8856bfd7833318c75a61b1997a0128e10396ed29a",
+        "bytes": 312273,
+        "receipt_path": "sources/AMERICAS/US/acquisition_receipt.json",
+        "artifacts": [
+          {
+            "path": "raw/tl_2026_11001_addr.zip",
+            "bytes": 312273,
+            "sha256": "ef0758448c1c4612989c9dc8856bfd7833318c75a61b1997a0128e10396ed29a"
+          }
+        ],
+        "expected_metrics": {
+          "dbf_rows": 23043,
+          "unique_arid": 23043,
+          "unique_tlid": 12716,
+          "blank_zip_rows": 0,
+          "exact_duplicate_rows": 0
+        },
+        "limitations": [
+          "The table contains potential address ranges, not individual addresses.",
+          "Possible numbers inside a range must not be expanded into premises.",
+          "ZIP values are attributes of address ranges and do not prove USPS delivery.",
+          "Street names and geometry require separate TIGER relationship and edge files and are not fabricated here."
+        ]
+      },
+      "selected_for_index": true
+    },
+    {
+      "id": "us-census-dc-featnames",
+      "country": "US",
+      "path": "US/tl_2026_11001_featnames.zip",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2026/FEATNAMES/tl_2026_11001_featnames.zip",
+      "format": "zip",
+      "licence": "US-government-work",
+      "vintage": "2026",
+      "title": "US Census DC feature names",
+      "retrieved_at": "2026-10-17T00:08:01.061444+00:00",
+      "bytes": 357981,
+      "sha256": "1abf5444974aeb0e3dbee0b70bd518ae36e446942e2f2b7d4a2aade1b7b54976",
+      "final_url": "https://www2.census.gov/geo/tiger/TIGER2026/FEATNAMES/tl_2026_11001_featnames.zip",
+      "http_metadata": {
+        "Content-Type": "application/zip",
+        "Last-Modified": "Tue, 06 Oct 2026 23:33:56 GMT"
+      },
+      "selected_for_index": true
+    }
+  ],
+  "required_source_ids": [
+    "bm-geonames-geonames",
+    "bm-geonames-names",
+    "ca-statcan-oda-nt",
+    "ca-geonames-geonames",
+    "ca-geonames-names",
+    "ca-statcan-sgc-eng",
+    "ca-statcan-sgc-fra",
+    "gn-admin1CodesASCII",
+    "gn-admin2Codes",
+    "gn-countryInfo",
+    "gn-readme",
+    "gl-geonames-geonames",
+    "gl-geonames-names",
+    "mx-inegi-catun_entidad",
+    "mx-inegi-catun_municipio",
+    "mx-geonames-geonames",
+    "mx-inegi-min_con_acento",
+    "mx-geonames-names",
+    "pm-ban-975",
+    "pm-insee-cog-2026",
+    "pm-geonames-geonames",
+    "pm-geonames-names",
+    "us-census-counties",
+    "us-census-cousubs",
+    "us-census-place",
+    "us-census-state",
+    "us-geonames-geonames",
+    "us-geonames-names",
+    "us-census-dc-addr",
+    "us-census-dc-featnames"
+  ],
+  "failures": [],
+  "snapshot_policy": "Raw object hashes identify acquired snapshots. Rolling download URLs are not immutable versions."
+}

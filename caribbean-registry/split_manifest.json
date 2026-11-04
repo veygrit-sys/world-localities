@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "purpose": "Exact-byte offline reconstruction of canonical compressed files",
+  "part_max_bytes": 524288,
+  "files": [
+    {
+      "country": "DO",
+      "path": "countries/DO/entities.csv.gz",
+      "bytes": 903455,
+      "sha256": "3bbbcd5bf481bb9fb53dbfb27b5912f25cde4d6a650f15236d293e6f427d73ac",
+      "git_blob_sha1": "7afccb380d3bd5b9193330205a14683700cdccec",
+      "parts": [
+        {
+          "path": ".parts/DO/entities.csv.gz.part001.bin",
+          "bytes": 524288,
+          "sha256": "a57792257b14eba1f101303f8c798a9178256530697ec54e376661728d993e81"
+        },
+        {
+          "path": ".parts/DO/entities.csv.gz.part002.bin",
+          "bytes": 379167,
+          "sha256": "25f5cbb74981d2d7a0733239a692211612c5eb6c094d1a487bcafbcd743c4ecb"
+        }
+      ]
+    }
+  ]
+}

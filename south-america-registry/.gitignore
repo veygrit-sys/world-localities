@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+
+# Large files reconstructed locally from checked binary parts
+/countries/AR/alternate-values.csv.gz
+/countries/AR/entities.csv.gz
+/countries/BO/entities.csv.gz
+/countries/BR/alternate-values.csv.gz
+/countries/BR/entities.csv.gz
+/countries/CO/entities.csv.gz
+/countries/PE/entities.csv.gz
+/countries/PY/entities.csv.gz
+/countries/VE/entities.csv.gz
+/sources/AR-alternatenames.zip
+/sources/AR.zip
+/sources/PY.zip

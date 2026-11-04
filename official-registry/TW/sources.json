@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "observed_on": "2026-10-01",
+  "sources": {
+    "tw-chunghwa-names": {
+      "provider": "Chunghwa Post",
+      "url": "https://www.post.gov.tw/post/download/County_h_10906.xml",
+      "sha256": "24acfe52023f0ddc2149a2f8368910cd0968584913f3ac17678abb3048cba1b9",
+      "bytes": 55902,
+      "published_on": "2020-06-12",
+      "catalogue": "https://data.gov.tw/dataset/5949",
+      "publication_date_source": "https://www.post.gov.tw/post/internet/Download/index.jsp?ID=220306",
+      "licence": "Open Government Data License, version 1.0 (Taiwan)",
+      "terms": "https://data.gov.tw/license",
+      "note": "Published source postal view. Three digits are prefixes, not complete six-digit codes; retrieval date is not a currentness guarantee."
+    }
+  },
+  "bundled_files": {
+    "sources/names.xml": {
+      "bytes": 55902,
+      "sha256": "24acfe52023f0ddc2149a2f8368910cd0968584913f3ac17678abb3048cba1b9"
+    }
+  }
+}

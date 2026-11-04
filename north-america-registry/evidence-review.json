@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-15",
+  "purpose": "Separate publication, geography reference, statistical reference and effective dates; do not claim live address verification.",
+  "reviews": [
+    {
+      "evidence_id": "france_communes_2025",
+      "publisher": "INSEE",
+      "source_url": "https://www.insee.fr/fr/statistiques/fichier/8680702/dep975.pdf",
+      "publication_month": "2025-12",
+      "geography_reference_date": "2025-01-01",
+      "population_reference_date": "2023-01-01",
+      "population_effective_from": "2026-01-01",
+      "evidence_pages_1_based": [5, 8],
+      "commune_names_and_codes": [
+        {"code": "97501", "name": "Miquelon-Langlade"},
+        {"code": "97502", "name": "Saint-Pierre"}
+      ],
+      "verification_method": "Retrieved PDF parsed text; no population data were imported",
+      "visual_verification": "not_completed_screenshot_fetch_failed",
+      "source_bytes_sha256": null,
+      "current_as_of_review_date": false,
+      "postal_or_address_verification": false
+    },
+    {
+      "evidence_id": "un_m49_americas_scope",
+      "publisher": "United Nations Statistics Division",
+      "source_url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "verification_method": "Retrieved official HTML country-area table",
+      "area_country_counts": {"021": 5, "013": 8, "029": 28, "005": 16},
+      "source_bytes_sha256": null,
+      "scope": "Statistical country-area roster; not municipal or postal completeness"
+    }
+  ],
+  "not_reverified_in_this_review": ["bermuda_parish_profiles", "bermuda_municipalities_2026", "greenland_statistics_2026"],
+  "limitations": "Publisher-host validation is a metadata guard, not proof of availability, content correctness or a data redistribution licence. Existing source snapshots and seed records are unchanged."
+}

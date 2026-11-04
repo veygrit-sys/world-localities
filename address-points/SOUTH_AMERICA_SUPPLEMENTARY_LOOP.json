@@ -1,0 +1,248 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-16T23:40:19.531728+00:00",
+  "scope": "territories",
+  "country_count": 0,
+  "supplementary_area_count": 4,
+  "countries": [
+    {
+      "code": "GF",
+      "name_ja": "仏領ギアナ",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 1
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 1
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 2
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin4",
+          "nodes": 22
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 671
+        },
+        {
+          "namespace": "gf-ban",
+          "kind": "street",
+          "nodes": 3640
+        },
+        {
+          "namespace": "gf-insee-2026",
+          "kind": "arrondissement",
+          "nodes": 3
+        },
+        {
+          "namespace": "gf-insee-2026",
+          "kind": "commune",
+          "nodes": 22
+        },
+        {
+          "namespace": "gf-insee-2026",
+          "kind": "department",
+          "nodes": 1
+        },
+        {
+          "namespace": "gf-insee-2026",
+          "kind": "region",
+          "nodes": 1
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 144
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 527
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 144
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 527
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 144
+        },
+        {
+          "field": "admin3",
+          "status": "resolved",
+          "records": 527
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 144
+        },
+        {
+          "field": "admin4",
+          "status": "resolved",
+          "records": 527
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 144
+        }
+      ],
+      "geonames_place_count": 671,
+      "linked_nodes": 4364,
+      "nodes_requiring_source_review": 144,
+      "address_verified": false,
+      "national_coverage_verified": false
+    },
+    {
+      "code": "FK",
+      "name_ja": "フォークランド諸島（マルビナス）",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 57
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 57
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 57
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 57
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 57
+        }
+      ],
+      "issues": [],
+      "geonames_place_count": 57,
+      "linked_nodes": 57,
+      "nodes_requiring_source_review": 0,
+      "address_verified": false,
+      "national_coverage_verified": false
+    },
+    {
+      "code": "GS",
+      "name_ja": "サウスジョージア・サウスサンドウィッチ諸島",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 3
+        },
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 3
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 3
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 3
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 3
+        }
+      ],
+      "issues": [],
+      "geonames_place_count": 3,
+      "linked_nodes": 3,
+      "nodes_requiring_source_review": 0,
+      "address_verified": false,
+      "national_coverage_verified": false
+    },
+    {
+      "code": "BV",
+      "name_ja": "ブーベ島",
+      "scope_type": "supplementary_area",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "scope",
+          "kind": "supplementary_area",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [],
+      "issues": [],
+      "geonames_place_count": 0,
+      "linked_nodes": 0,
+      "nodes_requiring_source_review": 0,
+      "address_verified": false,
+      "national_coverage_verified": false
+    }
+  ],
+  "structural_checks": {
+    "foreign_keys": "PASS",
+    "same_country_links": "PASS",
+    "acyclic_rank_order": "PASS"
+  },
+  "limit": "PASS means the processing and structural checks completed; it is not national address completeness."
+}

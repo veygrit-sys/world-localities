@@ -1,0 +1,409 @@
+{
+  "countries": 57,
+  "errors": 0,
+  "note": "Structural validation; unresolved source relationships remain recorded.",
+  "reports": [
+    {
+      "country": "AD",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 80,
+      "status": "pass"
+    },
+    {
+      "country": "AL",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 5174,
+      "status": "pass"
+    },
+    {
+      "country": "AM",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 2427,
+      "status": "pass"
+    },
+    {
+      "country": "AT",
+      "parts": 2,
+      "replay": "exact",
+      "rows": 23601,
+      "status": "pass"
+    },
+    {
+      "country": "AX",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 357,
+      "status": "pass"
+    },
+    {
+      "country": "AZ",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 5397,
+      "status": "pass"
+    },
+    {
+      "country": "BA",
+      "parts": 2,
+      "replay": "exact",
+      "rows": 22152,
+      "status": "pass"
+    },
+    {
+      "country": "BE",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 13334,
+      "status": "pass"
+    },
+    {
+      "country": "BG",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 10185,
+      "status": "pass"
+    },
+    {
+      "country": "BY",
+      "parts": 2,
+      "replay": "exact",
+      "rows": 27042,
+      "status": "pass"
+    },
+    {
+      "country": "CH",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 16008,
+      "status": "pass"
+    },
+    {
+      "country": "CY",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 1448,
+      "status": "pass"
+    },
+    {
+      "country": "CZ",
+      "parts": 2,
+      "replay": "exact",
+      "rows": 23064,
+      "status": "pass"
+    },
+    {
+      "country": "DE",
+      "parts": 5,
+      "replay": "exact",
+      "rows": 95177,
+      "status": "pass"
+    },
+    {
+      "country": "DK",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 7404,
+      "status": "pass"
+    },
+    {
+      "country": "EE",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 12137,
+      "status": "pass"
+    },
+    {
+      "country": "ES",
+      "parts": 2,
+      "replay": "exact",
+      "rows": 39207,
+      "status": "pass"
+    },
+    {
+      "country": "FI",
+      "parts": 2,
+      "replay": "exact",
+      "rows": 29753,
+      "status": "pass"
+    },
+    {
+      "country": "FO",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 224,
+      "status": "pass"
+    },
+    {
+      "country": "FR",
+      "parts": 6,
+      "replay": "exact",
+      "rows": 118710,
+      "status": "pass"
+    },
+    {
+      "country": "GB",
+      "parts": 3,
+      "replay": "exact",
+      "rows": 55594,
+      "status": "pass"
+    },
+    {
+      "country": "GE",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 5519,
+      "status": "pass"
+    },
+    {
+      "country": "GG",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 274,
+      "status": "pass"
+    },
+    {
+      "country": "GI",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 10,
+      "status": "pass"
+    },
+    {
+      "country": "GR",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 16126,
+      "status": "pass"
+    },
+    {
+      "country": "HR",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 12226,
+      "status": "pass"
+    },
+    {
+      "country": "HU",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 16244,
+      "status": "pass"
+    },
+    {
+      "country": "IE",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 12202,
+      "status": "pass"
+    },
+    {
+      "country": "IM",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 67,
+      "status": "pass"
+    },
+    {
+      "country": "IS",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 439,
+      "status": "pass"
+    },
+    {
+      "country": "IT",
+      "parts": 4,
+      "replay": "exact",
+      "rows": 71583,
+      "status": "pass"
+    },
+    {
+      "country": "JE",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 98,
+      "status": "pass"
+    },
+    {
+      "country": "LI",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 377,
+      "status": "pass"
+    },
+    {
+      "country": "LT",
+      "parts": 2,
+      "replay": "exact",
+      "rows": 21411,
+      "status": "pass"
+    },
+    {
+      "country": "LU",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 831,
+      "status": "pass"
+    },
+    {
+      "country": "LV",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 8497,
+      "status": "pass"
+    },
+    {
+      "country": "MC",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 32,
+      "status": "pass"
+    },
+    {
+      "country": "MD",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 1855,
+      "status": "pass"
+    },
+    {
+      "country": "ME",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 4066,
+      "status": "pass"
+    },
+    {
+      "country": "MK",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 2869,
+      "status": "pass"
+    },
+    {
+      "country": "MT",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 361,
+      "status": "pass"
+    },
+    {
+      "country": "NL",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 8277,
+      "status": "pass"
+    },
+    {
+      "country": "NO",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 14305,
+      "status": "pass"
+    },
+    {
+      "country": "PL",
+      "parts": 3,
+      "replay": "exact",
+      "rows": 50935,
+      "status": "pass"
+    },
+    {
+      "country": "PT",
+      "parts": 2,
+      "replay": "exact",
+      "rows": 22115,
+      "status": "pass"
+    },
+    {
+      "country": "RO",
+      "parts": 2,
+      "replay": "exact",
+      "rows": 21482,
+      "status": "pass"
+    },
+    {
+      "country": "RS",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 9714,
+      "status": "pass"
+    },
+    {
+      "country": "RU",
+      "parts": 11,
+      "replay": "exact",
+      "rows": 206804,
+      "status": "pass"
+    },
+    {
+      "country": "SE",
+      "parts": 2,
+      "replay": "exact",
+      "rows": 33003,
+      "status": "pass"
+    },
+    {
+      "country": "SI",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 6876,
+      "status": "pass"
+    },
+    {
+      "country": "SJ",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 19,
+      "status": "pass"
+    },
+    {
+      "country": "SK",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 8087,
+      "status": "pass"
+    },
+    {
+      "country": "SM",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 33,
+      "status": "pass"
+    },
+    {
+      "country": "TR",
+      "parts": 3,
+      "replay": "exact",
+      "rows": 57317,
+      "status": "pass"
+    },
+    {
+      "country": "UA",
+      "parts": 2,
+      "replay": "exact",
+      "rows": 36409,
+      "status": "pass"
+    },
+    {
+      "country": "VA",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 1,
+      "status": "pass"
+    },
+    {
+      "country": "XK",
+      "parts": 1,
+      "replay": "exact",
+      "rows": 2650,
+      "status": "pass"
+    }
+  ],
+  "rows": 1161589,
+  "source_accuracy_and_legal_status_independently_verified": false,
+  "status": "pass"
+}

@@ -1,0 +1,93 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "LUX",
+    "country": "LU",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Luxembourg",
+    "geonames_id": "2960313",
+    "id": "country:LU",
+    "m49": "442",
+    "m49_region": "Europe",
+    "name_en": "Luxembourg",
+    "region": "Western Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 692,
+    "admin_rows": 117,
+    "ambiguous_parents": 0,
+    "country": "LU",
+    "country_scope_only": 0,
+    "localities_without_adm1": 0,
+    "locality_rows": 692,
+    "name_en": "Luxembourg",
+    "other_admin_rows": 22,
+    "region": "Western Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 12,
+    "ADM1H": 3,
+    "ADM2": 105,
+    "ADM3H": 17,
+    "ADMD": 2,
+    "PPL": 468,
+    "PPLA": 5,
+    "PPLA2": 6,
+    "PPLA3": 93,
+    "PPLC": 1,
+    "PPLL": 68,
+    "PPLX": 51
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 45014,
+      "rows": 831,
+      "sha256": "f836a07c22b4691dab81981864ec68c7ee37cfc9e63e448c663d2287a902d9ac",
+      "uncompressed_sha256": "18516e1dc8d40ec0c6fd364be6485040a1963e50406571fda2a7767a1d8664dc"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "historical_parent_not_asserted": 20,
+    "not_assigned_for_other_feature": 2,
+    "source_admin_code": 797,
+    "source_country": 12
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 12,
+      "sha256": "65f1210ba058c6072bbdaef5ca9845e0d6f5c0693c640709751b86f10aca5522"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 1237,
+    "bytes": 54846,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 56,
+      "L": 3,
+      "S": 263,
+      "T": 31,
+      "V": 52
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:54:43 GMT",
+    "retained_rows": 831,
+    "retrieved_at": "2026-09-29T11:14:09.856313+00:00",
+    "sha256": "487e0842f455d9598457fc3df27ebe8c1f8cb999c21f169d4e49486ea9aa72fb",
+    "url": "https://download.geonames.org/export/dump/LU.zip"
+  },
+  "source_modified_max": "2026-08-30",
+  "source_modified_min": "2008-05-16"
+}

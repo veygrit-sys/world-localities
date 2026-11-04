@@ -1,0 +1,35 @@
+{
+  "country": "HU",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 2930,
+      "rows": 31,
+      "sha256": "c13c3acf9ab1c59681fd238d08b13a4cdd7eba34a049f60a999c0abe5b422e2b"
+    },
+    "units.csv.gz": {
+      "bytes": 67783,
+      "rows": 3155,
+      "sha256": "894ba6e2062b1977b41d387ca703fc68f404e07e38897edd2128e3688429f6f9"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 3155,
+  "skipped_empty_rows": 31791,
+  "source_period_counts": {
+    "2024": 3155
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "HU",
+  "validation": {
+    "core": "validated",
+    "overall": "validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

@@ -1,0 +1,12 @@
+﻿country,name_ja,m49_subregion,geonames_baseline_rows,official_source_files,official_address_observations,numbered_address_observations,official_street_observations,official_named_area_observations,all_administrative_levels_complete,all_physical_roads_complete,all_assigned_numbers_complete,independent_national_denominator,deliverability_in_scope,next_action_ja
+AT,オーストリア,Western Europe,23601,1,2529222,2529222,138112,0,False,False,False,,False,公式自治体・道路名・番地を取込済み。上位行政階層の照合、無名道・私道を含む実道路の補強、独立総数との比較が残る。
+BE,ベルギー,Western Europe,13334,5,7178121,7178121,157906,0,False,False,False,,False,3地域の住所と住所あり・なしの道路名簿を取込済み。郵便番号別の重複、地域別自治体改編、実道路全体の照合が残る。
+CH,スイス,Western Europe,16008,2,3306620,3228636,224629,0,False,False,False,,False,全国道路・建物住所を取込済み。planned/non-official/番地なしを保持。自治体総数・道路ID参照・欠落自治体の独立照合が残る。
+DE,ドイツ,Western Europe,95177,0,0,0,0,0,False,False,False,,False,全国集約版の提供条件と州別公開を分けて確認。NRWの公開建物参照には郵便住所本文がない。州別INSPIRE/ALKISの必須属性・ID・取得条件を確認し、16州の欠落台帳を作る。
+FR,フランス,Western Europe,118710,96,25288623,25288623,,0,False,False,False,,False,96県のBANを全件取込・再照合済み。道路名は住所行に含む。独立した全道路・無番地道路の収録、COG現行階層との全コード照合が残る。
+GB,英国,Northern Europe,55594,0,0,0,0,0,False,False,False,,False,OS Open UPRNを完全住所と扱わない。公開道路・行政区を補強し、住所本文の利用条件を確認。北アイルランドを別途照合する。
+IE,アイルランド,Northern Europe,12202,0,0,0,0,0,False,False,False,,False,Tailteの行政区公開資料と公開道路を補強。全国ECAF/ECADは有償製品として提供され、公開データとの不足差分を確認する。
+LI,リヒテンシュタイン,Western Europe,377,2,12966,12966,1237,1,False,False,False,,False,公式住所・道路と名称付きAreaを取込済み。planned、公認外、全11自治体との照合、実道路総数の独立確認が残る。
+LU,ルクセンブルク,Western Europe,831,1,248634,238657,9963,0,False,False,False,,False,CACLR全13表を保持。current/ended・暫定・未定番地・別名を区別。旧行政区コードと現行行政区の照合、物理道路網との照合が残る。
+MC,モナコ,Western Europe,32,0,0,0,0,0,False,False,False,,False,周辺を含むOSM抽出を補強。国境バッファを正式なMC所属とみなさず、公式街区・道路・番地の台帳との照合が残る。
+NL,オランダ,Western Europe,8277,9,13377160,13377160,333946,21561,False,False,False,,False,"全国BAGのNUM全1,338 XML・OPR・WPLと補助書庫、CBSの342自治体・12州を取得・全件再照合済み。限定参照条件から外れる153行は別表で理由・候補を記録。主副住所の役割、物理道路、独立付番総数、細分区画・境界の照合が残る。"

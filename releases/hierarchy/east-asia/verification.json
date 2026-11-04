@@ -1,0 +1,176 @@
+{
+  "status": "PASS",
+  "meaning": "Source acquisition, complete selected-observation replay, explicit reference validation, native projection preservation, archive integrity, saved artifacts and CLI/tests passed. National completeness remains unverified.",
+  "reviewed_at": "2026-10-22",
+  "scope_codes": [
+    "CN",
+    "HK",
+    "JP",
+    "KP",
+    "KR",
+    "MN",
+    "MO",
+    "TW"
+  ],
+  "bulk_source_files": 17,
+  "original_bulk_source_bytes_verified": 5483554214,
+  "source_observation_counts": {
+    "OSM-CN": 8984663,
+    "OSM-HK": 275070,
+    "OSM-JP": 11218190,
+    "OSM-KP": 262280,
+    "OSM-KR": 2525230,
+    "OSM-MN": 211595,
+    "OSM-MO": 27804,
+    "OSM-TW": 10683783,
+    "JP-ABR-residential-OA": 21984066,
+    "HK-ALS-OA": 182122,
+    "TW-MOI-road-names-115": 35798,
+    "JP-Geolonia-towns": 277658,
+    "CN-statistical-provinces": 31,
+    "CN-statistical-cities": 342,
+    "CN-statistical-areas": 2978,
+    "CN-statistical-streets": 41352,
+    "CN-statistical-villages": 620573
+  },
+  "osm_extract_observations": {
+    "CN": {
+      "observations": 8984663,
+      "address_tags": 246498,
+      "house_number": 160130,
+      "interpolation": 228,
+      "administrative_tag": 128424,
+      "active_road_way": 8518735,
+      "named_road": 1655354
+    },
+    "HK": {
+      "observations": 275070,
+      "address_tags": 87217,
+      "house_number": 64508,
+      "administrative_tag": 292,
+      "interpolation": 57,
+      "active_road_way": 184203,
+      "named_road": 50247
+    },
+    "JP": {
+      "observations": 11218190,
+      "house_number": 260624,
+      "address_tags": 449398,
+      "administrative_tag": 97132,
+      "interpolation": 11,
+      "named_road": 695507,
+      "active_road_way": 10661600
+    },
+    "KP": {
+      "observations": 262280,
+      "address_tags": 580,
+      "house_number": 193,
+      "named_road": 3088,
+      "active_road_way": 259605,
+      "administrative_tag": 1783
+    },
+    "KR": {
+      "observations": 2525230,
+      "house_number": 525435,
+      "address_tags": 680903,
+      "administrative_tag": 17027,
+      "active_road_way": 1820504,
+      "named_road": 434702
+    },
+    "MN": {
+      "observations": 211595,
+      "address_tags": 85983,
+      "house_number": 6113,
+      "named_road": 6427,
+      "active_road_way": 123841,
+      "administrative_tag": 1732
+    },
+    "MO": {
+      "observations": 27804,
+      "house_number": 13191,
+      "address_tags": 13965,
+      "named_road": 5201,
+      "active_road_way": 13514,
+      "administrative_tag": 61
+    },
+    "TW": {
+      "observations": 10683783,
+      "house_number": 9811551,
+      "address_tags": 9821400,
+      "interpolation": 1007,
+      "administrative_tag": 32036,
+      "named_road": 294357,
+      "active_road_way": 825686
+    }
+  },
+  "source_replay": "source-replay.json",
+  "native_projection_replay": "projections.json",
+  "tw_nlsc": {
+    "status": "PASS",
+    "responses": 391,
+    "observations": 8377,
+    "ordered_rows_sha256": "635c4271a32db4633cc9730886d75a6c962927dc479d103b15b385ba9313cd54",
+    "implementation_sha256": "b098fafbf60c5c52d6e99345edb5ef8764aa60ed598eb48e65eb28607ec24b8a",
+    "named_village_references": 7781,
+    "unnamed_village_references": 206,
+    "parent_assignment": "API request binding; no prefix inference",
+    "legal_effective_date": null,
+    "atomic_snapshot": false,
+    "national_completeness_verified": false
+  },
+  "cn_explicit_parent_validation": "cn-explicit-parents.json",
+  "tests": {
+    "status": "PASS",
+    "distinct_tests": 332,
+    "details": "test-results.json"
+  },
+  "archive": {
+    "status": "PASS",
+    "manifest": "archive.json",
+    "sha256": "e73550bb61cc568adda166dc50146f61058ac020502b389681e95dec81a962df",
+    "bytes": 1249084307,
+    "parts": 3,
+    "verified_members": 458,
+    "sha256_and_zip_crc_verified": true,
+    "saved_files": [
+      {
+        "file": "EA_OpenData_20261022_README.md",
+        "status": "succeeded"
+      },
+      {
+        "file": "EA_OpenData_20261022.manifest.json",
+        "status": "succeeded"
+      },
+      {
+        "file": "EA_OpenData_20261022_01.zip",
+        "status": "succeeded"
+      },
+      {
+        "file": "EA_OpenData_20261022_02.zip",
+        "status": "succeeded"
+      },
+      {
+        "file": "EA_OpenData_20261022_03.zip",
+        "status": "succeeded"
+      }
+    ],
+    "original_osm_pbf_in_distribution": false,
+    "all_selected_native_osm_objects_preserved": true
+  },
+  "implementation_sha256": {
+    "east_asia_sources.py": "8f779a8bf40a05c5fad87004c165f84d7a871bfc0301b92e7a7eb3d277a30075",
+    "osm_evidence.py": "ba8599b7bd9cf448fd7f6644bba35e146520ef7e7d32167764be2e09816e5484"
+  },
+  "prepublication_partial_projection_detected_and_rebuilt": true,
+  "country_domain_pairs": 32,
+  "verified_complete_pairs": 0,
+  "remaining_pairs": 32,
+  "national_completeness_verified": false,
+  "world_completeness_verified": false,
+  "official_administrative_assignment_verified": false,
+  "house_numbers_are_issuing_authority_verified": false,
+  "extract_membership_is_legal_country_membership": false,
+  "way_or_relation_geometry_assembled": false,
+  "interpolation_expanded": false,
+  "deliverability_in_scope": false
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "purpose": "Sourced presentation corrections only: immutable preserved snapshot names remain unchanged.",
+  "entries": [
+    {
+      "country": "CA",
+      "state_code": "CA-NS",
+      "snapshot_name": "New Scotia",
+      "display_name_en": "Nova Scotia",
+      "evidence_url": "https://www150.statcan.gc.ca/n1/pub/72-212-x/2025001/sect4-eng.htm",
+      "evidence": "Statistics Canada 2025 geographical classification lists Nova Scotia; census province code 12.",
+      "status": "verified_presentation_correction"
+    }
+  ]
+}

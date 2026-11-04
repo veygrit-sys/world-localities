@@ -1,0 +1,18 @@
+{
+  "method": "NFKC and whitespace removal; label comparison only, not an official ID crosswalk",
+  "nlsc_town_references": 368,
+  "road_name_rows": 35798,
+  "road_site_labels": 361,
+  "town_labels_without_road_name_rows": [
+    "嘉義縣阿里山鄉",
+    "連江縣北竿鄉",
+    "連江縣南竿鄉",
+    "連江縣東引鄉",
+    "連江縣莒光鄉",
+    "金門縣烏坵鄉",
+    "高雄市那瑪夏區"
+  ],
+  "unmatched_road_site_labels": [],
+  "absence_is_not_evidence_of_no_physical_roads": true,
+  "national_completeness_verified": false
+}

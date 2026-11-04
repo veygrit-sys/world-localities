@@ -1,0 +1,90 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "PAN",
+    "country": "PA",
+    "geonames_continent": "NA",
+    "geonames_country_name": "Panama",
+    "geonames_id": "3703430",
+    "id": "country:PA",
+    "m49": "591",
+    "name_en": "Panama",
+    "numeric": "591",
+    "region": "Central America",
+    "reported_languages": [
+      "es-PA",
+      "en"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 13238,
+    "admin_rows": 775,
+    "ambiguous_parents": 0,
+    "country": "PA",
+    "country_scope_only": 0,
+    "localities_without_adm1": 0,
+    "locality_rows": 13267,
+    "name_en": "Panama",
+    "other_admin_rows": 1,
+    "region": "Central America",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 14,
+    "ADM2": 82,
+    "ADM3": 679,
+    "PCLI": 1,
+    "PPL": 11398,
+    "PPLA": 12,
+    "PPLA2": 55,
+    "PPLA3": 456,
+    "PPLC": 1,
+    "PPLL": 9,
+    "PPLQ": 27,
+    "PPLW": 2,
+    "PPLX": 1307
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 550476,
+      "rows": 14043,
+      "sha256": "b008c15f8ccd22d6e7f8a99a921515e59e7de21f879596a5bf731186dfcf4191",
+      "uncompressed_sha256": "d7252021574e1da786ba8ca71c2c3d6fc41465dc179c9338ac9c7b36758d3f71"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 14028,
+    "source_country": 14
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 14,
+      "sha256": "60398d0013a862e7f429a10ef74221c709d5275269d7383d87e7738b8f16b364"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 931930,
+    "discarded_feature_classes": {
+      "H": 8776,
+      "L": 661,
+      "R": 19,
+      "S": 3180,
+      "T": 4590
+    },
+    "retained_rows": 14043,
+    "retrieved_on": "2026-10-01",
+    "sha256": "e3e6308a2c46c35eb01a2add6cc61906386a7edb4db55f87eb573de15a7c69f9",
+    "source_rows": 31269,
+    "url": "https://download.geonames.org/export/dump/PA.zip"
+  },
+  "source_modified_max": "2026-09-21",
+  "source_modified_min": "1993-12-23"
+}

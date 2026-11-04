@@ -1,0 +1,157 @@
+{
+  "format": "zip-wrapped-byte-parts-v1",
+  "archive_name": "CA_OSM_20261022.zip",
+  "archive_bytes": 2525895834,
+  "archive_sha256": "cfc80463d953dc6a4e04754c19ea03e469d0763aa3dd74dbf2b01a2d898e2235",
+  "parts": [
+    {
+      "file": "CA_OSM_20261022_01.zip",
+      "bytes": 471859364,
+      "sha256": "bc4a79f797d9ca90661aef3ea1618aeaeeab6f0a0b10be07173a3e9e57ab6a41",
+      "member": "CA_OSM_20261022.zip.001",
+      "member_bytes": 471859200
+    },
+    {
+      "file": "CA_OSM_20261022_02.zip",
+      "bytes": 471859364,
+      "sha256": "e24dd933d99e6a71a6dc3f3bc44ab5a3fdf01d0ae6be41e7b7fa2219bdd548e8",
+      "member": "CA_OSM_20261022.zip.002",
+      "member_bytes": 471859200
+    },
+    {
+      "file": "CA_OSM_20261022_03.zip",
+      "bytes": 471859364,
+      "sha256": "0baa5f6dad2f7f40d22f12efe2bf6650de7dc0080093e55e8c052037a8963cdb",
+      "member": "CA_OSM_20261022.zip.003",
+      "member_bytes": 471859200
+    },
+    {
+      "file": "CA_OSM_20261022_04.zip",
+      "bytes": 471859364,
+      "sha256": "f61c09da19b4e0dd08f718fd72f56203dfea0e3dde15e5a860efe8ca8d2102b5",
+      "member": "CA_OSM_20261022.zip.004",
+      "member_bytes": 471859200
+    },
+    {
+      "file": "CA_OSM_20261022_05.zip",
+      "bytes": 471859364,
+      "sha256": "5780bc4e825088b814b221d50b7cd9aa1940194a6de5681acdb4eb330f0b8f99",
+      "member": "CA_OSM_20261022.zip.005",
+      "member_bytes": 471859200
+    },
+    {
+      "file": "CA_OSM_20261022_06.zip",
+      "bytes": 166599998,
+      "sha256": "7ca06949b0aa1453b5062c24d41748a592f39bace6eb74818577df0a4e94f64a",
+      "member": "CA_OSM_20261022.zip.006",
+      "member_bytes": 166599834
+    }
+  ],
+  "contents": [
+    {
+      "file": "sources/BZ.osm.pbf",
+      "bytes": 18276303,
+      "sha256": "dc2157d616d286e03f82af41b697b30c930cfd0dce0fc3e7ffb65cee12077361"
+    },
+    {
+      "file": "sources/CR.osm.pbf",
+      "bytes": 39102133,
+      "sha256": "cd3379db91b6d728529cd55885248a6deb04fee2e1d70e2ea463f6793929e9fd"
+    },
+    {
+      "file": "sources/GT.osm.pbf",
+      "bytes": 131378084,
+      "sha256": "c1c70bb273dd08d263e60370e37fa5a9ae6298bf4357b2c996a7d4a3528b5639"
+    },
+    {
+      "file": "sources/HN.osm.pbf",
+      "bytes": 74365286,
+      "sha256": "f28e1301e61d89b01237148e0a6d2cb8cdbbb12c2b555b9051da5f4e1cbfd327"
+    },
+    {
+      "file": "sources/MX.osm.pbf",
+      "bytes": 647294299,
+      "sha256": "239794a0c709e2ad03409c420d5925a11bd2958dd4aff7acaa86fac40045ac3c"
+    },
+    {
+      "file": "sources/NI.osm.pbf",
+      "bytes": 61851066,
+      "sha256": "99b87bd83e061985ca00533718a309301ae8cda0a5a4e473fc686cded0d90455"
+    },
+    {
+      "file": "sources/PA.osm.pbf",
+      "bytes": 36387813,
+      "sha256": "2bfe8579d7cdeb62ba68c871927766d26c1be4ff260833e56020fc20000b94b2"
+    },
+    {
+      "file": "sources/SV.osm.pbf",
+      "bytes": 35181437,
+      "sha256": "8fff9c8ec474e0aa93ca8363aa6feec331efe1e57785cea185aedcfe14a1a36f"
+    },
+    {
+      "file": "evidence/BZ.osm-evidence.jsonl.gz",
+      "bytes": 10457660,
+      "sha256": "b18a89132155d6043b02e612d84f471279e7bbab18edbc14e1467d58549fb7f8"
+    },
+    {
+      "file": "evidence/CR.osm-evidence.jsonl.gz",
+      "bytes": 51745792,
+      "sha256": "1915ea11efadd468f646444aad8166db8eee5ea5ba926bc9684d5ed298fcfe26"
+    },
+    {
+      "file": "evidence/GT.osm-evidence.jsonl.gz",
+      "bytes": 96812804,
+      "sha256": "8512c607618e92b8452b40ad90d1fc4bf1e84f5588f08a7092c650ae8e850c99"
+    },
+    {
+      "file": "evidence/HN.osm-evidence.jsonl.gz",
+      "bytes": 58695351,
+      "sha256": "c540cf082103a7dc60ed70fb9470d76af494408fd431e36d45e23e6eb64cf00a"
+    },
+    {
+      "file": "evidence/MX.osm-evidence.jsonl.gz",
+      "bytes": 1161299643,
+      "sha256": "9be390d4462427467e5af80fef34d8d46cf14266b06a495dd2801fe22cadb5a9"
+    },
+    {
+      "file": "evidence/NI.osm-evidence.jsonl.gz",
+      "bytes": 36920678,
+      "sha256": "e292e8675f1df95288ad1b858c64c1f4fff4db6f16b7d9ed39559d227ce0b6c4"
+    },
+    {
+      "file": "evidence/PA.osm-evidence.jsonl.gz",
+      "bytes": 33178722,
+      "sha256": "1b71b42a262d0cda21b0c3f0a9a3aaa8cde1f56a316c1e97a35fa4bdcec85d71"
+    },
+    {
+      "file": "evidence/SV.osm-evidence.jsonl.gz",
+      "bytes": 31825825,
+      "sha256": "5c08414c20af3648f01a9fd9c8952b13c1ef72d8e1a9b53417d97ff06bccb7c2"
+    },
+    {
+      "file": "evidence/index.json",
+      "bytes": 6749,
+      "sha256": "97ba468e2a9cce9005a0a484d70de1c7c1ce69ed8f1dddd51fee75be27de94a4"
+    },
+    {
+      "file": "source-manifest.json",
+      "bytes": 8831,
+      "sha256": "8365439365a31799140dc112e63c7e492eee9587efc7fc54665b9bcb35ba2ca4"
+    },
+    {
+      "file": "mexico-address-reference/MX-address-quality.json",
+      "bytes": 7497,
+      "sha256": "3d269484bf5c1a43784b803e16409f2634657c62a63660c66a488ddcc1d33198"
+    },
+    {
+      "file": "mexico-address-reference/MX-address-receipt.json",
+      "bytes": 997,
+      "sha256": "f5fc148f25498c26bfb01279fbb3ea92ede88d8f524ba791680535fb76380b1c"
+    },
+    {
+      "file": "mexico-address-reference/INEGI-free-use-terms.pdf",
+      "bytes": 1093901,
+      "sha256": "647a8f64ed703b93ecc541f39fb7c08dbe445cb704ee78e69036ce5ef711b8a4"
+    }
+  ]
+}

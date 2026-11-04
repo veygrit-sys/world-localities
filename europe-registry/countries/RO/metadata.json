@@ -1,0 +1,104 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "ROU",
+    "country": "RO",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Romania",
+    "geonames_id": "798549",
+    "id": "country:RO",
+    "m49": "642",
+    "m49_region": "Europe",
+    "name_en": "Romania",
+    "region": "Eastern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 18238,
+    "admin_rows": 3229,
+    "ambiguous_parents": 0,
+    "country": "RO",
+    "country_scope_only": 2,
+    "localities_without_adm1": 8,
+    "locality_rows": 18247,
+    "name_en": "Romania",
+    "other_admin_rows": 6,
+    "region": "Eastern Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 42,
+    "ADM1H": 6,
+    "ADM2": 3181,
+    "ADM3": 6,
+    "PPL": 12393,
+    "PPLA": 39,
+    "PPLA2": 2988,
+    "PPLC": 1,
+    "PPLCH": 1,
+    "PPLF": 2,
+    "PPLH": 2,
+    "PPLL": 4,
+    "PPLQ": 2,
+    "PPLR": 1,
+    "PPLW": 1,
+    "PPLX": 2813
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 1044951,
+      "rows": 20000,
+      "sha256": "7182ece18c6167da8c7b2b589f6c910d484619b84a732150559407396ce01bc0",
+      "uncompressed_sha256": "4a2a07fb02fa7f504b2b2d5c3db2660e07579a7e4d1ed4eb7e86a4e199124356"
+    },
+    "entities-0002.csv.gz": {
+      "bytes": 80814,
+      "rows": 1482,
+      "sha256": "e5f46228182b97a20c1ab5c6ffe53f1ecbb4787108fdc19b0501c11631702550",
+      "uncompressed_sha256": "a2141ee943a67b12ce90979f71b6149ac956c991b5b0902e7ea126d52b777659"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 2,
+    "historical_parent_not_asserted": 12,
+    "source_admin_code": 21426,
+    "source_country": 42
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 42,
+      "sha256": "00ad8ca38c9c5928be89b65f1378de44ecfd1757493af266d327017eb0033482"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 59931,
+    "bytes": 2002628,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 7928,
+      "L": 4762,
+      "R": 17,
+      "S": 11737,
+      "T": 12028,
+      "V": 1976
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:56:04 GMT",
+    "retained_rows": 21482,
+    "retrieved_at": "2026-09-29T11:14:34.810982+00:00",
+    "sha256": "e31d3fdab6682786346ec729a51b043d456e25b97130d0ba8b3644881be8ea34",
+    "url": "https://download.geonames.org/export/dump/RO.zip"
+  },
+  "source_modified_max": "2026-09-22",
+  "source_modified_min": "1994-01-04"
+}

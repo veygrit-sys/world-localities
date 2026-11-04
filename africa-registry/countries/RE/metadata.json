@@ -1,0 +1,85 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "REU",
+    "country": "RE",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Reunion",
+    "geonames_id": "935317",
+    "id": "country:RE",
+    "m49": "638",
+    "name_en": "Réunion",
+    "numeric": "638",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 783,
+    "admin_rows": 30,
+    "ambiguous_parents": 0,
+    "country": "RE",
+    "country_scope_only": 432,
+    "localities_without_adm1": 432,
+    "locality_rows": 783,
+    "name_en": "Réunion",
+    "other_admin_rows": 1,
+    "region": "Eastern Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 1,
+    "ADM2": 1,
+    "ADM3": 4,
+    "ADM4": 24,
+    "PCLD": 1,
+    "PPL": 706,
+    "PPLA4": 2,
+    "PPLC": 1,
+    "PPLL": 2,
+    "PPLX": 72
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 30962,
+      "rows": 814,
+      "sha256": "75b9bbcc7dc2a4145685f55fd7b1659e2fedda17cd229c57fe576b91e78ea984",
+      "uncompressed_sha256": "303f34631a8ad9e6c9143b062a57d8fa0e684b8de4427462af6a4bfec98e18be"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 432,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 380,
+    "source_country": 1
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 1,
+      "sha256": "da86a5c6222bbbddc8554e95a72ac41691def41bb55240fd79ff6a4e34e307c0"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 68388,
+    "discarded_feature_classes": {
+      "H": 438,
+      "L": 85,
+      "R": 5,
+      "S": 206,
+      "T": 539,
+      "V": 36
+    },
+    "retained_rows": 814,
+    "retrieved_on": "2026-09-26",
+    "sha256": "c8037850acda02d100df216a1a32f1df179ea86517727edb0c677ff3948ee24b",
+    "source_rows": 2123,
+    "url": "https://download.geonames.org/export/dump/RE.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1993-12-22"
+}

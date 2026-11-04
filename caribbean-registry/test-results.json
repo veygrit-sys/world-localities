@@ -1,0 +1,19 @@
+{
+  "countries": 27,
+  "entity_integrity": "passed",
+  "exact_source_archive_fidelity": "passed",
+  "failures": 0,
+  "m49_scope_count": 28,
+  "not_verified": [
+    "current legal administrative hierarchy",
+    "source truth and complete municipality coverage",
+    "full native/English coverage",
+    "complete postal coverage or deliverability"
+  ],
+  "omitted_countries": [
+    "CU"
+  ],
+  "query_smoke": "AG ADM1 returns source IDs and original Unicode labels",
+  "unit_tests": 13,
+  "verified_on": "2026-10-01"
+}

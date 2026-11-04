@@ -1,0 +1,99 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "NLD",
+    "country": "NL",
+    "geonames_continent": "EU",
+    "geonames_country_name": "The Netherlands",
+    "geonames_id": "2750405",
+    "id": "country:NL",
+    "m49": "528",
+    "m49_region": "Europe",
+    "name_en": "Netherlands (Kingdom of the)",
+    "region": "Western Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 7786,
+    "admin_rows": 370,
+    "ambiguous_parents": 0,
+    "country": "NL",
+    "country_scope_only": 1,
+    "localities_without_adm1": 15,
+    "locality_rows": 7805,
+    "name_en": "Netherlands (Kingdom of the)",
+    "other_admin_rows": 102,
+    "region": "Western Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 12,
+    "ADM2": 342,
+    "ADM2H": 101,
+    "ADM3": 16,
+    "ADMD": 1,
+    "PPL": 6734,
+    "PPLA": 11,
+    "PPLA2": 15,
+    "PPLC": 1,
+    "PPLCH": 1,
+    "PPLF": 1,
+    "PPLG": 1,
+    "PPLH": 13,
+    "PPLL": 228,
+    "PPLS": 4,
+    "PPLX": 796
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 384197,
+      "rows": 8277,
+      "sha256": "9124dde2de1bb94332b0017c3b652b469ed22709817765f6a49afb7a28349b4a",
+      "uncompressed_sha256": "afa3d6b881a2488bcfab5926093f822ed013e5a3c364ba091ee38873461b5fc7"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 1,
+    "historical_parent_not_asserted": 115,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 8148,
+    "source_country": 12
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 12,
+      "sha256": "b48b07f81009e64d49f315896e3cfe37ab66cb1905d664889138399566d4469c"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 22950,
+    "bytes": 726300,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 3034,
+      "L": 2058,
+      "R": 273,
+      "S": 6739,
+      "T": 1973,
+      "V": 595
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:55:20 GMT",
+    "retained_rows": 8277,
+    "retrieved_at": "2026-09-29T11:14:26.410373+00:00",
+    "sha256": "84b94e0f22ef883b44f6f4639dcceb20515475c85959d15b33dbd3607c326486",
+    "url": "https://download.geonames.org/export/dump/NL.zip"
+  },
+  "source_modified_max": "2026-09-26",
+  "source_modified_min": "1994-01-08"
+}

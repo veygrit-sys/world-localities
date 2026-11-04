@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-22",
+  "scope_codes": [
+    "CN",
+    "HK",
+    "JP",
+    "KP",
+    "KR",
+    "MN",
+    "MO",
+    "TW"
+  ],
+  "scope_is_source_operation_not_a_sovereignty_claim": true,
+  "countries": [
+    {
+      "country_code": "CN",
+      "source_ids": [
+        "OSM-CN",
+        "CN-statistical-provinces",
+        "CN-statistical-cities",
+        "CN-statistical-areas",
+        "CN-statistical-streets",
+        "CN-statistical-villages"
+      ],
+      "domains": {
+        "administrative_divisions": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "2023 statistical reference and OSM; current official complete inventory not verified"
+        },
+        "address_streets": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "2023 statistical reference and OSM; current official complete inventory not verified"
+        },
+        "physical_roads": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "2023 statistical reference and OSM; current official complete inventory not verified"
+        },
+        "assigned_house_numbers": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "2023 statistical reference and OSM; current official complete inventory not verified"
+        }
+      }
+    },
+    {
+      "country_code": "HK",
+      "source_ids": [
+        "OSM-HK",
+        "HK-ALS-OA"
+      ],
+      "domains": {
+        "administrative_divisions": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "ALS is explicitly non-exhaustive; OSM is supplementary"
+        },
+        "address_streets": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "ALS is explicitly non-exhaustive; OSM is supplementary"
+        },
+        "physical_roads": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "ALS is explicitly non-exhaustive; OSM is supplementary"
+        },
+        "assigned_house_numbers": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "ALS is explicitly non-exhaustive; OSM is supplementary"
+        }
+      }
+    },
+    {
+      "country_code": "JP",
+      "source_ids": [
+        "OSM-JP",
+        "JP-ABR-residential-OA",
+        "JP-Geolonia-towns"
+      ],
+      "domains": {
+        "administrative_divisions": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "Residential-position subset plus town-location references; complete issuer register not acquired"
+        },
+        "address_streets": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "Residential-position subset plus town-location references; complete issuer register not acquired"
+        },
+        "physical_roads": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "Residential-position subset plus town-location references; complete issuer register not acquired"
+        },
+        "assigned_house_numbers": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "Residential-position subset plus town-location references; complete issuer register not acquired"
+        }
+      }
+    },
+    {
+      "country_code": "KP",
+      "source_ids": [
+        "OSM-KP"
+      ],
+      "domains": {
+        "administrative_divisions": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "OSM observations; national issuer inventory unavailable in this acquisition"
+        },
+        "address_streets": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "OSM observations; national issuer inventory unavailable in this acquisition"
+        },
+        "physical_roads": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "OSM observations; national issuer inventory unavailable in this acquisition"
+        },
+        "assigned_house_numbers": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "OSM observations; national issuer inventory unavailable in this acquisition"
+        }
+      }
+    },
+    {
+      "country_code": "KR",
+      "source_ids": [
+        "OSM-KR"
+      ],
+      "domains": {
+        "administrative_divisions": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "OSM observations; official nationwide bulk address register not acquired"
+        },
+        "address_streets": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "OSM observations; official nationwide bulk address register not acquired"
+        },
+        "physical_roads": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "OSM observations; official nationwide bulk address register not acquired"
+        },
+        "assigned_house_numbers": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "OSM observations; official nationwide bulk address register not acquired"
+        }
+      }
+    },
+    {
+      "country_code": "MN",
+      "source_ids": [
+        "OSM-MN"
+      ],
+      "domains": {
+        "administrative_divisions": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "OSM observations; official current denominators not verified"
+        },
+        "address_streets": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "OSM observations; official current denominators not verified"
+        },
+        "physical_roads": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "OSM observations; official current denominators not verified"
+        },
+        "assigned_house_numbers": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "OSM observations; official current denominators not verified"
+        }
+      }
+    },
+    {
+      "country_code": "MO",
+      "source_ids": [
+        "OSM-MO"
+      ],
+      "domains": {
+        "administrative_divisions": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "OSM observations; official current denominators not verified"
+        },
+        "address_streets": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "OSM observations; official current denominators not verified"
+        },
+        "physical_roads": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "OSM observations; official current denominators not verified"
+        },
+        "assigned_house_numbers": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "OSM observations; official current denominators not verified"
+        }
+      }
+    },
+    {
+      "country_code": "TW",
+      "source_ids": [
+        "OSM-TW",
+        "TW-MOI-road-names-115",
+        "TW-NLSC"
+      ],
+      "domains": {
+        "administrative_divisions": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "API code replies, road-name list and OSM; current legal inventory and all assigned numbers not verified"
+        },
+        "address_streets": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "API code replies, road-name list and OSM; current legal inventory and all assigned numbers not verified"
+        },
+        "physical_roads": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "API code replies, road-name list and OSM; current legal inventory and all assigned numbers not verified"
+        },
+        "assigned_house_numbers": {
+          "national_completeness_verified": false,
+          "denominator": null,
+          "coverage_ratio": null,
+          "status": "partial_source_coverage",
+          "reason": "API code replies, road-name list and OSM; current legal inventory and all assigned numbers not verified"
+        }
+      }
+    }
+  ],
+  "target_domains": [
+    "administrative_divisions",
+    "address_streets",
+    "physical_roads",
+    "assigned_house_numbers"
+  ],
+  "country_domain_pairs": 32,
+  "verified_complete_pairs": 0,
+  "remaining_pairs": 32,
+  "national_completeness_verified": false,
+  "world_completeness_verified": false,
+  "deliverability_in_scope": false,
+  "interpolation_expanded": false,
+  "raw_counts_are_source_observations_not_unique_official_totals": true
+}

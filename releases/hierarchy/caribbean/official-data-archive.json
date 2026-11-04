@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "region": "caribbean",
+  "archives": [
+    {
+      "name": "Caribbean_Official_Source_Data_20261022.zip",
+      "bytes": 38718869,
+      "sha256": "6320ec7eb9c03f83a491bff807c521c3ecf7378f96b97c58505754838d339e5e",
+      "files": 88,
+      "roots": [
+        "Caribbean_Official_Source_Data_20261022"
+      ]
+    }
+  ],
+  "sources": 85,
+  "data_only": true,
+  "code_repository": "https://github.com/rei-k/world-localities",
+  "complete": false,
+  "deliverability_in_scope": false
+}

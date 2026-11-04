@@ -1,0 +1,89 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "LIE",
+    "country": "LI",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Liechtenstein",
+    "geonames_id": "3042058",
+    "id": "country:LI",
+    "m49": "438",
+    "m49_region": "Europe",
+    "name_en": "Liechtenstein",
+    "region": "Western Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 361,
+    "admin_rows": 11,
+    "ambiguous_parents": 0,
+    "country": "LI",
+    "country_scope_only": 1,
+    "localities_without_adm1": 1,
+    "locality_rows": 361,
+    "name_en": "Liechtenstein",
+    "other_admin_rows": 5,
+    "region": "Western Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 11,
+    "ADMD": 5,
+    "PPL": 39,
+    "PPLA": 10,
+    "PPLC": 1,
+    "PPLL": 17,
+    "PPLX": 294
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 14219,
+      "rows": 377,
+      "sha256": "9bf014293e8de41c19eec06fea83ccbd6cdfed93acea61feef6d1e4b72f0862c",
+      "uncompressed_sha256": "a6452b800963779e4fbb450da6b45b6c7c9129ada446c096bf2698914926a187"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 1,
+    "not_assigned_for_other_feature": 5,
+    "source_admin_code": 360,
+    "source_country": 11
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 11,
+      "sha256": "9c3da78e1dbca63fa303e2249802854b62e58fc08902c8a7ff2ae629e8bce4c0"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 1847,
+    "bytes": 52203,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 111,
+      "L": 50,
+      "R": 3,
+      "S": 79,
+      "T": 749,
+      "V": 477
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:54:40 GMT",
+    "retained_rows": 377,
+    "retrieved_at": "2026-09-29T11:14:09.834401+00:00",
+    "sha256": "bd43a15a1d1b3719d29600a576779f8d44171e489476b0ebf1ddd63beb2b899e",
+    "url": "https://download.geonames.org/export/dump/LI.zip"
+  },
+  "source_modified_max": "2026-05-14",
+  "source_modified_min": "2008-07-25"
+}

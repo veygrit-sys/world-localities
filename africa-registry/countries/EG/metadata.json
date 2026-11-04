@@ -1,0 +1,94 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "EGY",
+    "country": "EG",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Egypt",
+    "geonames_id": "357994",
+    "id": "country:EG",
+    "m49": "818",
+    "name_en": "Egypt",
+    "numeric": "818",
+    "region": "Northern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 12045,
+    "admin_rows": 166,
+    "ambiguous_parents": 0,
+    "country": "EG",
+    "country_scope_only": 22,
+    "localities_without_adm1": 22,
+    "locality_rows": 12088,
+    "name_en": "Egypt",
+    "other_admin_rows": 36,
+    "region": "Northern Africa",
+    "unresolved_parents": 1
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 27,
+    "ADM1H": 1,
+    "ADM2": 138,
+    "ADM3": 1,
+    "ADMD": 32,
+    "PCLI": 1,
+    "PPL": 11569,
+    "PPLA": 26,
+    "PPLA2": 8,
+    "PPLC": 1,
+    "PPLF": 35,
+    "PPLH": 2,
+    "PPLL": 7,
+    "PPLQ": 5,
+    "PPLW": 1,
+    "PPLX": 434,
+    "ZN": 2
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 724699,
+      "rows": 12290,
+      "sha256": "dd0086bb896cb333d51c84ff720fa958b597567c1b7ae2b741dcfd3d37045fc2",
+      "uncompressed_sha256": "3b68d27fae7129e31d2fb3ea5ce15414c0781fba1452d9a1f9683950b3584f61"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 22,
+    "missing_code": 1,
+    "not_assigned_for_other_feature": 36,
+    "source_admin_code": 12204,
+    "source_country": 27
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 27,
+      "sha256": "4a07599cbaab598d747f9fca672220c41408ab145b59377c70c61dfa2d9d593f"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 1858996,
+    "discarded_feature_classes": {
+      "H": 8188,
+      "L": 889,
+      "R": 289,
+      "S": 8522,
+      "T": 4757,
+      "U": 2,
+      "V": 89
+    },
+    "retained_rows": 12290,
+    "retrieved_on": "2026-09-26",
+    "sha256": "4ce82a6d1312382e11d037fce6edfe6150b5481f037a556f65e49f92f614b418",
+    "source_rows": 35026,
+    "url": "https://download.geonames.org/export/dump/EG.zip"
+  },
+  "source_modified_max": "2026-09-23",
+  "source_modified_min": "1993-12-08"
+}

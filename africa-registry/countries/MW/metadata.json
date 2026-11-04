@@ -1,0 +1,88 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "MWI",
+    "country": "MW",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Malawi",
+    "geonames_id": "927384",
+    "id": "country:MW",
+    "m49": "454",
+    "name_en": "Malawi",
+    "numeric": "454",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 7980,
+    "admin_rows": 35,
+    "ambiguous_parents": 0,
+    "country": "MW",
+    "country_scope_only": 14,
+    "localities_without_adm1": 14,
+    "locality_rows": 7980,
+    "name_en": "Malawi",
+    "other_admin_rows": 2,
+    "region": "Eastern Africa",
+    "unresolved_parents": 3
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 3,
+    "ADM2": 28,
+    "ADM3": 4,
+    "ADMD": 1,
+    "PCLI": 1,
+    "PPL": 7925,
+    "PPLA": 2,
+    "PPLA2": 26,
+    "PPLA3": 1,
+    "PPLC": 1,
+    "PPLL": 2,
+    "PPLX": 23
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 245863,
+      "rows": 8017,
+      "sha256": "295755ec02390795cf2fc51fddd7e780cd1ecace8e93eaa8cf36f80a3d6674dd",
+      "uncompressed_sha256": "34659577d9a33265c5da67f52f2be94212fed4f2371a18a3c8578ed4228ffa78"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 14,
+    "missing_code": 3,
+    "not_assigned_for_other_feature": 2,
+    "source_admin_code": 7995,
+    "source_country": 3
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 3,
+      "sha256": "7a1bb8b6b039704528430d360b2e56af7ac68af9bf89f42476f855c6539b53d8"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 343489,
+    "discarded_feature_classes": {
+      "H": 2655,
+      "L": 106,
+      "R": 59,
+      "S": 876,
+      "T": 1580,
+      "V": 4
+    },
+    "retained_rows": 8017,
+    "retrieved_on": "2026-09-26",
+    "sha256": "0cc88293c7f945712a252af25fb0bc47a3d604612dbf6081aadadb8fbfc1e75e",
+    "source_rows": 13297,
+    "url": "https://download.geonames.org/export/dump/MW.zip"
+  },
+  "source_modified_max": "2026-08-30",
+  "source_modified_min": "1993-12-23"
+}

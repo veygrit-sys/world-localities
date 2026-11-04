@@ -1,0 +1,68 @@
+{
+  "archive_bytes": 71845,
+  "archive_sha256": "bb40cbea34eac3faa0969f34607364e6c6a3b76ac543d6f39df13a8f49910fd6",
+  "parts": [
+    {
+      "path": "countries/TV/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 95797,
+      "stored_sha256": "c5d3602e0e5f73369b6259a3d0c8720e39e9d96d80a7e85ad5581a8e597b983c",
+      "bytes": 71845,
+      "sha256": "bb40cbea34eac3faa0969f34607364e6c6a3b76ac543d6f39df13a8f49910fd6"
+    }
+  ],
+  "members": {
+    "base/data/polynesia/TV/index.json": {
+      "bytes": 2645,
+      "sha256": "1bf4ec8054845ae451f2891b2600027ad039baaac31c8e6bbd9c8005847ca3b8"
+    },
+    "base/data/polynesia/TV/places.csv": {
+      "bytes": 24081,
+      "sha256": "4ea98ae9d2ef24c32d56379289b1713f3607a8660ec8cbf629ad8e64fefe686f"
+    },
+    "base/data/polynesia/TV/places.jsonl": {
+      "bytes": 43766,
+      "sha256": "bb6d60a1a1725ef647fc991b22f5a46a855d9fb5c0220de3c4ef8249f03b1eb9"
+    },
+    "base/sources/geonames/TV.zip": {
+      "bytes": 18747,
+      "sha256": "f551720330e26a7be3929066fe50db9a9b2411272088fd48b2fac6c5176535b5"
+    },
+    "base/sources/geonames/TV.zip.download.json": {
+      "bytes": 304,
+      "sha256": "7f114b1fd4de55f73cc08e8684b9ef2fb6127f815c667dc734cb83870e1c6094"
+    },
+    "locale/names.csv": {
+      "bytes": 98366,
+      "sha256": "c57c99db538f1ad762c1764501ea6955076e18ead80e9b0d4ed6820d73b62a3f"
+    },
+    "locale/names.jsonl": {
+      "bytes": 218567,
+      "sha256": "8b8d40baba3ada8b4ad62d8f2681be9f39aa09429ab79926605264739e06728c"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 3,
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "locale/sources/address-templates/TV.json": {
+      "bytes": 280,
+      "sha256": "d74bca3251524ddd002eacb69c809fbe17039caac77d8879deec0ccdbe6d280a"
+    },
+    "locale/sources/address-templates/TV.json.download.json": {
+      "bytes": 271,
+      "sha256": "895816696954264a6699b2afdbd3baccc5f50d66f834093b92cb0c414aeae31b"
+    },
+    "locale/sources/alternatenames/TV.zip": {
+      "bytes": 15887,
+      "sha256": "5cc43f2c5cc731092ec44017d9f7e23cba7684d04de31b9357ab629c7a34793f"
+    },
+    "locale/sources/alternatenames/TV.zip.download.json": {
+      "bytes": 283,
+      "sha256": "8db7e06e88e98716563ab363d608bb85070a101f27363c4d2d6f10a924e78c9c"
+    }
+  }
+}

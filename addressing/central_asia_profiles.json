@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "region": "Central Asia",
+  "reviewed_at": "2026-10-16",
+  "purpose": "Native-language and English address display profiles with explicit script and evidence status; not an address-existence or deliverability claim.",
+  "overrides": [
+    "KG",
+    "KZ",
+    "TJ",
+    "TM",
+    "UZ"
+  ],
+  "countries": {
+    "KG": {
+      "native_languages": ["ky-Cyrl", "ru"],
+      "default_native_language": "ky-Cyrl",
+      "native_profile": "KG_ky",
+      "native_profiles": {
+        "ky-Cyrl": "KG_ky",
+        "ru": "KG_ru"
+      },
+      "native_scripts": {
+        "ky-Cyrl": "Cyrl",
+        "ru": "Cyrl"
+      },
+      "english_profile": "KG_en",
+      "country_names": {
+        "ky-Cyrl": "Кыргызстан",
+        "ru": "Кыргызстан",
+        "en": "Kyrgyzstan"
+      },
+      "romanization_policy": "International English output requires Kyrgyz Post, another authority, or the user to supply the Latin form. Kyrgyz and Russian remain distinct even though both use Cyrillic.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "Kyrgyz Post",
+          "url": "https://post.kg/language/ru/chasto-zadavaemye-voprosy/",
+          "scope": "Current required recipient, street, house, apartment, locality, district, region, country, post-office-box and postcode elements; domestic state or official language and international Latin-letter guidance"
+        },
+        {
+          "authority": "Universal Postal Union and Kyrgyz Post",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/kgzEn.pdf",
+          "scope": "Six-digit postcode position and urban, rural and post-office delivery formats"
+        }
+      ]
+    },
+    "KZ": {
+      "native_languages": ["kk-Cyrl", "ru"],
+      "default_native_language": "kk-Cyrl",
+      "native_profile": "KZ_kk",
+      "native_profiles": {
+        "kk-Cyrl": "KZ_kk",
+        "ru": "KZ_ru"
+      },
+      "native_scripts": {
+        "kk-Cyrl": "Cyrl",
+        "ru": "Cyrl"
+      },
+      "english_profile": "KZ_en",
+      "country_names": {
+        "kk-Cyrl": "Қазақстан",
+        "ru": "Казахстан",
+        "en": "Kazakhstan"
+      },
+      "romanization_policy": "Use QazPost addressLat or another authority-backed or user-confirmed Latin value for English output. The API's Russian-derived Latin form is provenance-bearing transliteration and must not replace stored Kazakh or Russian values.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "QazPost Open API",
+          "url": "https://open.post.kz/services/details/26",
+          "scope": "Building-level seven-character postcode lookup with separate Kazakh, Russian and Russian-derived Latin address fields"
+        },
+        {
+          "authority": "Universal Postal Union and QazPost",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/kazEn.pdf",
+          "scope": "Coexisting seven-character alphanumeric and transitional six-digit numeric postcode formats, locality position and urban and rural address order"
+        }
+      ]
+    },
+    "TJ": {
+      "native_languages": ["tg-Cyrl", "ru"],
+      "default_native_language": "tg-Cyrl",
+      "native_profile": "TJ_tg",
+      "native_profiles": {
+        "tg-Cyrl": "TJ_tg",
+        "ru": "TJ_ru"
+      },
+      "native_scripts": {
+        "tg-Cyrl": "Cyrl",
+        "ru": "Cyrl"
+      },
+      "english_profile": "TJ_en",
+      "country_names": {
+        "tg-Cyrl": "Тоҷикистон",
+        "ru": "Таджикистан",
+        "en": "Tajikistan"
+      },
+      "romanization_policy": "English output requires Tajik Post, another authority, or a user-confirmed Latin spelling. Tajik and Russian values are stored independently and are not inferred from shared Cyrillic script.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "Tajik Post",
+          "url": "https://tajikpost.tj/ru/%D0%BF%D0%B5%D1%80%D0%B5%D1%87%D0%B5%D0%BD%D1%8C-%D0%BF%D0%BE%D1%87%D1%82%D0%BE%D0%B2%D1%8B%D1%85-%D0%B8%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%BE%D0%B2-%D1%82%D0%B0%D0%B4%D0%B6%D0%B8%D0%BA%D0%B8%D1%81%D1%82%D0%B0/",
+          "scope": "Current official postcode list for provinces, cities, districts and settlements"
+        },
+        {
+          "authority": "Universal Postal Union and Tajik Post",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/tjkEn.pdf",
+          "scope": "Six-digit postcode to the left of the locality and international address order"
+        }
+      ]
+    },
+    "TM": {
+      "native_languages": ["tk-Latn"],
+      "default_native_language": "tk-Latn",
+      "native_profile": "TM_tk",
+      "native_profiles": {
+        "tk-Latn": "TM_tk"
+      },
+      "native_scripts": {
+        "tk-Latn": "Latn"
+      },
+      "english_profile": "TM_en",
+      "country_names": {
+        "tk-Latn": "Türkmenistan",
+        "en": "Turkmenistan"
+      },
+      "romanization_policy": "Turkmen is already Latin-script, but a Turkmen value is not automatically an English value. English output requires an independently supplied authority-backed or user-confirmed form.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "Turkmenpost",
+          "url": "https://post.tm/departments",
+          "scope": "Current official post-office and postcode search"
+        },
+        {
+          "authority": "Universal Postal Union and Turkmenpost",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/tkmEn.pdf",
+          "scope": "Six-digit postcode on a separate line and urban, regional and village address formats"
+        }
+      ]
+    },
+    "UZ": {
+      "native_languages": ["uz-Latn", "uz-Cyrl"],
+      "default_native_language": "uz-Latn",
+      "native_profile": "UZ_uz",
+      "native_profiles": {
+        "uz-Latn": "UZ_uz",
+        "uz-Cyrl": "UZ_uz"
+      },
+      "native_scripts": {
+        "uz-Latn": "Latn",
+        "uz-Cyrl": "Cyrl"
+      },
+      "english_profile": "UZ_en",
+      "country_names": {
+        "uz-Latn": "Oʻzbekiston",
+        "uz-Cyrl": "Ўзбекистон",
+        "en": "Uzbekistan"
+      },
+      "romanization_policy": "Uzbek Latin and Uzbek Cyrillic are explicit alternatives using one national ordering profile. Neither is relabelled as English; English requires a separately supplied authority-backed or user-confirmed form.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "UzPost",
+          "url": "https://www.uz.post/uz/map",
+          "scope": "Current official address and postcode search"
+        },
+        {
+          "authority": "Universal Postal Union and UzPost",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/uzbEn.pdf",
+          "scope": "Six-digit postcode before the locality, Tashkent coding and urban address order"
+        }
+      ]
+    }
+  },
+  "profiles": {
+    "KG": {
+      "country_code": "KG",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{house_number}}} {{{road}}}\n{{{subpremise}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{postal_city}}} {{/first}}\n{{#first}} {{{county}}} || {{{state_district}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"
+    },
+    "KG_en": {
+      "country_code": "KG",
+      "language": "en",
+      "use_country": "KG"
+    },
+    "KG_ky": {
+      "country_code": "KG",
+      "language": "ky",
+      "use_country": "KG"
+    },
+    "KG_ru": {
+      "country_code": "KG",
+      "language": "ru",
+      "use_country": "KG"
+    },
+    "KZ": {
+      "country_code": "KZ",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}}\n{{{subpremise}}}\n{{{po_box}}}\n{{{postcode}}}, {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{postal_city}}} {{/first}}\n{{#first}} {{{county}}} || {{{state_district}}} {{/first}}\n{{{state}}}\n{{{country}}}\n",
+      "postformat_replace": [[",\\n", "\\n"]]
+    },
+    "KZ_en": {
+      "country_code": "KZ",
+      "language": "en",
+      "use_country": "KZ"
+    },
+    "KZ_kk": {
+      "country_code": "KZ",
+      "language": "kk",
+      "use_country": "KZ"
+    },
+    "KZ_ru": {
+      "country_code": "KZ",
+      "language": "ru",
+      "use_country": "KZ"
+    },
+    "TJ": {
+      "country_code": "TJ",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}}\n{{{subpremise}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}\n{{{state_district}}}\n{{{state}}}\n{{{country}}}\n"
+    },
+    "TJ_en": {
+      "country_code": "TJ",
+      "language": "en",
+      "use_country": "TJ"
+    },
+    "TJ_ru": {
+      "country_code": "TJ",
+      "language": "ru",
+      "use_country": "TJ"
+    },
+    "TJ_tg": {
+      "country_code": "TJ",
+      "language": "tg",
+      "use_country": "TJ"
+    },
+    "TM": {
+      "country_code": "TM",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}}\n{{{subpremise}}}\n{{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{postal_city}}} {{/first}}\n{{{state_district}}}\n{{{state}}}\n{{{postcode}}}\n{{{po_box}}}\n{{{country}}}\n"
+    },
+    "TM_en": {
+      "country_code": "TM",
+      "language": "en",
+      "use_country": "TM"
+    },
+    "TM_tk": {
+      "country_code": "TM",
+      "language": "tk",
+      "use_country": "TM"
+    },
+    "UZ": {
+      "country_code": "UZ",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{road}}} {{{house_number}}}\n{{{po_box}}}\n{{{postcode}}}, {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{postal_city}}} {{/first}}\n{{{state_district}}}\n{{{state}}}\n{{{country}}}\n",
+      "postformat_replace": [[",\\n", "\\n"]]
+    },
+    "UZ_en": {
+      "country_code": "UZ",
+      "language": "en",
+      "use_country": "UZ"
+    },
+    "UZ_uz": {
+      "country_code": "UZ",
+      "language": "uz",
+      "use_country": "UZ"
+    }
+  },
+  "profile_status": {
+    "KG": "official_guidance",
+    "KG_en": "official_guidance",
+    "KG_ky": "official_guidance",
+    "KG_ru": "official_guidance",
+    "KZ": "official_guidance",
+    "KZ_en": "official_guidance",
+    "KZ_kk": "official_guidance",
+    "KZ_ru": "official_guidance",
+    "TJ": "official_guidance",
+    "TJ_en": "official_guidance",
+    "TJ_ru": "official_guidance",
+    "TJ_tg": "official_guidance",
+    "TM": "official_guidance",
+    "TM_en": "official_guidance",
+    "TM_tk": "official_guidance",
+    "UZ": "official_guidance",
+    "UZ_en": "official_guidance",
+    "UZ_uz": "official_guidance"
+  }
+}

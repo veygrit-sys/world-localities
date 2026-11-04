@@ -1,0 +1,460 @@
+{
+  "schema_version": 1,
+  "scope_codes": [
+    "CN",
+    "HK",
+    "JP",
+    "KP",
+    "KR",
+    "MN",
+    "MO",
+    "TW"
+  ],
+  "sources": [
+    {
+      "id": "OSM-CN",
+      "country": "CN",
+      "format": "osm_pbf",
+      "role": "supplementary_roads_addresses_administration",
+      "path": "sources/CN.osm.pbf",
+      "url": "https://download.geofabrik.de/asia/china-261020.osm.pbf",
+      "licence": "ODbL-1.0",
+      "licence_url": "https://www.openstreetmap.org/copyright",
+      "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+      "bytes": 1612805486,
+      "national_completeness_verified": false,
+      "extract_membership_is_legal_country_membership": false,
+      "sha256": "f49b681caa41eb0db4ac8022868807f86deef29608820c036e086077fd108460",
+      "publisher_md5": "72e27f93378d7aac1db43947c653a090",
+      "publisher_checksum_stable_before_after": true,
+      "retrieved_at": "2026-10-22T06:55:54.639437+00:00",
+      "resolved_url": "https://download.geofabrik.de/asia/china-261020.osm.pbf",
+      "limitations": [
+        "Supplementary OSM observations; publisher extract footprint is not legal country membership"
+      ]
+    },
+    {
+      "id": "OSM-HK",
+      "country": "HK",
+      "format": "osm_pbf",
+      "role": "supplementary_roads_addresses_administration",
+      "path": "sources/HK.osm.pbf",
+      "url": "https://download.geofabrik.de/asia/china/hong-kong-261020.osm.pbf",
+      "licence": "ODbL-1.0",
+      "licence_url": "https://www.openstreetmap.org/copyright",
+      "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+      "bytes": 37726719,
+      "national_completeness_verified": false,
+      "extract_membership_is_legal_country_membership": false,
+      "sha256": "64aadef2e2f1463babc1237ca86ad310ed693c7c8edd3e5b6a90ed21728a6dd7",
+      "retrieved_at": "2026-10-22T06:52:33.260230+00:00",
+      "resolved_url": "https://download.geofabrik.de/asia/china/hong-kong-261020.osm.pbf",
+      "http_metadata": {
+        "last-modified": "Tue, 20 Oct 2026 23:13:50 GMT",
+        "etag": "\"23fa9ff-65e4dc88c33cd\"",
+        "content-length": "37726719",
+        "content-type": "application/octet-stream"
+      },
+      "publisher_md5": "3b8af10f30749737b94e5e692fc71d71",
+      "publisher_checksum_stable_before_after": true,
+      "limitations": [
+        "Supplementary OSM observations; publisher extract footprint is not legal country membership"
+      ]
+    },
+    {
+      "id": "OSM-JP",
+      "country": "JP",
+      "format": "osm_pbf",
+      "role": "supplementary_roads_addresses_administration",
+      "path": "sources/JP.osm.pbf",
+      "url": "https://download.geofabrik.de/asia/japan-261020.osm.pbf",
+      "licence": "ODbL-1.0",
+      "licence_url": "https://www.openstreetmap.org/copyright",
+      "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+      "bytes": 2558019268,
+      "national_completeness_verified": false,
+      "extract_membership_is_legal_country_membership": false,
+      "sha256": "4e2f82f4d891f744f78e0b878701ab2b28412243147b0e57908ac70dc9197b04",
+      "publisher_md5": "05ad08ee3bf879156278965f5bba3e7e",
+      "publisher_checksum_stable_before_after": true,
+      "retrieved_at": "2026-10-22T06:57:42.851924+00:00",
+      "resolved_url": "https://download.geofabrik.de/asia/japan-261020.osm.pbf",
+      "limitations": [
+        "Supplementary OSM observations; publisher extract footprint is not legal country membership"
+      ]
+    },
+    {
+      "id": "OSM-KP",
+      "country": "KP",
+      "format": "osm_pbf",
+      "role": "supplementary_roads_addresses_administration",
+      "path": "sources/KP.osm.pbf",
+      "url": "https://download.geofabrik.de/asia/north-korea-261020.osm.pbf",
+      "licence": "ODbL-1.0",
+      "licence_url": "https://www.openstreetmap.org/copyright",
+      "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+      "bytes": 92913533,
+      "national_completeness_verified": false,
+      "extract_membership_is_legal_country_membership": false,
+      "sha256": "3df1761a9711518307c79f9d2736668a0b8d6924b79aed0798e7a2484465533a",
+      "retrieved_at": "2026-10-22T06:53:02.187758+00:00",
+      "resolved_url": "https://download.geofabrik.de/asia/north-korea-261020.osm.pbf",
+      "http_metadata": {
+        "last-modified": "Tue, 20 Oct 2026 23:08:16 GMT",
+        "etag": "\"589bf7d-65e4db4a623e1\"",
+        "content-length": "92913533",
+        "content-type": "application/octet-stream"
+      },
+      "publisher_md5": "8bf71868021ea454918b27fa6a8dc74a",
+      "publisher_checksum_stable_before_after": true,
+      "limitations": [
+        "Supplementary OSM observations; publisher extract footprint is not legal country membership"
+      ]
+    },
+    {
+      "id": "OSM-KR",
+      "country": "KR",
+      "format": "osm_pbf",
+      "role": "supplementary_roads_addresses_administration",
+      "path": "sources/KR.osm.pbf",
+      "url": "https://download.geofabrik.de/asia/south-korea-261020.osm.pbf",
+      "licence": "ODbL-1.0",
+      "licence_url": "https://www.openstreetmap.org/copyright",
+      "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+      "bytes": 289705086,
+      "national_completeness_verified": false,
+      "extract_membership_is_legal_country_membership": false,
+      "sha256": "74c2033af787946237ce978c25909e6fd142d56d0edaa18c74519a802a66c401",
+      "retrieved_at": "2026-10-22T06:53:39.363636+00:00",
+      "resolved_url": "https://download.geofabrik.de/asia/south-korea-261020.osm.pbf",
+      "http_metadata": {
+        "last-modified": "Tue, 20 Oct 2026 23:04:45 GMT",
+        "etag": "\"11448c7e-65e4da80db95d\"",
+        "content-length": "289705086",
+        "content-type": "application/octet-stream"
+      },
+      "publisher_md5": "ced7fb019acd2b633c3b2079af07ef21",
+      "publisher_checksum_stable_before_after": true,
+      "limitations": [
+        "Supplementary OSM observations; publisher extract footprint is not legal country membership"
+      ]
+    },
+    {
+      "id": "OSM-MN",
+      "country": "MN",
+      "format": "osm_pbf",
+      "role": "supplementary_roads_addresses_administration",
+      "path": "sources/MN.osm.pbf",
+      "url": "https://download.geofabrik.de/asia/mongolia-261020.osm.pbf",
+      "licence": "ODbL-1.0",
+      "licence_url": "https://www.openstreetmap.org/copyright",
+      "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+      "bytes": 62325356,
+      "national_completeness_verified": false,
+      "extract_membership_is_legal_country_membership": false,
+      "sha256": "cf733796fa08eb4dc15cea167fbbdbd4775135fed99c3888b4a1150df6853290",
+      "retrieved_at": "2026-10-22T06:54:00.199480+00:00",
+      "resolved_url": "https://download.geofabrik.de/asia/mongolia-261020.osm.pbf",
+      "http_metadata": {
+        "last-modified": "Tue, 20 Oct 2026 23:02:54 GMT",
+        "etag": "\"3b7026c-65e4da171819c\"",
+        "content-length": "62325356",
+        "content-type": "application/octet-stream"
+      },
+      "publisher_md5": "6e24b875341dc7328d9482a68355ebf6",
+      "publisher_checksum_stable_before_after": true,
+      "limitations": [
+        "Supplementary OSM observations; publisher extract footprint is not legal country membership"
+      ]
+    },
+    {
+      "id": "OSM-MO",
+      "country": "MO",
+      "format": "osm_pbf",
+      "role": "supplementary_roads_addresses_administration",
+      "path": "sources/MO.osm.pbf",
+      "url": "https://download.geofabrik.de/asia/china/macau-261020.osm.pbf",
+      "licence": "ODbL-1.0",
+      "licence_url": "https://www.openstreetmap.org/copyright",
+      "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+      "bytes": 2964167,
+      "national_completeness_verified": false,
+      "extract_membership_is_legal_country_membership": false,
+      "sha256": "6622cc422e2d118f9dd2ecc554fa08d736973f9c172711db7c26b81d3d8ab4cc",
+      "retrieved_at": "2026-10-22T06:55:12.029973+00:00",
+      "resolved_url": "https://download.geofabrik.de/asia/china/macau-261020.osm.pbf",
+      "http_metadata": {
+        "last-modified": "Tue, 20 Oct 2026 23:13:57 GMT",
+        "etag": "\"2d3ac7-65e4dc8f496ba\"",
+        "content-length": "2964167",
+        "content-type": "application/octet-stream"
+      },
+      "publisher_md5": "2eb7451436674e200d93c107a00d3efc",
+      "publisher_checksum_stable_before_after": true,
+      "limitations": [
+        "Supplementary OSM observations; publisher extract footprint is not legal country membership"
+      ]
+    },
+    {
+      "id": "OSM-TW",
+      "country": "TW",
+      "format": "osm_pbf",
+      "role": "supplementary_roads_addresses_administration",
+      "path": "sources/TW.osm.pbf",
+      "url": "https://download.geofabrik.de/asia/taiwan-261020.osm.pbf",
+      "licence": "ODbL-1.0",
+      "licence_url": "https://www.openstreetmap.org/copyright",
+      "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+      "bytes": 327714383,
+      "national_completeness_verified": false,
+      "extract_membership_is_legal_country_membership": false,
+      "sha256": "96f448d5a77abf7ff375761ddecaf444d9c2131693ba651a4a642bb656327972",
+      "publisher_md5": "ec73387f037d63796fb4edfaa1ca9519",
+      "publisher_checksum_stable_before_after": true,
+      "retrieved_at": "2026-10-22T06:57:00.524675+00:00",
+      "resolved_url": "https://download.geofabrik.de/asia/taiwan-261020.osm.pbf",
+      "limitations": [
+        "Supplementary OSM observations; publisher extract footprint is not legal country membership"
+      ]
+    },
+    {
+      "id": "JP-ABR-residential-OA",
+      "country": "JP",
+      "format": "csv_zip",
+      "role": "residential_position_subset",
+      "path": "tables/jp_abr_residential.csv.zip",
+      "url": "https://data.openaddresses.io/cache/uploads/jeffdefacto/2026-10-01-tkes5/jp_abr_residential.csv.zip",
+      "licence": "PDL-1.0",
+      "national_completeness_verified": false,
+      "sha256": "5f9a914bfbf53d5fc4a9ddd10ea217b4872cb56c36456489deffa9d78984d655",
+      "bytes": 349857474,
+      "retrieved_at": "2026-10-22T06:58:55.675413+00:00",
+      "resolved_url": "https://abb981ba94fd6c090352b253fe594676.r2.cloudflarestorage.com/openaddresses/data.openaddresses.io/cache/uploads/jeffdefacto/2026-10-01-tkes5/jp_abr_residential.csv.zip?X-Amz-Expires=7200&X-Amz-Date=20261022T065843Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=9c139736d26726945bd1064749f6664d%2F20261022%2Fauto%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=1104eafee004f3c1e4a18f390e32a88e01cea85d3cb24c1f25b509f66078a57c",
+      "http_metadata": {
+        "content-type": "application/zip",
+        "content-length": "349857474",
+        "etag": "\"aafe61190d91fe0319f0df9cc0628e6f\"",
+        "last-modified": "Thu, 01 Oct 2026 21:28:00 GMT"
+      },
+      "label_fields": [
+        "pref",
+        "city"
+      ],
+      "id_field": "id",
+      "limitations": [
+        "Inner join to residential positions; unpositioned residence and parcel records excluded",
+        "Original coordinates are EPSG:6668 in the pinned recipe",
+        "Not a current complete national address register"
+      ]
+    },
+    {
+      "id": "HK-ALS-OA",
+      "country": "HK",
+      "format": "csv_zip",
+      "role": "address_lookup_observations",
+      "path": "tables/hk_countrywide.zip",
+      "url": "https://data.openaddresses.io/cache/uploads/jeffdefacto/2026-06-06-nr8pe/hk_countrywide.zip",
+      "licence": "Hong Kong government open-data terms",
+      "national_completeness_verified": false,
+      "sha256": "e424a621eeb4d9aa8de66339ab3ec894dfbd4ac9ebb076b4f8858e7b02962f08",
+      "bytes": 6892931,
+      "retrieved_at": "2026-10-22T06:58:50.500125+00:00",
+      "resolved_url": "https://abb981ba94fd6c090352b253fe594676.r2.cloudflarestorage.com/openaddresses/data.openaddresses.io/cache/uploads/jeffdefacto/2026-06-06-nr8pe/hk_countrywide.zip?X-Amz-Expires=7200&X-Amz-Date=20261022T065843Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=9c139736d26726945bd1064749f6664d%2F20261022%2Fauto%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=eaea2ebeaf13b12b4840ba1186ca69516a1f0c6b26d8d2a573127be75b5bd987",
+      "http_metadata": {
+        "content-type": "application/zip",
+        "content-length": "6892931",
+        "etag": "\"0509c8965df4943ebc13b033ba03be1c\"",
+        "last-modified": "Sat, 06 Jun 2026 16:41:46 GMT"
+      },
+      "label_fields": [
+        "zh_District",
+        "zh_Region"
+      ],
+      "id_field": "GeoAddress",
+      "limitations": [
+        "ALS states that it is not exhaustive; source rows may repeat GeoAddress",
+        "StreetNumber remains the original lexical value; no range expansion"
+      ]
+    },
+    {
+      "id": "TW-MOI-road-names-115",
+      "country": "TW",
+      "format": "csv",
+      "role": "road_names_without_house_numbers",
+      "path": "tables/tw-roads-115.csv",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/E2EDC47D-2D3F-4EB1-878A-4DEB6160FD4C/resource/EB1B8C49-5C2A-42E0-8CC3-6B69B37DA66F/download",
+      "licence": "OGDL-1.0",
+      "national_completeness_verified": false,
+      "bytes": 1468149,
+      "sha256": "a58a31cebef9540412753bbf60f35415735b2a26983ccd4d795faa4aa110a05b",
+      "retrieved_at": "2026-10-22T06:58:49.863968+00:00",
+      "resolved_url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/E2EDC47D-2D3F-4EB1-878A-4DEB6160FD4C/resource/EB1B8C49-5C2A-42E0-8CC3-6B69B37DA66F/download",
+      "http_metadata": {
+        "content-type": "text/csv;charset=UTF-8",
+        "content-length": "1468149"
+      },
+      "label_fields": [
+        "city",
+        "site_id"
+      ],
+      "limitations": [
+        "Year 115/2026 road-name list; no house numbers, official road IDs or geometry"
+      ]
+    },
+    {
+      "id": "JP-Geolonia-towns",
+      "country": "JP",
+      "format": "csv",
+      "role": "town_location_reference_not_assigned_numbers",
+      "path": "tables/jp-geolonia-towns.csv",
+      "url": "https://raw.githubusercontent.com/geolonia/japanese-addresses/384a5b52472363416275ac6c3e30a678b6b1252d/data/latest.csv",
+      "licence": "CC-BY-4.0",
+      "national_completeness_verified": false,
+      "sha256": "e97dc0e334dd96cf5d6017a10e5c54fd44f143551528d1fcff7373bcfe1fb88f",
+      "bytes": 51865461,
+      "retrieved_at": "2026-10-22T06:58:55.544692+00:00",
+      "resolved_url": "https://raw.githubusercontent.com/geolonia/japanese-addresses/384a5b52472363416275ac6c3e30a678b6b1252d/data/latest.csv",
+      "http_metadata": {
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"a63c20c5deb1187323d4b5ec845d1dec321a3b6623016b92049fb7e9d6607966\"",
+        "content-length": "51865461"
+      },
+      "label_fields": [
+        "都道府県コード",
+        "市区町村コード"
+      ],
+      "limitations": [
+        "Town location names, not assigned house numbers or official ABR town IDs",
+        "Publisher states that not all place names are covered"
+      ]
+    },
+    {
+      "id": "CN-statistical-provinces",
+      "country": "CN",
+      "format": "json",
+      "role": "statistical_provinces",
+      "path": "tables/provinces.json",
+      "url": "https://raw.githubusercontent.com/modood/Administrative-divisions-of-China/c49d495b40ac73eb1a66f6eeae5f8fd10696f035/dist/provinces.json",
+      "licence": "WTFPL-2.0",
+      "national_completeness_verified": false,
+      "source_date": "2023-06-30",
+      "upstream_commit": "c49d495b40ac73eb1a66f6eeae5f8fd10696f035",
+      "id_field": "code",
+      "bytes": 1081,
+      "sha256": "a7e6a230102fee054daa7f63d91ca8da4320c11a2ddd4e5f093999b579fd7d4f",
+      "retrieved_at": "2026-10-22T06:56:07.435713+00:00",
+      "resolved_url": "https://raw.githubusercontent.com/modood/Administrative-divisions-of-China/c49d495b40ac73eb1a66f6eeae5f8fd10696f035/dist/provinces.json",
+      "http_metadata": {
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"9cb5516812304c2b2c1539d67e24adac8f664cf1c7e87ae15331138b72eb9aa3\"",
+        "content-length": "1081"
+      },
+      "limitations": [
+        "2023-06-30 statistical reference; not a verified current legal inventory"
+      ]
+    },
+    {
+      "id": "CN-statistical-cities",
+      "country": "CN",
+      "format": "json",
+      "role": "statistical_cities",
+      "path": "tables/cities.json",
+      "url": "https://raw.githubusercontent.com/modood/Administrative-divisions-of-China/c49d495b40ac73eb1a66f6eeae5f8fd10696f035/dist/cities.json",
+      "licence": "WTFPL-2.0",
+      "national_completeness_verified": false,
+      "source_date": "2023-06-30",
+      "upstream_commit": "c49d495b40ac73eb1a66f6eeae5f8fd10696f035",
+      "id_field": "code",
+      "bytes": 19528,
+      "sha256": "3f569aaa0bfbeba72f1597657511c64f54107baae71710fef7146f390a41af32",
+      "retrieved_at": "2026-10-22T06:56:12.984276+00:00",
+      "resolved_url": "https://raw.githubusercontent.com/modood/Administrative-divisions-of-China/c49d495b40ac73eb1a66f6eeae5f8fd10696f035/dist/cities.json",
+      "http_metadata": {
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"1adf7c0a1aaa98bd1357185c80b3fbe720c0eeb442c302e54fa7191703ccaf4d\"",
+        "content-length": "19528"
+      },
+      "limitations": [
+        "2023-06-30 statistical reference; not a verified current legal inventory"
+      ]
+    },
+    {
+      "id": "CN-statistical-areas",
+      "country": "CN",
+      "format": "json",
+      "role": "statistical_areas",
+      "path": "tables/areas.json",
+      "url": "https://raw.githubusercontent.com/modood/Administrative-divisions-of-China/c49d495b40ac73eb1a66f6eeae5f8fd10696f035/dist/areas.json",
+      "licence": "WTFPL-2.0",
+      "national_completeness_verified": false,
+      "source_date": "2023-06-30",
+      "upstream_commit": "c49d495b40ac73eb1a66f6eeae5f8fd10696f035",
+      "id_field": "code",
+      "bytes": 228316,
+      "sha256": "fbe1575eecba4ffd4d50c3d2d6887bd873ceca6a203fb2d66698b5007826b6b6",
+      "retrieved_at": "2026-10-22T06:58:54.559992+00:00",
+      "resolved_url": "https://raw.githubusercontent.com/modood/Administrative-divisions-of-China/c49d495b40ac73eb1a66f6eeae5f8fd10696f035/dist/areas.json",
+      "http_metadata": {
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"3e6e0dd3f20fa2a2e74e21eac6a1358bcd9a58aa6eddd10d7ec4725d8f3449f4\"",
+        "content-length": "228316"
+      },
+      "limitations": [
+        "2023-06-30 statistical reference; not a verified current legal inventory"
+      ]
+    },
+    {
+      "id": "CN-statistical-streets",
+      "country": "CN",
+      "format": "json",
+      "role": "statistical_townships_not_roads",
+      "path": "tables/streets.json",
+      "url": "https://raw.githubusercontent.com/modood/Administrative-divisions-of-China/c49d495b40ac73eb1a66f6eeae5f8fd10696f035/dist/streets.json",
+      "licence": "WTFPL-2.0",
+      "national_completeness_verified": false,
+      "source_date": "2023-06-30",
+      "upstream_commit": "c49d495b40ac73eb1a66f6eeae5f8fd10696f035",
+      "id_field": "code",
+      "bytes": 4153221,
+      "sha256": "7f5e073a7e543de44a0cb7f05cd9e4bf8ecf7a887be0e36870c0dc1ed4ef066b",
+      "retrieved_at": "2026-10-22T06:57:15.031873+00:00",
+      "resolved_url": "https://raw.githubusercontent.com/modood/Administrative-divisions-of-China/c49d495b40ac73eb1a66f6eeae5f8fd10696f035/dist/streets.json",
+      "http_metadata": {
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"8d1ae4056deed117f5c157bdc39d8647040cd4d81f0aa2275985e9c381cfc77a\"",
+        "content-length": "4153221"
+      },
+      "limitations": [
+        "2023-06-30 statistical reference; not a verified current legal inventory"
+      ]
+    },
+    {
+      "id": "CN-statistical-villages",
+      "country": "CN",
+      "format": "json",
+      "role": "statistical_villages",
+      "path": "tables/villages.json",
+      "url": "https://raw.githubusercontent.com/modood/Administrative-divisions-of-China/c49d495b40ac73eb1a66f6eeae5f8fd10696f035/dist/villages.json",
+      "licence": "WTFPL-2.0",
+      "national_completeness_verified": false,
+      "source_date": "2023-06-30",
+      "upstream_commit": "c49d495b40ac73eb1a66f6eeae5f8fd10696f035",
+      "id_field": "code",
+      "bytes": 84894055,
+      "sha256": "451c2b0c3e1d74d14c34e3f2444b9f7ff384ac2f1f8c9ccf924d6796acac927e",
+      "retrieved_at": "2026-10-22T06:57:16.888166+00:00",
+      "resolved_url": "https://raw.githubusercontent.com/modood/Administrative-divisions-of-China/c49d495b40ac73eb1a66f6eeae5f8fd10696f035/dist/villages.json",
+      "http_metadata": {
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"191c8a134353752fa759409a0f3bf6b86eddf063ac47e48a8ec6f7d6f0945a57\"",
+        "content-length": "84894055"
+      },
+      "limitations": [
+        "2023-06-30 statistical reference; not a verified current legal inventory"
+      ]
+    }
+  ],
+  "national_completeness_verified": false,
+  "deliverability_in_scope": false,
+  "source_policy": "official_and_open_data"
+}

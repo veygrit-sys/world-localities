@@ -1,0 +1,90 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "NAM",
+    "country": "NA",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Namibia",
+    "geonames_id": "3355338",
+    "id": "country:NA",
+    "m49": "516",
+    "name_en": "Namibia",
+    "numeric": "516",
+    "region": "Southern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 2908,
+    "admin_rows": 62,
+    "ambiguous_parents": 0,
+    "country": "NA",
+    "country_scope_only": 2,
+    "localities_without_adm1": 8,
+    "locality_rows": 2913,
+    "name_en": "Namibia",
+    "other_admin_rows": 2,
+    "region": "Southern Africa",
+    "unresolved_parents": 7
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 14,
+    "ADM1H": 1,
+    "ADM2": 47,
+    "ADM3": 1,
+    "PCLI": 1,
+    "PPL": 2830,
+    "PPLA": 13,
+    "PPLA2": 1,
+    "PPLC": 1,
+    "PPLF": 1,
+    "PPLL": 21,
+    "PPLQ": 4,
+    "PPLX": 42
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 105860,
+      "rows": 2977,
+      "sha256": "d34b5d9c0a58f134990b70362975a03a1475f7c50fafffb5adea25b29819256c",
+      "uncompressed_sha256": "d0f93734a5674df5c0ff41afa817384276f9a2c5cde8ce763ec7f4d2cbd80aca"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 2,
+    "missing_code": 1,
+    "missing_reference": 6,
+    "not_assigned_for_other_feature": 2,
+    "source_admin_code": 2952,
+    "source_country": 14
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 14,
+      "sha256": "9c91bca3e33eb5f1b40881dd67f95a15a7e25002338e438899c2510b04690aa1"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 360361,
+    "discarded_feature_classes": {
+      "H": 1746,
+      "L": 177,
+      "R": 5,
+      "S": 6180,
+      "T": 1710,
+      "V": 9
+    },
+    "retained_rows": 2977,
+    "retrieved_on": "2026-09-26",
+    "sha256": "afdd90531157b2748653a5f33d4ac4d9ac234df34d41f25af473eeaf23299222",
+    "source_rows": 12804,
+    "url": "https://download.geonames.org/export/dump/NA.zip"
+  },
+  "source_modified_max": "2026-08-30",
+  "source_modified_min": "1994-01-12"
+}

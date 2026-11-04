@@ -1,0 +1,121 @@
+{
+  "alternate_values_file": {
+    "bytes": 253218,
+    "filename": "alternate-values.csv.gz",
+    "rows": 15497,
+    "sha256": "669c9b4d02f948b67cb0e1876aa648ba2595805e63189247afc334fb11468eeb",
+    "uncompressed_sha256": "5a3978722673fda632a906565cb3bffff353878f3f56f9dc52c51ce7c4a16367"
+  },
+  "alternate_values_source": {
+    "bytes": 262028,
+    "retained_rows": 15497,
+    "retrieved_on": "2026-10-01",
+    "sha256": "9a6e9eb0ca702b5894e2e1433933960b656a92e619d1002f2112b714e9f85b53",
+    "source_columns": 10,
+    "source_rows": 24248,
+    "url": "https://download.geonames.org/export/dump/alternatenames/EC.zip"
+  },
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "ECU",
+    "country": "EC",
+    "geonames_continent": "SA",
+    "geonames_id": "3658394",
+    "id": "country:EC",
+    "m49": "218",
+    "name_en": "Ecuador",
+    "region": "South America",
+    "region_m49": "005",
+    "source_country_languages": [
+      "es-EC"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 11457,
+    "admin_rows": 1283,
+    "ambiguous_parents": 0,
+    "country": "EC",
+    "country_scope_only": 20,
+    "localities_without_adm1": 20,
+    "locality_rows": 11458,
+    "name_en": "Ecuador",
+    "other_admin_rows": 5,
+    "region": "South America",
+    "unresolved_parents": 10
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 24,
+    "ADM2": 221,
+    "ADM3": 1038,
+    "ADMD": 4,
+    "PCLI": 1,
+    "PPL": 10127,
+    "PPLA": 23,
+    "PPLA2": 134,
+    "PPLA3": 341,
+    "PPLC": 1,
+    "PPLL": 5,
+    "PPLW": 1,
+    "PPLX": 826
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 492602,
+      "rows": 12746,
+      "sha256": "cc6a92b3eeaf04cffa0f6289bee7e8ba680b831c07f102dbd6bc1971c83e1b39",
+      "uncompressed_sha256": "ee6d6e92bbe80c2e9e7a7d1f0708ccdccc94c872bc789dfd6b091b99017100c4"
+    }
+  },
+  "known_issues": [],
+  "label_coverage": {
+    "current_country_language_name_entities": 5134,
+    "current_english_name_entities": 97,
+    "language_tagged_name_entities": 5241,
+    "missing_country_language_name_entities": 7612,
+    "missing_english_name_entities": 12649,
+    "native_label_rule": "Exact source language tag matched against countryInfo language list; no language is inferred from primary name, ASCII, spelling or script. Country-language match is not proof of each place's indigenous language."
+  },
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 20,
+    "missing_code": 10,
+    "not_assigned_for_other_feature": 5,
+    "source_admin_code": 12687,
+    "source_country": 24
+  },
+  "postal_coverage": {
+    "note": "Only source post-tag values, if any; not joined by place name and not delivery validation.",
+    "postal_deliverability_verified": false,
+    "postal_validation": false,
+    "source_postal_value_rows": 0
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 24,
+      "sha256": "c892c68084e3567af06707065ef54db359976297cbf80e64166b84c9d6b331cd"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 633370,
+    "discarded_feature_classes": {
+      "H": 4677,
+      "L": 1114,
+      "R": 6,
+      "S": 1299,
+      "T": 1587,
+      "V": 6
+    },
+    "retained_rows": 12746,
+    "retrieved_on": "2026-10-01",
+    "sha256": "0a551914efe913a9f764043a7db645a4f97a80176956e01ab62983bcf20b25dc",
+    "source_rows": 21435,
+    "url": "https://download.geonames.org/export/dump/EC.zip"
+  },
+  "source_modified_max": "2026-09-22",
+  "source_modified_min": "1993-12-23"
+}

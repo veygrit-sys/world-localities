@@ -1,0 +1,694 @@
+{
+  "schema_version": 1,
+  "region": "western-europe",
+  "release_date": "2026-10-22",
+  "status": "PACKAGED_AND_BYTE_VERIFIED",
+  "archives": [
+    {
+      "name": "Veygrit_Western_Europe_Address_Data_20261022_Part01.zip",
+      "bytes": 351618936,
+      "sha256": "352d6634be2134f2569aa0a463b0866fb82871175036eedc4b5b5506b381f51e",
+      "files": 16,
+      "roots": [
+        "western-europe"
+      ],
+      "part": 1,
+      "countries": [
+        "AT",
+        "BE"
+      ],
+      "source_members": [
+        {
+          "member": "western-europe/raw/AT-address-register.zip",
+          "bytes": 118545233,
+          "sha256": "3696f8de70d69847d9f305330500f45836cea3e59884693bdd52fa6220f8f0e1"
+        },
+        {
+          "member": "western-europe/raw/BE-brussels.zip",
+          "bytes": 18155637,
+          "sha256": "f9327e0a3db86b6015e935295c1e917b968ae96beb2843b97de10745e7d6e80f"
+        },
+        {
+          "member": "western-europe/raw/BE-flanders.zip",
+          "bytes": 153158699,
+          "sha256": "d9372173646d342dbfe853ae06f910069028dfea544adb7593dba865913be624"
+        },
+        {
+          "member": "western-europe/raw/BE-wallonia.zip",
+          "bytes": 59311901,
+          "sha256": "0e4ce8caae03556c1cd9bbf4947a7d31d84bb5e3601f16d05abad413a58da2c5"
+        },
+        {
+          "member": "western-europe/raw/BE-streets-addressed.zip",
+          "bytes": 2188213,
+          "sha256": "09238bc8d97ab8bf17d76c22c050c64a9791e0c20709f3e5279bb4389724ad36"
+        },
+        {
+          "member": "western-europe/raw/BE-streets-empty.zip",
+          "bytes": 222472,
+          "sha256": "f8c92d469d26d6533cc67d4f5bce6caae6a9e3c217e145760ac31f0c20828d8a"
+        }
+      ]
+    },
+    {
+      "name": "Veygrit_Western_Europe_Address_Data_20261022_Part02.zip",
+      "bytes": 155304530,
+      "sha256": "1d1c6a21c8d956b2ea6075c5cdb6d906c56db45302d56e31774e7952a5196094",
+      "files": 8,
+      "roots": [
+        "western-europe"
+      ],
+      "part": 2,
+      "countries": [
+        "CH",
+        "LI",
+        "LU",
+        "MC"
+      ],
+      "source_members": [
+        {
+          "member": "western-europe/raw/CH-official-addresses.zip",
+          "bytes": 143414812,
+          "sha256": "137521e3ef571f121dc9e8e44c40022a772f8e232916dfa8d36e9e7ed68c86e6"
+        },
+        {
+          "member": "western-europe/raw/CH-official-streets.zip",
+          "bytes": 6493175,
+          "sha256": "d82e0795b745e83b6c2385610eb6ee08eb2beaa92bd435c1c7ffd2a1afa1e7ae"
+        },
+        {
+          "member": "western-europe/raw/LI-official-addresses.zip",
+          "bytes": 1306445,
+          "sha256": "ea8592ccc2ef85a7db73473e5a21ac62be5a3b39bba6f16dcea597636983bcea"
+        },
+        {
+          "member": "western-europe/raw/LI-official-streets.zip",
+          "bytes": 841775,
+          "sha256": "6604ed5e171897058a669f990dce2b72b8077a168f42042088301e5d11602674"
+        },
+        {
+          "member": "western-europe/raw/LU-caclr.zip",
+          "bytes": 1955568,
+          "sha256": "2b47018cb747ca72af60a52d27760edaaf1d670aea6d9d888bfaded224e07757"
+        },
+        {
+          "member": "western-europe/raw/MC-monaco.osm.pbf",
+          "bytes": 693466,
+          "sha256": "c4b45f7143d8e1e1e60490d727dd9345c8bd90b56c3ffe95505b3410139a3f3b"
+        },
+        {
+          "member": "western-europe/raw/MC-osm-evidence.jsonl.gz",
+          "bytes": 596486,
+          "sha256": "a0ac6d03796f6053475b88be26ef71de541387cd4a9ad79e7dd92ca0ec9b7f26"
+        }
+      ]
+    },
+    {
+      "name": "Veygrit_Western_Europe_Address_Data_20261022_Part03.zip",
+      "bytes": 469745876,
+      "sha256": "5c4a54e9ec36615a31abe1bef19aa166f3e3a7704c7e304b999d858e439d6a96",
+      "files": 52,
+      "roots": [
+        "western-europe"
+      ],
+      "part": 3,
+      "countries": [
+        "FR"
+      ],
+      "source_members": [
+        {
+          "member": "western-europe/raw/FR-adresses-01.csv.gz",
+          "bytes": 9071315,
+          "sha256": "ddf29ec6572be4114a08b0a8f4665d7e4abeeb5cf01d767da96bb6f98f6aabd9"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-02.csv.gz",
+          "bytes": 7717376,
+          "sha256": "81277f418bebb4f33632ab2d44ae3a0c183a0e893a2339a012ab3c775fa3a69e"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-03.csv.gz",
+          "bytes": 6784587,
+          "sha256": "818b63b631abacf472b7ccba474e61c7f7e9d974c9e6671687910c5af8bb2fbe"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-04.csv.gz",
+          "bytes": 3795168,
+          "sha256": "936a655513a17b79f2e03276449c3d436b40f41e3863f0f8fd5295c9d0ccf440"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-05.csv.gz",
+          "bytes": 3044006,
+          "sha256": "ebba977c33771f9e30a54928377d3d7eade7ff05e3846478b43141dfba2bc51f"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-06.csv.gz",
+          "bytes": 8287013,
+          "sha256": "5224ca51d48bdcfc6582e5699956699fb88383e44da54897d91877bdb43d5310"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-07.csv.gz",
+          "bytes": 6929107,
+          "sha256": "6bb3b0f1abd6fde581305322399f125c4e8f90b0305af30f1d6a9012e7c7b63a"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-08.csv.gz",
+          "bytes": 4229925,
+          "sha256": "034bcef2a2c1fd9841ae871369f624299a0cd2d9160eb16aae50631fede86c1d"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-09.csv.gz",
+          "bytes": 3841849,
+          "sha256": "6780af9c82c830ec80d66e5168cdf3dbc9c892fab9277350f39da66a22b97c25"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-10.csv.gz",
+          "bytes": 4655950,
+          "sha256": "042e9ce3f0d7ad1abce8525669c9039c1ac884c622999e86f7e78f2d3e5c6691"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-11.csv.gz",
+          "bytes": 8408498,
+          "sha256": "2143afb4233b3f48dbe52305d8e758b0ac292a11545d49dcbf5c8b91a761be4d"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-12.csv.gz",
+          "bytes": 6392096,
+          "sha256": "f90901dfc60f5bd147115e5616809fb4d1868b69bc8d56f791aa406b856922e9"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-13.csv.gz",
+          "bytes": 18858789,
+          "sha256": "8e4065fa3e6003901bb9e7647cace1cc149c8fe74ed35c92674c6528dd3432a6"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-14.csv.gz",
+          "bytes": 11966266,
+          "sha256": "014a878f85eb3b661487737fb1d10eacdc43c0e8dbbca6f8aa5d1243d864e080"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-15.csv.gz",
+          "bytes": 3422694,
+          "sha256": "03aca4657f956b66941ac115f8cc89a6606b935a525329049d12842057b83e1c"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-16.csv.gz",
+          "bytes": 7712992,
+          "sha256": "12a80d3032575e5993d1efcec3b7b55d55b200cb9129081b12ea0284cc38fa52"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-17.csv.gz",
+          "bytes": 16092090,
+          "sha256": "d63362e98d1fbe3985912aa8a8f908b147a661e20a0d3481ee89489a979f5329"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-18.csv.gz",
+          "bytes": 6528060,
+          "sha256": "2cc793fc577ff066c904e80d5bc3eecb8ad6a994e7f79529a90722f0dad4794b"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-19.csv.gz",
+          "bytes": 5918293,
+          "sha256": "d8370b49d420c9cd31c99f77192341211546b8ca92a6b966545ffe5e351e49a9"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-21.csv.gz",
+          "bytes": 7146942,
+          "sha256": "5324b83fae20f4f2b9783ae265b3181f125eaf95a6e9aeb3f6c53adf56afbc9c"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-22.csv.gz",
+          "bytes": 14184410,
+          "sha256": "1b94bf3bb2d0804fce908bddbbe2d89bac0adeeda0cd8f4ac3c9dd705d811d9d"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-23.csv.gz",
+          "bytes": 3024868,
+          "sha256": "35ca0ad9fd71fdd3d13d3eb207b02cba4bfc7c85adfe71602591ee3f58d573ff"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-24.csv.gz",
+          "bytes": 10642484,
+          "sha256": "fa7204488bb5626ee8a190e82a85819fdfde3bba3f3aa6aae722124dc77082dd"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-25.csv.gz",
+          "bytes": 6538901,
+          "sha256": "3fcf9176bd5370751bd4e7ae163b145c58d55bc1233ebfea609072617abee489"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-26.csv.gz",
+          "bytes": 8884298,
+          "sha256": "3aba9435724865aa09946a908720af5a332787bb4a5f1dddf0555427f5645d59"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-27.csv.gz",
+          "bytes": 9575844,
+          "sha256": "2b94bc5b911461661d74d8915b04c53b9ef150473502ec91714ff602e982830f"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-28.csv.gz",
+          "bytes": 6629590,
+          "sha256": "c44bdbfb2168435584b586bae199e2f6beb95c2c80025e955728f67e42f5718e"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-29.csv.gz",
+          "bytes": 20028266,
+          "sha256": "546b8bf2003c9ceb2801c1c97c0aeeec5e0dac882a913d15488af0b0fb95eb43"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-2A.csv.gz",
+          "bytes": 2090234,
+          "sha256": "f6936724fb9f739fa4264da953f64cbf5eb723c6caf17e45d1b63a7dbd5668c0"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-2B.csv.gz",
+          "bytes": 2652111,
+          "sha256": "0f01494a8b8867f2b4dc7131f05aa6ecbc34ac892d27d74846a6f05389fa4e45"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-30.csv.gz",
+          "bytes": 12640180,
+          "sha256": "7f2d630726d47e8b1094c9d2aa6a361f5609c65bef133641a2d6eca20d978622"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-31.csv.gz",
+          "bytes": 17724353,
+          "sha256": "4456e74b57c59e4043589f5fec06fc8ecc75b3cc562e2792e8c10717d7e81f74"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-32.csv.gz",
+          "bytes": 4301809,
+          "sha256": "adbfd8e3fe84c5fb3bdae9d9c63421613c57369f413d178745380fe0953b56fc"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-33.csv.gz",
+          "bytes": 27625823,
+          "sha256": "7fb5609aaeb79c4b2483e9d25c671d5ed5c83249b0ad626ed28e069d3ef972ff"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-34.csv.gz",
+          "bytes": 15782569,
+          "sha256": "4ec9efd5af46c9bb8972bde1c836d54819dc0a1129f309b63e69d4fac38feb4e"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-35.csv.gz",
+          "bytes": 16998595,
+          "sha256": "fa756fa692a14ede5238550fb501442cee069c824eceaf727a79476cc8f77ecb"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-36.csv.gz",
+          "bytes": 4996057,
+          "sha256": "544a256b5c35de37ca1308ab63af9c24b0312febe0d4f604765792883f0a8d1d"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-37.csv.gz",
+          "bytes": 9892562,
+          "sha256": "59345d469ac9eaa208e379e56375989b052be8bdf273075be1330d803762a262"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-38.csv.gz",
+          "bytes": 15531777,
+          "sha256": "0c5f078c23f6776d0ecd6947674871f39d186c0aea3580784a0b095b3da202a3"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-39.csv.gz",
+          "bytes": 4356346,
+          "sha256": "049584078d3e4ca1a61faebd1341e7986af26212203d0f8274b6cc7ee5f921b6"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-40.csv.gz",
+          "bytes": 9165569,
+          "sha256": "2eae63db071ec71d50d49e18f55f0b6707f7d113bc1eb8dee25e914210941572"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-41.csv.gz",
+          "bytes": 6633119,
+          "sha256": "6781b0a300bbc6ca3e3604a4263fbf7a2dd04d2a08b66d2ccd6451aef0001334"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-42.csv.gz",
+          "bytes": 9623604,
+          "sha256": "19f57d45a1a8f10269eb5eebb15bd251c87b57d206884ed3069cd03fc86ce121"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-43.csv.gz",
+          "bytes": 5398369,
+          "sha256": "57f4e1ee48bf8d3853832bf41b7273d69b55795492d3602fbe2b5cac73343c26"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-44.csv.gz",
+          "bytes": 23556772,
+          "sha256": "7b82e1a93949dfe57cde286c0c7718d849c3312eacd9ffe103d6d8a6a6add8be"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-45.csv.gz",
+          "bytes": 10063858,
+          "sha256": "be927343a4338b1600816339310f6e6e5da0632ccd9abbfa21f5109ce0ae90d4"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-46.csv.gz",
+          "bytes": 4775159,
+          "sha256": "276d6a9497ec2f51456f4f64e86a1d913005367db01a08982c0ae0f611bbb677"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-47.csv.gz",
+          "bytes": 7109760,
+          "sha256": "bbdb99b662ee39d25d0fdbcad0273e188b810f77f995b52eb488a9f92ac1bd5c"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-48.csv.gz",
+          "bytes": 2248966,
+          "sha256": "f7212cfae7fa00cfc284a581548acab34400d063c07b3cc2630e903445ad5c2f"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-49.csv.gz",
+          "bytes": 14975350,
+          "sha256": "f53fb4b0c5682dfca2aec93ccdc50d413a37f19b82ff120a8a7b85a41be4f1ef"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-50.csv.gz",
+          "bytes": 11278999,
+          "sha256": "5b1f35e97fe0cfe03ba8ef87f34f56621642a6977d6b31f706e87749d42da9fc"
+        }
+      ]
+    },
+    {
+      "name": "Veygrit_Western_Europe_Address_Data_20261022_Part04_1.zip",
+      "bytes": 87893559,
+      "sha256": "a1d4d57dfc2453d11edfea71548b4fa09ba0a5db6251f79976f52d71a0cc04da",
+      "files": 9,
+      "roots": [
+        "western-europe"
+      ],
+      "part": "04-1",
+      "countries": [
+        "FR"
+      ],
+      "source_members": [
+        {
+          "member": "western-europe/raw/FR-adresses-59.csv.gz",
+          "bytes": 35233993,
+          "sha256": "3cf221cc7e2284e7a15daacec6c071a29af174c5543672bb320091d573fe419c"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-74.csv.gz",
+          "bytes": 10701860,
+          "sha256": "01c80bafe4868cc387913a69abe5c50f2ad25959d5e339e924433d982fb487ee"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-72.csv.gz",
+          "bytes": 9663675,
+          "sha256": "d0d2ca64f53658a81cec6d71b0fb77b1110f30c90de10401f42100b8fdcc9a2e"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-68.csv.gz",
+          "bytes": 8723150,
+          "sha256": "6e08be1cc441d22f6baab9e7040e0c208e20110b4b01a4bf48253240522b80b0"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-51.csv.gz",
+          "bytes": 7188832,
+          "sha256": "f05d956dcce08a77e23d3711eb7e405f6586aba90aacca57da30dd226fb66910"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-89.csv.gz",
+          "bytes": 6756304,
+          "sha256": "7c4f16f1fc5407ee646c2ddee3ac2844c423641a051a99006be3d54147829b4f"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-82.csv.gz",
+          "bytes": 5322581,
+          "sha256": "a9d14d2a0c5bdc1840285a4645804f94149095f2e1e5d3f4bafc96d5155972bd"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-65.csv.gz",
+          "bytes": 4300664,
+          "sha256": "f21b9bfffd9fab1656425f3c2c94cac90855d70d9f28915ce88a7537ff8e8384"
+        }
+      ]
+    },
+    {
+      "name": "Veygrit_Western_Europe_Address_Data_20261022_Part04_2.zip",
+      "bytes": 86920505,
+      "sha256": "2fced6b60c3057e192dc26aaad603e13d3059cb96d2b41b241acdfc288ef636e",
+      "files": 10,
+      "roots": [
+        "western-europe"
+      ],
+      "part": "04-2",
+      "countries": [
+        "FR"
+      ],
+      "source_members": [
+        {
+          "member": "western-europe/raw/FR-adresses-62.csv.gz",
+          "bytes": 22630611,
+          "sha256": "32b5ebf0d2a87e465882b6d38e9ce3512bf90da2698608a643e35d7b2a492c6b"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-63.csv.gz",
+          "bytes": 12349109,
+          "sha256": "56bd24566a4d9656402dea36f5dc31f47d1b751f1e22d0e057e0a379f42c21c6"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-91.csv.gz",
+          "bytes": 11297035,
+          "sha256": "77ef6d8720d494744787faddac13ce6db3f357e6753a06c6b7de2ec0d7d2ed7e"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-95.csv.gz",
+          "bytes": 9609600,
+          "sha256": "4b1e1d2f1fcf9227dfe4a68bbf0d0bea2d524a26761f9816f3cfe556136ec14a"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-54.csv.gz",
+          "bytes": 8707899,
+          "sha256": "8503782bc0bd3d7162a937e4273103063d2efe82273506683edc33a16491b7ab"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-87.csv.gz",
+          "bytes": 7169884,
+          "sha256": "2c1625f4a697eb07be078a92e1a01e35bc6b61921e4ca04a56ee2626c7a25352"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-61.csv.gz",
+          "bytes": 6428656,
+          "sha256": "9556a0d990b847891ac46b4ab44ae2e8ee5d350daf3d2ae7e9f69840fb142d33"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-92.csv.gz",
+          "bytes": 5634496,
+          "sha256": "30a0cd550e99c3b26ce180d5a69c1e8601bcbe9ade8b9e815dfb414ee81b4892"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-55.csv.gz",
+          "bytes": 3090451,
+          "sha256": "0154c5cc3f04fe1e89a573d1be5bcc27909bbbf3ecdb344704d4c0ff68ab545f"
+        }
+      ]
+    },
+    {
+      "name": "Veygrit_Western_Europe_Address_Data_20261022_Part04_3.zip",
+      "bytes": 86879112,
+      "sha256": "c691e9b0097825798b3fa045d12b8117e98d237afc34a80a0138e6f5e973c199",
+      "files": 10,
+      "roots": [
+        "western-europe"
+      ],
+      "part": "04-3",
+      "countries": [
+        "FR"
+      ],
+      "source_members": [
+        {
+          "member": "western-europe/raw/FR-adresses-56.csv.gz",
+          "bytes": 16558074,
+          "sha256": "b74a8d7fc211fe2d6bd47f2ca1619591dc25c114d1d94a01e86bdceb37f0392f"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-69.csv.gz",
+          "bytes": 12540722,
+          "sha256": "df429d6171effc974d68156e9a18780922430d2cdd7e7828d4c3368ac4a79390"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-78.csv.gz",
+          "bytes": 11606445,
+          "sha256": "1d63e64d9b1191760e387aff444f371f701c31050ddae459f9e875af308a6d31"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-64.csv.gz",
+          "bytes": 10257745,
+          "sha256": "47d6f2619ad26730133f7775d658b3f5ea580ce7a484b676a9449c09e8d09caf"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-71.csv.gz",
+          "bytes": 9538922,
+          "sha256": "6bb039d5041e646a0a9af8329c96a76c1ba6387d9914850941a8c74fd8e54fb8"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-93.csv.gz",
+          "bytes": 8096000,
+          "sha256": "2f2d837e0feaa0d26e1a87ba6ec9ea5cdd8a7ffd64b8bb7e8a11dc07c1dd84c7"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-94.csv.gz",
+          "bytes": 6982906,
+          "sha256": "79dc93e4cb2684b325b098161f5f28bcbe80db5d0f00d64ba0d9f7112962abc8"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-75.csv.gz",
+          "bytes": 6359769,
+          "sha256": "cdf1d8871cd50ca7117066e041da9e729016e487b76555455a8fd0633a20e2f1"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-58.csv.gz",
+          "bytes": 4935778,
+          "sha256": "1eac753a2232f552463359954aeb1dd19200c9d0149773aa538f8cfb7b4f49d6"
+        }
+      ]
+    },
+    {
+      "name": "Veygrit_Western_Europe_Address_Data_20261022_Part04_4.zip",
+      "bytes": 87719808,
+      "sha256": "64fddd8f04686bccb15b8491186d8d0d4a5e7da0583bac7a864de4e020539293",
+      "files": 10,
+      "roots": [
+        "western-europe"
+      ],
+      "part": "04-4",
+      "countries": [
+        "FR"
+      ],
+      "source_members": [
+        {
+          "member": "western-europe/raw/FR-adresses-85.csv.gz",
+          "bytes": 16253940,
+          "sha256": "ff3af4302ac5e337c9a76f8157471ef28f0c93166496a98f0aaecb573bac2d8c"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-77.csv.gz",
+          "bytes": 15346925,
+          "sha256": "286ca9a6ac5356ff3e30861fea962ce2e84a5e97b3a07942b4381373a1bf5fbc"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-67.csv.gz",
+          "bytes": 11469098,
+          "sha256": "5b86e51839f638292a62fef7ae33bf703b57a98f42513ae45e3a6363763a8a12"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-60.csv.gz",
+          "bytes": 10087942,
+          "sha256": "98b71ae5750e729163e97b345e5d5c35689f5d7f5f3045b3ac4c37211df6bc01"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-66.csv.gz",
+          "bytes": 9345056,
+          "sha256": "20e572299d7b27d05cd599322c9216d084f078a5ef67435dd9723a8a83ed76bd"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-81.csv.gz",
+          "bytes": 8006571,
+          "sha256": "cc552ae85c95c457c824686bd2064255051d1a7e320e917ec049cc4b1bf9c897"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-86.csv.gz",
+          "bytes": 6967786,
+          "sha256": "2e9dc82cf7313d83000c78c175a8dd0d98ec03376d2ff45537940c6746b98e3d"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-88.csv.gz",
+          "bytes": 6266463,
+          "sha256": "c414a7cbbd08d397e0abee4a136cf61b81f4299683e47c11734a877b903ddb41"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-70.csv.gz",
+          "bytes": 3973276,
+          "sha256": "8fe2a8f2463985755147c8c3cc7d84a125ba16dc300fa1e271a3db46161a4ba7"
+        }
+      ]
+    },
+    {
+      "name": "Veygrit_Western_Europe_Address_Data_20261022_Part04_5.zip",
+      "bytes": 88100108,
+      "sha256": "8e5d5c1fed0b71af83052b30e60d23ab285ae7660ae4a44800fa6dbe317a0924",
+      "files": 11,
+      "roots": [
+        "western-europe"
+      ],
+      "part": "04-5",
+      "countries": [
+        "FR"
+      ],
+      "source_members": [
+        {
+          "member": "western-europe/raw/FR-adresses-83.csv.gz",
+          "bytes": 16101518,
+          "sha256": "4f6c6ffafeaf6f9416e88969567b94d04fe820e5e44a284c9970918674027bb0"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-76.csv.gz",
+          "bytes": 16077879,
+          "sha256": "66d7f4c9853295d59b1ac86accc81904735e16c6c50ae7d178d7969dd16ed4f4"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-57.csv.gz",
+          "bytes": 11467001,
+          "sha256": "5c976ce9cfac00240d13f41f309f63830f75264fa9982efcdbb4897dbaddbd3b"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-84.csv.gz",
+          "bytes": 10010362,
+          "sha256": "a5a32777d120b59f28a9358b72e97a22639f89e39263865cf0157484173c9033"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-80.csv.gz",
+          "bytes": 9337092,
+          "sha256": "31b565f99bf799356a69548e3a70c02b1ff50bb49cdfce7392aa6c6cf4f81283"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-79.csv.gz",
+          "bytes": 7795403,
+          "sha256": "55ae82996d4a08f2225f3b36e57e2447823c85d25bc84e7bbc76d8737a8f5c7e"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-73.csv.gz",
+          "bytes": 6876441,
+          "sha256": "50456b02c0904000c1176323d209f79ae54cd323a535e6bb36493ca2cbe68095"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-53.csv.gz",
+          "bytes": 6188254,
+          "sha256": "2789042ec965c60ea407a876e343bd065d7710fa2156460798343610da5fd9e0"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-52.csv.gz",
+          "bytes": 2971532,
+          "sha256": "dd64163638c88be018d8306a53074e1403654a367e3b175d39960f9d900ef76f"
+        },
+        {
+          "member": "western-europe/raw/FR-adresses-90.csv.gz",
+          "bytes": 1271620,
+          "sha256": "4f6d232e85846bb035053560610674304dd059c763acf4319da6c98be6be6d0f"
+        }
+      ]
+    }
+  ],
+  "data_payloads_in_git": false,
+  "official_raw_source_files": 107,
+  "supplementary_pbf_sources": 1,
+  "supplementary_projections": 1,
+  "national_completeness_verified": false,
+  "deliverability_in_scope": false,
+  "restore": "Restore all eight standard ZIPs into the same new directory. The original Part04 is supplied as five subparts below 100 MiB. The data root is western-europe/raw.",
+  "implementation_commit_sha": "825810077a7eeaba145e16e20ca5bc6493014c1f",
+  "verification": {
+    "archives": 8,
+    "files": 126,
+    "archive_hashes_and_crc": "PASS",
+    "original_payload_files_byte_verified": 109
+  },
+  "related_source_archive_manifests": [
+    "releases/hierarchy/western-europe/netherlands/archive.json"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "country_codes": [
+    "BZ",
+    "GT",
+    "SV",
+    "HN",
+    "NI",
+    "CR",
+    "PA"
+  ],
+  "country_count": 7,
+  "supplementary_area_codes": [],
+  "supplementary_area_count": 0,
+  "default_processing_scope": "countries",
+  "scope_basis": "Central American isthmus, excluding Mexico already delivered in North America package.",
+  "m49_mapping": {
+    "BZ": "central_america",
+    "GT": "central_america",
+    "SV": "central_america",
+    "HN": "central_america",
+    "NI": "central_america",
+    "CR": "central_america",
+    "PA": "central_america",
+    "MX": "central_america"
+  },
+  "mexico_handling": {
+    "m49_subregion": "central_america",
+    "delivered_in": "Veygrit_NorthAmerica_20261017.zip",
+    "included_in_this_loop": false
+  },
+  "excluded_regions": [
+    "Caribbean"
+  ],
+  "note_ja": "中米7か国を一巡する。国連M49ではメキシコを含む中米8か国だが、メキシコは北米版で対応済みのため今回のデータ・件数に重複計上しない。"
+}

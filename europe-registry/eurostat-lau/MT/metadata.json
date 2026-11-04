@@ -1,0 +1,35 @@
+{
+  "country": "MT",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 420,
+      "rows": 4,
+      "sha256": "e41539f30f4c8329d06d6a495814235afe066be9ee896ac79faa5c6f775e747a"
+    },
+    "units.csv.gz": {
+      "bytes": 1893,
+      "rows": 68,
+      "sha256": "8aff2bbe020e14b8edeeeeb14ef65b46c0c0545afc0b16e3cb0725bebaa4e282"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 68,
+  "skipped_empty_rows": 34878,
+  "source_period_counts": {
+    "2024": 68
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "MT",
+  "validation": {
+    "core": "validated",
+    "overall": "validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

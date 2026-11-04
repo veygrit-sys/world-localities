@@ -1,0 +1,99 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "AZE",
+    "country": "AZ",
+    "geonames_continent": "AS",
+    "geonames_country_name": "Azerbaijan",
+    "geonames_id": "587116",
+    "id": "country:AZ",
+    "m49": "031",
+    "m49_region": "Asia",
+    "name_en": "Azerbaijan",
+    "region": "Western Asia",
+    "scope_group": "supplement",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 5068,
+    "admin_rows": 96,
+    "ambiguous_parents": 0,
+    "country": "AZ",
+    "country_scope_only": 16,
+    "localities_without_adm1": 243,
+    "locality_rows": 5295,
+    "name_en": "Azerbaijan",
+    "other_admin_rows": 6,
+    "region": "Western Asia",
+    "unresolved_parents": 4
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 71,
+    "ADM1H": 2,
+    "ADM2": 21,
+    "ADM3": 4,
+    "ADMD": 4,
+    "PPL": 4946,
+    "PPLA": 65,
+    "PPLA2": 7,
+    "PPLC": 1,
+    "PPLH": 2,
+    "PPLL": 3,
+    "PPLQ": 216,
+    "PPLW": 9,
+    "PPLX": 46
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 466215,
+      "rows": 5397,
+      "sha256": "023e8f3dd0a8203e2cc8e28339266cd2b70840de7dbebe6209e1922ac2445b54",
+      "uncompressed_sha256": "7848ede9f89e9744115df7f7e153392b1d12f75e872cefffc6055b3aff20fb59"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 16,
+    "historical_parent_not_asserted": 229,
+    "missing_code": 4,
+    "not_assigned_for_other_feature": 4,
+    "source_admin_code": 5073,
+    "source_country": 71
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 71,
+      "sha256": "566f694efbe5f4922124ae4fae1b21668744d68a68e1467b1dd05903ae367cd8"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 10154,
+    "bytes": 631310,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 1322,
+      "L": 983,
+      "R": 2,
+      "S": 805,
+      "T": 1628,
+      "U": 1,
+      "V": 15
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:51:25 GMT",
+    "retained_rows": 5397,
+    "retrieved_at": "2026-09-29T11:13:10.998748+00:00",
+    "sha256": "b78ef889dfbc59b3e7ff99255950e0389bdb446bf7dbf7136b33df276c013bda",
+    "url": "https://download.geonames.org/export/dump/AZ.zip"
+  },
+  "source_modified_max": "2026-09-28",
+  "source_modified_min": "2007-05-30"
+}

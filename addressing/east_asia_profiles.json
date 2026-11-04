@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "region": "Eastern Asia",
+  "reviewed_at": "2026-10-16",
+  "purpose": "Native-language and English address display profiles with explicit evidence status; not an address-existence or deliverability claim.",
+  "overrides": [
+    "CN_en",
+    "CN_zh",
+    "HK_en",
+    "HK_zh",
+    "JP_en",
+    "JP_ja",
+    "KR_en",
+    "KR_ko",
+    "MO_pt",
+    "MO_zh",
+    "TW_en",
+    "TW_zh"
+  ],
+  "countries": {
+    "CN": {
+      "native_languages": ["zh-Hans"],
+      "default_native_language": "zh-Hans",
+      "native_profile": "CN_zh",
+      "native_profiles": {
+        "zh-Hans": "CN_zh"
+      },
+      "english_profile": "CN_en",
+      "country_names": {"zh-Hans": "中国", "en": "China"},
+      "romanization_policy": "Use an authority-backed English alias or user-supplied Hanyu Pinyin; automatic transliteration is not verification.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "Standardization Administration of China",
+          "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=D05A521D1FE8FE9DCD4A600172B3F03F",
+          "scope": "GB/T 22657.1-2008 domestic mail-item writing specification"
+        }
+      ]
+    },
+    "HK": {
+      "native_languages": ["zh-Hant"],
+      "default_native_language": "zh-Hant",
+      "native_profile": "HK_zh",
+      "native_profiles": {
+        "zh-Hant": "HK_zh"
+      },
+      "english_profile": "HK_en",
+      "country_names": {"zh-Hant": "香港", "en": "Hong Kong"},
+      "romanization_policy": "Prefer the English address published by Hongkong Post or the address authority; do not substitute Mandarin Pinyin for Cantonese place names.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "Hongkong Post",
+          "url": "https://www.hongkongpost.hk/en/about_us/tips/correct_address/",
+          "scope": "Chinese and English local address order and international language guidance"
+        }
+      ]
+    },
+    "JP": {
+      "native_languages": ["ja"],
+      "default_native_language": "ja",
+      "native_profile": "JP_ja",
+      "native_profiles": {
+        "ja": "JP_ja"
+      },
+      "english_profile": "JP_en",
+      "country_names": {"ja": "日本", "en": "Japan"},
+      "romanization_policy": "Prefer an official English locality alias; otherwise retain user-supplied Latin spelling and mark it unverified.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "Japan Post",
+          "url": "https://www.post.japanpost.jp/service/send/oversea/use/label/howto_en.html",
+          "scope": "English international address order and Latin-letter requirement"
+        }
+      ]
+    },
+    "KP": {
+      "native_languages": ["ko"],
+      "default_native_language": "ko",
+      "native_profile": "KP_ko",
+      "native_profiles": {
+        "ko": "KP_ko"
+      },
+      "english_profile": "KP_en",
+      "country_names": {"ko": "조선민주주의인민공화국", "en": "Democratic People's Republic of Korea"},
+      "romanization_policy": "Only an authority-backed or user-confirmed English form is accepted; no bundled automatic romanizer is treated as authoritative.",
+      "evidence_status": "provisional",
+      "sources": [
+        {
+          "authority": "Universal Postal Union",
+          "url": "https://www.upu.int/en/postal-solutions/programmes-services/addressing-solutions",
+          "scope": "General international addressing model; a current operator-specific bilingual template was not available in the reviewed public material"
+        }
+      ]
+    },
+    "KR": {
+      "native_languages": ["ko"],
+      "default_native_language": "ko",
+      "native_profile": "KR_ko",
+      "native_profiles": {
+        "ko": "KR_ko"
+      },
+      "english_profile": "KR_en",
+      "country_names": {"ko": "대한민국", "en": "Republic of Korea"},
+      "romanization_policy": "Prefer the English road-name address returned by the official Road Name Address Information System.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "Ministry of the Interior and Safety, Road Name Address Information System",
+          "url": "https://www.juso.go.kr/",
+          "scope": "Official road-name address structure and English address lookup"
+        }
+      ]
+    },
+    "MN": {
+      "native_languages": ["mn-Cyrl", "mn-Mong"],
+      "default_native_language": "mn-Cyrl",
+      "native_profile": "MN_mn",
+      "native_profiles": {
+        "mn-Cyrl": "MN_mn",
+        "mn-Mong": "MN_mn"
+      },
+      "english_profile": "MN_en",
+      "country_names": {"mn-Cyrl": "Монгол Улс", "mn-Mong": "ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ", "en": "Mongolia"},
+      "romanization_policy": "International output must use a user-confirmed or authority-backed Latin form; transliteration alone is not an English-name assertion.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "Mongol Post",
+          "url": "https://www.mongolpost.mn/mn/faq",
+          "scope": "International addresses must be written in English or French with Latin letters and include postcodes"
+        },
+        {
+          "authority": "Government of Mongolia legal information system",
+          "url": "https://legalinfo.mn/mn/detail?lawId=210927",
+          "scope": "Cyrillic and traditional Mongolian dual-script public-document policy effective from 2025"
+        }
+      ]
+    },
+    "MO": {
+      "native_languages": ["zh-Hant", "pt"],
+      "default_native_language": "zh-Hant",
+      "native_profile": "MO_zh",
+      "native_profiles": {
+        "zh-Hant": "MO_zh",
+        "pt": "MO_pt"
+      },
+      "english_profile": "MO_en",
+      "country_names": {"zh-Hant": "澳門", "pt": "Macau", "en": "Macao"},
+      "romanization_policy": "Prefer the Chinese or Portuguese official street form. English output may use the Macao Post English form and is not assumed to be an official translation of every name.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "Macao Post and Telecommunications Bureau",
+          "url": "https://www.ctt.gov.mo/MacauPost/Contents/AddressFormat.aspx?lang=en-us",
+          "scope": "Official Chinese, Portuguese and English local address order"
+        }
+      ]
+    },
+    "TW": {
+      "native_languages": ["zh-Hant"],
+      "default_native_language": "zh-Hant",
+      "native_profile": "TW_zh",
+      "native_profiles": {
+        "zh-Hant": "TW_zh"
+      },
+      "english_profile": "TW_en",
+      "country_names": {"zh-Hant": "臺灣", "en": "Taiwan"},
+      "romanization_policy": "Prefer the Chunghwa Post English-address result or an official locality alias; preserve the supplied spelling when variants exist.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {
+          "authority": "Chunghwa Post",
+          "url": "https://www.post.gov.tw/post/internet/U_english2/index.jsp?ID=1639969007848",
+          "scope": "International English address line order"
+        },
+        {
+          "authority": "Chunghwa Post",
+          "url": "https://www.post.gov.tw/post/internet/Postal/sz_a_e_ta1.jsp",
+          "scope": "Chinese-to-English address element terminology"
+        }
+      ]
+    }
+  },
+  "profile_status": {
+    "CN_en": "official_guidance",
+    "CN_zh": "official_guidance",
+    "HK_en": "official_guidance",
+    "HK_zh": "official_guidance",
+    "JP_en": "official_guidance",
+    "JP_ja": "source_derived_domestic",
+    "KP_en": "provisional",
+    "KP_ko": "provisional",
+    "KR_en": "official_guidance",
+    "KR_ko": "official_guidance",
+    "MN_en": "official_guidance",
+    "MN_mn": "source_derived_domestic",
+    "MO_en": "official_guidance",
+    "MO_pt": "official_guidance",
+    "MO_zh": "official_guidance",
+    "TW_en": "official_guidance",
+    "TW_zh": "official_guidance"
+  },
+  "profiles": {
+    "CN_en": {
+      "country_code": "CN",
+      "language": "en",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{subpremise}}}\n{{{house}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{city_district}}} {{/first}}\n{{{county}}}\n{{#first}}{{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} || {{{hamlet}}}{{/first}}\n{{#first}} {{{state}}} || {{{state_district}}} || {{{region}}}{{/first}} {{{postcode}}}\n{{{country}}}\n"
+    },
+    "CN_zh": {
+      "country_code": "CN",
+      "language": "zh",
+      "address_template": "{{{postcode}}}\n{{{country}}}\n{{#first}} {{{state}}} || {{{state_district}}} || {{{region}}}{{/first}}\n{{{county}}}\n{{#first}}{{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} || {{{hamlet}}}{{/first}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{city_district}}} {{/first}}\n{{{road}}} {{{house_number}}}\n{{{house}}}\n{{{subpremise}}}\n{{{organization}}}\n{{{attention}}}\n"
+    },
+    "HK_en": {
+      "country_code": "HK",
+      "language": "en",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{subpremise}}}\n{{{house}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{city_district}}} || {{{neighbourhood}}} || {{{suburb}}} {{/first}}\n{{#first}} {{{state}}} || {{{state_district}}} || {{{region}}} {{/first}}\n{{{country}}}\n"
+    },
+    "HK_zh": {
+      "country_code": "HK",
+      "language": "zh",
+      "address_template": "{{#first}} {{{state}}} || {{{country}}} {{/first}}\n{{#first}} {{{city_district}}} || {{{neighbourhood}}} || {{{suburb}}} {{/first}}\n{{{road}}} {{{house_number}}}\n{{{house}}}\n{{{subpremise}}}\n{{{organization}}}\n{{{attention}}}\n"
+    },
+    "JP_en": {
+      "country_code": "JP",
+      "language": "en",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{subpremise}}}\n{{{house}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{city_district}}} {{/first}}\n{{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}, {{#first}} {{{state}}} || {{{state_district}}} {{/first}} {{{postcode}}}\n{{{country}}}\n",
+      "postformat_replace": [[" (\\d{3})(\\d{4})\\n", " $1-$2\\n"]]
+    },
+    "JP_ja": {
+      "country_code": "JP",
+      "language": "ja",
+      "address_template": "{{{country}}}\n{{{postcode}}}\n{{#first}} {{{state}}} || {{{state_district}}} {{/first}}\n{{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{city_district}}} {{/first}}\n{{{road}}}\n{{{house_number}}}\n{{{house}}}\n{{{subpremise}}}\n{{{organization}}}\n{{{attention}}}\n",
+      "postformat_replace": [[" (\\d{3})(\\d{4})\\n", " $1-$2\\n"]]
+    },
+    "KP_en": {
+      "country_code": "KP",
+      "language": "en",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{subpremise}}}\n{{{house}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{city_district}}} {{/first}}\n{{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}\n{{{state}}} {{{postcode}}}\n{{{country}}}\n"
+    },
+    "KP_ko": {
+      "country_code": "KP",
+      "language": "ko",
+      "address_template": "{{{country}}}\n{{{state}}}\n{{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}\n{{#first}} {{{city_district}}} || {{{neighbourhood}}} || {{{suburb}}} {{/first}}\n{{{road}}} {{{house_number}}}\n{{{house}}}\n{{{subpremise}}}\n{{{organization}}}\n{{{attention}}}\n{{{postcode}}}\n"
+    },
+    "KR_en": {
+      "country_code": "KR",
+      "language": "en",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{subpremise}}}\n{{{house}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{city_district}}} || {{{neighbourhood}}} || {{{suburb}}} {{/first}}, {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}} {{{postcode}}}\n{{{state}}}\n{{{country}}}\n"
+    },
+    "KR_ko": {
+      "country_code": "KR",
+      "language": "ko",
+      "address_template": "{{{country}}}\n{{{state}}} {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}} {{#first}} {{{city_district}}} || {{{neighbourhood}}} || {{{suburb}}} {{/first}} {{{road}}} {{{house_number}}}\n{{{house}}}\n{{{subpremise}}}\n{{{organization}}}\n{{{attention}}}\n{{{postcode}}}\n"
+    },
+    "MN_en": {
+      "country_code": "MN",
+      "language": "en",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{subpremise}}}\n{{{house}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{city_district}}} {{/first}}\n{{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}} {{{postcode}}}\n{{{state}}}\n{{{country}}}\n"
+    },
+    "MN_mn": {
+      "country_code": "MN",
+      "language": "mn",
+      "address_template": "{{{country}}}\n{{{state}}}\n{{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} {{/first}}\n{{{city_district}}}\n{{#first}} {{{suburb}}} || {{{neighbourhood}}} {{/first}}\n{{{road}}} {{{house_number}}}\n{{{house}}}\n{{{subpremise}}}\n{{{organization}}}\n{{{attention}}}\n{{{postcode}}}\n"
+    },
+    "MO_en": {
+      "country_code": "MO",
+      "language": "en",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{road}}} {{{house_number}}}\n{{{house}}}\n{{{subpremise}}}\n{{#first}} {{{city_district}}} || {{{suburb}}} || {{{village}}} || {{{hamlet}}} || {{{state_district}}} {{/first}} {{{postcode}}}\n{{{country}}}\n"
+    },
+    "MO_pt": {
+      "country_code": "MO",
+      "language": "pt",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{road}}} {{{house_number}}}\n{{{house}}}\n{{{subpremise}}}\n{{#first}} {{{city_district}}} || {{{suburb}}} || {{{village}}} || {{{hamlet}}} || {{{state_district}}} {{/first}} {{{postcode}}}\n{{{country}}}\n"
+    },
+    "MO_zh": {
+      "country_code": "MO",
+      "language": "zh",
+      "address_template": "{{{country}}}\n{{#first}} {{{city_district}}} || {{{suburb}}} || {{{village}}} || {{{hamlet}}} || {{{state_district}}} {{/first}} {{{postcode}}}\n{{{road}}} {{{house_number}}}\n{{{house}}}\n{{{subpremise}}}\n{{{organization}}}\n{{{attention}}}\n"
+    },
+    "TW_en": {
+      "country_code": "TW",
+      "language": "en",
+      "address_template": "{{{attention}}}\n{{{organization}}}\n{{{subpremise}}}\n{{{house}}}\n{{{house_number}}}, {{{road}}}\n{{#first}} {{{city_district}}} || {{{suburb}}} || {{{neighbourhood}}} {{/first}}, {{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{municipality}}} {{/first}} {{{postcode}}}\n{{{country}}}\n"
+    },
+    "TW_zh": {
+      "country_code": "TW",
+      "language": "zh",
+      "address_template": "{{{country}}}\n{{{postcode}}}\n{{#first}} {{{city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{municipality}}} {{/first}} {{#first}} {{{city_district}}} || {{{suburb}}} || {{{neighbourhood}}} {{/first}} {{{road}}} {{{house_number}}}\n{{{house}}}\n{{{subpremise}}}\n{{{organization}}}\n{{{attention}}}\n"
+    }
+  }
+}

@@ -1,0 +1,709 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-17T01:20:38.451495+00:00",
+  "scope": "countries",
+  "country_count": 7,
+  "supplementary_area_count": 0,
+  "countries": [
+    {
+      "code": "BZ",
+      "name_ja": "ベリーズ",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-bz-v01",
+          "kind": "district",
+          "nodes": 6
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 6
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 2
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 522
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 1
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 521
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 520
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 2
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 522
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 522
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 1
+        }
+      ],
+      "geonames_place_count": 522,
+      "linked_nodes": 536,
+      "nodes_requiring_source_review": 1,
+      "coverage_notes_ja": "COD-ABの6地区。市・村を全国行政レベル2として網羅した資料ではない。GeoNamesの地名と独立管理。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "GT",
+      "name_ja": "グアテマラ",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-gt-v01",
+          "kind": "cartographic_water_area",
+          "nodes": 2
+        },
+        {
+          "namespace": "codab-gt-v01",
+          "kind": "department",
+          "nodes": 22
+        },
+        {
+          "namespace": "codab-gt-v01",
+          "kind": "municipality",
+          "nodes": 340
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 22
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 340
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 16979
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 16979
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 8177
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 8796
+        },
+        {
+          "field": "admin2",
+          "status": "unresolved",
+          "records": 6
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 16979
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 16979
+        }
+      ],
+      "issues": [
+        {
+          "code": "non_administrative_cartographic_feature",
+          "field": "pcode",
+          "observations": 2
+        },
+        {
+          "code": "parent_tuple_conflict",
+          "field": "admin2",
+          "observations": 6
+        }
+      ],
+      "geonames_place_count": 16979,
+      "linked_nodes": 17705,
+      "nodes_requiring_source_review": 8,
+      "coverage_notes_ja": "COD-ABの22県・340市町村。2湖を市町村から分離。原区分は2019年版、2025年の確認日を新設・廃止の施行日とは扱わない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "SV",
+      "name_ja": "エルサルバドル",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-sv-v02",
+          "kind": "cartographic_water_area",
+          "nodes": 8
+        },
+        {
+          "namespace": "codab-sv-v02",
+          "kind": "department",
+          "nodes": 14
+        },
+        {
+          "namespace": "codab-sv-v02",
+          "kind": "district",
+          "nodes": 262
+        },
+        {
+          "namespace": "codab-sv-v02",
+          "kind": "municipality",
+          "nodes": 44
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 14
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 44
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 262
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin4",
+          "nodes": 1
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 4889
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 1
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 4888
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 4887
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 2
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 4887
+        },
+        {
+          "field": "admin3",
+          "status": "resolved",
+          "records": 2
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 4889
+        }
+      ],
+      "issues": [
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 1
+        },
+        {
+          "code": "non_administrative_cartographic_feature",
+          "field": "pcode",
+          "observations": 8
+        }
+      ],
+      "geonames_place_count": 4889,
+      "linked_nodes": 5538,
+      "nodes_requiring_source_review": 9,
+      "coverage_notes_ja": "2024年の県・市町村・地区の3階層。44市町村・262地区に加え、地図を埋めるための湖・貯水池各4行があり、行政区分とは分離する。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "HN",
+      "name_ja": "ホンジュラス",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-hn-v01",
+          "kind": "department",
+          "nodes": 18
+        },
+        {
+          "namespace": "codab-hn-v01",
+          "kind": "municipality",
+          "nodes": 298
+        },
+        {
+          "namespace": "codab-hn-v01",
+          "kind": "populated_place",
+          "nodes": 27969
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 18
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 298
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 12965
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 12965
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 814
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 12151
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 12965
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 12965
+        }
+      ],
+      "issues": [
+        {
+          "code": "duplicate_source_pcode",
+          "field": "pcode",
+          "observations": 40
+        }
+      ],
+      "geonames_place_count": 12965,
+      "linked_nodes": 41566,
+      "nodes_requiring_source_review": 40,
+      "coverage_notes_ja": "COD-ABは18県・298市町村と27,969の集落参照行。地理原典2015年、集落参照2016年。現時点の住所実在や人口を保証しない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "NI",
+      "name_ja": "ニカラグア",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-ni-v02",
+          "kind": "department_or_autonomous_region",
+          "nodes": 17
+        },
+        {
+          "namespace": "codab-ni-v02",
+          "kind": "municipality",
+          "nodes": 153
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 17
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 153
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 7
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 2629
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "not_supplied",
+          "records": 1
+        },
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 2628
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 1656
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 972
+        },
+        {
+          "field": "admin2",
+          "status": "unresolved",
+          "records": 1
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 2617
+        },
+        {
+          "field": "admin3",
+          "status": "resolved",
+          "records": 12
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 2629
+        }
+      ],
+      "issues": [
+        {
+          "code": "missing_reference",
+          "field": "admin2",
+          "observations": 1
+        },
+        {
+          "code": "no_parent_code",
+          "field": "admin",
+          "observations": 1
+        }
+      ],
+      "geonames_place_count": 2629,
+      "linked_nodes": 2976,
+      "nodes_requiring_source_review": 2,
+      "coverage_notes_ja": "COD-ABは15県・2自治地域を含む17の上位区分、153市町村。原地理データ2017年、valid_onは2023年。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "CR",
+      "name_ja": "コスタリカ",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-cr-v01",
+          "kind": "canton",
+          "nodes": 84
+        },
+        {
+          "namespace": "codab-cr-v01",
+          "kind": "district",
+          "nodes": 492
+        },
+        {
+          "namespace": "codab-cr-v01",
+          "kind": "province",
+          "nodes": 7
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 7
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 82
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 474
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin4",
+          "nodes": 1
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 5781
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 5781
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 3483
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 2298
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 3525
+        },
+        {
+          "field": "admin3",
+          "status": "resolved",
+          "records": 2256
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 5781
+        }
+      ],
+      "issues": [
+        {
+          "code": "known_incomplete_administrative_snapshot",
+          "field": "namespace",
+          "observations": 7
+        }
+      ],
+      "geonames_place_count": 5781,
+      "linked_nodes": 6928,
+      "nodes_requiring_source_review": 7,
+      "coverage_notes_ja": "COD-ABは7州・84カントン・492地区。GeoNamesは82カントン相当・474地区で不足がある。COD-ABとGeoNamesのコード体系を混同しない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "code": "PA",
+      "name_ja": "パナマ",
+      "scope_type": "country",
+      "processing_status": "PASS",
+      "coverage_status": "partial_reference_data",
+      "nodes_by_namespace_and_kind": [
+        {
+          "namespace": "codab-pa-v01",
+          "kind": "corregimiento",
+          "nodes": 594
+        },
+        {
+          "namespace": "codab-pa-v01",
+          "kind": "district_or_comarca",
+          "nodes": 76
+        },
+        {
+          "namespace": "codab-pa-v01",
+          "kind": "province_or_comarca",
+          "nodes": 13
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin1",
+          "nodes": 14
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin2",
+          "nodes": 82
+        },
+        {
+          "namespace": "geonames",
+          "kind": "admin3",
+          "nodes": 679
+        },
+        {
+          "namespace": "geonames",
+          "kind": "place",
+          "nodes": 13238
+        },
+        {
+          "namespace": "scope",
+          "kind": "country",
+          "nodes": 1
+        }
+      ],
+      "geonames_place_parent_checks": [
+        {
+          "field": "admin1",
+          "status": "resolved",
+          "records": 13238
+        },
+        {
+          "field": "admin2",
+          "status": "not_supplied",
+          "records": 159
+        },
+        {
+          "field": "admin2",
+          "status": "resolved",
+          "records": 13079
+        },
+        {
+          "field": "admin3",
+          "status": "not_supplied",
+          "records": 160
+        },
+        {
+          "field": "admin3",
+          "status": "resolved",
+          "records": 13078
+        },
+        {
+          "field": "admin4",
+          "status": "not_supplied",
+          "records": 13238
+        }
+      ],
+      "issues": [
+        {
+          "code": "administrative_level_requires_review",
+          "field": "feature_code",
+          "observations": 1
+        },
+        {
+          "code": "known_outdated_administrative_snapshot",
+          "field": "vintage",
+          "observations": 13
+        }
+      ],
+      "geonames_place_count": 13238,
+      "linked_nodes": 14696,
+      "nodes_requiring_source_review": 14,
+      "coverage_notes_ja": "COD-ABは2020年の原地理データを基にした旧版で13上位区分・76地区相当・594コレヒミエント。2025年IGN公表の82地区・699コレヒミエントより不足。GeoNamesは14 ADM1・82 ADM2・679 ADM3だがNaso Tjër Diの階層がIGN説明と異なる。両系統とも現行全国行政区分の完成扱いにしない。",
+      "street_names_nationwide_acquired": false,
+      "address_points_acquired": false,
+      "address_verified": false,
+      "national_coverage_verified": false,
+      "delivery_verified": false
+    }
+  ],
+  "structural_checks": {
+    "foreign_keys": "PASS",
+    "same_country_links": "PASS",
+    "acyclic_rank_order": "PASS"
+  },
+  "limit": "PASS means the processing and structural checks completed; it is not national address completeness."
+}

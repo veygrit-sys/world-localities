@@ -1,0 +1,91 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "MLI",
+    "country": "ML",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Mali",
+    "geonames_id": "2453866",
+    "id": "country:ML",
+    "m49": "466",
+    "name_en": "Mali",
+    "numeric": "466",
+    "region": "Western Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 15797,
+    "admin_rows": 114,
+    "ambiguous_parents": 0,
+    "country": "ML",
+    "country_scope_only": 1175,
+    "localities_without_adm1": 1175,
+    "locality_rows": 15857,
+    "name_en": "Mali",
+    "other_admin_rows": 1,
+    "region": "Western Africa",
+    "unresolved_parents": 42
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 11,
+    "ADM2": 50,
+    "ADM3": 51,
+    "ADM4": 2,
+    "PCLI": 1,
+    "PPL": 15703,
+    "PPLA": 10,
+    "PPLA2": 36,
+    "PPLA3": 9,
+    "PPLC": 1,
+    "PPLL": 2,
+    "PPLQ": 55,
+    "PPLW": 5,
+    "PPLX": 36
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 508771,
+      "rows": 15972,
+      "sha256": "6435b7f49f53ccb601a4756b44bd5b46fbadbcf27780b1b61b026c8c3568b9a8",
+      "uncompressed_sha256": "61a05e1ca93dc3e6168976c48c50e11ccd6651d9e545bdabaa8c950f94cb2fbe"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 1175,
+    "missing_code": 24,
+    "missing_reference": 18,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 14743,
+    "source_country": 11
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 11,
+      "sha256": "2cb2bd2d4ff2e03c8ed26a5410cfdd8cb0a7bbc7b1a419e139ea4eca832f3142"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 684413,
+    "discarded_feature_classes": {
+      "H": 3918,
+      "L": 1063,
+      "R": 1,
+      "S": 591,
+      "T": 2971,
+      "V": 192
+    },
+    "retained_rows": 15972,
+    "retrieved_on": "2026-09-26",
+    "sha256": "c99de45ec24f0f266ab22b3cdd5005facc221976c28bd6736f57c290539e96bf",
+    "source_rows": 24708,
+    "url": "https://download.geonames.org/export/dump/ML.zip"
+  },
+  "source_modified_max": "2026-09-19",
+  "source_modified_min": "1993-12-18"
+}

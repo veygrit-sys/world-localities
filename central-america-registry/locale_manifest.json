@@ -1,0 +1,43 @@
+{
+  "complete_english_coverage": false,
+  "complete_native_language_coverage": false,
+  "countries": [
+    "BZ",
+    "GT",
+    "HN",
+    "NI",
+    "PA",
+    "SV"
+  ],
+  "files": {
+    "countries/BZ/locale_metadata.json": {
+      "sha256": "107912667a676f97446b4146a458073d9fbc045d3e58d4c642a5d0a8087875c4"
+    },
+    "countries/GT/locale_metadata.json": {
+      "sha256": "96b073b4fae9aac8451a0ec978e8e86c04782dda463372b6fbab7b703b8d42db"
+    },
+    "countries/HN/locale_metadata.json": {
+      "sha256": "841031a6714f8af5fec60c363ba86dc5a002d307c3ea9c9c466c7182ab9a7b7e"
+    },
+    "countries/NI/locale_metadata.json": {
+      "sha256": "a89f240805e07ae55b6d76212607c2bc303d502b6ef0e90b7bf9a992b6090480"
+    },
+    "countries/PA/locale_metadata.json": {
+      "sha256": "62be022cb54d4d01df6e1707a3bd4fbfe241636050b72cbec9d37530a99e2697"
+    },
+    "countries/SV/locale_metadata.json": {
+      "sha256": "56b6ad9e7aa7ffe7298b29dccf23eef6c9a4e27f6800b0b4d302b3fcd4b79941"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "postal_delivery_validated": false,
+  "schema_version": 1,
+  "totals": {
+    "entities_with_current_english": 400,
+    "entities_with_current_spanish": 30626,
+    "entities_with_names": 30882,
+    "language_tagged_names": 42606,
+    "postal_linked_entities": 6,
+    "postal_links": 6
+  }
+}

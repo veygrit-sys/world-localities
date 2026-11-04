@@ -1,0 +1,2688 @@
+{
+  "schema_version": "1.0.0",
+  "max_part_bytes": 524288,
+  "base_archive_sha256": "856a4353516a8576e2ffedec8b2e25f1532eb7dc90117f711c5bc6241e3ef68f",
+  "locale_archive_sha256": "b966db16e9d76a44f1602d23f150034f656f04e28028ab704e5db1db700b45ae",
+  "base_snapshot": "2026-09-27",
+  "countries": {
+    "AS": {
+      "archive_bytes": 102155,
+      "archive_sha256": "fba7dc56b193dfc6f6e6bacf1711b4014b12350d1423ab01e9b11d8efcc25e42",
+      "parts": [
+        {
+          "path": "countries/AS/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 136209,
+          "stored_sha256": "de759c69d2bade100a1e7714ed8c55f1a4742dc24dc37aabccb41795eb2c7d3b",
+          "bytes": 102155,
+          "sha256": "fba7dc56b193dfc6f6e6bacf1711b4014b12350d1423ab01e9b11d8efcc25e42"
+        }
+      ],
+      "members": {
+        "base/data/polynesia/AS/index.json": {
+          "bytes": 2376,
+          "sha256": "5c4ce134e28f5ebe2560731f0eb3f2f18433dab2d3702b0f758d441be87d390c"
+        },
+        "base/data/polynesia/AS/places.csv": {
+          "bytes": 117101,
+          "sha256": "30ee211f8d3c2a3e86157d66c4eebcabd6fc84a497141125f1abbbaa63c0d94e"
+        },
+        "base/data/polynesia/AS/places.jsonl": {
+          "bytes": 260591,
+          "sha256": "2e2d29aff52cda69af4fa633673d09f1b78ad3ee860f7eecb06411b0a5126d53"
+        },
+        "base/sources/geonames/AS.zip": {
+          "bytes": 35230,
+          "sha256": "83cc6e2db310f440c7ae1337ff7157623033037eb65962ca0abd47eb5cd2cc21"
+        },
+        "base/sources/geonames/AS.zip.download.json": {
+          "bytes": 304,
+          "sha256": "b3d1d1311c32f330af9dab6ac82b0596aa1da84dbae32b45802937f35f461c45"
+        },
+        "locale/names.csv": {
+          "bytes": 49724,
+          "sha256": "643e6ca8f73351429e19bd091d0f6cb2d044077f9c539419b8babb55f4e9427b"
+        },
+        "locale/names.jsonl": {
+          "bytes": 109583,
+          "sha256": "56717bf09d903d50e772f93e82513b991fd6b0712af2e45590c8b579925ceb39"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 251,
+          "sha256": "df5742f6b4a3f387cdea4203bb922f6d96df7c3e65a1c23b6832837be032362b"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 290,
+          "sha256": "1d054b3b96d40ecd0e6f20f1258e1d2dcc1b310719ddc12a9b96a6d1cf1b8cca"
+        },
+        "locale/sources/address-templates/AS.json": {
+          "bytes": 262,
+          "sha256": "883d725e346cecd2590e9e332eb9808d0ae60710dd186103c416b7bbad2d0320"
+        },
+        "locale/sources/address-templates/AS.json.download.json": {
+          "bytes": 271,
+          "sha256": "38d64ba13e101b41699d6728cb97a7471659438a7ba8235744746952dba630ed"
+        },
+        "locale/sources/alternatenames/AS.zip": {
+          "bytes": 17244,
+          "sha256": "bfd0fc0d2dde56d7a766acc53beceb3c65bf1b5e74e7c0dcdb34cf2a249aff08"
+        },
+        "locale/sources/alternatenames/AS.zip.download.json": {
+          "bytes": 283,
+          "sha256": "f6e87dff3fd5c5ef6c23af61ab8149f86f0298a6afcec68d0f214613eb30c481"
+        }
+      },
+      "places_member": "base/data/polynesia/AS/places.jsonl",
+      "subregion": "polynesia",
+      "counts": {
+        "places": 249,
+        "names": 337,
+        "postal_links": 1
+      }
+    },
+    "AU": {
+      "archive_bytes": 11530456,
+      "archive_sha256": "306dbe73ebfc60eb0e1f1b62461e3a2488d7d2baa23e90e55e6d734eb238c99d",
+      "parts": [
+        {
+          "path": "countries/AU/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "ebb04fe07140fdf1037801fd0e3ab572e828bd9fdaf50f6d5c387bbbf70a7c65",
+          "bytes": 524288,
+          "sha256": "34b6e3fba8d6bf760990680b12e6683b89f8d56d9f2edb80afcc1c4acf4bf723"
+        },
+        {
+          "path": "countries/AU/part-002.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "7627791652b12716ed2299f5e13667120d5c888e6dd22c93da297f9da5f463b5",
+          "bytes": 524288,
+          "sha256": "3cc85f1a04c203ba2eee126288d5e535f40cc91017b6b2528ed639cf93758e17"
+        },
+        {
+          "path": "countries/AU/part-003.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "1de2805ecdbd68c5170ae360ebc1e165de3a62b1aec213389aedca21cd7f754a",
+          "bytes": 524288,
+          "sha256": "bdc27627587be01d654906100dffb9df97e06c82c1ff2f18118176198339cca2"
+        },
+        {
+          "path": "countries/AU/part-004.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "a33564c14b383ce3ec278256596c451e34d0fc00669ef0b1876888aad9666339",
+          "bytes": 524288,
+          "sha256": "c5b1f42b01e0ed41b4add1e3614a71231805c68dbf07c29e20b21c8df9498adf"
+        },
+        {
+          "path": "countries/AU/part-005.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "0852aeb36575839eafd5f4a760119f6722198da234d9c58c28ca8f27d81d7288",
+          "bytes": 524288,
+          "sha256": "6204772dcdae95868b796b80578e63ae1bca052e9cfe38b9c8e893560f5d9439"
+        },
+        {
+          "path": "countries/AU/part-006.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "178cc47469fceb276d7eeaf036b717d24a75a518b382940673cd1902d2e69a30",
+          "bytes": 524288,
+          "sha256": "98c7b362d87517d5b3754ca306c08d3bf2c135cf97b23417613076331f3f4aee"
+        },
+        {
+          "path": "countries/AU/part-007.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "d9579326a8740e0c53b4a6ff1e94cd2916c416620aff59a11f686359ff1dc71a",
+          "bytes": 524288,
+          "sha256": "f6b535bfb37877c3cc00f58b0474df4c08fbe3c2fb85b20a8814040948bf219d"
+        },
+        {
+          "path": "countries/AU/part-008.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "17fb9ce83b5851e6fabaa2e88f3c4c2881d8fd5acc3b51dbe9e527180ac83f50",
+          "bytes": 524288,
+          "sha256": "58a4dbc52d244fb2b056f19d0e3b8437d2fd508b8e7617f2ff66783ed64052c2"
+        },
+        {
+          "path": "countries/AU/part-009.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "3a14fdc90c698af95f8e7f6f3186850cc2155addd68c5838d93c0965ce9080e8",
+          "bytes": 524288,
+          "sha256": "73349ef733ac4208f3bc57e93c333a5cf43b44fcd9b2265de6ffeccab8fa439e"
+        },
+        {
+          "path": "countries/AU/part-010.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "485631f73e7c0f6f8e3375fed0654c3956ca5442e4f44f10c2a3b8225fc79354",
+          "bytes": 524288,
+          "sha256": "b93e0e2bf05bb9d9dbfcd5faf154e22bb8f17a84f53503cdf014d2fb487836b8"
+        },
+        {
+          "path": "countries/AU/part-011.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "3bed5052155b963319865e667b173089dc5561035024c0cb1950e8976c2a433b",
+          "bytes": 524288,
+          "sha256": "9c12f6f8025dfbe5be3ed12938789c8591d78411b9ef39034b9fc5d538177174"
+        },
+        {
+          "path": "countries/AU/part-012.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "e20553370c7e855000a45d225d2a9cef18c48f5e86fed10cba08993cd41041b7",
+          "bytes": 524288,
+          "sha256": "cdc10b0b57bbbf61362e6087a395e4c329ced2c656da11b60e5bf419e674c279"
+        },
+        {
+          "path": "countries/AU/part-013.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "040a19b0f01e0faf9a473600b7b25cbc3c46ca80fc471c8271d0a4b1ef11462b",
+          "bytes": 524288,
+          "sha256": "a559ff50d30a8e789627aadc462abc2721737172f610546b9205d5f337470e80"
+        },
+        {
+          "path": "countries/AU/part-014.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "0984915b5ddc94d95f37c43c1d8981f7b62154db67fe63996369708503114aea",
+          "bytes": 524288,
+          "sha256": "e8aa3e5fa844e8fd4dad0aa5238eb61dc92e3749cda5ccecadf13972c8a17893"
+        },
+        {
+          "path": "countries/AU/part-015.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "8792f73de4cabab123be58cae3d544235a3a1c6ce39c7c087a9fe6144df669e6",
+          "bytes": 524288,
+          "sha256": "e0641bf4fa37d7b91a65cc49b7b58f5c02da04cd37b514be4d532f39307789ea"
+        },
+        {
+          "path": "countries/AU/part-016.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "e131c8d2967d62e8e5a801ecdb1bfe30f12beda4f14dac9bcf0492c02ca160e4",
+          "bytes": 524288,
+          "sha256": "d3f302c30c1d7491c12056bd78b5cb18c524d58d4857d1d0809c35e4a4fc709f"
+        },
+        {
+          "path": "countries/AU/part-017.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "7fb417f8ddad3e022445ff50277f886f1d22a6ad7457f04057a2756dbd139bf8",
+          "bytes": 524288,
+          "sha256": "ae05e3b2a6d3e15d87745c1630304c1978fc3290f943772a7009c6a0635f2b51"
+        },
+        {
+          "path": "countries/AU/part-018.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "a266461e4932c5cd2f0f0d06b3202179be19162078c93d08c5b380902c764772",
+          "bytes": 524288,
+          "sha256": "345a05f92638063cc177a569ddda8bf001343ff53e053b26976832c211e7cf50"
+        },
+        {
+          "path": "countries/AU/part-019.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "efc1ee21ab6662bbc78f5da06260b25a1badcb788e61d503e8f57805b7615ac6",
+          "bytes": 524288,
+          "sha256": "36a186f9f0319bf38e406c7718fd319a2a35d1f8bd5ee571fcb580d7dc4047c8"
+        },
+        {
+          "path": "countries/AU/part-020.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "75e080a5e2b4f6c7c6b18f166fffa57884ce110af190441c02514abbe8ed197a",
+          "bytes": 524288,
+          "sha256": "7f2fab2c68d64934f5569cad76af0b70973e9a0deddc7593f14b676f0a045199"
+        },
+        {
+          "path": "countries/AU/part-021.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "7734d0444952f8969fd4526e4b29455b6411e168c6d09d1aadd03c542d5accbf",
+          "bytes": 524288,
+          "sha256": "916e82335875851d8554b16540c9b16a0e43044741353c8ebe34588ccf6c8b56"
+        },
+        {
+          "path": "countries/AU/part-022.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 693881,
+          "stored_sha256": "6e6236e2a41cb61cc55b5992f8da311f6ebb67867df71b7425b5e150cf9f45db",
+          "bytes": 520408,
+          "sha256": "67487eade180e8a69dff8f72767919b86b8561048b652d6f80f591e5ae470a5c"
+        }
+      ],
+      "members": {
+        "base/data/australia_new_zealand/AU/index.json": {
+          "bytes": 7705,
+          "sha256": "19996573a0e2844ee22a1d0f14ab0285919681541cac30fa94e118aa67514f4c"
+        },
+        "base/data/australia_new_zealand/AU/places.csv": {
+          "bytes": 9319023,
+          "sha256": "32f8b5d29767855995a761883b21c25f435ec3b3e5342678edc93e1c88ca20e6"
+        },
+        "base/data/australia_new_zealand/AU/places.jsonl": {
+          "bytes": 20865696,
+          "sha256": "fcddb9b9c3c250b49b6ec84c821a7c2db894d27e504becc31ae5b69c4a2f9396"
+        },
+        "base/official/AU/AU-ACT.csv": {
+          "bytes": 1005,
+          "sha256": "927e12bc0c835e12fed28b1808145c5dbe9ac18363ac03d87525c9f989cc9e2e"
+        },
+        "base/official/AU/AU-NSW.csv": {
+          "bytes": 27861,
+          "sha256": "9d054ac5fb5776a1e4f8cce8399092ab71206beb852bdd18cfefcb84d33cb0e3"
+        },
+        "base/official/AU/AU-NT.csv": {
+          "bytes": 5036,
+          "sha256": "7c600b8771c0a0566ef7be4c880a15f2d133c67d60c8ab81eb9815eac4fe6a7b"
+        },
+        "base/official/AU/AU-OT.csv": {
+          "bytes": 1448,
+          "sha256": "b9ea84ed9e740ebebda3da28a92ae66f0df0343ef817d3514f9bb09210e81d58"
+        },
+        "base/official/AU/AU-OUT.csv": {
+          "bytes": 497,
+          "sha256": "6b49bd3250ba23afd122e3e920583ac8173a47f25068f0c4841c6feecdac47c9"
+        },
+        "base/official/AU/AU-QLD.csv": {
+          "bytes": 16780,
+          "sha256": "0cad7d599c51e98622cf4da03c4fa826ae347e0813153b6177c5048375a543e0"
+        },
+        "base/official/AU/AU-SA.csv": {
+          "bytes": 15695,
+          "sha256": "a663c8a298705cca1322d2c020c02e286460b6c18c6c3f71b5173d6fe10d062e"
+        },
+        "base/official/AU/AU-TAS.csv": {
+          "bytes": 6679,
+          "sha256": "519ada74a8022e1ffddffa8abd71167b9832121d310319701a67782069b72840"
+        },
+        "base/official/AU/AU-VIC.csv": {
+          "bytes": 16980,
+          "sha256": "8178269735df38e8a1b324e3ba66534324b8ab4213e182fbc8766a784c709c35"
+        },
+        "base/official/AU/AU-WA.csv": {
+          "bytes": 29621,
+          "sha256": "4f0ef0a11bd0e619fecd1c2d8918417e23b6bb0dee2deb6ef7c2c31756d56752"
+        },
+        "base/official/AU/anchors.csv": {
+          "bytes": 1394,
+          "sha256": "c183cc7dfdba923af3707cabcee883148cc23f9923c8d5364b195772baa48741"
+        },
+        "base/official/AU/evidence/au-replay-20260926.json": {
+          "bytes": 4667,
+          "sha256": "91b2fb2a6b6cb77385d0d91b0d2cbf8c64f703cb82034db1e32e43ba511f220d"
+        },
+        "base/official/AU/evidence/au-verification-20260926.json": {
+          "bytes": 4372,
+          "sha256": "bb2a2abaf05564136369256e4e844bdb73728822e4e7164b69a26228983c12fe"
+        },
+        "base/official/AU/evidence/australia_hierarchy_ja.md": {
+          "bytes": 2534,
+          "sha256": "0ddf685a9d5e07ff4aacbb651839357ad4e4bedde3ee965f6a2bc7da3abba7a1"
+        },
+        "base/official/AU/import_provenance.json": {
+          "bytes": 4980,
+          "sha256": "28a8a6a6d005318b584c69fd3c3e043c80b63541806e53e5d969e4c391408f6d"
+        },
+        "base/official/AU/index.json": {
+          "bytes": 3736,
+          "sha256": "891a762ee50721534036b65c0857aafddc665bf752925098222cc3ee3cab556b"
+        },
+        "base/official/AU/manifest.json": {
+          "bytes": 4382,
+          "sha256": "b0bd82156acf556d29867cf14e75e495e75fe3773dfa27e68b50cad82055b310"
+        },
+        "base/official/AU/third_party/CSC-ODbL.txt": {
+          "bytes": 25364,
+          "sha256": "6042621cae96bbce3a10739b480a074e25b0ea23025c00d7874582ad2c47b780"
+        },
+        "base/official/AU/third_party/CommerceGuys-MIT.txt": {
+          "bytes": 1104,
+          "sha256": "bcce22529dae53a1e1c8c03b79ccd09a921a0f0b4ecff04f73ad98aba8bf9634"
+        },
+        "base/official/AU/third_party/ISO-reference-LGPL-2.1.txt": {
+          "bytes": 24463,
+          "sha256": "3fa39c6e18a3a4411082b64c164deae1d8f47b03a4d45304c1f0ae478626e382"
+        },
+        "base/official/AU/third_party/Unicode-3.0.txt": {
+          "bytes": 2036,
+          "sha256": "780ed0d1e595f6bb3e7cad757ea147315596b96e75d6a271ae95e882185c8aa7"
+        },
+        "base/official/AU/unmatched-source-rows.json": {
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        "base/official/AU/upstream_DATA_LICENSES.md": {
+          "bytes": 32765,
+          "sha256": "28c18d3d47d233e591889110f8cf36250bf1c4ade6b6f8a73ff1e45a793c6f48"
+        },
+        "base/sources/geonames/AU.zip": {
+          "bytes": 5744984,
+          "sha256": "caec9deccc7d9a8b0aea11e947b1c88b847f1e5004bdc8f4863a0c54ef5d0eb5"
+        },
+        "base/sources/geonames/AU.zip.download.json": {
+          "bytes": 308,
+          "sha256": "597417f617b45746331302e0ea7f241ff60053922d37a154eee31f3f7528c130"
+        },
+        "locale/names.csv": {
+          "bytes": 2183862,
+          "sha256": "45dc2c43c43418bdbaf0dfd19e3c4aed3723738ff36bfba20e6be64824d689d6"
+        },
+        "locale/names.jsonl": {
+          "bytes": 4788585,
+          "sha256": "fedf540b5a50f66cf192fd28e048320dc2251b8bb7cec1fd71bde3ed550ce9d7"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 19085,
+          "sha256": "c3f0076e27bae3bcb806a3160d7377054b31efb2f487e96b92864eddf3772857"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 45319,
+          "sha256": "4b1c6fbdae3b06822d2ba9d21ae64febfa32a146b2b16838423d1136353afc0b"
+        },
+        "locale/sources/address-templates/AU.json": {
+          "bytes": 794,
+          "sha256": "7b224db7ce8e596e634e73f70c6630840cd45dc60ef872601f291bf903966cc6"
+        },
+        "locale/sources/address-templates/AU.json.download.json": {
+          "bytes": 271,
+          "sha256": "57e85f8afd6763d05af2c909e637dc9bb8840d765f28417fcf6126302778f7dc"
+        },
+        "locale/sources/alternatenames/AU.zip": {
+          "bytes": 2744877,
+          "sha256": "a792173785ab094c8aa4f7ad2b3dc8a3d2d4df33820d3659ede4aa35631fa240"
+        },
+        "locale/sources/alternatenames/AU.zip.download.json": {
+          "bytes": 285,
+          "sha256": "3cece3b55a2a106172759536a89c7e53c97af88bb73827da536a728bb60bd3c1"
+        }
+      },
+      "places_member": "base/data/australia_new_zealand/AU/places.jsonl",
+      "subregion": "australia_new_zealand",
+      "counts": {
+        "places": 19974,
+        "names": 14634,
+        "postal_links": 156
+      }
+    },
+    "CC": {
+      "archive_bytes": 29766,
+      "archive_sha256": "bd5802b87a2091f8858c0411f3908de1d51b85fc49468ac24df0328b5ce66613",
+      "parts": [
+        {
+          "path": "countries/CC/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 39689,
+          "stored_sha256": "10b79e2e7b7f41dcac5b265527269da4decc00936c081b7a073945442246f9d9",
+          "bytes": 29766,
+          "sha256": "bd5802b87a2091f8858c0411f3908de1d51b85fc49468ac24df0328b5ce66613"
+        }
+      ],
+      "members": {
+        "base/data/australia_new_zealand/CC/index.json": {
+          "bytes": 1604,
+          "sha256": "926200da91a69e26c680f741eb081af67cf28894259ec18ac9657c677d4d2564"
+        },
+        "base/data/australia_new_zealand/CC/places.csv": {
+          "bytes": 1456,
+          "sha256": "0d7996097f68420a4e9943cafe6f316d8ba6b689e9064b8cf1cf6d4f6ee2ae7b"
+        },
+        "base/data/australia_new_zealand/CC/places.jsonl": {
+          "bytes": 2155,
+          "sha256": "b74f9504e736e38a5a8b1c4aa1ba79352f65d4b6e763a41f443009c55a4d92d3"
+        },
+        "base/sources/geonames/CC.zip": {
+          "bytes": 8701,
+          "sha256": "3a9b60c432d6a09d3909b19dcfcaf21255dfa63603d1ab1f84a40a7f4f7152d7"
+        },
+        "base/sources/geonames/CC.zip.download.json": {
+          "bytes": 303,
+          "sha256": "3240fc82627bf74e61175ce8400289240970148c1091544a1f03d175d992649d"
+        },
+        "locale/names.csv": {
+          "bytes": 19478,
+          "sha256": "a029e2af38c0482f3ad259a47d90bbeee25a44cd1821f6f5831d15716817ec1a"
+        },
+        "locale/names.jsonl": {
+          "bytes": 41423,
+          "sha256": "d41d06a9c35d2eb9b8ff7c1902e2043c9e88a9590a980bcdc2206642c06d9edc"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "locale/sources/address-templates/CC.json": {
+          "bytes": 130,
+          "sha256": "9e8663c096a093440c7cfd10e846f76200e9ea94027debb385d90aff9b48adb3"
+        },
+        "locale/sources/address-templates/CC.json.download.json": {
+          "bytes": 271,
+          "sha256": "b7239acb98968b4501cfacdb38ef21857c79032286fe7b9200005db2f397651f"
+        },
+        "locale/sources/alternatenames/CC.zip": {
+          "bytes": 8930,
+          "sha256": "3b7ed4c670ba0e989ac94462c76b57745e1a6c15af83e497bccd7fefb0a17664"
+        },
+        "locale/sources/alternatenames/CC.zip.download.json": {
+          "bytes": 282,
+          "sha256": "1eae00496195de0ead5ba22e38310bf2eb95f25d02e614e59e503179a9df4261"
+        }
+      },
+      "places_member": "base/data/australia_new_zealand/CC/places.jsonl",
+      "subregion": "australia_new_zealand",
+      "counts": {
+        "places": 2,
+        "names": 124,
+        "postal_links": 0
+      }
+    },
+    "CK": {
+      "archive_bytes": 80894,
+      "archive_sha256": "db2b32e52dd617e36e99d82533a54683bf743e61054df07ddc2c6ee797a1013e",
+      "parts": [
+        {
+          "path": "countries/CK/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 107861,
+          "stored_sha256": "eecfe23813ac357f5300f670346fe346b746f3a5f354f4e9e365ab92d28c7951",
+          "bytes": 80894,
+          "sha256": "db2b32e52dd617e36e99d82533a54683bf743e61054df07ddc2c6ee797a1013e"
+        }
+      ],
+      "members": {
+        "base/data/polynesia/CK/index.json": {
+          "bytes": 2134,
+          "sha256": "1f408294c11c0741ab4315472df7dc8db21f2aff854111f2ef7add62c6e00fab"
+        },
+        "base/data/polynesia/CK/places.csv": {
+          "bytes": 56765,
+          "sha256": "243c3d81e49c0f82623a23a9e232993d771daef803d31dbec412f39fe6655039"
+        },
+        "base/data/polynesia/CK/places.jsonl": {
+          "bytes": 129889,
+          "sha256": "d404180325e74916e1256f21b852a4ada13086f1bf584bfee51271d0acf2eabe"
+        },
+        "base/sources/geonames/CK.zip": {
+          "bytes": 27759,
+          "sha256": "5ac7e0c7a46d912cc4c20dcdb42c09202e5797754acfcba71b89f9ec265a5a38"
+        },
+        "base/sources/geonames/CK.zip.download.json": {
+          "bytes": 304,
+          "sha256": "d5f4b23fe5f76eb03160ff2ca3184d3d4ed7b917944cf941550e977048275c0e"
+        },
+        "locale/names.csv": {
+          "bytes": 45657,
+          "sha256": "00ff12225ed4f906322025101f80a06c0d4e71ec4ff7b549d1f1cba81c1e1561"
+        },
+        "locale/names.jsonl": {
+          "bytes": 101422,
+          "sha256": "68e31ed33bbd836c0059b82a41fdec51d5668d0571fed0db52d263fbd0acd6af"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "locale/sources/address-templates/CK.json": {
+          "bytes": 49,
+          "sha256": "da16e5dab9e1bf684ae4c073716ea8d831c0b7fd755a28d13d19ca325bb53aaf"
+        },
+        "locale/sources/address-templates/CK.json.download.json": {
+          "bytes": 270,
+          "sha256": "854f533170dde1c9cbeee89077ec15c2d305ea691e3ed565a4d085f41d61dcde"
+        },
+        "locale/sources/alternatenames/CK.zip": {
+          "bytes": 21548,
+          "sha256": "6bf9c0fe65bfed3f2dce225ddec6d9cf13adfb2dec8f2d2e6f07f20f3a32b73d"
+        },
+        "locale/sources/alternatenames/CK.zip.download.json": {
+          "bytes": 283,
+          "sha256": "d17c7075b07d5dbbae4807f9309517d2d836085807689f62691c0187abb2ad10"
+        }
+      },
+      "places_member": "base/data/polynesia/CK/places.jsonl",
+      "subregion": "polynesia",
+      "counts": {
+        "places": 127,
+        "names": 314,
+        "postal_links": 0
+      }
+    },
+    "CX": {
+      "archive_bytes": 31945,
+      "archive_sha256": "584dfd9d6ff57526f64d44f1ad44cd7bc27494a48747fdd358246d7483e1e12a",
+      "parts": [
+        {
+          "path": "countries/CX/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 42597,
+          "stored_sha256": "39748e6c6eb766f80882f847cc4341ffbbe831bd0bb33eb99e7dd9f0e45275a5",
+          "bytes": 31945,
+          "sha256": "584dfd9d6ff57526f64d44f1ad44cd7bc27494a48747fdd358246d7483e1e12a"
+        }
+      ],
+      "members": {
+        "base/data/australia_new_zealand/CX/index.json": {
+          "bytes": 1689,
+          "sha256": "01bb0794c1ae4a7b6bfdcb43d53c325808f008f440c8739a1f7b3a7009873405"
+        },
+        "base/data/australia_new_zealand/CX/places.csv": {
+          "bytes": 4351,
+          "sha256": "f80f7fc65b6d06a750768f318c8db179837e1d4046b955a1dc39fdfe89b9d5f1"
+        },
+        "base/data/australia_new_zealand/CX/places.jsonl": {
+          "bytes": 7925,
+          "sha256": "4676190c6eef46d1e510d1f31507e40dce2f743df9dc3edf3e362c166c59f521"
+        },
+        "base/sources/geonames/CX.zip": {
+          "bytes": 9058,
+          "sha256": "a3c9b602a08a61f75ed1c53a3755cf11d49f6ba6a2e0b687efd2b1c9d0b30335"
+        },
+        "base/sources/geonames/CX.zip.download.json": {
+          "bytes": 303,
+          "sha256": "f94c9158447bef0f046d04c8a27b78dee852b226a6b19a015134f4ce3ab388fa"
+        },
+        "locale/names.csv": {
+          "bytes": 21966,
+          "sha256": "4194e0c280c96d823ee7360b6e14fa5924a9152bfb3d4f5a550c35bc336ce799"
+        },
+        "locale/names.jsonl": {
+          "bytes": 47647,
+          "sha256": "c1fcfa926425651a0f83bf3cc4ec442b94855a00a9c476826560a717271f6238"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 248,
+          "sha256": "5aae8f7db40e8852f1cc41c84a7e0cd2f07ae62699bb150ee4213c1cb0b7cc09"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 287,
+          "sha256": "6392bd87deefef366e0a0eb5cfa4c625d7ddb893885913825253a19a15410868"
+        },
+        "locale/sources/address-templates/CX.json": {
+          "bytes": 123,
+          "sha256": "94c81cd38942f46de5365a162ae730b1132b2a18e5bc0a72682b6a771723d65b"
+        },
+        "locale/sources/address-templates/CX.json.download.json": {
+          "bytes": 271,
+          "sha256": "674582530b6fbc4b80d98cab809bddd51b8fee0e7b96401ecf55c23ed97451da"
+        },
+        "locale/sources/alternatenames/CX.zip": {
+          "bytes": 8127,
+          "sha256": "d6c3f3c853801d59e2d89d005e7b0f8ccef49c3290f6a3d55e3928534a04a123"
+        },
+        "locale/sources/alternatenames/CX.zip.download.json": {
+          "bytes": 282,
+          "sha256": "0c0d0c787b47e41cf4ca0eebb54915448133ca458af861423c327f17ce397f46"
+        }
+      },
+      "places_member": "base/data/australia_new_zealand/CX/places.jsonl",
+      "subregion": "australia_new_zealand",
+      "counts": {
+        "places": 7,
+        "names": 145,
+        "postal_links": 1
+      }
+    },
+    "FJ": {
+      "archive_bytes": 1068492,
+      "archive_sha256": "68ae096a55e6dd197651ee4407ff5593609dd914724b0f14fb1bd2e096e54776",
+      "parts": [
+        {
+          "path": "countries/FJ/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "2f71d5b2a84418f241e379c6bc08d11a26e238ff9daaa8ecdef5caf562c8a0cf",
+          "bytes": 524288,
+          "sha256": "a623f18329ce7f692f753e2e00efb942f108ea882954e2c9781c858d7bde2bf4"
+        },
+        {
+          "path": "countries/FJ/part-002.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "83cc15f13e504850269b952cd6191ec2be41ca8c33ae5b6085d97d95358423b8",
+          "bytes": 524288,
+          "sha256": "4e841e361e41b056a30bcee16e3479de22da0dd39d554d3f00b317baac888849"
+        },
+        {
+          "path": "countries/FJ/part-003.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 26557,
+          "stored_sha256": "ec68e93f5077dda5e9635e6c0c47af50491813617b9cbfd4e359a659e5ea109e",
+          "bytes": 19916,
+          "sha256": "c6453e351ba787dd8f7a69ba56775ef8eb52160380beea1de1005a9a960f38a7"
+        }
+      ],
+      "members": {
+        "base/data/melanesia/FJ/index.json": {
+          "bytes": 4146,
+          "sha256": "08d55b95ffa97b4bd8386ef50000f02c15523ee56ba658fd60f1d1fbf96857f0"
+        },
+        "base/data/melanesia/FJ/places.csv": {
+          "bytes": 1071711,
+          "sha256": "dffcf149b533f62025c5377a3d8d97c610d74cbdf5bb1d8f8e80cbe8847f343d"
+        },
+        "base/data/melanesia/FJ/places.jsonl": {
+          "bytes": 2425142,
+          "sha256": "bcb1c884398a8a0d1a0eab4e47f12b62d3a3a7e22b2830e1a6a14addfd53c23d"
+        },
+        "base/sources/geonames/FJ.zip": {
+          "bytes": 458622,
+          "sha256": "25b91e56c5395279357b6bb6a751a705adec3c284b1528db1d4fcab0dd295dca"
+        },
+        "base/sources/geonames/FJ.zip.download.json": {
+          "bytes": 306,
+          "sha256": "2e21b7626fcc5d4478ce82a1430ca130019b9c1340b903ceca6755a2327a2632"
+        },
+        "locale/names.csv": {
+          "bytes": 428126,
+          "sha256": "fa8b60aa948cf6bccdaaf36f162568e6795bc2bedf034c482b6e97e6df981a39"
+        },
+        "locale/names.jsonl": {
+          "bytes": 940995,
+          "sha256": "f88835432cbe3f6365ec1051e2a62e09705d903efcecb82d2ac7015d814fad3a"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "locale/sources/address-templates/FJ.json": {
+          "bytes": 41,
+          "sha256": "10da80126f0ace0092431d51b0917897c1bd5683d841d30c3a1e4439f589f768"
+        },
+        "locale/sources/address-templates/FJ.json.download.json": {
+          "bytes": 270,
+          "sha256": "6d5bd170515528837d95d08f95bbffe5f8d71ad9b0f6a238a380dbd110efe4e3"
+        },
+        "locale/sources/alternatenames/FJ.zip": {
+          "bytes": 259609,
+          "sha256": "f178be98495a89d31c55731fa6783df84fb4b098c8f37d660e9914977b9a6d47"
+        },
+        "locale/sources/alternatenames/FJ.zip.download.json": {
+          "bytes": 284,
+          "sha256": "2d753d33340e793bc225756e25a01328136296997222be5ac119d676886397d6"
+        }
+      },
+      "places_member": "base/data/melanesia/FJ/places.jsonl",
+      "subregion": "melanesia",
+      "counts": {
+        "places": 2350,
+        "names": 2882,
+        "postal_links": 0
+      }
+    },
+    "FM": {
+      "archive_bytes": 257082,
+      "archive_sha256": "921c64130b88c940c98dcf02e2090fb68edfd6e71b8e5cfb355aefa93d4f5b79",
+      "parts": [
+        {
+          "path": "countries/FM/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 342777,
+          "stored_sha256": "23f76f0b86d7f294a78a9422d74321e60bb3d8dd77bc778f36d6e21ac3cfa600",
+          "bytes": 257082,
+          "sha256": "921c64130b88c940c98dcf02e2090fb68edfd6e71b8e5cfb355aefa93d4f5b79"
+        }
+      ],
+      "members": {
+        "base/data/micronesia/FM/index.json": {
+          "bytes": 3909,
+          "sha256": "249b0a1631428a8ef0412b97ee1e8c6889d49e245f0864cb3d75230f55c10deb"
+        },
+        "base/data/micronesia/FM/places.csv": {
+          "bytes": 251477,
+          "sha256": "8c64921137283d67a8ef29126bda220c241d2b55e98d343c86fa7d19fa894878"
+        },
+        "base/data/micronesia/FM/places.jsonl": {
+          "bytes": 570456,
+          "sha256": "8c39a6c8556bbe332fb4a0db48ed0eb1eb120c1c784c4dd8013f1ee653ee673f"
+        },
+        "base/sources/geonames/FM.zip": {
+          "bytes": 105083,
+          "sha256": "940f80d0e0a853b7abfdd074726ef0e8a005665f7d91668b8e5977c968278bc6"
+        },
+        "base/sources/geonames/FM.zip.download.json": {
+          "bytes": 306,
+          "sha256": "9b299b670b573e59d0304ff17cf8b59f1780f2b25bfe7d308d09223a3a033768"
+        },
+        "locale/names.csv": {
+          "bytes": 73735,
+          "sha256": "ffb4584e6f0270094985f8244873fa31f109fe5023e8714a82aa03ae35b54574"
+        },
+        "locale/names.jsonl": {
+          "bytes": 160112,
+          "sha256": "b3131222a46a53d52333a564fd06e0b80fdd6e64dd1df0270ea0bd4b5c0a16dc"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "locale/sources/address-templates/FM.json": {
+          "bytes": 387,
+          "sha256": "1794d9c4ee77328da871b0eacd65680e3d9256a7745ade4e87771e3f9fda24de"
+        },
+        "locale/sources/address-templates/FM.json.download.json": {
+          "bytes": 271,
+          "sha256": "8260e6753252478fc080c3da673c0b4ba3392bf3a5588df34aed503d94b770df"
+        },
+        "locale/sources/alternatenames/FM.zip": {
+          "bytes": 59633,
+          "sha256": "9eef888b04d52cbac8659d81406fdb6777a346826621aeb00f842124c11bc1c2"
+        },
+        "locale/sources/alternatenames/FM.zip.download.json": {
+          "bytes": 283,
+          "sha256": "56f7bd32876dd455a9e39fee9c99f5c63ccfd27471fe41be82b840844b672995"
+        }
+      },
+      "places_member": "base/data/micronesia/FM/places.jsonl",
+      "subregion": "micronesia",
+      "counts": {
+        "places": 554,
+        "names": 486,
+        "postal_links": 0
+      }
+    },
+    "GU": {
+      "archive_bytes": 122251,
+      "archive_sha256": "fab21d9ace86363abf6e645da1bdc0413993fbab1b0413e1d3d5e1c33397c04f",
+      "parts": [
+        {
+          "path": "countries/GU/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 163005,
+          "stored_sha256": "65dd69635fd2511f1afe7dd06e8a4d13796848b57f73cc7ac59a0338000b83ba",
+          "bytes": 122251,
+          "sha256": "fab21d9ace86363abf6e645da1bdc0413993fbab1b0413e1d3d5e1c33397c04f"
+        }
+      ],
+      "members": {
+        "base/data/micronesia/GU/index.json": {
+          "bytes": 3881,
+          "sha256": "41de08dc70d2e4bf98b6d7140c95710a509705f9f4fa71d612979d67be763824"
+        },
+        "base/data/micronesia/GU/places.csv": {
+          "bytes": 70550,
+          "sha256": "9a6b3208160f462ad512c123e9d5b2fe29ae7222f713d474950aff0febe7c8b9"
+        },
+        "base/data/micronesia/GU/places.jsonl": {
+          "bytes": 156687,
+          "sha256": "c9ad30abbeb44b2a39595bda2b8543fa7f49645a8afcfe61f80a1da642fa7efe"
+        },
+        "base/sources/geonames/GU.zip": {
+          "bytes": 52949,
+          "sha256": "e12fbf45c5f1db5ae3e208046d129148e9748f08814b7a84baad8f14a36c40c6"
+        },
+        "base/sources/geonames/GU.zip.download.json": {
+          "bytes": 304,
+          "sha256": "9fd76735b4761e688124448f9cb7f02e2f09b561bce92927b2ac7010c55616f6"
+        },
+        "locale/names.csv": {
+          "bytes": 71124,
+          "sha256": "077a340b9a64e8b4615c53c8cf2c375fe9e8ac6ac799279936c226c0d7c39718"
+        },
+        "locale/names.jsonl": {
+          "bytes": 159285,
+          "sha256": "e3d8a73465ecc5740419d200569dcf30f8e8a2d68f177ab09dd2f8af8cc50de3"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 4647,
+          "sha256": "cb57fa872b4ca67484c328928054432a99fbfec5421f5a46b3d7662b832d0102"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 10770,
+          "sha256": "31c65722460ffedfaddf99c4f2e9e846ab8ed6ef10515021f88c5b7020a568c8"
+        },
+        "locale/sources/address-templates/GU.json": {
+          "bytes": 242,
+          "sha256": "29163025914c7ca6eadb187976bfa91424fe194e61c0872264fc3b2544601a3b"
+        },
+        "locale/sources/address-templates/GU.json.download.json": {
+          "bytes": 271,
+          "sha256": "13331904fda5f37aa1603d70904fcb04ad69457189918b9564d0f6565d97d3ce"
+        },
+        "locale/sources/alternatenames/GU.zip": {
+          "bytes": 25638,
+          "sha256": "6c1a565178a7a6bfe5b50f5bc6f95ec4ce8cf6311e9bd2bc4363604dc27f57e8"
+        },
+        "locale/sources/alternatenames/GU.zip.download.json": {
+          "bytes": 283,
+          "sha256": "db9896585429bbfa555e2a095a9696b4dcc6c428ef1257467746ee15651aa726"
+        }
+      },
+      "places_member": "base/data/micronesia/GU/places.jsonl",
+      "subregion": "micronesia",
+      "counts": {
+        "places": 150,
+        "names": 496,
+        "postal_links": 37
+      }
+    },
+    "HM": {
+      "archive_bytes": 32876,
+      "archive_sha256": "ad2a2647964374f125aade59a4f3e62cef9b59d37dc072daee5ff85e07e05f53",
+      "parts": [
+        {
+          "path": "countries/HM/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 43837,
+          "stored_sha256": "05567a0e26d60a7e1165d3bc7cdc2a1c4f673855fb78186c1a0855b448bafea3",
+          "bytes": 32876,
+          "sha256": "ad2a2647964374f125aade59a4f3e62cef9b59d37dc072daee5ff85e07e05f53"
+        }
+      ],
+      "members": {
+        "base/data/australia_new_zealand/HM/index.json": {
+          "bytes": 1616,
+          "sha256": "51b083e8db77f2b8b0371ff3d1adf79071bb737eff87498b1aaaa1fa831abe85"
+        },
+        "base/data/australia_new_zealand/HM/places.csv": {
+          "bytes": 445,
+          "sha256": "89cf77b6e12120dbc49c54b6535b3b24cb1cf298cca1888d69d7100278f4d3f7"
+        },
+        "base/data/australia_new_zealand/HM/places.jsonl": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "base/sources/geonames/HM.zip": {
+          "bytes": 10014,
+          "sha256": "bfb066ea8638c5401df7473e3c04c8e779f1c4e2239fdc9e62d662d83af4b37b"
+        },
+        "base/sources/geonames/HM.zip.download.json": {
+          "bytes": 304,
+          "sha256": "5f1c010263b28ae9bf94cebee53529a4d49abf31db02653dde185fc603aabaa8"
+        },
+        "locale/names.csv": {
+          "bytes": 19444,
+          "sha256": "c283a7951ea228856400d75df05efc4059f3150d48b68b58fe97ba03f3e28954"
+        },
+        "locale/names.jsonl": {
+          "bytes": 39429,
+          "sha256": "5f4e1c71b8cd78f377a9f6441198ec4e2c0f92c2c4fcd214455090f9b8b5f908"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "locale/sources/address-templates/HM.json": {
+          "bytes": 135,
+          "sha256": "744a8e0dde75371e231048fef3c6722ba99f40c8d2be4b37b1f3888c05d06426"
+        },
+        "locale/sources/address-templates/HM.json.download.json": {
+          "bytes": 271,
+          "sha256": "f83d6ff2202d6d9606fd776a6a3d79ce95fd809e64e50f01af48c313438831e7"
+        },
+        "locale/sources/alternatenames/HM.zip": {
+          "bytes": 10812,
+          "sha256": "6a84916d8ccffd6d4042d951ff59102e5514949e091608cacd96d4a6997c1df9"
+        },
+        "locale/sources/alternatenames/HM.zip.download.json": {
+          "bytes": 283,
+          "sha256": "dfdabd1ba7fea3ce486da69208269f22440b399e1a8c697ed530d478e3aefa11"
+        }
+      },
+      "places_member": "base/data/australia_new_zealand/HM/places.jsonl",
+      "subregion": "australia_new_zealand",
+      "counts": {
+        "places": 0,
+        "names": 113,
+        "postal_links": 0
+      }
+    },
+    "KI": {
+      "archive_bytes": 116140,
+      "archive_sha256": "6a240e986f5530db31a55777b4f74ac6f7708a257811b7fb3b436666529978d8",
+      "parts": [
+        {
+          "path": "countries/KI/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 154857,
+          "stored_sha256": "0896e422be971dc59310549230143367eadf4f835e3e213bc82c33df297f21c6",
+          "bytes": 116140,
+          "sha256": "6a240e986f5530db31a55777b4f74ac6f7708a257811b7fb3b436666529978d8"
+        }
+      ],
+      "members": {
+        "base/data/micronesia/KI/index.json": {
+          "bytes": 3377,
+          "sha256": "a988249e2c2a7187ab40dfedda72e4ece2f0baed4738b8967c5e4ccbb93b7d34"
+        },
+        "base/data/micronesia/KI/places.csv": {
+          "bytes": 117269,
+          "sha256": "4b8ee24aab84a4a36c5742f85cead925dd4a16f6ef4269017b5cd711968868ca"
+        },
+        "base/data/micronesia/KI/places.jsonl": {
+          "bytes": 259175,
+          "sha256": "9a0c89f94b89020094f0ef311a1749e997a5cfca5d321bff19fb07880ecabe75"
+        },
+        "base/sources/geonames/KI.zip": {
+          "bytes": 40715,
+          "sha256": "fa4298049ada69e208f39c47750391aef66fccb362162e4febb1082c215e3e16"
+        },
+        "base/sources/geonames/KI.zip.download.json": {
+          "bytes": 304,
+          "sha256": "b874102f615360ed4784688103c67533216e199ff71196e2f6f59919d3de7a48"
+        },
+        "locale/names.csv": {
+          "bytes": 66144,
+          "sha256": "4ec741a7757057f4a3d5d3424400396b8a4e56aedc7012ab2c24c1c42dc29824"
+        },
+        "locale/names.jsonl": {
+          "bytes": 146295,
+          "sha256": "fa751fbcfb3b005f4f1e2ca8dd884483c263e17c32a7fc8a810a8bccad34c64a"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "locale/sources/address-templates/KI.json": {
+          "bytes": 115,
+          "sha256": "9eac405acea08f6489167c4122b60030313db3f885416b1149d3596fdbc5e02e"
+        },
+        "locale/sources/address-templates/KI.json.download.json": {
+          "bytes": 271,
+          "sha256": "586912befb9cce9fc0edd955201cf0e889a32d7f768d7686628cc2da3b9d327e"
+        },
+        "locale/sources/alternatenames/KI.zip": {
+          "bytes": 21077,
+          "sha256": "e2c46ea6501379aec79e90cb88fe063e5e8f87f50e4f76ddd450b0471b74c19c"
+        },
+        "locale/sources/alternatenames/KI.zip.download.json": {
+          "bytes": 283,
+          "sha256": "62bc8519dfdaabb129739ec1c0de7701ed15def642b038d95de6bbb293a511b7"
+        }
+      },
+      "places_member": "base/data/micronesia/KI/places.jsonl",
+      "subregion": "micronesia",
+      "counts": {
+        "places": 247,
+        "names": 451,
+        "postal_links": 0
+      }
+    },
+    "MH": {
+      "archive_bytes": 168577,
+      "archive_sha256": "23ecfbb60352b2a8b7544cf055b95358a9b7c2c89f194fecbf19229b63ca20ed",
+      "parts": [
+        {
+          "path": "countries/MH/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 224773,
+          "stored_sha256": "55ccd80843a685c70450d08de2ac0ccdbbc3ed34b0f4b0286c164fe7a24f8469",
+          "bytes": 168577,
+          "sha256": "23ecfbb60352b2a8b7544cf055b95358a9b7c2c89f194fecbf19229b63ca20ed"
+        }
+      ],
+      "members": {
+        "base/data/micronesia/MH/index.json": {
+          "bytes": 2751,
+          "sha256": "179bf11d7e3674addcde75670efe821e764d61579c18d6b5244e6288a7bb820d"
+        },
+        "base/data/micronesia/MH/places.csv": {
+          "bytes": 74215,
+          "sha256": "85cdbff371a92329f8c5db691829dd342c2530b2bf355d7b704cd5cb59463c1c"
+        },
+        "base/data/micronesia/MH/places.jsonl": {
+          "bytes": 165071,
+          "sha256": "1cc483dc83be58a8b5240cc86cf2dc545081a8499f21a2c40f01ff475b22c5cf"
+        },
+        "base/sources/geonames/MH.zip": {
+          "bytes": 61506,
+          "sha256": "0ac890ca27e8e7f71cb5206755a25a02d6744eac96adfcbb7d11bdadb6d33174"
+        },
+        "base/sources/geonames/MH.zip.download.json": {
+          "bytes": 304,
+          "sha256": "15c45dae8d9d3a8fabe4ea1312b0a190533b0ee5fe2639adea73e5af7812c830"
+        },
+        "locale/names.csv": {
+          "bytes": 121311,
+          "sha256": "6120805a344bc3b8822b1c31dea1314a1617bf2e86fc51d4d0e1aa773d2d7e8e"
+        },
+        "locale/names.jsonl": {
+          "bytes": 270346,
+          "sha256": "179cc80fc3c502d1d58f6e30738bbe51a010d6e8e984d875ba8003550b7425f8"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 374,
+          "sha256": "a6b6160be9ae16f923128ccbb1403d46800c71f0fe05bfad7a62f2ff0a8182f3"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 582,
+          "sha256": "5f7b15f75100ab2a3b33a712b84598295f903dda79a8c2b45e938eac44d80067"
+        },
+        "locale/sources/address-templates/MH.json": {
+          "bytes": 275,
+          "sha256": "2b6fc507972235d68c2722ff6302537133ca31799e60009558c0ce7da12441c7"
+        },
+        "locale/sources/address-templates/MH.json.download.json": {
+          "bytes": 271,
+          "sha256": "035acd593ad859cce26ca471a8b5cdac7a047c5d79bb9eb8d723d6d31225ca98"
+        },
+        "locale/sources/alternatenames/MH.zip": {
+          "bytes": 52207,
+          "sha256": "57149884a263dfc280f6d88cd4d9da2d0abc7c32d0494659b21bcf25bf1362a8"
+        },
+        "locale/sources/alternatenames/MH.zip.download.json": {
+          "bytes": 283,
+          "sha256": "00d45cbafd8fcb32fbb4f2bcc1604ca3ddf8d9d7e42b506405b4717a29f56de5"
+        }
+      },
+      "places_member": "base/data/micronesia/MH/places.jsonl",
+      "subregion": "micronesia",
+      "counts": {
+        "places": 159,
+        "names": 838,
+        "postal_links": 2
+      }
+    },
+    "MP": {
+      "archive_bytes": 106411,
+      "archive_sha256": "3ce472a6285409847415b30c65c821a1435f3841496eef3c922d3068087d1ec5",
+      "parts": [
+        {
+          "path": "countries/MP/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 141885,
+          "stored_sha256": "811dbf5a3048ed4df9abf3367c8b9cbaacbc192dc8d5e82e0ffffef2aa9d7944",
+          "bytes": 106411,
+          "sha256": "3ce472a6285409847415b30c65c821a1435f3841496eef3c922d3068087d1ec5"
+        }
+      ],
+      "members": {
+        "base/data/micronesia/MP/index.json": {
+          "bytes": 3823,
+          "sha256": "d9157110c5dbb7eee612fd4621736afa1e3ea9c448eae88ba79698a06e5f0515"
+        },
+        "base/data/micronesia/MP/places.csv": {
+          "bytes": 35583,
+          "sha256": "ba11c14e181da9cf7ca4a2376593b38c08a0c64bc9df108ffad8b6cb39735ca4"
+        },
+        "base/data/micronesia/MP/places.jsonl": {
+          "bytes": 76580,
+          "sha256": "1addd5e50f2388f308b92d6351def4f94fd7fd53c371a7426545578b049d64a7"
+        },
+        "base/sources/geonames/MP.zip": {
+          "bytes": 46680,
+          "sha256": "a4acfabdb821401fc7d7d163d28c23febcc1f4b74cee4bd58e2761bd81c83599"
+        },
+        "base/sources/geonames/MP.zip.download.json": {
+          "bytes": 304,
+          "sha256": "aa8fef23aa8dd4460afb402cc3b77848d567fd7e2bb0e934c509127df92b5a7c"
+        },
+        "locale/names.csv": {
+          "bytes": 40765,
+          "sha256": "1e088b092ea38699be316ba7410986feeb2b35923c00289015b9156b4078dd4d"
+        },
+        "locale/names.jsonl": {
+          "bytes": 87096,
+          "sha256": "78f85e8c48fad0b3a95d92f7025bfdb5b7ef2d0127829500b8c81ff1f7912110"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 496,
+          "sha256": "73c719ebd552f989bcfcba4b4a92dad3b79cc1b80e1fcbc05fac3a0c5d79a7c5"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 873,
+          "sha256": "fdae8e8a2bddc0268d8fa00e14fcc74b540bfe03b989031e813c20deef631b47"
+        },
+        "locale/sources/address-templates/MP.json": {
+          "bytes": 288,
+          "sha256": "a9d1267767ea7bec74be96b601e6389f29f5f564dc6661f85c6651cd3a550176"
+        },
+        "locale/sources/address-templates/MP.json.download.json": {
+          "bytes": 271,
+          "sha256": "1858b28ebaca7ab7e4e148c095ecaf2e805d0d013130fa1f24e4155190b38e88"
+        },
+        "locale/sources/alternatenames/MP.zip": {
+          "bytes": 29071,
+          "sha256": "1e0497fbd995b94660843766e2a82e335e8d7ed967adb0a5340c23182604b163"
+        },
+        "locale/sources/alternatenames/MP.zip.download.json": {
+          "bytes": 283,
+          "sha256": "d7ff2e5826fa0901fa618edb3d035efbf7de0ea3f3718543c9cbaf5cc44a0735"
+        }
+      },
+      "places_member": "base/data/micronesia/MP/places.jsonl",
+      "subregion": "micronesia",
+      "counts": {
+        "places": 72,
+        "names": 261,
+        "postal_links": 3
+      }
+    },
+    "NC": {
+      "archive_bytes": 321970,
+      "archive_sha256": "09aa98a4bac5f4810b0180e9a3bcf8ae76e277bea2a668945542145e10166401",
+      "parts": [
+        {
+          "path": "countries/NC/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 429297,
+          "stored_sha256": "80202f335209289f3a9eb080ae28b77b2729b8de6049d56674a1ed17455e3ae7",
+          "bytes": 321970,
+          "sha256": "09aa98a4bac5f4810b0180e9a3bcf8ae76e277bea2a668945542145e10166401"
+        }
+      ],
+      "members": {
+        "base/data/melanesia/NC/index.json": {
+          "bytes": 3432,
+          "sha256": "ba571a747d8346fdae7147bb20f58979bcaf3682028a0131924fa74dd611aee9"
+        },
+        "base/data/melanesia/NC/places.csv": {
+          "bytes": 346232,
+          "sha256": "489a137405b42d5a5087f0683283a5c101dbed6f3d308bdb2456f918f35451fd"
+        },
+        "base/data/melanesia/NC/places.jsonl": {
+          "bytes": 799712,
+          "sha256": "2406bf1306ec896197048e0ab39d386cfa93ca85ce28062f70024211b866b9f1"
+        },
+        "base/sources/geonames/NC.zip": {
+          "bytes": 144407,
+          "sha256": "44b4cd75c5506d77ff1c5035f58d1869430d6488b55e5050a8709a3f68a81e62"
+        },
+        "base/sources/geonames/NC.zip.download.json": {
+          "bytes": 306,
+          "sha256": "9ebe9250ba331f1dec7bda8acd1c25f3612b140cd8a9f392da22e8905d9bf257"
+        },
+        "locale/names.csv": {
+          "bytes": 84689,
+          "sha256": "84931fc8315d98a5b018be37358b0471bca460c7c1a6c542b71ed78bfb59ac67"
+        },
+        "locale/names.jsonl": {
+          "bytes": 186912,
+          "sha256": "6f1fc2bd4a565738a2f0a27b666cc9712ecb5c39e9403d59b88581500c9c4571"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 6463,
+          "sha256": "d6ef25dc57b7030fa88227a53ec8833a26fa74c598edbe8b6644a261a21608e0"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 15121,
+          "sha256": "d92fb5c86b65a8c649acbf62a5931ca14523f6564ad993ee919fbc865dc5d38b"
+        },
+        "locale/sources/address-templates/NC.json": {
+          "bytes": 257,
+          "sha256": "5a407006fcca62b271baff8f0432d4efc7af3535cceea11d268e3066d95d02bb"
+        },
+        "locale/sources/address-templates/NC.json.download.json": {
+          "bytes": 271,
+          "sha256": "24907ab98fd08e45b554abcd3d517f2a557241aa0c1c24177cc103e33e2aeb10"
+        },
+        "locale/sources/alternatenames/NC.zip": {
+          "bytes": 66209,
+          "sha256": "1b1397cb3ad342e656eef22babeb97c6f06a0a75dc331851fbcdda1c9c86e501"
+        },
+        "locale/sources/alternatenames/NC.zip.download.json": {
+          "bytes": 283,
+          "sha256": "acd389e1975444c3af6aacf7d18f0774dec7145fa4ab45e768ace43a1890d87c"
+        }
+      },
+      "places_member": "base/data/melanesia/NC/places.jsonl",
+      "subregion": "melanesia",
+      "counts": {
+        "places": 785,
+        "names": 575,
+        "postal_links": 52
+      }
+    },
+    "NF": {
+      "archive_bytes": 30088,
+      "archive_sha256": "935b1793a497f8de90c47a5ee7a95d89640d3234acf458ec1382404e35fd30aa",
+      "parts": [
+        {
+          "path": "countries/NF/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 40121,
+          "stored_sha256": "27bcb64225b41505fac8b361564f1f011bb584ec557f73f17845cfe512af4121",
+          "bytes": 30088,
+          "sha256": "935b1793a497f8de90c47a5ee7a95d89640d3234acf458ec1382404e35fd30aa"
+        }
+      ],
+      "members": {
+        "base/data/australia_new_zealand/NF/index.json": {
+          "bytes": 1562,
+          "sha256": "8cc3f97ab4899c4819197cad60e0cf981d75b7810f7f777384041e76e41af8ed"
+        },
+        "base/data/australia_new_zealand/NF/places.csv": {
+          "bytes": 2775,
+          "sha256": "93c10a13b109c9c59926164acae1141ba2f71e2eeee1ef9fbaa5579b5fa64efd"
+        },
+        "base/data/australia_new_zealand/NF/places.jsonl": {
+          "bytes": 4592,
+          "sha256": "6d7e577ca2d6fe31a82470293d84beaaaf54d2c4349259e5202c4e126610bb16"
+        },
+        "base/sources/geonames/NF.zip": {
+          "bytes": 8696,
+          "sha256": "d28d2f3b4f0e77effc80acccdeda40b5811e35fd68f1b898c18e1dfe350c0d44"
+        },
+        "base/sources/geonames/NF.zip.download.json": {
+          "bytes": 303,
+          "sha256": "ecaa2a23c971bc07e3fcb5ec6667d0f413b65c4f221f1237e51759952c1c19da"
+        },
+        "locale/names.csv": {
+          "bytes": 22843,
+          "sha256": "7f0d9e974299abaff46c21e7adc32c0a21f9ade59d6c0906c245de29bb491e11"
+        },
+        "locale/names.jsonl": {
+          "bytes": 50304,
+          "sha256": "49dc89b86d7a6e542ad9e0115f7b09a8f6e0188d15761a3c85fd4a989b16aa1e"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 249,
+          "sha256": "c30dde297321c7ce742e111ce5fb5d145ff421549d9a66b3fa0c4b9126c52db7"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 288,
+          "sha256": "00089e2933d63edebaaaabafa2d41b01feaffe9b984a72cf849c6ccd688e3c6b"
+        },
+        "locale/sources/address-templates/NF.json": {
+          "bytes": 121,
+          "sha256": "0995459abde2907a74c3d08c568ac4cadea9d71fea6a9ac9368c2756787a6f72"
+        },
+        "locale/sources/address-templates/NF.json.download.json": {
+          "bytes": 271,
+          "sha256": "6909a55a1eb50287fc45e6eabf2a5480f384a9dd3351794c3e38eb03dc048231"
+        },
+        "locale/sources/alternatenames/NF.zip": {
+          "bytes": 7922,
+          "sha256": "d2ffb42e5eec37eb7b1ca880bea12824d0ae7575d8b19ee60008d8d9b54c2c57"
+        },
+        "locale/sources/alternatenames/NF.zip.download.json": {
+          "bytes": 282,
+          "sha256": "54ed93ae50d32eb7af9b8e42b5206ac0ffc081d079e41d96d41f0bf0d7db6632"
+        }
+      },
+      "places_member": "base/data/australia_new_zealand/NF/places.jsonl",
+      "subregion": "australia_new_zealand",
+      "counts": {
+        "places": 4,
+        "names": 155,
+        "postal_links": 1
+      }
+    },
+    "NR": {
+      "archive_bytes": 101752,
+      "archive_sha256": "909c6c2eaa8f0e3646bf400b66d4d77016ec9327b46b324a293e251007bb97ed",
+      "parts": [
+        {
+          "path": "countries/NR/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 135673,
+          "stored_sha256": "a6f1b105316055491accc29387f993298332e21fa28186f897fac24b263b347d",
+          "bytes": 101752,
+          "sha256": "909c6c2eaa8f0e3646bf400b66d4d77016ec9327b46b324a293e251007bb97ed"
+        }
+      ],
+      "members": {
+        "base/data/micronesia/NR/index.json": {
+          "bytes": 2134,
+          "sha256": "31ce7d37e169ce4d06044e0102fcc48f6b203c12e8205bb422cabf599c38c33f"
+        },
+        "base/data/micronesia/NR/places.csv": {
+          "bytes": 34650,
+          "sha256": "79bdef82f265aed9d018b5c660caea6e978a790d83b4dc8b2e7490c47ebffcc0"
+        },
+        "base/data/micronesia/NR/places.jsonl": {
+          "bytes": 48914,
+          "sha256": "ae9df6ccce1c260925acd70f4e2767f68b441e9873c9cc0ed89b543c4a68fa71"
+        },
+        "base/sources/geonames/NR.zip": {
+          "bytes": 14864,
+          "sha256": "fc0122ff840f41f6abfa18a8815f93ebcc86b178696255bad56e3beaba8281e0"
+        },
+        "base/sources/geonames/NR.zip.download.json": {
+          "bytes": 304,
+          "sha256": "d0abb927766a0a54bb8fe865a29d033304071e581e2b253be6be2fc615072272"
+        },
+        "locale/names.csv": {
+          "bytes": 208322,
+          "sha256": "8ff7dcf982ade77e742b0c4512985234f036618f187aeab30d7b520c9205902d"
+        },
+        "locale/names.jsonl": {
+          "bytes": 460421,
+          "sha256": "e6e7e9db20656a976a6cf9b4484e7446ec7d766043b83c7a719f48f7e4f99c24"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "locale/sources/address-templates/NR.json": {
+          "bytes": 438,
+          "sha256": "1e895db2cc535c4b640e3994787d596654d00afc2b2dbb7475d31dfe08b05e34"
+        },
+        "locale/sources/address-templates/NR.json.download.json": {
+          "bytes": 271,
+          "sha256": "0f7a0fc666cfa78ccce50be03ae104a295141654bdec13a5ec50c4b2097f8f69"
+        },
+        "locale/sources/alternatenames/NR.zip": {
+          "bytes": 20057,
+          "sha256": "924146c3537c1678989a53f5cbe5e774d70d7d23f55681bd7cc0c54a07682c46"
+        },
+        "locale/sources/alternatenames/NR.zip.download.json": {
+          "bytes": 283,
+          "sha256": "ce5c10d89553fbcc13f4a70600a91f08f09768ac68682c0368b97ef0137cb2cd"
+        }
+      },
+      "places_member": "base/data/micronesia/NR/places.jsonl",
+      "subregion": "micronesia",
+      "counts": {
+        "places": 29,
+        "names": 1417,
+        "postal_links": 0
+      }
+    },
+    "NU": {
+      "archive_bytes": 40454,
+      "archive_sha256": "ff2393a89cd497915c20160497794d898423dac490b14f92dd35050a29d432d8",
+      "parts": [
+        {
+          "path": "countries/NU/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 53941,
+          "stored_sha256": "475d856cb6f8d41ca6d961e0f4057becbc5e633b4cde339b93be86852a59125d",
+          "bytes": 40454,
+          "sha256": "ff2393a89cd497915c20160497794d898423dac490b14f92dd35050a29d432d8"
+        }
+      ],
+      "members": {
+        "base/data/polynesia/NU/index.json": {
+          "bytes": 1810,
+          "sha256": "468957ed157c4eccf99af8324b1751d801ccf873a1deb41fbc39d634f216fb3d"
+        },
+        "base/data/polynesia/NU/places.csv": {
+          "bytes": 20813,
+          "sha256": "68fd3efab3e7f15b1f5d181fa16a00e156a399fa708a9383dffd4ec7a9d2a4fb"
+        },
+        "base/data/polynesia/NU/places.jsonl": {
+          "bytes": 48861,
+          "sha256": "f2500e80950e23f41d2167ccabefb67c839616eb223f1cd54d6de22bfdb512a8"
+        },
+        "base/sources/geonames/NU.zip": {
+          "bytes": 12141,
+          "sha256": "5ba4a923387e4f8878b6974cec5324ef38d77860c15086677cc5f7672b038adc"
+        },
+        "base/sources/geonames/NU.zip.download.json": {
+          "bytes": 304,
+          "sha256": "b22b31b4dc87ccca03c58216fe57f6ce1befd0327a267195f15283f83cf6c7eb"
+        },
+        "locale/names.csv": {
+          "bytes": 38320,
+          "sha256": "0827729970c00a5f579ce07920ee1bff6e2d583eb883e14f5f7699322835b975"
+        },
+        "locale/names.jsonl": {
+          "bytes": 87499,
+          "sha256": "4ff73ff8ccb76cca8ce767b170ca7104624acdefcc264dee9ab4bc2bc66122da"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "locale/sources/address-templates/NU.json": {
+          "bytes": 41,
+          "sha256": "d26a2bd9df95d8c562e4ab27b463b4176e6263218519b177c1ac2e87b9526a49"
+        },
+        "locale/sources/address-templates/NU.json.download.json": {
+          "bytes": 270,
+          "sha256": "fd20bc38bf950d35dac86b54e1c77f5680feeb71f475add403175bcb60b01d0c"
+        },
+        "locale/sources/alternatenames/NU.zip": {
+          "bytes": 9616,
+          "sha256": "059d8ec99141a672ee58dc2ae0e6a264f6efd57da279f6f192c8f075d65a27d3"
+        },
+        "locale/sources/alternatenames/NU.zip.download.json": {
+          "bytes": 282,
+          "sha256": "29632fc1f263f9b1754060a56508c90d1d7d8973ec75a7d65205551c2204ebcd"
+        }
+      },
+      "places_member": "base/data/polynesia/NU/places.jsonl",
+      "subregion": "polynesia",
+      "counts": {
+        "places": 49,
+        "names": 277,
+        "postal_links": 0
+      }
+    },
+    "NZ": {
+      "archive_bytes": 2257237,
+      "archive_sha256": "f28a069b7fc92a682e178e44030ec869e080638cae48192933feef209c7a5edf",
+      "parts": [
+        {
+          "path": "countries/NZ/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "6376aceb2d8ab5355ebc5c402aa814d56c19309c88374627ecf0bd2637ddb946",
+          "bytes": 524288,
+          "sha256": "21b6aa5ee661b6f37ae9b76b299d83e332b38b471767584374c99773a18e5a12"
+        },
+        {
+          "path": "countries/NZ/part-002.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "b25d3d153259e4188cfe1449c39fb0d5b7d88010d0bf4ea777737dfc13926930",
+          "bytes": 524288,
+          "sha256": "902252890fab62d1c068a45ab6df155140779c97b7cd8571344239daccc1f6f2"
+        },
+        {
+          "path": "countries/NZ/part-003.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "251360bbe5dec4c426329324beaadfaf31405c047ba9b934cd59e2762afdc118",
+          "bytes": 524288,
+          "sha256": "d03891a11f6728bbeaa9fe2d66926ea5aaacc0a11449b2270618a00659809da3"
+        },
+        {
+          "path": "countries/NZ/part-004.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "72ba1910000a5c855272d0b096dee3cab4b131f6389cdf30722dc489dc48d13e",
+          "bytes": 524288,
+          "sha256": "7e87b03c3a740db42a791048284fd961bc24317f462cb84018d9539c5bb6c07c"
+        },
+        {
+          "path": "countries/NZ/part-005.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 213449,
+          "stored_sha256": "6a2bfaaf28f740f5c0cf48094016ce4419275d43c1712a19c4927ecf6e74f9dd",
+          "bytes": 160085,
+          "sha256": "9d3d1f8bda2df03f85935e2b1a3794d8d2efc36886e90b470fbe55a021963f82"
+        }
+      ],
+      "members": {
+        "base/data/australia_new_zealand/NZ/index.json": {
+          "bytes": 4679,
+          "sha256": "123c7a21144c6ac30b2dc53caf5e8a94251996f8e3892005a4840428a00dcd65"
+        },
+        "base/data/australia_new_zealand/NZ/places.csv": {
+          "bytes": 1585044,
+          "sha256": "0fc5df0fd46a74a9efcb2b00b14cbe31de34f7ee7578ab73bfd71cd273e45bad"
+        },
+        "base/data/australia_new_zealand/NZ/places.jsonl": {
+          "bytes": 3564474,
+          "sha256": "879caaed4f74511c09123e9aca624bca08493314c2d9967f30b89256118ee436"
+        },
+        "base/sources/geonames/NZ.zip": {
+          "bytes": 1434788,
+          "sha256": "b4826750c0ce65ca9cc63706de0d4e093f988537c002bbfee36c5f888c9b5a95"
+        },
+        "base/sources/geonames/NZ.zip.download.json": {
+          "bytes": 308,
+          "sha256": "217b9028a5597e1aa25e017bb5964279798f6ade9a78bbfd68822f6a98506bbb"
+        },
+        "locale/names.csv": {
+          "bytes": 476163,
+          "sha256": "60589f390c1b659ee64008bd45d5841b02d0dd6b012ebdda7a555acc2316de58"
+        },
+        "locale/names.jsonl": {
+          "bytes": 1034422,
+          "sha256": "52f2f208f6d2b15b0f4ac316de7ad90b60f70ac331543c110fbb8d6da2781a50"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 493,
+          "sha256": "9092b0ae38173cc97369a58010899a321c5906bfde0d009795b8d6daa684cf4b"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 870,
+          "sha256": "7b74b280aed38c312c3f6027a193f9f17754d649c03f456ef2eece817205860a"
+        },
+        "locale/sources/address-templates/NZ.json": {
+          "bytes": 212,
+          "sha256": "9dba8dc96b7f96318930ee020795adab986c69233e36ae1af6cb10d8e8c4845d"
+        },
+        "locale/sources/address-templates/NZ.json.download.json": {
+          "bytes": 271,
+          "sha256": "3c171ce4a0f81c26f0f4f14720e5c8aa15bd000e12ed5a5220dfddf0337fbd4b"
+        },
+        "locale/sources/alternatenames/NZ.zip": {
+          "bytes": 286029,
+          "sha256": "25c8d200d0fd7611809f0fff4fe2c3038fa21b7caca4f5a87d0bff97fdc50b90"
+        },
+        "locale/sources/alternatenames/NZ.zip.download.json": {
+          "bytes": 284,
+          "sha256": "b6759a5909841a079679dd099b797fed0a63d9b5ecb6b99c36b846778f32cf38"
+        }
+      },
+      "places_member": "base/data/australia_new_zealand/NZ/places.jsonl",
+      "subregion": "australia_new_zealand",
+      "counts": {
+        "places": 3421,
+        "names": 3137,
+        "postal_links": 3
+      }
+    },
+    "PF": {
+      "archive_bytes": 309765,
+      "archive_sha256": "fa63ee114e55c7022cfe3939088c5d963f1afe392829a92c68600c778c88c6d9",
+      "parts": [
+        {
+          "path": "countries/PF/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 413021,
+          "stored_sha256": "e6a4edb63f5adb8149bd607f1e135904ea58cf851d6d915382dbd932aed17c4e",
+          "bytes": 309765,
+          "sha256": "fa63ee114e55c7022cfe3939088c5d963f1afe392829a92c68600c778c88c6d9"
+        }
+      ],
+      "members": {
+        "base/data/polynesia/PF/index.json": {
+          "bytes": 2886,
+          "sha256": "66564b53c174fd9c3c406821b15331a6282d03f7d16a4023642bec04f758fc77"
+        },
+        "base/data/polynesia/PF/places.csv": {
+          "bytes": 227612,
+          "sha256": "6ce56a07c40574b0a457db7f9fc634f9ecf4042e78d49a3bf0ea5a70377564f6"
+        },
+        "base/data/polynesia/PF/places.jsonl": {
+          "bytes": 516410,
+          "sha256": "5f88c09d96cef2f9d22aa31f501e23d3e69f9a010a397cc16c8c42b48b57c1d4"
+        },
+        "base/sources/geonames/PF.zip": {
+          "bytes": 128904,
+          "sha256": "df8e154b1a69d1a8ef0a688e22ceb977ad2a6ac1408f3ab966cb4c9abfed39c2"
+        },
+        "base/sources/geonames/PF.zip.download.json": {
+          "bytes": 306,
+          "sha256": "7380899efd6b7830f4727273b50328b46b40444911d5d0f136d2f39dd6efd124"
+        },
+        "locale/names.csv": {
+          "bytes": 92499,
+          "sha256": "7bac6447fcfd3c7752ea04b20471fe34c04cd40afeebc5ebb0e62ed13e31f7b8"
+        },
+        "locale/names.jsonl": {
+          "bytes": 202020,
+          "sha256": "a7140cc16be631f48e79de60f97e4f92d797bba240afca80bcfd3bb98d5d3dba"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 372,
+          "sha256": "085f18712040aa3a68f2345ae885730198392cdd6857c3a9e6954fe4eb63db6c"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 580,
+          "sha256": "ffd06fcf9f70e626f6284d1d1085652b7134aa4fa75e0fe31a1a5be2b74ef9b1"
+        },
+        "locale/sources/address-templates/PF.json": {
+          "bytes": 173,
+          "sha256": "c808d34ed6b5be7176da468f610869cd1e43a0c20285241b3b9b84faee7ef946"
+        },
+        "locale/sources/address-templates/PF.json.download.json": {
+          "bytes": 271,
+          "sha256": "8a996ce8397276508fa490a71f9a854fc01a735909c0db8b09cd1a282dbe5018"
+        },
+        "locale/sources/alternatenames/PF.zip": {
+          "bytes": 92003,
+          "sha256": "09ed5812d95dda4fcd469ea6e5a00d2d0384f34bffd128d64067bcab6e23a598"
+        },
+        "locale/sources/alternatenames/PF.zip.download.json": {
+          "bytes": 283,
+          "sha256": "f657160897dc2b67a629e19277d2e5dff2c215c7a120c690d5d42f1ac9e28817"
+        }
+      },
+      "places_member": "base/data/polynesia/PF/places.jsonl",
+      "subregion": "polynesia",
+      "counts": {
+        "places": 501,
+        "names": 616,
+        "postal_links": 2
+      }
+    },
+    "PG": {
+      "archive_bytes": 2071199,
+      "archive_sha256": "a9e68d623f74bdfa36742fe5ed8a5990be07820366a91af54b63e0f9f4ea07b0",
+      "parts": [
+        {
+          "path": "countries/PG/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "4fb10f38514b9022387d5a8c36c9b03f38be6550b8f32e2e8a7a1f06889e3eed",
+          "bytes": 524288,
+          "sha256": "823db186cc61453c5bf0d5c833c56ce5f26bc44e5e8a9e4b375397dd859fd09b"
+        },
+        {
+          "path": "countries/PG/part-002.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "6446243bfe282279d8ebdbbcecbe09dee32b79baee89f31f0508edec7abc19e7",
+          "bytes": 524288,
+          "sha256": "41ef385e4879592a3443aaad0258bb1551124d78ab15864cfe256451363318a6"
+        },
+        {
+          "path": "countries/PG/part-003.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "ea88f6f7102cbec19a7892aff2d253c990367e4099e72f7ce420a0265ba77359",
+          "bytes": 524288,
+          "sha256": "e3a8b5c411d6173b9a6f7434ccd4374262f20497b668650e006457c439f5f46f"
+        },
+        {
+          "path": "countries/PG/part-004.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 664449,
+          "stored_sha256": "a5a9a3a140637f56b2a2eafa57e4b8903d1be8095125e51ae178fa5229d73cc7",
+          "bytes": 498335,
+          "sha256": "9fdb4bf99b2ded7f6009872ce801ac581752c679a1856c8e5d1d2c3c6935df9f"
+        }
+      ],
+      "members": {
+        "base/data/melanesia/PG/index.json": {
+          "bytes": 4345,
+          "sha256": "379411df1e2d08e9ad7bdf0e81325a43e592c9a28c478f742123fe8b3247ad80"
+        },
+        "base/data/melanesia/PG/places.csv": {
+          "bytes": 4955516,
+          "sha256": "1f1cd66bd4ed5b5ac5673766c63c1603383827cd0fde34f2ee052fb3cd2869eb"
+        },
+        "base/data/melanesia/PG/places.jsonl": {
+          "bytes": 11798255,
+          "sha256": "dbb9ac84308a62894e81641b0b2ff233d7c1ada0b7191945c0ec93c96f39cc68"
+        },
+        "base/sources/geonames/PG.zip": {
+          "bytes": 618831,
+          "sha256": "78d078b696c0731d89be2df7e8913ee0e6588161017c4a8b62143af0b8678e5f"
+        },
+        "base/sources/geonames/PG.zip.download.json": {
+          "bytes": 306,
+          "sha256": "de19fd30918c1e3444fa84b9cb4c4ff1736a2b372b5c59d247f0fd62ebf949af"
+        },
+        "locale/names.csv": {
+          "bytes": 386490,
+          "sha256": "d5d7b3ba98e4b0921fd609cddb379047f25c35c2eeb1443001f5268b4f2dd370"
+        },
+        "locale/names.jsonl": {
+          "bytes": 833675,
+          "sha256": "cb48a8906c2b5d4b7634afdb7361a1fd64a91f169d5e71f8a0e37e594e1b6472"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "locale/sources/address-templates/PG.json": {
+          "bytes": 655,
+          "sha256": "6455c5c5db033130da22687c4c3a5e6d8fdb8be38dd90911bd745494e6d3f94e"
+        },
+        "locale/sources/address-templates/PG.json.download.json": {
+          "bytes": 271,
+          "sha256": "2cbb9881fef2a0f805af5cd3c486bb19a1dbf55175584e9ba2387807b05a669b"
+        },
+        "locale/sources/alternatenames/PG.zip": {
+          "bytes": 245340,
+          "sha256": "114e90f7782d9636e1fbf838d0548820f899e51a4062ea1043ffd8cc7d7118ef"
+        },
+        "locale/sources/alternatenames/PG.zip.download.json": {
+          "bytes": 284,
+          "sha256": "6b6f3c1a669e3fee0e4dd880bd05b7f70501ebc4717e683f5ed01276105f7245"
+        }
+      },
+      "places_member": "base/data/melanesia/PG/places.jsonl",
+      "subregion": "melanesia",
+      "counts": {
+        "places": 11780,
+        "names": 2513,
+        "postal_links": 0
+      }
+    },
+    "PN": {
+      "archive_bytes": 29006,
+      "archive_sha256": "35703b0c6ab2cfa4e89f74d3d5877a536592344d49720bd82fe25c01d124fc99",
+      "parts": [
+        {
+          "path": "countries/PN/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 38677,
+          "stored_sha256": "13f3ab0856280addbe0b5b07208177b53e791790485a9cb6c229d9d76348ee10",
+          "bytes": 29006,
+          "sha256": "35703b0c6ab2cfa4e89f74d3d5877a536592344d49720bd82fe25c01d124fc99"
+        }
+      ],
+      "members": {
+        "base/data/polynesia/PN/index.json": {
+          "bytes": 1569,
+          "sha256": "a71f1ec71cfd0962e88029ba077cbbf5b78d1cb49dafd0e833b3f11185c4d3c2"
+        },
+        "base/data/polynesia/PN/places.csv": {
+          "bytes": 1495,
+          "sha256": "9466ab342c8ee51dfb2fe7a7374e3bdcb979b5c57bc493a0abd8bd31f12d182a"
+        },
+        "base/data/polynesia/PN/places.jsonl": {
+          "bytes": 1579,
+          "sha256": "a454a6195142de76a653675aec5d04db5b3a53993215bbcfe259a0f0b33af83a"
+        },
+        "base/sources/geonames/PN.zip": {
+          "bytes": 7586,
+          "sha256": "b38ffee7004cd0bf08f69dcf1652b266f5d0e898910ce380fbb85df30f3a4f3f"
+        },
+        "base/sources/geonames/PN.zip.download.json": {
+          "bytes": 303,
+          "sha256": "1a143c8b47164f86683b00959548de39fc4bc2183317b08a62a68faf18e6432c"
+        },
+        "locale/names.csv": {
+          "bytes": 24865,
+          "sha256": "7fc2b0dd77ff407b79a7749da9f8adbbd1e6ae98ff2233705d4202132e2f697d"
+        },
+        "locale/names.jsonl": {
+          "bytes": 54286,
+          "sha256": "cb469cdfcd30b0ff51a7a917a8462fe3835a55921faeabb915eeaa18fc5f7010"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "locale/sources/address-templates/PN.json": {
+          "bytes": 137,
+          "sha256": "2075e047d1953a9a6c10698498a152302f97ba9e61806d00f98fe1918ee3fcdc"
+        },
+        "locale/sources/address-templates/PN.json.download.json": {
+          "bytes": 271,
+          "sha256": "c2bdff144b444832fd6e82d420df36912fa686d95f6f0a5efd87d070d38cc932"
+        },
+        "locale/sources/alternatenames/PN.zip": {
+          "bytes": 7919,
+          "sha256": "8adb98b8f723065375206f4df003f06d43e210e48a1c49ba9d1d8d62d80b3a94"
+        },
+        "locale/sources/alternatenames/PN.zip.download.json": {
+          "bytes": 282,
+          "sha256": "e9019e965f2aff762a97333c8c3d92ae55929092498705918ad6440e0cf3cd7f"
+        }
+      },
+      "places_member": "base/data/polynesia/PN/places.jsonl",
+      "subregion": "polynesia",
+      "counts": {
+        "places": 1,
+        "names": 166,
+        "postal_links": 0
+      }
+    },
+    "PW": {
+      "archive_bytes": 188803,
+      "archive_sha256": "221be7b80c966fbc4b56a1f8dea78c281c7239ab68a53604315a068c863a141d",
+      "parts": [
+        {
+          "path": "countries/PW/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 251741,
+          "stored_sha256": "1ecd35417117b7b6f6531b45cb78e776304067cdb7cf4ce5ecdafaf329360020",
+          "bytes": 188803,
+          "sha256": "221be7b80c966fbc4b56a1f8dea78c281c7239ab68a53604315a068c863a141d"
+        }
+      ],
+      "members": {
+        "base/data/micronesia/PW/index.json": {
+          "bytes": 3104,
+          "sha256": "19b5b046c9b2df84e80b99fe09617880920a83d8019ddb8d3e09bf3b2376f36b"
+        },
+        "base/data/micronesia/PW/places.csv": {
+          "bytes": 74453,
+          "sha256": "ed5dda2ed1d953f399c773d69c65f24b8c78e6319f85295f2933474a977c6ac4"
+        },
+        "base/data/micronesia/PW/places.jsonl": {
+          "bytes": 130645,
+          "sha256": "9709a4d7488153dfb2d644cc963099e0117dbd756d0add4b1fee1296e8381367"
+        },
+        "base/sources/geonames/PW.zip": {
+          "bytes": 49589,
+          "sha256": "c27d310d90e6df455472289bba0bfbab468f62ae37b6135c0792335429a35cdb"
+        },
+        "base/sources/geonames/PW.zip.download.json": {
+          "bytes": 304,
+          "sha256": "5b9275cda19f9f8eba8fc4e25527d1895a4a6b0d68cc4bacaad8f59cdf92e4d7"
+        },
+        "locale/names.csv": {
+          "bytes": 237683,
+          "sha256": "3cb0eca943509d7a79907e45281730e8ecc47c8e8cb44fcfa01ec908fa82ac5c"
+        },
+        "locale/names.jsonl": {
+          "bytes": 521644,
+          "sha256": "c5dad45c0c3a76930c4c95ad7d62122b525277f2035418df5951d1c62427a2ae"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 246,
+          "sha256": "4e729ac270fd603166f83a6dc272b805bbfa625c099f5cb873a00c7f0c80ca3f"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 285,
+          "sha256": "cb0ca9cd2f1a216a95be8a14ad5c47d83c3149f81a57034253ff5425c17d9e82"
+        },
+        "locale/sources/address-templates/PW.json": {
+          "bytes": 527,
+          "sha256": "e939d24a4ecda082f452ddbc337b834336c5716736cb553c2c3ef16ca070103f"
+        },
+        "locale/sources/address-templates/PW.json.download.json": {
+          "bytes": 271,
+          "sha256": "83804993a17d2e77fd99c7f9f68be6d10da89a6c959531906ed8150c97b13a17"
+        },
+        "locale/sources/alternatenames/PW.zip": {
+          "bytes": 46227,
+          "sha256": "8221e20202ee9fb572d99b20a8fbb4f46a800d64b57ccf27a8f8e1871713a5ec"
+        },
+        "locale/sources/alternatenames/PW.zip.download.json": {
+          "bytes": 283,
+          "sha256": "3f6b20320d58d3fd68cbfffa36b5457b1ff7e655bf1075595892880ee7aa8adb"
+        }
+      },
+      "places_member": "base/data/micronesia/PW/places.jsonl",
+      "subregion": "micronesia",
+      "counts": {
+        "places": 103,
+        "names": 1596,
+        "postal_links": 1
+      }
+    },
+    "SB": {
+      "archive_bytes": 754717,
+      "archive_sha256": "862b63518730c82a9ab4db48224894e3db2fd7f441cdf5f4e4851c4c938f6cc5",
+      "parts": [
+        {
+          "path": "countries/SB/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 699053,
+          "stored_sha256": "98d42673915cffe83156a5fcdddffdbde81b0e42632af0730a531937cfa1bbf6",
+          "bytes": 524288,
+          "sha256": "062160d2a93045fb93b613f6f2d1bd9ef757756d2a6cded4e0adb31e1d422a92"
+        },
+        {
+          "path": "countries/SB/part-002.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 307241,
+          "stored_sha256": "3c2cca9d942809ec2acc60b8e4285ee45f6cf482bec7cb186312cd6c1a692a01",
+          "bytes": 230429,
+          "sha256": "681ceeb6700e2d2a2582640d2fb08474a4c4751ac5073ab0071472c1004c2129"
+        }
+      ],
+      "members": {
+        "base/data/melanesia/SB/index.json": {
+          "bytes": 2706,
+          "sha256": "741f7a672610ff07de49717948f4c319187db0c2ab6080b03de3acfffc4f413a"
+        },
+        "base/data/melanesia/SB/places.csv": {
+          "bytes": 1457884,
+          "sha256": "1edba31d6e467af3596605e94918c8401875bd33d903639e0c26814d300a381e"
+        },
+        "base/data/melanesia/SB/places.jsonl": {
+          "bytes": 3353011,
+          "sha256": "c56822c83bab62450d1dfad6b91ef7fffa715cd32d404f1687ba0ced46a500e4"
+        },
+        "base/sources/geonames/SB.zip": {
+          "bytes": 263242,
+          "sha256": "34ceea5d8fecdb53c8ec5fd55ff0aad0af0c2c723e9c211ffe546d994d83a560"
+        },
+        "base/sources/geonames/SB.zip.download.json": {
+          "bytes": 306,
+          "sha256": "c9484a2a2f92da2e2d44f33ea72969d48b342b684ca018bba5e2443e125b0682"
+        },
+        "locale/names.csv": {
+          "bytes": 169450,
+          "sha256": "243c3dd080f4c490c92ca46abd5aaef124c2a8f1152da991b75d2cbb84fbeb49"
+        },
+        "locale/names.jsonl": {
+          "bytes": 365297,
+          "sha256": "bcb54667cb0186e6fdebe0dca12cb148b527c1859c6dcfda0221b5c98624a69c"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "locale/sources/address-templates/SB.json": {
+          "bytes": 52,
+          "sha256": "291cc6d20f01caeb0db86b7157cd7d42a87a0d93e2f997b079fdc515feda0395"
+        },
+        "locale/sources/address-templates/SB.json.download.json": {
+          "bytes": 270,
+          "sha256": "b505cd00292b99e5d004add838aaae8a9516c9e4a63f5e6bbd6de9689d4688e8"
+        },
+        "locale/sources/alternatenames/SB.zip": {
+          "bytes": 101288,
+          "sha256": "ff09c98b9cbf29fbe40c84d3e1c64977e0bc13f7081cfb1b1668cd03ad5d046f"
+        },
+        "locale/sources/alternatenames/SB.zip.download.json": {
+          "bytes": 284,
+          "sha256": "35a63784be1f8907372e6d01c1cdecb77a027278f0c9bec0e7dd6e34ed568d12"
+        }
+      },
+      "places_member": "base/data/melanesia/SB/places.jsonl",
+      "subregion": "melanesia",
+      "counts": {
+        "places": 3272,
+        "names": 1101,
+        "postal_links": 0
+      }
+    },
+    "TK": {
+      "archive_bytes": 35577,
+      "archive_sha256": "70d0e8a44aa61c454e7e08c906975c12580faa8fb7b4cf09f185dca1618d99d6",
+      "parts": [
+        {
+          "path": "countries/TK/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 47437,
+          "stored_sha256": "83453ea262aad4686cdccbd03ad71e92a32a7c0f82c591cc005319c3f0dcf77e",
+          "bytes": 35577,
+          "sha256": "70d0e8a44aa61c454e7e08c906975c12580faa8fb7b4cf09f185dca1618d99d6"
+        }
+      ],
+      "members": {
+        "base/data/polynesia/TK/index.json": {
+          "bytes": 1884,
+          "sha256": "356f577d20a745cd1d3031455d41b89c99b4be37e3723c2452a321b6f21287aa"
+        },
+        "base/data/polynesia/TK/places.csv": {
+          "bytes": 7140,
+          "sha256": "f166b40f75c53dcf6e8247284a76cc344d23acc45ad024c85495cc0732008ddb"
+        },
+        "base/data/polynesia/TK/places.jsonl": {
+          "bytes": 11043,
+          "sha256": "17b23c58e8303086b22a44cdeab535c73c26c70f2250ca7c9371d5d457629911"
+        },
+        "base/sources/geonames/TK.zip": {
+          "bytes": 9215,
+          "sha256": "c1b3c60d33310f60cec2dadc32c9dc45a01ca837100c4907416277b8f01f1ac4"
+        },
+        "base/sources/geonames/TK.zip.download.json": {
+          "bytes": 303,
+          "sha256": "b0edd0b3a6c604d57334634b585b16039846a69b86340e147473f8f96b497cda"
+        },
+        "locale/names.csv": {
+          "bytes": 38945,
+          "sha256": "a717b2fd00151eb1bf9eb3c80eb2658786ef5e136cdf6375af53635ce00b6b01"
+        },
+        "locale/names.jsonl": {
+          "bytes": 86522,
+          "sha256": "db4325cf5e1f36b6b319436e4a315790938241b5223ebd2e1deb725bf3548265"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "locale/sources/address-templates/TK.json": {
+          "bytes": 44,
+          "sha256": "ab12b192a4bb7ff1be5b8a9bfa32536073df4dacbe8cd30656983558efc9125f"
+        },
+        "locale/sources/address-templates/TK.json.download.json": {
+          "bytes": 270,
+          "sha256": "a81def4e502ceb07aed6f38c15c60aac86a686d8c28452fd9fec49683d638967"
+        },
+        "locale/sources/alternatenames/TK.zip": {
+          "bytes": 7999,
+          "sha256": "6a167b36914d1963e76026ed48e5d86acb4152aa63f513bfda95a0f29caf6a90"
+        },
+        "locale/sources/alternatenames/TK.zip.download.json": {
+          "bytes": 282,
+          "sha256": "b502a291de0c5165da2b5386676107101b0dab0a0613349bdeb299ccf30077a0"
+        }
+      },
+      "places_member": "base/data/polynesia/TK/places.jsonl",
+      "subregion": "polynesia",
+      "counts": {
+        "places": 8,
+        "names": 268,
+        "postal_links": 0
+      }
+    },
+    "TO": {
+      "archive_bytes": 94502,
+      "archive_sha256": "b00052a2b950e4e7b0a3491df3a22cf1a8d6549cb9a30aba9681c3d1094d7db2",
+      "parts": [
+        {
+          "path": "countries/TO/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 126005,
+          "stored_sha256": "083f0f5ee1cc74f689f4125cb30aae3ae78aaf8891f8eed9b702b3f2e6f5ec0e",
+          "bytes": 94502,
+          "sha256": "b00052a2b950e4e7b0a3491df3a22cf1a8d6549cb9a30aba9681c3d1094d7db2"
+        }
+      ],
+      "members": {
+        "base/data/polynesia/TO/index.json": {
+          "bytes": 2412,
+          "sha256": "96c27725ddf1757ed1dd7e994e30fe44b72e5b3b54352309a225f0f130d421ec"
+        },
+        "base/data/polynesia/TO/places.csv": {
+          "bytes": 79646,
+          "sha256": "97ec646381175762fc6dc05e2f4ebc1cf8a98012eeaf41a0b751760ecb41ece8"
+        },
+        "base/data/polynesia/TO/places.jsonl": {
+          "bytes": 181382,
+          "sha256": "b3feaffeda06b90c36d3685857c284b3ccab11b1ad774c74c7971706569c2a7b"
+        },
+        "base/sources/geonames/TO.zip": {
+          "bytes": 29644,
+          "sha256": "be066f9b14fea71b4d2970bfe1d1190808dd7c90723c5f769130497eda882827"
+        },
+        "base/sources/geonames/TO.zip.download.json": {
+          "bytes": 304,
+          "sha256": "0201fd8d818279777bc9fe4b35efc5d14c8c772eddeec8fc7925f9eee7663117"
+        },
+        "locale/names.csv": {
+          "bytes": 77778,
+          "sha256": "d3cb171ddb2f022c4ca362306eabf78c712a0b797e4545981aedbd847728e3a1"
+        },
+        "locale/names.jsonl": {
+          "bytes": 174839,
+          "sha256": "98816054b90fea3adb933f90e45640e9f1439ed305d59b4d1209d1778d954d7a"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "locale/sources/address-templates/TO.json": {
+          "bytes": 42,
+          "sha256": "b7b7a5f5676cfc71704c2be8e0f92d3162bd98f7a79e8fd5bd73a4afa93f3521"
+        },
+        "locale/sources/address-templates/TO.json.download.json": {
+          "bytes": 270,
+          "sha256": "8afbb3a8100aa1cb58512d6481a5fe95f8af2abfb3b53e1e91331a75401573cc"
+        },
+        "locale/sources/alternatenames/TO.zip": {
+          "bytes": 20212,
+          "sha256": "6e712b8ff83a4a3644486c195325ef0e1db37847ad292f406f237ba81e2ee1f2"
+        },
+        "locale/sources/alternatenames/TO.zip.download.json": {
+          "bytes": 283,
+          "sha256": "a22f3c5135ea55cb43f24c0e815cf122c7adeb331a22360c68353ecd87f3972f"
+        }
+      },
+      "places_member": "base/data/polynesia/TO/places.jsonl",
+      "subregion": "polynesia",
+      "counts": {
+        "places": 177,
+        "names": 546,
+        "postal_links": 0
+      }
+    },
+    "TV": {
+      "archive_bytes": 71845,
+      "archive_sha256": "bb40cbea34eac3faa0969f34607364e6c6a3b76ac543d6f39df13a8f49910fd6",
+      "parts": [
+        {
+          "path": "countries/TV/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 95797,
+          "stored_sha256": "c5d3602e0e5f73369b6259a3d0c8720e39e9d96d80a7e85ad5581a8e597b983c",
+          "bytes": 71845,
+          "sha256": "bb40cbea34eac3faa0969f34607364e6c6a3b76ac543d6f39df13a8f49910fd6"
+        }
+      ],
+      "members": {
+        "base/data/polynesia/TV/index.json": {
+          "bytes": 2645,
+          "sha256": "1bf4ec8054845ae451f2891b2600027ad039baaac31c8e6bbd9c8005847ca3b8"
+        },
+        "base/data/polynesia/TV/places.csv": {
+          "bytes": 24081,
+          "sha256": "4ea98ae9d2ef24c32d56379289b1713f3607a8660ec8cbf629ad8e64fefe686f"
+        },
+        "base/data/polynesia/TV/places.jsonl": {
+          "bytes": 43766,
+          "sha256": "bb6d60a1a1725ef647fc991b22f5a46a855d9fb5c0220de3c4ef8249f03b1eb9"
+        },
+        "base/sources/geonames/TV.zip": {
+          "bytes": 18747,
+          "sha256": "f551720330e26a7be3929066fe50db9a9b2411272088fd48b2fac6c5176535b5"
+        },
+        "base/sources/geonames/TV.zip.download.json": {
+          "bytes": 304,
+          "sha256": "7f114b1fd4de55f73cc08e8684b9ef2fb6127f815c667dc734cb83870e1c6094"
+        },
+        "locale/names.csv": {
+          "bytes": 98366,
+          "sha256": "c57c99db538f1ad762c1764501ea6955076e18ead80e9b0d4ed6820d73b62a3f"
+        },
+        "locale/names.jsonl": {
+          "bytes": 218567,
+          "sha256": "8b8d40baba3ada8b4ad62d8f2681be9f39aa09429ab79926605264739e06728c"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "locale/sources/address-templates/TV.json": {
+          "bytes": 280,
+          "sha256": "d74bca3251524ddd002eacb69c809fbe17039caac77d8879deec0ccdbe6d280a"
+        },
+        "locale/sources/address-templates/TV.json.download.json": {
+          "bytes": 271,
+          "sha256": "895816696954264a6699b2afdbd3baccc5f50d66f834093b92cb0c414aeae31b"
+        },
+        "locale/sources/alternatenames/TV.zip": {
+          "bytes": 15887,
+          "sha256": "5cc43f2c5cc731092ec44017d9f7e23cba7684d04de31b9357ab629c7a34793f"
+        },
+        "locale/sources/alternatenames/TV.zip.download.json": {
+          "bytes": 283,
+          "sha256": "8db7e06e88e98716563ab363d608bb85070a101f27363c4d2d6f10a924e78c9c"
+        }
+      },
+      "places_member": "base/data/polynesia/TV/places.jsonl",
+      "subregion": "polynesia",
+      "counts": {
+        "places": 36,
+        "names": 676,
+        "postal_links": 0
+      }
+    },
+    "UM": {
+      "archive_bytes": 74915,
+      "archive_sha256": "ead5a566020900f291c9dcb0f7db7cd776f683059f30af8eb8c282852726b755",
+      "parts": [
+        {
+          "path": "countries/UM/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 99889,
+          "stored_sha256": "645b2073b98d2e582c8dbfd226a7d002fcddaa64127a9eb9b95e3e7d05036e5e",
+          "bytes": 74915,
+          "sha256": "ead5a566020900f291c9dcb0f7db7cd776f683059f30af8eb8c282852726b755"
+        }
+      ],
+      "members": {
+        "base/data/micronesia/UM/index.json": {
+          "bytes": 2494,
+          "sha256": "1c8fbe4786f61fc4ceb8a61adfa956b32c3f662abe175597825e6232d87fa36f"
+        },
+        "base/data/micronesia/UM/places.csv": {
+          "bytes": 18811,
+          "sha256": "833e15b2f132dde5725830cda507d46bbf00e788f4f535bb83d09bf770a2310a"
+        },
+        "base/data/micronesia/UM/places.jsonl": {
+          "bytes": 28924,
+          "sha256": "13649ad0bc50ec8006cc509d2f15fb6b59737eff635ffdc75813906d8b246f15"
+        },
+        "base/sources/geonames/UM.zip": {
+          "bytes": 21116,
+          "sha256": "06b22852b086107281ce8e890d141d25b7d32ade9917cedaa5475f2cc4e621f9"
+        },
+        "base/sources/geonames/UM.zip.download.json": {
+          "bytes": 304,
+          "sha256": "751f8f372fba1dbe9c859fcef34c5165c2406e74114e4a84fe873ddcf5f86e79"
+        },
+        "locale/names.csv": {
+          "bytes": 72450,
+          "sha256": "b99c35837161164f093664598365e6cc56ad4f5b0c554ffedfe2ef80c75a2b9e"
+        },
+        "locale/names.jsonl": {
+          "bytes": 155449,
+          "sha256": "5ada611a0b0761193b341056f7b6b36290ab8ee529885bef76c540c82053a141"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "locale/sources/address-templates/UM.json": {
+          "bytes": 262,
+          "sha256": "6e9b218044df4fd0950700d682741a6b3d3ce341f066bfd8a772b78e0d8dd203"
+        },
+        "locale/sources/address-templates/UM.json.download.json": {
+          "bytes": 271,
+          "sha256": "eb0526be8ef502eb6c5029807ad11e84d1bb31f80534afe572d3859684cca24a"
+        },
+        "locale/sources/alternatenames/UM.zip": {
+          "bytes": 16530,
+          "sha256": "69a2a971484c9211cb7c8cd3feb1d60360e155c56ca88debde74d1f482b6fd29"
+        },
+        "locale/sources/alternatenames/UM.zip.download.json": {
+          "bytes": 283,
+          "sha256": "36f0796ceeaf493211363757ac6167a0314e5ba4e5b4365d2d54af6aeb1702ef"
+        }
+      },
+      "places_member": "base/data/micronesia/UM/places.jsonl",
+      "subregion": "micronesia",
+      "counts": {
+        "places": 20,
+        "names": 467,
+        "postal_links": 0
+      }
+    },
+    "VU": {
+      "archive_bytes": 405304,
+      "archive_sha256": "3ea658715abce4444685dc162d95ae5df6ca67af52a16c02aeea1e85e4697105",
+      "parts": [
+        {
+          "path": "countries/VU/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 540409,
+          "stored_sha256": "372312107c45752eb706b3bc006d534c7b665eb8b828c4db57b94fe305e0421b",
+          "bytes": 405304,
+          "sha256": "3ea658715abce4444685dc162d95ae5df6ca67af52a16c02aeea1e85e4697105"
+        }
+      ],
+      "members": {
+        "base/data/melanesia/VU/index.json": {
+          "bytes": 2948,
+          "sha256": "c550a94959159d400296b9a947477234318e982015bc13e5631cabc6ec3ed2bb"
+        },
+        "base/data/melanesia/VU/places.csv": {
+          "bytes": 799305,
+          "sha256": "c812170d1b71448298351c3cb163a1085389552f2ce3306b6b2d3e95750344e0"
+        },
+        "base/data/melanesia/VU/places.jsonl": {
+          "bytes": 1920914,
+          "sha256": "d425ab1f2ca8ac6b9da3c2062e3f34cd1fd11c9093b4960c0a1324651a1b0609"
+        },
+        "base/sources/geonames/VU.zip": {
+          "bytes": 135953,
+          "sha256": "4f53660d29124cba12071f6cb20d52747df594fef359dacbf4f4184afaecb434"
+        },
+        "base/sources/geonames/VU.zip.download.json": {
+          "bytes": 306,
+          "sha256": "d67c19eb994cc6994ad0642e2be126866ce037e2e2cdef05f3b5256919e6cfd3"
+        },
+        "locale/names.csv": {
+          "bytes": 128370,
+          "sha256": "f2f6204dd76c86a864b0390081b0bc172f9cf08ee38cd2908f80f737f0acf772"
+        },
+        "locale/names.jsonl": {
+          "bytes": 284349,
+          "sha256": "a04d8869e51e8439ab3aae4a494aa25bfa4966d596dc25b686d47bb0b6b11138"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "locale/sources/address-templates/VU.json": {
+          "bytes": 44,
+          "sha256": "52dad07fd3df7f442426c9e590be270ad7ad0b2e5c162f35ab5aecfec75aa6f2"
+        },
+        "locale/sources/address-templates/VU.json.download.json": {
+          "bytes": 270,
+          "sha256": "7edbd1a6c344edd6ab09e6fe8fe813d84ac05b12b5411ab1bde707f51a9203b3"
+        },
+        "locale/sources/alternatenames/VU.zip": {
+          "bytes": 66268,
+          "sha256": "a531804c72955185d6540c26957501b52c18dd9a0013fdd5e37cc5b069a128c2"
+        },
+        "locale/sources/alternatenames/VU.zip.download.json": {
+          "bytes": 283,
+          "sha256": "4b2c685f38a7a3ff93d2a0c146dbc855aa9a1d7a6d197bc8a7917f4f089d7266"
+        }
+      },
+      "places_member": "base/data/melanesia/VU/places.jsonl",
+      "subregion": "melanesia",
+      "counts": {
+        "places": 1930,
+        "names": 877,
+        "postal_links": 0
+      }
+    },
+    "WF": {
+      "archive_bytes": 80059,
+      "archive_sha256": "234abe411397ab883103a6b4b2495f83e367b658b9382cf99af5adc9a9c915ec",
+      "parts": [
+        {
+          "path": "countries/WF/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 106749,
+          "stored_sha256": "0ffe38c745febd078cf6f6b9540d86e4756a18c87d8a0ffbd46b7286c283dd9b",
+          "bytes": 80059,
+          "sha256": "234abe411397ab883103a6b4b2495f83e367b658b9382cf99af5adc9a9c915ec"
+        }
+      ],
+      "members": {
+        "base/data/polynesia/WF/index.json": {
+          "bytes": 2142,
+          "sha256": "a0b1384f8c1843b5f5a5b933c9202222d85c82613a716c3a546233f0a6e9c009"
+        },
+        "base/data/polynesia/WF/places.csv": {
+          "bytes": 64448,
+          "sha256": "9a3441b57937fed6605fcd4406d77dd69e4607daf13cfa93e37512961e3cb4a0"
+        },
+        "base/data/polynesia/WF/places.jsonl": {
+          "bytes": 145206,
+          "sha256": "1e056edd0cd5a756103b3baceb3a4fc574c92e4cacbe2b9fb42ffd09a401b3fb"
+        },
+        "base/sources/geonames/WF.zip": {
+          "bytes": 23568,
+          "sha256": "c4d01d230fc893b210c5338e40184cfb404edb95075421acfb392adc7ec4d5e5"
+        },
+        "base/sources/geonames/WF.zip.download.json": {
+          "bytes": 304,
+          "sha256": "1b38511ffea3f1560246abb63034e2d62d1a7aed1c4140ed882aececc6413e73"
+        },
+        "locale/names.csv": {
+          "bytes": 63476,
+          "sha256": "5fc9305222a48aef946fb8de3aec487de43f8066f4245f216c1f33876c9bcb3d"
+        },
+        "locale/names.jsonl": {
+          "bytes": 140599,
+          "sha256": "8284489acc6677507811dc7c0d0f46f36efba2abf4feaaf89a86dcfba03ddc68"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 493,
+          "sha256": "0d7ccc5acf9adc9eb9d6602b6a0e6b70c1d351681dfbc2200bfad6fbcbfe2860"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 870,
+          "sha256": "ac10b3975f254ef5bed38ca3e17ffa8d5ae91baf8d92fd700ab8505dc90a3067"
+        },
+        "locale/sources/address-templates/WF.json": {
+          "bytes": 155,
+          "sha256": "4e973aa65c22559c86577c105f48aff364c26887edd410c82d4335e61739a24a"
+        },
+        "locale/sources/address-templates/WF.json.download.json": {
+          "bytes": 271,
+          "sha256": "241eadec0f8747d947c1e86a8fef4293202ee50900f08142cd3fb25df8df0459"
+        },
+        "locale/sources/alternatenames/WF.zip": {
+          "bytes": 18859,
+          "sha256": "fc706df5426e5573ff5766940539bea9859132bf0f02ad00a6f411e71c39a358"
+        },
+        "locale/sources/alternatenames/WF.zip.download.json": {
+          "bytes": 283,
+          "sha256": "c57eed1563607001bac76c53d56a4ddf731e45f128e490cfdc1edef7dcff249c"
+        }
+      },
+      "places_member": "base/data/polynesia/WF/places.jsonl",
+      "subregion": "polynesia",
+      "counts": {
+        "places": 141,
+        "names": 434,
+        "postal_links": 3
+      }
+    },
+    "WS": {
+      "archive_bytes": 177454,
+      "archive_sha256": "6f39d514375c9f6dfed8c58d1b4b4bd52506a01cbc50765f9121ecc134b8b3dc",
+      "parts": [
+        {
+          "path": "countries/WS/part-001.b64",
+          "storage_encoding": "base64",
+          "stored_bytes": 236609,
+          "stored_sha256": "2c44f768e939a5f237c882a63b3505715d794f8a746ba070e58ed4bf121e130c",
+          "bytes": 177454,
+          "sha256": "6f39d514375c9f6dfed8c58d1b4b4bd52506a01cbc50765f9121ecc134b8b3dc"
+        }
+      ],
+      "members": {
+        "base/data/polynesia/WS/index.json": {
+          "bytes": 2506,
+          "sha256": "9d10081c092b31cb5c02991e961faccd1f03a481cac50dc2dbe4452322ed68df"
+        },
+        "base/data/polynesia/WS/places.csv": {
+          "bytes": 199690,
+          "sha256": "41917bb221381ad3e5053ee83ffc5a0463d104eeb76d29bd188d518498e09313"
+        },
+        "base/data/polynesia/WS/places.jsonl": {
+          "bytes": 457051,
+          "sha256": "fec13500ad2b0bb8ec37a4de37dfc9083caba5734f84ae45d621b4a77fa4292f"
+        },
+        "base/sources/geonames/WS.zip": {
+          "bytes": 38123,
+          "sha256": "33f7ce35d0438865bb3bc7db96c41ef538b681694a431592a6e662efbd46636e"
+        },
+        "base/sources/geonames/WS.zip.download.json": {
+          "bytes": 304,
+          "sha256": "1c44208c64add3c98368c27e8d71d74e3e86b1ab57a00da2cc27fcc640f8918d"
+        },
+        "locale/names.csv": {
+          "bytes": 196729,
+          "sha256": "94e025844b6e6947a59f41169123fe883bbb06691e0e953c72d7b77ed84bcde8"
+        },
+        "locale/names.jsonl": {
+          "bytes": 434054,
+          "sha256": "2e3452139f0dfdacfbbc0cfc25aceb3f5d51f855eb463dc6d81be90d50c4f5d9"
+        },
+        "locale/postal_links.csv": {
+          "bytes": 3,
+          "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+        },
+        "locale/postal_links.jsonl": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "locale/sources/address-templates/WS.json": {
+          "bytes": 42,
+          "sha256": "aac1731303aff750f78c1cc7ddfb65d11ee35ac15c84617e9ce350d9532afa0d"
+        },
+        "locale/sources/address-templates/WS.json.download.json": {
+          "bytes": 270,
+          "sha256": "b2d0642850f8b6b257970a98916dcac488ceef4e00da5bbcd3b7f8c8a8738045"
+        },
+        "locale/sources/alternatenames/WS.zip": {
+          "bytes": 32568,
+          "sha256": "9e3454e2730cdf8a505114a0033840e026bff810331b2c4156463504be77da63"
+        },
+        "locale/sources/alternatenames/WS.zip.download.json": {
+          "bytes": 283,
+          "sha256": "f6c98fa0de82d00a132b4e360268ec489c3c9ec5b1c0bdd6d60ec3fa1b4bcc79"
+        }
+      },
+      "places_member": "base/data/polynesia/WS/places.jsonl",
+      "subregion": "polynesia",
+      "counts": {
+        "places": 446,
+        "names": 1334,
+        "postal_links": 0
+      }
+    }
+  },
+  "shared": {
+    "archive_bytes": 872558,
+    "archive_sha256": "82b71db243211f64fed55fa893081bb891e1f9c09a9c87fb821166f7666c95fe",
+    "parts": [
+      {
+        "path": "shared/part-001.b64",
+        "storage_encoding": "base64",
+        "stored_bytes": 699053,
+        "stored_sha256": "e2fc69fb9ef91dab192e17ce7116b56a89a827a0c4ad3458d2a399b8c808d30a",
+        "bytes": 524288,
+        "sha256": "f970421567a76503e5c7a9c8b3b5ac9ed168f226cbfcb35511b3ad0de6a80fc6"
+      },
+      {
+        "path": "shared/part-002.b64",
+        "storage_encoding": "base64",
+        "stored_bytes": 464361,
+        "stored_sha256": "64f4ad28954ca6171a351bd26ef18d87f1a6d44677bcc18e3c390af6386e369a",
+        "bytes": 348270,
+        "sha256": "59def23596816b706d47f46741b4202799e14a2004911b1955f6514fb0a9a416"
+      }
+    ],
+    "members": {
+      "base/LICENSE": {
+        "bytes": 1082,
+        "sha256": "17cd411bfb5a12777ad3056ad0061bab27fcc5a1a8a506bb5ba50b98fdd6c974"
+      },
+      "base/LICENSES.md": {
+        "bytes": 2603,
+        "sha256": "de3ae6221dc53eac744bcd0a2d261f7aec1eabf72c853814341740252f8d3359"
+      },
+      "base/README.md": {
+        "bytes": 9936,
+        "sha256": "dd4ef2cf015ae766bc8597904bfa294f754bef7849b18cc147101dc4603526e2"
+      },
+      "base/SHA256SUMS": {
+        "bytes": 19005,
+        "sha256": "554da1203715b82d3ab261722fd288744ea4d1025963ed84917faf5a6c453981"
+      },
+      "base/countries.csv": {
+        "bytes": 3242,
+        "sha256": "8c844f1fea5b95b584bbfc3fae205e971651502c1fad75f737bde2e391747234"
+      },
+      "base/countries.json": {
+        "bytes": 10765,
+        "sha256": "a6b2b9b7b8625985accdefaa50ce9d835ce2d1fae434fc843e88ea6b1a4561ab"
+      },
+      "base/manifest.json": {
+        "bytes": 32540,
+        "sha256": "1a711a07d718cc11e5a1222b96ec3231a7abdffee9b4d53a8e39ed367f0b5069"
+      },
+      "base/quality/parent_issues.csv": {
+        "bytes": 93860,
+        "sha256": "5be3f25091220c6d57419dbdefedf442839ae816a3c36ecb014a130c86d0b087"
+      },
+      "base/quality/validation.json": {
+        "bytes": 6287,
+        "sha256": "db2940e1affc47f5d6e47d4bba7a8df7b8cbfabce512481a99f9ac81c9723bf7"
+      },
+      "base/schema.json": {
+        "bytes": 2183,
+        "sha256": "d7e69b1f23ff82733c6f00fe9c0bb755448610026f1276d9588c098cf3e468b2"
+      },
+      "base/scope.csv": {
+        "bytes": 1171,
+        "sha256": "b1d040114e85afdcffd18914bec3faeac9503843adc69c1e3e827180c0288ec9"
+      },
+      "base/scripts/build_dataset.py": {
+        "bytes": 14863,
+        "sha256": "d30aebf0e2dfab0ed6b626267b1152b27c658bb0bbada0722c22c9658b33d882"
+      },
+      "base/scripts/download_sources.py": {
+        "bytes": 2928,
+        "sha256": "22bfb6fbdec09903bfdf939f48bd4878909c3882124c40086c063495d8fbbc03"
+      },
+      "base/scripts/query.py": {
+        "bytes": 1866,
+        "sha256": "a3d38642ecfb71f8a2af49bab521285bf5b72b4b62920e42c43e93cf6f8295b9"
+      },
+      "base/scripts/test_parent_resolution.py": {
+        "bytes": 2246,
+        "sha256": "ea6d7cdce7bb746f18c144fc5652f7a90aef06cf5a67a34c986894b6ee6cea4e"
+      },
+      "base/scripts/validate_dataset.py": {
+        "bytes": 9112,
+        "sha256": "bf9a5f19fd1188aa5774d5aa31f42989f73c1a14f27c789c460783183646639e"
+      },
+      "base/sources.json": {
+        "bytes": 12197,
+        "sha256": "08f9dc73a568c5afa5ff1425562c220f2377d6fb663381b6884f925b9821dafb"
+      },
+      "base/sources/geonames/admin1CodesASCII.txt": {
+        "bytes": 151583,
+        "sha256": "1da92a6323a5fec3176f3f743bf4cf4040fd56a876da55e46fbca23c863aa60a"
+      },
+      "base/sources/geonames/admin1CodesASCII.txt.download.json": {
+        "bytes": 320,
+        "sha256": "e6f2b064979e3db8ebeb0acb2cd23c5e643be875028b2994d028764297490a1c"
+      },
+      "base/sources/geonames/admin2Codes.txt": {
+        "bytes": 2375171,
+        "sha256": "63a82be925b8704abae683a89e32f40b22f618a93efc4e676e912873f8a3be20"
+      },
+      "base/sources/geonames/admin2Codes.txt.download.json": {
+        "bytes": 317,
+        "sha256": "83e91ec0faf3b451277d8c23125f4092f02a2d78d2ff2be48d7186b1ea3b5a1c"
+      },
+      "base/sources/geonames/countryInfo.txt": {
+        "bytes": 31678,
+        "sha256": "93bafc525813f22e4711ff9ed6d626343094ce48c26388dc7c49189b3d7d5512"
+      },
+      "base/sources/geonames/countryInfo.txt.download.json": {
+        "bytes": 313,
+        "sha256": "5317da67f7e4ac3aef5aee8a41b7f68a858f300a6ab3d4d6aa135377f1b829b4"
+      },
+      "base/sources/geonames/featureCodes_en.txt": {
+        "bytes": 58642,
+        "sha256": "d44f129c1cffdeabf759c99fe7ea5b84f615c7f3e7366fb76ccf990f408f6af7"
+      },
+      "base/sources/geonames/featureCodes_en.txt.download.json": {
+        "bytes": 317,
+        "sha256": "9ecd75257d26a9a3ecbe7cef61d82f42112441b3177cfb39a57d39bcf0c8dc55"
+      },
+      "base/sources/geonames/readme.txt": {
+        "bytes": 8843,
+        "sha256": "b1957379b6c1242c700c98ac9a8aa0a09f56c3c0a50ee72175527005f48ef2c5"
+      },
+      "base/sources/geonames/readme.txt.download.json": {
+        "bytes": 307,
+        "sha256": "786551ed853cdb85c354d1d39561e557f5daf11cfa7067f9ec5708a2bb60f729"
+      },
+      "base/summary.csv": {
+        "bytes": 4083,
+        "sha256": "0620ea31018c7676bb0319d4a5da9f9c645496a02512c66f73c70647e12e0038"
+      },
+      "base/summary.json": {
+        "bytes": 13588,
+        "sha256": "a0d6bed9a8cd86a4292716ec35d4db6568dd0651139879e3806de2a1b37616be"
+      },
+      "locale/country_profiles.json": {
+        "bytes": 23622,
+        "sha256": "9b75dedfb2e652ce9bdf3f03d8bf4e0ebe1b528fb6a9bc479a3d8472f03a536c"
+      },
+      "locale/coverage.csv": {
+        "bytes": 3483,
+        "sha256": "34154fbb0aa3827f1c7ff89d9ba75323c17d9dbbfc56d86d64259c5ad835bd50"
+      },
+      "locale/coverage.json": {
+        "bytes": 12744,
+        "sha256": "3ebc35fb2d9f9a6b3f7061597d61cf8ada7029b37a08dc1cda01cb3fa0939c01"
+      },
+      "locale/manifest.json": {
+        "bytes": 20599,
+        "sha256": "ba2f3e9b832390253f2bb0b379bc11f8317327596566ee7cf23fffeb87511bca"
+      },
+      "locale/sources/address-templates/ZZ.json": {
+        "bytes": 181,
+        "sha256": "fbd2437447f96e5e6cae0a7e7b113312a0b4a9338400f4694f9f402836d3a78d"
+      },
+      "locale/sources/address-templates/ZZ.json.download.json": {
+        "bytes": 271,
+        "sha256": "e4d7ab9f4bace4a1f729c2b31a848f416f4677d4ca8a93c9eaa1301274d459e7"
+      }
+    }
+  }
+}

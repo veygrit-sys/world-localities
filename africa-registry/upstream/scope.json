@@ -1,0 +1,1124 @@
+{
+  "countries": [
+    {
+      "alpha3": "AGO",
+      "country": "AO",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Angola",
+      "geonames_id": "3351879",
+      "id": "country:AO",
+      "m49": "024",
+      "name_en": "Angola",
+      "numeric": "024",
+      "region": "Middle Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "BFA",
+      "country": "BF",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Burkina Faso",
+      "geonames_id": "2361809",
+      "id": "country:BF",
+      "m49": "854",
+      "name_en": "Burkina Faso",
+      "numeric": "854",
+      "region": "Western Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "BDI",
+      "country": "BI",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Burundi",
+      "geonames_id": "433561",
+      "id": "country:BI",
+      "m49": "108",
+      "name_en": "Burundi",
+      "numeric": "108",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "BEN",
+      "country": "BJ",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Benin",
+      "geonames_id": "2395170",
+      "id": "country:BJ",
+      "m49": "204",
+      "name_en": "Benin",
+      "numeric": "204",
+      "region": "Western Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "BWA",
+      "country": "BW",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Botswana",
+      "geonames_id": "933860",
+      "id": "country:BW",
+      "m49": "072",
+      "name_en": "Botswana",
+      "numeric": "072",
+      "region": "Southern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "COD",
+      "country": "CD",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Democratic Republic of the Congo",
+      "geonames_id": "203312",
+      "id": "country:CD",
+      "m49": "180",
+      "name_en": "Democratic Republic of the Congo",
+      "numeric": "180",
+      "region": "Middle Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "CAF",
+      "country": "CF",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Central African Republic",
+      "geonames_id": "239880",
+      "id": "country:CF",
+      "m49": "140",
+      "name_en": "Central African Republic",
+      "numeric": "140",
+      "region": "Middle Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "COG",
+      "country": "CG",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Republic of the Congo",
+      "geonames_id": "2260494",
+      "id": "country:CG",
+      "m49": "178",
+      "name_en": "Congo",
+      "numeric": "178",
+      "region": "Middle Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "CIV",
+      "country": "CI",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Ivory Coast",
+      "geonames_id": "2287781",
+      "id": "country:CI",
+      "m49": "384",
+      "name_en": "Côte d’Ivoire",
+      "numeric": "384",
+      "region": "Western Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "CMR",
+      "country": "CM",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Cameroon",
+      "geonames_id": "2233387",
+      "id": "country:CM",
+      "m49": "120",
+      "name_en": "Cameroon",
+      "numeric": "120",
+      "region": "Middle Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "CPV",
+      "country": "CV",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Cabo Verde",
+      "geonames_id": "3374766",
+      "id": "country:CV",
+      "m49": "132",
+      "name_en": "Cabo Verde",
+      "numeric": "132",
+      "region": "Western Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "DJI",
+      "country": "DJ",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Djibouti",
+      "geonames_id": "223816",
+      "id": "country:DJ",
+      "m49": "262",
+      "name_en": "Djibouti",
+      "numeric": "262",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "DZA",
+      "country": "DZ",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Algeria",
+      "geonames_id": "2589581",
+      "id": "country:DZ",
+      "m49": "012",
+      "name_en": "Algeria",
+      "numeric": "012",
+      "region": "Northern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "EGY",
+      "country": "EG",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Egypt",
+      "geonames_id": "357994",
+      "id": "country:EG",
+      "m49": "818",
+      "name_en": "Egypt",
+      "numeric": "818",
+      "region": "Northern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "ESH",
+      "country": "EH",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Western Sahara",
+      "geonames_id": "2461445",
+      "id": "country:EH",
+      "m49": "732",
+      "name_en": "Western Sahara",
+      "numeric": "732",
+      "region": "Northern Africa",
+      "status": "disputed"
+    },
+    {
+      "alpha3": "ERI",
+      "country": "ER",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Eritrea",
+      "geonames_id": "338010",
+      "id": "country:ER",
+      "m49": "232",
+      "name_en": "Eritrea",
+      "numeric": "232",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "ETH",
+      "country": "ET",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Ethiopia",
+      "geonames_id": "337996",
+      "id": "country:ET",
+      "m49": "231",
+      "name_en": "Ethiopia",
+      "numeric": "231",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "GAB",
+      "country": "GA",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Gabon",
+      "geonames_id": "2400553",
+      "id": "country:GA",
+      "m49": "266",
+      "name_en": "Gabon",
+      "numeric": "266",
+      "region": "Middle Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "GHA",
+      "country": "GH",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Ghana",
+      "geonames_id": "2300660",
+      "id": "country:GH",
+      "m49": "288",
+      "name_en": "Ghana",
+      "numeric": "288",
+      "region": "Western Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "GMB",
+      "country": "GM",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Gambia",
+      "geonames_id": "2413451",
+      "id": "country:GM",
+      "m49": "270",
+      "name_en": "Gambia",
+      "numeric": "270",
+      "region": "Western Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "GIN",
+      "country": "GN",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Guinea",
+      "geonames_id": "2420477",
+      "id": "country:GN",
+      "m49": "324",
+      "name_en": "Guinea",
+      "numeric": "324",
+      "region": "Western Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "GNQ",
+      "country": "GQ",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Equatorial Guinea",
+      "geonames_id": "2309096",
+      "id": "country:GQ",
+      "m49": "226",
+      "name_en": "Equatorial Guinea",
+      "numeric": "226",
+      "region": "Middle Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "GNB",
+      "country": "GW",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Guinea-Bissau",
+      "geonames_id": "2372248",
+      "id": "country:GW",
+      "m49": "624",
+      "name_en": "Guinea-Bissau",
+      "numeric": "624",
+      "region": "Western Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "IOT",
+      "country": "IO",
+      "geonames_continent": "AS",
+      "geonames_country_name": "British Indian Ocean Territory",
+      "geonames_id": "1282588",
+      "id": "country:IO",
+      "m49": "086",
+      "name_en": "British Indian Ocean Territory",
+      "numeric": "086",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "KEN",
+      "country": "KE",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Kenya",
+      "geonames_id": "192950",
+      "id": "country:KE",
+      "m49": "404",
+      "name_en": "Kenya",
+      "numeric": "404",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "COM",
+      "country": "KM",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Comoros",
+      "geonames_id": "921929",
+      "id": "country:KM",
+      "m49": "174",
+      "name_en": "Comoros",
+      "numeric": "174",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "LBR",
+      "country": "LR",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Liberia",
+      "geonames_id": "2275384",
+      "id": "country:LR",
+      "m49": "430",
+      "name_en": "Liberia",
+      "numeric": "430",
+      "region": "Western Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "LSO",
+      "country": "LS",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Lesotho",
+      "geonames_id": "932692",
+      "id": "country:LS",
+      "m49": "426",
+      "name_en": "Lesotho",
+      "numeric": "426",
+      "region": "Southern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "LBY",
+      "country": "LY",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Libya",
+      "geonames_id": "2215636",
+      "id": "country:LY",
+      "m49": "434",
+      "name_en": "Libya",
+      "numeric": "434",
+      "region": "Northern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "MAR",
+      "country": "MA",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Morocco",
+      "geonames_id": "2542007",
+      "id": "country:MA",
+      "m49": "504",
+      "name_en": "Morocco",
+      "numeric": "504",
+      "region": "Northern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "MDG",
+      "country": "MG",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Madagascar",
+      "geonames_id": "1062947",
+      "id": "country:MG",
+      "m49": "450",
+      "name_en": "Madagascar",
+      "numeric": "450",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "MLI",
+      "country": "ML",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Mali",
+      "geonames_id": "2453866",
+      "id": "country:ML",
+      "m49": "466",
+      "name_en": "Mali",
+      "numeric": "466",
+      "region": "Western Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "MRT",
+      "country": "MR",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Mauritania",
+      "geonames_id": "2378080",
+      "id": "country:MR",
+      "m49": "478",
+      "name_en": "Mauritania",
+      "numeric": "478",
+      "region": "Western Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "MUS",
+      "country": "MU",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Mauritius",
+      "geonames_id": "934292",
+      "id": "country:MU",
+      "m49": "480",
+      "name_en": "Mauritius",
+      "numeric": "480",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "MWI",
+      "country": "MW",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Malawi",
+      "geonames_id": "927384",
+      "id": "country:MW",
+      "m49": "454",
+      "name_en": "Malawi",
+      "numeric": "454",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "MOZ",
+      "country": "MZ",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Mozambique",
+      "geonames_id": "1036973",
+      "id": "country:MZ",
+      "m49": "508",
+      "name_en": "Mozambique",
+      "numeric": "508",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "NAM",
+      "country": "NA",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Namibia",
+      "geonames_id": "3355338",
+      "id": "country:NA",
+      "m49": "516",
+      "name_en": "Namibia",
+      "numeric": "516",
+      "region": "Southern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "NER",
+      "country": "NE",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Niger",
+      "geonames_id": "2440476",
+      "id": "country:NE",
+      "m49": "562",
+      "name_en": "Niger",
+      "numeric": "562",
+      "region": "Western Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "NGA",
+      "country": "NG",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Nigeria",
+      "geonames_id": "2328926",
+      "id": "country:NG",
+      "m49": "566",
+      "name_en": "Nigeria",
+      "numeric": "566",
+      "region": "Western Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "REU",
+      "country": "RE",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Reunion",
+      "geonames_id": "935317",
+      "id": "country:RE",
+      "m49": "638",
+      "name_en": "Réunion",
+      "numeric": "638",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "RWA",
+      "country": "RW",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Rwanda",
+      "geonames_id": "49518",
+      "id": "country:RW",
+      "m49": "646",
+      "name_en": "Rwanda",
+      "numeric": "646",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "SYC",
+      "country": "SC",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Seychelles",
+      "geonames_id": "241170",
+      "id": "country:SC",
+      "m49": "690",
+      "name_en": "Seychelles",
+      "numeric": "690",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "SDN",
+      "country": "SD",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Sudan",
+      "geonames_id": "366755",
+      "id": "country:SD",
+      "m49": "729",
+      "name_en": "Sudan",
+      "numeric": "729",
+      "region": "Northern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "SHN",
+      "country": "SH",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Saint Helena",
+      "geonames_id": "3370751",
+      "id": "country:SH",
+      "m49": "654",
+      "name_en": "Saint Helena",
+      "numeric": "654",
+      "region": "Western Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "SLE",
+      "country": "SL",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Sierra Leone",
+      "geonames_id": "2403846",
+      "id": "country:SL",
+      "m49": "694",
+      "name_en": "Sierra Leone",
+      "numeric": "694",
+      "region": "Western Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "SEN",
+      "country": "SN",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Senegal",
+      "geonames_id": "2245662",
+      "id": "country:SN",
+      "m49": "686",
+      "name_en": "Senegal",
+      "numeric": "686",
+      "region": "Western Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "SOM",
+      "country": "SO",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Somalia",
+      "geonames_id": "51537",
+      "id": "country:SO",
+      "m49": "706",
+      "name_en": "Somalia",
+      "numeric": "706",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "SSD",
+      "country": "SS",
+      "geonames_continent": "AF",
+      "geonames_country_name": "South Sudan",
+      "geonames_id": "7909807",
+      "id": "country:SS",
+      "m49": "728",
+      "name_en": "South Sudan",
+      "numeric": "728",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "STP",
+      "country": "ST",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Sao Tome and Principe",
+      "geonames_id": "2410758",
+      "id": "country:ST",
+      "m49": "678",
+      "name_en": "Sao Tome and Principe",
+      "numeric": "678",
+      "region": "Middle Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "SWZ",
+      "country": "SZ",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Eswatini",
+      "geonames_id": "934841",
+      "id": "country:SZ",
+      "m49": "748",
+      "name_en": "Eswatini",
+      "numeric": "748",
+      "region": "Southern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "TCD",
+      "country": "TD",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Chad",
+      "geonames_id": "2434508",
+      "id": "country:TD",
+      "m49": "148",
+      "name_en": "Chad",
+      "numeric": "148",
+      "region": "Middle Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "ATF",
+      "country": "TF",
+      "geonames_continent": "AN",
+      "geonames_country_name": "French Southern Territories",
+      "geonames_id": "1546748",
+      "id": "country:TF",
+      "m49": "260",
+      "name_en": "French Southern Territories",
+      "numeric": "260",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "TGO",
+      "country": "TG",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Togo",
+      "geonames_id": "2363686",
+      "id": "country:TG",
+      "m49": "768",
+      "name_en": "Togo",
+      "numeric": "768",
+      "region": "Western Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "TUN",
+      "country": "TN",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Tunisia",
+      "geonames_id": "2464461",
+      "id": "country:TN",
+      "m49": "788",
+      "name_en": "Tunisia",
+      "numeric": "788",
+      "region": "Northern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "TZA",
+      "country": "TZ",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Tanzania",
+      "geonames_id": "149590",
+      "id": "country:TZ",
+      "m49": "834",
+      "name_en": "United Republic of Tanzania",
+      "numeric": "834",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "UGA",
+      "country": "UG",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Uganda",
+      "geonames_id": "226074",
+      "id": "country:UG",
+      "m49": "800",
+      "name_en": "Uganda",
+      "numeric": "800",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "MYT",
+      "country": "YT",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Mayotte",
+      "geonames_id": "1024031",
+      "id": "country:YT",
+      "m49": "175",
+      "name_en": "Mayotte",
+      "numeric": "175",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "ZAF",
+      "country": "ZA",
+      "geonames_continent": "AF",
+      "geonames_country_name": "South Africa",
+      "geonames_id": "953987",
+      "id": "country:ZA",
+      "m49": "710",
+      "name_en": "South Africa",
+      "numeric": "710",
+      "region": "Southern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "ZMB",
+      "country": "ZM",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Zambia",
+      "geonames_id": "895949",
+      "id": "country:ZM",
+      "m49": "894",
+      "name_en": "Zambia",
+      "numeric": "894",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "ZWE",
+      "country": "ZW",
+      "geonames_continent": "AF",
+      "geonames_country_name": "Zimbabwe",
+      "geonames_id": "878675",
+      "id": "country:ZW",
+      "m49": "716",
+      "name_en": "Zimbabwe",
+      "numeric": "716",
+      "region": "Eastern Africa",
+      "status": "source_country_or_area"
+    }
+  ],
+  "retrieved_on": "2026-09-26",
+  "schema_version": 1,
+  "source_rows": [
+    [
+      "+  Africa",
+      "002",
+      ""
+    ],
+    [
+      "+  Northern Africa",
+      "015",
+      ""
+    ],
+    [
+      "Algeria",
+      "012",
+      "DZA"
+    ],
+    [
+      "Egypt",
+      "818",
+      "EGY"
+    ],
+    [
+      "Libya",
+      "434",
+      "LBY"
+    ],
+    [
+      "Morocco",
+      "504",
+      "MAR"
+    ],
+    [
+      "Sudan",
+      "729",
+      "SDN"
+    ],
+    [
+      "Tunisia",
+      "788",
+      "TUN"
+    ],
+    [
+      "Western Sahara",
+      "732",
+      "ESH"
+    ],
+    [
+      "+  Sub-Saharan Africa",
+      "202",
+      ""
+    ],
+    [
+      "+  Eastern Africa",
+      "014",
+      ""
+    ],
+    [
+      "British Indian Ocean Territory",
+      "086",
+      "IOT"
+    ],
+    [
+      "Burundi",
+      "108",
+      "BDI"
+    ],
+    [
+      "Comoros",
+      "174",
+      "COM"
+    ],
+    [
+      "Djibouti",
+      "262",
+      "DJI"
+    ],
+    [
+      "Eritrea",
+      "232",
+      "ERI"
+    ],
+    [
+      "Ethiopia",
+      "231",
+      "ETH"
+    ],
+    [
+      "French Southern Territories",
+      "260",
+      "ATF"
+    ],
+    [
+      "Kenya",
+      "404",
+      "KEN"
+    ],
+    [
+      "Madagascar",
+      "450",
+      "MDG"
+    ],
+    [
+      "Malawi",
+      "454",
+      "MWI"
+    ],
+    [
+      "Mauritius",
+      "480",
+      "MUS"
+    ],
+    [
+      "Mayotte",
+      "175",
+      "MYT"
+    ],
+    [
+      "Mozambique",
+      "508",
+      "MOZ"
+    ],
+    [
+      "Réunion",
+      "638",
+      "REU"
+    ],
+    [
+      "Rwanda",
+      "646",
+      "RWA"
+    ],
+    [
+      "Seychelles",
+      "690",
+      "SYC"
+    ],
+    [
+      "Somalia",
+      "706",
+      "SOM"
+    ],
+    [
+      "South Sudan",
+      "728",
+      "SSD"
+    ],
+    [
+      "Uganda",
+      "800",
+      "UGA"
+    ],
+    [
+      "United Republic of Tanzania",
+      "834",
+      "TZA"
+    ],
+    [
+      "Zambia",
+      "894",
+      "ZMB"
+    ],
+    [
+      "Zimbabwe",
+      "716",
+      "ZWE"
+    ],
+    [
+      "+  Middle Africa",
+      "017",
+      ""
+    ],
+    [
+      "Angola",
+      "024",
+      "AGO"
+    ],
+    [
+      "Cameroon",
+      "120",
+      "CMR"
+    ],
+    [
+      "Central African Republic",
+      "140",
+      "CAF"
+    ],
+    [
+      "Chad",
+      "148",
+      "TCD"
+    ],
+    [
+      "Congo",
+      "178",
+      "COG"
+    ],
+    [
+      "Democratic Republic of the Congo",
+      "180",
+      "COD"
+    ],
+    [
+      "Equatorial Guinea",
+      "226",
+      "GNQ"
+    ],
+    [
+      "Gabon",
+      "266",
+      "GAB"
+    ],
+    [
+      "Sao Tome and Principe",
+      "678",
+      "STP"
+    ],
+    [
+      "+  Southern Africa",
+      "018",
+      ""
+    ],
+    [
+      "Botswana",
+      "072",
+      "BWA"
+    ],
+    [
+      "Eswatini",
+      "748",
+      "SWZ"
+    ],
+    [
+      "Lesotho",
+      "426",
+      "LSO"
+    ],
+    [
+      "Namibia",
+      "516",
+      "NAM"
+    ],
+    [
+      "South Africa",
+      "710",
+      "ZAF"
+    ],
+    [
+      "+  Western Africa",
+      "011",
+      ""
+    ],
+    [
+      "Benin",
+      "204",
+      "BEN"
+    ],
+    [
+      "Burkina Faso",
+      "854",
+      "BFA"
+    ],
+    [
+      "Cabo Verde",
+      "132",
+      "CPV"
+    ],
+    [
+      "Côte d’Ivoire",
+      "384",
+      "CIV"
+    ],
+    [
+      "Gambia",
+      "270",
+      "GMB"
+    ],
+    [
+      "Ghana",
+      "288",
+      "GHA"
+    ],
+    [
+      "Guinea",
+      "324",
+      "GIN"
+    ],
+    [
+      "Guinea-Bissau",
+      "624",
+      "GNB"
+    ],
+    [
+      "Liberia",
+      "430",
+      "LBR"
+    ],
+    [
+      "Mali",
+      "466",
+      "MLI"
+    ],
+    [
+      "Mauritania",
+      "478",
+      "MRT"
+    ],
+    [
+      "Niger",
+      "562",
+      "NER"
+    ],
+    [
+      "Nigeria",
+      "566",
+      "NGA"
+    ],
+    [
+      "Saint Helena",
+      "654",
+      "SHN"
+    ],
+    [
+      "Senegal",
+      "686",
+      "SEN"
+    ],
+    [
+      "Sierra Leone",
+      "694",
+      "SLE"
+    ],
+    [
+      "Togo",
+      "768",
+      "TGO"
+    ]
+  ],
+  "source_url": "https://unstats.un.org/unsd/methodology/m49/"
+}

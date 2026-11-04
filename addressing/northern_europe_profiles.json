@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "region": "Northern Europe",
+  "reviewed_at": "2026-10-17",
+  "purpose": "Native-language and English address display profiles with script and evidence status; not an address-existence or deliverability claim.",
+  "overrides": ["AX", "DK", "EE", "FI", "FO", "GB", "GG", "IE", "IM", "IS", "JE", "LT", "LV", "NO", "SE", "SJ"],
+  "countries": {
+    "AX": {
+      "native_languages": ["sv-Latn", "fi-Latn"],
+      "default_native_language": "sv-Latn",
+      "native_profile": "AX_sv",
+      "native_profiles": {"sv-Latn": "AX_sv", "fi-Latn": "AX_fi"},
+      "native_scripts": {"sv-Latn": "Latn", "fi-Latn": "Latn"},
+      "english_profile": "AX_en",
+      "country_names": {"sv-Latn": "Åland", "fi-Latn": "Ahvenanmaa", "en": "Åland Islands"},
+      "romanization_policy": "Swedish, Finnish and English values are explicit. A supplied five-digit postcode may be normalized to the international AX-prefixed form, but no postcode assignment is inferred.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Universal Postal Union and Åland Post", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/alaEn.pdf", "scope": "Finland-compatible line order and AX-prefixed five-digit postcode"},
+        {"authority": "Åland Post", "url": "https://www.alandpost.ax/en/private/sending/good-to-know-before-sending", "scope": "Current AX country-code guidance and international address examples"}
+      ]
+    },
+    "DK": {
+      "native_languages": ["da-Latn"],
+      "default_native_language": "da-Latn",
+      "native_profile": "DK_da",
+      "native_profiles": {"da-Latn": "DK_da"},
+      "native_scripts": {"da-Latn": "Latn"},
+      "english_profile": "DK_en",
+      "country_names": {"da-Latn": "Danmark", "en": "Denmark"},
+      "romanization_policy": "Danish and English components are stored separately. Floor, side and district information remains on the street delivery line and is never translated automatically.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and PostNord", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/dnkEn.pdf", "scope": "Four-digit postcode, street, house, floor, district and P.O. Box order"}]
+    },
+    "EE": {
+      "native_languages": ["et-Latn"],
+      "default_native_language": "et-Latn",
+      "native_profile": "EE_et",
+      "native_profiles": {"et-Latn": "EE_et"},
+      "native_scripts": {"et-Latn": "Latn"},
+      "english_profile": "EE_en",
+      "country_names": {"et-Latn": "Eesti", "en": "Estonia"},
+      "romanization_policy": "Estonian and English values are explicit. Apartment notation is preserved with the street and house line; locality and parish values remain separate when supplied.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Omniva", "url": "https://www.omniva.ee/abi/kuidas-kirja-adresseerida", "scope": "Current recipient, street, house, apartment, village, parish, postcode and city/county order"},
+        {"authority": "Universal Postal Union and Omniva", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/estEn.pdf", "scope": "Five-digit postcode and urban and rural address examples"}
+      ]
+    },
+    "FI": {
+      "native_languages": ["fi-Latn", "sv-Latn"],
+      "default_native_language": "fi-Latn",
+      "native_profile": "FI_fi",
+      "native_profiles": {"fi-Latn": "FI_fi", "sv-Latn": "FI_sv"},
+      "native_scripts": {"fi-Latn": "Latn", "sv-Latn": "Latn"},
+      "english_profile": "FI_en",
+      "country_names": {"fi-Latn": "Suomi", "sv-Latn": "Finland", "en": "Finland"},
+      "romanization_policy": "Finnish, Swedish and English components are independent. Apartment and entrance information remains after the street and premise on the same delivery line.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Posti", "url": "https://www.posti.fi/en/for-businesses/customer-support/instructions/sending-letters", "scope": "Current addressee, exact delivery address, postcode and capitalized locality line order"},
+        {"authority": "Universal Postal Union and Posti", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/finEn.pdf", "scope": "Five-digit postcode, premise extension and P.O. Box examples including Åland coverage"}
+      ]
+    },
+    "FO": {
+      "native_languages": ["fo-Latn", "da-Latn"],
+      "default_native_language": "fo-Latn",
+      "native_profile": "FO_fo",
+      "native_profiles": {"fo-Latn": "FO_fo", "da-Latn": "FO_da"},
+      "native_scripts": {"fo-Latn": "Latn", "da-Latn": "Latn"},
+      "english_profile": "FO_en",
+      "country_names": {"fo-Latn": "Føroyar", "da-Latn": "Færøerne", "en": "Faroe Islands"},
+      "romanization_policy": "Faroese, Danish and English values are explicit. The FO prefix and three-digit postcode are formatting data and do not imply that a supplied code is assigned to the locality.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Posta", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/froEn.pdf", "scope": "FO-prefixed three-digit postcode and street, premise, locality and country order"}]
+    },
+    "GB": {
+      "native_languages": ["en", "cy-Latn", "gd-Latn", "ga-Latn"],
+      "default_native_language": "en",
+      "native_profile": "GB_en",
+      "native_profiles": {"en": "GB_en", "cy-Latn": "GB_cy", "gd-Latn": "GB_gd", "ga-Latn": "GB_ga"},
+      "native_scripts": {"en": "Latn", "cy-Latn": "Latn", "gd-Latn": "Latn", "ga-Latn": "Latn"},
+      "english_profile": "GB_en",
+      "country_names": {"en": "United Kingdom", "cy-Latn": "Y Deyrnas Unedig", "gd-Latn": "An Rìoghachd Aonaichte", "ga-Latn": "An Ríocht Aontaithe"},
+      "romanization_policy": "English, Welsh, Scottish Gaelic, Irish and international English values are independent. County is retained when supplied but is not synthesized when post town and postcode are present.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Universal Postal Union and Royal Mail", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/gbrEn.pdf", "scope": "Building, dependent thoroughfare/locality, post town, postcode and country order and valid postcode shapes"},
+        {"authority": "Royal Mail", "url": "https://www.royalmail.com/find-a-postcode", "scope": "Current PAF address lookup and flat, building name and property-number distinctions"}
+      ]
+    },
+    "GG": {
+      "native_languages": ["en", "nrf-Latn"],
+      "default_native_language": "en",
+      "native_profile": "GG_en",
+      "native_profiles": {"en": "GG_en", "nrf-Latn": "GG_nrf"},
+      "native_scripts": {"en": "Latn", "nrf-Latn": "Latn"},
+      "english_profile": "GG_en",
+      "country_names": {"en": "Guernsey", "nrf-Latn": "Guernési"},
+      "romanization_policy": "English and Guernésiais values are explicit. The GY postcode remains on its own line; Channel Islands is retained only when supplied as an administrative line.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Guernsey Post", "url": "https://www.guernseypost.com/contact-us", "scope": "Current operator address showing locality, GUERNSEY and GY postcode order"},
+        {"authority": "Universal Postal Union and Guernsey Post", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/ggyEn.pdf", "scope": "UK-compatible building, street, locality, post town, GY postcode and Channel Islands order"}
+      ]
+    },
+    "IE": {
+      "native_languages": ["en", "ga-Latn"],
+      "default_native_language": "en",
+      "native_profile": "IE_en",
+      "native_profiles": {"en": "IE_en", "ga-Latn": "IE_ga"},
+      "native_scripts": {"en": "Latn", "ga-Latn": "Latn"},
+      "english_profile": "IE_en",
+      "country_names": {"en": "Ireland", "ga-Latn": "Éire"},
+      "romanization_policy": "English and Irish values are separate. Eircode spacing may be normalized, but neither the routing key nor unique identifier is generated from locality data.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "An Post", "url": "https://www.anpost.com/Post-Parcels/Sending/Correct-Address", "scope": "Current building, street, townland, Dublin district, county and final Eircode placement"},
+        {"authority": "Universal Postal Union and An Post", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/irlEn.pdf", "scope": "Seven-character Eircode spacing and locality, post town and county line order"}
+      ]
+    },
+    "IM": {
+      "native_languages": ["en", "gv-Latn"],
+      "default_native_language": "en",
+      "native_profile": "IM_en",
+      "native_profiles": {"en": "IM_en", "gv-Latn": "IM_gv"},
+      "native_scripts": {"en": "Latn", "gv-Latn": "Latn"},
+      "english_profile": "IM_en",
+      "country_names": {"en": "Isle of Man", "gv-Latn": "Ellan Vannin"},
+      "romanization_policy": "English and Manx values are explicit. The IM postcode stays on its own line and a P.O. Box is never combined with an invented street.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Isle of Man Post Office", "url": "https://www.iompost.com/for-you/sending-mail/preparing-to-send-your-mail/", "scope": "Current full-address, postcode, alignment and international-country guidance"},
+        {"authority": "Universal Postal Union and Isle of Man Post", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/imnEn.pdf", "scope": "UK-compatible line order and IM postcode example"}
+      ]
+    },
+    "IS": {
+      "native_languages": ["is-Latn"],
+      "default_native_language": "is-Latn",
+      "native_profile": "IS_is",
+      "native_profiles": {"is-Latn": "IS_is"},
+      "native_scripts": {"is-Latn": "Latn"},
+      "english_profile": "IS_en",
+      "country_names": {"is-Latn": "Ísland", "en": "Iceland"},
+      "romanization_policy": "Icelandic and English components are explicit. Three-digit postcode shape is preserved without inferring a delivery zone.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Pósturinn", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/islEn.pdf", "scope": "Three-digit postcode, street/premise, locality and P.O. Box examples"}]
+    },
+    "JE": {
+      "native_languages": ["en", "fr-Latn", "nrf-Latn"],
+      "default_native_language": "en",
+      "native_profile": "JE_en",
+      "native_profiles": {"en": "JE_en", "fr-Latn": "JE_fr", "nrf-Latn": "JE_nrf"},
+      "native_scripts": {"en": "Latn", "fr-Latn": "Latn", "nrf-Latn": "Latn"},
+      "english_profile": "JE_en",
+      "country_names": {"en": "Jersey", "fr-Latn": "Jersey", "nrf-Latn": "Jèrri"},
+      "romanization_policy": "English, French and Jèrriais values are independent. Parish and island lines remain distinct and the JE postcode is rendered on its own line.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Jersey Post", "url": "https://www.jerseypost.com/letters-and-parcels/resources/addressing-standards/", "scope": "Current local, P.O. Box and UK address line order including parish, JERSEY and postcode"},
+        {"authority": "Universal Postal Union and Jersey Post", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/jeyEn.pdf", "scope": "UK-compatible JE postcode and Channel Islands guidance"}
+      ]
+    },
+    "LT": {
+      "native_languages": ["lt-Latn"],
+      "default_native_language": "lt-Latn",
+      "native_profile": "LT_lt",
+      "native_profiles": {"lt-Latn": "LT_lt"},
+      "native_scripts": {"lt-Latn": "Latn"},
+      "english_profile": "LT_en",
+      "country_names": {"lt-Latn": "Lietuva", "en": "Lithuania"},
+      "romanization_policy": "Lithuanian and English values are separate. A five-digit code may be normalized to the international LT-prefixed form; apartment data remains hyphen-separated from the house number.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Lietuvos paštas", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/ltuEn.pdf", "scope": "LT-prefixed five-digit postcode, hyphenated apartment, municipality, rural, P.O. Box and poste-restante formats"}]
+    },
+    "LV": {
+      "native_languages": ["lv-Latn"],
+      "default_native_language": "lv-Latn",
+      "native_profile": "LV_lv",
+      "native_profiles": {"lv-Latn": "LV_lv"},
+      "native_scripts": {"lv-Latn": "Latn"},
+      "english_profile": "LV_en",
+      "country_names": {"lv-Latn": "Latvija", "en": "Latvia"},
+      "romanization_policy": "Latvian and English values are explicit. A four-digit code may be normalized to LV-prefixed form and remains to the right of locality, separated by a comma.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Latvijas Pasts", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/lvaEn.pdf", "scope": "LV-prefixed four-digit postcode to the right of locality and street, apartment and sublocality examples"}]
+    },
+    "NO": {
+      "native_languages": ["nb-Latn", "nn-Latn", "se-Latn", "sma-Latn", "smj-Latn"],
+      "default_native_language": "nb-Latn",
+      "native_profile": "NO_nb",
+      "native_profiles": {"nb-Latn": "NO_nb", "nn-Latn": "NO_nn", "se-Latn": "NO_se", "sma-Latn": "NO_sma", "smj-Latn": "NO_smj"},
+      "native_scripts": {"nb-Latn": "Latn", "nn-Latn": "Latn", "se-Latn": "Latn", "sma-Latn": "Latn", "smj-Latn": "Latn"},
+      "english_profile": "NO_en",
+      "country_names": {"nb-Latn": "Norge", "nn-Latn": "Noreg", "se-Latn": "Norga", "sma-Latn": "Nöörje", "smj-Latn": "Vuodna", "en": "Norway"},
+      "romanization_policy": "Bokmål, Nynorsk, Northern Sámi, Southern Sámi, Lule Sámi and English values are independent. A supplied residential-unit number is placed on its own line above the street and never synthesized.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Posten", "url": "https://www.posten.no/en/sending/domestic/addressing", "scope": "Current street, place-name, P.O. Box, farm, c/o and residential-number placement"},
+        {"authority": "Universal Postal Union and Posten", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/norEn.pdf", "scope": "Four-digit postcode, delivery-line and Bolignummer examples"}
+      ]
+    },
+    "SE": {
+      "native_languages": ["sv-Latn"],
+      "default_native_language": "sv-Latn",
+      "native_profile": "SE_sv",
+      "native_profiles": {"sv-Latn": "SE_sv"},
+      "native_scripts": {"sv-Latn": "Latn"},
+      "english_profile": "SE_en",
+      "country_names": {"sv-Latn": "Sverige", "en": "Sweden"},
+      "romanization_policy": "Swedish and English components are explicit. An unspaced five-digit postcode may be formatted as three plus two digits without validating its assignment.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "PostNord", "url": "https://www.postnord.se/en/private/preparations/addressing", "scope": "Current addressee, street/building number and postcode/town three-line domestic form"},
+        {"authority": "Universal Postal Union and PostNord", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/sweEn.pdf", "scope": "Five-digit three-plus-two postcode, home and P.O. Box examples"}
+      ]
+    },
+    "SJ": {
+      "native_languages": ["nb-Latn", "nn-Latn"],
+      "default_native_language": "nb-Latn",
+      "native_profile": "SJ_nb",
+      "native_profiles": {"nb-Latn": "SJ_nb", "nn-Latn": "SJ_nn"},
+      "native_scripts": {"nb-Latn": "Latn", "nn-Latn": "Latn"},
+      "english_profile": "SJ_en",
+      "country_names": {"nb-Latn": "Svalbard og Jan Mayen", "nn-Latn": "Svalbard og Jan Mayen", "en": "Svalbard and Jan Mayen"},
+      "romanization_policy": "Bokmål, Nynorsk and English address values are explicit. The destination follows the Norwegian postal system and the international routing country line is rendered as Norway.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {"authority": "Posten", "url": "https://www.posten.no/en/sending/domestic/addressing", "scope": "Norwegian four-digit postcode/locality and delivery-line rules applied to Svalbard and Jan Mayen"},
+        {"authority": "Universal Postal Union and Posten", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/norEn.pdf", "scope": "Norwegian address format inherited by the territory profile"}
+      ]
+    }
+  },
+  "profiles": {
+    "AX": {"country_code": "AX", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}} {{{subpremise}}}\n{{{place}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{island}}}\n{{{country}}}\n", "postformat_replace": [["([ \\n])(?:AX[- ]?)?(\\d{5})(?=[ \\n])", "$1AX-$2"]]},
+    "AX_sv": {"country_code": "AX", "language": "sv", "use_country": "AX"},
+    "AX_fi": {"country_code": "AX", "language": "fi", "use_country": "AX"},
+    "AX_en": {"country_code": "AX", "language": "en", "use_country": "AX"},
+    "DK": {"country_code": "DK", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}}, {{{subpremise}}}\n{{{place}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{country}}}\n"},
+    "DK_da": {"country_code": "DK", "language": "da", "use_country": "DK"},
+    "DK_en": {"country_code": "DK", "language": "en", "use_country": "DK"},
+    "EE": {"country_code": "EE", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}}{{{subpremise}}}\n{{{village}}}\n{{{municipality}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{county}}} || {{{town}}} {{/first}}\n{{{country}}}\n"},
+    "EE_et": {"country_code": "EE", "language": "et", "use_country": "EE"},
+    "EE_en": {"country_code": "EE", "language": "en", "use_country": "EE"},
+    "FI": {"country_code": "FI", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}} {{{subpremise}}}\n{{{place}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{country}}}\n"},
+    "FI_fi": {"country_code": "FI", "language": "fi", "use_country": "FI"},
+    "FI_sv": {"country_code": "FI", "language": "sv", "use_country": "FI"},
+    "FI_en": {"country_code": "FI", "language": "en", "use_country": "FI"},
+    "FO": {"country_code": "FO", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}} {{{subpremise}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{country}}}\n", "postformat_replace": [["([ \\n])(?:FO[- ]?)?(\\d{3})(?=[ \\n])", "$1FO-$2"]]},
+    "FO_fo": {"country_code": "FO", "language": "fo", "use_country": "FO"},
+    "FO_da": {"country_code": "FO", "language": "da", "use_country": "FO"},
+    "FO_en": {"country_code": "FO", "language": "en", "use_country": "FO"},
+    "GB": {"country_code": "GB", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{subpremise}}}\n{{{house}}}\n{{{house_number}}} {{{road}}}\n{{{neighbourhood}}}\n{{{place}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{county}}}\n{{{postcode}}}\n{{{country}}}\n", "postformat_replace": [["\\n([A-Za-z]{1,2}\\d[A-Za-z\\d]?)\\s?(\\d[A-Za-z]{2})\\n", "\\n$1 $2\\n"]]},
+    "GB_en": {"country_code": "GB", "language": "en", "use_country": "GB"},
+    "GB_cy": {"country_code": "GB", "language": "cy", "use_country": "GB"},
+    "GB_gd": {"country_code": "GB", "language": "gd", "use_country": "GB"},
+    "GB_ga": {"country_code": "GB", "language": "ga", "use_country": "GB"},
+    "GG": {"country_code": "GG", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{subpremise}}}\n{{{house}}}\n{{{house_number}}} {{{road}}}\n{{{place}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{country}}}\n{{{postcode}}}\n{{{state}}}\n", "postformat_replace": [["\\n(GY\\d[A-Za-z\\d]?)\\s?(\\d[A-Za-z]{2})\\n", "\\n$1 $2\\n"]]},
+    "GG_en": {"country_code": "GG", "language": "en", "use_country": "GG"},
+    "GG_nrf": {"country_code": "GG", "language": "nrf", "use_country": "GG"},
+    "IE": {"country_code": "IE", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{house_number}}} {{{road}}}\n{{{neighbourhood}}}\n{{{place}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{county}}}\n{{{postcode}}}\n{{{country}}}\n", "postformat_replace": [["\\n([A-Za-z0-9]{3})\\s?([A-Za-z0-9]{4})\\n", "\\n$1 $2\\n"]]},
+    "IE_en": {"country_code": "IE", "language": "en", "use_country": "IE"},
+    "IE_ga": {"country_code": "IE", "language": "ga", "use_country": "IE"},
+    "IM": {"country_code": "IM", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{subpremise}}}\n{{{house}}}\n{{{house_number}}} {{{road}}}\n{{{place}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{postcode}}}\n{{{country}}}\n", "postformat_replace": [["\\n(IM\\d[A-Za-z\\d]?)\\s?(\\d[A-Za-z]{2})\\n", "\\n$1 $2\\n"]]},
+    "IM_en": {"country_code": "IM", "language": "en", "use_country": "IM"},
+    "IM_gv": {"country_code": "IM", "language": "gv", "use_country": "IM"},
+    "IS": {"country_code": "IS", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}} {{{subpremise}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{country}}}\n"},
+    "IS_is": {"country_code": "IS", "language": "is", "use_country": "IS"},
+    "IS_en": {"country_code": "IS", "language": "en", "use_country": "IS"},
+    "JE": {"country_code": "JE", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{subpremise}}}\n{{{house}}}\n{{{house_number}}} {{{road}}}\n{{{place}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{country}}}\n{{{postcode}}}\n", "postformat_replace": [["\\n(JE\\d[A-Za-z\\d]?)\\s?(\\d[A-Za-z]{2})\\n", "\\n$1 $2\\n"]]},
+    "JE_en": {"country_code": "JE", "language": "en", "use_country": "JE"},
+    "JE_fr": {"country_code": "JE", "language": "fr", "use_country": "JE"},
+    "JE_nrf": {"country_code": "JE", "language": "nrf", "use_country": "JE"},
+    "LT": {"country_code": "LT", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}}-{{{subpremise}}}\n{{{place}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{county}}} || {{{municipality}}} || {{{town}}} {{/first}}\n{{{country}}}\n", "postformat_replace": [["([ \\n])(?:LT[- ]?)?(\\d{5})(?=[ \\n])", "$1LT-$2"]]},
+    "LT_lt": {"country_code": "LT", "language": "lt", "use_country": "LT"},
+    "LT_en": {"country_code": "LT", "language": "en", "use_country": "LT"},
+    "LV": {"country_code": "LV", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}}, {{{subpremise}}}\n{{{place}}}\n{{{po_box}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} || {{{county}}} {{/first}}, {{{postcode}}}\n{{{country}}}\n", "postformat_replace": [["([ ,\\n])(?:LV[- ]?)?(\\d{4})(?=[ ,\\n])", "$1LV-$2"]]},
+    "LV_lv": {"country_code": "LV", "language": "lv", "use_country": "LV"},
+    "LV_en": {"country_code": "LV", "language": "en", "use_country": "LV"},
+    "NO": {"country_code": "NO", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{road}}} {{{house_number}}}\n{{{place}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{country}}}\n"},
+    "NO_nb": {"country_code": "NO", "language": "nb", "use_country": "NO"},
+    "NO_nn": {"country_code": "NO", "language": "nn", "use_country": "NO"},
+    "NO_se": {"country_code": "NO", "language": "se", "use_country": "NO"},
+    "NO_sma": {"country_code": "NO", "language": "sma", "use_country": "NO"},
+    "NO_smj": {"country_code": "NO", "language": "smj", "use_country": "NO"},
+    "NO_en": {"country_code": "NO", "language": "en", "use_country": "NO"},
+    "SE": {"country_code": "SE", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{road}}} {{{house_number}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{country}}}\n", "postformat_replace": [["\\n(\\d{3})(\\d{2}) ", "\\n$1 $2 "]]},
+    "SE_sv": {"country_code": "SE", "language": "sv", "use_country": "SE"},
+    "SE_en": {"country_code": "SE", "language": "en", "use_country": "SE"},
+    "SJ": {"country_code": "SJ", "use_country": "NO", "change_country": "Norway"},
+    "SJ_nb": {"country_code": "SJ", "language": "nb", "use_country": "SJ", "change_country": "Norge"},
+    "SJ_nn": {"country_code": "SJ", "language": "nn", "use_country": "SJ", "change_country": "Noreg"},
+    "SJ_en": {"country_code": "SJ", "language": "en", "use_country": "SJ", "change_country": "Norway"}
+  },
+  "profile_status": {
+    "AX": "official_guidance", "AX_sv": "official_guidance", "AX_fi": "official_guidance", "AX_en": "official_guidance",
+    "DK": "official_guidance", "DK_da": "official_guidance", "DK_en": "official_guidance",
+    "EE": "official_guidance", "EE_et": "official_guidance", "EE_en": "official_guidance",
+    "FI": "official_guidance", "FI_fi": "official_guidance", "FI_sv": "official_guidance", "FI_en": "official_guidance",
+    "FO": "official_guidance", "FO_fo": "official_guidance", "FO_da": "official_guidance", "FO_en": "official_guidance",
+    "GB": "official_guidance", "GB_en": "official_guidance", "GB_cy": "official_guidance", "GB_gd": "official_guidance", "GB_ga": "official_guidance",
+    "GG": "official_guidance", "GG_en": "official_guidance", "GG_nrf": "official_guidance",
+    "IE": "official_guidance", "IE_en": "official_guidance", "IE_ga": "official_guidance",
+    "IM": "official_guidance", "IM_en": "official_guidance", "IM_gv": "official_guidance",
+    "IS": "official_guidance", "IS_is": "official_guidance", "IS_en": "official_guidance",
+    "JE": "official_guidance", "JE_en": "official_guidance", "JE_fr": "official_guidance", "JE_nrf": "official_guidance",
+    "LT": "official_guidance", "LT_lt": "official_guidance", "LT_en": "official_guidance",
+    "LV": "official_guidance", "LV_lv": "official_guidance", "LV_en": "official_guidance",
+    "NO": "official_guidance", "NO_nb": "official_guidance", "NO_nn": "official_guidance", "NO_se": "official_guidance", "NO_sma": "official_guidance", "NO_smj": "official_guidance", "NO_en": "official_guidance",
+    "SE": "official_guidance", "SE_sv": "official_guidance", "SE_en": "official_guidance",
+    "SJ": "source_derived_domestic", "SJ_nb": "source_derived_domestic", "SJ_nn": "source_derived_domestic", "SJ_en": "source_derived_domestic"
+  }
+}

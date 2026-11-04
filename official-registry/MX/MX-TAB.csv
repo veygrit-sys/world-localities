@@ -1,0 +1,18 @@
+id,code,source_type,category,name,lang,parent_id,state_id,state_code,address_country,address_candidate,postcodes,postcode_relations,government_status,department_code,collectivity_code,source_state_code,municipality_component,municipal_seat_locality_code,municipal_seat_name,municipal_seat_relation,statistics_available
+locality:mx:inegi:agem:27001,27001,municipality,municipality_geostatistical_area,Balancán,es,admin:csc:3454,admin:csc:3454,MX-TAB,MX,1,,,,,,27,001,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:27002,27002,municipality,municipality_geostatistical_area,Cárdenas,es,admin:csc:3454,admin:csc:3454,MX-TAB,MX,1,,,,,,27,002,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:27003,27003,municipality,municipality_geostatistical_area,Centla,es,admin:csc:3454,admin:csc:3454,MX-TAB,MX,1,,,,,,27,003,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:27004,27004,municipality,municipality_geostatistical_area,Centro,es,admin:csc:3454,admin:csc:3454,MX-TAB,MX,1,,,,,,27,004,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:27005,27005,municipality,municipality_geostatistical_area,Comalcalco,es,admin:csc:3454,admin:csc:3454,MX-TAB,MX,1,,,,,,27,005,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:27006,27006,municipality,municipality_geostatistical_area,Cunduacán,es,admin:csc:3454,admin:csc:3454,MX-TAB,MX,1,,,,,,27,006,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:27007,27007,municipality,municipality_geostatistical_area,Emiliano Zapata,es,admin:csc:3454,admin:csc:3454,MX-TAB,MX,1,,,,,,27,007,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:27008,27008,municipality,municipality_geostatistical_area,Huimanguillo,es,admin:csc:3454,admin:csc:3454,MX-TAB,MX,1,,,,,,27,008,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:27009,27009,municipality,municipality_geostatistical_area,Jalapa,es,admin:csc:3454,admin:csc:3454,MX-TAB,MX,1,,,,,,27,009,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:27010,27010,municipality,municipality_geostatistical_area,Jalpa de Méndez,es,admin:csc:3454,admin:csc:3454,MX-TAB,MX,1,,,,,,27,010,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:27011,27011,municipality,municipality_geostatistical_area,Jonuta,es,admin:csc:3454,admin:csc:3454,MX-TAB,MX,1,,,,,,27,011,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:27012,27012,municipality,municipality_geostatistical_area,Macuspana,es,admin:csc:3454,admin:csc:3454,MX-TAB,MX,1,,,,,,27,012,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:27013,27013,municipality,municipality_geostatistical_area,Nacajuca,es,admin:csc:3454,admin:csc:3454,MX-TAB,MX,1,,,,,,27,013,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:27014,27014,municipality,municipality_geostatistical_area,Paraíso,es,admin:csc:3454,admin:csc:3454,MX-TAB,MX,1,,,,,,27,014,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:27015,27015,municipality,municipality_geostatistical_area,Tacotalpa,es,admin:csc:3454,admin:csc:3454,MX-TAB,MX,1,,,,,,27,015,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:27016,27016,municipality,municipality_geostatistical_area,Teapa,es,admin:csc:3454,admin:csc:3454,MX-TAB,MX,1,,,,,,27,016,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:27017,27017,municipality,municipality_geostatistical_area,Tenosique,es,admin:csc:3454,admin:csc:3454,MX-TAB,MX,1,,,,,,27,017,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1

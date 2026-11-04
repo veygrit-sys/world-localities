@@ -1,0 +1,1311 @@
+{
+  "admin_rows": 209753,
+  "countries": [
+    {
+      "country": "AE",
+      "counts": {
+        "address_candidates": 2386,
+        "admin_rows": 435,
+        "ambiguous_parents": 0,
+        "country": "AE",
+        "country_scope_only": 5,
+        "localities_without_adm1": 10,
+        "locality_rows": 2406,
+        "name_en": "United Arab Emirates",
+        "other_admin_rows": 12,
+        "region": "west_asia",
+        "unresolved_parents": 0
+      },
+      "source": {
+        "all_source_rows": 8584,
+        "bytes": 345305,
+        "last_modified": "Wed, 30 Sep 2026 01:52:39 GMT",
+        "retained_rows": 2853,
+        "retrieved_at": "2026-09-30T16:59:32.064005+00:00",
+        "sha256": "865153f4ef90be4ec54f6d77b4468b2e2a39a0558d3bc59cf7cf524237d16c2c",
+        "url": "https://download.geonames.org/export/dump/AE.zip"
+      }
+    },
+    {
+      "country": "AF",
+      "counts": {
+        "address_candidates": 31507,
+        "admin_rows": 432,
+        "ambiguous_parents": 0,
+        "country": "AF",
+        "country_scope_only": 0,
+        "localities_without_adm1": 1063,
+        "locality_rows": 32574,
+        "name_en": "Afghanistan",
+        "other_admin_rows": 1,
+        "region": "south_asia",
+        "unresolved_parents": 0
+      },
+      "source": {
+        "all_source_rows": 75843,
+        "bytes": 4867372,
+        "last_modified": "Wed, 30 Sep 2026 01:52:44 GMT",
+        "retained_rows": 33007,
+        "retrieved_at": "2026-09-30T17:00:53.084375+00:00",
+        "sha256": "7bf1c1f248e4e769b1f71b202a661ad609f069ec8655750c13e5fa1d2aade557",
+        "url": "https://download.geonames.org/export/dump/AF.zip"
+      }
+    },
+    {
+      "country": "AM",
+      "counts": {
+        "address_candidates": 1337,
+        "admin_rows": 94,
+        "ambiguous_parents": 0,
+        "country": "AM",
+        "country_scope_only": 17,
+        "localities_without_adm1": 887,
+        "locality_rows": 2271,
+        "name_en": "Armenia",
+        "other_admin_rows": 62,
+        "region": "caucasus",
+        "unresolved_parents": 1
+      },
+      "source": {
+        "all_source_rows": 32462,
+        "bytes": 1169482,
+        "last_modified": "Wed, 30 Sep 2026 01:52:46 GMT",
+        "retained_rows": 2427,
+        "retrieved_at": "2026-09-30T16:59:26.221226+00:00",
+        "sha256": "5c8c1204bc42d2c487fe73c566903b90b158ab3b3b2d29c1a5c72efdb63e3e5b",
+        "url": "https://download.geonames.org/export/dump/AM.zip"
+      }
+    },
+    {
+      "country": "AZ",
+      "counts": {
+        "address_candidates": 5068,
+        "admin_rows": 96,
+        "ambiguous_parents": 0,
+        "country": "AZ",
+        "country_scope_only": 16,
+        "localities_without_adm1": 243,
+        "locality_rows": 5295,
+        "name_en": "Azerbaijan",
+        "other_admin_rows": 6,
+        "region": "caucasus",
+        "unresolved_parents": 4
+      },
+      "source": {
+        "all_source_rows": 10154,
+        "bytes": 631310,
+        "last_modified": "Wed, 30 Sep 2026 01:52:58 GMT",
+        "retained_rows": 5397,
+        "retrieved_at": "2026-09-30T16:59:48.979776+00:00",
+        "sha256": "012f6affe475593be2bf362fb1267be70ee8e613894993087c5b95187c6ce247",
+        "url": "https://download.geonames.org/export/dump/AZ.zip"
+      }
+    },
+    {
+      "country": "BD",
+      "counts": {
+        "address_candidates": 49044,
+        "admin_rows": 5265,
+        "ambiguous_parents": 0,
+        "country": "BD",
+        "country_scope_only": 125,
+        "localities_without_adm1": 132,
+        "locality_rows": 49052,
+        "name_en": "Bangladesh",
+        "other_admin_rows": 2,
+        "region": "south_asia",
+        "unresolved_parents": 20
+      },
+      "source": {
+        "all_source_rows": 59428,
+        "bytes": 1665556,
+        "last_modified": "Wed, 30 Sep 2026 01:53:02 GMT",
+        "retained_rows": 54319,
+        "retrieved_at": "2026-09-30T17:01:18.490351+00:00",
+        "sha256": "d293c0c8eb402c275afc65c8a44c496ae42287f904b5ece9cb59ec2db93efa5c",
+        "url": "https://download.geonames.org/export/dump/BD.zip"
+      }
+    },
+    {
+      "country": "BH",
+      "counts": {
+        "address_candidates": 123,
+        "admin_rows": 4,
+        "ambiguous_parents": 0,
+        "country": "BH",
+        "country_scope_only": 0,
+        "localities_without_adm1": 12,
+        "locality_rows": 124,
+        "name_en": "Bahrain",
+        "other_admin_rows": 10,
+        "region": "west_asia",
+        "unresolved_parents": 11
+      },
+      "source": {
+        "all_source_rows": 1515,
+        "bytes": 77156,
+        "last_modified": "Wed, 30 Sep 2026 01:53:04 GMT",
+        "retained_rows": 138,
+        "retrieved_at": "2026-09-30T16:58:48.687789+00:00",
+        "sha256": "237617799bda17888e091e48b9ef64a438f4e81dd5ad853fd2dce1c4734663be",
+        "url": "https://download.geonames.org/export/dump/BH.zip"
+      }
+    },
+    {
+      "country": "BN",
+      "counts": {
+        "address_candidates": 365,
+        "admin_rows": 50,
+        "ambiguous_parents": 0,
+        "country": "BN",
+        "country_scope_only": 86,
+        "localities_without_adm1": 92,
+        "locality_rows": 370,
+        "name_en": "Brunei",
+        "other_admin_rows": 0,
+        "region": "southeast_asia",
+        "unresolved_parents": 8
+      },
+      "source": {
+        "all_source_rows": 1226,
+        "bytes": 42419,
+        "last_modified": "Wed, 30 Sep 2026 01:53:04 GMT",
+        "retained_rows": 420,
+        "retrieved_at": "2026-09-30T16:59:02.956019+00:00",
+        "sha256": "39099ac696047061718b2b055b581e5ae168691b168652f70a368f97b3de960b",
+        "url": "https://download.geonames.org/export/dump/BN.zip"
+      }
+    },
+    {
+      "country": "BT",
+      "counts": {
+        "address_candidates": 252,
+        "admin_rows": 47,
+        "ambiguous_parents": 0,
+        "country": "BT",
+        "country_scope_only": 147,
+        "localities_without_adm1": 147,
+        "locality_rows": 253,
+        "name_en": "Bhutan",
+        "other_admin_rows": 0,
+        "region": "south_asia",
+        "unresolved_parents": 0
+      },
+      "source": {
+        "all_source_rows": 536,
+        "bytes": 29892,
+        "last_modified": "Wed, 30 Sep 2026 01:53:17 GMT",
+        "retained_rows": 300,
+        "retrieved_at": "2026-09-30T16:58:58.317970+00:00",
+        "sha256": "9e49bb98d3cf952db773bfa336e98ccbee6980bd94b0cc095fa2a8c51dd5b79f",
+        "url": "https://download.geonames.org/export/dump/BT.zip"
+      }
+    },
+    {
+      "country": "CN",
+      "counts": {
+        "address_candidates": 883795,
+        "admin_rows": 15207,
+        "ambiguous_parents": 0,
+        "country": "CN",
+        "country_scope_only": 23,
+        "localities_without_adm1": 66,
+        "locality_rows": 899057,
+        "name_en": "China",
+        "other_admin_rows": 48,
+        "region": "east_asia",
+        "unresolved_parents": 12747
+      },
+      "source": {
+        "all_source_rows": 961888,
+        "bytes": 32196388,
+        "last_modified": "Wed, 30 Sep 2026 01:54:06 GMT",
+        "retained_rows": 914312,
+        "retrieved_at": "2026-09-30T17:05:53.348453+00:00",
+        "sha256": "9ab4e7d329cbc21763910aa211e91686f162f6c9a5c73cd7c9600e51f6c25ff8",
+        "url": "https://download.geonames.org/export/dump/CN.zip"
+      }
+    },
+    {
+      "country": "CY",
+      "counts": {
+        "address_candidates": 793,
+        "admin_rows": 622,
+        "ambiguous_parents": 0,
+        "country": "CY",
+        "country_scope_only": 1,
+        "localities_without_adm1": 16,
+        "locality_rows": 822,
+        "name_en": "Cyprus",
+        "other_admin_rows": 4,
+        "region": "additional_asia",
+        "unresolved_parents": 3
+      },
+      "source": {
+        "all_source_rows": 7700,
+        "bytes": 292529,
+        "last_modified": "Wed, 30 Sep 2026 01:54:11 GMT",
+        "retained_rows": 1448,
+        "retrieved_at": "2026-09-30T16:59:10.817143+00:00",
+        "sha256": "5989833f82e375dd282faf0e222970a9a5f97c7af0d0597adbe12f2ad742a5c6",
+        "url": "https://download.geonames.org/export/dump/CY.zip"
+      }
+    },
+    {
+      "country": "GE",
+      "counts": {
+        "address_candidates": 5371,
+        "admin_rows": 99,
+        "ambiguous_parents": 0,
+        "country": "GE",
+        "country_scope_only": 558,
+        "localities_without_adm1": 622,
+        "locality_rows": 5417,
+        "name_en": "Georgia",
+        "other_admin_rows": 3,
+        "region": "caucasus",
+        "unresolved_parents": 23
+      },
+      "source": {
+        "all_source_rows": 9464,
+        "bytes": 448566,
+        "last_modified": "Wed, 30 Sep 2026 01:54:58 GMT",
+        "retained_rows": 5519,
+        "retrieved_at": "2026-09-30T16:59:52.337903+00:00",
+        "sha256": "94f721f751d9aecc7cdca0a95591b1741b1e9aeeff1e6fe7ac9f079ae1e1f4b3",
+        "url": "https://download.geonames.org/export/dump/GE.zip"
+      }
+    },
+    {
+      "country": "HK",
+      "counts": {
+        "address_candidates": 1341,
+        "admin_rows": 18,
+        "ambiguous_parents": 0,
+        "country": "HK",
+        "country_scope_only": 71,
+        "localities_without_adm1": 72,
+        "locality_rows": 1342,
+        "name_en": "Hong Kong",
+        "other_admin_rows": 0,
+        "region": "east_asia",
+        "unresolved_parents": 0
+      },
+      "source": {
+        "all_source_rows": 2735,
+        "bytes": 121014,
+        "last_modified": "Wed, 30 Sep 2026 01:55:03 GMT",
+        "retained_rows": 1360,
+        "retrieved_at": "2026-09-30T16:59:07.967890+00:00",
+        "sha256": "92beac05beb1c99f90b82b47192abee26ac672266b277701309b8a79bcbb872a",
+        "url": "https://download.geonames.org/export/dump/HK.zip"
+      }
+    },
+    {
+      "country": "ID",
+      "counts": {
+        "address_candidates": 257575,
+        "admin_rows": 90059,
+        "ambiguous_parents": 0,
+        "country": "ID",
+        "country_scope_only": 306,
+        "localities_without_adm1": 766,
+        "locality_rows": 258055,
+        "name_en": "Indonesia",
+        "other_admin_rows": 40,
+        "region": "southeast_asia",
+        "unresolved_parents": 88908
+      },
+      "source": {
+        "all_source_rows": 452093,
+        "bytes": 10389570,
+        "last_modified": "Wed, 30 Sep 2026 01:55:17 GMT",
+        "retained_rows": 348154,
+        "retrieved_at": "2026-09-30T17:04:14.305699+00:00",
+        "sha256": "434f51b913b159bb4cb4d8a54d38d1cbc5d4038f0c4b3088f4a878ea627d923e",
+        "url": "https://download.geonames.org/export/dump/ID.zip"
+      }
+    },
+    {
+      "country": "IL",
+      "counts": {
+        "address_candidates": 1645,
+        "admin_rows": 31,
+        "ambiguous_parents": 0,
+        "country": "IL",
+        "country_scope_only": 29,
+        "localities_without_adm1": 205,
+        "locality_rows": 1847,
+        "name_en": "Israel",
+        "other_admin_rows": 14,
+        "region": "west_asia",
+        "unresolved_parents": 8
+      },
+      "source": {
+        "all_source_rows": 10324,
+        "bytes": 582637,
+        "last_modified": "Wed, 30 Sep 2026 01:55:18 GMT",
+        "retained_rows": 1892,
+        "retrieved_at": "2026-09-30T16:59:19.941945+00:00",
+        "sha256": "eda7d5f2680fe6f74409bceff95083f89d859f4608ca5c694ba11b291fd64399",
+        "url": "https://download.geonames.org/export/dump/IL.zip"
+      }
+    },
+    {
+      "country": "IN",
+      "counts": {
+        "address_candidates": 548989,
+        "admin_rows": 7712,
+        "ambiguous_parents": 0,
+        "country": "IN",
+        "country_scope_only": 34,
+        "localities_without_adm1": 9010,
+        "locality_rows": 557995,
+        "name_en": "India",
+        "other_admin_rows": 7,
+        "region": "south_asia",
+        "unresolved_parents": 235
+      },
+      "source": {
+        "all_source_rows": 660026,
+        "bytes": 15751840,
+        "last_modified": "Wed, 30 Sep 2026 01:55:34 GMT",
+        "retained_rows": 565714,
+        "retrieved_at": "2026-09-30T17:04:52.238632+00:00",
+        "sha256": "bf3cebbf3a943edcea69282ca116bb0f881649b83b44353ae18b94e18b3e8451",
+        "url": "https://download.geonames.org/export/dump/IN.zip"
+      }
+    },
+    {
+      "country": "IQ",
+      "counts": {
+        "address_candidates": 22384,
+        "admin_rows": 190,
+        "ambiguous_parents": 0,
+        "country": "IQ",
+        "country_scope_only": 1,
+        "localities_without_adm1": 1381,
+        "locality_rows": 23824,
+        "name_en": "Iraq",
+        "other_admin_rows": 11,
+        "region": "west_asia",
+        "unresolved_parents": 382
+      },
+      "source": {
+        "all_source_rows": 55961,
+        "bytes": 2800458,
+        "last_modified": "Wed, 30 Sep 2026 01:55:37 GMT",
+        "retained_rows": 24025,
+        "retrieved_at": "2026-09-30T17:00:29.662488+00:00",
+        "sha256": "672adbf6e631ff0f2a84facf18e32a4b04621e12d44ad462bdfae2e7dc39109f",
+        "url": "https://download.geonames.org/export/dump/IQ.zip"
+      }
+    },
+    {
+      "country": "IR",
+      "counts": {
+        "address_candidates": 75026,
+        "admin_rows": 477,
+        "ambiguous_parents": 0,
+        "country": "IR",
+        "country_scope_only": 422,
+        "localities_without_adm1": 5354,
+        "locality_rows": 81839,
+        "name_en": "Iran",
+        "other_admin_rows": 143,
+        "region": "west_asia",
+        "unresolved_parents": 69
+      },
+      "source": {
+        "all_source_rows": 254642,
+        "bytes": 13644341,
+        "last_modified": "Wed, 30 Sep 2026 01:55:49 GMT",
+        "retained_rows": 82459,
+        "retrieved_at": "2026-09-30T17:02:30.768618+00:00",
+        "sha256": "1b947419af7fb0e0f4c25af13f40c2171a4ab03431a43cf26bd4cb03ddb97814",
+        "url": "https://download.geonames.org/export/dump/IR.zip"
+      }
+    },
+    {
+      "country": "JO",
+      "counts": {
+        "address_candidates": 1752,
+        "admin_rows": 103,
+        "ambiguous_parents": 0,
+        "country": "JO",
+        "country_scope_only": 0,
+        "localities_without_adm1": 3,
+        "locality_rows": 1756,
+        "name_en": "Jordan",
+        "other_admin_rows": 0,
+        "region": "west_asia",
+        "unresolved_parents": 37
+      },
+      "source": {
+        "all_source_rows": 13207,
+        "bytes": 693116,
+        "last_modified": "Wed, 30 Sep 2026 01:55:55 GMT",
+        "retained_rows": 1859,
+        "retrieved_at": "2026-09-30T16:59:16.922558+00:00",
+        "sha256": "43143083ef07db6b29ef819ab0f83990aeb62abdb753bd4ed7d0ac11b9e835e5",
+        "url": "https://download.geonames.org/export/dump/JO.zip"
+      }
+    },
+    {
+      "country": "JP",
+      "counts": {
+        "address_candidates": 50766,
+        "admin_rows": 2475,
+        "ambiguous_parents": 0,
+        "country": "JP",
+        "country_scope_only": 9,
+        "localities_without_adm1": 42,
+        "locality_rows": 50801,
+        "name_en": "Japan",
+        "other_admin_rows": 2211,
+        "region": "east_asia",
+        "unresolved_parents": 139
+      },
+      "source": {
+        "all_source_rows": 103760,
+        "bytes": 4959038,
+        "last_modified": "Wed, 30 Sep 2026 01:55:59 GMT",
+        "retained_rows": 55487,
+        "retrieved_at": "2026-09-30T17:01:34.492628+00:00",
+        "sha256": "b1aa34cc9d7fbb7b90933c490eadc250af4a039eb6569aa88e299fe7b7625235",
+        "url": "https://download.geonames.org/export/dump/JP.zip"
+      }
+    },
+    {
+      "country": "KG",
+      "counts": {
+        "address_candidates": 2509,
+        "admin_rows": 64,
+        "ambiguous_parents": 0,
+        "country": "KG",
+        "country_scope_only": 147,
+        "localities_without_adm1": 190,
+        "locality_rows": 2555,
+        "name_en": "Kyrgyzstan",
+        "other_admin_rows": 9,
+        "region": "central_asia",
+        "unresolved_parents": 10
+      },
+      "source": {
+        "all_source_rows": 8160,
+        "bytes": 346116,
+        "last_modified": "Wed, 30 Sep 2026 01:56:01 GMT",
+        "retained_rows": 2628,
+        "retrieved_at": "2026-09-30T16:59:29.131269+00:00",
+        "sha256": "ac12720a432ee85d7275b1fe33fae49ce684dc85222f2f5adbdc9d8c9fcae433",
+        "url": "https://download.geonames.org/export/dump/KG.zip"
+      }
+    },
+    {
+      "country": "KH",
+      "counts": {
+        "address_candidates": 11212,
+        "admin_rows": 1845,
+        "ambiguous_parents": 0,
+        "country": "KH",
+        "country_scope_only": 0,
+        "localities_without_adm1": 9,
+        "locality_rows": 11222,
+        "name_en": "Cambodia",
+        "other_admin_rows": 113,
+        "region": "southeast_asia",
+        "unresolved_parents": 2
+      },
+      "source": {
+        "all_source_rows": 19547,
+        "bytes": 785527,
+        "last_modified": "Wed, 30 Sep 2026 01:56:01 GMT",
+        "retained_rows": 13180,
+        "retrieved_at": "2026-09-30T17:00:09.046226+00:00",
+        "sha256": "deb82455447f77a5bd9bf12b75922fb5f483a2f17de3caeac263fbfe4d3dac01",
+        "url": "https://download.geonames.org/export/dump/KH.zip"
+      }
+    },
+    {
+      "country": "KP",
+      "counts": {
+        "address_candidates": 34716,
+        "admin_rows": 1256,
+        "ambiguous_parents": 0,
+        "country": "KP",
+        "country_scope_only": 717,
+        "localities_without_adm1": 1050,
+        "locality_rows": 35383,
+        "name_en": "North Korea",
+        "other_admin_rows": 1,
+        "region": "east_asia",
+        "unresolved_parents": 3330
+      },
+      "source": {
+        "all_source_rows": 54242,
+        "bytes": 2529771,
+        "last_modified": "Wed, 30 Sep 2026 01:56:04 GMT",
+        "retained_rows": 36640,
+        "retrieved_at": "2026-09-30T17:01:00.740544+00:00",
+        "sha256": "e49d50ccb03c1f4440b12e7d6c5bb089a3d992a7076810a1de4285cba0bac24e",
+        "url": "https://download.geonames.org/export/dump/KP.zip"
+      }
+    },
+    {
+      "country": "KR",
+      "counts": {
+        "address_candidates": 62631,
+        "admin_rows": 6780,
+        "ambiguous_parents": 0,
+        "country": "KR",
+        "country_scope_only": 74,
+        "localities_without_adm1": 96,
+        "locality_rows": 62751,
+        "name_en": "South Korea",
+        "other_admin_rows": 92,
+        "region": "east_asia",
+        "unresolved_parents": 2611
+      },
+      "source": {
+        "all_source_rows": 144733,
+        "bytes": 5409063,
+        "last_modified": "Wed, 30 Sep 2026 01:56:10 GMT",
+        "retained_rows": 69623,
+        "retrieved_at": "2026-09-30T17:02:18.434812+00:00",
+        "sha256": "cbf91019b2d1799250f6a3bba9e78bf99c8d590654e4782008a2343bd213d55d",
+        "url": "https://download.geonames.org/export/dump/KR.zip"
+      }
+    },
+    {
+      "country": "KW",
+      "counts": {
+        "address_candidates": 126,
+        "admin_rows": 115,
+        "ambiguous_parents": 0,
+        "country": "KW",
+        "country_scope_only": 63,
+        "localities_without_adm1": 63,
+        "locality_rows": 127,
+        "name_en": "Kuwait",
+        "other_admin_rows": 0,
+        "region": "west_asia",
+        "unresolved_parents": 0
+      },
+      "source": {
+        "all_source_rows": 1004,
+        "bytes": 58071,
+        "last_modified": "Wed, 30 Sep 2026 01:56:10 GMT",
+        "retained_rows": 242,
+        "retrieved_at": "2026-09-30T16:58:53.543375+00:00",
+        "sha256": "c9e8f68372c092814fcee85f74b52c38e09631c8c88d9e9bab3d355de2e98726",
+        "url": "https://download.geonames.org/export/dump/KW.zip"
+      }
+    },
+    {
+      "country": "KZ",
+      "counts": {
+        "address_candidates": 13457,
+        "admin_rows": 385,
+        "ambiguous_parents": 0,
+        "country": "KZ",
+        "country_scope_only": 1908,
+        "localities_without_adm1": 1986,
+        "locality_rows": 13563,
+        "name_en": "Kazakhstan",
+        "other_admin_rows": 2,
+        "region": "central_asia",
+        "unresolved_parents": 88
+      },
+      "source": {
+        "all_source_rows": 68875,
+        "bytes": 2721669,
+        "last_modified": "Wed, 30 Sep 2026 01:56:12 GMT",
+        "retained_rows": 13950,
+        "retrieved_at": "2026-09-30T17:00:13.962917+00:00",
+        "sha256": "a7ceacc198c939527555a84afc58ad61b7d443f3251ad9a672de472bc5549a2f",
+        "url": "https://download.geonames.org/export/dump/KZ.zip"
+      }
+    },
+    {
+      "country": "LA",
+      "counts": {
+        "address_candidates": 13330,
+        "admin_rows": 166,
+        "ambiguous_parents": 0,
+        "country": "LA",
+        "country_scope_only": 10,
+        "localities_without_adm1": 1898,
+        "locality_rows": 15217,
+        "name_en": "Laos",
+        "other_admin_rows": 32,
+        "region": "southeast_asia",
+        "unresolved_parents": 1
+      },
+      "source": {
+        "all_source_rows": 25480,
+        "bytes": 716846,
+        "last_modified": "Wed, 30 Sep 2026 01:56:13 GMT",
+        "retained_rows": 15415,
+        "retrieved_at": "2026-09-30T17:00:18.744068+00:00",
+        "sha256": "bbd04f962418911549b7c5172a7d1de0407494e22c1f54fa5cb00cd7ae435df2",
+        "url": "https://download.geonames.org/export/dump/LA.zip"
+      }
+    },
+    {
+      "country": "LB",
+      "counts": {
+        "address_candidates": 3711,
+        "admin_rows": 39,
+        "ambiguous_parents": 0,
+        "country": "LB",
+        "country_scope_only": 36,
+        "localities_without_adm1": 47,
+        "locality_rows": 3722,
+        "name_en": "Lebanon",
+        "other_admin_rows": 6,
+        "region": "west_asia",
+        "unresolved_parents": 1
+      },
+      "source": {
+        "all_source_rows": 24740,
+        "bytes": 1139468,
+        "last_modified": "Wed, 30 Sep 2026 01:56:14 GMT",
+        "retained_rows": 3767,
+        "retrieved_at": "2026-09-30T16:59:38.555098+00:00",
+        "sha256": "8c44dd048d3c42a906fb3df08056a44a4fd8a04eff61c4e0014dd70e6f6d7dcf",
+        "url": "https://download.geonames.org/export/dump/LB.zip"
+      }
+    },
+    {
+      "country": "LK",
+      "counts": {
+        "address_candidates": 17836,
+        "admin_rows": 14381,
+        "ambiguous_parents": 0,
+        "country": "LK",
+        "country_scope_only": 1,
+        "localities_without_adm1": 19,
+        "locality_rows": 17856,
+        "name_en": "Sri Lanka",
+        "other_admin_rows": 3,
+        "region": "south_asia",
+        "unresolved_parents": 0
+      },
+      "source": {
+        "all_source_rows": 56996,
+        "bytes": 1515587,
+        "last_modified": "Wed, 30 Sep 2026 01:56:16 GMT",
+        "retained_rows": 32240,
+        "retrieved_at": "2026-09-30T17:00:42.682894+00:00",
+        "sha256": "6f2821e58dc5c2107bbea609d3128f0e3fd2b844e0c707cea9ac9da2665e31e9",
+        "url": "https://download.geonames.org/export/dump/LK.zip"
+      }
+    },
+    {
+      "country": "MM",
+      "counts": {
+        "address_candidates": 54627,
+        "admin_rows": 419,
+        "ambiguous_parents": 0,
+        "country": "MM",
+        "country_scope_only": 5,
+        "localities_without_adm1": 706,
+        "locality_rows": 55331,
+        "name_en": "Myanmar",
+        "other_admin_rows": 20,
+        "region": "southeast_asia",
+        "unresolved_parents": 1
+      },
+      "source": {
+        "all_source_rows": 66931,
+        "bytes": 1936167,
+        "last_modified": "Wed, 30 Sep 2026 01:56:29 GMT",
+        "retained_rows": 55770,
+        "retrieved_at": "2026-09-30T17:01:46.999010+00:00",
+        "sha256": "a0e21840679e3fcad975816fc9c12690efb6bf29cf1599b01dff496452ab5edc",
+        "url": "https://download.geonames.org/export/dump/MM.zip"
+      }
+    },
+    {
+      "country": "MN",
+      "counts": {
+        "address_candidates": 1533,
+        "admin_rows": 409,
+        "ambiguous_parents": 0,
+        "country": "MN",
+        "country_scope_only": 1,
+        "localities_without_adm1": 7,
+        "locality_rows": 1540,
+        "name_en": "Mongolia",
+        "other_admin_rows": 4,
+        "region": "east_asia",
+        "unresolved_parents": 2
+      },
+      "source": {
+        "all_source_rows": 7105,
+        "bytes": 306744,
+        "last_modified": "Wed, 30 Sep 2026 01:56:30 GMT",
+        "retained_rows": 1953,
+        "retrieved_at": "2026-09-30T16:59:22.897581+00:00",
+        "sha256": "1714fa5400530a498b71acf8d44096f3294113b02b8684eb53b93b5eb8f8ec40",
+        "url": "https://download.geonames.org/export/dump/MN.zip"
+      }
+    },
+    {
+      "country": "MO",
+      "counts": {
+        "address_candidates": 9,
+        "admin_rows": 8,
+        "ambiguous_parents": 0,
+        "country": "MO",
+        "country_scope_only": 3,
+        "localities_without_adm1": 4,
+        "locality_rows": 9,
+        "name_en": "Macao",
+        "other_admin_rows": 2,
+        "region": "east_asia",
+        "unresolved_parents": 1
+      },
+      "source": {
+        "all_source_rows": 180,
+        "bytes": 15537,
+        "last_modified": "Wed, 30 Sep 2026 01:56:30 GMT",
+        "retained_rows": 19,
+        "retrieved_at": "2026-09-30T16:58:45.147408+00:00",
+        "sha256": "24802ebd6316b72ad95226e52e3e65404a7fb48d79231c3c1fa92d1fa90364fd",
+        "url": "https://download.geonames.org/export/dump/MO.zip"
+      }
+    },
+    {
+      "country": "MV",
+      "counts": {
+        "address_candidates": 118,
+        "admin_rows": 21,
+        "ambiguous_parents": 0,
+        "country": "MV",
+        "country_scope_only": 3,
+        "localities_without_adm1": 3,
+        "locality_rows": 119,
+        "name_en": "Maldives",
+        "other_admin_rows": 7,
+        "region": "south_asia",
+        "unresolved_parents": 0
+      },
+      "source": {
+        "all_source_rows": 1773,
+        "bytes": 69980,
+        "last_modified": "Wed, 30 Sep 2026 01:56:30 GMT",
+        "retained_rows": 147,
+        "retrieved_at": "2026-09-30T16:58:51.122243+00:00",
+        "sha256": "133314b4f558efefb0a7fa333ae0758e09fbe6e3345251d7a8e12e5065879a1c",
+        "url": "https://download.geonames.org/export/dump/MV.zip"
+      }
+    },
+    {
+      "country": "MY",
+      "counts": {
+        "address_candidates": 21565,
+        "admin_rows": 396,
+        "ambiguous_parents": 0,
+        "country": "MY",
+        "country_scope_only": 16,
+        "localities_without_adm1": 112,
+        "locality_rows": 21672,
+        "name_en": "Malaysia",
+        "other_admin_rows": 48,
+        "region": "southeast_asia",
+        "unresolved_parents": 225
+      },
+      "source": {
+        "all_source_rows": 71709,
+        "bytes": 1764913,
+        "last_modified": "Wed, 30 Sep 2026 01:56:48 GMT",
+        "retained_rows": 22116,
+        "retrieved_at": "2026-09-30T17:00:23.560175+00:00",
+        "sha256": "fabe77e6297b6e504b0d32d632738f06f715e64b51137291004830af683526c3",
+        "url": "https://download.geonames.org/export/dump/MY.zip"
+      }
+    },
+    {
+      "country": "NP",
+      "counts": {
+        "address_candidates": 87760,
+        "admin_rows": 838,
+        "ambiguous_parents": 0,
+        "country": "NP",
+        "country_scope_only": 1,
+        "localities_without_adm1": 7,
+        "locality_rows": 87925,
+        "name_en": "Nepal",
+        "other_admin_rows": 41034,
+        "region": "south_asia",
+        "unresolved_parents": 4
+      },
+      "source": {
+        "all_source_rows": 148209,
+        "bytes": 3459487,
+        "last_modified": "Wed, 30 Sep 2026 01:57:13 GMT",
+        "retained_rows": 129797,
+        "retrieved_at": "2026-09-30T17:03:12.495855+00:00",
+        "sha256": "00db9b7ea1f06dd79d1ebf8f0f0abbe7d08a49986e6df76df52acc120753d92a",
+        "url": "https://download.geonames.org/export/dump/NP.zip"
+      }
+    },
+    {
+      "country": "OM",
+      "counts": {
+        "address_candidates": 5941,
+        "admin_rows": 72,
+        "ambiguous_parents": 0,
+        "country": "OM",
+        "country_scope_only": 20,
+        "localities_without_adm1": 67,
+        "locality_rows": 5997,
+        "name_en": "Oman",
+        "other_admin_rows": 1,
+        "region": "west_asia",
+        "unresolved_parents": 0
+      },
+      "source": {
+        "all_source_rows": 12410,
+        "bytes": 587797,
+        "last_modified": "Wed, 30 Sep 2026 01:57:15 GMT",
+        "retained_rows": 6070,
+        "retrieved_at": "2026-09-30T16:59:55.826615+00:00",
+        "sha256": "73f9846c3b50015b722a8afcf92315225186864e1a74f81645c4efc7d0a3340c",
+        "url": "https://download.geonames.org/export/dump/OM.zip"
+      }
+    },
+    {
+      "country": "PH",
+      "counts": {
+        "address_candidates": 44367,
+        "admin_rows": 20922,
+        "ambiguous_parents": 0,
+        "country": "PH",
+        "country_scope_only": 1,
+        "localities_without_adm1": 12,
+        "locality_rows": 44372,
+        "name_en": "Philippines",
+        "other_admin_rows": 8,
+        "region": "southeast_asia",
+        "unresolved_parents": 16774
+      },
+      "source": {
+        "all_source_rows": 96645,
+        "bytes": 2555368,
+        "last_modified": "Wed, 30 Sep 2026 01:57:22 GMT",
+        "retained_rows": 65302,
+        "retrieved_at": "2026-09-30T17:02:07.091532+00:00",
+        "sha256": "887ae978c95971dbf61a55d5a6cb6209108ef49c3ab790ab931e09d969f19388",
+        "url": "https://download.geonames.org/export/dump/PH.zip"
+      }
+    },
+    {
+      "country": "PK",
+      "counts": {
+        "address_candidates": 149297,
+        "admin_rows": 182,
+        "ambiguous_parents": 0,
+        "country": "PK",
+        "country_scope_only": 2,
+        "localities_without_adm1": 1080,
+        "locality_rows": 150402,
+        "name_en": "Pakistan",
+        "other_admin_rows": 39,
+        "region": "south_asia",
+        "unresolved_parents": 64
+      },
+      "source": {
+        "all_source_rows": 229955,
+        "bytes": 6238013,
+        "last_modified": "Wed, 30 Sep 2026 01:57:29 GMT",
+        "retained_rows": 150623,
+        "retrieved_at": "2026-09-30T17:03:28.156281+00:00",
+        "sha256": "eb53bee0beee5b41d4e71f4b4123c59c4a91ab64c7e1a042a7cdc22e2c9cc953",
+        "url": "https://download.geonames.org/export/dump/PK.zip"
+      }
+    },
+    {
+      "country": "PS",
+      "counts": {
+        "address_candidates": 1043,
+        "admin_rows": 18,
+        "ambiguous_parents": 0,
+        "country": "PS",
+        "country_scope_only": 2,
+        "localities_without_adm1": 36,
+        "locality_rows": 1272,
+        "name_en": "Palestinian Territory",
+        "other_admin_rows": 0,
+        "region": "west_asia",
+        "unresolved_parents": 1
+      },
+      "source": {
+        "all_source_rows": 6151,
+        "bytes": 308148,
+        "last_modified": "Wed, 30 Sep 2026 01:57:31 GMT",
+        "retained_rows": 1290,
+        "retrieved_at": "2026-09-30T16:59:05.531990+00:00",
+        "sha256": "79fd2a33e07b95f6f4d3769c6290e4fbf0d813ce2ff44e89662d3ddb6b595d91",
+        "url": "https://download.geonames.org/export/dump/PS.zip"
+      }
+    },
+    {
+      "country": "QA",
+      "counts": {
+        "address_candidates": 260,
+        "admin_rows": 8,
+        "ambiguous_parents": 0,
+        "country": "QA",
+        "country_scope_only": 0,
+        "localities_without_adm1": 14,
+        "locality_rows": 275,
+        "name_en": "Qatar",
+        "other_admin_rows": 4,
+        "region": "west_asia",
+        "unresolved_parents": 0
+      },
+      "source": {
+        "all_source_rows": 5030,
+        "bytes": 237620,
+        "last_modified": "Wed, 30 Sep 2026 01:57:33 GMT",
+        "retained_rows": 287,
+        "retrieved_at": "2026-09-30T16:58:56.072241+00:00",
+        "sha256": "4b5e879bdbbbc4e7bd839384ac822434a3f1890804641a0c4959ab7568417e57",
+        "url": "https://download.geonames.org/export/dump/QA.zip"
+      }
+    },
+    {
+      "country": "RU",
+      "counts": {
+        "address_candidates": 191954,
+        "admin_rows": 3490,
+        "ambiguous_parents": 0,
+        "country": "RU",
+        "country_scope_only": 146,
+        "localities_without_adm1": 11236,
+        "locality_rows": 203205,
+        "name_en": "Russia",
+        "other_admin_rows": 109,
+        "region": "transcontinental_supplement",
+        "unresolved_parents": 906
+      },
+      "source": {
+        "all_source_rows": 412812,
+        "bytes": 15248578,
+        "last_modified": "Wed, 30 Sep 2026 01:57:52 GMT",
+        "retained_rows": 206804,
+        "retrieved_at": "2026-09-30T17:03:47.727043+00:00",
+        "sha256": "157f4d6bf796a55786662f43c4ba6f92dbe41b0c91ba951b8ae229c44a007a79",
+        "url": "https://download.geonames.org/export/dump/RU.zip"
+      }
+    },
+    {
+      "country": "SA",
+      "counts": {
+        "address_candidates": 5069,
+        "admin_rows": 135,
+        "ambiguous_parents": 0,
+        "country": "SA",
+        "country_scope_only": 671,
+        "localities_without_adm1": 678,
+        "locality_rows": 5119,
+        "name_en": "Saudi Arabia",
+        "other_admin_rows": 3,
+        "region": "west_asia",
+        "unresolved_parents": 0
+      },
+      "source": {
+        "all_source_rows": 27719,
+        "bytes": 1232460,
+        "last_modified": "Wed, 30 Sep 2026 01:57:54 GMT",
+        "retained_rows": 5257,
+        "retrieved_at": "2026-09-30T16:59:45.525864+00:00",
+        "sha256": "70efd5077ed3894c286f12686a8bc1d18fc07fbfbdccf0999b75ec9b023bea69",
+        "url": "https://download.geonames.org/export/dump/SA.zip"
+      }
+    },
+    {
+      "country": "SG",
+      "counts": {
+        "address_candidates": 380,
+        "admin_rows": 0,
+        "ambiguous_parents": 0,
+        "country": "SG",
+        "country_scope_only": 352,
+        "localities_without_adm1": 387,
+        "locality_rows": 387,
+        "name_en": "Singapore",
+        "other_admin_rows": 0,
+        "region": "southeast_asia",
+        "unresolved_parents": 29
+      },
+      "source": {
+        "all_source_rows": 1979,
+        "bytes": 69019,
+        "last_modified": "Wed, 30 Sep 2026 01:57:58 GMT",
+        "retained_rows": 387,
+        "retrieved_at": "2026-09-30T16:59:00.650693+00:00",
+        "sha256": "871cb14f440df45551c249838100c99d035c38d448e1b047161baf1272db983c",
+        "url": "https://download.geonames.org/export/dump/SG.zip"
+      }
+    },
+    {
+      "country": "SY",
+      "counts": {
+        "address_candidates": 11593,
+        "admin_rows": 343,
+        "ambiguous_parents": 0,
+        "country": "SY",
+        "country_scope_only": 18,
+        "localities_without_adm1": 156,
+        "locality_rows": 11742,
+        "name_en": "Syria",
+        "other_admin_rows": 7,
+        "region": "west_asia",
+        "unresolved_parents": 268
+      },
+      "source": {
+        "all_source_rows": 39427,
+        "bytes": 1999104,
+        "last_modified": "Wed, 30 Sep 2026 01:58:03 GMT",
+        "retained_rows": 12092,
+        "retrieved_at": "2026-09-30T17:00:03.983117+00:00",
+        "sha256": "8c5b6158e29b7cf9398d40f165d21ea7b3984de0126889a77d95b63862fbeb01",
+        "url": "https://download.geonames.org/export/dump/SY.zip"
+      }
+    },
+    {
+      "country": "TH",
+      "counts": {
+        "address_candidates": 87252,
+        "admin_rows": 8441,
+        "ambiguous_parents": 0,
+        "country": "TH",
+        "country_scope_only": 123,
+        "localities_without_adm1": 123,
+        "locality_rows": 87255,
+        "name_en": "Thailand",
+        "other_admin_rows": 5,
+        "region": "southeast_asia",
+        "unresolved_parents": 18
+      },
+      "source": {
+        "all_source_rows": 264777,
+        "bytes": 9811047,
+        "last_modified": "Wed, 30 Sep 2026 01:58:14 GMT",
+        "retained_rows": 95701,
+        "retrieved_at": "2026-09-30T17:02:56.694257+00:00",
+        "sha256": "48ab417f1a6b3ce8b320eb43d84b5645e62fc18853b778d2506043a4dace5a42",
+        "url": "https://download.geonames.org/export/dump/TH.zip"
+      }
+    },
+    {
+      "country": "TJ",
+      "counts": {
+        "address_candidates": 2754,
+        "admin_rows": 93,
+        "ambiguous_parents": 0,
+        "country": "TJ",
+        "country_scope_only": 105,
+        "localities_without_adm1": 143,
+        "locality_rows": 2801,
+        "name_en": "Tajikistan",
+        "other_admin_rows": 24,
+        "region": "central_asia",
+        "unresolved_parents": 13
+      },
+      "source": {
+        "all_source_rows": 4430,
+        "bytes": 188375,
+        "last_modified": "Wed, 30 Sep 2026 01:58:14 GMT",
+        "retained_rows": 2918,
+        "retrieved_at": "2026-09-30T16:59:34.885675+00:00",
+        "sha256": "3618f7568777d1aeb5f7e303141ea9105cc22cc84597d726a981773d3259dc84",
+        "url": "https://download.geonames.org/export/dump/TJ.zip"
+      }
+    },
+    {
+      "country": "TL",
+      "counts": {
+        "address_candidates": 3417,
+        "admin_rows": 520,
+        "ambiguous_parents": 0,
+        "country": "TL",
+        "country_scope_only": 8,
+        "localities_without_adm1": 8,
+        "locality_rows": 3419,
+        "name_en": "Timor Leste",
+        "other_admin_rows": 0,
+        "region": "southeast_asia",
+        "unresolved_parents": 0
+      },
+      "source": {
+        "all_source_rows": 7843,
+        "bytes": 215736,
+        "last_modified": "Wed, 30 Sep 2026 01:58:14 GMT",
+        "retained_rows": 3939,
+        "retrieved_at": "2026-09-30T16:59:41.601556+00:00",
+        "sha256": "45e03ba3526b96f5aecbd9d7cffff75a9f9644176e04fe1600253cb7f16a581f",
+        "url": "https://download.geonames.org/export/dump/TL.zip"
+      }
+    },
+    {
+      "country": "TM",
+      "counts": {
+        "address_candidates": 1432,
+        "admin_rows": 81,
+        "ambiguous_parents": 0,
+        "country": "TM",
+        "country_scope_only": 664,
+        "localities_without_adm1": 688,
+        "locality_rows": 1462,
+        "name_en": "Turkmenistan",
+        "other_admin_rows": 25,
+        "region": "central_asia",
+        "unresolved_parents": 20
+      },
+      "source": {
+        "all_source_rows": 5792,
+        "bytes": 219151,
+        "last_modified": "Wed, 30 Sep 2026 01:58:15 GMT",
+        "retained_rows": 1568,
+        "retrieved_at": "2026-09-30T16:59:13.689688+00:00",
+        "sha256": "58199a34b9aa4cd7b3ac583ec7be77bd8a494c944e1abcba29866fcbc6932cd8",
+        "url": "https://download.geonames.org/export/dump/TM.zip"
+      }
+    },
+    {
+      "country": "TR",
+      "counts": {
+        "address_candidates": 54446,
+        "admin_rows": 2614,
+        "ambiguous_parents": 0,
+        "country": "TR",
+        "country_scope_only": 1,
+        "localities_without_adm1": 216,
+        "locality_rows": 54673,
+        "name_en": "Turkey",
+        "other_admin_rows": 25,
+        "region": "west_asia",
+        "unresolved_parents": 1491
+      },
+      "source": {
+        "all_source_rows": 99892,
+        "bytes": 3605220,
+        "last_modified": "Wed, 30 Sep 2026 01:58:19 GMT",
+        "retained_rows": 57312,
+        "retrieved_at": "2026-09-30T17:01:56.773956+00:00",
+        "sha256": "3fe26f094ab009856e781fcbe5e09d6e9bcdf101c7a6cabf2bc7deeef08513bc",
+        "url": "https://download.geonames.org/export/dump/TR.zip"
+      }
+    },
+    {
+      "country": "TW",
+      "counts": {
+        "address_candidates": 16098,
+        "admin_rows": 8245,
+        "ambiguous_parents": 0,
+        "country": "TW",
+        "country_scope_only": 0,
+        "localities_without_adm1": 1,
+        "locality_rows": 16102,
+        "name_en": "Taiwan",
+        "other_admin_rows": 31,
+        "region": "east_asia",
+        "unresolved_parents": 0
+      },
+      "source": {
+        "all_source_rows": 45572,
+        "bytes": 2299633,
+        "last_modified": "Wed, 30 Sep 2026 01:58:21 GMT",
+        "retained_rows": 24378,
+        "retrieved_at": "2026-09-30T17:00:36.232025+00:00",
+        "sha256": "1475910b674a8efdbfed64d1ff562e7629a3f302a98c92c68f19086fae75af53",
+        "url": "https://download.geonames.org/export/dump/TW.zip"
+      }
+    },
+    {
+      "country": "UZ",
+      "counts": {
+        "address_candidates": 7999,
+        "admin_rows": 294,
+        "ambiguous_parents": 0,
+        "country": "UZ",
+        "country_scope_only": 949,
+        "localities_without_adm1": 959,
+        "locality_rows": 8010,
+        "name_en": "Uzbekistan",
+        "other_admin_rows": 1,
+        "region": "central_asia",
+        "unresolved_parents": 142
+      },
+      "source": {
+        "all_source_rows": 11157,
+        "bytes": 367048,
+        "last_modified": "Wed, 30 Sep 2026 01:59:30 GMT",
+        "retained_rows": 8305,
+        "retrieved_at": "2026-09-30T16:59:59.930624+00:00",
+        "sha256": "70ce94e3fb7764267193db910cef34814dbb28b9682ef3910711d9fb330efbc6",
+        "url": "https://download.geonames.org/export/dump/UZ.zip"
+      }
+    },
+    {
+      "country": "VN",
+      "counts": {
+        "address_candidates": 41494,
+        "admin_rows": 11354,
+        "ambiguous_parents": 0,
+        "country": "VN",
+        "country_scope_only": 3,
+        "localities_without_adm1": 491,
+        "locality_rows": 41977,
+        "name_en": "Vietnam",
+        "other_admin_rows": 79,
+        "region": "southeast_asia",
+        "unresolved_parents": 3928
+      },
+      "source": {
+        "all_source_rows": 67144,
+        "bytes": 1967671,
+        "last_modified": "Wed, 30 Sep 2026 01:59:34 GMT",
+        "retained_rows": 53410,
+        "retrieved_at": "2026-09-30T17:01:09.482742+00:00",
+        "sha256": "4c4b9be0eafcaba2477fbcce353d5f657ecd76cb58a728d1eea7ea13960d4ac7",
+        "url": "https://download.geonames.org/export/dump/VN.zip"
+      }
+    },
+    {
+      "country": "YE",
+      "counts": {
+        "address_candidates": 80911,
+        "admin_rows": 2403,
+        "ambiguous_parents": 0,
+        "country": "YE",
+        "country_scope_only": 3,
+        "localities_without_adm1": 95,
+        "locality_rows": 81297,
+        "name_en": "Yemen",
+        "other_admin_rows": 1,
+        "region": "west_asia",
+        "unresolved_parents": 2207
+      },
+      "source": {
+        "all_source_rows": 101462,
+        "bytes": 3810009,
+        "last_modified": "Wed, 30 Sep 2026 01:59:38 GMT",
+        "retained_rows": 83701,
+        "retrieved_at": "2026-09-30T17:02:43.986154+00:00",
+        "sha256": "bad4cef659cd5013d2759e32df212a0e9bcc1000920f301b489ffa8665dc41f7",
+        "url": "https://download.geonames.org/export/dump/YE.zip"
+      }
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "publication_status": "complete",
+  "schema_version": 1,
+  "scope_count": 52,
+  "target_scope_count": 52,
+  "total_rows": 3277921
+}

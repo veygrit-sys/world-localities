@@ -1,0 +1,68 @@
+{
+  "archive_bytes": 80059,
+  "archive_sha256": "234abe411397ab883103a6b4b2495f83e367b658b9382cf99af5adc9a9c915ec",
+  "parts": [
+    {
+      "path": "countries/WF/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 106749,
+      "stored_sha256": "0ffe38c745febd078cf6f6b9540d86e4756a18c87d8a0ffbd46b7286c283dd9b",
+      "bytes": 80059,
+      "sha256": "234abe411397ab883103a6b4b2495f83e367b658b9382cf99af5adc9a9c915ec"
+    }
+  ],
+  "members": {
+    "base/data/polynesia/WF/index.json": {
+      "bytes": 2142,
+      "sha256": "a0b1384f8c1843b5f5a5b933c9202222d85c82613a716c3a546233f0a6e9c009"
+    },
+    "base/data/polynesia/WF/places.csv": {
+      "bytes": 64448,
+      "sha256": "9a3441b57937fed6605fcd4406d77dd69e4607daf13cfa93e37512961e3cb4a0"
+    },
+    "base/data/polynesia/WF/places.jsonl": {
+      "bytes": 145206,
+      "sha256": "1e056edd0cd5a756103b3baceb3a4fc574c92e4cacbe2b9fb42ffd09a401b3fb"
+    },
+    "base/sources/geonames/WF.zip": {
+      "bytes": 23568,
+      "sha256": "c4d01d230fc893b210c5338e40184cfb404edb95075421acfb392adc7ec4d5e5"
+    },
+    "base/sources/geonames/WF.zip.download.json": {
+      "bytes": 304,
+      "sha256": "1b38511ffea3f1560246abb63034e2d62d1a7aed1c4140ed882aececc6413e73"
+    },
+    "locale/names.csv": {
+      "bytes": 63476,
+      "sha256": "5fc9305222a48aef946fb8de3aec487de43f8066f4245f216c1f33876c9bcb3d"
+    },
+    "locale/names.jsonl": {
+      "bytes": 140599,
+      "sha256": "8284489acc6677507811dc7c0d0f46f36efba2abf4feaaf89a86dcfba03ddc68"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 493,
+      "sha256": "0d7ccc5acf9adc9eb9d6602b6a0e6b70c1d351681dfbc2200bfad6fbcbfe2860"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 870,
+      "sha256": "ac10b3975f254ef5bed38ca3e17ffa8d5ae91baf8d92fd700ab8505dc90a3067"
+    },
+    "locale/sources/address-templates/WF.json": {
+      "bytes": 155,
+      "sha256": "4e973aa65c22559c86577c105f48aff364c26887edd410c82d4335e61739a24a"
+    },
+    "locale/sources/address-templates/WF.json.download.json": {
+      "bytes": 271,
+      "sha256": "241eadec0f8747d947c1e86a8fef4293202ee50900f08142cd3fb25df8df0459"
+    },
+    "locale/sources/alternatenames/WF.zip": {
+      "bytes": 18859,
+      "sha256": "fc706df5426e5573ff5766940539bea9859132bf0f02ad00a6f411e71c39a358"
+    },
+    "locale/sources/alternatenames/WF.zip.download.json": {
+      "bytes": 283,
+      "sha256": "c57eed1563607001bac76c53d56a4ddf731e45f128e490cfdc1edef7dcff249c"
+    }
+  }
+}

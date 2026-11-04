@@ -1,0 +1,91 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "BLZ",
+    "country": "BZ",
+    "geonames_continent": "NA",
+    "geonames_country_name": "Belize",
+    "geonames_id": "3582678",
+    "id": "country:BZ",
+    "m49": "084",
+    "name_en": "Belize",
+    "numeric": "084",
+    "region": "Central America",
+    "reported_languages": [
+      "en-BZ",
+      "es"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 521,
+    "admin_rows": 8,
+    "ambiguous_parents": 0,
+    "country": "BZ",
+    "country_scope_only": 1,
+    "localities_without_adm1": 1,
+    "locality_rows": 528,
+    "name_en": "Belize",
+    "other_admin_rows": 1,
+    "region": "Central America",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 6,
+    "ADM2": 2,
+    "PCLI": 1,
+    "PPL": 512,
+    "PPLA": 5,
+    "PPLC": 1,
+    "PPLL": 1,
+    "PPLQ": 5,
+    "PPLR": 1,
+    "PPLW": 1,
+    "PPLX": 2
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 26420,
+      "rows": 537,
+      "sha256": "b3020f56f01d6999686a8b97414fb98364cd5cc58ee4f1eeab9a9117f7c3b43c",
+      "uncompressed_sha256": "b73fdcd86bbacccc7c11dc85ccf816bade06da3b5d05af8aa258fe2392de5239"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 1,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 529,
+    "source_country": 6
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 6,
+      "sha256": "5e57626b94fdf0b56a256aa1183fe67529b9ff2d0981351c0e00a80ada24fb93"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 78365,
+    "discarded_feature_classes": {
+      "H": 632,
+      "L": 223,
+      "R": 1,
+      "S": 649,
+      "T": 351,
+      "U": 3,
+      "V": 1
+    },
+    "retained_rows": 537,
+    "retrieved_on": "2026-10-01",
+    "sha256": "f77735560dec7491f0dcb4235e95bcf87212bd31e3f9165babb607134d961428",
+    "source_rows": 2397,
+    "url": "https://download.geonames.org/export/dump/BZ.zip"
+  },
+  "source_modified_max": "2026-08-30",
+  "source_modified_min": "1993-12-18"
+}

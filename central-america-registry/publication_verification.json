@@ -1,0 +1,41 @@
+{
+  "clean_publication_only_test": {
+    "CR_source_and_derived_payloads": "excluded",
+    "GT_PA_original_ZIPs_initially_absent": true,
+    "automatic_reconstruction": "exact full-source hashes and sizes",
+    "compile_check": "passed",
+    "errors": 0,
+    "full_build_and_verify": "passed",
+    "query_smoke_test": "Guatemala, explicit es locale",
+    "six_country_raw_source_replay": "exact"
+  },
+  "included": [
+    "BZ",
+    "GT",
+    "HN",
+    "NI",
+    "PA",
+    "SV"
+  ],
+  "pending": [
+    "CR"
+  ],
+  "schema_version": 1,
+  "scope": "partial 6 of8 UN M49 Central America",
+  "separate": [
+    "MX"
+  ],
+  "source_replay": {
+    "entities": 53257,
+    "language_tagged_names": 42606,
+    "postal_links": 6
+  },
+  "split_chunks": 4,
+  "split_files": [
+    "sources/GT.zip",
+    "sources/PA.zip"
+  ],
+  "status": "passed",
+  "unaffected_country_hashes_preserved": true,
+  "unit_tests": 19
+}

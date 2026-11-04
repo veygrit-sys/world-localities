@@ -1,0 +1,89 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "MRT",
+    "country": "MR",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Mauritania",
+    "geonames_id": "2378080",
+    "id": "country:MR",
+    "m49": "478",
+    "name_en": "Mauritania",
+    "numeric": "478",
+    "region": "Western Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 7633,
+    "admin_rows": 71,
+    "ambiguous_parents": 0,
+    "country": "MR",
+    "country_scope_only": 54,
+    "localities_without_adm1": 55,
+    "locality_rows": 7653,
+    "name_en": "Mauritania",
+    "other_admin_rows": 2,
+    "region": "Western Africa",
+    "unresolved_parents": 140
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 15,
+    "ADM1H": 1,
+    "ADM2": 55,
+    "ADM3": 1,
+    "PCLI": 1,
+    "PPL": 7426,
+    "PPLA": 15,
+    "PPLA2": 1,
+    "PPLC": 1,
+    "PPLL": 190,
+    "PPLQ": 18,
+    "PPLS": 2
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 286991,
+      "rows": 7726,
+      "sha256": "c334b11a04669ed9bc15042f3c682e19a94fcd83ffbdce084302f215d8706954",
+      "uncompressed_sha256": "bbb3c3ff34330215b585930939b88dbd1e949951f2f7b8a12e5f057727f4915c"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 54,
+    "missing_code": 1,
+    "missing_reference": 139,
+    "not_assigned_for_other_feature": 2,
+    "source_admin_code": 7515,
+    "source_country": 15
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 15,
+      "sha256": "d33cb2f130b0f6c323e2ee42e0c5da84caec6baa1d386c217464410b8541a1c2"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 556105,
+    "discarded_feature_classes": {
+      "H": 3783,
+      "L": 978,
+      "R": 4,
+      "S": 729,
+      "T": 2987,
+      "V": 17
+    },
+    "retained_rows": 7726,
+    "retrieved_on": "2026-09-26",
+    "sha256": "5a42a524b1bdd067d748263ae4d9de0d940573500a92cf8f30ebcf225ffbf1dc",
+    "source_rows": 16224,
+    "url": "https://download.geonames.org/export/dump/MR.zip"
+  },
+  "source_modified_max": "2026-04-16",
+  "source_modified_min": "1993-12-28"
+}

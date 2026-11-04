@@ -1,0 +1,52 @@
+{
+  "chain": [
+    {
+      "source_id": "CN-statistical-villages",
+      "raw": {
+        "code": "110101001001",
+        "name": "多福巷社区居委会",
+        "streetCode": "110101001",
+        "areaCode": "110101",
+        "cityCode": "1101",
+        "provinceCode": "11"
+      }
+    },
+    {
+      "source_id": "CN-statistical-streets",
+      "raw": {
+        "code": "110101001",
+        "name": "东华门街道",
+        "areaCode": "110101",
+        "cityCode": "1101",
+        "provinceCode": "11"
+      }
+    },
+    {
+      "source_id": "CN-statistical-areas",
+      "raw": {
+        "code": "110101",
+        "name": "东城区",
+        "cityCode": "1101",
+        "provinceCode": "11"
+      }
+    },
+    {
+      "source_id": "CN-statistical-cities",
+      "raw": {
+        "code": "1101",
+        "name": "市辖区",
+        "provinceCode": "11"
+      }
+    },
+    {
+      "source_id": "CN-statistical-provinces",
+      "raw": {
+        "code": "11",
+        "name": "北京市"
+      }
+    }
+  ],
+  "parent_assignment": "explicit source fields only; no prefix or name inference",
+  "source_date": "2023-06-30",
+  "national_completeness_verified": false
+}

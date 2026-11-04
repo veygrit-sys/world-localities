@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "country": "NL",
+  "region": "western-europe",
+  "release_date": "2026-10-22",
+  "main_number_observations": 13377160,
+  "registry_open_number_observations": 10076588,
+  "number_identity_counts": {
+    "distinct_main_number_ids": 10793745,
+    "ids_with_open_record": 10076588,
+    "ids_with_multiple_open_records": 0
+  },
+  "street_name_observations": 333946,
+  "named_area_observations": 21561,
+  "locality_observations": 4293,
+  "administrative_reference": {
+    "reference_date": "2026-01-01",
+    "bag_snapshot_date": "2026-10-08",
+    "municipalities": 342,
+    "provinces": 12,
+    "municipalities_with_open_number_rows": 342,
+    "missing_municipalities": [],
+    "unlisted_municipalities": []
+  },
+  "source_file_count": 9,
+  "evidence_file_count": 3,
+  "source_row_replay": "PASS",
+  "reference_status": "GAPS_REQUIRE_REVIEW",
+  "unresolved_reference_counts": {
+    "open_number_without_open_locality": 153,
+    "open_number_without_open_public_space": 152,
+    "open_number_without_open_gwr_helper_link": 152,
+    "open_number_without_cbs_municipality": 152
+  },
+  "fixture_and_repository_tests": {
+    "netherlands_contracts": 15,
+    "previous_western_europe_contracts": 14,
+    "repository_layout": 5,
+    "snapshot_safety": 7,
+    "byte_part_restoration": 3,
+    "total": 44,
+    "status": "PASS"
+  },
+  "source_archive_restoration": "PASS: all 12 pinned source/evidence files match after reconstruction and restoration",
+  "national_completeness_verified": false,
+  "deliverability_in_scope": false,
+  "reference_gap_review": "reference-gap-review.json",
+  "reference_gap_review_status": "STRICT_GAPS_EXPLAINED_WITHOUT_REWRITING_SOURCE",
+  "source_crs_check": "All WPL srsName values are urn:ogc:def:crs:EPSG::28992",
+  "regional_cli_actual_number_search": "PASS: 3 source rows with exact number 7, open-at-snapshot predicate and explicit dated references",
+  "all_existing_source_and_evidence_pins_recovered": "PASS: 12 pinned files verified through regional CLI without overwriting prior bytes"
+}

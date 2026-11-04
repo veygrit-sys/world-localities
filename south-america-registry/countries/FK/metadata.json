@@ -1,0 +1,106 @@
+{
+  "alternate_values_file": {
+    "bytes": 6993,
+    "filename": "alternate-values.csv.gz",
+    "rows": 340,
+    "sha256": "e8be713dae0bc1819072bf5efd1b04eab9d3012867090cd7ded23faff931c23a",
+    "uncompressed_sha256": "c04252d4e7397dc003658846cf9711f50da5148586d901fdd015c443adcd0a1c"
+  },
+  "alternate_values_source": {
+    "bytes": 28062,
+    "retained_rows": 340,
+    "retrieved_on": "2026-10-01",
+    "sha256": "09548583c9f72a7e5862c68417157f665ec34cec00ae0fb09d823ffb7605a180",
+    "source_columns": 10,
+    "source_rows": 2207,
+    "url": "https://download.geonames.org/export/dump/alternatenames/FK.zip"
+  },
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "FLK",
+    "country": "FK",
+    "geonames_continent": "SA",
+    "geonames_id": "3474414",
+    "id": "country:FK",
+    "m49": "238",
+    "name_en": "Falkland Islands (Malvinas)",
+    "region": "South America",
+    "region_m49": "005",
+    "source_country_languages": [
+      "en-FK"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 57,
+    "admin_rows": 0,
+    "ambiguous_parents": 0,
+    "country": "FK",
+    "country_scope_only": 57,
+    "localities_without_adm1": 57,
+    "locality_rows": 57,
+    "name_en": "Falkland Islands (Malvinas)",
+    "other_admin_rows": 1,
+    "region": "South America",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "PCLD": 1,
+    "PPL": 56,
+    "PPLC": 1
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 5630,
+      "rows": 58,
+      "sha256": "76da59c46802816101566b7fd3015b5d95ea0ceebdf4fec4ecfe23f876a28840",
+      "uncompressed_sha256": "e3ef09956e4b5545c2aae0cb1f38103362a28688343b9cd2d6aeb5f8f97d7ed0"
+    }
+  },
+  "known_issues": [],
+  "label_coverage": {
+    "current_country_language_name_entities": 11,
+    "current_english_name_entities": 11,
+    "language_tagged_name_entities": 14,
+    "missing_country_language_name_entities": 47,
+    "missing_english_name_entities": 47,
+    "native_label_rule": "Exact source language tag matched against countryInfo language list; no language is inferred from primary name, ASCII, spelling or script. Country-language match is not proof of each place's indigenous language."
+  },
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 57,
+    "not_assigned_for_other_feature": 1
+  },
+  "postal_coverage": {
+    "note": "Only source post-tag values, if any; not joined by place name and not delivery validation.",
+    "postal_deliverability_verified": false,
+    "postal_validation": false,
+    "source_postal_value_rows": 0
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 0,
+      "sha256": "6fe5bf94663e3f1bddc0b9a464613de7e45a6c2fb10f5a5f4b51e70f1c4c31c2"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 39573,
+    "discarded_feature_classes": {
+      "H": 365,
+      "L": 14,
+      "S": 18,
+      "T": 673
+    },
+    "retained_rows": 58,
+    "retrieved_on": "2026-10-01",
+    "sha256": "2b9aac57045f4c34ed16301411022c7340c4127d2be187fdec40f8e51280a323",
+    "source_rows": 1128,
+    "url": "https://download.geonames.org/export/dump/FK.zip"
+  },
+  "source_modified_max": "2026-08-09",
+  "source_modified_min": "1993-12-27"
+}

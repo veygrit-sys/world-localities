@@ -1,0 +1,84 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "CPV",
+    "country": "CV",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Cabo Verde",
+    "geonames_id": "3374766",
+    "id": "country:CV",
+    "m49": "132",
+    "name_en": "Cabo Verde",
+    "numeric": "132",
+    "region": "Western Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 2846,
+    "admin_rows": 54,
+    "ambiguous_parents": 0,
+    "country": "CV",
+    "country_scope_only": 27,
+    "localities_without_adm1": 27,
+    "locality_rows": 2846,
+    "name_en": "Cabo Verde",
+    "other_admin_rows": 1,
+    "region": "Western Africa",
+    "unresolved_parents": 79
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 22,
+    "ADM2": 32,
+    "PCLI": 1,
+    "PPL": 2265,
+    "PPLA": 20,
+    "PPLC": 1,
+    "PPLL": 452,
+    "PPLX": 108
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 104338,
+      "rows": 2901,
+      "sha256": "40a82ea48e41822b1fddc4c668631d69032050e4b9347a300df7d2cb65b6ed7f",
+      "uncompressed_sha256": "dc714c755527854cdf0b51d8332bfeb6382c7aaa6855c320a13bb5d74e7a36a4"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 27,
+    "missing_reference": 79,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 2772,
+    "source_country": 22
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 22,
+      "sha256": "bbdd11eeb006e5999e90e9e1044baf78dc1ba8b45ba81dd5e38972aa8e9c3dad"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 214869,
+    "discarded_feature_classes": {
+      "H": 1535,
+      "L": 736,
+      "R": 4,
+      "S": 301,
+      "T": 1957,
+      "V": 1
+    },
+    "retained_rows": 2901,
+    "retrieved_on": "2026-09-26",
+    "sha256": "aa02b85e876e85d72d3cb20407550036d8444a77c110dc642743fea6832a838e",
+    "source_rows": 7435,
+    "url": "https://download.geonames.org/export/dump/CV.zip"
+  },
+  "source_modified_max": "2026-08-20",
+  "source_modified_min": "1993-12-21"
+}

@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "country": "BR",
+  "vintage": null,
+  "counts": {
+    "regions": 27,
+    "states": 26,
+    "federal_districts": 1,
+    "source_localities": 5571,
+    "municipalities": 5569,
+    "municipality_equivalents": 2,
+    "categories": {
+      "municipality": 5569,
+      "state_district": 1,
+      "federal_district_locality_equivalent": 1
+    },
+    "source_reference_date": null,
+    "legacy_microregion_missing": 1,
+    "coverage": "All 27 UFs; municipio endpoint includes separate federal/state district equivalents",
+    "postal_coverage": "not_loaded; IBGE municipality codes are not postal codes",
+    "source_date_policy": "undated live API; retrieval time and payload checksum identify each snapshot"
+  },
+  "regions": [
+    {
+      "code": "BR-AC",
+      "id": "admin:csc:2012",
+      "name": "Acre",
+      "file": "BR-AC.csv",
+      "localities": 22,
+      "address_candidates": 22
+    },
+    {
+      "code": "BR-AL",
+      "id": "admin:csc:2007",
+      "name": "Alagoas",
+      "file": "BR-AL.csv",
+      "localities": 102,
+      "address_candidates": 102
+    },
+    {
+      "code": "BR-AM",
+      "id": "admin:csc:2004",
+      "name": "Amazonas",
+      "file": "BR-AM.csv",
+      "localities": 62,
+      "address_candidates": 62
+    },
+    {
+      "code": "BR-AP",
+      "id": "admin:csc:1999",
+      "name": "Amapá",
+      "file": "BR-AP.csv",
+      "localities": 16,
+      "address_candidates": 16
+    },
+    {
+      "code": "BR-BA",
+      "id": "admin:csc:2002",
+      "name": "Bahia",
+      "file": "BR-BA.csv",
+      "localities": 417,
+      "address_candidates": 417
+    },
+    {
+      "code": "BR-CE",
+      "id": "admin:csc:2016",
+      "name": "Ceará",
+      "file": "BR-CE.csv",
+      "localities": 184,
+      "address_candidates": 184
+    },
+    {
+      "code": "BR-DF",
+      "id": "admin:csc:2017",
+      "name": "Distrito Federal",
+      "file": "BR-DF.csv",
+      "localities": 1,
+      "address_candidates": 1
+    },
+    {
+      "code": "BR-ES",
+      "id": "admin:csc:2018",
+      "name": "Espírito Santo",
+      "file": "BR-ES.csv",
+      "localities": 78,
+      "address_candidates": 78
+    },
+    {
+      "code": "BR-GO",
+      "id": "admin:csc:2000",
+      "name": "Goiás",
+      "file": "BR-GO.csv",
+      "localities": 246,
+      "address_candidates": 246
+    },
+    {
+      "code": "BR-MA",
+      "id": "admin:csc:2015",
+      "name": "Maranhão",
+      "file": "BR-MA.csv",
+      "localities": 217,
+      "address_candidates": 217
+    },
+    {
+      "code": "BR-MG",
+      "id": "admin:csc:1998",
+      "name": "Minas Gerais",
+      "file": "BR-MG.csv",
+      "localities": 853,
+      "address_candidates": 853
+    },
+    {
+      "code": "BR-MS",
+      "id": "admin:csc:2010",
+      "name": "Mato Grosso do Sul",
+      "file": "BR-MS.csv",
+      "localities": 79,
+      "address_candidates": 79
+    },
+    {
+      "code": "BR-MT",
+      "id": "admin:csc:2011",
+      "name": "Mato Grosso",
+      "file": "BR-MT.csv",
+      "localities": 142,
+      "address_candidates": 142
+    },
+    {
+      "code": "BR-PA",
+      "id": "admin:csc:2009",
+      "name": "Pará",
+      "file": "BR-PA.csv",
+      "localities": 144,
+      "address_candidates": 144
+    },
+    {
+      "code": "BR-PB",
+      "id": "admin:csc:2005",
+      "name": "Paraíba",
+      "file": "BR-PB.csv",
+      "localities": 223,
+      "address_candidates": 223
+    },
+    {
+      "code": "BR-PE",
+      "id": "admin:csc:2006",
+      "name": "Pernambuco",
+      "file": "BR-PE.csv",
+      "localities": 185,
+      "address_candidates": 185
+    },
+    {
+      "code": "BR-PI",
+      "id": "admin:csc:2008",
+      "name": "Piauí",
+      "file": "BR-PI.csv",
+      "localities": 224,
+      "address_candidates": 224
+    },
+    {
+      "code": "BR-PR",
+      "id": "admin:csc:2022",
+      "name": "Paraná",
+      "file": "BR-PR.csv",
+      "localities": 399,
+      "address_candidates": 399
+    },
+    {
+      "code": "BR-RJ",
+      "id": "admin:csc:1997",
+      "name": "Rio de Janeiro",
+      "file": "BR-RJ.csv",
+      "localities": 92,
+      "address_candidates": 92
+    },
+    {
+      "code": "BR-RN",
+      "id": "admin:csc:2019",
+      "name": "Rio Grande do Norte",
+      "file": "BR-RN.csv",
+      "localities": 167,
+      "address_candidates": 167
+    },
+    {
+      "code": "BR-RO",
+      "id": "admin:csc:2013",
+      "name": "Rondônia",
+      "file": "BR-RO.csv",
+      "localities": 52,
+      "address_candidates": 52
+    },
+    {
+      "code": "BR-RR",
+      "id": "admin:csc:4858",
+      "name": "Roraima",
+      "file": "BR-RR.csv",
+      "localities": 15,
+      "address_candidates": 15
+    },
+    {
+      "code": "BR-RS",
+      "id": "admin:csc:2001",
+      "name": "Rio Grande do Sul",
+      "file": "BR-RS.csv",
+      "localities": 497,
+      "address_candidates": 497
+    },
+    {
+      "code": "BR-SC",
+      "id": "admin:csc:2014",
+      "name": "Santa Catarina",
+      "file": "BR-SC.csv",
+      "localities": 295,
+      "address_candidates": 295
+    },
+    {
+      "code": "BR-SE",
+      "id": "admin:csc:2003",
+      "name": "Sergipe",
+      "file": "BR-SE.csv",
+      "localities": 75,
+      "address_candidates": 75
+    },
+    {
+      "code": "BR-SP",
+      "id": "admin:csc:2021",
+      "name": "São Paulo",
+      "file": "BR-SP.csv",
+      "localities": 645,
+      "address_candidates": 645
+    },
+    {
+      "code": "BR-TO",
+      "id": "admin:csc:2020",
+      "name": "Tocantins",
+      "file": "BR-TO.csv",
+      "localities": 139,
+      "address_candidates": 139
+    }
+  ],
+  "columns": [
+    "id",
+    "code",
+    "source_type",
+    "category",
+    "name",
+    "lang",
+    "parent_id",
+    "state_id",
+    "state_code",
+    "address_country",
+    "address_candidate",
+    "postcodes",
+    "postcode_relations",
+    "government_status",
+    "department_code",
+    "collectivity_code"
+  ],
+  "format": "UTF-8 CSV; string codes; pipe-separated postcodes and parallel relations; source-specific IDs"
+}

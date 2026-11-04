@@ -1,0 +1,87 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "SSD",
+    "country": "SS",
+    "geonames_continent": "AF",
+    "geonames_country_name": "South Sudan",
+    "geonames_id": "7909807",
+    "id": "country:SS",
+    "m49": "728",
+    "name_en": "South Sudan",
+    "numeric": "728",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 5309,
+    "admin_rows": 38,
+    "ambiguous_parents": 0,
+    "country": "SS",
+    "country_scope_only": 5,
+    "localities_without_adm1": 6,
+    "locality_rows": 5341,
+    "name_en": "South Sudan",
+    "other_admin_rows": 37,
+    "region": "Eastern Africa",
+    "unresolved_parents": 1
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 10,
+    "ADM1H": 34,
+    "ADM2": 28,
+    "ADM2H": 2,
+    "PCLI": 1,
+    "PPL": 5291,
+    "PPLA": 9,
+    "PPLC": 1,
+    "PPLL": 7,
+    "PPLQ": 32,
+    "PPLX": 1
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 171560,
+      "rows": 5416,
+      "sha256": "62264b9f7478087368ce7d7a2fff4a2573cfd00013c8cd30d606e1db6655356e",
+      "uncompressed_sha256": "2a6351cdd9f1af5eb6a799b7697bb08623fa0c56f29c0e9c84754a0b213d9cae"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 5,
+    "missing_reference": 1,
+    "not_assigned_for_other_feature": 37,
+    "source_admin_code": 5363,
+    "source_country": 10
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 10,
+      "sha256": "dc778a86bfc3d1622e4b5002cd47e0c139537cf7f9a6003aa77b253bffc789d1"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 324535,
+    "discarded_feature_classes": {
+      "H": 4157,
+      "L": 552,
+      "S": 547,
+      "T": 1547,
+      "U": 1,
+      "V": 29
+    },
+    "retained_rows": 5416,
+    "retrieved_on": "2026-09-26",
+    "sha256": "5c084ee5d9154f222c7834b972610375cc38b36e2fb8e6542e35d9e1ef9d2729",
+    "source_rows": 12249,
+    "url": "https://download.geonames.org/export/dump/SS.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "2011-10-02"
+}

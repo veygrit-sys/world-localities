@@ -1,0 +1,3061 @@
+{
+  "schema_version": 1,
+  "release_date": "2026-10-17",
+  "sources": [
+    {
+      "id": "ag-geonames-geonames",
+      "country": "AG",
+      "path": "AG/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/AG.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames AG geonames",
+      "sha256": "d2bb62dcb6f80af2282d254ac735706abe1ac2270192a60af558268a9b811768",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:20.995906+00:00",
+      "bytes": 34507,
+      "final_url": "https://download.geonames.org/export/dump/AG.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:00:03 GMT",
+        "ETag": "\"86cb-65deb85ccc984\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "ag-geonames-names",
+      "country": "AG",
+      "path": "AG/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/AG.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames AG names",
+      "sha256": "9bd059063aa1428e12ae624d05be5c97994eaefd28cfcde4ea1da0b986ae73c4",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:20.992837+00:00",
+      "bytes": 24468,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/AG.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:10:54 GMT",
+        "ETag": "\"5f94-65debac951a0b\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "ai-geonames-geonames",
+      "country": "AI",
+      "path": "AI/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/AI.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames AI geonames",
+      "sha256": "ae1f60155217fe3290b546a0e5eac2031028c6a02819d3e4359b933ebfc66b21",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:51.592806+00:00",
+      "bytes": 16182,
+      "final_url": "https://download.geonames.org/export/dump/AI.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:00:03 GMT",
+        "ETag": "\"3f36-65deb85ccf864\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "ai-geonames-names",
+      "country": "AI",
+      "path": "AI/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/AI.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames AI names",
+      "sha256": "b9119d0ce2d4c62aca512f4f4638aeee89dce46651383bcba8bb6eb962c3268b",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:51.616084+00:00",
+      "bytes": 13589,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/AI.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:10:54 GMT",
+        "ETag": "\"3515-65debac952d93\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "aw-geonames-geonames",
+      "country": "AW",
+      "path": "AW/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/AW.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames AW geonames",
+      "sha256": "c3e2b499e4c9167c6027ef1663cbf6a9b988fd11ae466dd827e58a1fd47d0441",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:55.452715+00:00",
+      "bytes": 18293,
+      "final_url": "https://download.geonames.org/export/dump/AW.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:00:21 GMT",
+        "ETag": "\"4775-65deb86de7fa9\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "aw-geonames-names",
+      "country": "AW",
+      "path": "AW/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/AW.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames AW names",
+      "sha256": "bce2aa6557b89fde1e48715e7ef17c98379f876beac965ab52fd4863f1c6d620",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:55.663257+00:00",
+      "bytes": 11112,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/AW.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:10:58 GMT",
+        "ETag": "\"2b68-65debaccda5c4\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "bb-codab-gazetteer",
+      "country": "BB",
+      "path": "BB/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/91ee6430-ca2a-446c-8659-8fcf5410591b/resource/9d017332-4503-4c7d-80cf-8c7a0013faa2/download/brb_adm_gz.xlsx",
+      "format": "xlsx",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "GADM database of Global Administrative Areas (www.gadm.org)",
+      "vintage_notes": "Barbados administrative level 0-1 boundaries (COD-AB) dataset.\r\n\r\nThe date that these administrative boundaries were established is unknown.\r\n\r\nNOTE:  COD-AB P-codes created by OCHA and are not official.\r\nThis COD-AB has NOT been reviewed for accuracy and necessary changes in the last 12 months.\r\n\r\nSourced from GADM database of Global Administrative Areas (www.gadm.org)\r\n\r\nVetting by Information Technology Outreach Services (ITOS) with funding from USAID.\r\n\r\nThis COD-AB is suitable for database or GIS linkage to the Barbados [COD-PS](https://data.humdata.org/dataset/cod-ps-brb).\r\n\r\nAs this is an island country, no edge-matched (COD-EM) version of this COD-AB is required.\r\n\r\nPlease see the [COD Portal](https://cod.unocha.org/).\r\n\r\nAdministrative level 1 contains 11 feature(s).  The normal administrative level 1 feature type is 'currently not known'.\r\n\r\nRecommended cartographic projection:  North America Albers Equal Area Conic\r\n\r\nThis metadata was last updated on January 17, 2025.",
+      "title": "Barbados - Subnational Administrative Boundaries",
+      "sha256": "78952f5df0d908d923c097adf60a2920b10bc742dc72d31cd232b70fdde99a31",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:38.436321+00:00",
+      "bytes": 12315,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/9d017332-4503-4c7d-80cf-8c7a0013faa2/brb_adm_gz.xlsx?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=k5flQW3pAQ658ksHqXSuMBYhZkM%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201245",
+      "http_metadata": {
+        "Last-Modified": "Thu, 25 Mar 2021 14:49:57 GMT",
+        "ETag": "\"48a1fa4b5629e48e2988f49797d8d3c1\"",
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      "namespace": "codab-bb-20261017",
+      "layers": [
+        {
+          "sheet": "brb_adm1_pop",
+          "level": 1,
+          "kind": "parish",
+          "expected_rows": 11,
+          "code_field": "ADM1_PCODE",
+          "name_field": "ADM1_EN",
+          "country_field": "ADM0_PCODE",
+          "country_value": "BB",
+          "code_pattern": "BB[0-9-]+",
+          "parent_fields": [],
+          "aliases": [],
+          "language": "en"
+        }
+      ],
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "bb-codab-metadata",
+      "country": "BB",
+      "path": "BB/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-brb",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "Barbados - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:36:20.985847+00:00",
+      "bytes": 24330,
+      "sha256": "aab13a473d56a11a3522690f675cbfc88176a668cc90cf1b767f88400b5a4aa5",
+      "selected_for_index": false
+    },
+    {
+      "id": "bb-geonames-geonames",
+      "country": "BB",
+      "path": "BB/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/BB.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames BB geonames",
+      "sha256": "70468310c33ac6cd3f7fa8e2945db481146ea723217d811fee874f9850feab0f",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:26.929735+00:00",
+      "bytes": 40421,
+      "final_url": "https://download.geonames.org/export/dump/BB.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:00:24 GMT",
+        "ETag": "\"9de5-65deb870519e6\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "bb-geonames-names",
+      "country": "BB",
+      "path": "BB/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/BB.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames BB names",
+      "sha256": "6ea68fc9c2d72f2be08445e732f812ced458f007bdd67e95dea05e817b135c25",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:27.085281+00:00",
+      "bytes": 21700,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/BB.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:10:58 GMT",
+        "ETag": "\"54c4-65debacda0d5c\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "bl-geonames-geonames",
+      "country": "BL",
+      "path": "BL/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/BL.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames BL geonames",
+      "sha256": "b5d0bd552fd0fec167eaa9c6a2347e70f55613e85e484e08eb78db0ec09e1648",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:12.439562+00:00",
+      "bytes": 10803,
+      "final_url": "https://download.geonames.org/export/dump/BL.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:00:29 GMT",
+        "ETag": "\"2a33-65deb874eeb3d\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "bl-geonames-names",
+      "country": "BL",
+      "path": "BL/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/BL.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames BL names",
+      "sha256": "069792aa5dbddd2a4bd6cd2257c4a4b64577b90895422d053909ad93efd4ec92",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:12.611822+00:00",
+      "bytes": 11280,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/BL.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:00 GMT",
+        "ETag": "\"2c10-65debacf05bf7\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "bq-codab-gazetteer",
+      "country": "BQ",
+      "path": "BQ/cod-ab-adm1.zip",
+      "url": "https://data.humdata.org/dataset/8262b1d5-4338-451a-8b49-e2da9affb7be/resource/2097beae-b8cc-4940-b879-3b335e26e03f/download/bes_adm1.zip",
+      "format": "zip",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "Bonaire, Sint Eustatius and Saba administrative level 0-1 boundaries (COD-AB) dataset.\r\n\r\nThe date that these administrative boundaries were established is unknown.\r\n\r\nNOTE:  The time period of the dataset is based on the 10 October 2010 dissolution of the former Netherlands Antilles.\r\nThis COD-AB has NOT been reviewed for accuracy and necessary changes in the last 12 months.\r\n\r\nSourced from www.gadm.org\r\n\r\nVetting by Information Technology Outreach Services (ITOS) with funding from USAID.\r\n\r\nThere is no suitable population statistics dataset (COD-PS) for linkage to this COD-AB..\r\n\r\nAs this is an island country, no edge-matched (COD-EM) version of this COD-AB is required.\r\n\r\nPlease see the [COD Portal](https://cod.unocha.org/).\r\n\r\nAdministrative level 1 contains 3 feature(s).  The normal administrative level 1 feature type is 'currently not known'.\r\n\r\nRecommended cartographic projection:  North America Albers Equal Area Conic\r\n\r\nThis metadata was last updated on January 17, 2025.",
+      "title": "Bonaire, Sint Eustatius and Saba - Subnational Administrative Boundaries",
+      "sha256": "96173d678b98aed190d84b3326d57ff74763830e8463d1caf0cceba0dd21ac6c",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:38:03.081946+00:00",
+      "bytes": 19413,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/2097beae-b8cc-4940-b879-3b335e26e03f/bes_adm1.zip?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=k35Vej5TaYl%2FKCWRreUnzznwqYQ%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201269",
+      "http_metadata": {
+        "Last-Modified": "Thu, 25 Mar 2021 12:59:39 GMT",
+        "ETag": "\"7b7022e3e267d54fb4daee815ba36453\"",
+        "Content-Type": "application/x-zip-compressed"
+      },
+      "namespace": "codab-bq-20261017",
+      "layers": [
+        {
+          "member": "bes_adm1/BES_adm1.dbf",
+          "level": 1,
+          "kind": "island_area_reference",
+          "expected_rows": 3,
+          "code_field": "adm1code",
+          "name_field": "NAME_1",
+          "country_field": "adm0code",
+          "country_value": "BES",
+          "code_pattern": "BES[0-9]+",
+          "parent_fields": [],
+          "aliases": [],
+          "language": null
+        }
+      ],
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "bq-codab-metadata",
+      "country": "BQ",
+      "path": "BQ/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-bes",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "Bonaire, Sint Eustatius and Saba - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:36:46.426204+00:00",
+      "bytes": 21133,
+      "sha256": "e0921a049b9aa5b823703c76956546e2355d8621528b69e88d7e5a9ac89ec73c",
+      "selected_for_index": false
+    },
+    {
+      "id": "bq-geonames-geonames",
+      "country": "BQ",
+      "path": "BQ/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/BQ.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames BQ geonames",
+      "sha256": "94b1e16dddc274301204c2b84e3411655ba22da46a576e30190c5dd9b8c09457",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:55.666778+00:00",
+      "bytes": 23927,
+      "final_url": "https://download.geonames.org/export/dump/BQ.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:00:30 GMT",
+        "ETag": "\"5d77-65deb87620d64\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "bq-geonames-names",
+      "country": "BQ",
+      "path": "BQ/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/BQ.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames BQ names",
+      "sha256": "ee3102aa88eb3bb78b511226c62e15a2fa565084a6d9707e6ea34f87fd94da11",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:55.728972+00:00",
+      "bytes": 15744,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/BQ.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:00 GMT",
+        "ETag": "\"3d80-65debacf5593c\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "bs-codab-gazetteer",
+      "country": "BS",
+      "path": "BS/cod-ab-adm1.zip",
+      "url": "https://data.humdata.org/dataset/692fc891-1e44-4413-9e88-999349c86ca7/resource/d521054d-7272-4368-abf2-8a5d9f2b2ae7/download/bhs_adm1_gdams_2009.zip",
+      "format": "zip",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "Bahamas administrative level 0-1 boundaries (COD-AB) dataset.\r\n\r\nThe date that these administrative boundaries were established is unknown.\r\n\r\nThis COD-AB was most recently reviewed for accuracy and necessary changes in April 2024.  The COD-AB does not require any update.\r\n\r\nSourced from www.gadm.org\r\n\r\nVetting by Information Technology Outreach Services (ITOS) with funding from USAID.\r\n\r\nThis COD-AB is suitable for database or GIS linkage to the Bahamas [COD-PS](https://data.humdata.org/dataset/cod-ps-bhs).\r\n\r\nAs this is an island country, no edge-matched (COD-EM) version of this COD-AB is required.\r\n\r\nPlease see the [COD Portal](https://cod.unocha.org/).\r\n\r\nAdministrative level 1 contains 32 feature(s).  The normal administrative level 1 feature type is 'currently not known'.\r\n\r\nRecommended cartographic projection:  North America Albers Equal Area Conic\r\n\r\nThis metadata was last updated on January 17, 2025.",
+      "title": "Bahamas - Subnational Administrative Boundaries",
+      "sha256": "12f4caf6143c28371e21b85095658c80d518560f9526bbb8f2fdb0b48dcb84d7",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:38.437407+00:00",
+      "bytes": 1074253,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/d521054d-7272-4368-abf2-8a5d9f2b2ae7/bhs_adm1_gdams_2009.zip?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=R8nwp%2BzylTqe%2BqFkqg6p%2FlDNayo%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201245",
+      "http_metadata": {
+        "Last-Modified": "Thu, 25 Mar 2021 15:38:57 GMT",
+        "ETag": "\"124ec26ca0d0071a25a294f6687c73ba\"",
+        "Content-Type": "application/zip"
+      },
+      "namespace": "codab-bs-20261017",
+      "layers": [
+        {
+          "member": "BHS_adm1.dbf",
+          "level": 1,
+          "kind": "district_or_capital_island_reference",
+          "expected_rows": 32,
+          "code_field": "HASC_1",
+          "name_field": "NAME_1",
+          "country_field": "ISO",
+          "country_value": "BHS",
+          "code_pattern": "BS\\.[A-Z]+",
+          "parent_fields": [],
+          "aliases": [],
+          "language": "en"
+        }
+      ],
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "bs-codab-metadata",
+      "country": "BS",
+      "path": "BS/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-bhs",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "Bahamas - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:36:20.985302+00:00",
+      "bytes": 23021,
+      "sha256": "07b9b07e4fe25a1e422dfef97e69b2b1dcbff5d398f9ac0e44dea609d9955edc",
+      "selected_for_index": false
+    },
+    {
+      "id": "bs-geonames-geonames",
+      "country": "BS",
+      "path": "BS/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/BS.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames BS geonames",
+      "sha256": "2092bb650853f673cecf4652c0810ae6f5e7af854012360026404a94073cc218",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:20.996828+00:00",
+      "bytes": 96352,
+      "final_url": "https://download.geonames.org/export/dump/BS.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:00:38 GMT",
+        "ETag": "\"17860-65deb87dfa7c5\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "bs-geonames-names",
+      "country": "BS",
+      "path": "BS/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/BS.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames BS names",
+      "sha256": "d7e00ef190b41cee4174665482e973a82702bb51e0b53d5a969fa70134c9fe12",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:20.995286+00:00",
+      "bytes": 66902,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/BS.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:02 GMT",
+        "ETag": "\"10556-65debad165226\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "cu-codab-gazetteer",
+      "country": "CU",
+      "path": "CU/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/32b4ba2e-2ee5-4b2b-a7e4-9e4d323ffe73/resource/9df83ef3-c88c-40ba-bb6c-566af4c465cc/download/cub_admin_boundaries.xlsx",
+      "format": "xlsx",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "Cuba administrative level 0-2 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 2 levels:  \n- Admin 1: 16 province  \n- Admin 2: 168 municipio  \n  \n  \nNote: nan  \n  \n  \nDates associated with this dataset:  \n- 21 June 2019: dataset reviewed for accuracy and completeness  \n- 21 June 2019: valid for use by the humanitarian community  \n- 21 June 2019: last edit to the dataset before publishing  \n- 07 September 2017: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "title": "Cuba - Subnational Administrative Boundaries",
+      "sha256": "e8d9a5f768e808993f176e765de99c3946fabcb0669ad4c2ca2acbd0f7ab8ed6",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:38.437774+00:00",
+      "bytes": 78607,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/9df83ef3-c88c-40ba-bb6c-566af4c465cc/cub_admin_boundaries.xlsx?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=ph8wo9GfFdpNH8w%2FHQzz23zKnNg%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201244",
+      "http_metadata": {
+        "Last-Modified": "Mon, 26 Jan 2026 15:30:07 GMT",
+        "ETag": "\"dae29daa01121974f4a91c2c02a3b850\"",
+        "Content-Type": "application/octet-stream"
+      },
+      "namespace": "codab-cu-v01",
+      "layers": [
+        {
+          "sheet": "cub_admin1",
+          "level": 1,
+          "kind": "province_or_special_municipality",
+          "expected_rows": 16,
+          "code_field": "adm1_pcode",
+          "name_field": "adm1_name",
+          "country_field": "adm0_pcode",
+          "country_value": "CU",
+          "code_pattern": "CU[0-9-]+",
+          "parent_fields": [],
+          "aliases": [
+            {
+              "field": "adm1_name1",
+              "language_field": "lang1"
+            },
+            {
+              "field": "adm1_name2",
+              "language_field": "lang2"
+            },
+            {
+              "field": "adm1_name3",
+              "language_field": "lang3"
+            },
+            {
+              "field": "adm1_ref_name",
+              "language": null
+            },
+            {
+              "field": "adm1_ref_name1",
+              "language": null
+            }
+          ],
+          "version_field": "version",
+          "language_field": "lang"
+        },
+        {
+          "sheet": "cub_admin2",
+          "level": 2,
+          "kind": "municipality",
+          "expected_rows": 168,
+          "code_field": "adm2_pcode",
+          "name_field": "adm2_name",
+          "country_field": "adm0_pcode",
+          "country_value": "CU",
+          "code_pattern": "CU[0-9-]+",
+          "parent_fields": [
+            "adm1_pcode"
+          ],
+          "aliases": [
+            {
+              "field": "adm2_name1",
+              "language_field": "lang1"
+            },
+            {
+              "field": "adm2_name2",
+              "language_field": "lang2"
+            },
+            {
+              "field": "adm2_name3",
+              "language_field": "lang3"
+            },
+            {
+              "field": "adm2_ref_name",
+              "language": null
+            },
+            {
+              "field": "adm2_ref_name1",
+              "language": null
+            }
+          ],
+          "version_field": "version",
+          "language_field": "lang"
+        }
+      ],
+      "version": "v01",
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "cu-codab-metadata",
+      "country": "CU",
+      "path": "CU/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-cub",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "Cuba - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:36:20.986308+00:00",
+      "bytes": 27580,
+      "sha256": "a2845d7b5613be558a3a55304d9b1b6d723f7177e88e0bf8022abf0b4167f907",
+      "selected_for_index": false
+    },
+    {
+      "id": "cu-geonames-geonames",
+      "country": "CU",
+      "path": "CU/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/CU.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames CU geonames",
+      "sha256": "e0001453bcc9b63fb36bd14340572ec8b9361150cd5d157d970c02898c824cab",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:27.171859+00:00",
+      "bytes": 1171932,
+      "final_url": "https://download.geonames.org/export/dump/CU.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:01:38 GMT",
+        "ETag": "\"11e1dc-65deb8b6faa6a\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "cu-geonames-names",
+      "country": "CU",
+      "path": "CU/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/CU.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames CU names",
+      "sha256": "e1421eba56c9f989c00776d41f4f69775fa00a6354f9933262936fa1a42ae6af",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:27.290970+00:00",
+      "bytes": 423452,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/CU.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:22 GMT",
+        "ETag": "\"6761c-65debae41f0b7\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "cw-codab-gazetteer",
+      "country": "CW",
+      "path": "CW/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/e1761a91-7848-4449-9f1f-d2e97832b509/resource/349dff81-32a3-411f-82a8-8d54633ad24f/download/cuw_gz.xlsx",
+      "format": "xlsx",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "Curaçao administrative level 0-1 boundaries (COD-AB) dataset.\r\n\r\nThe date that these administrative boundaries were established is unknown.\r\nThis COD-AB has NOT been reviewed for accuracy and necessary changes in the last 12 months.\r\n\r\nSourced from www.gadm.org\r\n\r\nVetting by Information Technology Outreach Services (ITOS) with funding from USAID.\r\n\r\nThis COD-AB is suitable for database or GIS linkage to the Curaçao [COD-PS](https://data.humdata.org/dataset/cod-ps-cuw).\r\n\r\nAs this is an island country, no edge-matched (COD-EM) version of this COD-AB is required.\r\n\r\nPlease see the [COD Portal](https://cod.unocha.org/).\r\n\r\nAdministrative level 1 contains 66 feature(s).  The normal administrative level 1 feature type is 'currently not known'.\r\n\r\nRecommended cartographic projection:  North America Albers Equal Area Conic\r\n\r\nThis metadata was last updated on January 18, 2025.",
+      "title": "Curaçao - Subnational Administrative Boundaries",
+      "sha256": "5f5a0a8ebe24c5b15d797d9809fc79e73c034b0e10f282397c363666717891f3",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:38:15.158936+00:00",
+      "bytes": 14238,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/349dff81-32a3-411f-82a8-8d54633ad24f/cuw_gz.xlsx?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=uk8PFCZCweo9k0w8GWs69u8CeAc%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201281",
+      "http_metadata": {
+        "Last-Modified": "Thu, 25 Mar 2021 13:15:20 GMT",
+        "ETag": "\"504728c9ef878c4b0b2bf30433647865\"",
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      "namespace": "codab-cw-20261017",
+      "layers": [
+        {
+          "sheet": "cuw_adm1_gz",
+          "level": 1,
+          "kind": "source_adm1_area",
+          "expected_rows": 66,
+          "code_field": "ADM1_PCODE",
+          "name_field": "ADM1_NL",
+          "country_field": "ADM0_PCODE",
+          "country_value": "CW",
+          "code_pattern": "CW[0-9-]+",
+          "parent_fields": [],
+          "aliases": [
+            {
+              "field": "ADM1_REF",
+              "language": null
+            }
+          ],
+          "language": "nl",
+          "non_geographic_codes": {
+            "-": "Homeless respondents"
+          }
+        }
+      ],
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "cw-codab-metadata",
+      "country": "CW",
+      "path": "CW/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-cuw",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "Curaçao - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:36:53.205058+00:00",
+      "bytes": 18154,
+      "sha256": "79088cc0b566ab6d27fcac35e2452a1b7a1df30a00099e223b431fd0286c41b4",
+      "selected_for_index": false
+    },
+    {
+      "id": "cw-geonames-geonames",
+      "country": "CW",
+      "path": "CW/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/CW.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames CW geonames",
+      "sha256": "208223c009a68593f2a9bc226946c0757460330bee0cdabc0de759603ab61191",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:04.049369+00:00",
+      "bytes": 18034,
+      "final_url": "https://download.geonames.org/export/dump/CW.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:01:38 GMT",
+        "ETag": "\"4672-65deb8b73dc91\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "cw-geonames-names",
+      "country": "CW",
+      "path": "CW/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/CW.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames CW names",
+      "sha256": "f8a04fba8d0cbfb715dfc9bd0347cf7c0f0530698f321a4c1c36946b52d744b1",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:04.160382+00:00",
+      "bytes": 11392,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/CW.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:22 GMT",
+        "ETag": "\"2c80-65debae428525\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "dm-codab-gazetteer",
+      "country": "DM",
+      "path": "DM/cod-ab-adm1.zip",
+      "url": "https://data.humdata.org/dataset/f905304f-8969-44e1-a523-16b714da9dd6/resource/e7a22bdf-4f56-4153-bea6-77244bb237c7/download/dma_admn_adm1_py_s1_dominode.zip",
+      "format": "zip",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "(Source to be clarified.)",
+      "vintage_notes": "Dominica administrative level 0-1 boundaries (COD-AB) dataset.\r\n\r\nThe date that these administrative boundaries were established is unknown.\r\nThis COD-AB has NOT been reviewed for accuracy and necessary changes in the last 12 months.\r\n\r\nSourced from (Source to be clarified.)\r\n\r\nVetting by Information Technology Outreach Services (ITOS) with funding from USAID.\r\n\r\nThis COD-AB is suitable for database or GIS linkage to the Dominica [COD-PS](https://data.humdata.org/dataset/cod-ps-dma).\r\n\r\nAs this is an island country, no edge-matched (COD-EM) version of this COD-AB is required.\r\n\r\nPlease see the [COD Portal](https://cod.unocha.org/).\r\n\r\nAdministrative level 1 contains 10 feature(s).  The normal administrative level 1 feature type is \"\"currently not known\"\".\r\n\r\nRecommended cartographic projection:  North America Albers Equal Area Conic\r\n\r\nThis metadata was last updated on January 9, 2025.",
+      "title": "Dominica - Subnational Administrative Boundaries",
+      "sha256": "300a0323e8daa41d2b186a8283c5000c44c31835c42880515af67f3676cd66f7",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:50.625886+00:00",
+      "bytes": 98221,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/e7a22bdf-4f56-4153-bea6-77244bb237c7/dma_admn_adm1_py_s1_dominode.zip?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=K2gkcyvg9xZwbepLD1key%2FRknsg%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201257",
+      "http_metadata": {
+        "Last-Modified": "Thu, 25 Mar 2021 15:52:54 GMT",
+        "ETag": "\"6302be32ad9d13068c53604ff5225758\"",
+        "Content-Type": "application/zip"
+      },
+      "namespace": "codab-dm-20261017",
+      "layers": [
+        {
+          "member": "dma_admn_adm1_py_s1_dominode_v2.dbf",
+          "level": 1,
+          "kind": "parish",
+          "expected_rows": 10,
+          "code_field": "PCode",
+          "name_field": "NAME",
+          "country_field": "ADM0_PCODE",
+          "country_value": "DM",
+          "code_pattern": "DM[0-9-]+",
+          "parent_fields": [],
+          "aliases": [],
+          "language": "en"
+        }
+      ],
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "dm-codab-metadata",
+      "country": "DM",
+      "path": "DM/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-dma",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "Dominica - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:36:28.123419+00:00",
+      "bytes": 30799,
+      "sha256": "a712e30bd84d7b642193c3602fc1def3aff1b8ef5a51d7f7ee9d543cffa919cc",
+      "selected_for_index": false
+    },
+    {
+      "id": "dm-geonames-geonames",
+      "country": "DM",
+      "path": "DM/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/DM.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames DM geonames",
+      "sha256": "379d7066458f7591ed5e459d567c9d8eeed01f1eb4edd9596a1abe11f9b782d4",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:32.051259+00:00",
+      "bytes": 26396,
+      "final_url": "https://download.geonames.org/export/dump/DM.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:01:49 GMT",
+        "ETag": "\"671c-65deb8c1c5eac\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "dm-geonames-names",
+      "country": "DM",
+      "path": "DM/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/DM.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames DM names",
+      "sha256": "9f4899e2fa0b114bbfb457626fa07fb3fddd900ebce33ceaf39ec0243fd71e00",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:32.140380+00:00",
+      "bytes": 25672,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/DM.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:25 GMT",
+        "ETag": "\"6448-65debae7396ea\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "do-codab-gazetteer",
+      "country": "DO",
+      "path": "DO/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/1b26ea94-4d28-4167-9209-4984ab087973/resource/a7dec461-4f33-4117-b043-ccf9a471580c/download/dom_admin_boundaries.xlsx",
+      "format": "xlsx",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "Oficina Nacional de Estadística",
+      "vintage_notes": "Dominican Republic administrative level 0-4 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 4 levels:  \n- Admin 1: 10 region  \n- Admin 2: 32 province or national district (distrito nacional)  \n- Admin 3: 155 municipio  \n- Admin 4: 386 dm(?)  \n  \n  \nDates associated with this dataset:  \n- 17 February 2025: dataset reviewed for accuracy and completeness  \n- 29 June 2021: valid for use by the humanitarian community  \n- 06 September 2017: last edit to the dataset before publishing  \n- 06 September 2017: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "title": "Dominican Republic - Subnational Administrative Boundaries",
+      "sha256": "822b3f00f1e939c9df8350bc93c5ea6d37835c4a975d885cfeb5ff113c357f80",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:38.438090+00:00",
+      "bytes": 189873,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/a7dec461-4f33-4117-b043-ccf9a471580c/dom_admin_boundaries.xlsx?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=tR0yR%2BV9Y9X5KfsslCDfb5Uq%2BdI%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201244",
+      "http_metadata": {
+        "Last-Modified": "Mon, 26 Jan 2026 15:31:41 GMT",
+        "ETag": "\"60a25fd22082e0eb893ead4490bedf69\"",
+        "Content-Type": "application/octet-stream"
+      },
+      "namespace": "codab-do-v01",
+      "layers": [
+        {
+          "sheet": "dom_admin1",
+          "level": 1,
+          "kind": "planning_region",
+          "expected_rows": 10,
+          "code_field": "adm1_pcode",
+          "name_field": "adm1_name",
+          "country_field": "adm0_pcode",
+          "country_value": "DO",
+          "code_pattern": "DO[0-9-]+",
+          "parent_fields": [],
+          "aliases": [
+            {
+              "field": "adm1_name1",
+              "language_field": "lang1"
+            },
+            {
+              "field": "adm1_name2",
+              "language_field": "lang2"
+            },
+            {
+              "field": "adm1_name3",
+              "language_field": "lang3"
+            },
+            {
+              "field": "adm1_ref_name",
+              "language": null
+            },
+            {
+              "field": "adm1_ref_name1",
+              "language": null
+            }
+          ],
+          "version_field": "version",
+          "language_field": "lang"
+        },
+        {
+          "sheet": "dom_admin2",
+          "level": 2,
+          "kind": "province_or_national_district",
+          "expected_rows": 32,
+          "code_field": "adm2_pcode",
+          "name_field": "adm2_name",
+          "country_field": "adm0_pcode",
+          "country_value": "DO",
+          "code_pattern": "DO[0-9-]+",
+          "parent_fields": [
+            "adm1_pcode"
+          ],
+          "aliases": [
+            {
+              "field": "adm2_name1",
+              "language_field": "lang1"
+            },
+            {
+              "field": "adm2_name2",
+              "language_field": "lang2"
+            },
+            {
+              "field": "adm2_name3",
+              "language_field": "lang3"
+            },
+            {
+              "field": "adm2_ref_name",
+              "language": null
+            },
+            {
+              "field": "adm2_ref_name1",
+              "language": null
+            }
+          ],
+          "version_field": "version",
+          "language_field": "lang"
+        },
+        {
+          "sheet": "dom_admin3",
+          "level": 3,
+          "kind": "municipality",
+          "expected_rows": 155,
+          "code_field": "adm3_pcode",
+          "name_field": "adm3_name",
+          "country_field": "adm0_pcode",
+          "country_value": "DO",
+          "code_pattern": "DO[0-9-]+",
+          "parent_fields": [
+            "adm1_pcode",
+            "adm2_pcode"
+          ],
+          "aliases": [
+            {
+              "field": "adm3_name1",
+              "language_field": "lang1"
+            },
+            {
+              "field": "adm3_name2",
+              "language_field": "lang2"
+            },
+            {
+              "field": "adm3_name3",
+              "language_field": "lang3"
+            },
+            {
+              "field": "adm3_ref_name",
+              "language": null
+            },
+            {
+              "field": "adm3_ref_name1",
+              "language": null
+            }
+          ],
+          "version_field": "version",
+          "language_field": "lang"
+        },
+        {
+          "sheet": "dom_admin4",
+          "level": 4,
+          "kind": "municipality_seat_or_municipal_district",
+          "expected_rows": 386,
+          "code_field": "adm4_pcode",
+          "name_field": "adm4_name",
+          "country_field": "adm0_pcode",
+          "country_value": "DO",
+          "code_pattern": "DO[0-9-]+",
+          "parent_fields": [
+            "adm1_pcode",
+            "adm2_pcode",
+            "adm3_pcode"
+          ],
+          "aliases": [
+            {
+              "field": "adm4_name1",
+              "language_field": "lang1"
+            },
+            {
+              "field": "adm4_name2",
+              "language_field": "lang2"
+            },
+            {
+              "field": "adm4_name3",
+              "language_field": "lang3"
+            },
+            {
+              "field": "adm4_ref_name",
+              "language": null
+            },
+            {
+              "field": "adm4_ref_name1",
+              "language": null
+            }
+          ],
+          "version_field": "version",
+          "language_field": "lang"
+        }
+      ],
+      "version": "v01",
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "do-codab-metadata",
+      "country": "DO",
+      "path": "DO/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-dom",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "Dominican Republic - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:36:28.149958+00:00",
+      "bytes": 49996,
+      "sha256": "2fc47eb4d96bcd05ba2257c45f5a446354fe6c4f9ed04b3541ca63fc43ab8d32",
+      "selected_for_index": false
+    },
+    {
+      "id": "do-geonames-geonames",
+      "country": "DO",
+      "path": "DO/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/DO.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames DO geonames",
+      "sha256": "fe0dbdd9ace6c3c72c6281866961cc8762b7056e9e7c62d7b35db8732746d741",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:32.505207+00:00",
+      "bytes": 1068125,
+      "final_url": "https://download.geonames.org/export/dump/DO.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:01:50 GMT",
+        "ETag": "\"104c5d-65deb8c30f7ce\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "do-geonames-names",
+      "country": "DO",
+      "path": "DO/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/DO.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames DO names",
+      "sha256": "cfe7d3dcef9000347067f695f6cfd97a5589c8828aeb9e62b0ca5c3b4780401b",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:32.648440+00:00",
+      "bytes": 224866,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/DO.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:25 GMT",
+        "ETag": "\"36e62-65debae75f071\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "fr-insee-cog-2026",
+      "country": "COMMON",
+      "applies_to": [
+        "GP",
+        "MQ",
+        "BL",
+        "MF"
+      ],
+      "path": "COMMON/cog-2026.zip",
+      "url": "https://www.insee.fr/fr/statistiques/fichier/8740222/cog_ensemble_2026_csv.zip",
+      "format": "zip",
+      "licence": "Licence Ouverte 2.0",
+      "terms_url": "https://www.insee.fr/fr/information/2008466",
+      "attribution": "INSEE COG 2026",
+      "vintage": "2026-01-01",
+      "title": "INSEE COG 2026, GP/MQ/BL/MF filters",
+      "sha256": "5c037e2977c9d476cfe2e7b7f923bbe09a87cbe448c59e492a71ef6a917aa53f",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:10.214372+00:00",
+      "bytes": 1961824,
+      "final_url": "https://www.insee.fr/fr/statistiques/fichier/8740222/cog_ensemble_2026_csv.zip",
+      "http_metadata": {
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "gd-codab-gazetteer",
+      "country": "GD",
+      "path": "GD/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/ffdc3580-45ee-4630-9abf-4dd8a8b002d3/resource/597108ce-d7b8-4ddc-baf1-7dc6a922e6d5/download/grd_admin_boundaries.xlsx",
+      "format": "xlsx",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "Caribbean Disaster Emergency Management Agency (CDEMA)",
+      "vintage_notes": "Grenada administrative level 0-1 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 1 level:  \n- Admin 1: 8 Parish  \n  \n  \nDates associated with this dataset:  \n- 07 July 2024: dataset reviewed for accuracy and completeness  \n- 09 July 2024: valid for use by the humanitarian community  \n- 08 September 2017: last edit to the dataset before publishing  \n- 08 September 2017: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "title": "Grenada - Subnational Administrative Boundaries",
+      "sha256": "c4af26f43e7c2fd76cc7b7cff0b07e748b45b0a0644d1f79859a2278ac1ab9d1",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:50.640285+00:00",
+      "bytes": 6492,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/597108ce-d7b8-4ddc-baf1-7dc6a922e6d5/grd_admin_boundaries.xlsx?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=8Lvwlh%2FLKAK7z8GDsSTYAp8Ze5Q%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201257",
+      "http_metadata": {
+        "Last-Modified": "Fri, 14 Aug 2026 07:13:53 GMT",
+        "ETag": "\"9d5116a83439ee84c3ede6e23067b716\"",
+        "Content-Type": "application/octet-stream"
+      },
+      "namespace": "codab-gd-v01",
+      "layers": [
+        {
+          "sheet": "grd_admin1",
+          "level": 1,
+          "kind": "parish_or_dependency_island",
+          "expected_rows": 8,
+          "code_field": "adm1_pcode",
+          "name_field": "adm1_name",
+          "country_field": "adm0_pcode",
+          "country_value": "GD",
+          "code_pattern": "GD[0-9-]+",
+          "parent_fields": [],
+          "aliases": [
+            {
+              "field": "adm1_name1",
+              "language_field": "lang1"
+            },
+            {
+              "field": "adm1_name2",
+              "language_field": "lang2"
+            },
+            {
+              "field": "adm1_name3",
+              "language_field": "lang3"
+            },
+            {
+              "field": "adm1_ref_name",
+              "language": null
+            },
+            {
+              "field": "adm1_ref_name1",
+              "language": null
+            }
+          ],
+          "version_field": "version",
+          "language_field": "lang"
+        }
+      ],
+      "version": "v01",
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "gd-codab-metadata",
+      "country": "GD",
+      "path": "GD/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-grd",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "Grenada - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:36:28.168380+00:00",
+      "bytes": 15394,
+      "sha256": "ee28152f0689c45152d22e2fa4f87c987349ed47ea2e827c392e1579fbcfdecd",
+      "selected_for_index": false
+    },
+    {
+      "id": "gd-geonames-geonames",
+      "country": "GD",
+      "path": "GD/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/GD.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames GD geonames",
+      "sha256": "0bc1bb6d9a4a900ebfe11a432c20931ebef737d8b8fdc58c41e5438f358ddfe5",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:36.348497+00:00",
+      "bytes": 31479,
+      "final_url": "https://download.geonames.org/export/dump/GD.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:02:30 GMT",
+        "ETag": "\"7af7-65deb8e8a2110\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "gd-geonames-names",
+      "country": "GD",
+      "path": "GD/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/GD.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames GD names",
+      "sha256": "28e052d0aa0bf533528aecebcda245940c40045a89c627fd56b38d37cd8bbba7",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:36.462879+00:00",
+      "bytes": 21190,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/GD.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:38 GMT",
+        "ETag": "\"52c6-65debaf3906d9\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "gn-admin1CodesASCII",
+      "country": "COMMON",
+      "path": "COMMON/admin1CodesASCII.txt",
+      "url": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+      "format": "tsv",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames admin1CodesASCII.txt",
+      "retrieved_at": "2026-10-17T00:07:11.944936+00:00",
+      "bytes": 151583,
+      "sha256": "1da92a6323a5fec3176f3f743bf4cf4040fd56a876da55e46fbca23c863aa60a",
+      "final_url": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:07:51 GMT",
+        "ETag": "\"2501f-65deba1a96d66\"",
+        "Content-Type": "text/plain; charset=utf-8"
+      },
+      "selected_for_index": true,
+      "inherited_from": "Veygrit_CentralAmerica_20261017.zip"
+    },
+    {
+      "id": "gn-admin2Codes",
+      "country": "COMMON",
+      "path": "COMMON/admin2Codes.txt",
+      "url": "https://download.geonames.org/export/dump/admin2Codes.txt",
+      "format": "tsv",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames admin2Codes.txt",
+      "retrieved_at": "2026-10-17T00:07:17.339170+00:00",
+      "bytes": 2366323,
+      "sha256": "985b37390cad51f51b03897e503748db5acddfd9442438532cfab1ac9fd1cbcd",
+      "final_url": "https://download.geonames.org/export/dump/admin2Codes.txt",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:07:51 GMT",
+        "ETag": "\"241b73-65deba1a96d66\"",
+        "Content-Type": "text/plain; charset=utf-8"
+      },
+      "selected_for_index": true,
+      "inherited_from": "Veygrit_CentralAmerica_20261017.zip"
+    },
+    {
+      "id": "gn-adminCode5",
+      "country": "COMMON",
+      "path": "COMMON/adminCode5.zip",
+      "url": "https://download.geonames.org/export/dump/adminCode5.zip",
+      "format": "zip",
+      "member": "adminCode5.txt",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames additional ADM5 codes",
+      "sha256": "10a3365e2f409f81571fd5d51a57efce0ee8c832b74d3a041abdd8c3ae5626a1",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:38:43.540684+00:00",
+      "bytes": 366714,
+      "final_url": "https://download.geonames.org/export/dump/adminCode5.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:07:51 GMT",
+        "ETag": "\"5987a-65deba1a96d66\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "gn-countryInfo",
+      "country": "COMMON",
+      "path": "COMMON/countryInfo.txt",
+      "url": "https://download.geonames.org/export/dump/countryInfo.txt",
+      "format": "tsv",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames countryInfo.txt",
+      "retrieved_at": "2026-10-17T00:07:17.431014+00:00",
+      "bytes": 31690,
+      "sha256": "c55f638cfaafb4fe45a9aa15120a0f1f78e8a34a8e1847d7b9320cf740fbc9ab",
+      "final_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:13:35 GMT",
+        "ETag": "\"7bca-65debb6340838\"",
+        "Content-Type": "text/plain; charset=utf-8"
+      },
+      "selected_for_index": false,
+      "inherited_from": "Veygrit_CentralAmerica_20261017.zip"
+    },
+    {
+      "id": "gn-readme",
+      "country": "COMMON",
+      "path": "COMMON/readme.txt",
+      "url": "https://download.geonames.org/export/dump/readme.txt",
+      "format": "tsv",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames readme.txt",
+      "retrieved_at": "2026-10-17T00:07:17.643009+00:00",
+      "bytes": 8843,
+      "sha256": "b1957379b6c1242c700c98ac9a8aa0a09f56c3c0a50ee72175527005f48ef2c5",
+      "final_url": "https://download.geonames.org/export/dump/readme.txt",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 01:57:47 GMT",
+        "ETag": "\"228b-65deb7dae7285\"",
+        "Content-Type": "text/plain; charset=utf-8"
+      },
+      "selected_for_index": false,
+      "inherited_from": "Veygrit_CentralAmerica_20261017.zip"
+    },
+    {
+      "id": "gp-geonames-geonames",
+      "country": "GP",
+      "path": "GP/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/GP.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames GP geonames",
+      "sha256": "dc741d9cef96d218574b68fe29ace333312a9204ddc85459464e40fdacd000f7",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:04.235102+00:00",
+      "bytes": 116156,
+      "final_url": "https://download.geonames.org/export/dump/GP.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:02:32 GMT",
+        "ETag": "\"1c5bc-65deb8eabc1f0\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "gp-geonames-names",
+      "country": "GP",
+      "path": "GP/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/GP.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames GP names",
+      "sha256": "3e6ca046aae66a859a667ea10d5857d5f505c50f314eabe56f0d31f14fa2894a",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:04.246266+00:00",
+      "bytes": 62362,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/GP.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:39 GMT",
+        "ETag": "\"f39a-65debaf44979d\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "ht-codab-gazetteer",
+      "country": "HT",
+      "path": "HT/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/777e8b06-337f-4295-80bc-ca1515244215/resource/08d3ec12-d827-4fd2-8f18-67a5dd08f421/download/hti_admin_boundaries.xlsx",
+      "format": "xlsx",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "Centre National de l'Information Géo-Spatiale (CNIGS)",
+      "vintage_notes": "Haiti administrative level 0-3 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 3 levels:  \n- Admin 1: 10 Departement  \n- Admin 2: 140 Commune  \n- Admin 3: 570 section communale / Communal Section  \n  \n  \nDates associated with this dataset:  \n- 06 January 2025: dataset reviewed for accuracy and completeness  \n- 29 November 2018: valid for use by the humanitarian community  \n- 29 March 1987: last edit to the dataset before publishing  \n- 29 March 1987: boundaries created by the source  \n  \nContributed by [OCHA Haiti](https://data.humdata.org/organization/ocha-haiti).  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "title": "Haiti - Subnational Administrative Boundaries",
+      "sha256": "1c861f1a04812cca763b75190e8650588d5b4acb92494ea0e8c0e18bce8bd7f4",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:50.707920+00:00",
+      "bytes": 268972,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/08d3ec12-d827-4fd2-8f18-67a5dd08f421/hti_admin_boundaries.xlsx?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=fDZmAVgUz6BOA%2FELRIb0ZQ0Cc5k%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201257",
+      "http_metadata": {
+        "Last-Modified": "Mon, 26 Jan 2026 15:40:45 GMT",
+        "ETag": "\"af854cf2de9d25f9b840de1ea4a3b929\"",
+        "Content-Type": "application/octet-stream"
+      },
+      "namespace": "codab-ht-v01",
+      "layers": [
+        {
+          "sheet": "hti_admin1",
+          "level": 1,
+          "kind": "department",
+          "expected_rows": 10,
+          "code_field": "adm1_pcode",
+          "name_field": "adm1_name",
+          "country_field": "adm0_pcode",
+          "country_value": "HT",
+          "code_pattern": "HT[0-9-]+",
+          "parent_fields": [],
+          "aliases": [
+            {
+              "field": "adm1_name1",
+              "language_field": "lang1"
+            },
+            {
+              "field": "adm1_name2",
+              "language_field": "lang2"
+            },
+            {
+              "field": "adm1_name3",
+              "language_field": "lang3"
+            },
+            {
+              "field": "adm1_ref_name",
+              "language": null
+            },
+            {
+              "field": "adm1_ref_name1",
+              "language": null
+            }
+          ],
+          "version_field": "version",
+          "language_field": "lang"
+        },
+        {
+          "sheet": "hti_admin2",
+          "level": 2,
+          "kind": "commune",
+          "expected_rows": 140,
+          "code_field": "adm2_pcode",
+          "name_field": "adm2_name",
+          "country_field": "adm0_pcode",
+          "country_value": "HT",
+          "code_pattern": "HT[0-9-]+",
+          "parent_fields": [
+            "adm1_pcode"
+          ],
+          "aliases": [
+            {
+              "field": "adm2_name1",
+              "language_field": "lang1"
+            },
+            {
+              "field": "adm2_name2",
+              "language_field": "lang2"
+            },
+            {
+              "field": "adm2_name3",
+              "language_field": "lang3"
+            },
+            {
+              "field": "adm2_ref_name",
+              "language": null
+            },
+            {
+              "field": "adm2_ref_name1",
+              "language": null
+            }
+          ],
+          "version_field": "version",
+          "language_field": "lang"
+        },
+        {
+          "sheet": "hti_admin3",
+          "level": 3,
+          "kind": "communal_section",
+          "expected_rows": 570,
+          "code_field": "adm3_pcode",
+          "name_field": "adm3_name",
+          "country_field": "adm0_pcode",
+          "country_value": "HT",
+          "code_pattern": "HT[0-9-]+",
+          "parent_fields": [
+            "adm1_pcode",
+            "adm2_pcode"
+          ],
+          "aliases": [
+            {
+              "field": "adm3_name1",
+              "language_field": "lang1"
+            },
+            {
+              "field": "adm3_name2",
+              "language_field": "lang2"
+            },
+            {
+              "field": "adm3_name3",
+              "language_field": "lang3"
+            },
+            {
+              "field": "adm3_ref_name",
+              "language": null
+            },
+            {
+              "field": "adm3_ref_name1",
+              "language": null
+            }
+          ],
+          "version_field": "version",
+          "language_field": "lang"
+        }
+      ],
+      "version": "v01",
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "ht-codab-metadata",
+      "country": "HT",
+      "path": "HT/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-hti",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "Haiti - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:36:28.182943+00:00",
+      "bytes": 45371,
+      "sha256": "8494d2acae88322a91e50923a9ba5369eaef907f34dde5ca4e99035eb8e50515",
+      "selected_for_index": false
+    },
+    {
+      "id": "ht-geonames-geonames",
+      "country": "HT",
+      "path": "HT/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/HT.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames HT geonames",
+      "sha256": "3e1fb262f92b1be4e6efcecf89d2b400f38c32ca767070cffaf45af73c4c3cdf",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:36.829061+00:00",
+      "bytes": 426217,
+      "final_url": "https://download.geonames.org/export/dump/HT.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:02:38 GMT",
+        "ETag": "\"680e9-65deb8f013791\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "ht-geonames-names",
+      "country": "HT",
+      "path": "HT/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/HT.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames HT names",
+      "sha256": "b538b51688135af84d54c01024add700410342240bf45b47e2d12a7d56e28f7c",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:37.322727+00:00",
+      "bytes": 146212,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/HT.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:41 GMT",
+        "ETag": "\"23b24-65debaf616a17\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "jm-codab-gazetteer",
+      "country": "JM",
+      "path": "JM/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/fee5299d-52f5-4273-a878-56175210da82/resource/2def20f0-6e28-44e3-bdd4-995264f65c8e/download/jam_admin_boundaries.xlsx",
+      "format": "xlsx",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "Jamaica Social Development Commission (sdc.gov.jm)",
+      "vintage_notes": "Jamaica administrative level 0-3 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 3 levels:  \n- Admin 1: 14   \n- Admin 2: 131   \n- Admin 3: 775   \n  \n  \nDates associated with this dataset:  \n- 24 July 2024: dataset reviewed for accuracy and completeness  \n- 02 August 2024: valid for use by the humanitarian community  \n- 09 September 2017: last edit to the dataset before publishing  \n- 09 September 2017: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "title": "Jamaica - Subnational Administrative Boundaries",
+      "sha256": "1b252cc3ab8e46a6dbf50e2c6ccf7d5db3aa68d8e8f4d52b5bbe6c75609b3655",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:38:02.936211+00:00",
+      "bytes": 169787,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/2def20f0-6e28-44e3-bdd4-995264f65c8e/jam_admin_boundaries.xlsx?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=yWLi7QYmPJaOpcbxBL%2BeOENEa6Q%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201269",
+      "http_metadata": {
+        "Last-Modified": "Mon, 26 Jan 2026 15:42:39 GMT",
+        "ETag": "\"2a5f3460b559c5885c785e4e92e33e86\"",
+        "Content-Type": "application/octet-stream"
+      },
+      "namespace": "codab-jm-v01",
+      "layers": [
+        {
+          "sheet": "jam_admin1",
+          "level": 1,
+          "kind": "parish",
+          "expected_rows": 14,
+          "code_field": "adm1_pcode",
+          "name_field": "adm1_name",
+          "country_field": "adm0_pcode",
+          "country_value": "JM",
+          "code_pattern": "JM[0-9-]+",
+          "parent_fields": [],
+          "aliases": [
+            {
+              "field": "adm1_name1",
+              "language_field": "lang1"
+            },
+            {
+              "field": "adm1_name2",
+              "language_field": "lang2"
+            },
+            {
+              "field": "adm1_name3",
+              "language_field": "lang3"
+            },
+            {
+              "field": "adm1_ref_name",
+              "language": null
+            },
+            {
+              "field": "adm1_ref_name1",
+              "language": null
+            }
+          ],
+          "version_field": "version",
+          "language_field": "lang"
+        },
+        {
+          "sheet": "jam_admin2",
+          "level": 2,
+          "kind": "source_adm2_area",
+          "expected_rows": 131,
+          "code_field": "adm2_pcode",
+          "name_field": "adm2_name",
+          "country_field": "adm0_pcode",
+          "country_value": "JM",
+          "code_pattern": "JM[0-9-]+",
+          "parent_fields": [
+            "adm1_pcode"
+          ],
+          "aliases": [
+            {
+              "field": "adm2_name1",
+              "language_field": "lang1"
+            },
+            {
+              "field": "adm2_name2",
+              "language_field": "lang2"
+            },
+            {
+              "field": "adm2_name3",
+              "language_field": "lang3"
+            },
+            {
+              "field": "adm2_ref_name",
+              "language": null
+            },
+            {
+              "field": "adm2_ref_name1",
+              "language": null
+            }
+          ],
+          "version_field": "version",
+          "language_field": "lang"
+        },
+        {
+          "sheet": "jam_admin3",
+          "level": 3,
+          "kind": "source_adm3_area",
+          "expected_rows": 775,
+          "code_field": "adm3_pcode",
+          "name_field": "adm3_name",
+          "country_field": "adm0_pcode",
+          "country_value": "JM",
+          "code_pattern": "JM[0-9-]+",
+          "parent_fields": [
+            "adm1_pcode",
+            "adm2_pcode"
+          ],
+          "aliases": [
+            {
+              "field": "adm3_name1",
+              "language_field": "lang1"
+            },
+            {
+              "field": "adm3_name2",
+              "language_field": "lang2"
+            },
+            {
+              "field": "adm3_name3",
+              "language_field": "lang3"
+            },
+            {
+              "field": "adm3_ref_name",
+              "language": null
+            },
+            {
+              "field": "adm3_ref_name1",
+              "language": null
+            }
+          ],
+          "version_field": "version",
+          "language_field": "lang"
+        }
+      ],
+      "version": "v01",
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "jm-codab-metadata",
+      "country": "JM",
+      "path": "JM/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-jam",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "Jamaica - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:36:36.104864+00:00",
+      "bytes": 35451,
+      "sha256": "17ffbbe29c700e99eb4721cb4e75c3005b424128c9e0be3260150a221e752daf",
+      "selected_for_index": false
+    },
+    {
+      "id": "jm-geonames-geonames",
+      "country": "JM",
+      "path": "JM/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/JM.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames JM geonames",
+      "sha256": "de6d08b59c7441a785ede5d683923cea6516c208d87e1b0c271916af188af883",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:41.763121+00:00",
+      "bytes": 236672,
+      "final_url": "https://download.geonames.org/export/dump/JM.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:03:33 GMT",
+        "ETag": "\"39c80-65deb9250a405\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "jm-geonames-names",
+      "country": "JM",
+      "path": "JM/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/JM.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames JM names",
+      "sha256": "a8e92a0021305f499b51f06f6e7d44fef37d76180d7105072d8f09f7831d7895",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:41.772650+00:00",
+      "bytes": 100289,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/JM.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:56 GMT",
+        "ETag": "\"187c1-65debb04fc5fa\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "kn-codab-gazetteer",
+      "country": "KN",
+      "path": "KN/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/f62e5af2-463f-4880-a121-d76577cf3a03/resource/05c12b08-b627-493d-a77f-704c16425438/download/kna_admgz_2020.xlsx",
+      "format": "xlsx",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "\"Saint Kitts and Nevis administrative level 0-1 boundaries (COD-AB) dataset.\r\n\r\nThe date that these administrative boundaries were established is unknown.\r\nThis COD-AB has NOT been reviewed for accuracy and necessary changes in the last 12 months.\r\n\r\nSourced from www.gadm.org\r\n\r\nVetting by Information Technology Outreach Services (ITOS) with funding from USAID.\r\n\r\nThis COD-AB is suitable for database or GIS linkage to the Saint Kitts and Nevis [COD-PS](https://data.humdata.org/dataset/cod-ps-kna).\r\n\r\nAs this is an island country, no edge-matched (COD-EM) version of this COD-AB is required.\r\n\r\nPlease see the [COD Portal](https://cod.unocha.org/).\r\n\r\nAdministrative level 1 contains 14 feature(s).  The normal administrative level 1 feature type is \"\"currently not known\"\".\r\n\r\nRecommended cartographic projection:  North America Albers Equal Area Conic\r\n\r\nThis metadata was last updated on January 9, 2025.\"",
+      "title": "Saint Kitts and Nevis - Subnational Administrative Boundaries",
+      "sha256": "18149db0a882ad3446eb50afa313dd68f5c04d49e2c5b43284d316cfafb4f1be",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:38:02.975824+00:00",
+      "bytes": 12485,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/05c12b08-b627-493d-a77f-704c16425438/kna_admgz_2020.xlsx?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=RLevR1G%2BUJg1nL66HCfXKRTFFKs%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201269",
+      "http_metadata": {
+        "Last-Modified": "Thu, 25 Mar 2021 12:28:16 GMT",
+        "ETag": "\"37f2aa81fbc78ee0a9dc9e4563d667f3\"",
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      "namespace": "codab-kn-20261017",
+      "layers": [
+        {
+          "sheet": "kna_adm1_gz",
+          "level": 1,
+          "kind": "parish",
+          "expected_rows": 14,
+          "code_field": "ADM1_PCODE",
+          "name_field": "ADM1_EN",
+          "country_field": "ADM0_PCODE",
+          "country_value": "KN",
+          "code_pattern": "KN[0-9-]+",
+          "parent_fields": [],
+          "aliases": [],
+          "language": "en"
+        }
+      ],
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "kn-codab-metadata",
+      "country": "KN",
+      "path": "KN/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-kna",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "Saint Kitts and Nevis - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:36:36.108054+00:00",
+      "bytes": 15218,
+      "sha256": "4fe4cfa846fbb79a06f4b2a78e0f3b696fbc7ce80bfc688c731028c307a5ec41",
+      "selected_for_index": false
+    },
+    {
+      "id": "kn-geonames-geonames",
+      "country": "KN",
+      "path": "KN/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/KN.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames KN geonames",
+      "sha256": "03bd5ed09b1d5aa4e97852265ee96f76c898db24f5109d591a0a862539ed73b5",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:42.155709+00:00",
+      "bytes": 28935,
+      "final_url": "https://download.geonames.org/export/dump/KN.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:03:41 GMT",
+        "ETag": "\"7107-65deb92cd6f5f\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "kn-geonames-names",
+      "country": "KN",
+      "path": "KN/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/KN.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames KN names",
+      "sha256": "f13ce2a57ded063ed02fcf086c58d7454d98635e2c5de3f0e40a4870306b1778",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:42.401638+00:00",
+      "bytes": 24381,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/KN.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:12:00 GMT",
+        "ETag": "\"5f3d-65debb0879e05\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "ky-codab-gazetteer",
+      "country": "KY",
+      "path": "KY/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/01381a57-754f-46f4-ba1a-763f78796401/resource/92017521-cf60-470f-a01e-d74ea79adb19/download/cym_admgz_2020.xlsx",
+      "format": "xlsx",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "Cayman Islands administrative level 0-1 boundaries (COD-AB) dataset.\r\n\r\nThe date that these administrative boundaries were established is unknown.\r\nThis COD-AB has NOT been reviewed for accuracy and necessary changes in the last 12 months.\r\n\r\nSourced from www.gadm.org\r\n\r\nVetting by Information Technology Outreach Services (ITOS) with funding from USAID.\r\n\r\nThis COD-AB is suitable for database or GIS linkage to the Cayman Islands [COD-PS](https://data.humdata.org/dataset/cod-ps-cym).\r\n\r\nAs this is an island country, no edge-matched (COD-EM) version of this COD-AB is required.\r\n\r\nPlease see the [COD Portal](https://cod.unocha.org/).\r\n\r\nAdministrative level 1 contains 6 feature(s).  The normal administrative level 1 feature type is 'District'.\r\n\r\nRecommended cartographic projection:  North America Albers Equal Area Conic\r\n\r\nThis metadata was last updated on January 18, 2025.",
+      "title": "Cayman Islands - Subnational Administrative Boundaries",
+      "sha256": "2fbb342e42dc1f4d93aa8208b6c4792fc6e77d5d3e10cde3298bf575a81e14a3",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:38:15.114751+00:00",
+      "bytes": 11241,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/92017521-cf60-470f-a01e-d74ea79adb19/cym_admgz_2020.xlsx?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=yTiOZwU9IT%2BrXKHMT3RmYstc5Oo%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201281",
+      "http_metadata": {
+        "Last-Modified": "Thu, 25 Mar 2021 14:39:58 GMT",
+        "ETag": "\"f04b7580fbd768cba28fff700f38db49\"",
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      "namespace": "codab-ky-20261017",
+      "layers": [
+        {
+          "sheet": "cym_adm1_pop",
+          "level": 1,
+          "kind": "district",
+          "expected_rows": 6,
+          "code_field": "ADM1_PCODE",
+          "name_field": "NAME_1",
+          "country_field": "ADM0_PCODE",
+          "country_value": "KY",
+          "code_pattern": "KY[0-9-]+",
+          "parent_fields": [],
+          "aliases": [],
+          "language": "en"
+        }
+      ],
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "ky-codab-metadata",
+      "country": "KY",
+      "path": "KY/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-cym",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "Cayman Islands - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:36:53.145678+00:00",
+      "bytes": 10263,
+      "sha256": "cf4d5475f7ce6df6533bc50e5ed1d3152210e44695f66e35ac8ead73a81dcb97",
+      "selected_for_index": false
+    },
+    {
+      "id": "ky-geonames-geonames",
+      "country": "KY",
+      "path": "KY/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/KY.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames KY geonames",
+      "sha256": "cee407ccefb17eca1349b71536b4e2896d7092a24d2d8f440b27c78fc8157c0f",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:00.008744+00:00",
+      "bytes": 18935,
+      "final_url": "https://download.geonames.org/export/dump/KY.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:03:50 GMT",
+        "ETag": "\"49f7-65deb93550c18\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "ky-geonames-names",
+      "country": "KY",
+      "path": "KY/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/KY.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames KY names",
+      "sha256": "d8cd319ef134092df0eb2ad7e9b4b98e9948308bf6dfb4db44e7f2155ac15fc0",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:00.179439+00:00",
+      "bytes": 12437,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/KY.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:12:04 GMT",
+        "ETag": "\"3095-65debb0c6d4ab\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "lc-codab-gazetteer",
+      "country": "LC",
+      "path": "LC/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/e6b16151-3fcf-4159-88fd-257b37775fe2/resource/aa5be3ce-c33c-4ab0-b837-0da999cd806f/download/lca_adm_gazetteer.xlsx",
+      "format": "xlsx",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "Department of Physical Planning",
+      "vintage_notes": "Saint Lucia administrative level 0-2 boundaries (COD-AB) dataset.\r\n\r\nThe date that these administrative boundaries were established is unknown.\r\n\r\nThis COD-AB was most recently reviewed for accuracy and necessary changes in November 2024.  The COD-AB does not require any update.\r\n\r\nSourced from Department of Physical Planning\r\n\r\nVetting by Information Technology Outreach Services (ITOS) with funding from USAID.\r\n\r\nThis COD-AB is suitable for database or GIS linkage to the Saint Lucia [COD-PS](https://data.humdata.org/dataset/cod-ps-lca).\r\n\r\nAs this is an island country, no edge-matched (COD-EM) version of this COD-AB is required.\r\n\r\nPlease see the [COD Portal](https://cod.unocha.org/).\r\n\r\nAdministrative level 1 contains 10 feature(s).  The normal administrative level 1 feature type is \"\"currently not known\"\".\r\n\r\nAdministrative level 2 contains 547 feature(s).  The normal administrative level 2 feature type is \"\"currently not known\"\".\r\n\r\nRecommended cartographic projection:  North America Albers Equal Area Conic\r\n\r\nThis metadata was last updated on January 13, 2025.",
+      "title": "Saint Lucia - Subnational Administrative Boundaries",
+      "sha256": "179449e42a5ff8188670b75fa1d6462d70247a970b9295db4b82eff77e41a2ca",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:38:03.070696+00:00",
+      "bytes": 42194,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/aa5be3ce-c33c-4ab0-b837-0da999cd806f/lca_adm_gazetteer.xlsx?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=f%2FH%2FE0AHewxaREtQkD%2B3SJSEdZc%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201269",
+      "http_metadata": {
+        "Last-Modified": "Thu, 25 Mar 2021 15:01:51 GMT",
+        "ETag": "\"0249c47b0bab8cb3d969d2219f2b3925\"",
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      "namespace": "codab-lc-20261017",
+      "layers": [
+        {
+          "sheet": "lca_gaz_adm1",
+          "level": 1,
+          "kind": "district",
+          "expected_rows": 10,
+          "code_field": "ADM1_PCODE",
+          "name_field": "ADM1_EN",
+          "country_field": "ADM0_PCODE",
+          "country_value": "LC",
+          "code_pattern": "LC[0-9-]+",
+          "parent_fields": [],
+          "aliases": [],
+          "language": "en"
+        },
+        {
+          "sheet": "lca_gaz_adm2",
+          "level": 2,
+          "kind": "settlement_area_reference",
+          "expected_rows": 547,
+          "code_field": "ADM2_PCODE",
+          "name_field": "ADM2_EN",
+          "country_field": "ADM0_PCODE",
+          "country_value": "LC",
+          "code_pattern": "LC[0-9-]+",
+          "parent_fields": [
+            "ADM1_PCODE"
+          ],
+          "aliases": [],
+          "language": "en"
+        }
+      ],
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "lc-codab-metadata",
+      "country": "LC",
+      "path": "LC/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-lca",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "Saint Lucia - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:36:36.129950+00:00",
+      "bytes": 14828,
+      "sha256": "0e5e5691b5cab2b807274142c9ee851629fc1927bbf9927e224b7ab30d4c6f6f",
+      "selected_for_index": false
+    },
+    {
+      "id": "lc-geonames-geonames",
+      "country": "LC",
+      "path": "LC/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/LC.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames LC geonames",
+      "sha256": "fb47891d8ed3f5296dec3321f55e010a7271913cb02971d4de8769dc300200a5",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:47.480685+00:00",
+      "bytes": 53682,
+      "final_url": "https://download.geonames.org/export/dump/LC.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:03:55 GMT",
+        "ETag": "\"d1b2-65deb939e7faf\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "lc-geonames-names",
+      "country": "LC",
+      "path": "LC/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/LC.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames LC names",
+      "sha256": "7153a0b4bbe2bc58bb4341b61ec528601bda9e6a3ad286f4f4bc626e57594f81",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:47.522837+00:00",
+      "bytes": 22550,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/LC.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:12:06 GMT",
+        "ETag": "\"5816-65debb0e7c9ae\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "mf-geonames-geonames",
+      "country": "MF",
+      "path": "MF/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/MF.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames MF geonames",
+      "sha256": "2afee88b1a53180ff1cdc3b7cf1e32dcef726f3a0ca76fcabc7df4a4a74a44c9",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:18.446210+00:00",
+      "bytes": 13348,
+      "final_url": "https://download.geonames.org/export/dump/MF.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:04:06 GMT",
+        "ETag": "\"3424-65deb94471d21\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "mf-geonames-names",
+      "country": "MF",
+      "path": "MF/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/MF.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames MF names",
+      "sha256": "42ea539dd5e335dd713b83656eb6d72e44f2a84b15283df32a8079a0d6a7c3a2",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:18.724837+00:00",
+      "bytes": 11559,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/MF.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:12:09 GMT",
+        "ETag": "\"2d27-65debb1114627\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "mq-geonames-geonames",
+      "country": "MQ",
+      "path": "MQ/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/MQ.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames MQ geonames",
+      "sha256": "1efba6f80fc5f203c9eabc09538aefef6c82a5dda289e82c69d56f9d3361a40f",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:07.918344+00:00",
+      "bytes": 97869,
+      "final_url": "https://download.geonames.org/export/dump/MQ.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:04:13 GMT",
+        "ETag": "\"17e4d-65deb94aac744\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "mq-geonames-names",
+      "country": "MQ",
+      "path": "MQ/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/MQ.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames MQ names",
+      "sha256": "c5e1c8aff2c02c76afcf812e13b97abdf13f9edf3f16ab4c319099c954f6389e",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:08.012667+00:00",
+      "bytes": 51027,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/MQ.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:12:11 GMT",
+        "ETag": "\"c753-65debb129d6da\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "ms-codab-gazetteer",
+      "country": "MS",
+      "path": "MS/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/5def1205-2b8c-450a-a5bd-e77e2c5b79db/resource/4387ab3d-f8e0-4956-bad9-bcbe8b15ac0a/download/msr_adm_gz.xlsx",
+      "format": "xlsx",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "Montserrat administrative level 0-1 boundaries (COD-AB) dataset.\r\n\r\nThe date that these administrative boundaries were established is unknown.\r\n\r\nNOTE:  See COD-PS caveat about displacement due to volcanic activity.\r\nThis COD-AB has NOT been reviewed for accuracy and necessary changes in the last 12 months.\r\n\r\nSourced from www.gadm.org\r\n\r\nVetting by Information Technology Outreach Services (ITOS) with funding from USAID.\r\n\r\nThis COD-AB is suitable for database or GIS linkage to the Montserrat [COD-PS](https://data.humdata.org/dataset/cod-ps-msr).\r\n\r\nAs this is an island country, no edge-matched (COD-EM) version of this COD-AB is required.\r\n\r\nPlease see the [COD Portal](https://cod.unocha.org/).\r\n\r\nAdministrative level 1 contains 3 feature(s).  The normal administrative level 1 feature type is \"\"Parish\"\".\r\n\r\nRecommended cartographic projection:  North America Albers Equal Area Conic\r\n\r\nThis metadata was last updated on January 9, 2025.",
+      "title": "Montserrat - Subnational Administrative Boundaries",
+      "sha256": "503eef63e49d116eca2b3bdca7ad9dd7e624ba369962dbffd1dff3f53ad3f227",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:38:27.178226+00:00",
+      "bytes": 15835,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/4387ab3d-f8e0-4956-bad9-bcbe8b15ac0a/msr_adm_gz.xlsx?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=PqK3FSKHdAhv16MB2pf6WxrIzaY%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201293",
+      "http_metadata": {
+        "Last-Modified": "Thu, 25 Mar 2021 13:29:06 GMT",
+        "ETag": "\"3c09868475789f0c789ffa15b8926c4e\"",
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      "namespace": "codab-ms-20261017",
+      "layers": [
+        {
+          "sheet": "msr_adm1_gz",
+          "level": 1,
+          "kind": "parish_reference",
+          "expected_rows": 3,
+          "code_field": "ADM1_PCODE",
+          "name_field": "ADM1_EN",
+          "country_field": "ADM0_PCODE",
+          "country_value": "MS",
+          "code_pattern": "MS[0-9-]+",
+          "parent_fields": [],
+          "aliases": [],
+          "language": "en"
+        }
+      ],
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "ms-codab-metadata",
+      "country": "MS",
+      "path": "MS/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-msr",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "Montserrat - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:37:00.603271+00:00",
+      "bytes": 23027,
+      "sha256": "0778115c14cca4a5ee819ceba85e3ad1635db939eb999990ae741a72fd7239b5",
+      "selected_for_index": false
+    },
+    {
+      "id": "ms-geonames-geonames",
+      "country": "MS",
+      "path": "MS/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/MS.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames MS geonames",
+      "sha256": "12db688d93749f9c5e8e358550f8ad07ac741b010ad8711eed09669bfb424591",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:08.175547+00:00",
+      "bytes": 14550,
+      "final_url": "https://download.geonames.org/export/dump/MS.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:04:13 GMT",
+        "ETag": "\"38d6-65deb94b48736\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "ms-geonames-names",
+      "country": "MS",
+      "path": "MS/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/MS.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames MS names",
+      "sha256": "54371a0771ba0ba44d0ea4e14daa3c81c4735cb4e7472ff2b9cbd6e946770b8f",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:08.447440+00:00",
+      "bytes": 9664,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/MS.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:12:11 GMT",
+        "ETag": "\"25c0-65debb12bfd99\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "pr-census-counties",
+      "country": "PR",
+      "path": "PR/2026_Gaz_counties_national.zip",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+      "format": "zip",
+      "member": "2026_Gaz_counties_national.txt",
+      "delimiter": "|",
+      "licence": "US-government-work",
+      "attribution": "U.S. Census Bureau, 2026 Gazetteer Files",
+      "vintage": "2026",
+      "title": "US Census Gazetteer counties (PR filter)",
+      "sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:10.216005+00:00",
+      "bytes": 139190,
+      "final_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+      "http_metadata": {
+        "Content-Type": "application/zip",
+        "Last-Modified": "Tue, 08 Sep 2026 21:00:12 GMT"
+      }
+    },
+    {
+      "id": "pr-census-cousubs",
+      "country": "PR",
+      "path": "PR/2026_Gaz_cousubs_national.zip",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_cousubs_national.zip",
+      "format": "zip",
+      "member": "2026_Gaz_cousubs_national.txt",
+      "delimiter": "|",
+      "licence": "US-government-work",
+      "attribution": "U.S. Census Bureau, 2026 Gazetteer Files",
+      "vintage": "2026",
+      "title": "US Census Gazetteer cousubs (PR filter)",
+      "sha256": "9d528b39b70a27075c863b1572f27eadaf24484d5435fac17fc3b4cdd36434c2",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:10.217179+00:00",
+      "bytes": 1476658,
+      "final_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_cousubs_national.zip",
+      "http_metadata": {
+        "Content-Type": "application/zip",
+        "Last-Modified": "Tue, 08 Sep 2026 21:00:12 GMT"
+      }
+    },
+    {
+      "id": "pr-census-place",
+      "country": "PR",
+      "path": "PR/2026_Gaz_place_national.zip",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+      "format": "zip",
+      "member": "2026_Gaz_place_national.txt",
+      "delimiter": "|",
+      "licence": "US-government-work",
+      "attribution": "U.S. Census Bureau, 2026 Gazetteer Files",
+      "vintage": "2026",
+      "title": "US Census Gazetteer place (PR filter)",
+      "sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:14.534340+00:00",
+      "bytes": 1214650,
+      "final_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+      "http_metadata": {
+        "Content-Type": "application/zip",
+        "Last-Modified": "Tue, 08 Sep 2026 21:00:12 GMT"
+      }
+    },
+    {
+      "id": "pr-census-state",
+      "country": "PR",
+      "path": "PR/2026_Gaz_state_national.zip",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_state_national.zip",
+      "format": "zip",
+      "member": "2026_Gaz_state_national.txt",
+      "delimiter": "|",
+      "licence": "US-government-work",
+      "attribution": "U.S. Census Bureau, 2026 Gazetteer Files",
+      "vintage": "2026",
+      "title": "US Census Gazetteer state (PR filter)",
+      "sha256": "54352ca34f869b4deca03a65da72cccb8e9f0c2702340061949b63c76c63f852",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:10.216353+00:00",
+      "bytes": 2865,
+      "final_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_state_national.zip",
+      "http_metadata": {
+        "Content-Type": "application/zip",
+        "Last-Modified": "Tue, 08 Sep 2026 21:00:12 GMT"
+      }
+    },
+    {
+      "id": "pr-geonames-geonames",
+      "country": "PR",
+      "path": "PR/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/PR.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames PR geonames",
+      "sha256": "6a6f4baf6d985280f5645251761e5acfcbbbe7d7fdbcf1cc4997f0383649a749",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:12.233469+00:00",
+      "bytes": 280474,
+      "final_url": "https://download.geonames.org/export/dump/PR.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:05:22 GMT",
+        "ETag": "\"4479a-65deb98ceed7a\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "pr-geonames-names",
+      "country": "PR",
+      "path": "PR/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/PR.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames PR names",
+      "sha256": "4becf6dd5537f70252c99fadfa008518d57ef286c7342522c8470163dc3cdcc2",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:12.350409+00:00",
+      "bytes": 128233,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/PR.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:12:30 GMT",
+        "ETag": "\"1f4e9-65debb24a2ede\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "sx-codab-gazetteer",
+      "country": "SX",
+      "path": "SX/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/b09efeaa-f9ee-44f2-a8b9-c99956be95ef/resource/39ecf9d4-6b4a-4eac-ba84-99a5f82366a7/download/sxm_admin_boundaries.xlsx",
+      "format": "xlsx",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "Sint Maarten Ministry of Public Housing, Spatial Planning, Environment and Infrastructure (VROMI)",
+      "vintage_notes": "Sint Maarten (Dutch part) administrative level 0-1 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 1 level:  \n- Admin 1: 8   \n  \n  \nDates associated with this dataset:  \n- 07 November 2024: dataset reviewed for accuracy and completeness  \n- 22 January 2024: valid for use by the humanitarian community  \n- 14 September 2018: last edit to the dataset before publishing  \n- 14 September 2018: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "title": "Sint Maarten (Dutch part) - Subnational Administrative Boundaries",
+      "sha256": "117ddbbe70b81336d3732baa7b5dfe611484d7672e57d2fd2a969311dc03eaad",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:38:43.540085+00:00",
+      "bytes": 8205,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/39ecf9d4-6b4a-4eac-ba84-99a5f82366a7/sxm_admin_boundaries.xlsx?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=ap%2FT4K%2BcAKlII8B5LEratKGYrQI%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201308",
+      "http_metadata": {
+        "Last-Modified": "Mon, 26 Jan 2026 16:14:35 GMT",
+        "ETag": "\"ce3d4360d86c003e4eedf20b861df60e\"",
+        "Content-Type": "application/octet-stream"
+      },
+      "namespace": "codab-sx-v01",
+      "layers": [
+        {
+          "sheet": "sxm_admin1",
+          "level": 1,
+          "kind": "source_adm1_area",
+          "expected_rows": 8,
+          "code_field": "adm1_pcode",
+          "name_field": "adm1_name",
+          "country_field": "adm0_pcode",
+          "country_value": "SX",
+          "code_pattern": "SX[0-9-]+",
+          "parent_fields": [],
+          "aliases": [
+            {
+              "field": "adm1_name1",
+              "language_field": "lang1"
+            },
+            {
+              "field": "adm1_name2",
+              "language_field": "lang2"
+            },
+            {
+              "field": "adm1_name3",
+              "language_field": "lang3"
+            },
+            {
+              "field": "adm1_ref_name",
+              "language": null
+            },
+            {
+              "field": "adm1_ref_name1",
+              "language": null
+            }
+          ],
+          "version_field": "version",
+          "language_field": "lang"
+        }
+      ],
+      "version": "v01",
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "sx-codab-metadata",
+      "country": "SX",
+      "path": "SX/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-sxm",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "Sint Maarten (Dutch part) - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:37:06.764487+00:00",
+      "bytes": 35179,
+      "sha256": "14be8cf4d1ae5b77128daca1848f8f10dfce62c8cf92ea45cc72396e07f36ff2",
+      "selected_for_index": false
+    },
+    {
+      "id": "sx-geonames-geonames",
+      "country": "SX",
+      "path": "SX/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/SX.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames SX geonames",
+      "sha256": "258f06d51b6a0b7001edcfb1a39ecc03e6b9506469730f25ab0c7ce3943e2514",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:18.798097+00:00",
+      "bytes": 12831,
+      "final_url": "https://download.geonames.org/export/dump/SX.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:05:55 GMT",
+        "ETag": "\"321f-65deb9acb2340\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "sx-geonames-names",
+      "country": "SX",
+      "path": "SX/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/SX.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames SX names",
+      "sha256": "75098d0c78bb6826e74c3ea6a76f682963534ce554b7d47df8003972c852b498",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:19.186047+00:00",
+      "bytes": 9556,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/SX.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:12:45 GMT",
+        "ETag": "\"2554-65debb32cafc6\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "tc-codab-gazetteer",
+      "country": "TC",
+      "path": "TC/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/7b473de8-71e8-4960-89a0-fe3d360cd3f2/resource/ffa30dab-945c-47c2-b105-3c9faf09041d/download/tca_gazetteer.xlsx",
+      "format": "xlsx",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "\"Turks and Caicos Islands administrative level 0-2 boundaries (COD-AB) dataset.\r\n\r\nThe date that these administrative boundaries were established is unknown.\r\n\r\nNOTE:  COD-PS covers only ADM0.\r\nThis COD-AB has NOT been reviewed for accuracy and necessary changes in the last 12 months.\r\n\r\nSourced from www.gadm.org\r\n\r\nVetting by Information Technology Outreach Services (ITOS) with funding from USAID.\r\n\r\nThis COD-AB is suitable for database or GIS linkage to the Turks and Caicos Islands [COD-PS](https://data.humdata.org/dataset/cod-ps-tca).\r\n\r\nAs this is an island country, no edge-matched (COD-EM) version of this COD-AB is required.\r\n\r\nPlease see the [COD Portal](https://cod.unocha.org/).\r\n\r\nAdministrative level 1 contains 6 feature(s).  The normal administrative level 1 feature type is \"\"District\"\".\r\n\r\nAdministrative level 2 contains 30 feature(s).  The normal administrative level 2 feature type is \"\"currently not known\"\".\r\n\r\nRecommended cartographic projection:  North America Albers Equal Area Conic\r\n\r\nThis metadata was last updated on January 9, 2025.\"",
+      "title": "Turks and Caicos Islands - Subnational Administrative Boundaries",
+      "sha256": "b6723693d9a9927189dcdf871134ffe99a1280b1f3f71da3d26eba4237915764",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:38:27.255560+00:00",
+      "bytes": 12300,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/ffa30dab-945c-47c2-b105-3c9faf09041d/tca_gazetteer.xlsx?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=Nxgi7DvnqfDXZW0RbEVWpA1jjaU%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201293",
+      "http_metadata": {
+        "Last-Modified": "Thu, 07 Sep 2023 06:48:41 GMT",
+        "ETag": "\"c17776db79cff121c46a9fa080ee10ad\"",
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      "namespace": "codab-tc-20261017",
+      "layers": [
+        {
+          "sheet": "tca_admgz_adm1",
+          "level": 1,
+          "kind": "district",
+          "expected_rows": 6,
+          "code_field": "ADM1_PCODE",
+          "name_field": "ADM1_EN",
+          "country_field": "ADM0_PCODE",
+          "country_value": "TC",
+          "code_pattern": "TC[0-9-]+",
+          "parent_fields": [],
+          "aliases": [],
+          "language": "en"
+        },
+        {
+          "sheet": "tca_admgz_adm2",
+          "level": 2,
+          "kind": "source_adm2_area",
+          "expected_rows": 30,
+          "code_field": "ADM2_PCODE",
+          "name_field": "ADM2_EN",
+          "country_field": "ADM0_PCODE",
+          "country_value": "TC",
+          "code_pattern": "TC[0-9-]+",
+          "parent_fields": [
+            "ADM1_PCODE"
+          ],
+          "aliases": [],
+          "language": "en"
+        }
+      ],
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "tc-codab-metadata",
+      "country": "TC",
+      "path": "TC/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-tca",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "Turks and Caicos Islands - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:37:06.782268+00:00",
+      "bytes": 17135,
+      "sha256": "e80c86cb3800f3bef558c5f4495c72d315a480980621b43a218f492736f391c9",
+      "selected_for_index": false
+    },
+    {
+      "id": "tc-geonames-geonames",
+      "country": "TC",
+      "path": "TC/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/TC.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames TC geonames",
+      "sha256": "444b0b3e36750c0479d804f792398b351019b07bd1c89cc4f0ed168fc84bbec9",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:24.606655+00:00",
+      "bytes": 24347,
+      "final_url": "https://download.geonames.org/export/dump/TC.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:05:57 GMT",
+        "ETag": "\"5f1b-65deb9ae95545\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "tc-geonames-names",
+      "country": "TC",
+      "path": "TC/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/TC.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames TC names",
+      "sha256": "1000d177ac1b71a81ad57e3f29da96ac68abb0ff93373fe897e99ae42f0c3979",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:24.712818+00:00",
+      "bytes": 14500,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/TC.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:12:45 GMT",
+        "ETag": "\"38a4-65debb33b3266\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "tt-codab-gazetteer",
+      "country": "TT",
+      "path": "TT/cod-ab-adm1.zip",
+      "url": "https://data.humdata.org/dataset/eed55f95-183c-48f7-adef-23dff31ec972/resource/218b72d0-35fb-4026-b8a6-152d87acea0d/download/tto_adm1_v2.zip",
+      "format": "zip",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "Trinidad and Tobago administrative level 0-1 boundaries (COD-AB) dataset.\r\n\r\nThe date that these administrative boundaries were established is unknown.\r\n\r\nNOTE:  See COD-PS caveats about Tobago parish treatment.\r\n\r\nThis COD-AB was most recently reviewed for accuracy and necessary changes in November 2024.  The COD-AB does not require any update.\r\n\r\nSourced from www.gadm.org\r\n\r\nVetting by Information Technology Outreach Services (ITOS) with funding from USAID.\r\n\r\nThis COD-AB is suitable for database or GIS linkage to the Trinidad and Tobago [COD-PS](https://data.humdata.org/dataset/cod-ps-tto).\r\n\r\nAs this is an island country, no edge-matched (COD-EM) version of this COD-AB is required.\r\n\r\nPlease see the [COD Portal](https://cod.unocha.org/).\r\n\r\nAdministrative level 1 contains 15 feature(s).  The normal administrative level 1 feature type is \"\"Parish\"\".\r\n\r\nRecommended cartographic projection:  North America Albers Equal Area Conic\r\n\r\nThis metadata was last updated on January 13, 2025.",
+      "title": "Trinidad and Tobago - Subnational Administrative Boundaries",
+      "sha256": "f2f6939a884ba743089b862ed7d92e9d41fde7b8c3fcdce69add51eefc1f1ca4",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:38:15.059912+00:00",
+      "bytes": 93384,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/218b72d0-35fb-4026-b8a6-152d87acea0d/tto_adm1_v2.zip?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=Ahhdbf2qQYw376iLspYnmId%2Buaw%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201281",
+      "http_metadata": {
+        "Last-Modified": "Thu, 25 Mar 2021 13:00:06 GMT",
+        "ETag": "\"3c7dc67c1823c5719a5918c0a53dae98\"",
+        "Content-Type": "application/zip"
+      },
+      "namespace": "codab-tt-20261017",
+      "layers": [
+        {
+          "member": "tto_adm1/TTO_adm1.dbf",
+          "level": 1,
+          "kind": "municipal_corporation_or_tobago",
+          "expected_rows": 15,
+          "code_field": "ADM1_PCODE",
+          "name_field": "NAME_1",
+          "country_field": "ADM0_PCODE",
+          "country_value": "TT",
+          "code_pattern": "TT[0-9-]+",
+          "parent_fields": [],
+          "aliases": [],
+          "language": "en"
+        }
+      ],
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "tt-codab-metadata",
+      "country": "TT",
+      "path": "TT/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-tto",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "Trinidad and Tobago - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:36:46.331117+00:00",
+      "bytes": 37177,
+      "sha256": "0a6bb866ab5c6f2ed9d58d7b7aca73be32ef8ad80280b26edfadc2080e747a52",
+      "selected_for_index": false
+    },
+    {
+      "id": "tt-geonames-geonames",
+      "country": "TT",
+      "path": "TT/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/TT.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames TT geonames",
+      "sha256": "6c4a5ff803c3742a7b9fd61c603f8b9fec1be67dd0d3eb457c3ac2c537652ea6",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:51.556867+00:00",
+      "bytes": 68434,
+      "final_url": "https://download.geonames.org/export/dump/TT.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:06:16 GMT",
+        "ETag": "\"10b52-65deb9c06de90\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "tt-geonames-names",
+      "country": "TT",
+      "path": "TT/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/TT.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames TT names",
+      "sha256": "36fa94f8d9aba189de82da2a1762ba7fe7859b3f36b7927a2272fd3c25a0b1c4",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:51.559126+00:00",
+      "bytes": 42455,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/TT.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:12:52 GMT",
+        "ETag": "\"a5d7-65debb3a50693\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "vc-codab-gazetteer",
+      "country": "VC",
+      "path": "VC/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/726c2a10-c0b9-469a-9cba-cc58c3f68911/resource/17418854-6c58-40cf-97aa-b5a8fac2bc7d/download/vct_admin_boundaries.xlsx",
+      "format": "xlsx",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "Saint Vincent and the Grenadines administrative level 0-1 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 1 level:  \n- Admin 1: 6   \n  \n  \nDates associated with this dataset:  \n- 17 July 2024: dataset reviewed for accuracy and completeness  \n- 17 July 2024: valid for use by the humanitarian community  \n- 21 September 2017: last edit to the dataset before publishing  \n- 21 September 2017: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)",
+      "title": "Saint Vincent and the Grenadines - Subnational Administrative Boundaries",
+      "sha256": "ab566cb7c35d29d70c293957fa43a77f63a1f3424d2921b27179e9fb5ef16e3e",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:50.754203+00:00",
+      "bytes": 6498,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/17418854-6c58-40cf-97aa-b5a8fac2bc7d/vct_admin_boundaries.xlsx?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=gPnIEqrHVxhFD3asQJwJj1JVbko%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201257",
+      "http_metadata": {
+        "Last-Modified": "Mon, 26 Jan 2026 16:30:37 GMT",
+        "ETag": "\"0c2a311e212ecff52fb87242885a0796\"",
+        "Content-Type": "application/octet-stream"
+      },
+      "namespace": "codab-vc-v01",
+      "layers": [
+        {
+          "sheet": "vct_admin1",
+          "level": 1,
+          "kind": "parish",
+          "expected_rows": 6,
+          "code_field": "adm1_pcode",
+          "name_field": "adm1_name",
+          "country_field": "adm0_pcode",
+          "country_value": "VC",
+          "code_pattern": "VC[0-9-]+",
+          "parent_fields": [],
+          "aliases": [
+            {
+              "field": "adm1_name1",
+              "language_field": "lang1"
+            },
+            {
+              "field": "adm1_name2",
+              "language_field": "lang2"
+            },
+            {
+              "field": "adm1_name3",
+              "language_field": "lang3"
+            },
+            {
+              "field": "adm1_ref_name",
+              "language": null
+            },
+            {
+              "field": "adm1_ref_name1",
+              "language": null
+            }
+          ],
+          "version_field": "version",
+          "language_field": "lang"
+        }
+      ],
+      "version": "v01",
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "vc-codab-metadata",
+      "country": "VC",
+      "path": "VC/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-vct",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "Saint Vincent and the Grenadines - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:36:36.157132+00:00",
+      "bytes": 25794,
+      "sha256": "7eb60d62b2659b41fea7535e558b0094b703178f88c2d32a3b451129fc98ab82",
+      "selected_for_index": false
+    },
+    {
+      "id": "vc-geonames-geonames",
+      "country": "VC",
+      "path": "VC/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/VC.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames VC geonames",
+      "sha256": "c6be75042bcec7b17cbb99948a1f9eda0b2f5d607c835014dceae70e0b3687e3",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:47.580060+00:00",
+      "bytes": 31849,
+      "final_url": "https://download.geonames.org/export/dump/VC.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:07:37 GMT",
+        "ETag": "\"7c69-65deba0d1c997\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "vc-geonames-names",
+      "country": "VC",
+      "path": "VC/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/VC.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames VC names",
+      "sha256": "85d8debb1e4ecbff2cc77cd364fe2c3782ddf6be0a71c9e9571081ea4b213d01",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:47.579621+00:00",
+      "bytes": 25850,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/VC.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:13:09 GMT",
+        "ETag": "\"64fa-65debb4a64ded\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "vg-codab-gazetteer",
+      "country": "VG",
+      "path": "VG/cod-ab-gazetteer.xlsx",
+      "url": "https://data.humdata.org/dataset/db71885e-a987-43fd-976f-3aeb481341d1/resource/ceeb94af-f856-4d2f-aca7-430c6045b0f6/download/vgb_admgz_2020.xlsx",
+      "format": "xlsx",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "www.gadm.org",
+      "vintage_notes": "British Virgin Islands administrative level 0-1 boundaries (COD-AB) dataset.\r\n\r\nThe date that these administrative boundaries were established is unknown.\r\nThis COD-AB has NOT been reviewed for accuracy and necessary changes in the last 12 months.\r\n\r\nSourced from www.gadm.org\r\n\r\nVetting by Information Technology Outreach Services (ITOS) with funding from USAID.\r\n\r\nThis COD-AB is suitable for database or GIS linkage to the British Virgin Islands [COD-PS](https://data.humdata.org/dataset/cod-ps-vgb).\r\n\r\nAs this is an island country, no edge-matched (COD-EM) version of this COD-AB is required.\r\n\r\nPlease see the [COD Portal](https://cod.unocha.org/).\r\n\r\nAdministrative level 1 contains 6 feature(s).  The normal administrative level 1 feature type is \"\"District\"\".\r\n\r\nRecommended cartographic projection:  North America Albers Equal Area Conic\r\n\r\nThis metadata was last updated on January 9, 2025.",
+      "title": "British Virgin Islands - Subnational Administrative Boundaries",
+      "sha256": "c274bfa5fce0349c7bf2b7017b188a3c9fbd89644cc42a74866f63d74afaa21e",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:38:15.070391+00:00",
+      "bytes": 12024,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/ceeb94af-f856-4d2f-aca7-430c6045b0f6/vgb_admgz_2020.xlsx?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=a4VPm2DNT6JPTpYIzCJHsj2i9g0%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201281",
+      "http_metadata": {
+        "Last-Modified": "Thu, 25 Mar 2021 15:34:21 GMT",
+        "ETag": "\"5958843ae9255a9133b000a52c9d628c\"",
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      "namespace": "codab-vg-20261017",
+      "layers": [
+        {
+          "sheet": "vgb_admgz_adm1",
+          "level": 1,
+          "kind": "island_or_district_reference",
+          "expected_rows": 6,
+          "code_field": "ADM1_PCODE",
+          "name_field": "ADM1_EN",
+          "country_field": "ADM0_PCODE",
+          "country_value": "VG",
+          "code_pattern": "VG[0-9-]+",
+          "parent_fields": [],
+          "aliases": [],
+          "language": "en"
+        }
+      ],
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "vg-codab-metadata",
+      "country": "VG",
+      "path": "VG/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-vgb",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "British Virgin Islands - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:36:53.095988+00:00",
+      "bytes": 17276,
+      "sha256": "fb0aa4953b2c9dc59c5181554d13bed62ea9ffcc26d39cf6effc591a4d1df480",
+      "selected_for_index": false
+    },
+    {
+      "id": "vg-geonames-geonames",
+      "country": "VG",
+      "path": "VG/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/VG.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames VG geonames",
+      "sha256": "5e5d5de7edf67e980425cb12251833896e971eed8d2097d54f6e492ff12fb880",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:59.951287+00:00",
+      "bytes": 28419,
+      "final_url": "https://download.geonames.org/export/dump/VG.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:07:39 GMT",
+        "ETag": "\"6f03-65deba0f166de\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "vg-geonames-names",
+      "country": "VG",
+      "path": "VG/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/VG.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames VG names",
+      "sha256": "aa48a52928143501cbd0a9a51a1eb2fb7bbbe833aabe6287837db3604b586b39",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:36:59.956493+00:00",
+      "bytes": 19445,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/VG.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:13:10 GMT",
+        "ETag": "\"4bf5-65debb4aa2a26\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "vi-codab-gazetteer",
+      "country": "VI",
+      "path": "VI/cod-ab-boundaries.zip",
+      "url": "https://data.humdata.org/dataset/f0015a2b-b34e-42ca-842f-adebe3d268f8/resource/66502668-bcc7-4b5e-a101-c015df93206a/download/vir_adm_2019_shp.zip",
+      "format": "zip",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "upstream_source": "GADM",
+      "vintage_notes": "United States Virgin Islands administrative level 0-2 boundaries (COD-AB) dataset.\r\n\r\nThe date that these administrative boundaries were established is unknown.\r\n\r\nThis COD-AB was most recently reviewed for accuracy and necessary changes in November 2024.  The COD-AB does not require any update.\r\n\r\nSourced from GADM\r\n\r\nVetting by Information Technology Outreach Services (ITOS) with funding from USAID.\r\n\r\nThis COD-AB is suitable for database or GIS linkage to the United States Virgin Islands [COD-PS](https://data.humdata.org/dataset/cod-ps-vir).\r\n\r\nAs this is an island country, no edge-matched (COD-EM) version of this COD-AB is required.\r\n\r\nPlease see the [COD Portal](https://cod.unocha.org/).\r\n\r\nAdministrative level 1 contains 3 feature(s).  The normal administrative level 1 feature type is \"\"District\"\".\r\n\r\nAdministrative level 2 contains 20 feature(s).  The normal administrative level 2 feature type is \"\"Sub-district\"\".\r\n\r\nRecommended cartographic projection:  North America Albers Equal Area Conic\r\n\r\nThis metadata was last updated on January 13, 2025.",
+      "title": "United States Virgin Islands - Subnational Administrative Boundaries",
+      "sha256": "fc02ee262d5eaa66d50b9b75235faf95df9432defcd023a8420e70fd0613f95a",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:38:43.541068+00:00",
+      "bytes": 1856447,
+      "final_url": "https://s3.us-east-1.amazonaws.com/hdx-production-filestore/resources/66502668-bcc7-4b5e-a101-c015df93206a/vir_adm_2019_shp.zip?AWSAccessKeyId=ASIAXYC32WNAYP6HB67B&Signature=2tHUNoHGWHvK5ERQsmUuQHaBcx8%3D&x-amz-security-token=FwoGZXIvYXdzEDsaDCnULQjbaavK5x82iSLBAdPVQIlwcRHFEcP%2BL8YcwfzLPizxzYilKvVmWQMLACwqDo2fg3vAxoYgjjl6D5Zs94bCxMpP2XoFK%2BAsNQlt2g5GZUTEqNTb%2ByBoPaYD2b23prkQuhU2IJWZwaqG0NeDhCxwbA7ZNs5CFUeHOzw95UtR6IDHSyddp7zKlbOX9QQLtgca4zLd%2Fkt03vsUUI7BwTqcDq3rqJjjFFwWWhERCwmBM8HuHRBT9ecqnZ6giG7kjzBalq3ARsIiPO1lLG6w3pAomJfL1gYyLfgkgjgmmri9bP8Sxb116OFw7AjKlcMmfCM3ytO4NokM5pP8x2ZaodcBe%2Fu1oQ%3D%3D&Expires=1792201307",
+      "http_metadata": {
+        "Last-Modified": "Thu, 25 Mar 2021 14:00:26 GMT",
+        "ETag": "\"40b84162976acdf4f54e71f809b225f1\"",
+        "Content-Type": "application/zip"
+      },
+      "namespace": "codab-vi-20261017",
+      "layers": [
+        {
+          "member": "vir_admbnda_adm1_2019.dbf",
+          "level": 1,
+          "kind": "district",
+          "expected_rows": 3,
+          "code_field": "ADM1_PCODE",
+          "name_field": "ADM1_EN",
+          "country_field": "ADM0_PCODE",
+          "country_value": "VI",
+          "code_pattern": "VI[0-9-]+",
+          "parent_fields": [],
+          "aliases": [],
+          "language": "en"
+        },
+        {
+          "member": "vir_admbnda_adm2_2019.dbf",
+          "level": 2,
+          "kind": "subdistrict",
+          "expected_rows": 20,
+          "code_field": "ADM2_PCODE",
+          "name_field": "ADM2_EN",
+          "country_field": "ADM0_PCODE",
+          "country_value": "VI",
+          "code_pattern": "VI[0-9-]+",
+          "parent_fields": [
+            "ADM1_PCODE"
+          ],
+          "aliases": [],
+          "language": "en"
+        }
+      ],
+      "coverage_currentness_verified": false
+    },
+    {
+      "id": "vi-codab-metadata",
+      "country": "VI",
+      "path": "VI/cod-ab-metadata.json",
+      "url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-vir",
+      "format": "json",
+      "licence": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "licence_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "title": "United States Virgin Islands - Subnational Administrative Boundaries catalogue",
+      "retrieved_at": "2026-10-17T01:37:06.792662+00:00",
+      "bytes": 10383,
+      "sha256": "80b2edc9b9cfb1a21c38ad44a999f01f23de791e7d9d9464c8ce31cfb5fed693",
+      "selected_for_index": false
+    },
+    {
+      "id": "vi-geonames-geonames",
+      "country": "VI",
+      "path": "VI/geonames.zip",
+      "url": "https://download.geonames.org/export/dump/VI.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames VI geonames",
+      "sha256": "65cc380eaa545f0f282e7fa8186964073680396b0564aa061e54b6185b8f7d92",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:24.821914+00:00",
+      "bytes": 72412,
+      "final_url": "https://download.geonames.org/export/dump/VI.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:07:39 GMT",
+        "ETag": "\"11adc-65deba0f216a3\"",
+        "Content-Type": "application/zip"
+      }
+    },
+    {
+      "id": "vi-geonames-names",
+      "country": "VI",
+      "path": "VI/names.zip",
+      "url": "https://download.geonames.org/export/dump/alternatenames/VI.zip",
+      "format": "zip",
+      "licence": "CC-BY-4.0",
+      "vintage": "daily snapshot",
+      "title": "GeoNames VI names",
+      "sha256": "85cdf895744b9f09b22f380a0bc823c00d726075c79b5f5bdf0ff6d3fc0325ec",
+      "selected_for_index": true,
+      "retrieved_at": "2026-10-17T01:37:24.889081+00:00",
+      "bytes": 50357,
+      "final_url": "https://download.geonames.org/export/dump/alternatenames/VI.zip",
+      "http_metadata": {
+        "Last-Modified": "Fri, 16 Oct 2026 02:13:10 GMT",
+        "ETag": "\"c4b5-65debb4aa8fb5\"",
+        "Content-Type": "application/zip"
+      }
+    }
+  ],
+  "required_source_ids": [
+    "ag-geonames-geonames",
+    "ag-geonames-names",
+    "ai-geonames-geonames",
+    "ai-geonames-names",
+    "aw-geonames-geonames",
+    "aw-geonames-names",
+    "bb-codab-gazetteer",
+    "bb-codab-metadata",
+    "bb-geonames-geonames",
+    "bb-geonames-names",
+    "bl-geonames-geonames",
+    "bl-geonames-names",
+    "bq-codab-gazetteer",
+    "bq-codab-metadata",
+    "bq-geonames-geonames",
+    "bq-geonames-names",
+    "bs-codab-gazetteer",
+    "bs-codab-metadata",
+    "bs-geonames-geonames",
+    "bs-geonames-names",
+    "cu-codab-gazetteer",
+    "cu-codab-metadata",
+    "cu-geonames-geonames",
+    "cu-geonames-names",
+    "cw-codab-gazetteer",
+    "cw-codab-metadata",
+    "cw-geonames-geonames",
+    "cw-geonames-names",
+    "dm-codab-gazetteer",
+    "dm-codab-metadata",
+    "dm-geonames-geonames",
+    "dm-geonames-names",
+    "do-codab-gazetteer",
+    "do-codab-metadata",
+    "do-geonames-geonames",
+    "do-geonames-names",
+    "fr-insee-cog-2026",
+    "gd-codab-gazetteer",
+    "gd-codab-metadata",
+    "gd-geonames-geonames",
+    "gd-geonames-names",
+    "gn-admin1CodesASCII",
+    "gn-admin2Codes",
+    "gn-adminCode5",
+    "gn-countryInfo",
+    "gn-readme",
+    "gp-geonames-geonames",
+    "gp-geonames-names",
+    "ht-codab-gazetteer",
+    "ht-codab-metadata",
+    "ht-geonames-geonames",
+    "ht-geonames-names",
+    "jm-codab-gazetteer",
+    "jm-codab-metadata",
+    "jm-geonames-geonames",
+    "jm-geonames-names",
+    "kn-codab-gazetteer",
+    "kn-codab-metadata",
+    "kn-geonames-geonames",
+    "kn-geonames-names",
+    "ky-codab-gazetteer",
+    "ky-codab-metadata",
+    "ky-geonames-geonames",
+    "ky-geonames-names",
+    "lc-codab-gazetteer",
+    "lc-codab-metadata",
+    "lc-geonames-geonames",
+    "lc-geonames-names",
+    "mf-geonames-geonames",
+    "mf-geonames-names",
+    "mq-geonames-geonames",
+    "mq-geonames-names",
+    "ms-codab-gazetteer",
+    "ms-codab-metadata",
+    "ms-geonames-geonames",
+    "ms-geonames-names",
+    "pr-census-counties",
+    "pr-census-cousubs",
+    "pr-census-place",
+    "pr-census-state",
+    "pr-geonames-geonames",
+    "pr-geonames-names",
+    "sx-codab-gazetteer",
+    "sx-codab-metadata",
+    "sx-geonames-geonames",
+    "sx-geonames-names",
+    "tc-codab-gazetteer",
+    "tc-codab-metadata",
+    "tc-geonames-geonames",
+    "tc-geonames-names",
+    "tt-codab-gazetteer",
+    "tt-codab-metadata",
+    "tt-geonames-geonames",
+    "tt-geonames-names",
+    "vc-codab-gazetteer",
+    "vc-codab-metadata",
+    "vc-geonames-geonames",
+    "vc-geonames-names",
+    "vg-codab-gazetteer",
+    "vg-codab-metadata",
+    "vg-geonames-geonames",
+    "vg-geonames-names",
+    "vi-codab-gazetteer",
+    "vi-codab-metadata",
+    "vi-geonames-geonames",
+    "vi-geonames-names"
+  ],
+  "failures": [],
+  "snapshot_policy": "Original byte hashes identify snapshots; rolling URLs are not immutable versions."
+}

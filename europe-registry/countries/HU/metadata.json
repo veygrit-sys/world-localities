@@ -1,0 +1,97 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "HUN",
+    "country": "HU",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Hungary",
+    "geonames_id": "719819",
+    "id": "country:HU",
+    "m49": "348",
+    "m49_region": "Europe",
+    "name_en": "Hungary",
+    "region": "Eastern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 16013,
+    "admin_rows": 217,
+    "ambiguous_parents": 0,
+    "country": "HU",
+    "country_scope_only": 1,
+    "localities_without_adm1": 166,
+    "locality_rows": 16024,
+    "name_en": "Hungary",
+    "other_admin_rows": 3,
+    "region": "Eastern Europe",
+    "unresolved_parents": 155
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 20,
+    "ADM1H": 2,
+    "ADM2": 197,
+    "ADM2H": 1,
+    "PPL": 9816,
+    "PPLA": 18,
+    "PPLA2": 135,
+    "PPLC": 1,
+    "PPLF": 1,
+    "PPLH": 5,
+    "PPLL": 78,
+    "PPLQ": 3,
+    "PPLW": 2,
+    "PPLX": 5965
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 550156,
+      "rows": 16244,
+      "sha256": "7510e31ca5be2d046061df8607dd2d05925069f9f36db419ee9cdac548c1b89a",
+      "uncompressed_sha256": "8c915f153ca78ae09411333d79af1dfc3ffbee342322e8754575c55ec8a7d546"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 1,
+    "historical_parent_not_asserted": 13,
+    "missing_reference": 155,
+    "source_admin_code": 16055,
+    "source_country": 20
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 20,
+      "sha256": "130882a55d83b29fc3f38a67cc30693e9fce3dcef09fe5aa55440208d1e10ee1"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 24648,
+    "bytes": 695741,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 1052,
+      "L": 1914,
+      "R": 7,
+      "S": 2653,
+      "T": 2724,
+      "V": 53
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:53:30 GMT",
+    "retained_rows": 16244,
+    "retrieved_at": "2026-09-29T11:13:53.980176+00:00",
+    "sha256": "80c06e2dd47eb7b900b90fad005e9c9defd3d91ace72ac5f6ea9144aa27557e5",
+    "url": "https://download.geonames.org/export/dump/HU.zip"
+  },
+  "source_modified_max": "2026-09-28",
+  "source_modified_min": "1993-12-28"
+}

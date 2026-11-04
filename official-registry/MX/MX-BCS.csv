@@ -1,0 +1,6 @@
+id,code,source_type,category,name,lang,parent_id,state_id,state_code,address_country,address_candidate,postcodes,postcode_relations,government_status,department_code,collectivity_code,source_state_code,municipality_component,municipal_seat_locality_code,municipal_seat_name,municipal_seat_relation,statistics_available
+locality:mx:inegi:agem:03001,03001,municipality,municipality_geostatistical_area,Comondú,es,admin:csc:3460,admin:csc:3460,MX-BCS,MX,1,,,,,,03,001,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:03002,03002,municipality,municipality_geostatistical_area,Mulegé,es,admin:csc:3460,admin:csc:3460,MX-BCS,MX,1,,,,,,03,002,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:03003,03003,municipality,municipality_geostatistical_area,La Paz,es,admin:csc:3460,admin:csc:3460,MX-BCS,MX,1,,,,,,03,003,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:03008,03008,municipality,municipality_geostatistical_area,Los Cabos,es,admin:csc:3460,admin:csc:3460,MX-BCS,MX,1,,,,,,03,008,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1
+locality:mx:inegi:agem:03009,03009,municipality,municipality_geostatistical_area,Loreto,es,admin:csc:3460,admin:csc:3460,MX-BCS,MX,1,,,,,,03,009,0001,,INEGI_cve_cab_attribute_not_municipality_alias,1

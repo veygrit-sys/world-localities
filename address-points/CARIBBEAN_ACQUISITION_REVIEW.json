@@ -1,0 +1,91 @@
+{
+  "status": "validated_with_documented_source_gaps",
+  "review_date": "2026-10-17",
+  "retained_sources": 106,
+  "all_scope_geonames_acquired": 28,
+  "codab_scopes": [
+    "BB",
+    "CU",
+    "DO",
+    "GD",
+    "HT",
+    "JM",
+    "KN",
+    "KY",
+    "LC",
+    "MS",
+    "CW",
+    "VG",
+    "TC",
+    "SX",
+    "BS",
+    "DM",
+    "BQ",
+    "TT",
+    "VI",
+    "VC"
+  ],
+  "official_overrides": [
+    "INSEE COG 2026: GP/MQ/BL/MF",
+    "US Census Gazetteer 2026: PR"
+  ],
+  "findings": [
+    {
+      "country": "DO",
+      "namespace": "scope",
+      "kinds": [
+        "country"
+      ],
+      "code": "known_incomplete_administrative_snapshot",
+      "note": "IGN reports 158 municipalities / 235 municipal districts; selected sources have 155 municipalities.",
+      "reference_url": "https://ign.gob.do/"
+    },
+    {
+      "country": "JM",
+      "namespace": "scope",
+      "kinds": [
+        "country"
+      ],
+      "code": "administrative_transition_requires_review",
+      "note": "Portmore parish boundary realignment was under consultation on 2026-06-02; acquisition does not verify operative post-transition boundaries.",
+      "reference_url": "https://www.ecj.com.jm/ecj-presents-electoral-boundary-realignment-proposal-for-new-portmore-parish/"
+    },
+    {
+      "country": "BQ",
+      "namespace": "codab-bq-20261017",
+      "code": "legacy_administrative_fields",
+      "note": "Original ISO=ANT and HASC_1=AN.* retained alongside adm0code=BES. Do not treat those historical IDs as present ISO country codes."
+    },
+    {
+      "country": "TT",
+      "namespace": "codab-tt-20261017",
+      "code": "source_administrative_type_requires_review",
+      "note": "Old TYPE_1 classifications retained; contemporary municipal listing calls Diego Martin and Siparia Borough Corporations.",
+      "reference_url": "https://rdlg.gov.tt/municipal-corporations/"
+    },
+    {
+      "country": "HT",
+      "namespace": "codab-ht-v01",
+      "kinds": [
+        "department"
+      ],
+      "code": "administrative_snapshot_comparison_required",
+      "note": "COD-AB has 140 communes/570 sections; GeoNames has 145 communes/573 sections with an intervening arrondissement tier. Completeness/currentness unverified."
+    },
+    {
+      "country": "CW",
+      "decision": "66 rows include 65 geographic reference areas and one non-geographic Homeless respondents category; kept separate."
+    },
+    {
+      "country": "MS",
+      "decision": "Plymouth retained as source record but flagged for current-use review."
+    }
+  ],
+  "validation_summary": {
+    "behavior_tests": 63,
+    "cli_checks": 20,
+    "observation_rows": 93920,
+    "all_scopes": 28,
+    "national_address_completeness": false
+  }
+}

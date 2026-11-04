@@ -1,0 +1,64 @@
+{
+  "reviewed_on": "2026-10-22",
+  "pending_countries": {
+    "DE": {
+      "url": "https://www.ldbv.bayern.de/vermessung/zshh/zshh_faq.html",
+      "finding": "Nationwide HK-DE supplied under paid licence; investigate open state-level alternatives. No agreement or purchase made.",
+      "central_distribution_review": {
+        "reviewed_on": "2026-10-22",
+        "url": "https://www.adv-online.de/en/zentrale-vertriebsstellen/hauskoordinaten-und-hausumringe",
+        "finding": "ZSHH describes nationwide distribution under uniform fees and licences. This does not establish that state-level open source products are unavailable. No purchase or agreement made."
+      },
+      "verified_open_routes": [
+        {
+          "subdivision": "DE-NW",
+          "name": "Gebaeudereferenzen NW",
+          "metadata_url": "https://open.nrw/dataset/172a0ba8-d470-47c1-ac89-b85f8190ac7e",
+          "download_directory": "https://www.opengeodata.nrw.de/produkte/geobasis/lk/akt/gebref_txt/",
+          "source_date": "2026-07-01",
+          "licence_as_published": "Datenlizenz Deutschland - Zero - Version 2.0",
+          "status": "IDENTIFIED_NOT_IMPORTED",
+          "limitation": "The provider explicitly says postal address attributes are not included; coordinate/reference rows must not be counted as complete postal addresses without the missing joins."
+        }
+      ],
+      "next_action": "Inspect state INSPIRE address / ALKIS attributes, identifiers, update dates and bulk access; build an explicit 16-state acquisition and missing-field ledger. Keep source observations separate from any national completeness claim."
+    },
+    "GB": {
+      "urls": [
+        "https://www.gov.uk/government/publications/open-standards-for-government/identifying-property-and-street-information",
+        "https://www.data.gov.uk/collections/land-and-property/addresses"
+      ],
+      "finding": "Open UPRN/USRN identifiers do not replace full address attributes. GB/NI and licence coverage must be reviewed separately."
+    },
+    "IE": {
+      "url": "https://www.eircode.ie/business/products-and-services",
+      "finding": "ECAF/ECAD are licensed data products; public administrative/road data remain separate. No agreement or purchase made."
+    }
+  },
+  "excluded": "Deliverability, resident/person names, carrier routing and any invented expansion of address-number ranges.",
+  "completed_source_imports": {
+    "NL": {
+      "source_manifest": "netherlands/official-sources.json",
+      "validation_report": "netherlands/validation.json",
+      "snapshot_date": "2026-10-08",
+      "urls": [
+        "https://www.pdok.nl/atom-downloadservices/-/article/adress-1",
+        "https://service.pdok.nl/kadaster/bag-adressen/atom/index.xml",
+        "https://api.pdok.nl/kadaster/bag/ogc/v2"
+      ],
+      "finding": "Full pinned main NUM/OPR/WPL member bytes imported and parsed twice; source rows and canonical hashes match. GWR is a non-authentic supporting table, compared with CBS municipality and province references. No national completeness or deliverability certification.",
+      "main_number_observations": 13377160,
+      "administrative_reference": {
+        "reference_date": "2026-01-01",
+        "bag_snapshot_date": "2026-10-08",
+        "municipalities": 342,
+        "provinces": 12,
+        "municipalities_with_open_number_rows": 342,
+        "missing_municipalities": [],
+        "unlisted_municipalities": []
+      },
+      "remaining": "全国BAGのNUM全1,338 XML・OPR・WPLと補助書庫、CBSの342自治体・12州を取得・全件再照合済み。限定参照条件から外れる153行は別表で理由・候補を記録。主副住所の役割、物理道路、独立付番総数、細分区画・境界の照合が残る。",
+      "reference_gap_review": "netherlands/reference-gap-review.json"
+    }
+  }
+}

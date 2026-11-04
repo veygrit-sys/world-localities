@@ -1,0 +1,87 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "ZWE",
+    "country": "ZW",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Zimbabwe",
+    "geonames_id": "878675",
+    "id": "country:ZW",
+    "m49": "716",
+    "name_en": "Zimbabwe",
+    "numeric": "716",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 2099,
+    "admin_rows": 76,
+    "ambiguous_parents": 0,
+    "country": "ZW",
+    "country_scope_only": 2,
+    "localities_without_adm1": 2,
+    "locality_rows": 2101,
+    "name_en": "Zimbabwe",
+    "other_admin_rows": 11,
+    "region": "Eastern Africa",
+    "unresolved_parents": 3
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 10,
+    "ADM2": 62,
+    "ADM3": 4,
+    "ADMD": 10,
+    "PCLI": 1,
+    "PPL": 1766,
+    "PPLA": 9,
+    "PPLC": 1,
+    "PPLF": 2,
+    "PPLL": 32,
+    "PPLX": 291
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 78132,
+      "rows": 2188,
+      "sha256": "ef31a816efe45a2656593917a75194110a94dffed7fd735d20efd14c03a6041b",
+      "uncompressed_sha256": "79784fcbb77ca73234fc92d5e1de1796ae7da08c638880908aa0f8682a32d04d"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 2,
+    "missing_code": 3,
+    "not_assigned_for_other_feature": 11,
+    "source_admin_code": 2162,
+    "source_country": 10
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 10,
+      "sha256": "93e35ce84399b79c64e5c92184ebef99c46e89b01067ba624b53961f2d2d2d0c"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 650562,
+    "discarded_feature_classes": {
+      "H": 4610,
+      "L": 887,
+      "R": 27,
+      "S": 12138,
+      "T": 5128,
+      "V": 41
+    },
+    "retained_rows": 2188,
+    "retrieved_on": "2026-09-26",
+    "sha256": "996bc078726c5c6b8672147d2dc0d5b97b08d66c850006db99432c81c19ff80e",
+    "source_rows": 25019,
+    "url": "https://download.geonames.org/export/dump/ZW.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1994-01-08"
+}

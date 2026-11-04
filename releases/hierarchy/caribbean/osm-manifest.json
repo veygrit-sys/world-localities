@@ -1,0 +1,2047 @@
+{
+  "schema_version": 1,
+  "region": "caribbean",
+  "scope_codes": [
+    "AG",
+    "BS",
+    "BB",
+    "CU",
+    "DM",
+    "DO",
+    "GD",
+    "HT",
+    "JM",
+    "KN",
+    "LC",
+    "VC",
+    "TT",
+    "AI",
+    "AW",
+    "BQ",
+    "VG",
+    "KY",
+    "CW",
+    "GP",
+    "MQ",
+    "MS",
+    "PR",
+    "BL",
+    "MF",
+    "SX",
+    "TC",
+    "VI"
+  ],
+  "source_pbf": {
+    "source_id": "geofabrik-central-america-261020",
+    "url": "https://download.geofabrik.de/central-america-261020.osm.pbf",
+    "final_url": "https://download.geofabrik.de/central-america-261020.osm.pbf",
+    "retrieved_at": "2026-10-21T18:04:59.305465+00:00",
+    "bytes": 792110450,
+    "sha256": "297eb04947ebf97ce836e21e8e78580fa620a5b1cce66aa92cee6d4bf0759b1f",
+    "publisher_md5": "cdf821bb9876179a45a0f50282de194d",
+    "publisher_md5_verified": true,
+    "publisher": "Geofabrik / OpenStreetMap contributors",
+    "license": "ODbL-1.0",
+    "license_url": "https://www.openstreetmap.org/copyright",
+    "attribution": "© OpenStreetMap contributors",
+    "source_region_includes_non_caribbean_countries": true,
+    "status": "downloaded_requires_scope_and_row_verification"
+  },
+  "source_reference": "https://download.geofabrik.de/central-america.html",
+  "license": "ODbL-1.0",
+  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "© OpenStreetMap contributors",
+  "data_derived_from_OSM": true,
+  "complete": false,
+  "deliverability_in_scope": false,
+  "country_polygon_count": 28,
+  "records": 1788611,
+  "category_counts": {
+    "administrative_boundary": 11604,
+    "legal_boundary": 1,
+    "explicit_number_observation": 590970,
+    "road_way": 1185849,
+    "interpolation_way_evidence": 56,
+    "associated_street_relation": 240
+  },
+  "country_counts": {
+    "AG": {
+      "administrative_boundary": 27,
+      "explicit_number_observation": 229,
+      "road_way": 10422
+    },
+    "BS": {
+      "administrative_boundary": 667,
+      "explicit_number_observation": 6688,
+      "road_way": 37445,
+      "interpolation_way_evidence": 14,
+      "associated_street_relation": 1
+    },
+    "BB": {
+      "administrative_boundary": 1368,
+      "explicit_number_observation": 5025,
+      "road_way": 23008,
+      "interpolation_way_evidence": 14
+    },
+    "CU": {
+      "administrative_boundary": 1501,
+      "explicit_number_observation": 22447,
+      "road_way": 272996,
+      "interpolation_way_evidence": 1,
+      "associated_street_relation": 3
+    },
+    "DM": {
+      "administrative_boundary": 57,
+      "explicit_number_observation": 53,
+      "road_way": 5725
+    },
+    "DO": {
+      "administrative_boundary": 636,
+      "explicit_number_observation": 7397,
+      "road_way": 199767
+    },
+    "GD": {
+      "administrative_boundary": 19,
+      "explicit_number_observation": 15,
+      "road_way": 7322
+    },
+    "HT": {
+      "administrative_boundary": 2465,
+      "explicit_number_observation": 9121,
+      "road_way": 131861,
+      "associated_street_relation": 41
+    },
+    "JM": {
+      "administrative_boundary": 108,
+      "explicit_number_observation": 4526,
+      "road_way": 63339
+    },
+    "KN": {
+      "administrative_boundary": 39,
+      "explicit_number_observation": 73,
+      "road_way": 6054
+    },
+    "LC": {
+      "administrative_boundary": 31,
+      "explicit_number_observation": 85,
+      "road_way": 8446
+    },
+    "VC": {
+      "administrative_boundary": 18,
+      "explicit_number_observation": 10,
+      "road_way": 6513
+    },
+    "TT": {
+      "administrative_boundary": 78,
+      "explicit_number_observation": 254717,
+      "road_way": 49440,
+      "interpolation_way_evidence": 25
+    },
+    "AI": {
+      "administrative_boundary": 3,
+      "explicit_number_observation": 2,
+      "road_way": 2929
+    },
+    "AW": {
+      "administrative_boundary": 11,
+      "explicit_number_observation": 37596,
+      "road_way": 10061
+    },
+    "BQ": {
+      "administrative_boundary": 16,
+      "legal_boundary": 1,
+      "explicit_number_observation": 5008,
+      "road_way": 7083
+    },
+    "VG": {
+      "administrative_boundary": 12,
+      "explicit_number_observation": 18,
+      "road_way": 3387
+    },
+    "KY": {
+      "administrative_boundary": 16,
+      "explicit_number_observation": 714,
+      "road_way": 7003
+    },
+    "CW": {
+      "administrative_boundary": 4,
+      "explicit_number_observation": 10184,
+      "road_way": 17998
+    },
+    "GP": {
+      "administrative_boundary": 307,
+      "explicit_number_observation": 37409,
+      "road_way": 49460,
+      "associated_street_relation": 15
+    },
+    "MQ": {
+      "administrative_boundary": 276,
+      "explicit_number_observation": 65796,
+      "road_way": 43527,
+      "associated_street_relation": 135
+    },
+    "MS": {
+      "administrative_boundary": 10,
+      "explicit_number_observation": 1,
+      "road_way": 1119
+    },
+    "PR": {
+      "administrative_boundary": 3736,
+      "explicit_number_observation": 114562,
+      "road_way": 192729,
+      "interpolation_way_evidence": 2
+    },
+    "BL": {
+      "administrative_boundary": 6,
+      "explicit_number_observation": 5502,
+      "road_way": 2859
+    },
+    "MF": {
+      "administrative_boundary": 7,
+      "explicit_number_observation": 2003,
+      "road_way": 3380,
+      "associated_street_relation": 44
+    },
+    "SX": {
+      "administrative_boundary": 6,
+      "explicit_number_observation": 481,
+      "road_way": 4123
+    },
+    "TC": {
+      "administrative_boundary": 10,
+      "explicit_number_observation": 235,
+      "road_way": 5424
+    },
+    "VI": {
+      "administrative_boundary": 28,
+      "explicit_number_observation": 1073,
+      "road_way": 12358
+    }
+  },
+  "unassigned_review_counts": {
+    "administrative_boundary": 142,
+    "road_way": 71,
+    "associated_street_relation": 1
+  },
+  "country_assignment_reviews": [
+    {
+      "osm_key": "osm:way:42296542",
+      "candidates": [
+        "PR"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:28460950",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:42297367",
+      "candidates": [
+        "VG",
+        "VI"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:42297370",
+      "candidates": [
+        "VG",
+        "VI"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:48360222",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:48409663",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:48419971",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:48435450",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:48435492",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:48467593",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:48487073",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:48487098",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:48581237",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:48582329",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:48587451",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:48588501",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:48588734",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:48612170",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:48663585",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:48663990",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:48664256",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:48664279",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:48679069",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:48686950",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:48699992",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:48732854",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:48736376",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:48909192",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:48997917",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:48997919",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:48997923",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:48998242",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:48998244",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:48998245",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:50448587",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:50634189",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:50634190",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:54974417",
+      "candidates": [
+        "LC",
+        "MQ"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:81100689",
+      "candidates": [
+        "BQ",
+        "CW"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:82217908",
+      "candidates": [
+        "BQ",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:82312180",
+      "candidates": [
+        "DM",
+        "GP"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:139994987",
+      "candidates": [
+        "DM",
+        "MQ"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:140008034",
+      "candidates": [
+        "AI",
+        "MF"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:174187195",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:179634267",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:180241391",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:180241394",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:184237858",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:184237859",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:188099371",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:188099376",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:204483815",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:220098083",
+      "candidates": [
+        "VG",
+        "VI"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:220098084",
+      "candidates": [
+        "VG",
+        "VI"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:220098085",
+      "candidates": [
+        "VG",
+        "VI"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:241507063",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:243699276",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:243699282",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:253589692",
+      "candidates": [
+        "TT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:254605672",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:259081034",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:295038057",
+      "candidates": [
+        "TT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:300647371",
+      "candidates": [
+        "BS",
+        "CU"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:302689177",
+      "candidates": [
+        "BS",
+        "TC"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:328629926",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:330592499",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:337239365",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:338713822",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:356669116",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:385491703",
+      "candidates": [
+        "DO",
+        "TC"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:395187681",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:397521601",
+      "candidates": [
+        "BL",
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:447052348",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:488324490",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:507047685",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:508233384",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:516715554",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:521514842",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:521619677",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:521619679",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:522217513",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:523685733",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:523685734",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:524705101",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:525177074",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:525204369",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:527210854",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:537853868",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:545142113",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:545142118",
+      "candidates": [
+        "BL",
+        "BQ"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:545142121",
+      "candidates": [
+        "BL",
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:545142123",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:545142126",
+      "candidates": [
+        "BL",
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:550838503",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:550838504",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:603130434",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:637162999",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:637168252",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:637177234",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:637187478",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:637199190",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:637199903",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:667648058",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:667648813",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:683620195",
+      "candidates": [
+        "DM",
+        "GP"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:683620196",
+      "candidates": [
+        "DM",
+        "GP"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:684761199",
+      "candidates": [
+        "BL",
+        "BQ"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:684830598",
+      "candidates": [
+        "BL",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:684830601",
+      "candidates": [
+        "AI",
+        "MF"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:684830602",
+      "candidates": [
+        "AI",
+        "MF"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:684830603",
+      "candidates": [
+        "AI",
+        "MF"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:684830608",
+      "candidates": [
+        "LC",
+        "MQ"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:684830609",
+      "candidates": [
+        "LC",
+        "MQ"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:684830614",
+      "candidates": [
+        "LC",
+        "MQ"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:687663018",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:687663019",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:687674172",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:687674324",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:687674608",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:690052682",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:690052685",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:690052686",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:723315421",
+      "candidates": [
+        "TT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:804477104",
+      "candidates": [
+        "TT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:804477106",
+      "candidates": [
+        "TT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:804477108",
+      "candidates": [
+        "TT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:804477114",
+      "candidates": [
+        "TT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:823159308",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:845060310",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:880367945",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:993740643",
+      "candidates": [
+        "AG",
+        "MS"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:993740647",
+      "candidates": [
+        "AG",
+        "KN"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:993740650",
+      "candidates": [
+        "BQ",
+        "KN"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:993740651",
+      "candidates": [
+        "AG",
+        "MS"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:996130056",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:996131021",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:996131023",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:996166402",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1007760860",
+      "candidates": [
+        "LC",
+        "VC"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1009066178",
+      "candidates": [
+        "GD",
+        "VC"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1028866264",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1030298074",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1040647930",
+      "candidates": [
+        "AW"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1040657405",
+      "candidates": [
+        "BL",
+        "BQ"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1046725722",
+      "candidates": [
+        "AW"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1085945698",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1093668222",
+      "candidates": [
+        "TT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1093668223",
+      "candidates": [
+        "TT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1102241127",
+      "candidates": [
+        "TT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1128122740",
+      "candidates": [
+        "VG"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1128122741",
+      "candidates": [
+        "VG"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1176630186",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1191739467",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1229792534",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1229792535",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1229792542",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1229792543",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1265921029",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266117411",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266318567",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266318568",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266318569",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266318573",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266318574",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266346368",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266346369",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266346370",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266645277",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1266645285",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1266645289",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266645290",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266649580",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266649581",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266659539",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266659540",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266996080",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266996084",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266996085",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266996086",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266996088",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266996089",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266996090",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266996091",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266996092",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266996093",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1266996094",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1267226956",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1267255064",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1267255074",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1267255075",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1267255076",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1267255077",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1267487897",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1272209405",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1272322826",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1272334984",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1272408593",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1272408609",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1275114481",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1275114486",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1350677108",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1426757773",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1525219490",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1525219491",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1525219495",
+      "candidates": [
+        "DO",
+        "HT"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    },
+    {
+      "osm_key": "osm:way:1527660031",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1527662535",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:way:1527662536",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "overlapping_source_country_polygons"
+    },
+    {
+      "osm_key": "osm:relation:3793896",
+      "candidates": [
+        "MQ"
+      ],
+      "reason": "country_of_explicit_source_relation_members"
+    },
+    {
+      "osm_key": "osm:relation:4478502",
+      "candidates": [
+        "MF",
+        "SX"
+      ],
+      "reason": "crosses_or_touches_country_boundary"
+    }
+  ],
+  "source_area_geometry_failures": [
+    {
+      "osm_key": "osm:relation:5846051",
+      "reason": "invalid area (area_id=11692103)"
+    },
+    {
+      "osm_key": "osm:relation:5853832",
+      "reason": "invalid area (area_id=11707665)"
+    },
+    {
+      "osm_key": "osm:relation:5844762",
+      "reason": "invalid area (area_id=11689525)"
+    },
+    {
+      "osm_key": "osm:relation:14192624",
+      "reason": "invalid area (area_id=28385249)"
+    },
+    {
+      "osm_key": "osm:relation:18322769",
+      "reason": "invalid area (area_id=36645539)"
+    },
+    {
+      "osm_key": "osm:relation:5861010",
+      "reason": "invalid area (area_id=11722021)"
+    },
+    {
+      "osm_key": "osm:relation:13470666",
+      "reason": "invalid area (area_id=26941333)"
+    },
+    {
+      "osm_key": "osm:relation:19305630",
+      "reason": "invalid area (area_id=38611261)"
+    },
+    {
+      "osm_key": "osm:relation:19336306",
+      "reason": "invalid area (area_id=38672613)"
+    },
+    {
+      "osm_key": "osm:relation:19336307",
+      "reason": "invalid area (area_id=38672615)"
+    },
+    {
+      "osm_key": "osm:relation:5846097",
+      "reason": "invalid area (area_id=11692195)"
+    },
+    {
+      "osm_key": "osm:relation:5853746",
+      "reason": "invalid area (area_id=11707493)"
+    },
+    {
+      "osm_key": "osm:relation:5850211",
+      "reason": "invalid area (area_id=11700423)"
+    },
+    {
+      "osm_key": "osm:relation:19850923",
+      "reason": "invalid area (area_id=39701847)"
+    },
+    {
+      "osm_key": "osm:relation:20112965",
+      "reason": "invalid area (area_id=40225931)"
+    },
+    {
+      "osm_key": "osm:relation:20115006",
+      "reason": "invalid area (area_id=40230013)"
+    },
+    {
+      "osm_key": "osm:relation:20121501",
+      "reason": "invalid area (area_id=40243003)"
+    },
+    {
+      "osm_key": "osm:relation:20123837",
+      "reason": "invalid area (area_id=40247675)"
+    },
+    {
+      "osm_key": "osm:relation:20123512",
+      "reason": "invalid area (area_id=40247025)"
+    },
+    {
+      "osm_key": "osm:relation:20123835",
+      "reason": "invalid area (area_id=40247671)"
+    },
+    {
+      "osm_key": "osm:relation:20123836",
+      "reason": "invalid area (area_id=40247673)"
+    },
+    {
+      "osm_key": "osm:relation:20127390",
+      "reason": "invalid area (area_id=40254781)"
+    },
+    {
+      "osm_key": "osm:relation:20127386",
+      "reason": "invalid area (area_id=40254773)"
+    },
+    {
+      "osm_key": "osm:relation:20127389",
+      "reason": "invalid area (area_id=40254779)"
+    },
+    {
+      "osm_key": "osm:relation:20131235",
+      "reason": "invalid area (area_id=40262471)"
+    },
+    {
+      "osm_key": "osm:relation:13985574",
+      "reason": "invalid area (area_id=27971149)"
+    },
+    {
+      "osm_key": "osm:relation:18473504",
+      "reason": "invalid area (area_id=36947009)"
+    },
+    {
+      "osm_key": "osm:relation:5892064",
+      "reason": "invalid area (area_id=11784129)"
+    },
+    {
+      "osm_key": "osm:relation:21078363",
+      "reason": "invalid area (area_id=42156727)"
+    },
+    {
+      "osm_key": "osm:relation:21078837",
+      "reason": "invalid area (area_id=42157675)"
+    },
+    {
+      "osm_key": "osm:relation:21086231",
+      "reason": "invalid area (area_id=42172463)"
+    },
+    {
+      "osm_key": "osm:relation:20123554",
+      "reason": "invalid area (area_id=40247109)"
+    },
+    {
+      "osm_key": "osm:relation:5857668",
+      "reason": "invalid area (area_id=11715337)"
+    }
+  ],
+  "normalized": {
+    "path": "observations.jsonl.gz",
+    "bytes": 331132816,
+    "sha256": "3cdab53a86870a8052412b038fd9cf480b122f3567f484e3dc09b810ba6212d5",
+    "uncompressed_row_sha256": "54c67a7ee2bbb92a969f6bd3d095766a675c0df96877f46a2be4a692d66b02a7"
+  },
+  "runtime_versions": {
+    "osmium": "4.3.2",
+    "shapely": "2.2.0"
+  },
+  "policies": [
+    "OSM IDs include object type; original versions, tags, nodes and relation members are retained.",
+    "Geographic country labels derived from OSM polygons are not official administrative ID joins.",
+    "Legal BQ grouping is not counted as a shared administrative government.",
+    "Explicit addr:housenumber values remain strings; interpolation is never expanded.",
+    "Coincident official and OSM observations are not merged or added as unique roads/addresses.",
+    "Construction, proposed and unnamed highway ways retain source tags, not a usability guarantee."
+  ]
+}

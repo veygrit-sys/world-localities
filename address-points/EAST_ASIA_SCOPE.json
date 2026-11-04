@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "country_codes": [
+    "CN",
+    "HK",
+    "JP",
+    "KP",
+    "KR",
+    "MN",
+    "MO",
+    "TW"
+  ],
+  "target_domains": [
+    "administrative_divisions",
+    "address_streets",
+    "physical_roads",
+    "assigned_house_numbers"
+  ],
+  "national_completeness_verified": false,
+  "deliverability_in_scope": false,
+  "source_policy": "official_and_open_data",
+  "additional_reference_layers": [
+    "localities"
+  ]
+}

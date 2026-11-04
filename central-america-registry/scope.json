@@ -1,0 +1,178 @@
+{
+  "countries": [
+    {
+      "alpha3": "BLZ",
+      "country": "BZ",
+      "geonames_continent": "NA",
+      "geonames_country_name": "Belize",
+      "geonames_id": "3582678",
+      "id": "country:BZ",
+      "m49": "084",
+      "name_en": "Belize",
+      "numeric": "084",
+      "region": "Central America",
+      "reported_languages": [
+        "en-BZ",
+        "es"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "GTM",
+      "country": "GT",
+      "geonames_continent": "NA",
+      "geonames_country_name": "Guatemala",
+      "geonames_id": "3595528",
+      "id": "country:GT",
+      "m49": "320",
+      "name_en": "Guatemala",
+      "numeric": "320",
+      "region": "Central America",
+      "reported_languages": [
+        "es-GT"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "HND",
+      "country": "HN",
+      "geonames_continent": "NA",
+      "geonames_country_name": "Honduras",
+      "geonames_id": "3608932",
+      "id": "country:HN",
+      "m49": "340",
+      "name_en": "Honduras",
+      "numeric": "340",
+      "region": "Central America",
+      "reported_languages": [
+        "es-HN",
+        "cab",
+        "miq"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "NIC",
+      "country": "NI",
+      "geonames_continent": "NA",
+      "geonames_country_name": "Nicaragua",
+      "geonames_id": "3617476",
+      "id": "country:NI",
+      "m49": "558",
+      "name_en": "Nicaragua",
+      "numeric": "558",
+      "region": "Central America",
+      "reported_languages": [
+        "es-NI",
+        "en"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "PAN",
+      "country": "PA",
+      "geonames_continent": "NA",
+      "geonames_country_name": "Panama",
+      "geonames_id": "3703430",
+      "id": "country:PA",
+      "m49": "591",
+      "name_en": "Panama",
+      "numeric": "591",
+      "region": "Central America",
+      "reported_languages": [
+        "es-PA",
+        "en"
+      ],
+      "status": "source_country_or_area"
+    },
+    {
+      "alpha3": "SLV",
+      "country": "SV",
+      "geonames_continent": "NA",
+      "geonames_country_name": "El Salvador",
+      "geonames_id": "3585968",
+      "id": "country:SV",
+      "m49": "222",
+      "name_en": "El Salvador",
+      "numeric": "222",
+      "region": "Central America",
+      "reported_languages": [
+        "es-SV"
+      ],
+      "status": "source_country_or_area"
+    }
+  ],
+  "coverage_status": "partial_6_of_8_m49_members",
+  "excluded_from_this_layer": [
+    {
+      "country": "CR",
+      "reason": "Pending approval; no source or derived country records included"
+    },
+    {
+      "country": "MX",
+      "path": "../official-registry/MX",
+      "reason": "Separate source layers; not included in this six-country batch"
+    }
+  ],
+  "full_m49_members": [
+    "BZ",
+    "CR",
+    "SV",
+    "GT",
+    "HN",
+    "MX",
+    "NI",
+    "PA"
+  ],
+  "region_m49": "013",
+  "retrieved_on": "2026-10-01",
+  "schema_version": 1,
+  "source_rows": [
+    [
+      "Central America",
+      "013",
+      ""
+    ],
+    [
+      "Belize",
+      "084",
+      "BLZ"
+    ],
+    [
+      "El Salvador",
+      "222",
+      "SLV"
+    ],
+    [
+      "Guatemala",
+      "320",
+      "GTM"
+    ],
+    [
+      "Honduras",
+      "340",
+      "HND"
+    ],
+    [
+      "Nicaragua",
+      "558",
+      "NIC"
+    ],
+    [
+      "Panama",
+      "591",
+      "PAN"
+    ],
+    [
+      "Mexico",
+      "484",
+      "MEX"
+    ],
+    [
+      "Costa Rica",
+      "188",
+      "CRI"
+    ]
+  ],
+  "source_url": "https://unstats.un.org/unsd/methodology/m49/"
+}

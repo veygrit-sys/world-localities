@@ -1,0 +1,1847 @@
+{
+  "status": "SOURCE_REFERENCES_AUDITED",
+  "administrative_relation_objects": 3350,
+  "explicit_subarea_edges": [
+    {
+      "parent": "osm:relation:547511",
+      "child": "osm:relation:3961378",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547511",
+      "child": "osm:relation:3961379",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547511",
+      "child": "osm:relation:3961988",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547511",
+      "child": "osm:relation:3961380",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547511",
+      "child": "osm:relation:3961381",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547511",
+      "child": "osm:relation:3961382",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547511",
+      "child": "osm:relation:3961383",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547511",
+      "child": "osm:relation:3961384",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547511",
+      "child": "osm:relation:3961385",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547511",
+      "child": "osm:relation:3961386",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547511",
+      "child": "osm:relation:3961387",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555017",
+      "child": "osm:relation:1637035",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555017",
+      "child": "osm:relation:319347",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555017",
+      "child": "osm:relation:6577227",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555017",
+      "child": "osm:relation:1637038",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555017",
+      "child": "osm:relation:319344",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555017",
+      "child": "osm:relation:6577862",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555017",
+      "child": "osm:relation:319340",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555017",
+      "child": "osm:relation:1637037",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555017",
+      "child": "osm:relation:319352",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555017",
+      "child": "osm:relation:319345",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555017",
+      "child": "osm:relation:319343",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555017",
+      "child": "osm:relation:319362",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555017",
+      "child": "osm:relation:319341",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555017",
+      "child": "osm:relation:319351",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776660",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3772879",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776644",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776645",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776646",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776647",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776648",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776649",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776650",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776653",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3775751",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776651",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776652",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776654",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776687",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776655",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776656",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3775740",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776657",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776658",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3775742",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776659",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776661",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776662",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776663",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776664",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776665",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776666",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776667",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776678",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776668",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776669",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:547469",
+      "child": "osm:relation:3776685",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3420315",
+      "child": "osm:relation:7384719",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3420315",
+      "child": "osm:relation:7384722",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3420315",
+      "child": "osm:relation:7373854",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5283162",
+      "child": "osm:relation:9280609",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5283162",
+      "child": "osm:relation:9280612",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5283162",
+      "child": "osm:relation:9280615",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5283162",
+      "child": "osm:relation:9280610",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5283162",
+      "child": "osm:relation:9280617",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5283162",
+      "child": "osm:relation:9280611",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5283162",
+      "child": "osm:relation:9280616",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5283162",
+      "child": "osm:relation:9280613",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5283162",
+      "child": "osm:relation:9280614",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5820117",
+      "child": "osm:relation:9280621",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5820117",
+      "child": "osm:relation:9280620",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5820117",
+      "child": "osm:relation:224884",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5820117",
+      "child": "osm:relation:9280618",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5820117",
+      "child": "osm:relation:9280619",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307823",
+      "child": "osm:relation:2315027",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307823",
+      "child": "osm:relation:2314472",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307823",
+      "child": "osm:relation:1793745",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307823",
+      "child": "osm:relation:2315070",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307823",
+      "child": "osm:relation:2325658",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307823",
+      "child": "osm:relation:2306401",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307823",
+      "child": "osm:relation:2306400",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307823",
+      "child": "osm:relation:2304770",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307823",
+      "child": "osm:relation:2325657",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307823",
+      "child": "osm:relation:2325659",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307823",
+      "child": "osm:relation:14032396",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9604459",
+      "child": "osm:relation:9604134",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9604459",
+      "child": "osm:relation:9604133",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9604459",
+      "child": "osm:relation:9604135",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9604459",
+      "child": "osm:relation:9604132",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9609240",
+      "child": "osm:relation:3420314",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9609240",
+      "child": "osm:relation:3420315",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9609240",
+      "child": "osm:relation:3420666",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3420666",
+      "child": "osm:relation:7384704",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3420666",
+      "child": "osm:relation:7384706",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3420666",
+      "child": "osm:relation:7384712",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3420666",
+      "child": "osm:relation:7384718",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3420314",
+      "child": "osm:relation:7380779",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3420314",
+      "child": "osm:relation:7380786",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3420314",
+      "child": "osm:relation:7380800",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3420314",
+      "child": "osm:relation:7373852",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9604138",
+      "child": "osm:relation:9604933",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9604138",
+      "child": "osm:relation:9604932",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9604138",
+      "child": "osm:relation:9604457",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9604138",
+      "child": "osm:relation:9604629",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9604138",
+      "child": "osm:relation:9604794",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9604138",
+      "child": "osm:relation:9604456",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:536899",
+      "child": "osm:relation:5820117",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:536899",
+      "child": "osm:relation:5283162",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:536900",
+      "child": "osm:relation:9604138",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:536900",
+      "child": "osm:relation:7742426",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:536900",
+      "child": "osm:relation:7742427",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550728",
+      "child": "osm:relation:9304002",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550728",
+      "child": "osm:relation:9333382",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550728",
+      "child": "osm:relation:9304003",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550728",
+      "child": "osm:relation:9304004",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550728",
+      "child": "osm:relation:9304005",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550728",
+      "child": "osm:relation:9303814",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550728",
+      "child": "osm:relation:9303813",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550728",
+      "child": "osm:relation:9302977",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550728",
+      "child": "osm:relation:9303838",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550728",
+      "child": "osm:relation:9303796",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550727",
+      "child": "osm:relation:12335403",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550727",
+      "child": "osm:relation:12344206",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550727",
+      "child": "osm:relation:12344200",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550727",
+      "child": "osm:relation:12344153",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550727",
+      "child": "osm:relation:12343999",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550727",
+      "child": "osm:relation:12343976",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550727",
+      "child": "osm:relation:12342346",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550725",
+      "child": "osm:relation:4016640",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550725",
+      "child": "osm:relation:4016680",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550725",
+      "child": "osm:relation:4016641",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550725",
+      "child": "osm:relation:4016642",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550725",
+      "child": "osm:relation:4016643",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:550725",
+      "child": "osm:relation:4016644",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:274372",
+      "child": "osm:relation:5837173",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1231749",
+      "child": "osm:relation:14034189",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307833",
+      "child": "osm:relation:2576644",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307833",
+      "child": "osm:relation:1854630",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307833",
+      "child": "osm:relation:1854631",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307833",
+      "child": "osm:relation:1854632",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307833",
+      "child": "osm:relation:1854633",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307833",
+      "child": "osm:relation:1854634",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307833",
+      "child": "osm:relation:1854635",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307833",
+      "child": "osm:relation:1854614",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307833",
+      "child": "osm:relation:1854615",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307833",
+      "child": "osm:relation:1854636",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307833",
+      "child": "osm:relation:1854616",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307833",
+      "child": "osm:relation:2579313",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307833",
+      "child": "osm:relation:1854617",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307833",
+      "child": "osm:relation:1923793",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307833",
+      "child": "osm:relation:1854638",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307833",
+      "child": "osm:relation:1923804",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555717",
+      "child": "osm:relation:7363636",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555717",
+      "child": "osm:relation:7363637",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555717",
+      "child": "osm:relation:7363638",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555717",
+      "child": "osm:relation:7363639",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555717",
+      "child": "osm:relation:7363640",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555717",
+      "child": "osm:relation:11146288",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555717",
+      "child": "osm:relation:7363641",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555717",
+      "child": "osm:relation:7363415",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555717",
+      "child": "osm:relation:7361804",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555717",
+      "child": "osm:relation:7361803",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555717",
+      "child": "osm:relation:7363416",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555717",
+      "child": "osm:relation:7363419",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555717",
+      "child": "osm:relation:7363417",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555717",
+      "child": "osm:relation:7363418",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:555717",
+      "child": "osm:relation:5176041",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5489827",
+      "child": "osm:relation:15768409",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5489827",
+      "child": "osm:relation:15816536",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5489827",
+      "child": "osm:relation:15816537",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5489827",
+      "child": "osm:relation:15816806",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5489827",
+      "child": "osm:relation:15816910",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5489827",
+      "child": "osm:relation:15817026",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5489827",
+      "child": "osm:relation:15817658",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5489818",
+      "child": "osm:relation:15793520",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5489818",
+      "child": "osm:relation:15793693",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5489818",
+      "child": "osm:relation:15800305",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5489818",
+      "child": "osm:relation:15979724",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5489818",
+      "child": "osm:relation:15793519",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5489818",
+      "child": "osm:relation:15793517",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9608153",
+      "child": "osm:relation:3420312",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9608153",
+      "child": "osm:relation:3420316",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307828",
+      "child": "osm:relation:3449350",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307828",
+      "child": "osm:relation:3448694",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307828",
+      "child": "osm:relation:10326757",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307829",
+      "child": "osm:relation:392238",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307829",
+      "child": "osm:relation:392213",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307829",
+      "child": "osm:relation:391700",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307829",
+      "child": "osm:relation:391834",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307829",
+      "child": "osm:relation:392028",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307829",
+      "child": "osm:relation:392189",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307829",
+      "child": "osm:relation:391963",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307829",
+      "child": "osm:relation:386871",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307829",
+      "child": "osm:relation:2744350",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307829",
+      "child": "osm:relation:391953",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:307829",
+      "child": "osm:relation:391980",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3449346",
+      "child": "osm:relation:3420663",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3449346",
+      "child": "osm:relation:3421242",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3449346",
+      "child": "osm:relation:14761637",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3449346",
+      "child": "osm:relation:14761638",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3449351",
+      "child": "osm:relation:3421245",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3449351",
+      "child": "osm:relation:3421246",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3449351",
+      "child": "osm:relation:3422564",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3449351",
+      "child": "osm:relation:3421243",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3448691",
+      "child": "osm:relation:3412367",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3448691",
+      "child": "osm:relation:3411021",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3448691",
+      "child": "osm:relation:3412368",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3448691",
+      "child": "osm:relation:3412369",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9608152",
+      "child": "osm:relation:3420664",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9608152",
+      "child": "osm:relation:3420313",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9608152",
+      "child": "osm:relation:3422241",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9608152",
+      "child": "osm:relation:3422242",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3449347",
+      "child": "osm:relation:3420529",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3449347",
+      "child": "osm:relation:3422259",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3449347",
+      "child": "osm:relation:3422239",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9608154",
+      "child": "osm:relation:53161",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9608154",
+      "child": "osm:relation:3422565",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:53161",
+      "child": "osm:relation:7407678",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3422565",
+      "child": "osm:relation:7407685",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3422565",
+      "child": "osm:relation:7407687",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3422565",
+      "child": "osm:relation:7407691",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3422565",
+      "child": "osm:relation:7407701",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3422565",
+      "child": "osm:relation:7376886",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3422565",
+      "child": "osm:relation:7407715",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3422565",
+      "child": "osm:relation:7407721",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9608061",
+      "child": "osm:relation:3422238",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9608061",
+      "child": "osm:relation:3422240",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:9608061",
+      "child": "osm:relation:3422258",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:10326757",
+      "child": "osm:relation:3449347",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:10326757",
+      "child": "osm:relation:9608154",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:10326757",
+      "child": "osm:relation:9608061",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1694553",
+      "child": "osm:relation:272700",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1694553",
+      "child": "osm:relation:278944",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1694553",
+      "child": "osm:relation:278979",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1694553",
+      "child": "osm:relation:278474",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1694553",
+      "child": "osm:relation:270898",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1694553",
+      "child": "osm:relation:276161",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1694553",
+      "child": "osm:relation:271958",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1694553",
+      "child": "osm:relation:271020",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1694553",
+      "child": "osm:relation:274267",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1694553",
+      "child": "osm:relation:273827",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1694553",
+      "child": "osm:relation:278212",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1694553",
+      "child": "osm:relation:278988",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1694553",
+      "child": "osm:relation:274372",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1694553",
+      "child": "osm:relation:282349",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1694553",
+      "child": "osm:relation:282383",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1694553",
+      "child": "osm:relation:271021",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1694553",
+      "child": "osm:relation:271531",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1694553",
+      "child": "osm:relation:278704",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1047199",
+      "child": "osm:relation:239133",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1047199",
+      "child": "osm:relation:198255",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1047199",
+      "child": "osm:relation:279867",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1047199",
+      "child": "osm:relation:281178",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1047199",
+      "child": "osm:relation:255779",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1047199",
+      "child": "osm:relation:280175",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1047199",
+      "child": "osm:relation:270330",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1047199",
+      "child": "osm:relation:254386",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1047199",
+      "child": "osm:relation:270237",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1047199",
+      "child": "osm:relation:269916",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1047199",
+      "child": "osm:relation:254957",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1047199",
+      "child": "osm:relation:280626",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1047199",
+      "child": "osm:relation:255123",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:2562137",
+      "child": "osm:relation:1047206",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412919",
+      "child": "osm:relation:7380607",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412919",
+      "child": "osm:relation:7380617",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412919",
+      "child": "osm:relation:7366332",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412919",
+      "child": "osm:relation:7366345",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412919",
+      "child": "osm:relation:7366401",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412919",
+      "child": "osm:relation:7380629",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412919",
+      "child": "osm:relation:7367027",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412919",
+      "child": "osm:relation:7367030",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412919",
+      "child": "osm:relation:7373133",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3448692",
+      "child": "osm:relation:3412918",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3448692",
+      "child": "osm:relation:3412919",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3448692",
+      "child": "osm:relation:3412920",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702961",
+      "child": "osm:relation:295384",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702961",
+      "child": "osm:relation:295490",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702961",
+      "child": "osm:relation:298599",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702961",
+      "child": "osm:relation:289715",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702961",
+      "child": "osm:relation:295775",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702961",
+      "child": "osm:relation:296889",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702961",
+      "child": "osm:relation:297294",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702961",
+      "child": "osm:relation:297322",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702961",
+      "child": "osm:relation:295802",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702961",
+      "child": "osm:relation:296405",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702961",
+      "child": "osm:relation:295085",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702961",
+      "child": "osm:relation:290029",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1698022",
+      "child": "osm:relation:290031",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1698022",
+      "child": "osm:relation:299032",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1698022",
+      "child": "osm:relation:298961",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1698022",
+      "child": "osm:relation:287888",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702960",
+      "child": "osm:relation:287508",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702960",
+      "child": "osm:relation:287256",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702960",
+      "child": "osm:relation:287069",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702960",
+      "child": "osm:relation:297332",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702960",
+      "child": "osm:relation:287475",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702960",
+      "child": "osm:relation:287188",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702960",
+      "child": "osm:relation:288277",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702960",
+      "child": "osm:relation:289393",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702960",
+      "child": "osm:relation:288528",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1702960",
+      "child": "osm:relation:288715",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1651788",
+      "child": "osm:relation:287640",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1651788",
+      "child": "osm:relation:285960",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1651788",
+      "child": "osm:relation:287734",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1651788",
+      "child": "osm:relation:214830",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1651788",
+      "child": "osm:relation:214778",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1651788",
+      "child": "osm:relation:287905",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1651788",
+      "child": "osm:relation:286616",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1651788",
+      "child": "osm:relation:214833",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:2473088",
+      "child": "osm:relation:5962802",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:2473088",
+      "child": "osm:relation:1698022",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:2473088",
+      "child": "osm:relation:1702960",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:2473088",
+      "child": "osm:relation:1702961",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:2473088",
+      "child": "osm:relation:1651788",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:2473088",
+      "child": "osm:relation:2193664",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:2473088",
+      "child": "osm:relation:2193665",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:2473088",
+      "child": "osm:relation:2193666",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:2473088",
+      "child": "osm:relation:2193667",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412920",
+      "child": "osm:relation:7380638",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412920",
+      "child": "osm:relation:7380647",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412920",
+      "child": "osm:relation:7380651",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412920",
+      "child": "osm:relation:7380690",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412920",
+      "child": "osm:relation:7380701",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412920",
+      "child": "osm:relation:7380703",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412920",
+      "child": "osm:relation:7373398",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412920",
+      "child": "osm:relation:7380742",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412920",
+      "child": "osm:relation:7380752",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412920",
+      "child": "osm:relation:20805894",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412918",
+      "child": "osm:relation:7380533",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412918",
+      "child": "osm:relation:7366014",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412918",
+      "child": "osm:relation:7366018",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412918",
+      "child": "osm:relation:7366308",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:3412918",
+      "child": "osm:relation:20772908",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1231790",
+      "child": "osm:relation:14034478",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5489825",
+      "child": "osm:relation:16001073",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5489825",
+      "child": "osm:relation:15777043",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5489825",
+      "child": "osm:relation:15777099",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5489825",
+      "child": "osm:relation:15777539",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:5489825",
+      "child": "osm:relation:15777100",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1854615",
+      "child": "osm:relation:5489827",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1854615",
+      "child": "osm:relation:5489825",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1854615",
+      "child": "osm:relation:5489818",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1854615",
+      "child": "osm:relation:5489817",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1854615",
+      "child": "osm:relation:5489821",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1854615",
+      "child": "osm:relation:5501389",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1854615",
+      "child": "osm:relation:5489823",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1854615",
+      "child": "osm:relation:5489826",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1854615",
+      "child": "osm:relation:5489830",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1854615",
+      "child": "osm:relation:5489820",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1854615",
+      "child": "osm:relation:5489822",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1854615",
+      "child": "osm:relation:5489828",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1854615",
+      "child": "osm:relation:5489829",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1854615",
+      "child": "osm:relation:5489824",
+      "role": "subarea"
+    },
+    {
+      "parent": "osm:relation:1854615",
+      "child": "osm:relation:5489819",
+      "role": "subarea"
+    }
+  ],
+  "issues": [
+    {
+      "parent": "osm:relation:9604459",
+      "child": "osm:relation:9604134",
+      "issue": "child_not_in_selected_source_index"
+    },
+    {
+      "parent": "osm:relation:9604459",
+      "child": "osm:relation:9604133",
+      "issue": "child_not_in_selected_source_index"
+    },
+    {
+      "parent": "osm:relation:9604459",
+      "child": "osm:relation:9604135",
+      "issue": "child_not_in_selected_source_index"
+    },
+    {
+      "parent": "osm:relation:9604459",
+      "child": "osm:relation:9604132",
+      "issue": "child_not_in_selected_source_index"
+    },
+    {
+      "parent": "osm:relation:274372",
+      "child": "osm:relation:5837173",
+      "issue": "child_not_in_selected_source_index"
+    },
+    {
+      "parent": "osm:relation:307828",
+      "child": "osm:relation:3449350",
+      "issue": "child_not_in_selected_source_index"
+    },
+    {
+      "parent": "osm:relation:307828",
+      "child": "osm:relation:3448694",
+      "issue": "child_not_in_selected_source_index"
+    },
+    {
+      "parent": "osm:relation:2473088",
+      "child": "osm:relation:5962802",
+      "issue": "child_not_in_selected_source_index"
+    },
+    {
+      "parent": "osm:relation:2473088",
+      "child": "osm:relation:2193664",
+      "issue": "child_not_in_selected_source_index"
+    },
+    {
+      "parent": "osm:relation:2473088",
+      "child": "osm:relation:2193665",
+      "issue": "child_not_in_selected_source_index"
+    },
+    {
+      "parent": "osm:relation:2473088",
+      "child": "osm:relation:2193666",
+      "issue": "child_not_in_selected_source_index"
+    },
+    {
+      "parent": "osm:relation:2473088",
+      "child": "osm:relation:2193667",
+      "issue": "child_not_in_selected_source_index"
+    }
+  ],
+  "cycles": [],
+  "complete": false,
+  "deliverability_in_scope": false,
+  "policy": "Missing parents/children, contradictory levels and cycles remain source issues; no parent is inferred from a name or numeric level."
+}

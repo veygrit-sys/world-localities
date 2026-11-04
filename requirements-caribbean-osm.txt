@@ -1,0 +1,3 @@
+# Optional PBF extraction only; official-source and hierarchy code stays standard-library based.
+osmium==4.3.2
+shapely==2.2.0

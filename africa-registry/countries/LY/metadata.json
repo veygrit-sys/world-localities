@@ -1,0 +1,90 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "LBY",
+    "country": "LY",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Libya",
+    "geonames_id": "2215636",
+    "id": "country:LY",
+    "m49": "434",
+    "name_en": "Libya",
+    "numeric": "434",
+    "region": "Northern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 906,
+    "admin_rows": 24,
+    "ambiguous_parents": 0,
+    "country": "LY",
+    "country_scope_only": 2,
+    "localities_without_adm1": 22,
+    "locality_rows": 909,
+    "name_en": "Libya",
+    "other_admin_rows": 36,
+    "region": "Northern Africa",
+    "unresolved_parents": 21
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 22,
+    "ADM1H": 10,
+    "ADM2": 1,
+    "ADM3": 1,
+    "ADM3H": 1,
+    "ADMD": 24,
+    "PCLI": 1,
+    "PPL": 799,
+    "PPLA": 20,
+    "PPLC": 1,
+    "PPLL": 1,
+    "PPLQ": 3,
+    "PPLX": 85
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 73379,
+      "rows": 969,
+      "sha256": "5dcd691ab08a8d615d972fa8088a4fa29e2c9fb00d69444389780c09ec5aaf80",
+      "uncompressed_sha256": "f82bb1768a5862e67cab326430fb3054acb19f4ae8d5b7efd0cfe8d27dccf7c7"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 2,
+    "missing_code": 1,
+    "missing_reference": 20,
+    "not_assigned_for_other_feature": 36,
+    "source_admin_code": 888,
+    "source_country": 22
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 22,
+      "sha256": "893472e73539b3a49d612409af47a4a7523f0c801877a2d195767fe53dcf0479"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 973808,
+    "discarded_feature_classes": {
+      "H": 9133,
+      "L": 1867,
+      "R": 191,
+      "S": 5467,
+      "T": 4320,
+      "V": 278
+    },
+    "retained_rows": 969,
+    "retrieved_on": "2026-09-26",
+    "sha256": "08236206a7b33959771239eb8e6f89d0b5b164904cd731f09d033e08230a7897",
+    "source_rows": 22225,
+    "url": "https://download.geonames.org/export/dump/LY.zip"
+  },
+  "source_modified_max": "2026-09-21",
+  "source_modified_min": "1994-02-17"
+}

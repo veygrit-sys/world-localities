@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "region": "Eastern Europe",
+  "reviewed_at": "2026-10-17",
+  "purpose": "Native-language and English address display profiles with script and evidence status; not an address-existence or deliverability claim.",
+  "overrides": ["BG", "BY", "CZ", "HU", "MD", "PL", "RO", "RU", "SK", "UA"],
+  "countries": {
+    "BG": {
+      "native_languages": ["bg-Cyrl"],
+      "default_native_language": "bg-Cyrl",
+      "native_profile": "BG_bg",
+      "native_profiles": {"bg-Cyrl": "BG_bg"},
+      "native_scripts": {"bg-Cyrl": "Cyrl"},
+      "english_profile": "BG_en",
+      "country_names": {"bg-Cyrl": "България", "en": "Bulgaria"},
+      "romanization_policy": "Bulgarian Cyrillic and English Latin values are explicit and never filled from each other. Building, entrance, floor and apartment information remains on the delivery line.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Universal Postal Union and Bulgarian Posts", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/bgrEn.pdf", "scope": "Four-digit postcode, domestic Cyrillic, international Latin, urban, rural, building, entrance, floor and apartment formats"},
+        {"authority": "Bulgarian Posts", "url": "https://bgpost.bg/cms/static/CP72.pdf", "scope": "Current operator form fields for recipient, business, street, postcode, city and country"}
+      ]
+    },
+    "BY": {
+      "native_languages": ["be-Cyrl", "ru-Cyrl"],
+      "default_native_language": "be-Cyrl",
+      "native_profile": "BY_be",
+      "native_profiles": {"be-Cyrl": "BY_be", "ru-Cyrl": "BY_ru"},
+      "native_scripts": {"be-Cyrl": "Cyrl", "ru-Cyrl": "Cyrl"},
+      "english_profile": "BY_en",
+      "country_names": {"be-Cyrl": "Беларусь", "ru-Cyrl": "Беларусь", "en": "Belarus"},
+      "romanization_policy": "Belarusian, Russian and English values are independent despite Belarusian and Russian sharing Cyrillic. Six-digit postcode assignment is never inferred from locality data.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Belpochta", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/blrEn.pdf", "scope": "Specific-to-general line order, six-digit postcode before locality, comma-separated premise, building and apartment, rural and P.O. Box formats"}]
+    },
+    "CZ": {
+      "native_languages": ["cs-Latn"],
+      "default_native_language": "cs-Latn",
+      "native_profile": "CZ_cs",
+      "native_profiles": {"cs-Latn": "CZ_cs"},
+      "native_scripts": {"cs-Latn": "Latn"},
+      "english_profile": "CZ_en",
+      "country_names": {"cs-Latn": "Česko", "en": "Czechia"},
+      "romanization_policy": "Czech and English components are explicit. The renderer preserves slash-separated descriptive/orientation house numbers and formats an unspaced postcode as three plus two digits.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Česká pošta", "url": "https://www.ceskaposta.cz/en/rady-a-tipy/pri-podani/provedeni-a-uprava-adresni-strany-obalek-a-psani", "scope": "Current three-plus-two postcode spacing, delivery-office name and postal-district placement"},
+        {"authority": "Universal Postal Union and Česká pošta", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/czeEn.pdf", "scope": "Slash-separated building/street number, locality without delivery office, P.O. Box and poste-restante formats"}
+      ]
+    },
+    "HU": {
+      "native_languages": ["hu-Latn"],
+      "default_native_language": "hu-Latn",
+      "native_profile": "HU_hu",
+      "native_profiles": {"hu-Latn": "HU_hu"},
+      "native_scripts": {"hu-Latn": "Latn"},
+      "english_profile": "HU_en",
+      "country_names": {"hu-Latn": "Magyarország", "en": "Hungary"},
+      "romanization_policy": "Hungarian and English values are separate. Domestic order remains destination, detailed street address, then the four-digit postcode on its own line.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Magyar Posta", "url": "https://www.posta.hu/static/internet/download/Correct_addressing_of_letter-mail_items.pdf", "scope": "Current town, street, building, stairway, floor, door and separate-postcode ordering"},
+        {"authority": "Universal Postal Union and Magyar Posta", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/hunEn.pdf", "scope": "Four-digit postcode at the bottom of the address field and home/P.O. Box examples"}
+      ]
+    },
+    "MD": {
+      "native_languages": ["ro-Latn", "ru-Cyrl", "uk-Cyrl", "gag-Latn"],
+      "default_native_language": "ro-Latn",
+      "native_profile": "MD_ro",
+      "native_profiles": {"ro-Latn": "MD_ro", "ru-Cyrl": "MD_ru", "uk-Cyrl": "MD_uk", "gag-Latn": "MD_gag"},
+      "native_scripts": {"ro-Latn": "Latn", "ru-Cyrl": "Cyrl", "uk-Cyrl": "Cyrl", "gag-Latn": "Latn"},
+      "english_profile": "MD_en",
+      "country_names": {"ro-Latn": "Republica Moldova", "ru-Cyrl": "Республика Молдова", "uk-Cyrl": "Республіка Молдова", "gag-Latn": "Moldova Respublikası", "en": "Republic of Moldova"},
+      "romanization_policy": "Romanian, Russian, Ukrainian, Gagauz and English are separate values. A four-digit code may be normalized to MD-prefixed form, but no language or postcode assignment is inferred.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Poșta Moldovei", "url": "https://www.posta.md/en/page/expediez-scrisori-nationale-en", "scope": "Current recipient, street, house, block, entrance, apartment or P.O. Box, postcode/locality and country order"},
+        {"authority": "Universal Postal Union and Poșta Moldovei", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/mdaEn.pdf", "scope": "MD-prefixed four-digit postcode, premise and apartment order"}
+      ]
+    },
+    "PL": {
+      "native_languages": ["pl-Latn"],
+      "default_native_language": "pl-Latn",
+      "native_profile": "PL_pl",
+      "native_profiles": {"pl-Latn": "PL_pl"},
+      "native_scripts": {"pl-Latn": "Latn"},
+      "english_profile": "PL_en",
+      "country_names": {"pl-Latn": "Polska", "en": "Poland"},
+      "romanization_policy": "Polish and English values are explicit. A five-digit code may be normalized to two-plus-three hyphenated form without validating its assignment.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Poczta Polska", "url": "https://bip.poczta-polska.pl/bez-kategorii/system-pocztowych-numerow-adresowych-pna/", "scope": "Official five-digit PNA structure with a hyphen after the second digit"},
+        {"authority": "Universal Postal Union and Poczta Polska", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/polEn.pdf", "scope": "Urban, rural, P.O. Box and poste-restante line order"}
+      ]
+    },
+    "RO": {
+      "native_languages": ["ro-Latn"],
+      "default_native_language": "ro-Latn",
+      "native_profile": "RO_ro",
+      "native_profiles": {"ro-Latn": "RO_ro"},
+      "native_scripts": {"ro-Latn": "Latn"},
+      "english_profile": "RO_en",
+      "country_names": {"ro-Latn": "România", "en": "Romania"},
+      "romanization_policy": "Romanian and English values are independent. Building, entrance, floor and apartment information remains at the end of the thoroughfare line; sector and county remain separate.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Poșta Română", "url": "https://www.posta-romana.ro/en/a475/help/intrebari-frecvente/which-are-the-methods-for-typing-a-postal-address-on-an-envelope-or-on-an-international-postal-parcel.html", "scope": "Current street, building, entrance, floor, apartment, postcode/locality and county/district order"},
+        {"authority": "Universal Postal Union and Poșta Română", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/rouEn.pdf", "scope": "Six-digit postcode, thoroughfare-number alternatives, sub-building and urban-sector placement"}
+      ]
+    },
+    "RU": {
+      "native_languages": ["ru-Cyrl"],
+      "default_native_language": "ru-Cyrl",
+      "native_profile": "RU_ru",
+      "native_profiles": {"ru-Cyrl": "RU_ru"},
+      "native_scripts": {"ru-Cyrl": "Cyrl"},
+      "english_profile": "RU_en",
+      "country_names": {"ru-Cyrl": "Россия", "en": "Russian Federation"},
+      "romanization_policy": "Russian Cyrillic and English Latin values are explicit. This is the federation-level Russian route and does not claim coverage of every republic-level co-official language. The six-digit postcode remains the final line.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Russian Post", "url": "https://info.pochta.ru/support/post-rules/write-address", "scope": "Current recipient, street, house/building/apartment, locality, district/region/republic, country, P.O. Box and postcode elements"},
+        {"authority": "Universal Postal Union and Russian Post", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/rusEn.pdf", "scope": "Specific-to-general line order with six-digit postcode below country and urban, regional and P.O. Box examples"}
+      ]
+    },
+    "SK": {
+      "native_languages": ["sk-Latn"],
+      "default_native_language": "sk-Latn",
+      "native_profile": "SK_sk",
+      "native_profiles": {"sk-Latn": "SK_sk"},
+      "native_scripts": {"sk-Latn": "Latn"},
+      "english_profile": "SK_en",
+      "country_names": {"sk-Latn": "Slovensko", "en": "Slovakia"},
+      "romanization_policy": "Slovak and English values are explicit. The renderer preserves descriptive/orientation premise numbers and formats an unspaced postcode as three plus two digits.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Slovenská pošta", "url": "https://www.posta.sk/podpora/ako-spravne-napisat-adresu", "scope": "Current delivery-point, street, house, apartment/floor, P.O. Box, postcode, municipality and foreign-country requirements"},
+        {"authority": "Universal Postal Union and Slovenská pošta", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/svkEn.pdf", "scope": "Three-plus-two postcode, delivery office, locality without post office, P.O. Box and poste-restante formats"}
+      ]
+    },
+    "UA": {
+      "native_languages": ["uk-Cyrl"],
+      "default_native_language": "uk-Cyrl",
+      "native_profile": "UA_uk",
+      "native_profiles": {"uk-Cyrl": "UA_uk"},
+      "native_scripts": {"uk-Cyrl": "Cyrl"},
+      "english_profile": "UA_en",
+      "country_names": {"uk-Cyrl": "Україна", "en": "Ukraine"},
+      "romanization_policy": "Ukrainian Cyrillic and English Latin values are stored independently. The five-digit postcode remains below locality, district and region and is never inferred.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Ukrposhta", "url": "https://index.ukrposhta.ua/postcodes-and-offices", "scope": "Current five-digit system and recipient, street, house/apartment, locality, district/region, postcode and country order"},
+        {"authority": "Universal Postal Union and Ukrposhta", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/ukrEn.pdf", "scope": "July 2023 organization and district delivery examples with postcode below locality/region"}
+      ]
+    }
+  },
+  "profiles": {
+    "BG": {"country_code": "BG", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{neighbourhood}}}\n{{{road}}} {{{house_number}}}, {{{subpremise}}}\n{{{po_box}}}\n{{{state}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{country}}}\n"},
+    "BG_bg": {"country_code": "BG", "language": "bg", "use_country": "BG"},
+    "BG_en": {"country_code": "BG", "language": "en", "use_country": "BG"},
+    "BY": {"country_code": "BY", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}}, {{{house_number}}}, {{{subpremise}}}\n{{{place}}}\n{{{po_box}}}\n{{{postcode}}}, {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} || {{{municipality}}} {{/first}}\n{{{county}}}\n{{{state}}}\n{{{country}}}\n"},
+    "BY_be": {"country_code": "BY", "language": "be", "use_country": "BY"},
+    "BY_ru": {"country_code": "BY", "language": "ru", "use_country": "BY"},
+    "BY_en": {"country_code": "BY", "language": "en", "use_country": "BY"},
+    "CZ": {"country_code": "CZ", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{subpremise}}}\n{{{house}}}\n{{{road}}} {{{house_number}}}\n{{{place}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{country}}}\n", "postformat_replace": [["\\n(\\d{3})(\\d{2}) ", "\\n$1 $2 "]]},
+    "CZ_cs": {"country_code": "CZ", "language": "cs", "use_country": "CZ"},
+    "CZ_en": {"country_code": "CZ", "language": "en", "use_country": "CZ"},
+    "HU": {"country_code": "HU", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{road}}} {{{house_number}}} {{{subpremise}}}\n{{{po_box}}}\n{{{postcode}}}\n{{{country}}}\n"},
+    "HU_hu": {"country_code": "HU", "language": "hu", "use_country": "HU"},
+    "HU_en": {"country_code": "HU", "language": "en", "use_country": "HU"},
+    "MD": {"country_code": "MD", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}}, {{{house_number}}}, {{{subpremise}}}\n{{{po_box}}}\n{{{postcode}}}, {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{county}}}\n{{{country}}}\n", "postformat_replace": [["([ \\n])(?:MD[- ]?)?(\\d{4})(?=[ ,\\n])", "$1MD-$2"]]},
+    "MD_ro": {"country_code": "MD", "language": "ro", "use_country": "MD"},
+    "MD_ru": {"country_code": "MD", "language": "ru", "use_country": "MD"},
+    "MD_uk": {"country_code": "MD", "language": "uk", "use_country": "MD"},
+    "MD_gag": {"country_code": "MD", "language": "gag", "use_country": "MD"},
+    "MD_en": {"country_code": "MD", "language": "en", "use_country": "MD"},
+    "PL": {"country_code": "PL", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}} {{{subpremise}}}\n{{{place}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{country}}}\n", "postformat_replace": [["([ \\n])(\\d{2})-?(\\d{3})(?=[ \\n])", "$1$2-$3"]]},
+    "PL_pl": {"country_code": "PL", "language": "pl", "use_country": "PL"},
+    "PL_en": {"country_code": "PL", "language": "en", "use_country": "PL"},
+    "RO": {"country_code": "RO", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}}, {{{subpremise}}}\n{{{city_district}}}\n{{{place}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{county}}}\n{{{country}}}\n"},
+    "RO_ro": {"country_code": "RO", "language": "ro", "use_country": "RO"},
+    "RO_en": {"country_code": "RO", "language": "en", "use_country": "RO"},
+    "RU": {"country_code": "RU", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}}, {{{house_number}}}, {{{subpremise}}}\n{{{place}}}\n{{{po_box}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{county}}}\n{{{state}}}\n{{{country}}}\n{{{postcode}}}\n"},
+    "RU_ru": {"country_code": "RU", "language": "ru", "use_country": "RU"},
+    "RU_en": {"country_code": "RU", "language": "en", "use_country": "RU"},
+    "SK": {"country_code": "SK", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}}, {{{subpremise}}}\n{{{place}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{country}}}\n", "postformat_replace": [["\\n(\\d{3})(\\d{2}) ", "\\n$1 $2 "]]},
+    "SK_sk": {"country_code": "SK", "language": "sk", "use_country": "SK"},
+    "SK_en": {"country_code": "SK", "language": "en", "use_country": "SK"},
+    "UA": {"country_code": "UA", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}}, {{{house_number}}}, {{{subpremise}}}\n{{{place}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{county}}}\n{{{state}}}\n{{{postcode}}}\n{{{country}}}\n"},
+    "UA_uk": {"country_code": "UA", "language": "uk", "use_country": "UA"},
+    "UA_en": {"country_code": "UA", "language": "en", "use_country": "UA"}
+  },
+  "profile_status": {
+    "BG": "official_guidance", "BG_bg": "official_guidance", "BG_en": "official_guidance",
+    "BY": "official_guidance", "BY_be": "official_guidance", "BY_ru": "official_guidance", "BY_en": "official_guidance",
+    "CZ": "official_guidance", "CZ_cs": "official_guidance", "CZ_en": "official_guidance",
+    "HU": "official_guidance", "HU_hu": "official_guidance", "HU_en": "official_guidance",
+    "MD": "official_guidance", "MD_ro": "official_guidance", "MD_ru": "official_guidance", "MD_uk": "official_guidance", "MD_gag": "official_guidance", "MD_en": "official_guidance",
+    "PL": "official_guidance", "PL_pl": "official_guidance", "PL_en": "official_guidance",
+    "RO": "official_guidance", "RO_ro": "official_guidance", "RO_en": "official_guidance",
+    "RU": "official_guidance", "RU_ru": "official_guidance", "RU_en": "official_guidance",
+    "SK": "official_guidance", "SK_sk": "official_guidance", "SK_en": "official_guidance",
+    "UA": "official_guidance", "UA_uk": "official_guidance", "UA_en": "official_guidance"
+  }
+}

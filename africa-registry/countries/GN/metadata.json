@@ -1,0 +1,88 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "GIN",
+    "country": "GN",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Guinea",
+    "geonames_id": "2420477",
+    "id": "country:GN",
+    "m49": "324",
+    "name_en": "Guinea",
+    "numeric": "324",
+    "region": "Western Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 6810,
+    "admin_rows": 351,
+    "ambiguous_parents": 0,
+    "country": "GN",
+    "country_scope_only": 0,
+    "localities_without_adm1": 1,
+    "locality_rows": 6813,
+    "name_en": "Guinea",
+    "other_admin_rows": 2,
+    "region": "Western Africa",
+    "unresolved_parents": 236
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 8,
+    "ADM2": 34,
+    "ADM3": 307,
+    "ADM4": 2,
+    "PCLI": 1,
+    "PPL": 6753,
+    "PPLA": 6,
+    "PPLA2": 27,
+    "PPLA3": 22,
+    "PPLC": 1,
+    "PPLL": 1,
+    "PPLQ": 2,
+    "PPLS": 1,
+    "ZN": 1
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 217460,
+      "rows": 7166,
+      "sha256": "2b28b25c8b3d43937ca62cdb21d3772a3bda0fe3506e6ef80cf3f1a8dae835ee",
+      "uncompressed_sha256": "5ccc2803658551779b38723b08af301a92e4b06080321d64c7eff772d5d6558c"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "missing_code": 6,
+    "missing_reference": 230,
+    "not_assigned_for_other_feature": 2,
+    "source_admin_code": 6920,
+    "source_country": 8
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 8,
+      "sha256": "e52d422fb8355198a0de9862593a8e2ecc5262be6fb715b50557e9b600ed492b"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 259254,
+    "discarded_feature_classes": {
+      "H": 2543,
+      "L": 35,
+      "S": 96,
+      "T": 1042
+    },
+    "retained_rows": 7166,
+    "retrieved_on": "2026-09-26",
+    "sha256": "3bd8b2bdadbd53412b4552135ed457a28e23cda6139b55df96197f0cda851ed5",
+    "source_rows": 10882,
+    "url": "https://download.geonames.org/export/dump/GN.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1993-12-23"
+}

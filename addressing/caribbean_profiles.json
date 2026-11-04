@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "region": "Caribbean",
+  "reviewed_at": "2026-10-17",
+  "purpose": "Domestic-language and English address display profiles for all 28 UN M49 Caribbean countries or areas, with explicit postcode, Address2, street, island, parish, urbanization and P.O. Box policies; not an address-existence, postal-assignment, geocoding or deliverability claim.",
+  "locality_registry": {
+    "path": "caribbean-registry",
+    "scope_file": "caribbean-registry/scope.json",
+    "manifest_file": "caribbean-registry/manifest.json",
+    "published_country_layers": ["AG", "AI", "AW", "BB", "BL", "BQ", "BS", "CW", "DM", "DO", "GD", "GP", "HT", "JM", "KN", "KY", "LC", "MF", "MQ", "MS", "PR", "SX", "TC", "TT", "VC", "VG", "VI"],
+    "split_materialization_required": ["DO"],
+    "pending_locality_source_countries": ["CU"],
+    "source_entity_rows": 50581,
+    "source_locality_rows": 31942,
+    "address_candidate_rows": 31630,
+    "alternate_rows": 55255,
+    "direct_id_postal_observations": 196,
+    "role": "GeoNames-derived country layers for 27 of 28 M49 Caribbean areas. The Dominican Republic gzip is transported as verified split parts and must be materialized before full replay. Cuba is explicitly pending and has no locality rows in this publication. Counts are source rows, direct-ID postal observations are not an official postcode crosswalk, and no row proves a street, house number, postcode assignment, geocode or deliverable address."
+  },
+  "overrides": ["AG", "AI", "AW", "BB", "BL", "BQ", "BS", "CU", "CW", "DM", "DO", "GD", "GP", "HT", "JM", "KN", "KY", "LC", "MF", "MQ", "MS", "PR", "SX", "TC", "TT", "VC", "VG", "VI"],
+  "countries": {
+    "AG": {
+      "native_languages": ["en"], "default_native_language": "en", "native_profile": "AG_en", "native_profiles": {"en": "AG_en"}, "native_scripts": {"en": "Latn"}, "english_profile": "AG_en", "country_names": {"en": "Antigua and Barbuda"},
+      "postcode_pattern": null, "postcode_required": false,
+      "romanization_policy": "English values are preserved as supplied. Street, village, parish and P.O. Box remain distinct; no postcode placeholder is synthesized.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {"authority": "Universal Postal Union and Antigua and Barbuda Post Office", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/atgEn.pdf", "scope": "Addressee, P.O. Box, locality and country example; public sheet dated July 2002"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "September 2025 no-postcode list"}
+      ]
+    },
+    "AI": {
+      "native_languages": ["en"], "default_native_language": "en", "native_profile": "AI_en", "native_profiles": {"en": "AI_en"}, "native_scripts": {"en": "Latn"}, "english_profile": "AI_en", "country_names": {"en": "Anguilla, BWI"},
+      "postcode_pattern": "AI-2640", "postcode_required": true,
+      "romanization_policy": "English values are preserved. The single territory-wide code AI-2640 is syntax-checked and never inferred from a locality.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Anguilla Postal Service", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/aiaEn.pdf", "scope": "September 2017 P.O. Box, locality and single-code address format"}]
+    },
+    "AW": {
+      "native_languages": ["nl-Latn", "pap-Latn"], "default_native_language": "nl-Latn", "native_profile": "AW_nl", "native_profiles": {"nl-Latn": "AW_nl", "pap-Latn": "AW_pap"}, "native_scripts": {"nl-Latn": "Latn", "pap-Latn": "Latn"}, "english_profile": "AW_en", "country_names": {"nl-Latn": "Aruba", "pap-Latn": "Aruba", "en": "Aruba"},
+      "postcode_pattern": null, "postcode_required": false,
+      "romanization_policy": "Dutch, Papiamento and English values remain explicit. Thoroughfare, premises and P.O. Box are retained without translating proper names or inventing a postcode.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Universal Postal Union and Post Aruba", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/abwEn.pdf", "scope": "January 2019 home, organization and P.O. Box address formats"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "September 2025 no-postcode list"}
+      ]
+    },
+    "BB": {
+      "native_languages": ["en"], "default_native_language": "en", "native_profile": "BB_en", "native_profiles": {"en": "BB_en"}, "native_scripts": {"en": "Latn"}, "english_profile": "BB_en", "country_names": {"en": "Barbados"},
+      "postcode_pattern": "BB\\d{5}", "postcode_required": true,
+      "romanization_policy": "English values are preserved. Premises, road, sub-locality, parish and the BB-prefixed five-digit code remain separate; syntax is not assignment evidence.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Barbados Postal Service", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/brbEn.pdf", "scope": "Home-delivery premises, avenue, lane, sub-locality, parish and BB-prefixed postcode format"}]
+    },
+    "BL": {
+      "native_languages": ["fr-Latn"], "default_native_language": "fr-Latn", "native_profile": "BL_fr", "native_profiles": {"fr-Latn": "BL_fr"}, "native_scripts": {"fr-Latn": "Latn"}, "english_profile": "BL_en", "country_names": {"fr-Latn": "Saint-Barthélemy", "en": "Saint Barthelemy"},
+      "postcode_pattern": "97133", "postcode_required": true,
+      "romanization_policy": "French and English values remain explicit. The delivery line follows French territorial order and the fixed 97133 syntax does not prove a premises or route.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "La Poste", "url": "https://localiser.laposte.fr/guadeloupe/st-barthelemy", "scope": "Current street, quartier and 97133 Saint-Barthélemy office-address examples"}]
+    },
+    "BQ": {
+      "native_languages": ["nl-Latn", "pap-Latn", "en"], "default_native_language": "nl-Latn", "native_profile": "BQ_nl", "native_profiles": {"nl-Latn": "BQ_nl", "pap-Latn": "BQ_pap", "en": "BQ_en"}, "native_scripts": {"nl-Latn": "Latn", "pap-Latn": "Latn", "en": "Latn"}, "english_profile": "BQ_en", "country_names": {"nl-Latn": "Caribisch Nederland", "pap-Latn": "Hulanda Karibense", "en": "Caribbean Netherlands"},
+      "postcode_pattern": null, "postcode_required": false,
+      "romanization_policy": "Dutch, Papiamento and English values stay explicit because language practice differs between Bonaire, Sint Eustatius and Saba. Island is retained and no Netherlands postcode is synthesized.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/besEn.pdf", "scope": "Separate BES postal dataset and Dutch Caribbean scope"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "September 2025 no-postcode list"}
+      ]
+    },
+    "BS": {
+      "native_languages": ["en"], "default_native_language": "en", "native_profile": "BS_en", "native_profiles": {"en": "BS_en"}, "native_scripts": {"en": "Latn"}, "english_profile": "BS_en", "country_names": {"en": "Bahamas"},
+      "postcode_pattern": null, "postcode_required": false,
+      "delivery_constraints": "No home delivery; operator guidance uses P.O. Box or poste restante. Island is optional but preserved when supplied.",
+      "romanization_policy": "English values are preserved. P.O. Box office prefix, locality and island are retained; no postcode placeholder is synthesized.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Bahamas Postal Service", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/bhsEn.pdf", "scope": "October 2025 no-postcode, P.O. Box, poste-restante, locality and optional-island format"}]
+    },
+    "CU": {
+      "native_languages": ["es-Latn"], "default_native_language": "es-Latn", "native_profile": "CU_es", "native_profiles": {"es-Latn": "CU_es"}, "native_scripts": {"es-Latn": "Latn"}, "english_profile": "CU_en", "country_names": {"es-Latn": "Cuba", "en": "Cuba"},
+      "postcode_pattern": "\\d{5}", "postcode_required": true,
+      "romanization_policy": "Spanish and English address values remain explicit. The renderer adds the documented CP label before a supplied five-digit code; it never assigns a code or implies that Cuba locality data is already published.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {"authority": "Universal Postal Union and Correos de Cuba", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/cubEn.pdf", "scope": "Home and P.O. Box formats with street, cross streets, postal zone and CP-labelled postcode; public sheet dated September 2004"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "August 2026 five-digit required-postcode syntax"}
+      ]
+    },
+    "CW": {
+      "native_languages": ["nl-Latn", "pap-Latn", "en"], "default_native_language": "pap-Latn", "native_profile": "CW_pap", "native_profiles": {"nl-Latn": "CW_nl", "pap-Latn": "CW_pap", "en": "CW_en"}, "native_scripts": {"nl-Latn": "Latn", "pap-Latn": "Latn", "en": "Latn"}, "english_profile": "CW_en", "country_names": {"nl-Latn": "Curaçao", "pap-Latn": "Kòrsou", "en": "Curaçao"},
+      "postcode_pattern": null, "postcode_required": false,
+      "romanization_policy": "Papiamentu, Dutch and English values remain explicit. Kaya or weg street text and P.O. Box values are not translated or relabelled; no postcode is synthesized.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Cpost International", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/cuwEn.pdf", "scope": "September 2026 home, organization and P.O. Box address examples without a postcode"}]
+    },
+    "DM": {
+      "native_languages": ["en"], "default_native_language": "en", "native_profile": "DM_en", "native_profiles": {"en": "DM_en"}, "native_scripts": {"en": "Latn"}, "english_profile": "DM_en", "country_names": {"en": "Dominica"},
+      "postcode_pattern": null, "postcode_required": false,
+      "romanization_policy": "English values are preserved; street, village, parish and P.O. Box remain distinct and no postcode placeholder is generated.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {"authority": "Universal Postal Union and Dominica General Post Office", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/dmaEn.pdf", "scope": "Locality and country address example; public sheet dated July 2002"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "September 2025 no-postcode list"}
+      ]
+    },
+    "DO": {
+      "native_languages": ["es-Latn"], "default_native_language": "es-Latn", "native_profile": "DO_es", "native_profiles": {"es-Latn": "DO_es"}, "native_scripts": {"es-Latn": "Latn"}, "english_profile": "DO_en", "country_names": {"es-Latn": "República Dominicana", "en": "Dominican Republic"},
+      "postcode_pattern": "\\d{5}", "postcode_required": true,
+      "romanization_policy": "Spanish and English values remain explicit. Calle, number, sector or barrio and five-digit postcode are retained without translating proper names or assigning a delivery area.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {"authority": "Universal Postal Union and INPOSDOM", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/domEn.pdf", "scope": "Street, number, district and five-digit postcode/locality order"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "August 2026 five-digit required-postcode syntax"}
+      ]
+    },
+    "GD": {
+      "native_languages": ["en"], "default_native_language": "en", "native_profile": "GD_en", "native_profiles": {"en": "GD_en"}, "native_scripts": {"en": "Latn"}, "english_profile": "GD_en", "country_names": {"en": "Grenada"},
+      "postcode_pattern": null, "postcode_required": false,
+      "romanization_policy": "English values are preserved. Village, municipality or parish and P.O. Box remain separate; the renderer uses the unambiguous country name without inventing a postcode.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Grenada Postal Corporation", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/grdEn.pdf", "scope": "October 2026 urban, rural and P.O. Box address examples and no-postcode usage"}]
+    },
+    "GP": {
+      "native_languages": ["fr-Latn"], "default_native_language": "fr-Latn", "native_profile": "GP_fr", "native_profiles": {"fr-Latn": "GP_fr"}, "native_scripts": {"fr-Latn": "Latn"}, "english_profile": "GP_en", "country_names": {"fr-Latn": "Guadeloupe", "en": "Guadeloupe"},
+      "postcode_pattern": "971(?:0\\d|[12]\\d|3[0-2]|3[4-9]|4[0-8]|5[1-9]|[6-9]\\d)", "postcode_required": true,
+      "romanization_policy": "French and English values remain explicit. Street, lieu-dit, premises and five-digit 971xx syntax are retained without assigning a commune code.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "La Poste Colissimo", "url": "https://www.applications.colissimo.entreprise.laposte.fr/doc-colissimo/redoc-sls/en", "scope": "Current Guadeloupe country code and accepted 971xx territorial postcode ranges"}]
+    },
+    "HT": {
+      "native_languages": ["ht-Latn", "fr-Latn"], "default_native_language": "ht-Latn", "native_profile": "HT_ht", "native_profiles": {"ht-Latn": "HT_ht", "fr-Latn": "HT_fr"}, "native_scripts": {"ht-Latn": "Latn", "fr-Latn": "Latn"}, "english_profile": "HT_en", "country_names": {"ht-Latn": "Ayiti", "fr-Latn": "Haïti", "en": "Haiti"},
+      "postcode_pattern": "HT\\d{4}", "postcode_required": true,
+      "romanization_policy": "Haitian Creole, French and English values remain explicit. HT is an integral part of a supplied postcode even domestically; departments and municipalities are not inferred from its digits.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Office des postes d'Haïti", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/htiEn.pdf", "scope": "September 2017 street and HT-prefixed four-digit postcode format with department and district structure"}]
+    },
+    "JM": {
+      "native_languages": ["en"], "default_native_language": "en", "native_profile": "JM_en", "native_profiles": {"en": "JM_en"}, "native_scripts": {"en": "Latn"}, "english_profile": "JM_en", "country_names": {"en": "Jamaica"},
+      "postcode_pattern": null, "postcode_required": false,
+      "romanization_policy": "English values are preserved. Kingston sector numbers remain part of the locality rather than being misclassified as a national postcode; street, estate, post office, parish and P.O. Box stay distinct.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Jamaica Post", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/jamEn.pdf", "scope": "May 2021 home, rural and P.O. Box formats; explicit absence of a national postcode system"}]
+    },
+    "KN": {
+      "native_languages": ["en"], "default_native_language": "en", "native_profile": "KN_en", "native_profiles": {"en": "KN_en"}, "native_scripts": {"en": "Latn"}, "english_profile": "KN_en", "country_names": {"en": "Saint Kitts and Nevis"},
+      "postcode_pattern": "KN\\d{4}", "postcode_required": true,
+      "romanization_policy": "English values are preserved. Street, locality subdivision, locality, island and KN-prefixed code remain separate; the island is not inferred from a postcode.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and St. Kitts and Nevis Post", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/knaEn.pdf", "scope": "December 2017 street, locality, island and KN-prefixed postcode order"}]
+    },
+    "KY": {
+      "native_languages": ["en"], "default_native_language": "en", "native_profile": "KY_en", "native_profiles": {"en": "KY_en"}, "native_scripts": {"en": "Latn"}, "english_profile": "KY_en", "country_names": {"en": "Cayman Islands"},
+      "postcode_pattern": "KY[1-3]-\\d{4}", "postcode_required": true,
+      "delivery_constraints": "Ordinary mail with only a street address is undeliverable; operator guidance requires a private letter box, general delivery or another recognized collection route and the official island name.",
+      "romanization_policy": "English values are preserved. The official island name is explicit, while the KY1/KY2/KY3 digit-to-island consistency check never proves assignment or delivery.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Cayman Islands Postal Service", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/cymEn.pdf", "scope": "February 2019 P.O. Box and general-delivery format, official island names and KY island digits"}]
+    },
+    "LC": {
+      "native_languages": ["en"], "default_native_language": "en", "native_profile": "LC_en", "native_profiles": {"en": "LC_en"}, "native_scripts": {"en": "Latn"}, "english_profile": "LC_en", "country_names": {"en": "Saint Lucia"},
+      "postcode_pattern": "LC\\d{2} {1,2}\\d{3}", "postcode_required": true,
+      "romanization_policy": "English values are preserved. Premises, street, sub-locality, post office, district and LC code remain distinct and no spacing or code assignment is inferred.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Saint Lucia Postal Service", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/lcaEn.pdf", "scope": "July 2019 home, rural, P.O. Box and poste-restante formats with LC district and community code"}]
+    },
+    "MF": {
+      "native_languages": ["fr-Latn"], "default_native_language": "fr-Latn", "native_profile": "MF_fr", "native_profiles": {"fr-Latn": "MF_fr"}, "native_scripts": {"fr-Latn": "Latn"}, "english_profile": "MF_en", "country_names": {"fr-Latn": "Saint-Martin", "en": "Saint Martin"},
+      "postcode_pattern": "97150", "postcode_required": true,
+      "romanization_policy": "French and English values remain explicit. Street, lieu-dit or quartier and the fixed 97150 delivery line are preserved without translating proper names.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "La Poste", "url": "https://localiser.laposte.fr/guadeloupe/st-martin", "scope": "Current street, lieu-dit, locality and 97150 Saint-Martin office-address examples"}]
+    },
+    "MQ": {
+      "native_languages": ["fr-Latn"], "default_native_language": "fr-Latn", "native_profile": "MQ_fr", "native_profiles": {"fr-Latn": "MQ_fr"}, "native_scripts": {"fr-Latn": "Latn"}, "english_profile": "MQ_en", "country_names": {"fr-Latn": "Martinique", "en": "Martinique"},
+      "postcode_pattern": "972\\d{2}", "postcode_required": true,
+      "romanization_policy": "French and English values remain explicit. Street, lieu-dit, premises and 972xx syntax are retained without inferring a commune or delivery point.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "La Poste Colissimo", "url": "https://www.applications.colissimo.entreprise.laposte.fr/doc-colissimo/redoc-sls/en", "scope": "Current Martinique country code and 97200–97299 territorial postcode range"}]
+    },
+    "MS": {
+      "native_languages": ["en"], "default_native_language": "en", "native_profile": "MS_en", "native_profiles": {"en": "MS_en"}, "native_scripts": {"en": "Latn"}, "english_profile": "MS_en", "country_names": {"en": "Montserrat"},
+      "postcode_pattern": "MSR\\d{4}", "postcode_required": true,
+      "romanization_policy": "English values are preserved. Street, post-office name, locality and MSR-prefixed code remain distinct; parish and distribution digits are syntax only.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Montserrat Postal Service", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/msrEn.pdf", "scope": "June 2026 home, sub-post-office, P.O. Box and organization formats with MSR postcode"}]
+    },
+    "PR": {
+      "native_languages": ["es-Latn", "en"], "default_native_language": "es-Latn", "native_profile": "PR_es", "native_profiles": {"es-Latn": "PR_es", "en": "PR_en"}, "native_scripts": {"es-Latn": "Latn", "en": "Latn"}, "english_profile": "PR_en", "country_names": {"es-Latn": "Puerto Rico", "en": "Puerto Rico"},
+      "postcode_pattern": "\\d{5}(?:-\\d{4})?", "postcode_required": true,
+      "romanization_policy": "Spanish and English values remain explicit. CALLE, AVENIDA and directionals are not automatically translated; urbanization, primary address, secondary unit, P.O. Box and PR ZIP line remain separately representable.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "United States Postal Service", "url": "https://pe.usps.com/text/pub28/pub28c2_042.htm", "scope": "Puerto Rico urbanization as an important address element"},
+        {"authority": "United States Postal Service", "url": "https://pe.usps.com/text/pub28/28c2_045.htm", "scope": "Puerto Rico street, house-number, secondary-unit, P.O. Box and non-translation rules"}
+      ]
+    },
+    "SX": {
+      "native_languages": ["nl-Latn", "en"], "default_native_language": "nl-Latn", "native_profile": "SX_nl", "native_profiles": {"nl-Latn": "SX_nl", "en": "SX_en"}, "native_scripts": {"nl-Latn": "Latn", "en": "Latn"}, "english_profile": "SX_en", "country_names": {"nl-Latn": "Sint Maarten", "en": "Sint Maarten"},
+      "postcode_pattern": null, "postcode_required": false,
+      "romanization_policy": "Dutch and English values remain explicit. Street, premises, locality and P.O. Box are retained and no Netherlands or French-side postcode is synthesized.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/sxmEn.pdf", "scope": "Separate Sint Maarten postal dataset and designated-operator scope"},
+        {"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "September 2025 no-postcode list"}
+      ]
+    },
+    "TC": {
+      "native_languages": ["en"], "default_native_language": "en", "native_profile": "TC_en", "native_profiles": {"en": "TC_en"}, "native_scripts": {"en": "Latn"}, "english_profile": "TC_en", "country_names": {"en": "Turks and Caicos Islands"},
+      "postcode_pattern": "TKCA 1ZZ", "postcode_required": true,
+      "romanization_policy": "English values are preserved. Island, settlement, P.O. Box and the single territory-wide TKCA 1ZZ code are explicit; the fixed code proves no delivery point.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union", "url": "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf", "scope": "August 2026 required-postcode list, eight-character syntax and single TKCA 1ZZ territory code"}]
+    },
+    "TT": {
+      "native_languages": ["en"], "default_native_language": "en", "native_profile": "TT_en", "native_profiles": {"en": "TT_en"}, "native_scripts": {"en": "Latn"}, "english_profile": "TT_en", "country_names": {"en": "Trinidad and Tobago"},
+      "postcode_pattern": "\\d{6}", "postcode_required": true,
+      "romanization_policy": "English values are preserved. Premises, street, sub-locality, postal district, six-digit code, P.O. Box and mail bag remain explicit without inferring a delivery route or point.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and TTPost", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/ttoEn.pdf", "scope": "Urban, rural, organization, P.O. Box and bag formats with six-digit postcode"}]
+    },
+    "VC": {
+      "native_languages": ["en"], "default_native_language": "en", "native_profile": "VC_en", "native_profiles": {"en": "VC_en"}, "native_scripts": {"en": "Latn"}, "english_profile": "VC_en", "country_names": {"en": "Saint Vincent and the Grenadines"},
+      "postcode_pattern": "VC\\d{4}", "postcode_required": true,
+      "delivery_constraints": "Home delivery is limited; operator guidance also uses P.O. Boxes and post-office counter collection.",
+      "romanization_policy": "English values are preserved. Thoroughfare, locality, post office, P.O. Box and VC-prefixed code remain separate; code digits are not promoted to address evidence.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Saint Vincent and the Grenadines Postal Corporation", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/vctEn.pdf", "scope": "May 2021 home, rural, post-office and P.O. Box formats with VC-prefixed postcode"}]
+    },
+    "VG": {
+      "native_languages": ["en"], "default_native_language": "en", "native_profile": "VG_en", "native_profiles": {"en": "VG_en"}, "native_scripts": {"en": "Latn"}, "english_profile": "VG_en", "country_names": {"en": "British Virgin Islands"},
+      "postcode_pattern": "VG\\d{4}", "postcode_required": true,
+      "delivery_constraints": "There is no home delivery; postcode is linked to the P.O. Box location or collection post office.",
+      "romanization_policy": "English values are preserved. P.O. Box, building, thoroughfare, island or post town and VG-prefixed code remain explicit without treating a street as delivery proof.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and BVI Post", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/vgbEn.pdf", "scope": "P.O. Box collection, building, thoroughfare, locality and VG-prefixed postcode rules"}]
+    },
+    "VI": {
+      "native_languages": ["en"], "default_native_language": "en", "native_profile": "VI_en", "native_profiles": {"en": "VI_en"}, "native_scripts": {"en": "Latn"}, "english_profile": "VI_en", "country_names": {"en": "United States Virgin Islands"},
+      "postcode_pattern": "\\d{5}(?:-\\d{4})?", "postcode_required": true,
+      "romanization_policy": "English values are preserved. Estate or street text, secondary unit, valid last-line locality, VI abbreviation and ZIP or ZIP+4 remain explicit; USVI is not substituted for VI.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "United States Postal Service", "url": "https://pe.usps.com/cpim/ftp/pubs/Pub28/pub28.pdf", "scope": "Publication 28 Appendix J U.S. Virgin Islands address formats, valid last lines and VI abbreviation"}]
+    }
+  },
+  "profiles": {
+    "AG": {"country_code": "AG", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{place}}}\n{{{po_box}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} {{/first}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"},
+    "AG_en": {"country_code": "AG", "language": "en", "use_country": "AG"},
+    "AI": {"country_code": "AI", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} {{/first}}\n{{{postcode}}}\n{{{country}}}\n"},
+    "AI_en": {"country_code": "AI", "language": "en", "use_country": "AI"},
+    "AW": {"country_code": "AW", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{road}}} {{{house_number}}}\n{{{po_box}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} {{/first}}\n{{{country}}}\n"},
+    "AW_nl": {"country_code": "AW", "language": "nl", "use_country": "AW"},
+    "AW_pap": {"country_code": "AW", "language": "pap", "use_country": "AW"},
+    "AW_en": {"country_code": "AW", "language": "en", "use_country": "AW"},
+    "BB": {"country_code": "BB", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house_number}}} {{{house}}}\n{{{subpremise}}}\n{{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{place}}} {{/first}}\n{{{po_box}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{postcode}}}\n{{{country}}}\n"},
+    "BB_en": {"country_code": "BB", "language": "en", "use_country": "BB"},
+    "BL": {"country_code": "BL", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{place}}} || {{{neighbourhood}}} || {{{suburb}}} {{/first}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} {{/first}}\n{{{country}}}\n"},
+    "BL_fr": {"country_code": "BL", "language": "fr", "use_country": "BL"},
+    "BL_en": {"country_code": "BL", "language": "en", "use_country": "BL"},
+    "BQ": {"country_code": "BQ", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{road}}} {{{house_number}}}\n{{{po_box}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"},
+    "BQ_nl": {"country_code": "BQ", "language": "nl", "use_country": "BQ"},
+    "BQ_pap": {"country_code": "BQ", "language": "pap", "use_country": "BQ"},
+    "BQ_en": {"country_code": "BQ", "language": "en", "use_country": "BQ"},
+    "BS": {"country_code": "BS", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{po_box}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} {{/first}}{{#first}}, {{{state}}} || {{{place}}} {{/first}}\n{{{country}}}\n"},
+    "BS_en": {"country_code": "BS", "language": "en", "use_country": "BS"},
+    "CU": {"country_code": "CU", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{road}}} {{{house_number}}}\n{{{subpremise}}}\n{{{place}}}\n{{{neighbourhood}}}\n{{{po_box}}}\nCP {{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"},
+    "CU_es": {"country_code": "CU", "language": "es", "use_country": "CU"},
+    "CU_en": {"country_code": "CU", "language": "en", "use_country": "CU"},
+    "CW": {"country_code": "CW", "use_country": "AW"},
+    "CW_nl": {"country_code": "CW", "language": "nl", "use_country": "CW"},
+    "CW_pap": {"country_code": "CW", "language": "pap", "use_country": "CW"},
+    "CW_en": {"country_code": "CW", "language": "en", "use_country": "CW"},
+    "DM": {"country_code": "DM", "use_country": "AG"},
+    "DM_en": {"country_code": "DM", "language": "en", "use_country": "DM"},
+    "DO": {"country_code": "DO", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{road}}} {{{house_number}}}\n{{{subpremise}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{place}}} {{/first}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"},
+    "DO_es": {"country_code": "DO", "language": "es", "use_country": "DO"},
+    "DO_en": {"country_code": "DO", "language": "en", "use_country": "DO"},
+    "GD": {"country_code": "GD", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{#first}} {{{village}}} || {{{neighbourhood}}} || {{{place}}} {{/first}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{state}}} {{/first}}\n{{{country}}}\n"},
+    "GD_en": {"country_code": "GD", "language": "en", "use_country": "GD"},
+    "GP": {"country_code": "GP", "use_country": "BL"},
+    "GP_fr": {"country_code": "GP", "language": "fr", "use_country": "GP"},
+    "GP_en": {"country_code": "GP", "language": "en", "use_country": "GP"},
+    "HT": {"country_code": "HT", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{road}}} {{{house_number}}}\n{{{place}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"},
+    "HT_ht": {"country_code": "HT", "language": "ht", "use_country": "HT"},
+    "HT_fr": {"country_code": "HT", "language": "fr", "use_country": "HT"},
+    "HT_en": {"country_code": "HT", "language": "en", "use_country": "HT"},
+    "JM": {"country_code": "JM", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{place}}}\n{{{po_box}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"},
+    "JM_en": {"country_code": "JM", "language": "en", "use_country": "JM"},
+    "KN": {"country_code": "KN", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{place}}} {{/first}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} {{/first}}\n{{{state}}}\n{{{po_box}}}\n{{{postcode}}}\n{{{country}}}\n"},
+    "KN_en": {"country_code": "KN", "language": "en", "use_country": "KN"},
+    "KY": {"country_code": "KY", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{place}}}\n{{{state}}}  {{{postcode}}}\n{{{country}}}\n"},
+    "KY_en": {"country_code": "KY", "language": "en", "use_country": "KY"},
+    "LC": {"country_code": "LC", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{place}}} {{/first}}\n{{{po_box}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} || {{{state}}} {{/first}}, {{{postcode}}}\n{{{country}}}\n"},
+    "LC_en": {"country_code": "LC", "language": "en", "use_country": "LC"},
+    "MF": {"country_code": "MF", "use_country": "BL"},
+    "MF_fr": {"country_code": "MF", "language": "fr", "use_country": "MF"},
+    "MF_en": {"country_code": "MF", "language": "en", "use_country": "MF"},
+    "MQ": {"country_code": "MQ", "use_country": "BL"},
+    "MQ_fr": {"country_code": "MQ", "language": "fr", "use_country": "MQ"},
+    "MQ_en": {"country_code": "MQ", "language": "en", "use_country": "MQ"},
+    "MS": {"country_code": "MS", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} || {{{place}}} {{/first}}, {{{postcode}}}\n{{{country}}}\n"},
+    "MS_en": {"country_code": "MS", "language": "en", "use_country": "MS"},
+    "PR": {"country_code": "PR", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{neighbourhood}}}\n{{{house}}}\n{{{house_number}}} {{{road}}} {{{subpremise}}}\n{{{po_box}}}\n{{{place}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} {{/first}} PR {{{postcode}}}\n{{{country}}}\n"},
+    "PR_es": {"country_code": "PR", "language": "es", "use_country": "PR"},
+    "PR_en": {"country_code": "PR", "language": "en", "use_country": "PR"},
+    "SX": {"country_code": "SX", "use_country": "AW"},
+    "SX_nl": {"country_code": "SX", "language": "nl", "use_country": "SX"},
+    "SX_en": {"country_code": "SX", "language": "en", "use_country": "SX"},
+    "TC": {"country_code": "TC", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} {{/first}}\n{{{state}}}\n{{{postcode}}}\n{{{country}}}\n"},
+    "TC_en": {"country_code": "TC", "language": "en", "use_country": "TC"},
+    "TT": {"country_code": "TT", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{place}}} {{/first}}\n{{{po_box}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{{postcode}}}\n{{{country}}}\n"},
+    "TT_en": {"country_code": "TT", "language": "en", "use_country": "TT"},
+    "VC": {"country_code": "VC", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} || {{{place}}} {{/first}}\n{{{postcode}}}\n{{{country}}}\n"},
+    "VC_en": {"country_code": "VC", "language": "en", "use_country": "VC"},
+    "VG": {"country_code": "VG", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{po_box}}}\n{{{house}}}\n{{{house_number}}} {{{road}}}\n{{{subpremise}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{village}}} {{/first}} {{#first}} {{{postcode}}} || {{{state}}} {{/first}}\n{{{country}}}\n"},
+    "VG_en": {"country_code": "VG", "language": "en", "use_country": "VG"},
+    "VI": {"country_code": "VI", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{house_number}}} {{{road}}} {{{subpremise}}}\n{{{po_box}}}\n{{{place}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} {{/first}}, VI {{{postcode}}}\n{{{country}}}\n"},
+    "VI_en": {"country_code": "VI", "language": "en", "use_country": "VI"}
+  },
+  "profile_status": {
+    "AG": "source_derived_domestic", "AG_en": "source_derived_domestic",
+    "AI": "official_guidance", "AI_en": "official_guidance",
+    "AW": "official_guidance", "AW_nl": "official_guidance", "AW_pap": "official_guidance", "AW_en": "official_guidance",
+    "BB": "official_guidance", "BB_en": "official_guidance",
+    "BL": "official_guidance", "BL_fr": "official_guidance", "BL_en": "official_guidance",
+    "BQ": "source_derived_domestic", "BQ_nl": "source_derived_domestic", "BQ_pap": "source_derived_domestic", "BQ_en": "source_derived_domestic",
+    "BS": "official_guidance", "BS_en": "official_guidance",
+    "CU": "source_derived_domestic", "CU_es": "source_derived_domestic", "CU_en": "source_derived_domestic",
+    "CW": "official_guidance", "CW_nl": "official_guidance", "CW_pap": "official_guidance", "CW_en": "official_guidance",
+    "DM": "source_derived_domestic", "DM_en": "source_derived_domestic",
+    "DO": "source_derived_domestic", "DO_es": "source_derived_domestic", "DO_en": "source_derived_domestic",
+    "GD": "official_guidance", "GD_en": "official_guidance",
+    "GP": "official_guidance", "GP_fr": "official_guidance", "GP_en": "official_guidance",
+    "HT": "official_guidance", "HT_ht": "official_guidance", "HT_fr": "official_guidance", "HT_en": "official_guidance",
+    "JM": "official_guidance", "JM_en": "official_guidance",
+    "KN": "official_guidance", "KN_en": "official_guidance",
+    "KY": "official_guidance", "KY_en": "official_guidance",
+    "LC": "official_guidance", "LC_en": "official_guidance",
+    "MF": "official_guidance", "MF_fr": "official_guidance", "MF_en": "official_guidance",
+    "MQ": "official_guidance", "MQ_fr": "official_guidance", "MQ_en": "official_guidance",
+    "MS": "official_guidance", "MS_en": "official_guidance",
+    "PR": "official_guidance", "PR_es": "official_guidance", "PR_en": "official_guidance",
+    "SX": "source_derived_domestic", "SX_nl": "source_derived_domestic", "SX_en": "source_derived_domestic",
+    "TC": "official_guidance", "TC_en": "official_guidance",
+    "TT": "official_guidance", "TT_en": "official_guidance",
+    "VC": "official_guidance", "VC_en": "official_guidance",
+    "VG": "official_guidance", "VG_en": "official_guidance",
+    "VI": "official_guidance", "VI_en": "official_guidance"
+  }
+}

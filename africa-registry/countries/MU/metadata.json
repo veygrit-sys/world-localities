@@ -1,0 +1,82 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "MUS",
+    "country": "MU",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Mauritius",
+    "geonames_id": "934292",
+    "id": "country:MU",
+    "m49": "480",
+    "name_en": "Mauritius",
+    "numeric": "480",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 560,
+    "admin_rows": 12,
+    "ambiguous_parents": 0,
+    "country": "MU",
+    "country_scope_only": 39,
+    "localities_without_adm1": 39,
+    "locality_rows": 561,
+    "name_en": "Mauritius",
+    "other_admin_rows": 1,
+    "region": "Eastern Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 12,
+    "PCLI": 1,
+    "PPL": 498,
+    "PPLA": 11,
+    "PPLC": 1,
+    "PPLL": 2,
+    "PPLQ": 1,
+    "PPLX": 48
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 27249,
+      "rows": 574,
+      "sha256": "0c5b5ea70dc8ff72404158f608998bd06c7f517dc3405559b8c5b557965dd794",
+      "uncompressed_sha256": "77205a2c82ddba22bf06f672235b3af1170b7e2afa427d8f254937fcbdf55646"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 39,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 522,
+    "source_country": 12
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 12,
+      "sha256": "4cb98e6c1d2fef88baaa9f53044f6e3614cc0a033f8036e347e0b1b08719384a"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 64125,
+    "discarded_feature_classes": {
+      "H": 363,
+      "L": 64,
+      "R": 3,
+      "S": 385,
+      "T": 370
+    },
+    "retained_rows": 574,
+    "retrieved_on": "2026-09-26",
+    "sha256": "180177ff264153ff01e982ca80c3e268ef30d1666854fdc4f9dd01b3f2e2ba89",
+    "source_rows": 1759,
+    "url": "https://download.geonames.org/export/dump/MU.zip"
+  },
+  "source_modified_max": "2026-09-22",
+  "source_modified_min": "2004-01-05"
+}

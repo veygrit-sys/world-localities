@@ -1,0 +1,82 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "MYT",
+    "country": "YT",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Mayotte",
+    "geonames_id": "1024031",
+    "id": "country:YT",
+    "m49": "175",
+    "name_en": "Mayotte",
+    "numeric": "175",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 156,
+    "admin_rows": 17,
+    "ambiguous_parents": 0,
+    "country": "YT",
+    "country_scope_only": 6,
+    "localities_without_adm1": 6,
+    "locality_rows": 158,
+    "name_en": "Mayotte",
+    "other_admin_rows": 1,
+    "region": "Eastern Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 17,
+    "PCLD": 1,
+    "PPL": 119,
+    "PPLA": 16,
+    "PPLC": 1,
+    "PPLQ": 2,
+    "PPLX": 20
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 9673,
+      "rows": 176,
+      "sha256": "9c1d1a417fc8d8c50202cab6548778a2e2aab28c2800ca2d507586cccd1c94e1",
+      "uncompressed_sha256": "d0b619db073c5eb593672711c669477b8597fbd347a7719526db13234655701c"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 6,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 152,
+    "source_country": 17
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 17,
+      "sha256": "876d61b07c7c60e68d634a0eeae7f1088c41e8683d6e12a5cf47e795d09ebc65"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 26227,
+    "discarded_feature_classes": {
+      "H": 181,
+      "L": 55,
+      "R": 8,
+      "S": 15,
+      "T": 212,
+      "V": 9
+    },
+    "retained_rows": 176,
+    "retrieved_on": "2026-09-26",
+    "sha256": "891f7f15e70ff6a0eeffb08ec1007dd9d5ea97f934d07f67155ce1dca00664e2",
+    "source_rows": 656,
+    "url": "https://download.geonames.org/export/dump/YT.zip"
+  },
+  "source_modified_max": "2026-09-04",
+  "source_modified_min": "2012-01-11"
+}

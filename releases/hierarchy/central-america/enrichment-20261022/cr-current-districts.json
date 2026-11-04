@@ -1,0 +1,4468 @@
+{
+  "source": "Costa Rica IGN / SNIT, IGN_5_CO:limitedistrital_5k",
+  "url": "https://geos.snitcr.go.cr/be/IGN_5_CO/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=IGN_5_CO%3Alimitedistrital_5k&outputFormat=csv&count=1000&propertyName=PROVINCIA%2CCANT%C3%93N%2CDISTRITO%2CC%C3%93DIGO_DTA%2CC%C3%93DIGO_PROVINCIA%2CC%C3%93DIGO_CANT%C3%93N&sortBy=C%C3%93DIGO_DTA",
+  "retrieved_at": "2026-10-21T18:07:32.218623+00:00",
+  "source_bytes": 61445685,
+  "source_sha256": "e85eeef82da8fdf01384412266ac795ad0200592650e1a36831580df20fb62e7",
+  "wfs_number_matched": 494,
+  "records": [
+    {
+      "FID": "limitedistrital_5k.177",
+      "CÓDIGO_DTA": "10101",
+      "PROVINCIA": "San José",
+      "CANTÓN": "San José",
+      "DISTRITO": "Carmen",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "101"
+    },
+    {
+      "FID": "limitedistrital_5k.184",
+      "CÓDIGO_DTA": "10102",
+      "PROVINCIA": "San José",
+      "CANTÓN": "San José",
+      "DISTRITO": "Merced",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "101"
+    },
+    {
+      "FID": "limitedistrital_5k.173",
+      "CÓDIGO_DTA": "10103",
+      "PROVINCIA": "San José",
+      "CANTÓN": "San José",
+      "DISTRITO": "Hospital",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "101"
+    },
+    {
+      "FID": "limitedistrital_5k.170",
+      "CÓDIGO_DTA": "10104",
+      "PROVINCIA": "San José",
+      "CANTÓN": "San José",
+      "DISTRITO": "Catedral",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "101"
+    },
+    {
+      "FID": "limitedistrital_5k.164",
+      "CÓDIGO_DTA": "10105",
+      "PROVINCIA": "San José",
+      "CANTÓN": "San José",
+      "DISTRITO": "Zapote",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "101"
+    },
+    {
+      "FID": "limitedistrital_5k.156",
+      "CÓDIGO_DTA": "10106",
+      "PROVINCIA": "San José",
+      "CANTÓN": "San José",
+      "DISTRITO": "San Francisco de Dos Ríos",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "101"
+    },
+    {
+      "FID": "limitedistrital_5k.208",
+      "CÓDIGO_DTA": "10107",
+      "PROVINCIA": "San José",
+      "CANTÓN": "San José",
+      "DISTRITO": "Uruca",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "101"
+    },
+    {
+      "FID": "limitedistrital_5k.183",
+      "CÓDIGO_DTA": "10108",
+      "PROVINCIA": "San José",
+      "CANTÓN": "San José",
+      "DISTRITO": "Mata Redonda",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "101"
+    },
+    {
+      "FID": "limitedistrital_5k.199",
+      "CÓDIGO_DTA": "10109",
+      "PROVINCIA": "San José",
+      "CANTÓN": "San José",
+      "DISTRITO": "Pavas",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "101"
+    },
+    {
+      "FID": "limitedistrital_5k.168",
+      "CÓDIGO_DTA": "10110",
+      "PROVINCIA": "San José",
+      "CANTÓN": "San José",
+      "DISTRITO": "Hatillo",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "101"
+    },
+    {
+      "FID": "limitedistrital_5k.158",
+      "CÓDIGO_DTA": "10111",
+      "PROVINCIA": "San José",
+      "CANTÓN": "San José",
+      "DISTRITO": "San Sebastián",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "101"
+    },
+    {
+      "FID": "limitedistrital_5k.163",
+      "CÓDIGO_DTA": "10201",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Escazú",
+      "DISTRITO": "Escazú",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "102"
+    },
+    {
+      "FID": "limitedistrital_5k.438",
+      "CÓDIGO_DTA": "10202",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Escazú",
+      "DISTRITO": "San Antonio",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "102"
+    },
+    {
+      "FID": "limitedistrital_5k.210",
+      "CÓDIGO_DTA": "10203",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Escazú",
+      "DISTRITO": "San Rafael",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "102"
+    },
+    {
+      "FID": "limitedistrital_5k.151",
+      "CÓDIGO_DTA": "10301",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Desamparados",
+      "DISTRITO": "Desamparados",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "103"
+    },
+    {
+      "FID": "limitedistrital_5k.472",
+      "CÓDIGO_DTA": "10302",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Desamparados",
+      "DISTRITO": "San Miguel",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "103"
+    },
+    {
+      "FID": "limitedistrital_5k.141",
+      "CÓDIGO_DTA": "10303",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Desamparados",
+      "DISTRITO": "San Juan de Dios",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "103"
+    },
+    {
+      "FID": "limitedistrital_5k.429",
+      "CÓDIGO_DTA": "10304",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Desamparados",
+      "DISTRITO": "San Rafael Arriba",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "103"
+    },
+    {
+      "FID": "limitedistrital_5k.148",
+      "CÓDIGO_DTA": "10305",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Desamparados",
+      "DISTRITO": "San Antonio",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "103"
+    },
+    {
+      "FID": "limitedistrital_5k.86",
+      "CÓDIGO_DTA": "10306",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Desamparados",
+      "DISTRITO": "Frailes",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "103"
+    },
+    {
+      "FID": "limitedistrital_5k.425",
+      "CÓDIGO_DTA": "10307",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Desamparados",
+      "DISTRITO": "Patarrá",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "103"
+    },
+    {
+      "FID": "limitedistrital_5k.89",
+      "CÓDIGO_DTA": "10308",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Desamparados",
+      "DISTRITO": "San Cristobal",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "103"
+    },
+    {
+      "FID": "limitedistrital_5k.98",
+      "CÓDIGO_DTA": "10309",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Desamparados",
+      "DISTRITO": "Rosario",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "103"
+    },
+    {
+      "FID": "limitedistrital_5k.144",
+      "CÓDIGO_DTA": "10310",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Desamparados",
+      "DISTRITO": "Damas",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "103"
+    },
+    {
+      "FID": "limitedistrital_5k.149",
+      "CÓDIGO_DTA": "10311",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Desamparados",
+      "DISTRITO": "San Rafael Abajo",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "103"
+    },
+    {
+      "FID": "limitedistrital_5k.145",
+      "CÓDIGO_DTA": "10312",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Desamparados",
+      "DISTRITO": "Gravilias",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "103"
+    },
+    {
+      "FID": "limitedistrital_5k.421",
+      "CÓDIGO_DTA": "10313",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Desamparados",
+      "DISTRITO": "Los Guido",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "103"
+    },
+    {
+      "FID": "limitedistrital_5k.422",
+      "CÓDIGO_DTA": "10401",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Puriscal",
+      "DISTRITO": "Santiago",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "104"
+    },
+    {
+      "FID": "limitedistrital_5k.101",
+      "CÓDIGO_DTA": "10402",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Puriscal",
+      "DISTRITO": "Mercedes Sur",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "104"
+    },
+    {
+      "FID": "limitedistrital_5k.420",
+      "CÓDIGO_DTA": "10403",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Puriscal",
+      "DISTRITO": "Barbacoas",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "104"
+    },
+    {
+      "FID": "limitedistrital_5k.436",
+      "CÓDIGO_DTA": "10404",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Puriscal",
+      "DISTRITO": "Grifo Alto",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "104"
+    },
+    {
+      "FID": "limitedistrital_5k.102",
+      "CÓDIGO_DTA": "10405",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Puriscal",
+      "DISTRITO": "San Rafael",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "104"
+    },
+    {
+      "FID": "limitedistrital_5k.97",
+      "CÓDIGO_DTA": "10406",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Puriscal",
+      "DISTRITO": "Candelarita",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "104"
+    },
+    {
+      "FID": "limitedistrital_5k.432",
+      "CÓDIGO_DTA": "10407",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Puriscal",
+      "DISTRITO": "Desamparaditos",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "104"
+    },
+    {
+      "FID": "limitedistrital_5k.427",
+      "CÓDIGO_DTA": "10408",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Puriscal",
+      "DISTRITO": "San Antonio",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "104"
+    },
+    {
+      "FID": "limitedistrital_5k.82",
+      "CÓDIGO_DTA": "10409",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Puriscal",
+      "DISTRITO": "Chires",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "104"
+    },
+    {
+      "FID": "limitedistrital_5k.78",
+      "CÓDIGO_DTA": "10501",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Tarrazú",
+      "DISTRITO": "San Marcos",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "105"
+    },
+    {
+      "FID": "limitedistrital_5k.70",
+      "CÓDIGO_DTA": "10502",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Tarrazú",
+      "DISTRITO": "San Lorenzo",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "105"
+    },
+    {
+      "FID": "limitedistrital_5k.71",
+      "CÓDIGO_DTA": "10503",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Tarrazú",
+      "DISTRITO": "San Carlos",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "105"
+    },
+    {
+      "FID": "limitedistrital_5k.415",
+      "CÓDIGO_DTA": "10601",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Aserrí",
+      "DISTRITO": "Aserrí",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "106"
+    },
+    {
+      "FID": "limitedistrital_5k.100",
+      "CÓDIGO_DTA": "10602",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Aserrí",
+      "DISTRITO": "Tarbaca",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "106"
+    },
+    {
+      "FID": "limitedistrital_5k.92",
+      "CÓDIGO_DTA": "10603",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Aserrí",
+      "DISTRITO": "Vuelta de Jorco",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "106"
+    },
+    {
+      "FID": "limitedistrital_5k.93",
+      "CÓDIGO_DTA": "10604",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Aserrí",
+      "DISTRITO": "San Gabriel",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "106"
+    },
+    {
+      "FID": "limitedistrital_5k.84",
+      "CÓDIGO_DTA": "10605",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Aserrí",
+      "DISTRITO": "Legua",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "106"
+    },
+    {
+      "FID": "limitedistrital_5k.85",
+      "CÓDIGO_DTA": "10606",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Aserrí",
+      "DISTRITO": "Monterrey",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "106"
+    },
+    {
+      "FID": "limitedistrital_5k.413",
+      "CÓDIGO_DTA": "10607",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Aserrí",
+      "DISTRITO": "Salitrillos",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "106"
+    },
+    {
+      "FID": "limitedistrital_5k.171",
+      "CÓDIGO_DTA": "10701",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Mora",
+      "DISTRITO": "Colón",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "107"
+    },
+    {
+      "FID": "limitedistrital_5k.419",
+      "CÓDIGO_DTA": "10702",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Mora",
+      "DISTRITO": "Guayabo",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "107"
+    },
+    {
+      "FID": "limitedistrital_5k.426",
+      "CÓDIGO_DTA": "10703",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Mora",
+      "DISTRITO": "Tabarcia",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "107"
+    },
+    {
+      "FID": "limitedistrital_5k.157",
+      "CÓDIGO_DTA": "10704",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Mora",
+      "DISTRITO": "Piedras Negras",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "107"
+    },
+    {
+      "FID": "limitedistrital_5k.175",
+      "CÓDIGO_DTA": "10705",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Mora",
+      "DISTRITO": "Picagres",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "107"
+    },
+    {
+      "FID": "limitedistrital_5k.424",
+      "CÓDIGO_DTA": "10706",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Mora",
+      "DISTRITO": "Jaris",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "107"
+    },
+    {
+      "FID": "limitedistrital_5k.447",
+      "CÓDIGO_DTA": "10707",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Mora",
+      "DISTRITO": "Quitirrisí",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "107"
+    },
+    {
+      "FID": "limitedistrital_5k.194",
+      "CÓDIGO_DTA": "10801",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Goicoechea",
+      "DISTRITO": "Guadalupe",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "108"
+    },
+    {
+      "FID": "limitedistrital_5k.182",
+      "CÓDIGO_DTA": "10802",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Goicoechea",
+      "DISTRITO": "San Francisco",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "108"
+    },
+    {
+      "FID": "limitedistrital_5k.192",
+      "CÓDIGO_DTA": "10803",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Goicoechea",
+      "DISTRITO": "Calle Blancos",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "108"
+    },
+    {
+      "FID": "limitedistrital_5k.200",
+      "CÓDIGO_DTA": "10804",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Goicoechea",
+      "DISTRITO": "Mata de Plátano",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "108"
+    },
+    {
+      "FID": "limitedistrital_5k.205",
+      "CÓDIGO_DTA": "10805",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Goicoechea",
+      "DISTRITO": "Ipís",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "108"
+    },
+    {
+      "FID": "limitedistrital_5k.213",
+      "CÓDIGO_DTA": "10806",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Goicoechea",
+      "DISTRITO": "Rancho Redondo",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "108"
+    },
+    {
+      "FID": "limitedistrital_5k.202",
+      "CÓDIGO_DTA": "10807",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Goicoechea",
+      "DISTRITO": "Purral",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "108"
+    },
+    {
+      "FID": "limitedistrital_5k.179",
+      "CÓDIGO_DTA": "10901",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Santa Ana",
+      "DISTRITO": "Santa Ana",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "109"
+    },
+    {
+      "FID": "limitedistrital_5k.439",
+      "CÓDIGO_DTA": "10902",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Santa Ana",
+      "DISTRITO": "Salitral",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "109"
+    },
+    {
+      "FID": "limitedistrital_5k.212",
+      "CÓDIGO_DTA": "10903",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Santa Ana",
+      "DISTRITO": "Pozos",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "109"
+    },
+    {
+      "FID": "limitedistrital_5k.186",
+      "CÓDIGO_DTA": "10904",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Santa Ana",
+      "DISTRITO": "Uruca",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "109"
+    },
+    {
+      "FID": "limitedistrital_5k.180",
+      "CÓDIGO_DTA": "10905",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Santa Ana",
+      "DISTRITO": "Piedades",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "109"
+    },
+    {
+      "FID": "limitedistrital_5k.187",
+      "CÓDIGO_DTA": "10906",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Santa Ana",
+      "DISTRITO": "Brasil",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "109"
+    },
+    {
+      "FID": "limitedistrital_5k.153",
+      "CÓDIGO_DTA": "11001",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Alajuelita",
+      "DISTRITO": "Alajuelita",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "110"
+    },
+    {
+      "FID": "limitedistrital_5k.146",
+      "CÓDIGO_DTA": "11002",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Alajuelita",
+      "DISTRITO": "San Josecito",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "110"
+    },
+    {
+      "FID": "limitedistrital_5k.431",
+      "CÓDIGO_DTA": "11003",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Alajuelita",
+      "DISTRITO": "San Antonio",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "110"
+    },
+    {
+      "FID": "limitedistrital_5k.147",
+      "CÓDIGO_DTA": "11004",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Alajuelita",
+      "DISTRITO": "Concepción",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "110"
+    },
+    {
+      "FID": "limitedistrital_5k.167",
+      "CÓDIGO_DTA": "11005",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Alajuelita",
+      "DISTRITO": "San Felipe",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "110"
+    },
+    {
+      "FID": "limitedistrital_5k.216",
+      "CÓDIGO_DTA": "11101",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Vázquez de Coronado",
+      "DISTRITO": "San Isidro",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "111"
+    },
+    {
+      "FID": "limitedistrital_5k.226",
+      "CÓDIGO_DTA": "11102",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Vázquez de Coronado",
+      "DISTRITO": "San Rafael",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "111"
+    },
+    {
+      "FID": "limitedistrital_5k.334",
+      "CÓDIGO_DTA": "11103",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Vázquez de Coronado",
+      "DISTRITO": "Dulce Nombre de Jesús",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "111"
+    },
+    {
+      "FID": "limitedistrital_5k.218",
+      "CÓDIGO_DTA": "11104",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Vázquez de Coronado",
+      "DISTRITO": "Patalillo",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "111"
+    },
+    {
+      "FID": "limitedistrital_5k.317",
+      "CÓDIGO_DTA": "11105",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Vázquez de Coronado",
+      "DISTRITO": "Cascajal",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "111"
+    },
+    {
+      "FID": "limitedistrital_5k.96",
+      "CÓDIGO_DTA": "11201",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Acosta",
+      "DISTRITO": "San Ignacio",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "112"
+    },
+    {
+      "FID": "limitedistrital_5k.95",
+      "CÓDIGO_DTA": "11202",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Acosta",
+      "DISTRITO": "Guaitil",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "112"
+    },
+    {
+      "FID": "limitedistrital_5k.106",
+      "CÓDIGO_DTA": "11203",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Acosta",
+      "DISTRITO": "Palmichal",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "112"
+    },
+    {
+      "FID": "limitedistrital_5k.88",
+      "CÓDIGO_DTA": "11204",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Acosta",
+      "DISTRITO": "Cangrejal",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "112"
+    },
+    {
+      "FID": "limitedistrital_5k.87",
+      "CÓDIGO_DTA": "11205",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Acosta",
+      "DISTRITO": "Sabanillas",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "112"
+    },
+    {
+      "FID": "limitedistrital_5k.211",
+      "CÓDIGO_DTA": "11301",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Tibás",
+      "DISTRITO": "San Juan",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "113"
+    },
+    {
+      "FID": "limitedistrital_5k.190",
+      "CÓDIGO_DTA": "11302",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Tibás",
+      "DISTRITO": "Cinco Esquinas",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "113"
+    },
+    {
+      "FID": "limitedistrital_5k.197",
+      "CÓDIGO_DTA": "11303",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Tibás",
+      "DISTRITO": "Anselmo Llorente",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "113"
+    },
+    {
+      "FID": "limitedistrital_5k.198",
+      "CÓDIGO_DTA": "11304",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Tibás",
+      "DISTRITO": "León XIII",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "113"
+    },
+    {
+      "FID": "limitedistrital_5k.201",
+      "CÓDIGO_DTA": "11305",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Tibás",
+      "DISTRITO": "Colima",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "113"
+    },
+    {
+      "FID": "limitedistrital_5k.214",
+      "CÓDIGO_DTA": "11401",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Moravia",
+      "DISTRITO": "San Vicente",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "114"
+    },
+    {
+      "FID": "limitedistrital_5k.287",
+      "CÓDIGO_DTA": "11402",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Moravia",
+      "DISTRITO": "San Jerónimo",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "114"
+    },
+    {
+      "FID": "limitedistrital_5k.229",
+      "CÓDIGO_DTA": "11403",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Moravia",
+      "DISTRITO": "La Trinidad",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "114"
+    },
+    {
+      "FID": "limitedistrital_5k.181",
+      "CÓDIGO_DTA": "11501",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Montes de Oca",
+      "DISTRITO": "San Pedro",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "115"
+    },
+    {
+      "FID": "limitedistrital_5k.191",
+      "CÓDIGO_DTA": "11502",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Montes de Oca",
+      "DISTRITO": "Sabanilla",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "115"
+    },
+    {
+      "FID": "limitedistrital_5k.189",
+      "CÓDIGO_DTA": "11503",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Montes de Oca",
+      "DISTRITO": "Mercedes",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "115"
+    },
+    {
+      "FID": "limitedistrital_5k.193",
+      "CÓDIGO_DTA": "11504",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Montes de Oca",
+      "DISTRITO": "San Rafael",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "115"
+    },
+    {
+      "FID": "limitedistrital_5k.162",
+      "CÓDIGO_DTA": "11601",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Turrubares",
+      "DISTRITO": "San Pablo",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "116"
+    },
+    {
+      "FID": "limitedistrital_5k.433",
+      "CÓDIGO_DTA": "11602",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Turrubares",
+      "DISTRITO": "San Pedro",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "116"
+    },
+    {
+      "FID": "limitedistrital_5k.430",
+      "CÓDIGO_DTA": "11603",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Turrubares",
+      "DISTRITO": "San Juan de Mata",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "116"
+    },
+    {
+      "FID": "limitedistrital_5k.418",
+      "CÓDIGO_DTA": "11604",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Turrubares",
+      "DISTRITO": "San Luis",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "116"
+    },
+    {
+      "FID": "limitedistrital_5k.90",
+      "CÓDIGO_DTA": "11605",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Turrubares",
+      "DISTRITO": "Carara",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "116"
+    },
+    {
+      "FID": "limitedistrital_5k.73",
+      "CÓDIGO_DTA": "11701",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Dota",
+      "DISTRITO": "Santa María",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "117"
+    },
+    {
+      "FID": "limitedistrital_5k.79",
+      "CÓDIGO_DTA": "11702",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Dota",
+      "DISTRITO": "Jardín",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "117"
+    },
+    {
+      "FID": "limitedistrital_5k.72",
+      "CÓDIGO_DTA": "11703",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Dota",
+      "DISTRITO": "Copey",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "117"
+    },
+    {
+      "FID": "limitedistrital_5k.165",
+      "CÓDIGO_DTA": "11801",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Curridabat",
+      "DISTRITO": "Curridabat",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "118"
+    },
+    {
+      "FID": "limitedistrital_5k.176",
+      "CÓDIGO_DTA": "11802",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Curridabat",
+      "DISTRITO": "Granadilla",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "118"
+    },
+    {
+      "FID": "limitedistrital_5k.166",
+      "CÓDIGO_DTA": "11803",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Curridabat",
+      "DISTRITO": "Sánchez",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "118"
+    },
+    {
+      "FID": "limitedistrital_5k.152",
+      "CÓDIGO_DTA": "11804",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Curridabat",
+      "DISTRITO": "Tirrases",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "118"
+    },
+    {
+      "FID": "limitedistrital_5k.65",
+      "CÓDIGO_DTA": "11901",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Pérez Zeledón",
+      "DISTRITO": "San Isidro de El General",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "119"
+    },
+    {
+      "FID": "limitedistrital_5k.408",
+      "CÓDIGO_DTA": "11902",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Pérez Zeledón",
+      "DISTRITO": "El General",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "119"
+    },
+    {
+      "FID": "limitedistrital_5k.407",
+      "CÓDIGO_DTA": "11903",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Pérez Zeledón",
+      "DISTRITO": "Daniel Flores",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "119"
+    },
+    {
+      "FID": "limitedistrital_5k.409",
+      "CÓDIGO_DTA": "11904",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Pérez Zeledón",
+      "DISTRITO": "Rivas",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "119"
+    },
+    {
+      "FID": "limitedistrital_5k.135",
+      "CÓDIGO_DTA": "11905",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Pérez Zeledón",
+      "DISTRITO": "San Pedro",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "119"
+    },
+    {
+      "FID": "limitedistrital_5k.406",
+      "CÓDIGO_DTA": "11906",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Pérez Zeledón",
+      "DISTRITO": "Platanares",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "119"
+    },
+    {
+      "FID": "limitedistrital_5k.405",
+      "CÓDIGO_DTA": "11907",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Pérez Zeledón",
+      "DISTRITO": "Pejibaye",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "119"
+    },
+    {
+      "FID": "limitedistrital_5k.134",
+      "CÓDIGO_DTA": "11908",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Pérez Zeledón",
+      "DISTRITO": "Cajón",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "119"
+    },
+    {
+      "FID": "limitedistrital_5k.63",
+      "CÓDIGO_DTA": "11909",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Pérez Zeledón",
+      "DISTRITO": "Barú",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "119"
+    },
+    {
+      "FID": "limitedistrital_5k.66",
+      "CÓDIGO_DTA": "11910",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Pérez Zeledón",
+      "DISTRITO": "Río Nuevo",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "119"
+    },
+    {
+      "FID": "limitedistrital_5k.68",
+      "CÓDIGO_DTA": "11911",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Pérez Zeledón",
+      "DISTRITO": "Páramo",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "119"
+    },
+    {
+      "FID": "limitedistrital_5k.130",
+      "CÓDIGO_DTA": "11912",
+      "PROVINCIA": "San José",
+      "CANTÓN": "Pérez Zeledón",
+      "DISTRITO": "La  Amistad",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "119"
+    },
+    {
+      "FID": "limitedistrital_5k.76",
+      "CÓDIGO_DTA": "12001",
+      "PROVINCIA": "San José",
+      "CANTÓN": "León Cortés Castro",
+      "DISTRITO": "San Pablo",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "120"
+    },
+    {
+      "FID": "limitedistrital_5k.83",
+      "CÓDIGO_DTA": "12002",
+      "PROVINCIA": "San José",
+      "CANTÓN": "León Cortés Castro",
+      "DISTRITO": "San Andrés",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "120"
+    },
+    {
+      "FID": "limitedistrital_5k.77",
+      "CÓDIGO_DTA": "12003",
+      "PROVINCIA": "San José",
+      "CANTÓN": "León Cortés Castro",
+      "DISTRITO": "Llano Bonito",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "120"
+    },
+    {
+      "FID": "limitedistrital_5k.75",
+      "CÓDIGO_DTA": "12004",
+      "PROVINCIA": "San José",
+      "CANTÓN": "León Cortés Castro",
+      "DISTRITO": "San Isidro",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "120"
+    },
+    {
+      "FID": "limitedistrital_5k.80",
+      "CÓDIGO_DTA": "12005",
+      "PROVINCIA": "San José",
+      "CANTÓN": "León Cortés Castro",
+      "DISTRITO": "Santa Cruz",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "120"
+    },
+    {
+      "FID": "limitedistrital_5k.81",
+      "CÓDIGO_DTA": "12006",
+      "PROVINCIA": "San José",
+      "CANTÓN": "León Cortés Castro",
+      "DISTRITO": "San Antonio",
+      "CÓDIGO_PROVINCIA": "1",
+      "CÓDIGO_CANTÓN": "120"
+    },
+    {
+      "FID": "limitedistrital_5k.278",
+      "CÓDIGO_DTA": "20101",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Alajuela",
+      "DISTRITO": "Alajuela",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "201"
+    },
+    {
+      "FID": "limitedistrital_5k.267",
+      "CÓDIGO_DTA": "20102",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Alajuela",
+      "DISTRITO": "San José",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "201"
+    },
+    {
+      "FID": "limitedistrital_5k.310",
+      "CÓDIGO_DTA": "20103",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Alajuela",
+      "DISTRITO": "Carrizal",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "201"
+    },
+    {
+      "FID": "limitedistrital_5k.246",
+      "CÓDIGO_DTA": "20104",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Alajuela",
+      "DISTRITO": "San Antonio",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "201"
+    },
+    {
+      "FID": "limitedistrital_5k.239",
+      "CÓDIGO_DTA": "20105",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Alajuela",
+      "DISTRITO": "Guácima",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "201"
+    },
+    {
+      "FID": "limitedistrital_5k.323",
+      "CÓDIGO_DTA": "20106",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Alajuela",
+      "DISTRITO": "San Isidro",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "201"
+    },
+    {
+      "FID": "limitedistrital_5k.336",
+      "CÓDIGO_DTA": "20107",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Alajuela",
+      "DISTRITO": "Sabanilla",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "201"
+    },
+    {
+      "FID": "limitedistrital_5k.225",
+      "CÓDIGO_DTA": "20108",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Alajuela",
+      "DISTRITO": "San Rafael",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "201"
+    },
+    {
+      "FID": "limitedistrital_5k.251",
+      "CÓDIGO_DTA": "20109",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Alajuela",
+      "DISTRITO": "Río Segundo",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "201"
+    },
+    {
+      "FID": "limitedistrital_5k.283",
+      "CÓDIGO_DTA": "20110",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Alajuela",
+      "DISTRITO": "Desamparados",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "201"
+    },
+    {
+      "FID": "limitedistrital_5k.204",
+      "CÓDIGO_DTA": "20111",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Alajuela",
+      "DISTRITO": "Turrúcares",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "201"
+    },
+    {
+      "FID": "limitedistrital_5k.280",
+      "CÓDIGO_DTA": "20112",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Alajuela",
+      "DISTRITO": "Tambor",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "201"
+    },
+    {
+      "FID": "limitedistrital_5k.254",
+      "CÓDIGO_DTA": "20113",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Alajuela",
+      "DISTRITO": "Garita",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "201"
+    },
+    {
+      "FID": "limitedistrital_5k.357",
+      "CÓDIGO_DTA": "20114",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Alajuela",
+      "DISTRITO": "Sarapiquí",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "201"
+    },
+    {
+      "FID": "limitedistrital_5k.301",
+      "CÓDIGO_DTA": "20201",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Ramón",
+      "DISTRITO": "San Ramón",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "202"
+    },
+    {
+      "FID": "limitedistrital_5k.231",
+      "CÓDIGO_DTA": "20202",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Ramón",
+      "DISTRITO": "Santiago",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "202"
+    },
+    {
+      "FID": "limitedistrital_5k.308",
+      "CÓDIGO_DTA": "20203",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Ramón",
+      "DISTRITO": "San Juan",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "202"
+    },
+    {
+      "FID": "limitedistrital_5k.330",
+      "CÓDIGO_DTA": "20204",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Ramón",
+      "DISTRITO": "Piedades Norte",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "202"
+    },
+    {
+      "FID": "limitedistrital_5k.321",
+      "CÓDIGO_DTA": "20205",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Ramón",
+      "DISTRITO": "Piedades Sur",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "202"
+    },
+    {
+      "FID": "limitedistrital_5k.297",
+      "CÓDIGO_DTA": "20206",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Ramón",
+      "DISTRITO": "San Rafael",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "202"
+    },
+    {
+      "FID": "limitedistrital_5k.304",
+      "CÓDIGO_DTA": "20207",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Ramón",
+      "DISTRITO": "San Isidro",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "202"
+    },
+    {
+      "FID": "limitedistrital_5k.367",
+      "CÓDIGO_DTA": "20208",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Ramón",
+      "DISTRITO": "Ángeles",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "202"
+    },
+    {
+      "FID": "limitedistrital_5k.305",
+      "CÓDIGO_DTA": "20209",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Ramón",
+      "DISTRITO": "Alfaro",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "202"
+    },
+    {
+      "FID": "limitedistrital_5k.333",
+      "CÓDIGO_DTA": "20210",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Ramón",
+      "DISTRITO": "Volio",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "202"
+    },
+    {
+      "FID": "limitedistrital_5k.319",
+      "CÓDIGO_DTA": "20211",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Ramón",
+      "DISTRITO": "Concepción",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "202"
+    },
+    {
+      "FID": "limitedistrital_5k.339",
+      "CÓDIGO_DTA": "20212",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Ramón",
+      "DISTRITO": "Zapotal",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "202"
+    },
+    {
+      "FID": "limitedistrital_5k.360",
+      "CÓDIGO_DTA": "20213",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Ramón",
+      "DISTRITO": "Peñas Blancas",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "202"
+    },
+    {
+      "FID": "limitedistrital_5k.355",
+      "CÓDIGO_DTA": "20214",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Ramón",
+      "DISTRITO": "San Lorenzo",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "202"
+    },
+    {
+      "FID": "limitedistrital_5k.292",
+      "CÓDIGO_DTA": "20301",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Grecia",
+      "DISTRITO": "Grecia",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "203"
+    },
+    {
+      "FID": "limitedistrital_5k.328",
+      "CÓDIGO_DTA": "20302",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Grecia",
+      "DISTRITO": "San Isidro",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "203"
+    },
+    {
+      "FID": "limitedistrital_5k.366",
+      "CÓDIGO_DTA": "20303",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Grecia",
+      "DISTRITO": "San José",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "203"
+    },
+    {
+      "FID": "limitedistrital_5k.327",
+      "CÓDIGO_DTA": "20304",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Grecia",
+      "DISTRITO": "San Roque",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "203"
+    },
+    {
+      "FID": "limitedistrital_5k.316",
+      "CÓDIGO_DTA": "20305",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Grecia",
+      "DISTRITO": "Tacares",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "203"
+    },
+    {
+      "FID": "limitedistrital_5k.285",
+      "CÓDIGO_DTA": "20307",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Grecia",
+      "DISTRITO": "Puente de Piedra",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "203"
+    },
+    {
+      "FID": "limitedistrital_5k.331",
+      "CÓDIGO_DTA": "20308",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Grecia",
+      "DISTRITO": "Bolivar",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "203"
+    },
+    {
+      "FID": "limitedistrital_5k.253",
+      "CÓDIGO_DTA": "20401",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Mateo",
+      "DISTRITO": "San Mateo",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "204"
+    },
+    {
+      "FID": "limitedistrital_5k.236",
+      "CÓDIGO_DTA": "20402",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Mateo",
+      "DISTRITO": "Desmonte",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "204"
+    },
+    {
+      "FID": "limitedistrital_5k.220",
+      "CÓDIGO_DTA": "20403",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Mateo",
+      "DISTRITO": "Jesús María",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "204"
+    },
+    {
+      "FID": "limitedistrital_5k.196",
+      "CÓDIGO_DTA": "20404",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Mateo",
+      "DISTRITO": "Labrador",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "204"
+    },
+    {
+      "FID": "limitedistrital_5k.235",
+      "CÓDIGO_DTA": "20501",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Atenas",
+      "DISTRITO": "Atenas",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "205"
+    },
+    {
+      "FID": "limitedistrital_5k.227",
+      "CÓDIGO_DTA": "20502",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Atenas",
+      "DISTRITO": "Jesús",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "205"
+    },
+    {
+      "FID": "limitedistrital_5k.240",
+      "CÓDIGO_DTA": "20503",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Atenas",
+      "DISTRITO": "Mercedes",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "205"
+    },
+    {
+      "FID": "limitedistrital_5k.250",
+      "CÓDIGO_DTA": "20504",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Atenas",
+      "DISTRITO": "San Isidro",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "205"
+    },
+    {
+      "FID": "limitedistrital_5k.221",
+      "CÓDIGO_DTA": "20505",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Atenas",
+      "DISTRITO": "Concepción",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "205"
+    },
+    {
+      "FID": "limitedistrital_5k.271",
+      "CÓDIGO_DTA": "20506",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Atenas",
+      "DISTRITO": "San José",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "205"
+    },
+    {
+      "FID": "limitedistrital_5k.270",
+      "CÓDIGO_DTA": "20507",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Atenas",
+      "DISTRITO": "Santa Eulalia",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "205"
+    },
+    {
+      "FID": "limitedistrital_5k.203",
+      "CÓDIGO_DTA": "20508",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Atenas",
+      "DISTRITO": "Escobal",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "205"
+    },
+    {
+      "FID": "limitedistrital_5k.313",
+      "CÓDIGO_DTA": "20601",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Naranjo",
+      "DISTRITO": "Naranjo",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "206"
+    },
+    {
+      "FID": "limitedistrital_5k.299",
+      "CÓDIGO_DTA": "20602",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Naranjo",
+      "DISTRITO": "San Miguel",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "206"
+    },
+    {
+      "FID": "limitedistrital_5k.325",
+      "CÓDIGO_DTA": "20603",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Naranjo",
+      "DISTRITO": "San José",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "206"
+    },
+    {
+      "FID": "limitedistrital_5k.335",
+      "CÓDIGO_DTA": "20604",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Naranjo",
+      "DISTRITO": "Cirrí Sur",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "206"
+    },
+    {
+      "FID": "limitedistrital_5k.324",
+      "CÓDIGO_DTA": "20605",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Naranjo",
+      "DISTRITO": "San Jerónimo",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "206"
+    },
+    {
+      "FID": "limitedistrital_5k.312",
+      "CÓDIGO_DTA": "20606",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Naranjo",
+      "DISTRITO": "San Juan",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "206"
+    },
+    {
+      "FID": "limitedistrital_5k.290",
+      "CÓDIGO_DTA": "20607",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Naranjo",
+      "DISTRITO": "El Rosario",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "206"
+    },
+    {
+      "FID": "limitedistrital_5k.306",
+      "CÓDIGO_DTA": "20608",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Naranjo",
+      "DISTRITO": "Palmitos",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "206"
+    },
+    {
+      "FID": "limitedistrital_5k.284",
+      "CÓDIGO_DTA": "20701",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Palmares",
+      "DISTRITO": "Palmares",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "207"
+    },
+    {
+      "FID": "limitedistrital_5k.279",
+      "CÓDIGO_DTA": "20702",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Palmares",
+      "DISTRITO": "Zaragoza",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "207"
+    },
+    {
+      "FID": "limitedistrital_5k.298",
+      "CÓDIGO_DTA": "20703",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Palmares",
+      "DISTRITO": "Buenos Aires",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "207"
+    },
+    {
+      "FID": "limitedistrital_5k.269",
+      "CÓDIGO_DTA": "20704",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Palmares",
+      "DISTRITO": "Santiago",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "207"
+    },
+    {
+      "FID": "limitedistrital_5k.272",
+      "CÓDIGO_DTA": "20705",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Palmares",
+      "DISTRITO": "Candelaria",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "207"
+    },
+    {
+      "FID": "limitedistrital_5k.291",
+      "CÓDIGO_DTA": "20706",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Palmares",
+      "DISTRITO": "Esquipulas",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "207"
+    },
+    {
+      "FID": "limitedistrital_5k.289",
+      "CÓDIGO_DTA": "20707",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Palmares",
+      "DISTRITO": "La Granja",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "207"
+    },
+    {
+      "FID": "limitedistrital_5k.307",
+      "CÓDIGO_DTA": "20801",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Poás",
+      "DISTRITO": "San Pedro",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "208"
+    },
+    {
+      "FID": "limitedistrital_5k.337",
+      "CÓDIGO_DTA": "20802",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Poás",
+      "DISTRITO": "San Juan",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "208"
+    },
+    {
+      "FID": "limitedistrital_5k.314",
+      "CÓDIGO_DTA": "20803",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Poás",
+      "DISTRITO": "San Rafael",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "208"
+    },
+    {
+      "FID": "limitedistrital_5k.281",
+      "CÓDIGO_DTA": "20804",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Poás",
+      "DISTRITO": "Carrillos",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "208"
+    },
+    {
+      "FID": "limitedistrital_5k.338",
+      "CÓDIGO_DTA": "20805",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Poás",
+      "DISTRITO": "Sabana Redonda",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "208"
+    },
+    {
+      "FID": "limitedistrital_5k.169",
+      "CÓDIGO_DTA": "20901",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Orotina",
+      "DISTRITO": "Orotina",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "209"
+    },
+    {
+      "FID": "limitedistrital_5k.172",
+      "CÓDIGO_DTA": "20902",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Orotina",
+      "DISTRITO": "El Mastate",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "209"
+    },
+    {
+      "FID": "limitedistrital_5k.185",
+      "CÓDIGO_DTA": "20903",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Orotina",
+      "DISTRITO": "Hacienda Vieja",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "209"
+    },
+    {
+      "FID": "limitedistrital_5k.435",
+      "CÓDIGO_DTA": "20904",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Orotina",
+      "DISTRITO": "Coyolar",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "209"
+    },
+    {
+      "FID": "limitedistrital_5k.443",
+      "CÓDIGO_DTA": "20905",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Orotina",
+      "DISTRITO": "La Ceiba",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "209"
+    },
+    {
+      "FID": "limitedistrital_5k.359",
+      "CÓDIGO_DTA": "21001",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Carlos",
+      "DISTRITO": "Quesada",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "210"
+    },
+    {
+      "FID": "limitedistrital_5k.362",
+      "CÓDIGO_DTA": "21002",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Carlos",
+      "DISTRITO": "Florencia",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "210"
+    },
+    {
+      "FID": "limitedistrital_5k.353",
+      "CÓDIGO_DTA": "21003",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Carlos",
+      "DISTRITO": "Buenavista",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "210"
+    },
+    {
+      "FID": "limitedistrital_5k.364",
+      "CÓDIGO_DTA": "21004",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Carlos",
+      "DISTRITO": "Aguas Zarcas",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "210"
+    },
+    {
+      "FID": "limitedistrital_5k.358",
+      "CÓDIGO_DTA": "21005",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Carlos",
+      "DISTRITO": "Venecia",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "210"
+    },
+    {
+      "FID": "limitedistrital_5k.480",
+      "CÓDIGO_DTA": "21006",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Carlos",
+      "DISTRITO": "Pital",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "210"
+    },
+    {
+      "FID": "limitedistrital_5k.369",
+      "CÓDIGO_DTA": "21007",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Carlos",
+      "DISTRITO": "La Fortuna",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "210"
+    },
+    {
+      "FID": "limitedistrital_5k.356",
+      "CÓDIGO_DTA": "21008",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Carlos",
+      "DISTRITO": "La Tigra",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "210"
+    },
+    {
+      "FID": "limitedistrital_5k.363",
+      "CÓDIGO_DTA": "21009",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Carlos",
+      "DISTRITO": "La Palmera",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "210"
+    },
+    {
+      "FID": "limitedistrital_5k.398",
+      "CÓDIGO_DTA": "21010",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Carlos",
+      "DISTRITO": "Venado",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "210"
+    },
+    {
+      "FID": "limitedistrital_5k.481",
+      "CÓDIGO_DTA": "21011",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Carlos",
+      "DISTRITO": "Cutris",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "210"
+    },
+    {
+      "FID": "limitedistrital_5k.371",
+      "CÓDIGO_DTA": "21012",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Carlos",
+      "DISTRITO": "Monterrey",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "210"
+    },
+    {
+      "FID": "limitedistrital_5k.482",
+      "CÓDIGO_DTA": "21013",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "San Carlos",
+      "DISTRITO": "Pocosol",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "210"
+    },
+    {
+      "FID": "limitedistrital_5k.340",
+      "CÓDIGO_DTA": "21101",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Zarcero",
+      "DISTRITO": "Zarcero",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "211"
+    },
+    {
+      "FID": "limitedistrital_5k.344",
+      "CÓDIGO_DTA": "21102",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Zarcero",
+      "DISTRITO": "Laguna",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "211"
+    },
+    {
+      "FID": "limitedistrital_5k.342",
+      "CÓDIGO_DTA": "21103",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Zarcero",
+      "DISTRITO": "Tapesco",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "211"
+    },
+    {
+      "FID": "limitedistrital_5k.341",
+      "CÓDIGO_DTA": "21104",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Zarcero",
+      "DISTRITO": "Guadalupe",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "211"
+    },
+    {
+      "FID": "limitedistrital_5k.343",
+      "CÓDIGO_DTA": "21105",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Zarcero",
+      "DISTRITO": "Palmira",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "211"
+    },
+    {
+      "FID": "limitedistrital_5k.346",
+      "CÓDIGO_DTA": "21106",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Zarcero",
+      "DISTRITO": "Zapote",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "211"
+    },
+    {
+      "FID": "limitedistrital_5k.345",
+      "CÓDIGO_DTA": "21107",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Zarcero",
+      "DISTRITO": "Brisas",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "211"
+    },
+    {
+      "FID": "limitedistrital_5k.329",
+      "CÓDIGO_DTA": "21201",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Sarchí",
+      "DISTRITO": "Sarchí Norte",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "212"
+    },
+    {
+      "FID": "limitedistrital_5k.303",
+      "CÓDIGO_DTA": "21202",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Sarchí",
+      "DISTRITO": "Sarchí Sur",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "212"
+    },
+    {
+      "FID": "limitedistrital_5k.348",
+      "CÓDIGO_DTA": "21203",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Sarchí",
+      "DISTRITO": "Toro Amarillo",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "212"
+    },
+    {
+      "FID": "limitedistrital_5k.332",
+      "CÓDIGO_DTA": "21204",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Sarchí",
+      "DISTRITO": "San Pedro",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "212"
+    },
+    {
+      "FID": "limitedistrital_5k.320",
+      "CÓDIGO_DTA": "21205",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Sarchí",
+      "DISTRITO": "Rodríguez",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "212"
+    },
+    {
+      "FID": "limitedistrital_5k.55",
+      "CÓDIGO_DTA": "21301",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Upala",
+      "DISTRITO": "Upala",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "213"
+    },
+    {
+      "FID": "limitedistrital_5k.57",
+      "CÓDIGO_DTA": "21302",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Upala",
+      "DISTRITO": "Aguas Claras",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "213"
+    },
+    {
+      "FID": "limitedistrital_5k.486",
+      "CÓDIGO_DTA": "21303",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Upala",
+      "DISTRITO": "San José O Pizote",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "213"
+    },
+    {
+      "FID": "limitedistrital_5k.49",
+      "CÓDIGO_DTA": "21304",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Upala",
+      "DISTRITO": "Bijagua",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "213"
+    },
+    {
+      "FID": "limitedistrital_5k.490",
+      "CÓDIGO_DTA": "21305",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Upala",
+      "DISTRITO": "Delicias",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "213"
+    },
+    {
+      "FID": "limitedistrital_5k.59",
+      "CÓDIGO_DTA": "21306",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Upala",
+      "DISTRITO": "Dos Ríos",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "213"
+    },
+    {
+      "FID": "limitedistrital_5k.485",
+      "CÓDIGO_DTA": "21307",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Upala",
+      "DISTRITO": "Yolillal",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "213"
+    },
+    {
+      "FID": "limitedistrital_5k.54",
+      "CÓDIGO_DTA": "21308",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Upala",
+      "DISTRITO": "Canalete",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "213"
+    },
+    {
+      "FID": "limitedistrital_5k.484",
+      "CÓDIGO_DTA": "21401",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Los Chiles",
+      "DISTRITO": "Los Chiles",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "214"
+    },
+    {
+      "FID": "limitedistrital_5k.483",
+      "CÓDIGO_DTA": "21402",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Los Chiles",
+      "DISTRITO": "Caño Negro",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "214"
+    },
+    {
+      "FID": "limitedistrital_5k.373",
+      "CÓDIGO_DTA": "21403",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Los Chiles",
+      "DISTRITO": "El Amparo",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "214"
+    },
+    {
+      "FID": "limitedistrital_5k.372",
+      "CÓDIGO_DTA": "21404",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Los Chiles",
+      "DISTRITO": "San Jorge",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "214"
+    },
+    {
+      "FID": "limitedistrital_5k.400",
+      "CÓDIGO_DTA": "21501",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Guatuso",
+      "DISTRITO": "San Rafael",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "215"
+    },
+    {
+      "FID": "limitedistrital_5k.401",
+      "CÓDIGO_DTA": "21502",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Guatuso",
+      "DISTRITO": "Buenavista",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "215"
+    },
+    {
+      "FID": "limitedistrital_5k.399",
+      "CÓDIGO_DTA": "21503",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Guatuso",
+      "DISTRITO": "Cote",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "215"
+    },
+    {
+      "FID": "limitedistrital_5k.50",
+      "CÓDIGO_DTA": "21504",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Guatuso",
+      "DISTRITO": "Katira",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "215"
+    },
+    {
+      "FID": "limitedistrital_5k.368",
+      "CÓDIGO_DTA": "21601",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Río Cuarto",
+      "DISTRITO": "Río Cuarto",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "216"
+    },
+    {
+      "FID": "limitedistrital_5k.374",
+      "CÓDIGO_DTA": "21602",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Río Cuarto",
+      "DISTRITO": "Santa Rita",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "216"
+    },
+    {
+      "FID": "limitedistrital_5k.370",
+      "CÓDIGO_DTA": "21603",
+      "PROVINCIA": "Alajuela",
+      "CANTÓN": "Río Cuarto",
+      "DISTRITO": "Santa Isabel",
+      "CÓDIGO_PROVINCIA": "2",
+      "CÓDIGO_CANTÓN": "216"
+    },
+    {
+      "FID": "limitedistrital_5k.412",
+      "CÓDIGO_DTA": "30101",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Cartago",
+      "DISTRITO": "Oriental",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "301"
+    },
+    {
+      "FID": "limitedistrital_5k.414",
+      "CÓDIGO_DTA": "30102",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Cartago",
+      "DISTRITO": "Occidental",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "301"
+    },
+    {
+      "FID": "limitedistrital_5k.142",
+      "CÓDIGO_DTA": "30103",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Cartago",
+      "DISTRITO": "Carmen",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "301"
+    },
+    {
+      "FID": "limitedistrital_5k.440",
+      "CÓDIGO_DTA": "30104",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Cartago",
+      "DISTRITO": "San Nicolás",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "301"
+    },
+    {
+      "FID": "limitedistrital_5k.104",
+      "CÓDIGO_DTA": "30105",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Cartago",
+      "DISTRITO": "Aguacaliente o San Francisco",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "301"
+    },
+    {
+      "FID": "limitedistrital_5k.423",
+      "CÓDIGO_DTA": "30106",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Cartago",
+      "DISTRITO": "Guadalupe o Arenilla",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "301"
+    },
+    {
+      "FID": "limitedistrital_5k.94",
+      "CÓDIGO_DTA": "30107",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Cartago",
+      "DISTRITO": "Corralillo",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "301"
+    },
+    {
+      "FID": "limitedistrital_5k.207",
+      "CÓDIGO_DTA": "30108",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Cartago",
+      "DISTRITO": "Tierra Blanca",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "301"
+    },
+    {
+      "FID": "limitedistrital_5k.105",
+      "CÓDIGO_DTA": "30109",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Cartago",
+      "DISTRITO": "Dulce Nombre",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "301"
+    },
+    {
+      "FID": "limitedistrital_5k.206",
+      "CÓDIGO_DTA": "30110",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Cartago",
+      "DISTRITO": "Llano Grande",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "301"
+    },
+    {
+      "FID": "limitedistrital_5k.473",
+      "CÓDIGO_DTA": "30111",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Cartago",
+      "DISTRITO": "Quebradilla",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "301"
+    },
+    {
+      "FID": "limitedistrital_5k.108",
+      "CÓDIGO_DTA": "30201",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Paraíso",
+      "DISTRITO": "Paraíso",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "302"
+    },
+    {
+      "FID": "limitedistrital_5k.434",
+      "CÓDIGO_DTA": "30202",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Paraíso",
+      "DISTRITO": "Santiago",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "302"
+    },
+    {
+      "FID": "limitedistrital_5k.410",
+      "CÓDIGO_DTA": "30203",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Paraíso",
+      "DISTRITO": "Orosi",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "302"
+    },
+    {
+      "FID": "limitedistrital_5k.417",
+      "CÓDIGO_DTA": "30204",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Paraíso",
+      "DISTRITO": "Cachí",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "302"
+    },
+    {
+      "FID": "limitedistrital_5k.107",
+      "CÓDIGO_DTA": "30205",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Paraíso",
+      "DISTRITO": "Llanos de Santa Lucía",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "302"
+    },
+    {
+      "FID": "limitedistrital_5k.448",
+      "CÓDIGO_DTA": "30206",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Paraíso",
+      "DISTRITO": "Birrisito",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "302"
+    },
+    {
+      "FID": "limitedistrital_5k.155",
+      "CÓDIGO_DTA": "30301",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "La Unión",
+      "DISTRITO": "Tres Ríos",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "303"
+    },
+    {
+      "FID": "limitedistrital_5k.150",
+      "CÓDIGO_DTA": "30302",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "La Unión",
+      "DISTRITO": "San Diego",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "303"
+    },
+    {
+      "FID": "limitedistrital_5k.161",
+      "CÓDIGO_DTA": "30303",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "La Unión",
+      "DISTRITO": "San Juan",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "303"
+    },
+    {
+      "FID": "limitedistrital_5k.160",
+      "CÓDIGO_DTA": "30304",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "La Unión",
+      "DISTRITO": "San Rafael",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "303"
+    },
+    {
+      "FID": "limitedistrital_5k.174",
+      "CÓDIGO_DTA": "30305",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "La Unión",
+      "DISTRITO": "Concepción",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "303"
+    },
+    {
+      "FID": "limitedistrital_5k.188",
+      "CÓDIGO_DTA": "30306",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "La Unión",
+      "DISTRITO": "Dulce Nombre",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "303"
+    },
+    {
+      "FID": "limitedistrital_5k.178",
+      "CÓDIGO_DTA": "30307",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "La Unión",
+      "DISTRITO": "San Ramón",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "303"
+    },
+    {
+      "FID": "limitedistrital_5k.143",
+      "CÓDIGO_DTA": "30308",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "La Unión",
+      "DISTRITO": "Río Azul",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "303"
+    },
+    {
+      "FID": "limitedistrital_5k.444",
+      "CÓDIGO_DTA": "30401",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Jiménez",
+      "DISTRITO": "Juan Viñas",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "304"
+    },
+    {
+      "FID": "limitedistrital_5k.416",
+      "CÓDIGO_DTA": "30402",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Jiménez",
+      "DISTRITO": "Tucurrique",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "304"
+    },
+    {
+      "FID": "limitedistrital_5k.411",
+      "CÓDIGO_DTA": "30403",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Jiménez",
+      "DISTRITO": "Pejivalle",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "304"
+    },
+    {
+      "FID": "limitedistrital_5k.468",
+      "CÓDIGO_DTA": "30404",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Jiménez",
+      "DISTRITO": "La Victoria",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "304"
+    },
+    {
+      "FID": "limitedistrital_5k.442",
+      "CÓDIGO_DTA": "30501",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Turrialba",
+      "DISTRITO": "Turrialba",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "305"
+    },
+    {
+      "FID": "limitedistrital_5k.441",
+      "CÓDIGO_DTA": "30502",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Turrialba",
+      "DISTRITO": "La Suiza",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "305"
+    },
+    {
+      "FID": "limitedistrital_5k.458",
+      "CÓDIGO_DTA": "30503",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Turrialba",
+      "DISTRITO": "Peralta",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "305"
+    },
+    {
+      "FID": "limitedistrital_5k.296",
+      "CÓDIGO_DTA": "30504",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Turrialba",
+      "DISTRITO": "Santa Cruz",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "305"
+    },
+    {
+      "FID": "limitedistrital_5k.493",
+      "CÓDIGO_DTA": "30505",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Turrialba",
+      "DISTRITO": "Santa Teresita",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "305"
+    },
+    {
+      "FID": "limitedistrital_5k.457",
+      "CÓDIGO_DTA": "30506",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Turrialba",
+      "DISTRITO": "Pavones",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "305"
+    },
+    {
+      "FID": "limitedistrital_5k.452",
+      "CÓDIGO_DTA": "30507",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Turrialba",
+      "DISTRITO": "Tuis",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "305"
+    },
+    {
+      "FID": "limitedistrital_5k.450",
+      "CÓDIGO_DTA": "30508",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Turrialba",
+      "DISTRITO": "Tayutic",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "305"
+    },
+    {
+      "FID": "limitedistrital_5k.195",
+      "CÓDIGO_DTA": "30509",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Turrialba",
+      "DISTRITO": "Santa Rosa",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "305"
+    },
+    {
+      "FID": "limitedistrital_5k.375",
+      "CÓDIGO_DTA": "30510",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Turrialba",
+      "DISTRITO": "Tres Equis",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "305"
+    },
+    {
+      "FID": "limitedistrital_5k.456",
+      "CÓDIGO_DTA": "30511",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Turrialba",
+      "DISTRITO": "La Isabel",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "305"
+    },
+    {
+      "FID": "limitedistrital_5k.455",
+      "CÓDIGO_DTA": "30512",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Turrialba",
+      "DISTRITO": "Chirripó",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "305"
+    },
+    {
+      "FID": "limitedistrital_5k.215",
+      "CÓDIGO_DTA": "30601",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Alvarado",
+      "DISTRITO": "Pacayas",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "306"
+    },
+    {
+      "FID": "limitedistrital_5k.159",
+      "CÓDIGO_DTA": "30602",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Alvarado",
+      "DISTRITO": "Cervantes",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "306"
+    },
+    {
+      "FID": "limitedistrital_5k.257",
+      "CÓDIGO_DTA": "30603",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Alvarado",
+      "DISTRITO": "Capellades",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "306"
+    },
+    {
+      "FID": "limitedistrital_5k.428",
+      "CÓDIGO_DTA": "30701",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Oreamuno",
+      "DISTRITO": "San Rafael",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "307"
+    },
+    {
+      "FID": "limitedistrital_5k.437",
+      "CÓDIGO_DTA": "30702",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Oreamuno",
+      "DISTRITO": "Cot",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "307"
+    },
+    {
+      "FID": "limitedistrital_5k.209",
+      "CÓDIGO_DTA": "30703",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Oreamuno",
+      "DISTRITO": "Potrero Cerrado",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "307"
+    },
+    {
+      "FID": "limitedistrital_5k.154",
+      "CÓDIGO_DTA": "30704",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Oreamuno",
+      "DISTRITO": "Cipreses",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "307"
+    },
+    {
+      "FID": "limitedistrital_5k.318",
+      "CÓDIGO_DTA": "30705",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "Oreamuno",
+      "DISTRITO": "Santa Rosa",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "307"
+    },
+    {
+      "FID": "limitedistrital_5k.103",
+      "CÓDIGO_DTA": "30801",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "El Guarco",
+      "DISTRITO": "El Tejar",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "308"
+    },
+    {
+      "FID": "limitedistrital_5k.111",
+      "CÓDIGO_DTA": "30802",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "El Guarco",
+      "DISTRITO": "San Isidro",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "308"
+    },
+    {
+      "FID": "limitedistrital_5k.99",
+      "CÓDIGO_DTA": "30803",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "El Guarco",
+      "DISTRITO": "Tobosi",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "308"
+    },
+    {
+      "FID": "limitedistrital_5k.91",
+      "CÓDIGO_DTA": "30804",
+      "PROVINCIA": "Cartago",
+      "CANTÓN": "El Guarco",
+      "DISTRITO": "Patio de Agua",
+      "CÓDIGO_PROVINCIA": "3",
+      "CÓDIGO_CANTÓN": "308"
+    },
+    {
+      "FID": "limitedistrital_5k.245",
+      "CÓDIGO_DTA": "40101",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Heredia",
+      "DISTRITO": "Heredia",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "401"
+    },
+    {
+      "FID": "limitedistrital_5k.256",
+      "CÓDIGO_DTA": "40102",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Heredia",
+      "DISTRITO": "Mercedes",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "401"
+    },
+    {
+      "FID": "limitedistrital_5k.241",
+      "CÓDIGO_DTA": "40103",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Heredia",
+      "DISTRITO": "San Francisco",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "401"
+    },
+    {
+      "FID": "limitedistrital_5k.224",
+      "CÓDIGO_DTA": "40104",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Heredia",
+      "DISTRITO": "Ulloa",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "401"
+    },
+    {
+      "FID": "limitedistrital_5k.350",
+      "CÓDIGO_DTA": "40105",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Heredia",
+      "DISTRITO": "Vara Blanca",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "401"
+    },
+    {
+      "FID": "limitedistrital_5k.264",
+      "CÓDIGO_DTA": "40201",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Barva",
+      "DISTRITO": "Barva",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "402"
+    },
+    {
+      "FID": "limitedistrital_5k.469",
+      "CÓDIGO_DTA": "40202",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Barva",
+      "DISTRITO": "San Pedro",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "402"
+    },
+    {
+      "FID": "limitedistrital_5k.293",
+      "CÓDIGO_DTA": "40203",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Barva",
+      "DISTRITO": "San Pablo",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "402"
+    },
+    {
+      "FID": "limitedistrital_5k.261",
+      "CÓDIGO_DTA": "40204",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Barva",
+      "DISTRITO": "San Roque",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "402"
+    },
+    {
+      "FID": "limitedistrital_5k.273",
+      "CÓDIGO_DTA": "40205",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Barva",
+      "DISTRITO": "Santa Lucía",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "402"
+    },
+    {
+      "FID": "limitedistrital_5k.315",
+      "CÓDIGO_DTA": "40206",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Barva",
+      "DISTRITO": "San José de la Montaña",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "402"
+    },
+    {
+      "FID": "limitedistrital_5k.288",
+      "CÓDIGO_DTA": "40207",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Barva",
+      "DISTRITO": "Puente Salas",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "402"
+    },
+    {
+      "FID": "limitedistrital_5k.217",
+      "CÓDIGO_DTA": "40301",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Santo Domingo",
+      "DISTRITO": "Santo Domingo",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "403"
+    },
+    {
+      "FID": "limitedistrital_5k.237",
+      "CÓDIGO_DTA": "40302",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Santo Domingo",
+      "DISTRITO": "San Vicente",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "403"
+    },
+    {
+      "FID": "limitedistrital_5k.238",
+      "CÓDIGO_DTA": "40303",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Santo Domingo",
+      "DISTRITO": "San Miguel",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "403"
+    },
+    {
+      "FID": "limitedistrital_5k.252",
+      "CÓDIGO_DTA": "40304",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Santo Domingo",
+      "DISTRITO": "Paracito",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "403"
+    },
+    {
+      "FID": "limitedistrital_5k.223",
+      "CÓDIGO_DTA": "40305",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Santo Domingo",
+      "DISTRITO": "Santo Tomás",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "403"
+    },
+    {
+      "FID": "limitedistrital_5k.219",
+      "CÓDIGO_DTA": "40306",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Santo Domingo",
+      "DISTRITO": "Santa Rosa",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "403"
+    },
+    {
+      "FID": "limitedistrital_5k.244",
+      "CÓDIGO_DTA": "40307",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Santo Domingo",
+      "DISTRITO": "Tures",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "403"
+    },
+    {
+      "FID": "limitedistrital_5k.255",
+      "CÓDIGO_DTA": "40308",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Santo Domingo",
+      "DISTRITO": "Pará",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "403"
+    },
+    {
+      "FID": "limitedistrital_5k.276",
+      "CÓDIGO_DTA": "40401",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Santa Bárbara",
+      "DISTRITO": "Santa Bárbara",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "404"
+    },
+    {
+      "FID": "limitedistrital_5k.275",
+      "CÓDIGO_DTA": "40402",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Santa Bárbara",
+      "DISTRITO": "San Pedro",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "404"
+    },
+    {
+      "FID": "limitedistrital_5k.268",
+      "CÓDIGO_DTA": "40403",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Santa Bárbara",
+      "DISTRITO": "San Juan",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "404"
+    },
+    {
+      "FID": "limitedistrital_5k.294",
+      "CÓDIGO_DTA": "40404",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Santa Bárbara",
+      "DISTRITO": "Jesús",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "404"
+    },
+    {
+      "FID": "limitedistrital_5k.322",
+      "CÓDIGO_DTA": "40405",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Santa Bárbara",
+      "DISTRITO": "Santo Domingo",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "404"
+    },
+    {
+      "FID": "limitedistrital_5k.302",
+      "CÓDIGO_DTA": "40406",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Santa Bárbara",
+      "DISTRITO": "Purabá",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "404"
+    },
+    {
+      "FID": "limitedistrital_5k.262",
+      "CÓDIGO_DTA": "40501",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "San Rafael",
+      "DISTRITO": "San Rafael",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "405"
+    },
+    {
+      "FID": "limitedistrital_5k.259",
+      "CÓDIGO_DTA": "40502",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "San Rafael",
+      "DISTRITO": "San Josecito",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "405"
+    },
+    {
+      "FID": "limitedistrital_5k.249",
+      "CÓDIGO_DTA": "40503",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "San Rafael",
+      "DISTRITO": "Santiago",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "405"
+    },
+    {
+      "FID": "limitedistrital_5k.309",
+      "CÓDIGO_DTA": "40504",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "San Rafael",
+      "DISTRITO": "Ángeles",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "405"
+    },
+    {
+      "FID": "limitedistrital_5k.295",
+      "CÓDIGO_DTA": "40505",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "San Rafael",
+      "DISTRITO": "Concepción",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "405"
+    },
+    {
+      "FID": "limitedistrital_5k.265",
+      "CÓDIGO_DTA": "40601",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "San Isidro",
+      "DISTRITO": "San Isidro",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "406"
+    },
+    {
+      "FID": "limitedistrital_5k.282",
+      "CÓDIGO_DTA": "40602",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "San Isidro",
+      "DISTRITO": "San José",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "406"
+    },
+    {
+      "FID": "limitedistrital_5k.286",
+      "CÓDIGO_DTA": "40603",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "San Isidro",
+      "DISTRITO": "Concepción",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "406"
+    },
+    {
+      "FID": "limitedistrital_5k.263",
+      "CÓDIGO_DTA": "40604",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "San Isidro",
+      "DISTRITO": "San Francisco",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "406"
+    },
+    {
+      "FID": "limitedistrital_5k.222",
+      "CÓDIGO_DTA": "40701",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Belén",
+      "DISTRITO": "San Antonio",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "407"
+    },
+    {
+      "FID": "limitedistrital_5k.243",
+      "CÓDIGO_DTA": "40702",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Belén",
+      "DISTRITO": "La Ribera",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "407"
+    },
+    {
+      "FID": "limitedistrital_5k.228",
+      "CÓDIGO_DTA": "40703",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Belén",
+      "DISTRITO": "La Asunción",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "407"
+    },
+    {
+      "FID": "limitedistrital_5k.247",
+      "CÓDIGO_DTA": "40801",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Flores",
+      "DISTRITO": "San Joaquín",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "408"
+    },
+    {
+      "FID": "limitedistrital_5k.260",
+      "CÓDIGO_DTA": "40802",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Flores",
+      "DISTRITO": "Barrantes",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "408"
+    },
+    {
+      "FID": "limitedistrital_5k.242",
+      "CÓDIGO_DTA": "40803",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Flores",
+      "DISTRITO": "Llorente",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "408"
+    },
+    {
+      "FID": "limitedistrital_5k.248",
+      "CÓDIGO_DTA": "40901",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "San Pablo",
+      "DISTRITO": "San Pablo",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "409"
+    },
+    {
+      "FID": "limitedistrital_5k.230",
+      "CÓDIGO_DTA": "40902",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "San Pablo",
+      "DISTRITO": "Rincón de Sabanilla",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "409"
+    },
+    {
+      "FID": "limitedistrital_5k.478",
+      "CÓDIGO_DTA": "41001",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Sarapiquí",
+      "DISTRITO": "Puerto Viejo",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "410"
+    },
+    {
+      "FID": "limitedistrital_5k.365",
+      "CÓDIGO_DTA": "41002",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Sarapiquí",
+      "DISTRITO": "La Virgen",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "410"
+    },
+    {
+      "FID": "limitedistrital_5k.361",
+      "CÓDIGO_DTA": "41003",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Sarapiquí",
+      "DISTRITO": "Las Horquetas",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "410"
+    },
+    {
+      "FID": "limitedistrital_5k.477",
+      "CÓDIGO_DTA": "41004",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Sarapiquí",
+      "DISTRITO": "Llanuras del Gaspar",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "410"
+    },
+    {
+      "FID": "limitedistrital_5k.479",
+      "CÓDIGO_DTA": "41005",
+      "PROVINCIA": "Heredia",
+      "CANTÓN": "Sarapiquí",
+      "DISTRITO": "Cureña",
+      "CÓDIGO_PROVINCIA": "4",
+      "CÓDIGO_CANTÓN": "410"
+    },
+    {
+      "FID": "limitedistrital_5k.48",
+      "CÓDIGO_DTA": "50101",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Liberia",
+      "DISTRITO": "Liberia",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "501"
+    },
+    {
+      "FID": "limitedistrital_5k.52",
+      "CÓDIGO_DTA": "50102",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Liberia",
+      "DISTRITO": "Cañas Dulces",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "501"
+    },
+    {
+      "FID": "limitedistrital_5k.56",
+      "CÓDIGO_DTA": "50103",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Liberia",
+      "DISTRITO": "Mayorga",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "501"
+    },
+    {
+      "FID": "limitedistrital_5k.53",
+      "CÓDIGO_DTA": "50104",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Liberia",
+      "DISTRITO": "Nacascolo",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "501"
+    },
+    {
+      "FID": "limitedistrital_5k.51",
+      "CÓDIGO_DTA": "50105",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Liberia",
+      "DISTRITO": "Curubandé",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "501"
+    },
+    {
+      "FID": "limitedistrital_5k.30",
+      "CÓDIGO_DTA": "50201",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Nicoya",
+      "DISTRITO": "Nicoya",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "502"
+    },
+    {
+      "FID": "limitedistrital_5k.22",
+      "CÓDIGO_DTA": "50202",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Nicoya",
+      "DISTRITO": "Mansión",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "502"
+    },
+    {
+      "FID": "limitedistrital_5k.28",
+      "CÓDIGO_DTA": "50203",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Nicoya",
+      "DISTRITO": "San Antonio",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "502"
+    },
+    {
+      "FID": "limitedistrital_5k.23",
+      "CÓDIGO_DTA": "50204",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Nicoya",
+      "DISTRITO": "Quebrada Honda",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "502"
+    },
+    {
+      "FID": "limitedistrital_5k.6",
+      "CÓDIGO_DTA": "50205",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Nicoya",
+      "DISTRITO": "Sámara",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "502"
+    },
+    {
+      "FID": "limitedistrital_5k.13",
+      "CÓDIGO_DTA": "50206",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Nicoya",
+      "DISTRITO": "Nosara",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "502"
+    },
+    {
+      "FID": "limitedistrital_5k.14",
+      "CÓDIGO_DTA": "50207",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Nicoya",
+      "DISTRITO": "Belén de Nosarita",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "502"
+    },
+    {
+      "FID": "limitedistrital_5k.60",
+      "CÓDIGO_DTA": "50301",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Santa Cruz",
+      "DISTRITO": "Santa Cruz",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "503"
+    },
+    {
+      "FID": "limitedistrital_5k.32",
+      "CÓDIGO_DTA": "50302",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Santa Cruz",
+      "DISTRITO": "Bolsón",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "503"
+    },
+    {
+      "FID": "limitedistrital_5k.25",
+      "CÓDIGO_DTA": "50303",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Santa Cruz",
+      "DISTRITO": "Veintisiete de Abril",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "503"
+    },
+    {
+      "FID": "limitedistrital_5k.475",
+      "CÓDIGO_DTA": "50304",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Santa Cruz",
+      "DISTRITO": "Tempate",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "503"
+    },
+    {
+      "FID": "limitedistrital_5k.474",
+      "CÓDIGO_DTA": "50305",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Santa Cruz",
+      "DISTRITO": "Cartagena",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "503"
+    },
+    {
+      "FID": "limitedistrital_5k.20",
+      "CÓDIGO_DTA": "50306",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Santa Cruz",
+      "DISTRITO": "Cuajiniquil",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "503"
+    },
+    {
+      "FID": "limitedistrital_5k.27",
+      "CÓDIGO_DTA": "50307",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Santa Cruz",
+      "DISTRITO": "Diriá",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "503"
+    },
+    {
+      "FID": "limitedistrital_5k.35",
+      "CÓDIGO_DTA": "50308",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Santa Cruz",
+      "DISTRITO": "Cabo Velas",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "503"
+    },
+    {
+      "FID": "limitedistrital_5k.31",
+      "CÓDIGO_DTA": "50309",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Santa Cruz",
+      "DISTRITO": "Tamarindo",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "503"
+    },
+    {
+      "FID": "limitedistrital_5k.491",
+      "CÓDIGO_DTA": "50401",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Bagaces",
+      "DISTRITO": "Bagaces",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "504"
+    },
+    {
+      "FID": "limitedistrital_5k.46",
+      "CÓDIGO_DTA": "50402",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Bagaces",
+      "DISTRITO": "La Fortuna",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "504"
+    },
+    {
+      "FID": "limitedistrital_5k.47",
+      "CÓDIGO_DTA": "50403",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Bagaces",
+      "DISTRITO": "Mogote",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "504"
+    },
+    {
+      "FID": "limitedistrital_5k.45",
+      "CÓDIGO_DTA": "50404",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Bagaces",
+      "DISTRITO": "Río Naranjo",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "504"
+    },
+    {
+      "FID": "limitedistrital_5k.494",
+      "CÓDIGO_DTA": "50405",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Bagaces",
+      "DISTRITO": "Pijije",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "504"
+    },
+    {
+      "FID": "limitedistrital_5k.37",
+      "CÓDIGO_DTA": "50501",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Carrillo",
+      "DISTRITO": "Filadelfia",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "505"
+    },
+    {
+      "FID": "limitedistrital_5k.41",
+      "CÓDIGO_DTA": "50502",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Carrillo",
+      "DISTRITO": "Palmira",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "505"
+    },
+    {
+      "FID": "limitedistrital_5k.42",
+      "CÓDIGO_DTA": "50503",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Carrillo",
+      "DISTRITO": "Sardinal",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "505"
+    },
+    {
+      "FID": "limitedistrital_5k.38",
+      "CÓDIGO_DTA": "50504",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Carrillo",
+      "DISTRITO": "Belén",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "505"
+    },
+    {
+      "FID": "limitedistrital_5k.39",
+      "CÓDIGO_DTA": "50601",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Cañas",
+      "DISTRITO": "Cañas",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "506"
+    },
+    {
+      "FID": "limitedistrital_5k.44",
+      "CÓDIGO_DTA": "50602",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Cañas",
+      "DISTRITO": "Palmira",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "506"
+    },
+    {
+      "FID": "limitedistrital_5k.33",
+      "CÓDIGO_DTA": "50603",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Cañas",
+      "DISTRITO": "San Miguel",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "506"
+    },
+    {
+      "FID": "limitedistrital_5k.34",
+      "CÓDIGO_DTA": "50604",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Cañas",
+      "DISTRITO": "Bebedero",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "506"
+    },
+    {
+      "FID": "limitedistrital_5k.26",
+      "CÓDIGO_DTA": "50605",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Cañas",
+      "DISTRITO": "Porozal",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "506"
+    },
+    {
+      "FID": "limitedistrital_5k.29",
+      "CÓDIGO_DTA": "50701",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Abangares",
+      "DISTRITO": "Las Juntas",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "507"
+    },
+    {
+      "FID": "limitedistrital_5k.393",
+      "CÓDIGO_DTA": "50702",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Abangares",
+      "DISTRITO": "Sierra",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "507"
+    },
+    {
+      "FID": "limitedistrital_5k.2",
+      "CÓDIGO_DTA": "50703",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Abangares",
+      "DISTRITO": "San Juan",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "507"
+    },
+    {
+      "FID": "limitedistrital_5k.24",
+      "CÓDIGO_DTA": "50704",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Abangares",
+      "DISTRITO": "Colorado",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "507"
+    },
+    {
+      "FID": "limitedistrital_5k.396",
+      "CÓDIGO_DTA": "50801",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Tilarán",
+      "DISTRITO": "Tilarán",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "508"
+    },
+    {
+      "FID": "limitedistrital_5k.62",
+      "CÓDIGO_DTA": "50802",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Tilarán",
+      "DISTRITO": "Quebrada Grande",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "508"
+    },
+    {
+      "FID": "limitedistrital_5k.395",
+      "CÓDIGO_DTA": "50803",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Tilarán",
+      "DISTRITO": "Tronadora",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "508"
+    },
+    {
+      "FID": "limitedistrital_5k.40",
+      "CÓDIGO_DTA": "50804",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Tilarán",
+      "DISTRITO": "Santa Rosa",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "508"
+    },
+    {
+      "FID": "limitedistrital_5k.36",
+      "CÓDIGO_DTA": "50805",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Tilarán",
+      "DISTRITO": "Líbano",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "508"
+    },
+    {
+      "FID": "limitedistrital_5k.43",
+      "CÓDIGO_DTA": "50806",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Tilarán",
+      "DISTRITO": "Tierras Morenas",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "508"
+    },
+    {
+      "FID": "limitedistrital_5k.397",
+      "CÓDIGO_DTA": "50807",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Tilarán",
+      "DISTRITO": "Arenal",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "508"
+    },
+    {
+      "FID": "limitedistrital_5k.394",
+      "CÓDIGO_DTA": "50808",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Tilarán",
+      "DISTRITO": "Cabeceras",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "508"
+    },
+    {
+      "FID": "limitedistrital_5k.12",
+      "CÓDIGO_DTA": "50901",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Nandayure",
+      "DISTRITO": "Carmona",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "509"
+    },
+    {
+      "FID": "limitedistrital_5k.17",
+      "CÓDIGO_DTA": "50902",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Nandayure",
+      "DISTRITO": "Santa Rita",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "509"
+    },
+    {
+      "FID": "limitedistrital_5k.10",
+      "CÓDIGO_DTA": "50903",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Nandayure",
+      "DISTRITO": "Zapotal",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "509"
+    },
+    {
+      "FID": "limitedistrital_5k.16",
+      "CÓDIGO_DTA": "50904",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Nandayure",
+      "DISTRITO": "San Pablo",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "509"
+    },
+    {
+      "FID": "limitedistrital_5k.7",
+      "CÓDIGO_DTA": "50905",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Nandayure",
+      "DISTRITO": "Porvenir",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "509"
+    },
+    {
+      "FID": "limitedistrital_5k.5",
+      "CÓDIGO_DTA": "50906",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Nandayure",
+      "DISTRITO": "Bejuco",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "509"
+    },
+    {
+      "FID": "limitedistrital_5k.489",
+      "CÓDIGO_DTA": "51001",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "La Cruz",
+      "DISTRITO": "La Cruz",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "510"
+    },
+    {
+      "FID": "limitedistrital_5k.487",
+      "CÓDIGO_DTA": "51002",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "La Cruz",
+      "DISTRITO": "Santa Cecilia",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "510"
+    },
+    {
+      "FID": "limitedistrital_5k.488",
+      "CÓDIGO_DTA": "51003",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "La Cruz",
+      "DISTRITO": "La Garita",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "510"
+    },
+    {
+      "FID": "limitedistrital_5k.58",
+      "CÓDIGO_DTA": "51004",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "La Cruz",
+      "DISTRITO": "Santa Elena",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "510"
+    },
+    {
+      "FID": "limitedistrital_5k.18",
+      "CÓDIGO_DTA": "51101",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Hojancha",
+      "DISTRITO": "Hojancha",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "511"
+    },
+    {
+      "FID": "limitedistrital_5k.11",
+      "CÓDIGO_DTA": "51102",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Hojancha",
+      "DISTRITO": "Monte Romo",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "511"
+    },
+    {
+      "FID": "limitedistrital_5k.8",
+      "CÓDIGO_DTA": "51103",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Hojancha",
+      "DISTRITO": "Puerto Carrillo",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "511"
+    },
+    {
+      "FID": "limitedistrital_5k.15",
+      "CÓDIGO_DTA": "51104",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Hojancha",
+      "DISTRITO": "Huacas",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "511"
+    },
+    {
+      "FID": "limitedistrital_5k.61",
+      "CÓDIGO_DTA": "51105",
+      "PROVINCIA": "Guanacaste",
+      "CANTÓN": "Hojancha",
+      "DISTRITO": "Matambú",
+      "CÓDIGO_PROVINCIA": "5",
+      "CÓDIGO_CANTÓN": "511"
+    },
+    {
+      "FID": "limitedistrital_5k.388",
+      "CÓDIGO_DTA": "60101",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Puntarenas",
+      "DISTRITO": "Puntarenas",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "601"
+    },
+    {
+      "FID": "limitedistrital_5k.389",
+      "CÓDIGO_DTA": "60102",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Puntarenas",
+      "DISTRITO": "Pitahaya",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "601"
+    },
+    {
+      "FID": "limitedistrital_5k.1",
+      "CÓDIGO_DTA": "60103",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Puntarenas",
+      "DISTRITO": "Chomes",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "601"
+    },
+    {
+      "FID": "limitedistrital_5k.9",
+      "CÓDIGO_DTA": "60104",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Puntarenas",
+      "DISTRITO": "Lepanto",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "601"
+    },
+    {
+      "FID": "limitedistrital_5k.3",
+      "CÓDIGO_DTA": "60105",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Puntarenas",
+      "DISTRITO": "Paquera",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "601"
+    },
+    {
+      "FID": "limitedistrital_5k.21",
+      "CÓDIGO_DTA": "60106",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Puntarenas",
+      "DISTRITO": "Manzanillo",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "601"
+    },
+    {
+      "FID": "limitedistrital_5k.391",
+      "CÓDIGO_DTA": "60107",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Puntarenas",
+      "DISTRITO": "Guacimal",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "601"
+    },
+    {
+      "FID": "limitedistrital_5k.274",
+      "CÓDIGO_DTA": "60108",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Puntarenas",
+      "DISTRITO": "Barranca",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "601"
+    },
+    {
+      "FID": "limitedistrital_5k.471",
+      "CÓDIGO_DTA": "60110",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Puntarenas",
+      "DISTRITO": "Isla del Coco",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "601"
+    },
+    {
+      "FID": "limitedistrital_5k.4",
+      "CÓDIGO_DTA": "60111",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Puntarenas",
+      "DISTRITO": "Cóbano",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "601"
+    },
+    {
+      "FID": "limitedistrital_5k.234",
+      "CÓDIGO_DTA": "60112",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Puntarenas",
+      "DISTRITO": "Chacarita",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "601"
+    },
+    {
+      "FID": "limitedistrital_5k.19",
+      "CÓDIGO_DTA": "60113",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Puntarenas",
+      "DISTRITO": "Chira",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "601"
+    },
+    {
+      "FID": "limitedistrital_5k.390",
+      "CÓDIGO_DTA": "60114",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Puntarenas",
+      "DISTRITO": "Acapulco",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "601"
+    },
+    {
+      "FID": "limitedistrital_5k.233",
+      "CÓDIGO_DTA": "60115",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Puntarenas",
+      "DISTRITO": "El Roble",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "601"
+    },
+    {
+      "FID": "limitedistrital_5k.347",
+      "CÓDIGO_DTA": "60116",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Puntarenas",
+      "DISTRITO": "Arancibia",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "601"
+    },
+    {
+      "FID": "limitedistrital_5k.258",
+      "CÓDIGO_DTA": "60201",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Esparza",
+      "DISTRITO": "Espíritu Santo",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "602"
+    },
+    {
+      "FID": "limitedistrital_5k.232",
+      "CÓDIGO_DTA": "60202",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Esparza",
+      "DISTRITO": "San Juan Grande",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "602"
+    },
+    {
+      "FID": "limitedistrital_5k.277",
+      "CÓDIGO_DTA": "60203",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Esparza",
+      "DISTRITO": "Macacona",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "602"
+    },
+    {
+      "FID": "limitedistrital_5k.266",
+      "CÓDIGO_DTA": "60204",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Esparza",
+      "DISTRITO": "San Rafael",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "602"
+    },
+    {
+      "FID": "limitedistrital_5k.311",
+      "CÓDIGO_DTA": "60205",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Esparza",
+      "DISTRITO": "San Jerónimo",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "602"
+    },
+    {
+      "FID": "limitedistrital_5k.445",
+      "CÓDIGO_DTA": "60206",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Esparza",
+      "DISTRITO": "Caldera",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "602"
+    },
+    {
+      "FID": "limitedistrital_5k.140",
+      "CÓDIGO_DTA": "60301",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Buenos Aires",
+      "DISTRITO": "Buenos Aires",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "603"
+    },
+    {
+      "FID": "limitedistrital_5k.132",
+      "CÓDIGO_DTA": "60302",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Buenos Aires",
+      "DISTRITO": "Volcán",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "603"
+    },
+    {
+      "FID": "limitedistrital_5k.133",
+      "CÓDIGO_DTA": "60303",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Buenos Aires",
+      "DISTRITO": "Potrero Grande",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "603"
+    },
+    {
+      "FID": "limitedistrital_5k.125",
+      "CÓDIGO_DTA": "60304",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Buenos Aires",
+      "DISTRITO": "Boruca",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "603"
+    },
+    {
+      "FID": "limitedistrital_5k.128",
+      "CÓDIGO_DTA": "60305",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Buenos Aires",
+      "DISTRITO": "Pilas",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "603"
+    },
+    {
+      "FID": "limitedistrital_5k.124",
+      "CÓDIGO_DTA": "60306",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Buenos Aires",
+      "DISTRITO": "Colinas",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "603"
+    },
+    {
+      "FID": "limitedistrital_5k.122",
+      "CÓDIGO_DTA": "60307",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Buenos Aires",
+      "DISTRITO": "Chánguena",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "603"
+    },
+    {
+      "FID": "limitedistrital_5k.129",
+      "CÓDIGO_DTA": "60308",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Buenos Aires",
+      "DISTRITO": "Biolley",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "603"
+    },
+    {
+      "FID": "limitedistrital_5k.131",
+      "CÓDIGO_DTA": "60309",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Buenos Aires",
+      "DISTRITO": "Brunka",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "603"
+    },
+    {
+      "FID": "limitedistrital_5k.492",
+      "CÓDIGO_DTA": "60310",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Buenos Aires",
+      "DISTRITO": "Cabagra",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "603"
+    },
+    {
+      "FID": "limitedistrital_5k.326",
+      "CÓDIGO_DTA": "60401",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Montes de Oro",
+      "DISTRITO": "Miramar",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "604"
+    },
+    {
+      "FID": "limitedistrital_5k.349",
+      "CÓDIGO_DTA": "60402",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Montes de Oro",
+      "DISTRITO": "La Unión",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "604"
+    },
+    {
+      "FID": "limitedistrital_5k.300",
+      "CÓDIGO_DTA": "60403",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Montes de Oro",
+      "DISTRITO": "San Isidro",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "604"
+    },
+    {
+      "FID": "limitedistrital_5k.404",
+      "CÓDIGO_DTA": "60501",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Osa",
+      "DISTRITO": "Puerto Cortés",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "605"
+    },
+    {
+      "FID": "limitedistrital_5k.123",
+      "CÓDIGO_DTA": "60502",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Osa",
+      "DISTRITO": "Palmar",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "605"
+    },
+    {
+      "FID": "limitedistrital_5k.403",
+      "CÓDIGO_DTA": "60503",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Osa",
+      "DISTRITO": "Sierpe",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "605"
+    },
+    {
+      "FID": "limitedistrital_5k.446",
+      "CÓDIGO_DTA": "60504",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Osa",
+      "DISTRITO": "Bahía Ballena",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "605"
+    },
+    {
+      "FID": "limitedistrital_5k.118",
+      "CÓDIGO_DTA": "60505",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Osa",
+      "DISTRITO": "Piedras Blancas",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "605"
+    },
+    {
+      "FID": "limitedistrital_5k.402",
+      "CÓDIGO_DTA": "60506",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Osa",
+      "DISTRITO": "Bahía Drake",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "605"
+    },
+    {
+      "FID": "limitedistrital_5k.110",
+      "CÓDIGO_DTA": "60601",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Quepos",
+      "DISTRITO": "Quepos",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "606"
+    },
+    {
+      "FID": "limitedistrital_5k.64",
+      "CÓDIGO_DTA": "60602",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Quepos",
+      "DISTRITO": "Savegre",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "606"
+    },
+    {
+      "FID": "limitedistrital_5k.67",
+      "CÓDIGO_DTA": "60603",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Quepos",
+      "DISTRITO": "Naranjito",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "606"
+    },
+    {
+      "FID": "limitedistrital_5k.115",
+      "CÓDIGO_DTA": "60701",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Golfito",
+      "DISTRITO": "Golfito",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "607"
+    },
+    {
+      "FID": "limitedistrital_5k.117",
+      "CÓDIGO_DTA": "60703",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Golfito",
+      "DISTRITO": "Guaycara",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "607"
+    },
+    {
+      "FID": "limitedistrital_5k.387",
+      "CÓDIGO_DTA": "60704",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Golfito",
+      "DISTRITO": "Pavón",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "607"
+    },
+    {
+      "FID": "limitedistrital_5k.119",
+      "CÓDIGO_DTA": "60801",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Coto Brus",
+      "DISTRITO": "San Vito",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "608"
+    },
+    {
+      "FID": "limitedistrital_5k.121",
+      "CÓDIGO_DTA": "60802",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Coto Brus",
+      "DISTRITO": "Sabalito",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "608"
+    },
+    {
+      "FID": "limitedistrital_5k.116",
+      "CÓDIGO_DTA": "60803",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Coto Brus",
+      "DISTRITO": "Aguabuena",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "608"
+    },
+    {
+      "FID": "limitedistrital_5k.120",
+      "CÓDIGO_DTA": "60804",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Coto Brus",
+      "DISTRITO": "Limoncito",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "608"
+    },
+    {
+      "FID": "limitedistrital_5k.127",
+      "CÓDIGO_DTA": "60805",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Coto Brus",
+      "DISTRITO": "Pittier",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "608"
+    },
+    {
+      "FID": "limitedistrital_5k.126",
+      "CÓDIGO_DTA": "60806",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Coto Brus",
+      "DISTRITO": "Gutiérrez Braun",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "608"
+    },
+    {
+      "FID": "limitedistrital_5k.69",
+      "CÓDIGO_DTA": "60901",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Parrita",
+      "DISTRITO": "Parrita",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "609"
+    },
+    {
+      "FID": "limitedistrital_5k.114",
+      "CÓDIGO_DTA": "61001",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Corredores",
+      "DISTRITO": "Corredor",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "610"
+    },
+    {
+      "FID": "limitedistrital_5k.112",
+      "CÓDIGO_DTA": "61002",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Corredores",
+      "DISTRITO": "La Cuesta",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "610"
+    },
+    {
+      "FID": "limitedistrital_5k.113",
+      "CÓDIGO_DTA": "61003",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Corredores",
+      "DISTRITO": "Canoas",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "610"
+    },
+    {
+      "FID": "limitedistrital_5k.386",
+      "CÓDIGO_DTA": "61004",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Corredores",
+      "DISTRITO": "Laurel",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "610"
+    },
+    {
+      "FID": "limitedistrital_5k.74",
+      "CÓDIGO_DTA": "61101",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Garabito",
+      "DISTRITO": "Jacó",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "611"
+    },
+    {
+      "FID": "limitedistrital_5k.109",
+      "CÓDIGO_DTA": "61102",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Garabito",
+      "DISTRITO": "Tárcoles",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "611"
+    },
+    {
+      "FID": "limitedistrital_5k.449",
+      "CÓDIGO_DTA": "61103",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Garabito",
+      "DISTRITO": "Lagunillas",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "611"
+    },
+    {
+      "FID": "limitedistrital_5k.392",
+      "CÓDIGO_DTA": "61201",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Monteverde",
+      "DISTRITO": "Monteverde",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "612"
+    },
+    {
+      "FID": "limitedistrital_5k.470",
+      "CÓDIGO_DTA": "61301",
+      "PROVINCIA": "Puntarenas",
+      "CANTÓN": "Puerto Jiménez",
+      "DISTRITO": "Puerto Jiménez",
+      "CÓDIGO_PROVINCIA": "6",
+      "CÓDIGO_CANTÓN": "613"
+    },
+    {
+      "FID": "limitedistrital_5k.377",
+      "CÓDIGO_DTA": "70101",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Limón",
+      "DISTRITO": "Limón",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "701"
+    },
+    {
+      "FID": "limitedistrital_5k.451",
+      "CÓDIGO_DTA": "70102",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Limón",
+      "DISTRITO": "Valle La Estrella",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "701"
+    },
+    {
+      "FID": "limitedistrital_5k.376",
+      "CÓDIGO_DTA": "70103",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Limón",
+      "DISTRITO": "Río Blanco",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "701"
+    },
+    {
+      "FID": "limitedistrital_5k.453",
+      "CÓDIGO_DTA": "70104",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Limón",
+      "DISTRITO": "Matama",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "701"
+    },
+    {
+      "FID": "limitedistrital_5k.354",
+      "CÓDIGO_DTA": "70201",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Pococí",
+      "DISTRITO": "Guápiles",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "702"
+    },
+    {
+      "FID": "limitedistrital_5k.351",
+      "CÓDIGO_DTA": "70202",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Pococí",
+      "DISTRITO": "Jiménez",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "702"
+    },
+    {
+      "FID": "limitedistrital_5k.467",
+      "CÓDIGO_DTA": "70203",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Pococí",
+      "DISTRITO": "Rita",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "702"
+    },
+    {
+      "FID": "limitedistrital_5k.465",
+      "CÓDIGO_DTA": "70204",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Pococí",
+      "DISTRITO": "Roxana",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "702"
+    },
+    {
+      "FID": "limitedistrital_5k.466",
+      "CÓDIGO_DTA": "70205",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Pococí",
+      "DISTRITO": "Cariari",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "702"
+    },
+    {
+      "FID": "limitedistrital_5k.476",
+      "CÓDIGO_DTA": "70206",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Pococí",
+      "DISTRITO": "Colorado",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "702"
+    },
+    {
+      "FID": "limitedistrital_5k.352",
+      "CÓDIGO_DTA": "70207",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Pococí",
+      "DISTRITO": "La Colonia",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "702"
+    },
+    {
+      "FID": "limitedistrital_5k.385",
+      "CÓDIGO_DTA": "70301",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Siquirres",
+      "DISTRITO": "Siquirres",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "703"
+    },
+    {
+      "FID": "limitedistrital_5k.381",
+      "CÓDIGO_DTA": "70302",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Siquirres",
+      "DISTRITO": "Pacuarito",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "703"
+    },
+    {
+      "FID": "limitedistrital_5k.459",
+      "CÓDIGO_DTA": "70303",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Siquirres",
+      "DISTRITO": "Florida",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "703"
+    },
+    {
+      "FID": "limitedistrital_5k.380",
+      "CÓDIGO_DTA": "70304",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Siquirres",
+      "DISTRITO": "Germania",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "703"
+    },
+    {
+      "FID": "limitedistrital_5k.382",
+      "CÓDIGO_DTA": "70305",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Siquirres",
+      "DISTRITO": "El Cairo",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "703"
+    },
+    {
+      "FID": "limitedistrital_5k.379",
+      "CÓDIGO_DTA": "70306",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Siquirres",
+      "DISTRITO": "Alegría",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "703"
+    },
+    {
+      "FID": "limitedistrital_5k.383",
+      "CÓDIGO_DTA": "70307",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Siquirres",
+      "DISTRITO": "Reventazón",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "703"
+    },
+    {
+      "FID": "limitedistrital_5k.137",
+      "CÓDIGO_DTA": "70401",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Talamanca",
+      "DISTRITO": "Bratsi",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "704"
+    },
+    {
+      "FID": "limitedistrital_5k.136",
+      "CÓDIGO_DTA": "70402",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Talamanca",
+      "DISTRITO": "Sixaola",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "704"
+    },
+    {
+      "FID": "limitedistrital_5k.139",
+      "CÓDIGO_DTA": "70403",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Talamanca",
+      "DISTRITO": "Cahuita",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "704"
+    },
+    {
+      "FID": "limitedistrital_5k.138",
+      "CÓDIGO_DTA": "70404",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Talamanca",
+      "DISTRITO": "Telire",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "704"
+    },
+    {
+      "FID": "limitedistrital_5k.454",
+      "CÓDIGO_DTA": "70501",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Matina",
+      "DISTRITO": "Matina",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "705"
+    },
+    {
+      "FID": "limitedistrital_5k.384",
+      "CÓDIGO_DTA": "70502",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Matina",
+      "DISTRITO": "Batán",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "705"
+    },
+    {
+      "FID": "limitedistrital_5k.378",
+      "CÓDIGO_DTA": "70503",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Matina",
+      "DISTRITO": "Carrandi",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "705"
+    },
+    {
+      "FID": "limitedistrital_5k.462",
+      "CÓDIGO_DTA": "70601",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Guácimo",
+      "DISTRITO": "Guácimo",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "706"
+    },
+    {
+      "FID": "limitedistrital_5k.460",
+      "CÓDIGO_DTA": "70602",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Guácimo",
+      "DISTRITO": "Mercedes",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "706"
+    },
+    {
+      "FID": "limitedistrital_5k.461",
+      "CÓDIGO_DTA": "70603",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Guácimo",
+      "DISTRITO": "Pocora",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "706"
+    },
+    {
+      "FID": "limitedistrital_5k.463",
+      "CÓDIGO_DTA": "70604",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Guácimo",
+      "DISTRITO": "Río Jiménez",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "706"
+    },
+    {
+      "FID": "limitedistrital_5k.464",
+      "CÓDIGO_DTA": "70605",
+      "PROVINCIA": "Limón",
+      "CANTÓN": "Guácimo",
+      "DISTRITO": "Duacarí",
+      "CÓDIGO_PROVINCIA": "7",
+      "CÓDIGO_CANTÓN": "706"
+    }
+  ],
+  "geometry_retained": false,
+  "licence_status": "publisher_terms_require_review",
+  "national_current_completeness_verified": false,
+  "parent_reference_checks": {
+    "province_codes": 7,
+    "canton_codes": 84,
+    "district_codes": 494,
+    "conflicting_parent_names_or_codes": 0,
+    "all_source_rows_loaded": true,
+    "wfs_reported_count": 494,
+    "geometry_not_in_public_reference": true
+  }
+}

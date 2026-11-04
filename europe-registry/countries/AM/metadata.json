@@ -1,0 +1,100 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "ARM",
+    "country": "AM",
+    "geonames_continent": "AS",
+    "geonames_country_name": "Armenia",
+    "geonames_id": "174982",
+    "id": "country:AM",
+    "m49": "051",
+    "m49_region": "Asia",
+    "name_en": "Armenia",
+    "region": "Western Asia",
+    "scope_group": "supplement",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 1337,
+    "admin_rows": 94,
+    "ambiguous_parents": 0,
+    "country": "AM",
+    "country_scope_only": 17,
+    "localities_without_adm1": 887,
+    "locality_rows": 2271,
+    "name_en": "Armenia",
+    "other_admin_rows": 62,
+    "region": "Western Asia",
+    "unresolved_parents": 1
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 11,
+    "ADM1H": 29,
+    "ADM2": 82,
+    "ADM2H": 12,
+    "ADM3": 1,
+    "ADMD": 21,
+    "PPL": 1170,
+    "PPLA": 10,
+    "PPLA2": 41,
+    "PPLC": 1,
+    "PPLF": 64,
+    "PPLL": 18,
+    "PPLQ": 866,
+    "PPLW": 4,
+    "PPLX": 97
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 200911,
+      "rows": 2427,
+      "sha256": "dcb085c9f77e04a52a19a340948b39e367bd7e226d01f65103e535b8cf4f71a0",
+      "uncompressed_sha256": "bb7e51943d0f684053bb1e05f47c00322cf445adbe37d80e4285a639fc7204d2"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 17,
+    "historical_parent_not_asserted": 911,
+    "missing_code": 1,
+    "not_assigned_for_other_feature": 21,
+    "source_admin_code": 1466,
+    "source_country": 11
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 11,
+      "sha256": "e66ee82a85b142a203fe67497696c79068cb31644d6b01c5ce56398f2c8822e1"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 32462,
+    "bytes": 1169482,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 4521,
+      "L": 13628,
+      "R": 146,
+      "S": 6969,
+      "T": 4549,
+      "U": 1,
+      "V": 220
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:51:11 GMT",
+    "retained_rows": 2427,
+    "retrieved_at": "2026-09-29T11:13:02.868222+00:00",
+    "sha256": "44b7d725cc6011c1fe8d971a54a587bd768645df117d82b3eca66e097c5076ca",
+    "url": "https://download.geonames.org/export/dump/AM.zip"
+  },
+  "source_modified_max": "2026-09-28",
+  "source_modified_min": "2012-01-17"
+}

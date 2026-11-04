@@ -1,0 +1,474 @@
+{
+  "schema_version": 1,
+  "country": "US",
+  "vintage": 2026,
+  "counts": {
+    "states": 50,
+    "districts": 1,
+    "territories_in_source": [
+      "PR"
+    ],
+    "counties_or_equivalents": 3222,
+    "places": 32363,
+    "county_subdivisions": 36381,
+    "source_localities": 68744,
+    "place_status": {
+      "S": 12849,
+      "A": 19468,
+      "I": 32,
+      "F": 8,
+      "N": 4,
+      "B": 2
+    },
+    "county_subdivision_status": {
+      "S": 5541,
+      "N": 7970,
+      "A": 16143,
+      "C": 29,
+      "F": 4822,
+      "B": 17,
+      "I": 256,
+      "G": 1603
+    },
+    "coverage": "2026 Gazetteer places and county subdivisions in 50 states, DC and Puerto Rico; Island Areas excluded by source",
+    "postal_coverage": "not_loaded; Census ZCTAs are not USPS postal assignments",
+    "unique_municipality_count": null
+  },
+  "regions": [
+    {
+      "code": "US-AK",
+      "id": "admin:csc:1400",
+      "name": "Alaska",
+      "file": "US-AK.csv",
+      "localities": 392,
+      "address_candidates": 355
+    },
+    {
+      "code": "US-AL",
+      "id": "admin:csc:1456",
+      "name": "Alabama",
+      "file": "US-AL.csv",
+      "localities": 985,
+      "address_candidates": 595
+    },
+    {
+      "code": "US-AR",
+      "id": "admin:csc:1444",
+      "name": "Arkansas",
+      "file": "US-AR.csv",
+      "localities": 1677,
+      "address_candidates": 626
+    },
+    {
+      "code": "US-AZ",
+      "id": "admin:csc:1434",
+      "name": "Arizona",
+      "file": "US-AZ.csv",
+      "localities": 547,
+      "address_candidates": 467
+    },
+    {
+      "code": "US-CA",
+      "id": "admin:csc:1416",
+      "name": "California",
+      "file": "US-CA.csv",
+      "localities": 2026,
+      "address_candidates": 1622
+    },
+    {
+      "code": "US-CO",
+      "id": "admin:csc:1450",
+      "name": "Colorado",
+      "file": "US-CO.csv",
+      "localities": 694,
+      "address_candidates": 485
+    },
+    {
+      "code": "US-CT",
+      "id": "admin:csc:1435",
+      "name": "Connecticut",
+      "file": "US-CT.csv",
+      "localities": 389,
+      "address_candidates": 383
+    },
+    {
+      "code": "US-DC",
+      "id": "admin:csc:1437",
+      "name": "District of Columbia",
+      "file": "US-DC.csv",
+      "localities": 2,
+      "address_candidates": 1
+    },
+    {
+      "code": "US-DE",
+      "id": "admin:csc:1399",
+      "name": "Delaware",
+      "file": "US-DE.csv",
+      "localities": 106,
+      "address_candidates": 79
+    },
+    {
+      "code": "US-FL",
+      "id": "admin:csc:1436",
+      "name": "Florida",
+      "file": "US-FL.csv",
+      "localities": 1274,
+      "address_candidates": 958
+    },
+    {
+      "code": "US-GA",
+      "id": "admin:csc:1455",
+      "name": "Georgia",
+      "file": "US-GA.csv",
+      "localities": 1262,
+      "address_candidates": 674
+    },
+    {
+      "code": "US-HI",
+      "id": "admin:csc:1411",
+      "name": "Hawaii",
+      "file": "US-HI.csv",
+      "localities": 207,
+      "address_candidates": 163
+    },
+    {
+      "code": "US-IA",
+      "id": "admin:csc:1459",
+      "name": "Iowa",
+      "file": "US-IA.csv",
+      "localities": 2689,
+      "address_candidates": 1026
+    },
+    {
+      "code": "US-ID",
+      "id": "admin:csc:1460",
+      "name": "Idaho",
+      "file": "US-ID.csv",
+      "localities": 405,
+      "address_candidates": 235
+    },
+    {
+      "code": "US-IL",
+      "id": "admin:csc:1425",
+      "name": "Illinois",
+      "file": "US-IL.csv",
+      "localities": 3156,
+      "address_candidates": 2887
+    },
+    {
+      "code": "US-IN",
+      "id": "admin:csc:1440",
+      "name": "Indiana",
+      "file": "US-IN.csv",
+      "localities": 1986,
+      "address_candidates": 1976
+    },
+    {
+      "code": "US-KS",
+      "id": "admin:csc:1406",
+      "name": "Kansas",
+      "file": "US-KS.csv",
+      "localities": 2261,
+      "address_candidates": 1997
+    },
+    {
+      "code": "US-KY",
+      "id": "admin:csc:1419",
+      "name": "Kentucky",
+      "file": "US-KY.csv",
+      "localities": 1046,
+      "address_candidates": 552
+    },
+    {
+      "code": "US-LA",
+      "id": "admin:csc:1457",
+      "name": "Louisiana",
+      "file": "US-LA.csv",
+      "localities": 1060,
+      "address_candidates": 484
+    },
+    {
+      "code": "US-MA",
+      "id": "admin:csc:1433",
+      "name": "Massachusetts",
+      "file": "US-MA.csv",
+      "localities": 605,
+      "address_candidates": 541
+    },
+    {
+      "code": "US-MD",
+      "id": "admin:csc:1401",
+      "name": "Maryland",
+      "file": "US-MD.csv",
+      "localities": 826,
+      "address_candidates": 536
+    },
+    {
+      "code": "US-ME",
+      "id": "admin:csc:1453",
+      "name": "Maine",
+      "file": "US-ME.csv",
+      "localities": 684,
+      "address_candidates": 614
+    },
+    {
+      "code": "US-MI",
+      "id": "admin:csc:1426",
+      "name": "Michigan",
+      "file": "US-MI.csv",
+      "localities": 2326,
+      "address_candidates": 1985
+    },
+    {
+      "code": "US-MN",
+      "id": "admin:csc:1420",
+      "name": "Minnesota",
+      "file": "US-MN.csv",
+      "localities": 3678,
+      "address_candidates": 2692
+    },
+    {
+      "code": "US-MO",
+      "id": "admin:csc:1451",
+      "name": "Missouri",
+      "file": "US-MO.csv",
+      "localities": 2475,
+      "address_candidates": 1364
+    },
+    {
+      "code": "US-MS",
+      "id": "admin:csc:1430",
+      "name": "Mississippi",
+      "file": "US-MS.csv",
+      "localities": 837,
+      "address_candidates": 427
+    },
+    {
+      "code": "US-MT",
+      "id": "admin:csc:1446",
+      "name": "Montana",
+      "file": "US-MT.csv",
+      "localities": 691,
+      "address_candidates": 496
+    },
+    {
+      "code": "US-NC",
+      "id": "admin:csc:1447",
+      "name": "North Carolina",
+      "file": "US-NC.csv",
+      "localities": 1826,
+      "address_candidates": 785
+    },
+    {
+      "code": "US-ND",
+      "id": "admin:csc:1418",
+      "name": "North Dakota",
+      "file": "US-ND.csv",
+      "localities": 2167,
+      "address_candidates": 1711
+    },
+    {
+      "code": "US-NE",
+      "id": "admin:csc:1408",
+      "name": "Nebraska",
+      "file": "US-NE.csv",
+      "localities": 1775,
+      "address_candidates": 912
+    },
+    {
+      "code": "US-NH",
+      "id": "admin:csc:1404",
+      "name": "New Hampshire",
+      "file": "US-NH.csv",
+      "localities": 360,
+      "address_candidates": 321
+    },
+    {
+      "code": "US-NJ",
+      "id": "admin:csc:1417",
+      "name": "New Jersey",
+      "file": "US-NJ.csv",
+      "localities": 1270,
+      "address_candidates": 941
+    },
+    {
+      "code": "US-NM",
+      "id": "admin:csc:1423",
+      "name": "New Mexico",
+      "file": "US-NM.csv",
+      "localities": 658,
+      "address_candidates": 528
+    },
+    {
+      "code": "US-NV",
+      "id": "admin:csc:1458",
+      "name": "Nevada",
+      "file": "US-NV.csv",
+      "localities": 209,
+      "address_candidates": 138
+    },
+    {
+      "code": "US-NY",
+      "id": "admin:csc:1452",
+      "name": "New York",
+      "file": "US-NY.csv",
+      "localities": 2316,
+      "address_candidates": 2226
+    },
+    {
+      "code": "US-OH",
+      "id": "admin:csc:4851",
+      "name": "Ohio",
+      "file": "US-OH.csv",
+      "localities": 2872,
+      "address_candidates": 2578
+    },
+    {
+      "code": "US-OK",
+      "id": "admin:csc:1421",
+      "name": "Oklahoma",
+      "file": "US-OK.csv",
+      "localities": 1151,
+      "address_candidates": 846
+    },
+    {
+      "code": "US-OR",
+      "id": "admin:csc:1415",
+      "name": "Oregon",
+      "file": "US-OR.csv",
+      "localities": 638,
+      "address_candidates": 426
+    },
+    {
+      "code": "US-PA",
+      "id": "admin:csc:1422",
+      "name": "Pennsylvania",
+      "file": "US-PA.csv",
+      "localities": 4570,
+      "address_candidates": 3545
+    },
+    {
+      "code": "US-PR",
+      "id": "admin:csc:1449",
+      "name": "Puerto Rico",
+      "file": "US-PR.csv",
+      "localities": 1231,
+      "address_candidates": 292
+    },
+    {
+      "code": "US-RI",
+      "id": "admin:csc:1461",
+      "name": "Rhode Island",
+      "file": "US-RI.csv",
+      "localities": 76,
+      "address_candidates": 67
+    },
+    {
+      "code": "US-SC",
+      "id": "admin:csc:1443",
+      "name": "South Carolina",
+      "file": "US-SC.csv",
+      "localities": 774,
+      "address_candidates": 475
+    },
+    {
+      "code": "US-SD",
+      "id": "admin:csc:1445",
+      "name": "South Dakota",
+      "file": "US-SD.csv",
+      "localities": 1812,
+      "address_candidates": 1383
+    },
+    {
+      "code": "US-TN",
+      "id": "admin:csc:1454",
+      "name": "Tennessee",
+      "file": "US-TN.csv",
+      "localities": 1359,
+      "address_candidates": 503
+    },
+    {
+      "code": "US-TX",
+      "id": "admin:csc:1407",
+      "name": "Texas",
+      "file": "US-TX.csv",
+      "localities": 2726,
+      "address_candidates": 1864
+    },
+    {
+      "code": "US-UT",
+      "id": "admin:csc:1414",
+      "name": "Utah",
+      "file": "US-UT.csv",
+      "localities": 427,
+      "address_candidates": 334
+    },
+    {
+      "code": "US-VA",
+      "id": "admin:csc:1427",
+      "name": "Virginia",
+      "file": "US-VA.csv",
+      "localities": 1252,
+      "address_candidates": 700
+    },
+    {
+      "code": "US-VT",
+      "id": "admin:csc:1409",
+      "name": "Vermont",
+      "file": "US-VT.csv",
+      "localities": 436,
+      "address_candidates": 417
+    },
+    {
+      "code": "US-WA",
+      "id": "admin:csc:1462",
+      "name": "Washington",
+      "file": "US-WA.csv",
+      "localities": 881,
+      "address_candidates": 639
+    },
+    {
+      "code": "US-WI",
+      "id": "admin:csc:1441",
+      "name": "Wisconsin",
+      "file": "US-WI.csv",
+      "localities": 2732,
+      "address_candidates": 2049
+    },
+    {
+      "code": "US-WV",
+      "id": "admin:csc:1429",
+      "name": "West Virginia",
+      "file": "US-WV.csv",
+      "localities": 664,
+      "address_candidates": 439
+    },
+    {
+      "code": "US-WY",
+      "id": "admin:csc:1442",
+      "name": "Wyoming",
+      "file": "US-WY.csv",
+      "localities": 276,
+      "address_candidates": 205
+    }
+  ],
+  "columns": [
+    "id",
+    "code",
+    "source_type",
+    "category",
+    "name",
+    "lang",
+    "parent_id",
+    "state_id",
+    "state_code",
+    "address_country",
+    "address_candidate",
+    "postcodes",
+    "postcode_relations",
+    "government_status",
+    "department_code",
+    "collectivity_code"
+  ],
+  "format": "UTF-8 CSV; string codes; pipe-separated postcodes and parallel relations; source-specific IDs"
+}

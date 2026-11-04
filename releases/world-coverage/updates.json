@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "mode": "one_reviewable_scope_per_update",
+  "updates": [
+    {
+      "id": "01-world-coverage",
+      "scope": "対象250地域・4項目の不足状況",
+      "status": "integrated",
+      "commit": "bdb72896f9b7fe3d1ce792bc3ddad5004d8dcc03"
+    },
+    {
+      "id": "02-south-america",
+      "scope": "南米12か国と4補足地域の階層処理",
+      "status": "integrated",
+      "verification": "releases/hierarchy/south-america/verification.json",
+      "commit": "8724cb2dd971b21270ac5809959cd3b323c2dae6"
+    },
+    {
+      "id": "03-north-america",
+      "scope": "北米の階層処理",
+      "status": "integrated",
+      "commit": "ea08aabb0abf6b72397130bad0bcd5b72ca42f12",
+      "verification": "releases/hierarchy/north-america/verification.json"
+    },
+    {
+      "id": "04-central-america",
+      "scope": "中米の階層処理",
+      "status": "integrated",
+      "verification": "releases/hierarchy/central-america/verification.json",
+      "coverage": "releases/hierarchy/central-america/coverage.json",
+      "completeness_status": "incomplete",
+      "commit": "c322a0974794cb5efc2d5823e1affc1e325ad5af",
+      "source_policy": "official_and_open_data",
+      "enrichments": [
+        {
+          "id": "20261022-open-geodata",
+          "scope": "中米8か国のOSM道路・住所観測、MXのINEGI由来番号資料、CRの現行地区参照",
+          "scope_codes": [
+            "BZ",
+            "CR",
+            "GT",
+            "HN",
+            "MX",
+            "NI",
+            "PA",
+            "SV"
+          ],
+          "commit": "8f57adf831910487d8291c0a433caa23eed4513d",
+          "verification": "releases/hierarchy/central-america/enrichment-20261022/verification.json",
+          "coverage": "releases/hierarchy/central-america/coverage.json",
+          "completeness_status": "incomplete"
+        }
+      ]
+    },
+    {
+      "id": "05-caribbean",
+      "scope": "カリブ海の階層処理",
+      "status": "integrated",
+      "verification": "releases/hierarchy/caribbean/verification.json",
+      "coverage": "releases/hierarchy/caribbean/coverage-status.json",
+      "completeness_status": "incomplete",
+      "source_policy": "official_and_open_data",
+      "commit": "eed65bed39ca0414b56be769dcc1607a672e035d"
+    },
+    {
+      "id": "06-asia",
+      "scope": "アジアの階層処理",
+      "status": "partially_integrated",
+      "completeness_status": "incomplete",
+      "source_policy": "official_and_open_data",
+      "subregions": [
+        {
+          "id": "east-asia",
+          "scope": "東アジア8地域の行政区・住所用の通り・物理道路・番地の原典取込と検索",
+          "scope_codes": [
+            "CN",
+            "HK",
+            "JP",
+            "KP",
+            "KR",
+            "MN",
+            "MO",
+            "TW"
+          ],
+          "status": "integrated",
+          "commit": "ed6af9255cc20d8326a7e37a6aa8f508a74c99ed",
+          "verification": "releases/hierarchy/east-asia/verification.json",
+          "coverage": "releases/hierarchy/east-asia/coverage.json",
+          "archive": "releases/hierarchy/east-asia/archive.json",
+          "completeness_status": "incomplete",
+          "national_completeness_verified": false,
+          "deliverability_in_scope": false
+        }
+      ]
+    },
+    {
+      "id": "07-africa",
+      "scope": "アフリカの階層処理",
+      "status": "pending"
+    },
+    {
+      "id": "08-oceania",
+      "scope": "オセアニアの階層処理",
+      "status": "pending"
+    },
+    {
+      "id": "09-europe",
+      "scope": "欧州の階層処理",
+      "status": "pending"
+    },
+    {
+      "id": "10-western-europe",
+      "scope": "西ヨーロッパ部分版",
+      "status": "pending"
+    },
+    {
+      "id": "11-southern-europe",
+      "scope": "南ヨーロッパ部分版",
+      "status": "pending"
+    },
+    {
+      "id": "12-eastern-europe",
+      "scope": "東ヨーロッパ部分版",
+      "status": "pending"
+    },
+    {
+      "id": "13-northern-europe",
+      "scope": "北欧部分版",
+      "status": "pending"
+    },
+    {
+      "id": "14-overseas",
+      "scope": "BV・HM・AQ・海外領の原典と補強",
+      "status": "pending"
+    },
+    {
+      "id": "15-official-addresses",
+      "scope": "公式行政区・通り・割当番地の取込と検証",
+      "status": "pending"
+    }
+  ],
+  "large_data_publication": "Keep original snapshots separate from ordinary Git; decide distribution independently of code commits.",
+  "deliverability_in_scope": false
+}

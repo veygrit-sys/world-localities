@@ -1,0 +1,104 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "CZE",
+    "country": "CZ",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Czechia",
+    "geonames_id": "3077311",
+    "id": "country:CZ",
+    "m49": "203",
+    "m49_region": "Europe",
+    "name_en": "Czechia",
+    "region": "Eastern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 16624,
+    "admin_rows": 6426,
+    "ambiguous_parents": 0,
+    "country": "CZ",
+    "country_scope_only": 0,
+    "localities_without_adm1": 9,
+    "locality_rows": 16634,
+    "name_en": "Czechia",
+    "other_admin_rows": 4,
+    "region": "Eastern Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 14,
+    "ADM2": 98,
+    "ADM3": 6314,
+    "ADMD": 4,
+    "PPL": 16392,
+    "PPLA": 12,
+    "PPLA2": 3,
+    "PPLA3": 10,
+    "PPLA4": 1,
+    "PPLC": 1,
+    "PPLH": 2,
+    "PPLL": 4,
+    "PPLQ": 3,
+    "PPLS": 1,
+    "PPLW": 4,
+    "PPLX": 201
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 976814,
+      "rows": 20000,
+      "sha256": "a203505388f9e4eda4679af57b9eddda416f2e223d258d94ee53d045b58cb50c",
+      "uncompressed_sha256": "f964f3e96d5f1d00e8436afe62c47bc45be2ee91cda773683ccfce0c5e360060"
+    },
+    "entities-0002.csv.gz": {
+      "bytes": 131107,
+      "rows": 3064,
+      "sha256": "bc49b16636e3f4b52e35ca844c3154480bc5b81097027d7fa79509d02b790c33",
+      "uncompressed_sha256": "4529c619f92383a3a27d333001a892a0900043d8614d5a39e21438f744772b1a"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "historical_parent_not_asserted": 9,
+    "not_assigned_for_other_feature": 4,
+    "source_admin_code": 23037,
+    "source_country": 14
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 14,
+      "sha256": "5b8912bd6e1ced97db5f60f1bc1418273d86caf71492c96da796eb8973825aeb"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 43264,
+    "bytes": 1605399,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 736,
+      "L": 101,
+      "R": 459,
+      "S": 10189,
+      "T": 8668,
+      "V": 46
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:52:37 GMT",
+    "retained_rows": 23064,
+    "retrieved_at": "2026-09-29T11:13:28.549336+00:00",
+    "sha256": "6c28f38f4fc3ff082062284956d0bf6e1fc676dc39d5604da88d10b8fb83519e",
+    "url": "https://download.geonames.org/export/dump/CZ.zip"
+  },
+  "source_modified_max": "2026-09-25",
+  "source_modified_min": "2008-07-10"
+}

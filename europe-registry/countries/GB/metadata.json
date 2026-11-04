@@ -1,0 +1,120 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "GBR",
+    "country": "GB",
+    "geonames_continent": "EU",
+    "geonames_country_name": "United Kingdom",
+    "geonames_id": "2635167",
+    "id": "country:GB",
+    "m49": "826",
+    "m49_region": "Europe",
+    "name_en": "United Kingdom of Great Britain and Northern Ireland",
+    "region": "Northern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 43680,
+    "admin_rows": 11782,
+    "ambiguous_parents": 0,
+    "country": "GB",
+    "country_scope_only": 6,
+    "localities_without_adm1": 30,
+    "locality_rows": 43712,
+    "name_en": "United Kingdom of Great Britain and Northern Ireland",
+    "other_admin_rows": 100,
+    "region": "Northern Europe",
+    "unresolved_parents": 13
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 4,
+    "ADM1H": 14,
+    "ADM2": 185,
+    "ADM2H": 30,
+    "ADM3": 3862,
+    "ADM3H": 10,
+    "ADM4": 7731,
+    "ADMD": 46,
+    "PPL": 30908,
+    "PPLA": 4,
+    "PPLA2": 185,
+    "PPLA3": 957,
+    "PPLA4": 93,
+    "PPLC": 1,
+    "PPLCH": 12,
+    "PPLF": 5,
+    "PPLH": 7,
+    "PPLL": 2143,
+    "PPLQ": 4,
+    "PPLS": 3,
+    "PPLW": 1,
+    "PPLX": 9389
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 1000715,
+      "rows": 20000,
+      "sha256": "8d4ac9ded2178c7b56a754ec51fb60f6544967fc478f1f89e3efb13b23118015",
+      "uncompressed_sha256": "290c1802cd6428c11b92f00b6d506f0201c482a095090c40a9564afc4f236e3b"
+    },
+    "entities-0002.csv.gz": {
+      "bytes": 750943,
+      "rows": 20000,
+      "sha256": "41f1da7db57a8f3c956c1d159d138b91d82a72aa73243f07960e0e55f9d4328d",
+      "uncompressed_sha256": "35c893f24c07ab5372d18d54827733cbc6f33328585765f3e935956e8553df0f"
+    },
+    "entities-0003.csv.gz": {
+      "bytes": 565095,
+      "rows": 15594,
+      "sha256": "c8089248494ab8b08a714549bd272acfcebe3482cdd7da191441a8561be0985d",
+      "uncompressed_sha256": "81096f29749c6da57607561dba13cd366820a0fb5f526caf464ef3120158267d"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 6,
+    "historical_parent_not_asserted": 78,
+    "missing_code": 6,
+    "missing_reference": 7,
+    "not_assigned_for_other_feature": 46,
+    "source_admin_code": 55447,
+    "source_country": 4
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 4,
+      "sha256": "9d86579f48ce5a11b191d255923d5a05bc5bf93cfd708eb2aab1d968648d6ff4"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 109179,
+    "bytes": 3639090,
+    "excluded_feature_class_counts": {
+      "A": 13,
+      "H": 5998,
+      "L": 905,
+      "R": 474,
+      "S": 22001,
+      "T": 23877,
+      "U": 22,
+      "V": 295
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:53:22 GMT",
+    "retained_rows": 55594,
+    "retrieved_at": "2026-09-29T11:13:46.198089+00:00",
+    "sha256": "19a9a3b9b3ba62e3de57aec8aa3a4fa28c13a80dfd9a49e4703a1c0a687f65b9",
+    "url": "https://download.geonames.org/export/dump/GB.zip"
+  },
+  "source_modified_max": "2026-09-22",
+  "source_modified_min": "1994-01-13"
+}

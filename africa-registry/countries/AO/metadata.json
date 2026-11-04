@@ -1,0 +1,91 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "AGO",
+    "country": "AO",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Angola",
+    "geonames_id": "3351879",
+    "id": "country:AO",
+    "m49": "024",
+    "name_en": "Angola",
+    "numeric": "024",
+    "region": "Middle Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 17137,
+    "admin_rows": 184,
+    "ambiguous_parents": 0,
+    "country": "AO",
+    "country_scope_only": 154,
+    "localities_without_adm1": 630,
+    "locality_rows": 19727,
+    "name_en": "Angola",
+    "other_admin_rows": 3,
+    "region": "Middle Africa",
+    "unresolved_parents": 477
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 21,
+    "ADM1H": 1,
+    "ADM2": 162,
+    "ADM2H": 1,
+    "ADM3": 1,
+    "PCLI": 1,
+    "PPL": 15454,
+    "PPLA": 19,
+    "PPLA2": 220,
+    "PPLA3": 217,
+    "PPLC": 1,
+    "PPLF": 2,
+    "PPLL": 1191,
+    "PPLQ": 1337,
+    "PPLW": 1251,
+    "PPLX": 35
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 602474,
+      "rows": 19914,
+      "sha256": "478e705d74f8a45de9ad1f694f8ba4d5783777a627ba643364afb969a045f246",
+      "uncompressed_sha256": "c72fe4c53e52453410213cb4b4b7ea06bbaf9b4937c93a06e13b5affc0e1e4d4"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 154,
+    "missing_reference": 477,
+    "not_assigned_for_other_feature": 3,
+    "source_admin_code": 19259,
+    "source_country": 21
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 21,
+      "sha256": "a731ce7a78f88562f0fb2e86c2f6036a835a943324ee3051d83d496b338d2e84"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 1708436,
+    "discarded_feature_classes": {
+      "H": 33613,
+      "L": 10236,
+      "S": 2955,
+      "T": 6022,
+      "V": 1342
+    },
+    "retained_rows": 19914,
+    "retrieved_on": "2026-09-26",
+    "sha256": "7708d92d1c62a5f732ed8439a310d39e518444798f9b7b01a1f1f855090e1791",
+    "source_rows": 74082,
+    "url": "https://download.geonames.org/export/dump/AO.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1994-01-05"
+}

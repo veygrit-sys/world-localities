@@ -1,0 +1,96 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "DNK",
+    "country": "DK",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Denmark",
+    "geonames_id": "2623032",
+    "id": "country:DK",
+    "m49": "208",
+    "m49_region": "Europe",
+    "name_en": "Denmark",
+    "region": "Northern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 7271,
+    "admin_rows": 114,
+    "ambiguous_parents": 0,
+    "country": "DK",
+    "country_scope_only": 0,
+    "localities_without_adm1": 12,
+    "locality_rows": 7288,
+    "name_en": "Denmark",
+    "other_admin_rows": 2,
+    "region": "Northern Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 5,
+    "ADM2": 99,
+    "ADM2H": 2,
+    "ADM3": 10,
+    "PPL": 6343,
+    "PPLA": 5,
+    "PPLA2": 93,
+    "PPLC": 1,
+    "PPLF": 1,
+    "PPLH": 12,
+    "PPLL": 663,
+    "PPLR": 1,
+    "PPLS": 3,
+    "PPLX": 166
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 273085,
+      "rows": 7404,
+      "sha256": "009ab1f8ac35d633dbcc1f2ac214616ed7efd0c8e6159b4fb4d3b225fc3b1d27",
+      "uncompressed_sha256": "ed7b83f508e94af011f26cd90b9029da5dba36e006e09864432b1e3b7d6e197c"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "historical_parent_not_asserted": 14,
+    "source_admin_code": 7385,
+    "source_country": 5
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 5,
+      "sha256": "ff0c44b6fa30c0bbb0227ff8b21ae2ad35781c9fbe75931194bdbf33bfc0cc9d"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 15329,
+    "bytes": 472597,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 1588,
+      "L": 170,
+      "R": 6,
+      "S": 4339,
+      "T": 1240,
+      "U": 7,
+      "V": 574
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:52:45 GMT",
+    "retained_rows": 7404,
+    "retrieved_at": "2026-09-29T11:13:28.025928+00:00",
+    "sha256": "bdaf069110ae30e960974cbb56de91a23e349765a5798272376972750e3b1921",
+    "url": "https://download.geonames.org/export/dump/DK.zip"
+  },
+  "source_modified_max": "2026-09-28",
+  "source_modified_min": "1994-01-25"
+}

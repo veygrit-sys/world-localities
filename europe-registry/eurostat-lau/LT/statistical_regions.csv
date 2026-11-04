@@ -1,0 +1,14 @@
+id,country,source_code,level,parent_id,relation,name_status
+eurostat:nuts:2024:LT0,LT,LT0,1,country:LT,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:LT01,LT,LT01,2,eurostat:nuts:2024:LT0,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:LT011,LT,LT011,3,eurostat:nuts:2024:LT01,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:LT02,LT,LT02,2,eurostat:nuts:2024:LT0,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:LT021,LT,LT021,3,eurostat:nuts:2024:LT02,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:LT022,LT,LT022,3,eurostat:nuts:2024:LT02,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:LT023,LT,LT023,3,eurostat:nuts:2024:LT02,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:LT024,LT,LT024,3,eurostat:nuts:2024:LT02,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:LT025,LT,LT025,3,eurostat:nuts:2024:LT02,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:LT026,LT,LT026,3,eurostat:nuts:2024:LT02,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:LT027,LT,LT027,3,eurostat:nuts:2024:LT02,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:LT028,LT,LT028,3,eurostat:nuts:2024:LT02,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:LT029,LT,LT029,3,eurostat:nuts:2024:LT02,statistical_code_prefix,not_loaded

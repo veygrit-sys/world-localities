@@ -1,0 +1,926 @@
+{
+  "schema_version": 1,
+  "release_date": "2026-10-17",
+  "scope_codes": [
+    "AR",
+    "BO",
+    "BV",
+    "BR",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GY",
+    "PY",
+    "PE",
+    "GS",
+    "SR",
+    "UY",
+    "VE"
+  ],
+  "sources": [
+    {
+      "id": "ar-geonames-geonames",
+      "country": "AR",
+      "kind": "geonames",
+      "url": "https://download.geonames.org/export/dump/AR.zip",
+      "path": "AR/geonames.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/AR.zip",
+      "retrieved_at": "2026-10-16T19:37:19.399886+00:00",
+      "bytes": 1908277,
+      "sha256": "5278db48dd49b21ace343ba20fc7d7bbb08116cdbaf29e996e451d298b9925bd",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:00:11 GMT",
+        "ETag": "\"1d1e35-65deb863d6bc7\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "AR.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "ar-geonames-names",
+      "country": "AR",
+      "kind": "names",
+      "url": "https://download.geonames.org/export/dump/alternatenames/AR.zip",
+      "path": "AR/names.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/alternatenames/AR.zip",
+      "retrieved_at": "2026-10-16T19:37:19.385364+00:00",
+      "bytes": 738151,
+      "sha256": "3a113fb053200cc37f411682b91b02defd724652c44aaf7886b6775857352dbd",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:10:56 GMT",
+        "ETag": "\"b4367-65debacb046ac\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "AR.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "ar-georef-localidades",
+      "country": "AR",
+      "kind": "georef",
+      "url": "https://apis.datos.gob.ar/georef/api/localidades?max=5000&orden=id",
+      "path": "AR/localidades.json",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://www.argentina.gob.ar/georef/condiciones-de-uso-y-licencia",
+      "attribution": "Servicio Georef – argentina.gob.ar/georef",
+      "resolved_url": "https://apis.datos.gob.ar/georef/api/localidades?max=5000&orden=id",
+      "retrieved_at": "2026-10-16T19:38:16.182612+00:00",
+      "bytes": 1393329,
+      "sha256": "1091cade1c045d1ddd2d86537928b87bf1e38d7c044ebe1352c981d38fbe90e5",
+      "http_headers": {
+        "Content-Type": "application/json",
+        "Content-Encoding": null,
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "archive_members": null,
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "ar-georef-provincias",
+      "country": "AR",
+      "kind": "georef",
+      "url": "https://apis.datos.gob.ar/georef/api/provincias",
+      "path": "AR/provincias.json",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://www.argentina.gob.ar/georef/condiciones-de-uso-y-licencia",
+      "attribution": "Servicio Georef – argentina.gob.ar/georef",
+      "resolved_url": "https://apis.datos.gob.ar/georef/api/provincias",
+      "retrieved_at": "2026-10-16T19:38:14.865473+00:00",
+      "bytes": 2403,
+      "sha256": "4090b47f86e5a729d210f7adb540728a202457e221954112db2f16f1e39b6bac",
+      "http_headers": {
+        "Content-Type": "application/json",
+        "Content-Encoding": null,
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "archive_members": null,
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "bo-geonames-geonames",
+      "country": "BO",
+      "kind": "geonames",
+      "url": "https://download.geonames.org/export/dump/BO.zip",
+      "path": "BO/geonames.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/BO.zip",
+      "retrieved_at": "2026-10-16T19:37:19.434037+00:00",
+      "bytes": 1073557,
+      "sha256": "6d9096dd7101ee29ed84a51702503bfc27eecf529155c958b70a6f12311d81fd",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:00:30 GMT",
+        "ETag": "\"106195-65deb8761de85\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "BO.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "bo-geonames-names",
+      "country": "BO",
+      "kind": "names",
+      "url": "https://download.geonames.org/export/dump/alternatenames/BO.zip",
+      "path": "BO/names.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/alternatenames/BO.zip",
+      "retrieved_at": "2026-10-16T19:37:19.419914+00:00",
+      "bytes": 443465,
+      "sha256": "519e0e898368775c3d507881517bc0790d7679ea69501f082883dd8295705ecd",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:00 GMT",
+        "ETag": "\"6c449-65debacf539fd\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "BO.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "br-geonames-geonames",
+      "country": "BR",
+      "kind": "geonames",
+      "url": "https://download.geonames.org/export/dump/BR.zip",
+      "path": "BR/geonames.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/BR.zip",
+      "retrieved_at": "2026-10-16T19:37:27.110744+00:00",
+      "bytes": 7177383,
+      "sha256": "cbf871c970db73c3ea2409466bce57015754ad5ad96137669934019d90326931",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:00:38 GMT",
+        "ETag": "\"6d84a7-65deb87dd7935\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "BR.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "br-geonames-names",
+      "country": "BR",
+      "kind": "names",
+      "url": "https://download.geonames.org/export/dump/alternatenames/BR.zip",
+      "path": "BR/names.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/alternatenames/BR.zip",
+      "retrieved_at": "2026-10-16T19:37:27.078664+00:00",
+      "bytes": 3304533,
+      "sha256": "ba08c07e271f955f66b4c7dc8a4ed3a2ee4c934bc62a9014f573679310caae3e",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:02 GMT",
+        "ETag": "\"326c55-65debad15d140\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "BR.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "bv-geonames-geonames",
+      "country": "BV",
+      "kind": "geonames",
+      "url": "https://download.geonames.org/export/dump/BV.zip",
+      "path": "BV/geonames.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/BV.zip",
+      "retrieved_at": "2026-10-16T19:37:25.948915+00:00",
+      "bytes": 7317,
+      "sha256": "5538089aa3b6884ba5ded863ce312544e9b94f1bc7359ed2d7906e85b608f82c",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:00:38 GMT",
+        "ETag": "\"1c95-65deb87e00583\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "BV.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "bv-geonames-names",
+      "country": "BV",
+      "kind": "names",
+      "url": "https://download.geonames.org/export/dump/alternatenames/BV.zip",
+      "path": "BV/names.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/alternatenames/BV.zip",
+      "retrieved_at": "2026-10-16T19:37:25.959531+00:00",
+      "bytes": 7966,
+      "sha256": "1c0acf1f39546330aa23d61c33b7bf25059e3d3040682c4c0bce972aec8fbb0a",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:02 GMT",
+        "ETag": "\"1f1e-65debad16a815\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "BV.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "cl-geonames-geonames",
+      "country": "CL",
+      "kind": "geonames",
+      "url": "https://download.geonames.org/export/dump/CL.zip",
+      "path": "CL/geonames.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/CL.zip",
+      "retrieved_at": "2026-10-16T19:37:33.626532+00:00",
+      "bytes": 1421424,
+      "sha256": "27aef2d2872c64cbaff1063e27fb052242918071d5bc11506c3627795b89b821",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:00:56 GMT",
+        "ETag": "\"15b070-65deb88ee3559\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "CL.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "cl-geonames-names",
+      "country": "CL",
+      "kind": "names",
+      "url": "https://download.geonames.org/export/dump/alternatenames/CL.zip",
+      "path": "CL/names.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/alternatenames/CL.zip",
+      "retrieved_at": "2026-10-16T19:37:33.578752+00:00",
+      "bytes": 638452,
+      "sha256": "f132de6101ac11d48ad7c7fc52d468111c078f5abb538a44d835650aa140ffff",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:05 GMT",
+        "ETag": "\"9bdf4-65debad4335ab\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "CL.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "co-geonames-geonames",
+      "country": "CO",
+      "kind": "geonames",
+      "url": "https://download.geonames.org/export/dump/CO.zip",
+      "path": "CO/geonames.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/CO.zip",
+      "retrieved_at": "2026-10-16T19:37:33.970447+00:00",
+      "bytes": 2248925,
+      "sha256": "b5474ea584e5d37202c7f674cf0b01085fe9ef9fec78dbbac43f4acca3a002b3",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:01:35 GMT",
+        "ETag": "\"2250dd-65deb8b4bc773\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "CO.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "co-geonames-names",
+      "country": "CO",
+      "kind": "names",
+      "url": "https://download.geonames.org/export/dump/alternatenames/CO.zip",
+      "path": "CO/names.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/alternatenames/CO.zip",
+      "retrieved_at": "2026-10-16T19:37:33.662475+00:00",
+      "bytes": 659387,
+      "sha256": "86d48c61b6fefdb49d5022c31db3d31e151cb4a427b158bf3d03701a9f6ecc86",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:22 GMT",
+        "ETag": "\"a0fbb-65debae3aad73\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "CO.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "ec-geonames-geonames",
+      "country": "EC",
+      "kind": "geonames",
+      "url": "https://download.geonames.org/export/dump/EC.zip",
+      "path": "EC/geonames.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/EC.zip",
+      "retrieved_at": "2026-10-16T19:37:41.020483+00:00",
+      "bytes": 633378,
+      "sha256": "819bc9cbff53fbb6b72d3d7f38e83d758c7e789ae1fa5b2267ee70e4cc89d435",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:01:53 GMT",
+        "ETag": "\"9aa22-65deb8c58a75e\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "EC.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "ec-geonames-names",
+      "country": "EC",
+      "kind": "names",
+      "url": "https://download.geonames.org/export/dump/alternatenames/EC.zip",
+      "path": "EC/names.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/alternatenames/EC.zip",
+      "retrieved_at": "2026-10-16T19:37:40.905804+00:00",
+      "bytes": 262098,
+      "sha256": "97e42cc471962ecaf2043184ff3fbabb2a7ae910bb646e23e00a722dc141d161",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:26 GMT",
+        "ETag": "\"3ffd2-65debae7e54c1\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "EC.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "fk-geonames-geonames",
+      "country": "FK",
+      "kind": "geonames",
+      "url": "https://download.geonames.org/export/dump/FK.zip",
+      "path": "FK/geonames.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/FK.zip",
+      "retrieved_at": "2026-10-16T19:37:40.574868+00:00",
+      "bytes": 39573,
+      "sha256": "a3f653ed4f574fd0850c949c818c5eaa79a7a7cc30fcb7b69bc0d68c5f334e54",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:02:18 GMT",
+        "ETag": "\"9a95-65deb8dd304e5\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "FK.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "fk-geonames-names",
+      "country": "FK",
+      "kind": "names",
+      "url": "https://download.geonames.org/export/dump/alternatenames/FK.zip",
+      "path": "FK/names.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/alternatenames/FK.zip",
+      "retrieved_at": "2026-10-16T19:37:40.323169+00:00",
+      "bytes": 28062,
+      "sha256": "8d0e09abfb73b6e1a44d13184bc6986903527345ce0828aa03113d935a0423b1",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:33 GMT",
+        "ETag": "\"6d9e-65debaeef7bd1\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "FK.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "gf-ban-973",
+      "country": "GF",
+      "kind": "ban",
+      "url": "https://adresse.data.gouv.fr/data/ban/adresses/latest/csv/adresses-973.csv.gz",
+      "path": "GF/adresses-973.csv.gz",
+      "licence": "Licence-Ouverte-2.0",
+      "terms_url": "https://www.data.gouv.fr/datasets/base-adresse-nationale",
+      "attribution": "Base Adresse Nationale — https://adresse.data.gouv.fr/",
+      "resolved_url": "https://adresse.data.gouv.fr/data/ban/adresses/latest/csv/adresses-973.csv.gz",
+      "retrieved_at": "2026-10-16T19:38:12.836030+00:00",
+      "bytes": 2404066,
+      "sha256": "1696a5c4132f8b10efb4419b0530af405f77cf919cffa997176e9f42cf779da1",
+      "http_headers": {
+        "Content-Type": null,
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:15:59 GMT",
+        "ETag": "\"52268d0ee10e817a41a982ba795fff4a\""
+      },
+      "archive_members": null,
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "gf-geonames-geonames",
+      "country": "GF",
+      "kind": "geonames",
+      "url": "https://download.geonames.org/export/dump/GF.zip",
+      "path": "GF/geonames.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/GF.zip",
+      "retrieved_at": "2026-10-16T19:37:47.337385+00:00",
+      "bytes": 118913,
+      "sha256": "b3f4a23122474cabc1d333454bbdbc11714fdc1fb2883e4142769a57ae375b65",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:02:30 GMT",
+        "ETag": "\"1d081-65deb8e905ea1\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "GF.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "gf-geonames-names",
+      "country": "GF",
+      "kind": "names",
+      "url": "https://download.geonames.org/export/dump/alternatenames/GF.zip",
+      "path": "GF/names.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/alternatenames/GF.zip",
+      "retrieved_at": "2026-10-16T19:37:47.214910+00:00",
+      "bytes": 63977,
+      "sha256": "b07db94ec465b7b6920bf6eb0e307c9637e3198e23b3af79eae6a0778c82090c",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:39 GMT",
+        "ETag": "\"f9e9-65debaf3de4de\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "GF.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "gs-geonames-geonames",
+      "country": "GS",
+      "kind": "geonames",
+      "url": "https://download.geonames.org/export/dump/GS.zip",
+      "path": "GS/geonames.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/GS.zip",
+      "retrieved_at": "2026-10-16T19:38:01.098976+00:00",
+      "bytes": 36519,
+      "sha256": "e7a8d2375e6168497a22a21e1fd3ad1ac3dc061f9ddb351e8da89a9d654f8558",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:02:34 GMT",
+        "ETag": "\"8ea7-65deb8ec9ffac\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "GS.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "gs-geonames-names",
+      "country": "GS",
+      "kind": "names",
+      "url": "https://download.geonames.org/export/dump/alternatenames/GS.zip",
+      "path": "GS/names.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/alternatenames/GS.zip",
+      "retrieved_at": "2026-10-16T19:38:01.084844+00:00",
+      "bytes": 42670,
+      "sha256": "217e0d15332861d666242b040cf1771b3d0b723db2c87f14a8556dab2443f121",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:40 GMT",
+        "ETag": "\"a6ae-65debaf52b0c7\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "GS.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "gy-geonames-geonames",
+      "country": "GY",
+      "kind": "geonames",
+      "url": "https://download.geonames.org/export/dump/GY.zip",
+      "path": "GY/geonames.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/GY.zip",
+      "retrieved_at": "2026-10-16T19:37:47.392340+00:00",
+      "bytes": 174050,
+      "sha256": "8957722521d36a35b909029aef6f29077037efe9f00d41c5e02565aa411b9f58",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:02:36 GMT",
+        "ETag": "\"2a7e2-65deb8ee328b4\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "GY.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "gy-geonames-names",
+      "country": "GY",
+      "kind": "names",
+      "url": "https://download.geonames.org/export/dump/alternatenames/GY.zip",
+      "path": "GY/names.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/alternatenames/GY.zip",
+      "retrieved_at": "2026-10-16T19:37:47.429307+00:00",
+      "bytes": 96639,
+      "sha256": "035f4e2a6864bcd8bb1e0c086872e948757ccc0057db40063f3f6392dcec679d",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:11:40 GMT",
+        "ETag": "\"1797f-65debaf58f627\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "GY.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "pe-geonames-geonames",
+      "country": "PE",
+      "kind": "geonames",
+      "url": "https://download.geonames.org/export/dump/PE.zip",
+      "path": "PE/geonames.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/PE.zip",
+      "retrieved_at": "2026-10-16T19:37:54.783242+00:00",
+      "bytes": 3087239,
+      "sha256": "c3bdeb4cede30f1f89351c25f38b22c7d55997fbe890dc20b1b01eaffa57d7f9",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:05:08 GMT",
+        "ETag": "\"2f1b87-65deb97fdaa63\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "PE.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "pe-geonames-names",
+      "country": "PE",
+      "kind": "names",
+      "url": "https://download.geonames.org/export/dump/alternatenames/PE.zip",
+      "path": "PE/names.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/alternatenames/PE.zip",
+      "retrieved_at": "2026-10-16T19:37:54.656571+00:00",
+      "bytes": 975151,
+      "sha256": "763ca5e54f0003baaf58cf42b259d6eca13c3cb1dc7bb6d0999a35bbf867afe0",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:12:26 GMT",
+        "ETag": "\"ee12f-65debb21183e6\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "PE.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "py-geonames-geonames",
+      "country": "PY",
+      "kind": "geonames",
+      "url": "https://download.geonames.org/export/dump/PY.zip",
+      "path": "PY/geonames.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/PY.zip",
+      "retrieved_at": "2026-10-16T19:37:54.556949+00:00",
+      "bytes": 551327,
+      "sha256": "83b60ebfe1cc66456d06fcba1761653a79667e09eaae58a1c78edc33a0803094",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:05:24 GMT",
+        "ETag": "\"8699f-65deb98f2110b\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "PY.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "py-geonames-names",
+      "country": "PY",
+      "kind": "names",
+      "url": "https://download.geonames.org/export/dump/alternatenames/PY.zip",
+      "path": "PY/names.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/alternatenames/PY.zip",
+      "retrieved_at": "2026-10-16T19:37:54.225087+00:00",
+      "bytes": 149476,
+      "sha256": "65c820b252e81fe0f3c839587e5a608cc3166d518d82ca1225c0c2f42bf8f46e",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:12:30 GMT",
+        "ETag": "\"247e4-65debb2504d2e\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "PY.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "sr-geonames-geonames",
+      "country": "SR",
+      "kind": "geonames",
+      "url": "https://download.geonames.org/export/dump/SR.zip",
+      "path": "SR/geonames.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/SR.zip",
+      "retrieved_at": "2026-10-16T19:38:01.103555+00:00",
+      "bytes": 83048,
+      "sha256": "182b3ded792b9e7a48a86852da6b6c1c5a1c150d0e0e40390e21ce7b7f7497af",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:05:55 GMT",
+        "ETag": "\"14468-65deb9ac0cee0\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "SR.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "sr-geonames-names",
+      "country": "SR",
+      "kind": "names",
+      "url": "https://download.geonames.org/export/dump/alternatenames/SR.zip",
+      "path": "SR/names.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/alternatenames/SR.zip",
+      "retrieved_at": "2026-10-16T19:38:01.378770+00:00",
+      "bytes": 57880,
+      "sha256": "3dcfc560017519e77ebd29548566ecda72f80c0332f04af3e8e2f2a4ee575055",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:12:44 GMT",
+        "ETag": "\"e218-65debb32a469f\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "SR.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "uy-geonames-geonames",
+      "country": "UY",
+      "kind": "geonames",
+      "url": "https://download.geonames.org/export/dump/UY.zip",
+      "path": "UY/geonames.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/UY.zip",
+      "retrieved_at": "2026-10-16T19:38:08.267547+00:00",
+      "bytes": 276131,
+      "sha256": "2d5fac26bedaca60e4ba40c309b542e804fd53aad5d8c164cd06424b06849e82",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:07:36 GMT",
+        "ETag": "\"436a3-65deba0cb5d28\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "UY.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "uy-geonames-names",
+      "country": "UY",
+      "kind": "names",
+      "url": "https://download.geonames.org/export/dump/alternatenames/UY.zip",
+      "path": "UY/names.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/alternatenames/UY.zip",
+      "retrieved_at": "2026-10-16T19:38:08.041043+00:00",
+      "bytes": 180110,
+      "sha256": "c6241c4be4fdcd52c79698f7662280a376d460f435c33590ae6d56b8bbb66eaf",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:13:09 GMT",
+        "ETag": "\"2bf8e-65debb4a3d527\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "UY.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "ve-geonames-geonames",
+      "country": "VE",
+      "kind": "geonames",
+      "url": "https://download.geonames.org/export/dump/VE.zip",
+      "path": "VE/geonames.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/VE.zip",
+      "retrieved_at": "2026-10-16T19:38:08.622297+00:00",
+      "bytes": 1824599,
+      "sha256": "5071e13739f29ba9a260c74b22d0d399554a62aab55c300923c6812d70f5b416",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:07:39 GMT",
+        "ETag": "\"1bd757-65deba0f1302f\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "VE.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    },
+    {
+      "id": "ve-geonames-names",
+      "country": "VE",
+      "kind": "names",
+      "url": "https://download.geonames.org/export/dump/alternatenames/VE.zip",
+      "path": "VE/names.zip",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames — https://www.geonames.org/",
+      "resolved_url": "https://download.geonames.org/export/dump/alternatenames/VE.zip",
+      "retrieved_at": "2026-10-16T19:38:08.428657+00:00",
+      "bytes": 369154,
+      "sha256": "07ca2b4081f9db67138b2a017bb1cb45ca4e8724a0e5c97ab64a5a504b988014",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 16 Oct 2026 02:13:10 GMT",
+        "ETag": "\"5a202-65debb4aa06ff\""
+      },
+      "archive_members": [
+        "readme.txt",
+        "VE.txt"
+      ],
+      "raw_object_preserved": true,
+      "source_version_policy": "rolling URL; the packaged hash identifies this snapshot, not future downloads"
+    }
+  ],
+  "failures": []
+}

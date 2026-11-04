@@ -1,0 +1,20 @@
+{
+  "attempts_not_promoted": [
+    {
+      "id": "ar-georef-asentamientos",
+      "url": "https://apis.datos.gob.ar/georef/api/asentamientos?max=5000&orden=id",
+      "error": "Incomplete: 14673"
+    },
+    {
+      "id": "ar-georef-asentamientos-10000",
+      "url": "https://apis.datos.gob.ar/georef/api/asentamientos?max=5000&orden=id&inicio=10000",
+      "error": "HTTP Error 400: Bad Request"
+    }
+  ],
+  "unmerged_source_ids": [
+    "ar-georef-asentamientos-0",
+    "ar-georef-asentamientos-5000",
+    "ar-georef-asentamientos-full"
+  ],
+  "reason": "Georef paginated v1 settlement responses were incomplete; full static settlement response used a different schema/version. No partial/mixed settlement dataset was promoted. v1 complete province/department/municipality/census-locality/locality resources are used."
+}

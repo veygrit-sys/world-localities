@@ -1,0 +1,92 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "FRO",
+    "country": "FO",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Faroe Islands",
+    "geonames_id": "2622320",
+    "id": "country:FO",
+    "m49": "234",
+    "m49_region": "Europe",
+    "name_en": "Faroe Islands",
+    "region": "Northern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 182,
+    "admin_rows": 38,
+    "ambiguous_parents": 0,
+    "country": "FO",
+    "country_scope_only": 0,
+    "localities_without_adm1": 3,
+    "locality_rows": 185,
+    "name_en": "Faroe Islands",
+    "other_admin_rows": 1,
+    "region": "Northern Europe",
+    "unresolved_parents": 3
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 6,
+    "ADM2": 29,
+    "ADM2H": 1,
+    "ADM3": 3,
+    "PPL": 162,
+    "PPLA": 5,
+    "PPLA2": 12,
+    "PPLC": 1,
+    "PPLQ": 3,
+    "PPLX": 2
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 15478,
+      "rows": 224,
+      "sha256": "ecaff4b96b7889afe9ec20f21bbc0b6680b838ac9258734980dbc228480a84cd",
+      "uncompressed_sha256": "a0b35f0b78eb656140cf0041837c3990839438163758eef3709cda037cde3a8c"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "historical_parent_not_asserted": 4,
+    "missing_code": 3,
+    "source_admin_code": 211,
+    "source_country": 6
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 6,
+      "sha256": "2defed617f0caace1dcefbc67981ea79d0fefd5f50824e8b760e844049f1016a"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 1902,
+    "bytes": 69990,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 304,
+      "L": 15,
+      "R": 5,
+      "S": 134,
+      "T": 1218,
+      "V": 1
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:53:11 GMT",
+    "retained_rows": 224,
+    "retrieved_at": "2026-09-29T11:13:36.600565+00:00",
+    "sha256": "f463aa9ff39ad1d0d703183754b3f73e5e33d2140fab39ea044a54f2649118cc",
+    "url": "https://download.geonames.org/export/dump/FO.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1994-03-26"
+}

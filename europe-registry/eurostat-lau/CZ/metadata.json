@@ -1,0 +1,35 @@
+{
+  "country": "CZ",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 2204,
+      "rows": 23,
+      "sha256": "456bc4b0934236587ffe13da7cabbd3e93f1c00683aa79b6124ff8e5ebc8e7db"
+    },
+    "units.csv.gz": {
+      "bytes": 134462,
+      "rows": 6258,
+      "sha256": "5cf790dd08504985dcb026497ddb60be7b261c0a3a26045d688c915c897c4f44"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 6258,
+  "skipped_empty_rows": 0,
+  "source_period_counts": {
+    "2024": 6258
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "CZ",
+  "validation": {
+    "core": "validated",
+    "overall": "validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

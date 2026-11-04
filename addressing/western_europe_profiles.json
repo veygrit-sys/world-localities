@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "region": "Western Europe",
+  "reviewed_at": "2026-10-16",
+  "purpose": "Native-language and English address display profiles with script and evidence status; not an address-existence or deliverability claim.",
+  "overrides": ["AT", "BE", "CH", "DE", "FR", "LI", "LU", "MC", "NL"],
+  "countries": {
+    "AT": {
+      "native_languages": ["de-Latn"],
+      "default_native_language": "de-Latn",
+      "native_profile": "AT_de",
+      "native_profiles": {"de-Latn": "AT_de"},
+      "native_scripts": {"de-Latn": "Latn"},
+      "english_profile": "AT_en",
+      "country_names": {"de-Latn": "Österreich", "en": "Austria"},
+      "romanization_policy": "German and English values are explicit even though both use Latin script. The renderer preserves supplied Austrian block, staircase, floor and door notation and does not translate it.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Österreichische Post", "url": "https://www.post.at/p/c/adressieren", "scope": "Current domestic and international address-block order, complete street and postcode requirements"},
+        {"authority": "Österreichische Post", "url": "https://assets.post.at/-/media/Dokumente/De/Geschaeftlich/Versenden/web-Richtig-Adressieren-2024.pdf", "scope": "2024 street, house, block, staircase and door notation plus P.O. Box and locality examples"}
+      ]
+    },
+    "BE": {
+      "native_languages": ["nl-Latn", "fr-Latn", "de-Latn"],
+      "default_native_language": "nl-Latn",
+      "native_profile": "BE_nl",
+      "native_profiles": {"nl-Latn": "BE_nl", "fr-Latn": "BE_fr", "de-Latn": "BE_de"},
+      "native_scripts": {"nl-Latn": "Latn", "fr-Latn": "Latn", "de-Latn": "Latn"},
+      "english_profile": "BE_en",
+      "country_names": {"nl-Latn": "België", "fr-Latn": "Belgique", "de-Latn": "Belgien", "en": "Belgium"},
+      "romanization_policy": "Dutch, French, German and English address values are separate. A Belgian thoroughfare must use one language; mixed or inferred translations are not accepted as verified values.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "bpost", "url": "https://www.bpost.be/fr/tout-sur-les-adresses", "scope": "Current required components, single-language rule, thoroughfare-before-number order and box designator rule"},
+        {"authority": "bpost", "url": "https://www.bpost.be/fr/legislation-liee-aux-adresses", "scope": "Four-digit postcode and municipality line, street/building/box line and P.O. Box requirements"}
+      ]
+    },
+    "CH": {
+      "native_languages": ["de-Latn", "fr-Latn", "it-Latn", "rm-Latn"],
+      "default_native_language": "de-Latn",
+      "native_profile": "CH_de",
+      "native_profiles": {"de-Latn": "CH_de", "fr-Latn": "CH_fr", "it-Latn": "CH_it", "rm-Latn": "CH_rm"},
+      "native_scripts": {"de-Latn": "Latn", "fr-Latn": "Latn", "it-Latn": "Latn", "rm-Latn": "Latn"},
+      "english_profile": "CH_en",
+      "country_names": {"de-Latn": "Schweiz", "fr-Latn": "Suisse", "it-Latn": "Svizzera", "rm-Latn": "Svizra", "en": "Switzerland"},
+      "romanization_policy": "German, French, Italian, Romansh and English values are stored independently. Shared Latin script is not translation evidence.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Swiss Post", "url": "https://www.post.ch/de/briefe-versenden/adressieren-und-gestalten/sendungen-richtig-adressieren", "scope": "Current street, house, apartment/floor, P.O. Box and four-digit postcode/locality address examples"},
+        {"authority": "Universal Postal Union and Swiss Post", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/cheEn.pdf", "scope": "June 2024 four-digit postcode, canton disambiguation and multilingual home and P.O. Box examples"}
+      ]
+    },
+    "DE": {
+      "native_languages": ["de-Latn"],
+      "default_native_language": "de-Latn",
+      "native_profile": "DE_de",
+      "native_profiles": {"de-Latn": "DE_de"},
+      "native_scripts": {"de-Latn": "Latn"},
+      "english_profile": "DE_en",
+      "country_names": {"de-Latn": "Deutschland", "en": "Germany"},
+      "romanization_policy": "German values cannot silently populate English fields. No D- or DE- prefix is added to or removed from a supplied postcode.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "Deutsche Post", "url": "https://www.deutschepost.de/de/b/briefumschlag-richtig-beschriften.html", "scope": "Current recipient, sublocality, street/house, P.O. Box and postcode/locality line order"},
+        {"authority": "Universal Postal Union and Deutsche Post", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/deuEn.pdf", "scope": "Five-digit postcode, apartment, P.O. Box, large-receiver and Packstation examples and no-country-prefix rule"}
+      ]
+    },
+    "FR": {
+      "native_languages": ["fr-Latn"],
+      "default_native_language": "fr-Latn",
+      "native_profile": "FR_fr",
+      "native_profiles": {"fr-Latn": "FR_fr"},
+      "native_scripts": {"fr-Latn": "Latn"},
+      "english_profile": "FR_en",
+      "country_names": {"fr-Latn": "France", "en": "France"},
+      "romanization_policy": "French and English component values remain distinct even where the spelling is identical. CEDEX and user-supplied delivery designators are preserved, not synthesized.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "La Poste", "url": "https://aide.laposte.fr/contenu/comment-saisir-correctement-une-destination", "scope": "Current seven-line international order including apartment/floor/staircase, building, delivery line, special service and postcode/locality"},
+        {"authority": "Universal Postal Union and La Poste", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/fraEn.pdf", "scope": "Five-digit postcode, CEDEX preservation and detailed home, residence and business examples"}
+      ]
+    },
+    "LI": {
+      "native_languages": ["de-Latn"],
+      "default_native_language": "de-Latn",
+      "native_profile": "LI_de",
+      "native_profiles": {"de-Latn": "LI_de"},
+      "native_scripts": {"de-Latn": "Latn"},
+      "english_profile": "LI_en",
+      "country_names": {"de-Latn": "Liechtenstein", "en": "Liechtenstein"},
+      "romanization_policy": "German and English labels are explicit. The renderer preserves, but never invents, an FL- postcode prefix.",
+      "evidence_status": "source_derived_domestic",
+      "sources": [
+        {"authority": "Liechtensteinische Post", "url": "https://post.li/standort/vaduz/", "scope": "Operator street, house number and 9490 locality example"},
+        {"authority": "Liechtensteinische Post", "url": "https://post.li/empfangen/postfach/", "scope": "P.O. Box position on the penultimate line and branch suffix after postcode/locality"},
+        {"authority": "Swiss Post", "url": "https://www.post.ch/de/briefe-versenden/adressieren-und-gestalten/sendungen-richtig-adressieren", "scope": "Shared Swiss/Liechtenstein postcode lookup and compatible four-digit postcode/locality addressing rules"}
+      ]
+    },
+    "LU": {
+      "native_languages": ["lb-Latn", "fr-Latn", "de-Latn"],
+      "default_native_language": "lb-Latn",
+      "native_profile": "LU_lb",
+      "native_profiles": {"lb-Latn": "LU_lb", "fr-Latn": "LU_fr", "de-Latn": "LU_de"},
+      "native_scripts": {"lb-Latn": "Latn", "fr-Latn": "Latn", "de-Latn": "Latn"},
+      "english_profile": "LU_en",
+      "country_names": {"lb-Latn": "Lëtzebuerg", "fr-Latn": "Luxembourg", "de-Latn": "Luxemburg", "en": "Luxembourg"},
+      "romanization_policy": "Luxembourgish, French, German and English fields are independent. The renderer preserves the official L- form when supplied and never manufactures it from digits.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "POST Luxembourg", "url": "https://www.post.lu/fr/particuliers/colis-courrier/bien-rediger-une-adresse", "scope": "Current six-line limit, geographic and P.O. Box examples, house-before-road order and L-prefixed postcode/locality"},
+        {"authority": "Universal Postal Union and POST Luxembourg", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/luxEn.pdf", "scope": "Four-digit L-prefixed postcode and home, P.O. Box, bulk-user and Pack Up formats"}
+      ]
+    },
+    "MC": {
+      "native_languages": ["fr-Latn"],
+      "default_native_language": "fr-Latn",
+      "native_profile": "MC_fr",
+      "native_profiles": {"fr-Latn": "MC_fr"},
+      "native_scripts": {"fr-Latn": "Latn"},
+      "english_profile": "MC_en",
+      "country_names": {"fr-Latn": "Monaco", "en": "Monaco"},
+      "romanization_policy": "French and English component labels are explicit. The renderer preserves 98000 and CEDEX forms exactly as supplied and does not infer a service code.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "La Poste Monaco", "url": "https://www.lapostemonaco.mc/bureaux.html", "scope": "Current 98000 MONACO and 98020 MONACO CEDEX street examples"},
+        {"authority": "Universal Postal Union and La Poste Monaco", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/mcoEn.pdf", "scope": "Five-digit postcode position and France-managed address-format reference"}
+      ]
+    },
+    "NL": {
+      "native_languages": ["nl-Latn"],
+      "default_native_language": "nl-Latn",
+      "native_profile": "NL_nl",
+      "native_profiles": {"nl-Latn": "NL_nl"},
+      "native_scripts": {"nl-Latn": "Latn"},
+      "english_profile": "NL_en",
+      "country_names": {"nl-Latn": "Nederland", "en": "Netherlands"},
+      "romanization_policy": "Dutch and English components are explicit. The official BAG house-number addition is preserved exactly and is not translated or normalized.",
+      "evidence_status": "official_guidance",
+      "sources": [
+        {"authority": "PostNL", "url": "https://www.postnl.nl/versturen/brief-of-kaart-versturen/hoe-verstuur-ik-een-brief-of-kaart/brief-adresseren/", "scope": "Current street/house/addition and postcode/locality order, required postcode spacing and locality capitalization"},
+        {"authority": "PostNL", "url": "https://www.postnl.nl/zakelijk/post-versturen/veel-post-versturen/hoe-werkt-partijenpost/adresseren/", "scope": "Official BAG spelling and house-number-addition preservation plus separate unofficial room/department guidance"}
+      ]
+    }
+  },
+  "profiles": {
+    "AT": {"country_code": "AT", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}} {{{subpremise}}}\n{{{po_box}}}\n{{{place}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{town}}} || {{{city}}} || {{{village}}} || {{{municipality}}} {{/first}}\n{{{country}}}\n"},
+    "AT_de": {"country_code": "AT", "language": "de", "use_country": "AT"},
+    "AT_en": {"country_code": "AT", "language": "en", "use_country": "AT"},
+    "BE": {"country_code": "BE", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}} {{{subpremise}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{town}}} || {{{city}}} || {{{village}}} || {{{municipality}}} {{/first}}\n{{{country}}}\n"},
+    "BE_nl": {"country_code": "BE", "language": "nl", "use_country": "BE"},
+    "BE_fr": {"country_code": "BE", "language": "fr", "use_country": "BE"},
+    "BE_de": {"country_code": "BE", "language": "de", "use_country": "BE"},
+    "BE_en": {"country_code": "BE", "language": "en", "use_country": "BE"},
+    "CH": {"country_code": "CH", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}} {{{subpremise}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{town}}} || {{{city}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{country}}}\n"},
+    "CH_de": {"country_code": "CH", "language": "de", "use_country": "CH"},
+    "CH_fr": {"country_code": "CH", "language": "fr", "use_country": "CH"},
+    "CH_it": {"country_code": "CH", "language": "it", "use_country": "CH"},
+    "CH_rm": {"country_code": "CH", "language": "rm", "use_country": "CH"},
+    "CH_en": {"country_code": "CH", "language": "en", "use_country": "CH"},
+    "DE": {"country_code": "DE", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{#first}} {{{place}}} || {{{neighbourhood}}} || {{{suburb}}} || {{{city_district}}} {{/first}}\n{{{road}}} {{{house_number}}} {{{subpremise}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{town}}} || {{{city}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{country}}}\n"},
+    "DE_de": {"country_code": "DE", "language": "de", "use_country": "DE"},
+    "DE_en": {"country_code": "DE", "language": "en", "use_country": "DE"},
+    "FR": {"country_code": "FR", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{subpremise}}}\n{{{house}}}\n{{{house_number}}} {{{road}}}\n{{{place}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{town}}} || {{{village}}} || {{{hamlet}}} || {{{city}}} || {{{municipality}}} {{/first}}\n{{{country}}}\n"},
+    "FR_fr": {"country_code": "FR", "language": "fr", "use_country": "FR"},
+    "FR_en": {"country_code": "FR", "language": "en", "use_country": "FR"},
+    "LI": {"country_code": "LI", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}} {{{subpremise}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{town}}} || {{{city}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{country}}}\n"},
+    "LI_de": {"country_code": "LI", "language": "de", "use_country": "LI"},
+    "LI_en": {"country_code": "LI", "language": "en", "use_country": "LI"},
+    "LU": {"country_code": "LU", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{subpremise}}}\n{{{house}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{town}}} || {{{city}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{country}}}\n"},
+    "LU_lb": {"country_code": "LU", "language": "lb", "use_country": "LU"},
+    "LU_fr": {"country_code": "LU", "language": "fr", "use_country": "LU"},
+    "LU_de": {"country_code": "LU", "language": "de", "use_country": "LU"},
+    "LU_en": {"country_code": "LU", "language": "en", "use_country": "LU"},
+    "MC": {"country_code": "MC", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{subpremise}}}\n{{{house}}}\n{{{house_number}}} {{{road}}}\n{{{place}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{town}}} || {{{city}}} || {{{municipality}}} {{/first}}\n{{{country}}}\n"},
+    "MC_fr": {"country_code": "MC", "language": "fr", "use_country": "MC"},
+    "MC_en": {"country_code": "MC", "language": "en", "use_country": "MC"},
+    "NL": {"country_code": "NL", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{road}}} {{{house_number}}} {{{subpremise}}}\n{{{po_box}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{town}}} || {{{city}}} || {{{village}}} || {{{municipality}}} {{/first}}\n{{{country}}}\n", "postformat_replace": [["\\n(\\d{4})([A-Za-z]{2}) ", "\\n$1 $2 "]]},
+    "NL_nl": {"country_code": "NL", "language": "nl", "use_country": "NL"},
+    "NL_en": {"country_code": "NL", "language": "en", "use_country": "NL"}
+  },
+  "profile_status": {
+    "AT": "official_guidance", "AT_de": "official_guidance", "AT_en": "official_guidance",
+    "BE": "official_guidance", "BE_nl": "official_guidance", "BE_fr": "official_guidance", "BE_de": "official_guidance", "BE_en": "official_guidance",
+    "CH": "official_guidance", "CH_de": "official_guidance", "CH_fr": "official_guidance", "CH_it": "official_guidance", "CH_rm": "official_guidance", "CH_en": "official_guidance",
+    "DE": "official_guidance", "DE_de": "official_guidance", "DE_en": "official_guidance",
+    "FR": "official_guidance", "FR_fr": "official_guidance", "FR_en": "official_guidance",
+    "LI": "source_derived_domestic", "LI_de": "source_derived_domestic", "LI_en": "source_derived_domestic",
+    "LU": "official_guidance", "LU_lb": "official_guidance", "LU_fr": "official_guidance", "LU_de": "official_guidance", "LU_en": "official_guidance",
+    "MC": "official_guidance", "MC_fr": "official_guidance", "MC_en": "official_guidance",
+    "NL": "official_guidance", "NL_nl": "official_guidance", "NL_en": "official_guidance"
+  }
+}

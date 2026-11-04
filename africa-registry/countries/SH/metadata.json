@@ -1,0 +1,78 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "SHN",
+    "country": "SH",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Saint Helena",
+    "geonames_id": "3370751",
+    "id": "country:SH",
+    "m49": "654",
+    "name_en": "Saint Helena",
+    "numeric": "654",
+    "region": "Western Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 20,
+    "admin_rows": 11,
+    "ambiguous_parents": 0,
+    "country": "SH",
+    "country_scope_only": 0,
+    "localities_without_adm1": 0,
+    "locality_rows": 20,
+    "name_en": "Saint Helena",
+    "other_admin_rows": 1,
+    "region": "Western Africa",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 3,
+    "ADM2": 8,
+    "PCLD": 1,
+    "PPL": 17,
+    "PPLA": 2,
+    "PPLC": 1
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 5603,
+      "rows": 32,
+      "sha256": "0f72886b3edcfb891932b5dbfebd32b05fecb591e1c15f27afbba57769774581",
+      "uncompressed_sha256": "76ade7f99b6a7ac13b3411ff3a15c16f985e505ce6749e4a12fa8f8bbb04ba3c"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 28,
+    "source_country": 3
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 3,
+      "sha256": "ebae2af1639802cbce7104636818a5d97bbfcf4b9ae02098b028d3bd20a4f0b2"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 24979,
+    "discarded_feature_classes": {
+      "H": 89,
+      "L": 18,
+      "S": 130,
+      "T": 396
+    },
+    "retained_rows": 32,
+    "retrieved_on": "2026-09-26",
+    "sha256": "7094ffd2f2d4ed156bff57c2a91b982814030313fcfdabf1e3eaad9c181cbdf4",
+    "source_rows": 665,
+    "url": "https://download.geonames.org/export/dump/SH.zip"
+  },
+  "source_modified_max": "2026-05-21",
+  "source_modified_min": "2011-03-16"
+}

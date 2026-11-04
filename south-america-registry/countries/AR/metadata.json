@@ -1,0 +1,136 @@
+{
+  "alternate_values_file": {
+    "bytes": 675725,
+    "filename": "alternate-values.csv.gz",
+    "rows": 41207,
+    "sha256": "c1c53093dbfcfc5e31c62539649e54130ca2975151d5bd3fe7679f896d613fd1",
+    "uncompressed_sha256": "7c62671cab6c4974e1f2cca72a408cf4e869e6579ca080d97223042e6689a127"
+  },
+  "alternate_values_source": {
+    "bytes": 738132,
+    "retained_rows": 41207,
+    "retrieved_on": "2026-10-02",
+    "sha256": "200175d9ac1623a1011c17b36068861fccdd3f810893111edb6c556c8b204c34",
+    "source_columns": 10,
+    "source_rows": 64828,
+    "url": "https://download.geonames.org/export/dump/alternatenames/AR.zip"
+  },
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "ARG",
+    "country": "AR",
+    "geonames_continent": "SA",
+    "geonames_id": "3865483",
+    "id": "country:AR",
+    "m49": "032",
+    "name_en": "Argentina",
+    "region": "South America",
+    "region_m49": "005",
+    "source_country_languages": [
+      "es-AR",
+      "en",
+      "it",
+      "de",
+      "fr",
+      "gn"
+    ],
+    "status": "source_country_or_area"
+  },
+  "country_profile_source": {
+    "bytes": 31678,
+    "repository_path": "sources/countryInfo-2026-10-02.txt",
+    "retrieved_on": "2026-10-02",
+    "sha256": "93bafc525813f22e4711ff9ed6d626343094ce48c26388dc7c49189b3d7d5512",
+    "url": "https://download.geonames.org/export/dump/countryInfo.txt"
+  },
+  "counts": {
+    "address_candidates": 14850,
+    "admin_rows": 605,
+    "ambiguous_parents": 0,
+    "country": "AR",
+    "country_scope_only": 0,
+    "localities_without_adm1": 0,
+    "locality_rows": 14889,
+    "name_en": "Argentina",
+    "other_admin_rows": 2,
+    "region": "South America",
+    "unresolved_parents": 1
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 24,
+    "ADM2": 529,
+    "ADM2H": 1,
+    "ADM3": 52,
+    "PCLI": 1,
+    "PPL": 14071,
+    "PPLA": 23,
+    "PPLA2": 460,
+    "PPLA3": 3,
+    "PPLA4": 1,
+    "PPLC": 1,
+    "PPLF": 4,
+    "PPLL": 18,
+    "PPLQ": 34,
+    "PPLS": 1,
+    "PPLX": 273
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 762115,
+      "rows": 15496,
+      "sha256": "5e73d098ebd8152abaf09bfffbbad2f945bddd80e618a157cb39c898ab9a3af7",
+      "uncompressed_sha256": "063616d82aeb8fa985dc6b3c2fa61b0fb1ac6bb392deb7aec4b2233955bcf9e4"
+    }
+  },
+  "known_issues": [],
+  "label_coverage": {
+    "current_country_language_name_entities": 11050,
+    "current_english_name_entities": 743,
+    "language_tagged_name_entities": 11366,
+    "missing_country_language_name_entities": 4446,
+    "missing_english_name_entities": 14753,
+    "native_label_rule": "Exact source language tag matched against countryInfo language list; no language is inferred from primary name, ASCII, spelling or script. Country-language match is not proof of each place's indigenous language."
+  },
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "missing_code": 1,
+    "not_assigned_for_other_feature": 2,
+    "source_admin_code": 15469,
+    "source_country": 24
+  },
+  "postal_coverage": {
+    "note": "Only source post-tag values, if any; not joined by place name and not delivery validation.",
+    "postal_deliverability_verified": false,
+    "postal_validation": false,
+    "source_postal_value_rows": 0
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 24,
+      "sha256": "6ab6856b624a948a520364b44033862a6ed6429dc2c9cc22a807ede38d16bfa1"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 1908271,
+    "discarded_feature_classes": {
+      "H": 8923,
+      "L": 3514,
+      "R": 64,
+      "S": 21403,
+      "T": 9649,
+      "U": 3,
+      "V": 44
+    },
+    "retained_rows": 15496,
+    "retrieved_on": "2026-10-02",
+    "sha256": "ac075b2a2f10c251792d0354401083e4529bc02b9fff1438d98f14842cf20a0e",
+    "source_rows": 59096,
+    "url": "https://download.geonames.org/export/dump/AR.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1993-12-21"
+}

@@ -1,0 +1,35 @@
+{
+  "country": "PT",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 3592,
+      "rows": 38,
+      "sha256": "cd088d102fd31884bebff693269c1bf80ae3956dcac96c955de59ce40d9f91f6"
+    },
+    "units.csv.gz": {
+      "bytes": 78138,
+      "rows": 3092,
+      "sha256": "e164b1c05edddf2ca15006ad16031240af90a8575bdc5900bdf7bed38b217cca"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 3092,
+  "skipped_empty_rows": 31854,
+  "source_period_counts": {
+    "2024": 3092
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "PT",
+  "validation": {
+    "core": "validated",
+    "overall": "validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

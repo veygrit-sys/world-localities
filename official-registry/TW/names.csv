@@ -1,0 +1,743 @@
+entity_id,language,text,kind,audience,source_ref,source_row
+tw-postal-area:a84a272a6810d6a88e98e2ad,zh-Hant,臺北市中正區,postal_authority_label,unspecified,tw-chunghwa-names,1
+tw-postal-area:a84a272a6810d6a88e98e2ad,en,"Zhongzheng Dist., Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,1
+tw-postal-area:103c82a56b0235e30b750f8c,zh-Hant,臺北市大同區,postal_authority_label,unspecified,tw-chunghwa-names,2
+tw-postal-area:103c82a56b0235e30b750f8c,en,"Datong Dist., Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,2
+tw-postal-area:01a6a4715027704c57fc7fee,zh-Hant,臺北市中山區,postal_authority_label,unspecified,tw-chunghwa-names,3
+tw-postal-area:01a6a4715027704c57fc7fee,en,"Zhongshan Dist., Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,3
+tw-postal-area:c7977eb91a300e41d2ee5790,zh-Hant,臺北市松山區,postal_authority_label,unspecified,tw-chunghwa-names,4
+tw-postal-area:c7977eb91a300e41d2ee5790,en,"Songshan Dist., Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,4
+tw-postal-area:0badd95a888dec772db66ac8,zh-Hant,臺北市大安區,postal_authority_label,unspecified,tw-chunghwa-names,5
+tw-postal-area:0badd95a888dec772db66ac8,en,"Da’an Dist., Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,5
+tw-postal-area:a341f75c424d739451a201ca,zh-Hant,臺北市萬華區,postal_authority_label,unspecified,tw-chunghwa-names,6
+tw-postal-area:a341f75c424d739451a201ca,en,"Wanhua Dist., Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,6
+tw-postal-area:5618e4126e9b95f43f0a252d,zh-Hant,臺北市信義區,postal_authority_label,unspecified,tw-chunghwa-names,7
+tw-postal-area:5618e4126e9b95f43f0a252d,en,"Xinyi Dist., Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,7
+tw-postal-area:ce0f4502ed67d33a025432e4,zh-Hant,臺北市士林區,postal_authority_label,unspecified,tw-chunghwa-names,8
+tw-postal-area:ce0f4502ed67d33a025432e4,en,"Shilin Dist., Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,8
+tw-postal-area:ff60808c4fcce2d442780dfc,zh-Hant,臺北市北投區,postal_authority_label,unspecified,tw-chunghwa-names,9
+tw-postal-area:ff60808c4fcce2d442780dfc,en,"Beitou Dist., Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,9
+tw-postal-area:240123f35ea79a81e02ca38b,zh-Hant,臺北市內湖區,postal_authority_label,unspecified,tw-chunghwa-names,10
+tw-postal-area:240123f35ea79a81e02ca38b,en,"Neihu Dist., Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,10
+tw-postal-area:6f444e81b00b07b81604716c,zh-Hant,臺北市南港區,postal_authority_label,unspecified,tw-chunghwa-names,11
+tw-postal-area:6f444e81b00b07b81604716c,en,"Nangang Dist., Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,11
+tw-postal-area:d3ff06ce6df682e9f9bf68f8,zh-Hant,臺北市文山區,postal_authority_label,unspecified,tw-chunghwa-names,12
+tw-postal-area:d3ff06ce6df682e9f9bf68f8,en,"Wenshan Dist., Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,12
+tw-postal-area:4f029bbc0d4dba0ad529191c,zh-Hant,基隆市仁愛區,postal_authority_label,unspecified,tw-chunghwa-names,13
+tw-postal-area:4f029bbc0d4dba0ad529191c,en,"Ren’ai Dist., Keelung City",postal_authority_label,unspecified,tw-chunghwa-names,13
+tw-postal-area:4a38caf7318e3c9341aa2280,zh-Hant,基隆市信義區,postal_authority_label,unspecified,tw-chunghwa-names,14
+tw-postal-area:4a38caf7318e3c9341aa2280,en,"Xinyi Dist., Keelung City",postal_authority_label,unspecified,tw-chunghwa-names,14
+tw-postal-area:aa4b938e3db4ad146842c374,zh-Hant,基隆市中正區,postal_authority_label,unspecified,tw-chunghwa-names,15
+tw-postal-area:aa4b938e3db4ad146842c374,en,"Zhongzheng Dist., Keelung City",postal_authority_label,unspecified,tw-chunghwa-names,15
+tw-postal-area:5cd25671046d4b27c6a157fe,zh-Hant,基隆市中山區,postal_authority_label,unspecified,tw-chunghwa-names,16
+tw-postal-area:5cd25671046d4b27c6a157fe,en,"Zhongshan Dist., Keelung City",postal_authority_label,unspecified,tw-chunghwa-names,16
+tw-postal-area:bdf53e912ce01af7cd8f1977,zh-Hant,基隆市安樂區,postal_authority_label,unspecified,tw-chunghwa-names,17
+tw-postal-area:bdf53e912ce01af7cd8f1977,en,"Anle Dist., Keelung City",postal_authority_label,unspecified,tw-chunghwa-names,17
+tw-postal-area:7c403af5e234af8b5312b256,zh-Hant,基隆市暖暖區,postal_authority_label,unspecified,tw-chunghwa-names,18
+tw-postal-area:7c403af5e234af8b5312b256,en,"Nuannuan Dist., Keelung City",postal_authority_label,unspecified,tw-chunghwa-names,18
+tw-postal-area:8dbb7c5a1fbdff650547fdfe,zh-Hant,基隆市七堵區,postal_authority_label,unspecified,tw-chunghwa-names,19
+tw-postal-area:8dbb7c5a1fbdff650547fdfe,en,"Qidu Dist., Keelung City",postal_authority_label,unspecified,tw-chunghwa-names,19
+tw-postal-area:bced42c59b0816d4d84d147d,zh-Hant,新北市萬里區,postal_authority_label,unspecified,tw-chunghwa-names,20
+tw-postal-area:bced42c59b0816d4d84d147d,en,"Wanli Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,20
+tw-postal-area:f2c12a234a74a8f77d880bc0,zh-Hant,新北市金山區,postal_authority_label,unspecified,tw-chunghwa-names,21
+tw-postal-area:f2c12a234a74a8f77d880bc0,en,"Jinshan Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,21
+tw-postal-area:a6d68a62986b61dca6300da4,zh-Hant,連江縣南竿鄉,postal_authority_label,unspecified,tw-chunghwa-names,22
+tw-postal-area:a6d68a62986b61dca6300da4,en,"Nangan Township, Lienchiang County",postal_authority_label,unspecified,tw-chunghwa-names,22
+tw-postal-area:db113f12f52ebd29bb272d39,zh-Hant,連江縣北竿鄉,postal_authority_label,unspecified,tw-chunghwa-names,23
+tw-postal-area:db113f12f52ebd29bb272d39,en,"Beigan Township, Lienchiang County",postal_authority_label,unspecified,tw-chunghwa-names,23
+tw-postal-area:7f7fdb14474122c74e59452e,zh-Hant,連江縣莒光鄉,postal_authority_label,unspecified,tw-chunghwa-names,24
+tw-postal-area:7f7fdb14474122c74e59452e,en,"Juguang Township, Lienchiang County",postal_authority_label,unspecified,tw-chunghwa-names,24
+tw-postal-area:9442b12656ef011f43419788,zh-Hant,連江縣東引鄉,postal_authority_label,unspecified,tw-chunghwa-names,25
+tw-postal-area:9442b12656ef011f43419788,en,"Dongyin Township, Lienchiang County",postal_authority_label,unspecified,tw-chunghwa-names,25
+tw-postal-area:5031c68d83adc7bf0da349e1,zh-Hant,新北市板橋區,postal_authority_label,unspecified,tw-chunghwa-names,26
+tw-postal-area:5031c68d83adc7bf0da349e1,en,"Banqiao Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,26
+tw-postal-area:f492be4cfbe39c8b68f46507,zh-Hant,新北市汐止區,postal_authority_label,unspecified,tw-chunghwa-names,27
+tw-postal-area:f492be4cfbe39c8b68f46507,en,"Xizhi Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,27
+tw-postal-area:7c0b55dddab80b99cbabed5d,zh-Hant,新北市深坑區,postal_authority_label,unspecified,tw-chunghwa-names,28
+tw-postal-area:7c0b55dddab80b99cbabed5d,en,"Shenkeng Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,28
+tw-postal-area:d5ad21143c11d4ee0607af58,zh-Hant,新北市石碇區,postal_authority_label,unspecified,tw-chunghwa-names,29
+tw-postal-area:d5ad21143c11d4ee0607af58,en,"Shiding Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,29
+tw-postal-area:d72fc72bde8d1dbe002050f3,zh-Hant,新北市瑞芳區,postal_authority_label,unspecified,tw-chunghwa-names,30
+tw-postal-area:d72fc72bde8d1dbe002050f3,en,"Ruifang Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,30
+tw-postal-area:6b33b62f5e3a140d0ebb492a,zh-Hant,新北市平溪區,postal_authority_label,unspecified,tw-chunghwa-names,31
+tw-postal-area:6b33b62f5e3a140d0ebb492a,en,"Pingxi Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,31
+tw-postal-area:3cad023f620caea073bf4c40,zh-Hant,新北市雙溪區,postal_authority_label,unspecified,tw-chunghwa-names,32
+tw-postal-area:3cad023f620caea073bf4c40,en,"Shuangxi Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,32
+tw-postal-area:2196f360953016838f64620e,zh-Hant,新北市貢寮區,postal_authority_label,unspecified,tw-chunghwa-names,33
+tw-postal-area:2196f360953016838f64620e,en,"Gongliao Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,33
+tw-postal-area:f8a8dbd27bde88c282510dc6,zh-Hant,新北市新店區,postal_authority_label,unspecified,tw-chunghwa-names,34
+tw-postal-area:f8a8dbd27bde88c282510dc6,en,"Xindian Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,34
+tw-postal-area:dd039a4e4b10ba5e5bee19cf,zh-Hant,新北市坪林區,postal_authority_label,unspecified,tw-chunghwa-names,35
+tw-postal-area:dd039a4e4b10ba5e5bee19cf,en,"Pinglin Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,35
+tw-postal-area:b93e5e1ac499a97ffe878046,zh-Hant,新北市烏來區,postal_authority_label,unspecified,tw-chunghwa-names,36
+tw-postal-area:b93e5e1ac499a97ffe878046,en,"Wulai Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,36
+tw-postal-area:6a3b671036cdb78f6317c649,zh-Hant,新北市永和區,postal_authority_label,unspecified,tw-chunghwa-names,37
+tw-postal-area:6a3b671036cdb78f6317c649,en,"Yonghe Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,37
+tw-postal-area:98cafcb9edaa552e1a0bb2bf,zh-Hant,新北市中和區,postal_authority_label,unspecified,tw-chunghwa-names,38
+tw-postal-area:98cafcb9edaa552e1a0bb2bf,en,"Zhonghe Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,38
+tw-postal-area:4dceb5b78a2d082df66a4336,zh-Hant,新北市土城區,postal_authority_label,unspecified,tw-chunghwa-names,39
+tw-postal-area:4dceb5b78a2d082df66a4336,en,"Tucheng Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,39
+tw-postal-area:571964bbcf3003b07cdbad88,zh-Hant,新北市三峽區,postal_authority_label,unspecified,tw-chunghwa-names,40
+tw-postal-area:571964bbcf3003b07cdbad88,en,"Sanxia Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,40
+tw-postal-area:2c60bcb91311c72219661122,zh-Hant,新北市樹林區,postal_authority_label,unspecified,tw-chunghwa-names,41
+tw-postal-area:2c60bcb91311c72219661122,en,"Shulin Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,41
+tw-postal-area:43c55521d25428eede39f6b5,zh-Hant,新北市鶯歌區,postal_authority_label,unspecified,tw-chunghwa-names,42
+tw-postal-area:43c55521d25428eede39f6b5,en,"Yingge Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,42
+tw-postal-area:e7458bd7dc84713682d41c83,zh-Hant,新北市三重區,postal_authority_label,unspecified,tw-chunghwa-names,43
+tw-postal-area:e7458bd7dc84713682d41c83,en,"Sanchong Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,43
+tw-postal-area:d2400f888a38a57970c721e4,zh-Hant,新北市新莊區,postal_authority_label,unspecified,tw-chunghwa-names,44
+tw-postal-area:d2400f888a38a57970c721e4,en,"Xinzhuang Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,44
+tw-postal-area:824ebf45c99113122f9a559d,zh-Hant,新北市泰山區,postal_authority_label,unspecified,tw-chunghwa-names,45
+tw-postal-area:824ebf45c99113122f9a559d,en,"Taishan Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,45
+tw-postal-area:1b07dd6e1047d115be69cbc8,zh-Hant,新北市林口區,postal_authority_label,unspecified,tw-chunghwa-names,46
+tw-postal-area:1b07dd6e1047d115be69cbc8,en,"Linkou Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,46
+tw-postal-area:61ed1b0699526f45000e46ff,zh-Hant,新北市蘆洲區,postal_authority_label,unspecified,tw-chunghwa-names,47
+tw-postal-area:61ed1b0699526f45000e46ff,en,"Luzhou Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,47
+tw-postal-area:0ba78a1e2df2eadc745579fa,zh-Hant,新北市五股區,postal_authority_label,unspecified,tw-chunghwa-names,48
+tw-postal-area:0ba78a1e2df2eadc745579fa,en,"Wugu Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,48
+tw-postal-area:142a03f19afea47cc4f3f14c,zh-Hant,新北市八里區,postal_authority_label,unspecified,tw-chunghwa-names,49
+tw-postal-area:142a03f19afea47cc4f3f14c,en,"Bali Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,49
+tw-postal-area:ac12a0b710601f06de839c08,zh-Hant,新北市淡水區,postal_authority_label,unspecified,tw-chunghwa-names,50
+tw-postal-area:ac12a0b710601f06de839c08,en,"Tamsui Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,50
+tw-postal-area:e99d30eef1deeefed5a57c37,zh-Hant,新北市三芝區,postal_authority_label,unspecified,tw-chunghwa-names,51
+tw-postal-area:e99d30eef1deeefed5a57c37,en,"Sanzhi Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,51
+tw-postal-area:38fcd4b76e3a5f93bf536f2f,zh-Hant,新北市石門區,postal_authority_label,unspecified,tw-chunghwa-names,52
+tw-postal-area:38fcd4b76e3a5f93bf536f2f,en,"Shimen Dist., New Taipei City",postal_authority_label,unspecified,tw-chunghwa-names,52
+tw-postal-area:c4adbc4292c051e6961ce51f,zh-Hant,宜蘭縣宜蘭市,postal_authority_label,unspecified,tw-chunghwa-names,53
+tw-postal-area:c4adbc4292c051e6961ce51f,en,"Yilan City, Yilan County",postal_authority_label,unspecified,tw-chunghwa-names,53
+tw-postal-area:d01f1a94e1d71a9b9ea2b037,zh-Hant,宜蘭縣頭城鎮,postal_authority_label,unspecified,tw-chunghwa-names,54
+tw-postal-area:d01f1a94e1d71a9b9ea2b037,en,"Toucheng Township, Yilan County",postal_authority_label,unspecified,tw-chunghwa-names,54
+tw-postal-area:4bcfc52b2f724f77bb259567,zh-Hant,宜蘭縣礁溪鄉,postal_authority_label,unspecified,tw-chunghwa-names,55
+tw-postal-area:4bcfc52b2f724f77bb259567,en,"Jiaoxi Township, Yilan County",postal_authority_label,unspecified,tw-chunghwa-names,55
+tw-postal-area:b3805fdd04fc817b04e7ba20,zh-Hant,宜蘭縣壯圍鄉,postal_authority_label,unspecified,tw-chunghwa-names,56
+tw-postal-area:b3805fdd04fc817b04e7ba20,en,"Zhuangwei Township, Yilan County",postal_authority_label,unspecified,tw-chunghwa-names,56
+tw-postal-area:f8da37661ed0411b9014f72f,zh-Hant,宜蘭縣員山鄉,postal_authority_label,unspecified,tw-chunghwa-names,57
+tw-postal-area:f8da37661ed0411b9014f72f,en,"Yuanshan Township, Yilan County",postal_authority_label,unspecified,tw-chunghwa-names,57
+tw-postal-area:c2d5cb6b9d3f2597262e9d07,zh-Hant,宜蘭縣羅東鎮,postal_authority_label,unspecified,tw-chunghwa-names,58
+tw-postal-area:c2d5cb6b9d3f2597262e9d07,en,"Luodong Township, Yilan County",postal_authority_label,unspecified,tw-chunghwa-names,58
+tw-postal-area:2c3af5901c5b141c0d721d7c,zh-Hant,宜蘭縣三星鄉,postal_authority_label,unspecified,tw-chunghwa-names,59
+tw-postal-area:2c3af5901c5b141c0d721d7c,en,"Sanxing Township, Yilan County",postal_authority_label,unspecified,tw-chunghwa-names,59
+tw-postal-area:d9228dc8ce123ca8a2f89049,zh-Hant,宜蘭縣大同鄉,postal_authority_label,unspecified,tw-chunghwa-names,60
+tw-postal-area:d9228dc8ce123ca8a2f89049,en,"Datong Township, Yilan County",postal_authority_label,unspecified,tw-chunghwa-names,60
+tw-postal-area:fe6224c7e54976e9452eba2c,zh-Hant,宜蘭縣五結鄉,postal_authority_label,unspecified,tw-chunghwa-names,61
+tw-postal-area:fe6224c7e54976e9452eba2c,en,"Wujie Township, Yilan County",postal_authority_label,unspecified,tw-chunghwa-names,61
+tw-postal-area:14b6f0e45f49680aa62c8dff,zh-Hant,宜蘭縣冬山鄉,postal_authority_label,unspecified,tw-chunghwa-names,62
+tw-postal-area:14b6f0e45f49680aa62c8dff,en,"Dongshan Township, Yilan County",postal_authority_label,unspecified,tw-chunghwa-names,62
+tw-postal-area:1338fdc58e034a4955a1e296,zh-Hant,宜蘭縣蘇澳鎮,postal_authority_label,unspecified,tw-chunghwa-names,63
+tw-postal-area:1338fdc58e034a4955a1e296,en,"Su’ao Township, Yilan County",postal_authority_label,unspecified,tw-chunghwa-names,63
+tw-postal-area:ef9c135819ecbee70a154566,zh-Hant,宜蘭縣南澳鄉,postal_authority_label,unspecified,tw-chunghwa-names,64
+tw-postal-area:ef9c135819ecbee70a154566,en,"Nan’ao Township, Yilan County",postal_authority_label,unspecified,tw-chunghwa-names,64
+tw-postal-area:cda3af34179470ae383aeea3,zh-Hant,釣魚台,postal_authority_label,unspecified,tw-chunghwa-names,65
+tw-postal-area:cda3af34179470ae383aeea3,en,Diaoyutai,postal_authority_label,unspecified,tw-chunghwa-names,65
+tw-postal-area:ab3c9e761861408ef6ea5b3a,zh-Hant,新竹市東區,postal_authority_label,unspecified,tw-chunghwa-names,66
+tw-postal-area:ab3c9e761861408ef6ea5b3a,en,"East Dist., Hsinchu City",postal_authority_label,unspecified,tw-chunghwa-names,66
+tw-postal-area:273bfdecfa4e9679661245b1,zh-Hant,新竹市北區,postal_authority_label,unspecified,tw-chunghwa-names,67
+tw-postal-area:273bfdecfa4e9679661245b1,en,"North Dist., Hsinchu City",postal_authority_label,unspecified,tw-chunghwa-names,67
+tw-postal-area:0171513368160dfb408209a3,zh-Hant,新竹市香山區,postal_authority_label,unspecified,tw-chunghwa-names,68
+tw-postal-area:0171513368160dfb408209a3,en,"Xiangshan Dist., Hsinchu City",postal_authority_label,unspecified,tw-chunghwa-names,68
+tw-postal-area:2a4868c5d6320fb47bd9c6fd,zh-Hant,新竹縣竹北市,postal_authority_label,unspecified,tw-chunghwa-names,69
+tw-postal-area:2a4868c5d6320fb47bd9c6fd,en,"Zhubei City, Hsinchu County",postal_authority_label,unspecified,tw-chunghwa-names,69
+tw-postal-area:d279a2261400986cb0249e94,zh-Hant,新竹縣湖口鄉,postal_authority_label,unspecified,tw-chunghwa-names,70
+tw-postal-area:d279a2261400986cb0249e94,en,"Hukou Township, Hsinchu County",postal_authority_label,unspecified,tw-chunghwa-names,70
+tw-postal-area:6573be5cd47e74640c5ee795,zh-Hant,新竹縣新豐鄉,postal_authority_label,unspecified,tw-chunghwa-names,71
+tw-postal-area:6573be5cd47e74640c5ee795,en,"Xinfeng Township, Hsinchu County",postal_authority_label,unspecified,tw-chunghwa-names,71
+tw-postal-area:c020ed39ad1225e775664e3e,zh-Hant,新竹縣新埔鎮,postal_authority_label,unspecified,tw-chunghwa-names,72
+tw-postal-area:c020ed39ad1225e775664e3e,en,"Xinpu Township, Hsinchu County",postal_authority_label,unspecified,tw-chunghwa-names,72
+tw-postal-area:b3d31f1b14d9806e73ee787d,zh-Hant,新竹縣關西鎮,postal_authority_label,unspecified,tw-chunghwa-names,73
+tw-postal-area:b3d31f1b14d9806e73ee787d,en,"Guanxi Township, Hsinchu County",postal_authority_label,unspecified,tw-chunghwa-names,73
+tw-postal-area:fc7d1e449317d1b6d5675ecb,zh-Hant,新竹縣芎林鄉,postal_authority_label,unspecified,tw-chunghwa-names,74
+tw-postal-area:fc7d1e449317d1b6d5675ecb,en,"Qionglin Township, Hsinchu County",postal_authority_label,unspecified,tw-chunghwa-names,74
+tw-postal-area:71599eba1712b857d3ad11bf,zh-Hant,新竹縣寶山鄉,postal_authority_label,unspecified,tw-chunghwa-names,75
+tw-postal-area:71599eba1712b857d3ad11bf,en,"Baoshan Township, Hsinchu County",postal_authority_label,unspecified,tw-chunghwa-names,75
+tw-postal-area:fb19da4765891ceef81682c2,zh-Hant,新竹縣竹東鎮,postal_authority_label,unspecified,tw-chunghwa-names,76
+tw-postal-area:fb19da4765891ceef81682c2,en,"Zhudong Township, Hsinchu County",postal_authority_label,unspecified,tw-chunghwa-names,76
+tw-postal-area:e596335081c785b0fd5f0b1c,zh-Hant,新竹縣五峰鄉,postal_authority_label,unspecified,tw-chunghwa-names,77
+tw-postal-area:e596335081c785b0fd5f0b1c,en,"Wufeng Township, Hsinchu County",postal_authority_label,unspecified,tw-chunghwa-names,77
+tw-postal-area:32e1ac4e8ae4500cbd2287b5,zh-Hant,新竹縣橫山鄉,postal_authority_label,unspecified,tw-chunghwa-names,78
+tw-postal-area:32e1ac4e8ae4500cbd2287b5,en,"Hengshan Township, Hsinchu County",postal_authority_label,unspecified,tw-chunghwa-names,78
+tw-postal-area:026797209ccd394374ed947c,zh-Hant,新竹縣尖石鄉,postal_authority_label,unspecified,tw-chunghwa-names,79
+tw-postal-area:026797209ccd394374ed947c,en,"Jianshi Township, Hsinchu County",postal_authority_label,unspecified,tw-chunghwa-names,79
+tw-postal-area:f25aa0f5663278570e1146a7,zh-Hant,新竹縣北埔鄉,postal_authority_label,unspecified,tw-chunghwa-names,80
+tw-postal-area:f25aa0f5663278570e1146a7,en,"Beipu Township, Hsinchu County",postal_authority_label,unspecified,tw-chunghwa-names,80
+tw-postal-area:072841289f3c12cb8dd9af6e,zh-Hant,新竹縣峨眉鄉,postal_authority_label,unspecified,tw-chunghwa-names,81
+tw-postal-area:072841289f3c12cb8dd9af6e,en,"Emei Township, Hsinchu County",postal_authority_label,unspecified,tw-chunghwa-names,81
+tw-postal-area:fd2a9c7dbf9137bc7d44ec2b,zh-Hant,桃園市中壢區,postal_authority_label,unspecified,tw-chunghwa-names,82
+tw-postal-area:fd2a9c7dbf9137bc7d44ec2b,en,"Zhongli Dist., Taoyuan City",postal_authority_label,unspecified,tw-chunghwa-names,82
+tw-postal-area:84558af8d856957bbb4dc967,zh-Hant,桃園市平鎮區,postal_authority_label,unspecified,tw-chunghwa-names,83
+tw-postal-area:84558af8d856957bbb4dc967,en,"Pingzhen Dist., Taoyuan City",postal_authority_label,unspecified,tw-chunghwa-names,83
+tw-postal-area:d2288ede07b074c0c1926134,zh-Hant,桃園市龍潭區,postal_authority_label,unspecified,tw-chunghwa-names,84
+tw-postal-area:d2288ede07b074c0c1926134,en,"Longtan Dist., Taoyuan City",postal_authority_label,unspecified,tw-chunghwa-names,84
+tw-postal-area:b3e1761134276ab6a53b8331,zh-Hant,桃園市楊梅區,postal_authority_label,unspecified,tw-chunghwa-names,85
+tw-postal-area:b3e1761134276ab6a53b8331,en,"Yangmei Dist., Taoyuan City",postal_authority_label,unspecified,tw-chunghwa-names,85
+tw-postal-area:fdc57c4b5a1a421c64c9c642,zh-Hant,桃園市新屋區,postal_authority_label,unspecified,tw-chunghwa-names,86
+tw-postal-area:fdc57c4b5a1a421c64c9c642,en,"Xinwu Dist., Taoyuan City",postal_authority_label,unspecified,tw-chunghwa-names,86
+tw-postal-area:a93771180923038e2227426f,zh-Hant,桃園市觀音區,postal_authority_label,unspecified,tw-chunghwa-names,87
+tw-postal-area:a93771180923038e2227426f,en,"Guanyin Dist., Taoyuan City",postal_authority_label,unspecified,tw-chunghwa-names,87
+tw-postal-area:cbefe20bde5231898bafee41,zh-Hant,桃園市桃園區,postal_authority_label,unspecified,tw-chunghwa-names,88
+tw-postal-area:cbefe20bde5231898bafee41,en,"Taoyuan Dist., Taoyuan City",postal_authority_label,unspecified,tw-chunghwa-names,88
+tw-postal-area:d0b790e9e0869946f8c02b22,zh-Hant,桃園市龜山區,postal_authority_label,unspecified,tw-chunghwa-names,89
+tw-postal-area:d0b790e9e0869946f8c02b22,en,"Guishan Dist., Taoyuan City",postal_authority_label,unspecified,tw-chunghwa-names,89
+tw-postal-area:1a640a53fb5a64453d445126,zh-Hant,桃園市八德區,postal_authority_label,unspecified,tw-chunghwa-names,90
+tw-postal-area:1a640a53fb5a64453d445126,en,"Bade Dist., Taoyuan City",postal_authority_label,unspecified,tw-chunghwa-names,90
+tw-postal-area:6fb55a60d2efdbf2fcec3e33,zh-Hant,桃園市大溪區,postal_authority_label,unspecified,tw-chunghwa-names,91
+tw-postal-area:6fb55a60d2efdbf2fcec3e33,en,"Daxi Dist., Taoyuan City",postal_authority_label,unspecified,tw-chunghwa-names,91
+tw-postal-area:f882a357363adc16e4cedd6b,zh-Hant,桃園市復興區,postal_authority_label,unspecified,tw-chunghwa-names,92
+tw-postal-area:f882a357363adc16e4cedd6b,en,"Fuxing Dist., Taoyuan City",postal_authority_label,unspecified,tw-chunghwa-names,92
+tw-postal-area:9c0eba4bf0d72d152e2fccfd,zh-Hant,桃園市大園區,postal_authority_label,unspecified,tw-chunghwa-names,93
+tw-postal-area:9c0eba4bf0d72d152e2fccfd,en,"Dayuan Dist., Taoyuan City",postal_authority_label,unspecified,tw-chunghwa-names,93
+tw-postal-area:97217a20e0356d8738794199,zh-Hant,桃園市蘆竹區,postal_authority_label,unspecified,tw-chunghwa-names,94
+tw-postal-area:97217a20e0356d8738794199,en,"Luzhu Dist., Taoyuan City",postal_authority_label,unspecified,tw-chunghwa-names,94
+tw-postal-area:5bc7f937cf7fd49bf1af544b,zh-Hant,苗栗縣竹南鎮,postal_authority_label,unspecified,tw-chunghwa-names,95
+tw-postal-area:5bc7f937cf7fd49bf1af544b,en,"Zhunan Township, Miaoli County",postal_authority_label,unspecified,tw-chunghwa-names,95
+tw-postal-area:5bb96812a36d884929f943fe,zh-Hant,苗栗縣頭份市,postal_authority_label,unspecified,tw-chunghwa-names,96
+tw-postal-area:5bb96812a36d884929f943fe,en,"Toufen City, Miaoli County",postal_authority_label,unspecified,tw-chunghwa-names,96
+tw-postal-area:aea2ba473aeba7ba25612448,zh-Hant,苗栗縣三灣鄉,postal_authority_label,unspecified,tw-chunghwa-names,97
+tw-postal-area:aea2ba473aeba7ba25612448,en,"Sanwan Township, Miaoli County",postal_authority_label,unspecified,tw-chunghwa-names,97
+tw-postal-area:1abff0fce7e3dfa5503c3741,zh-Hant,苗栗縣南庄鄉,postal_authority_label,unspecified,tw-chunghwa-names,98
+tw-postal-area:1abff0fce7e3dfa5503c3741,en,"Nanzhuang Township, Miaoli County",postal_authority_label,unspecified,tw-chunghwa-names,98
+tw-postal-area:2c30d4971a83f88d93f087d9,zh-Hant,苗栗縣獅潭鄉,postal_authority_label,unspecified,tw-chunghwa-names,99
+tw-postal-area:2c30d4971a83f88d93f087d9,en,"Shitan Township, Miaoli County",postal_authority_label,unspecified,tw-chunghwa-names,99
+tw-postal-area:6c9bacd6783b6e1d43534dff,zh-Hant,苗栗縣後龍鎮,postal_authority_label,unspecified,tw-chunghwa-names,100
+tw-postal-area:6c9bacd6783b6e1d43534dff,en,"Houlong Township, Miaoli County",postal_authority_label,unspecified,tw-chunghwa-names,100
+tw-postal-area:cd50ba84d0c255c85db4112d,zh-Hant,苗栗縣通霄鎮,postal_authority_label,unspecified,tw-chunghwa-names,101
+tw-postal-area:cd50ba84d0c255c85db4112d,en,"Tongxiao Township, Miaoli County",postal_authority_label,unspecified,tw-chunghwa-names,101
+tw-postal-area:0aca097a06b36c0bbd16be98,zh-Hant,苗栗縣苑裡鎮,postal_authority_label,unspecified,tw-chunghwa-names,102
+tw-postal-area:0aca097a06b36c0bbd16be98,en,"Yuanli Township, Miaoli County",postal_authority_label,unspecified,tw-chunghwa-names,102
+tw-postal-area:91031332fe9faf8624e7e481,zh-Hant,苗栗縣苗栗市,postal_authority_label,unspecified,tw-chunghwa-names,103
+tw-postal-area:91031332fe9faf8624e7e481,en,"Miaoli City, Miaoli County",postal_authority_label,unspecified,tw-chunghwa-names,103
+tw-postal-area:f3923eaea64cda4900aa31ff,zh-Hant,苗栗縣造橋鄉,postal_authority_label,unspecified,tw-chunghwa-names,104
+tw-postal-area:f3923eaea64cda4900aa31ff,en,"Zaoqiao Township, Miaoli County",postal_authority_label,unspecified,tw-chunghwa-names,104
+tw-postal-area:adae2fd70c51ee13c313c10a,zh-Hant,苗栗縣頭屋鄉,postal_authority_label,unspecified,tw-chunghwa-names,105
+tw-postal-area:adae2fd70c51ee13c313c10a,en,"Touwu Township, Miaoli County",postal_authority_label,unspecified,tw-chunghwa-names,105
+tw-postal-area:242bfc0785b1a6b4d9f9c3c7,zh-Hant,苗栗縣公館鄉,postal_authority_label,unspecified,tw-chunghwa-names,106
+tw-postal-area:242bfc0785b1a6b4d9f9c3c7,en,"Gongguan Township, Miaoli County",postal_authority_label,unspecified,tw-chunghwa-names,106
+tw-postal-area:3382f67ccde6adcb535758d3,zh-Hant,苗栗縣大湖鄉,postal_authority_label,unspecified,tw-chunghwa-names,107
+tw-postal-area:3382f67ccde6adcb535758d3,en,"Dahu Township, Miaoli County",postal_authority_label,unspecified,tw-chunghwa-names,107
+tw-postal-area:3b1b4618b93a7351bc8ffd08,zh-Hant,苗栗縣泰安鄉,postal_authority_label,unspecified,tw-chunghwa-names,108
+tw-postal-area:3b1b4618b93a7351bc8ffd08,en,"Tai’an Township, Miaoli County",postal_authority_label,unspecified,tw-chunghwa-names,108
+tw-postal-area:b27fae0a8614f0afaf9a1992,zh-Hant,苗栗縣銅鑼鄉,postal_authority_label,unspecified,tw-chunghwa-names,109
+tw-postal-area:b27fae0a8614f0afaf9a1992,en,"Tongluo Township, Miaoli County",postal_authority_label,unspecified,tw-chunghwa-names,109
+tw-postal-area:96118c24c72ec446b251ce11,zh-Hant,苗栗縣三義鄉,postal_authority_label,unspecified,tw-chunghwa-names,110
+tw-postal-area:96118c24c72ec446b251ce11,en,"Sanyi Township, Miaoli County",postal_authority_label,unspecified,tw-chunghwa-names,110
+tw-postal-area:afbb8784798ffb5556190def,zh-Hant,苗栗縣西湖鄉,postal_authority_label,unspecified,tw-chunghwa-names,111
+tw-postal-area:afbb8784798ffb5556190def,en,"Xihu Township, Miaoli County",postal_authority_label,unspecified,tw-chunghwa-names,111
+tw-postal-area:2c2b58ef7df19d0da1a04ddc,zh-Hant,苗栗縣卓蘭鎮,postal_authority_label,unspecified,tw-chunghwa-names,112
+tw-postal-area:2c2b58ef7df19d0da1a04ddc,en,"Zhuolan Township, Miaoli County",postal_authority_label,unspecified,tw-chunghwa-names,112
+tw-postal-area:6594835b5d414c28fbe7666b,zh-Hant,臺中市中區,postal_authority_label,unspecified,tw-chunghwa-names,113
+tw-postal-area:6594835b5d414c28fbe7666b,en,"Central Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,113
+tw-postal-area:7c4b518a80713d9c139de104,zh-Hant,臺中市東區,postal_authority_label,unspecified,tw-chunghwa-names,114
+tw-postal-area:7c4b518a80713d9c139de104,en,"East Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,114
+tw-postal-area:72531cd976487202c70b757c,zh-Hant,臺中市南區,postal_authority_label,unspecified,tw-chunghwa-names,115
+tw-postal-area:72531cd976487202c70b757c,en,"South Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,115
+tw-postal-area:84fb909a13d43f40cd8164a7,zh-Hant,臺中市西區,postal_authority_label,unspecified,tw-chunghwa-names,116
+tw-postal-area:84fb909a13d43f40cd8164a7,en,"West Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,116
+tw-postal-area:01d99440cf21d01beeb94793,zh-Hant,臺中市北區,postal_authority_label,unspecified,tw-chunghwa-names,117
+tw-postal-area:01d99440cf21d01beeb94793,en,"North Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,117
+tw-postal-area:40a682282fcf3f31e8a4d18d,zh-Hant,臺中市北屯區,postal_authority_label,unspecified,tw-chunghwa-names,118
+tw-postal-area:40a682282fcf3f31e8a4d18d,en,"Beitun Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,118
+tw-postal-area:c3e434b36bf87100fbae86c4,zh-Hant,臺中市西屯區,postal_authority_label,unspecified,tw-chunghwa-names,119
+tw-postal-area:c3e434b36bf87100fbae86c4,en,"Xitun Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,119
+tw-postal-area:f4fa2cc5645e97ec16da3487,zh-Hant,臺中市南屯區,postal_authority_label,unspecified,tw-chunghwa-names,120
+tw-postal-area:f4fa2cc5645e97ec16da3487,en,"Nantun Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,120
+tw-postal-area:777f96eab299aee4ad6f241b,zh-Hant,臺中市太平區,postal_authority_label,unspecified,tw-chunghwa-names,121
+tw-postal-area:777f96eab299aee4ad6f241b,en,"Taiping Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,121
+tw-postal-area:ab795210bb3c239b4d3bf77c,zh-Hant,臺中市大里區,postal_authority_label,unspecified,tw-chunghwa-names,122
+tw-postal-area:ab795210bb3c239b4d3bf77c,en,"Dali Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,122
+tw-postal-area:b04f70ffb6cf8ddc3e532714,zh-Hant,臺中市霧峰區,postal_authority_label,unspecified,tw-chunghwa-names,123
+tw-postal-area:b04f70ffb6cf8ddc3e532714,en,"Wufeng Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,123
+tw-postal-area:d810243b1b7b509bae0d7991,zh-Hant,臺中市烏日區,postal_authority_label,unspecified,tw-chunghwa-names,124
+tw-postal-area:d810243b1b7b509bae0d7991,en,"Wuri Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,124
+tw-postal-area:c1cfec2052a0defb5f427ae7,zh-Hant,臺中市豐原區,postal_authority_label,unspecified,tw-chunghwa-names,125
+tw-postal-area:c1cfec2052a0defb5f427ae7,en,"Fengyuan Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,125
+tw-postal-area:b231cc3296ce2c1b1bd7e2a5,zh-Hant,臺中市后里區,postal_authority_label,unspecified,tw-chunghwa-names,126
+tw-postal-area:b231cc3296ce2c1b1bd7e2a5,en,"Houli Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,126
+tw-postal-area:13cf8a3060c3707022a7968a,zh-Hant,臺中市石岡區,postal_authority_label,unspecified,tw-chunghwa-names,127
+tw-postal-area:13cf8a3060c3707022a7968a,en,"Shigang Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,127
+tw-postal-area:4e888e2ddf46bfb671e6cf20,zh-Hant,臺中市東勢區,postal_authority_label,unspecified,tw-chunghwa-names,128
+tw-postal-area:4e888e2ddf46bfb671e6cf20,en,"Dongshi Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,128
+tw-postal-area:039b2e786d087825b96e8b11,zh-Hant,臺中市和平區,postal_authority_label,unspecified,tw-chunghwa-names,129
+tw-postal-area:039b2e786d087825b96e8b11,en,"Heping Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,129
+tw-postal-area:2b080e70905b9e0526417530,zh-Hant,臺中市新社區,postal_authority_label,unspecified,tw-chunghwa-names,130
+tw-postal-area:2b080e70905b9e0526417530,en,"Xinshe Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,130
+tw-postal-area:fc21e9bdfa419e8f02d71148,zh-Hant,臺中市潭子區,postal_authority_label,unspecified,tw-chunghwa-names,131
+tw-postal-area:fc21e9bdfa419e8f02d71148,en,"Tanzi Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,131
+tw-postal-area:ce911938a02ee2e73a677155,zh-Hant,臺中市大雅區,postal_authority_label,unspecified,tw-chunghwa-names,132
+tw-postal-area:ce911938a02ee2e73a677155,en,"Daya Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,132
+tw-postal-area:56e268377bc3f10d84c789d1,zh-Hant,臺中市神岡區,postal_authority_label,unspecified,tw-chunghwa-names,133
+tw-postal-area:56e268377bc3f10d84c789d1,en,"Shengang Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,133
+tw-postal-area:f3f8608624ddc610850aac93,zh-Hant,臺中市大肚區,postal_authority_label,unspecified,tw-chunghwa-names,134
+tw-postal-area:f3f8608624ddc610850aac93,en,"Dadu Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,134
+tw-postal-area:fa7c28bc9067d37590014425,zh-Hant,臺中市沙鹿區,postal_authority_label,unspecified,tw-chunghwa-names,135
+tw-postal-area:fa7c28bc9067d37590014425,en,"Shalu Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,135
+tw-postal-area:be777c92ea5ac210113f2400,zh-Hant,臺中市龍井區,postal_authority_label,unspecified,tw-chunghwa-names,136
+tw-postal-area:be777c92ea5ac210113f2400,en,"Longjing Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,136
+tw-postal-area:0735f5379ecbc9aed7865972,zh-Hant,臺中市梧棲區,postal_authority_label,unspecified,tw-chunghwa-names,137
+tw-postal-area:0735f5379ecbc9aed7865972,en,"Wuqi Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,137
+tw-postal-area:397e9512e0533b292938c61c,zh-Hant,臺中市清水區,postal_authority_label,unspecified,tw-chunghwa-names,138
+tw-postal-area:397e9512e0533b292938c61c,en,"Qingshui Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,138
+tw-postal-area:67ed16e42b87e362dc9333ac,zh-Hant,臺中市大甲區,postal_authority_label,unspecified,tw-chunghwa-names,139
+tw-postal-area:67ed16e42b87e362dc9333ac,en,"Dajia Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,139
+tw-postal-area:aa060bccfb86280c3e592951,zh-Hant,臺中市外埔區,postal_authority_label,unspecified,tw-chunghwa-names,140
+tw-postal-area:aa060bccfb86280c3e592951,en,"Waipu Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,140
+tw-postal-area:4548b93a92ab7e6191b27434,zh-Hant,臺中市大安區,postal_authority_label,unspecified,tw-chunghwa-names,141
+tw-postal-area:4548b93a92ab7e6191b27434,en,"Da’an Dist., Taichung City",postal_authority_label,unspecified,tw-chunghwa-names,141
+tw-postal-area:4faeaeab992932c958290882,zh-Hant,彰化縣彰化市,postal_authority_label,unspecified,tw-chunghwa-names,142
+tw-postal-area:4faeaeab992932c958290882,en,"Changhua City, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,142
+tw-postal-area:1355222252b5bb8f89ccfda3,zh-Hant,彰化縣芬園鄉,postal_authority_label,unspecified,tw-chunghwa-names,143
+tw-postal-area:1355222252b5bb8f89ccfda3,en,"Fenyuan Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,143
+tw-postal-area:42e9e6a28557a3549fcb9702,zh-Hant,彰化縣花壇鄉,postal_authority_label,unspecified,tw-chunghwa-names,144
+tw-postal-area:42e9e6a28557a3549fcb9702,en,"Huatan Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,144
+tw-postal-area:69f4e46785748db143e6b6f4,zh-Hant,彰化縣秀水鄉,postal_authority_label,unspecified,tw-chunghwa-names,145
+tw-postal-area:69f4e46785748db143e6b6f4,en,"Xiushui Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,145
+tw-postal-area:232cdf7e5b588bf3a1f57b48,zh-Hant,彰化縣鹿港鎮,postal_authority_label,unspecified,tw-chunghwa-names,146
+tw-postal-area:232cdf7e5b588bf3a1f57b48,en,"Lukang Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,146
+tw-postal-area:1344ff1b647db958bbf4e894,zh-Hant,彰化縣福興鄉,postal_authority_label,unspecified,tw-chunghwa-names,147
+tw-postal-area:1344ff1b647db958bbf4e894,en,"Fuxing Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,147
+tw-postal-area:da5dc28ca0269822c83b1c32,zh-Hant,彰化縣線西鄉,postal_authority_label,unspecified,tw-chunghwa-names,148
+tw-postal-area:da5dc28ca0269822c83b1c32,en,"Xianxi Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,148
+tw-postal-area:27de8bfbcf877dc901a0fce4,zh-Hant,彰化縣和美鎮,postal_authority_label,unspecified,tw-chunghwa-names,149
+tw-postal-area:27de8bfbcf877dc901a0fce4,en,"Hemei Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,149
+tw-postal-area:82c5765949b32ccde3002df9,zh-Hant,彰化縣伸港鄉,postal_authority_label,unspecified,tw-chunghwa-names,150
+tw-postal-area:82c5765949b32ccde3002df9,en,"Shengang Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,150
+tw-postal-area:5d7a5de119c15931d294b287,zh-Hant,彰化縣員林市,postal_authority_label,unspecified,tw-chunghwa-names,151
+tw-postal-area:5d7a5de119c15931d294b287,en,"Yuanlin City, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,151
+tw-postal-area:7e38ebe3ac7f22853406091f,zh-Hant,彰化縣社頭鄉,postal_authority_label,unspecified,tw-chunghwa-names,152
+tw-postal-area:7e38ebe3ac7f22853406091f,en,"Shetou Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,152
+tw-postal-area:73bc08c33719f7fc334f924b,zh-Hant,彰化縣永靖鄉,postal_authority_label,unspecified,tw-chunghwa-names,153
+tw-postal-area:73bc08c33719f7fc334f924b,en,"Yongjing Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,153
+tw-postal-area:c0df724878800cdcc0fda55f,zh-Hant,彰化縣埔心鄉,postal_authority_label,unspecified,tw-chunghwa-names,154
+tw-postal-area:c0df724878800cdcc0fda55f,en,"Puxin Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,154
+tw-postal-area:dc6b0d74d7a822b8bc1ee4ba,zh-Hant,彰化縣溪湖鎮,postal_authority_label,unspecified,tw-chunghwa-names,155
+tw-postal-area:dc6b0d74d7a822b8bc1ee4ba,en,"Xihu Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,155
+tw-postal-area:f805c8eba1e216061969bee5,zh-Hant,彰化縣大村鄉,postal_authority_label,unspecified,tw-chunghwa-names,156
+tw-postal-area:f805c8eba1e216061969bee5,en,"Dacun Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,156
+tw-postal-area:d61c10a1a3a74e0ecde9a5f3,zh-Hant,彰化縣埔鹽鄉,postal_authority_label,unspecified,tw-chunghwa-names,157
+tw-postal-area:d61c10a1a3a74e0ecde9a5f3,en,"Puyan Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,157
+tw-postal-area:9553ffd0db4b7bbdb7d34496,zh-Hant,彰化縣田中鎮,postal_authority_label,unspecified,tw-chunghwa-names,158
+tw-postal-area:9553ffd0db4b7bbdb7d34496,en,"Tianzhong Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,158
+tw-postal-area:00eae2896e87c438b695076a,zh-Hant,彰化縣北斗鎮,postal_authority_label,unspecified,tw-chunghwa-names,159
+tw-postal-area:00eae2896e87c438b695076a,en,"Beidou Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,159
+tw-postal-area:16340c6688d42403e48a200d,zh-Hant,彰化縣田尾鄉,postal_authority_label,unspecified,tw-chunghwa-names,160
+tw-postal-area:16340c6688d42403e48a200d,en,"Tianwei Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,160
+tw-postal-area:c9a5c35a18231ac327d3c01c,zh-Hant,彰化縣埤頭鄉,postal_authority_label,unspecified,tw-chunghwa-names,161
+tw-postal-area:c9a5c35a18231ac327d3c01c,en,"Pitou Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,161
+tw-postal-area:55afe7f943bb7651b92fea35,zh-Hant,彰化縣溪州鄉,postal_authority_label,unspecified,tw-chunghwa-names,162
+tw-postal-area:55afe7f943bb7651b92fea35,en,"Xizhou Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,162
+tw-postal-area:f83ddf674a500d1c96f7cb0a,zh-Hant,彰化縣竹塘鄉,postal_authority_label,unspecified,tw-chunghwa-names,163
+tw-postal-area:f83ddf674a500d1c96f7cb0a,en,"Zhutang Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,163
+tw-postal-area:a05092c8943da70c78e25bc5,zh-Hant,彰化縣二林鎮,postal_authority_label,unspecified,tw-chunghwa-names,164
+tw-postal-area:a05092c8943da70c78e25bc5,en,"Erlin Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,164
+tw-postal-area:fa87f612b30e333e8a362e6b,zh-Hant,彰化縣大城鄉,postal_authority_label,unspecified,tw-chunghwa-names,165
+tw-postal-area:fa87f612b30e333e8a362e6b,en,"Dacheng Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,165
+tw-postal-area:9c90092bb3c2004c28c6858b,zh-Hant,彰化縣芳苑鄉,postal_authority_label,unspecified,tw-chunghwa-names,166
+tw-postal-area:9c90092bb3c2004c28c6858b,en,"Fangyuan Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,166
+tw-postal-area:8e1bf36f2ce401aeff86e406,zh-Hant,彰化縣二水鄉,postal_authority_label,unspecified,tw-chunghwa-names,167
+tw-postal-area:8e1bf36f2ce401aeff86e406,en,"Ershui Township, Changhua County",postal_authority_label,unspecified,tw-chunghwa-names,167
+tw-postal-area:64f8390137bc8671f285537f,zh-Hant,南投縣南投市,postal_authority_label,unspecified,tw-chunghwa-names,168
+tw-postal-area:64f8390137bc8671f285537f,en,"Nantou City, Nantou County",postal_authority_label,unspecified,tw-chunghwa-names,168
+tw-postal-area:658be1a47811da842ad6c88c,zh-Hant,南投縣中寮鄉,postal_authority_label,unspecified,tw-chunghwa-names,169
+tw-postal-area:658be1a47811da842ad6c88c,en,"Zhongliao Township, Nantou County",postal_authority_label,unspecified,tw-chunghwa-names,169
+tw-postal-area:c7860f855489443c7efceccd,zh-Hant,南投縣草屯鎮,postal_authority_label,unspecified,tw-chunghwa-names,170
+tw-postal-area:c7860f855489443c7efceccd,en,"Caotun Township, Nantou County",postal_authority_label,unspecified,tw-chunghwa-names,170
+tw-postal-area:5989b944b54942e2c6214999,zh-Hant,南投縣國姓鄉,postal_authority_label,unspecified,tw-chunghwa-names,171
+tw-postal-area:5989b944b54942e2c6214999,en,"Guoxing Township, Nantou County",postal_authority_label,unspecified,tw-chunghwa-names,171
+tw-postal-area:eec1b9f799cf9872e2bcadb4,zh-Hant,南投縣埔里鎮,postal_authority_label,unspecified,tw-chunghwa-names,172
+tw-postal-area:eec1b9f799cf9872e2bcadb4,en,"Puli Township, Nantou County",postal_authority_label,unspecified,tw-chunghwa-names,172
+tw-postal-area:65691df1f60df7de86d07ef3,zh-Hant,南投縣仁愛鄉,postal_authority_label,unspecified,tw-chunghwa-names,173
+tw-postal-area:65691df1f60df7de86d07ef3,en,"Ren’ai Township, Nantou County",postal_authority_label,unspecified,tw-chunghwa-names,173
+tw-postal-area:4f28e71c70a399e27ca2e749,zh-Hant,南投縣名間鄉,postal_authority_label,unspecified,tw-chunghwa-names,174
+tw-postal-area:4f28e71c70a399e27ca2e749,en,"Mingjian Township, Nantou County",postal_authority_label,unspecified,tw-chunghwa-names,174
+tw-postal-area:72321d108527ad4592f7b3e8,zh-Hant,南投縣集集鎮,postal_authority_label,unspecified,tw-chunghwa-names,175
+tw-postal-area:72321d108527ad4592f7b3e8,en,"Jiji Township, Nantou County",postal_authority_label,unspecified,tw-chunghwa-names,175
+tw-postal-area:48c32450235b1ac82364fe8a,zh-Hant,南投縣水里鄉,postal_authority_label,unspecified,tw-chunghwa-names,176
+tw-postal-area:48c32450235b1ac82364fe8a,en,"Shuili Township, Nantou County",postal_authority_label,unspecified,tw-chunghwa-names,176
+tw-postal-area:fd9ca1341d7377f96897dc08,zh-Hant,南投縣魚池鄉,postal_authority_label,unspecified,tw-chunghwa-names,177
+tw-postal-area:fd9ca1341d7377f96897dc08,en,"Yuchi Township, Nantou County",postal_authority_label,unspecified,tw-chunghwa-names,177
+tw-postal-area:e66644f16951ccc91bb0f6a7,zh-Hant,南投縣信義鄉,postal_authority_label,unspecified,tw-chunghwa-names,178
+tw-postal-area:e66644f16951ccc91bb0f6a7,en,"Xinyi Township, Nantou County",postal_authority_label,unspecified,tw-chunghwa-names,178
+tw-postal-area:aa6d71adbb26587ee36140c5,zh-Hant,南投縣竹山鎮,postal_authority_label,unspecified,tw-chunghwa-names,179
+tw-postal-area:aa6d71adbb26587ee36140c5,en,"Zhushan Township, Nantou County",postal_authority_label,unspecified,tw-chunghwa-names,179
+tw-postal-area:3bcc959f33f30960bf78631c,zh-Hant,南投縣鹿谷鄉,postal_authority_label,unspecified,tw-chunghwa-names,180
+tw-postal-area:3bcc959f33f30960bf78631c,en,"Lugu Township, Nantou County",postal_authority_label,unspecified,tw-chunghwa-names,180
+tw-postal-area:2278e0ed6d587737c331fbf6,zh-Hant,嘉義市東區,postal_authority_label,unspecified,tw-chunghwa-names,181
+tw-postal-area:2278e0ed6d587737c331fbf6,en,"East Dist., Chiayi City",postal_authority_label,unspecified,tw-chunghwa-names,181
+tw-postal-area:17d1c0335bc7620ed5e0c692,zh-Hant,嘉義市西區,postal_authority_label,unspecified,tw-chunghwa-names,182
+tw-postal-area:17d1c0335bc7620ed5e0c692,en,"West Dist., Chiayi City",postal_authority_label,unspecified,tw-chunghwa-names,182
+tw-postal-area:7bad8b0c73c8e183aef1d42d,zh-Hant,嘉義縣番路鄉,postal_authority_label,unspecified,tw-chunghwa-names,183
+tw-postal-area:7bad8b0c73c8e183aef1d42d,en,"Fanlu Township, Chiayi County",postal_authority_label,unspecified,tw-chunghwa-names,183
+tw-postal-area:28de5b15a61b32a8960a1ea5,zh-Hant,嘉義縣梅山鄉,postal_authority_label,unspecified,tw-chunghwa-names,184
+tw-postal-area:28de5b15a61b32a8960a1ea5,en,"Meishan Township, Chiayi County",postal_authority_label,unspecified,tw-chunghwa-names,184
+tw-postal-area:1eb369884cf691c5dc5b0a8a,zh-Hant,嘉義縣竹崎鄉,postal_authority_label,unspecified,tw-chunghwa-names,185
+tw-postal-area:1eb369884cf691c5dc5b0a8a,en,"Zhuqi Township, Chiayi County",postal_authority_label,unspecified,tw-chunghwa-names,185
+tw-postal-area:0f3c432e9ea5f62f0aaa3fc1,zh-Hant,嘉義縣阿里山鄉,postal_authority_label,unspecified,tw-chunghwa-names,186
+tw-postal-area:0f3c432e9ea5f62f0aaa3fc1,en,"Alishan Township, Chiayi County",postal_authority_label,unspecified,tw-chunghwa-names,186
+tw-postal-area:0dab46ec148943dcca1eeaf4,zh-Hant,嘉義縣中埔鄉,postal_authority_label,unspecified,tw-chunghwa-names,187
+tw-postal-area:0dab46ec148943dcca1eeaf4,en,"Zhongpu Township, Chiayi County",postal_authority_label,unspecified,tw-chunghwa-names,187
+tw-postal-area:260099345dd864c1bc7f8d8f,zh-Hant,嘉義縣大埔鄉,postal_authority_label,unspecified,tw-chunghwa-names,188
+tw-postal-area:260099345dd864c1bc7f8d8f,en,"Dapu Township, Chiayi County",postal_authority_label,unspecified,tw-chunghwa-names,188
+tw-postal-area:ce8d86438830008533a2f375,zh-Hant,嘉義縣水上鄉,postal_authority_label,unspecified,tw-chunghwa-names,189
+tw-postal-area:ce8d86438830008533a2f375,en,"Shuishang Township, Chiayi County",postal_authority_label,unspecified,tw-chunghwa-names,189
+tw-postal-area:2b3f3c140b22ffd1cee47f0a,zh-Hant,嘉義縣鹿草鄉,postal_authority_label,unspecified,tw-chunghwa-names,190
+tw-postal-area:2b3f3c140b22ffd1cee47f0a,en,"Lucao Township, Chiayi County",postal_authority_label,unspecified,tw-chunghwa-names,190
+tw-postal-area:a0cb2dad2ce74b15f2715553,zh-Hant,嘉義縣太保市,postal_authority_label,unspecified,tw-chunghwa-names,191
+tw-postal-area:a0cb2dad2ce74b15f2715553,en,"Taibao City, Chiayi County",postal_authority_label,unspecified,tw-chunghwa-names,191
+tw-postal-area:552c3cf903106b7cdcd51952,zh-Hant,嘉義縣朴子市,postal_authority_label,unspecified,tw-chunghwa-names,192
+tw-postal-area:552c3cf903106b7cdcd51952,en,"Puzi City, Chiayi County",postal_authority_label,unspecified,tw-chunghwa-names,192
+tw-postal-area:1f0427fa8851b96239700077,zh-Hant,嘉義縣東石鄉,postal_authority_label,unspecified,tw-chunghwa-names,193
+tw-postal-area:1f0427fa8851b96239700077,en,"Dongshi Township, Chiayi County",postal_authority_label,unspecified,tw-chunghwa-names,193
+tw-postal-area:47d5599c4defaa46ff84aae6,zh-Hant,嘉義縣六腳鄉,postal_authority_label,unspecified,tw-chunghwa-names,194
+tw-postal-area:47d5599c4defaa46ff84aae6,en,"Liujiao Township, Chiayi County",postal_authority_label,unspecified,tw-chunghwa-names,194
+tw-postal-area:d121050a3cd867c5263ecf54,zh-Hant,嘉義縣新港鄉,postal_authority_label,unspecified,tw-chunghwa-names,195
+tw-postal-area:d121050a3cd867c5263ecf54,en,"Xingang Township, Chiayi County",postal_authority_label,unspecified,tw-chunghwa-names,195
+tw-postal-area:9a191d2c43c49d1868ac7c9b,zh-Hant,嘉義縣民雄鄉,postal_authority_label,unspecified,tw-chunghwa-names,196
+tw-postal-area:9a191d2c43c49d1868ac7c9b,en,"Minxiong Township, Chiayi County",postal_authority_label,unspecified,tw-chunghwa-names,196
+tw-postal-area:0d2f00cb29625a1289733d2d,zh-Hant,嘉義縣大林鎮,postal_authority_label,unspecified,tw-chunghwa-names,197
+tw-postal-area:0d2f00cb29625a1289733d2d,en,"Dalin Township, Chiayi County",postal_authority_label,unspecified,tw-chunghwa-names,197
+tw-postal-area:0f2a65bfd36f1f0ebf75aa57,zh-Hant,嘉義縣溪口鄉,postal_authority_label,unspecified,tw-chunghwa-names,198
+tw-postal-area:0f2a65bfd36f1f0ebf75aa57,en,"Xikou Township, Chiayi County",postal_authority_label,unspecified,tw-chunghwa-names,198
+tw-postal-area:85364bead008a863b0265b98,zh-Hant,嘉義縣義竹鄉,postal_authority_label,unspecified,tw-chunghwa-names,199
+tw-postal-area:85364bead008a863b0265b98,en,"Yizhu Township, Chiayi County",postal_authority_label,unspecified,tw-chunghwa-names,199
+tw-postal-area:01616686a2397640c7512926,zh-Hant,嘉義縣布袋鎮,postal_authority_label,unspecified,tw-chunghwa-names,200
+tw-postal-area:01616686a2397640c7512926,en,"Budai Township, Chiayi County",postal_authority_label,unspecified,tw-chunghwa-names,200
+tw-postal-area:a990c0454bd01f748b9db6b8,zh-Hant,雲林縣斗南鎮,postal_authority_label,unspecified,tw-chunghwa-names,201
+tw-postal-area:a990c0454bd01f748b9db6b8,en,"Dounan Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,201
+tw-postal-area:4d6ab7c503e881f5b98a6ab4,zh-Hant,雲林縣大埤鄉,postal_authority_label,unspecified,tw-chunghwa-names,202
+tw-postal-area:4d6ab7c503e881f5b98a6ab4,en,"Dapi Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,202
+tw-postal-area:6a13052f6c4360e7c1716138,zh-Hant,雲林縣虎尾鎮,postal_authority_label,unspecified,tw-chunghwa-names,203
+tw-postal-area:6a13052f6c4360e7c1716138,en,"Huwei Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,203
+tw-postal-area:d89d723d34a1633038275b58,zh-Hant,雲林縣土庫鎮,postal_authority_label,unspecified,tw-chunghwa-names,204
+tw-postal-area:d89d723d34a1633038275b58,en,"Tuku Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,204
+tw-postal-area:8a586122c2fce44300c66ad7,zh-Hant,雲林縣褒忠鄉,postal_authority_label,unspecified,tw-chunghwa-names,205
+tw-postal-area:8a586122c2fce44300c66ad7,en,"Baozhong Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,205
+tw-postal-area:6064ba7dad60ebf39067f0bf,zh-Hant,雲林縣東勢鄉,postal_authority_label,unspecified,tw-chunghwa-names,206
+tw-postal-area:6064ba7dad60ebf39067f0bf,en,"Dongshi Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,206
+tw-postal-area:10aca4a6b4f3c48ca3d68838,zh-Hant,雲林縣臺西鄉,postal_authority_label,unspecified,tw-chunghwa-names,207
+tw-postal-area:10aca4a6b4f3c48ca3d68838,en,"Taixi Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,207
+tw-postal-area:d94c7c0a00864ed261cd09b1,zh-Hant,雲林縣崙背鄉,postal_authority_label,unspecified,tw-chunghwa-names,208
+tw-postal-area:d94c7c0a00864ed261cd09b1,en,"Lunbei Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,208
+tw-postal-area:c7594550940f814cfa0830c5,zh-Hant,雲林縣麥寮鄉,postal_authority_label,unspecified,tw-chunghwa-names,209
+tw-postal-area:c7594550940f814cfa0830c5,en,"Mailiao Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,209
+tw-postal-area:f117c60c8d2ff34bbe5945af,zh-Hant,雲林縣斗六市,postal_authority_label,unspecified,tw-chunghwa-names,210
+tw-postal-area:f117c60c8d2ff34bbe5945af,en,"Douliu City, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,210
+tw-postal-area:e143cba72bab3689f81585c2,zh-Hant,雲林縣林內鄉,postal_authority_label,unspecified,tw-chunghwa-names,211
+tw-postal-area:e143cba72bab3689f81585c2,en,"Linnei Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,211
+tw-postal-area:dfff9e65a94e8e76ca484e54,zh-Hant,雲林縣古坑鄉,postal_authority_label,unspecified,tw-chunghwa-names,212
+tw-postal-area:dfff9e65a94e8e76ca484e54,en,"Gukeng Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,212
+tw-postal-area:c1fb2ecece265839c66e155d,zh-Hant,雲林縣莿桐鄉,postal_authority_label,unspecified,tw-chunghwa-names,213
+tw-postal-area:c1fb2ecece265839c66e155d,en,"Citong Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,213
+tw-postal-area:7ca6552ba42439adf11020e7,zh-Hant,雲林縣西螺鎮,postal_authority_label,unspecified,tw-chunghwa-names,214
+tw-postal-area:7ca6552ba42439adf11020e7,en,"Xiluo Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,214
+tw-postal-area:6edc115d7f3101a2b2df87fa,zh-Hant,雲林縣二崙鄉,postal_authority_label,unspecified,tw-chunghwa-names,215
+tw-postal-area:6edc115d7f3101a2b2df87fa,en,"Erlun Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,215
+tw-postal-area:b075145c6a6cf3c0f47b467f,zh-Hant,雲林縣北港鎮,postal_authority_label,unspecified,tw-chunghwa-names,216
+tw-postal-area:b075145c6a6cf3c0f47b467f,en,"Beigang Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,216
+tw-postal-area:3a5a5301fe99515f158f6eb1,zh-Hant,雲林縣水林鄉,postal_authority_label,unspecified,tw-chunghwa-names,217
+tw-postal-area:3a5a5301fe99515f158f6eb1,en,"Shuilin Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,217
+tw-postal-area:f9338f71c88e4da3a760d329,zh-Hant,雲林縣口湖鄉,postal_authority_label,unspecified,tw-chunghwa-names,218
+tw-postal-area:f9338f71c88e4da3a760d329,en,"Kouhu Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,218
+tw-postal-area:543c26f98862bd6665581055,zh-Hant,雲林縣四湖鄉,postal_authority_label,unspecified,tw-chunghwa-names,219
+tw-postal-area:543c26f98862bd6665581055,en,"Sihu Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,219
+tw-postal-area:c882128396208bb949210027,zh-Hant,雲林縣元長鄉,postal_authority_label,unspecified,tw-chunghwa-names,220
+tw-postal-area:c882128396208bb949210027,en,"Yuanzhang Township, Yunlin County",postal_authority_label,unspecified,tw-chunghwa-names,220
+tw-postal-area:13c5f4f4b5aabaf800cf21cb,zh-Hant,臺南市中西區,postal_authority_label,unspecified,tw-chunghwa-names,221
+tw-postal-area:13c5f4f4b5aabaf800cf21cb,en,"West Central Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,221
+tw-postal-area:074299def7abc2764d053d0a,zh-Hant,臺南市東區,postal_authority_label,unspecified,tw-chunghwa-names,222
+tw-postal-area:074299def7abc2764d053d0a,en,"East Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,222
+tw-postal-area:6f064e7ee00c3376306842b4,zh-Hant,臺南市南區,postal_authority_label,unspecified,tw-chunghwa-names,223
+tw-postal-area:6f064e7ee00c3376306842b4,en,"South Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,223
+tw-postal-area:a520878863d0a055496a6723,zh-Hant,臺南市北區,postal_authority_label,unspecified,tw-chunghwa-names,224
+tw-postal-area:a520878863d0a055496a6723,en,"North Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,224
+tw-postal-area:aca21f6667ac45dbe6938a87,zh-Hant,臺南市安平區,postal_authority_label,unspecified,tw-chunghwa-names,225
+tw-postal-area:aca21f6667ac45dbe6938a87,en,"Anping Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,225
+tw-postal-area:6743a7038803d68ac4281a86,zh-Hant,臺南市安南區,postal_authority_label,unspecified,tw-chunghwa-names,226
+tw-postal-area:6743a7038803d68ac4281a86,en,"Annan Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,226
+tw-postal-area:b4583b62c1987e575d99bbbe,zh-Hant,臺南市永康區,postal_authority_label,unspecified,tw-chunghwa-names,227
+tw-postal-area:b4583b62c1987e575d99bbbe,en,"Yongkang Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,227
+tw-postal-area:3652a58c236e31d9ab09efd2,zh-Hant,臺南市歸仁區,postal_authority_label,unspecified,tw-chunghwa-names,228
+tw-postal-area:3652a58c236e31d9ab09efd2,en,"Guiren Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,228
+tw-postal-area:4b4f78ae60afedb9538d283d,zh-Hant,臺南市新化區,postal_authority_label,unspecified,tw-chunghwa-names,229
+tw-postal-area:4b4f78ae60afedb9538d283d,en,"Xinhua Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,229
+tw-postal-area:b930f08a695323c50ddaf522,zh-Hant,臺南市左鎮區,postal_authority_label,unspecified,tw-chunghwa-names,230
+tw-postal-area:b930f08a695323c50ddaf522,en,"Zuozhen Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,230
+tw-postal-area:1c342f6d65a9a613d9a70154,zh-Hant,臺南市玉井區,postal_authority_label,unspecified,tw-chunghwa-names,231
+tw-postal-area:1c342f6d65a9a613d9a70154,en,"Yujing Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,231
+tw-postal-area:39e4888a36af7db88eeaabec,zh-Hant,臺南市楠西區,postal_authority_label,unspecified,tw-chunghwa-names,232
+tw-postal-area:39e4888a36af7db88eeaabec,en,"Nanxi Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,232
+tw-postal-area:50e88e133003a66bc3377078,zh-Hant,臺南市南化區,postal_authority_label,unspecified,tw-chunghwa-names,233
+tw-postal-area:50e88e133003a66bc3377078,en,"Nanhua Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,233
+tw-postal-area:1edc8f13e666a293a9475364,zh-Hant,臺南市仁德區,postal_authority_label,unspecified,tw-chunghwa-names,234
+tw-postal-area:1edc8f13e666a293a9475364,en,"Rende Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,234
+tw-postal-area:14e3d565f310c5bc7fda788c,zh-Hant,臺南市關廟區,postal_authority_label,unspecified,tw-chunghwa-names,235
+tw-postal-area:14e3d565f310c5bc7fda788c,en,"Guanmiao Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,235
+tw-postal-area:eb88cce605410bae0afb16f7,zh-Hant,臺南市龍崎區,postal_authority_label,unspecified,tw-chunghwa-names,236
+tw-postal-area:eb88cce605410bae0afb16f7,en,"Longqi Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,236
+tw-postal-area:c691deb515886c80f00f585e,zh-Hant,臺南市官田區,postal_authority_label,unspecified,tw-chunghwa-names,237
+tw-postal-area:c691deb515886c80f00f585e,en,"Guantian Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,237
+tw-postal-area:29879bd7e1123dcf62b01dca,zh-Hant,臺南市麻豆區,postal_authority_label,unspecified,tw-chunghwa-names,238
+tw-postal-area:29879bd7e1123dcf62b01dca,en,"Madou Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,238
+tw-postal-area:0937189f40fca5957fa3c58f,zh-Hant,臺南市佳里區,postal_authority_label,unspecified,tw-chunghwa-names,239
+tw-postal-area:0937189f40fca5957fa3c58f,en,"Jiali Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,239
+tw-postal-area:e602857147736f1cada10f78,zh-Hant,臺南市西港區,postal_authority_label,unspecified,tw-chunghwa-names,240
+tw-postal-area:e602857147736f1cada10f78,en,"Xigang Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,240
+tw-postal-area:2c3ac74c8bb14d92ff8766b7,zh-Hant,臺南市七股區,postal_authority_label,unspecified,tw-chunghwa-names,241
+tw-postal-area:2c3ac74c8bb14d92ff8766b7,en,"Qigu Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,241
+tw-postal-area:2461111d80fc50dfcd441bde,zh-Hant,臺南市將軍區,postal_authority_label,unspecified,tw-chunghwa-names,242
+tw-postal-area:2461111d80fc50dfcd441bde,en,"Jiangjun Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,242
+tw-postal-area:096727290a8cb0a09fb16bc3,zh-Hant,臺南市學甲區,postal_authority_label,unspecified,tw-chunghwa-names,243
+tw-postal-area:096727290a8cb0a09fb16bc3,en,"Xuejia Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,243
+tw-postal-area:6ffe1460a8fd9f03c06d6db4,zh-Hant,臺南市北門區,postal_authority_label,unspecified,tw-chunghwa-names,244
+tw-postal-area:6ffe1460a8fd9f03c06d6db4,en,"Beimen Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,244
+tw-postal-area:b7d9485db944e1c97302cc77,zh-Hant,臺南市新營區,postal_authority_label,unspecified,tw-chunghwa-names,245
+tw-postal-area:b7d9485db944e1c97302cc77,en,"Xinying Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,245
+tw-postal-area:d4131e02202d581a82ef57a6,zh-Hant,臺南市後壁區,postal_authority_label,unspecified,tw-chunghwa-names,246
+tw-postal-area:d4131e02202d581a82ef57a6,en,"Houbi Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,246
+tw-postal-area:114d2e499bee5879288c6450,zh-Hant,臺南市白河區,postal_authority_label,unspecified,tw-chunghwa-names,247
+tw-postal-area:114d2e499bee5879288c6450,en,"Baihe Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,247
+tw-postal-area:ebbcad1c2149249b9f5fc483,zh-Hant,臺南市東山區,postal_authority_label,unspecified,tw-chunghwa-names,248
+tw-postal-area:ebbcad1c2149249b9f5fc483,en,"Dongshan Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,248
+tw-postal-area:9db44c975aec2200033db231,zh-Hant,臺南市六甲區,postal_authority_label,unspecified,tw-chunghwa-names,249
+tw-postal-area:9db44c975aec2200033db231,en,"Liujia Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,249
+tw-postal-area:b97d37ce4be30471c022a506,zh-Hant,臺南市下營區,postal_authority_label,unspecified,tw-chunghwa-names,250
+tw-postal-area:b97d37ce4be30471c022a506,en,"Xiaying Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,250
+tw-postal-area:5d10edb7715d67df8637321c,zh-Hant,臺南市柳營區,postal_authority_label,unspecified,tw-chunghwa-names,251
+tw-postal-area:5d10edb7715d67df8637321c,en,"Liuying Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,251
+tw-postal-area:0f51e1244f1f291d1ee10691,zh-Hant,臺南市鹽水區,postal_authority_label,unspecified,tw-chunghwa-names,252
+tw-postal-area:0f51e1244f1f291d1ee10691,en,"Yanshui Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,252
+tw-postal-area:bba5797edecdcf9dac436b64,zh-Hant,臺南市善化區,postal_authority_label,unspecified,tw-chunghwa-names,253
+tw-postal-area:bba5797edecdcf9dac436b64,en,"Shanhua Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,253
+tw-postal-area:3152e7d8b1fcb06a2a067a27,zh-Hant,臺南市大內區,postal_authority_label,unspecified,tw-chunghwa-names,254
+tw-postal-area:3152e7d8b1fcb06a2a067a27,en,"Danei Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,254
+tw-postal-area:1607a8f3545f3a2c98f82861,zh-Hant,臺南市山上區,postal_authority_label,unspecified,tw-chunghwa-names,255
+tw-postal-area:1607a8f3545f3a2c98f82861,en,"Shanshang Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,255
+tw-postal-area:58d6068256fcfce4acd7c697,zh-Hant,臺南市新市區,postal_authority_label,unspecified,tw-chunghwa-names,256
+tw-postal-area:58d6068256fcfce4acd7c697,en,"Xinshi Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,256
+tw-postal-area:29c512fce1b364f85a4e6246,zh-Hant,臺南市安定區,postal_authority_label,unspecified,tw-chunghwa-names,257
+tw-postal-area:29c512fce1b364f85a4e6246,en,"Anding Dist., Tainan City",postal_authority_label,unspecified,tw-chunghwa-names,257
+tw-postal-area:0a26e0b2ca5808484d22cf36,zh-Hant,高雄市新興區,postal_authority_label,unspecified,tw-chunghwa-names,258
+tw-postal-area:0a26e0b2ca5808484d22cf36,en,"Xinxing Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,258
+tw-postal-area:205cb007297f16dc883ad1cd,zh-Hant,高雄市前金區,postal_authority_label,unspecified,tw-chunghwa-names,259
+tw-postal-area:205cb007297f16dc883ad1cd,en,"Qianjin Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,259
+tw-postal-area:f584f9dcd70745ca265a7104,zh-Hant,高雄市苓雅區,postal_authority_label,unspecified,tw-chunghwa-names,260
+tw-postal-area:f584f9dcd70745ca265a7104,en,"Lingya Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,260
+tw-postal-area:d83e19617a8b06a5e684c4ab,zh-Hant,高雄市鹽埕區,postal_authority_label,unspecified,tw-chunghwa-names,261
+tw-postal-area:d83e19617a8b06a5e684c4ab,en,"Yancheng Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,261
+tw-postal-area:143e786aa5b33409f01c0b82,zh-Hant,高雄市鼓山區,postal_authority_label,unspecified,tw-chunghwa-names,262
+tw-postal-area:143e786aa5b33409f01c0b82,en,"Gushan Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,262
+tw-postal-area:0a7de717d94281ef67056bd2,zh-Hant,高雄市旗津區,postal_authority_label,unspecified,tw-chunghwa-names,263
+tw-postal-area:0a7de717d94281ef67056bd2,en,"Qijin Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,263
+tw-postal-area:fc7cf2b5db4e3d384fb98e44,zh-Hant,高雄市前鎮區,postal_authority_label,unspecified,tw-chunghwa-names,264
+tw-postal-area:fc7cf2b5db4e3d384fb98e44,en,"Qianzhen Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,264
+tw-postal-area:79d62cbf7edc3a831a74fcee,zh-Hant,高雄市三民區,postal_authority_label,unspecified,tw-chunghwa-names,265
+tw-postal-area:79d62cbf7edc3a831a74fcee,en,"Sanmin Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,265
+tw-postal-area:783fd69f762dac39fc0ad480,zh-Hant,高雄市楠梓區,postal_authority_label,unspecified,tw-chunghwa-names,266
+tw-postal-area:783fd69f762dac39fc0ad480,en,"Nanzi Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,266
+tw-postal-area:d2a6bc0518244fbc1ddb788a,zh-Hant,高雄市小港區,postal_authority_label,unspecified,tw-chunghwa-names,267
+tw-postal-area:d2a6bc0518244fbc1ddb788a,en,"Xiaogang Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,267
+tw-postal-area:60bb7172da933a900d914a95,zh-Hant,高雄市左營區,postal_authority_label,unspecified,tw-chunghwa-names,268
+tw-postal-area:60bb7172da933a900d914a95,en,"Zuoying Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,268
+tw-postal-area:9490cdd70d72a58fe2abb673,zh-Hant,高雄市仁武區,postal_authority_label,unspecified,tw-chunghwa-names,269
+tw-postal-area:9490cdd70d72a58fe2abb673,en,"Renwu Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,269
+tw-postal-area:befa8e3ec4fad4409f5f0bcf,zh-Hant,高雄市大社區,postal_authority_label,unspecified,tw-chunghwa-names,270
+tw-postal-area:befa8e3ec4fad4409f5f0bcf,en,"Dashe Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,270
+tw-postal-area:29c5170e7b615b22f003076d,zh-Hant,高雄市東沙群島,postal_authority_label,unspecified,tw-chunghwa-names,271
+tw-postal-area:29c5170e7b615b22f003076d,en,"Dongsha Islands, Nanhai Islands",postal_authority_label,unspecified,tw-chunghwa-names,271
+tw-postal-area:70b76a4401568d2af56284a1,zh-Hant,高雄市南沙群島,postal_authority_label,unspecified,tw-chunghwa-names,272
+tw-postal-area:70b76a4401568d2af56284a1,en,"Nansha Islands, Nanhai Islands",postal_authority_label,unspecified,tw-chunghwa-names,272
+tw-postal-area:73f4f1b2cbb5d4801c1435db,zh-Hant,高雄市岡山區,postal_authority_label,unspecified,tw-chunghwa-names,273
+tw-postal-area:73f4f1b2cbb5d4801c1435db,en,"Gangshan Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,273
+tw-postal-area:6e9bba03822edd2849c0eb55,zh-Hant,高雄市路竹區,postal_authority_label,unspecified,tw-chunghwa-names,274
+tw-postal-area:6e9bba03822edd2849c0eb55,en,"Luzhu Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,274
+tw-postal-area:8802b149779c843811256804,zh-Hant,高雄市阿蓮區,postal_authority_label,unspecified,tw-chunghwa-names,275
+tw-postal-area:8802b149779c843811256804,en,"Alian Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,275
+tw-postal-area:0ddf4109b23c02f3a504cc12,zh-Hant,高雄市田寮區,postal_authority_label,unspecified,tw-chunghwa-names,276
+tw-postal-area:0ddf4109b23c02f3a504cc12,en,"Tianliao Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,276
+tw-postal-area:24ade32112192ad573145a75,zh-Hant,高雄市燕巢區,postal_authority_label,unspecified,tw-chunghwa-names,277
+tw-postal-area:24ade32112192ad573145a75,en,"Yanchao Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,277
+tw-postal-area:32b05ce672bf0093bc44ebe3,zh-Hant,高雄市橋頭區,postal_authority_label,unspecified,tw-chunghwa-names,278
+tw-postal-area:32b05ce672bf0093bc44ebe3,en,"Qiaotou Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,278
+tw-postal-area:86bdef353a9e42722de4dc64,zh-Hant,高雄市梓官區,postal_authority_label,unspecified,tw-chunghwa-names,279
+tw-postal-area:86bdef353a9e42722de4dc64,en,"Ziguan Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,279
+tw-postal-area:b600fae80442bd3df6d367ce,zh-Hant,高雄市彌陀區,postal_authority_label,unspecified,tw-chunghwa-names,280
+tw-postal-area:b600fae80442bd3df6d367ce,en,"Mituo Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,280
+tw-postal-area:e9ff74c6ca09898cb5fe10d5,zh-Hant,高雄市永安區,postal_authority_label,unspecified,tw-chunghwa-names,281
+tw-postal-area:e9ff74c6ca09898cb5fe10d5,en,"Yong’an Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,281
+tw-postal-area:f25f913e3547e320dc1390c7,zh-Hant,高雄市湖內區,postal_authority_label,unspecified,tw-chunghwa-names,282
+tw-postal-area:f25f913e3547e320dc1390c7,en,"Hunei Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,282
+tw-postal-area:e980895282b115f8747aa149,zh-Hant,高雄市鳳山區,postal_authority_label,unspecified,tw-chunghwa-names,283
+tw-postal-area:e980895282b115f8747aa149,en,"Fengshan Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,283
+tw-postal-area:225f731a624978c5516a8d72,zh-Hant,高雄市大寮區,postal_authority_label,unspecified,tw-chunghwa-names,284
+tw-postal-area:225f731a624978c5516a8d72,en,"Daliao Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,284
+tw-postal-area:5198a766e0e05fc35b360e8d,zh-Hant,高雄市林園區,postal_authority_label,unspecified,tw-chunghwa-names,285
+tw-postal-area:5198a766e0e05fc35b360e8d,en,"Linyuan Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,285
+tw-postal-area:ef12f77cf2edaa150eeda514,zh-Hant,高雄市鳥松區,postal_authority_label,unspecified,tw-chunghwa-names,286
+tw-postal-area:ef12f77cf2edaa150eeda514,en,"Niaosong Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,286
+tw-postal-area:a6bc78e036bc551fc95b9d64,zh-Hant,高雄市大樹區,postal_authority_label,unspecified,tw-chunghwa-names,287
+tw-postal-area:a6bc78e036bc551fc95b9d64,en,"Dashu Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,287
+tw-postal-area:ea5ae00c87e05e3020f1a517,zh-Hant,高雄市旗山區,postal_authority_label,unspecified,tw-chunghwa-names,288
+tw-postal-area:ea5ae00c87e05e3020f1a517,en,"Qishan Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,288
+tw-postal-area:78f164e973f54474e9c8f684,zh-Hant,高雄市美濃區,postal_authority_label,unspecified,tw-chunghwa-names,289
+tw-postal-area:78f164e973f54474e9c8f684,en,"Meinong Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,289
+tw-postal-area:8015ab763a6eff929965d453,zh-Hant,高雄市六龜區,postal_authority_label,unspecified,tw-chunghwa-names,290
+tw-postal-area:8015ab763a6eff929965d453,en,"Liugui Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,290
+tw-postal-area:6c130c48956b792eb467d5a1,zh-Hant,高雄市內門區,postal_authority_label,unspecified,tw-chunghwa-names,291
+tw-postal-area:6c130c48956b792eb467d5a1,en,"Neimen Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,291
+tw-postal-area:59e4c8f7a7905ec9c2596eff,zh-Hant,高雄市杉林區,postal_authority_label,unspecified,tw-chunghwa-names,292
+tw-postal-area:59e4c8f7a7905ec9c2596eff,en,"Shanlin Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,292
+tw-postal-area:e724504cfad652a5f77516d0,zh-Hant,高雄市甲仙區,postal_authority_label,unspecified,tw-chunghwa-names,293
+tw-postal-area:e724504cfad652a5f77516d0,en,"Jiaxian Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,293
+tw-postal-area:ec6d597b51c1fca78f838918,zh-Hant,高雄市桃源區,postal_authority_label,unspecified,tw-chunghwa-names,294
+tw-postal-area:ec6d597b51c1fca78f838918,en,"Taoyuan Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,294
+tw-postal-area:2ecc4b73167e0b8ac258545a,zh-Hant,高雄市那瑪夏區,postal_authority_label,unspecified,tw-chunghwa-names,295
+tw-postal-area:2ecc4b73167e0b8ac258545a,en,"Namaxia Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,295
+tw-postal-area:e0631a0f7f734661829a4fbe,zh-Hant,高雄市茂林區,postal_authority_label,unspecified,tw-chunghwa-names,296
+tw-postal-area:e0631a0f7f734661829a4fbe,en,"Maolin Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,296
+tw-postal-area:c05102113fa6bcb1bd4dac93,zh-Hant,高雄市茄萣區,postal_authority_label,unspecified,tw-chunghwa-names,297
+tw-postal-area:c05102113fa6bcb1bd4dac93,en,"Qieding Dist., Kaohsiung City",postal_authority_label,unspecified,tw-chunghwa-names,297
+tw-postal-area:96cd12d8184c297e681d452d,zh-Hant,澎湖縣馬公市,postal_authority_label,unspecified,tw-chunghwa-names,298
+tw-postal-area:96cd12d8184c297e681d452d,en,"Magong City, Penghu County",postal_authority_label,unspecified,tw-chunghwa-names,298
+tw-postal-area:59b3ea87f0ec2df89e3e9a4a,zh-Hant,澎湖縣西嶼鄉,postal_authority_label,unspecified,tw-chunghwa-names,299
+tw-postal-area:59b3ea87f0ec2df89e3e9a4a,en,"Xiyu Township, Penghu County",postal_authority_label,unspecified,tw-chunghwa-names,299
+tw-postal-area:6a4748031766b857f6334253,zh-Hant,澎湖縣望安鄉,postal_authority_label,unspecified,tw-chunghwa-names,300
+tw-postal-area:6a4748031766b857f6334253,en,"Wang’an Township, Penghu County",postal_authority_label,unspecified,tw-chunghwa-names,300
+tw-postal-area:aa6621f3b825d4c5e5d59155,zh-Hant,澎湖縣七美鄉,postal_authority_label,unspecified,tw-chunghwa-names,301
+tw-postal-area:aa6621f3b825d4c5e5d59155,en,"Qimei Township, Penghu County",postal_authority_label,unspecified,tw-chunghwa-names,301
+tw-postal-area:772a9e969b6978ef57155a7f,zh-Hant,澎湖縣白沙鄉,postal_authority_label,unspecified,tw-chunghwa-names,302
+tw-postal-area:772a9e969b6978ef57155a7f,en,"Baisha Township, Penghu County",postal_authority_label,unspecified,tw-chunghwa-names,302
+tw-postal-area:4522156bc2665fcb905a1358,zh-Hant,澎湖縣湖西鄉,postal_authority_label,unspecified,tw-chunghwa-names,303
+tw-postal-area:4522156bc2665fcb905a1358,en,"Huxi Township, Penghu County",postal_authority_label,unspecified,tw-chunghwa-names,303
+tw-postal-area:8cb6938a31c9b6b6eda9c869,zh-Hant,金門縣金沙鎮,postal_authority_label,unspecified,tw-chunghwa-names,304
+tw-postal-area:8cb6938a31c9b6b6eda9c869,en,"Jinsha Township, Kinmen County",postal_authority_label,unspecified,tw-chunghwa-names,304
+tw-postal-area:0e3e8676bb19ccf82495155c,zh-Hant,金門縣金湖鎮,postal_authority_label,unspecified,tw-chunghwa-names,305
+tw-postal-area:0e3e8676bb19ccf82495155c,en,"Jinhu Township, Kinmen County",postal_authority_label,unspecified,tw-chunghwa-names,305
+tw-postal-area:47982195fae997a5a6dd1559,zh-Hant,金門縣金寧鄉,postal_authority_label,unspecified,tw-chunghwa-names,306
+tw-postal-area:47982195fae997a5a6dd1559,en,"Jinning Township, Kinmen County",postal_authority_label,unspecified,tw-chunghwa-names,306
+tw-postal-area:2f7addcd6ae290b6068dba68,zh-Hant,金門縣金城鎮,postal_authority_label,unspecified,tw-chunghwa-names,307
+tw-postal-area:2f7addcd6ae290b6068dba68,en,"Jincheng Township, Kinmen County",postal_authority_label,unspecified,tw-chunghwa-names,307
+tw-postal-area:70354003da05ae63fa8b8518,zh-Hant,金門縣烈嶼鄉,postal_authority_label,unspecified,tw-chunghwa-names,308
+tw-postal-area:70354003da05ae63fa8b8518,en,"Lieyu Township, Kinmen County",postal_authority_label,unspecified,tw-chunghwa-names,308
+tw-postal-area:8241949ddb0a192d34cc3985,zh-Hant,金門縣烏坵鄉,postal_authority_label,unspecified,tw-chunghwa-names,309
+tw-postal-area:8241949ddb0a192d34cc3985,en,"Wuqiu Township, Kinmen County",postal_authority_label,unspecified,tw-chunghwa-names,309
+tw-postal-area:7214f7411c5f8478d68c35e4,zh-Hant,屏東縣屏東市,postal_authority_label,unspecified,tw-chunghwa-names,310
+tw-postal-area:7214f7411c5f8478d68c35e4,en,"Pingtung City, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,310
+tw-postal-area:fbb684857e05f9d75edc26e6,zh-Hant,屏東縣三地門鄉,postal_authority_label,unspecified,tw-chunghwa-names,311
+tw-postal-area:fbb684857e05f9d75edc26e6,en,"Sandimen Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,311
+tw-postal-area:b5efd4392cdecf3d13cbe156,zh-Hant,屏東縣霧臺鄉,postal_authority_label,unspecified,tw-chunghwa-names,312
+tw-postal-area:b5efd4392cdecf3d13cbe156,en,"Wutai Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,312
+tw-postal-area:d077880a25477bcc4f405196,zh-Hant,屏東縣瑪家鄉,postal_authority_label,unspecified,tw-chunghwa-names,313
+tw-postal-area:d077880a25477bcc4f405196,en,"Majia Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,313
+tw-postal-area:28659fee23d25b1a6ea225cb,zh-Hant,屏東縣九如鄉,postal_authority_label,unspecified,tw-chunghwa-names,314
+tw-postal-area:28659fee23d25b1a6ea225cb,en,"Jiuru Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,314
+tw-postal-area:99adaff70c0ce2a455297fdd,zh-Hant,屏東縣里港鄉,postal_authority_label,unspecified,tw-chunghwa-names,315
+tw-postal-area:99adaff70c0ce2a455297fdd,en,"Ligang Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,315
+tw-postal-area:282db5315ca5c5e9a3d7f48a,zh-Hant,屏東縣高樹鄉,postal_authority_label,unspecified,tw-chunghwa-names,316
+tw-postal-area:282db5315ca5c5e9a3d7f48a,en,"Gaoshu Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,316
+tw-postal-area:de0824c30aa8e42d31509744,zh-Hant,屏東縣鹽埔鄉,postal_authority_label,unspecified,tw-chunghwa-names,317
+tw-postal-area:de0824c30aa8e42d31509744,en,"Yanpu Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,317
+tw-postal-area:f66ab6879cd5eb6b2e308001,zh-Hant,屏東縣長治鄉,postal_authority_label,unspecified,tw-chunghwa-names,318
+tw-postal-area:f66ab6879cd5eb6b2e308001,en,"Changzhi Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,318
+tw-postal-area:bd9e292ee64fc411a9334190,zh-Hant,屏東縣麟洛鄉,postal_authority_label,unspecified,tw-chunghwa-names,319
+tw-postal-area:bd9e292ee64fc411a9334190,en,"Linluo Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,319
+tw-postal-area:016f3920b9262abdb52b8d62,zh-Hant,屏東縣竹田鄉,postal_authority_label,unspecified,tw-chunghwa-names,320
+tw-postal-area:016f3920b9262abdb52b8d62,en,"Zhutian Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,320
+tw-postal-area:1a68d2cc3b6a74a431dcf13a,zh-Hant,屏東縣內埔鄉,postal_authority_label,unspecified,tw-chunghwa-names,321
+tw-postal-area:1a68d2cc3b6a74a431dcf13a,en,"Neipu Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,321
+tw-postal-area:6f4799930cb537068b85fd68,zh-Hant,屏東縣萬丹鄉,postal_authority_label,unspecified,tw-chunghwa-names,322
+tw-postal-area:6f4799930cb537068b85fd68,en,"Wandan Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,322
+tw-postal-area:0d484820c43d0dfd685eab87,zh-Hant,屏東縣潮州鎮,postal_authority_label,unspecified,tw-chunghwa-names,323
+tw-postal-area:0d484820c43d0dfd685eab87,en,"Chaozhou Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,323
+tw-postal-area:d2030c1943be489ddf541fab,zh-Hant,屏東縣泰武鄉,postal_authority_label,unspecified,tw-chunghwa-names,324
+tw-postal-area:d2030c1943be489ddf541fab,en,"Taiwu Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,324
+tw-postal-area:21c3d6bef9370936fd652ce8,zh-Hant,屏東縣來義鄉,postal_authority_label,unspecified,tw-chunghwa-names,325
+tw-postal-area:21c3d6bef9370936fd652ce8,en,"Laiyi Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,325
+tw-postal-area:54c2f80b5fad3e9297692bae,zh-Hant,屏東縣萬巒鄉,postal_authority_label,unspecified,tw-chunghwa-names,326
+tw-postal-area:54c2f80b5fad3e9297692bae,en,"Wanluan Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,326
+tw-postal-area:25aafacd7b267117e076c00f,zh-Hant,屏東縣崁頂鄉,postal_authority_label,unspecified,tw-chunghwa-names,327
+tw-postal-area:25aafacd7b267117e076c00f,en,"Kanding Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,327
+tw-postal-area:7ef16fc2b520ad65cb08f906,zh-Hant,屏東縣新埤鄉,postal_authority_label,unspecified,tw-chunghwa-names,328
+tw-postal-area:7ef16fc2b520ad65cb08f906,en,"Xinpi Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,328
+tw-postal-area:295da2654d8157fc5ae5daed,zh-Hant,屏東縣南州鄉,postal_authority_label,unspecified,tw-chunghwa-names,329
+tw-postal-area:295da2654d8157fc5ae5daed,en,"Nanzhou Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,329
+tw-postal-area:418e35a43d20591f45c63677,zh-Hant,屏東縣林邊鄉,postal_authority_label,unspecified,tw-chunghwa-names,330
+tw-postal-area:418e35a43d20591f45c63677,en,"Linbian Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,330
+tw-postal-area:6e00e2e3b700777d2b615832,zh-Hant,屏東縣東港鎮,postal_authority_label,unspecified,tw-chunghwa-names,331
+tw-postal-area:6e00e2e3b700777d2b615832,en,"Donggang Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,331
+tw-postal-area:2810fe206f0f1a17138d8f5d,zh-Hant,屏東縣琉球鄉,postal_authority_label,unspecified,tw-chunghwa-names,332
+tw-postal-area:2810fe206f0f1a17138d8f5d,en,"Liuqiu Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,332
+tw-postal-area:d9c5d788aa1ac1b5f3f1150c,zh-Hant,屏東縣佳冬鄉,postal_authority_label,unspecified,tw-chunghwa-names,333
+tw-postal-area:d9c5d788aa1ac1b5f3f1150c,en,"Jiadong Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,333
+tw-postal-area:5bf4094b3ab80f12fa4fcbee,zh-Hant,屏東縣新園鄉,postal_authority_label,unspecified,tw-chunghwa-names,334
+tw-postal-area:5bf4094b3ab80f12fa4fcbee,en,"Xinyuan Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,334
+tw-postal-area:a6f2bd3887af3c161a36c473,zh-Hant,屏東縣枋寮鄉,postal_authority_label,unspecified,tw-chunghwa-names,335
+tw-postal-area:a6f2bd3887af3c161a36c473,en,"Fangliao Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,335
+tw-postal-area:adf0521f312a75eb6783ca5d,zh-Hant,屏東縣枋山鄉,postal_authority_label,unspecified,tw-chunghwa-names,336
+tw-postal-area:adf0521f312a75eb6783ca5d,en,"Fangshan Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,336
+tw-postal-area:befbb432d4d6e632d92051ca,zh-Hant,屏東縣春日鄉,postal_authority_label,unspecified,tw-chunghwa-names,337
+tw-postal-area:befbb432d4d6e632d92051ca,en,"Chunri Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,337
+tw-postal-area:2c8f90b80b095a66988d57b0,zh-Hant,屏東縣獅子鄉,postal_authority_label,unspecified,tw-chunghwa-names,338
+tw-postal-area:2c8f90b80b095a66988d57b0,en,"Shizi Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,338
+tw-postal-area:0d41185c991c382e83f948d2,zh-Hant,屏東縣車城鄉,postal_authority_label,unspecified,tw-chunghwa-names,339
+tw-postal-area:0d41185c991c382e83f948d2,en,"Checheng Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,339
+tw-postal-area:c3b9f51a9e7752e53dfeee15,zh-Hant,屏東縣牡丹鄉,postal_authority_label,unspecified,tw-chunghwa-names,340
+tw-postal-area:c3b9f51a9e7752e53dfeee15,en,"Mudan Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,340
+tw-postal-area:8e35777ec3fa2f58f2fe90ca,zh-Hant,屏東縣恆春鎮,postal_authority_label,unspecified,tw-chunghwa-names,341
+tw-postal-area:8e35777ec3fa2f58f2fe90ca,en,"Hengchun Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,341
+tw-postal-area:1921b9e650c35f45952f3bf0,zh-Hant,屏東縣滿州鄉,postal_authority_label,unspecified,tw-chunghwa-names,342
+tw-postal-area:1921b9e650c35f45952f3bf0,en,"Manzhou Township, Pingtung County",postal_authority_label,unspecified,tw-chunghwa-names,342
+tw-postal-area:320ca67925064ec8ae82bb55,zh-Hant,臺東縣臺東市,postal_authority_label,unspecified,tw-chunghwa-names,343
+tw-postal-area:320ca67925064ec8ae82bb55,en,"Taitung City, Taitung County",postal_authority_label,unspecified,tw-chunghwa-names,343
+tw-postal-area:bf2a07e7c970ebbce781b8b9,zh-Hant,臺東縣綠島鄉,postal_authority_label,unspecified,tw-chunghwa-names,344
+tw-postal-area:bf2a07e7c970ebbce781b8b9,en,"Ludao Township, Taitung County",postal_authority_label,unspecified,tw-chunghwa-names,344
+tw-postal-area:95d59a3e769b9b940db36d55,zh-Hant,臺東縣蘭嶼鄉,postal_authority_label,unspecified,tw-chunghwa-names,345
+tw-postal-area:95d59a3e769b9b940db36d55,en,"Lanyu Township, Taitung County",postal_authority_label,unspecified,tw-chunghwa-names,345
+tw-postal-area:9d62e6b27224f204b9e21fd8,zh-Hant,臺東縣延平鄉,postal_authority_label,unspecified,tw-chunghwa-names,346
+tw-postal-area:9d62e6b27224f204b9e21fd8,en,"Yanping Township, Taitung County",postal_authority_label,unspecified,tw-chunghwa-names,346
+tw-postal-area:5b225cf0014d5dfe850a3912,zh-Hant,臺東縣卑南鄉,postal_authority_label,unspecified,tw-chunghwa-names,347
+tw-postal-area:5b225cf0014d5dfe850a3912,en,"Beinan Township, Taitung County",postal_authority_label,unspecified,tw-chunghwa-names,347
+tw-postal-area:fc7e6c61275bce9d9c33c291,zh-Hant,臺東縣鹿野鄉,postal_authority_label,unspecified,tw-chunghwa-names,348
+tw-postal-area:fc7e6c61275bce9d9c33c291,en,"Luye Township, Taitung County",postal_authority_label,unspecified,tw-chunghwa-names,348
+tw-postal-area:b8d7a0b4964d875ef25294dd,zh-Hant,臺東縣關山鎮,postal_authority_label,unspecified,tw-chunghwa-names,349
+tw-postal-area:b8d7a0b4964d875ef25294dd,en,"Guanshan Township, Taitung County",postal_authority_label,unspecified,tw-chunghwa-names,349
+tw-postal-area:fab3b6aa8fc1a8a407119677,zh-Hant,臺東縣海端鄉,postal_authority_label,unspecified,tw-chunghwa-names,350
+tw-postal-area:fab3b6aa8fc1a8a407119677,en,"Haiduan Township, Taitung County",postal_authority_label,unspecified,tw-chunghwa-names,350
+tw-postal-area:596c9f92a3222401c033e9d0,zh-Hant,臺東縣池上鄉,postal_authority_label,unspecified,tw-chunghwa-names,351
+tw-postal-area:596c9f92a3222401c033e9d0,en,"Chishang Township, Taitung County",postal_authority_label,unspecified,tw-chunghwa-names,351
+tw-postal-area:69433e410437702f572615e2,zh-Hant,臺東縣東河鄉,postal_authority_label,unspecified,tw-chunghwa-names,352
+tw-postal-area:69433e410437702f572615e2,en,"Donghe Township, Taitung County",postal_authority_label,unspecified,tw-chunghwa-names,352
+tw-postal-area:f260ef04aa6d48801a8460e1,zh-Hant,臺東縣成功鎮,postal_authority_label,unspecified,tw-chunghwa-names,353
+tw-postal-area:f260ef04aa6d48801a8460e1,en,"Chenggong Township, Taitung County",postal_authority_label,unspecified,tw-chunghwa-names,353
+tw-postal-area:a91a68fd8a094550f885dd8b,zh-Hant,臺東縣長濱鄉,postal_authority_label,unspecified,tw-chunghwa-names,354
+tw-postal-area:a91a68fd8a094550f885dd8b,en,"Changbin Township, Taitung County",postal_authority_label,unspecified,tw-chunghwa-names,354
+tw-postal-area:e2b243ad57036218f84a141c,zh-Hant,臺東縣太麻里鄉,postal_authority_label,unspecified,tw-chunghwa-names,355
+tw-postal-area:e2b243ad57036218f84a141c,en,"Taimali Township, Taitung County",postal_authority_label,unspecified,tw-chunghwa-names,355
+tw-postal-area:e170ed167d061e44faddd8b9,zh-Hant,臺東縣金峰鄉,postal_authority_label,unspecified,tw-chunghwa-names,356
+tw-postal-area:e170ed167d061e44faddd8b9,en,"Jinfeng Township, Taitung County",postal_authority_label,unspecified,tw-chunghwa-names,356
+tw-postal-area:bbd30b5c10c77d8bff59fc33,zh-Hant,臺東縣大武鄉,postal_authority_label,unspecified,tw-chunghwa-names,357
+tw-postal-area:bbd30b5c10c77d8bff59fc33,en,"Dawu Township, Taitung County",postal_authority_label,unspecified,tw-chunghwa-names,357
+tw-postal-area:d90d95cc6b5fe200d01b0622,zh-Hant,臺東縣達仁鄉,postal_authority_label,unspecified,tw-chunghwa-names,358
+tw-postal-area:d90d95cc6b5fe200d01b0622,en,"Daren Township, Taitung County",postal_authority_label,unspecified,tw-chunghwa-names,358
+tw-postal-area:9a3ae428dd327ffa22bf6f84,zh-Hant,花蓮縣花蓮市,postal_authority_label,unspecified,tw-chunghwa-names,359
+tw-postal-area:9a3ae428dd327ffa22bf6f84,en,"Hualien City, Hualien County",postal_authority_label,unspecified,tw-chunghwa-names,359
+tw-postal-area:0097488687524e99a24a961a,zh-Hant,花蓮縣新城鄉,postal_authority_label,unspecified,tw-chunghwa-names,360
+tw-postal-area:0097488687524e99a24a961a,en,"Xincheng Township, Hualien County",postal_authority_label,unspecified,tw-chunghwa-names,360
+tw-postal-area:2727c4dfdd34d8422a5d1dfe,zh-Hant,花蓮縣秀林鄉,postal_authority_label,unspecified,tw-chunghwa-names,361
+tw-postal-area:2727c4dfdd34d8422a5d1dfe,en,"Xiulin Township, Hualien County",postal_authority_label,unspecified,tw-chunghwa-names,361
+tw-postal-area:025162202f6b0c55ab666db9,zh-Hant,花蓮縣吉安鄉,postal_authority_label,unspecified,tw-chunghwa-names,362
+tw-postal-area:025162202f6b0c55ab666db9,en,"Ji’an Township, Hualien County",postal_authority_label,unspecified,tw-chunghwa-names,362
+tw-postal-area:f72f0426f10493b5289aaa22,zh-Hant,花蓮縣壽豐鄉,postal_authority_label,unspecified,tw-chunghwa-names,363
+tw-postal-area:f72f0426f10493b5289aaa22,en,"Shoufeng Township, Hualien County",postal_authority_label,unspecified,tw-chunghwa-names,363
+tw-postal-area:10bf2b15d8b771fc39314ce9,zh-Hant,花蓮縣鳳林鎮,postal_authority_label,unspecified,tw-chunghwa-names,364
+tw-postal-area:10bf2b15d8b771fc39314ce9,en,"Fenglin Township, Hualien County",postal_authority_label,unspecified,tw-chunghwa-names,364
+tw-postal-area:64ea0ddece7e73514f57a36a,zh-Hant,花蓮縣光復鄉,postal_authority_label,unspecified,tw-chunghwa-names,365
+tw-postal-area:64ea0ddece7e73514f57a36a,en,"Guangfu Township, Hualien County",postal_authority_label,unspecified,tw-chunghwa-names,365
+tw-postal-area:000cba7fb817fa5d6e679bb0,zh-Hant,花蓮縣豐濱鄉,postal_authority_label,unspecified,tw-chunghwa-names,366
+tw-postal-area:000cba7fb817fa5d6e679bb0,en,"Fengbin Township, Hualien County",postal_authority_label,unspecified,tw-chunghwa-names,366
+tw-postal-area:c6c74ea101150c043bc44aab,zh-Hant,花蓮縣瑞穗鄉,postal_authority_label,unspecified,tw-chunghwa-names,367
+tw-postal-area:c6c74ea101150c043bc44aab,en,"Ruisui Township, Hualien County",postal_authority_label,unspecified,tw-chunghwa-names,367
+tw-postal-area:93214aa1beb4d3a711c43a02,zh-Hant,花蓮縣萬榮鄉,postal_authority_label,unspecified,tw-chunghwa-names,368
+tw-postal-area:93214aa1beb4d3a711c43a02,en,"Wanrong Township, Hualien County",postal_authority_label,unspecified,tw-chunghwa-names,368
+tw-postal-area:660f9f2c6ccf6d04b372fdcc,zh-Hant,花蓮縣玉里鎮,postal_authority_label,unspecified,tw-chunghwa-names,369
+tw-postal-area:660f9f2c6ccf6d04b372fdcc,en,"Yuli Township, Hualien County",postal_authority_label,unspecified,tw-chunghwa-names,369
+tw-postal-area:f882d8d0d8edd95c7743217c,zh-Hant,花蓮縣卓溪鄉,postal_authority_label,unspecified,tw-chunghwa-names,370
+tw-postal-area:f882d8d0d8edd95c7743217c,en,"Zhuoxi Township, Hualien County",postal_authority_label,unspecified,tw-chunghwa-names,370
+tw-postal-area:7db2566c71e2ad24dad3154d,zh-Hant,花蓮縣富里鄉,postal_authority_label,unspecified,tw-chunghwa-names,371
+tw-postal-area:7db2566c71e2ad24dad3154d,en,"Fuli Township, Hualien County",postal_authority_label,unspecified,tw-chunghwa-names,371

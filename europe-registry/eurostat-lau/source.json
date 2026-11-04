@@ -1,0 +1,90 @@
+{
+  "bytes": 19812935,
+  "file_info": [
+    [
+      "Created:",
+      "2026-01-27 00:00:00"
+    ],
+    [
+      "Updated on:",
+      "2026-03-02 00:00:00"
+    ],
+    [
+      "Changes made:",
+      "MT: population figures were added based on the previously provided LAU list by MT (via Edamis, Oct 2025)."
+    ],
+    [
+      "Updated on:",
+      "2026-03-04 00:00:00"
+    ],
+    [
+      "Changes made:",
+      "IT: population figures were corrected based on https://situas.istat.it/web/#/territorio/body?id=448&dateFrom=2024-12-31"
+    ],
+    [
+      "Updated on:",
+      "2026-03-05 00:00:00"
+    ],
+    [
+      "Changes made:",
+      "CH: population figures were corrected"
+    ],
+    [
+      "Updated on:",
+      "2026-03-11 00:00:00"
+    ],
+    [
+      "Changes made:",
+      "CH, DE: column \"CHANGE\" was modified from \"N\" to \"Y\" in the case of some LAUs"
+    ],
+    [
+      "Updated on:",
+      "2026-03-26 00:00:00"
+    ],
+    [
+      "Changes made:",
+      "FR: DEGURBA codes for FR_38057, FR_51584 and FR_80261 changed from 2 to 3"
+    ],
+    [
+      "Updated on:",
+      "2026-04-29 00:00:00"
+    ],
+    [
+      "Changes made:",
+      "CY: DEGURBA codes and COASTAL AREA values updated"
+    ],
+    [
+      "Updated on:",
+      "2026-05-25 00:00:00"
+    ],
+    [
+      "Changes made:",
+      "CY: FUAs using 2018 commuting data are added "
+    ],
+    [
+      "Updated on:",
+      "2026-05-28 00:00:00"
+    ],
+    [
+      "Changes made:",
+      "CZ: FUA CZ007F is added to LAU CZ_564133"
+    ],
+    [
+      "Updated on:",
+      "2026-06-02 00:00:00"
+    ],
+    [
+      "Changes made:",
+      "MK: DEGURBA, CITY ID and CITY_NAME updated"
+    ]
+  ],
+  "last_modified": "Mon, 28 Sep 2026 09:53:11 GMT",
+  "limitation": "Pinned 2025 list; source row PERIOD is preserved separately. Some national units are not municipal governments.",
+  "nuts_release": "2024",
+  "reference_page": "https://ec.europa.eu/eurostat/web/nuts/local-administrative-units",
+  "release_label": "2025",
+  "retrieved_at": "2026-09-29T11:09:45.012375+00:00",
+  "reuse_policy": "https://ec.europa.eu/eurostat/help/copyright-notice",
+  "sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "url": "https://ec.europa.eu/eurostat/documents/345175/501971/EU-27-LAU-2025-NUTS-2024.xlsx/574c9e4a-2dae-99fe-5510-3fd18d8e90c2?t=1771601900130"
+}

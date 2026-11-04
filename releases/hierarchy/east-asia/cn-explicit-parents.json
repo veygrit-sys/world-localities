@@ -1,0 +1,16 @@
+{
+  "source_date": "2023-06-30",
+  "counts": {
+    "provinces": 31,
+    "cities": 342,
+    "areas": 2978,
+    "streets": 41352,
+    "villages": 620573
+  },
+  "duplicate_codes": {},
+  "unresolved_explicit_references": {},
+  "inconsistent_explicit_ancestors": {},
+  "parent_assignment": "explicit source fields only",
+  "streets_are_township_subdistrict_records_not_roads": true,
+  "national_completeness_verified": false
+}

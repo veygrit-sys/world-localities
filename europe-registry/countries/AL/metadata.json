@@ -1,0 +1,103 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "ALB",
+    "country": "AL",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Albania",
+    "geonames_id": "783754",
+    "id": "country:AL",
+    "m49": "008",
+    "m49_region": "Europe",
+    "name_en": "Albania",
+    "region": "Southern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 4433,
+    "admin_rows": 466,
+    "ambiguous_parents": 0,
+    "country": "AL",
+    "country_scope_only": 0,
+    "localities_without_adm1": 12,
+    "locality_rows": 4448,
+    "name_en": "Albania",
+    "other_admin_rows": 260,
+    "region": "Southern Europe",
+    "unresolved_parents": 22
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 12,
+    "ADM2": 61,
+    "ADM2H": 36,
+    "ADM3": 374,
+    "ADM4": 19,
+    "ADMD": 224,
+    "PPL": 3809,
+    "PPLA": 11,
+    "PPLA2": 23,
+    "PPLA3": 307,
+    "PPLC": 1,
+    "PPLCH": 2,
+    "PPLF": 1,
+    "PPLH": 2,
+    "PPLL": 4,
+    "PPLQ": 6,
+    "PPLR": 2,
+    "PPLW": 2,
+    "PPLX": 278
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 266293,
+      "rows": 5174,
+      "sha256": "8140c2ef93387abed60cf2181cb3fb9a73c8c8b3685e55b87267ef4e0c947d50",
+      "uncompressed_sha256": "ec9336c9694ad7a42a9cb20bd621c57686dc7ba7bbf9f3b3bc4580fc6f52348c"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "historical_parent_not_asserted": 48,
+    "missing_code": 19,
+    "missing_reference": 3,
+    "not_assigned_for_other_feature": 224,
+    "source_admin_code": 4868,
+    "source_country": 12
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 12,
+      "sha256": "9c7a08ada4fc603223e5bbf40b0199307a14eb8d92031d466d95909c1c5529a9"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 9420,
+    "bytes": 385405,
+    "excluded_feature_class_counts": {
+      "A": 2,
+      "H": 1107,
+      "L": 139,
+      "R": 3,
+      "S": 546,
+      "T": 2365,
+      "V": 84
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:51:10 GMT",
+    "retained_rows": 5174,
+    "retrieved_at": "2026-09-29T11:13:02.453249+00:00",
+    "sha256": "1e98676931d4f63af7596849d980439927d86f04abf114aa47ab19589f014689",
+    "url": "https://download.geonames.org/export/dump/AL.zip"
+  },
+  "source_modified_max": "2026-08-30",
+  "source_modified_min": "2005-03-31"
+}

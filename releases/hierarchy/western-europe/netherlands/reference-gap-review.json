@@ -1,0 +1,1323 @@
+{
+  "schema_version": 1,
+  "country": "NL",
+  "snapshot_date": "2026-10-08",
+  "implementation_sha256": "f0730d15e41d4850fd91bf926bbf86088114e71c8c2770bc5a88797489bac16d",
+  "reader_sha256": "2a054d7302224e82843ab8a77c7a1d999a510deaa51b22de5a0518c21082a31c",
+  "manifest_sha256": "2c601655629e39b5928e477a0c76857245295acdd76827d8f9d412beef3e507b",
+  "status": "STRICT_GAPS_EXPLAINED_WITHOUT_REWRITING_SOURCE",
+  "public_space_candidate_basis": "Assigned public-space history whose valid-time interval includes the snapshot, with no inactive/not-BAG marker, but excluded by the stricter registration-open predicate. Candidates are evidence only; no source dates, statuses or reference IDs are replaced.",
+  "public_space_candidates": {
+    "0363300000003410": [
+      {
+        "source_id": "0363300000003410",
+        "source_qualified_id": "NL-BAG-public_spaces:9999OPR08102026-000013.xml:8290",
+        "street_names": {
+          "nl": "Jacques Perkstraat"
+        },
+        "locality_id": "3594",
+        "status": "Naamgeving uitgegeven",
+        "history": {
+          "voorkomenidentificatie": "3",
+          "beginGeldigheid": "2025-07-16",
+          "eindGeldigheid": "2028-04-01",
+          "tijdstipRegistratie": "2025-07-17T15:31:59.453",
+          "eindRegistratie": "2025-08-21T09:47:21.670",
+          "tijdstipRegistratieLV": "2025-07-17T15:32:04.452",
+          "tijdstipEindRegistratieLV": "2025-08-21T09:47:29.671"
+        }
+      }
+    ],
+    "0363300000004196": [
+      {
+        "source_id": "0363300000004196",
+        "source_qualified_id": "NL-BAG-public_spaces:9999OPR08102026-000013.xml:9877",
+        "street_names": {
+          "nl": "Lodewijk van Deysselstraat"
+        },
+        "locality_id": "3594",
+        "status": "Naamgeving uitgegeven",
+        "history": {
+          "voorkomenidentificatie": "3",
+          "beginGeldigheid": "2025-07-16",
+          "eindGeldigheid": "2028-09-01",
+          "tijdstipRegistratie": "2025-07-17T15:30:08.036",
+          "eindRegistratie": "2025-08-21T09:45:23.115",
+          "tijdstipRegistratieLV": "2025-07-17T15:30:17.785",
+          "tijdstipEindRegistratieLV": "2025-08-21T09:45:29.999"
+        }
+      }
+    ]
+  },
+  "strict_public_space_gap_rows": 152,
+  "accounted_unique_number_ids": 152,
+  "all_strict_public_space_gaps_accounted": true,
+  "strict_locality_gap_rows": 153,
+  "all_strict_locality_gaps_accounted": true,
+  "candidate_number_rows": [
+    {
+      "source_id": "0363200000032854",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000432.xml:3328",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000144492",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000442.xml:4879",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000144493",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000442.xml:4880",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187731",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3178",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187732",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3179",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187733",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3180",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187734",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3181",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187735",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3182",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187736",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3183",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187737",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3184",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187738",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3185",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187739",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3186",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187740",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3187",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187741",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3188",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187742",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3189",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187743",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3190",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187744",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3191",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187745",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3192",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187746",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3193",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187747",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3194",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187748",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3195",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187749",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3196",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187750",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3197",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187751",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3198",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187752",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3199",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187753",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3200",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187754",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3201",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187755",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3202",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187756",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3203",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187757",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3204",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187764",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3218",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187765",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3219",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187766",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3220",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187767",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3221",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187768",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3222",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187769",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3223",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187770",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3224",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187771",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3225",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187772",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3226",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187773",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3227",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187775",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3228",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187776",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3229",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187777",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3230",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187778",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3231",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187779",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3232",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187780",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3233",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187781",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3234",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000187782",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000446.xml:3235",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000497472",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000474.xml:9988",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000497473",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000474.xml:9989",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000497474",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000474.xml:9990",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000497475",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000474.xml:9991",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200000497476",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000474.xml:9992",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200012162209",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000501.xml:2363",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200012162210",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000501.xml:2365",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200012162211",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000501.xml:2367",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200012162212",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000501.xml:2369",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200012162213",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000501.xml:2371",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200012162214",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000501.xml:2373",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200012162215",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000501.xml:2375",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200012162216",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000501.xml:2377",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200012162217",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000501.xml:2379",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200012162218",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000501.xml:2381",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200012162219",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000501.xml:2383",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200012162220",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000501.xml:2385",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013043068",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000506.xml:9450",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013046001",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000507.xml:4180",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057931",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5277",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057932",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5279",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057933",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5281",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057934",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5283",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057935",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5285",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057936",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5287",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057937",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5289",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057938",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5291",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057939",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5293",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057940",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5295",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057941",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5297",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057942",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5299",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057943",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5301",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057944",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5303",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057945",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5305",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057946",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5307",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057947",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5309",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057948",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5311",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057949",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5313",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057950",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5315",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057951",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5317",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057952",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5319",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057953",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5321",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057954",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5323",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057955",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5325",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057956",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5327",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057957",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5329",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057958",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5331",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057959",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5333",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013057960",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5335",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058299",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5984",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058300",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5986",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058301",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5988",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058302",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5990",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058303",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5992",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058304",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5994",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058305",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5996",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058306",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:5998",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058307",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6000",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058308",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6002",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058309",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6004",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058310",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6006",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058311",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6008",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058312",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6010",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058313",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6012",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058314",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6014",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058315",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6016",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058316",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6018",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058317",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6020",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058318",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6022",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058319",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6024",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058320",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6026",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058321",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6028",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058322",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6030",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058323",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6032",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058324",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6034",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058325",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6036",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058326",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6038",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058327",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6040",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058328",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6042",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058329",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6044",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058330",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6046",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058331",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6048",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058332",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6050",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058333",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6052",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058334",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6054",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058335",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6056",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058336",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6058",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058337",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6060",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058338",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6062",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058339",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6064",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058340",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6066",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058341",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6068",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058342",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6070",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058343",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6072",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058344",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6074",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058345",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6076",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058346",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6078",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058347",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6080",
+      "public_space_id": "0363300000003410",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058348",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6081",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058349",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6082",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013058350",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000509.xml:6083",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013062458",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000510.xml:3183",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013062459",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000510.xml:3184",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    },
+    {
+      "source_id": "0363200013068430",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000511.xml:4115",
+      "public_space_id": "0363300000004196",
+      "locality_override_id": null,
+      "valid_time_candidate_versions": 1,
+      "source_number_status": "Naamgeving uitgegeven"
+    }
+  ],
+  "additional_locality_examples": [
+    {
+      "source_id": "0175200000383750",
+      "source_qualified_id": "NL-BAG-number_designations:9999NUM08102026-000175.xml:9206",
+      "source_locality_override_id": "2546",
+      "public_space_id": "0175300000000348",
+      "public_space_open_locality_id": "3629",
+      "override_has_open_wpl": false
+    }
+  ],
+  "related_locality_versions": {
+    "2546": [
+      {
+        "source_id": "2546",
+        "source_qualified_id": "NL-BAG-localities:9999WPL08102026-000001.xml:2536",
+        "name": "Ommen",
+        "status": "Woonplaats aangewezen",
+        "registry_open_at_snapshot": false,
+        "history": {
+          "voorkomenidentificatie": "1",
+          "beginGeldigheid": "2008-12-09",
+          "eindGeldigheid": "2015-07-07",
+          "tijdstipRegistratie": "2015-07-07T14:26:33.000",
+          "eindRegistratie": "2015-07-07T14:26:33.000",
+          "tijdstipRegistratieLV": "2015-07-07T14:31:05.491",
+          "tijdstipEindRegistratieLV": "2015-07-07T14:31:05.491"
+        }
+      },
+      {
+        "source_id": "2546",
+        "source_qualified_id": "NL-BAG-localities:9999WPL08102026-000001.xml:2537",
+        "name": "Ommen",
+        "status": "Woonplaats ingetrokken",
+        "registry_open_at_snapshot": false,
+        "history": {
+          "voorkomenidentificatie": "2",
+          "beginGeldigheid": "2015-07-07",
+          "tijdstipRegistratie": "2015-07-07T14:26:33.000",
+          "tijdstipRegistratieLV": "2015-07-07T14:31:05.491"
+        }
+      }
+    ]
+  },
+  "semantically_parsed_number_files": 37,
+  "all_number_zip_members_crc_checked": true,
+  "source_values_modified": false,
+  "national_completeness_verified": false,
+  "deliverability_in_scope": false
+}

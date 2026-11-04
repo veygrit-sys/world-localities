@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "curated_on": "2026-10-15",
+  "definition": "Small evidence-backed administrative seed list for Northern America countries currently lacking a full locality source. NOT a locality gazetteer, not street/postal deliverability, and NOT a claim of complete admin levels.",
+  "identifiers": "seed: values are provisional within this file, not government identifiers or links to GeoNames. Only PM official_code is a verified INSEE COG code.",
+  "source_evidence": {
+    "bermuda_parish_profiles": {
+      "publisher": "Government of Bermuda",
+      "url": "https://www.gov.bm/articles/2016-population-and-housing-census-parish-profiles",
+      "source_vintage": "2016 census profiles; page updated 2026-07-14",
+      "license_status": "source licence must be independently reviewed before redistributing primary boundary/raw data"
+    },
+    "bermuda_municipalities_2026": {
+      "publisher": "Government of Bermuda, Parliamentary Registry",
+      "url": "https://www.gov.bm/print/html/node/1237056",
+      "source_vintage": "2026-04-10 government notice referring to the municipalities of Hamilton and St. George",
+      "license_status": "official naming facts only; no copied raw map or household data"
+    },
+    "greenland_statistics_2026": {
+      "publisher": "Statistics Greenland",
+      "url": "https://stat.gl/publ/en/BE/202604/contents/Midyear%20Population.htm",
+      "source_vintage": "2026Q3 municipal population listing; direct official published table",
+      "license_status": "names verified from published public table; permission for large-scale source reuse not established"
+    },
+    "france_communes_2025": {
+      "publisher": "INSEE, Communes 975 Saint-Pierre-et-Miquelon",
+      "url": "https://www.insee.fr/fr/statistiques/fichier/8680702/dep975.pdf",
+      "source_vintage": "INSEE December 2025 publication; reference municipal population in force from 2026-01-01; commune codes 501 and 502 under 975",
+      "license_status": "Verified official commune naming/code facts only; no copied proprietary address or household data"
+    }
+  },
+  "records": [
+    {
+      "provisional_id": "seed:BM:parish:sandys",
+      "country": "BM",
+      "source_name": "Sandys",
+      "language": "en",
+      "kind": "parish",
+      "official_code": null,
+      "authority_code_scheme": null,
+      "evidence_id": "bermuda_parish_profiles",
+      "status": "source_attested_administrative_name",
+      "can_validate_postal_or_street": false
+    },
+    {
+      "provisional_id": "seed:BM:parish:southampton",
+      "country": "BM",
+      "source_name": "Southampton",
+      "language": "en",
+      "kind": "parish",
+      "official_code": null,
+      "authority_code_scheme": null,
+      "evidence_id": "bermuda_parish_profiles",
+      "status": "source_attested_administrative_name",
+      "can_validate_postal_or_street": false
+    },
+    {
+      "provisional_id": "seed:BM:parish:warwick",
+      "country": "BM",
+      "source_name": "Warwick",
+      "language": "en",
+      "kind": "parish",
+      "official_code": null,
+      "authority_code_scheme": null,
+      "evidence_id": "bermuda_parish_profiles",
+      "status": "source_attested_administrative_name",
+      "can_validate_postal_or_street": false
+    },
+    {
+      "provisional_id": "seed:BM:parish:paget",
+      "country": "BM",
+      "source_name": "Paget",
+      "language": "en",
+      "kind": "parish",
+      "official_code": null,
+      "authority_code_scheme": null,
+      "evidence_id": "bermuda_parish_profiles",
+      "status": "source_attested_administrative_name",
+      "can_validate_postal_or_street": false
+    },
+    {
+      "provisional_id": "seed:BM:parish:pembroke",
+      "country": "BM",
+      "source_name": "Pembroke",
+      "language": "en",
+      "kind": "parish",
+      "official_code": null,
+      "authority_code_scheme": null,
+      "evidence_id": "bermuda_parish_profiles",
+      "status": "source_attested_administrative_name",
+      "can_validate_postal_or_street": false
+    },
+    {
+      "provisional_id": "seed:BM:parish:devonshire",
+      "country": "BM",
+      "source_name": "Devonshire",
+      "language": "en",
+      "kind": "parish",
+      "official_code": null,
+      "authority_code_scheme": null,
+      "evidence_id": "bermuda_parish_profiles",
+      "status": "source_attested_administrative_name",
+      "can_validate_postal_or_street": false
+    },
+    {
+      "provisional_id": "seed:BM:parish:smith-s",
+      "country": "BM",
+      "source_name": "Smith’s",
+      "language": "en",
+      "kind": "parish",
+      "official_code": null,
+      "authority_code_scheme": null,
+      "evidence_id": "bermuda_parish_profiles",
+      "status": "source_attested_administrative_name",
+      "can_validate_postal_or_street": false
+    },
+    {
+      "provisional_id": "seed:BM:parish:hamilton",
+      "country": "BM",
+      "source_name": "Hamilton",
+      "language": "en",
+      "kind": "parish",
+      "official_code": null,
+      "authority_code_scheme": null,
+      "evidence_id": "bermuda_parish_profiles",
+      "status": "source_attested_administrative_name",
+      "can_validate_postal_or_street": false
+    },
+    {
+      "provisional_id": "seed:BM:parish:st-george-s",
+      "country": "BM",
+      "source_name": "St. George’s",
+      "language": "en",
+      "kind": "parish",
+      "official_code": null,
+      "authority_code_scheme": null,
+      "evidence_id": "bermuda_parish_profiles",
+      "status": "source_attested_administrative_name",
+      "can_validate_postal_or_street": false
+    },
+    {
+      "provisional_id": "seed:BM:municipality:hamilton",
+      "country": "BM",
+      "source_name": "Hamilton",
+      "language": "en",
+      "kind": "municipality",
+      "official_code": null,
+      "authority_code_scheme": null,
+      "evidence_id": "bermuda_municipalities_2026",
+      "status": "source_attested_administrative_name",
+      "can_validate_postal_or_street": false
+    },
+    {
+      "provisional_id": "seed:BM:municipality:st-george",
+      "country": "BM",
+      "source_name": "St. George",
+      "language": "en",
+      "kind": "municipality",
+      "official_code": null,
+      "authority_code_scheme": null,
+      "evidence_id": "bermuda_municipalities_2026",
+      "status": "source_attested_administrative_name",
+      "can_validate_postal_or_street": false
+    },
+    {
+      "provisional_id": "seed:GL:municipality:kommune-kujalleq",
+      "country": "GL",
+      "source_name": "Kommune Kujalleq",
+      "language": "und",
+      "kind": "municipality",
+      "official_code": null,
+      "authority_code_scheme": null,
+      "evidence_id": "greenland_statistics_2026",
+      "status": "source_attested_administrative_name",
+      "can_validate_postal_or_street": false
+    },
+    {
+      "provisional_id": "seed:GL:municipality:kommuneqarfik-sermersooq",
+      "country": "GL",
+      "source_name": "Kommuneqarfik Sermersooq",
+      "language": "und",
+      "kind": "municipality",
+      "official_code": null,
+      "authority_code_scheme": null,
+      "evidence_id": "greenland_statistics_2026",
+      "status": "source_attested_administrative_name",
+      "can_validate_postal_or_street": false
+    },
+    {
+      "provisional_id": "seed:GL:municipality:qeqqata-kommunia",
+      "country": "GL",
+      "source_name": "Qeqqata Kommunia",
+      "language": "und",
+      "kind": "municipality",
+      "official_code": null,
+      "authority_code_scheme": null,
+      "evidence_id": "greenland_statistics_2026",
+      "status": "source_attested_administrative_name",
+      "can_validate_postal_or_street": false
+    },
+    {
+      "provisional_id": "seed:GL:municipality:kommune-qeqertalik",
+      "country": "GL",
+      "source_name": "Kommune Qeqertalik",
+      "language": "und",
+      "kind": "municipality",
+      "official_code": null,
+      "authority_code_scheme": null,
+      "evidence_id": "greenland_statistics_2026",
+      "status": "source_attested_administrative_name",
+      "can_validate_postal_or_street": false
+    },
+    {
+      "provisional_id": "seed:GL:municipality:avannaata-kommunia",
+      "country": "GL",
+      "source_name": "Avannaata Kommunia",
+      "language": "und",
+      "kind": "municipality",
+      "official_code": null,
+      "authority_code_scheme": null,
+      "evidence_id": "greenland_statistics_2026",
+      "status": "source_attested_administrative_name",
+      "can_validate_postal_or_street": false
+    },
+    {
+      "provisional_id": "seed:PM:commune:miquelon-langlade",
+      "country": "PM",
+      "source_name": "Miquelon-Langlade",
+      "language": "fr",
+      "kind": "commune",
+      "official_code": "97501",
+      "authority_code_scheme": "FR-INSEE-COG-COM",
+      "evidence_id": "france_communes_2025",
+      "status": "source_attested_administrative_name",
+      "can_validate_postal_or_street": false
+    },
+    {
+      "provisional_id": "seed:PM:commune:saint-pierre",
+      "country": "PM",
+      "source_name": "Saint-Pierre",
+      "language": "fr",
+      "kind": "commune",
+      "official_code": "97502",
+      "authority_code_scheme": "FR-INSEE-COG-COM",
+      "evidence_id": "france_communes_2025",
+      "status": "source_attested_administrative_name",
+      "can_validate_postal_or_street": false
+    }
+  ]
+}

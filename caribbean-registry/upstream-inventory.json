@@ -1,0 +1,323 @@
+{
+  "branches": [
+    {
+      "branch": "address-foundation/initial-import-20260925"
+    },
+    {
+      "branch": "address-foundation/nac-multilingual-20260927"
+    },
+    {
+      "branch": "address-foundation/oceania-locale-pack-20260929"
+    }
+  ],
+  "decision": "Existing country admin catalogues are not full localities. Build full current source-country GeoNames A/P extracts and independent language-tagged aliases. Do not substitute cities15000 for complete gazetteer extracts.",
+  "destination": {
+    "caribbean_directory_found": false,
+    "sha": "54931950371fec0adc4186d0d41030ddeb2ed3dc"
+  },
+  "inspected_at": "2026-10-01",
+  "locality_releases": [
+    {
+      "assets": [
+        {
+          "name": "catalog.jsonl.gz",
+          "size": 37676109,
+          "url": "https://github.com/rei-k/world-address/releases/download/af-locality-data-20260927-36342022298-1/catalog.jsonl.gz"
+        },
+        {
+          "name": "country_coverage.csv",
+          "size": 17104,
+          "url": "https://github.com/rei-k/world-address/releases/download/af-locality-data-20260927-36342022298-1/country_coverage.csv"
+        },
+        {
+          "name": "DATA_LICENSES.md",
+          "size": 35608,
+          "url": "https://github.com/rei-k/world-address/releases/download/af-locality-data-20260927-36342022298-1/DATA_LICENSES.md"
+        },
+        {
+          "name": "delta.jsonl.gz",
+          "size": 55307920,
+          "url": "https://github.com/rei-k/world-address/releases/download/af-locality-data-20260927-36342022298-1/delta.jsonl.gz"
+        },
+        {
+          "name": "lexical-ranker.json",
+          "size": 540,
+          "url": "https://github.com/rei-k/world-address/releases/download/af-locality-data-20260927-36342022298-1/lexical-ranker.json"
+        },
+        {
+          "name": "localities.csv",
+          "size": 17043938,
+          "url": "https://github.com/rei-k/world-address/releases/download/af-locality-data-20260927-36342022298-1/localities.csv"
+        },
+        {
+          "name": "localities.sqlite.gz",
+          "size": 254038649,
+          "url": "https://github.com/rei-k/world-address/releases/download/af-locality-data-20260927-36342022298-1/localities.sqlite.gz"
+        },
+        {
+          "name": "locality-source-snapshots.tar.gz",
+          "size": 65498775,
+          "url": "https://github.com/rei-k/world-address/releases/download/af-locality-data-20260927-36342022298-1/locality-source-snapshots.tar.gz"
+        },
+        {
+          "name": "locality-verification.json",
+          "size": 18669,
+          "url": "https://github.com/rei-k/world-address/releases/download/af-locality-data-20260927-36342022298-1/locality-verification.json"
+        },
+        {
+          "name": "manifest.json",
+          "size": 17177,
+          "url": "https://github.com/rei-k/world-address/releases/download/af-locality-data-20260927-36342022298-1/manifest.json"
+        },
+        {
+          "name": "region_coverage.csv",
+          "size": 384853,
+          "url": "https://github.com/rei-k/world-address/releases/download/af-locality-data-20260927-36342022298-1/region_coverage.csv"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size": 1033,
+          "url": "https://github.com/rei-k/world-address/releases/download/af-locality-data-20260927-36342022298-1/SHA256SUMS"
+        },
+        {
+          "name": "training-report.json",
+          "size": 5381,
+          "url": "https://github.com/rei-k/world-address/releases/download/af-locality-data-20260927-36342022298-1/training-report.json"
+        }
+      ],
+      "tag": "af-locality-data-20260927-36342022298-1",
+      "url": "https://github.com/rei-k/world-address/releases/tag/af-locality-data-20260927-36342022298-1"
+    }
+  ],
+  "publication_scope": "27 of 28 M49 Caribbean countries/areas; Cuba (CU) omitted from this publication",
+  "world_address_initial_import": {
+    "full_caribbean_locality_directory_found": false,
+    "sha": "4efec82671b15a6bca4f0099acb6377c55af9aae"
+  },
+  "world_address_main": {
+    "caribbean_country_registries": [
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/AG.json",
+        "sha": "c32a8a61d067f9f4d8168f7075fa71703e576018",
+        "size": 23929,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/c32a8a61d067f9f4d8168f7075fa71703e576018"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/AI.json",
+        "sha": "6ec11a53b839752b08bf23fff37de630200a9adb",
+        "size": 17134,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/6ec11a53b839752b08bf23fff37de630200a9adb"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/AW.json",
+        "sha": "d41b10e18412051a03858dc8fa380febf5c3ca8a",
+        "size": 12597,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/d41b10e18412051a03858dc8fa380febf5c3ca8a"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/BB.json",
+        "sha": "31f58f30fa8c3ce7c56e8a0676cb54b65de0a334",
+        "size": 24729,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/31f58f30fa8c3ce7c56e8a0676cb54b65de0a334"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/BL.json",
+        "sha": "1e79a1e969e1012f64025e8c946e056fbff90d82",
+        "size": 7424,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/1e79a1e969e1012f64025e8c946e056fbff90d82"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/BQ.json",
+        "sha": "c063fcd3f3606c03849d69b35b1da7822f5dd676",
+        "size": 13360,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/c063fcd3f3606c03849d69b35b1da7822f5dd676"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/BS.json",
+        "sha": "fa50cf8099d5eca02e30af707054a234e19e512c",
+        "size": 57945,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/fa50cf8099d5eca02e30af707054a234e19e512c"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/CW.json",
+        "sha": "c7f7e301c8b29dfe489962f4a3d139bfbb8c8b2e",
+        "size": 4561,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/c7f7e301c8b29dfe489962f4a3d139bfbb8c8b2e"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/DM.json",
+        "sha": "783817e0573492369feb199143380a155288558d",
+        "size": 23258,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/783817e0573492369feb199143380a155288558d"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/DO.json",
+        "sha": "4172e9884111a381a057c33e126b8cbca41fe563",
+        "size": 77892,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/4172e9884111a381a057c33e126b8cbca41fe563"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/GD.json",
+        "sha": "7f4f96af11006f0e54508bea9d02d58f2f9301fc",
+        "size": 18856,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/7f4f96af11006f0e54508bea9d02d58f2f9301fc"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/GP.json",
+        "sha": "c355edb4acbffe8ce4202d210608509cc4cab939",
+        "size": 7802,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/c355edb4acbffe8ce4202d210608509cc4cab939"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/HT.json",
+        "sha": "34a7e30d88b70ca89f034efdfdef46ada9b98446",
+        "size": 18424,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/34a7e30d88b70ca89f034efdfdef46ada9b98446"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/JM.json",
+        "sha": "05b5eb389f21871d6196a6789e3bece6e774439c",
+        "size": 30602,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/05b5eb389f21871d6196a6789e3bece6e774439c"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/KN.json",
+        "sha": "83ba589c02456d621c857fd5b0ada0422a187686",
+        "size": 46626,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/83ba589c02456d621c857fd5b0ada0422a187686"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/KY.json",
+        "sha": "45a80a6e846f6e34905d7441f4039c2cd8a98c04",
+        "size": 10571,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/45a80a6e846f6e34905d7441f4039c2cd8a98c04"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/LC.json",
+        "sha": "cd0cdbdfdbf26db204bb35b14a3d43e839de4a8c",
+        "size": 21019,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/cd0cdbdfdbf26db204bb35b14a3d43e839de4a8c"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/MF.json",
+        "sha": "4e78b965e9d978b053144c080e0a45892e2e941a",
+        "size": 6678,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/4e78b965e9d978b053144c080e0a45892e2e941a"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/MQ.json",
+        "sha": "f76290ff9ed6bf2be52fb1eafdb94260311aa5d7",
+        "size": 9319,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/f76290ff9ed6bf2be52fb1eafdb94260311aa5d7"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/MS.json",
+        "sha": "bbce664178a029b8f659b50e93ba8a72fb55433f",
+        "size": 8936,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/bbce664178a029b8f659b50e93ba8a72fb55433f"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/PR.json",
+        "sha": "00621534170b402b3ed23dfbed3e8f4e30484ea4",
+        "size": 68515,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/00621534170b402b3ed23dfbed3e8f4e30484ea4"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/SX.json",
+        "sha": "d0a62ad635c2c64387c4a3030593944f73ae86fa",
+        "size": 6168,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/d0a62ad635c2c64387c4a3030593944f73ae86fa"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/TC.json",
+        "sha": "ca97383c6e4b4c1420ece7498a2325b856fc4b0d",
+        "size": 16262,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/ca97383c6e4b4c1420ece7498a2325b856fc4b0d"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/TT.json",
+        "sha": "c6139760d212850bc3ada12728cef2378c5a6249",
+        "size": 42932,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/c6139760d212850bc3ada12728cef2378c5a6249"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/VC.json",
+        "sha": "a421ca72ff8fc220b5198a79cb6515e7a05ffdae",
+        "size": 23656,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/a421ca72ff8fc220b5198a79cb6515e7a05ffdae"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/VG.json",
+        "sha": "57b8c4773e871e16443a224c6f8550c9e9033ee3",
+        "size": 14055,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/57b8c4773e871e16443a224c6f8550c9e9033ee3"
+      },
+      {
+        "mode": "100644",
+        "path": "address-foundation/registry/countries/VI.json",
+        "sha": "e27fd42b4a8e2db7cf95c96324a8f488194312ff",
+        "size": 14635,
+        "type": "blob",
+        "url": "https://api.github.com/repos/rei-k/world-address/git/blobs/e27fd42b4a8e2db7cf95c96324a8f488194312ff"
+      }
+    ],
+    "full_caribbean_locality_directory_found": false,
+    "sha": "d5730590cb5706493d82dfbd8ca6d559a693b9fb"
+  },
+  "world_address_nac_multilingual": {
+    "full_caribbean_locality_directory_found": false,
+    "sha": "d53ec1901b2ce6ff6778a78f9d3ac38d1c776d3d"
+  }
+}

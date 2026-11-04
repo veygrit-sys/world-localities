@@ -1,0 +1,100 @@
+{
+  "alternate_rows": 55255,
+  "binary_parts": 2,
+  "cuba_country_payload_present": false,
+  "entity_rows": 50581,
+  "errors": 0,
+  "exact_canonical_byte_reconstruction": true,
+  "full_replay_validator": "passed",
+  "idempotence": "passed",
+  "m49_scope_count": 28,
+  "materialization_regression_tests": 12,
+  "omitted_countries": [
+    "CU"
+  ],
+  "original_regression_tests": 13,
+  "oversized_originals_absent_before_reconstruction": true,
+  "partial_scope_assertion_adapted": true,
+  "publication_only_clean_copy": true,
+  "publication_scope": "27 of 28 UN M49 Caribbean countries/areas",
+  "published_countries": 27,
+  "source_archive_fidelity_archives": 54,
+  "source_archive_fidelity_countries": 27,
+  "split_originals": 1,
+  "test_commands": [
+    {
+      "command": [
+        "python",
+        "materialize.py",
+        "--country",
+        "DO"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "materialize.py",
+        "--country",
+        "DO"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "build.py",
+        "verify"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        ".",
+        "-p",
+        "test_caribbean.py",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        ".",
+        "-p",
+        "test_materialize.py",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "query.py",
+        "--country",
+        "DO",
+        "--level",
+        "1",
+        "--limit",
+        "2"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "source-archive-fidelity-check"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "verified_on": "2026-10-01"
+}

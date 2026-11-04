@@ -1,0 +1,89 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "GGY",
+    "country": "GG",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Guernsey",
+    "geonames_id": "3042362",
+    "id": "country:GG",
+    "m49": "831",
+    "m49_region": "Europe",
+    "name_en": "Guernsey",
+    "region": "Northern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 262,
+    "admin_rows": 11,
+    "ambiguous_parents": 0,
+    "country": "GG",
+    "country_scope_only": 213,
+    "localities_without_adm1": 214,
+    "locality_rows": 262,
+    "name_en": "Guernsey",
+    "other_admin_rows": 1,
+    "region": "Northern Europe",
+    "unresolved_parents": 1
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 11,
+    "ADMD": 1,
+    "PPL": 250,
+    "PPLA": 9,
+    "PPLA5": 1,
+    "PPLC": 1,
+    "PPLL": 1
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 10670,
+      "rows": 274,
+      "sha256": "9509b11d037ec47e2d253083dfd04494e417da0dc91a881478fb53a3dace579e",
+      "uncompressed_sha256": "eb92ff0b55327aba4b4bda6cf397de38c8d4bfb09bb3318868c9d2ef2729899e"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 213,
+    "missing_code": 1,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 48,
+    "source_country": 11
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 11,
+      "sha256": "98d0267769ca972d47c9c064b230b13e0324bdead6efb1b15c02cef5b40ecd78"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 858,
+    "bytes": 28782,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 105,
+      "L": 63,
+      "S": 138,
+      "T": 276,
+      "V": 1
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:53:23 GMT",
+    "retained_rows": 274,
+    "retrieved_at": "2026-09-29T11:13:44.906195+00:00",
+    "sha256": "c979c609da3ec48ad242720e3cb8751de1e3614930c8856fff0a3733a8c4945f",
+    "url": "https://download.geonames.org/export/dump/GG.zip"
+  },
+  "source_modified_max": "2026-06-01",
+  "source_modified_min": "2008-05-09"
+}

@@ -1,0 +1,386 @@
+{
+  "base_commit": "a7439bc1c89ad2ea1d2405031b7d33be667c3b2e",
+  "countries": [
+    "BO",
+    "BR",
+    "BV",
+    "CL",
+    "CO",
+    "EC",
+    "FK",
+    "GF",
+    "GS",
+    "GY",
+    "PE",
+    "SR",
+    "UY",
+    "VE"
+  ],
+  "files": [
+    {
+      "path": ".parts/countries/BO/entities.csv.gz/part-0001.bin",
+      "bytes": 524288,
+      "git_blob_sha": "a62d0659b891de811db833a4bf76fa9d1f3e9057"
+    },
+    {
+      "path": ".parts/countries/BO/entities.csv.gz/part-0002.bin",
+      "bytes": 304405,
+      "git_blob_sha": "693bb5bef97934e365a6b7a2d480169a7298ffbe"
+    },
+    {
+      "path": ".parts/countries/BR/alternate-values.csv.gz/part-0001.bin",
+      "bytes": 524288,
+      "git_blob_sha": "1d918ae7f3e89e2338119ba0854eb49ab43e8eda"
+    },
+    {
+      "path": ".parts/countries/BR/alternate-values.csv.gz/part-0002.bin",
+      "bytes": 524288,
+      "git_blob_sha": "54f64468845dd4a3b06ff271db6faee940d0451b"
+    },
+    {
+      "path": ".parts/countries/BR/alternate-values.csv.gz/part-0003.bin",
+      "bytes": 524288,
+      "git_blob_sha": "5de4fe2a2ace28ab11f2b3b9929dd2ec427150a4"
+    },
+    {
+      "path": ".parts/countries/BR/alternate-values.csv.gz/part-0004.bin",
+      "bytes": 524288,
+      "git_blob_sha": "43a54090371b2404e11c6c2d327ceddf640d67bc"
+    },
+    {
+      "path": ".parts/countries/BR/alternate-values.csv.gz/part-0005.bin",
+      "bytes": 638,
+      "git_blob_sha": "d090bab672c2ea6dd858f8c59c506c1bd66f79e4"
+    },
+    {
+      "path": ".parts/countries/BR/entities.csv.gz/part-0001.bin",
+      "bytes": 524288,
+      "git_blob_sha": "ed9e80c6a74bd6be915e4da0d17bf18421f3d4d2"
+    },
+    {
+      "path": ".parts/countries/BR/entities.csv.gz/part-0002.bin",
+      "bytes": 524288,
+      "git_blob_sha": "074a0d7ef4331ce794ca732a6093a312d9a665a9"
+    },
+    {
+      "path": ".parts/countries/BR/entities.csv.gz/part-0003.bin",
+      "bytes": 524288,
+      "git_blob_sha": "29f53ae0a146fcfd691669118f5711c2f1b7c305"
+    },
+    {
+      "path": ".parts/countries/BR/entities.csv.gz/part-0004.bin",
+      "bytes": 524288,
+      "git_blob_sha": "ccce5d0feb75c1699b5cd90ff8aed5b3714dd11b"
+    },
+    {
+      "path": ".parts/countries/BR/entities.csv.gz/part-0005.bin",
+      "bytes": 524288,
+      "git_blob_sha": "b3386934f5dbf4f7a112b8085b58ea0a7b13282a"
+    },
+    {
+      "path": ".parts/countries/BR/entities.csv.gz/part-0006.bin",
+      "bytes": 524288,
+      "git_blob_sha": "1e22e8f6c0caba5d752193fa1887dd93f4a2795b"
+    },
+    {
+      "path": ".parts/countries/BR/entities.csv.gz/part-0007.bin",
+      "bytes": 76690,
+      "git_blob_sha": "45df174ad4c1820871297c43bf0c405850b9aee6"
+    },
+    {
+      "path": ".parts/countries/CO/entities.csv.gz/part-0001.bin",
+      "bytes": 524288,
+      "git_blob_sha": "173e18638cd4420cda16c101180f509e9ea8f121"
+    },
+    {
+      "path": ".parts/countries/CO/entities.csv.gz/part-0002.bin",
+      "bytes": 524288,
+      "git_blob_sha": "8171c752211096c47258ab8dbd24f4b126ea6d01"
+    },
+    {
+      "path": ".parts/countries/CO/entities.csv.gz/part-0003.bin",
+      "bytes": 285307,
+      "git_blob_sha": "42b447e0297698a9a7cc3cb64c60b897f2c1f415"
+    },
+    {
+      "path": ".parts/countries/PE/entities.csv.gz/part-0001.bin",
+      "bytes": 524288,
+      "git_blob_sha": "10ba716b518f3bea2e7af8566a5e73ce565f73b0"
+    },
+    {
+      "path": ".parts/countries/PE/entities.csv.gz/part-0002.bin",
+      "bytes": 524288,
+      "git_blob_sha": "52b07ba2929c8f84318628381042f64d6bdd8de8"
+    },
+    {
+      "path": ".parts/countries/PE/entities.csv.gz/part-0003.bin",
+      "bytes": 524288,
+      "git_blob_sha": "f5d4e01c321521d013bda93b0a0f9a09cdf67221"
+    },
+    {
+      "path": ".parts/countries/PE/entities.csv.gz/part-0004.bin",
+      "bytes": 195276,
+      "git_blob_sha": "98f34cf5a6a337ad11a4ca37c1a67a9cdeb7fe80"
+    },
+    {
+      "path": ".parts/countries/VE/entities.csv.gz/part-0001.bin",
+      "bytes": 524288,
+      "git_blob_sha": "a125ba6d09c92ba01f4cd864128123b49b3359b1"
+    },
+    {
+      "path": ".parts/countries/VE/entities.csv.gz/part-0002.bin",
+      "bytes": 328311,
+      "git_blob_sha": "6df0dd2d1447460c899eb72ff9b6e4286e07b120"
+    },
+    {
+      "path": "countries/BO/admin1.csv",
+      "bytes": 14404,
+      "git_blob_sha": "3b1d0c1f44efc1e7348a2e9a144bf6a483f00241"
+    },
+    {
+      "path": "countries/BO/alternate-values.csv.gz",
+      "bytes": 482445,
+      "git_blob_sha": "d60a61804d247eade70f3356fd9ac3ab27d58c3f"
+    },
+    {
+      "path": "countries/BO/metadata.json",
+      "bytes": 3873,
+      "git_blob_sha": "32aec3c7c2994513bc1c3ed15e0852f38c7a59bc"
+    },
+    {
+      "path": "countries/BR/admin1.csv",
+      "bytes": 36588,
+      "git_blob_sha": "f3753cd8b3b76839dbbc07a2063db9138ef663bd"
+    },
+    {
+      "path": "countries/BR/metadata.json",
+      "bytes": 3854,
+      "git_blob_sha": "7b0bb9adf443016da6511386db28fc7b46efbf67"
+    },
+    {
+      "path": "countries/BV/admin1.csv",
+      "bytes": 355,
+      "git_blob_sha": "fe4737e1b0de1368aec4e03805415002d0850296"
+    },
+    {
+      "path": "countries/BV/alternate-values.csv.gz",
+      "bytes": 2932,
+      "git_blob_sha": "7b84d225659809c9e13d99ad03749737727fc8d9"
+    },
+    {
+      "path": "countries/BV/entities.csv.gz",
+      "bytes": 2009,
+      "git_blob_sha": "80b31e4f591fc813f12676d21b71ca5d12d9ab1d"
+    },
+    {
+      "path": "countries/BV/metadata.json",
+      "bytes": 3311,
+      "git_blob_sha": "e0ff888865cb060f16c14b23492f20f6ed0226d5"
+    },
+    {
+      "path": "countries/CL/admin1.csv",
+      "bytes": 28083,
+      "git_blob_sha": "a9c08b20fb40f9c62ca0a3ee135a9d385c927a05"
+    },
+    {
+      "path": "countries/CL/alternate-values.csv.gz",
+      "bytes": 225443,
+      "git_blob_sha": "72402dafd90e33dc48fdf848acf99cd761547586"
+    },
+    {
+      "path": "countries/CL/entities.csv.gz",
+      "bytes": 316360,
+      "git_blob_sha": "31ece1799b2b0f0c987fffec606c7b70d76c1e86"
+    },
+    {
+      "path": "countries/CL/metadata.json",
+      "bytes": 3775,
+      "git_blob_sha": "99db2e7e2b4bc4bd868145484f68ae19eef06b2a"
+    },
+    {
+      "path": "countries/CO/admin1.csv",
+      "bytes": 59172,
+      "git_blob_sha": "8abd9314c583871a4fd71949904700adccda1a1e"
+    },
+    {
+      "path": "countries/CO/alternate-values.csv.gz",
+      "bytes": 536003,
+      "git_blob_sha": "98c48f06161b545c3e31858c6b0de64b0be53bd0"
+    },
+    {
+      "path": "countries/CO/metadata.json",
+      "bytes": 3844,
+      "git_blob_sha": "ce2020bb0be6453a7268aa144474a7f8f76de02e"
+    },
+    {
+      "path": "countries/EC/admin1.csv",
+      "bytes": 39186,
+      "git_blob_sha": "616da776c92e0e99c4b90a0a1446c21f93d6ea25"
+    },
+    {
+      "path": "countries/EC/alternate-values.csv.gz",
+      "bytes": 253218,
+      "git_blob_sha": "abc23d9c4c568a5407ddcdd9d41def0a6a7d5395"
+    },
+    {
+      "path": "countries/EC/entities.csv.gz",
+      "bytes": 492602,
+      "git_blob_sha": "185cbc578242f81c1a601f0ce21cef9d9bc4fcb4"
+    },
+    {
+      "path": "countries/EC/metadata.json",
+      "bytes": 3720,
+      "git_blob_sha": "594913b0852d03bd67b488b91dce80634f14a714"
+    },
+    {
+      "path": "countries/FK/admin1.csv",
+      "bytes": 355,
+      "git_blob_sha": "fe4737e1b0de1368aec4e03805415002d0850296"
+    },
+    {
+      "path": "countries/FK/alternate-values.csv.gz",
+      "bytes": 6993,
+      "git_blob_sha": "67c362dcb23fa3b4f10ad4fc80b2111f143fa3ef"
+    },
+    {
+      "path": "countries/FK/entities.csv.gz",
+      "bytes": 5630,
+      "git_blob_sha": "b726fb7038830c1cf4c8c73e090bfb241d1424b0"
+    },
+    {
+      "path": "countries/FK/metadata.json",
+      "bytes": 3438,
+      "git_blob_sha": "3fae7e13798976608d84c42e6e2033998e82c4bf"
+    },
+    {
+      "path": "countries/GF/admin1.csv",
+      "bytes": 1004,
+      "git_blob_sha": "2887535d260d48045ec807b6eb4bee9ddabcc665"
+    },
+    {
+      "path": "countries/GF/alternate-values.csv.gz",
+      "bytes": 23114,
+      "git_blob_sha": "f970cca3348867e1280a996acc9a19a96a613037"
+    },
+    {
+      "path": "countries/GF/entities.csv.gz",
+      "bytes": 31227,
+      "git_blob_sha": "6faa9f92dd9519b2ebf3131fb939435a21970d41"
+    },
+    {
+      "path": "countries/GF/metadata.json",
+      "bytes": 3694,
+      "git_blob_sha": "b9719766e9a89b9097989a12c7e3ccd18b446ce7"
+    },
+    {
+      "path": "countries/GS/admin1.csv",
+      "bytes": 355,
+      "git_blob_sha": "fe4737e1b0de1368aec4e03805415002d0850296"
+    },
+    {
+      "path": "countries/GS/alternate-values.csv.gz",
+      "bytes": 6744,
+      "git_blob_sha": "2dbc47c8041361c1efc59fccc95e52189e6b3661"
+    },
+    {
+      "path": "countries/GS/entities.csv.gz",
+      "bytes": 6018,
+      "git_blob_sha": "9395cb3fd7da576eeaf5f97657567a98416d6eee"
+    },
+    {
+      "path": "countries/GS/metadata.json",
+      "bytes": 3468,
+      "git_blob_sha": "eb1afc820917339cd807bcbf6d3a055065412d19"
+    },
+    {
+      "path": "countries/GY/admin1.csv",
+      "bytes": 19594,
+      "git_blob_sha": "77324e8c1cd4a710e9aad4f6f12ced9df8a1cc92"
+    },
+    {
+      "path": "countries/GY/alternate-values.csv.gz",
+      "bytes": 40403,
+      "git_blob_sha": "8f0d33726a323d8251a567c54d085555e6e9b015"
+    },
+    {
+      "path": "countries/GY/entities.csv.gz",
+      "bytes": 41809,
+      "git_blob_sha": "d53f13705ee82498e2c1b96af04060d987a2624e"
+    },
+    {
+      "path": "countries/GY/metadata.json",
+      "bytes": 3567,
+      "git_blob_sha": "ccf3aa79efffb8ce16d80664ddffd9d5cd2e6cb0"
+    },
+    {
+      "path": "countries/PE/admin1.csv",
+      "bytes": 43719,
+      "git_blob_sha": "615b90426b57a4ceff68e8ed97433153f79f56d7"
+    },
+    {
+      "path": "countries/PE/alternate-values.csv.gz",
+      "bytes": 565148,
+      "git_blob_sha": "f3dba55ff3ba8a9c67ace491ffaa4a5e51399126"
+    },
+    {
+      "path": "countries/PE/metadata.json",
+      "bytes": 3804,
+      "git_blob_sha": "c9a96e12f4126658a8d63469d81f7ec5f06376c8"
+    },
+    {
+      "path": "countries/SR/admin1.csv",
+      "bytes": 18361,
+      "git_blob_sha": "3278b1862deaece40c7609111995dad88b5a548a"
+    },
+    {
+      "path": "countries/SR/alternate-values.csv.gz",
+      "bytes": 36743,
+      "git_blob_sha": "ff249ca10feb02f79295c76bc343e2fc7799e454"
+    },
+    {
+      "path": "countries/SR/entities.csv.gz",
+      "bytes": 30403,
+      "git_blob_sha": "1b94fb3e4ac47e353c611618ca9f701c32d224d0"
+    },
+    {
+      "path": "countries/SR/metadata.json",
+      "bytes": 3691,
+      "git_blob_sha": "ba17cf397bfe4d916a30fa2ba0f67f5677c77f76"
+    },
+    {
+      "path": "countries/UY/admin1.csv",
+      "bytes": 36688,
+      "git_blob_sha": "89e398b6a31376614673ab7ea09f65a5ff0d337b"
+    },
+    {
+      "path": "countries/UY/alternate-values.csv.gz",
+      "bytes": 99670,
+      "git_blob_sha": "fde32aeba8eb6cde0e267648451bb01794a01060"
+    },
+    {
+      "path": "countries/UY/entities.csv.gz",
+      "bytes": 74784,
+      "git_blob_sha": "3f9ae0789cbcca2c0da90118dbd6a3930a134cbc"
+    },
+    {
+      "path": "countries/UY/metadata.json",
+      "bytes": 3615,
+      "git_blob_sha": "f6e259b3ca2f78b5beab78ed3bac6837af60e0e0"
+    },
+    {
+      "path": "countries/VE/admin1.csv",
+      "bytes": 14176,
+      "git_blob_sha": "96706c0d1b192f0d6b6d343ac39c5b11d8ad9a9e"
+    },
+    {
+      "path": "countries/VE/alternate-values.csv.gz",
+      "bytes": 215917,
+      "git_blob_sha": "25099f018e9ab423f3c8d62eefc928fcd370ee2d"
+    },
+    {
+      "path": "countries/VE/metadata.json",
+      "bytes": 3830,
+      "git_blob_sha": "f462d42d1117b8fe81d5fa9be4d994cd230f8fc6"
+    }
+  ]
+}

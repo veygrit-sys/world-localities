@@ -1,0 +1,29 @@
+{
+  "country_codes": [
+    "US",
+    "CA",
+    "MX"
+  ],
+  "country_count": 3,
+  "supplementary_area_codes": [
+    "BM",
+    "GL",
+    "PM"
+  ],
+  "supplementary_area_count": 3,
+  "default_processing_scope": "countries",
+  "scope_basis": "Project North America delivery group: US, CA, MX. Not the UN M49 Northern America definition.",
+  "m49_mapping": {
+    "US": "northern_america",
+    "CA": "northern_america",
+    "MX": "central_america",
+    "BM": "northern_america",
+    "GL": "northern_america",
+    "PM": "northern_america"
+  },
+  "excluded_regions": [
+    "other Central America countries",
+    "Caribbean"
+  ],
+  "note_ja": "既存のM49分類ではメキシコは中央アメリカ。本版は米国・カナダ・メキシコの3か国を便宜上の北米本体とし、元のM49分類も保持する。"
+}

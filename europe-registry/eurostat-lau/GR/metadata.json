@@ -1,0 +1,35 @@
+{
+  "country": "GR",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 6773,
+      "rows": 72,
+      "sha256": "b8a36fe311ee116a66a43e7eaf4926e425ba9e5d488b51a38c2251621982c0ed"
+    },
+    "units.csv.gz": {
+      "bytes": 176074,
+      "rows": 6142,
+      "sha256": "bbd92d2022aabc038cd4313bc42fb18f4da566f4de5726be59618a878299f79a"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 6142,
+  "skipped_empty_rows": 4838,
+  "source_period_counts": {
+    "2024": 6142
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "EL",
+  "validation": {
+    "core": "validated",
+    "overall": "validated",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

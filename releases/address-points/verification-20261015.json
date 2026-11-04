@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-15",
+  "scope": "Installer regression tests and code ZIP overlay integrity only",
+  "python": "3.13.5",
+  "unit_tests": {
+    "run": 21,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "command": "python -m unittest discover -s tests -p 'test_address_release.py' -v"
+  },
+  "packages": [
+    {
+      "release": "Veygrit_EastAsia_20261015",
+      "status": "VERIFIED_CODE_ONLY",
+      "verified_payloads": 312,
+      "unverified_data_payloads": 92,
+      "data_archives_verified": 0,
+      "delivery_verified": false
+    },
+    {
+      "release": "Veygrit_SoutheastAsia_20261015",
+      "status": "VERIFIED_CODE_ONLY",
+      "verified_payloads": 347,
+      "unverified_data_payloads": 48,
+      "data_archives_verified": 0,
+      "delivery_verified": false
+    }
+  ],
+  "not_performed": [
+    "Data ZIP full-byte revalidation or production restore",
+    "Address query runtime tests: DuckDB, PyArrow and OpenCC unavailable in this execution environment",
+    "Whole-repository test suite",
+    "Data completeness, delivery verification or licensing re-audit"
+  ],
+  "tested_files": [
+    {
+      "path": "scripts/address_release.py",
+      "bytes": 11813,
+      "sha256": "1af3a5ee40b36b281f2c7b0d10c7f8ab347f6d1ed7457aec254128f39ff25417"
+    },
+    {
+      "path": "tests/test_address_release.py",
+      "bytes": 8905,
+      "sha256": "0b47174d5211dcc9fd48ddc216722ea14b3181c4a14e60c504f8f0eae6589560"
+    },
+    {
+      "path": "releases/address-points/20261015.json",
+      "bytes": 2837,
+      "sha256": "98ae2dea38075e134eb4379c2237eead809927841ebc6661f5c4197f17856694"
+    }
+  ]
+}

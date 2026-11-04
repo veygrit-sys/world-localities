@@ -1,0 +1,121 @@
+{
+  "alternate_values_file": {
+    "bytes": 23114,
+    "filename": "alternate-values.csv.gz",
+    "rows": 1246,
+    "sha256": "5024d0f8285d425003c564dab36ad2c54d0f1a5cbf78d3cc5470f2155533ffe7",
+    "uncompressed_sha256": "50db34efe49224e215547c06d43404613c10a697e37e365d6d8bd4ef5103f55c"
+  },
+  "alternate_values_source": {
+    "bytes": 63977,
+    "retained_rows": 1246,
+    "retrieved_on": "2026-10-01",
+    "sha256": "83a4ea946cd31fe23feb85710660f6143285eaf42d06e4177f1c1a8df2611922",
+    "source_columns": 10,
+    "source_rows": 5422,
+    "url": "https://download.geonames.org/export/dump/alternatenames/GF.zip"
+  },
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "GUF",
+    "country": "GF",
+    "geonames_continent": "SA",
+    "geonames_id": "3381670",
+    "id": "country:GF",
+    "m49": "254",
+    "name_en": "French Guiana",
+    "region": "South America",
+    "region_m49": "005",
+    "source_country_languages": [
+      "fr-GF"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 671,
+    "admin_rows": 26,
+    "ambiguous_parents": 0,
+    "country": "GF",
+    "country_scope_only": 144,
+    "localities_without_adm1": 144,
+    "locality_rows": 741,
+    "name_en": "French Guiana",
+    "other_admin_rows": 15,
+    "region": "South America",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 1,
+    "ADM2": 1,
+    "ADM3": 2,
+    "ADM3H": 14,
+    "ADM4": 22,
+    "PCLD": 1,
+    "PPL": 482,
+    "PPLA2": 1,
+    "PPLA3": 10,
+    "PPLA4": 1,
+    "PPLC": 1,
+    "PPLL": 6,
+    "PPLQ": 70,
+    "PPLX": 170
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 31227,
+      "rows": 782,
+      "sha256": "2ac1eac52b9e2db3abfb2c313c1529e145062e4e7a5d29f2411666d1793e02ef",
+      "uncompressed_sha256": "28edc6d0c937a585ae1c90bf7a1b95ce55016f384261bbddbd2c437f32267ecf"
+    }
+  },
+  "known_issues": [],
+  "label_coverage": {
+    "current_country_language_name_entities": 567,
+    "current_english_name_entities": 8,
+    "language_tagged_name_entities": 582,
+    "missing_country_language_name_entities": 215,
+    "missing_english_name_entities": 774,
+    "native_label_rule": "Exact source language tag matched against countryInfo language list; no language is inferred from primary name, ASCII, spelling or script. Country-language match is not proof of each place's indigenous language."
+  },
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 144,
+    "not_assigned_for_other_feature": 15,
+    "source_admin_code": 622,
+    "source_country": 1
+  },
+  "postal_coverage": {
+    "note": "Only source post-tag values, if any; not joined by place name and not delivery validation.",
+    "postal_deliverability_verified": false,
+    "postal_validation": false,
+    "source_postal_value_rows": 76
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 1,
+      "sha256": "9db470ffcab148f765c80ec211847e69c5109748ea8e0c23a2da8b608a48fb80"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 118913,
+    "discarded_feature_classes": {
+      "H": 1731,
+      "L": 397,
+      "R": 42,
+      "S": 234,
+      "T": 441,
+      "V": 106
+    },
+    "retained_rows": 782,
+    "retrieved_on": "2026-10-01",
+    "sha256": "634a4174df4148f2e5173ac8e73d0bc27a0c0aed289012835965f179aff1c196",
+    "source_rows": 3733,
+    "url": "https://download.geonames.org/export/dump/GF.zip"
+  },
+  "source_modified_max": "2026-09-29",
+  "source_modified_min": "1993-12-15"
+}

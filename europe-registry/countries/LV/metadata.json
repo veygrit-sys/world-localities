@@ -1,0 +1,95 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "LVA",
+    "country": "LV",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Latvia",
+    "geonames_id": "458258",
+    "id": "country:LV",
+    "m49": "428",
+    "m49_region": "Europe",
+    "name_en": "Latvia",
+    "region": "Northern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 7743,
+    "admin_rows": 630,
+    "ambiguous_parents": 0,
+    "country": "LV",
+    "country_scope_only": 1,
+    "localities_without_adm1": 45,
+    "locality_rows": 7787,
+    "name_en": "Latvia",
+    "other_admin_rows": 80,
+    "region": "Northern Europe",
+    "unresolved_parents": 51
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 43,
+    "ADM1H": 80,
+    "ADM2": 587,
+    "PPL": 7507,
+    "PPLA": 38,
+    "PPLA2": 46,
+    "PPLC": 1,
+    "PPLH": 5,
+    "PPLL": 43,
+    "PPLQ": 38,
+    "PPLW": 1,
+    "PPLX": 108
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 462247,
+      "rows": 8497,
+      "sha256": "389746b358be102f61b9ac57654aeadf0f1e05943b7b1efc18111b150d8f9afe",
+      "uncompressed_sha256": "93494982c08a3615e4447f6a51a6758088858b27df09d885230d1a374e0986b4"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 1,
+    "historical_parent_not_asserted": 124,
+    "missing_reference": 51,
+    "source_admin_code": 8278,
+    "source_country": 43
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 43,
+      "sha256": "b3351ddefcc8a3beff4736ec224282b4109c8857a1151294ab2c7094157a8950"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 30916,
+    "bytes": 1068796,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 6619,
+      "L": 1302,
+      "R": 5,
+      "S": 7666,
+      "T": 4424,
+      "V": 2402
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:54:44 GMT",
+    "retained_rows": 8497,
+    "retrieved_at": "2026-09-29T11:14:10.755501+00:00",
+    "sha256": "ddcb52833b8971eb17b2627ea80693f67207dcf6c46f5bdb531b53c4950201c2",
+    "url": "https://download.geonames.org/export/dump/LV.zip"
+  },
+  "source_modified_max": "2026-09-22",
+  "source_modified_min": "2007-02-15"
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "publication_scope": "installer_and_package_integrity_pins_only",
+  "data_payloads_in_git": false,
+  "code_archives_verified_on": "2026-10-15",
+  "data_archive_hash_source": "Original release manifests; data archives not rehashed during this GitHub integration.",
+  "releases": [
+    {
+      "release": "Veygrit_EastAsia_20261015",
+      "manifest": "EAST_ASIA_MANIFEST.json",
+      "code": {
+        "name": "Veygrit_EastAsia_20261015_Code.zip",
+        "bytes": 5602741,
+        "sha256": "b6e1a0c7e130ef4bc1cb8e8beb3a66a769a7068af7acbdd556149777c3c3b321"
+      },
+      "data_archives": [
+        {
+          "name": "Veygrit_EastAsia_20261015_Data_01.zip",
+          "bytes": 251857287,
+          "sha256": "3762dcc259d0e64e0079d2f4f66b798c50747c6ec0d768ac2bc9d77a9ff8cf8c"
+        },
+        {
+          "name": "Veygrit_EastAsia_20261015_Data_02.zip",
+          "bytes": 102928500,
+          "sha256": "f8996447017f2b4da16de195cf71eabbcf037e239e3fb992a547cd4f79127232"
+        },
+        {
+          "name": "Veygrit_EastAsia_20261015_Data_03.zip",
+          "bytes": 327192272,
+          "sha256": "3383368a454f7c1733edb43ee486cc8255f3bc9fd0549b1350355f1068d1b34d"
+        },
+        {
+          "name": "Veygrit_EastAsia_20261015_Data_04.zip",
+          "bytes": 276350848,
+          "sha256": "cf28134c278c22cb8db8445a589b51bed0a71eea3a4c137f67e6dac9ef6d0cd0"
+        },
+        {
+          "name": "Veygrit_EastAsia_20261015_Data_05.zip",
+          "bytes": 206915770,
+          "sha256": "4a7827415f31e80698c812cd7dbdd06cbe5e1d4a18ab7319a6de35c500e75e83"
+        }
+      ],
+      "manifest_payloads": 404
+    },
+    {
+      "release": "Veygrit_SoutheastAsia_20261015",
+      "manifest": "SOUTHEAST_ASIA_MANIFEST.json",
+      "code": {
+        "name": "Veygrit_SoutheastAsia_20261015_Code.zip",
+        "bytes": 12835515,
+        "sha256": "6cce307958e57e2a405f7be0d73b9e2308c03645db66b355f2cbf58822b047cb"
+      },
+      "data_archives": [
+        {
+          "name": "Veygrit_SoutheastAsia_20261015_Data_01.zip",
+          "bytes": 315509638,
+          "sha256": "12c3d3d9ad87315cf4d9677b9dcb55e70d4c389da94b3af7f4bcc9278311d97d"
+        },
+        {
+          "name": "Veygrit_SoutheastAsia_20261015_Data_02.zip",
+          "bytes": 332194637,
+          "sha256": "4df600245f6c8996708c89d15092269e494550570e53595530e1003fb1a6b6db"
+        },
+        {
+          "name": "Veygrit_SoutheastAsia_20261015_Data_03.zip",
+          "bytes": 273436534,
+          "sha256": "e966c3426dd026448a9b58abe75182858475f522a3449a3e56603ef2c3b84c06"
+        },
+        {
+          "name": "Veygrit_SoutheastAsia_20261015_Data_04.zip",
+          "bytes": 104004459,
+          "sha256": "90a29240aa4f8f93e761777d379b14fc8f02713b15b8caf6e61b913c9e0ed70a"
+        }
+      ],
+      "manifest_payloads": 395
+    }
+  ]
+}

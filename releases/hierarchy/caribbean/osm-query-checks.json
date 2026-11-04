@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "countries": [
+    {
+      "country": "AG",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "BS",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "BB",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "CU",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "DM",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "DO",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "GD",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "HT",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "JM",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "KN",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "LC",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "VC",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "TT",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "AI",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "AW",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "BQ",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "VG",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "KY",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "CW",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "GP",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "MQ",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "MS",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "PR",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "BL",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "MF",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "SX",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "TC",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    },
+    {
+      "country": "VI",
+      "scoped_query": "PASS",
+      "literal_number_query": "PASS"
+    }
+  ],
+  "complete": false,
+  "deliverability_in_scope": false
+}

@@ -1,0 +1,96 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "UGA",
+    "country": "UG",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Uganda",
+    "geonames_id": "226074",
+    "id": "country:UG",
+    "m49": "800",
+    "name_en": "Uganda",
+    "numeric": "800",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 11450,
+    "admin_rows": 3874,
+    "ambiguous_parents": 0,
+    "country": "UG",
+    "country_scope_only": 2,
+    "localities_without_adm1": 2,
+    "locality_rows": 11455,
+    "name_en": "Uganda",
+    "other_admin_rows": 74,
+    "region": "Eastern Africa",
+    "unresolved_parents": 164
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 4,
+    "ADM1H": 1,
+    "ADM2": 122,
+    "ADM3": 174,
+    "ADM4": 1359,
+    "ADM5": 2215,
+    "ADM5H": 1,
+    "ADMD": 46,
+    "PCLH": 1,
+    "PCLI": 1,
+    "PPL": 10961,
+    "PPLA": 3,
+    "PPLA2": 113,
+    "PPLA3": 1,
+    "PPLA4": 5,
+    "PPLC": 1,
+    "PPLL": 326,
+    "PPLS": 5,
+    "PPLX": 40,
+    "PRSH": 24
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 568382,
+      "rows": 15403,
+      "sha256": "505c090504fa653ec6514577979313efee828906f53f879939466a1febcd7446",
+      "uncompressed_sha256": "43555789f32802a75993b38caa7ce612f37e535cb8d564d1b52a93e360f4d556"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 2,
+    "missing_code": 164,
+    "not_assigned_for_other_feature": 74,
+    "source_admin_code": 15159,
+    "source_country": 4
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 4,
+      "sha256": "91ba05cd942b02eef948b4026da585dc369f420546442fe480a6bdda72edc5f3"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 735570,
+    "discarded_feature_classes": {
+      "H": 4056,
+      "L": 1471,
+      "R": 25,
+      "S": 2649,
+      "T": 3186,
+      "V": 153
+    },
+    "retained_rows": 15403,
+    "retrieved_on": "2026-09-26",
+    "sha256": "db4f3b224ebc1010ef2f6dcb983b47c12debb91a7aa37e64375dfc4b20877572",
+    "source_rows": 26943,
+    "url": "https://download.geonames.org/export/dump/UG.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "2010-08-28"
+}

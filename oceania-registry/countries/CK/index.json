@@ -1,0 +1,68 @@
+{
+  "archive_bytes": 80894,
+  "archive_sha256": "db2b32e52dd617e36e99d82533a54683bf743e61054df07ddc2c6ee797a1013e",
+  "parts": [
+    {
+      "path": "countries/CK/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 107861,
+      "stored_sha256": "eecfe23813ac357f5300f670346fe346b746f3a5f354f4e9e365ab92d28c7951",
+      "bytes": 80894,
+      "sha256": "db2b32e52dd617e36e99d82533a54683bf743e61054df07ddc2c6ee797a1013e"
+    }
+  ],
+  "members": {
+    "base/data/polynesia/CK/index.json": {
+      "bytes": 2134,
+      "sha256": "1f408294c11c0741ab4315472df7dc8db21f2aff854111f2ef7add62c6e00fab"
+    },
+    "base/data/polynesia/CK/places.csv": {
+      "bytes": 56765,
+      "sha256": "243c3d81e49c0f82623a23a9e232993d771daef803d31dbec412f39fe6655039"
+    },
+    "base/data/polynesia/CK/places.jsonl": {
+      "bytes": 129889,
+      "sha256": "d404180325e74916e1256f21b852a4ada13086f1bf584bfee51271d0acf2eabe"
+    },
+    "base/sources/geonames/CK.zip": {
+      "bytes": 27759,
+      "sha256": "5ac7e0c7a46d912cc4c20dcdb42c09202e5797754acfcba71b89f9ec265a5a38"
+    },
+    "base/sources/geonames/CK.zip.download.json": {
+      "bytes": 304,
+      "sha256": "d5f4b23fe5f76eb03160ff2ca3184d3d4ed7b917944cf941550e977048275c0e"
+    },
+    "locale/names.csv": {
+      "bytes": 45657,
+      "sha256": "00ff12225ed4f906322025101f80a06c0d4e71ec4ff7b549d1f1cba81c1e1561"
+    },
+    "locale/names.jsonl": {
+      "bytes": 101422,
+      "sha256": "68e31ed33bbd836c0059b82a41fdec51d5668d0571fed0db52d263fbd0acd6af"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 3,
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "locale/sources/address-templates/CK.json": {
+      "bytes": 49,
+      "sha256": "da16e5dab9e1bf684ae4c073716ea8d831c0b7fd755a28d13d19ca325bb53aaf"
+    },
+    "locale/sources/address-templates/CK.json.download.json": {
+      "bytes": 270,
+      "sha256": "854f533170dde1c9cbeee89077ec15c2d305ea691e3ed565a4d085f41d61dcde"
+    },
+    "locale/sources/alternatenames/CK.zip": {
+      "bytes": 21548,
+      "sha256": "6bf9c0fe65bfed3f2dce225ddec6d9cf13adfb2dec8f2d2e6f07f20f3a32b73d"
+    },
+    "locale/sources/alternatenames/CK.zip.download.json": {
+      "bytes": 283,
+      "sha256": "d17c7075b07d5dbbae4807f9309517d2d836085807689f62691c0187abb2ad10"
+    }
+  }
+}

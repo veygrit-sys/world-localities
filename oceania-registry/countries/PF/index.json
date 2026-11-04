@@ -1,0 +1,68 @@
+{
+  "archive_bytes": 309765,
+  "archive_sha256": "fa63ee114e55c7022cfe3939088c5d963f1afe392829a92c68600c778c88c6d9",
+  "parts": [
+    {
+      "path": "countries/PF/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 413021,
+      "stored_sha256": "e6a4edb63f5adb8149bd607f1e135904ea58cf851d6d915382dbd932aed17c4e",
+      "bytes": 309765,
+      "sha256": "fa63ee114e55c7022cfe3939088c5d963f1afe392829a92c68600c778c88c6d9"
+    }
+  ],
+  "members": {
+    "base/data/polynesia/PF/index.json": {
+      "bytes": 2886,
+      "sha256": "66564b53c174fd9c3c406821b15331a6282d03f7d16a4023642bec04f758fc77"
+    },
+    "base/data/polynesia/PF/places.csv": {
+      "bytes": 227612,
+      "sha256": "6ce56a07c40574b0a457db7f9fc634f9ecf4042e78d49a3bf0ea5a70377564f6"
+    },
+    "base/data/polynesia/PF/places.jsonl": {
+      "bytes": 516410,
+      "sha256": "5f88c09d96cef2f9d22aa31f501e23d3e69f9a010a397cc16c8c42b48b57c1d4"
+    },
+    "base/sources/geonames/PF.zip": {
+      "bytes": 128904,
+      "sha256": "df8e154b1a69d1a8ef0a688e22ceb977ad2a6ac1408f3ab966cb4c9abfed39c2"
+    },
+    "base/sources/geonames/PF.zip.download.json": {
+      "bytes": 306,
+      "sha256": "7380899efd6b7830f4727273b50328b46b40444911d5d0f136d2f39dd6efd124"
+    },
+    "locale/names.csv": {
+      "bytes": 92499,
+      "sha256": "7bac6447fcfd3c7752ea04b20471fe34c04cd40afeebc5ebb0e62ed13e31f7b8"
+    },
+    "locale/names.jsonl": {
+      "bytes": 202020,
+      "sha256": "a7140cc16be631f48e79de60f97e4f92d797bba240afca80bcfd3bb98d5d3dba"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 372,
+      "sha256": "085f18712040aa3a68f2345ae885730198392cdd6857c3a9e6954fe4eb63db6c"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 580,
+      "sha256": "ffd06fcf9f70e626f6284d1d1085652b7134aa4fa75e0fe31a1a5be2b74ef9b1"
+    },
+    "locale/sources/address-templates/PF.json": {
+      "bytes": 173,
+      "sha256": "c808d34ed6b5be7176da468f610869cd1e43a0c20285241b3b9b84faee7ef946"
+    },
+    "locale/sources/address-templates/PF.json.download.json": {
+      "bytes": 271,
+      "sha256": "8a996ce8397276508fa490a71f9a854fc01a735909c0db8b09cd1a282dbe5018"
+    },
+    "locale/sources/alternatenames/PF.zip": {
+      "bytes": 92003,
+      "sha256": "09ed5812d95dda4fcd469ea6e5a00d2d0384f34bffd128d64067bcab6e23a598"
+    },
+    "locale/sources/alternatenames/PF.zip.download.json": {
+      "bytes": 283,
+      "sha256": "f657160897dc2b67a629e19277d2e5dff2c215c7a120c690d5d42f1ac9e28817"
+    }
+  }
+}

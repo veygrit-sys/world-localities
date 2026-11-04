@@ -1,0 +1,87 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "BEN",
+    "country": "BJ",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Benin",
+    "geonames_id": "2395170",
+    "id": "country:BJ",
+    "m49": "204",
+    "name_en": "Benin",
+    "numeric": "204",
+    "region": "Western Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 3760,
+    "admin_rows": 628,
+    "ambiguous_parents": 0,
+    "country": "BJ",
+    "country_scope_only": 14,
+    "localities_without_adm1": 14,
+    "locality_rows": 3760,
+    "name_en": "Benin",
+    "other_admin_rows": 3,
+    "region": "Western Africa",
+    "unresolved_parents": 9
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 12,
+    "ADM2": 77,
+    "ADM2H": 2,
+    "ADM3": 539,
+    "PCLI": 1,
+    "PPL": 3708,
+    "PPLA": 9,
+    "PPLA2": 7,
+    "PPLA3": 11,
+    "PPLC": 1,
+    "PPLG": 1,
+    "PPLX": 23
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 152094,
+      "rows": 4391,
+      "sha256": "4d99881aee12350a2d70a21e0272f1850de5eb6ea810df88ff738b857ed26ed9",
+      "uncompressed_sha256": "7c0dd40768bd91ba04b8fedc07a1a39d156e41c81945293675ada13f258b1673"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 14,
+    "missing_code": 9,
+    "not_assigned_for_other_feature": 3,
+    "source_admin_code": 4353,
+    "source_country": 12
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 12,
+      "sha256": "aea031befce85034abe29712804abab0d0880a35b6887b2ac6c76a752010b20a"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 166519,
+    "discarded_feature_classes": {
+      "H": 1331,
+      "L": 39,
+      "S": 86,
+      "T": 128,
+      "V": 3
+    },
+    "retained_rows": 4391,
+    "retrieved_on": "2026-09-26",
+    "sha256": "bf0e546e377600ae394dea3713fc017eb05006a3c81da9757c7da0fba012844f",
+    "source_rows": 5978,
+    "url": "https://download.geonames.org/export/dump/BJ.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1993-12-21"
+}

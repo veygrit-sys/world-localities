@@ -1,0 +1,79 @@
+{
+  "claims": {
+    "complete_english_names": false,
+    "official_municipal_completeness": false,
+    "postal_delivery_verified": false,
+    "street_or_unit_completeness": false
+  },
+  "country": "CR",
+  "files": {
+    "NOTICE.md": {
+      "bytes": 615,
+      "sha256": "64e18fe4e1ead005bf317302f8f84c906977fe944d88e8d679895d1117523156"
+    },
+    "countries/CR/admin1.csv": {
+      "bytes": 12058,
+      "sha256": "b11b9676f2b594648bcd1171d61f7589209e91042f9729a41a86bd39b00b127f"
+    },
+    "countries/CR/entities.csv.gz": {
+      "bytes": 228829,
+      "sha256": "fb2b13435359c6bd3876a1ebdb3dd14d7d99d67dd662bbba2b88a1044541d66d"
+    },
+    "countries/CR/locale_metadata.json": {
+      "bytes": 3973,
+      "sha256": "f86c33ee5d98be3317e1a1af63341611df5a5596650a1143b8e9faa2417be35c"
+    },
+    "countries/CR/metadata.json": {
+      "bytes": 2611,
+      "sha256": "cc5d31cb45c974eb3e8031bbd2a43ed65b95cdde7ef66e64ca619cb15ee545c4"
+    },
+    "countries/CR/names.csv.gz": {
+      "bytes": 118778,
+      "sha256": "e18d91e7a1c5b5c14646293f6804b71d802698c1b8f9d4c4bf366d632aba087b"
+    },
+    "countries/CR/postal_links.csv.gz": {
+      "bytes": 140,
+      "sha256": "de1d072b754b09299d35ec730fa3ec80a7ff3738860f4f1052844080de254bbc"
+    },
+    "quality.json": {
+      "bytes": 593,
+      "sha256": "9d06601fb96bd2c7eaefa2565500305def7bf067906d439922f158510de91171"
+    },
+    "scope.json": {
+      "bytes": 656,
+      "sha256": "17fe60b71e70f61250dec1d5f15697dee8edc4c7ce09ae90fac497f066064719"
+    },
+    "sources/CR.zip": {
+      "bytes": 586165,
+      "sha256": "ed42565b78a47a95cc286a5c53e78a7bce5019bcc5106730a985ef69b7180e35"
+    },
+    "sources/alternatenames/CR.json": {
+      "bytes": 435,
+      "sha256": "1732c7d3d3f16ee73b5309639bccf70518d92b98d2dc7cc5f290645e23bd9e46"
+    },
+    "sources/alternatenames/CR.zip": {
+      "bytes": 257068,
+      "sha256": "589d80320b3ef60619c2843b533d403c747e50b3b40f72ff10a547d9d7357a5e"
+    },
+    "sources/countryInfo.txt": {
+      "bytes": 31690,
+      "sha256": "c55f638cfaafb4fe45a9aa15120a0f1f78e8a34a8e1847d7b9320cf740fbc9ab"
+    },
+    "sources/readme.txt": {
+      "bytes": 8843,
+      "sha256": "b1957379b6c1242c700c98ac9a8aa0a09f56c3c0a50ee72175527005f48ef2c5"
+    },
+    "sources/receipts.json": {
+      "bytes": 1826,
+      "sha256": "ed7a1f8170f84acb5a175503aae7915b8b142c565e808a41588b5d888b3d787d"
+    },
+    "summary.json": {
+      "bytes": 2700,
+      "sha256": "cc8c7ef83bd9b0bd6510253ab813ccc8cc6add4775fdc5346427e249a65f9cf0"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "observed_at": "2026-10-15T08:35:18.376361+00:00",
+  "schema_version": 1,
+  "source_integrity": "pinned downloaded bytes; not live freshness or publisher signatures"
+}

@@ -1,0 +1,130 @@
+{
+  "alternate_values_file": {
+    "bytes": 2097790,
+    "filename": "alternate-values.csv.gz",
+    "rows": 137848,
+    "sha256": "a75d4de8105e91d9f8111e876cd1153194ccd4e6aeda76c6f66bd65ce79d6e1f",
+    "uncompressed_sha256": "549d0aedf4efdcb7dcc35880a5fd708ae29b93bfb471d349291321ec494b94f8"
+  },
+  "alternate_values_source": {
+    "bytes": 3304475,
+    "retained_rows": 137848,
+    "retrieved_on": "2026-10-01",
+    "sha256": "bb78d1892e1fccc605e3d7301d74b21ca7bd95cf430e4dbcd404995b0b187a4f",
+    "source_columns": 10,
+    "source_rows": 308711,
+    "url": "https://download.geonames.org/export/dump/alternatenames/BR.zip"
+  },
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "BRA",
+    "country": "BR",
+    "geonames_continent": "SA",
+    "geonames_id": "3469034",
+    "id": "country:BR",
+    "m49": "076",
+    "name_en": "Brazil",
+    "region": "South America",
+    "region_m49": "005",
+    "source_country_languages": [
+      "pt-BR",
+      "es",
+      "en",
+      "fr"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 72377,
+    "admin_rows": 5662,
+    "ambiguous_parents": 0,
+    "country": "BR",
+    "country_scope_only": 0,
+    "localities_without_adm1": 0,
+    "locality_rows": 72393,
+    "name_en": "Brazil",
+    "other_admin_rows": 13,
+    "region": "South America",
+    "unresolved_parents": 18
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 27,
+    "ADM2": 5570,
+    "ADM3": 65,
+    "ADMD": 10,
+    "PCLI": 1,
+    "PPL": 59936,
+    "PPLA": 26,
+    "PPLA2": 528,
+    "PPLA3": 2,
+    "PPLA4": 1,
+    "PPLA5": 1,
+    "PPLC": 1,
+    "PPLF": 6,
+    "PPLH": 3,
+    "PPLL": 6341,
+    "PPLQ": 5,
+    "PPLR": 2,
+    "PPLX": 5541,
+    "ZN": 2
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 3222418,
+      "rows": 78068,
+      "sha256": "d47d1900b8723b61d8c2ff623a358fe9031b4d0a835344110ab7c05d41634a51",
+      "uncompressed_sha256": "89168bab55dee856fbb5a6f12e7c7b1c18d4fb815ca98ec3413ad69905bb01a0"
+    }
+  },
+  "known_issues": [],
+  "label_coverage": {
+    "current_country_language_name_entities": 43286,
+    "current_english_name_entities": 2532,
+    "language_tagged_name_entities": 45372,
+    "missing_country_language_name_entities": 34782,
+    "missing_english_name_entities": 75536,
+    "native_label_rule": "Exact source language tag matched against countryInfo language list; no language is inferred from primary name, ASCII, spelling or script. Country-language match is not proof of each place's indigenous language."
+  },
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "missing_reference": 18,
+    "not_assigned_for_other_feature": 13,
+    "source_admin_code": 78010,
+    "source_country": 27
+  },
+  "postal_coverage": {
+    "note": "Only source post-tag values, if any; not joined by place name and not delivery validation.",
+    "postal_deliverability_verified": false,
+    "postal_validation": false,
+    "source_postal_value_rows": 17
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 27,
+      "sha256": "8d6e10353cf6e369c10fb09ef15cc853b492d8d60b92e3bde16c825d01db8ee0"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 7177281,
+    "discarded_feature_classes": {
+      "H": 95426,
+      "L": 5233,
+      "R": 48,
+      "S": 42336,
+      "T": 14382,
+      "U": 3,
+      "V": 33
+    },
+    "retained_rows": 78068,
+    "retrieved_on": "2026-10-01",
+    "sha256": "b7c122fc46782e7f44a35215616a2dcb2371dbf14b54f85cf9550139762137b4",
+    "source_rows": 235529,
+    "url": "https://download.geonames.org/export/dump/BR.zip"
+  },
+  "source_modified_max": "2026-09-14",
+  "source_modified_min": "1993-12-17"
+}

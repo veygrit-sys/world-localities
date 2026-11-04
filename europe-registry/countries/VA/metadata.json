@@ -1,0 +1,76 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "VAT",
+    "country": "VA",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Vatican",
+    "geonames_id": "3164670",
+    "id": "country:VA",
+    "m49": "336",
+    "m49_region": "Europe",
+    "name_en": "Holy See",
+    "region": "Southern Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 1,
+    "admin_rows": 0,
+    "ambiguous_parents": 0,
+    "country": "VA",
+    "country_scope_only": 1,
+    "localities_without_adm1": 1,
+    "locality_rows": 1,
+    "name_en": "Holy See",
+    "other_admin_rows": 0,
+    "region": "Southern Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "PPLC": 1
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 602,
+      "rows": 1,
+      "sha256": "196c91cbf44dad09a22e8dec2181130ec83d888b71eb311408f7d9dae41d6c8a",
+      "uncompressed_sha256": "60365626ada9c46cfbdc8d758ff2202c22921747f99df8d8b2f891f9749257e6"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 1
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 0,
+      "sha256": "6fe5bf94663e3f1bddc0b9a464613de7e45a6c2fb10f5a5f4b51e70f1c4c31c2"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 130,
+    "bytes": 12646,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "R": 35,
+      "S": 93
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:58:02 GMT",
+    "retained_rows": 1,
+    "retrieved_at": "2026-09-29T11:14:50.827470+00:00",
+    "sha256": "48b277f76c5ae71f89e1358c7a9e8ab0f42fdb43bf401abad7a4164d6a7eaf4c",
+    "url": "https://download.geonames.org/export/dump/VA.zip"
+  },
+  "source_modified_max": "2026-02-25",
+  "source_modified_min": "2026-02-25"
+}

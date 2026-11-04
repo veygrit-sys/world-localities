@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "distinct_tests": 332,
+  "baseline_unchanged_component_suite": {
+    "status": "PASS",
+    "results": [
+      {
+        "directory": "hierarchy-tests",
+        "pattern": "test_*.py",
+        "tests": 247,
+        "status": "PASS"
+      },
+      {
+        "directory": "tests",
+        "pattern": "test_hierarchy_snapshot.py",
+        "tests": 7,
+        "status": "PASS"
+      },
+      {
+        "directory": "tests",
+        "pattern": "test_repository_layout.py",
+        "tests": 5,
+        "status": "PASS"
+      },
+      {
+        "directory": "tests",
+        "pattern": "test_east_asia_addressing.py",
+        "tests": 13,
+        "status": "PASS"
+      },
+      {
+        "directory": "tests",
+        "pattern": "test_asia_package.py",
+        "tests": 5,
+        "status": "PASS"
+      },
+      {
+        "directory": "tests",
+        "pattern": "test_osm_evidence.py",
+        "tests": 14,
+        "status": "PASS"
+      },
+      {
+        "directory": "tests",
+        "pattern": "test_mx_address_evidence.py",
+        "tests": 8,
+        "status": "PASS"
+      },
+      {
+        "directory": "tests",
+        "pattern": "test_osm_stream.py",
+        "tests": 6,
+        "status": "PASS"
+      },
+      {
+        "directory": "tests",
+        "pattern": "test_restore_data_parts.py",
+        "tests": 3,
+        "status": "PASS"
+      }
+    ],
+    "tests": 308
+  },
+  "current_code_and_catalog_checks": [
+    {
+      "pattern": "test_*.py",
+      "tests": 247,
+      "status": "PASS"
+    },
+    {
+      "pattern": "test_hierarchy_snapshot.py",
+      "tests": 7,
+      "status": "PASS"
+    },
+    {
+      "pattern": "test_repository_layout.py",
+      "tests": 5,
+      "status": "PASS"
+    },
+    {
+      "pattern": "test_east_asia_sources.py",
+      "tests": 19,
+      "status": "PASS"
+    },
+    {
+      "pattern": "test_east_asia_release.py",
+      "tests": 5,
+      "status": "PASS"
+    }
+  ],
+  "cli_checks": [
+    {
+      "name": "coverage",
+      "status": "PASS"
+    },
+    {
+      "name": "inventory",
+      "status": "PASS"
+    },
+    {
+      "name": "regional-help",
+      "status": "PASS"
+    },
+    {
+      "name": "native-exact-id-query",
+      "status": "PASS"
+    },
+    {
+      "name": "original-residential-query",
+      "status": "PASS"
+    },
+    {
+      "name": "CN-explicit-parent-chain",
+      "status": "PASS"
+    },
+    {
+      "name": "TW-request-parent-chain",
+      "status": "PASS"
+    },
+    {
+      "name": "layout",
+      "status": "PASS"
+    }
+  ],
+  "diff_check": "PASS",
+  "network_downloads_in_fixture_tests": false
+}

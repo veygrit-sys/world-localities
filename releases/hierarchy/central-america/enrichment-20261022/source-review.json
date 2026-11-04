@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "scope_codes": [
+    "BZ",
+    "CR",
+    "GT",
+    "HN",
+    "MX",
+    "NI",
+    "PA",
+    "SV"
+  ],
+  "deliverability_in_scope": false,
+  "national_completeness_verified": false,
+  "osm": {
+    "downloaded_and_sha256_checked_extracts": 8,
+    "bytes": 1043836421,
+    "licence": "ODbL-1.0",
+    "manifest": "osm-source-manifest.json"
+  },
+  "mexico_address_source": {
+    "source_id": "digital-guard-inegi-mx-pk0002.01-geoaddress",
+    "preservation_metadata_url": "https://github.com/digital-guard/preserv-MX/tree/main/data/_pk0002.01",
+    "openaddresses_recipe": "https://github.com/openaddresses/openaddresses/blob/master/sources/mx/countrywide.json",
+    "metadata_evidence": [
+      {
+        "file_label": "mx_origin.raw",
+        "bytes": 12919,
+        "sha256": "ac02b83733ccf3c86fc68390c4a66480803367666d3b173fda8fcfb49a3824e9"
+      },
+      {
+        "file_label": "mx_config.raw",
+        "bytes": 4415,
+        "sha256": "cfcd3aaf6e1cfc4f7a558c1ccaa291070b2289c52efd00298861702a64a368c1"
+      },
+      {
+        "file_label": "INEGI-free-use-terms.pdf",
+        "bytes": 1093901,
+        "sha256": "647a8f64ed703b93ecc541f39fb7c08dbe445cb704ee78e69036ce5ef711b8a4"
+      }
+    ],
+    "metadata_date_is_not_a_verified_geographic_reference_date": true,
+    "normalization_note": "gid is preserved CSV row identity. Source lacks issuing-authority assignment status and original official address IDs. Keep all original strings and unknown states."
+  },
+  "administrative_sources": {
+    "CR": {
+      "status": "current_official_reference_downloaded",
+      "source": "https://geos.snitcr.go.cr/be/IGN_5_CO/wfs",
+      "layer": "IGN_5_CO:limitedistrital_5k",
+      "source_rows": 494,
+      "province_references": 7,
+      "canton_references": 84,
+      "reference": "cr-current-districts.json",
+      "difference": "cr-district-difference.json",
+      "raw_geometry_redistributed": false,
+      "publisher_terms": "require_review_before_geometry_redistribution"
+    },
+    "PA": {
+      "status": "current_official_inventory_counts_identified_not_fully_ingested",
+      "districts_reported": 82,
+      "corregimientos_reported": 699,
+      "note": "INEC 2026 population projection publication reports 82 districts and 699 corregimientos; the prior COD-AB 76/594 baseline is not current.",
+      "url": "https://www.inec.gob.pa/publicaciones/Default3.aspx?ID_PUBLICACION=1400&ID_SUBCATEGORIA=80",
+      "publication_page_sha256": "c00c02a47744aad07cde50027f9d55fe4293d7790c8f08020aa92793a9709865"
+    }
+  }
+}

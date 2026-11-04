@@ -1,0 +1,4 @@
+id,country,source_code,level,parent_id,relation,name_status
+eurostat:nuts:2024:CY0,CY,CY0,1,country:CY,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:CY00,CY,CY00,2,eurostat:nuts:2024:CY0,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:CY000,CY,CY000,3,eurostat:nuts:2024:CY00,statistical_code_prefix,not_loaded

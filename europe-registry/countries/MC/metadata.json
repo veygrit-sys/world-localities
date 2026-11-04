@@ -1,0 +1,83 @@
+{
+  "address1_status": "not_loaded",
+  "completeness": "All P, ADM1-5, ADMD and historical ADM rows in this source extract; not a complete official municipality register.",
+  "country": {
+    "alpha3": "MCO",
+    "country": "MC",
+    "geonames_continent": "EU",
+    "geonames_country_name": "Monaco",
+    "geonames_id": "2993457",
+    "id": "country:MC",
+    "m49": "492",
+    "m49_region": "Europe",
+    "name_en": "Monaco",
+    "region": "Western Europe",
+    "scope_group": "m49_europe",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 14,
+    "admin_rows": 1,
+    "ambiguous_parents": 0,
+    "country": "MC",
+    "country_scope_only": 14,
+    "localities_without_adm1": 14,
+    "locality_rows": 14,
+    "name_en": "Monaco",
+    "other_admin_rows": 17,
+    "region": "Western Europe",
+    "unresolved_parents": 0
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 1,
+    "ADMD": 17,
+    "PPLC": 1,
+    "PPLX": 13
+  },
+  "files": {
+    "entities-0001.csv.gz": {
+      "bytes": 2389,
+      "rows": 32,
+      "sha256": "0e1e0dc89e5620af5fe40d8c5337237f2e89e3c041f81922aed8e27d2f6e0277",
+      "uncompressed_sha256": "2ce6936f72139599f5b6dbc385089a0633385ccdc9d2b304189067a9a46b2bdf"
+    }
+  },
+  "identity_policy": "GeoNames ID preserved; no name-based merging with official LAU or existing registries",
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "names_language_status": "und: source labels and untagged aliases; ASCII is not English",
+  "parent_relation_counts": {
+    "country_scope_only": 14,
+    "not_assigned_for_other_feature": 17,
+    "source_country": 1
+  },
+  "postal_relation_status": "not_loaded",
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 1,
+      "sha256": "7657dcf6598dbcc3e13cb45a84bb82ea458d218c8b0b1d93eb199483d14f1739"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "all_source_rows": 112,
+    "bytes": 9030,
+    "excluded_feature_class_counts": {
+      "A": 1,
+      "H": 5,
+      "L": 4,
+      "S": 60,
+      "T": 10
+    },
+    "last_modified": "Tue, 29 Sep 2026 01:54:49 GMT",
+    "retained_rows": 32,
+    "retrieved_at": "2026-09-29T11:14:17.593010+00:00",
+    "sha256": "d54beb2bab7d77cd117825a0e0f5778eadf7aac8bb266e7a2aa68a40dd66581a",
+    "url": "https://download.geonames.org/export/dump/MC.zip"
+  },
+  "source_modified_max": "2026-09-05",
+  "source_modified_min": "2013-03-22"
+}

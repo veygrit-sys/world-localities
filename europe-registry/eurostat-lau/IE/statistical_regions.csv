@@ -1,0 +1,13 @@
+id,country,source_code,level,parent_id,relation,name_status
+eurostat:nuts:2024:IE0,IE,IE0,1,country:IE,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:IE04,IE,IE04,2,eurostat:nuts:2024:IE0,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:IE041,IE,IE041,3,eurostat:nuts:2024:IE04,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:IE042,IE,IE042,3,eurostat:nuts:2024:IE04,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:IE05,IE,IE05,2,eurostat:nuts:2024:IE0,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:IE051,IE,IE051,3,eurostat:nuts:2024:IE05,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:IE052,IE,IE052,3,eurostat:nuts:2024:IE05,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:IE053,IE,IE053,3,eurostat:nuts:2024:IE05,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:IE06,IE,IE06,2,eurostat:nuts:2024:IE0,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:IE061,IE,IE061,3,eurostat:nuts:2024:IE06,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:IE062,IE,IE062,3,eurostat:nuts:2024:IE06,statistical_code_prefix,not_loaded
+eurostat:nuts:2024:IE063,IE,IE063,3,eurostat:nuts:2024:IE06,statistical_code_prefix,not_loaded

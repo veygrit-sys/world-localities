@@ -1,0 +1,117 @@
+{
+  "alternate_values_file": {
+    "bytes": 99670,
+    "filename": "alternate-values.csv.gz",
+    "rows": 6134,
+    "sha256": "0f5e5fbe47917ee5b8cf704497ca82938c45a24e3651ef1259578752f790c055",
+    "uncompressed_sha256": "622222ecacadd2db9c7d87597bbdf42fcc7bb75b84da8dc039f322c1dc8122d8"
+  },
+  "alternate_values_source": {
+    "bytes": 180043,
+    "retained_rows": 6134,
+    "retrieved_on": "2026-10-01",
+    "sha256": "fb0b3abcc686dc73ed1b09ab6104cf2d5ccd2bab34c6b453ca5372dc84659cd2",
+    "source_columns": 10,
+    "source_rows": 17147,
+    "url": "https://download.geonames.org/export/dump/alternatenames/UY.zip"
+  },
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "URY",
+    "country": "UY",
+    "geonames_continent": "SA",
+    "geonames_id": "3439705",
+    "id": "country:UY",
+    "m49": "858",
+    "name_en": "Uruguay",
+    "region": "South America",
+    "region_m49": "005",
+    "source_country_languages": [
+      "es-UY"
+    ],
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 1088,
+    "admin_rows": 144,
+    "ambiguous_parents": 0,
+    "country": "UY",
+    "country_scope_only": 0,
+    "localities_without_adm1": 0,
+    "locality_rows": 1089,
+    "name_en": "Uruguay",
+    "other_admin_rows": 1,
+    "region": "South America",
+    "unresolved_parents": 1
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 19,
+    "ADM2": 124,
+    "ADM3": 1,
+    "PCLI": 1,
+    "PPL": 1006,
+    "PPLA": 18,
+    "PPLC": 1,
+    "PPLH": 1,
+    "PPLL": 3,
+    "PPLX": 60
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 74784,
+      "rows": 1234,
+      "sha256": "573dcd255ff716ae132741451acb374ceb8fa110ab1fa41a256d580c243bdc58",
+      "uncompressed_sha256": "251d5382fd842637ae739ddb0adfa107c9ad3870d995063581d0980ea62f48ef"
+    }
+  },
+  "known_issues": [],
+  "label_coverage": {
+    "current_country_language_name_entities": 515,
+    "current_english_name_entities": 151,
+    "language_tagged_name_entities": 538,
+    "missing_country_language_name_entities": 719,
+    "missing_english_name_entities": 1083,
+    "native_label_rule": "Exact source language tag matched against countryInfo language list; no language is inferred from primary name, ASCII, spelling or script. Country-language match is not proof of each place's indigenous language."
+  },
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "missing_code": 1,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 1213,
+    "source_country": 19
+  },
+  "postal_coverage": {
+    "note": "Only source post-tag values, if any; not joined by place name and not delivery validation.",
+    "postal_deliverability_verified": false,
+    "postal_validation": false,
+    "source_postal_value_rows": 0
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 19,
+      "sha256": "87740c3080d39400173816592c2132b537f7bcdb1866d4d604c8cf309cef124f"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 276105,
+    "discarded_feature_classes": {
+      "H": 2995,
+      "L": 440,
+      "R": 4,
+      "S": 1589,
+      "T": 1902,
+      "V": 1
+    },
+    "retained_rows": 1234,
+    "retrieved_on": "2026-10-01",
+    "sha256": "2df283fc17f36e9c52f4b59c3e8584a136f7703810dc3dd078a34a77a5b115ff",
+    "source_rows": 8165,
+    "url": "https://download.geonames.org/export/dump/UY.zip"
+  },
+  "source_modified_max": "2026-09-21",
+  "source_modified_min": "1993-12-15"
+}

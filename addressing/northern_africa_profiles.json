@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "region": "Northern Africa",
+  "reviewed_at": "2026-10-16",
+  "purpose": "Domestic-language and English address display profiles for the seven UN M49 Northern Africa countries or areas, with explicit postcode syntax, provenance and uncertainty; not an address-existence, code-assignment, sovereignty or deliverability claim.",
+  "locality_registry": {
+    "path": "africa-registry",
+    "materialized_scope_file": "africa-registry/coverage.csv",
+    "upstream_scope_file": "africa-registry/upstream/coverage.csv",
+    "country_directory": "africa-registry/countries",
+    "materialized_countries": ["DZ", "EG", "EH", "LY", "SD", "TN"],
+    "upstream_only_countries": ["MA"],
+    "materialized_locality_rows": 31778,
+    "upstream_locality_rows": 78724,
+    "role": "GeoNames-derived locality candidates and administrative context. Morocco remains upstream-only in this snapshot. Address ordering and postcode policy come from the reviewed profile extension, and locality rows do not prove a postal address."
+  },
+  "overrides": ["DZ", "EG", "EH", "LY", "MA", "SD", "TN"],
+  "countries": {
+    "DZ": {
+      "native_languages": ["ar-Arab", "kab-Latn", "fr-Latn"],
+      "default_native_language": "ar-Arab",
+      "native_profile": "DZ_ar",
+      "native_profiles": {"ar-Arab": "DZ_ar", "kab-Latn": "DZ_kab", "fr-Latn": "DZ_fr"},
+      "native_scripts": {"ar-Arab": "Arab", "kab-Latn": "Latn", "fr-Latn": "Latn"},
+      "english_profile": "DZ_en",
+      "country_names": {"ar-Arab": "الجزائر", "kab-Latn": "Lezzayer", "fr-Latn": "Algérie", "en": "Algeria"},
+      "postcode_pattern": "\\d{5}",
+      "postcode_required": true,
+      "romanization_policy": "Arabic, Kabyle Latin, French and English values stay independent. Kabyle is a selected written Amazigh route, not a claim of complete coverage of every Algerian Amazigh variety; machine transliteration cannot become an official English value.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Algérie Poste", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/dzaEn.pdf", "scope": "Five-digit postcode to the left of the locality and number-plus-street delivery line"}]
+    },
+    "EG": {
+      "native_languages": ["ar-Arab"],
+      "default_native_language": "ar-Arab",
+      "native_profile": "EG_ar",
+      "native_profiles": {"ar-Arab": "EG_ar"},
+      "native_scripts": {"ar-Arab": "Arab"},
+      "english_profile": "EG_en",
+      "country_names": {"ar-Arab": "مصر", "en": "Egypt"},
+      "postcode_pattern": "\\d{7}",
+      "postcode_required": true,
+      "romanization_policy": "Arabic and English address values are explicit. The current seven-digit postcode is kept separate from governorate and locality; older five-digit examples are not accepted by this profile.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Egypt Post", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/egyEn.pdf", "scope": "July 2023 seven-digit postcode, urban-delivery and P.O. Box formats"}]
+    },
+    "EH": {
+      "native_languages": ["ar-Arab", "es-Latn", "fr-Latn"],
+      "default_native_language": "ar-Arab",
+      "native_profile": "EH_ar",
+      "native_profiles": {"ar-Arab": "EH_ar", "es-Latn": "EH_es", "fr-Latn": "EH_fr"},
+      "native_scripts": {"ar-Arab": "Arab", "es-Latn": "Latn", "fr-Latn": "Latn"},
+      "english_profile": "EH_en",
+      "country_names": {"ar-Arab": "الصحراء الغربية", "es-Latn": "Sáhara Occidental", "fr-Latn": "Sahara occidental", "en": "Western Sahara"},
+      "postcode_pattern": "\\d{5}",
+      "postcode_required": false,
+      "operational_routes": ["morocco_routed_optional_five_digit", "other_route_without_inferred_postcode"],
+      "romanization_policy": "Arabic, Spanish, French and English labels remain explicit. The profile is sovereignty-neutral: it never infers an administration, country label, postcode or delivery operator from coordinates or locality alone.",
+      "evidence_status": "provisional",
+      "sources": [
+        {"authority": "United Nations Statistics Division", "url": "https://unstats.un.org/unsd/methodology/m49/", "scope": "Separate Western Sahara entry in the UN M49 Northern Africa statistical classification; not a sovereignty determination"},
+        {"authority": "Universal Postal Union and Barid Al-Maghrib", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/marEn.pdf", "scope": "Five-digit form only when an address is explicitly supplied for a Morocco-routed postal operation; no universal EH assignment is inferred"}
+      ]
+    },
+    "LY": {
+      "native_languages": ["ar-Arab"],
+      "default_native_language": "ar-Arab",
+      "native_profile": "LY_ar",
+      "native_profiles": {"ar-Arab": "LY_ar"},
+      "native_scripts": {"ar-Arab": "Arab"},
+      "english_profile": "LY_en",
+      "country_names": {"ar-Arab": "ليبيا", "en": "Libya"},
+      "postcode_pattern": null,
+      "postcode_required": false,
+      "romanization_policy": "Arabic and English values remain independent. No postcode is created from city, district or geocode data, and the short dated public format is surfaced as provisional.",
+      "evidence_status": "provisional",
+      "sources": [{"authority": "Universal Postal Union and Libya Post", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/lbyEn.pdf", "scope": "Street-and-number, locality and country example without a postcode; public sheet dated February 2012"}]
+    },
+    "MA": {
+      "native_languages": ["ar-Arab", "zgh-Tfng", "fr-Latn"],
+      "default_native_language": "ar-Arab",
+      "native_profile": "MA_ar",
+      "native_profiles": {"ar-Arab": "MA_ar", "zgh-Tfng": "MA_zgh", "fr-Latn": "MA_fr"},
+      "native_scripts": {"ar-Arab": "Arab", "zgh-Tfng": "Tfng", "fr-Latn": "Latn"},
+      "english_profile": "MA_en",
+      "country_names": {"ar-Arab": "المغرب", "zgh-Tfng": "ⵍⵎⵖⵔⵉⴱ", "fr-Latn": "Maroc", "en": "Morocco"},
+      "postcode_pattern": "\\d{5}",
+      "postcode_required": true,
+      "romanization_policy": "Arabic, Standard Moroccan Amazigh in Tifinagh, French and English values are stored separately. Latin transcription is not substituted for Tifinagh, and machine translation is never promoted to an official English street name.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and Barid Al-Maghrib", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/marEn.pdf", "scope": "Five-digit postcode before locality, home, P.O. Box and general-delivery formats, sublocality and Address2 placement"}]
+    },
+    "SD": {
+      "native_languages": ["ar-Arab", "en"],
+      "default_native_language": "ar-Arab",
+      "native_profile": "SD_ar",
+      "native_profiles": {"ar-Arab": "SD_ar", "en": "SD_en"},
+      "native_scripts": {"ar-Arab": "Arab", "en": "Latn"},
+      "english_profile": "SD_en",
+      "country_names": {"ar-Arab": "السودان", "en": "Sudan"},
+      "postcode_pattern": "\\d{5}",
+      "postcode_required": true,
+      "romanization_policy": "Arabic and English values are independent. The five-digit code is validated only as syntax, never assigned from a state or city; the dated public country sheet keeps the route provisional.",
+      "evidence_status": "provisional",
+      "sources": [{"authority": "Universal Postal Union and Sudan Post", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/sdnEn.pdf", "scope": "Five-digit postcode above locality with building, street and P.O. Box lines; public sheet dated July 2003"}]
+    },
+    "TN": {
+      "native_languages": ["ar-Arab", "fr-Latn"],
+      "default_native_language": "ar-Arab",
+      "native_profile": "TN_ar",
+      "native_profiles": {"ar-Arab": "TN_ar", "fr-Latn": "TN_fr"},
+      "native_scripts": {"ar-Arab": "Arab", "fr-Latn": "Latn"},
+      "english_profile": "TN_en",
+      "country_names": {"ar-Arab": "تونس", "fr-Latn": "Tunisie", "en": "Tunisia"},
+      "postcode_pattern": "\\d{4}",
+      "postcode_required": true,
+      "romanization_policy": "Arabic, French and English values stay separate. The four-digit code remains bound to the supplied delivery office or locality and is not generated from the governorate.",
+      "evidence_status": "official_guidance",
+      "sources": [{"authority": "Universal Postal Union and La Poste Tunisienne", "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/tunEn.pdf", "scope": "Four-digit postcode before delivery locality, additional premise information, street and private-box examples"}]
+    }
+  },
+  "profiles": {
+    "DZ": {"country_code": "DZ", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{place}}}\n{{{neighbourhood}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"},
+    "DZ_ar": {"country_code": "DZ", "language": "ar", "use_country": "DZ"},
+    "DZ_kab": {"country_code": "DZ", "language": "kab", "use_country": "DZ"},
+    "DZ_fr": {"country_code": "DZ", "language": "fr", "use_country": "DZ"},
+    "DZ_en": {"country_code": "DZ", "language": "en", "use_country": "DZ"},
+
+    "EG": {"country_code": "EG", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{place}}}\n{{#first}} {{{neighbourhood}}} || {{{suburb}}} || {{{city_district}}} || {{{village}}} {{/first}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} {{/first}}\n{{{state}}}\n{{{postcode}}}\n{{{country}}}\n"},
+    "EG_ar": {"country_code": "EG", "language": "ar", "use_country": "EG"},
+    "EG_en": {"country_code": "EG", "language": "en", "use_country": "EG"},
+
+    "EH": {"country_code": "EH", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{place}}}\n{{{neighbourhood}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"},
+    "EH_ar": {"country_code": "EH", "language": "ar", "use_country": "EH"},
+    "EH_es": {"country_code": "EH", "language": "es", "use_country": "EH"},
+    "EH_fr": {"country_code": "EH", "language": "fr", "use_country": "EH"},
+    "EH_en": {"country_code": "EH", "language": "en", "use_country": "EH"},
+
+    "LY": {"country_code": "LY", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{road}}} {{{house_number}}}\n{{{po_box}}}\n{{{place}}}\n{{{neighbourhood}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"},
+    "LY_ar": {"country_code": "LY", "language": "ar", "use_country": "LY"},
+    "LY_en": {"country_code": "LY", "language": "en", "use_country": "LY"},
+
+    "MA": {"country_code": "MA", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{subpremise}}}\n{{{house}}}\n{{{house_number}}} {{{road}}}\n{{{neighbourhood}}}\n{{{po_box}}}\n{{{place}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{state}}}\n{{{country}}}\n"},
+    "MA_ar": {"country_code": "MA", "language": "ar", "use_country": "MA"},
+    "MA_zgh": {"country_code": "MA", "language": "zgh", "use_country": "MA"},
+    "MA_fr": {"country_code": "MA", "language": "fr", "use_country": "MA"},
+    "MA_en": {"country_code": "MA", "language": "en", "use_country": "MA"},
+
+    "SD": {"country_code": "SD", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{{place}}}\n{{{neighbourhood}}}\n{{{state}}}\n{{{postcode}}}\n{{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{country}}}\n"},
+    "SD_ar": {"country_code": "SD", "language": "ar", "use_country": "SD"},
+    "SD_en": {"country_code": "SD", "language": "en", "use_country": "SD"},
+
+    "TN": {"country_code": "TN", "address_template": "{{{attention}}}\n{{{organization}}}\n{{{house}}}\n{{{subpremise}}}\n{{{house_number}}} {{{road}}}\n{{{po_box}}}\n{{#first}} {{{place}}} || {{{neighbourhood}}} || {{{suburb}}} {{/first}}\n{{{state}}}\n{{{postcode}}} {{#first}} {{{postal_city}}} || {{{city}}} || {{{town}}} || {{{municipality}}} || {{{village}}} {{/first}}\n{{{country}}}\n"},
+    "TN_ar": {"country_code": "TN", "language": "ar", "use_country": "TN"},
+    "TN_fr": {"country_code": "TN", "language": "fr", "use_country": "TN"},
+    "TN_en": {"country_code": "TN", "language": "en", "use_country": "TN"}
+  },
+  "profile_status": {
+    "DZ": "official_guidance", "DZ_ar": "official_guidance", "DZ_kab": "official_guidance", "DZ_fr": "official_guidance", "DZ_en": "official_guidance",
+    "EG": "official_guidance", "EG_ar": "official_guidance", "EG_en": "official_guidance",
+    "EH": "provisional", "EH_ar": "provisional", "EH_es": "provisional", "EH_fr": "provisional", "EH_en": "provisional",
+    "LY": "provisional", "LY_ar": "provisional", "LY_en": "provisional",
+    "MA": "official_guidance", "MA_ar": "official_guidance", "MA_zgh": "official_guidance", "MA_fr": "official_guidance", "MA_en": "official_guidance",
+    "SD": "provisional", "SD_ar": "provisional", "SD_en": "provisional",
+    "TN": "official_guidance", "TN_ar": "official_guidance", "TN_fr": "official_guidance", "TN_en": "official_guidance"
+  }
+}

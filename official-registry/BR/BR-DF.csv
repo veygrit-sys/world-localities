@@ -1,0 +1,2 @@
+id,code,source_type,category,name,lang,parent_id,state_id,state_code,address_country,address_candidate,postcodes,postcode_relations,government_status,department_code,collectivity_code
+locality:br:ibge:municipality:5300108,5300108,municipality,federal_district_locality_equivalent,Brasília,pt,admin:csc:2017,admin:csc:2017,BR-DF,BR,1,,,,,

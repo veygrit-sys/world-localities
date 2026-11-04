@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "source_id": "digital-guard-inegi-mx-pk0002.01-geoaddress",
+  "url": "https://dl.digital-guard.org/090735bf608a3202a141da670d960a05dbe464893ba49208fc37c30485f5bedc.zip",
+  "bytes": 683565189,
+  "sha256": "090735bf608a3202a141da670d960a05dbe464893ba49208fc37c30485f5bedc",
+  "retrieved_at": "2026-10-21T18:28:32.816077+00:00",
+  "source_metadata_url": "https://github.com/digital-guard/preserv-MX/tree/main/data/_pk0002.01",
+  "upstream_recipe": "https://github.com/openaddresses/openaddresses/blob/master/sources/mx/countrywide.json",
+  "attribution": "INEGI Instituto Nacional de Estadística y Geografía; preserved by Digital Guard / AddressForAll",
+  "licence_name": "INEGI TERMS OF FREE USE OF INFORMATION",
+  "licence_evidence_url": "https://dl.digital-guard.org/647a8f64ed703b93ecc541f39fb7c08dbe445cb704ee78e69036ce5ef711b8a4.pdf",
+  "national_completeness_verified": false,
+  "issuing_authority_assignment_verified": false,
+  "deliverability_in_scope": false
+}

@@ -1,0 +1,88 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "SOM",
+    "country": "SO",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Somalia",
+    "geonames_id": "51537",
+    "id": "country:SO",
+    "m49": "706",
+    "name_en": "Somalia",
+    "numeric": "706",
+    "region": "Eastern Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 4509,
+    "admin_rows": 105,
+    "ambiguous_parents": 0,
+    "country": "SO",
+    "country_scope_only": 6,
+    "localities_without_adm1": 6,
+    "locality_rows": 4512,
+    "name_en": "Somalia",
+    "other_admin_rows": 3,
+    "region": "Eastern Africa",
+    "unresolved_parents": 21
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 18,
+    "ADM2": 87,
+    "ADMD": 1,
+    "PCLI": 1,
+    "PPL": 4271,
+    "PPLA": 16,
+    "PPLA2": 10,
+    "PPLC": 1,
+    "PPLL": 208,
+    "PPLQ": 3,
+    "PPLX": 3,
+    "ZN": 1
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 163956,
+      "rows": 4620,
+      "sha256": "8be04031ccf2d2dfea53198d167b36e3ea3b8a9b022ff18747eca4525b0a9ad7",
+      "uncompressed_sha256": "90e7d6411fb41203b7708f1ce996e5d5608fb5758226162afe580c4ca15d5552"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 6,
+    "missing_reference": 21,
+    "not_assigned_for_other_feature": 3,
+    "source_admin_code": 4572,
+    "source_country": 18
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 18,
+      "sha256": "626166b950cd84a244f1633020e489349b5ea188646d283da98dfa37c2992578"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 490546,
+    "discarded_feature_classes": {
+      "H": 6029,
+      "L": 3426,
+      "R": 22,
+      "S": 468,
+      "T": 2967,
+      "V": 6
+    },
+    "retained_rows": 4620,
+    "retrieved_on": "2026-09-26",
+    "sha256": "3106d39ddcd4ec40a4753c5cf480a2dcfd60448b1c1baa2288236af75186f86c",
+    "source_rows": 17538,
+    "url": "https://download.geonames.org/export/dump/SO.zip"
+  },
+  "source_modified_max": "2026-09-15",
+  "source_modified_min": "1994-02-25"
+}

@@ -1,0 +1,15 @@
+{
+  "complete_street_or_unit_addresses": false,
+  "note": "An equal count is not proof of current official canton identity or complete district coverage.",
+  "official_code_crosswalk_verified": false,
+  "official_reference": {
+    "cantons": 84,
+    "published_on": "2025-11-13",
+    "publisher": "Tribunal Supremo de Elecciones de Costa Rica",
+    "reference": "84 cantonal electoral boards for the 2026 national election",
+    "url": "https://tse.go.cr/comunicado1103.html"
+  },
+  "postal_delivery_verified": false,
+  "source_adm2_count": 82,
+  "status": "source_reference_count_mismatch"
+}

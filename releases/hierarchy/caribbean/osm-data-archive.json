@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "region": "caribbean",
+  "archives": [
+    {
+      "name": "Caribbean_OpenMap_Source_Data_20261022.zip",
+      "bytes": 331178794,
+      "sha256": "07f173dae8dc98ffdbe6ad555edccb2bbec1e204896006d78188b8c0cf6c19ab",
+      "files": 4,
+      "roots": [
+        "Caribbean_OpenMap_Source_Data_20261022"
+      ]
+    }
+  ],
+  "data_only": true,
+  "original_pbf_reference": "osm-source.json",
+  "normalized_snapshot": "osm-manifest.json",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "complete": false,
+  "deliverability_in_scope": false
+}

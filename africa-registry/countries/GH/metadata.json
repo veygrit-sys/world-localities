@@ -1,0 +1,92 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "GHA",
+    "country": "GH",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Ghana",
+    "geonames_id": "2300660",
+    "id": "country:GH",
+    "m49": "288",
+    "name_en": "Ghana",
+    "numeric": "288",
+    "region": "Western Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 15964,
+    "admin_rows": 282,
+    "ambiguous_parents": 0,
+    "country": "GH",
+    "country_scope_only": 38,
+    "localities_without_adm1": 39,
+    "locality_rows": 15997,
+    "name_en": "Ghana",
+    "other_admin_rows": 10,
+    "region": "Western Africa",
+    "unresolved_parents": 11
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 16,
+    "ADM1H": 1,
+    "ADM2": 265,
+    "ADM2H": 5,
+    "ADM3": 1,
+    "ADMD": 1,
+    "ADMDH": 1,
+    "PCLH": 1,
+    "PCLI": 1,
+    "PPL": 15806,
+    "PPLA": 15,
+    "PPLA2": 14,
+    "PPLC": 1,
+    "PPLL": 2,
+    "PPLQ": 32,
+    "PPLW": 1,
+    "PPLX": 126
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 545443,
+      "rows": 16289,
+      "sha256": "c1d80dcfbffb4a677c13ee529654c234e2ecfe5646e0bd81f96b9d6f12129625",
+      "uncompressed_sha256": "9710d5e6a4d508128effe586182ace6c2c142e5410f00f90f5c42a994f206d2e"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 38,
+    "missing_reference": 11,
+    "not_assigned_for_other_feature": 10,
+    "source_admin_code": 16214,
+    "source_country": 16
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 16,
+      "sha256": "9749507ffed85a3ab7e8701ec1ec765b5c1c1955a0e543d735d28c024bc24235"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 605601,
+    "discarded_feature_classes": {
+      "H": 4949,
+      "L": 265,
+      "R": 3,
+      "S": 1527,
+      "T": 642
+    },
+    "retained_rows": 16289,
+    "retrieved_on": "2026-09-26",
+    "sha256": "9add7be625f50df667a7d3f947cbe74b75b2d7cdb50ef397567242119caae750",
+    "source_rows": 23675,
+    "url": "https://download.geonames.org/export/dump/GH.zip"
+  },
+  "source_modified_max": "2026-09-21",
+  "source_modified_min": "1994-01-06"
+}

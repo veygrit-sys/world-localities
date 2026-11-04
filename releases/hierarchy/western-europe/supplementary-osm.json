@@ -1,0 +1,43 @@
+{
+  "source": {
+    "id": "MC-osm",
+    "country": "MC",
+    "format": "osm_pbf",
+    "requested_url": "https://download.geofabrik.de/europe/monaco-latest.osm.pbf",
+    "final_url": "https://download.geofabrik.de/europe/monaco-261020.osm.pbf",
+    "path": "MC-monaco.osm.pbf",
+    "authority": "OpenStreetMap contributors / Geofabrik",
+    "license": "ODbL-1.0",
+    "bytes": 693466,
+    "sha256": "c4b45f7143d8e1e1e60490d727dd9345c8bd90b56c3ffe95505b3410139a3f3b",
+    "retrieved_at": "2026-10-21T23:29:43.940200+00:00",
+    "last_modified": null,
+    "etag": null,
+    "members": []
+  },
+  "projection": {
+    "path": "MC-osm-evidence.jsonl.gz",
+    "source": "MC-osm",
+    "counts": {
+      "scanned_node": 41741,
+      "observation_records": 5457,
+      "active_road_ways": 3625,
+      "number_tag_observations": 474,
+      "administrative_tag_observations": 61,
+      "scanned_way": 6254,
+      "scanned_relation": 348
+    },
+    "bytes": 596486,
+    "sha256": "a0ac6d03796f6053475b88be26ef71de541387cd4a9ad79e7dd92ca0ec9b7f26",
+    "canonical_rows_sha256": "344ad4d0b92622631b9a0cf621aec73abbfe585f14b36d04a7ff0d51a27f671a",
+    "extract_membership_is_legal_country_membership": false,
+    "national_completeness_verified": false,
+    "deliverability_in_scope": false,
+    "interpolation_expanded": false,
+    "attribution": "OpenStreetMap contributors; extract by Geofabrik",
+    "license": "ODbL-1.0",
+    "source_row_replay": "PASS",
+    "implementation_sha256": "49001277a95063e66e2e3928be88ff5223329871d3cbb4d4e06085dcd2e6e123"
+  },
+  "counts_are_for_the_buffered_extract_not_legal_monaco": true
+}

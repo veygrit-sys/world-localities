@@ -1,0 +1,35 @@
+{
+  "country": "MK",
+  "files": {
+    "statistical_regions.csv": {
+      "bytes": 990,
+      "rows": 10,
+      "sha256": "a71a29597f5e2f1a78df9f4e1696193f8a2f96aeab7929840dd1b35346cf072f"
+    },
+    "units.csv.gz": {
+      "bytes": 2695,
+      "rows": 80,
+      "sha256": "e34263fc2dcc8202fce54277f8ba210399b150181fd58e4eb5c5d38d63fe53a3"
+    }
+  },
+  "limitations": [
+    "national_and_latin_labels_are_source_claims",
+    "statistical_not_government_hierarchy",
+    "no_automatic_join_to_geonames",
+    "no_postcode_or_address1_association"
+  ],
+  "nuts_release": "2024",
+  "release_label": "2025",
+  "rows": 80,
+  "skipped_empty_rows": 1,
+  "source_period_counts": {
+    "2024": 80
+  },
+  "source_sha256": "9fd84ca59e36c2d494ccf0d7009f14feaa304a3943877c7d6533f736265aaf73",
+  "source_sheet": "MK",
+  "validation": {
+    "core": "validated",
+    "overall": "",
+    "population_and_area": "not_validated_by_Eurostat"
+  }
+}

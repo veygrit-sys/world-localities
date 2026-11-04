@@ -1,0 +1,402 @@
+{
+  "schema_version": 1,
+  "release_date": "2026-10-17",
+  "sources": [
+    {
+      "id": "gn-admin1CodesASCII",
+      "country": "ALL",
+      "kind": "geonames-reference",
+      "url": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+      "path": "GLOBAL/admin1CodesASCII.txt",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames",
+      "sha256": "1da92a6323a5fec3176f3f743bf4cf4040fd56a876da55e46fbca23c863aa60a",
+      "bytes": 151583,
+      "retrieved_at": "2026-10-16T23:17:59.542797+00:00",
+      "resolved_url": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+      "http_headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Last-Modified": "Fri, 16 Oct 2026 02:07:51 GMT",
+        "ETag": "\"2501f-65deba1a96d66\""
+      },
+      "raw_object_preserved": true
+    },
+    {
+      "id": "gn-admin2Codes",
+      "country": "ALL",
+      "kind": "geonames-reference",
+      "url": "https://download.geonames.org/export/dump/admin2Codes.txt",
+      "path": "GLOBAL/admin2Codes.txt",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames",
+      "sha256": "985b37390cad51f51b03897e503748db5acddfd9442438532cfab1ac9fd1cbcd",
+      "bytes": 2366323,
+      "retrieved_at": "2026-10-16T23:18:00.179633+00:00",
+      "resolved_url": "https://download.geonames.org/export/dump/admin2Codes.txt",
+      "http_headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Last-Modified": "Fri, 16 Oct 2026 02:07:51 GMT",
+        "ETag": "\"241b73-65deba1a96d66\""
+      },
+      "raw_object_preserved": true
+    },
+    {
+      "id": "gn-countryInfo",
+      "country": "ALL",
+      "kind": "geonames-reference",
+      "url": "https://download.geonames.org/export/dump/countryInfo.txt",
+      "path": "GLOBAL/countryInfo.txt",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames",
+      "sha256": "c55f638cfaafb4fe45a9aa15120a0f1f78e8a34a8e1847d7b9320cf740fbc9ab",
+      "bytes": 31690,
+      "retrieved_at": "2026-10-16T23:17:59.304880+00:00",
+      "resolved_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+      "http_headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Last-Modified": "Fri, 16 Oct 2026 02:13:35 GMT",
+        "ETag": "\"7bca-65debb6340838\""
+      },
+      "raw_object_preserved": true
+    },
+    {
+      "id": "gn-readme",
+      "country": "ALL",
+      "kind": "geonames-reference",
+      "url": "https://download.geonames.org/export/dump/readme.txt",
+      "path": "GLOBAL/readme.txt",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://download.geonames.org/export/dump/readme.txt",
+      "attribution": "GeoNames",
+      "sha256": "b1957379b6c1242c700c98ac9a8aa0a09f56c3c0a50ee72175527005f48ef2c5",
+      "bytes": 8843,
+      "retrieved_at": "2026-10-16T23:17:59.447743+00:00",
+      "resolved_url": "https://download.geonames.org/export/dump/readme.txt",
+      "http_headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Last-Modified": "Fri, 16 Oct 2026 01:57:47 GMT",
+        "ETag": "\"228b-65deb7dae7285\""
+      },
+      "raw_object_preserved": true
+    },
+    {
+      "id": "ar-georef-departamentos",
+      "country": "AR",
+      "kind": "georef-extra",
+      "url": "https://apis.datos.gob.ar/georef/api/departamentos?max=5000&orden=id",
+      "path": "AR/departamentos.json",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://www.argentina.gob.ar/georef/condiciones-de-uso-y-licencia",
+      "attribution": "Georef / Argentina",
+      "sha256": "b7565e4eeb3dd990f1d1cf62516dda1dc2dfcdadec7bf31806b8148591e475df",
+      "bytes": 77198,
+      "retrieved_at": "2026-10-16T23:18:06.279156+00:00",
+      "resolved_url": "https://apis.datos.gob.ar/georef/api/departamentos?max=5000&orden=id",
+      "http_headers": {
+        "Content-Type": "application/json",
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "raw_object_preserved": true
+    },
+    {
+      "id": "ar-georef-municipios",
+      "country": "AR",
+      "kind": "georef-extra",
+      "url": "https://apis.datos.gob.ar/georef/api/municipios?max=5000&orden=id",
+      "path": "AR/municipios.json",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://www.argentina.gob.ar/georef/condiciones-de-uso-y-licencia",
+      "attribution": "Georef / Argentina",
+      "sha256": "0e11a4e11811fded6b944bbc34f91cc2f9b78fa82d36efcb89a47277f75c1219",
+      "bytes": 304976,
+      "retrieved_at": "2026-10-16T23:18:06.765698+00:00",
+      "resolved_url": "https://apis.datos.gob.ar/georef/api/municipios?max=5000&orden=id",
+      "http_headers": {
+        "Content-Type": "application/json",
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "raw_object_preserved": true
+    },
+    {
+      "id": "ar-georef-localidades-censales",
+      "country": "AR",
+      "kind": "georef-extra",
+      "url": "https://apis.datos.gob.ar/georef/api/localidades-censales?max=5000&orden=id",
+      "path": "AR/localidades-censales.json",
+      "licence": "CC-BY-4.0",
+      "terms_url": "https://www.argentina.gob.ar/georef/condiciones-de-uso-y-licencia",
+      "attribution": "Georef / Argentina",
+      "sha256": "9c7a570568c76a816a731fd0e529c2feb9e930fd740b23841b88dbce2f1cc529",
+      "bytes": 1206443,
+      "retrieved_at": "2026-10-16T23:18:07.261962+00:00",
+      "resolved_url": "https://apis.datos.gob.ar/georef/api/localidades-censales?max=5000&orden=id",
+      "http_headers": {
+        "Content-Type": "application/json",
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "raw_object_preserved": true
+    },
+    {
+      "id": "br-ibge-estados",
+      "country": "BR",
+      "kind": "ibge",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/estados",
+      "path": "BR/ibge-estados.json.gz",
+      "licence": "IBGE public open data; attribution retained",
+      "terms_url": "https://www.ibge.gov.br/acesso-informacao/dados-abertos.html",
+      "attribution": "IBGE",
+      "sha256": "8de577f0bf8ae5f10cfca9870520c37a71c071ed34ffae09af1fae967385db7f",
+      "bytes": 491,
+      "retrieved_at": "2026-10-16T23:20:21.021115+00:00",
+      "resolved_url": "https://servicodados.ibge.gov.br/api/v1/localidades/estados",
+      "http_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Encoding": "gzip",
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "raw_object_preserved": true
+    },
+    {
+      "id": "br-ibge-municipios",
+      "country": "BR",
+      "kind": "ibge",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios",
+      "path": "BR/ibge-municipios.json.gz",
+      "licence": "IBGE public open data; attribution retained",
+      "terms_url": "https://www.ibge.gov.br/acesso-informacao/dados-abertos.html",
+      "attribution": "IBGE",
+      "sha256": "d07362079fbab429bab2e9b833628b58419ce1d183630bc94808faf167097635",
+      "bytes": 111623,
+      "retrieved_at": "2026-10-16T23:20:22.372828+00:00",
+      "resolved_url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios",
+      "http_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Encoding": "gzip",
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "raw_object_preserved": true
+    },
+    {
+      "id": "br-ibge-distritos",
+      "country": "BR",
+      "kind": "ibge",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/distritos",
+      "path": "BR/ibge-distritos.json.gz",
+      "licence": "IBGE public open data; attribution retained",
+      "terms_url": "https://www.ibge.gov.br/acesso-informacao/dados-abertos.html",
+      "attribution": "IBGE",
+      "sha256": "2b91cacb054ea91a1fe1f728bf98fd3acb6509b9dbb68e2ccf1683b7f5037bbd",
+      "bytes": 398369,
+      "retrieved_at": "2026-10-16T23:20:22.469344+00:00",
+      "resolved_url": "https://servicodados.ibge.gov.br/api/v1/localidades/distritos",
+      "http_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Encoding": "gzip",
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "raw_object_preserved": true
+    },
+    {
+      "id": "br-ibge-subdistritos",
+      "country": "BR",
+      "kind": "ibge",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/subdistritos",
+      "path": "BR/ibge-subdistritos.json.gz",
+      "licence": "IBGE public open data; attribution retained",
+      "terms_url": "https://www.ibge.gov.br/acesso-informacao/dados-abertos.html",
+      "attribution": "IBGE",
+      "sha256": "e94e1bf945af7615e95c8889ea53fa459098f5b64b99c008c7938b9373af1b2e",
+      "bytes": 13054,
+      "retrieved_at": "2026-10-16T23:20:20.879319+00:00",
+      "resolved_url": "https://servicodados.ibge.gov.br/api/v1/localidades/subdistritos",
+      "http_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Encoding": "gzip",
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "raw_object_preserved": true
+    },
+    {
+      "id": "gf-insee-cog-2026",
+      "country": "GF",
+      "kind": "insee",
+      "url": "https://www.insee.fr/fr/statistiques/fichier/8740222/cog_ensemble_2026_csv.zip",
+      "path": "GF/cog_ensemble_2026_csv.zip",
+      "licence": "Licence Ouverte 2.0",
+      "terms_url": "https://www.insee.fr/fr/information/2008466",
+      "attribution": "INSEE COG 2026",
+      "sha256": "5c037e2977c9d476cfe2e7b7f923bbe09a87cbe448c59e492a71ef6a917aa53f",
+      "bytes": 1961824,
+      "retrieved_at": "2026-10-16T23:20:52.503178+00:00",
+      "resolved_url": "https://www.insee.fr/fr/statistiques/fichier/8740222/cog_ensemble_2026_csv.zip",
+      "http_headers": {
+        "Content-Type": "application/zip",
+        "Content-Encoding": null,
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "raw_object_preserved": true
+    },
+    {
+      "id": "uy-ide-calles-2020",
+      "country": "UY",
+      "kind": "uy-streets",
+      "url": "https://catalogodatos.gub.uy/dataset/1680ada7-6810-48c0-89da-ca62a7dba2d5/resource/69571a02-32e8-4de8-b414-bc3439f9b1dc/download/calles_localidad_departamento_24-7-2020.csv",
+      "path": "UY/calles_localidad_departamento_2020.csv",
+      "licence": "Licencia de Datos Abiertos Uruguay",
+      "terms_url": "https://catalogodatos.gub.uy/dataset/ide-calles-por-localidad-y-departamento/resource/69571a02-32e8-4de8-b414-bc3439f9b1dc",
+      "attribution": "IDE / Correo Uruguayo",
+      "sha256": "1141977711f0eaa337601264c33f9b198c7822ee9f67d2c59aebda18d1f027e2",
+      "bytes": 1423132,
+      "retrieved_at": "2026-10-16T23:20:31.343040+00:00",
+      "resolved_url": "https://catalogodatos.gub.uy/dataset/1680ada7-6810-48c0-89da-ca62a7dba2d5/resource/69571a02-32e8-4de8-b414-bc3439f9b1dc/download/calles_localidad_departamento_24-7-2020.csv",
+      "http_headers": {
+        "Content-Type": "text/csv",
+        "Content-Encoding": null,
+        "Last-Modified": "Mon, 21 Jul 2025 13:25:09 GMT",
+        "ETag": "\"1753104309.7329233-1423132-923473308\""
+      },
+      "raw_object_preserved": true
+    },
+    {
+      "id": "pe-inei-ubigeos",
+      "country": "PE",
+      "kind": "inei",
+      "url": "https://www.datosabiertos.gob.pe/sites/default/files/Lista_Ubigeos_INEI.csv",
+      "path": "PE/Lista_Ubigeos_INEI.csv",
+      "licence": "Open Data Commons Attribution License (ODC-By)",
+      "terms_url": "https://www.datosabiertos.gob.pe/dataset/registros-de-nacidos-vivos-en-el-per%C3%BA-2015%E2%80%932025",
+      "attribution": "INEI / MINSA; reference table only",
+      "sha256": "566c88f4d4412d9831dd3103b2e29d24897b2d163655996c3ce68f100b79502a",
+      "bytes": 67111,
+      "retrieved_at": "2026-10-16T23:20:29.497532+00:00",
+      "resolved_url": "https://www.datosabiertos.gob.pe/sites/default/files/Lista_Ubigeos_INEI.csv",
+      "http_headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Encoding": null,
+        "Last-Modified": "Wed, 17 Sep 2025 16:55:50 GMT",
+        "ETag": "\"68cae816-10627\""
+      },
+      "raw_object_preserved": true,
+      "resource_description_url": "https://www.datosabiertos.gob.pe/dataset/datos-de-registros-de-nacidos-vivos/resource/573f433b-0d44-46e2-932e-14abb9757860"
+    },
+    {
+      "id": "py-ine-departamentos",
+      "country": "PY",
+      "kind": "py-departamentos",
+      "url": "https://geonode.ine.gov.py/geoserver/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=geonode%3ADepartamentos_Paraguay_INE_2022&outputFormat=application%2Fjson&propertyName=fid%2CDPTO%2CDPTO_DESC%2Cid&count=20000",
+      "path": "PY/departamentos.json",
+      "licence": "Public Domain (INE GeoNode metadata; statistical reference)",
+      "terms_url": "https://geonode.ine.gov.py/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=74409488-1e2f-43e6-9bd4-a3cb3269a2b4&elementsetname=full",
+      "attribution": "INE Paraguay, CNPV 2022 / BARLOC 2025",
+      "geometry_requested": false,
+      "sha256": "a4e999bdd904a9d7bfdc42a62d099e36faf02a72652ca09a1fd243726c63c5a8",
+      "bytes": 2787,
+      "retrieved_at": "2026-10-16T23:21:39.102768+00:00",
+      "resolved_url": "https://geonode.ine.gov.py/geoserver/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=geonode%3ADepartamentos_Paraguay_INE_2022&outputFormat=application%2Fjson&propertyName=fid%2CDPTO%2CDPTO_DESC%2Cid&count=20000",
+      "http_headers": {
+        "Content-Type": "application/json;charset=UTF-8",
+        "Content-Encoding": null,
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "raw_object_preserved": true
+    },
+    {
+      "id": "py-ine-distritos",
+      "country": "PY",
+      "kind": "py-distritos",
+      "url": "https://geonode.ine.gov.py/geoserver/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=geonode%3ADistritos_Paraguay_INE_2022&outputFormat=application%2Fjson&propertyName=fid%2CDPTO%2CDPTO_DESC%2CDISTRITO%2CDIST_DESC_%2CCLAVE&count=20000",
+      "path": "PY/distritos.json",
+      "licence": "Public Domain (INE GeoNode metadata; statistical reference)",
+      "terms_url": "https://geonode.ine.gov.py/catalogue/csw_to_extra_format/fa775300-fe68-472d-9d75-e87594c2b093/distritos.html",
+      "attribution": "INE Paraguay, CNPV 2022 / BARLOC 2025",
+      "geometry_requested": false,
+      "sha256": "a8d5a3216c517fec3dcc529dc598ccff3dcc3afc8860b976b5d97923cff62a94",
+      "bytes": 51264,
+      "retrieved_at": "2026-10-16T23:21:40.717968+00:00",
+      "resolved_url": "https://geonode.ine.gov.py/geoserver/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=geonode%3ADistritos_Paraguay_INE_2022&outputFormat=application%2Fjson&propertyName=fid%2CDPTO%2CDPTO_DESC%2CDISTRITO%2CDIST_DESC_%2CCLAVE&count=20000",
+      "http_headers": {
+        "Content-Type": "application/json;charset=UTF-8",
+        "Content-Encoding": null,
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "raw_object_preserved": true
+    },
+    {
+      "id": "py-ine-barloc",
+      "country": "PY",
+      "kind": "py-barloc",
+      "url": "https://geonode.ine.gov.py/geoserver/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=geonode%3ABARLOC_2025&outputFormat=application%2Fjson&propertyName=fid%2CDPTO%2CDPTO_DESC%2CDISTRITO%2CDIST_DESC_%2CAREA%2CBAR_LOC%2CBARLO_DESC%2CCLAVE_BAR%2CCLV_AREA%2CCLAVE&count=20000",
+      "path": "PY/barloc.json",
+      "licence": "Public Domain (INE GeoNode metadata; statistical reference)",
+      "terms_url": "https://geonode.ine.gov.py/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=a9ab09a6-49ce-423d-85df-7b4cccaadb51&elementsetname=full",
+      "attribution": "INE Paraguay, CNPV 2022 / BARLOC 2025",
+      "geometry_requested": false,
+      "sha256": "5dab2c7aaece2e81ec762dd03077a4e2967430a4a7e587dbefe50d9016317039",
+      "bytes": 2238340,
+      "retrieved_at": "2026-10-16T23:21:49.325455+00:00",
+      "resolved_url": "https://geonode.ine.gov.py/geoserver/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=geonode%3ABARLOC_2025&outputFormat=application%2Fjson&propertyName=fid%2CDPTO%2CDPTO_DESC%2CDISTRITO%2CDIST_DESC_%2CAREA%2CBAR_LOC%2CBARLO_DESC%2CCLAVE_BAR%2CCLV_AREA%2CCLAVE&count=20000",
+      "http_headers": {
+        "Content-Type": "application/json;charset=UTF-8",
+        "Content-Encoding": null,
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "raw_object_preserved": true
+    },
+    {
+      "id": "co-dane-divipola",
+      "country": "CO",
+      "kind": "dane",
+      "url": "https://www.datos.gov.co/resource/gdxc-w37w.json?%24limit=5000&%24order=cod_mpio",
+      "path": "CO/divipola.json",
+      "licence": "CC-BY-SA-4.0",
+      "terms_url": "https://www.datos.gov.co/Mapas-Nacionales/DIVIPOLA-C-digos-municipios/gdxc-w37w",
+      "attribution": "DANE, corte 2024-12-30",
+      "sha256": "1028ab04c10a08fa860dd89e621de1eb9246710a56102c915f0988ae9e10d63d",
+      "bytes": 172803,
+      "retrieved_at": "2026-10-16T23:21:40.622988+00:00",
+      "resolved_url": "https://www.datos.gov.co/resource/gdxc-w37w.json?%24limit=5000&%24order=cod_mpio",
+      "http_headers": {
+        "Content-Type": "application/json;charset=utf-8",
+        "Content-Encoding": null,
+        "Last-Modified": "Fri, 24 Jan 2025 20:44:32 GMT",
+        "ETag": "W/\"Zm94dHJvdC41MTE0MF81Xzc0YkpiX2tMSWREaU5oSjBCUEh2SHhvMjJNM0ZF---gzipuBJo5TmFoccFv-VuvIWBVO5TYcI--gzip--gzip\""
+      },
+      "raw_object_preserved": true
+    },
+    {
+      "id": "co-dane-metadata",
+      "country": "CO",
+      "kind": "metadata",
+      "url": "https://www.datos.gov.co/api/views/gdxc-w37w.json",
+      "path": "CO/divipola-metadata.json",
+      "licence": "CC-BY-SA-4.0",
+      "terms_url": "https://www.datos.gov.co/Mapas-Nacionales/DIVIPOLA-C-digos-municipios/gdxc-w37w",
+      "attribution": "DANE",
+      "sha256": "4b62e051efec754a16aef483df91a0a22eb7b7267248b6a236ca9e95537b67fd",
+      "bytes": 14686,
+      "retrieved_at": "2026-10-16T23:21:40.464562+00:00",
+      "resolved_url": "https://www.datos.gov.co/api/views/gdxc-w37w.json",
+      "http_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Encoding": null,
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "raw_object_preserved": true
+    }
+  ]
+}

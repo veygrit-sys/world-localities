@@ -1,0 +1,68 @@
+{
+  "archive_bytes": 29006,
+  "archive_sha256": "35703b0c6ab2cfa4e89f74d3d5877a536592344d49720bd82fe25c01d124fc99",
+  "parts": [
+    {
+      "path": "countries/PN/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 38677,
+      "stored_sha256": "13f3ab0856280addbe0b5b07208177b53e791790485a9cb6c229d9d76348ee10",
+      "bytes": 29006,
+      "sha256": "35703b0c6ab2cfa4e89f74d3d5877a536592344d49720bd82fe25c01d124fc99"
+    }
+  ],
+  "members": {
+    "base/data/polynesia/PN/index.json": {
+      "bytes": 1569,
+      "sha256": "a71f1ec71cfd0962e88029ba077cbbf5b78d1cb49dafd0e833b3f11185c4d3c2"
+    },
+    "base/data/polynesia/PN/places.csv": {
+      "bytes": 1495,
+      "sha256": "9466ab342c8ee51dfb2fe7a7374e3bdcb979b5c57bc493a0abd8bd31f12d182a"
+    },
+    "base/data/polynesia/PN/places.jsonl": {
+      "bytes": 1579,
+      "sha256": "a454a6195142de76a653675aec5d04db5b3a53993215bbcfe259a0f0b33af83a"
+    },
+    "base/sources/geonames/PN.zip": {
+      "bytes": 7586,
+      "sha256": "b38ffee7004cd0bf08f69dcf1652b266f5d0e898910ce380fbb85df30f3a4f3f"
+    },
+    "base/sources/geonames/PN.zip.download.json": {
+      "bytes": 303,
+      "sha256": "1a143c8b47164f86683b00959548de39fc4bc2183317b08a62a68faf18e6432c"
+    },
+    "locale/names.csv": {
+      "bytes": 24865,
+      "sha256": "7fc2b0dd77ff407b79a7749da9f8adbbd1e6ae98ff2233705d4202132e2f697d"
+    },
+    "locale/names.jsonl": {
+      "bytes": 54286,
+      "sha256": "cb469cdfcd30b0ff51a7a917a8462fe3835a55921faeabb915eeaa18fc5f7010"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 3,
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "locale/sources/address-templates/PN.json": {
+      "bytes": 137,
+      "sha256": "2075e047d1953a9a6c10698498a152302f97ba9e61806d00f98fe1918ee3fcdc"
+    },
+    "locale/sources/address-templates/PN.json.download.json": {
+      "bytes": 271,
+      "sha256": "c2bdff144b444832fd6e82d420df36912fa686d95f6f0a5efd87d070d38cc932"
+    },
+    "locale/sources/alternatenames/PN.zip": {
+      "bytes": 7919,
+      "sha256": "8adb98b8f723065375206f4df003f06d43e210e48a1c49ba9d1d8d62d80b3a94"
+    },
+    "locale/sources/alternatenames/PN.zip.download.json": {
+      "bytes": 282,
+      "sha256": "e9019e965f2aff762a97333c8c3d92ae55929092498705918ad6440e0cf3cd7f"
+    }
+  }
+}

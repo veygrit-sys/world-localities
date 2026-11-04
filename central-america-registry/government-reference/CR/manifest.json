@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "source_url": "https://www.ministeriodesalud.go.cr/fhir/CodeSystem-cantones-cs.json",
+  "publisher": "Ministerio de Salud de Costa Rica",
+  "retrieved_at": "2026-10-15T08:48:51.854582+00:00",
+  "http": {
+    "last_modified": "Fri, 14 Nov 2025 19:23:09 GMT",
+    "etag": "\"3a2e-64392ed7de140\""
+  },
+  "source_version": "1.1.0-ballot",
+  "source_date": "2024-09-20T00:00:00-03:00",
+  "license": null,
+  "licensing_note": "Government-published administrative naming/code facts. Publisher conditions are not replaced by GeoNames CC BY or the repository code licence. No clinical or personal data are included.",
+  "official_currentness_verified": false,
+  "geonames_crosswalk_verified": false,
+  "files": {
+    "cantons.json": "c7db8bf8181232f715a004093c9b6c15f1de55b69fe7cc181e00d7b6ac1a1539",
+    "source.json": "8fa6c7937e2f12b8d8f277a7e1301e4b04645b87d16f23d745769f791282f14f"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "completeness": "all A/P records in this source country extract; official municipality completeness unverified",
+  "country": {
+    "alpha3": "SEN",
+    "country": "SN",
+    "geonames_continent": "AF",
+    "geonames_country_name": "Senegal",
+    "geonames_id": "2245662",
+    "id": "country:SN",
+    "m49": "686",
+    "name_en": "Senegal",
+    "numeric": "686",
+    "region": "Western Africa",
+    "status": "source_country_or_area"
+  },
+  "counts": {
+    "address_candidates": 11788,
+    "admin_rows": 199,
+    "ambiguous_parents": 0,
+    "country": "SN",
+    "country_scope_only": 2,
+    "localities_without_adm1": 2,
+    "locality_rows": 11789,
+    "name_en": "Senegal",
+    "other_admin_rows": 1,
+    "region": "Western Africa",
+    "unresolved_parents": 21
+  },
+  "current_official_hierarchy_verified": false,
+  "feature_counts": {
+    "ADM1": 14,
+    "ADM2": 45,
+    "ADM3": 131,
+    "ADM4": 9,
+    "PCLI": 1,
+    "PPL": 11568,
+    "PPLA": 12,
+    "PPLA2": 1,
+    "PPLC": 1,
+    "PPLF": 1,
+    "PPLL": 17,
+    "PPLX": 189
+  },
+  "files": {
+    "entities.csv.gz": {
+      "bytes": 401014,
+      "rows": 11989,
+      "sha256": "5757917c8a4d428443cc7218803e86b92dc63e3766ac77a40cf3e90a0ee770f8",
+      "uncompressed_sha256": "83921300041724965fdf85580cb285f9cbec76514d3068e05a2287c33f8e421b"
+    }
+  },
+  "known_issues": [],
+  "license": "CC-BY-4.0",
+  "parent_relation_counts": {
+    "country_scope_only": 2,
+    "missing_code": 13,
+    "missing_reference": 8,
+    "not_assigned_for_other_feature": 1,
+    "source_admin_code": 11951,
+    "source_country": 14
+  },
+  "preview_files": {
+    "admin1.csv": {
+      "note": "Duplicate display projection; do not add to entity counts.",
+      "rows": 14,
+      "sha256": "0d3789dd1f58e2a0faeedb704a074418e46254c2ff673c735ed48b7a99d07384"
+    }
+  },
+  "schema_version": 1,
+  "source": "GeoNames",
+  "source_file": {
+    "bytes": 414088,
+    "discarded_feature_classes": {
+      "H": 1113,
+      "L": 469,
+      "R": 1,
+      "S": 713,
+      "T": 208,
+      "V": 30
+    },
+    "retained_rows": 11989,
+    "retrieved_on": "2026-09-26",
+    "sha256": "c861d0119ae77dd448d2afdefbf9c3b85a6d4c75cbc7129feb0b31eefcc9e3c1",
+    "source_rows": 14523,
+    "url": "https://download.geonames.org/export/dump/SN.zip"
+  },
+  "source_modified_max": "2026-09-21",
+  "source_modified_min": "1994-01-06"
+}

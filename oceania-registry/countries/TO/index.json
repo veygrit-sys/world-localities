@@ -1,0 +1,68 @@
+{
+  "archive_bytes": 94502,
+  "archive_sha256": "b00052a2b950e4e7b0a3491df3a22cf1a8d6549cb9a30aba9681c3d1094d7db2",
+  "parts": [
+    {
+      "path": "countries/TO/part-001.b64",
+      "storage_encoding": "base64",
+      "stored_bytes": 126005,
+      "stored_sha256": "083f0f5ee1cc74f689f4125cb30aae3ae78aaf8891f8eed9b702b3f2e6f5ec0e",
+      "bytes": 94502,
+      "sha256": "b00052a2b950e4e7b0a3491df3a22cf1a8d6549cb9a30aba9681c3d1094d7db2"
+    }
+  ],
+  "members": {
+    "base/data/polynesia/TO/index.json": {
+      "bytes": 2412,
+      "sha256": "96c27725ddf1757ed1dd7e994e30fe44b72e5b3b54352309a225f0f130d421ec"
+    },
+    "base/data/polynesia/TO/places.csv": {
+      "bytes": 79646,
+      "sha256": "97ec646381175762fc6dc05e2f4ebc1cf8a98012eeaf41a0b751760ecb41ece8"
+    },
+    "base/data/polynesia/TO/places.jsonl": {
+      "bytes": 181382,
+      "sha256": "b3feaffeda06b90c36d3685857c284b3ccab11b1ad774c74c7971706569c2a7b"
+    },
+    "base/sources/geonames/TO.zip": {
+      "bytes": 29644,
+      "sha256": "be066f9b14fea71b4d2970bfe1d1190808dd7c90723c5f769130497eda882827"
+    },
+    "base/sources/geonames/TO.zip.download.json": {
+      "bytes": 304,
+      "sha256": "0201fd8d818279777bc9fe4b35efc5d14c8c772eddeec8fc7925f9eee7663117"
+    },
+    "locale/names.csv": {
+      "bytes": 77778,
+      "sha256": "d3cb171ddb2f022c4ca362306eabf78c712a0b797e4545981aedbd847728e3a1"
+    },
+    "locale/names.jsonl": {
+      "bytes": 174839,
+      "sha256": "98816054b90fea3adb933f90e45640e9f1439ed305d59b4d1209d1778d954d7a"
+    },
+    "locale/postal_links.csv": {
+      "bytes": 3,
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+    },
+    "locale/postal_links.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "locale/sources/address-templates/TO.json": {
+      "bytes": 42,
+      "sha256": "b7b7a5f5676cfc71704c2be8e0f92d3162bd98f7a79e8fd5bd73a4afa93f3521"
+    },
+    "locale/sources/address-templates/TO.json.download.json": {
+      "bytes": 270,
+      "sha256": "8afbb3a8100aa1cb58512d6481a5fe95f8af2abfb3b53e1e91331a75401573cc"
+    },
+    "locale/sources/alternatenames/TO.zip": {
+      "bytes": 20212,
+      "sha256": "6e712b8ff83a4a3644486c195325ef0e1db37847ad292f406f237ba81e2ee1f2"
+    },
+    "locale/sources/alternatenames/TO.zip.download.json": {
+      "bytes": 283,
+      "sha256": "a22f3c5135ea55cb43f24c0e815cf122c7adeb331a22360c68353ecd87f3972f"
+    }
+  }
+}
