@@ -4,9 +4,9 @@
   "reviewed_at": "2026-10-17",
   "purpose": "Domestic-language and English address display profiles for all 28 UN M49 Caribbean countries or areas, with explicit postcode, Address2, street, island, parish, urbanization and P.O. Box policies; not an address-existence, postal-assignment, geocoding or deliverability claim.",
   "locality_registry": {
-    "path": "caribbean-registry",
-    "scope_file": "caribbean-registry/scope.json",
-    "manifest_file": "caribbean-registry/manifest.json",
+    "path": "registries/caribbean",
+    "scope_file": "registries/caribbean/scope.json",
+    "manifest_file": "registries/caribbean/manifest.json",
     "published_country_layers": ["AG", "AI", "AW", "BB", "BL", "BQ", "BS", "CW", "DM", "DO", "GD", "GP", "HT", "JM", "KN", "KY", "LC", "MF", "MQ", "MS", "PR", "SX", "TC", "TT", "VC", "VG", "VI"],
     "split_materialization_required": ["DO"],
     "pending_locality_source_countries": ["CU"],

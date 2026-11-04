@@ -30,13 +30,18 @@ class RepositoryLayout(unittest.TestCase):
         paths = [entry["path"] for entry in catalog["registries"]]
         self.assertEqual(len(paths), len(set(paths)))
 
+    def test_registries_have_one_root_and_no_flat_legacy_copies(self):
+        for entry in load_catalog()["registries"]:
+            self.assertEqual(Path(entry["path"]).parts[0], "registries")
+            self.assertFalse((ROOT / (entry["id"] + "-registry")).exists())
+
     def test_obsolete_duplicate_adapters_are_removed(self):
         obsolete = [
-            "caribbean-registry/geonames_core.py",
-            "south-america-registry/geonames_core.py",
-            "caribbean-registry/materialize.py",
-            "central-america-registry/materialize.py",
-            "south-america-registry/materialize.py",
+            "registries/caribbean/geonames_core.py",
+            "registries/south-america/geonames_core.py",
+            "registries/caribbean/materialize.py",
+            "registries/central-america/materialize.py",
+            "registries/south-america/materialize.py",
         ]
         self.assertTrue(all(not (ROOT / relative).exists() for relative in obsolete))
 
@@ -44,9 +49,9 @@ class RepositoryLayout(unittest.TestCase):
         self.assertEqual(
             materialization_roots(),
             {
-                "caribbean": "caribbean-registry",
-                "central-america": "central-america-registry",
-                "south-america": "south-america-registry",
+                "caribbean": "registries/caribbean",
+                "central-america": "registries/central-america",
+                "south-america": "registries/south-america",
             },
         )
 

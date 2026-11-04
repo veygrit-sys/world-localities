@@ -28,7 +28,10 @@ def validate_catalog(root: Path = REPOSITORY_ROOT) -> dict[str, Any]:
     for registry in catalog.get("registries", []):
         relative = PurePosixPath(registry["path"])
         identifier = registry.get("id", "")
-        if relative.is_absolute() or len(relative.parts) != 1 or relative.name in paths:
+        if (relative.is_absolute() or len(relative.parts) != 2
+                or relative.parts[0] != "registries"
+                or not re.fullmatch(r"[a-z]+(?:-[a-z]+)*", relative.name)
+                or relative.name in paths):
             raise ValueError("invalid or duplicate registry path")
         if not re.fullmatch(r"[a-z]+(?:-[a-z]+)*", identifier) or identifier in identifiers:
             raise ValueError("invalid or duplicate registry id")

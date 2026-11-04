@@ -1,16 +1,16 @@
 # リポジトリ構成
 
 このリポジトリは、データを地域別に保ちながら、地域に依存しない処理だけを
-`localities/` に集約します。既存の利用者が参照している地域別パスは安定した公開入口です。
+`localities/` に集約します。地域別の配置は `registries/` 配下にまとめ、国別台帳と共有CLIから参照します。
 
 ## ディレクトリの責務
 
 | パス | 責務 |
 |---|---|
 | `localities/` | GeoNames変換、分割ファイル復元、構成検証などの共有コード |
-| `*-registry/` | 地域・出典固有のデータ、規則、メタデータ、CLI、互換入口 |
-| `official-registry/` | 国別の公式コード・公式名称・郵便対応を扱う追加レイヤー |
-| `americas-registry/` | アメリカ4地域を横断する監査・品質サイクル |
+| `registries/<地域>/` | 地域・出典固有のデータ、規則、メタデータ、CLI、互換入口 |
+| `registries/official/` | 国別の公式コード・公式名称・郵便対応を扱う追加レイヤー |
+| `registries/americas/` | アメリカ4地域を横断する監査・品質サイクル |
 | `tests/` | 複数地域またはリポジトリ全体にまたがる回帰テスト |
 | `scripts/` | リリース検証などの運用コマンド |
 | `docs/` | 横断設計、品質方針、更新計画 |
@@ -34,7 +34,7 @@
 
 移動した計画資料の旧パスには案内だけを残し、本文の二重管理を避けます。
 `docs/migration/` の元資料・チェックサムは当時のスナップショットとして保持します。
-データ本体・コード・既存のCLI入口は、この資料整理では移動しません。
+地域別データとCLIは `registries/<地域>/` へ移動しています。内部の国別構成とファイル内容は保持し、呼び出しパスを更新します。
 
 地域別ディレクトリの一覧と共有コードの利用関係は
 [`localities/registry_catalog.json`](../localities/registry_catalog.json)を正とします。
@@ -48,8 +48,8 @@ python -m localities layout
 
 - 地域別の `query.py` と `build.py` は、地域を名前空間とする公開入口として維持します。
 - 重複していた地域別 `materialize.py` と `geonames_core.py` は廃止し、`localities/` の単一実装を使います。
-- データファイルの移動は、既存のマニフェスト、チェックサム、利用者の相対パスを壊すため、
-  コード整理と同じ変更では実施しません。
+- 旧 `*-registry/` のCLIは `registries/<地域>/` から呼び出します。管理台帳・共有コード・CI・内部リンクも新しい配置に合わせます。
+- 保存済み原典や過去の照合記録に含まれる旧パスは歴史資料として保持し、必要な検証処理では配置の対応を明示して解決します。
 - 出典固有の意味や品質判定は、見た目が似ていても無理に共通化しません。
 
 ## 共有化の基準
@@ -82,7 +82,7 @@ Pythonファイルを検出して失敗します。例外は `registry_catalog.j
 ```bash
 python -m unittest discover -s tests -p 'test_repository_layout.py' -v
 python -m unittest discover -s tests -p 'test_split_materialization.py' -v
-python caribbean-registry/test_caribbean.py -v
-python central-america-registry/test_central_registry.py -v
-python south-america-registry/test_south_registry.py -v
+python registries/caribbean/test_caribbean.py -v
+python registries/central-america/test_central_registry.py -v
+python registries/south-america/test_south_registry.py -v
 ```

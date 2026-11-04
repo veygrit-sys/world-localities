@@ -311,7 +311,7 @@ python -m addressing render-central-europe --country CH --native-language rm-Lat
 
 `oceania_profiles.json` covers all 29 UN M49 Oceania countries and territories.
 It exposes 61 domestic language variants and an English profile for every
-destination. The profiles reuse the existing `oceania-registry` packs—29
+destination. The profiles reuse the existing `registries/oceania` packs—29
 country splits and 46,594 locality records—as candidate locality data rather
 than duplicating those records in the address layer.
 
@@ -343,7 +343,7 @@ destination. Arabic, Kabyle Latin, Standard Moroccan Amazigh in Tifinagh,
 French and Spanish values remain language-tagged; sharing a script never fills
 an English field, and Tifinagh is checked as its own script.
 
-The extension reuses `africa-registry` rather than copying localities. The
+The extension reuses `registries/africa` rather than copying localities. The
 seven-country upstream scope contains 78,724 locality rows. This repository
 currently materializes 31,778 rows for DZ, EG, EH, LY, SD and TN; Morocco's
 46,946-row source remains explicitly upstream-only. These are candidate
@@ -372,7 +372,7 @@ Ethiopic-script check; Arabic is checked independently; Latin-script domestic
 languages still require explicit English values instead of being relabelled.
 
 The extension links to 137,842 upstream locality candidates in
-`africa-registry`, of which 113,668 are materialized locally. Madagascar's
+`registries/africa`, of which 113,668 are materialized locally. Madagascar's
 24,174 rows remain upstream-only. These locality rows are discovery candidates,
 not evidence that a street, building or postal delivery point exists.
 
@@ -403,7 +403,7 @@ Tshiluba values remain explicitly tagged; shared Latin script never fills a
 missing English value, and Arabic is checked independently.
 
 The extension links to 101,713 upstream locality candidates in
-`africa-registry`, of which 64,477 are materialized locally. The Democratic
+`registries/africa`, of which 64,477 are materialized locally. The Democratic
 Republic of the Congo's 37,236 rows remain upstream-only. Locality candidates
 are not evidence that a street, premise or delivery point exists.
 
@@ -432,7 +432,7 @@ Wolof and Ewe values are selected explicitly; shared Latin script never fills a
 missing English value, and Arabic is checked independently.
 
 The extension links to 192,989 upstream locality candidates in
-`africa-registry`, of which 131,560 are materialized locally. Nigeria's 61,429
+`registries/africa`, of which 131,560 are materialized locally. Nigeria's 61,429
 rows remain upstream-only. These locality candidates support matching and
 administrative context but do not prove a street, premise or delivery point.
 
@@ -461,7 +461,7 @@ explicitly. South African Sign Language is documented as an official language
 but is not misrepresented as a serializable postal-text profile.
 
 All 19,365 locality candidates for the five countries are materialized in
-`africa-registry` and match the upstream snapshot. They support locality and
+`registries/africa` and match the upstream snapshot. They support locality and
 administrative matching only; they do not prove a street number, premise,
 postcode assignment, geocode or deliverability.
 
@@ -488,7 +488,7 @@ regional profile. Seven written domestic-language variants cover English,
 French, Greenlandic and Danish, with a separate English route for every area.
 Shared Latin script never fills a missing translation.
 
-The profile links to the non-destructive `north-america-registry` view. Canada
+The profile links to the non-destructive `registries/north-america` view. Canada
 and the United States contribute 72,567 source locality rows after the 1,231
 Puerto Rico rows in the US snapshot are excluded from this M49 area. Bermuda,
 Greenland and Saint Pierre and Miquelon remain pending locality sources; their
@@ -548,7 +548,7 @@ written-language variants and a separate English route for every area. Dutch,
 Papiamento or Papiamentu, French, Haitian Creole and Spanish values remain
 explicit; shared Latin script never fills a missing translation.
 
-The address layer links the existing `caribbean-registry` publication. Its 27
+The address layer links the existing `registries/caribbean` publication. Its 27
 published country layers contain 50,581 entities, 31,942 populated-place
 rows, 31,630 address candidates and 55,255 alternate-name rows. Cuba remains
 explicitly pending and contributes no locality row. The 196 direct-ID postal

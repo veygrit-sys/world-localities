@@ -102,7 +102,7 @@ class CaribbeanProfileCoverage(unittest.TestCase):
     def test_locality_linkage_keeps_cuba_pending_and_counts_reproducible(self):
         linkage = self.caribbean.locality_registry
         scope = json.loads((ROOT / linkage["scope_file"]).read_text(encoding="utf-8"))
-        with (ROOT / "caribbean-registry/coverage.csv").open(
+        with (ROOT / "registries/caribbean/coverage.csv").open(
             encoding="utf-8", newline=""
         ) as handle:
             coverage = list(csv.DictReader(handle))

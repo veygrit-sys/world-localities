@@ -30,8 +30,8 @@
     "independent_gold_target_per_profile": 200
   },
   "official_inputs": {
-    "JP": "../../official-registry/JP/coverage.json",
-    "TW": "../../official-registry/TW/coverage.json"
+    "JP": "../../registries/official/JP/coverage.json",
+    "TW": "../../registries/official/TW/coverage.json"
   },
   "exclude_from_verified_gold": [
     "ambiguous_or_unmatched_romanization",

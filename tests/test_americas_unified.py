@@ -13,8 +13,8 @@ def imported(name, path):
     return module
 
 
-audit = imported("unified_americas", "americas-registry/audit.py")
-northern = imported("northern_localities", "north-america-registry/query.py")
+audit = imported("unified_americas", "registries/americas/audit.py")
+northern = imported("northern_localities", "registries/north-america/query.py")
 
 
 class AmericasAreaQualityTests(unittest.TestCase):
@@ -48,13 +48,13 @@ class AmericasAreaQualityTests(unittest.TestCase):
     def test_central_mexico_layer_is_not_lost_or_wrongly_reclassified(self):
         area = self.areas["central-america"]
         by_code = {x["country"]: x for x in area["countries"]}
-        self.assertEqual(by_code["MX"]["layer"], "official-registry/MX")
+        self.assertEqual(by_code["MX"]["layer"], "registries/official/MX")
         self.assertEqual(by_code["MX"]["source_locality_rows"], 2478)
         self.assertNotIn("CR", area["pending_country_area_codes"])
 
     def test_caribbean_pr_and_us_source_pr_remain_distinct(self):
         by_code = {x["country"]: x for x in self.areas["caribbean"]["countries"]}
-        self.assertEqual(by_code["PR"]["layer"], "caribbean-registry")
+        self.assertEqual(by_code["PR"]["layer"], "registries/caribbean")
         self.assertEqual(by_code["CU"]["status"], "pending_source")
         with self.assertRaisesRegex(northern.QueryError, "outside M49"):
             northern.search("US", region="US-PR", root=ROOT)

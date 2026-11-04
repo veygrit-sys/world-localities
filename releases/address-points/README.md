@@ -49,7 +49,7 @@ python scripts/address_release.py apply --code /path/to/Veygrit_SoutheastAsia_20
 
 SHA-256固定、ZIP・断片・復元ファイルのサイズとハッシュ照合、相対パス・重複・シンボリックリンクの拒否を行います。
 許可する復元先は `address-points/`、`tests/`、既存パッケージに含まれる
-`official-registry/JP/entities.csv.gz` に限定しています。
+`registries/official/JP/entities.csv.gz` に限定しています。
 
 既存ファイルは、同一内容なら変更せず、原本マニフェストに記録された直前版と一致する場合だけ更新します。
 未確認の編集がある場合は停止します。すべてのペイロードを一時領域へ検証してから各ファイルを反映します。

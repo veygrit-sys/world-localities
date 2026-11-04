@@ -13,9 +13,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/AD/admin1.csv",
-        "europe-registry/countries/AD/entities-0001.csv.gz",
-        "europe-registry/countries/AD/metadata.json"
+        "registries/europe/countries/AD/admin1.csv",
+        "registries/europe/countries/AD/entities-0001.csv.gz",
+        "registries/europe/countries/AD/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -35,7 +35,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/AE.zip"
+        "registries/asia/country-archives/AE.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -55,7 +55,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/AF.zip"
+        "registries/asia/country-archives/AF.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -75,10 +75,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/AG/admin1.csv",
-        "caribbean-registry/countries/AG/alternate-names.csv.gz",
-        "caribbean-registry/countries/AG/entities.csv.gz",
-        "caribbean-registry/countries/AG/metadata.json"
+        "registries/caribbean/countries/AG/admin1.csv",
+        "registries/caribbean/countries/AG/alternate-names.csv.gz",
+        "registries/caribbean/countries/AG/entities.csv.gz",
+        "registries/caribbean/countries/AG/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -98,10 +98,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/AI/admin1.csv",
-        "caribbean-registry/countries/AI/alternate-names.csv.gz",
-        "caribbean-registry/countries/AI/entities.csv.gz",
-        "caribbean-registry/countries/AI/metadata.json"
+        "registries/caribbean/countries/AI/admin1.csv",
+        "registries/caribbean/countries/AI/alternate-names.csv.gz",
+        "registries/caribbean/countries/AI/entities.csv.gz",
+        "registries/caribbean/countries/AI/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -121,9 +121,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/AL/admin1.csv",
-        "europe-registry/countries/AL/entities-0001.csv.gz",
-        "europe-registry/countries/AL/metadata.json"
+        "registries/europe/countries/AL/admin1.csv",
+        "registries/europe/countries/AL/entities-0001.csv.gz",
+        "registries/europe/countries/AL/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -143,10 +143,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/AM.zip",
-        "europe-registry/countries/AM/admin1.csv",
-        "europe-registry/countries/AM/entities-0001.csv.gz",
-        "europe-registry/countries/AM/metadata.json"
+        "registries/asia/country-archives/AM.zip",
+        "registries/europe/countries/AM/admin1.csv",
+        "registries/europe/countries/AM/entities-0001.csv.gz",
+        "registries/europe/countries/AM/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -166,9 +166,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/AO/admin1.csv",
-        "africa-registry/countries/AO/entities.csv.gz",
-        "africa-registry/countries/AO/metadata.json"
+        "registries/africa/countries/AO/admin1.csv",
+        "registries/africa/countries/AO/entities.csv.gz",
+        "registries/africa/countries/AO/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -206,12 +206,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "south-america-registry/.parts/countries/AR/alternate-values.csv.gz/part-0001.bin",
-        "south-america-registry/.parts/countries/AR/alternate-values.csv.gz/part-0002.bin",
-        "south-america-registry/.parts/countries/AR/entities.csv.gz/part-0001.bin",
-        "south-america-registry/.parts/countries/AR/entities.csv.gz/part-0002.bin",
-        "south-america-registry/countries/AR/admin1.csv",
-        "south-america-registry/countries/AR/metadata.json"
+        "registries/south-america/.parts/countries/AR/alternate-values.csv.gz/part-0001.bin",
+        "registries/south-america/.parts/countries/AR/alternate-values.csv.gz/part-0002.bin",
+        "registries/south-america/.parts/countries/AR/entities.csv.gz/part-0001.bin",
+        "registries/south-america/.parts/countries/AR/entities.csv.gz/part-0002.bin",
+        "registries/south-america/countries/AR/admin1.csv",
+        "registries/south-america/countries/AR/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -231,8 +231,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/AS/index.json",
-        "oceania-registry/countries/AS/part-001.b64"
+        "registries/oceania/countries/AS/index.json",
+        "registries/oceania/countries/AS/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -252,13 +252,13 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/AT/admin1.csv",
-        "europe-registry/countries/AT/entities-0001.csv.gz",
-        "europe-registry/countries/AT/entities-0002.csv.gz",
-        "europe-registry/countries/AT/metadata.json",
-        "europe-registry/eurostat-lau/AT/metadata.json",
-        "europe-registry/eurostat-lau/AT/statistical_regions.csv",
-        "europe-registry/eurostat-lau/AT/units.csv.gz"
+        "registries/europe/countries/AT/admin1.csv",
+        "registries/europe/countries/AT/entities-0001.csv.gz",
+        "registries/europe/countries/AT/entities-0002.csv.gz",
+        "registries/europe/countries/AT/metadata.json",
+        "registries/europe/eurostat-lau/AT/metadata.json",
+        "registries/europe/eurostat-lau/AT/statistical_regions.csv",
+        "registries/europe/eurostat-lau/AT/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -278,29 +278,29 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/AU/index.json",
-        "oceania-registry/countries/AU/part-001.b64",
-        "oceania-registry/countries/AU/part-002.b64",
-        "oceania-registry/countries/AU/part-003.b64",
-        "oceania-registry/countries/AU/part-004.b64",
-        "oceania-registry/countries/AU/part-005.b64",
-        "oceania-registry/countries/AU/part-006.b64",
-        "oceania-registry/countries/AU/part-007.b64",
-        "oceania-registry/countries/AU/part-008.b64",
-        "oceania-registry/countries/AU/part-009.b64",
-        "oceania-registry/countries/AU/part-010.b64",
-        "oceania-registry/countries/AU/part-011.b64",
-        "oceania-registry/countries/AU/part-012.b64",
-        "oceania-registry/countries/AU/part-013.b64",
-        "oceania-registry/countries/AU/part-014.b64",
-        "oceania-registry/countries/AU/part-015.b64",
-        "oceania-registry/countries/AU/part-016.b64",
-        "oceania-registry/countries/AU/part-017.b64",
-        "oceania-registry/countries/AU/part-018.b64",
-        "oceania-registry/countries/AU/part-019.b64",
-        "oceania-registry/countries/AU/part-020.b64",
-        "oceania-registry/countries/AU/part-021.b64",
-        "oceania-registry/countries/AU/part-022.b64"
+        "registries/oceania/countries/AU/index.json",
+        "registries/oceania/countries/AU/part-001.b64",
+        "registries/oceania/countries/AU/part-002.b64",
+        "registries/oceania/countries/AU/part-003.b64",
+        "registries/oceania/countries/AU/part-004.b64",
+        "registries/oceania/countries/AU/part-005.b64",
+        "registries/oceania/countries/AU/part-006.b64",
+        "registries/oceania/countries/AU/part-007.b64",
+        "registries/oceania/countries/AU/part-008.b64",
+        "registries/oceania/countries/AU/part-009.b64",
+        "registries/oceania/countries/AU/part-010.b64",
+        "registries/oceania/countries/AU/part-011.b64",
+        "registries/oceania/countries/AU/part-012.b64",
+        "registries/oceania/countries/AU/part-013.b64",
+        "registries/oceania/countries/AU/part-014.b64",
+        "registries/oceania/countries/AU/part-015.b64",
+        "registries/oceania/countries/AU/part-016.b64",
+        "registries/oceania/countries/AU/part-017.b64",
+        "registries/oceania/countries/AU/part-018.b64",
+        "registries/oceania/countries/AU/part-019.b64",
+        "registries/oceania/countries/AU/part-020.b64",
+        "registries/oceania/countries/AU/part-021.b64",
+        "registries/oceania/countries/AU/part-022.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -320,10 +320,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/AW/admin1.csv",
-        "caribbean-registry/countries/AW/alternate-names.csv.gz",
-        "caribbean-registry/countries/AW/entities.csv.gz",
-        "caribbean-registry/countries/AW/metadata.json"
+        "registries/caribbean/countries/AW/admin1.csv",
+        "registries/caribbean/countries/AW/alternate-names.csv.gz",
+        "registries/caribbean/countries/AW/entities.csv.gz",
+        "registries/caribbean/countries/AW/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -343,9 +343,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/AX/admin1.csv",
-        "europe-registry/countries/AX/entities-0001.csv.gz",
-        "europe-registry/countries/AX/metadata.json"
+        "registries/europe/countries/AX/admin1.csv",
+        "registries/europe/countries/AX/entities-0001.csv.gz",
+        "registries/europe/countries/AX/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -365,10 +365,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/AZ.zip",
-        "europe-registry/countries/AZ/admin1.csv",
-        "europe-registry/countries/AZ/entities-0001.csv.gz",
-        "europe-registry/countries/AZ/metadata.json"
+        "registries/asia/country-archives/AZ.zip",
+        "registries/europe/countries/AZ/admin1.csv",
+        "registries/europe/countries/AZ/entities-0001.csv.gz",
+        "registries/europe/countries/AZ/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -388,10 +388,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/BA/admin1.csv",
-        "europe-registry/countries/BA/entities-0001.csv.gz",
-        "europe-registry/countries/BA/entities-0002.csv.gz",
-        "europe-registry/countries/BA/metadata.json"
+        "registries/europe/countries/BA/admin1.csv",
+        "registries/europe/countries/BA/entities-0001.csv.gz",
+        "registries/europe/countries/BA/entities-0002.csv.gz",
+        "registries/europe/countries/BA/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -411,10 +411,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/BB/admin1.csv",
-        "caribbean-registry/countries/BB/alternate-names.csv.gz",
-        "caribbean-registry/countries/BB/entities.csv.gz",
-        "caribbean-registry/countries/BB/metadata.json"
+        "registries/caribbean/countries/BB/admin1.csv",
+        "registries/caribbean/countries/BB/alternate-names.csv.gz",
+        "registries/caribbean/countries/BB/entities.csv.gz",
+        "registries/caribbean/countries/BB/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -434,7 +434,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/BD.zip"
+        "registries/asia/country-archives/BD.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -454,12 +454,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/BE/admin1.csv",
-        "europe-registry/countries/BE/entities-0001.csv.gz",
-        "europe-registry/countries/BE/metadata.json",
-        "europe-registry/eurostat-lau/BE/metadata.json",
-        "europe-registry/eurostat-lau/BE/statistical_regions.csv",
-        "europe-registry/eurostat-lau/BE/units.csv.gz"
+        "registries/europe/countries/BE/admin1.csv",
+        "registries/europe/countries/BE/entities-0001.csv.gz",
+        "registries/europe/countries/BE/metadata.json",
+        "registries/europe/eurostat-lau/BE/metadata.json",
+        "registries/europe/eurostat-lau/BE/statistical_regions.csv",
+        "registries/europe/eurostat-lau/BE/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -479,9 +479,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/BF/admin1.csv",
-        "africa-registry/countries/BF/entities.csv.gz",
-        "africa-registry/countries/BF/metadata.json"
+        "registries/africa/countries/BF/admin1.csv",
+        "registries/africa/countries/BF/entities.csv.gz",
+        "registries/africa/countries/BF/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -501,12 +501,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/BG/admin1.csv",
-        "europe-registry/countries/BG/entities-0001.csv.gz",
-        "europe-registry/countries/BG/metadata.json",
-        "europe-registry/eurostat-lau/BG/metadata.json",
-        "europe-registry/eurostat-lau/BG/statistical_regions.csv",
-        "europe-registry/eurostat-lau/BG/units.csv.gz"
+        "registries/europe/countries/BG/admin1.csv",
+        "registries/europe/countries/BG/entities-0001.csv.gz",
+        "registries/europe/countries/BG/metadata.json",
+        "registries/europe/eurostat-lau/BG/metadata.json",
+        "registries/europe/eurostat-lau/BG/statistical_regions.csv",
+        "registries/europe/eurostat-lau/BG/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -526,7 +526,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/BH.zip"
+        "registries/asia/country-archives/BH.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -546,9 +546,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/BI/admin1.csv",
-        "africa-registry/countries/BI/entities.csv.gz",
-        "africa-registry/countries/BI/metadata.json"
+        "registries/africa/countries/BI/admin1.csv",
+        "registries/africa/countries/BI/entities.csv.gz",
+        "registries/africa/countries/BI/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -568,9 +568,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/BJ/admin1.csv",
-        "africa-registry/countries/BJ/entities.csv.gz",
-        "africa-registry/countries/BJ/metadata.json"
+        "registries/africa/countries/BJ/admin1.csv",
+        "registries/africa/countries/BJ/entities.csv.gz",
+        "registries/africa/countries/BJ/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -590,11 +590,11 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/BL/admin1.csv",
-        "caribbean-registry/countries/BL/alternate-names.csv.gz",
-        "caribbean-registry/countries/BL/entities.csv.gz",
-        "caribbean-registry/countries/BL/metadata.json",
-        "caribbean-registry/countries/BL/postal-links.csv.gz"
+        "registries/caribbean/countries/BL/admin1.csv",
+        "registries/caribbean/countries/BL/alternate-names.csv.gz",
+        "registries/caribbean/countries/BL/entities.csv.gz",
+        "registries/caribbean/countries/BL/metadata.json",
+        "registries/caribbean/countries/BL/postal-links.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -632,7 +632,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/BN.zip"
+        "registries/asia/country-archives/BN.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -652,11 +652,11 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "south-america-registry/.parts/countries/BO/entities.csv.gz/part-0001.bin",
-        "south-america-registry/.parts/countries/BO/entities.csv.gz/part-0002.bin",
-        "south-america-registry/countries/BO/admin1.csv",
-        "south-america-registry/countries/BO/alternate-values.csv.gz",
-        "south-america-registry/countries/BO/metadata.json"
+        "registries/south-america/.parts/countries/BO/entities.csv.gz/part-0001.bin",
+        "registries/south-america/.parts/countries/BO/entities.csv.gz/part-0002.bin",
+        "registries/south-america/countries/BO/admin1.csv",
+        "registries/south-america/countries/BO/alternate-values.csv.gz",
+        "registries/south-america/countries/BO/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -676,10 +676,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/BQ/admin1.csv",
-        "caribbean-registry/countries/BQ/alternate-names.csv.gz",
-        "caribbean-registry/countries/BQ/entities.csv.gz",
-        "caribbean-registry/countries/BQ/metadata.json"
+        "registries/caribbean/countries/BQ/admin1.csv",
+        "registries/caribbean/countries/BQ/alternate-names.csv.gz",
+        "registries/caribbean/countries/BQ/entities.csv.gz",
+        "registries/caribbean/countries/BQ/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -699,52 +699,52 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "official-registry/BR/BR-AC.csv",
-        "official-registry/BR/BR-AL.csv",
-        "official-registry/BR/BR-AM.csv",
-        "official-registry/BR/BR-AP.csv",
-        "official-registry/BR/BR-BA.csv",
-        "official-registry/BR/BR-CE.csv",
-        "official-registry/BR/BR-DF.csv",
-        "official-registry/BR/BR-ES.csv",
-        "official-registry/BR/BR-GO.csv",
-        "official-registry/BR/BR-MA.csv",
-        "official-registry/BR/BR-MG.csv",
-        "official-registry/BR/BR-MS.csv",
-        "official-registry/BR/BR-MT.csv",
-        "official-registry/BR/BR-PA.csv",
-        "official-registry/BR/BR-PB.csv",
-        "official-registry/BR/BR-PE.csv",
-        "official-registry/BR/BR-PI.csv",
-        "official-registry/BR/BR-PR.csv",
-        "official-registry/BR/BR-RJ.csv",
-        "official-registry/BR/BR-RN.csv",
-        "official-registry/BR/BR-RO.csv",
-        "official-registry/BR/BR-RR.csv",
-        "official-registry/BR/BR-RS.csv",
-        "official-registry/BR/BR-SC.csv",
-        "official-registry/BR/BR-SE.csv",
-        "official-registry/BR/BR-SP.csv",
-        "official-registry/BR/BR-TO.csv",
-        "official-registry/BR/anchors.csv",
-        "official-registry/BR/index.json",
-        "official-registry/BR/manifest.json",
-        "official-registry/BR/unmatched-source-rows.json",
-        "official-registry/americas-provenance/registry/countries/BR.json",
-        "south-america-registry/.parts/countries/BR/alternate-values.csv.gz/part-0001.bin",
-        "south-america-registry/.parts/countries/BR/alternate-values.csv.gz/part-0002.bin",
-        "south-america-registry/.parts/countries/BR/alternate-values.csv.gz/part-0003.bin",
-        "south-america-registry/.parts/countries/BR/alternate-values.csv.gz/part-0004.bin",
-        "south-america-registry/.parts/countries/BR/alternate-values.csv.gz/part-0005.bin",
-        "south-america-registry/.parts/countries/BR/entities.csv.gz/part-0001.bin",
-        "south-america-registry/.parts/countries/BR/entities.csv.gz/part-0002.bin",
-        "south-america-registry/.parts/countries/BR/entities.csv.gz/part-0003.bin",
-        "south-america-registry/.parts/countries/BR/entities.csv.gz/part-0004.bin",
-        "south-america-registry/.parts/countries/BR/entities.csv.gz/part-0005.bin",
-        "south-america-registry/.parts/countries/BR/entities.csv.gz/part-0006.bin",
-        "south-america-registry/.parts/countries/BR/entities.csv.gz/part-0007.bin",
-        "south-america-registry/countries/BR/admin1.csv",
-        "south-america-registry/countries/BR/metadata.json"
+        "registries/official/BR/BR-AC.csv",
+        "registries/official/BR/BR-AL.csv",
+        "registries/official/BR/BR-AM.csv",
+        "registries/official/BR/BR-AP.csv",
+        "registries/official/BR/BR-BA.csv",
+        "registries/official/BR/BR-CE.csv",
+        "registries/official/BR/BR-DF.csv",
+        "registries/official/BR/BR-ES.csv",
+        "registries/official/BR/BR-GO.csv",
+        "registries/official/BR/BR-MA.csv",
+        "registries/official/BR/BR-MG.csv",
+        "registries/official/BR/BR-MS.csv",
+        "registries/official/BR/BR-MT.csv",
+        "registries/official/BR/BR-PA.csv",
+        "registries/official/BR/BR-PB.csv",
+        "registries/official/BR/BR-PE.csv",
+        "registries/official/BR/BR-PI.csv",
+        "registries/official/BR/BR-PR.csv",
+        "registries/official/BR/BR-RJ.csv",
+        "registries/official/BR/BR-RN.csv",
+        "registries/official/BR/BR-RO.csv",
+        "registries/official/BR/BR-RR.csv",
+        "registries/official/BR/BR-RS.csv",
+        "registries/official/BR/BR-SC.csv",
+        "registries/official/BR/BR-SE.csv",
+        "registries/official/BR/BR-SP.csv",
+        "registries/official/BR/BR-TO.csv",
+        "registries/official/BR/anchors.csv",
+        "registries/official/BR/index.json",
+        "registries/official/BR/manifest.json",
+        "registries/official/BR/unmatched-source-rows.json",
+        "registries/official/americas-provenance/registry/countries/BR.json",
+        "registries/south-america/.parts/countries/BR/alternate-values.csv.gz/part-0001.bin",
+        "registries/south-america/.parts/countries/BR/alternate-values.csv.gz/part-0002.bin",
+        "registries/south-america/.parts/countries/BR/alternate-values.csv.gz/part-0003.bin",
+        "registries/south-america/.parts/countries/BR/alternate-values.csv.gz/part-0004.bin",
+        "registries/south-america/.parts/countries/BR/alternate-values.csv.gz/part-0005.bin",
+        "registries/south-america/.parts/countries/BR/entities.csv.gz/part-0001.bin",
+        "registries/south-america/.parts/countries/BR/entities.csv.gz/part-0002.bin",
+        "registries/south-america/.parts/countries/BR/entities.csv.gz/part-0003.bin",
+        "registries/south-america/.parts/countries/BR/entities.csv.gz/part-0004.bin",
+        "registries/south-america/.parts/countries/BR/entities.csv.gz/part-0005.bin",
+        "registries/south-america/.parts/countries/BR/entities.csv.gz/part-0006.bin",
+        "registries/south-america/.parts/countries/BR/entities.csv.gz/part-0007.bin",
+        "registries/south-america/countries/BR/admin1.csv",
+        "registries/south-america/countries/BR/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -764,10 +764,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/BS/admin1.csv",
-        "caribbean-registry/countries/BS/alternate-names.csv.gz",
-        "caribbean-registry/countries/BS/entities.csv.gz",
-        "caribbean-registry/countries/BS/metadata.json"
+        "registries/caribbean/countries/BS/admin1.csv",
+        "registries/caribbean/countries/BS/alternate-names.csv.gz",
+        "registries/caribbean/countries/BS/entities.csv.gz",
+        "registries/caribbean/countries/BS/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -787,7 +787,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/BT.zip"
+        "registries/asia/country-archives/BT.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -807,10 +807,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "south-america-registry/countries/BV/admin1.csv",
-        "south-america-registry/countries/BV/alternate-values.csv.gz",
-        "south-america-registry/countries/BV/entities.csv.gz",
-        "south-america-registry/countries/BV/metadata.json"
+        "registries/south-america/countries/BV/admin1.csv",
+        "registries/south-america/countries/BV/alternate-values.csv.gz",
+        "registries/south-america/countries/BV/entities.csv.gz",
+        "registries/south-america/countries/BV/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -830,9 +830,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/BW/admin1.csv",
-        "africa-registry/countries/BW/entities.csv.gz",
-        "africa-registry/countries/BW/metadata.json"
+        "registries/africa/countries/BW/admin1.csv",
+        "registries/africa/countries/BW/entities.csv.gz",
+        "registries/africa/countries/BW/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -852,10 +852,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/BY/admin1.csv",
-        "europe-registry/countries/BY/entities-0001.csv.gz",
-        "europe-registry/countries/BY/entities-0002.csv.gz",
-        "europe-registry/countries/BY/metadata.json"
+        "registries/europe/countries/BY/admin1.csv",
+        "registries/europe/countries/BY/entities-0001.csv.gz",
+        "registries/europe/countries/BY/entities-0002.csv.gz",
+        "registries/europe/countries/BY/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -875,15 +875,15 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "central-america-registry/countries/BZ/admin1.csv",
-        "central-america-registry/countries/BZ/entities.csv.gz",
-        "central-america-registry/countries/BZ/locale_metadata.json",
-        "central-america-registry/countries/BZ/metadata.json",
-        "central-america-registry/countries/BZ/names.csv.gz",
-        "central-america-registry/countries/BZ/postal_links.csv.gz",
-        "central-america-registry/sources/BZ.zip",
-        "central-america-registry/sources/alternatenames/BZ.json",
-        "central-america-registry/sources/alternatenames/BZ.zip"
+        "registries/central-america/countries/BZ/admin1.csv",
+        "registries/central-america/countries/BZ/entities.csv.gz",
+        "registries/central-america/countries/BZ/locale_metadata.json",
+        "registries/central-america/countries/BZ/metadata.json",
+        "registries/central-america/countries/BZ/names.csv.gz",
+        "registries/central-america/countries/BZ/postal_links.csv.gz",
+        "registries/central-america/sources/BZ.zip",
+        "registries/central-america/sources/alternatenames/BZ.json",
+        "registries/central-america/sources/alternatenames/BZ.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -903,24 +903,24 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "official-registry/CA/CA-AB.csv",
-        "official-registry/CA/CA-BC.csv",
-        "official-registry/CA/CA-MB.csv",
-        "official-registry/CA/CA-NB.csv",
-        "official-registry/CA/CA-NL.csv",
-        "official-registry/CA/CA-NS.csv",
-        "official-registry/CA/CA-NT.csv",
-        "official-registry/CA/CA-NU.csv",
-        "official-registry/CA/CA-ON.csv",
-        "official-registry/CA/CA-PE.csv",
-        "official-registry/CA/CA-QC.csv",
-        "official-registry/CA/CA-SK.csv",
-        "official-registry/CA/CA-YT.csv",
-        "official-registry/CA/anchors.csv",
-        "official-registry/CA/index.json",
-        "official-registry/CA/manifest.json",
-        "official-registry/CA/unmatched-source-rows.json",
-        "official-registry/americas-provenance/registry/countries/CA.json"
+        "registries/official/CA/CA-AB.csv",
+        "registries/official/CA/CA-BC.csv",
+        "registries/official/CA/CA-MB.csv",
+        "registries/official/CA/CA-NB.csv",
+        "registries/official/CA/CA-NL.csv",
+        "registries/official/CA/CA-NS.csv",
+        "registries/official/CA/CA-NT.csv",
+        "registries/official/CA/CA-NU.csv",
+        "registries/official/CA/CA-ON.csv",
+        "registries/official/CA/CA-PE.csv",
+        "registries/official/CA/CA-QC.csv",
+        "registries/official/CA/CA-SK.csv",
+        "registries/official/CA/CA-YT.csv",
+        "registries/official/CA/anchors.csv",
+        "registries/official/CA/index.json",
+        "registries/official/CA/manifest.json",
+        "registries/official/CA/unmatched-source-rows.json",
+        "registries/official/americas-provenance/registry/countries/CA.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -940,8 +940,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/CC/index.json",
-        "oceania-registry/countries/CC/part-001.b64"
+        "registries/oceania/countries/CC/index.json",
+        "registries/oceania/countries/CC/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -979,9 +979,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/CF/admin1.csv",
-        "africa-registry/countries/CF/entities.csv.gz",
-        "africa-registry/countries/CF/metadata.json"
+        "registries/africa/countries/CF/admin1.csv",
+        "registries/africa/countries/CF/entities.csv.gz",
+        "registries/africa/countries/CF/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1001,9 +1001,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/CG/admin1.csv",
-        "africa-registry/countries/CG/entities.csv.gz",
-        "africa-registry/countries/CG/metadata.json"
+        "registries/africa/countries/CG/admin1.csv",
+        "registries/africa/countries/CG/entities.csv.gz",
+        "registries/africa/countries/CG/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1023,12 +1023,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/CH/admin1.csv",
-        "europe-registry/countries/CH/entities-0001.csv.gz",
-        "europe-registry/countries/CH/metadata.json",
-        "europe-registry/eurostat-lau/CH/metadata.json",
-        "europe-registry/eurostat-lau/CH/statistical_regions.csv",
-        "europe-registry/eurostat-lau/CH/units.csv.gz"
+        "registries/europe/countries/CH/admin1.csv",
+        "registries/europe/countries/CH/entities-0001.csv.gz",
+        "registries/europe/countries/CH/metadata.json",
+        "registries/europe/eurostat-lau/CH/metadata.json",
+        "registries/europe/eurostat-lau/CH/statistical_regions.csv",
+        "registries/europe/eurostat-lau/CH/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -1048,9 +1048,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/CI/admin1.csv",
-        "africa-registry/countries/CI/entities.csv.gz",
-        "africa-registry/countries/CI/metadata.json"
+        "registries/africa/countries/CI/admin1.csv",
+        "registries/africa/countries/CI/entities.csv.gz",
+        "registries/africa/countries/CI/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1070,8 +1070,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/CK/index.json",
-        "oceania-registry/countries/CK/part-001.b64"
+        "registries/oceania/countries/CK/index.json",
+        "registries/oceania/countries/CK/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -1091,10 +1091,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "south-america-registry/countries/CL/admin1.csv",
-        "south-america-registry/countries/CL/alternate-values.csv.gz",
-        "south-america-registry/countries/CL/entities.csv.gz",
-        "south-america-registry/countries/CL/metadata.json"
+        "registries/south-america/countries/CL/admin1.csv",
+        "registries/south-america/countries/CL/alternate-values.csv.gz",
+        "registries/south-america/countries/CL/entities.csv.gz",
+        "registries/south-america/countries/CL/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1114,9 +1114,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/CM/admin1.csv",
-        "africa-registry/countries/CM/entities.csv.gz",
-        "africa-registry/countries/CM/metadata.json"
+        "registries/africa/countries/CM/admin1.csv",
+        "registries/africa/countries/CM/entities.csv.gz",
+        "registries/africa/countries/CM/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1136,11 +1136,11 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/CN.zip.part001",
-        "asia-registry/country-archives/CN.zip.part002",
-        "asia-registry/country-archives/CN.zip.part003",
-        "asia-registry/country-archives/CN.zip.part004",
-        "asia-registry/country-archives/CN.zip.part005",
+        "registries/asia/country-archives/CN.zip.part001",
+        "registries/asia/country-archives/CN.zip.part002",
+        "registries/asia/country-archives/CN.zip.part003",
+        "registries/asia/country-archives/CN.zip.part004",
+        "registries/asia/country-archives/CN.zip.part005",
         "releases/hierarchy/east-asia/reports/CN.projection.json"
       ],
       "release_manifests": [],
@@ -1161,12 +1161,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "south-america-registry/.parts/countries/CO/entities.csv.gz/part-0001.bin",
-        "south-america-registry/.parts/countries/CO/entities.csv.gz/part-0002.bin",
-        "south-america-registry/.parts/countries/CO/entities.csv.gz/part-0003.bin",
-        "south-america-registry/countries/CO/admin1.csv",
-        "south-america-registry/countries/CO/alternate-values.csv.gz",
-        "south-america-registry/countries/CO/metadata.json"
+        "registries/south-america/.parts/countries/CO/entities.csv.gz/part-0001.bin",
+        "registries/south-america/.parts/countries/CO/entities.csv.gz/part-0002.bin",
+        "registries/south-america/.parts/countries/CO/entities.csv.gz/part-0003.bin",
+        "registries/south-america/countries/CO/admin1.csv",
+        "registries/south-america/countries/CO/alternate-values.csv.gz",
+        "registries/south-america/countries/CO/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1186,18 +1186,18 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "central-america-registry/enrichment/countries/CR/admin1.csv",
-        "central-america-registry/enrichment/countries/CR/entities.csv.gz",
-        "central-america-registry/enrichment/countries/CR/locale_metadata.json",
-        "central-america-registry/enrichment/countries/CR/metadata.json",
-        "central-america-registry/enrichment/countries/CR/names.csv.gz",
-        "central-america-registry/enrichment/countries/CR/postal_links.csv.gz",
-        "central-america-registry/enrichment/sources/CR.zip",
-        "central-america-registry/enrichment/sources/alternatenames/CR.json",
-        "central-america-registry/enrichment/sources/alternatenames/CR.zip",
-        "central-america-registry/government-reference/CR/cantons.json",
-        "central-america-registry/government-reference/CR/manifest.json",
-        "central-america-registry/government-reference/CR/source.json"
+        "registries/central-america/enrichment/countries/CR/admin1.csv",
+        "registries/central-america/enrichment/countries/CR/entities.csv.gz",
+        "registries/central-america/enrichment/countries/CR/locale_metadata.json",
+        "registries/central-america/enrichment/countries/CR/metadata.json",
+        "registries/central-america/enrichment/countries/CR/names.csv.gz",
+        "registries/central-america/enrichment/countries/CR/postal_links.csv.gz",
+        "registries/central-america/enrichment/sources/CR.zip",
+        "registries/central-america/enrichment/sources/alternatenames/CR.json",
+        "registries/central-america/enrichment/sources/alternatenames/CR.zip",
+        "registries/central-america/government-reference/CR/cantons.json",
+        "registries/central-america/government-reference/CR/manifest.json",
+        "registries/central-america/government-reference/CR/source.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1235,9 +1235,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/CV/admin1.csv",
-        "africa-registry/countries/CV/entities.csv.gz",
-        "africa-registry/countries/CV/metadata.json"
+        "registries/africa/countries/CV/admin1.csv",
+        "registries/africa/countries/CV/entities.csv.gz",
+        "registries/africa/countries/CV/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1257,10 +1257,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/CW/admin1.csv",
-        "caribbean-registry/countries/CW/alternate-names.csv.gz",
-        "caribbean-registry/countries/CW/entities.csv.gz",
-        "caribbean-registry/countries/CW/metadata.json"
+        "registries/caribbean/countries/CW/admin1.csv",
+        "registries/caribbean/countries/CW/alternate-names.csv.gz",
+        "registries/caribbean/countries/CW/entities.csv.gz",
+        "registries/caribbean/countries/CW/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1280,8 +1280,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/CX/index.json",
-        "oceania-registry/countries/CX/part-001.b64"
+        "registries/oceania/countries/CX/index.json",
+        "registries/oceania/countries/CX/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -1301,13 +1301,13 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/CY.zip",
-        "europe-registry/countries/CY/admin1.csv",
-        "europe-registry/countries/CY/entities-0001.csv.gz",
-        "europe-registry/countries/CY/metadata.json",
-        "europe-registry/eurostat-lau/CY/metadata.json",
-        "europe-registry/eurostat-lau/CY/statistical_regions.csv",
-        "europe-registry/eurostat-lau/CY/units.csv.gz"
+        "registries/asia/country-archives/CY.zip",
+        "registries/europe/countries/CY/admin1.csv",
+        "registries/europe/countries/CY/entities-0001.csv.gz",
+        "registries/europe/countries/CY/metadata.json",
+        "registries/europe/eurostat-lau/CY/metadata.json",
+        "registries/europe/eurostat-lau/CY/statistical_regions.csv",
+        "registries/europe/eurostat-lau/CY/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -1327,13 +1327,13 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/CZ/admin1.csv",
-        "europe-registry/countries/CZ/entities-0001.csv.gz",
-        "europe-registry/countries/CZ/entities-0002.csv.gz",
-        "europe-registry/countries/CZ/metadata.json",
-        "europe-registry/eurostat-lau/CZ/metadata.json",
-        "europe-registry/eurostat-lau/CZ/statistical_regions.csv",
-        "europe-registry/eurostat-lau/CZ/units.csv.gz"
+        "registries/europe/countries/CZ/admin1.csv",
+        "registries/europe/countries/CZ/entities-0001.csv.gz",
+        "registries/europe/countries/CZ/entities-0002.csv.gz",
+        "registries/europe/countries/CZ/metadata.json",
+        "registries/europe/eurostat-lau/CZ/metadata.json",
+        "registries/europe/eurostat-lau/CZ/statistical_regions.csv",
+        "registries/europe/eurostat-lau/CZ/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -1353,16 +1353,16 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/DE/admin1.csv",
-        "europe-registry/countries/DE/entities-0001.csv.gz",
-        "europe-registry/countries/DE/entities-0002.csv.gz",
-        "europe-registry/countries/DE/entities-0003.csv.gz",
-        "europe-registry/countries/DE/entities-0004.csv.gz",
-        "europe-registry/countries/DE/entities-0005.csv.gz",
-        "europe-registry/countries/DE/metadata.json",
-        "europe-registry/eurostat-lau/DE/metadata.json",
-        "europe-registry/eurostat-lau/DE/statistical_regions.csv",
-        "europe-registry/eurostat-lau/DE/units.csv.gz"
+        "registries/europe/countries/DE/admin1.csv",
+        "registries/europe/countries/DE/entities-0001.csv.gz",
+        "registries/europe/countries/DE/entities-0002.csv.gz",
+        "registries/europe/countries/DE/entities-0003.csv.gz",
+        "registries/europe/countries/DE/entities-0004.csv.gz",
+        "registries/europe/countries/DE/entities-0005.csv.gz",
+        "registries/europe/countries/DE/metadata.json",
+        "registries/europe/eurostat-lau/DE/metadata.json",
+        "registries/europe/eurostat-lau/DE/statistical_regions.csv",
+        "registries/europe/eurostat-lau/DE/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -1382,9 +1382,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/DJ/admin1.csv",
-        "africa-registry/countries/DJ/entities.csv.gz",
-        "africa-registry/countries/DJ/metadata.json"
+        "registries/africa/countries/DJ/admin1.csv",
+        "registries/africa/countries/DJ/entities.csv.gz",
+        "registries/africa/countries/DJ/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1404,12 +1404,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/DK/admin1.csv",
-        "europe-registry/countries/DK/entities-0001.csv.gz",
-        "europe-registry/countries/DK/metadata.json",
-        "europe-registry/eurostat-lau/DK/metadata.json",
-        "europe-registry/eurostat-lau/DK/statistical_regions.csv",
-        "europe-registry/eurostat-lau/DK/units.csv.gz"
+        "registries/europe/countries/DK/admin1.csv",
+        "registries/europe/countries/DK/entities-0001.csv.gz",
+        "registries/europe/countries/DK/metadata.json",
+        "registries/europe/eurostat-lau/DK/metadata.json",
+        "registries/europe/eurostat-lau/DK/statistical_regions.csv",
+        "registries/europe/eurostat-lau/DK/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -1429,10 +1429,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/DM/admin1.csv",
-        "caribbean-registry/countries/DM/alternate-names.csv.gz",
-        "caribbean-registry/countries/DM/entities.csv.gz",
-        "caribbean-registry/countries/DM/metadata.json"
+        "registries/caribbean/countries/DM/admin1.csv",
+        "registries/caribbean/countries/DM/alternate-names.csv.gz",
+        "registries/caribbean/countries/DM/entities.csv.gz",
+        "registries/caribbean/countries/DM/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1452,11 +1452,11 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/.parts/DO/entities.csv.gz.part001.bin",
-        "caribbean-registry/.parts/DO/entities.csv.gz.part002.bin",
-        "caribbean-registry/countries/DO/admin1.csv",
-        "caribbean-registry/countries/DO/alternate-names.csv.gz",
-        "caribbean-registry/countries/DO/metadata.json"
+        "registries/caribbean/.parts/DO/entities.csv.gz.part001.bin",
+        "registries/caribbean/.parts/DO/entities.csv.gz.part002.bin",
+        "registries/caribbean/countries/DO/admin1.csv",
+        "registries/caribbean/countries/DO/alternate-names.csv.gz",
+        "registries/caribbean/countries/DO/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1476,10 +1476,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/DZ/admin1.csv",
-        "africa-registry/countries/DZ/entities.csv.gz",
-        "africa-registry/countries/DZ/metadata.json",
-        "africa-registry/official-references/DZ-2026-wilayas.json"
+        "registries/africa/countries/DZ/admin1.csv",
+        "registries/africa/countries/DZ/entities.csv.gz",
+        "registries/africa/countries/DZ/metadata.json",
+        "registries/africa/official-references/DZ-2026-wilayas.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1499,10 +1499,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "south-america-registry/countries/EC/admin1.csv",
-        "south-america-registry/countries/EC/alternate-values.csv.gz",
-        "south-america-registry/countries/EC/entities.csv.gz",
-        "south-america-registry/countries/EC/metadata.json"
+        "registries/south-america/countries/EC/admin1.csv",
+        "registries/south-america/countries/EC/alternate-values.csv.gz",
+        "registries/south-america/countries/EC/entities.csv.gz",
+        "registries/south-america/countries/EC/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1522,12 +1522,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/EE/admin1.csv",
-        "europe-registry/countries/EE/entities-0001.csv.gz",
-        "europe-registry/countries/EE/metadata.json",
-        "europe-registry/eurostat-lau/EE/metadata.json",
-        "europe-registry/eurostat-lau/EE/statistical_regions.csv",
-        "europe-registry/eurostat-lau/EE/units.csv.gz"
+        "registries/europe/countries/EE/admin1.csv",
+        "registries/europe/countries/EE/entities-0001.csv.gz",
+        "registries/europe/countries/EE/metadata.json",
+        "registries/europe/eurostat-lau/EE/metadata.json",
+        "registries/europe/eurostat-lau/EE/statistical_regions.csv",
+        "registries/europe/eurostat-lau/EE/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -1547,9 +1547,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/EG/admin1.csv",
-        "africa-registry/countries/EG/entities.csv.gz",
-        "africa-registry/countries/EG/metadata.json"
+        "registries/africa/countries/EG/admin1.csv",
+        "registries/africa/countries/EG/entities.csv.gz",
+        "registries/africa/countries/EG/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1569,9 +1569,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/EH/admin1.csv",
-        "africa-registry/countries/EH/entities.csv.gz",
-        "africa-registry/countries/EH/metadata.json"
+        "registries/africa/countries/EH/admin1.csv",
+        "registries/africa/countries/EH/entities.csv.gz",
+        "registries/africa/countries/EH/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1591,9 +1591,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/ER/admin1.csv",
-        "africa-registry/countries/ER/entities.csv.gz",
-        "africa-registry/countries/ER/metadata.json"
+        "registries/africa/countries/ER/admin1.csv",
+        "registries/africa/countries/ER/entities.csv.gz",
+        "registries/africa/countries/ER/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1613,13 +1613,13 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/ES/admin1.csv",
-        "europe-registry/countries/ES/entities-0001.csv.gz",
-        "europe-registry/countries/ES/entities-0002.csv.gz",
-        "europe-registry/countries/ES/metadata.json",
-        "europe-registry/eurostat-lau/ES/metadata.json",
-        "europe-registry/eurostat-lau/ES/statistical_regions.csv",
-        "europe-registry/eurostat-lau/ES/units.csv.gz"
+        "registries/europe/countries/ES/admin1.csv",
+        "registries/europe/countries/ES/entities-0001.csv.gz",
+        "registries/europe/countries/ES/entities-0002.csv.gz",
+        "registries/europe/countries/ES/metadata.json",
+        "registries/europe/eurostat-lau/ES/metadata.json",
+        "registries/europe/eurostat-lau/ES/statistical_regions.csv",
+        "registries/europe/eurostat-lau/ES/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -1639,9 +1639,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/ET/admin1.csv",
-        "africa-registry/countries/ET/entities.csv.gz",
-        "africa-registry/countries/ET/metadata.json"
+        "registries/africa/countries/ET/admin1.csv",
+        "registries/africa/countries/ET/entities.csv.gz",
+        "registries/africa/countries/ET/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1661,13 +1661,13 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/FI/admin1.csv",
-        "europe-registry/countries/FI/entities-0001.csv.gz",
-        "europe-registry/countries/FI/entities-0002.csv.gz",
-        "europe-registry/countries/FI/metadata.json",
-        "europe-registry/eurostat-lau/FI/metadata.json",
-        "europe-registry/eurostat-lau/FI/statistical_regions.csv",
-        "europe-registry/eurostat-lau/FI/units.csv.gz"
+        "registries/europe/countries/FI/admin1.csv",
+        "registries/europe/countries/FI/entities-0001.csv.gz",
+        "registries/europe/countries/FI/entities-0002.csv.gz",
+        "registries/europe/countries/FI/metadata.json",
+        "registries/europe/eurostat-lau/FI/metadata.json",
+        "registries/europe/eurostat-lau/FI/statistical_regions.csv",
+        "registries/europe/eurostat-lau/FI/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -1687,10 +1687,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/FJ/index.json",
-        "oceania-registry/countries/FJ/part-001.b64",
-        "oceania-registry/countries/FJ/part-002.b64",
-        "oceania-registry/countries/FJ/part-003.b64"
+        "registries/oceania/countries/FJ/index.json",
+        "registries/oceania/countries/FJ/part-001.b64",
+        "registries/oceania/countries/FJ/part-002.b64",
+        "registries/oceania/countries/FJ/part-003.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -1710,10 +1710,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "south-america-registry/countries/FK/admin1.csv",
-        "south-america-registry/countries/FK/alternate-values.csv.gz",
-        "south-america-registry/countries/FK/entities.csv.gz",
-        "south-america-registry/countries/FK/metadata.json"
+        "registries/south-america/countries/FK/admin1.csv",
+        "registries/south-america/countries/FK/alternate-values.csv.gz",
+        "registries/south-america/countries/FK/entities.csv.gz",
+        "registries/south-america/countries/FK/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1733,8 +1733,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/FM/index.json",
-        "oceania-registry/countries/FM/part-001.b64"
+        "registries/oceania/countries/FM/index.json",
+        "registries/oceania/countries/FM/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -1754,9 +1754,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/FO/admin1.csv",
-        "europe-registry/countries/FO/entities-0001.csv.gz",
-        "europe-registry/countries/FO/metadata.json"
+        "registries/europe/countries/FO/admin1.csv",
+        "registries/europe/countries/FO/entities-0001.csv.gz",
+        "registries/europe/countries/FO/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1776,17 +1776,17 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/FR/admin1.csv",
-        "europe-registry/countries/FR/entities-0001.csv.gz",
-        "europe-registry/countries/FR/entities-0002.csv.gz",
-        "europe-registry/countries/FR/entities-0003.csv.gz",
-        "europe-registry/countries/FR/entities-0004.csv.gz",
-        "europe-registry/countries/FR/entities-0005.csv.gz",
-        "europe-registry/countries/FR/entities-0006.csv.gz",
-        "europe-registry/countries/FR/metadata.json",
-        "europe-registry/eurostat-lau/FR/metadata.json",
-        "europe-registry/eurostat-lau/FR/statistical_regions.csv",
-        "europe-registry/eurostat-lau/FR/units.csv.gz"
+        "registries/europe/countries/FR/admin1.csv",
+        "registries/europe/countries/FR/entities-0001.csv.gz",
+        "registries/europe/countries/FR/entities-0002.csv.gz",
+        "registries/europe/countries/FR/entities-0003.csv.gz",
+        "registries/europe/countries/FR/entities-0004.csv.gz",
+        "registries/europe/countries/FR/entities-0005.csv.gz",
+        "registries/europe/countries/FR/entities-0006.csv.gz",
+        "registries/europe/countries/FR/metadata.json",
+        "registries/europe/eurostat-lau/FR/metadata.json",
+        "registries/europe/eurostat-lau/FR/statistical_regions.csv",
+        "registries/europe/eurostat-lau/FR/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -1806,9 +1806,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/GA/admin1.csv",
-        "africa-registry/countries/GA/entities.csv.gz",
-        "africa-registry/countries/GA/metadata.json"
+        "registries/africa/countries/GA/admin1.csv",
+        "registries/africa/countries/GA/entities.csv.gz",
+        "registries/africa/countries/GA/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1828,11 +1828,11 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/GB/admin1.csv",
-        "europe-registry/countries/GB/entities-0001.csv.gz",
-        "europe-registry/countries/GB/entities-0002.csv.gz",
-        "europe-registry/countries/GB/entities-0003.csv.gz",
-        "europe-registry/countries/GB/metadata.json"
+        "registries/europe/countries/GB/admin1.csv",
+        "registries/europe/countries/GB/entities-0001.csv.gz",
+        "registries/europe/countries/GB/entities-0002.csv.gz",
+        "registries/europe/countries/GB/entities-0003.csv.gz",
+        "registries/europe/countries/GB/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1852,10 +1852,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/GD/admin1.csv",
-        "caribbean-registry/countries/GD/alternate-names.csv.gz",
-        "caribbean-registry/countries/GD/entities.csv.gz",
-        "caribbean-registry/countries/GD/metadata.json"
+        "registries/caribbean/countries/GD/admin1.csv",
+        "registries/caribbean/countries/GD/alternate-names.csv.gz",
+        "registries/caribbean/countries/GD/entities.csv.gz",
+        "registries/caribbean/countries/GD/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1875,10 +1875,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/GE.zip",
-        "europe-registry/countries/GE/admin1.csv",
-        "europe-registry/countries/GE/entities-0001.csv.gz",
-        "europe-registry/countries/GE/metadata.json"
+        "registries/asia/country-archives/GE.zip",
+        "registries/europe/countries/GE/admin1.csv",
+        "registries/europe/countries/GE/entities-0001.csv.gz",
+        "registries/europe/countries/GE/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1898,10 +1898,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "south-america-registry/countries/GF/admin1.csv",
-        "south-america-registry/countries/GF/alternate-values.csv.gz",
-        "south-america-registry/countries/GF/entities.csv.gz",
-        "south-america-registry/countries/GF/metadata.json"
+        "registries/south-america/countries/GF/admin1.csv",
+        "registries/south-america/countries/GF/alternate-values.csv.gz",
+        "registries/south-america/countries/GF/entities.csv.gz",
+        "registries/south-america/countries/GF/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1921,9 +1921,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/GG/admin1.csv",
-        "europe-registry/countries/GG/entities-0001.csv.gz",
-        "europe-registry/countries/GG/metadata.json"
+        "registries/europe/countries/GG/admin1.csv",
+        "registries/europe/countries/GG/entities-0001.csv.gz",
+        "registries/europe/countries/GG/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1943,9 +1943,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/GH/admin1.csv",
-        "africa-registry/countries/GH/entities.csv.gz",
-        "africa-registry/countries/GH/metadata.json"
+        "registries/africa/countries/GH/admin1.csv",
+        "registries/africa/countries/GH/entities.csv.gz",
+        "registries/africa/countries/GH/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -1965,9 +1965,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/GI/admin1.csv",
-        "europe-registry/countries/GI/entities-0001.csv.gz",
-        "europe-registry/countries/GI/metadata.json"
+        "registries/europe/countries/GI/admin1.csv",
+        "registries/europe/countries/GI/entities-0001.csv.gz",
+        "registries/europe/countries/GI/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -2005,9 +2005,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/GM/admin1.csv",
-        "africa-registry/countries/GM/entities.csv.gz",
-        "africa-registry/countries/GM/metadata.json"
+        "registries/africa/countries/GM/admin1.csv",
+        "registries/africa/countries/GM/entities.csv.gz",
+        "registries/africa/countries/GM/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -2027,9 +2027,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/GN/admin1.csv",
-        "africa-registry/countries/GN/entities.csv.gz",
-        "africa-registry/countries/GN/metadata.json"
+        "registries/africa/countries/GN/admin1.csv",
+        "registries/africa/countries/GN/entities.csv.gz",
+        "registries/africa/countries/GN/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -2049,11 +2049,11 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/GP/admin1.csv",
-        "caribbean-registry/countries/GP/alternate-names.csv.gz",
-        "caribbean-registry/countries/GP/entities.csv.gz",
-        "caribbean-registry/countries/GP/metadata.json",
-        "caribbean-registry/countries/GP/postal-links.csv.gz"
+        "registries/caribbean/countries/GP/admin1.csv",
+        "registries/caribbean/countries/GP/alternate-names.csv.gz",
+        "registries/caribbean/countries/GP/entities.csv.gz",
+        "registries/caribbean/countries/GP/metadata.json",
+        "registries/caribbean/countries/GP/postal-links.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -2073,9 +2073,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/GQ/admin1.csv",
-        "africa-registry/countries/GQ/entities.csv.gz",
-        "africa-registry/countries/GQ/metadata.json"
+        "registries/africa/countries/GQ/admin1.csv",
+        "registries/africa/countries/GQ/entities.csv.gz",
+        "registries/africa/countries/GQ/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -2095,12 +2095,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/GR/admin1.csv",
-        "europe-registry/countries/GR/entities-0001.csv.gz",
-        "europe-registry/countries/GR/metadata.json",
-        "europe-registry/eurostat-lau/GR/metadata.json",
-        "europe-registry/eurostat-lau/GR/statistical_regions.csv",
-        "europe-registry/eurostat-lau/GR/units.csv.gz"
+        "registries/europe/countries/GR/admin1.csv",
+        "registries/europe/countries/GR/entities-0001.csv.gz",
+        "registries/europe/countries/GR/metadata.json",
+        "registries/europe/eurostat-lau/GR/metadata.json",
+        "registries/europe/eurostat-lau/GR/statistical_regions.csv",
+        "registries/europe/eurostat-lau/GR/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -2120,10 +2120,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "south-america-registry/countries/GS/admin1.csv",
-        "south-america-registry/countries/GS/alternate-values.csv.gz",
-        "south-america-registry/countries/GS/entities.csv.gz",
-        "south-america-registry/countries/GS/metadata.json"
+        "registries/south-america/countries/GS/admin1.csv",
+        "registries/south-america/countries/GS/alternate-values.csv.gz",
+        "registries/south-america/countries/GS/entities.csv.gz",
+        "registries/south-america/countries/GS/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -2143,16 +2143,16 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "central-america-registry/.parts/GT/sources/GT.zip/part-0001.bin",
-        "central-america-registry/.parts/GT/sources/GT.zip/part-0002.bin",
-        "central-america-registry/countries/GT/admin1.csv",
-        "central-america-registry/countries/GT/entities.csv.gz",
-        "central-america-registry/countries/GT/locale_metadata.json",
-        "central-america-registry/countries/GT/metadata.json",
-        "central-america-registry/countries/GT/names.csv.gz",
-        "central-america-registry/countries/GT/postal_links.csv.gz",
-        "central-america-registry/sources/alternatenames/GT.json",
-        "central-america-registry/sources/alternatenames/GT.zip"
+        "registries/central-america/.parts/GT/sources/GT.zip/part-0001.bin",
+        "registries/central-america/.parts/GT/sources/GT.zip/part-0002.bin",
+        "registries/central-america/countries/GT/admin1.csv",
+        "registries/central-america/countries/GT/entities.csv.gz",
+        "registries/central-america/countries/GT/locale_metadata.json",
+        "registries/central-america/countries/GT/metadata.json",
+        "registries/central-america/countries/GT/names.csv.gz",
+        "registries/central-america/countries/GT/postal_links.csv.gz",
+        "registries/central-america/sources/alternatenames/GT.json",
+        "registries/central-america/sources/alternatenames/GT.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -2172,8 +2172,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/GU/index.json",
-        "oceania-registry/countries/GU/part-001.b64"
+        "registries/oceania/countries/GU/index.json",
+        "registries/oceania/countries/GU/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -2193,9 +2193,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/GW/admin1.csv",
-        "africa-registry/countries/GW/entities.csv.gz",
-        "africa-registry/countries/GW/metadata.json"
+        "registries/africa/countries/GW/admin1.csv",
+        "registries/africa/countries/GW/entities.csv.gz",
+        "registries/africa/countries/GW/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -2215,10 +2215,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "south-america-registry/countries/GY/admin1.csv",
-        "south-america-registry/countries/GY/alternate-values.csv.gz",
-        "south-america-registry/countries/GY/entities.csv.gz",
-        "south-america-registry/countries/GY/metadata.json"
+        "registries/south-america/countries/GY/admin1.csv",
+        "registries/south-america/countries/GY/alternate-values.csv.gz",
+        "registries/south-america/countries/GY/entities.csv.gz",
+        "registries/south-america/countries/GY/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -2238,7 +2238,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/HK.zip",
+        "registries/asia/country-archives/HK.zip",
         "releases/hierarchy/east-asia/reports/HK.projection.json"
       ],
       "release_manifests": [],
@@ -2259,8 +2259,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/HM/index.json",
-        "oceania-registry/countries/HM/part-001.b64"
+        "registries/oceania/countries/HM/index.json",
+        "registries/oceania/countries/HM/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -2280,15 +2280,15 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "central-america-registry/countries/HN/admin1.csv",
-        "central-america-registry/countries/HN/entities.csv.gz",
-        "central-america-registry/countries/HN/locale_metadata.json",
-        "central-america-registry/countries/HN/metadata.json",
-        "central-america-registry/countries/HN/names.csv.gz",
-        "central-america-registry/countries/HN/postal_links.csv.gz",
-        "central-america-registry/sources/HN.zip",
-        "central-america-registry/sources/alternatenames/HN.json",
-        "central-america-registry/sources/alternatenames/HN.zip"
+        "registries/central-america/countries/HN/admin1.csv",
+        "registries/central-america/countries/HN/entities.csv.gz",
+        "registries/central-america/countries/HN/locale_metadata.json",
+        "registries/central-america/countries/HN/metadata.json",
+        "registries/central-america/countries/HN/names.csv.gz",
+        "registries/central-america/countries/HN/postal_links.csv.gz",
+        "registries/central-america/sources/HN.zip",
+        "registries/central-america/sources/alternatenames/HN.json",
+        "registries/central-america/sources/alternatenames/HN.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -2308,12 +2308,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/HR/admin1.csv",
-        "europe-registry/countries/HR/entities-0001.csv.gz",
-        "europe-registry/countries/HR/metadata.json",
-        "europe-registry/eurostat-lau/HR/metadata.json",
-        "europe-registry/eurostat-lau/HR/statistical_regions.csv",
-        "europe-registry/eurostat-lau/HR/units.csv.gz"
+        "registries/europe/countries/HR/admin1.csv",
+        "registries/europe/countries/HR/entities-0001.csv.gz",
+        "registries/europe/countries/HR/metadata.json",
+        "registries/europe/eurostat-lau/HR/metadata.json",
+        "registries/europe/eurostat-lau/HR/statistical_regions.csv",
+        "registries/europe/eurostat-lau/HR/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -2333,10 +2333,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/HT/admin1.csv",
-        "caribbean-registry/countries/HT/alternate-names.csv.gz",
-        "caribbean-registry/countries/HT/entities.csv.gz",
-        "caribbean-registry/countries/HT/metadata.json"
+        "registries/caribbean/countries/HT/admin1.csv",
+        "registries/caribbean/countries/HT/alternate-names.csv.gz",
+        "registries/caribbean/countries/HT/entities.csv.gz",
+        "registries/caribbean/countries/HT/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -2356,12 +2356,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/HU/admin1.csv",
-        "europe-registry/countries/HU/entities-0001.csv.gz",
-        "europe-registry/countries/HU/metadata.json",
-        "europe-registry/eurostat-lau/HU/metadata.json",
-        "europe-registry/eurostat-lau/HU/statistical_regions.csv",
-        "europe-registry/eurostat-lau/HU/units.csv.gz"
+        "registries/europe/countries/HU/admin1.csv",
+        "registries/europe/countries/HU/entities-0001.csv.gz",
+        "registries/europe/countries/HU/metadata.json",
+        "registries/europe/eurostat-lau/HU/metadata.json",
+        "registries/europe/eurostat-lau/HU/statistical_regions.csv",
+        "registries/europe/eurostat-lau/HU/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -2381,8 +2381,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/ID.zip.part001",
-        "asia-registry/country-archives/ID.zip.part002"
+        "registries/asia/country-archives/ID.zip.part001",
+        "registries/asia/country-archives/ID.zip.part002"
       ],
       "release_manifests": [],
       "quality": {
@@ -2402,12 +2402,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/IE/admin1.csv",
-        "europe-registry/countries/IE/entities-0001.csv.gz",
-        "europe-registry/countries/IE/metadata.json",
-        "europe-registry/eurostat-lau/IE/metadata.json",
-        "europe-registry/eurostat-lau/IE/statistical_regions.csv",
-        "europe-registry/eurostat-lau/IE/units.csv.gz"
+        "registries/europe/countries/IE/admin1.csv",
+        "registries/europe/countries/IE/entities-0001.csv.gz",
+        "registries/europe/countries/IE/metadata.json",
+        "registries/europe/eurostat-lau/IE/metadata.json",
+        "registries/europe/eurostat-lau/IE/statistical_regions.csv",
+        "registries/europe/eurostat-lau/IE/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -2427,7 +2427,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/IL.zip"
+        "registries/asia/country-archives/IL.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -2447,9 +2447,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/IM/admin1.csv",
-        "europe-registry/countries/IM/entities-0001.csv.gz",
-        "europe-registry/countries/IM/metadata.json"
+        "registries/europe/countries/IM/admin1.csv",
+        "registries/europe/countries/IM/entities-0001.csv.gz",
+        "registries/europe/countries/IM/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -2469,8 +2469,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/IN.zip.part001",
-        "asia-registry/country-archives/IN.zip.part002"
+        "registries/asia/country-archives/IN.zip.part001",
+        "registries/asia/country-archives/IN.zip.part002"
       ],
       "release_manifests": [],
       "quality": {
@@ -2490,9 +2490,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/IO/admin1.csv",
-        "africa-registry/countries/IO/entities.csv.gz",
-        "africa-registry/countries/IO/metadata.json"
+        "registries/africa/countries/IO/admin1.csv",
+        "registries/africa/countries/IO/entities.csv.gz",
+        "registries/africa/countries/IO/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -2512,7 +2512,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/IQ.zip"
+        "registries/asia/country-archives/IQ.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -2532,7 +2532,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/IR.zip"
+        "registries/asia/country-archives/IR.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -2552,9 +2552,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/IS/admin1.csv",
-        "europe-registry/countries/IS/entities-0001.csv.gz",
-        "europe-registry/countries/IS/metadata.json"
+        "registries/europe/countries/IS/admin1.csv",
+        "registries/europe/countries/IS/entities-0001.csv.gz",
+        "registries/europe/countries/IS/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -2574,15 +2574,15 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/IT/admin1.csv",
-        "europe-registry/countries/IT/entities-0001.csv.gz",
-        "europe-registry/countries/IT/entities-0002.csv.gz",
-        "europe-registry/countries/IT/entities-0003.csv.gz",
-        "europe-registry/countries/IT/entities-0004.csv.gz",
-        "europe-registry/countries/IT/metadata.json",
-        "europe-registry/eurostat-lau/IT/metadata.json",
-        "europe-registry/eurostat-lau/IT/statistical_regions.csv",
-        "europe-registry/eurostat-lau/IT/units.csv.gz"
+        "registries/europe/countries/IT/admin1.csv",
+        "registries/europe/countries/IT/entities-0001.csv.gz",
+        "registries/europe/countries/IT/entities-0002.csv.gz",
+        "registries/europe/countries/IT/entities-0003.csv.gz",
+        "registries/europe/countries/IT/entities-0004.csv.gz",
+        "registries/europe/countries/IT/metadata.json",
+        "registries/europe/eurostat-lau/IT/metadata.json",
+        "registries/europe/eurostat-lau/IT/statistical_regions.csv",
+        "registries/europe/eurostat-lau/IT/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -2602,9 +2602,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/JE/admin1.csv",
-        "europe-registry/countries/JE/entities-0001.csv.gz",
-        "europe-registry/countries/JE/metadata.json"
+        "registries/europe/countries/JE/admin1.csv",
+        "registries/europe/countries/JE/entities-0001.csv.gz",
+        "registries/europe/countries/JE/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -2624,10 +2624,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/JM/admin1.csv",
-        "caribbean-registry/countries/JM/alternate-names.csv.gz",
-        "caribbean-registry/countries/JM/entities.csv.gz",
-        "caribbean-registry/countries/JM/metadata.json"
+        "registries/caribbean/countries/JM/admin1.csv",
+        "registries/caribbean/countries/JM/alternate-names.csv.gz",
+        "registries/caribbean/countries/JM/entities.csv.gz",
+        "registries/caribbean/countries/JM/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -2647,7 +2647,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/JO.zip"
+        "registries/asia/country-archives/JO.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -2667,20 +2667,20 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/JP.zip",
-        "official-registry/JP/ODbL-1.0.txt",
-        "official-registry/JP/README.md",
-        "official-registry/JP/coverage.json",
-        "official-registry/JP/entities.csv.gz",
-        "official-registry/JP/geonames_candidates.csv",
-        "official-registry/JP/names.csv.gz",
-        "official-registry/JP/postal_rows.csv.gz",
-        "official-registry/JP/sources.json",
-        "official-registry/JP/sources/postal-roman.zip",
-        "official-registry/JP/sources/postal-utf.zip",
-        "official-registry/JP/sources/registry-manifest.json",
-        "official-registry/JP/sources/registry.json.gz",
-        "official-registry/JP/unresolved_roman.csv",
+        "registries/asia/country-archives/JP.zip",
+        "registries/official/JP/ODbL-1.0.txt",
+        "registries/official/JP/README.md",
+        "registries/official/JP/coverage.json",
+        "registries/official/JP/entities.csv.gz",
+        "registries/official/JP/geonames_candidates.csv",
+        "registries/official/JP/names.csv.gz",
+        "registries/official/JP/postal_rows.csv.gz",
+        "registries/official/JP/sources.json",
+        "registries/official/JP/sources/postal-roman.zip",
+        "registries/official/JP/sources/postal-utf.zip",
+        "registries/official/JP/sources/registry-manifest.json",
+        "registries/official/JP/sources/registry.json.gz",
+        "registries/official/JP/unresolved_roman.csv",
         "releases/hierarchy/east-asia/reports/JP.projection.json"
       ],
       "release_manifests": [],
@@ -2701,9 +2701,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/KE/admin1.csv",
-        "africa-registry/countries/KE/entities.csv.gz",
-        "africa-registry/countries/KE/metadata.json"
+        "registries/africa/countries/KE/admin1.csv",
+        "registries/africa/countries/KE/entities.csv.gz",
+        "registries/africa/countries/KE/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -2723,7 +2723,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/KG.zip"
+        "registries/asia/country-archives/KG.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -2743,7 +2743,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/KH.zip"
+        "registries/asia/country-archives/KH.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -2763,8 +2763,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/KI/index.json",
-        "oceania-registry/countries/KI/part-001.b64"
+        "registries/oceania/countries/KI/index.json",
+        "registries/oceania/countries/KI/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -2784,9 +2784,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/KM/admin1.csv",
-        "africa-registry/countries/KM/entities.csv.gz",
-        "africa-registry/countries/KM/metadata.json"
+        "registries/africa/countries/KM/admin1.csv",
+        "registries/africa/countries/KM/entities.csv.gz",
+        "registries/africa/countries/KM/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -2806,10 +2806,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/KN/admin1.csv",
-        "caribbean-registry/countries/KN/alternate-names.csv.gz",
-        "caribbean-registry/countries/KN/entities.csv.gz",
-        "caribbean-registry/countries/KN/metadata.json"
+        "registries/caribbean/countries/KN/admin1.csv",
+        "registries/caribbean/countries/KN/alternate-names.csv.gz",
+        "registries/caribbean/countries/KN/entities.csv.gz",
+        "registries/caribbean/countries/KN/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -2829,7 +2829,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/KP.zip",
+        "registries/asia/country-archives/KP.zip",
         "releases/hierarchy/east-asia/reports/KP.projection.json"
       ],
       "release_manifests": [],
@@ -2850,7 +2850,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/KR.zip",
+        "registries/asia/country-archives/KR.zip",
         "releases/hierarchy/east-asia/reports/KR.projection.json"
       ],
       "release_manifests": [],
@@ -2871,7 +2871,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/KW.zip"
+        "registries/asia/country-archives/KW.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -2891,10 +2891,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/KY/admin1.csv",
-        "caribbean-registry/countries/KY/alternate-names.csv.gz",
-        "caribbean-registry/countries/KY/entities.csv.gz",
-        "caribbean-registry/countries/KY/metadata.json"
+        "registries/caribbean/countries/KY/admin1.csv",
+        "registries/caribbean/countries/KY/alternate-names.csv.gz",
+        "registries/caribbean/countries/KY/entities.csv.gz",
+        "registries/caribbean/countries/KY/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -2914,7 +2914,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/KZ.zip"
+        "registries/asia/country-archives/KZ.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -2934,7 +2934,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/LA.zip"
+        "registries/asia/country-archives/LA.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -2954,7 +2954,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/LB.zip"
+        "registries/asia/country-archives/LB.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -2974,10 +2974,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/LC/admin1.csv",
-        "caribbean-registry/countries/LC/alternate-names.csv.gz",
-        "caribbean-registry/countries/LC/entities.csv.gz",
-        "caribbean-registry/countries/LC/metadata.json"
+        "registries/caribbean/countries/LC/admin1.csv",
+        "registries/caribbean/countries/LC/alternate-names.csv.gz",
+        "registries/caribbean/countries/LC/entities.csv.gz",
+        "registries/caribbean/countries/LC/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -2997,9 +2997,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/LI/admin1.csv",
-        "europe-registry/countries/LI/entities-0001.csv.gz",
-        "europe-registry/countries/LI/metadata.json"
+        "registries/europe/countries/LI/admin1.csv",
+        "registries/europe/countries/LI/entities-0001.csv.gz",
+        "registries/europe/countries/LI/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -3019,7 +3019,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/LK.zip"
+        "registries/asia/country-archives/LK.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -3039,9 +3039,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/LR/admin1.csv",
-        "africa-registry/countries/LR/entities.csv.gz",
-        "africa-registry/countries/LR/metadata.json"
+        "registries/africa/countries/LR/admin1.csv",
+        "registries/africa/countries/LR/entities.csv.gz",
+        "registries/africa/countries/LR/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -3061,9 +3061,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/LS/admin1.csv",
-        "africa-registry/countries/LS/entities.csv.gz",
-        "africa-registry/countries/LS/metadata.json"
+        "registries/africa/countries/LS/admin1.csv",
+        "registries/africa/countries/LS/entities.csv.gz",
+        "registries/africa/countries/LS/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -3083,13 +3083,13 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/LT/admin1.csv",
-        "europe-registry/countries/LT/entities-0001.csv.gz",
-        "europe-registry/countries/LT/entities-0002.csv.gz",
-        "europe-registry/countries/LT/metadata.json",
-        "europe-registry/eurostat-lau/LT/metadata.json",
-        "europe-registry/eurostat-lau/LT/statistical_regions.csv",
-        "europe-registry/eurostat-lau/LT/units.csv.gz"
+        "registries/europe/countries/LT/admin1.csv",
+        "registries/europe/countries/LT/entities-0001.csv.gz",
+        "registries/europe/countries/LT/entities-0002.csv.gz",
+        "registries/europe/countries/LT/metadata.json",
+        "registries/europe/eurostat-lau/LT/metadata.json",
+        "registries/europe/eurostat-lau/LT/statistical_regions.csv",
+        "registries/europe/eurostat-lau/LT/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -3109,12 +3109,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/LU/admin1.csv",
-        "europe-registry/countries/LU/entities-0001.csv.gz",
-        "europe-registry/countries/LU/metadata.json",
-        "europe-registry/eurostat-lau/LU/metadata.json",
-        "europe-registry/eurostat-lau/LU/statistical_regions.csv",
-        "europe-registry/eurostat-lau/LU/units.csv.gz"
+        "registries/europe/countries/LU/admin1.csv",
+        "registries/europe/countries/LU/entities-0001.csv.gz",
+        "registries/europe/countries/LU/metadata.json",
+        "registries/europe/eurostat-lau/LU/metadata.json",
+        "registries/europe/eurostat-lau/LU/statistical_regions.csv",
+        "registries/europe/eurostat-lau/LU/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -3134,12 +3134,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/LV/admin1.csv",
-        "europe-registry/countries/LV/entities-0001.csv.gz",
-        "europe-registry/countries/LV/metadata.json",
-        "europe-registry/eurostat-lau/LV/metadata.json",
-        "europe-registry/eurostat-lau/LV/statistical_regions.csv",
-        "europe-registry/eurostat-lau/LV/units.csv.gz"
+        "registries/europe/countries/LV/admin1.csv",
+        "registries/europe/countries/LV/entities-0001.csv.gz",
+        "registries/europe/countries/LV/metadata.json",
+        "registries/europe/eurostat-lau/LV/metadata.json",
+        "registries/europe/eurostat-lau/LV/statistical_regions.csv",
+        "registries/europe/eurostat-lau/LV/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -3159,9 +3159,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/LY/admin1.csv",
-        "africa-registry/countries/LY/entities.csv.gz",
-        "africa-registry/countries/LY/metadata.json"
+        "registries/africa/countries/LY/admin1.csv",
+        "registries/africa/countries/LY/entities.csv.gz",
+        "registries/africa/countries/LY/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -3199,9 +3199,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/MC/admin1.csv",
-        "europe-registry/countries/MC/entities-0001.csv.gz",
-        "europe-registry/countries/MC/metadata.json"
+        "registries/europe/countries/MC/admin1.csv",
+        "registries/europe/countries/MC/entities-0001.csv.gz",
+        "registries/europe/countries/MC/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -3221,9 +3221,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/MD/admin1.csv",
-        "europe-registry/countries/MD/entities-0001.csv.gz",
-        "europe-registry/countries/MD/metadata.json"
+        "registries/europe/countries/MD/admin1.csv",
+        "registries/europe/countries/MD/entities-0001.csv.gz",
+        "registries/europe/countries/MD/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -3243,9 +3243,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/ME/admin1.csv",
-        "europe-registry/countries/ME/entities-0001.csv.gz",
-        "europe-registry/countries/ME/metadata.json"
+        "registries/europe/countries/ME/admin1.csv",
+        "registries/europe/countries/ME/entities-0001.csv.gz",
+        "registries/europe/countries/ME/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -3265,11 +3265,11 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/MF/admin1.csv",
-        "caribbean-registry/countries/MF/alternate-names.csv.gz",
-        "caribbean-registry/countries/MF/entities.csv.gz",
-        "caribbean-registry/countries/MF/metadata.json",
-        "caribbean-registry/countries/MF/postal-links.csv.gz"
+        "registries/caribbean/countries/MF/admin1.csv",
+        "registries/caribbean/countries/MF/alternate-names.csv.gz",
+        "registries/caribbean/countries/MF/entities.csv.gz",
+        "registries/caribbean/countries/MF/metadata.json",
+        "registries/caribbean/countries/MF/postal-links.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -3307,8 +3307,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/MH/index.json",
-        "oceania-registry/countries/MH/part-001.b64"
+        "registries/oceania/countries/MH/index.json",
+        "registries/oceania/countries/MH/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -3328,12 +3328,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/MK/admin1.csv",
-        "europe-registry/countries/MK/entities-0001.csv.gz",
-        "europe-registry/countries/MK/metadata.json",
-        "europe-registry/eurostat-lau/MK/metadata.json",
-        "europe-registry/eurostat-lau/MK/statistical_regions.csv",
-        "europe-registry/eurostat-lau/MK/units.csv.gz"
+        "registries/europe/countries/MK/admin1.csv",
+        "registries/europe/countries/MK/entities-0001.csv.gz",
+        "registries/europe/countries/MK/metadata.json",
+        "registries/europe/eurostat-lau/MK/metadata.json",
+        "registries/europe/eurostat-lau/MK/statistical_regions.csv",
+        "registries/europe/eurostat-lau/MK/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -3353,9 +3353,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/ML/admin1.csv",
-        "africa-registry/countries/ML/entities.csv.gz",
-        "africa-registry/countries/ML/metadata.json"
+        "registries/africa/countries/ML/admin1.csv",
+        "registries/africa/countries/ML/entities.csv.gz",
+        "registries/africa/countries/ML/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -3375,7 +3375,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/MM.zip"
+        "registries/asia/country-archives/MM.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -3395,7 +3395,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/MN.zip",
+        "registries/asia/country-archives/MN.zip",
         "releases/hierarchy/east-asia/reports/MN.projection.json"
       ],
       "release_manifests": [],
@@ -3416,7 +3416,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/MO.zip",
+        "registries/asia/country-archives/MO.zip",
         "releases/hierarchy/east-asia/reports/MO.projection.json"
       ],
       "release_manifests": [],
@@ -3437,8 +3437,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/MP/index.json",
-        "oceania-registry/countries/MP/part-001.b64"
+        "registries/oceania/countries/MP/index.json",
+        "registries/oceania/countries/MP/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -3458,11 +3458,11 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/MQ/admin1.csv",
-        "caribbean-registry/countries/MQ/alternate-names.csv.gz",
-        "caribbean-registry/countries/MQ/entities.csv.gz",
-        "caribbean-registry/countries/MQ/metadata.json",
-        "caribbean-registry/countries/MQ/postal-links.csv.gz"
+        "registries/caribbean/countries/MQ/admin1.csv",
+        "registries/caribbean/countries/MQ/alternate-names.csv.gz",
+        "registries/caribbean/countries/MQ/entities.csv.gz",
+        "registries/caribbean/countries/MQ/metadata.json",
+        "registries/caribbean/countries/MQ/postal-links.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -3482,9 +3482,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/MR/admin1.csv",
-        "africa-registry/countries/MR/entities.csv.gz",
-        "africa-registry/countries/MR/metadata.json"
+        "registries/africa/countries/MR/admin1.csv",
+        "registries/africa/countries/MR/entities.csv.gz",
+        "registries/africa/countries/MR/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -3504,10 +3504,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/MS/admin1.csv",
-        "caribbean-registry/countries/MS/alternate-names.csv.gz",
-        "caribbean-registry/countries/MS/entities.csv.gz",
-        "caribbean-registry/countries/MS/metadata.json"
+        "registries/caribbean/countries/MS/admin1.csv",
+        "registries/caribbean/countries/MS/alternate-names.csv.gz",
+        "registries/caribbean/countries/MS/entities.csv.gz",
+        "registries/caribbean/countries/MS/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -3527,12 +3527,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/MT/admin1.csv",
-        "europe-registry/countries/MT/entities-0001.csv.gz",
-        "europe-registry/countries/MT/metadata.json",
-        "europe-registry/eurostat-lau/MT/metadata.json",
-        "europe-registry/eurostat-lau/MT/statistical_regions.csv",
-        "europe-registry/eurostat-lau/MT/units.csv.gz"
+        "registries/europe/countries/MT/admin1.csv",
+        "registries/europe/countries/MT/entities-0001.csv.gz",
+        "registries/europe/countries/MT/metadata.json",
+        "registries/europe/eurostat-lau/MT/metadata.json",
+        "registries/europe/eurostat-lau/MT/statistical_regions.csv",
+        "registries/europe/eurostat-lau/MT/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -3552,9 +3552,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/MU/admin1.csv",
-        "africa-registry/countries/MU/entities.csv.gz",
-        "africa-registry/countries/MU/metadata.json"
+        "registries/africa/countries/MU/admin1.csv",
+        "registries/africa/countries/MU/entities.csv.gz",
+        "registries/africa/countries/MU/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -3574,7 +3574,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/MV.zip"
+        "registries/asia/country-archives/MV.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -3594,9 +3594,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/MW/admin1.csv",
-        "africa-registry/countries/MW/entities.csv.gz",
-        "africa-registry/countries/MW/metadata.json"
+        "registries/africa/countries/MW/admin1.csv",
+        "registries/africa/countries/MW/entities.csv.gz",
+        "registries/africa/countries/MW/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -3616,43 +3616,43 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "official-registry/MX/MX-AGU.csv",
-        "official-registry/MX/MX-BCN.csv",
-        "official-registry/MX/MX-BCS.csv",
-        "official-registry/MX/MX-CAM.csv",
-        "official-registry/MX/MX-CHH.csv",
-        "official-registry/MX/MX-CHP.csv",
-        "official-registry/MX/MX-CMX.csv",
-        "official-registry/MX/MX-COA.csv",
-        "official-registry/MX/MX-COL.csv",
-        "official-registry/MX/MX-DUR.csv",
-        "official-registry/MX/MX-GRO.csv",
-        "official-registry/MX/MX-GUA.csv",
-        "official-registry/MX/MX-HID.csv",
-        "official-registry/MX/MX-JAL.csv",
-        "official-registry/MX/MX-MEX.csv",
-        "official-registry/MX/MX-MIC.csv",
-        "official-registry/MX/MX-MOR.csv",
-        "official-registry/MX/MX-NAY.csv",
-        "official-registry/MX/MX-NLE.csv",
-        "official-registry/MX/MX-OAX.csv",
-        "official-registry/MX/MX-PUE.csv",
-        "official-registry/MX/MX-QUE.csv",
-        "official-registry/MX/MX-ROO.csv",
-        "official-registry/MX/MX-SIN.csv",
-        "official-registry/MX/MX-SLP.csv",
-        "official-registry/MX/MX-SON.csv",
-        "official-registry/MX/MX-TAB.csv",
-        "official-registry/MX/MX-TAM.csv",
-        "official-registry/MX/MX-TLA.csv",
-        "official-registry/MX/MX-VER.csv",
-        "official-registry/MX/MX-YUC.csv",
-        "official-registry/MX/MX-ZAC.csv",
-        "official-registry/MX/anchors.csv",
-        "official-registry/MX/index.json",
-        "official-registry/MX/manifest.json",
-        "official-registry/MX/unmatched-source-rows.json",
-        "official-registry/americas-provenance/registry/countries/MX.json"
+        "registries/official/MX/MX-AGU.csv",
+        "registries/official/MX/MX-BCN.csv",
+        "registries/official/MX/MX-BCS.csv",
+        "registries/official/MX/MX-CAM.csv",
+        "registries/official/MX/MX-CHH.csv",
+        "registries/official/MX/MX-CHP.csv",
+        "registries/official/MX/MX-CMX.csv",
+        "registries/official/MX/MX-COA.csv",
+        "registries/official/MX/MX-COL.csv",
+        "registries/official/MX/MX-DUR.csv",
+        "registries/official/MX/MX-GRO.csv",
+        "registries/official/MX/MX-GUA.csv",
+        "registries/official/MX/MX-HID.csv",
+        "registries/official/MX/MX-JAL.csv",
+        "registries/official/MX/MX-MEX.csv",
+        "registries/official/MX/MX-MIC.csv",
+        "registries/official/MX/MX-MOR.csv",
+        "registries/official/MX/MX-NAY.csv",
+        "registries/official/MX/MX-NLE.csv",
+        "registries/official/MX/MX-OAX.csv",
+        "registries/official/MX/MX-PUE.csv",
+        "registries/official/MX/MX-QUE.csv",
+        "registries/official/MX/MX-ROO.csv",
+        "registries/official/MX/MX-SIN.csv",
+        "registries/official/MX/MX-SLP.csv",
+        "registries/official/MX/MX-SON.csv",
+        "registries/official/MX/MX-TAB.csv",
+        "registries/official/MX/MX-TAM.csv",
+        "registries/official/MX/MX-TLA.csv",
+        "registries/official/MX/MX-VER.csv",
+        "registries/official/MX/MX-YUC.csv",
+        "registries/official/MX/MX-ZAC.csv",
+        "registries/official/MX/anchors.csv",
+        "registries/official/MX/index.json",
+        "registries/official/MX/manifest.json",
+        "registries/official/MX/unmatched-source-rows.json",
+        "registries/official/americas-provenance/registry/countries/MX.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -3672,7 +3672,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/MY.zip"
+        "registries/asia/country-archives/MY.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -3692,9 +3692,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/MZ/admin1.csv",
-        "africa-registry/countries/MZ/entities.csv.gz",
-        "africa-registry/countries/MZ/metadata.json"
+        "registries/africa/countries/MZ/admin1.csv",
+        "registries/africa/countries/MZ/entities.csv.gz",
+        "registries/africa/countries/MZ/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -3714,9 +3714,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/NA/admin1.csv",
-        "africa-registry/countries/NA/entities.csv.gz",
-        "africa-registry/countries/NA/metadata.json"
+        "registries/africa/countries/NA/admin1.csv",
+        "registries/africa/countries/NA/entities.csv.gz",
+        "registries/africa/countries/NA/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -3736,8 +3736,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/NC/index.json",
-        "oceania-registry/countries/NC/part-001.b64"
+        "registries/oceania/countries/NC/index.json",
+        "registries/oceania/countries/NC/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -3757,9 +3757,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/NE/admin1.csv",
-        "africa-registry/countries/NE/entities.csv.gz",
-        "africa-registry/countries/NE/metadata.json"
+        "registries/africa/countries/NE/admin1.csv",
+        "registries/africa/countries/NE/entities.csv.gz",
+        "registries/africa/countries/NE/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -3779,8 +3779,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/NF/index.json",
-        "oceania-registry/countries/NF/part-001.b64"
+        "registries/oceania/countries/NF/index.json",
+        "registries/oceania/countries/NF/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -3818,15 +3818,15 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "central-america-registry/countries/NI/admin1.csv",
-        "central-america-registry/countries/NI/entities.csv.gz",
-        "central-america-registry/countries/NI/locale_metadata.json",
-        "central-america-registry/countries/NI/metadata.json",
-        "central-america-registry/countries/NI/names.csv.gz",
-        "central-america-registry/countries/NI/postal_links.csv.gz",
-        "central-america-registry/sources/NI.zip",
-        "central-america-registry/sources/alternatenames/NI.json",
-        "central-america-registry/sources/alternatenames/NI.zip"
+        "registries/central-america/countries/NI/admin1.csv",
+        "registries/central-america/countries/NI/entities.csv.gz",
+        "registries/central-america/countries/NI/locale_metadata.json",
+        "registries/central-america/countries/NI/metadata.json",
+        "registries/central-america/countries/NI/names.csv.gz",
+        "registries/central-america/countries/NI/postal_links.csv.gz",
+        "registries/central-america/sources/NI.zip",
+        "registries/central-america/sources/alternatenames/NI.json",
+        "registries/central-america/sources/alternatenames/NI.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -3846,12 +3846,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/NL/admin1.csv",
-        "europe-registry/countries/NL/entities-0001.csv.gz",
-        "europe-registry/countries/NL/metadata.json",
-        "europe-registry/eurostat-lau/NL/metadata.json",
-        "europe-registry/eurostat-lau/NL/statistical_regions.csv",
-        "europe-registry/eurostat-lau/NL/units.csv.gz"
+        "registries/europe/countries/NL/admin1.csv",
+        "registries/europe/countries/NL/entities-0001.csv.gz",
+        "registries/europe/countries/NL/metadata.json",
+        "registries/europe/eurostat-lau/NL/metadata.json",
+        "registries/europe/eurostat-lau/NL/statistical_regions.csv",
+        "registries/europe/eurostat-lau/NL/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -3871,12 +3871,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/NO/admin1.csv",
-        "europe-registry/countries/NO/entities-0001.csv.gz",
-        "europe-registry/countries/NO/metadata.json",
-        "europe-registry/eurostat-lau/NO/metadata.json",
-        "europe-registry/eurostat-lau/NO/statistical_regions.csv",
-        "europe-registry/eurostat-lau/NO/units.csv.gz"
+        "registries/europe/countries/NO/admin1.csv",
+        "registries/europe/countries/NO/entities-0001.csv.gz",
+        "registries/europe/countries/NO/metadata.json",
+        "registries/europe/eurostat-lau/NO/metadata.json",
+        "registries/europe/eurostat-lau/NO/statistical_regions.csv",
+        "registries/europe/eurostat-lau/NO/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -3896,7 +3896,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/NP.zip"
+        "registries/asia/country-archives/NP.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -3916,8 +3916,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/NR/index.json",
-        "oceania-registry/countries/NR/part-001.b64"
+        "registries/oceania/countries/NR/index.json",
+        "registries/oceania/countries/NR/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -3937,8 +3937,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/NU/index.json",
-        "oceania-registry/countries/NU/part-001.b64"
+        "registries/oceania/countries/NU/index.json",
+        "registries/oceania/countries/NU/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -3958,12 +3958,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/NZ/index.json",
-        "oceania-registry/countries/NZ/part-001.b64",
-        "oceania-registry/countries/NZ/part-002.b64",
-        "oceania-registry/countries/NZ/part-003.b64",
-        "oceania-registry/countries/NZ/part-004.b64",
-        "oceania-registry/countries/NZ/part-005.b64"
+        "registries/oceania/countries/NZ/index.json",
+        "registries/oceania/countries/NZ/part-001.b64",
+        "registries/oceania/countries/NZ/part-002.b64",
+        "registries/oceania/countries/NZ/part-003.b64",
+        "registries/oceania/countries/NZ/part-004.b64",
+        "registries/oceania/countries/NZ/part-005.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -3983,7 +3983,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/OM.zip"
+        "registries/asia/country-archives/OM.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -4003,16 +4003,16 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "central-america-registry/.parts/PA/sources/PA.zip/part-0001.bin",
-        "central-america-registry/.parts/PA/sources/PA.zip/part-0002.bin",
-        "central-america-registry/countries/PA/admin1.csv",
-        "central-america-registry/countries/PA/entities.csv.gz",
-        "central-america-registry/countries/PA/locale_metadata.json",
-        "central-america-registry/countries/PA/metadata.json",
-        "central-america-registry/countries/PA/names.csv.gz",
-        "central-america-registry/countries/PA/postal_links.csv.gz",
-        "central-america-registry/sources/alternatenames/PA.json",
-        "central-america-registry/sources/alternatenames/PA.zip"
+        "registries/central-america/.parts/PA/sources/PA.zip/part-0001.bin",
+        "registries/central-america/.parts/PA/sources/PA.zip/part-0002.bin",
+        "registries/central-america/countries/PA/admin1.csv",
+        "registries/central-america/countries/PA/entities.csv.gz",
+        "registries/central-america/countries/PA/locale_metadata.json",
+        "registries/central-america/countries/PA/metadata.json",
+        "registries/central-america/countries/PA/names.csv.gz",
+        "registries/central-america/countries/PA/postal_links.csv.gz",
+        "registries/central-america/sources/alternatenames/PA.json",
+        "registries/central-america/sources/alternatenames/PA.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -4032,13 +4032,13 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "south-america-registry/.parts/countries/PE/entities.csv.gz/part-0001.bin",
-        "south-america-registry/.parts/countries/PE/entities.csv.gz/part-0002.bin",
-        "south-america-registry/.parts/countries/PE/entities.csv.gz/part-0003.bin",
-        "south-america-registry/.parts/countries/PE/entities.csv.gz/part-0004.bin",
-        "south-america-registry/countries/PE/admin1.csv",
-        "south-america-registry/countries/PE/alternate-values.csv.gz",
-        "south-america-registry/countries/PE/metadata.json"
+        "registries/south-america/.parts/countries/PE/entities.csv.gz/part-0001.bin",
+        "registries/south-america/.parts/countries/PE/entities.csv.gz/part-0002.bin",
+        "registries/south-america/.parts/countries/PE/entities.csv.gz/part-0003.bin",
+        "registries/south-america/.parts/countries/PE/entities.csv.gz/part-0004.bin",
+        "registries/south-america/countries/PE/admin1.csv",
+        "registries/south-america/countries/PE/alternate-values.csv.gz",
+        "registries/south-america/countries/PE/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4058,8 +4058,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/PF/index.json",
-        "oceania-registry/countries/PF/part-001.b64"
+        "registries/oceania/countries/PF/index.json",
+        "registries/oceania/countries/PF/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -4079,11 +4079,11 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/PG/index.json",
-        "oceania-registry/countries/PG/part-001.b64",
-        "oceania-registry/countries/PG/part-002.b64",
-        "oceania-registry/countries/PG/part-003.b64",
-        "oceania-registry/countries/PG/part-004.b64"
+        "registries/oceania/countries/PG/index.json",
+        "registries/oceania/countries/PG/part-001.b64",
+        "registries/oceania/countries/PG/part-002.b64",
+        "registries/oceania/countries/PG/part-003.b64",
+        "registries/oceania/countries/PG/part-004.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -4103,7 +4103,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/PH.zip"
+        "registries/asia/country-archives/PH.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -4123,7 +4123,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/PK.zip"
+        "registries/asia/country-archives/PK.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -4143,14 +4143,14 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/PL/admin1.csv",
-        "europe-registry/countries/PL/entities-0001.csv.gz",
-        "europe-registry/countries/PL/entities-0002.csv.gz",
-        "europe-registry/countries/PL/entities-0003.csv.gz",
-        "europe-registry/countries/PL/metadata.json",
-        "europe-registry/eurostat-lau/PL/metadata.json",
-        "europe-registry/eurostat-lau/PL/statistical_regions.csv",
-        "europe-registry/eurostat-lau/PL/units.csv.gz"
+        "registries/europe/countries/PL/admin1.csv",
+        "registries/europe/countries/PL/entities-0001.csv.gz",
+        "registries/europe/countries/PL/entities-0002.csv.gz",
+        "registries/europe/countries/PL/entities-0003.csv.gz",
+        "registries/europe/countries/PL/metadata.json",
+        "registries/europe/eurostat-lau/PL/metadata.json",
+        "registries/europe/eurostat-lau/PL/statistical_regions.csv",
+        "registries/europe/eurostat-lau/PL/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -4188,8 +4188,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/PN/index.json",
-        "oceania-registry/countries/PN/part-001.b64"
+        "registries/oceania/countries/PN/index.json",
+        "registries/oceania/countries/PN/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -4209,11 +4209,11 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/PR/admin1.csv",
-        "caribbean-registry/countries/PR/alternate-names.csv.gz",
-        "caribbean-registry/countries/PR/entities.csv.gz",
-        "caribbean-registry/countries/PR/metadata.json",
-        "caribbean-registry/countries/PR/postal-links.csv.gz"
+        "registries/caribbean/countries/PR/admin1.csv",
+        "registries/caribbean/countries/PR/alternate-names.csv.gz",
+        "registries/caribbean/countries/PR/entities.csv.gz",
+        "registries/caribbean/countries/PR/metadata.json",
+        "registries/caribbean/countries/PR/postal-links.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -4233,7 +4233,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/PS.zip"
+        "registries/asia/country-archives/PS.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -4253,13 +4253,13 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/PT/admin1.csv",
-        "europe-registry/countries/PT/entities-0001.csv.gz",
-        "europe-registry/countries/PT/entities-0002.csv.gz",
-        "europe-registry/countries/PT/metadata.json",
-        "europe-registry/eurostat-lau/PT/metadata.json",
-        "europe-registry/eurostat-lau/PT/statistical_regions.csv",
-        "europe-registry/eurostat-lau/PT/units.csv.gz"
+        "registries/europe/countries/PT/admin1.csv",
+        "registries/europe/countries/PT/entities-0001.csv.gz",
+        "registries/europe/countries/PT/entities-0002.csv.gz",
+        "registries/europe/countries/PT/metadata.json",
+        "registries/europe/eurostat-lau/PT/metadata.json",
+        "registries/europe/eurostat-lau/PT/statistical_regions.csv",
+        "registries/europe/eurostat-lau/PT/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -4279,8 +4279,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/PW/index.json",
-        "oceania-registry/countries/PW/part-001.b64"
+        "registries/oceania/countries/PW/index.json",
+        "registries/oceania/countries/PW/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -4300,12 +4300,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "south-america-registry/.parts/countries/PY/entities.csv.gz/part-0001.bin",
-        "south-america-registry/.parts/countries/PY/entities.csv.gz/part-0002.bin",
-        "south-america-registry/countries/PY/admin1.csv",
-        "south-america-registry/countries/PY/alternate-values.csv.gz",
-        "south-america-registry/countries/PY/metadata.json",
-        "south-america-registry/sources/PY-alternatenames.zip"
+        "registries/south-america/.parts/countries/PY/entities.csv.gz/part-0001.bin",
+        "registries/south-america/.parts/countries/PY/entities.csv.gz/part-0002.bin",
+        "registries/south-america/countries/PY/admin1.csv",
+        "registries/south-america/countries/PY/alternate-values.csv.gz",
+        "registries/south-america/countries/PY/metadata.json",
+        "registries/south-america/sources/PY-alternatenames.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -4325,7 +4325,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/QA.zip"
+        "registries/asia/country-archives/QA.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -4345,9 +4345,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/RE/admin1.csv",
-        "africa-registry/countries/RE/entities.csv.gz",
-        "africa-registry/countries/RE/metadata.json"
+        "registries/africa/countries/RE/admin1.csv",
+        "registries/africa/countries/RE/entities.csv.gz",
+        "registries/africa/countries/RE/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4367,13 +4367,13 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/RO/admin1.csv",
-        "europe-registry/countries/RO/entities-0001.csv.gz",
-        "europe-registry/countries/RO/entities-0002.csv.gz",
-        "europe-registry/countries/RO/metadata.json",
-        "europe-registry/eurostat-lau/RO/metadata.json",
-        "europe-registry/eurostat-lau/RO/statistical_regions.csv",
-        "europe-registry/eurostat-lau/RO/units.csv.gz"
+        "registries/europe/countries/RO/admin1.csv",
+        "registries/europe/countries/RO/entities-0001.csv.gz",
+        "registries/europe/countries/RO/entities-0002.csv.gz",
+        "registries/europe/countries/RO/metadata.json",
+        "registries/europe/eurostat-lau/RO/metadata.json",
+        "registries/europe/eurostat-lau/RO/statistical_regions.csv",
+        "registries/europe/eurostat-lau/RO/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -4393,12 +4393,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/RS/admin1.csv",
-        "europe-registry/countries/RS/entities-0001.csv.gz",
-        "europe-registry/countries/RS/metadata.json",
-        "europe-registry/eurostat-lau/RS/metadata.json",
-        "europe-registry/eurostat-lau/RS/statistical_regions.csv",
-        "europe-registry/eurostat-lau/RS/units.csv.gz"
+        "registries/europe/countries/RS/admin1.csv",
+        "registries/europe/countries/RS/entities-0001.csv.gz",
+        "registries/europe/countries/RS/metadata.json",
+        "registries/europe/eurostat-lau/RS/metadata.json",
+        "registries/europe/eurostat-lau/RS/statistical_regions.csv",
+        "registries/europe/eurostat-lau/RS/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -4418,21 +4418,21 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/RU.zip.part001",
-        "asia-registry/country-archives/RU.zip.part002",
-        "europe-registry/countries/RU/admin1.csv",
-        "europe-registry/countries/RU/entities-0001.csv.gz",
-        "europe-registry/countries/RU/entities-0002.csv.gz",
-        "europe-registry/countries/RU/entities-0003.csv.gz",
-        "europe-registry/countries/RU/entities-0004.csv.gz",
-        "europe-registry/countries/RU/entities-0005.csv.gz",
-        "europe-registry/countries/RU/entities-0006.csv.gz",
-        "europe-registry/countries/RU/entities-0007.csv.gz",
-        "europe-registry/countries/RU/entities-0008.csv.gz",
-        "europe-registry/countries/RU/entities-0009.csv.gz",
-        "europe-registry/countries/RU/entities-0010.csv.gz",
-        "europe-registry/countries/RU/entities-0011.csv.gz",
-        "europe-registry/countries/RU/metadata.json"
+        "registries/asia/country-archives/RU.zip.part001",
+        "registries/asia/country-archives/RU.zip.part002",
+        "registries/europe/countries/RU/admin1.csv",
+        "registries/europe/countries/RU/entities-0001.csv.gz",
+        "registries/europe/countries/RU/entities-0002.csv.gz",
+        "registries/europe/countries/RU/entities-0003.csv.gz",
+        "registries/europe/countries/RU/entities-0004.csv.gz",
+        "registries/europe/countries/RU/entities-0005.csv.gz",
+        "registries/europe/countries/RU/entities-0006.csv.gz",
+        "registries/europe/countries/RU/entities-0007.csv.gz",
+        "registries/europe/countries/RU/entities-0008.csv.gz",
+        "registries/europe/countries/RU/entities-0009.csv.gz",
+        "registries/europe/countries/RU/entities-0010.csv.gz",
+        "registries/europe/countries/RU/entities-0011.csv.gz",
+        "registries/europe/countries/RU/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4452,9 +4452,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/RW/admin1.csv",
-        "africa-registry/countries/RW/entities.csv.gz",
-        "africa-registry/countries/RW/metadata.json"
+        "registries/africa/countries/RW/admin1.csv",
+        "registries/africa/countries/RW/entities.csv.gz",
+        "registries/africa/countries/RW/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4474,7 +4474,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/SA.zip"
+        "registries/asia/country-archives/SA.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -4494,9 +4494,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/SB/index.json",
-        "oceania-registry/countries/SB/part-001.b64",
-        "oceania-registry/countries/SB/part-002.b64"
+        "registries/oceania/countries/SB/index.json",
+        "registries/oceania/countries/SB/part-001.b64",
+        "registries/oceania/countries/SB/part-002.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -4516,9 +4516,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/SC/admin1.csv",
-        "africa-registry/countries/SC/entities.csv.gz",
-        "africa-registry/countries/SC/metadata.json"
+        "registries/africa/countries/SC/admin1.csv",
+        "registries/africa/countries/SC/entities.csv.gz",
+        "registries/africa/countries/SC/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4538,9 +4538,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/SD/admin1.csv",
-        "africa-registry/countries/SD/entities.csv.gz",
-        "africa-registry/countries/SD/metadata.json"
+        "registries/africa/countries/SD/admin1.csv",
+        "registries/africa/countries/SD/entities.csv.gz",
+        "registries/africa/countries/SD/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4560,13 +4560,13 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/SE/admin1.csv",
-        "europe-registry/countries/SE/entities-0001.csv.gz",
-        "europe-registry/countries/SE/entities-0002.csv.gz",
-        "europe-registry/countries/SE/metadata.json",
-        "europe-registry/eurostat-lau/SE/metadata.json",
-        "europe-registry/eurostat-lau/SE/statistical_regions.csv",
-        "europe-registry/eurostat-lau/SE/units.csv.gz"
+        "registries/europe/countries/SE/admin1.csv",
+        "registries/europe/countries/SE/entities-0001.csv.gz",
+        "registries/europe/countries/SE/entities-0002.csv.gz",
+        "registries/europe/countries/SE/metadata.json",
+        "registries/europe/eurostat-lau/SE/metadata.json",
+        "registries/europe/eurostat-lau/SE/statistical_regions.csv",
+        "registries/europe/eurostat-lau/SE/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -4586,7 +4586,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/SG.zip"
+        "registries/asia/country-archives/SG.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -4606,9 +4606,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/SH/admin1.csv",
-        "africa-registry/countries/SH/entities.csv.gz",
-        "africa-registry/countries/SH/metadata.json"
+        "registries/africa/countries/SH/admin1.csv",
+        "registries/africa/countries/SH/entities.csv.gz",
+        "registries/africa/countries/SH/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4628,12 +4628,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/SI/admin1.csv",
-        "europe-registry/countries/SI/entities-0001.csv.gz",
-        "europe-registry/countries/SI/metadata.json",
-        "europe-registry/eurostat-lau/SI/metadata.json",
-        "europe-registry/eurostat-lau/SI/statistical_regions.csv",
-        "europe-registry/eurostat-lau/SI/units.csv.gz"
+        "registries/europe/countries/SI/admin1.csv",
+        "registries/europe/countries/SI/entities-0001.csv.gz",
+        "registries/europe/countries/SI/metadata.json",
+        "registries/europe/eurostat-lau/SI/metadata.json",
+        "registries/europe/eurostat-lau/SI/statistical_regions.csv",
+        "registries/europe/eurostat-lau/SI/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -4653,9 +4653,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/SJ/admin1.csv",
-        "europe-registry/countries/SJ/entities-0001.csv.gz",
-        "europe-registry/countries/SJ/metadata.json"
+        "registries/europe/countries/SJ/admin1.csv",
+        "registries/europe/countries/SJ/entities-0001.csv.gz",
+        "registries/europe/countries/SJ/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4675,12 +4675,12 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/SK/admin1.csv",
-        "europe-registry/countries/SK/entities-0001.csv.gz",
-        "europe-registry/countries/SK/metadata.json",
-        "europe-registry/eurostat-lau/SK/metadata.json",
-        "europe-registry/eurostat-lau/SK/statistical_regions.csv",
-        "europe-registry/eurostat-lau/SK/units.csv.gz"
+        "registries/europe/countries/SK/admin1.csv",
+        "registries/europe/countries/SK/entities-0001.csv.gz",
+        "registries/europe/countries/SK/metadata.json",
+        "registries/europe/eurostat-lau/SK/metadata.json",
+        "registries/europe/eurostat-lau/SK/statistical_regions.csv",
+        "registries/europe/eurostat-lau/SK/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -4700,9 +4700,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/SL/admin1.csv",
-        "africa-registry/countries/SL/entities.csv.gz",
-        "africa-registry/countries/SL/metadata.json"
+        "registries/africa/countries/SL/admin1.csv",
+        "registries/africa/countries/SL/entities.csv.gz",
+        "registries/africa/countries/SL/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4722,9 +4722,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/SM/admin1.csv",
-        "europe-registry/countries/SM/entities-0001.csv.gz",
-        "europe-registry/countries/SM/metadata.json"
+        "registries/europe/countries/SM/admin1.csv",
+        "registries/europe/countries/SM/entities-0001.csv.gz",
+        "registries/europe/countries/SM/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4744,9 +4744,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/SN/admin1.csv",
-        "africa-registry/countries/SN/entities.csv.gz",
-        "africa-registry/countries/SN/metadata.json"
+        "registries/africa/countries/SN/admin1.csv",
+        "registries/africa/countries/SN/entities.csv.gz",
+        "registries/africa/countries/SN/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4766,9 +4766,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/SO/admin1.csv",
-        "africa-registry/countries/SO/entities.csv.gz",
-        "africa-registry/countries/SO/metadata.json"
+        "registries/africa/countries/SO/admin1.csv",
+        "registries/africa/countries/SO/entities.csv.gz",
+        "registries/africa/countries/SO/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4788,10 +4788,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "south-america-registry/countries/SR/admin1.csv",
-        "south-america-registry/countries/SR/alternate-values.csv.gz",
-        "south-america-registry/countries/SR/entities.csv.gz",
-        "south-america-registry/countries/SR/metadata.json"
+        "registries/south-america/countries/SR/admin1.csv",
+        "registries/south-america/countries/SR/alternate-values.csv.gz",
+        "registries/south-america/countries/SR/entities.csv.gz",
+        "registries/south-america/countries/SR/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4811,9 +4811,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/SS/admin1.csv",
-        "africa-registry/countries/SS/entities.csv.gz",
-        "africa-registry/countries/SS/metadata.json"
+        "registries/africa/countries/SS/admin1.csv",
+        "registries/africa/countries/SS/entities.csv.gz",
+        "registries/africa/countries/SS/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4833,9 +4833,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/ST/admin1.csv",
-        "africa-registry/countries/ST/entities.csv.gz",
-        "africa-registry/countries/ST/metadata.json"
+        "registries/africa/countries/ST/admin1.csv",
+        "registries/africa/countries/ST/entities.csv.gz",
+        "registries/africa/countries/ST/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4855,15 +4855,15 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "central-america-registry/countries/SV/admin1.csv",
-        "central-america-registry/countries/SV/entities.csv.gz",
-        "central-america-registry/countries/SV/locale_metadata.json",
-        "central-america-registry/countries/SV/metadata.json",
-        "central-america-registry/countries/SV/names.csv.gz",
-        "central-america-registry/countries/SV/postal_links.csv.gz",
-        "central-america-registry/sources/SV.zip",
-        "central-america-registry/sources/alternatenames/SV.json",
-        "central-america-registry/sources/alternatenames/SV.zip"
+        "registries/central-america/countries/SV/admin1.csv",
+        "registries/central-america/countries/SV/entities.csv.gz",
+        "registries/central-america/countries/SV/locale_metadata.json",
+        "registries/central-america/countries/SV/metadata.json",
+        "registries/central-america/countries/SV/names.csv.gz",
+        "registries/central-america/countries/SV/postal_links.csv.gz",
+        "registries/central-america/sources/SV.zip",
+        "registries/central-america/sources/alternatenames/SV.json",
+        "registries/central-america/sources/alternatenames/SV.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -4883,10 +4883,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/SX/admin1.csv",
-        "caribbean-registry/countries/SX/alternate-names.csv.gz",
-        "caribbean-registry/countries/SX/entities.csv.gz",
-        "caribbean-registry/countries/SX/metadata.json"
+        "registries/caribbean/countries/SX/admin1.csv",
+        "registries/caribbean/countries/SX/alternate-names.csv.gz",
+        "registries/caribbean/countries/SX/entities.csv.gz",
+        "registries/caribbean/countries/SX/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4906,7 +4906,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/SY.zip"
+        "registries/asia/country-archives/SY.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -4926,9 +4926,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/SZ/admin1.csv",
-        "africa-registry/countries/SZ/entities.csv.gz",
-        "africa-registry/countries/SZ/metadata.json"
+        "registries/africa/countries/SZ/admin1.csv",
+        "registries/africa/countries/SZ/entities.csv.gz",
+        "registries/africa/countries/SZ/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4948,10 +4948,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/TC/admin1.csv",
-        "caribbean-registry/countries/TC/alternate-names.csv.gz",
-        "caribbean-registry/countries/TC/entities.csv.gz",
-        "caribbean-registry/countries/TC/metadata.json"
+        "registries/caribbean/countries/TC/admin1.csv",
+        "registries/caribbean/countries/TC/alternate-names.csv.gz",
+        "registries/caribbean/countries/TC/entities.csv.gz",
+        "registries/caribbean/countries/TC/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4971,9 +4971,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/TD/admin1.csv",
-        "africa-registry/countries/TD/entities.csv.gz",
-        "africa-registry/countries/TD/metadata.json"
+        "registries/africa/countries/TD/admin1.csv",
+        "registries/africa/countries/TD/entities.csv.gz",
+        "registries/africa/countries/TD/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -4993,9 +4993,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/TF/admin1.csv",
-        "africa-registry/countries/TF/entities.csv.gz",
-        "africa-registry/countries/TF/metadata.json"
+        "registries/africa/countries/TF/admin1.csv",
+        "registries/africa/countries/TF/entities.csv.gz",
+        "registries/africa/countries/TF/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5015,9 +5015,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/TG/admin1.csv",
-        "africa-registry/countries/TG/entities.csv.gz",
-        "africa-registry/countries/TG/metadata.json"
+        "registries/africa/countries/TG/admin1.csv",
+        "registries/africa/countries/TG/entities.csv.gz",
+        "registries/africa/countries/TG/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5037,7 +5037,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/TH.zip"
+        "registries/asia/country-archives/TH.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -5057,7 +5057,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/TJ.zip"
+        "registries/asia/country-archives/TJ.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -5077,8 +5077,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/TK/index.json",
-        "oceania-registry/countries/TK/part-001.b64"
+        "registries/oceania/countries/TK/index.json",
+        "registries/oceania/countries/TK/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -5098,7 +5098,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/TL.zip"
+        "registries/asia/country-archives/TL.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -5118,7 +5118,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/TM.zip"
+        "registries/asia/country-archives/TM.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -5138,9 +5138,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/TN/admin1.csv",
-        "africa-registry/countries/TN/entities.csv.gz",
-        "africa-registry/countries/TN/metadata.json"
+        "registries/africa/countries/TN/admin1.csv",
+        "registries/africa/countries/TN/entities.csv.gz",
+        "registries/africa/countries/TN/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5160,8 +5160,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/TO/index.json",
-        "oceania-registry/countries/TO/part-001.b64"
+        "registries/oceania/countries/TO/index.json",
+        "registries/oceania/countries/TO/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -5181,15 +5181,15 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/TR.zip",
-        "europe-registry/countries/TR/admin1.csv",
-        "europe-registry/countries/TR/entities-0001.csv.gz",
-        "europe-registry/countries/TR/entities-0002.csv.gz",
-        "europe-registry/countries/TR/entities-0003.csv.gz",
-        "europe-registry/countries/TR/metadata.json",
-        "europe-registry/eurostat-lau/TR/metadata.json",
-        "europe-registry/eurostat-lau/TR/statistical_regions.csv",
-        "europe-registry/eurostat-lau/TR/units.csv.gz"
+        "registries/asia/country-archives/TR.zip",
+        "registries/europe/countries/TR/admin1.csv",
+        "registries/europe/countries/TR/entities-0001.csv.gz",
+        "registries/europe/countries/TR/entities-0002.csv.gz",
+        "registries/europe/countries/TR/entities-0003.csv.gz",
+        "registries/europe/countries/TR/metadata.json",
+        "registries/europe/eurostat-lau/TR/metadata.json",
+        "registries/europe/eurostat-lau/TR/statistical_regions.csv",
+        "registries/europe/eurostat-lau/TR/units.csv.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -5209,10 +5209,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/TT/admin1.csv",
-        "caribbean-registry/countries/TT/alternate-names.csv.gz",
-        "caribbean-registry/countries/TT/entities.csv.gz",
-        "caribbean-registry/countries/TT/metadata.json"
+        "registries/caribbean/countries/TT/admin1.csv",
+        "registries/caribbean/countries/TT/alternate-names.csv.gz",
+        "registries/caribbean/countries/TT/entities.csv.gz",
+        "registries/caribbean/countries/TT/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5232,8 +5232,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/TV/index.json",
-        "oceania-registry/countries/TV/part-001.b64"
+        "registries/oceania/countries/TV/index.json",
+        "registries/oceania/countries/TV/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -5253,14 +5253,14 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/TW.zip",
-        "official-registry/TW/README.md",
-        "official-registry/TW/coverage.json",
-        "official-registry/TW/entities.csv",
-        "official-registry/TW/names.csv",
-        "official-registry/TW/postal_links.csv",
-        "official-registry/TW/sources.json",
-        "official-registry/TW/sources/names.xml",
+        "registries/asia/country-archives/TW.zip",
+        "registries/official/TW/README.md",
+        "registries/official/TW/coverage.json",
+        "registries/official/TW/entities.csv",
+        "registries/official/TW/names.csv",
+        "registries/official/TW/postal_links.csv",
+        "registries/official/TW/sources.json",
+        "registries/official/TW/sources/names.xml",
         "releases/hierarchy/east-asia/reports/TW.projection.json"
       ],
       "release_manifests": [],
@@ -5281,9 +5281,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/TZ/admin1.csv",
-        "africa-registry/countries/TZ/entities.csv.gz",
-        "africa-registry/countries/TZ/metadata.json"
+        "registries/africa/countries/TZ/admin1.csv",
+        "registries/africa/countries/TZ/entities.csv.gz",
+        "registries/africa/countries/TZ/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5303,10 +5303,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/UA/admin1.csv",
-        "europe-registry/countries/UA/entities-0001.csv.gz",
-        "europe-registry/countries/UA/entities-0002.csv.gz",
-        "europe-registry/countries/UA/metadata.json"
+        "registries/europe/countries/UA/admin1.csv",
+        "registries/europe/countries/UA/entities-0001.csv.gz",
+        "registries/europe/countries/UA/entities-0002.csv.gz",
+        "registries/europe/countries/UA/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5326,9 +5326,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/UG/admin1.csv",
-        "africa-registry/countries/UG/entities.csv.gz",
-        "africa-registry/countries/UG/metadata.json"
+        "registries/africa/countries/UG/admin1.csv",
+        "registries/africa/countries/UG/entities.csv.gz",
+        "registries/africa/countries/UG/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5348,8 +5348,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/UM/index.json",
-        "oceania-registry/countries/UM/part-001.b64"
+        "registries/oceania/countries/UM/index.json",
+        "registries/oceania/countries/UM/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -5369,63 +5369,63 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "official-registry/US/US-AK.csv",
-        "official-registry/US/US-AL.csv",
-        "official-registry/US/US-AR.csv",
-        "official-registry/US/US-AZ.csv",
-        "official-registry/US/US-CA.csv",
-        "official-registry/US/US-CO.csv",
-        "official-registry/US/US-CT.csv",
-        "official-registry/US/US-DC.csv",
-        "official-registry/US/US-DE.csv",
-        "official-registry/US/US-FL.csv",
-        "official-registry/US/US-GA.csv",
-        "official-registry/US/US-HI.csv",
-        "official-registry/US/US-IA.csv",
-        "official-registry/US/US-ID.csv",
-        "official-registry/US/US-IL.csv",
-        "official-registry/US/US-IN.csv",
-        "official-registry/US/US-KS.csv",
-        "official-registry/US/US-KY.csv",
-        "official-registry/US/US-LA.csv",
-        "official-registry/US/US-MA.csv",
-        "official-registry/US/US-MD.csv",
-        "official-registry/US/US-ME.csv",
-        "official-registry/US/US-MI.csv",
-        "official-registry/US/US-MN.csv",
-        "official-registry/US/US-MO.csv",
-        "official-registry/US/US-MS.csv",
-        "official-registry/US/US-MT.csv",
-        "official-registry/US/US-NC.csv",
-        "official-registry/US/US-ND.csv",
-        "official-registry/US/US-NE.csv",
-        "official-registry/US/US-NH.csv",
-        "official-registry/US/US-NJ.csv",
-        "official-registry/US/US-NM.csv",
-        "official-registry/US/US-NV.csv",
-        "official-registry/US/US-NY.csv",
-        "official-registry/US/US-OH.csv",
-        "official-registry/US/US-OK.csv",
-        "official-registry/US/US-OR.csv",
-        "official-registry/US/US-PA.csv",
-        "official-registry/US/US-PR.csv",
-        "official-registry/US/US-RI.csv",
-        "official-registry/US/US-SC.csv",
-        "official-registry/US/US-SD.csv",
-        "official-registry/US/US-TN.csv",
-        "official-registry/US/US-TX.csv",
-        "official-registry/US/US-UT.csv",
-        "official-registry/US/US-VA.csv",
-        "official-registry/US/US-VT.csv",
-        "official-registry/US/US-WA.csv",
-        "official-registry/US/US-WI.csv",
-        "official-registry/US/US-WV.csv",
-        "official-registry/US/US-WY.csv",
-        "official-registry/US/anchors.csv",
-        "official-registry/US/index.json",
-        "official-registry/US/manifest.json",
-        "official-registry/US/unmatched-source-rows.json",
-        "official-registry/americas-provenance/registry/countries/US.json"
+        "registries/official/US/US-AK.csv",
+        "registries/official/US/US-AL.csv",
+        "registries/official/US/US-AR.csv",
+        "registries/official/US/US-AZ.csv",
+        "registries/official/US/US-CA.csv",
+        "registries/official/US/US-CO.csv",
+        "registries/official/US/US-CT.csv",
+        "registries/official/US/US-DC.csv",
+        "registries/official/US/US-DE.csv",
+        "registries/official/US/US-FL.csv",
+        "registries/official/US/US-GA.csv",
+        "registries/official/US/US-HI.csv",
+        "registries/official/US/US-IA.csv",
+        "registries/official/US/US-ID.csv",
+        "registries/official/US/US-IL.csv",
+        "registries/official/US/US-IN.csv",
+        "registries/official/US/US-KS.csv",
+        "registries/official/US/US-KY.csv",
+        "registries/official/US/US-LA.csv",
+        "registries/official/US/US-MA.csv",
+        "registries/official/US/US-MD.csv",
+        "registries/official/US/US-ME.csv",
+        "registries/official/US/US-MI.csv",
+        "registries/official/US/US-MN.csv",
+        "registries/official/US/US-MO.csv",
+        "registries/official/US/US-MS.csv",
+        "registries/official/US/US-MT.csv",
+        "registries/official/US/US-NC.csv",
+        "registries/official/US/US-ND.csv",
+        "registries/official/US/US-NE.csv",
+        "registries/official/US/US-NH.csv",
+        "registries/official/US/US-NJ.csv",
+        "registries/official/US/US-NM.csv",
+        "registries/official/US/US-NV.csv",
+        "registries/official/US/US-NY.csv",
+        "registries/official/US/US-OH.csv",
+        "registries/official/US/US-OK.csv",
+        "registries/official/US/US-OR.csv",
+        "registries/official/US/US-PA.csv",
+        "registries/official/US/US-PR.csv",
+        "registries/official/US/US-RI.csv",
+        "registries/official/US/US-SC.csv",
+        "registries/official/US/US-SD.csv",
+        "registries/official/US/US-TN.csv",
+        "registries/official/US/US-TX.csv",
+        "registries/official/US/US-UT.csv",
+        "registries/official/US/US-VA.csv",
+        "registries/official/US/US-VT.csv",
+        "registries/official/US/US-WA.csv",
+        "registries/official/US/US-WI.csv",
+        "registries/official/US/US-WV.csv",
+        "registries/official/US/US-WY.csv",
+        "registries/official/US/anchors.csv",
+        "registries/official/US/index.json",
+        "registries/official/US/manifest.json",
+        "registries/official/US/unmatched-source-rows.json",
+        "registries/official/americas-provenance/registry/countries/US.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5445,10 +5445,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "south-america-registry/countries/UY/admin1.csv",
-        "south-america-registry/countries/UY/alternate-values.csv.gz",
-        "south-america-registry/countries/UY/entities.csv.gz",
-        "south-america-registry/countries/UY/metadata.json"
+        "registries/south-america/countries/UY/admin1.csv",
+        "registries/south-america/countries/UY/alternate-values.csv.gz",
+        "registries/south-america/countries/UY/entities.csv.gz",
+        "registries/south-america/countries/UY/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5468,7 +5468,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/UZ.zip"
+        "registries/asia/country-archives/UZ.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -5488,9 +5488,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/VA/admin1.csv",
-        "europe-registry/countries/VA/entities-0001.csv.gz",
-        "europe-registry/countries/VA/metadata.json"
+        "registries/europe/countries/VA/admin1.csv",
+        "registries/europe/countries/VA/entities-0001.csv.gz",
+        "registries/europe/countries/VA/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5510,10 +5510,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/VC/admin1.csv",
-        "caribbean-registry/countries/VC/alternate-names.csv.gz",
-        "caribbean-registry/countries/VC/entities.csv.gz",
-        "caribbean-registry/countries/VC/metadata.json"
+        "registries/caribbean/countries/VC/admin1.csv",
+        "registries/caribbean/countries/VC/alternate-names.csv.gz",
+        "registries/caribbean/countries/VC/entities.csv.gz",
+        "registries/caribbean/countries/VC/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5533,11 +5533,11 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "south-america-registry/.parts/countries/VE/entities.csv.gz/part-0001.bin",
-        "south-america-registry/.parts/countries/VE/entities.csv.gz/part-0002.bin",
-        "south-america-registry/countries/VE/admin1.csv",
-        "south-america-registry/countries/VE/alternate-values.csv.gz",
-        "south-america-registry/countries/VE/metadata.json"
+        "registries/south-america/.parts/countries/VE/entities.csv.gz/part-0001.bin",
+        "registries/south-america/.parts/countries/VE/entities.csv.gz/part-0002.bin",
+        "registries/south-america/countries/VE/admin1.csv",
+        "registries/south-america/countries/VE/alternate-values.csv.gz",
+        "registries/south-america/countries/VE/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5557,10 +5557,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/VG/admin1.csv",
-        "caribbean-registry/countries/VG/alternate-names.csv.gz",
-        "caribbean-registry/countries/VG/entities.csv.gz",
-        "caribbean-registry/countries/VG/metadata.json"
+        "registries/caribbean/countries/VG/admin1.csv",
+        "registries/caribbean/countries/VG/alternate-names.csv.gz",
+        "registries/caribbean/countries/VG/entities.csv.gz",
+        "registries/caribbean/countries/VG/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5580,10 +5580,10 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "caribbean-registry/countries/VI/admin1.csv",
-        "caribbean-registry/countries/VI/alternate-names.csv.gz",
-        "caribbean-registry/countries/VI/entities.csv.gz",
-        "caribbean-registry/countries/VI/metadata.json"
+        "registries/caribbean/countries/VI/admin1.csv",
+        "registries/caribbean/countries/VI/alternate-names.csv.gz",
+        "registries/caribbean/countries/VI/entities.csv.gz",
+        "registries/caribbean/countries/VI/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5603,7 +5603,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/VN.zip"
+        "registries/asia/country-archives/VN.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -5623,8 +5623,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/VU/index.json",
-        "oceania-registry/countries/VU/part-001.b64"
+        "registries/oceania/countries/VU/index.json",
+        "registries/oceania/countries/VU/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -5644,8 +5644,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/WF/index.json",
-        "oceania-registry/countries/WF/part-001.b64"
+        "registries/oceania/countries/WF/index.json",
+        "registries/oceania/countries/WF/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -5665,8 +5665,8 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "oceania-registry/countries/WS/index.json",
-        "oceania-registry/countries/WS/part-001.b64"
+        "registries/oceania/countries/WS/index.json",
+        "registries/oceania/countries/WS/part-001.b64"
       ],
       "release_manifests": [],
       "quality": {
@@ -5686,9 +5686,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "europe-registry/countries/XK/admin1.csv",
-        "europe-registry/countries/XK/entities-0001.csv.gz",
-        "europe-registry/countries/XK/metadata.json"
+        "registries/europe/countries/XK/admin1.csv",
+        "registries/europe/countries/XK/entities-0001.csv.gz",
+        "registries/europe/countries/XK/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5708,7 +5708,7 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "asia-registry/country-archives/YE.zip"
+        "registries/asia/country-archives/YE.zip"
       ],
       "release_manifests": [],
       "quality": {
@@ -5728,9 +5728,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/YT/admin1.csv",
-        "africa-registry/countries/YT/entities.csv.gz",
-        "africa-registry/countries/YT/metadata.json"
+        "registries/africa/countries/YT/admin1.csv",
+        "registries/africa/countries/YT/entities.csv.gz",
+        "registries/africa/countries/YT/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5750,9 +5750,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/ZA/admin1.csv",
-        "africa-registry/countries/ZA/entities.csv.gz",
-        "africa-registry/countries/ZA/metadata.json"
+        "registries/africa/countries/ZA/admin1.csv",
+        "registries/africa/countries/ZA/entities.csv.gz",
+        "registries/africa/countries/ZA/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5772,9 +5772,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/ZM/admin1.csv",
-        "africa-registry/countries/ZM/entities.csv.gz",
-        "africa-registry/countries/ZM/metadata.json"
+        "registries/africa/countries/ZM/admin1.csv",
+        "registries/africa/countries/ZM/entities.csv.gz",
+        "registries/africa/countries/ZM/metadata.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5794,9 +5794,9 @@
       },
       "inventory_status": "mapped_paths",
       "paths": [
-        "africa-registry/countries/ZW/admin1.csv",
-        "africa-registry/countries/ZW/entities.csv.gz",
-        "africa-registry/countries/ZW/metadata.json"
+        "registries/africa/countries/ZW/admin1.csv",
+        "registries/africa/countries/ZW/entities.csv.gz",
+        "registries/africa/countries/ZW/metadata.json"
       ],
       "release_manifests": [],
       "quality": {

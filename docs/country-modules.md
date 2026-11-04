@@ -1,6 +1,6 @@
 # 国・地域別の更新と将来の分離
 
-共通コードは `localities/`、住所形式は `addressing/`、原典固有のデータと処理は既存の `*-registry/` に維持します。既存パスを移動せず、`countries/catalog.json` で国別の入口を作ります。`training/` は学習計画の領域で、学習済みモデルを意味しません。
+共通コードは `localities/`、住所形式は `addressing/`、原典固有のデータと処理は既存の `registries/<地域>/` に維持します。地域フォルダを `registries/` に集約し、`countries/catalog.json` で国別の入口を作ります。`training/` は学習計画の領域で、学習済みモデルを意味しません。
 
 ## 管理台帳
 

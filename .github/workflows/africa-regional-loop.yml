@@ -3,9 +3,9 @@ on:
   push:
     branches: [data/africa-regional-loop-20261015]
     paths:
-      - 'africa-registry/regional_loop.py'
-      - 'africa-registry/test_regional_loop.py'
-      - 'africa-registry/official-references/**'
+      - 'registries/africa/regional_loop.py'
+      - 'registries/africa/test_regional_loop.py'
+      - 'registries/africa/official-references/**'
       - '.github/workflows/africa-regional-loop.yml'
   workflow_dispatch:
 permissions:
@@ -23,11 +23,11 @@ jobs:
           persist-credentials: false
       - name: Offline tests and preserved baseline integrity
         run: |
-          python3 -m unittest discover -s africa-registry -p 'test*.py' -v
-          python3 africa-registry/build.py verify
+          python3 -m unittest discover -s registries/africa -p 'test*.py' -v
+          python3 registries/africa/build.py verify
       - name: North, west, middle, east, south collection and replay
         run: |
-          python3 africa-registry/regional_loop.py --output /tmp/africa-candidates --cache /tmp/africa-source-cache
+          python3 registries/africa/regional_loop.py --output /tmp/africa-candidates --cache /tmp/africa-source-cache
       - name: Preserve candidate records, checksums and source receipts
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02

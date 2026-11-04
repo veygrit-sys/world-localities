@@ -18,11 +18,11 @@
 
 | 地域 | 行政区画・地名 | 別出典の公式対応表 | 取得日 |
 |---|---:|---:|---|
-| [ヨーロッパ](../../europe-registry/README.md) | 57か国・地域、1,161,589件 | Eurostat LAU: 32か国、104,687行 | 2026-09-29 |
-| [オセアニア](../../oceania-registry/README.md) | 29か国・地域、46,594件 | AU ABS公式コード567件。GeoNames直接ID郵便対応262行は別レイヤー | 2026-09-26～29 |
-| [アジア＋ロシア全域補足](../../asia-registry/README.md) | 52国・地域、3,277,921件 | [JP・TWの公式名称・郵便対応](../../official-registry/README.md)を追加。全面対応は未完了 | 国別メタデータ参照 |
-| [アフリカ](../../africa-registry/README.md) | 実体化56か国・地域、388,038件 | 元60か国・地域584,138件。MAほか4か国は未移行 | 2026-09-26 |
-| [南米](../../south-america-registry/README.md) | M49の16/16国・地域、272,379件 | GeoNames出典付き台帳。公式自治体完全性・郵便配達可能性は未検証。BRのIBGE公式台帳とは別レイヤー | 2026-10-01・03 |
+| [ヨーロッパ](../../registries/europe/README.md) | 57か国・地域、1,161,589件 | Eurostat LAU: 32か国、104,687行 | 2026-09-29 |
+| [オセアニア](../../registries/oceania/README.md) | 29か国・地域、46,594件 | AU ABS公式コード567件。GeoNames直接ID郵便対応262行は別レイヤー | 2026-09-26～29 |
+| [アジア＋ロシア全域補足](../../registries/asia/README.md) | 52国・地域、3,277,921件 | [JP・TWの公式名称・郵便対応](../../registries/official/README.md)を追加。全面対応は未完了 | 国別メタデータ参照 |
+| [アフリカ](../../registries/africa/README.md) | 実体化56か国・地域、388,038件 | 元60か国・地域584,138件。MAほか4か国は未移行 | 2026-09-26 |
+| [南米](../../registries/south-america/README.md) | M49の16/16国・地域、272,379件 | GeoNames出典付き台帳。公式自治体完全性・郵便配達可能性は未検証。BRのIBGE公式台帳とは別レイヤー | 2026-10-01・03 |
 
 地域台帳間にも同じ `gn:` IDの重複があります。アジアと欧州、GeoNamesとEurostatの件数を単純に合算しません。
 企業名簿・法人情報は収録対象に含めません。
@@ -34,21 +34,21 @@
 日本は公式コードで1,892市区町村・区と郵便番号124,526行を接続しました。
 日本語・カナ・原典ローマ字を区別し、295,029項目のローマ字を共通アルゴリズムで省略保存しています。
 台湾は郵便当局の中英対照371組と3桁郵便区域コードを接続しました。完全6桁番号は未収録です。
-詳細と未対応範囲は [公式対応レイヤー](../../official-registry/README.md) を参照してください。
+詳細と未対応範囲は [公式対応レイヤー](../../registries/official/README.md) を参照してください。
 
 ## 利用
 
 Python 3.11以降の標準ライブラリで地名の読み込み・検索・構造検証ができます。
 
 ```bash
-cd europe-registry
+cd registries/europe
 python query.py --country AT --level 1
 python query.py --country PL --text Krak --limit 10
 python build.py verify
 ```
 
-詳細は[欧州データのREADME](../../europe-registry/README.md)、
-[スキーマ](../../europe-registry/SCHEMA.md)、[利用条件](../../europe-registry/NOTICE.md)を参照してください。
+詳細は[欧州データのREADME](../../registries/europe/README.md)、
+[スキーマ](../../registries/europe/SCHEMA.md)、[利用条件](../../registries/europe/NOTICE.md)を参照してください。
 
 ## 由来
 
@@ -57,7 +57,7 @@ python build.py verify
 取得済みデータの内容と検証結果を保ち、配置場所に関する案内だけを更新しています。
 
 アジアは [world-address の保存済みスナップショット](https://github.com/rei-k/world-address/tree/8e30ef141e40769fa932adeb2f901505023bfd1e/address-foundation/asia-registry) を収録しています。
-移行の照合結果は [migration.json](../../asia-registry/migration.json)、公式情報の拡充順序は
+移行の照合結果は [migration.json](../../registries/asia/migration.json)、公式情報の拡充順序は
 [追加設計](../plans/enrichment-plan-ja.md) を参照してください。
 
 学習対象・強化学習の報酬と評価方法は [アジア学習計画](../learning/asia-learning-plan-ja.md) に収録しました。
@@ -66,14 +66,14 @@ python build.py verify
 次のコマンドはリポジトリのルートから実行します。
 
 ```bash
-python asia-registry/package.py unpack --country JP
-python asia-registry/build.py verify --country JP
+python registries/asia/package.py unpack --country JP
+python registries/asia/build.py verify --country JP
 python -m unittest discover -s tests -p 'test_asia_package.py' -v
 ```
 
 ## コードとデータの構成
 
-地域別データと出典固有の処理は従来どおり各 `*-registry/` に置き、複数地域で
+地域別データと出典固有の処理は従来どおり各 `registries/<地域>/` に置き、複数地域で
 同じ契約を持つGeoNames変換と分割ファイル復元だけを `localities/` に共通化しています。
 地域固有の `build.py` と `query.py` は維持し、重複していた内部ラッパーは廃止しました。
 
@@ -90,36 +90,36 @@ python -m unittest discover -s tests -p 'test_asia_package.py' -v
 建物、Address2、配達可能性を別レベルで返す契約にしています。
 
 カリブ海はUN M49の28国・地域を36の国内言語変種と英語で扱います。既存の
-`caribbean-registry`にある27地域・31,942地名を再利用し、キューバだけは地名データ
+`registries/caribbean`にある27地域・31,942地名を再利用し、キューバだけは地名データ
 公開待ちとして明示します。9地域の郵便番号なし運用、19地域の郵便番号構文、島・教区・
 都市化名・私書箱・Address2を分離し、Caymanの島コードやPuerto RicoのUSPS形式も
 地域固有規則として検査します。
 
 オセアニアはUN M49の29国・地域を61の国内言語変種と英語で扱います。既存の
-`oceania-registry`（46,594地名）を再利用し、豪州/NZ、USPS、フランス海外領土、
+`registries/oceania`（46,594地名）を再利用し、豪州/NZ、USPS、フランス海外領土、
 各島嶼国の住所順を分離しました。キリバス、ナウル、ツバルの新しい郵便識別子、
 島名、村、私書箱、Address2を保持し、根拠が限定的な7地域は `provisional` として返します。
 
 北アフリカは国連M49の7国・地域を国内表記15変種と英語で扱います。既存の
-`africa-registry`を再利用し、上流78,724地名とローカル実体化31,778地名を区別します。
+`registries/africa`を再利用し、上流78,724地名とローカル実体化31,778地名を区別します。
 アラビア・ラテン・ティフィナグ文字を検査し、エジプトの現行7桁郵便番号、各国の
 Address2・私書箱・行政階層を保持します。リビア、スーダン、西サハラは根拠の限界を
 `provisional`で返し、西サハラでは運用主体や郵便番号を地名から推測しません。
 
 東アフリカは国連M49の22国・地域を国内表記53変種と英語で扱います。既存の
-`africa-registry`を再利用し、上流137,842地名とローカル実体化113,668地名を区別します。
+`registries/africa`を再利用し、上流137,842地名とローカル実体化113,668地名を区別します。
 マラウイの6桁、ウガンダの2026年版5桁、フランス海外領土の974/976系などを国別に検査し、
 実番号が未割当のザンビアには5桁を推測しません。住所2、私書箱、村・地区・州、島名を
 国別順序で保持し、根拠が古い・不完全な9か国は `provisional` として返します。
 
 中部アフリカは国連M49の9か国を国内表記20変種と英語で扱います。既存の
-`africa-registry`を再利用し、上流101,713地名とローカル実体化64,477地名を区別します。
+`registries/africa`を再利用し、上流101,713地名とローカル実体化64,477地名を区別します。
 コンゴ民主共和国の7桁とガボンの2桁を検査し、郵便番号を使わない7か国にはフォーム用の
 ダミー番号を生成しません。Address2、私書箱、村・セクター・テリトリー・州、配達局コードを
 保持し、古い公開資料に依存する4か国は `provisional` として返します。
 
 西アフリカは国連M49の17か国・地域を国内表記30変種と英語で扱います。既存の
-`africa-registry`を再利用し、上流192,989地名とローカル実体化131,560地名を区別します。
+`registries/africa`を再利用し、上流192,989地名とローカル実体化131,560地名を区別します。
 ガーナの郵便番号・デジタル住所、ナイジェリアの6桁、セントヘレナの固定番号を検査し、
 ベナンとコートジボワールの配送局コードを郵便番号から分離します。モーリタニアの
 `BP 10000`は私書箱として保持し、郵便番号を使わない国へダミー番号を生成しません。
@@ -127,7 +127,7 @@ Address2、街路、番地、私書箱、地区・州を国別順序で保持し
 11か国は `provisional` として返します。
 
 南部アフリカは国連M49の5か国を国内文字言語22変種と英語で扱います。既存の
-`africa-registry`に5か国19,365地名をすべて実体化し、上流件数との一致を検査します。
+`registries/africa`に5か国19,365地名をすべて実体化し、上流件数との一致を検査します。
 レソトの3桁、ナミビアの5桁、エスワティニの英字1字＋3桁、南アフリカの4桁を分離検証し、
 ボツワナにはダミー郵便番号を生成しません。Address2、複合建物・部屋、街路・番地、農村配達点、
 村、私書箱、Private Bagを保持します。南アフリカ手話は公用語として記録しますが、文字住所へ
@@ -217,36 +217,36 @@ python -m addressing central-europe
 python -m addressing profile --country JP --language ja
 ```
 
-オセアニアは国別62分割パックに、言語付き名称37,236件と限定的な郵便番号対応を収録しました。地域IDを保持した名称選択と国別展開に対応します。全公用語・郵便番号の完全網羅ではありません。原典と検証結果は [オセアニア台帳](../../oceania-registry/README.md) を参照してください。
+オセアニアは国別62分割パックに、言語付き名称37,236件と限定的な郵便番号対応を収録しました。地域IDを保持した名称選択と国別展開に対応します。全公用語・郵便番号の完全網羅ではありません。原典と検証結果は [オセアニア台帳](../../registries/oceania/README.md) を参照してください。
 
 ## アメリカ大陸（北部アメリカから順次強化）
 
-[アメリカ大陸の統合品質監査](../../americas-registry/README.md)は、国連M49の4地域を
+[アメリカ大陸の統合品質監査](../../registries/americas/README.md)は、国連M49の4地域を
 **北部アメリカ → 中央アメリカ → カリブ海 → 南アメリカ**の順に扱い、
 既存の国別データを再コピーせず参照します。
 
-[北部アメリカ](../../north-america-registry/README.md)は米国・カナダの公式データ
+[北部アメリカ](../../registries/north-america/README.md)は米国・カナダの公式データ
 （米国68,744行、カナダ5,054行）を読み込み、プエルトリコのM49境界を
 別扱いにします。カナダNova Scotia州名の出典付き表示補正と、
 BM/GL/PMの**18件の行政区画名シード**も追加しました。
 シードは完全な地名台帳や住所・郵便番号の検証結果ではありません。
 
-検証: `python americas-registry/audit.py --mode audit`
- / `python americas-registry/audit.py --mode plan`
- / `python americas-registry/audit.py --mode cycle --rounds 3`
+検証: `python registries/americas/audit.py --mode audit`
+ / `python registries/americas/audit.py --mode plan`
+ / `python registries/americas/audit.py --mode cycle --rounds 3`
 
 アメリカ大陸の地域別の**出典付き国・地域レイヤーは53/57**です。
 この数値は全住所・自治体・全公用語の網羅を意味しません。
 
 ## 中央アメリカの追加強化（2026-10-15）
 
-[中央アメリカ強化記録](../../central-america-registry/ENRICHMENT_20261015.md)に、
+[中央アメリカ強化記録](../../registries/central-america/ENRICHMENT_20261015.md)に、
 コスタリカ6,465地名・行政地物と6,182言語付き名称の追加、政府公開84カントンコード表、
 8か国共通検索、全ペイロード検査を整理した。国別出典レイヤーは中央アメリカ8/8、
 アメリカ大陸53/57。住所・郵便番号・全自治体の完全網羅ではない。
 
-新しい入口は `python central-america-registry/query_enriched.py --country CR --text 'San Jose' --language es`、
-実データ検査は `python central-america-registry/quality.py`。
+新しい入口は `python registries/central-america/query_enriched.py --country CR --text 'San Jose' --language es`、
+実データ検査は `python registries/central-america/quality.py`。
 <!-- source-qualified-hierarchy -->
 
 [出典付き階層・公式住所の実装と復元手順](../../address-points/README.md)を地域ごとのコミットで追加しています。

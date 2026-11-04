@@ -5,11 +5,11 @@ from pathlib import Path
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / 'official-registry'))
+sys.path.insert(0, str(ROOT / 'registries/official'))
 
 
 def load(name, filename):
-    spec = importlib.util.spec_from_file_location(name, ROOT / 'official-registry' / filename)
+    spec = importlib.util.spec_from_file_location(name, ROOT / 'registries/official' / filename)
     module = importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
     return module
 
@@ -22,10 +22,10 @@ ROMAN = load('official_roman', 'romanize.py')
 class OfficialPostalTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.jp = list(QUERY.read_csv(ROOT / 'official-registry/JP/postal_rows.csv.gz'))
+        cls.jp = list(QUERY.read_csv(ROOT / 'registries/official/JP/postal_rows.csv.gz'))
 
     def test_official_code_identity_and_unique_associations(self):
-        entities = {r['entity_id']: r for r in QUERY.read_csv(ROOT / 'official-registry/JP/entities.csv.gz')}
+        entities = {r['entity_id']: r for r in QUERY.read_csv(ROOT / 'registries/official/JP/entities.csv.gz')}
         for r in self.jp:
             self.assertEqual(r['jis_code'], entities[r['entity_id']]['lg_code'][:5])
             self.assertTrue(BUILD.valid_lg(entities[r['entity_id']]['lg_code']))
@@ -73,17 +73,17 @@ class OfficialPostalTests(unittest.TestCase):
 
     def test_bilingual_labels_share_ids(self):
         groups = {}
-        for r in QUERY.read_csv(ROOT / 'official-registry/TW/names.csv'):
+        for r in QUERY.read_csv(ROOT / 'registries/official/TW/names.csv'):
             groups.setdefault(r['entity_id'], set()).add(r['language'])
         self.assertEqual(len(groups), 371)
         self.assertTrue(all(v == {'zh-Hant', 'en'} for v in groups.values()))
 
     def test_checksums(self):
         for cc in ['JP', 'TW']:
-            self.assertEqual(BUILD.verify(ROOT / 'official-registry' / cc)['checksums'], 'passed')
+            self.assertEqual(BUILD.verify(ROOT / 'registries/official' / cc)['checksums'], 'passed')
 
     def test_all_matched_roman_fields_replay_exactly(self):
-        source = BUILD.zip_csv(ROOT / 'official-registry/JP/sources/postal-roman.zip', 'cp932', 7)
+        source = BUILD.zip_csv(ROOT / 'registries/official/JP/sources/postal-roman.zip', 'cp932', 7)
         count = 0
         for r in self.jp:
             if r['roman_match_status'] == 'matched_unique':

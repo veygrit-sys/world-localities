@@ -5,7 +5,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-SPEC = importlib.util.spec_from_file_location('asia_package', Path(__file__).resolve().parents[1] / 'asia-registry/package.py')
+SPEC = importlib.util.spec_from_file_location('asia_package', Path(__file__).resolve().parents[1] / 'registries/asia/package.py')
 PACKAGE = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(PACKAGE)
 

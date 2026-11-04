@@ -4,11 +4,11 @@
   "reviewed_at": "2026-10-16",
   "purpose": "Domestic-language and English address display profiles for every UN M49 Oceania country or territory, with explicit postcode syntax and evidence status; not an address-existence, code-assignment or deliverability claim.",
   "locality_registry": {
-    "path": "oceania-registry",
-    "countries_file": "oceania-registry/countries.csv",
-    "summary_file": "oceania-registry/summary.json",
-    "pack_manifest_file": "oceania-registry/pack_manifest.json",
-    "country_split_directory": "oceania-registry/countries",
+    "path": "registries/oceania",
+    "countries_file": "registries/oceania/countries.csv",
+    "summary_file": "registries/oceania/summary.json",
+    "pack_manifest_file": "registries/oceania/pack_manifest.json",
+    "country_split_directory": "registries/oceania/countries",
     "role": "Locality candidates and country coverage; address ordering and postcode policy come from this reviewed profile extension."
   },
   "overrides": [
