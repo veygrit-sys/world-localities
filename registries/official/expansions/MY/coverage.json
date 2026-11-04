@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "country": "MY",
+  "layer_kind": "postcode_city_state",
+  "rows": 2932,
+  "counts": {
+    "source_observations": 2932,
+    "unique_postcodes": 2930,
+    "unique_raw_associations": 2932,
+    "unique_normalized_associations": 2931,
+    "raw_state_labels": 17,
+    "normalized_state_labels": 16,
+    "rows_with_whitespace_name_changes": 4,
+    "postcodes_with_multiple_raw_associations": 2,
+    "postcodes_with_multiple_normalized_associations": 1
+  },
+  "source_date": "2026-06",
+  "retrieved_at": "2026-11-04T10:23:43+00:00",
+  "record_file": "records.csv.gz",
+  "search_fields": [
+    "postcode",
+    "city",
+    "state",
+    "city_normalized",
+    "state_normalized"
+  ],
+  "files": {
+    "records.csv.gz": {
+      "bytes": 80785,
+      "sha256": "d333a4c5b176828d486092389e0148375c753114fccf0b586442146b82180565",
+      "rows": 2932,
+      "columns": [
+        "observation_id",
+        "association_id",
+        "country",
+        "postcode",
+        "city",
+        "state",
+        "city_normalized",
+        "state_normalized",
+        "source_ref",
+        "source_row"
+      ],
+      "uncompressed_sha256": "7ee680d022fb408ee7b6ad2d0d5be20db96eae18bd87dfc5f20f24dd43b905a1"
+    }
+  },
+  "claims": {
+    "national_address_completeness_verified": false,
+    "upstream_freshness_verified": false,
+    "street_verified": false,
+    "premise_verified": false,
+    "deliverability_verified": false
+  },
+  "limitations": [
+    "Source is an annually compiled postcode/city/state list, not a building or street register.",
+    "Every source row remains; multiple associations and raw whitespace variants are not collapsed.",
+    "Names are source text; no language or translation attestation is inferred from Latin script."
+  ]
+}

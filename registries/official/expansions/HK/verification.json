@@ -1,0 +1,24 @@
+{
+  "country": "HK",
+  "status": "passed",
+  "source_integrity": "passed",
+  "row_integrity": "passed",
+  "rows": 182254,
+  "counts": {
+    "source_observations": 182254,
+    "unique_csu_ids": 159427,
+    "csu_ids_with_multiple_observations": 8211,
+    "maximum_observations_per_csu": 118,
+    "rows_without_source_coordinates": 2,
+    "native_districts": 18,
+    "source_members": 18
+  },
+  "source_replay": "passed_all_selected_district_2d_source_rows",
+  "source_sha256": "4549e4f774224abdef062cb6ffaa7e75f0d8dc02187a64bc6c05434472b6f577",
+  "records_sha256": "9fb279bbfa846866f57feb551816f739cb22bb1da96e7ffc9bb382027a733fd8",
+  "scope": "All district 2D GeoJSON members in the pinned archive; optional public-housing 3D member excluded. Observation rows are not unique addresses.",
+  "national_completeness_verified": false,
+  "freshness_verified": null,
+  "deliverability_verified": false,
+  "optional_3d_layer_verified": false
+}

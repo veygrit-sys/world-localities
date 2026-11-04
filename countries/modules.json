@@ -3065,6 +3065,28 @@
       "inventory_state": "source_layers_available",
       "layers": [
         {
+          "id": "official-expansion",
+          "registry": "official",
+          "kind": "official_overlay",
+          "data": "registries/official/expansions/HK",
+          "metadata": "registries/official/expansions/HK/coverage.json",
+          "verifier": "official_expansion",
+          "selector": {
+            "country": "HK"
+          },
+          "source_refs": [
+            "registries/official/expansions/HK/sources.json"
+          ],
+          "notice_refs": [
+            "registries/official/expansions/HK/NOTICE.md",
+            "registries/official/expansions/HK/README.md"
+          ],
+          "test_refs": [
+            "tests/test_hk_official_expansion.py"
+          ],
+          "scope": "official ALS 18-district 2D building/address observations; source coverage only"
+        },
+        {
           "id": "asia-gazetteer",
           "registry": "asia",
           "kind": "country_archive",
@@ -3087,7 +3109,7 @@
           "scope": "format rules only; not address existence"
         }
       ],
-      "next_action": "verify_layers_then_create_country_bundle"
+      "next_action": "evaluate_official_layer_against_independent_addresses_before_country_bundle"
     },
     {
       "code": "HM",
@@ -3901,6 +3923,28 @@
       "inventory_state": "source_layers_available",
       "layers": [
         {
+          "id": "official-expansion",
+          "registry": "official",
+          "kind": "official_overlay",
+          "data": "registries/official/expansions/KR",
+          "metadata": "registries/official/expansions/KR/coverage.json",
+          "verifier": "official_expansion",
+          "selector": {
+            "country": "KR"
+          },
+          "source_refs": [
+            "registries/official/expansions/KR/sources.json"
+          ],
+          "notice_refs": [
+            "registries/official/expansions/KR/NOTICE.md",
+            "registries/official/expansions/KR/README.md"
+          ],
+          "test_refs": [
+            "tests/test_kr_official_expansion.py"
+          ],
+          "scope": "official Sejong road-name address pilot; not nationwide coverage"
+        },
+        {
           "id": "asia-gazetteer",
           "registry": "asia",
           "kind": "country_archive",
@@ -3923,7 +3967,7 @@
           "scope": "format rules only; not address existence"
         }
       ],
-      "next_action": "verify_layers_then_create_country_bundle"
+      "next_action": "evaluate_official_layer_against_independent_addresses_before_country_bundle"
     },
     {
       "code": "KW",
@@ -4983,6 +5027,28 @@
       "inventory_state": "source_layers_available",
       "layers": [
         {
+          "id": "official-expansion",
+          "registry": "official",
+          "kind": "official_overlay",
+          "data": "registries/official/expansions/MY",
+          "metadata": "registries/official/expansions/MY/coverage.json",
+          "verifier": "official_expansion",
+          "selector": {
+            "country": "MY"
+          },
+          "source_refs": [
+            "registries/official/expansions/MY/sources.json"
+          ],
+          "notice_refs": [
+            "registries/official/expansions/MY/NOTICE.md",
+            "registries/official/expansions/MY/README.md"
+          ],
+          "test_refs": [
+            "tests/test_my_official_expansion.py"
+          ],
+          "scope": "official postcode-city-state associations; no street or premise validation"
+        },
+        {
           "id": "asia-gazetteer",
           "registry": "asia",
           "kind": "country_archive",
@@ -5005,7 +5071,7 @@
           "scope": "format rules only; not address existence"
         }
       ],
-      "next_action": "verify_layers_then_create_country_bundle"
+      "next_action": "evaluate_official_layer_against_independent_addresses_before_country_bundle"
     },
     {
       "code": "MZ",
@@ -7137,6 +7203,28 @@
       "inventory_state": "source_layers_available",
       "layers": [
         {
+          "id": "official-expansion",
+          "registry": "official",
+          "kind": "official_overlay",
+          "data": "registries/official/expansions/TW",
+          "metadata": "registries/official/expansions/TW/coverage.json",
+          "verifier": "official_expansion",
+          "selector": {
+            "country": "TW"
+          },
+          "source_refs": [
+            "registries/official/expansions/TW/sources.json"
+          ],
+          "notice_refs": [
+            "registries/official/expansions/TW/NOTICE.md",
+            "registries/official/expansions/TW/README.md"
+          ],
+          "test_refs": [
+            "tests/test_tw_official_expansion.py"
+          ],
+          "scope": "official year-115 road names with three-digit postal-prefix context; no premise validation"
+        },
+        {
           "id": "asia-gazetteer",
           "registry": "asia",
           "kind": "country_archive",
@@ -7170,7 +7258,7 @@
           "scope": "format rules only; not address existence"
         }
       ],
-      "next_action": "verify_layers_then_create_country_bundle"
+      "next_action": "evaluate_official_layer_against_independent_addresses_before_country_bundle"
     },
     {
       "code": "TZ",

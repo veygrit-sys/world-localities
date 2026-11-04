@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "tested_commit": "e8784600bcaa5d93e876c8badf28562b2f413feb",
+  "tested_tree": "88a3e5d840108c3a97c8b81749300f2dfe9f936e",
+  "verified_at": "2026-11-04T17:38:12+00:00",
+  "scope": "offline regression, pinned saved source bytes and deterministic row replay; no live delivery or nationwide completeness certification",
+  "tests": {
+    "common": {
+      "passed": 667,
+      "failed": 0
+    },
+    "hierarchy": {
+      "passed": 247,
+      "failed": 0
+    },
+    "regional_baselines": {
+      "passed": 119,
+      "failed": 0
+    }
+  },
+  "countries": {
+    "HK": {
+      "rows": 182254,
+      "layer_kind": "official_bilingual_building_address_observations",
+      "records_sha256": "9fb279bbfa846866f57feb551816f739cb22bb1da96e7ffc9bb382027a733fd8",
+      "verification": {
+        "country": "HK",
+        "status": "passed",
+        "source_integrity": "passed",
+        "row_integrity": "passed",
+        "rows": 182254,
+        "counts": {
+          "source_observations": 182254,
+          "unique_csu_ids": 159427,
+          "csu_ids_with_multiple_observations": 8211,
+          "maximum_observations_per_csu": 118,
+          "rows_without_source_coordinates": 2,
+          "native_districts": 18,
+          "source_members": 18
+        },
+        "source_replay": "passed_all_selected_district_2d_source_rows",
+        "source_sha256": "4549e4f774224abdef062cb6ffaa7e75f0d8dc02187a64bc6c05434472b6f577",
+        "records_sha256": "9fb279bbfa846866f57feb551816f739cb22bb1da96e7ffc9bb382027a733fd8",
+        "scope": "All district 2D GeoJSON members in the pinned archive; optional public-housing 3D member excluded. Observation rows are not unique addresses.",
+        "national_completeness_verified": false,
+        "freshness_verified": null,
+        "deliverability_verified": false,
+        "optional_3d_layer_verified": false
+      }
+    },
+    "KR": {
+      "rows": 27966,
+      "layer_kind": "road_name_address_pilot",
+      "records_sha256": "85a17c16a624ff568b5c361e447c2d66b7fb561f6361383d171ed747cafd3ae0",
+      "verification": {
+        "country": "KR",
+        "status": "passed",
+        "source_integrity": "passed",
+        "row_integrity": "passed",
+        "rows": 27966,
+        "counts": {
+          "source_observations": 27966,
+          "unique_road_codes": 1139,
+          "unique_postcodes": 153,
+          "legal_dong_codes": 140,
+          "rows_without_effective_date": 0,
+          "rows_with_deletion_change_reason": 0
+        },
+        "scope": "exact saved Sejong source member replay; original upstream ZIP is not bundled",
+        "freshness_verified": null,
+        "national_completeness_verified": false,
+        "deliverability_verified": false
+      }
+    },
+    "MY": {
+      "rows": 2932,
+      "layer_kind": "postcode_city_state",
+      "records_sha256": "d333a4c5b176828d486092389e0148375c753114fccf0b586442146b82180565",
+      "verification": {
+        "country": "MY",
+        "status": "passed",
+        "source_integrity": "passed",
+        "row_integrity": "passed",
+        "rows": 2932,
+        "counts": {
+          "source_observations": 2932,
+          "unique_postcodes": 2930,
+          "unique_raw_associations": 2932,
+          "unique_normalized_associations": 2931,
+          "raw_state_labels": 17,
+          "normalized_state_labels": 16,
+          "rows_with_whitespace_name_changes": 4,
+          "postcodes_with_multiple_raw_associations": 2,
+          "postcodes_with_multiple_normalized_associations": 1
+        },
+        "scope": "exact saved source replay of postcode/city/state associations only",
+        "freshness_verified": null,
+        "national_completeness_verified": false,
+        "deliverability_verified": false
+      }
+    },
+    "TW": {
+      "rows": 35798,
+      "layer_kind": "official_national_road_name",
+      "records_sha256": "f2d4eaad86ab52ba75f80b4537fd92f7d7dd3d2f6719ca4568d3f34df9eeae7e",
+      "verification": {
+        "country": "TW",
+        "status": "passed",
+        "rows": 35798,
+        "source_integrity": "passed",
+        "row_integrity": "passed_all_canonical_csv_rows",
+        "scope": "Source-listed road names and postal-area label candidates only; no house-number, six-digit postcode, delivery or legal administrative-boundary inference."
+      }
+    }
+  },
+  "catalog": {
+    "collection_codes": 250,
+    "source_layers": 506,
+    "status": "passed"
+  },
+  "materialization": {
+    "data_commit": "e8784600bcaa5d93e876c8badf28562b2f413feb",
+    "remote_tree_equals_tested_local_tree": true
+  },
+  "national_completeness_verified": false,
+  "deliverability_verified": false,
+  "model_training_performed": false
+}

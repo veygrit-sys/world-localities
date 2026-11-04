@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "country": "MY",
+  "sources": {
+    "my-datagov-postcodes": {
+      "provider": "Government of Malaysia / data.gov.my",
+      "original_data_source": "Malaysian Communications and Multimedia Commission",
+      "url": "https://storage.data.gov.my/dictionaries/postcodes.csv",
+      "catalogue": "https://data.gov.my/data-catalogue/poskod",
+      "retrieved_at": "2026-11-04T10:23:43+00:00",
+      "source_date": "2026-06",
+      "as_of": "2026-06",
+      "source_date_precision": "month",
+      "catalogue_last_updated": "2026-08-02T12:00:00+08:00",
+      "update_frequency": "annual",
+      "license": "CC-BY-4.0",
+      "terms": "https://creativecommons.org/licenses/by/4.0/",
+      "source_last_modified": "Sun, 02 Aug 2026 02:44:59 GMT",
+      "source_bytes": 75450,
+      "source_sha256": "18e653d7600922c7de55a7e03b0a35aaac8cde8c0b3f0ed3c6a10f72c3e54bb7",
+      "scope": "published postcode/city/state associations; not street or premise addresses"
+    }
+  },
+  "bundled_files": {
+    "sources/postcodes.csv": {
+      "bytes": 75450,
+      "sha256": "18e653d7600922c7de55a7e03b0a35aaac8cde8c0b3f0ed3c6a10f72c3e54bb7"
+    }
+  }
+}

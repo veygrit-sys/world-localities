@@ -7,6 +7,7 @@
 | 目的 | 入口 |
 |---|---|
 | 国・地域から探す | [250国・地域の一覧](countries/README.md) |
+| 香港・韓国・マレーシア・台湾の公式データを使う | [公式データ拡充と検索](docs/asia4-official-expansion.md) |
 | 収録データと利用方法を調べる | [データと利用方法](docs/guides/data-and-usage.md) |
 | 改善の順序を確認する | [実行方針](docs/implementation-strategy.md) |
 | 国別に更新・配布する | [国別管理と分離手順](docs/country-modules.md) |

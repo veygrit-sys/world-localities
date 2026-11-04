@@ -23,7 +23,7 @@ KINDS = {'gazetteer_directory', 'country_archive', 'split_archive', 'official_ov
          'shared_records', 'address_format'}
 ADAPTERS = {'metadata_integrity', 'europe_replay', 'asia_archive_replay',
             'oceania_archive_integrity', 'official_integrity', 'shared_admin_selection',
-            'profile_selection'}
+            'profile_selection', 'official_expansion'}
 MAX_ARCHIVE_BYTES = 100_000_000
 
 
@@ -93,6 +93,14 @@ def validate_catalog(root=ROOT):
             for field in ('data', 'metadata', 'manifest'):
                 if field in layer and not _path(root, layer[field]).exists():
                     raise ValueError('missing country dependency: ' + layer[field])
+            for field in ('source_refs', 'notice_refs', 'test_refs'):
+                for name in layer.get(field, []):
+                    if not _path(root, name).is_file():
+                        raise ValueError('missing layer dependency: ' + name)
+            if layer['verifier'] == 'official_expansion':
+                expected = 'registries/official/expansions/' + entry['code']
+                if layer.get('data') != expected or layer.get('metadata') != expected + '/coverage.json':
+                    raise ValueError('official expansion country path mismatch')
             selector = layer['selector']
             selected = selector.get('country', selector.get('value', selector.get('key')))
             if selected != entry['code']:
@@ -169,14 +177,18 @@ def _archive_metadata(layer, code, root):
 def _date_evidence(meta):
     result = {}
     for key in ('retrieved_at', 'retrieved_on', 'observed_on', 'created_on', 'as_of',
-                'source_modified_min', 'source_modified_max', 'base_snapshot', 'curated_on'):
+                'source_modified_min', 'source_modified_max', 'base_snapshot', 'curated_on',
+                'source_date', 'source_effective_date', 'source_year_gregorian',
+                'source_date_precision', 'catalogue_metadata_updated_at', 'catalogue_last_updated'):
         if key in meta:
             result[key] = meta[key]
     source = meta.get('source_file')
     if isinstance(source, dict):
         result['source_file'] = {k: source[k] for k in ('retrieved_at', 'retrieved_on', 'last_modified', 'url') if k in source}
     if isinstance(meta.get('sources'), dict):
-        result['sources'] = {k: {a: v[a] for a in ('published_on', 'source_observed_on', 'as_of', 'reference_month') if a in v}
+        result['sources'] = {k: {a: v[a] for a in ('published_on', 'source_observed_on', 'as_of', 'reference_month',
+                            'retrieved_at', 'source_date', 'source_effective_date', 'source_year_gregorian',
+                            'source_date_precision', 'catalogue_metadata_updated_at', 'catalogue_last_updated') if a in v}
                              for k, v in meta['sources'].items() if isinstance(v, dict)}
     return result
 
@@ -189,8 +201,9 @@ def inspect_country(code, root=ROOT):
     for layer in country['layers']:
         definition = definitions[layer['registry']]
         report = dict(layer)
-        report.update(source_refs=definition['source_refs'], notice_refs=definition['notice_refs'],
-                      test_refs=definition['test_refs'])
+        report.update(source_refs=list(dict.fromkeys(definition['source_refs'] + layer.get('source_refs', []))),
+                      notice_refs=list(dict.fromkeys(definition['notice_refs'] + layer.get('notice_refs', []))),
+                      test_refs=list(dict.fromkeys(definition['test_refs'] + layer.get('test_refs', []))))
         meta = {}
         if layer.get('metadata'):
             meta = _json(_path(root, layer['metadata']))
@@ -204,7 +217,7 @@ def inspect_country(code, root=ROOT):
             rows = [e for e in shared[selector['collection']] if e.get(selector['field']) == code]
             report['selected_observations'] = len(rows)
             meta = shared
-        report['counts'] = meta.get('counts', {})
+        report['counts'] = meta.get('counts', {'source_observations': meta['rows']} if 'rows' in meta else {})
         report['source_dates'] = _date_evidence(meta)
         report['known_issues'] = meta.get('known_issues', [])
         if layer['kind'] == 'official_overlay':
@@ -341,6 +354,14 @@ def _verify_layer(layer, code, root):
             build = _module(_path(root, 'registries/europe/build.py'), 'europe_build')
             report = build.verify_country(_path(root, 'registries/europe'), code)
             result.update(row_integrity='passed', rows=report['rows'], scope='original Europe deterministic country replay')
+    elif adapter == 'official_expansion':
+        from .official_expansion import verify as verify_official_expansion
+        if layer.get('data') != 'registries/official/expansions/' + code:
+            raise ValueError('official expansion country path mismatch')
+        verification = verify_official_expansion(code, root)
+        result.update(source_integrity='passed', row_integrity=verification.get('row_integrity', 'see_importer_details'),
+                      scope='country-specific official source layer; exact checks reported in verification_details',
+                      verification_details=verification)
     elif adapter == 'official_integrity':
         result.update(source_integrity='passed', checked_files=_official_integrity(layer, root),
                       scope='official layer pinned file hashes; postcode/authority accuracy is separate')

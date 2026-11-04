@@ -35,6 +35,10 @@ jobs:
           python -m localities country verify --country JP
           python -m localities country verify --country DE
           python -m localities country verify --country BM
+          for country in HK KR MY TW; do
+            python -m localities country verify --country "$country"
+          done
+          python -m localities official search --country MY --text 40160 --field postcode --exact --limit 5
           python scripts/artifact_audit.py
           python -m localities layout
   regional:

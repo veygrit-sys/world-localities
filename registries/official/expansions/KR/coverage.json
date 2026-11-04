@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "country": "KR",
+  "layer_kind": "road_name_address_pilot",
+  "rows": 27966,
+  "counts": {
+    "source_observations": 27966,
+    "unique_road_codes": 1139,
+    "unique_postcodes": 153,
+    "legal_dong_codes": 140,
+    "rows_without_effective_date": 0,
+    "rows_with_deletion_change_reason": 0
+  },
+  "source_date": "2026-09",
+  "retrieved_at": "2026-11-04T19:37:03Z",
+  "scope": "All rows of rnaddrkor_sejong.txt in the supplied 202609 Korean road-name address DB; Sejong-only pilot. Not nationwide coverage, physical premise verification, or deliverability.",
+  "record_file": "records.csv.gz",
+  "search_fields": [
+    "address_id",
+    "postcode",
+    "road_code",
+    "road_name_ko",
+    "province_ko",
+    "district_ko",
+    "legal_emd_ko",
+    "legal_ri_ko",
+    "admin_dong_ko",
+    "building_main_number",
+    "building_sub_number",
+    "building_register_name",
+    "local_building_name"
+  ],
+  "geographic_scope": {
+    "country": "KR",
+    "province": "세종특별자치시",
+    "district_code": "36110"
+  },
+  "files": {
+    "records.csv.gz": {
+      "bytes": 520995,
+      "sha256": "85a17c16a624ff568b5c361e447c2d66b7fb561f6361383d171ed747cafd3ae0",
+      "rows": 27966,
+      "columns": [
+        "record_id",
+        "country",
+        "address_id",
+        "legal_dong_code",
+        "province_ko",
+        "district_ko",
+        "legal_emd_ko",
+        "legal_ri_ko",
+        "mountain_flag",
+        "lot_main_number",
+        "lot_sub_number",
+        "road_code",
+        "road_name_ko",
+        "basement_flag",
+        "building_main_number",
+        "building_sub_number",
+        "admin_dong_code",
+        "admin_dong_ko",
+        "postcode",
+        "previous_road_address",
+        "effective_date",
+        "apartment_flag",
+        "change_reason",
+        "building_register_name",
+        "local_building_name",
+        "remarks",
+        "source_ref",
+        "source_row"
+      ],
+      "uncompressed_sha256": "91b5a121bfb0c2f356d792aad50c718d2deb2d6b8046f95ee16c00fa751aab7d"
+    }
+  },
+  "claims": {
+    "national_address_completeness_verified": false,
+    "upstream_freshness_verified": false,
+    "street_verified": false,
+    "premise_verified": false,
+    "deliverability_verified": false
+  },
+  "limitations": [
+    "Only the Sejong member is included; other provinces and the related-parcel (jibun) companion are excluded.",
+    "Source describes shared-address buildings as one address observation; this is not one row per physical premise.",
+    "Korean source labels are copied verbatim. This source supplies no English labels; none are generated.",
+    "The full monthly snapshot supplies change-reason columns but does not establish complete deletion history.",
+    "Identifiers, postal codes and building/lot numbers are strings; no numeric or postcode inference is performed.",
+    "File-month and retrieval date are distinct; upstream freshness and physical deliverability are not verified."
+  ]
+}

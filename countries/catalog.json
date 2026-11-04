@@ -2336,6 +2336,11 @@
       },
       "inventory_status": "source_layers_available",
       "paths": [
+        "registries/official/expansions/HK/README.md",
+        "registries/official/expansions/HK/NOTICE.md",
+        "registries/official/expansions/HK/coverage.json",
+        "registries/official/expansions/HK/sources.json",
+        "registries/official/expansions/HK/records.csv.gz",
         "registries/asia/country-archives/HK.zip",
         "releases/hierarchy/east-asia/reports/HK.projection.json"
       ],
@@ -2345,7 +2350,7 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "verify_layers_then_create_country_bundle",
+      "next_action": "evaluate_official_layer_against_independent_addresses_before_country_bundle",
       "module_id": "HK"
     },
     {
@@ -2976,6 +2981,11 @@
       },
       "inventory_status": "source_layers_available",
       "paths": [
+        "registries/official/expansions/KR/README.md",
+        "registries/official/expansions/KR/NOTICE.md",
+        "registries/official/expansions/KR/coverage.json",
+        "registries/official/expansions/KR/sources.json",
+        "registries/official/expansions/KR/records.csv.gz",
         "registries/asia/country-archives/KR.zip",
         "releases/hierarchy/east-asia/reports/KR.projection.json"
       ],
@@ -2985,7 +2995,7 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "verify_layers_then_create_country_bundle",
+      "next_action": "evaluate_official_layer_against_independent_addresses_before_country_bundle",
       "module_id": "KR"
     },
     {
@@ -3834,6 +3844,11 @@
       },
       "inventory_status": "source_layers_available",
       "paths": [
+        "registries/official/expansions/MY/README.md",
+        "registries/official/expansions/MY/NOTICE.md",
+        "registries/official/expansions/MY/coverage.json",
+        "registries/official/expansions/MY/sources.json",
+        "registries/official/expansions/MY/records.csv.gz",
         "registries/asia/country-archives/MY.zip"
       ],
       "release_manifests": [],
@@ -3842,7 +3857,7 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "verify_layers_then_create_country_bundle",
+      "next_action": "evaluate_official_layer_against_independent_addresses_before_country_bundle",
       "module_id": "MY"
     },
     {
@@ -5487,6 +5502,11 @@
       },
       "inventory_status": "source_layers_available",
       "paths": [
+        "registries/official/expansions/TW/README.md",
+        "registries/official/expansions/TW/NOTICE.md",
+        "registries/official/expansions/TW/coverage.json",
+        "registries/official/expansions/TW/sources.json",
+        "registries/official/expansions/TW/records.csv.gz",
         "registries/asia/country-archives/TW.zip",
         "registries/official/TW/README.md",
         "registries/official/TW/coverage.json",
@@ -5503,7 +5523,7 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "verify_layers_then_create_country_bundle",
+      "next_action": "evaluate_official_layer_against_independent_addresses_before_country_bundle",
       "module_id": "TW"
     },
     {

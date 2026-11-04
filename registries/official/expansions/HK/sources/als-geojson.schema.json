@@ -1,0 +1,444 @@
+﻿{
+  "$schema": "http://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.als.ogcio.gov.hk/docs/als-geojson.schema.json", 
+  "title": "GeoJSON FeatureCollection",
+  "description": "Hong Kong structured address records in both Chinese and English aggregated from various Government Bureaux/Departments",
+  "type": "object",
+  "required": [ "type", "features" ],
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": [ "FeatureCollection" ]
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "title": "GeoJSON Feature",
+        "type": "object",
+        "required": [ "type", "geometry", "properties" ],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [ "Feature" ]
+          },
+          "geometry": {
+            "title": "GeoJSON Point",
+            "type": "object",
+            "required": [ "type", "coordinates" ],
+            "properties": {
+              "type": {
+                "description": "Type of Geometry",
+                "type": "string",
+                "enum": [ "Point" ]
+              },
+              "coordinates": {
+                "description": "WGS84 Geodetic Coordinates (Longitude and Latitude)",
+                "type": "array",
+                "minItems": 2,
+                "items": { "type": "number" }
+              }
+            }
+          },
+          "properties": {
+            "type": "object",
+            "required": [ "Northing", "Easting", "Address" ],
+            "properties": {
+              "Northing": {
+                "description": "Northing value of HK1980 Grid Coordinates",
+                "type": "number"
+              },
+              "Easting": {
+                "description": "Easting value of HK1980 Grid Coordinates",
+                "type": "number"
+              },
+              "Address": {
+                "type": "object",
+                "required": [ "PremisesAddress" ],
+                "properties": {
+                  "PremisesAddress": {
+                    "description": "Address referring to a location which can be occupied by persons or organisations",
+                    "type": "object",
+                    "required": [ "BuildingCsuInformation", "ChiPremisesAddress", "EngPremisesAddress" ],
+                    "properties": {
+                      "BuildingCsuInformation": {
+                        "description": "Information related to the building of the concerned address, including an common identifier of the building",
+                        "type": "object",
+                        "required": [ "CsuId" ],
+                        "properties": {
+                          "CsuId": {
+                            "description": "Unique and persistent identifier for on-ground buildings, formed by concatenating geographic reference number, polygon type and record creation date",
+                            "type": "string",
+                            "pattern": "[0-9]{10}[PT]{1}[0-9]{8}"
+                          }
+                        }
+                      },
+                      "ChiPremisesAddress": {
+                        "description": "Structured postal address in Chinese referring to a location that can be occupied by persons or organisations",
+                        "type": "object",
+                        "required": [ "Region", "ChiDistrict" ],
+                        "properties": {
+                          "Region": {
+                            "description": "Region of the concerned address in Chinese",
+                            "type": "string",
+                            "enum": [
+                              "香港",
+                              "九龍",
+                              "新界"
+                            ]
+                          },
+                          "ChiDistrict": {
+                            "description": "District Council where the concerned address locates in Chinese",
+                            "type": "string",
+                            "enum": [
+                              "中西區",
+                              "東區",
+                              "離島區",
+                              "九龍城區",
+                              "葵青區",
+                              "觀塘區",
+                              "北區",
+                              "西貢區",
+                              "沙田區",
+                              "深水埗區",
+                              "南區",
+                              "大埔區",
+                              "荃灣區",
+                              "屯門區",
+                              "灣仔區",
+                              "黃大仙區",
+                              "油尖旺區",
+                              "元朗區"
+                            ]
+                          },
+                          "ChiStreet": {
+                            "description": "Street name and building number information of the concerned address in Chinese",
+                            "type": "object",
+                            "required": [ "StreetName" ],
+                            "properties": {
+                              "LocationName": {
+                                "description": "Full location name of the concerned address in Chinese",
+                                "type": "string"
+                              },
+                              "StreetName": {
+                                "description": "Full street name of the concerned address in Chinese",
+                                "type": "string"
+                              },
+                              "BuildingNoFrom": {
+                                "description": "Starting building number of the concerned address, or the full building number when a single building number value is concerned, non-numeric part is included (e.g. '12A' in '12A-14B', and '3B' in '3B/3C')",
+                                "type": "string"
+                              },
+                              "BuildingNoTo": {
+                                "description": "Ending building number of the concerned address, non-numeric part is included (e.g. '12B' in '12A-14B', and '3C' in '3B/3C')",
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "ChiVillage": {
+                            "description": "Village name and building number information of the concerned address in Chinese",
+                            "type": "object",
+                            "required": [ "VillageName" ],
+                            "properties": {
+                              "LocationName": {
+                                "description": "Full location name of the concerned address in Chinese",
+                                "type": "string"
+                              },
+                              "VillageName": {
+                                "description": "Full village/place name of the concerned address in Chinese",
+                                "type": "string"
+                              },
+                              "BuildingNoFrom": {
+                                "description": "Starting building number of the concerned address, or the full building number when a single building number value is concerned, non-numeric part is included (e.g. '12A' in '12A-14B', and '3B' in '3B/3C')",
+                                "type": "string"
+                              },
+                              "BuildingNoTo": {
+                                "description": "Ending building number of the concerned address, non-numeric part is included (e.g. '12B' in '12A-14B', and '3C' in '3B/3C')",
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "ChiEstate": {
+                            "description": "Estate name and related information of the concerned address in Chinese",
+                            "type": "object",
+                            "required": [ "EstateName" ],
+                            "properties": {
+                              "EstateName": {
+                                "description": "Estate name of the concerned address in Chinese",
+                                "type": "string"
+                              },
+                              "ChiPhase": {
+                                "description": "Phase name and phase number information of the concerned address in Chinese (e.g. '第一期', '二期')",
+                                "type": "object",
+                                "properties": {
+                                  "PhaseName": {
+                                    "description": "Phase name of the concerned address in Chinese",
+                                    "type": "string"
+                                  },
+                                  "PhaseNo": {
+                                    "description": "Phase number of the concerned address",
+                                    "type": "number"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "BuildingName": {
+                            "description": "Full building name of the concerned address in Chinese",
+                            "type": "string"
+                          },
+                          "ChiBlock": {
+                            "description": "Block information of the concerned address in Chinese",
+                            "type": "object",
+                            "required": [ "BlockNo" ],
+                            "properties": {
+                              "BlockNo": {
+                                "description": "Block number in Chinese or numeric values (e.g. '1','一', '東')",
+                                "type": "string"
+                              },
+                              "BlockDescriptor": {
+                                "description": "Block descriptor in Chinese (e.g. '座', '洋房')",
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "Chi3dAddress": {
+                            "description": "Floor and unit information of the concerned address in Chinese",
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "ChiFloor": {
+                                  "description": "Floor information of the concerned address in Chinese",
+                                  "type": "object",
+                                  "required": [ "FloorNum", "FloorDescription" ],
+                                  "properties": {
+                                    "FloorNum": {
+                                      "description": "Floor number of the concerned address. Available only when the floor information is a numeric value",
+                                      "type": "number"
+                                    },
+                                    "FloorDescription": {
+                                      "description": "Floor description of the concerned address in Chinese (e.g. '大堂層', '地下上層', '天台', '平台', '二樓', '3樓')",
+                                      "type": "string"
+                                    }
+                                  }
+                                },
+                                "ChiUnit": {
+                                  "description": "Unit information of the concerned address in Chinese",
+                                  "type": "object",
+                                  "required": [ "UnitNo" ],
+                                  "properties": {
+                                    "UnitNo": {
+                                      "description": "Unit number (including any non-numeric parts) (e.g. 'A1', '3C')",
+                                      "type": "string"
+                                    },
+                                    "UnitDescriptor": {
+                                      "description": "Unit descriptor in Chinese (e.g. '室', '舖')",
+                                      "type": "string"
+                                    },
+                                    "UnitPortion": {
+                                      "description": "Indicate the concerned portion of a unit in Chinese (e.g. '東部', '及天台')",
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "EngPremisesAddress": {
+                        "description": "Structured postal address in English referring to a location that can be occupied by persons or organisations",
+                        "type": "object",
+                        "required": [ "EngDistrict", "Region" ],
+                        "properties": {
+                          "Eng3dAddress": {
+                            "description": "Floor and unit information of the concerned address in English",
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "EngUnit": {
+                                  "description": "Unit information of the concerned address in English",
+                                  "type": "object",
+                                  "required": [ "UnitNo" ],
+                                  "properties": {
+                                    "UnitDescriptor": {
+                                      "description": "Unit descriptor in English (e.g. 'FLAT', 'SHOP')",
+                                      "type": "string"
+                                    },
+                                    "UnitNo": {
+                                      "description": "Unit number (including any non-numeric parts) (e.g. 'A1', '3C')",
+                                      "type": "string"
+                                    },
+                                    "UnitPortion": {
+                                      "description": "Indicate the concerned portion of a unit in English, where 'CE' = Central, 'CL' = 'Attic', 'E' = East, 'FR' = Front, 'LF' = Left, 'MD' = Middle, 'N' = North, 'NE' = North-East, 'NW' = North-West, 'PH' = Rooftop House, 'PN' = (Portion), 'PT' = (Part), 'RF' = Roof, 'RG' = Right, 'RR' = Rear, 'S' = South, 'SE' = South-East, 'SR' = Terrace, 'SW' = South-West, 'TR' = Roof, 'W' = West",
+                                      "type": "string"
+                                    }
+                                  }
+                                },
+                                "EngFloor": {
+                                  "description": "Floor information of the concerned address in English",
+                                  "type": "object",
+                                  "required": [ "FloorNum", "FloorDescription" ],
+                                  "properties": {
+                                    "FloorNum": {
+                                      "description": "Floor number of the concerned address. Available only when the floor information is a numeric value",
+                                      "type": "number"
+                                    },
+                                    "FloorDescription": {
+                                      "description": "Floor description of the concerned address in English (e.g. 'CONCOURSE', 'UPPER G/F', 'ROOF', 'PODIUM', '2/F', '3/F')",
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "EngBlock": {
+                            "description": "Block information of the concerned address in English",
+                            "type": "object",
+                            "required": [ "BlockNo" ],
+                            "properties": {
+                              "BlockDescriptor": {
+                                "description": "Block descriptor in Chinese (e.g. 'Block', 'House')",
+                                "type": "string"
+                              },
+                              "BlockNo": {
+                                "description": "Block number in English or numeric values (e.g. '1','A', 'EAST')",
+                                "type": "string"
+                              },
+                              "BlockDescriptorPrecedenceIndicator": {
+                                "description": "An indicator showing the ordering of block descriptor and block number in full English address when both are not Null, where 'Y' = block description precedes block number (e.g. in the cases of 'BLOCK A' and 'BLOCK 1'), 'N' = block number precedes block description (e.g. in the cases of 'NORTH BLOCK' and 'WEST TOWER')",
+                                "type": "string",
+                                "enum": [
+                                  "Y",
+                                  "N"
+                                ]
+                              }
+                            }
+                          },
+                          "BuildingName": {
+                            "description": "Full building name of the concerned address in English",
+                            "type": "string"
+                          },
+                          "EngEstate": {
+                            "description": "Estate name and related information of the concerned address in English",
+                            "type": "object",
+                            "required": [ "EstateName" ],
+                            "properties": {
+                              "EstateName": {
+                                "description": "Estate name of the concerned address in English",
+                                "type": "string"
+                              },
+                              "EngPhase": {
+                                "description": "Phase name and phase number information of the concerned address in English (e.g. 'PHASE I', 'STAGE 2')",
+                                "type": "object",
+                                "properties": {
+                                  "PhaseName": {
+                                    "description": "Phase name of the concerned address in English",
+                                    "type": "string"
+                                  },
+                                  "PhaseNo": {
+                                    "description": "Phase number of the concerned address",
+                                    "type": "number"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "EngVillage": {
+                            "description": "Village name and building number information of the concerned address in English",
+                            "type": "object",
+                            "required": [ "VillageName" ],
+                            "properties": {
+                              "BuildingNoFrom": {
+                                "description": "Starting building number of the concerned address, or the full building number when a single building number value is concerned, non-numeric part is included (e.g. '12A' in '12A-14B', and '3B' in '3B/3C')",
+                                "type": "string"
+                              },
+                              "BuildingNoTo": {
+                                "description": "Ending building number of the concerned address, non-numeric part is included (e.g. '12B' in '12A-14B', and '3C' in '3B/3C')",
+                                "type": "string"
+                              },
+                              "VillageName": {
+                                "description": "Full village/place name of the concerned address in English",
+                                "type": "string"
+                              },
+                              "LocationName": {
+                                "description": "Full location name of the concerned address in English",
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "EngStreet": {
+                            "description": "Street name and building number information of the concerned address in English",
+                            "type": "object",
+                            "required": [ "StreetName" ],
+                            "properties": {
+                              "BuildingNoFrom": {
+                                "description": "Starting building number of the concerned address, or the full building number when a single building number value is concerned, non-numeric part is included (e.g. '12A' in '12A-14B', and '3B' in '3B/3C')",
+                                "type": "string"
+                              },
+                              "BuildingNoTo": {
+                                "description": "Ending building number of the concerned address, non-numeric part is included (e.g. '12B' in '12A-14B', and '3C' in '3B/3C')",
+                                "type": "string"
+                              },
+                              "StreetName": {
+                                "description": "Full street name of the concerned address in English",
+                                "type": "string"
+                              },
+                              "LocationName": {
+                                "description": "Full location name of the concerned address in English",
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "EngDistrict": {
+                            "description": "District Council where the concerned address locates in English",
+                            "type": "string",
+                            "enum": [
+                              "CENTRAL & WESTERN DISTRICT",
+                              "EASTERN DISTRICT",
+                              "ISLANDS DISTRICT",
+                              "KOWLOON CITY DISTRICT",
+                              "KWAI TSING DISTRICT",
+                              "KWUN TONG DISTRICT",
+                              "NORTH DISTRICT",
+                              "SAI KUNG DISTRICT",
+                              "SHA TIN DISTRICT",
+                              "SHAM SHUI PO DISTRICT",
+                              "SOUTHERN DISTRICT",
+                              "TAI PO DISTRICT",
+                              "TSUEN WAN DISTRICT",
+                              "TUEN MUN DISTRICT",
+                              "WAN CHAI DISTRICT",
+                              "WONG TAI SIN DISTRICT",
+                              "YAU TSIM MONG DISTRICT",
+                              "YUEN LONG DISTRICT"
+                            ]
+                          },
+                          "Region": {
+                            "description": "Region of the concerned address in English, where 'HK' = Hong Kong, 'KLN' = Kownloon, 'NT' = The New Territories",
+                            "type": "string",
+                            "enum": [
+                              "HK",
+                              "KLN",
+                              "NT"
+                            ]
+                          }
+                        }
+                      },
+                      "GeoAddress": {
+                        "description": "GeoAddress Information",
+                        "type": "string",
+                        "pattern": "[0-9]{10}[PT]{1}[0-9]{8}"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

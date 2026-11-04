@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "country": "TW",
+  "layer_kind": "official_national_road_name",
+  "record_file": "records.csv.gz",
+  "rows": 35798,
+  "files": {
+    "records.csv.gz": {
+      "bytes": 939839,
+      "sha256": "f2d4eaad86ab52ba75f80b4537fd92f7d7dd3d2f6719ca4568d3f34df9eeae7e",
+      "rows": 35798,
+      "columns": [
+        "record_id",
+        "country",
+        "source_ref",
+        "source_row",
+        "source_year",
+        "city",
+        "site_id",
+        "road",
+        "road_en",
+        "road_en_status",
+        "postal_area_id",
+        "postal_area_link_status",
+        "postal_prefixes",
+        "postal_code_scope",
+        "postal_area_name_en",
+        "postal_area_name_en_status"
+      ],
+      "uncompressed_bytes": 9764769,
+      "uncompressed_sha256": "f06ef92a74bce451bb99cf612469c436d67f13cece964ac00279ce11b3a8f7ec"
+    },
+    "sources/national-roads-115.csv.gz": {
+      "bytes": 168176,
+      "sha256": "fa3395267b8b0386d9c6f919f26b970d1741f08b35bde9cde974e4d4440f180b",
+      "rows": 35798,
+      "columns": [
+        "city",
+        "site_id",
+        "road"
+      ],
+      "uncompressed_bytes": 1468149,
+      "uncompressed_sha256": "a58a31cebef9540412753bbf60f35415735b2a26983ccd4d795faa4aa110a05b"
+    },
+    "sources/postal-entities.csv": {
+      "bytes": 35538,
+      "sha256": "5146a5ed579b167bb407e9c4a4451dab5dbeb4e018b62542c70b3999cb4676d1"
+    },
+    "sources/postal-names.csv": {
+      "bytes": 94819,
+      "sha256": "b54416aa40eeab8604a5267b65b330e59991cbdca1608a44cb68ee997fe5cc19"
+    },
+    "sources/postal-postal_links.csv": {
+      "bytes": 34492,
+      "sha256": "b84e5700823686281f6c6495b40660c9face777da414d45e7022305d58808d03"
+    },
+    "sources/postal-sources.json": {
+      "bytes": 949,
+      "sha256": "fe29d42816f77ca4c7ca59f6742b4014ee913a6ee20c6e35b9e5c4ab0f05a3d4"
+    },
+    "sources/api-probe-115-page1.json.gz": {
+      "bytes": 9617,
+      "sha256": "c0c2c497262b8c927397743754800f52b54f33d05255fa0585c8a46a4d25fafc",
+      "uncompressed_bytes": 145251,
+      "uncompressed_sha256": "88a187c356f582c2d5f0df0664b4a4a6a404919e7028cdd3f352e18561f375f6"
+    }
+  },
+  "search_fields": [
+    "city",
+    "site_id",
+    "road",
+    "postal_area_name_en",
+    "postal_prefixes"
+  ],
+  "searchable_fields": [
+    "city",
+    "site_id",
+    "road",
+    "postal_area_name_en",
+    "postal_prefixes"
+  ],
+  "cities": 21,
+  "administrative_areas": 361,
+  "city_rows": {
+    "南投縣": 1033,
+    "嘉義市": 462,
+    "嘉義縣": 955,
+    "基隆市": 239,
+    "宜蘭縣": 1590,
+    "屏東縣": 2424,
+    "彰化縣": 2890,
+    "新北市": 2468,
+    "新竹市": 491,
+    "新竹縣": 1210,
+    "桃園市": 3579,
+    "澎湖縣": 209,
+    "臺中市": 4220,
+    "臺北市": 761,
+    "臺南市": 3038,
+    "臺東縣": 651,
+    "花蓮縣": 1388,
+    "苗栗縣": 1226,
+    "金門縣": 227,
+    "雲林縣": 2000,
+    "高雄市": 4737
+  },
+  "postal_area_link_status": {
+    "unique_exact_label": 33846,
+    "unique_whitespace_fold_label": 1952
+  },
+  "claims": {
+    "national_completeness": false,
+    "currentness": false,
+    "house_number_coverage": false,
+    "full_postcode_coverage": false,
+    "delivery_coverage": false,
+    "legal_admin_equivalence": false
+  },
+  "scope": "Source-listed road names and postal-area label candidates only; no house-number, six-digit postcode, delivery or legal administrative-boundary inference."
+}
