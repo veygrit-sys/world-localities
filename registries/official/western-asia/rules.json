@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-05",
+  "scope": "Format/identifier rules and official source leads; no nationwide postal reference snapshot or deliverability verification.",
+  "countries": {
+    "TR": {
+      "country_code": "TR",
+      "locality_fields": [
+        "province",
+        "district",
+        "neighbourhood",
+        "village",
+        "street",
+        "building",
+        "unit",
+        "po_box"
+      ],
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "sources": [
+        {
+          "id": "TR-UPU-2022",
+          "authority": "Universal Postal Union / PTT",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/turEn.pdf",
+          "role": "address_and_postcode_syntax",
+          "publication": "2022-07",
+          "reuse": "reference_only"
+        },
+        {
+          "id": "TR-PTT-LOOKUP",
+          "authority": "PTT via e-Devlet",
+          "url": "https://www.turkiye.gov.tr/ptt-posta-kodu-sorgulama",
+          "role": "province_district_neighbourhood_postcode_lookup",
+          "publication": null,
+          "reuse": "needs_review_before_bulk_import"
+        }
+      ]
+    },
+    "CY": {
+      "country_code": "CY",
+      "locality_fields": [
+        "district",
+        "municipality",
+        "village",
+        "street",
+        "building",
+        "unit",
+        "po_box"
+      ],
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "sources": [
+        {
+          "id": "CY-UPU-2023",
+          "authority": "Universal Postal Union / Cyprus Post",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/cypEn.pdf",
+          "role": "domestic_inbound_postcode_format",
+          "publication": "2023-03",
+          "reuse": "reference_only"
+        },
+        {
+          "id": "CY-POST-DIRECTORY",
+          "authority": "Republic of Cyprus open data / Cyprus Post",
+          "url": "https://www.data.gov.cy/en/dataset/385",
+          "role": "official_greek_english_postcode_directory_xlsx",
+          "publication": "2024-09-18",
+          "reuse": "CC-BY-4.0_dataset_not_imported"
+        }
+      ]
+    },
+    "KW": {
+      "country_code": "KW",
+      "locality_fields": [
+        "governorate",
+        "area",
+        "block",
+        "street",
+        "building",
+        "unit",
+        "po_box"
+      ],
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "sources": [
+        {
+          "id": "KW-UPU-2002",
+          "authority": "Universal Postal Union / Kuwait postal sector",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/kwtEn.pdf",
+          "role": "five_digit_postcode_and_delivery_modes",
+          "publication": "2002-07",
+          "reuse": "reference_only_stale"
+        },
+        {
+          "id": "KW-MOC-LOOKUP",
+          "authority": "Kuwait Ministry of Communications",
+          "url": "https://www.moc.gov.kw/en/important-links?tab=2",
+          "role": "block_and_po_box_reference_directories",
+          "publication": null,
+          "reuse": "needs_license_review_before_bulk_import"
+        }
+      ]
+    },
+    "AE": {
+      "country_code": "AE",
+      "locality_fields": [
+        "emirate",
+        "city",
+        "area",
+        "street",
+        "building",
+        "unit",
+        "po_box",
+        "makani",
+        "onwani_postcode"
+      ],
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "sources": [
+        {
+          "id": "AE-EMIRATES-POST",
+          "authority": "Emirates Post",
+          "url": "https://www.emiratespost.ae/faq",
+          "role": "emirate_po_box_physical_address_rules",
+          "publication": null,
+          "reuse": "reference_only"
+        },
+        {
+          "id": "AE-DUBAI-MAKANI",
+          "authority": "Dubai Municipality",
+          "url": "https://www.dm.gov.ae/open-data2/open-data-for-makani/",
+          "role": "ten_digit_makani_building_entrance_identifier",
+          "publication": null,
+          "reuse": "no_sale_source_attribution_required_review_before_import"
+        },
+        {
+          "id": "AE-ABUDHABI-ONWANI",
+          "authority": "Abu Dhabi Onwani",
+          "url": "https://onwani.abudhabi.ae/",
+          "role": "abu_dhabi_building_street_area_onwani_postcode",
+          "publication": null,
+          "reuse": "needs_review_before_import"
+        },
+        {
+          "id": "AE-UPU-2014",
+          "authority": "Universal Postal Union / Emirates Post",
+          "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/areEn.pdf",
+          "role": "historical_po_box_address_example_only",
+          "publication": "2014-09",
+          "reuse": "reference_only_stale"
+        }
+      ]
+    }
+  }
+}
