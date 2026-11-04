@@ -5,6 +5,10 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.head.ref || github.ref_name }}
+  cancel-in-progress: true
+
 jobs:
   inventory:
     runs-on: ubuntu-latest
@@ -17,5 +21,6 @@ jobs:
         with:
           python-version: '3.11'
       - run: python scripts/country_modules.py validate
+      - run: python -m localities country validate-catalog
       - run: python -m unittest discover -s tests -p 'test_country_modules.py' -v
       - run: python -m localities layout

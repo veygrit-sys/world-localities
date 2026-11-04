@@ -61,7 +61,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: addressing-quality-${{ github.workflow }}-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.event.pull_request.head.ref || github.ref_name }}
   cancel-in-progress: true
 
 jobs:

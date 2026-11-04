@@ -6,6 +6,11 @@
 
 | 目的 | 入口 |
 |---|---|
+| 国別の原典・品質・検証・復元 | `python -m localities country inspect / verify / restore`（[使い方](../docs/country-modules.md)） |
+| 日本のデータバンドル | [country_bundle.py](country_bundle.py) |
+| 独立した住所評価 | [evaluate_addresses.py](evaluate_addresses.py) |
+| 配布記録とローカル実物の照合 | [artifact_audit.py](artifact_audit.py) |
+| 国別一覧の生成・同期検査 | [render_country_index.py](render_country_index.py) |
 | 国別の対象一覧・参照整合性 | [country_modules.py](country_modules.py) |
 | 共有コードと地域台帳の構成検査 | `python -m localities layout` |
 | 地域階層の操作入口 | [hierarchy_cli.py](hierarchy_cli.py) |

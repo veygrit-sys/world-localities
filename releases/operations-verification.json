@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "source_data_commit": "592c226c8353b766689364cc5a7fdbc690346524",
+  "checked_on": "2026-11-04",
+  "checks": {
+    "common_regression": {
+      "tests": 630,
+      "status": "passed",
+      "skipped": 0
+    },
+    "hierarchy_regression": {
+      "tests": 247,
+      "status": "passed"
+    },
+    "regional_baselines": {
+      "tests": 119,
+      "status": "passed"
+    },
+    "country_catalog": {
+      "countries": 250,
+      "layers": 502,
+      "status": "passed"
+    },
+    "country_inspect_all_scopes": {
+      "countries": 250,
+      "errors": 0
+    },
+    "country_verify_pilots": {
+      "JP": "archive/member integrity and deterministic row replay; official stored hashes",
+      "DE": "stored hashes and deterministic row replay",
+      "BM": "selected administrative observations and evidence references"
+    },
+    "original_registry_addressing_and_hierarchy_data": "unchanged",
+    "jp_bundle_round_trip": "releases/countries/JP/bundle-verification.json",
+    "local_archive_availability": "releases/artifact-audit-baseline.json"
+  },
+  "independent_evaluation_gold": "not_collected",
+  "independent_accuracy_claims": false,
+  "public_bundle_release": false,
+  "freshness_or_national_completeness_claims_added": false
+}

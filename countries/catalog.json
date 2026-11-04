@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scope_source": "releases/world-coverage/20261018/coverage.csv",
-  "scope_note": "250 collection codes, not a sovereign country count; path matches are inventory hints, not proof of coverage.",
+  "scope_note": "250 collection codes, not a sovereign country count. Physical paths are an inventory; shared record selection, source layers and verification contracts are in semantic_catalog.",
   "countries": [
     {
       "code": "AD",
@@ -11,7 +11,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/AD/admin1.csv",
         "registries/europe/countries/AD/entities-0001.csv.gz",
@@ -23,7 +23,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "AD"
     },
     {
       "code": "AE",
@@ -33,7 +34,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/AE.zip"
       ],
@@ -43,7 +44,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "AE"
     },
     {
       "code": "AF",
@@ -53,7 +55,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/AF.zip"
       ],
@@ -63,7 +65,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "AF"
     },
     {
       "code": "AG",
@@ -73,7 +76,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/AG/admin1.csv",
         "registries/caribbean/countries/AG/alternate-names.csv.gz",
@@ -86,7 +89,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "AG"
     },
     {
       "code": "AI",
@@ -96,7 +100,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/AI/admin1.csv",
         "registries/caribbean/countries/AI/alternate-names.csv.gz",
@@ -109,7 +113,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "AI"
     },
     {
       "code": "AL",
@@ -119,7 +124,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/AL/admin1.csv",
         "registries/europe/countries/AL/entities-0001.csv.gz",
@@ -131,7 +136,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "AL"
     },
     {
       "code": "AM",
@@ -141,7 +147,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/AM.zip",
         "registries/europe/countries/AM/admin1.csv",
@@ -154,7 +160,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "AM"
     },
     {
       "code": "AO",
@@ -164,7 +171,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/AO/admin1.csv",
         "registries/africa/countries/AO/entities.csv.gz",
@@ -176,7 +183,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "AO"
     },
     {
       "code": "AQ",
@@ -186,7 +194,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "shared_sources_need_mapping",
+      "inventory_status": "format_only",
       "paths": [],
       "release_manifests": [],
       "quality": {
@@ -194,7 +202,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "acquire_and_pin_country_source",
+      "module_id": "AQ"
     },
     {
       "code": "AR",
@@ -204,7 +213,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/south-america/.parts/countries/AR/alternate-values.csv.gz/part-0001.bin",
         "registries/south-america/.parts/countries/AR/alternate-values.csv.gz/part-0002.bin",
@@ -219,7 +228,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "AR"
     },
     {
       "code": "AS",
@@ -229,7 +239,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/AS/index.json",
         "registries/oceania/countries/AS/part-001.b64"
@@ -240,7 +250,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "AS"
     },
     {
       "code": "AT",
@@ -250,7 +261,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/AT/admin1.csv",
         "registries/europe/countries/AT/entities-0001.csv.gz",
@@ -266,7 +277,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "AT"
     },
     {
       "code": "AU",
@@ -276,7 +288,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/AU/index.json",
         "registries/oceania/countries/AU/part-001.b64",
@@ -308,7 +320,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "AU"
     },
     {
       "code": "AW",
@@ -318,7 +331,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/AW/admin1.csv",
         "registries/caribbean/countries/AW/alternate-names.csv.gz",
@@ -331,7 +344,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "AW"
     },
     {
       "code": "AX",
@@ -341,7 +355,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/AX/admin1.csv",
         "registries/europe/countries/AX/entities-0001.csv.gz",
@@ -353,7 +367,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "AX"
     },
     {
       "code": "AZ",
@@ -363,7 +378,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/AZ.zip",
         "registries/europe/countries/AZ/admin1.csv",
@@ -376,7 +391,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "AZ"
     },
     {
       "code": "BA",
@@ -386,7 +402,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/BA/admin1.csv",
         "registries/europe/countries/BA/entities-0001.csv.gz",
@@ -399,7 +415,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "BA"
     },
     {
       "code": "BB",
@@ -409,7 +426,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/BB/admin1.csv",
         "registries/caribbean/countries/BB/alternate-names.csv.gz",
@@ -422,7 +439,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "BB"
     },
     {
       "code": "BD",
@@ -432,7 +450,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/BD.zip"
       ],
@@ -442,7 +460,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "BD"
     },
     {
       "code": "BE",
@@ -452,7 +471,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/BE/admin1.csv",
         "registries/europe/countries/BE/entities-0001.csv.gz",
@@ -467,7 +486,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "BE"
     },
     {
       "code": "BF",
@@ -477,7 +497,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/BF/admin1.csv",
         "registries/africa/countries/BF/entities.csv.gz",
@@ -489,7 +509,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "BF"
     },
     {
       "code": "BG",
@@ -499,7 +520,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/BG/admin1.csv",
         "registries/europe/countries/BG/entities-0001.csv.gz",
@@ -514,7 +535,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "BG"
     },
     {
       "code": "BH",
@@ -524,7 +546,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/BH.zip"
       ],
@@ -534,7 +556,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "BH"
     },
     {
       "code": "BI",
@@ -544,7 +567,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/BI/admin1.csv",
         "registries/africa/countries/BI/entities.csv.gz",
@@ -556,7 +579,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "BI"
     },
     {
       "code": "BJ",
@@ -566,7 +590,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/BJ/admin1.csv",
         "registries/africa/countries/BJ/entities.csv.gz",
@@ -578,7 +602,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "BJ"
     },
     {
       "code": "BL",
@@ -588,7 +613,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/BL/admin1.csv",
         "registries/caribbean/countries/BL/alternate-names.csv.gz",
@@ -602,7 +627,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "BL"
     },
     {
       "code": "BM",
@@ -612,15 +638,18 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "shared_sources_need_mapping",
-      "paths": [],
+      "inventory_status": "partial_observations",
+      "paths": [
+        "registries/north-america/admin-seeds.json"
+      ],
       "release_manifests": [],
       "quality": {
         "national_completeness_verified": false,
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "acquire_full_locality_source_and_review_seed_terms",
+      "module_id": "BM"
     },
     {
       "code": "BN",
@@ -630,7 +659,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/BN.zip"
       ],
@@ -640,7 +669,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "BN"
     },
     {
       "code": "BO",
@@ -650,7 +680,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/south-america/.parts/countries/BO/entities.csv.gz/part-0001.bin",
         "registries/south-america/.parts/countries/BO/entities.csv.gz/part-0002.bin",
@@ -664,7 +694,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "BO"
     },
     {
       "code": "BQ",
@@ -674,7 +705,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/BQ/admin1.csv",
         "registries/caribbean/countries/BQ/alternate-names.csv.gz",
@@ -687,7 +718,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "BQ"
     },
     {
       "code": "BR",
@@ -697,7 +729,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/official/BR/BR-AC.csv",
         "registries/official/BR/BR-AL.csv",
@@ -752,7 +784,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "BR"
     },
     {
       "code": "BS",
@@ -762,7 +795,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/BS/admin1.csv",
         "registries/caribbean/countries/BS/alternate-names.csv.gz",
@@ -775,7 +808,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "BS"
     },
     {
       "code": "BT",
@@ -785,7 +819,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/BT.zip"
       ],
@@ -795,7 +829,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "BT"
     },
     {
       "code": "BV",
@@ -805,7 +840,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/south-america/countries/BV/admin1.csv",
         "registries/south-america/countries/BV/alternate-values.csv.gz",
@@ -818,7 +853,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "BV"
     },
     {
       "code": "BW",
@@ -828,7 +864,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/BW/admin1.csv",
         "registries/africa/countries/BW/entities.csv.gz",
@@ -840,7 +876,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "BW"
     },
     {
       "code": "BY",
@@ -850,7 +887,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/BY/admin1.csv",
         "registries/europe/countries/BY/entities-0001.csv.gz",
@@ -863,7 +900,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "BY"
     },
     {
       "code": "BZ",
@@ -873,7 +911,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/central-america/countries/BZ/admin1.csv",
         "registries/central-america/countries/BZ/entities.csv.gz",
@@ -891,7 +929,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "BZ"
     },
     {
       "code": "CA",
@@ -901,7 +940,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/official/CA/CA-AB.csv",
         "registries/official/CA/CA-BC.csv",
@@ -928,7 +967,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "CA"
     },
     {
       "code": "CC",
@@ -938,7 +978,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/CC/index.json",
         "registries/oceania/countries/CC/part-001.b64"
@@ -949,7 +989,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "CC"
     },
     {
       "code": "CD",
@@ -959,7 +1000,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "shared_sources_need_mapping",
+      "inventory_status": "format_only",
       "paths": [],
       "release_manifests": [],
       "quality": {
@@ -967,7 +1008,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "acquire_and_pin_country_source",
+      "module_id": "CD"
     },
     {
       "code": "CF",
@@ -977,7 +1019,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/CF/admin1.csv",
         "registries/africa/countries/CF/entities.csv.gz",
@@ -989,7 +1031,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "CF"
     },
     {
       "code": "CG",
@@ -999,7 +1042,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/CG/admin1.csv",
         "registries/africa/countries/CG/entities.csv.gz",
@@ -1011,7 +1054,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "CG"
     },
     {
       "code": "CH",
@@ -1021,7 +1065,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/CH/admin1.csv",
         "registries/europe/countries/CH/entities-0001.csv.gz",
@@ -1036,7 +1080,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "CH"
     },
     {
       "code": "CI",
@@ -1046,7 +1091,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/CI/admin1.csv",
         "registries/africa/countries/CI/entities.csv.gz",
@@ -1058,7 +1103,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "CI"
     },
     {
       "code": "CK",
@@ -1068,7 +1114,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/CK/index.json",
         "registries/oceania/countries/CK/part-001.b64"
@@ -1079,7 +1125,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "CK"
     },
     {
       "code": "CL",
@@ -1089,7 +1136,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/south-america/countries/CL/admin1.csv",
         "registries/south-america/countries/CL/alternate-values.csv.gz",
@@ -1102,7 +1149,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "CL"
     },
     {
       "code": "CM",
@@ -1112,7 +1160,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/CM/admin1.csv",
         "registries/africa/countries/CM/entities.csv.gz",
@@ -1124,7 +1172,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "CM"
     },
     {
       "code": "CN",
@@ -1134,7 +1183,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/CN.zip.part001",
         "registries/asia/country-archives/CN.zip.part002",
@@ -1149,7 +1198,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "CN"
     },
     {
       "code": "CO",
@@ -1159,7 +1209,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/south-america/.parts/countries/CO/entities.csv.gz/part-0001.bin",
         "registries/south-america/.parts/countries/CO/entities.csv.gz/part-0002.bin",
@@ -1174,7 +1224,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "CO"
     },
     {
       "code": "CR",
@@ -1184,7 +1235,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "format_only",
       "paths": [
         "registries/central-america/enrichment/countries/CR/admin1.csv",
         "registries/central-america/enrichment/countries/CR/entities.csv.gz",
@@ -1205,7 +1256,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "acquire_and_pin_country_source",
+      "module_id": "CR"
     },
     {
       "code": "CU",
@@ -1215,7 +1267,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "shared_sources_need_mapping",
+      "inventory_status": "format_only",
       "paths": [],
       "release_manifests": [],
       "quality": {
@@ -1223,7 +1275,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "acquire_and_pin_country_source",
+      "module_id": "CU"
     },
     {
       "code": "CV",
@@ -1233,7 +1286,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/CV/admin1.csv",
         "registries/africa/countries/CV/entities.csv.gz",
@@ -1245,7 +1298,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "CV"
     },
     {
       "code": "CW",
@@ -1255,7 +1309,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/CW/admin1.csv",
         "registries/caribbean/countries/CW/alternate-names.csv.gz",
@@ -1268,7 +1322,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "CW"
     },
     {
       "code": "CX",
@@ -1278,7 +1333,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/CX/index.json",
         "registries/oceania/countries/CX/part-001.b64"
@@ -1289,7 +1344,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "CX"
     },
     {
       "code": "CY",
@@ -1299,7 +1355,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/CY.zip",
         "registries/europe/countries/CY/admin1.csv",
@@ -1315,7 +1371,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "CY"
     },
     {
       "code": "CZ",
@@ -1325,7 +1382,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/CZ/admin1.csv",
         "registries/europe/countries/CZ/entities-0001.csv.gz",
@@ -1341,7 +1398,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "CZ"
     },
     {
       "code": "DE",
@@ -1351,7 +1409,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/DE/admin1.csv",
         "registries/europe/countries/DE/entities-0001.csv.gz",
@@ -1370,7 +1428,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "DE"
     },
     {
       "code": "DJ",
@@ -1380,7 +1439,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/DJ/admin1.csv",
         "registries/africa/countries/DJ/entities.csv.gz",
@@ -1392,7 +1451,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "DJ"
     },
     {
       "code": "DK",
@@ -1402,7 +1462,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/DK/admin1.csv",
         "registries/europe/countries/DK/entities-0001.csv.gz",
@@ -1417,7 +1477,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "DK"
     },
     {
       "code": "DM",
@@ -1427,7 +1488,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/DM/admin1.csv",
         "registries/caribbean/countries/DM/alternate-names.csv.gz",
@@ -1440,7 +1501,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "DM"
     },
     {
       "code": "DO",
@@ -1450,7 +1512,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/.parts/DO/entities.csv.gz.part001.bin",
         "registries/caribbean/.parts/DO/entities.csv.gz.part002.bin",
@@ -1464,7 +1526,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "DO"
     },
     {
       "code": "DZ",
@@ -1474,7 +1537,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/DZ/admin1.csv",
         "registries/africa/countries/DZ/entities.csv.gz",
@@ -1487,7 +1550,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "DZ"
     },
     {
       "code": "EC",
@@ -1497,7 +1561,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/south-america/countries/EC/admin1.csv",
         "registries/south-america/countries/EC/alternate-values.csv.gz",
@@ -1510,7 +1574,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "EC"
     },
     {
       "code": "EE",
@@ -1520,7 +1585,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/EE/admin1.csv",
         "registries/europe/countries/EE/entities-0001.csv.gz",
@@ -1535,7 +1600,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "EE"
     },
     {
       "code": "EG",
@@ -1545,7 +1611,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/EG/admin1.csv",
         "registries/africa/countries/EG/entities.csv.gz",
@@ -1557,7 +1623,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "EG"
     },
     {
       "code": "EH",
@@ -1567,7 +1634,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/EH/admin1.csv",
         "registries/africa/countries/EH/entities.csv.gz",
@@ -1579,7 +1646,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "EH"
     },
     {
       "code": "ER",
@@ -1589,7 +1657,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/ER/admin1.csv",
         "registries/africa/countries/ER/entities.csv.gz",
@@ -1601,7 +1669,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "ER"
     },
     {
       "code": "ES",
@@ -1611,7 +1680,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/ES/admin1.csv",
         "registries/europe/countries/ES/entities-0001.csv.gz",
@@ -1627,7 +1696,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "ES"
     },
     {
       "code": "ET",
@@ -1637,7 +1707,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/ET/admin1.csv",
         "registries/africa/countries/ET/entities.csv.gz",
@@ -1649,7 +1719,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "ET"
     },
     {
       "code": "FI",
@@ -1659,7 +1730,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/FI/admin1.csv",
         "registries/europe/countries/FI/entities-0001.csv.gz",
@@ -1675,7 +1746,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "FI"
     },
     {
       "code": "FJ",
@@ -1685,7 +1757,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/FJ/index.json",
         "registries/oceania/countries/FJ/part-001.b64",
@@ -1698,7 +1770,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "FJ"
     },
     {
       "code": "FK",
@@ -1708,7 +1781,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/south-america/countries/FK/admin1.csv",
         "registries/south-america/countries/FK/alternate-values.csv.gz",
@@ -1721,7 +1794,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "FK"
     },
     {
       "code": "FM",
@@ -1731,7 +1805,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/FM/index.json",
         "registries/oceania/countries/FM/part-001.b64"
@@ -1742,7 +1816,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "FM"
     },
     {
       "code": "FO",
@@ -1752,7 +1827,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/FO/admin1.csv",
         "registries/europe/countries/FO/entities-0001.csv.gz",
@@ -1764,7 +1839,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "FO"
     },
     {
       "code": "FR",
@@ -1774,7 +1850,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/FR/admin1.csv",
         "registries/europe/countries/FR/entities-0001.csv.gz",
@@ -1794,7 +1870,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "FR"
     },
     {
       "code": "GA",
@@ -1804,7 +1881,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/GA/admin1.csv",
         "registries/africa/countries/GA/entities.csv.gz",
@@ -1816,7 +1893,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "GA"
     },
     {
       "code": "GB",
@@ -1826,7 +1904,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/GB/admin1.csv",
         "registries/europe/countries/GB/entities-0001.csv.gz",
@@ -1840,7 +1918,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "GB"
     },
     {
       "code": "GD",
@@ -1850,7 +1929,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/GD/admin1.csv",
         "registries/caribbean/countries/GD/alternate-names.csv.gz",
@@ -1863,7 +1942,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "GD"
     },
     {
       "code": "GE",
@@ -1873,7 +1953,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/GE.zip",
         "registries/europe/countries/GE/admin1.csv",
@@ -1886,7 +1966,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "GE"
     },
     {
       "code": "GF",
@@ -1896,7 +1977,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/south-america/countries/GF/admin1.csv",
         "registries/south-america/countries/GF/alternate-values.csv.gz",
@@ -1909,7 +1990,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "GF"
     },
     {
       "code": "GG",
@@ -1919,7 +2001,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/GG/admin1.csv",
         "registries/europe/countries/GG/entities-0001.csv.gz",
@@ -1931,7 +2013,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "GG"
     },
     {
       "code": "GH",
@@ -1941,7 +2024,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/GH/admin1.csv",
         "registries/africa/countries/GH/entities.csv.gz",
@@ -1953,7 +2036,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "GH"
     },
     {
       "code": "GI",
@@ -1963,7 +2047,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/GI/admin1.csv",
         "registries/europe/countries/GI/entities-0001.csv.gz",
@@ -1975,7 +2059,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "GI"
     },
     {
       "code": "GL",
@@ -1985,15 +2070,18 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "shared_sources_need_mapping",
-      "paths": [],
+      "inventory_status": "partial_observations",
+      "paths": [
+        "registries/north-america/admin-seeds.json"
+      ],
       "release_manifests": [],
       "quality": {
         "national_completeness_verified": false,
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "acquire_full_locality_source_and_review_seed_terms",
+      "module_id": "GL"
     },
     {
       "code": "GM",
@@ -2003,7 +2091,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/GM/admin1.csv",
         "registries/africa/countries/GM/entities.csv.gz",
@@ -2015,7 +2103,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "GM"
     },
     {
       "code": "GN",
@@ -2025,7 +2114,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/GN/admin1.csv",
         "registries/africa/countries/GN/entities.csv.gz",
@@ -2037,7 +2126,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "GN"
     },
     {
       "code": "GP",
@@ -2047,7 +2137,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/GP/admin1.csv",
         "registries/caribbean/countries/GP/alternate-names.csv.gz",
@@ -2061,7 +2151,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "GP"
     },
     {
       "code": "GQ",
@@ -2071,7 +2162,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/GQ/admin1.csv",
         "registries/africa/countries/GQ/entities.csv.gz",
@@ -2083,7 +2174,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "GQ"
     },
     {
       "code": "GR",
@@ -2093,7 +2185,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/GR/admin1.csv",
         "registries/europe/countries/GR/entities-0001.csv.gz",
@@ -2108,7 +2200,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "GR"
     },
     {
       "code": "GS",
@@ -2118,7 +2211,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/south-america/countries/GS/admin1.csv",
         "registries/south-america/countries/GS/alternate-values.csv.gz",
@@ -2131,7 +2224,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "GS"
     },
     {
       "code": "GT",
@@ -2141,7 +2235,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/central-america/.parts/GT/sources/GT.zip/part-0001.bin",
         "registries/central-america/.parts/GT/sources/GT.zip/part-0002.bin",
@@ -2160,7 +2254,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "GT"
     },
     {
       "code": "GU",
@@ -2170,7 +2265,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/GU/index.json",
         "registries/oceania/countries/GU/part-001.b64"
@@ -2181,7 +2276,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "GU"
     },
     {
       "code": "GW",
@@ -2191,7 +2287,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/GW/admin1.csv",
         "registries/africa/countries/GW/entities.csv.gz",
@@ -2203,7 +2299,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "GW"
     },
     {
       "code": "GY",
@@ -2213,7 +2310,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/south-america/countries/GY/admin1.csv",
         "registries/south-america/countries/GY/alternate-values.csv.gz",
@@ -2226,7 +2323,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "GY"
     },
     {
       "code": "HK",
@@ -2236,7 +2334,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/HK.zip",
         "releases/hierarchy/east-asia/reports/HK.projection.json"
@@ -2247,7 +2345,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "HK"
     },
     {
       "code": "HM",
@@ -2257,7 +2356,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/HM/index.json",
         "registries/oceania/countries/HM/part-001.b64"
@@ -2268,7 +2367,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "HM"
     },
     {
       "code": "HN",
@@ -2278,7 +2378,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/central-america/countries/HN/admin1.csv",
         "registries/central-america/countries/HN/entities.csv.gz",
@@ -2296,7 +2396,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "HN"
     },
     {
       "code": "HR",
@@ -2306,7 +2407,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/HR/admin1.csv",
         "registries/europe/countries/HR/entities-0001.csv.gz",
@@ -2321,7 +2422,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "HR"
     },
     {
       "code": "HT",
@@ -2331,7 +2433,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/HT/admin1.csv",
         "registries/caribbean/countries/HT/alternate-names.csv.gz",
@@ -2344,7 +2446,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "HT"
     },
     {
       "code": "HU",
@@ -2354,7 +2457,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/HU/admin1.csv",
         "registries/europe/countries/HU/entities-0001.csv.gz",
@@ -2369,7 +2472,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "HU"
     },
     {
       "code": "ID",
@@ -2379,7 +2483,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/ID.zip.part001",
         "registries/asia/country-archives/ID.zip.part002"
@@ -2390,7 +2494,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "ID"
     },
     {
       "code": "IE",
@@ -2400,7 +2505,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/IE/admin1.csv",
         "registries/europe/countries/IE/entities-0001.csv.gz",
@@ -2415,7 +2520,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "IE"
     },
     {
       "code": "IL",
@@ -2425,7 +2531,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/IL.zip"
       ],
@@ -2435,7 +2541,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "IL"
     },
     {
       "code": "IM",
@@ -2445,7 +2552,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/IM/admin1.csv",
         "registries/europe/countries/IM/entities-0001.csv.gz",
@@ -2457,7 +2564,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "IM"
     },
     {
       "code": "IN",
@@ -2467,7 +2575,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/IN.zip.part001",
         "registries/asia/country-archives/IN.zip.part002"
@@ -2478,7 +2586,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "IN"
     },
     {
       "code": "IO",
@@ -2488,7 +2597,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/IO/admin1.csv",
         "registries/africa/countries/IO/entities.csv.gz",
@@ -2500,7 +2609,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "IO"
     },
     {
       "code": "IQ",
@@ -2510,7 +2620,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/IQ.zip"
       ],
@@ -2520,7 +2630,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "IQ"
     },
     {
       "code": "IR",
@@ -2530,7 +2641,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/IR.zip"
       ],
@@ -2540,7 +2651,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "IR"
     },
     {
       "code": "IS",
@@ -2550,7 +2662,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/IS/admin1.csv",
         "registries/europe/countries/IS/entities-0001.csv.gz",
@@ -2562,7 +2674,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "IS"
     },
     {
       "code": "IT",
@@ -2572,7 +2685,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/IT/admin1.csv",
         "registries/europe/countries/IT/entities-0001.csv.gz",
@@ -2590,7 +2703,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "IT"
     },
     {
       "code": "JE",
@@ -2600,7 +2714,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/JE/admin1.csv",
         "registries/europe/countries/JE/entities-0001.csv.gz",
@@ -2612,7 +2726,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "JE"
     },
     {
       "code": "JM",
@@ -2622,7 +2737,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/JM/admin1.csv",
         "registries/caribbean/countries/JM/alternate-names.csv.gz",
@@ -2635,7 +2750,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "JM"
     },
     {
       "code": "JO",
@@ -2645,7 +2761,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/JO.zip"
       ],
@@ -2655,7 +2771,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "JO"
     },
     {
       "code": "JP",
@@ -2665,7 +2782,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/JP.zip",
         "registries/official/JP/ODbL-1.0.txt",
@@ -2689,7 +2806,9 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_quality_and_terms_before_public_bundle_release",
+      "module_id": "JP",
+      "local_bundle_evidence": "releases/countries/JP/bundle-verification.json"
     },
     {
       "code": "KE",
@@ -2699,7 +2818,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/KE/admin1.csv",
         "registries/africa/countries/KE/entities.csv.gz",
@@ -2711,7 +2830,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "KE"
     },
     {
       "code": "KG",
@@ -2721,7 +2841,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/KG.zip"
       ],
@@ -2731,7 +2851,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "KG"
     },
     {
       "code": "KH",
@@ -2741,7 +2862,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/KH.zip"
       ],
@@ -2751,7 +2872,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "KH"
     },
     {
       "code": "KI",
@@ -2761,7 +2883,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/KI/index.json",
         "registries/oceania/countries/KI/part-001.b64"
@@ -2772,7 +2894,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "KI"
     },
     {
       "code": "KM",
@@ -2782,7 +2905,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/KM/admin1.csv",
         "registries/africa/countries/KM/entities.csv.gz",
@@ -2794,7 +2917,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "KM"
     },
     {
       "code": "KN",
@@ -2804,7 +2928,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/KN/admin1.csv",
         "registries/caribbean/countries/KN/alternate-names.csv.gz",
@@ -2817,7 +2941,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "KN"
     },
     {
       "code": "KP",
@@ -2827,7 +2952,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/KP.zip",
         "releases/hierarchy/east-asia/reports/KP.projection.json"
@@ -2838,7 +2963,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "KP"
     },
     {
       "code": "KR",
@@ -2848,7 +2974,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/KR.zip",
         "releases/hierarchy/east-asia/reports/KR.projection.json"
@@ -2859,7 +2985,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "KR"
     },
     {
       "code": "KW",
@@ -2869,7 +2996,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/KW.zip"
       ],
@@ -2879,7 +3006,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "KW"
     },
     {
       "code": "KY",
@@ -2889,7 +3017,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/KY/admin1.csv",
         "registries/caribbean/countries/KY/alternate-names.csv.gz",
@@ -2902,7 +3030,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "KY"
     },
     {
       "code": "KZ",
@@ -2912,7 +3041,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/KZ.zip"
       ],
@@ -2922,7 +3051,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "KZ"
     },
     {
       "code": "LA",
@@ -2932,7 +3062,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/LA.zip"
       ],
@@ -2942,7 +3072,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "LA"
     },
     {
       "code": "LB",
@@ -2952,7 +3083,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/LB.zip"
       ],
@@ -2962,7 +3093,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "LB"
     },
     {
       "code": "LC",
@@ -2972,7 +3104,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/LC/admin1.csv",
         "registries/caribbean/countries/LC/alternate-names.csv.gz",
@@ -2985,7 +3117,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "LC"
     },
     {
       "code": "LI",
@@ -2995,7 +3128,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/LI/admin1.csv",
         "registries/europe/countries/LI/entities-0001.csv.gz",
@@ -3007,7 +3140,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "LI"
     },
     {
       "code": "LK",
@@ -3017,7 +3151,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/LK.zip"
       ],
@@ -3027,7 +3161,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "LK"
     },
     {
       "code": "LR",
@@ -3037,7 +3172,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/LR/admin1.csv",
         "registries/africa/countries/LR/entities.csv.gz",
@@ -3049,7 +3184,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "LR"
     },
     {
       "code": "LS",
@@ -3059,7 +3195,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/LS/admin1.csv",
         "registries/africa/countries/LS/entities.csv.gz",
@@ -3071,7 +3207,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "LS"
     },
     {
       "code": "LT",
@@ -3081,7 +3218,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/LT/admin1.csv",
         "registries/europe/countries/LT/entities-0001.csv.gz",
@@ -3097,7 +3234,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "LT"
     },
     {
       "code": "LU",
@@ -3107,7 +3245,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/LU/admin1.csv",
         "registries/europe/countries/LU/entities-0001.csv.gz",
@@ -3122,7 +3260,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "LU"
     },
     {
       "code": "LV",
@@ -3132,7 +3271,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/LV/admin1.csv",
         "registries/europe/countries/LV/entities-0001.csv.gz",
@@ -3147,7 +3286,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "LV"
     },
     {
       "code": "LY",
@@ -3157,7 +3297,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/LY/admin1.csv",
         "registries/africa/countries/LY/entities.csv.gz",
@@ -3169,7 +3309,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "LY"
     },
     {
       "code": "MA",
@@ -3179,7 +3320,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "shared_sources_need_mapping",
+      "inventory_status": "format_only",
       "paths": [],
       "release_manifests": [],
       "quality": {
@@ -3187,7 +3328,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "acquire_and_pin_country_source",
+      "module_id": "MA"
     },
     {
       "code": "MC",
@@ -3197,7 +3339,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/MC/admin1.csv",
         "registries/europe/countries/MC/entities-0001.csv.gz",
@@ -3209,7 +3351,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "MC"
     },
     {
       "code": "MD",
@@ -3219,7 +3362,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/MD/admin1.csv",
         "registries/europe/countries/MD/entities-0001.csv.gz",
@@ -3231,7 +3374,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "MD"
     },
     {
       "code": "ME",
@@ -3241,7 +3385,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/ME/admin1.csv",
         "registries/europe/countries/ME/entities-0001.csv.gz",
@@ -3253,7 +3397,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "ME"
     },
     {
       "code": "MF",
@@ -3263,7 +3408,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/MF/admin1.csv",
         "registries/caribbean/countries/MF/alternate-names.csv.gz",
@@ -3277,7 +3422,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "MF"
     },
     {
       "code": "MG",
@@ -3287,7 +3433,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "shared_sources_need_mapping",
+      "inventory_status": "format_only",
       "paths": [],
       "release_manifests": [],
       "quality": {
@@ -3295,7 +3441,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "acquire_and_pin_country_source",
+      "module_id": "MG"
     },
     {
       "code": "MH",
@@ -3305,7 +3452,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/MH/index.json",
         "registries/oceania/countries/MH/part-001.b64"
@@ -3316,7 +3463,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "MH"
     },
     {
       "code": "MK",
@@ -3326,7 +3474,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/MK/admin1.csv",
         "registries/europe/countries/MK/entities-0001.csv.gz",
@@ -3341,7 +3489,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "MK"
     },
     {
       "code": "ML",
@@ -3351,7 +3500,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/ML/admin1.csv",
         "registries/africa/countries/ML/entities.csv.gz",
@@ -3363,7 +3512,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "ML"
     },
     {
       "code": "MM",
@@ -3373,7 +3523,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/MM.zip"
       ],
@@ -3383,7 +3533,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "MM"
     },
     {
       "code": "MN",
@@ -3393,7 +3544,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/MN.zip",
         "releases/hierarchy/east-asia/reports/MN.projection.json"
@@ -3404,7 +3555,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "MN"
     },
     {
       "code": "MO",
@@ -3414,7 +3566,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/MO.zip",
         "releases/hierarchy/east-asia/reports/MO.projection.json"
@@ -3425,7 +3577,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "MO"
     },
     {
       "code": "MP",
@@ -3435,7 +3588,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/MP/index.json",
         "registries/oceania/countries/MP/part-001.b64"
@@ -3446,7 +3599,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "MP"
     },
     {
       "code": "MQ",
@@ -3456,7 +3610,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/MQ/admin1.csv",
         "registries/caribbean/countries/MQ/alternate-names.csv.gz",
@@ -3470,7 +3624,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "MQ"
     },
     {
       "code": "MR",
@@ -3480,7 +3635,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/MR/admin1.csv",
         "registries/africa/countries/MR/entities.csv.gz",
@@ -3492,7 +3647,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "MR"
     },
     {
       "code": "MS",
@@ -3502,7 +3658,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/MS/admin1.csv",
         "registries/caribbean/countries/MS/alternate-names.csv.gz",
@@ -3515,7 +3671,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "MS"
     },
     {
       "code": "MT",
@@ -3525,7 +3682,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/MT/admin1.csv",
         "registries/europe/countries/MT/entities-0001.csv.gz",
@@ -3540,7 +3697,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "MT"
     },
     {
       "code": "MU",
@@ -3550,7 +3708,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/MU/admin1.csv",
         "registries/africa/countries/MU/entities.csv.gz",
@@ -3562,7 +3720,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "MU"
     },
     {
       "code": "MV",
@@ -3572,7 +3731,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/MV.zip"
       ],
@@ -3582,7 +3741,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "MV"
     },
     {
       "code": "MW",
@@ -3592,7 +3752,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/MW/admin1.csv",
         "registries/africa/countries/MW/entities.csv.gz",
@@ -3604,7 +3764,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "MW"
     },
     {
       "code": "MX",
@@ -3614,7 +3775,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/official/MX/MX-AGU.csv",
         "registries/official/MX/MX-BCN.csv",
@@ -3660,7 +3821,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "MX"
     },
     {
       "code": "MY",
@@ -3670,7 +3832,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/MY.zip"
       ],
@@ -3680,7 +3842,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "MY"
     },
     {
       "code": "MZ",
@@ -3690,7 +3853,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/MZ/admin1.csv",
         "registries/africa/countries/MZ/entities.csv.gz",
@@ -3702,7 +3865,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "MZ"
     },
     {
       "code": "NA",
@@ -3712,7 +3876,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/NA/admin1.csv",
         "registries/africa/countries/NA/entities.csv.gz",
@@ -3724,7 +3888,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "NA"
     },
     {
       "code": "NC",
@@ -3734,7 +3899,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/NC/index.json",
         "registries/oceania/countries/NC/part-001.b64"
@@ -3745,7 +3910,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "NC"
     },
     {
       "code": "NE",
@@ -3755,7 +3921,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/NE/admin1.csv",
         "registries/africa/countries/NE/entities.csv.gz",
@@ -3767,7 +3933,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "NE"
     },
     {
       "code": "NF",
@@ -3777,7 +3944,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/NF/index.json",
         "registries/oceania/countries/NF/part-001.b64"
@@ -3788,7 +3955,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "NF"
     },
     {
       "code": "NG",
@@ -3798,7 +3966,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "shared_sources_need_mapping",
+      "inventory_status": "format_only",
       "paths": [],
       "release_manifests": [],
       "quality": {
@@ -3806,7 +3974,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "acquire_and_pin_country_source",
+      "module_id": "NG"
     },
     {
       "code": "NI",
@@ -3816,7 +3985,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/central-america/countries/NI/admin1.csv",
         "registries/central-america/countries/NI/entities.csv.gz",
@@ -3834,7 +4003,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "NI"
     },
     {
       "code": "NL",
@@ -3844,7 +4014,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/NL/admin1.csv",
         "registries/europe/countries/NL/entities-0001.csv.gz",
@@ -3859,7 +4029,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "NL"
     },
     {
       "code": "NO",
@@ -3869,7 +4040,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/NO/admin1.csv",
         "registries/europe/countries/NO/entities-0001.csv.gz",
@@ -3884,7 +4055,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "NO"
     },
     {
       "code": "NP",
@@ -3894,7 +4066,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/NP.zip"
       ],
@@ -3904,7 +4076,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "NP"
     },
     {
       "code": "NR",
@@ -3914,7 +4087,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/NR/index.json",
         "registries/oceania/countries/NR/part-001.b64"
@@ -3925,7 +4098,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "NR"
     },
     {
       "code": "NU",
@@ -3935,7 +4109,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/NU/index.json",
         "registries/oceania/countries/NU/part-001.b64"
@@ -3946,7 +4120,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "NU"
     },
     {
       "code": "NZ",
@@ -3956,7 +4131,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/NZ/index.json",
         "registries/oceania/countries/NZ/part-001.b64",
@@ -3971,7 +4146,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "NZ"
     },
     {
       "code": "OM",
@@ -3981,7 +4157,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/OM.zip"
       ],
@@ -3991,7 +4167,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "OM"
     },
     {
       "code": "PA",
@@ -4001,7 +4178,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/central-america/.parts/PA/sources/PA.zip/part-0001.bin",
         "registries/central-america/.parts/PA/sources/PA.zip/part-0002.bin",
@@ -4020,7 +4197,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "PA"
     },
     {
       "code": "PE",
@@ -4030,7 +4208,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/south-america/.parts/countries/PE/entities.csv.gz/part-0001.bin",
         "registries/south-america/.parts/countries/PE/entities.csv.gz/part-0002.bin",
@@ -4046,7 +4224,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "PE"
     },
     {
       "code": "PF",
@@ -4056,7 +4235,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/PF/index.json",
         "registries/oceania/countries/PF/part-001.b64"
@@ -4067,7 +4246,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "PF"
     },
     {
       "code": "PG",
@@ -4077,7 +4257,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/PG/index.json",
         "registries/oceania/countries/PG/part-001.b64",
@@ -4091,7 +4271,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "PG"
     },
     {
       "code": "PH",
@@ -4101,7 +4282,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/PH.zip"
       ],
@@ -4111,7 +4292,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "PH"
     },
     {
       "code": "PK",
@@ -4121,7 +4303,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/PK.zip"
       ],
@@ -4131,7 +4313,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "PK"
     },
     {
       "code": "PL",
@@ -4141,7 +4324,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/PL/admin1.csv",
         "registries/europe/countries/PL/entities-0001.csv.gz",
@@ -4158,7 +4341,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "PL"
     },
     {
       "code": "PM",
@@ -4168,15 +4352,18 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "shared_sources_need_mapping",
-      "paths": [],
+      "inventory_status": "partial_observations",
+      "paths": [
+        "registries/north-america/admin-seeds.json"
+      ],
       "release_manifests": [],
       "quality": {
         "national_completeness_verified": false,
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "acquire_full_locality_source_and_review_seed_terms",
+      "module_id": "PM"
     },
     {
       "code": "PN",
@@ -4186,7 +4373,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/PN/index.json",
         "registries/oceania/countries/PN/part-001.b64"
@@ -4197,7 +4384,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "PN"
     },
     {
       "code": "PR",
@@ -4207,7 +4395,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/PR/admin1.csv",
         "registries/caribbean/countries/PR/alternate-names.csv.gz",
@@ -4221,7 +4409,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "PR"
     },
     {
       "code": "PS",
@@ -4231,7 +4420,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/PS.zip"
       ],
@@ -4241,7 +4430,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "PS"
     },
     {
       "code": "PT",
@@ -4251,7 +4441,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/PT/admin1.csv",
         "registries/europe/countries/PT/entities-0001.csv.gz",
@@ -4267,7 +4457,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "PT"
     },
     {
       "code": "PW",
@@ -4277,7 +4468,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/PW/index.json",
         "registries/oceania/countries/PW/part-001.b64"
@@ -4288,7 +4479,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "PW"
     },
     {
       "code": "PY",
@@ -4298,7 +4490,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/south-america/.parts/countries/PY/entities.csv.gz/part-0001.bin",
         "registries/south-america/.parts/countries/PY/entities.csv.gz/part-0002.bin",
@@ -4313,7 +4505,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "PY"
     },
     {
       "code": "QA",
@@ -4323,7 +4516,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/QA.zip"
       ],
@@ -4333,7 +4526,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "QA"
     },
     {
       "code": "RE",
@@ -4343,7 +4537,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/RE/admin1.csv",
         "registries/africa/countries/RE/entities.csv.gz",
@@ -4355,7 +4549,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "RE"
     },
     {
       "code": "RO",
@@ -4365,7 +4560,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/RO/admin1.csv",
         "registries/europe/countries/RO/entities-0001.csv.gz",
@@ -4381,7 +4576,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "RO"
     },
     {
       "code": "RS",
@@ -4391,7 +4587,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/RS/admin1.csv",
         "registries/europe/countries/RS/entities-0001.csv.gz",
@@ -4406,7 +4602,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "RS"
     },
     {
       "code": "RU",
@@ -4416,7 +4613,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/RU.zip.part001",
         "registries/asia/country-archives/RU.zip.part002",
@@ -4440,7 +4637,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "RU"
     },
     {
       "code": "RW",
@@ -4450,7 +4648,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/RW/admin1.csv",
         "registries/africa/countries/RW/entities.csv.gz",
@@ -4462,7 +4660,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "RW"
     },
     {
       "code": "SA",
@@ -4472,7 +4671,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/SA.zip"
       ],
@@ -4482,7 +4681,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "SA"
     },
     {
       "code": "SB",
@@ -4492,7 +4692,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/SB/index.json",
         "registries/oceania/countries/SB/part-001.b64",
@@ -4504,7 +4704,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "SB"
     },
     {
       "code": "SC",
@@ -4514,7 +4715,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/SC/admin1.csv",
         "registries/africa/countries/SC/entities.csv.gz",
@@ -4526,7 +4727,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "SC"
     },
     {
       "code": "SD",
@@ -4536,7 +4738,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/SD/admin1.csv",
         "registries/africa/countries/SD/entities.csv.gz",
@@ -4548,7 +4750,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "SD"
     },
     {
       "code": "SE",
@@ -4558,7 +4761,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/SE/admin1.csv",
         "registries/europe/countries/SE/entities-0001.csv.gz",
@@ -4574,7 +4777,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "SE"
     },
     {
       "code": "SG",
@@ -4584,7 +4788,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/SG.zip"
       ],
@@ -4594,7 +4798,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "SG"
     },
     {
       "code": "SH",
@@ -4604,7 +4809,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/SH/admin1.csv",
         "registries/africa/countries/SH/entities.csv.gz",
@@ -4616,7 +4821,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "SH"
     },
     {
       "code": "SI",
@@ -4626,7 +4832,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/SI/admin1.csv",
         "registries/europe/countries/SI/entities-0001.csv.gz",
@@ -4641,7 +4847,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "SI"
     },
     {
       "code": "SJ",
@@ -4651,7 +4858,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/SJ/admin1.csv",
         "registries/europe/countries/SJ/entities-0001.csv.gz",
@@ -4663,7 +4870,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "SJ"
     },
     {
       "code": "SK",
@@ -4673,7 +4881,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/SK/admin1.csv",
         "registries/europe/countries/SK/entities-0001.csv.gz",
@@ -4688,7 +4896,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "SK"
     },
     {
       "code": "SL",
@@ -4698,7 +4907,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/SL/admin1.csv",
         "registries/africa/countries/SL/entities.csv.gz",
@@ -4710,7 +4919,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "SL"
     },
     {
       "code": "SM",
@@ -4720,7 +4930,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/SM/admin1.csv",
         "registries/europe/countries/SM/entities-0001.csv.gz",
@@ -4732,7 +4942,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "SM"
     },
     {
       "code": "SN",
@@ -4742,7 +4953,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/SN/admin1.csv",
         "registries/africa/countries/SN/entities.csv.gz",
@@ -4754,7 +4965,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "SN"
     },
     {
       "code": "SO",
@@ -4764,7 +4976,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/SO/admin1.csv",
         "registries/africa/countries/SO/entities.csv.gz",
@@ -4776,7 +4988,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "SO"
     },
     {
       "code": "SR",
@@ -4786,7 +4999,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/south-america/countries/SR/admin1.csv",
         "registries/south-america/countries/SR/alternate-values.csv.gz",
@@ -4799,7 +5012,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "SR"
     },
     {
       "code": "SS",
@@ -4809,7 +5023,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/SS/admin1.csv",
         "registries/africa/countries/SS/entities.csv.gz",
@@ -4821,7 +5035,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "SS"
     },
     {
       "code": "ST",
@@ -4831,7 +5046,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/ST/admin1.csv",
         "registries/africa/countries/ST/entities.csv.gz",
@@ -4843,7 +5058,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "ST"
     },
     {
       "code": "SV",
@@ -4853,7 +5069,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/central-america/countries/SV/admin1.csv",
         "registries/central-america/countries/SV/entities.csv.gz",
@@ -4871,7 +5087,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "SV"
     },
     {
       "code": "SX",
@@ -4881,7 +5098,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/SX/admin1.csv",
         "registries/caribbean/countries/SX/alternate-names.csv.gz",
@@ -4894,7 +5111,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "SX"
     },
     {
       "code": "SY",
@@ -4904,7 +5122,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/SY.zip"
       ],
@@ -4914,7 +5132,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "SY"
     },
     {
       "code": "SZ",
@@ -4924,7 +5143,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/SZ/admin1.csv",
         "registries/africa/countries/SZ/entities.csv.gz",
@@ -4936,7 +5155,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "SZ"
     },
     {
       "code": "TC",
@@ -4946,7 +5166,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/TC/admin1.csv",
         "registries/caribbean/countries/TC/alternate-names.csv.gz",
@@ -4959,7 +5179,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "TC"
     },
     {
       "code": "TD",
@@ -4969,7 +5190,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/TD/admin1.csv",
         "registries/africa/countries/TD/entities.csv.gz",
@@ -4981,7 +5202,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "TD"
     },
     {
       "code": "TF",
@@ -4991,7 +5213,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/TF/admin1.csv",
         "registries/africa/countries/TF/entities.csv.gz",
@@ -5003,7 +5225,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "TF"
     },
     {
       "code": "TG",
@@ -5013,7 +5236,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/TG/admin1.csv",
         "registries/africa/countries/TG/entities.csv.gz",
@@ -5025,7 +5248,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "TG"
     },
     {
       "code": "TH",
@@ -5035,7 +5259,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/TH.zip"
       ],
@@ -5045,7 +5269,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "TH"
     },
     {
       "code": "TJ",
@@ -5055,7 +5280,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/TJ.zip"
       ],
@@ -5065,7 +5290,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "TJ"
     },
     {
       "code": "TK",
@@ -5075,7 +5301,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/TK/index.json",
         "registries/oceania/countries/TK/part-001.b64"
@@ -5086,7 +5312,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "TK"
     },
     {
       "code": "TL",
@@ -5096,7 +5323,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/TL.zip"
       ],
@@ -5106,7 +5333,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "TL"
     },
     {
       "code": "TM",
@@ -5116,7 +5344,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/TM.zip"
       ],
@@ -5126,7 +5354,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "TM"
     },
     {
       "code": "TN",
@@ -5136,7 +5365,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/TN/admin1.csv",
         "registries/africa/countries/TN/entities.csv.gz",
@@ -5148,7 +5377,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "TN"
     },
     {
       "code": "TO",
@@ -5158,7 +5388,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/TO/index.json",
         "registries/oceania/countries/TO/part-001.b64"
@@ -5169,7 +5399,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "TO"
     },
     {
       "code": "TR",
@@ -5179,7 +5410,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/TR.zip",
         "registries/europe/countries/TR/admin1.csv",
@@ -5197,7 +5428,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "TR"
     },
     {
       "code": "TT",
@@ -5207,7 +5439,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/TT/admin1.csv",
         "registries/caribbean/countries/TT/alternate-names.csv.gz",
@@ -5220,7 +5452,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "TT"
     },
     {
       "code": "TV",
@@ -5230,7 +5463,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/TV/index.json",
         "registries/oceania/countries/TV/part-001.b64"
@@ -5241,7 +5474,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "TV"
     },
     {
       "code": "TW",
@@ -5251,7 +5485,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/TW.zip",
         "registries/official/TW/README.md",
@@ -5269,7 +5503,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "TW"
     },
     {
       "code": "TZ",
@@ -5279,7 +5514,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/TZ/admin1.csv",
         "registries/africa/countries/TZ/entities.csv.gz",
@@ -5291,7 +5526,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "TZ"
     },
     {
       "code": "UA",
@@ -5301,7 +5537,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/UA/admin1.csv",
         "registries/europe/countries/UA/entities-0001.csv.gz",
@@ -5314,7 +5550,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "UA"
     },
     {
       "code": "UG",
@@ -5324,7 +5561,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/UG/admin1.csv",
         "registries/africa/countries/UG/entities.csv.gz",
@@ -5336,7 +5573,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "UG"
     },
     {
       "code": "UM",
@@ -5346,7 +5584,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/UM/index.json",
         "registries/oceania/countries/UM/part-001.b64"
@@ -5357,7 +5595,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "UM"
     },
     {
       "code": "US",
@@ -5367,7 +5606,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/official/US/US-AK.csv",
         "registries/official/US/US-AL.csv",
@@ -5433,7 +5672,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "US"
     },
     {
       "code": "UY",
@@ -5443,7 +5683,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/south-america/countries/UY/admin1.csv",
         "registries/south-america/countries/UY/alternate-values.csv.gz",
@@ -5456,7 +5696,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "UY"
     },
     {
       "code": "UZ",
@@ -5466,7 +5707,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/UZ.zip"
       ],
@@ -5476,7 +5717,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "UZ"
     },
     {
       "code": "VA",
@@ -5486,7 +5728,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/VA/admin1.csv",
         "registries/europe/countries/VA/entities-0001.csv.gz",
@@ -5498,7 +5740,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "VA"
     },
     {
       "code": "VC",
@@ -5508,7 +5751,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/VC/admin1.csv",
         "registries/caribbean/countries/VC/alternate-names.csv.gz",
@@ -5521,7 +5764,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "VC"
     },
     {
       "code": "VE",
@@ -5531,7 +5775,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/south-america/.parts/countries/VE/entities.csv.gz/part-0001.bin",
         "registries/south-america/.parts/countries/VE/entities.csv.gz/part-0002.bin",
@@ -5545,7 +5789,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "VE"
     },
     {
       "code": "VG",
@@ -5555,7 +5800,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/VG/admin1.csv",
         "registries/caribbean/countries/VG/alternate-names.csv.gz",
@@ -5568,7 +5813,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "VG"
     },
     {
       "code": "VI",
@@ -5578,7 +5824,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/caribbean/countries/VI/admin1.csv",
         "registries/caribbean/countries/VI/alternate-names.csv.gz",
@@ -5591,7 +5837,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "VI"
     },
     {
       "code": "VN",
@@ -5601,7 +5848,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/VN.zip"
       ],
@@ -5611,7 +5858,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "VN"
     },
     {
       "code": "VU",
@@ -5621,7 +5869,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/VU/index.json",
         "registries/oceania/countries/VU/part-001.b64"
@@ -5632,7 +5880,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "VU"
     },
     {
       "code": "WF",
@@ -5642,7 +5891,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/WF/index.json",
         "registries/oceania/countries/WF/part-001.b64"
@@ -5653,7 +5902,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "WF"
     },
     {
       "code": "WS",
@@ -5663,7 +5913,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/oceania/countries/WS/index.json",
         "registries/oceania/countries/WS/part-001.b64"
@@ -5674,7 +5924,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "WS"
     },
     {
       "code": "XK",
@@ -5684,7 +5935,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/europe/countries/XK/admin1.csv",
         "registries/europe/countries/XK/entities-0001.csv.gz",
@@ -5696,7 +5947,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "XK"
     },
     {
       "code": "YE",
@@ -5706,7 +5958,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/asia/country-archives/YE.zip"
       ],
@@ -5716,7 +5968,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "YE"
     },
     {
       "code": "YT",
@@ -5726,7 +5979,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/YT/admin1.csv",
         "registries/africa/countries/YT/entities.csv.gz",
@@ -5738,7 +5991,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "YT"
     },
     {
       "code": "ZA",
@@ -5748,7 +6002,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/ZA/admin1.csv",
         "registries/africa/countries/ZA/entities.csv.gz",
@@ -5760,7 +6014,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "verify_layers_then_create_country_bundle",
+      "module_id": "ZA"
     },
     {
       "code": "ZM",
@@ -5770,7 +6025,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/ZM/admin1.csv",
         "registries/africa/countries/ZM/entities.csv.gz",
@@ -5782,7 +6037,8 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "ZM"
     },
     {
       "code": "ZW",
@@ -5792,7 +6048,7 @@
         "repository": "veygrit-sys/world-localities",
         "ref": null
       },
-      "inventory_status": "mapped_paths",
+      "inventory_status": "source_layers_available",
       "paths": [
         "registries/africa/countries/ZW/admin1.csv",
         "registries/africa/countries/ZW/entities.csv.gz",
@@ -5804,7 +6060,9 @@
         "coverage_fraction": null,
         "deliverability_verified": false
       },
-      "next_action": "review_country_sources_dependencies_and_rights"
+      "next_action": "review_recorded_parent_gaps_and_source_vintages",
+      "module_id": "ZW"
     }
-  ]
+  ],
+  "semantic_catalog": "countries/modules.json"
 }
