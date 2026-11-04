@@ -1,0 +1,38 @@
+name: Materialize pinned Asia official data
+
+on:
+  push:
+    branches: ['codex/asia4-official-20261104']
+    paths: ['scripts/materialize_hk_expansion.py']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: materialize-asia4-official-data
+  cancel-in-progress: false
+
+jobs:
+  materialize-hk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: codex/asia4-official-20261104
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Reconstruct and verify exact pinned Hong Kong files
+        run: python scripts/materialize_hk_expansion.py
+      - name: Save only the two verified data files
+        shell: bash
+        run: |
+          git add -- registries/official/expansions/HK/records.csv.gz registries/official/expansions/HK/sources/ALS-GeoJSON.zip
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'data: materialize pinned Hong Kong official source and observations'
+          git push origin HEAD:refs/heads/codex/asia4-official-20261104

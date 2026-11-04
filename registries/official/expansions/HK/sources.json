@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "country": "HK",
+  "sources": {
+    "hk-dpo-als-district-2d": {
+      "provider": "Hong Kong Digital Policy Office / Address Lookup Service",
+      "url": "https://www.als.gov.hk/data/ALS-GeoJSON.zip",
+      "catalogue": "https://data.gov.hk/en-data/dataset/hk-dpo-als_01-als/resource/92eed8bd-9e6f-4aac-9c9a-5ea6f5dbb4b8",
+      "schema": "https://www.als.gov.hk/docs/als-geojson.schema.json",
+      "retrieved_at": "2026-11-04",
+      "source_date": "2026-10-23",
+      "source_date_meaning": "catalogue resource last update; not attestation of each address currentness",
+      "license": "DATA.GOV.HK terms and conditions; no SPDX identifier assigned",
+      "terms": "https://data.gov.hk/en/terms-and-conditions",
+      "source_bytes": 20777483,
+      "source_sha256": "4549e4f774224abdef062cb6ffaa7e75f0d8dc02187a64bc6c05434472b6f577",
+      "selected_members": {
+        "ALS_GeoJSON_329/als_addresses_(central_&_western_district).geojson": {
+          "bytes": 7909456,
+          "sha256": "fd19383b0f6cb16720f571b2b513c6ef80de7a86ae9492e12c28a639b9b5fe8e",
+          "rows": 7069,
+          "zip_timestamp": [
+            2026,
+            10,
+            15,
+            10,
+            55,
+            28
+          ]
+        },
+        "ALS_GeoJSON_329/als_addresses_(eastern_district).geojson": {
+          "bytes": 4524050,
+          "sha256": "e02f3e5e243667f55840f6663ce3286f08c5b134e58fcc80d9875179c731ca3a",
+          "rows": 3870,
+          "zip_timestamp": [
+            2026,
+            10,
+            20,
+            11,
+            35,
+            38
+          ]
+        },
+        "ALS_GeoJSON_329/als_addresses_(islands_district).geojson": {
+          "bytes": 13074665,
+          "sha256": "cb34c6e67a8a709673d5376da3c694a203b2f1e1cda3aebafea40c514373cf12",
+          "rows": 11747,
+          "zip_timestamp": [
+            2026,
+            10,
+            20,
+            11,
+            35,
+            38
+          ]
+        },
+        "ALS_GeoJSON_329/als_addresses_(kowloon_city_district).geojson": {
+          "bytes": 8492406,
+          "sha256": "a5dabf102a17b9b449b2d51bd7c482d4afcb593e79ebb34dda23a96fbdc47f96",
+          "rows": 7379,
+          "zip_timestamp": [
+            2026,
+            10,
+            20,
+            11,
+            35,
+            40
+          ]
+        },
+        "ALS_GeoJSON_329/als_addresses_(kwai_tsing_district).geojson": {
+          "bytes": 3652654,
+          "sha256": "3596084add7b82d8c355004af35937b21528e661712e7ae29b9ef3c588d3dfb5",
+          "rows": 3062,
+          "zip_timestamp": [
+            2026,
+            10,
+            15,
+            10,
+            55,
+            34
+          ]
+        },
+        "ALS_GeoJSON_329/als_addresses_(kwun_tong_district).geojson": {
+          "bytes": 3789222,
+          "sha256": "8a2856319e001ec99d0772b138191f58fd7e971c2317338c533539d33ceb5dab",
+          "rows": 3271,
+          "zip_timestamp": [
+            2026,
+            10,
+            15,
+            10,
+            55,
+            36
+          ]
+        },
+        "ALS_GeoJSON_329/als_addresses_(north_district).geojson": {
+          "bytes": 19420781,
+          "sha256": "d873516b1a985f3f51ffc9f0810f159c502871e76a2a03049a5f435418ff740a",
+          "rows": 17473,
+          "zip_timestamp": [
+            2026,
+            10,
+            20,
+            11,
+            35,
+            40
+          ]
+        },
+        "ALS_GeoJSON_329/als_addresses_(sai_kung_district).geojson": {
+          "bytes": 15179623,
+          "sha256": "0056616b234c9be0fa795ec74f90485b7a8a94da816cd6ce31043b5e32e3bb1e",
+          "rows": 13225,
+          "zip_timestamp": [
+            2026,
+            10,
+            20,
+            11,
+            35,
+            42
+          ]
+        },
+        "ALS_GeoJSON_329/als_addresses_(sha_tin_district).geojson": {
+          "bytes": 10543130,
+          "sha256": "af72a243aa5bf822c277d3e9f65511dd044c7a6d16229752d728789e5a9dd29b",
+          "rows": 8821,
+          "zip_timestamp": [
+            2026,
+            10,
+            20,
+            11,
+            35,
+            42
+          ]
+        },
+        "ALS_GeoJSON_329/als_addresses_(sham_shui_po_district).geojson": {
+          "bytes": 6364780,
+          "sha256": "2dc64936452d181781a65b9fe1bd585f53161d098b2e9be936aa67dbaeebf071",
+          "rows": 5674,
+          "zip_timestamp": [
+            2026,
+            10,
+            15,
+            10,
+            55,
+            46
+          ]
+        },
+        "ALS_GeoJSON_329/als_addresses_(southern_district).geojson": {
+          "bytes": 5728027,
+          "sha256": "98d8e97a6e122052a594f5ede8529dc18f4a49bdb3368c88006757fd60007e1a",
+          "rows": 4848,
+          "zip_timestamp": [
+            2026,
+            10,
+            15,
+            10,
+            55,
+            48
+          ]
+        },
+        "ALS_GeoJSON_329/als_addresses_(tai_po_district).geojson": {
+          "bytes": 21456959,
+          "sha256": "8237bd7deb15e8c9f4daf5cbfff6abe3ac50a4c8e21a797afbe5720280b6dfda",
+          "rows": 18605,
+          "zip_timestamp": [
+            2026,
+            10,
+            20,
+            11,
+            35,
+            44
+          ]
+        },
+        "ALS_GeoJSON_329/als_addresses_(tsuen_wan_district).geojson": {
+          "bytes": 6174870,
+          "sha256": "eaeafefec05f53b5506eebe4161216655820193d061f6a0e8376568f1afb8240",
+          "rows": 5329,
+          "zip_timestamp": [
+            2026,
+            10,
+            15,
+            10,
+            55,
+            52
+          ]
+        },
+        "ALS_GeoJSON_329/als_addresses_(tuen_mun_district).geojson": {
+          "bytes": 11317762,
+          "sha256": "9d45764855183c2e43c972dad38022b8bd06b7a6ebbeac67b0d4dd8030030018",
+          "rows": 9514,
+          "zip_timestamp": [
+            2026,
+            10,
+            15,
+            10,
+            55,
+            56
+          ]
+        },
+        "ALS_GeoJSON_329/als_addresses_(wan_chai_district).geojson": {
+          "bytes": 6175650,
+          "sha256": "be360e87ce2cfc41cb2e944da0d9998bb0c5f71177926045c3b1a3abd07375c0",
+          "rows": 5634,
+          "zip_timestamp": [
+            2026,
+            10,
+            20,
+            11,
+            35,
+            44
+          ]
+        },
+        "ALS_GeoJSON_329/als_addresses_(wong_tai_sin_district).geojson": {
+          "bytes": 2328474,
+          "sha256": "0f198d6d431ea90be629a72e1581cf80fc548e10df478b970557f0722a04de9f",
+          "rows": 2017,
+          "zip_timestamp": [
+            2026,
+            10,
+            15,
+            10,
+            55,
+            56
+          ]
+        },
+        "ALS_GeoJSON_329/als_addresses_(yau_tsim_mong_district).geojson": {
+          "bytes": 10187690,
+          "sha256": "694479496bc3f1fb5d9b2cbbb308082901934b3a3e9377a9e6ab4b8a674fa949",
+          "rows": 9218,
+          "zip_timestamp": [
+            2026,
+            10,
+            15,
+            10,
+            56,
+            0
+          ]
+        },
+        "ALS_GeoJSON_329/als_addresses_(yuen_long_district).geojson": {
+          "bytes": 53813260,
+          "sha256": "44d0876c0f98990b082c9734a96819d96086f353c2dbe35cbd9ef96bf1479f6f",
+          "rows": 45498,
+          "zip_timestamp": [
+            2026,
+            10,
+            15,
+            10,
+            56,
+            10
+          ]
+        }
+      },
+      "excluded_members": {
+        "ALS_GeoJSON_329/als_addresses_3d_(public_rental_housing).geojson": {
+          "bytes": 621802870,
+          "zip_timestamp": [
+            2026,
+            10,
+            15,
+            11,
+            0,
+            6
+          ],
+          "reason": "optional 3D member is preserved in ZIP but not parsed or normalized"
+        }
+      },
+      "scope": "All district 2D GeoJSON members in the pinned archive; optional public-housing 3D member excluded. Observation rows are not unique addresses."
+    }
+  },
+  "bundled_files": {
+    "sources/ALS-GeoJSON.zip": {
+      "bytes": 20777483,
+      "sha256": "4549e4f774224abdef062cb6ffaa7e75f0d8dc02187a64bc6c05434472b6f577"
+    },
+    "sources/als-geojson.schema.json": {
+      "bytes": 25127,
+      "sha256": "67deb2349be44ad8cce20650065833e12e6895d394998da8b44377135fe634f6"
+    },
+    "sources/data-gov-hk-terms.html": {
+      "bytes": 39948,
+      "sha256": "c901a8f56c42a4cbcb2502c10d3623309529500e38f5d6c247aab68c6149dde0"
+    }
+  }
+}

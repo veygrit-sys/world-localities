@@ -8,6 +8,7 @@ import json
 from .layout import REPOSITORY_ROOT, load_catalog, validate_catalog
 from .materialize import materialize_country
 from .country import add_cli, run_cli
+from .official_expansion import add_cli as add_official_cli, search as search_official
 
 
 def materialization_roots() -> dict[str, str]:
@@ -24,11 +25,20 @@ def main() -> None:
     commands = parser.add_subparsers(dest="command", required=True)
     commands.add_parser("layout", help="validate registry paths and duplicate-code rules")
     add_cli(commands)
+    add_official_cli(commands)
     restore = commands.add_parser("materialize", help="restore split files for one country")
     roots = materialization_roots()
     restore.add_argument("--registry", choices=sorted(roots), required=True)
     restore.add_argument("--country", required=True)
     args = parser.parse_args()
+
+    if args.command == 'official':
+        try:
+            result = search_official(args.country, args.text, args.field, args.exact, args.limit)
+        except (ValueError, OSError, KeyError) as error:
+            parser.exit(2, str(error) + '\n')
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+        return
 
     if args.command == "country":
         try:

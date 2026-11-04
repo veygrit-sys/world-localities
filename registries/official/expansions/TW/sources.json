@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "country": "TW",
+  "observed_on": "2026-11-04",
+  "retrieved_at": "2026-11-04",
+  "sources": {
+    "tw-moi-odrp049-115": {
+      "provider": "Ministry of the Interior, Department of Household Registration (Taiwan)",
+      "title": "全國路名資料",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/E2EDC47D-2D3F-4EB1-878A-4DEB6160FD4C/resource/EB1B8C49-5C2A-42E0-8CC3-6B69B37DA66F/download",
+      "catalogue": "https://data.gov.tw/dataset/35321",
+      "source_year": "115 (2026)",
+      "catalogue_updated_at": "2026-08-20 10:01",
+      "source_effective_date": null,
+      "retrieved_at": "2026-11-04",
+      "licence": "Open Government Data License, version 1.0 (Taiwan)",
+      "terms": "https://data.gov.tw/license",
+      "canonical_source": "sources/national-roads-115.csv.gz",
+      "note": "Canonical download CSV; original city/site_id/road strings retained, including source whitespace. Listing is not evidence of address or delivery validity."
+    },
+    "tw-moi-odrp049-115-api-probe": {
+      "provider": "Ministry of the Interior (Taiwan)",
+      "url": "https://www.ris.gov.tw/rs-opendata/api/v1/datastore/ODRP049/115",
+      "retrieved_at": "2026-11-04",
+      "role": "audit_only_first_page",
+      "licence": "Open Government Data License, version 1.0 (Taiwan)",
+      "terms": "https://data.gov.tw/license",
+      "note": "First-page API observation only, not merged into canonical CSV and not an atomic national API snapshot."
+    },
+    "tw-chunghwa-postal-context": {
+      "provider": "Chunghwa Post",
+      "catalogue": "https://data.gov.tw/dataset/5949",
+      "url": "https://www.post.gov.tw/post/download/County_h_10906.xml",
+      "licence": "Open Government Data License, version 1.0 (Taiwan)",
+      "terms": "https://data.gov.tw/license",
+      "note": "Existing official/TW registry snapshots; English applies to postal-area labels only, three digits are prefixes only."
+    }
+  },
+  "bundled_files": {
+    "sources/national-roads-115.csv.gz": {
+      "bytes": 168176,
+      "sha256": "fa3395267b8b0386d9c6f919f26b970d1741f08b35bde9cde974e4d4440f180b",
+      "uncompressed_bytes": 1468149,
+      "uncompressed_sha256": "a58a31cebef9540412753bbf60f35415735b2a26983ccd4d795faa4aa110a05b"
+    },
+    "sources/postal-entities.csv": {
+      "bytes": 35538,
+      "sha256": "5146a5ed579b167bb407e9c4a4451dab5dbeb4e018b62542c70b3999cb4676d1"
+    },
+    "sources/postal-names.csv": {
+      "bytes": 94819,
+      "sha256": "b54416aa40eeab8604a5267b65b330e59991cbdca1608a44cb68ee997fe5cc19"
+    },
+    "sources/postal-postal_links.csv": {
+      "bytes": 34492,
+      "sha256": "b84e5700823686281f6c6495b40660c9face777da414d45e7022305d58808d03"
+    },
+    "sources/postal-sources.json": {
+      "bytes": 949,
+      "sha256": "fe29d42816f77ca4c7ca59f6742b4014ee913a6ee20c6e35b9e5c4ab0f05a3d4"
+    },
+    "sources/api-probe-115-page1.json.gz": {
+      "bytes": 9617,
+      "sha256": "c0c2c497262b8c927397743754800f52b54f33d05255fa0585c8a46a4d25fafc",
+      "uncompressed_bytes": 145251,
+      "uncompressed_sha256": "88a187c356f582c2d5f0df0664b4a4a6a404919e7028cdd3f352e18561f375f6"
+    }
+  },
+  "linkage_sources": {
+    "registries/official/TW/entities.csv": {
+      "bytes": 35538,
+      "sha256": "5146a5ed579b167bb407e9c4a4451dab5dbeb4e018b62542c70b3999cb4676d1"
+    },
+    "registries/official/TW/names.csv": {
+      "bytes": 94819,
+      "sha256": "b54416aa40eeab8604a5267b65b330e59991cbdca1608a44cb68ee997fe5cc19"
+    },
+    "registries/official/TW/postal_links.csv": {
+      "bytes": 34492,
+      "sha256": "b84e5700823686281f6c6495b40660c9face777da414d45e7022305d58808d03"
+    },
+    "registries/official/TW/sources.json": {
+      "bytes": 949,
+      "sha256": "fe29d42816f77ca4c7ca59f6742b4014ee913a6ee20c6e35b9e5c4ab0f05a3d4"
+    }
+  },
+  "api_count_discrepancy": {
+    "canonical_csv_rows": 35798,
+    "api_advertised_total": 35797,
+    "difference_csv_minus_api": 1,
+    "selection": "Explicit canonical CSV selection; no automatic count-based source selection or union."
+  }
+}

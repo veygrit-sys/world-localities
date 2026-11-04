@@ -7,6 +7,7 @@
 | 目的 | 入口 |
 |---|---|
 | 国別の原典・品質・検証・復元 | `python -m localities country inspect / verify / restore`（[使い方](../docs/country-modules.md)） |
+| 追加公式レイヤーの原文・英語検索 | `python -m localities official search`（[4か国・地域の範囲](../docs/asia4-official-expansion.md)） |
 | 日本のデータバンドル | [country_bundle.py](country_bundle.py) |
 | 独立した住所評価 | [evaluate_addresses.py](evaluate_addresses.py) |
 | 配布記録とローカル実物の照合 | [artifact_audit.py](artifact_audit.py) |
@@ -32,6 +33,7 @@ python -m localities layout
 
 | 対象 | スクリプト |
 |---|---|
+| 香港・韓国・マレーシア・台湾の公式拡充 | [import_hk_official.py](import_hk_official.py)、[import_kr_official.py](import_kr_official.py)、[import_my_official.py](import_my_official.py)、[import_tw_official.py](import_tw_official.py) |
 | 東アジア | [east_asia_sources.py](east_asia_sources.py)、[east_asia_query.py](east_asia_query.py)、[east_asia_fast.py](east_asia_fast.py)、[east_asia_projection.py](east_asia_projection.py) |
 | 西欧 | [western_europe_sources.py](western_europe_sources.py) |
 | オランダ | [netherlands_bag.py](netherlands_bag.py)、[netherlands_reference_review.py](netherlands_reference_review.py)、[netherlands_gap_review.py](netherlands_gap_review.py) |

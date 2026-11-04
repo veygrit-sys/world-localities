@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "country": "HK",
+  "layer_kind": "official_bilingual_building_address_observations",
+  "scope": "All district 2D GeoJSON members in the pinned archive; optional public-housing 3D member excluded. Observation rows are not unique addresses.",
+  "rows": 182254,
+  "counts": {
+    "source_observations": 182254,
+    "unique_csu_ids": 159427,
+    "csu_ids_with_multiple_observations": 8211,
+    "maximum_observations_per_csu": 118,
+    "rows_without_source_coordinates": 2,
+    "native_districts": 18,
+    "source_members": 18
+  },
+  "retrieved_at": "2026-11-04",
+  "source_date": "2026-10-23",
+  "record_file": "records.csv.gz",
+  "search_fields": [
+    "csu_id",
+    "geo_address",
+    "native_region",
+    "native_district",
+    "native_street",
+    "native_village",
+    "native_building_name",
+    "english_region",
+    "english_district",
+    "english_street",
+    "english_village",
+    "english_building_name",
+    "feature_json"
+  ],
+  "files": {
+    "records.csv.gz": {
+      "bytes": 31194958,
+      "sha256": "9fb279bbfa846866f57feb551816f739cb22bb1da96e7ffc9bb382027a733fd8",
+      "rows": 182254,
+      "columns": [
+        "observation_id",
+        "country",
+        "csu_id",
+        "geo_address",
+        "source_member",
+        "source_row",
+        "feature_sha256",
+        "native_region",
+        "native_district",
+        "native_street",
+        "native_village",
+        "native_building_name",
+        "english_region",
+        "english_district",
+        "english_street",
+        "english_village",
+        "english_building_name",
+        "coordinate_status",
+        "longitude",
+        "latitude",
+        "hk1980_easting",
+        "hk1980_northing",
+        "feature_json"
+      ]
+    }
+  },
+  "claims": {
+    "national_completeness_verified": false,
+    "freshness_verified": false,
+    "deliverability_verified": false,
+    "all_current_buildings_verified": false,
+    "all_floor_unit_addresses_verified": false,
+    "optional_3d_layer_verified": false
+  },
+  "identifier_semantics": "CSU identifies a building; observation IDs identify one-based rows in pinned source members",
+  "known_issues": [
+    "Two observations in the pinned 2026-10 source do not supply coordinates; retained without inference.",
+    "Multiple observations can share a CSU identifier. Counts are not unique addresses.",
+    "Empty English fields remain empty; Chinese street names are never substituted.",
+    "Optional public-rental-housing 3D member is not normalized; no floor/unit coverage claim."
+  ]
+}

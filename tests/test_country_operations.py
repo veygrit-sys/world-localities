@@ -47,6 +47,27 @@ class CountryOperationTests(unittest.TestCase):
         self.assertEqual(path.read_bytes(), original)
         self.assertFalse((ROOT / 'registries/asia/countries/JP/verification.json').exists())
 
+    def test_official_expansions_expose_country_specific_evidence(self):
+        for code in ('HK', 'KR', 'MY', 'TW'):
+            with self.subTest(country=code):
+                report = country.inspect_country(code, ROOT)
+                layer = next(e for e in report['layers'] if e['id'] == 'official-expansion')
+                prefix = 'registries/official/expansions/' + code
+                self.assertEqual(layer['data'], prefix)
+                self.assertIn(prefix + '/sources.json', layer['source_refs'])
+                self.assertIn(prefix + '/NOTICE.md', layer['notice_refs'])
+                self.assertGreater(layer['counts']['source_observations'], 0)
+                self.assertTrue(layer['source_dates'])
+                self.assertIsNone(layer['freshness_verified'])
+                self.assertFalse(layer['national_completeness_verified'])
+                self.assertFalse(layer['deliverability_verified'])
+
+    def test_official_adapter_rejects_another_country_folder(self):
+        layer = {'verifier': 'official_expansion', 'id': 'bad-layer',
+                 'data': 'registries/official/expansions/TW'}
+        with self.assertRaisesRegex(ValueError, 'official expansion country path mismatch'):
+            country._verify_layer(layer, 'MY', ROOT)
+
     def test_europe_original_replay_is_available_for_one_country(self):
         report = country.verify_country('AD', ROOT)
         self.assertEqual(report['status'], 'passed', report)
