@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "source_repository": "rei-k/world-localities",
+  "source_commit": "6ac889b1e0e570be309335964ff6b27bebeb3a45",
+  "import_commit": "c800759acfa953877aeb05d677f467ebe7cb22d9",
+  "source_files_verified": 1591,
+  "remote_source_blob_mismatches": 0,
+  "country_scope_count": 250,
+  "countries_with_path_candidates": 241,
+  "checks": {
+    "migration_sha256_and_git_blobs": "passed",
+    "country_inventory": "passed",
+    "repository_layout": "passed",
+    "local_regression": {
+      "tests": 596,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "dependencies": [
+        "osmium==4.3.2",
+        "shapely==2.2.0"
+      ]
+    },
+    "github_import_run": "https://github.com/veygrit-sys/world-localities/actions/runs/41789766337"
+  },
+  "scope": "Repository migration and inventory integrity; not national completeness, freshness, translation accuracy or deliverability."
+}
