@@ -15,6 +15,27 @@
 | `scripts/` | リリース検証などの運用コマンド |
 | `docs/` | 横断設計、品質方針、更新計画 |
 
+## 資料と操作の入口
+
+ルートREADMEは目的別の案内に絞り、収録データ・地域別の詳細な利用説明は
+[`docs/guides/data-and-usage.md`](guides/data-and-usage.md) にまとめています。
+
+| パス | 内容 |
+|---|---|
+| [`countries/README.md`](../countries/README.md) | 250国・地域から既存データを探す一覧 |
+| [`docs/README.md`](README.md) | 資料全体の目次 |
+| [`docs/guides/`](guides/data-and-usage.md) | データ・利用方法の詳細 |
+| [`docs/plans/`](plans/README.md) | 原典取得・国別拡充の計画 |
+| [`docs/learning/`](learning/README.md) | 学習対象・評価方法の説明 |
+| [`docs/migration/`](migration/README.md) | 固定した移行元と照合記録 |
+| [`scripts/README.md`](../scripts/README.md) | 操作目的別のスクリプト一覧 |
+| [`releases/README.md`](../releases/README.md) | 版別記録の入口 |
+| [`training/README.md`](../training/README.md) | 学習設定の入口 |
+
+移動した計画資料の旧パスには案内だけを残し、本文の二重管理を避けます。
+`docs/migration/` の元資料・チェックサムは当時のスナップショットとして保持します。
+データ本体・コード・既存のCLI入口は、この資料整理では移動しません。
+
 地域別ディレクトリの一覧と共有コードの利用関係は
 [`localities/registry_catalog.json`](../localities/registry_catalog.json)を正とします。
 次のコマンドで、登録済みディレクトリ、README、共有モジュール、重複コード規則を検証できます。

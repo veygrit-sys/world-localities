@@ -50,7 +50,7 @@ python asia-registry/package.py pack
 したがって、このデータだけで「現地語・国内英語・国際英語」の公式対訳が揃ったとは扱いません。
 郵便番号は原典の別資料であり、この Gazetteer への公式 ID 対応付けは未収録です。
 
-拡充方針は [公式名称・郵便番号の追加設計](../docs/enrichment-plan-ja.md) を参照してください。
+拡充方針は [公式名称・郵便番号の追加設計](../docs/plans/enrichment-plan-ja.md) を参照してください。
 住所の表示処理は [world-address の presentation.py](https://github.com/rei-k/world-address/blob/8e30ef141e40769fa932adeb2f901505023bfd1e/address-foundation/addresskit/presentation.py) に分離しています。同じ地域 ID から必要な名前を選び、国・言語・用途別の
 テンプレートで住所要素を並べます。名前辞書、公式自治体 ID 対応表、住所テンプレート、郵便番号関連は追加収録対象です。
 
