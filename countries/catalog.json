@@ -1,0 +1,5810 @@
+{
+  "schema_version": 1,
+  "scope_source": "releases/world-coverage/20261018/coverage.csv",
+  "scope_note": "250 collection codes, not a sovereign country count; path matches are inventory hints, not proof of coverage.",
+  "countries": [
+    {
+      "code": "AD",
+      "name": "Andorra",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/AD/admin1.csv",
+        "europe-registry/countries/AD/entities-0001.csv.gz",
+        "europe-registry/countries/AD/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/AE.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "AF",
+      "name": "Afghanistan",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/AF.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "AG",
+      "name": "Antigua and Barbuda",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/AG/admin1.csv",
+        "caribbean-registry/countries/AG/alternate-names.csv.gz",
+        "caribbean-registry/countries/AG/entities.csv.gz",
+        "caribbean-registry/countries/AG/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "AI",
+      "name": "Anguilla",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/AI/admin1.csv",
+        "caribbean-registry/countries/AI/alternate-names.csv.gz",
+        "caribbean-registry/countries/AI/entities.csv.gz",
+        "caribbean-registry/countries/AI/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "AL",
+      "name": "Albania",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/AL/admin1.csv",
+        "europe-registry/countries/AL/entities-0001.csv.gz",
+        "europe-registry/countries/AL/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "AM",
+      "name": "Armenia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/AM.zip",
+        "europe-registry/countries/AM/admin1.csv",
+        "europe-registry/countries/AM/entities-0001.csv.gz",
+        "europe-registry/countries/AM/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "AO",
+      "name": "Angola",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/AO/admin1.csv",
+        "africa-registry/countries/AO/entities.csv.gz",
+        "africa-registry/countries/AO/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "AQ",
+      "name": "Antarctica",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "shared_sources_need_mapping",
+      "paths": [],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "AR",
+      "name": "Argentina",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "south-america-registry/.parts/countries/AR/alternate-values.csv.gz/part-0001.bin",
+        "south-america-registry/.parts/countries/AR/alternate-values.csv.gz/part-0002.bin",
+        "south-america-registry/.parts/countries/AR/entities.csv.gz/part-0001.bin",
+        "south-america-registry/.parts/countries/AR/entities.csv.gz/part-0002.bin",
+        "south-america-registry/countries/AR/admin1.csv",
+        "south-america-registry/countries/AR/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "AS",
+      "name": "American Samoa",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/AS/index.json",
+        "oceania-registry/countries/AS/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/AT/admin1.csv",
+        "europe-registry/countries/AT/entities-0001.csv.gz",
+        "europe-registry/countries/AT/entities-0002.csv.gz",
+        "europe-registry/countries/AT/metadata.json",
+        "europe-registry/eurostat-lau/AT/metadata.json",
+        "europe-registry/eurostat-lau/AT/statistical_regions.csv",
+        "europe-registry/eurostat-lau/AT/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/AU/index.json",
+        "oceania-registry/countries/AU/part-001.b64",
+        "oceania-registry/countries/AU/part-002.b64",
+        "oceania-registry/countries/AU/part-003.b64",
+        "oceania-registry/countries/AU/part-004.b64",
+        "oceania-registry/countries/AU/part-005.b64",
+        "oceania-registry/countries/AU/part-006.b64",
+        "oceania-registry/countries/AU/part-007.b64",
+        "oceania-registry/countries/AU/part-008.b64",
+        "oceania-registry/countries/AU/part-009.b64",
+        "oceania-registry/countries/AU/part-010.b64",
+        "oceania-registry/countries/AU/part-011.b64",
+        "oceania-registry/countries/AU/part-012.b64",
+        "oceania-registry/countries/AU/part-013.b64",
+        "oceania-registry/countries/AU/part-014.b64",
+        "oceania-registry/countries/AU/part-015.b64",
+        "oceania-registry/countries/AU/part-016.b64",
+        "oceania-registry/countries/AU/part-017.b64",
+        "oceania-registry/countries/AU/part-018.b64",
+        "oceania-registry/countries/AU/part-019.b64",
+        "oceania-registry/countries/AU/part-020.b64",
+        "oceania-registry/countries/AU/part-021.b64",
+        "oceania-registry/countries/AU/part-022.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "AW",
+      "name": "Aruba",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/AW/admin1.csv",
+        "caribbean-registry/countries/AW/alternate-names.csv.gz",
+        "caribbean-registry/countries/AW/entities.csv.gz",
+        "caribbean-registry/countries/AW/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "AX",
+      "name": "Aland Islands",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/AX/admin1.csv",
+        "europe-registry/countries/AX/entities-0001.csv.gz",
+        "europe-registry/countries/AX/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/AZ.zip",
+        "europe-registry/countries/AZ/admin1.csv",
+        "europe-registry/countries/AZ/entities-0001.csv.gz",
+        "europe-registry/countries/AZ/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/BA/admin1.csv",
+        "europe-registry/countries/BA/entities-0001.csv.gz",
+        "europe-registry/countries/BA/entities-0002.csv.gz",
+        "europe-registry/countries/BA/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BB",
+      "name": "Barbados",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/BB/admin1.csv",
+        "caribbean-registry/countries/BB/alternate-names.csv.gz",
+        "caribbean-registry/countries/BB/entities.csv.gz",
+        "caribbean-registry/countries/BB/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/BD.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BE",
+      "name": "Belgium",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/BE/admin1.csv",
+        "europe-registry/countries/BE/entities-0001.csv.gz",
+        "europe-registry/countries/BE/metadata.json",
+        "europe-registry/eurostat-lau/BE/metadata.json",
+        "europe-registry/eurostat-lau/BE/statistical_regions.csv",
+        "europe-registry/eurostat-lau/BE/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BF",
+      "name": "Burkina Faso",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/BF/admin1.csv",
+        "africa-registry/countries/BF/entities.csv.gz",
+        "africa-registry/countries/BF/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BG",
+      "name": "Bulgaria",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/BG/admin1.csv",
+        "europe-registry/countries/BG/entities-0001.csv.gz",
+        "europe-registry/countries/BG/metadata.json",
+        "europe-registry/eurostat-lau/BG/metadata.json",
+        "europe-registry/eurostat-lau/BG/statistical_regions.csv",
+        "europe-registry/eurostat-lau/BG/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BH",
+      "name": "Bahrain",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/BH.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BI",
+      "name": "Burundi",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/BI/admin1.csv",
+        "africa-registry/countries/BI/entities.csv.gz",
+        "africa-registry/countries/BI/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BJ",
+      "name": "Benin",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/BJ/admin1.csv",
+        "africa-registry/countries/BJ/entities.csv.gz",
+        "africa-registry/countries/BJ/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BL",
+      "name": "Saint Barthelemy",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/BL/admin1.csv",
+        "caribbean-registry/countries/BL/alternate-names.csv.gz",
+        "caribbean-registry/countries/BL/entities.csv.gz",
+        "caribbean-registry/countries/BL/metadata.json",
+        "caribbean-registry/countries/BL/postal-links.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BM",
+      "name": "Bermuda",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "shared_sources_need_mapping",
+      "paths": [],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BN",
+      "name": "Brunei",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/BN.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BO",
+      "name": "Bolivia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "south-america-registry/.parts/countries/BO/entities.csv.gz/part-0001.bin",
+        "south-america-registry/.parts/countries/BO/entities.csv.gz/part-0002.bin",
+        "south-america-registry/countries/BO/admin1.csv",
+        "south-america-registry/countries/BO/alternate-values.csv.gz",
+        "south-america-registry/countries/BO/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BQ",
+      "name": "Bonaire, Saint Eustatius and Saba ",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/BQ/admin1.csv",
+        "caribbean-registry/countries/BQ/alternate-names.csv.gz",
+        "caribbean-registry/countries/BQ/entities.csv.gz",
+        "caribbean-registry/countries/BQ/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "official-registry/BR/BR-AC.csv",
+        "official-registry/BR/BR-AL.csv",
+        "official-registry/BR/BR-AM.csv",
+        "official-registry/BR/BR-AP.csv",
+        "official-registry/BR/BR-BA.csv",
+        "official-registry/BR/BR-CE.csv",
+        "official-registry/BR/BR-DF.csv",
+        "official-registry/BR/BR-ES.csv",
+        "official-registry/BR/BR-GO.csv",
+        "official-registry/BR/BR-MA.csv",
+        "official-registry/BR/BR-MG.csv",
+        "official-registry/BR/BR-MS.csv",
+        "official-registry/BR/BR-MT.csv",
+        "official-registry/BR/BR-PA.csv",
+        "official-registry/BR/BR-PB.csv",
+        "official-registry/BR/BR-PE.csv",
+        "official-registry/BR/BR-PI.csv",
+        "official-registry/BR/BR-PR.csv",
+        "official-registry/BR/BR-RJ.csv",
+        "official-registry/BR/BR-RN.csv",
+        "official-registry/BR/BR-RO.csv",
+        "official-registry/BR/BR-RR.csv",
+        "official-registry/BR/BR-RS.csv",
+        "official-registry/BR/BR-SC.csv",
+        "official-registry/BR/BR-SE.csv",
+        "official-registry/BR/BR-SP.csv",
+        "official-registry/BR/BR-TO.csv",
+        "official-registry/BR/anchors.csv",
+        "official-registry/BR/index.json",
+        "official-registry/BR/manifest.json",
+        "official-registry/BR/unmatched-source-rows.json",
+        "official-registry/americas-provenance/registry/countries/BR.json",
+        "south-america-registry/.parts/countries/BR/alternate-values.csv.gz/part-0001.bin",
+        "south-america-registry/.parts/countries/BR/alternate-values.csv.gz/part-0002.bin",
+        "south-america-registry/.parts/countries/BR/alternate-values.csv.gz/part-0003.bin",
+        "south-america-registry/.parts/countries/BR/alternate-values.csv.gz/part-0004.bin",
+        "south-america-registry/.parts/countries/BR/alternate-values.csv.gz/part-0005.bin",
+        "south-america-registry/.parts/countries/BR/entities.csv.gz/part-0001.bin",
+        "south-america-registry/.parts/countries/BR/entities.csv.gz/part-0002.bin",
+        "south-america-registry/.parts/countries/BR/entities.csv.gz/part-0003.bin",
+        "south-america-registry/.parts/countries/BR/entities.csv.gz/part-0004.bin",
+        "south-america-registry/.parts/countries/BR/entities.csv.gz/part-0005.bin",
+        "south-america-registry/.parts/countries/BR/entities.csv.gz/part-0006.bin",
+        "south-america-registry/.parts/countries/BR/entities.csv.gz/part-0007.bin",
+        "south-america-registry/countries/BR/admin1.csv",
+        "south-america-registry/countries/BR/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BS",
+      "name": "Bahamas",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/BS/admin1.csv",
+        "caribbean-registry/countries/BS/alternate-names.csv.gz",
+        "caribbean-registry/countries/BS/entities.csv.gz",
+        "caribbean-registry/countries/BS/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BT",
+      "name": "Bhutan",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/BT.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BV",
+      "name": "Bouvet Island",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "south-america-registry/countries/BV/admin1.csv",
+        "south-america-registry/countries/BV/alternate-values.csv.gz",
+        "south-america-registry/countries/BV/entities.csv.gz",
+        "south-america-registry/countries/BV/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BW",
+      "name": "Botswana",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/BW/admin1.csv",
+        "africa-registry/countries/BW/entities.csv.gz",
+        "africa-registry/countries/BW/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BY",
+      "name": "Belarus",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/BY/admin1.csv",
+        "europe-registry/countries/BY/entities-0001.csv.gz",
+        "europe-registry/countries/BY/entities-0002.csv.gz",
+        "europe-registry/countries/BY/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "BZ",
+      "name": "Belize",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "central-america-registry/countries/BZ/admin1.csv",
+        "central-america-registry/countries/BZ/entities.csv.gz",
+        "central-america-registry/countries/BZ/locale_metadata.json",
+        "central-america-registry/countries/BZ/metadata.json",
+        "central-america-registry/countries/BZ/names.csv.gz",
+        "central-america-registry/countries/BZ/postal_links.csv.gz",
+        "central-america-registry/sources/BZ.zip",
+        "central-america-registry/sources/alternatenames/BZ.json",
+        "central-america-registry/sources/alternatenames/BZ.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "official-registry/CA/CA-AB.csv",
+        "official-registry/CA/CA-BC.csv",
+        "official-registry/CA/CA-MB.csv",
+        "official-registry/CA/CA-NB.csv",
+        "official-registry/CA/CA-NL.csv",
+        "official-registry/CA/CA-NS.csv",
+        "official-registry/CA/CA-NT.csv",
+        "official-registry/CA/CA-NU.csv",
+        "official-registry/CA/CA-ON.csv",
+        "official-registry/CA/CA-PE.csv",
+        "official-registry/CA/CA-QC.csv",
+        "official-registry/CA/CA-SK.csv",
+        "official-registry/CA/CA-YT.csv",
+        "official-registry/CA/anchors.csv",
+        "official-registry/CA/index.json",
+        "official-registry/CA/manifest.json",
+        "official-registry/CA/unmatched-source-rows.json",
+        "official-registry/americas-provenance/registry/countries/CA.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CC",
+      "name": "Cocos Islands",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/CC/index.json",
+        "oceania-registry/countries/CC/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CD",
+      "name": "Democratic Republic of the Congo",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "shared_sources_need_mapping",
+      "paths": [],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CF",
+      "name": "Central African Republic",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/CF/admin1.csv",
+        "africa-registry/countries/CF/entities.csv.gz",
+        "africa-registry/countries/CF/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CG",
+      "name": "Republic of the Congo",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/CG/admin1.csv",
+        "africa-registry/countries/CG/entities.csv.gz",
+        "africa-registry/countries/CG/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CH",
+      "name": "Switzerland",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/CH/admin1.csv",
+        "europe-registry/countries/CH/entities-0001.csv.gz",
+        "europe-registry/countries/CH/metadata.json",
+        "europe-registry/eurostat-lau/CH/metadata.json",
+        "europe-registry/eurostat-lau/CH/statistical_regions.csv",
+        "europe-registry/eurostat-lau/CH/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CI",
+      "name": "Ivory Coast",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/CI/admin1.csv",
+        "africa-registry/countries/CI/entities.csv.gz",
+        "africa-registry/countries/CI/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CK",
+      "name": "Cook Islands",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/CK/index.json",
+        "oceania-registry/countries/CK/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CL",
+      "name": "Chile",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "south-america-registry/countries/CL/admin1.csv",
+        "south-america-registry/countries/CL/alternate-values.csv.gz",
+        "south-america-registry/countries/CL/entities.csv.gz",
+        "south-america-registry/countries/CL/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CM",
+      "name": "Cameroon",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/CM/admin1.csv",
+        "africa-registry/countries/CM/entities.csv.gz",
+        "africa-registry/countries/CM/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/CN.zip.part001",
+        "asia-registry/country-archives/CN.zip.part002",
+        "asia-registry/country-archives/CN.zip.part003",
+        "asia-registry/country-archives/CN.zip.part004",
+        "asia-registry/country-archives/CN.zip.part005",
+        "releases/hierarchy/east-asia/reports/CN.projection.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CO",
+      "name": "Colombia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "south-america-registry/.parts/countries/CO/entities.csv.gz/part-0001.bin",
+        "south-america-registry/.parts/countries/CO/entities.csv.gz/part-0002.bin",
+        "south-america-registry/.parts/countries/CO/entities.csv.gz/part-0003.bin",
+        "south-america-registry/countries/CO/admin1.csv",
+        "south-america-registry/countries/CO/alternate-values.csv.gz",
+        "south-america-registry/countries/CO/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CR",
+      "name": "Costa Rica",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "central-america-registry/enrichment/countries/CR/admin1.csv",
+        "central-america-registry/enrichment/countries/CR/entities.csv.gz",
+        "central-america-registry/enrichment/countries/CR/locale_metadata.json",
+        "central-america-registry/enrichment/countries/CR/metadata.json",
+        "central-america-registry/enrichment/countries/CR/names.csv.gz",
+        "central-america-registry/enrichment/countries/CR/postal_links.csv.gz",
+        "central-america-registry/enrichment/sources/CR.zip",
+        "central-america-registry/enrichment/sources/alternatenames/CR.json",
+        "central-america-registry/enrichment/sources/alternatenames/CR.zip",
+        "central-america-registry/government-reference/CR/cantons.json",
+        "central-america-registry/government-reference/CR/manifest.json",
+        "central-america-registry/government-reference/CR/source.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CU",
+      "name": "Cuba",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "shared_sources_need_mapping",
+      "paths": [],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CV",
+      "name": "Cabo Verde",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/CV/admin1.csv",
+        "africa-registry/countries/CV/entities.csv.gz",
+        "africa-registry/countries/CV/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CW",
+      "name": "Curacao",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/CW/admin1.csv",
+        "caribbean-registry/countries/CW/alternate-names.csv.gz",
+        "caribbean-registry/countries/CW/entities.csv.gz",
+        "caribbean-registry/countries/CW/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CX",
+      "name": "Christmas Island",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/CX/index.json",
+        "oceania-registry/countries/CX/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CY",
+      "name": "Cyprus",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/CY.zip",
+        "europe-registry/countries/CY/admin1.csv",
+        "europe-registry/countries/CY/entities-0001.csv.gz",
+        "europe-registry/countries/CY/metadata.json",
+        "europe-registry/eurostat-lau/CY/metadata.json",
+        "europe-registry/eurostat-lau/CY/statistical_regions.csv",
+        "europe-registry/eurostat-lau/CY/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "CZ",
+      "name": "Czechia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/CZ/admin1.csv",
+        "europe-registry/countries/CZ/entities-0001.csv.gz",
+        "europe-registry/countries/CZ/entities-0002.csv.gz",
+        "europe-registry/countries/CZ/metadata.json",
+        "europe-registry/eurostat-lau/CZ/metadata.json",
+        "europe-registry/eurostat-lau/CZ/statistical_regions.csv",
+        "europe-registry/eurostat-lau/CZ/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/DE/admin1.csv",
+        "europe-registry/countries/DE/entities-0001.csv.gz",
+        "europe-registry/countries/DE/entities-0002.csv.gz",
+        "europe-registry/countries/DE/entities-0003.csv.gz",
+        "europe-registry/countries/DE/entities-0004.csv.gz",
+        "europe-registry/countries/DE/entities-0005.csv.gz",
+        "europe-registry/countries/DE/metadata.json",
+        "europe-registry/eurostat-lau/DE/metadata.json",
+        "europe-registry/eurostat-lau/DE/statistical_regions.csv",
+        "europe-registry/eurostat-lau/DE/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "DJ",
+      "name": "Djibouti",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/DJ/admin1.csv",
+        "africa-registry/countries/DJ/entities.csv.gz",
+        "africa-registry/countries/DJ/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "DK",
+      "name": "Denmark",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/DK/admin1.csv",
+        "europe-registry/countries/DK/entities-0001.csv.gz",
+        "europe-registry/countries/DK/metadata.json",
+        "europe-registry/eurostat-lau/DK/metadata.json",
+        "europe-registry/eurostat-lau/DK/statistical_regions.csv",
+        "europe-registry/eurostat-lau/DK/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "DM",
+      "name": "Dominica",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/DM/admin1.csv",
+        "caribbean-registry/countries/DM/alternate-names.csv.gz",
+        "caribbean-registry/countries/DM/entities.csv.gz",
+        "caribbean-registry/countries/DM/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "DO",
+      "name": "Dominican Republic",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/.parts/DO/entities.csv.gz.part001.bin",
+        "caribbean-registry/.parts/DO/entities.csv.gz.part002.bin",
+        "caribbean-registry/countries/DO/admin1.csv",
+        "caribbean-registry/countries/DO/alternate-names.csv.gz",
+        "caribbean-registry/countries/DO/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "DZ",
+      "name": "Algeria",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/DZ/admin1.csv",
+        "africa-registry/countries/DZ/entities.csv.gz",
+        "africa-registry/countries/DZ/metadata.json",
+        "africa-registry/official-references/DZ-2026-wilayas.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "EC",
+      "name": "Ecuador",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "south-america-registry/countries/EC/admin1.csv",
+        "south-america-registry/countries/EC/alternate-values.csv.gz",
+        "south-america-registry/countries/EC/entities.csv.gz",
+        "south-america-registry/countries/EC/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "EE",
+      "name": "Estonia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/EE/admin1.csv",
+        "europe-registry/countries/EE/entities-0001.csv.gz",
+        "europe-registry/countries/EE/metadata.json",
+        "europe-registry/eurostat-lau/EE/metadata.json",
+        "europe-registry/eurostat-lau/EE/statistical_regions.csv",
+        "europe-registry/eurostat-lau/EE/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/EG/admin1.csv",
+        "africa-registry/countries/EG/entities.csv.gz",
+        "africa-registry/countries/EG/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "EH",
+      "name": "Western Sahara",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/EH/admin1.csv",
+        "africa-registry/countries/EH/entities.csv.gz",
+        "africa-registry/countries/EH/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "ER",
+      "name": "Eritrea",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/ER/admin1.csv",
+        "africa-registry/countries/ER/entities.csv.gz",
+        "africa-registry/countries/ER/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/ES/admin1.csv",
+        "europe-registry/countries/ES/entities-0001.csv.gz",
+        "europe-registry/countries/ES/entities-0002.csv.gz",
+        "europe-registry/countries/ES/metadata.json",
+        "europe-registry/eurostat-lau/ES/metadata.json",
+        "europe-registry/eurostat-lau/ES/statistical_regions.csv",
+        "europe-registry/eurostat-lau/ES/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "ET",
+      "name": "Ethiopia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/ET/admin1.csv",
+        "africa-registry/countries/ET/entities.csv.gz",
+        "africa-registry/countries/ET/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/FI/admin1.csv",
+        "europe-registry/countries/FI/entities-0001.csv.gz",
+        "europe-registry/countries/FI/entities-0002.csv.gz",
+        "europe-registry/countries/FI/metadata.json",
+        "europe-registry/eurostat-lau/FI/metadata.json",
+        "europe-registry/eurostat-lau/FI/statistical_regions.csv",
+        "europe-registry/eurostat-lau/FI/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "FJ",
+      "name": "Fiji",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/FJ/index.json",
+        "oceania-registry/countries/FJ/part-001.b64",
+        "oceania-registry/countries/FJ/part-002.b64",
+        "oceania-registry/countries/FJ/part-003.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "FK",
+      "name": "Falkland Islands",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "south-america-registry/countries/FK/admin1.csv",
+        "south-america-registry/countries/FK/alternate-values.csv.gz",
+        "south-america-registry/countries/FK/entities.csv.gz",
+        "south-america-registry/countries/FK/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "FM",
+      "name": "Micronesia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/FM/index.json",
+        "oceania-registry/countries/FM/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "FO",
+      "name": "Faroe Islands",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/FO/admin1.csv",
+        "europe-registry/countries/FO/entities-0001.csv.gz",
+        "europe-registry/countries/FO/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/FR/admin1.csv",
+        "europe-registry/countries/FR/entities-0001.csv.gz",
+        "europe-registry/countries/FR/entities-0002.csv.gz",
+        "europe-registry/countries/FR/entities-0003.csv.gz",
+        "europe-registry/countries/FR/entities-0004.csv.gz",
+        "europe-registry/countries/FR/entities-0005.csv.gz",
+        "europe-registry/countries/FR/entities-0006.csv.gz",
+        "europe-registry/countries/FR/metadata.json",
+        "europe-registry/eurostat-lau/FR/metadata.json",
+        "europe-registry/eurostat-lau/FR/statistical_regions.csv",
+        "europe-registry/eurostat-lau/FR/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GA",
+      "name": "Gabon",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/GA/admin1.csv",
+        "africa-registry/countries/GA/entities.csv.gz",
+        "africa-registry/countries/GA/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/GB/admin1.csv",
+        "europe-registry/countries/GB/entities-0001.csv.gz",
+        "europe-registry/countries/GB/entities-0002.csv.gz",
+        "europe-registry/countries/GB/entities-0003.csv.gz",
+        "europe-registry/countries/GB/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GD",
+      "name": "Grenada",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/GD/admin1.csv",
+        "caribbean-registry/countries/GD/alternate-names.csv.gz",
+        "caribbean-registry/countries/GD/entities.csv.gz",
+        "caribbean-registry/countries/GD/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GE",
+      "name": "Georgia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/GE.zip",
+        "europe-registry/countries/GE/admin1.csv",
+        "europe-registry/countries/GE/entities-0001.csv.gz",
+        "europe-registry/countries/GE/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GF",
+      "name": "French Guiana",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "south-america-registry/countries/GF/admin1.csv",
+        "south-america-registry/countries/GF/alternate-values.csv.gz",
+        "south-america-registry/countries/GF/entities.csv.gz",
+        "south-america-registry/countries/GF/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GG",
+      "name": "Guernsey",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/GG/admin1.csv",
+        "europe-registry/countries/GG/entities-0001.csv.gz",
+        "europe-registry/countries/GG/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GH",
+      "name": "Ghana",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/GH/admin1.csv",
+        "africa-registry/countries/GH/entities.csv.gz",
+        "africa-registry/countries/GH/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GI",
+      "name": "Gibraltar",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/GI/admin1.csv",
+        "europe-registry/countries/GI/entities-0001.csv.gz",
+        "europe-registry/countries/GI/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GL",
+      "name": "Greenland",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "shared_sources_need_mapping",
+      "paths": [],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GM",
+      "name": "Gambia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/GM/admin1.csv",
+        "africa-registry/countries/GM/entities.csv.gz",
+        "africa-registry/countries/GM/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GN",
+      "name": "Guinea",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/GN/admin1.csv",
+        "africa-registry/countries/GN/entities.csv.gz",
+        "africa-registry/countries/GN/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GP",
+      "name": "Guadeloupe",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/GP/admin1.csv",
+        "caribbean-registry/countries/GP/alternate-names.csv.gz",
+        "caribbean-registry/countries/GP/entities.csv.gz",
+        "caribbean-registry/countries/GP/metadata.json",
+        "caribbean-registry/countries/GP/postal-links.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GQ",
+      "name": "Equatorial Guinea",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/GQ/admin1.csv",
+        "africa-registry/countries/GQ/entities.csv.gz",
+        "africa-registry/countries/GQ/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GR",
+      "name": "Greece",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/GR/admin1.csv",
+        "europe-registry/countries/GR/entities-0001.csv.gz",
+        "europe-registry/countries/GR/metadata.json",
+        "europe-registry/eurostat-lau/GR/metadata.json",
+        "europe-registry/eurostat-lau/GR/statistical_regions.csv",
+        "europe-registry/eurostat-lau/GR/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GS",
+      "name": "South Georgia and the South Sandwich Islands",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "south-america-registry/countries/GS/admin1.csv",
+        "south-america-registry/countries/GS/alternate-values.csv.gz",
+        "south-america-registry/countries/GS/entities.csv.gz",
+        "south-america-registry/countries/GS/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GT",
+      "name": "Guatemala",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "central-america-registry/.parts/GT/sources/GT.zip/part-0001.bin",
+        "central-america-registry/.parts/GT/sources/GT.zip/part-0002.bin",
+        "central-america-registry/countries/GT/admin1.csv",
+        "central-america-registry/countries/GT/entities.csv.gz",
+        "central-america-registry/countries/GT/locale_metadata.json",
+        "central-america-registry/countries/GT/metadata.json",
+        "central-america-registry/countries/GT/names.csv.gz",
+        "central-america-registry/countries/GT/postal_links.csv.gz",
+        "central-america-registry/sources/alternatenames/GT.json",
+        "central-america-registry/sources/alternatenames/GT.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GU",
+      "name": "Guam",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/GU/index.json",
+        "oceania-registry/countries/GU/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GW",
+      "name": "Guinea-Bissau",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/GW/admin1.csv",
+        "africa-registry/countries/GW/entities.csv.gz",
+        "africa-registry/countries/GW/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "GY",
+      "name": "Guyana",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "south-america-registry/countries/GY/admin1.csv",
+        "south-america-registry/countries/GY/alternate-values.csv.gz",
+        "south-america-registry/countries/GY/entities.csv.gz",
+        "south-america-registry/countries/GY/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/HK.zip",
+        "releases/hierarchy/east-asia/reports/HK.projection.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "HM",
+      "name": "Heard Island and McDonald Islands",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/HM/index.json",
+        "oceania-registry/countries/HM/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "HN",
+      "name": "Honduras",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "central-america-registry/countries/HN/admin1.csv",
+        "central-america-registry/countries/HN/entities.csv.gz",
+        "central-america-registry/countries/HN/locale_metadata.json",
+        "central-america-registry/countries/HN/metadata.json",
+        "central-america-registry/countries/HN/names.csv.gz",
+        "central-america-registry/countries/HN/postal_links.csv.gz",
+        "central-america-registry/sources/HN.zip",
+        "central-america-registry/sources/alternatenames/HN.json",
+        "central-america-registry/sources/alternatenames/HN.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "HR",
+      "name": "Croatia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/HR/admin1.csv",
+        "europe-registry/countries/HR/entities-0001.csv.gz",
+        "europe-registry/countries/HR/metadata.json",
+        "europe-registry/eurostat-lau/HR/metadata.json",
+        "europe-registry/eurostat-lau/HR/statistical_regions.csv",
+        "europe-registry/eurostat-lau/HR/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "HT",
+      "name": "Haiti",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/HT/admin1.csv",
+        "caribbean-registry/countries/HT/alternate-names.csv.gz",
+        "caribbean-registry/countries/HT/entities.csv.gz",
+        "caribbean-registry/countries/HT/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "HU",
+      "name": "Hungary",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/HU/admin1.csv",
+        "europe-registry/countries/HU/entities-0001.csv.gz",
+        "europe-registry/countries/HU/metadata.json",
+        "europe-registry/eurostat-lau/HU/metadata.json",
+        "europe-registry/eurostat-lau/HU/statistical_regions.csv",
+        "europe-registry/eurostat-lau/HU/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/ID.zip.part001",
+        "asia-registry/country-archives/ID.zip.part002"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "IE",
+      "name": "Ireland",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/IE/admin1.csv",
+        "europe-registry/countries/IE/entities-0001.csv.gz",
+        "europe-registry/countries/IE/metadata.json",
+        "europe-registry/eurostat-lau/IE/metadata.json",
+        "europe-registry/eurostat-lau/IE/statistical_regions.csv",
+        "europe-registry/eurostat-lau/IE/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "IL",
+      "name": "Israel",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/IL.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "IM",
+      "name": "Isle of Man",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/IM/admin1.csv",
+        "europe-registry/countries/IM/entities-0001.csv.gz",
+        "europe-registry/countries/IM/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/IN.zip.part001",
+        "asia-registry/country-archives/IN.zip.part002"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "IO",
+      "name": "British Indian Ocean Territory",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/IO/admin1.csv",
+        "africa-registry/countries/IO/entities.csv.gz",
+        "africa-registry/countries/IO/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "IQ",
+      "name": "Iraq",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/IQ.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/IR.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "IS",
+      "name": "Iceland",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/IS/admin1.csv",
+        "europe-registry/countries/IS/entities-0001.csv.gz",
+        "europe-registry/countries/IS/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/IT/admin1.csv",
+        "europe-registry/countries/IT/entities-0001.csv.gz",
+        "europe-registry/countries/IT/entities-0002.csv.gz",
+        "europe-registry/countries/IT/entities-0003.csv.gz",
+        "europe-registry/countries/IT/entities-0004.csv.gz",
+        "europe-registry/countries/IT/metadata.json",
+        "europe-registry/eurostat-lau/IT/metadata.json",
+        "europe-registry/eurostat-lau/IT/statistical_regions.csv",
+        "europe-registry/eurostat-lau/IT/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "JE",
+      "name": "Jersey",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/JE/admin1.csv",
+        "europe-registry/countries/JE/entities-0001.csv.gz",
+        "europe-registry/countries/JE/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "JM",
+      "name": "Jamaica",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/JM/admin1.csv",
+        "caribbean-registry/countries/JM/alternate-names.csv.gz",
+        "caribbean-registry/countries/JM/entities.csv.gz",
+        "caribbean-registry/countries/JM/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "JO",
+      "name": "Jordan",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/JO.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/JP.zip",
+        "official-registry/JP/ODbL-1.0.txt",
+        "official-registry/JP/README.md",
+        "official-registry/JP/coverage.json",
+        "official-registry/JP/entities.csv.gz",
+        "official-registry/JP/geonames_candidates.csv",
+        "official-registry/JP/names.csv.gz",
+        "official-registry/JP/postal_rows.csv.gz",
+        "official-registry/JP/sources.json",
+        "official-registry/JP/sources/postal-roman.zip",
+        "official-registry/JP/sources/postal-utf.zip",
+        "official-registry/JP/sources/registry-manifest.json",
+        "official-registry/JP/sources/registry.json.gz",
+        "official-registry/JP/unresolved_roman.csv",
+        "releases/hierarchy/east-asia/reports/JP.projection.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "KE",
+      "name": "Kenya",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/KE/admin1.csv",
+        "africa-registry/countries/KE/entities.csv.gz",
+        "africa-registry/countries/KE/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "KG",
+      "name": "Kyrgyzstan",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/KG.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "KH",
+      "name": "Cambodia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/KH.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "KI",
+      "name": "Kiribati",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/KI/index.json",
+        "oceania-registry/countries/KI/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "KM",
+      "name": "Comoros",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/KM/admin1.csv",
+        "africa-registry/countries/KM/entities.csv.gz",
+        "africa-registry/countries/KM/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "KN",
+      "name": "Saint Kitts and Nevis",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/KN/admin1.csv",
+        "caribbean-registry/countries/KN/alternate-names.csv.gz",
+        "caribbean-registry/countries/KN/entities.csv.gz",
+        "caribbean-registry/countries/KN/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "KP",
+      "name": "North Korea",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/KP.zip",
+        "releases/hierarchy/east-asia/reports/KP.projection.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/KR.zip",
+        "releases/hierarchy/east-asia/reports/KR.projection.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "KW",
+      "name": "Kuwait",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/KW.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "KY",
+      "name": "Cayman Islands",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/KY/admin1.csv",
+        "caribbean-registry/countries/KY/alternate-names.csv.gz",
+        "caribbean-registry/countries/KY/entities.csv.gz",
+        "caribbean-registry/countries/KY/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/KZ.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "LA",
+      "name": "Laos",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/LA.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "LB",
+      "name": "Lebanon",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/LB.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "LC",
+      "name": "Saint Lucia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/LC/admin1.csv",
+        "caribbean-registry/countries/LC/alternate-names.csv.gz",
+        "caribbean-registry/countries/LC/entities.csv.gz",
+        "caribbean-registry/countries/LC/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "LI",
+      "name": "Liechtenstein",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/LI/admin1.csv",
+        "europe-registry/countries/LI/entities-0001.csv.gz",
+        "europe-registry/countries/LI/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "LK",
+      "name": "Sri Lanka",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/LK.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "LR",
+      "name": "Liberia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/LR/admin1.csv",
+        "africa-registry/countries/LR/entities.csv.gz",
+        "africa-registry/countries/LR/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "LS",
+      "name": "Lesotho",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/LS/admin1.csv",
+        "africa-registry/countries/LS/entities.csv.gz",
+        "africa-registry/countries/LS/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "LT",
+      "name": "Lithuania",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/LT/admin1.csv",
+        "europe-registry/countries/LT/entities-0001.csv.gz",
+        "europe-registry/countries/LT/entities-0002.csv.gz",
+        "europe-registry/countries/LT/metadata.json",
+        "europe-registry/eurostat-lau/LT/metadata.json",
+        "europe-registry/eurostat-lau/LT/statistical_regions.csv",
+        "europe-registry/eurostat-lau/LT/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "LU",
+      "name": "Luxembourg",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/LU/admin1.csv",
+        "europe-registry/countries/LU/entities-0001.csv.gz",
+        "europe-registry/countries/LU/metadata.json",
+        "europe-registry/eurostat-lau/LU/metadata.json",
+        "europe-registry/eurostat-lau/LU/statistical_regions.csv",
+        "europe-registry/eurostat-lau/LU/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "LV",
+      "name": "Latvia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/LV/admin1.csv",
+        "europe-registry/countries/LV/entities-0001.csv.gz",
+        "europe-registry/countries/LV/metadata.json",
+        "europe-registry/eurostat-lau/LV/metadata.json",
+        "europe-registry/eurostat-lau/LV/statistical_regions.csv",
+        "europe-registry/eurostat-lau/LV/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "LY",
+      "name": "Libya",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/LY/admin1.csv",
+        "africa-registry/countries/LY/entities.csv.gz",
+        "africa-registry/countries/LY/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MA",
+      "name": "Morocco",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "shared_sources_need_mapping",
+      "paths": [],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MC",
+      "name": "Monaco",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/MC/admin1.csv",
+        "europe-registry/countries/MC/entities-0001.csv.gz",
+        "europe-registry/countries/MC/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MD",
+      "name": "Moldova",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/MD/admin1.csv",
+        "europe-registry/countries/MD/entities-0001.csv.gz",
+        "europe-registry/countries/MD/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "ME",
+      "name": "Montenegro",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/ME/admin1.csv",
+        "europe-registry/countries/ME/entities-0001.csv.gz",
+        "europe-registry/countries/ME/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MF",
+      "name": "Saint Martin",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/MF/admin1.csv",
+        "caribbean-registry/countries/MF/alternate-names.csv.gz",
+        "caribbean-registry/countries/MF/entities.csv.gz",
+        "caribbean-registry/countries/MF/metadata.json",
+        "caribbean-registry/countries/MF/postal-links.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MG",
+      "name": "Madagascar",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "shared_sources_need_mapping",
+      "paths": [],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MH",
+      "name": "Marshall Islands",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/MH/index.json",
+        "oceania-registry/countries/MH/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MK",
+      "name": "North Macedonia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/MK/admin1.csv",
+        "europe-registry/countries/MK/entities-0001.csv.gz",
+        "europe-registry/countries/MK/metadata.json",
+        "europe-registry/eurostat-lau/MK/metadata.json",
+        "europe-registry/eurostat-lau/MK/statistical_regions.csv",
+        "europe-registry/eurostat-lau/MK/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "ML",
+      "name": "Mali",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/ML/admin1.csv",
+        "africa-registry/countries/ML/entities.csv.gz",
+        "africa-registry/countries/ML/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MM",
+      "name": "Myanmar",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/MM.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MN",
+      "name": "Mongolia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/MN.zip",
+        "releases/hierarchy/east-asia/reports/MN.projection.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MO",
+      "name": "Macao",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/MO.zip",
+        "releases/hierarchy/east-asia/reports/MO.projection.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MP",
+      "name": "Northern Mariana Islands",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/MP/index.json",
+        "oceania-registry/countries/MP/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MQ",
+      "name": "Martinique",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/MQ/admin1.csv",
+        "caribbean-registry/countries/MQ/alternate-names.csv.gz",
+        "caribbean-registry/countries/MQ/entities.csv.gz",
+        "caribbean-registry/countries/MQ/metadata.json",
+        "caribbean-registry/countries/MQ/postal-links.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MR",
+      "name": "Mauritania",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/MR/admin1.csv",
+        "africa-registry/countries/MR/entities.csv.gz",
+        "africa-registry/countries/MR/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MS",
+      "name": "Montserrat",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/MS/admin1.csv",
+        "caribbean-registry/countries/MS/alternate-names.csv.gz",
+        "caribbean-registry/countries/MS/entities.csv.gz",
+        "caribbean-registry/countries/MS/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MT",
+      "name": "Malta",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/MT/admin1.csv",
+        "europe-registry/countries/MT/entities-0001.csv.gz",
+        "europe-registry/countries/MT/metadata.json",
+        "europe-registry/eurostat-lau/MT/metadata.json",
+        "europe-registry/eurostat-lau/MT/statistical_regions.csv",
+        "europe-registry/eurostat-lau/MT/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MU",
+      "name": "Mauritius",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/MU/admin1.csv",
+        "africa-registry/countries/MU/entities.csv.gz",
+        "africa-registry/countries/MU/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MV",
+      "name": "Maldives",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/MV.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MW",
+      "name": "Malawi",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/MW/admin1.csv",
+        "africa-registry/countries/MW/entities.csv.gz",
+        "africa-registry/countries/MW/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "official-registry/MX/MX-AGU.csv",
+        "official-registry/MX/MX-BCN.csv",
+        "official-registry/MX/MX-BCS.csv",
+        "official-registry/MX/MX-CAM.csv",
+        "official-registry/MX/MX-CHH.csv",
+        "official-registry/MX/MX-CHP.csv",
+        "official-registry/MX/MX-CMX.csv",
+        "official-registry/MX/MX-COA.csv",
+        "official-registry/MX/MX-COL.csv",
+        "official-registry/MX/MX-DUR.csv",
+        "official-registry/MX/MX-GRO.csv",
+        "official-registry/MX/MX-GUA.csv",
+        "official-registry/MX/MX-HID.csv",
+        "official-registry/MX/MX-JAL.csv",
+        "official-registry/MX/MX-MEX.csv",
+        "official-registry/MX/MX-MIC.csv",
+        "official-registry/MX/MX-MOR.csv",
+        "official-registry/MX/MX-NAY.csv",
+        "official-registry/MX/MX-NLE.csv",
+        "official-registry/MX/MX-OAX.csv",
+        "official-registry/MX/MX-PUE.csv",
+        "official-registry/MX/MX-QUE.csv",
+        "official-registry/MX/MX-ROO.csv",
+        "official-registry/MX/MX-SIN.csv",
+        "official-registry/MX/MX-SLP.csv",
+        "official-registry/MX/MX-SON.csv",
+        "official-registry/MX/MX-TAB.csv",
+        "official-registry/MX/MX-TAM.csv",
+        "official-registry/MX/MX-TLA.csv",
+        "official-registry/MX/MX-VER.csv",
+        "official-registry/MX/MX-YUC.csv",
+        "official-registry/MX/MX-ZAC.csv",
+        "official-registry/MX/anchors.csv",
+        "official-registry/MX/index.json",
+        "official-registry/MX/manifest.json",
+        "official-registry/MX/unmatched-source-rows.json",
+        "official-registry/americas-provenance/registry/countries/MX.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/MY.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "MZ",
+      "name": "Mozambique",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/MZ/admin1.csv",
+        "africa-registry/countries/MZ/entities.csv.gz",
+        "africa-registry/countries/MZ/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "NA",
+      "name": "Namibia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/NA/admin1.csv",
+        "africa-registry/countries/NA/entities.csv.gz",
+        "africa-registry/countries/NA/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "NC",
+      "name": "New Caledonia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/NC/index.json",
+        "oceania-registry/countries/NC/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "NE",
+      "name": "Niger",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/NE/admin1.csv",
+        "africa-registry/countries/NE/entities.csv.gz",
+        "africa-registry/countries/NE/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "NF",
+      "name": "Norfolk Island",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/NF/index.json",
+        "oceania-registry/countries/NF/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "NG",
+      "name": "Nigeria",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "shared_sources_need_mapping",
+      "paths": [],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "NI",
+      "name": "Nicaragua",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "central-america-registry/countries/NI/admin1.csv",
+        "central-america-registry/countries/NI/entities.csv.gz",
+        "central-america-registry/countries/NI/locale_metadata.json",
+        "central-america-registry/countries/NI/metadata.json",
+        "central-america-registry/countries/NI/names.csv.gz",
+        "central-america-registry/countries/NI/postal_links.csv.gz",
+        "central-america-registry/sources/NI.zip",
+        "central-america-registry/sources/alternatenames/NI.json",
+        "central-america-registry/sources/alternatenames/NI.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "NL",
+      "name": "The Netherlands",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/NL/admin1.csv",
+        "europe-registry/countries/NL/entities-0001.csv.gz",
+        "europe-registry/countries/NL/metadata.json",
+        "europe-registry/eurostat-lau/NL/metadata.json",
+        "europe-registry/eurostat-lau/NL/statistical_regions.csv",
+        "europe-registry/eurostat-lau/NL/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/NO/admin1.csv",
+        "europe-registry/countries/NO/entities-0001.csv.gz",
+        "europe-registry/countries/NO/metadata.json",
+        "europe-registry/eurostat-lau/NO/metadata.json",
+        "europe-registry/eurostat-lau/NO/statistical_regions.csv",
+        "europe-registry/eurostat-lau/NO/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "NP",
+      "name": "Nepal",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/NP.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "NR",
+      "name": "Nauru",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/NR/index.json",
+        "oceania-registry/countries/NR/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "NU",
+      "name": "Niue",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/NU/index.json",
+        "oceania-registry/countries/NU/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "NZ",
+      "name": "New Zealand",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/NZ/index.json",
+        "oceania-registry/countries/NZ/part-001.b64",
+        "oceania-registry/countries/NZ/part-002.b64",
+        "oceania-registry/countries/NZ/part-003.b64",
+        "oceania-registry/countries/NZ/part-004.b64",
+        "oceania-registry/countries/NZ/part-005.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "OM",
+      "name": "Oman",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/OM.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "PA",
+      "name": "Panama",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "central-america-registry/.parts/PA/sources/PA.zip/part-0001.bin",
+        "central-america-registry/.parts/PA/sources/PA.zip/part-0002.bin",
+        "central-america-registry/countries/PA/admin1.csv",
+        "central-america-registry/countries/PA/entities.csv.gz",
+        "central-america-registry/countries/PA/locale_metadata.json",
+        "central-america-registry/countries/PA/metadata.json",
+        "central-america-registry/countries/PA/names.csv.gz",
+        "central-america-registry/countries/PA/postal_links.csv.gz",
+        "central-america-registry/sources/alternatenames/PA.json",
+        "central-america-registry/sources/alternatenames/PA.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "PE",
+      "name": "Peru",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "south-america-registry/.parts/countries/PE/entities.csv.gz/part-0001.bin",
+        "south-america-registry/.parts/countries/PE/entities.csv.gz/part-0002.bin",
+        "south-america-registry/.parts/countries/PE/entities.csv.gz/part-0003.bin",
+        "south-america-registry/.parts/countries/PE/entities.csv.gz/part-0004.bin",
+        "south-america-registry/countries/PE/admin1.csv",
+        "south-america-registry/countries/PE/alternate-values.csv.gz",
+        "south-america-registry/countries/PE/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "PF",
+      "name": "French Polynesia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/PF/index.json",
+        "oceania-registry/countries/PF/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "PG",
+      "name": "Papua New Guinea",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/PG/index.json",
+        "oceania-registry/countries/PG/part-001.b64",
+        "oceania-registry/countries/PG/part-002.b64",
+        "oceania-registry/countries/PG/part-003.b64",
+        "oceania-registry/countries/PG/part-004.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "PH",
+      "name": "Philippines",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/PH.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/PK.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/PL/admin1.csv",
+        "europe-registry/countries/PL/entities-0001.csv.gz",
+        "europe-registry/countries/PL/entities-0002.csv.gz",
+        "europe-registry/countries/PL/entities-0003.csv.gz",
+        "europe-registry/countries/PL/metadata.json",
+        "europe-registry/eurostat-lau/PL/metadata.json",
+        "europe-registry/eurostat-lau/PL/statistical_regions.csv",
+        "europe-registry/eurostat-lau/PL/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "PM",
+      "name": "Saint Pierre and Miquelon",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "shared_sources_need_mapping",
+      "paths": [],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "PN",
+      "name": "Pitcairn",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/PN/index.json",
+        "oceania-registry/countries/PN/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "PR",
+      "name": "Puerto Rico",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/PR/admin1.csv",
+        "caribbean-registry/countries/PR/alternate-names.csv.gz",
+        "caribbean-registry/countries/PR/entities.csv.gz",
+        "caribbean-registry/countries/PR/metadata.json",
+        "caribbean-registry/countries/PR/postal-links.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "PS",
+      "name": "Palestinian Territory",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/PS.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/PT/admin1.csv",
+        "europe-registry/countries/PT/entities-0001.csv.gz",
+        "europe-registry/countries/PT/entities-0002.csv.gz",
+        "europe-registry/countries/PT/metadata.json",
+        "europe-registry/eurostat-lau/PT/metadata.json",
+        "europe-registry/eurostat-lau/PT/statistical_regions.csv",
+        "europe-registry/eurostat-lau/PT/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "PW",
+      "name": "Palau",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/PW/index.json",
+        "oceania-registry/countries/PW/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "PY",
+      "name": "Paraguay",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "south-america-registry/.parts/countries/PY/entities.csv.gz/part-0001.bin",
+        "south-america-registry/.parts/countries/PY/entities.csv.gz/part-0002.bin",
+        "south-america-registry/countries/PY/admin1.csv",
+        "south-america-registry/countries/PY/alternate-values.csv.gz",
+        "south-america-registry/countries/PY/metadata.json",
+        "south-america-registry/sources/PY-alternatenames.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "QA",
+      "name": "Qatar",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/QA.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "RE",
+      "name": "Reunion",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/RE/admin1.csv",
+        "africa-registry/countries/RE/entities.csv.gz",
+        "africa-registry/countries/RE/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/RO/admin1.csv",
+        "europe-registry/countries/RO/entities-0001.csv.gz",
+        "europe-registry/countries/RO/entities-0002.csv.gz",
+        "europe-registry/countries/RO/metadata.json",
+        "europe-registry/eurostat-lau/RO/metadata.json",
+        "europe-registry/eurostat-lau/RO/statistical_regions.csv",
+        "europe-registry/eurostat-lau/RO/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "RS",
+      "name": "Serbia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/RS/admin1.csv",
+        "europe-registry/countries/RS/entities-0001.csv.gz",
+        "europe-registry/countries/RS/metadata.json",
+        "europe-registry/eurostat-lau/RS/metadata.json",
+        "europe-registry/eurostat-lau/RS/statistical_regions.csv",
+        "europe-registry/eurostat-lau/RS/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/RU.zip.part001",
+        "asia-registry/country-archives/RU.zip.part002",
+        "europe-registry/countries/RU/admin1.csv",
+        "europe-registry/countries/RU/entities-0001.csv.gz",
+        "europe-registry/countries/RU/entities-0002.csv.gz",
+        "europe-registry/countries/RU/entities-0003.csv.gz",
+        "europe-registry/countries/RU/entities-0004.csv.gz",
+        "europe-registry/countries/RU/entities-0005.csv.gz",
+        "europe-registry/countries/RU/entities-0006.csv.gz",
+        "europe-registry/countries/RU/entities-0007.csv.gz",
+        "europe-registry/countries/RU/entities-0008.csv.gz",
+        "europe-registry/countries/RU/entities-0009.csv.gz",
+        "europe-registry/countries/RU/entities-0010.csv.gz",
+        "europe-registry/countries/RU/entities-0011.csv.gz",
+        "europe-registry/countries/RU/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "RW",
+      "name": "Rwanda",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/RW/admin1.csv",
+        "africa-registry/countries/RW/entities.csv.gz",
+        "africa-registry/countries/RW/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/SA.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SB",
+      "name": "Solomon Islands",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/SB/index.json",
+        "oceania-registry/countries/SB/part-001.b64",
+        "oceania-registry/countries/SB/part-002.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SC",
+      "name": "Seychelles",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/SC/admin1.csv",
+        "africa-registry/countries/SC/entities.csv.gz",
+        "africa-registry/countries/SC/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SD",
+      "name": "Sudan",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/SD/admin1.csv",
+        "africa-registry/countries/SD/entities.csv.gz",
+        "africa-registry/countries/SD/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/SE/admin1.csv",
+        "europe-registry/countries/SE/entities-0001.csv.gz",
+        "europe-registry/countries/SE/entities-0002.csv.gz",
+        "europe-registry/countries/SE/metadata.json",
+        "europe-registry/eurostat-lau/SE/metadata.json",
+        "europe-registry/eurostat-lau/SE/statistical_regions.csv",
+        "europe-registry/eurostat-lau/SE/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/SG.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SH",
+      "name": "Saint Helena",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/SH/admin1.csv",
+        "africa-registry/countries/SH/entities.csv.gz",
+        "africa-registry/countries/SH/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SI",
+      "name": "Slovenia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/SI/admin1.csv",
+        "europe-registry/countries/SI/entities-0001.csv.gz",
+        "europe-registry/countries/SI/metadata.json",
+        "europe-registry/eurostat-lau/SI/metadata.json",
+        "europe-registry/eurostat-lau/SI/statistical_regions.csv",
+        "europe-registry/eurostat-lau/SI/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SJ",
+      "name": "Svalbard and Jan Mayen",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/SJ/admin1.csv",
+        "europe-registry/countries/SJ/entities-0001.csv.gz",
+        "europe-registry/countries/SJ/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SK",
+      "name": "Slovakia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/SK/admin1.csv",
+        "europe-registry/countries/SK/entities-0001.csv.gz",
+        "europe-registry/countries/SK/metadata.json",
+        "europe-registry/eurostat-lau/SK/metadata.json",
+        "europe-registry/eurostat-lau/SK/statistical_regions.csv",
+        "europe-registry/eurostat-lau/SK/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SL",
+      "name": "Sierra Leone",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/SL/admin1.csv",
+        "africa-registry/countries/SL/entities.csv.gz",
+        "africa-registry/countries/SL/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SM",
+      "name": "San Marino",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/SM/admin1.csv",
+        "europe-registry/countries/SM/entities-0001.csv.gz",
+        "europe-registry/countries/SM/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SN",
+      "name": "Senegal",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/SN/admin1.csv",
+        "africa-registry/countries/SN/entities.csv.gz",
+        "africa-registry/countries/SN/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SO",
+      "name": "Somalia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/SO/admin1.csv",
+        "africa-registry/countries/SO/entities.csv.gz",
+        "africa-registry/countries/SO/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SR",
+      "name": "Suriname",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "south-america-registry/countries/SR/admin1.csv",
+        "south-america-registry/countries/SR/alternate-values.csv.gz",
+        "south-america-registry/countries/SR/entities.csv.gz",
+        "south-america-registry/countries/SR/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SS",
+      "name": "South Sudan",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/SS/admin1.csv",
+        "africa-registry/countries/SS/entities.csv.gz",
+        "africa-registry/countries/SS/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "ST",
+      "name": "Sao Tome and Principe",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/ST/admin1.csv",
+        "africa-registry/countries/ST/entities.csv.gz",
+        "africa-registry/countries/ST/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SV",
+      "name": "El Salvador",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "central-america-registry/countries/SV/admin1.csv",
+        "central-america-registry/countries/SV/entities.csv.gz",
+        "central-america-registry/countries/SV/locale_metadata.json",
+        "central-america-registry/countries/SV/metadata.json",
+        "central-america-registry/countries/SV/names.csv.gz",
+        "central-america-registry/countries/SV/postal_links.csv.gz",
+        "central-america-registry/sources/SV.zip",
+        "central-america-registry/sources/alternatenames/SV.json",
+        "central-america-registry/sources/alternatenames/SV.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SX",
+      "name": "Sint Maarten",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/SX/admin1.csv",
+        "caribbean-registry/countries/SX/alternate-names.csv.gz",
+        "caribbean-registry/countries/SX/entities.csv.gz",
+        "caribbean-registry/countries/SX/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SY",
+      "name": "Syria",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/SY.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "SZ",
+      "name": "Eswatini",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/SZ/admin1.csv",
+        "africa-registry/countries/SZ/entities.csv.gz",
+        "africa-registry/countries/SZ/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "TC",
+      "name": "Turks and Caicos Islands",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/TC/admin1.csv",
+        "caribbean-registry/countries/TC/alternate-names.csv.gz",
+        "caribbean-registry/countries/TC/entities.csv.gz",
+        "caribbean-registry/countries/TC/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "TD",
+      "name": "Chad",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/TD/admin1.csv",
+        "africa-registry/countries/TD/entities.csv.gz",
+        "africa-registry/countries/TD/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "TF",
+      "name": "French Southern Territories",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/TF/admin1.csv",
+        "africa-registry/countries/TF/entities.csv.gz",
+        "africa-registry/countries/TF/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "TG",
+      "name": "Togo",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/TG/admin1.csv",
+        "africa-registry/countries/TG/entities.csv.gz",
+        "africa-registry/countries/TG/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/TH.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "TJ",
+      "name": "Tajikistan",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/TJ.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "TK",
+      "name": "Tokelau",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/TK/index.json",
+        "oceania-registry/countries/TK/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "TL",
+      "name": "Timor Leste",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/TL.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "TM",
+      "name": "Turkmenistan",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/TM.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "TN",
+      "name": "Tunisia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/TN/admin1.csv",
+        "africa-registry/countries/TN/entities.csv.gz",
+        "africa-registry/countries/TN/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "TO",
+      "name": "Tonga",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/TO/index.json",
+        "oceania-registry/countries/TO/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/TR.zip",
+        "europe-registry/countries/TR/admin1.csv",
+        "europe-registry/countries/TR/entities-0001.csv.gz",
+        "europe-registry/countries/TR/entities-0002.csv.gz",
+        "europe-registry/countries/TR/entities-0003.csv.gz",
+        "europe-registry/countries/TR/metadata.json",
+        "europe-registry/eurostat-lau/TR/metadata.json",
+        "europe-registry/eurostat-lau/TR/statistical_regions.csv",
+        "europe-registry/eurostat-lau/TR/units.csv.gz"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "TT",
+      "name": "Trinidad and Tobago",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/TT/admin1.csv",
+        "caribbean-registry/countries/TT/alternate-names.csv.gz",
+        "caribbean-registry/countries/TT/entities.csv.gz",
+        "caribbean-registry/countries/TT/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "TV",
+      "name": "Tuvalu",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/TV/index.json",
+        "oceania-registry/countries/TV/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "TW",
+      "name": "Taiwan",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/TW.zip",
+        "official-registry/TW/README.md",
+        "official-registry/TW/coverage.json",
+        "official-registry/TW/entities.csv",
+        "official-registry/TW/names.csv",
+        "official-registry/TW/postal_links.csv",
+        "official-registry/TW/sources.json",
+        "official-registry/TW/sources/names.xml",
+        "releases/hierarchy/east-asia/reports/TW.projection.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "TZ",
+      "name": "Tanzania",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/TZ/admin1.csv",
+        "africa-registry/countries/TZ/entities.csv.gz",
+        "africa-registry/countries/TZ/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/UA/admin1.csv",
+        "europe-registry/countries/UA/entities-0001.csv.gz",
+        "europe-registry/countries/UA/entities-0002.csv.gz",
+        "europe-registry/countries/UA/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "UG",
+      "name": "Uganda",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/UG/admin1.csv",
+        "africa-registry/countries/UG/entities.csv.gz",
+        "africa-registry/countries/UG/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "UM",
+      "name": "United States Minor Outlying Islands",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/UM/index.json",
+        "oceania-registry/countries/UM/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "official-registry/US/US-AK.csv",
+        "official-registry/US/US-AL.csv",
+        "official-registry/US/US-AR.csv",
+        "official-registry/US/US-AZ.csv",
+        "official-registry/US/US-CA.csv",
+        "official-registry/US/US-CO.csv",
+        "official-registry/US/US-CT.csv",
+        "official-registry/US/US-DC.csv",
+        "official-registry/US/US-DE.csv",
+        "official-registry/US/US-FL.csv",
+        "official-registry/US/US-GA.csv",
+        "official-registry/US/US-HI.csv",
+        "official-registry/US/US-IA.csv",
+        "official-registry/US/US-ID.csv",
+        "official-registry/US/US-IL.csv",
+        "official-registry/US/US-IN.csv",
+        "official-registry/US/US-KS.csv",
+        "official-registry/US/US-KY.csv",
+        "official-registry/US/US-LA.csv",
+        "official-registry/US/US-MA.csv",
+        "official-registry/US/US-MD.csv",
+        "official-registry/US/US-ME.csv",
+        "official-registry/US/US-MI.csv",
+        "official-registry/US/US-MN.csv",
+        "official-registry/US/US-MO.csv",
+        "official-registry/US/US-MS.csv",
+        "official-registry/US/US-MT.csv",
+        "official-registry/US/US-NC.csv",
+        "official-registry/US/US-ND.csv",
+        "official-registry/US/US-NE.csv",
+        "official-registry/US/US-NH.csv",
+        "official-registry/US/US-NJ.csv",
+        "official-registry/US/US-NM.csv",
+        "official-registry/US/US-NV.csv",
+        "official-registry/US/US-NY.csv",
+        "official-registry/US/US-OH.csv",
+        "official-registry/US/US-OK.csv",
+        "official-registry/US/US-OR.csv",
+        "official-registry/US/US-PA.csv",
+        "official-registry/US/US-PR.csv",
+        "official-registry/US/US-RI.csv",
+        "official-registry/US/US-SC.csv",
+        "official-registry/US/US-SD.csv",
+        "official-registry/US/US-TN.csv",
+        "official-registry/US/US-TX.csv",
+        "official-registry/US/US-UT.csv",
+        "official-registry/US/US-VA.csv",
+        "official-registry/US/US-VT.csv",
+        "official-registry/US/US-WA.csv",
+        "official-registry/US/US-WI.csv",
+        "official-registry/US/US-WV.csv",
+        "official-registry/US/US-WY.csv",
+        "official-registry/US/anchors.csv",
+        "official-registry/US/index.json",
+        "official-registry/US/manifest.json",
+        "official-registry/US/unmatched-source-rows.json",
+        "official-registry/americas-provenance/registry/countries/US.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "UY",
+      "name": "Uruguay",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "south-america-registry/countries/UY/admin1.csv",
+        "south-america-registry/countries/UY/alternate-values.csv.gz",
+        "south-america-registry/countries/UY/entities.csv.gz",
+        "south-america-registry/countries/UY/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/UZ.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "VA",
+      "name": "Vatican",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/VA/admin1.csv",
+        "europe-registry/countries/VA/entities-0001.csv.gz",
+        "europe-registry/countries/VA/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/VC/admin1.csv",
+        "caribbean-registry/countries/VC/alternate-names.csv.gz",
+        "caribbean-registry/countries/VC/entities.csv.gz",
+        "caribbean-registry/countries/VC/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "VE",
+      "name": "Venezuela",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "south-america-registry/.parts/countries/VE/entities.csv.gz/part-0001.bin",
+        "south-america-registry/.parts/countries/VE/entities.csv.gz/part-0002.bin",
+        "south-america-registry/countries/VE/admin1.csv",
+        "south-america-registry/countries/VE/alternate-values.csv.gz",
+        "south-america-registry/countries/VE/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "VG",
+      "name": "British Virgin Islands",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/VG/admin1.csv",
+        "caribbean-registry/countries/VG/alternate-names.csv.gz",
+        "caribbean-registry/countries/VG/entities.csv.gz",
+        "caribbean-registry/countries/VG/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "VI",
+      "name": "U.S. Virgin Islands",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "caribbean-registry/countries/VI/admin1.csv",
+        "caribbean-registry/countries/VI/alternate-names.csv.gz",
+        "caribbean-registry/countries/VI/entities.csv.gz",
+        "caribbean-registry/countries/VI/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "VN",
+      "name": "Vietnam",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/VN.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "VU",
+      "name": "Vanuatu",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/VU/index.json",
+        "oceania-registry/countries/VU/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "WF",
+      "name": "Wallis and Futuna",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/WF/index.json",
+        "oceania-registry/countries/WF/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "WS",
+      "name": "Samoa",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "oceania-registry/countries/WS/index.json",
+        "oceania-registry/countries/WS/part-001.b64"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "XK",
+      "name": "Kosovo",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "europe-registry/countries/XK/admin1.csv",
+        "europe-registry/countries/XK/entities-0001.csv.gz",
+        "europe-registry/countries/XK/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "YE",
+      "name": "Yemen",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "asia-registry/country-archives/YE.zip"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "YT",
+      "name": "Mayotte",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/YT/admin1.csv",
+        "africa-registry/countries/YT/entities.csv.gz",
+        "africa-registry/countries/YT/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "ZA",
+      "name": "South Africa",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/ZA/admin1.csv",
+        "africa-registry/countries/ZA/entities.csv.gz",
+        "africa-registry/countries/ZA/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "ZM",
+      "name": "Zambia",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/ZM/admin1.csv",
+        "africa-registry/countries/ZM/entities.csv.gz",
+        "africa-registry/countries/ZM/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    },
+    {
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "storage": {
+        "kind": "monorepo",
+        "repository": "veygrit-sys/world-localities",
+        "ref": null
+      },
+      "inventory_status": "mapped_paths",
+      "paths": [
+        "africa-registry/countries/ZW/admin1.csv",
+        "africa-registry/countries/ZW/entities.csv.gz",
+        "africa-registry/countries/ZW/metadata.json"
+      ],
+      "release_manifests": [],
+      "quality": {
+        "national_completeness_verified": false,
+        "coverage_fraction": null,
+        "deliverability_verified": false
+      },
+      "next_action": "review_country_sources_dependencies_and_rights"
+    }
+  ]
+}
