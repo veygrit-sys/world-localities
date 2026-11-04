@@ -21,9 +21,9 @@ def imported(name, relative):
     return module
 
 
-query = imported('hardened_northern_query', 'north-america-registry/query.py')
+query = imported('hardened_northern_query', 'registries/north-america/query.py')
 v = query.validation
-cycle = imported('hardened_americas_cycle', 'americas-registry/quality_cycle.py')
+cycle = imported('hardened_americas_cycle', 'registries/americas/quality_cycle.py')
 
 
 class InputIntegrityTests(unittest.TestCase):
@@ -31,9 +31,9 @@ class InputIntegrityTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
-        shutil.copytree(ROOT / 'north-america-registry', self.root / 'north-america-registry')
-        shutil.copytree(ROOT / 'official-registry/CA', self.root / 'official-registry/CA')
-        self.directory = self.root / 'official-registry/CA'
+        shutil.copytree(ROOT / 'registries/north-america', self.root / 'registries/north-america')
+        shutil.copytree(ROOT / 'registries/official/CA', self.root / 'registries/official/CA')
+        self.directory = self.root / 'registries/official/CA'
 
     def rewrite_json(self, relative, mutate):
         path = self.root / relative
@@ -42,7 +42,7 @@ class InputIntegrityTests(unittest.TestCase):
         path.write_text(json.dumps(value, ensure_ascii=False), encoding='utf-8')
 
     def repin(self, filename):
-        self.rewrite_json('official-registry/CA/manifest.json',
+        self.rewrite_json('registries/official/CA/manifest.json',
                           lambda m: m['sha256'].update({filename: v.digest((self.directory / filename).read_bytes())}))
 
     def mutate_rows(self, mutate):
@@ -139,17 +139,17 @@ class InputIntegrityTests(unittest.TestCase):
             self.search()
 
     def test_modified_index_is_rejected(self):
-        self.rewrite_json('official-registry/CA/index.json', lambda x: x.update(vintage='2026'))
+        self.rewrite_json('registries/official/CA/index.json', lambda x: x.update(vintage='2026'))
         with self.assertRaisesRegex(v.DataError, 'SHA-256 mismatch'):
             self.search()
 
     def test_empty_claims_do_not_vacuously_pass(self):
-        self.rewrite_json('official-registry/CA/manifest.json', lambda x: x.update(claims={}))
+        self.rewrite_json('registries/official/CA/manifest.json', lambda x: x.update(claims={}))
         with self.assertRaisesRegex(v.DataError, 'completeness claims'):
             self.search()
 
     def test_duplicate_scope_country_is_rejected(self):
-        self.rewrite_json('north-america-registry/scope.json', lambda x: x['countries'].append(x['countries'][0]))
+        self.rewrite_json('registries/north-america/scope.json', lambda x: x['countries'].append(x['countries'][0]))
         with self.assertRaisesRegex(v.DataError, 'duplicate'):
             self.search()
 
@@ -157,14 +157,14 @@ class InputIntegrityTests(unittest.TestCase):
         def swap(data):
             countries = {x['country']: x for x in data['countries']}
             countries['CA']['m49'], countries['BM']['m49'] = countries['BM']['m49'], countries['CA']['m49']
-        self.rewrite_json('north-america-registry/scope.json', swap)
+        self.rewrite_json('registries/north-america/scope.json', swap)
         with self.assertRaisesRegex(v.DataError, 'M49 code'):
             self.search()
 
     def test_traversal_in_source_index_is_rejected(self):
         def mutate(data):
             next(x for x in data['countries'] if x['country'] == 'CA')['source_index'] = '../outside.json'
-        self.rewrite_json('north-america-registry/scope.json', mutate)
+        self.rewrite_json('registries/north-america/scope.json', mutate)
         with self.assertRaisesRegex(v.DataError, 'source path'):
             self.search()
 
@@ -184,18 +184,18 @@ class InputIntegrityTests(unittest.TestCase):
         def mutate(data):
             pm = [x for x in data['records'] if x['country'] == 'PM']
             pm[0]['official_code'], pm[1]['official_code'] = pm[1]['official_code'], pm[0]['official_code']
-        self.rewrite_json('north-america-registry/admin-seeds.json', mutate)
+        self.rewrite_json('registries/north-america/admin-seeds.json', mutate)
         with self.assertRaisesRegex(v.DataError, 'PM code/name'):
             query.search('PM', root=self.root)
 
     def test_seed_false_string_is_rejected(self):
-        self.rewrite_json('north-america-registry/admin-seeds.json',
+        self.rewrite_json('registries/north-america/admin-seeds.json',
                           lambda x: x['records'][0].update(can_validate_postal_or_street='false'))
         with self.assertRaisesRegex(v.DataError, 'unsafe seed claim'):
             query.search('BM', root=self.root)
 
     def test_seed_unexpected_publisher_is_rejected(self):
-        self.rewrite_json('north-america-registry/admin-seeds.json',
+        self.rewrite_json('registries/north-america/admin-seeds.json',
                           lambda x: x['source_evidence']['bermuda_parish_profiles'].update(url='https://invalid.example/'))
         with self.assertRaisesRegex(v.DataError, 'publisher'):
             query.search('BM', root=self.root)
@@ -273,7 +273,7 @@ class QualityCycleTests(unittest.TestCase):
             cycle.atomic_state(state, {'schema_version': 1}, root=root)
             self.assertEqual(json.loads(state.read_text())['schema_version'], 1)
             with self.assertRaises(ValueError):
-                cycle.atomic_state(root / 'official-registry/CA/manifest.json', {}, root=root)
+                cycle.atomic_state(root / 'registries/official/CA/manifest.json', {}, root=root)
 
     def test_failed_atomic_write_preserves_previous_state(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -296,7 +296,7 @@ class QualityCycleTests(unittest.TestCase):
     def test_cli_bounded_stop_and_saved_state(self):
         with tempfile.TemporaryDirectory() as tmp:
             state = Path(tmp) / 'state.json'
-            result = subprocess.run([sys.executable, str(ROOT / 'americas-registry/quality_cycle.py'),
+            result = subprocess.run([sys.executable, str(ROOT / 'registries/americas/quality_cycle.py'),
                                      '--area', 'northern-america', '--rounds', '3', '--state-file', str(state)],
                                     text=True, capture_output=True, check=False)
             self.assertEqual(result.returncode, 0, result.stderr + result.stdout)

@@ -4,18 +4,18 @@
   "reviewed_at": "2026-10-17",
   "purpose": "Domestic-language and English address display profiles for all eight UN M49 Central America countries, with explicit postcode-transition, Address2, street, descriptive-direction and P.O. Box policies; not an address-existence, postal-assignment, geocoding or deliverability claim.",
   "locality_registry": {
-    "path": "central-america-registry",
-    "quality_module": "central-america-registry/quality.py",
+    "path": "registries/central-america",
+    "quality_module": "registries/central-america/quality.py",
     "materialized_countries": ["BZ", "CR", "GT", "HN", "MX", "NI", "PA", "SV"],
     "source_layers": {
-      "BZ": "central-america-registry/countries/BZ",
-      "CR": "central-america-registry/enrichment/countries/CR",
-      "GT": "central-america-registry/countries/GT",
-      "HN": "central-america-registry/countries/HN",
-      "MX": "official-registry/MX",
-      "NI": "central-america-registry/countries/NI",
-      "PA": "central-america-registry/countries/PA",
-      "SV": "central-america-registry/countries/SV"
+      "BZ": "registries/central-america/countries/BZ",
+      "CR": "registries/central-america/enrichment/countries/CR",
+      "GT": "registries/central-america/countries/GT",
+      "HN": "registries/central-america/countries/HN",
+      "MX": "registries/official/MX",
+      "NI": "registries/central-america/countries/NI",
+      "PA": "registries/central-america/countries/PA",
+      "SV": "registries/central-america/countries/SV"
     },
     "source_locality_rows": 59641,
     "country_source_rows": {"BZ": 528, "CR": 5900, "GT": 16981, "HN": 12966, "MX": 2478, "NI": 2632, "PA": 13267, "SV": 4889},

@@ -4,63 +4,63 @@
   "registries": [
     {
       "id": "official",
-      "path": "official-registry",
+      "path": "registries/official",
       "role": "official_overlay",
       "scope": "country-specific official codes, names, and postal joins"
     },
     {
       "id": "africa",
-      "path": "africa-registry",
+      "path": "registries/africa",
       "role": "regional_registry",
       "scope": "Africa"
     },
     {
       "id": "asia",
-      "path": "asia-registry",
+      "path": "registries/asia",
       "role": "regional_registry",
       "scope": "Asia with documented Russia supplement"
     },
     {
       "id": "europe",
-      "path": "europe-registry",
+      "path": "registries/europe",
       "role": "regional_registry",
       "scope": "Europe"
     },
     {
       "id": "oceania",
-      "path": "oceania-registry",
+      "path": "registries/oceania",
       "role": "regional_registry",
       "scope": "Oceania"
     },
     {
       "id": "americas",
-      "path": "americas-registry",
+      "path": "registries/americas",
       "role": "regional_coordinator",
       "scope": "Americas quality audit and release coordination"
     },
     {
       "id": "north-america",
-      "path": "north-america-registry",
+      "path": "registries/north-america",
       "role": "regional_registry",
       "scope": "UN M49 Northern America"
     },
     {
       "id": "central-america",
-      "path": "central-america-registry",
+      "path": "registries/central-america",
       "role": "regional_registry",
       "scope": "UN M49 Central America",
       "split_materialization": true
     },
     {
       "id": "caribbean",
-      "path": "caribbean-registry",
+      "path": "registries/caribbean",
       "role": "regional_registry",
       "scope": "UN M49 Caribbean",
       "split_materialization": true
     },
     {
       "id": "south-america",
-      "path": "south-america-registry",
+      "path": "registries/south-america",
       "role": "regional_registry",
       "scope": "UN M49 South America",
       "split_materialization": true
@@ -70,33 +70,33 @@
     {
       "module": "localities.geonames",
       "consumers": [
-        "caribbean-registry/build.py",
-        "central-america-registry/build.py",
-        "south-america-registry/build.py",
-        "south-america-registry/publication.py",
-        "south-america-registry/query.py"
+        "registries/caribbean/build.py",
+        "registries/central-america/build.py",
+        "registries/south-america/build.py",
+        "registries/south-america/publication.py",
+        "registries/south-america/query.py"
       ]
     },
     {
       "module": "localities.materialize",
       "consumers": [
-        "central-america-registry/build.py",
-        "central-america-registry/build_names.py",
-        "central-america-registry/quality.py",
-        "central-america-registry/query.py",
-        "central-america-registry/verify.py",
-        "south-america-registry/build.py",
-        "south-america-registry/publication.py",
-        "south-america-registry/query.py"
+        "registries/central-america/build.py",
+        "registries/central-america/build_names.py",
+        "registries/central-america/quality.py",
+        "registries/central-america/query.py",
+        "registries/central-america/verify.py",
+        "registries/south-america/build.py",
+        "registries/south-america/publication.py",
+        "registries/south-america/query.py"
       ]
     },
     {
       "module": "localities.query",
       "consumers": [
-        "africa-registry/query.py",
-        "caribbean-registry/query.py",
-        "central-america-registry/query.py",
-        "south-america-registry/query.py"
+        "registries/africa/query.py",
+        "registries/caribbean/query.py",
+        "registries/central-america/query.py",
+        "registries/south-america/query.py"
       ]
     }
   ],

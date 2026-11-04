@@ -3,12 +3,12 @@ name: Americas locality quality checks
 on:
   push:
     paths:
-      - 'americas-registry/**'
-      - 'north-america-registry/**'
-      - 'official-registry/**'
-      - 'central-america-registry/**'
-      - 'caribbean-registry/**'
-      - 'south-america-registry/**'
+      - 'registries/americas/**'
+      - 'registries/north-america/**'
+      - 'registries/official/**'
+      - 'registries/central-america/**'
+      - 'registries/caribbean/**'
+      - 'registries/south-america/**'
       - 'localities/**'
       - 'scripts/verify_americas_snapshots.py'
       - 'tests/test_americas_*.py'
@@ -16,12 +16,12 @@ on:
       - '.github/workflows/americas-quality.yml'
   pull_request:
     paths:
-      - 'americas-registry/**'
-      - 'north-america-registry/**'
-      - 'official-registry/**'
-      - 'central-america-registry/**'
-      - 'caribbean-registry/**'
-      - 'south-america-registry/**'
+      - 'registries/americas/**'
+      - 'registries/north-america/**'
+      - 'registries/official/**'
+      - 'registries/central-america/**'
+      - 'registries/caribbean/**'
+      - 'registries/south-america/**'
       - 'localities/**'
       - 'scripts/verify_americas_snapshots.py'
       - 'tests/test_americas_*.py'
@@ -61,9 +61,9 @@ jobs:
         shell: bash
         run: |
           mkdir -p qa-reports
-          python americas-registry/quality_cycle.py --rounds 2 --state-file qa-reports/state.json > qa-reports/cycle.json
-          python americas-registry/audit.py --mode plan > qa-reports/plan.json
-          python north-america-registry/query.py --country CA --region CA-NS --text Shelburne > qa-reports/query.json
+          python registries/americas/quality_cycle.py --rounds 2 --state-file qa-reports/state.json > qa-reports/cycle.json
+          python registries/americas/audit.py --mode plan > qa-reports/plan.json
+          python registries/north-america/query.py --country CA --region CA-NS --text Shelburne > qa-reports/query.json
       - name: Preserve QA evidence even on failure
         if: ${{ always() }}
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4 resolved 2026-10-15

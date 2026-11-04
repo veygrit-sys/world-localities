@@ -32,6 +32,15 @@ def digest(data):
     return hashlib.sha256(data).hexdigest()
 
 
+def current_destination(name):
+    """Resolve a preserved source-map destination without changing its evidence."""
+    relative = Path(name)
+    require(not relative.is_absolute() and '..' not in relative.parts, 'unsafe mapped path')
+    if relative.parts and relative.parts[0] == 'official-registry':
+        return Path('registries/official', *relative.parts[1:])
+    return relative
+
+
 def read_csv(path, columns):
     with path.open(encoding='utf-8', newline='') as handle:
         reader = csv.DictReader(handle)
@@ -44,12 +53,12 @@ def read_csv(path, columns):
 
 
 def verify_source_map(root):
-    mapping = read_json(root/'official-registry/americas-provenance/source-map.json')
+    mapping = read_json(root/'registries/official/americas-provenance/source-map.json')
     require(mapping['source_commit'] == SOURCE_COMMIT, 'source commit mismatch')
     require(set(mapping['countries']) == set(COUNTRIES), 'source-map country scope mismatch')
     seen = set()
     for entry in mapping['files']:
-        rel = Path(entry['destination_path'])
+        rel = current_destination(entry['destination_path'])
         require(not rel.is_absolute() and '..' not in rel.parts, 'unsafe mapped path')
         require(str(rel) not in seen, f'duplicate mapped file: {rel}')
         seen.add(str(rel))
@@ -60,8 +69,8 @@ def verify_source_map(root):
         git_sha = hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
         require(git_sha == entry['source_git_blob_sha1'], f'{rel}: Git blob SHA-1 mismatch')
     for cc in COUNTRIES:
-        actual = {str(p.relative_to(root)) for p in (root/'official-registry'/cc).iterdir() if p.is_file()}
-        expected = {p for p in seen if p.startswith(f'official-registry/{cc}/')}
+        actual = {str(p.relative_to(root)) for p in (root/'registries/official'/cc).iterdir() if p.is_file()}
+        expected = {p for p in seen if p.startswith(f'registries/official/{cc}/')}
         require(actual == expected, f'{cc}: missing or unexpected country files')
     require(len(mapping['files']) == 151, 'expected 140 country and 11 provenance files')
     return {'files': len(seen), 'bytes': sum(x['bytes'] for x in mapping['files']),
@@ -166,7 +175,7 @@ def verify_country(registry, cc, schema):
 
 
 def verify(root):
-    registry = root/'official-registry'
+    registry = root/'registries/official'
     schema = read_json(registry/'americas-snapshot-schema.json')
     require(all(not value for value in schema['snapshot_claims'].values()), 'schema completeness claims changed')
     source = verify_source_map(root)

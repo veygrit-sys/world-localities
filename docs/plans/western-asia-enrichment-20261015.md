@@ -17,7 +17,7 @@ Use UN M49 Western Asia classification as the region membership source: Armenia 
 - Treat changing boundaries, disputed jurisdictions, and historic names as versioned claims with sources, dates, and confidence. Avoid collapsing distinct localities sharing a name.
 
 ## Source and license gates
-Inventory `asia-registry` first; prefer official statistical, municipal, postal and open-government releases. Store source URL, publisher, license/terms, acquisition date, checksum, version and original code. Restrict redistribution when source terms do not permit it. Never use inferred or synthetic streets/house numbers as verified facts.
+Inventory `registries/asia` first; prefer official statistical, municipal, postal and open-government releases. Store source URL, publisher, license/terms, acquisition date, checksum, version and original code. Restrict redistribution when source terms do not permit it. Never use inferred or synthetic streets/house numbers as verified facts.
 
 ## Data quality gates
 Reject duplicate canonical IDs, broken parent references, inconsistent country/region membership, unlicensed records, untraceable changes, invalid Unicode, unsupported administrative merges and unexpected row loss. Emit per-country before/after counts, source coverage, unmatched crosswalks, language coverage, postal coverage, disputed/ambiguous cases and regression results. Preserve existing `gn:` IDs and existing country packs.

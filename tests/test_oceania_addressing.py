@@ -125,7 +125,7 @@ class OceaniaProfileCoverage(unittest.TestCase):
 
     def test_existing_locality_pack_is_the_data_reference(self):
         linkage = self.oceania.locality_registry
-        self.assertEqual(linkage["path"], "oceania-registry")
+        self.assertEqual(linkage["path"], "registries/oceania")
         summary_path = ROOT / linkage["summary_file"]
         pack_path = ROOT / linkage["pack_manifest_file"]
         summary = json.loads(summary_path.read_text(encoding="utf-8"))

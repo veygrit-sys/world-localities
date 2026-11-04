@@ -36,7 +36,7 @@ python -m localities layout
 | OSM取得・照合 | [fetch_osm_evidence.py](fetch_osm_evidence.py)、[verify_osm_evidence.py](verify_osm_evidence.py) |
 | OSMの内部処理 | [osm_evidence.py](osm_evidence.py)、[osm_stream.py](osm_stream.py)、[osm_pbf_lite.py](osm_pbf_lite.py) |
 
-地域固有の `build.py`・`query.py` は各 `*-registry/` にあります。[データと利用方法](../docs/guides/data-and-usage.md) から進んでください。
+地域固有の `build.py`・`query.py` は各 `registries/<地域>/` にあります。[データと利用方法](../docs/guides/data-and-usage.md) から進んでください。
 
 ## 追加依存
 

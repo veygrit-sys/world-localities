@@ -32,7 +32,7 @@ python -m localities layout
 | 領域 | 内容 |
 |---|---|
 | `countries/` | 国・地域の入口と機械可読の管理台帳 |
-| `*-registry/`、`official-registry/` | 地域・原典固有のデータ、出典、検証・検索処理 |
+| `registries/` | 地域・原典固有のデータ、出典、検証・検索処理 |
 | `localities/` | 共通処理と地域台帳の構成定義 |
 | `addressing/` | 国・言語別の住所形式と互換処理 |
 | `address-points/` | 道路・番地などの出典別アダプター |
@@ -42,7 +42,7 @@ python -m localities layout
 | `docs/` | 利用ガイド、設計、計画、移行記録 |
 | `training/` | 学習計画と設定 |
 
-詳細は [リポジトリ構成](docs/repository-layout.md) を参照してください。既存のデータ配置とCLI入口を維持しています。
+地域別の入口は [registries/](registries/README.md) に集約しています。旧 `<地域>-registry/` のコマンドは `registries/<地域>/` へ更新してください。詳細は [リポジトリ構成](docs/repository-layout.md) を参照してください。
 
 ## 収録範囲と利用条件
 

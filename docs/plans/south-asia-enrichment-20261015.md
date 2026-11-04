@@ -3,7 +3,7 @@
 Scope: AF, BD, BT, IN, LK, MV, NP, PK (UN M49 Southern Asia). This is a planning and quality-gate document, not a claim of new verified address data.
 
 ## Priorities
-1. Inventory country-specific administrative hierarchy, stable identifiers, source date, licenses, postal coverage, and existing `asia-registry` records without duplicating GeoNames IDs.
+1. Inventory country-specific administrative hierarchy, stable identifiers, source date, licenses, postal coverage, and existing `registries/asia` records without duplicating GeoNames IDs.
 2. Add independently sourced official administrative crosswalks per country, preserving source names, language/script, effective date, original codes and provenance.
 3. Normalize native-script and romanized aliases without treating transliterations as official names. Preserve Unicode, variant spelling and provenance.
 4. Join postal areas only when authoritative postal datasets permit it. Model one-to-many and many-to-many relations; never infer a unique street/address from a postal code.

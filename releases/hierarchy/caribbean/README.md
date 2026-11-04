@@ -16,7 +16,7 @@
 [管理表](COVERAGE_JA.md)、[国別4層の状態](coverage-status.json)、
 [今回の検証記録](verification.json)を正本とする。
 `original/` と `address-points/CARIBBEAN_*` は2026-10-17版の記録で、今回の検証結果とは分ける。
-既存の `caribbean-registry/` の27地域スナップショットも別出典・別版であり、単純合算しない。
+既存の `registries/caribbean/` の27地域スナップショットも別出典・別版であり、単純合算しない。
 
 ## 保存済み行政階層の復元と検索
 

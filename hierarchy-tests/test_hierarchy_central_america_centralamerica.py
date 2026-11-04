@@ -24,7 +24,7 @@ class RepositoryCandidateIsolation(unittest.TestCase):
                              {'centralamerica.py','centralamerica_common.py','centralamerica_fetch.py','centralamerica_validate.py'})
             self.assertTrue((output/'tests/test_centralamerica.py').is_file())
             self.assertFalse((output/'.git').exists())
-            self.assertFalse((output/'official-registry').exists())
+            self.assertFalse((output/'registries/official').exists())
             self.assertFalse((output/'address-points/CENTRAL_AMERICA_VALIDATION.json').exists())
             self.assertFalse((output/'address-points/sources').exists())
 

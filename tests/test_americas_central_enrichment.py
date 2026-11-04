@@ -22,10 +22,10 @@ def imported(name, relative):
     return module
 
 
-supplement = imported('test_cr_supplement', 'central-america-registry/supplement.py')
-quality = imported('test_central_quality', 'central-america-registry/quality.py')
-query = imported('test_central_query', 'central-america-registry/query_enriched.py')
-government = imported('test_cr_government', 'central-america-registry/government_codes.py')
+supplement = imported('test_cr_supplement', 'registries/central-america/supplement.py')
+quality = imported('test_central_quality', 'registries/central-america/quality.py')
+query = imported('test_central_query', 'registries/central-america/query_enriched.py')
+government = imported('test_cr_government', 'registries/central-america/government_codes.py')
 
 
 class CentralAmericaAcceptanceTests(unittest.TestCase):
@@ -46,7 +46,7 @@ class CentralAmericaAcceptanceTests(unittest.TestCase):
         self.assertIsNone(report['unique_real_world_locality_count'])
 
     def test_legacy_six_country_snapshot_is_not_reclassified(self):
-        manifest = json.loads((ROOT / 'central-america-registry/manifest.json').read_text())
+        manifest = json.loads((ROOT / 'registries/central-america/manifest.json').read_text())
         self.assertEqual({r['country'] for r in manifest['countries']}, set(quality.BASE))
         self.assertEqual(manifest['totals']['locality_rows'], 51263)
 
@@ -138,7 +138,7 @@ class CentralAmericaAcceptanceTests(unittest.TestCase):
             government.parsed_codes(source)
 
     def test_eight_country_roster_reaches_53_of_57_americas_sources(self):
-        audit = imported('central_final_audit', 'americas-registry/audit.py')
+        audit = imported('central_final_audit', 'registries/americas/audit.py')
         report = audit.audit(ROOT)
         self.assertEqual(report['source_country_area_count'], 53)
         central = next(r for r in report['areas'] if r['key'] == 'central-america')

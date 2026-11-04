@@ -4,7 +4,7 @@
 UN M49 Central Asia: Kazakhstan (KZ), Kyrgyzstan (KG), Tajikistan (TJ), Turkmenistan (TM), Uzbekistan (UZ). Afghanistan is covered by the separate South Asia plan. Mongolia belongs to Eastern Asia under M49. Preserve any cross-region aliases without duplicating stable IDs.
 
 ## Objectives
-Enhance existing asia-registry data using reproducible, legally reusable authoritative administrative and postal sources. Do not claim any new dataset, completeness or deliverability verification until imported and tested.
+Enhance existing registries/asia data using reproducible, legally reusable authoritative administrative and postal sources. Do not claim any new dataset, completeness or deliverability verification until imported and tested.
 
 ## Country-specific research and acceptance
 - KZ: oblasts, cities of republican significance, districts, rural settlements; Kazakh Cyrillic/Latin and Russian variants, historic renamings, postal code relationships.
@@ -25,7 +25,7 @@ Each canonical row must preserve country ISO code, source-specific identifier, s
 6. Run offline regression tests and emit before/after coverage and unresolved-issue reports; publish only validated country increments.
 
 ## Quality gates
-Reject duplicate canonical IDs, dangling parents, country mismatches, unlicensed data, missing provenance, invalid UTF-8, non-reproducible transformations, unexpected count decreases, and unsupported claims of postal or street-level completeness. Test script variants, renamings, border/administrative exceptions, rural localities, postal ambiguity and incomplete addresses. Preserve backward compatibility with existing `asia-registry` country packs and `gn:` identifiers.
+Reject duplicate canonical IDs, dangling parents, country mismatches, unlicensed data, missing provenance, invalid UTF-8, non-reproducible transformations, unexpected count decreases, and unsupported claims of postal or street-level completeness. Test script variants, renamings, border/administrative exceptions, rural localities, postal ambiguity and incomplete addresses. Preserve backward compatibility with existing `registries/asia` country packs and `gn:` identifiers.
 
 ## Execution order
 KZ -> UZ -> KG -> TJ -> TM, revisiting low-confidence mappings after each cycle. This document defines the process; no country data was imported in this commit.

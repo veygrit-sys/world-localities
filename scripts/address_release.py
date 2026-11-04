@@ -108,7 +108,7 @@ def bundle(code: Path, lock_path: Path, parts: Path | None):
         destinations = set()
         for item in manifest["payloads"]:
             name = relative_name(item["path"])
-            if not (name.startswith("address-points/") or name.startswith("tests/") or name == "official-registry/JP/entities.csv.gz"):
+            if not (name.startswith("address-points/") or name.startswith("tests/") or name == "registries/official/JP/entities.csv.gz"):
                 raise ValueError("Payload outside address release scope: " + name)
             if name.casefold() in destinations:
                 raise ValueError("Duplicate payload destination")
