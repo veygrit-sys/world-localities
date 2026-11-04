@@ -3,6 +3,9 @@ on:
   push:
     branches: ['codex/country-modules-migration-20261104']
     paths: ['.github/workflows/import-country-snapshot.yml']
+  pull_request:
+    branches: ['main']
+    paths: ['.github/workflows/import-country-snapshot.yml']
 permissions:
   contents: write
 concurrency:
