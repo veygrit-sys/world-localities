@@ -3,9 +3,6 @@ on:
   push:
     branches: ['codex/country-modules-migration-20261104']
     paths: ['.github/workflows/import-country-snapshot.yml']
-  pull_request:
-    branches: ['main']
-    paths: ['.github/workflows/import-country-snapshot.yml']
 permissions:
   contents: write
 concurrency:
@@ -39,6 +36,8 @@ jobs:
                   continue
               target = root / name
               if target.exists():
+                  if target.read_bytes() == (source / name).read_bytes():
+                      continue
                   raise RuntimeError(f'Import would overwrite existing file: {name}')
               target.parent.mkdir(parents=True, exist_ok=True)
               shutil.copy2(source / name, target)
@@ -50,11 +49,10 @@ jobs:
           python -m localities layout
           python -m pip install -r scripts/requirements-osm.txt
           python -m unittest discover -s tests -v
-      - name: Commit verified import and remove one-time workflow
+      - name: Commit verified import
         shell: bash
         run: |
           set -euo pipefail
-          rm .github/workflows/import-country-snapshot.yml
           git add -A
           git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Import 1591 pinned source files and verify country modules'
           git push origin HEAD:codex/country-modules-migration-20261104

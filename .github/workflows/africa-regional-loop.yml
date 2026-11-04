@@ -1,0 +1,40 @@
+name: Africa regional enrichment
+on:
+  push:
+    branches: [data/africa-regional-loop-20261015]
+    paths:
+      - 'africa-registry/regional_loop.py'
+      - 'africa-registry/test_regional_loop.py'
+      - 'africa-registry/official-references/**'
+      - '.github/workflows/africa-regional-loop.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: africa-regional-enrichment-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  north-first:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Offline tests and preserved baseline integrity
+        run: |
+          python3 -m unittest discover -s africa-registry -p 'test*.py' -v
+          python3 africa-registry/build.py verify
+      - name: North, west, middle, east, south collection and replay
+        run: |
+          python3 africa-registry/regional_loop.py --output /tmp/africa-candidates --cache /tmp/africa-source-cache
+      - name: Preserve candidate records, checksums and source receipts
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: africa-regional-candidates-${{ github.run_id }}
+          path: |
+            /tmp/africa-candidates/
+            /tmp/africa-source-cache/
+          retention-days: 14
+          if-no-files-found: warn

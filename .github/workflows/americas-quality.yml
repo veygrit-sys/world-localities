@@ -1,0 +1,74 @@
+name: Americas locality quality checks
+
+on:
+  push:
+    paths:
+      - 'americas-registry/**'
+      - 'north-america-registry/**'
+      - 'official-registry/**'
+      - 'central-america-registry/**'
+      - 'caribbean-registry/**'
+      - 'south-america-registry/**'
+      - 'localities/**'
+      - 'scripts/verify_americas_snapshots.py'
+      - 'tests/test_americas_*.py'
+      - 'tests/test_repository_layout.py'
+      - '.github/workflows/americas-quality.yml'
+  pull_request:
+    paths:
+      - 'americas-registry/**'
+      - 'north-america-registry/**'
+      - 'official-registry/**'
+      - 'central-america-registry/**'
+      - 'caribbean-registry/**'
+      - 'south-america-registry/**'
+      - 'localities/**'
+      - 'scripts/verify_americas_snapshots.py'
+      - 'tests/test_americas_*.py'
+      - 'tests/test_repository_layout.py'
+      - '.github/workflows/americas-quality.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: americas-quality-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-americas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout exact commit
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4 resolved 2026-10-15
+        with:
+          persist-credentials: false
+      - name: Python setup
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5 resolved 2026-10-15
+        with:
+          python-version: '3.11'
+      - name: Americas regressions including immutable snapshots
+        shell: bash
+        run: |
+          mkdir -p qa-reports
+          python -m unittest discover -s tests -p 'test_repository_layout.py' -v 2>&1 | tee qa-reports/layout-tests.log
+          python -m unittest discover -s tests -p 'test_americas_*.py' -v 2>&1 | tee qa-reports/tests.log
+          python -m unittest discover -s tests -p 'test_split_materialization.py' -v 2>&1 | tee qa-reports/split-materialization.log
+      - name: Source-aware cycle and query reports
+        if: ${{ always() }}
+        shell: bash
+        run: |
+          mkdir -p qa-reports
+          python americas-registry/quality_cycle.py --rounds 2 --state-file qa-reports/state.json > qa-reports/cycle.json
+          python americas-registry/audit.py --mode plan > qa-reports/plan.json
+          python north-america-registry/query.py --country CA --region CA-NS --text Shelburne > qa-reports/query.json
+      - name: Preserve QA evidence even on failure
+        if: ${{ always() }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4 resolved 2026-10-15
+        with:
+          name: americas-quality-${{ github.run_id }}-${{ github.run_attempt }}
+          path: qa-reports/
+          retention-days: 14
+          if-no-files-found: warn
