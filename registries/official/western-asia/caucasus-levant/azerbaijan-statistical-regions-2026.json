@@ -1,0 +1,732 @@
+{
+  "schema_version": 1,
+  "country": "AZ",
+  "source_name": "Azerbaijan State Statistical Committee economic regions page",
+  "source_url": "https://stat.gov.az/source/regions/",
+  "publisher": "Azerbaijan State Statistical Committee",
+  "source_updated_at": "2026-06-29",
+  "reviewed_at": "2026-11-05",
+  "original_webpage_bytes_downloaded": false,
+  "original_webpage_sha256": null,
+  "transcription_scope": "14 government economic regions and 68 member labels explicitly visible on the page",
+  "not_a_complete_register_of_all_az_rayon_city_settlement_units": true,
+  "economic_regions": [
+    {
+      "id": "az-stat-eco-01",
+      "name_az": "Bakı",
+      "classification": "economic_reporting_region_not_administrative_parent_id",
+      "members": [
+        {
+          "ref": "az-stat-member-01-01",
+          "name_az": "Bakı",
+          "unit_kind": "city",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Bakı"
+        }
+      ]
+    },
+    {
+      "id": "az-stat-eco-02",
+      "name_az": "Naxçıvan",
+      "classification": "economic_reporting_region_not_administrative_parent_id",
+      "members": [
+        {
+          "ref": "az-stat-member-02-01",
+          "name_az": "Naxçıvan",
+          "unit_kind": "autonomous_republic",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Naxçıvan"
+        }
+      ]
+    },
+    {
+      "id": "az-stat-eco-03",
+      "name_az": "Abşeron-Xızı",
+      "classification": "economic_reporting_region_not_administrative_parent_id",
+      "members": [
+        {
+          "ref": "az-stat-member-03-01",
+          "name_az": "Sumqayıt",
+          "unit_kind": "city",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Sumqayıt"
+        },
+        {
+          "ref": "az-stat-member-03-02",
+          "name_az": "Abşeron",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Abşeron"
+        },
+        {
+          "ref": "az-stat-member-03-03",
+          "name_az": "Xızı",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Xızı"
+        }
+      ]
+    },
+    {
+      "id": "az-stat-eco-04",
+      "name_az": "Dağlıq-Şirvan",
+      "classification": "economic_reporting_region_not_administrative_parent_id",
+      "members": [
+        {
+          "ref": "az-stat-member-04-01",
+          "name_az": "Ağsu",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Ağsu"
+        },
+        {
+          "ref": "az-stat-member-04-02",
+          "name_az": "İsmayıllı",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "İsmayıllı"
+        },
+        {
+          "ref": "az-stat-member-04-03",
+          "name_az": "Qobustan",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Qobustan"
+        },
+        {
+          "ref": "az-stat-member-04-04",
+          "name_az": "Şamaxı",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Şamaxı"
+        }
+      ]
+    },
+    {
+      "id": "az-stat-eco-05",
+      "name_az": "Gəncə-Daşkəsən",
+      "classification": "economic_reporting_region_not_administrative_parent_id",
+      "members": [
+        {
+          "ref": "az-stat-member-05-01",
+          "name_az": "Gəncə",
+          "unit_kind": "city",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Gəncə"
+        },
+        {
+          "ref": "az-stat-member-05-02",
+          "name_az": "Naftalan",
+          "unit_kind": "city",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Naftalan"
+        },
+        {
+          "ref": "az-stat-member-05-03",
+          "name_az": "Daşkəsən",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Daşkəsən"
+        },
+        {
+          "ref": "az-stat-member-05-04",
+          "name_az": "Goranboy",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Goranboy"
+        },
+        {
+          "ref": "az-stat-member-05-05",
+          "name_az": "Göygöl",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Göygöl"
+        },
+        {
+          "ref": "az-stat-member-05-06",
+          "name_az": "Samux",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Samux"
+        }
+      ]
+    },
+    {
+      "id": "az-stat-eco-06",
+      "name_az": "Qarabağ",
+      "classification": "economic_reporting_region_not_administrative_parent_id",
+      "members": [
+        {
+          "ref": "az-stat-member-06-01",
+          "name_az": "Xankəndi",
+          "unit_kind": "city",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Xankəndi"
+        },
+        {
+          "ref": "az-stat-member-06-02",
+          "name_az": "Ağcabədi",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Ağcabədi"
+        },
+        {
+          "ref": "az-stat-member-06-03",
+          "name_az": "Ağdam",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Ağdam"
+        },
+        {
+          "ref": "az-stat-member-06-04",
+          "name_az": "Ağdərə",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Ağdərə"
+        },
+        {
+          "ref": "az-stat-member-06-05",
+          "name_az": "Bərdə",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Bərdə"
+        },
+        {
+          "ref": "az-stat-member-06-06",
+          "name_az": "Füzuli",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Füzuli"
+        },
+        {
+          "ref": "az-stat-member-06-07",
+          "name_az": "Xocalı",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Xocalı"
+        },
+        {
+          "ref": "az-stat-member-06-08",
+          "name_az": "Xocavənd",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Xocavənd"
+        },
+        {
+          "ref": "az-stat-member-06-09",
+          "name_az": "Şuşa",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Şuşa"
+        },
+        {
+          "ref": "az-stat-member-06-10",
+          "name_az": "Tərtər",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Tərtər"
+        }
+      ]
+    },
+    {
+      "id": "az-stat-eco-07",
+      "name_az": "Qazax-Tovuz",
+      "classification": "economic_reporting_region_not_administrative_parent_id",
+      "members": [
+        {
+          "ref": "az-stat-member-07-01",
+          "name_az": "Ağstafa",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Ağstafa"
+        },
+        {
+          "ref": "az-stat-member-07-02",
+          "name_az": "Gədəbəy",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Gədəbəy"
+        },
+        {
+          "ref": "az-stat-member-07-03",
+          "name_az": "Qazax",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Qazax"
+        },
+        {
+          "ref": "az-stat-member-07-04",
+          "name_az": "Şəmkir",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Şəmkir"
+        },
+        {
+          "ref": "az-stat-member-07-05",
+          "name_az": "Tovuz",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Tovuz"
+        }
+      ]
+    },
+    {
+      "id": "az-stat-eco-08",
+      "name_az": "Quba-Xaçmaz",
+      "classification": "economic_reporting_region_not_administrative_parent_id",
+      "members": [
+        {
+          "ref": "az-stat-member-08-01",
+          "name_az": "Xaçmaz",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Xaçmaz"
+        },
+        {
+          "ref": "az-stat-member-08-02",
+          "name_az": "Quba",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Quba"
+        },
+        {
+          "ref": "az-stat-member-08-03",
+          "name_az": "Qusar",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Qusar"
+        },
+        {
+          "ref": "az-stat-member-08-04",
+          "name_az": "Siyəzən",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Siyəzən"
+        },
+        {
+          "ref": "az-stat-member-08-05",
+          "name_az": "Şabran",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Şabran"
+        }
+      ]
+    },
+    {
+      "id": "az-stat-eco-09",
+      "name_az": "Lənkəran-Astara",
+      "classification": "economic_reporting_region_not_administrative_parent_id",
+      "members": [
+        {
+          "ref": "az-stat-member-09-01",
+          "name_az": "Astara",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Astara"
+        },
+        {
+          "ref": "az-stat-member-09-02",
+          "name_az": "Cəlilabad",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Cəlilabad"
+        },
+        {
+          "ref": "az-stat-member-09-03",
+          "name_az": "Lerik",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Lerik"
+        },
+        {
+          "ref": "az-stat-member-09-04",
+          "name_az": "Lənkəran",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Lənkəran"
+        },
+        {
+          "ref": "az-stat-member-09-05",
+          "name_az": "Masallı",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Masallı"
+        },
+        {
+          "ref": "az-stat-member-09-06",
+          "name_az": "Yardımlı",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Yardımlı"
+        }
+      ]
+    },
+    {
+      "id": "az-stat-eco-10",
+      "name_az": "Mərkəzi Aran",
+      "classification": "economic_reporting_region_not_administrative_parent_id",
+      "members": [
+        {
+          "ref": "az-stat-member-10-01",
+          "name_az": "Mingəçevir",
+          "unit_kind": "city",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Mingəçevir"
+        },
+        {
+          "ref": "az-stat-member-10-02",
+          "name_az": "Ağdaş",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Ağdaş"
+        },
+        {
+          "ref": "az-stat-member-10-03",
+          "name_az": "Göyçay",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Göyçay"
+        },
+        {
+          "ref": "az-stat-member-10-04",
+          "name_az": "Kürdəmir",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Kürdəmir"
+        },
+        {
+          "ref": "az-stat-member-10-05",
+          "name_az": "Ucar",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Ucar"
+        },
+        {
+          "ref": "az-stat-member-10-06",
+          "name_az": "Yevlax",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Yevlax"
+        },
+        {
+          "ref": "az-stat-member-10-07",
+          "name_az": "Zərdab",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Zərdab"
+        }
+      ]
+    },
+    {
+      "id": "az-stat-eco-11",
+      "name_az": "Mil-Muğan",
+      "classification": "economic_reporting_region_not_administrative_parent_id",
+      "members": [
+        {
+          "ref": "az-stat-member-11-01",
+          "name_az": "Beyləqan",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Beyləqan"
+        },
+        {
+          "ref": "az-stat-member-11-02",
+          "name_az": "İmişli",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "İmişli"
+        },
+        {
+          "ref": "az-stat-member-11-03",
+          "name_az": "Saatlı",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Saatlı"
+        },
+        {
+          "ref": "az-stat-member-11-04",
+          "name_az": "Sabirabad",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Sabirabad"
+        }
+      ]
+    },
+    {
+      "id": "az-stat-eco-12",
+      "name_az": "Şəki-Zaqatala",
+      "classification": "economic_reporting_region_not_administrative_parent_id",
+      "members": [
+        {
+          "ref": "az-stat-member-12-01",
+          "name_az": "Balakən",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Balakən"
+        },
+        {
+          "ref": "az-stat-member-12-02",
+          "name_az": "Qax",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Qax"
+        },
+        {
+          "ref": "az-stat-member-12-03",
+          "name_az": "Qəbələ",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Qəbələ"
+        },
+        {
+          "ref": "az-stat-member-12-04",
+          "name_az": "Oğuz",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Oğuz"
+        },
+        {
+          "ref": "az-stat-member-12-05",
+          "name_az": "Şəki",
+          "unit_kind": "city",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Şəki"
+        },
+        {
+          "ref": "az-stat-member-12-06",
+          "name_az": "Zaqatala",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Zaqatala"
+        }
+      ]
+    },
+    {
+      "id": "az-stat-eco-13",
+      "name_az": "Şərqi Zəngəzur",
+      "classification": "economic_reporting_region_not_administrative_parent_id",
+      "members": [
+        {
+          "ref": "az-stat-member-13-01",
+          "name_az": "Cəbrayıl",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Cəbrayıl"
+        },
+        {
+          "ref": "az-stat-member-13-02",
+          "name_az": "Kəlbəcər",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Kəlbəcər"
+        },
+        {
+          "ref": "az-stat-member-13-03",
+          "name_az": "Qubadlı",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Qubadlı"
+        },
+        {
+          "ref": "az-stat-member-13-04",
+          "name_az": "Laçın",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Laçın"
+        },
+        {
+          "ref": "az-stat-member-13-05",
+          "name_az": "Zəngilan",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Zəngilan"
+        }
+      ]
+    },
+    {
+      "id": "az-stat-eco-14",
+      "name_az": "Şirvan-Salyan",
+      "classification": "economic_reporting_region_not_administrative_parent_id",
+      "members": [
+        {
+          "ref": "az-stat-member-14-01",
+          "name_az": "Şirvan",
+          "unit_kind": "city",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Şirvan"
+        },
+        {
+          "ref": "az-stat-member-14-02",
+          "name_az": "Biləsuvar",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Biləsuvar"
+        },
+        {
+          "ref": "az-stat-member-14-03",
+          "name_az": "Hacıqabul",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Hacıqabul"
+        },
+        {
+          "ref": "az-stat-member-14-04",
+          "name_az": "Neftçala",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Neftçala"
+        },
+        {
+          "ref": "az-stat-member-14-05",
+          "name_az": "Salyan",
+          "unit_kind": "rayon",
+          "official_stable_id": null,
+          "geonames_id": null,
+          "accepted_id_crosswalk": false,
+          "source_economic_region": "Salyan"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "This statistical index lists Nakhchivan as a single autonomous republic; internal districts are not enumerated.",
+    "Economic region membership is not a replacement for legal municipal parent relations.",
+    "Ağdərə rayon appears in the 2026 listing; if not in GeoNames source it remains unmatched rather than fabricated.",
+    "Source-specific names and disputed territorial claims must remain distinct from delivery services and boundary ownership.",
+    "The full official city/administrative-unit GeoJSON remains a separately catalogued and unacquired original source."
+  ]
+}

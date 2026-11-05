@@ -156,8 +156,17 @@
         {
           "source_key": "GE:ADMIN-NAME-09",
           "name": "Samegrelo-Zemo Svaneti",
-          "aliases": [],
-          "legally_equivalent_to_geonames_verified": false
+          "aliases": [
+            "Samegrelo-Zemo Svanetis Mkhare"
+          ],
+          "legally_equivalent_to_geonames_verified": false,
+          "alias_evidence": {
+            "source": "Geostat official Samegrelo-Zemo Svaneti label compared with GeoNames 865543",
+            "authority_url": "https://www.geostat.ge/en/modules/categories/68/by-regions",
+            "geonames_url": "https://www.geonames.org/865543/samegrelo-zemo-svanetis-mkhare.html",
+            "scope": "Search-alias candidate only; not proof of official identity or English translation",
+            "reviewed_at": "2026-11-05"
+          }
         },
         {
           "source_key": "GE:ADMIN-NAME-10",
