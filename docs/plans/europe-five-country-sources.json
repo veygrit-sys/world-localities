@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-05",
+  "purpose": "Prioritized official address reference intake; source availability is not an acceptance test",
+  "country_codes": ["FR", "NL", "PL", "CZ", "DK"],
+  "countries": {
+    "FR": {
+      "register": "Base Adresse Nationale (BAN)",
+      "publisher": "IGN / Base Adresse Nationale",
+      "official_documentation": "https://adresse.data.gouv.fr/outils/telechargements",
+      "licence": "Licence Ouverte 2.0 (attribution required)",
+      "existing_pinned_manifest": "releases/hierarchy/western-europe/official-sources.json",
+      "implementation": "scripts/western_europe_sources.py",
+      "current_task": "Review last accepted snapshot, reconcile BAN commune/street links and official hierarchy, assess certification and unmatched references",
+      "status": "accepted_historical_source_replay_available",
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    "NL": {
+      "register": "Basisregistratie Adressen en Gebouwen (BAG)",
+      "publisher": "Kadaster / PDOK",
+      "official_documentation": "https://data.overheid.nl/en/dataset/10491-bag",
+      "licence": "Public domain (verify notices per distributed product)",
+      "existing_pinned_manifest": "releases/hierarchy/western-europe/netherlands/official-sources.json",
+      "implementation": "scripts/netherlands_bag.py",
+      "current_task": "Link BAG VBO/LIG/STA access points and distinguish main vs secondary addresses; verify history-time joins",
+      "status": "accepted_historical_source_replay_available",
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    "PL": {
+      "register": "Państwowy Rejestr Granic (PRG), address GML",
+      "publisher": "GUGiK / Geoportal",
+      "official_documentation": "https://www.geoportal.gov.pl/pl/dane/panstwowy-rejestr-granic-prg/",
+      "format_change_notice": "https://www.geoportal.gov.pl/aktualnosci/zmiany-struktury-publikowanych-danych-adresowych-2/",
+      "schema_url": "https://geoportal.gov.pl/schemas/prgad/1.0",
+      "licence": "Official free reuse statement; review primary source terms with fixed dataset",
+      "existing_layer": "registries/europe/countries/PL",
+      "implementation": "scripts/europe_priority_ingest.py survey-pl",
+      "current_task": "Pin a 2026-09-10-or-later prgad.xsd-compatible ZIP/GML, compare XML QNames with XSD, implement verified parser with provenance and administrative codes",
+      "status": "schema_survey_ready_parser_not_verified",
+      "normalized_official_address_count": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    "CZ": {
+      "register": "RÚIAN addresses CSV",
+      "publisher": "ČÚZK",
+      "official_documentation": "https://geoportal.gov.cz/php/micka/record/basic/CZ-00025712-CUZK_SERIES-MD_RUIAN-CSV-ADR-ST",
+      "download_feed": "https://atom.cuzk.gov.cz/RUIAN-CSV-ADR-ST/RUIAN-CSV-ADR-ST.xml",
+      "column_specification": "https://cuzk.gov.cz/Uvod/Produkty-a-sluzby/RUIAN/2-Poskytovani-udaju-RUIAN-ISUI-VDP/Dopady-zmeny-zakona-c-51-2020-Sb/Adresni-mista-CSV_atributy.aspx",
+      "licence": "CC BY 4.0 (attribution required)",
+      "existing_layer": "registries/europe/countries/CZ",
+      "implementation": "scripts/europe_priority_ingest.py normalize --country CZ",
+      "source_format": "ZIP containing semicolon-delimited Windows-1250 CSV members; coordinates are S-JTSK, not WGS84",
+      "current_task": "Pin monthly national download, run full-source normalization and independent duplicate/field audit; link postal codes and municipality identifiers",
+      "status": "offline_parser_fixture_tested_no_real_source_replay_yet",
+      "normalized_official_address_count": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    "DK": {
+      "register": "Danmarks Adresseregister (DAR)",
+      "publisher": "Klimadatastyrelsen / Datafordeler",
+      "official_documentation": "https://datafordeler.dk/dataoversigt/danmarks-adresseregister-dar/dar-fildownload/",
+      "entity_reference": "https://confluence.kds.dk/pages/viewpage.action?pageId=148452334",
+      "licence": "Verify terms on individual extracted data product; authenticated access required",
+      "access": "Datafordeler user and API key/OAuth; never commit credentials",
+      "existing_layer": "registries/europe/countries/DK",
+      "implementation": "scripts/europe_priority_ingest.py normalize --country DK --entity Adresse",
+      "source_format": "Separate downloaded CSV entities; schema and extraction mode must be inspected",
+      "current_task": "Pin same-time Adresse/Husnummer/NavngivenVej/Postnummer/Adressepunkt snapshots, verify entity keys and temporal joins before promoting full address matches",
+      "status": "offline_entity_capture_fixture_tested_joins_not_verified",
+      "normalized_official_address_count": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    }
+  },
+  "training_use_authorized": false,
+  "shipping_address_certification": "not_assessed"
+}
+
