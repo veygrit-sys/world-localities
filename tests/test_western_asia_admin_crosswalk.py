@@ -51,6 +51,9 @@ class SourceEvidenceTests(unittest.TestCase):
                 self.assertFalse(row["reviewed_identity_verified"])
                 self.assertFalse(row["postal_assignment_verified"])
                 self.assertTrue(all(gid.startswith("gn:") for gid in row["candidate_geonames_ids"]))
+        print("OFFICIAL_ADMIN_UNMATCHED_NAMES "+json.dumps({
+            cc:[x["official_name"] for x in self.reports[cc]["candidates"] if x["status"]=="unmatched"]
+            for cc in cross.COUNTRIES},sort_keys=True))
         print("OFFICIAL_ADMIN_CANDIDATE_SUMMARY "+json.dumps({
             cc:{k:self.reports[cc][k] for k in ("official_names_compared","unique_candidates_unreviewed",
             "ambiguous_candidates_unreviewed","official_names_unmatched","localities_without_adm1")}
