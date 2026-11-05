@@ -9,5 +9,6 @@
 | 中央アジア | [拡充記録・計画](central-asia-enrichment-20261015.md) |
 | 南アジア | [拡充記録・計画](south-asia-enrichment-20261015.md) |
 | 西アジア | [拡充記録・計画](western-asia-enrichment-20261015.md) |
+| ヨーロッパ重点5か国 | [公式住所の取込と検証](europe-five-country-implementation.md) |
 
 [資料一覧へ](../README.md)
