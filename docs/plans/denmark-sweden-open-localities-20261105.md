@@ -10,7 +10,7 @@ The goal is not to wait for authorization to build the entire localities experie
 2. Large-PBF pyosmium import and small synthetic XML import, indexed by OSM object and category into an SQLite file atomically without overwrite.
 3. Unicode-preserving street/house/locality/municipality labels, leading-zero-preserving postcode strings, WGS84 mapped node geometry only, no guessed way centroids, and source country conflict reporting.
 4. Search by category, Unicode-folded name and postal code; index integrity and count verification.
-5. 28 synthetic offline regression tests; read-only suite runs as CI, full real-data build is a separate manual opt-in with optional archival of the large result.
+5. 29 synthetic offline regression tests; read-only suite runs as CI, full real-data build is a separate manual opt-in with optional archival of the large result.
 6. ODbL and attribution metadata; notes describing unverified completeness, actual postcode existence and carrier deliverability.
 
 ## Data flow
