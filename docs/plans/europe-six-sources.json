@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "purpose": "Verified discovery and offline candidate processing; do not claim address coverage, legal rights, model training or delivery",
+  "countries": {
+    "LT": {
+      "country_name": "Lithuania",
+      "authority": "Registrų centras",
+      "dataset": "Adresų registro address spatial points",
+      "official_url": "https://data.gov.lt/datasets/1351/",
+      "access": "terms_review",
+      "formats": [
+        "JSON",
+        "JSONL",
+        "CSV (portal distribution)"
+      ],
+      "ingest_plan": "Review the AdresoTaskas schema and publisher terms; pin an actual exported snapshot and explicitly map source IDs, street, address number and CRS",
+      "existing_reference": "registries/europe/countries/LT",
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "official_address_snapshot_loaded_by_this_change": false
+    },
+    "LV": {
+      "country_name": "Latvia",
+      "authority": "Valsts zemes dienests (VZD)",
+      "dataset": "Valsts adrešu reģistra atvērtie dati",
+      "official_url": "https://data.gov.lv/dati/eng/dataset/varis-atvertie-dati",
+      "access": "public",
+      "formats": [
+        "CSV",
+        "SHP ZIP",
+        "GML AtomFeed"
+      ],
+      "ingest_plan": "Pin named current/historical CSV tables separately; retain external IDs and valid dates; never treat SHP coordinates as WGS84; audit post-2026-10-07 LKS-2020 TM change",
+      "existing_reference": "registries/europe/countries/LV",
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "official_address_snapshot_loaded_by_this_change": false
+    },
+    "SI": {
+      "country_name": "Slovenia",
+      "authority": "GURS",
+      "dataset": "Register of addresses",
+      "official_url": "https://www.e-prostor.gov.si/en/access-to-geodetic-data/",
+      "access": "public",
+      "formats": [
+        "published exports (inspect schema before acceptance)"
+      ],
+      "ingest_plan": "Select a versioned public geodetic export, identify address and parent fields, pin the bytes and check rights; no invented export schema",
+      "existing_reference": "registries/europe/countries/SI",
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "official_address_snapshot_loaded_by_this_change": false
+    },
+    "HR": {
+      "country_name": "Croatia",
+      "authority": "Državna geodetska uprava (DGU)",
+      "dataset": "INSPIRE Addresses Atom",
+      "official_url": "https://geoportal.dgu.hr/cms/en/data-and-services/",
+      "access": "public",
+      "formats": [
+        "ATOM",
+        "GML"
+      ],
+      "ingest_plan": "Resolve official ATOM feed; pin the chosen GML payload, inspect exact INSPIRE element paths before passing an explicit record-selector/mapping",
+      "existing_reference": "registries/europe/countries/HR",
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "official_address_snapshot_loaded_by_this_change": false
+    },
+    "AT": {
+      "country_name": "Austria",
+      "authority": "Bundesamt für Eich- und Vermessungswesen (BEV)",
+      "dataset": "Österreichisches Adressregister",
+      "official_url": "https://www.bev.gv.at/Services/Produkte/Adressregister/Oesterreichisches-Adressregister.html",
+      "access": "public",
+      "formats": [
+        "existing pinned relational ZIP"
+      ],
+      "ingest_plan": "Reuse accepted source pin, existing western_europe_sources.py BEV adapter, and accepted validation. Investigate 31 unresolved GeoNames parent links independently; do not add duplicate country observations",
+      "existing_reference": "releases/hierarchy/western-europe/official-sources.json",
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "official_address_snapshot_loaded_by_this_change": false
+    },
+    "SE": {
+      "country_name": "Sweden",
+      "authority": "Lantmäteriet",
+      "dataset": "Belägenhetsadress Nedladdning, vektor",
+      "official_url": "https://geotorget.lantmateriet.se/geodataprodukter/belagenhetsadress-nedladdning-vektor-api",
+      "access": "registration_review",
+      "formats": [
+        "GeoPackage via authenticated STAC API"
+      ],
+      "ingest_plan": "Obtain access and legal approval before official records are accepted; pin GeoPackage extract if permitted, map fields explicitly, keep geometry and location CRS separate",
+      "existing_reference": "registries/europe/countries/SE",
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "official_address_snapshot_loaded_by_this_change": false
+    }
+  }
+}
