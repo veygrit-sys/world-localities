@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "purpose": "Build separate community OSM evidence for Denmark and Sweden without consuming gated official address-point APIs",
+  "source_kind": "community_osm_evidence",
+  "national_completeness_verified": false,
+  "deliverability_verified": false,
+  "source_rights_are_not_universal": true,
+  "countries": {
+    "DK": {
+      "name": "Denmark",
+      "primary_open_extract": "https://download.geofabrik.de/europe/denmark-latest.osm.pbf",
+      "license": "ODbL-1.0",
+      "attribution": "© OpenStreetMap contributors; Geofabrik regional extract",
+      "postcode_syntax": "4 digits; not postcode existence",
+      "open_candidate_data": ["OSM addr:housenumber", "OSM addr:street", "OSM highway/name", "OSM place/name", "OSM boundary=administrative"],
+      "existing_baseline": ["registries/europe/countries/DK", "registries/europe/eurostat-lau/DK"],
+      "official_authority": "Datafordeler DAR",
+      "official_access": "Authentication via API key or OAuth for entity downloads; not used by the independent OSM ingestion",
+      "official_url": "https://datafordeler.dk/dataoversigt/danmarks-adresseregister-dar/dar-fildownload/"
+    },
+    "SE": {
+      "name": "Sweden",
+      "primary_open_extract": "https://download.geofabrik.de/europe/sweden-latest.osm.pbf",
+      "license": "ODbL-1.0",
+      "attribution": "© OpenStreetMap contributors; Geofabrik regional extract",
+      "postcode_syntax": "3 digits + optional space + 2 digits; not postcode existence",
+      "open_candidate_data": ["OSM addr:housenumber", "OSM addr:street", "OSM highway/name", "OSM place/name", "OSM boundary=administrative"],
+      "existing_baseline": ["registries/europe/countries/SE", "registries/europe/eurostat-lau/SE", "registries/official/SE"],
+      "official_authority": "Lantmäteriet Belägenhetsadress Nedladdning, vektor",
+      "official_access": "Geotorget account and legal review required; free is not unrestricted reuse; not used by the independent OSM ingestion",
+      "official_url": "https://geotorget.lantmateriet.se/geodataprodukter/belagenhetsadress-nedladdning-vektor-api"
+    }
+  }
+}
