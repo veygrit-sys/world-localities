@@ -52,6 +52,17 @@ class SwedenLocalitiesContracts(unittest.TestCase):
                 'feature_code': 'PPL', 'parent_id': '', 'parent_relation': '',
                 'latitude': '59.28', 'longitude': '18.02', 'address_candidate': '1'}
 
+    @unittest.skipUnless(se.GEO.is_dir() and se.LAU.is_dir(),
+                         'Full GeoNames and Eurostat snapshots are not present in the standalone ZIP')
+    def test_saved_release_snapshots_verify_at_source_grain(self):
+        """In GitHub CI, verify the real pinned source files, not only fixtures."""
+        result = se.report()
+        self.assertEqual(result['source_layers']['GeoNames_2026']['rows'], 33003)
+        self.assertEqual(result['source_layers']['Eurostat_LAU_2024']['rows'], 290)
+        self.assertEqual(result['source_layers']['SCB_2026']['municipalities'], 290)
+        self.assertFalse(result['deliverability_verified'])
+        self.assertFalse(result['national_address_coverage_verified'])
+
     def test_official_scb_2026_is_exactly_21_counties_and_290_municipalities(self):
         counties, municipalities = se.load_counties()
         self.assertEqual(len(counties), 21)
