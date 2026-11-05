@@ -1,0 +1,42 @@
+name: Six-country official locality evidence
+on:
+  push:
+    paths:
+      - 'scripts/europe_priority_six.py'
+      - 'tests/test_europe_priority_six.py'
+      - 'registries/europe/priority-six/**'
+      - '.github/workflows/europe-priority-six.yml'
+  pull_request:
+    paths:
+      - 'scripts/europe_priority_six.py'
+      - 'tests/test_europe_priority_six.py'
+      - 'registries/europe/priority-six/**'
+      - '.github/workflows/europe-priority-six.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - run: python -m unittest discover -s tests -p 'test_europe_priority_six.py' -v
+      - run: python scripts/europe_priority_six.py audit-geonames --country all > geonames-audit.json
+      - run: python scripts/europe_priority_six.py audit-ro > siruta-audit.json
+      - run: python scripts/europe_priority_six.py ingest-ro --output ro-siruta-2026.sqlite > siruta-index-build.json
+      - run: python scripts/europe_priority_six.py search --db ro-siruta-2026.sqlite --text BUCUREȘTI > siruta-search.json
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: europe-six-ro-2026-and-geonames-audit
+          path: |
+            geonames-audit.json
+            siruta-audit.json
+            siruta-index-build.json
+            siruta-search.json
+          retention-days: 14

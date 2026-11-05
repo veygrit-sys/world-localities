@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "project": "Veygrit official address and locality sources — Southern/Eastern Europe six country priority",
+  "created_at": "2026-11-05",
+  "purpose": "Country-specific official-source intake, source qualified national locality tables, no fabricated address/postal validation",
+  "countries": {
+    "IT": {
+      "name": "Italy", "official_authority": "Agenzia delle Entrate / ISTAT", "official_source": "ANNCSU street and house-number register", "official_source_url": "https://www.anncsu.gov.it/it/consultazione-dellarchivio/open-data/index.html",
+      "data_format": "National or region-level ZIP containing CSV, monthly snapshots",
+      "source_release": "Current month must be pinned after lawful download", "license_reported": "CC BY 4.0 in dati.gov.it distributions; verify each selected release", "official_files_in_repo": 0,
+      "tasks": ["pin ANNCSU ZIP and enumerate exact member names", "review source header, preserve ISTAT/ANNCSU IDs", "validate street-to-civic ID joins", "separate SNC/un-numbered civic entries", "compare coverage to ISTAT municipalities"],
+      "national_address_completeness_verified": false, "deliverability_verified": false
+    },
+    "RS": {
+      "name": "Serbia", "official_authority": "Republički geodetski zavod (RGZ)", "official_source": "Address Register street codes and house number points", "official_source_url": "https://data.gov.rs/sr/datasets/adresni-registar/",
+      "data_format": "CSV or GeoPackage, street and number layers; reported weekly refresh", "source_release": "2026-11-04 portal release, actual downloaded bytes not pinned",
+      "license_reported": "Open government data; verify reuse rights for selected export", "official_files_in_repo": 0,
+      "tasks": ["download/pin street and number files separately", "read actual Serbian Cyrillic headers", "preserve street and unique address codes", "verify cross-source IDs and point CRS", "document source treatment of Kosovo without inventing jurisdiction"],
+      "national_address_completeness_verified": false, "deliverability_verified": false
+    },
+    "BG": {
+      "name": "Bulgaria", "official_authority": "National Statistical Institute (NSI)", "official_source": "EKATTE official territorial classification", "official_source_url": "https://nrnm.nsi.bg/ekatte/index",
+      "data_format": "JSON or Excel ZIP; dated archives", "source_release": "Current archive must be SHA pinned",
+      "license_reported": "NSI information reuse terms: verify; 2022 postcode merge is CC0 but historical", "official_files_in_repo": 0,
+      "tasks": ["pin current EKATTE JSON archive", "preserve oblast/obshtina/settlement codes as strings", "verify parent relationships and abolished entries", "keep dated 2022 postcode merge as separate historical evidence"],
+      "national_address_completeness_verified": false, "deliverability_verified": false
+    },
+    "RO": {
+      "name": "Romania", "official_authority": "Institutul Național de Statistică (INS)", "official_source": "SIRUTA S1 2026",
+      "official_source_url": "https://data.gov.ro/dataset/721c9059-5f87-4c79-9854-a1d5c18f58d5",
+      "data_format": "UTF-8 CSV; derived and attributed mirror of 2026 official SIRUTA", "source_release": "2026, INS modified 2026-08-11, mirror acquired 2026-10-19",
+      "license_reported": "CC BY 4.0", "official_files_in_repo": 1,
+      "derived_snapshot": "data/RO/siruta_s1_2026_normalized.csv", "derived_mirror": "https://github.com/romania/siruta/blob/main/data/latest/siruta.csv",
+      "derived_git_blob_sha1": "508d9477e575ff2bdaa6a2351241e7c3522cd096",
+      "raw_official_source_sha256": "f443e49af2f9c9dce8ea515ae53090a18fb476547466b6cd804051424eaf72c6",
+      "raw_official_source_bytes": 892897, "expected_derived_records": 16978,
+      "tasks": ["compare preserved derived mirror with official raw SHA evidence", "2026 hierarchy audit of county/UAT/locality records", "do not promote SIRUTA cod_postal alone to assigned/live postal-code registry"],
+      "national_address_completeness_verified": false, "deliverability_verified": false
+    },
+    "GR": {
+      "name": "Greece", "official_authority": "Hellenic Statistical Authority (ELSTAT)", "official_source": "Register of Municipalities, Communes and Settlements 2026", "official_source_url": "https://www.statistics.gr/en/statistics/-/publication/SKA01/-",
+      "data_format": "Official spreadsheet; source-preserving CSV conversion requires original snapshot and schema review",
+      "source_release": "2026 publication exists; official file bytes not yet checked", "license_reported": "Review reuse conditions for exact official download", "official_files_in_repo": 0,
+      "tasks": ["download original ELSTAT 2026 release", "pin byte hash and license", "retain Greek native names and source hierarchy", "verify 2026 administrative changes and islands", "do not treat statistical boundaries as cadastral/legal boundaries"],
+      "national_address_completeness_verified": false, "deliverability_verified": false
+    },
+    "HU": {
+      "name": "Hungary", "official_authority": "Hungarian Central Statistical Office (KSH)", "official_source": "Helységnévtár and KSH territorial codes", "official_source_url": "https://www.ksh.hu/teruletiatlasz_telepulesi_szint_alatt",
+      "data_format": "Official Helységnévtár application / downloadable statistical tables; verify export fields", "source_release": "2026 administrative reference to be obtained",
+      "license_reported": "Review KSH data reuse rights and attribution", "official_files_in_repo": 0,
+      "tasks": ["obtain 2026 KSH settlement code export", "preserve settlement and county codes", "compare 2026 boundary/nomenclature changes", "postal and street addresses require separate licensed source"],
+      "national_address_completeness_verified": false, "deliverability_verified": false
+    }
+  }
+}
