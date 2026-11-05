@@ -212,6 +212,23 @@ class SourceTests(unittest.TestCase):
         self.assertEqual(len(out), 6)
         self.assertEqual(out[0][1], 'osm:node:1')
 
+    @unittest.skipUnless(importlib.util.find_spec('osmium') is not None, 'pyosmium required for binary round trip')
+    def test_real_pbf_binary_roundtrip_for_source_pipeline(self):
+        import osmium
+        binary = self.root / 'synthetic.osm.pbf'
+        with osmium.SimpleWriter(str(binary)) as writer:
+            writer.add_node(osmium.osm.mutable.Node(
+                id=201, location=(12.5683, 55.6761),
+                tags={'addr:street': 'Ågade', 'addr:housenumber': '0007', 'addr:postcode': '0100'}))
+            writer.add_way(osmium.osm.mutable.Way(
+                id=202, nodes=[201,201], tags={'highway': 'residential', 'name': 'Ågade'}))
+        self.pin = m.pin_local('DK', binary, '2026-11-05T13:30:00+09:00', fixture=True)
+        result = m.import_data(self.pin, self.root, self.dbpath)
+        self.assertEqual(result['counts']['address_candidate'], 1)
+        self.assertEqual(result['counts']['named_road_segment'], 1)
+        self.assertEqual(m.verify_index(self.dbpath)['status'], 'PASS')
+        self.assertEqual(m.search(self.dbpath,'address_candidate')['results'][0]['house_number'],'0007')
+
     def test_projection_drops_personal_tags_and_keeps_source_namespace(self):
         rows=m.evidence_rows('SE','node',10,{'addr:housenumber':'5','name:sv':'Åker', 'contact:email':'private@example.com'},11,57)
         self.assertEqual(len(rows),1)
