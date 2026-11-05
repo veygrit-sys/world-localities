@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "country": "SE",
+  "generated_at": "2026-11-05",
+  "address_existence_verified": false,
+  "deliverability_verified": false,
+  "scb_2026": {
+    "source": "Statistiska centralbyrån / Statistics Sweden",
+    "reference_year": 2026,
+    "source_url": "https://www.scb.se/hitta-statistik/regional-statistik-och-kartor/regionala-indelningar/lan-och-kommuner/lan-och-kommuner-i-kodnummerordning/",
+    "extraction_method": "Manual transcription from rendered SCB official county/municipality code list; verify against official XLSX prior to production",
+    "county_count": 21,
+    "municipality_count": 290,
+    "bytes": 10005,
+    "sha256": "5559cf0fb35f539f2de2dc136cbe401c066713c5408e29a1d5f6e8ef648f29e8",
+    "license": "SCB web page: CC BY 4.0 for non-open-data materials; SCB open data separate CC0",
+    "independent_row_by_row_verification": false
+  },
+  "related_sources": [
+    {
+      "id": "Eurostat-LAU-2025",
+      "path": "registries/europe/eurostat-lau/SE",
+      "period": 2024,
+      "rows": 290,
+      "role": "independent-statistical-registry"
+    },
+    {
+      "id": "GeoNames-2026-09-29",
+      "path": "registries/europe/countries/SE",
+      "rows": 33003,
+      "role": "source-localities-not-address-evidence"
+    }
+  ],
+  "future_sources": [
+    {
+      "id": "SCB-Tatorter-2023",
+      "source_url": "https://www.scb.se/vara-tjanster/oppna-data/oppna-geodata/statistiska-tatorter/",
+      "rows_reference": 2017,
+      "status": "not_downloaded"
+    },
+    {
+      "id": "SCB-Smaorter-2023",
+      "source_url": "https://www.scb.se/vara-tjanster/oppna-data/oppna-geodata/",
+      "rows_reference": 3097,
+      "status": "not_downloaded"
+    },
+    {
+      "id": "Lantmateriet-Addresses",
+      "source_url": "https://geotorget.lantmateriet.se/geodataprodukter/belagenhetsadress-nedladdning-vektor-api",
+      "status": "requires_account_and_legal_review"
+    },
+    {
+      "id": "NVDB-Names",
+      "source_url": "https://www.nvdb.se/sv/kund/hamta-aktuella-data/",
+      "status": "requires-account-for-download"
+    }
+  ]
+}
