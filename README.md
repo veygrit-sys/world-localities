@@ -10,6 +10,7 @@
 | 北欧5か国・関連4地域を検証する | [北欧Localities](registries/nordics/README.md) |
 | 収録データと利用方法を調べる | [データと利用方法](docs/guides/data-and-usage.md) |
 | 改善の順序を確認する | [実行方針](docs/implementation-strategy.md) |
+| 欧州5か国の住所強化を確認する | [公式住所の取込と検証](docs/plans/europe-five-country-implementation.md) |
 | 国別に更新・配布する | [国別管理と分離手順](docs/country-modules.md) |
 | 住所の入力・表記形式を扱う | [住所形式レイヤー](addressing/README.md) |
 | 実行コマンドを探す | [スクリプト一覧](scripts/README.md) |
