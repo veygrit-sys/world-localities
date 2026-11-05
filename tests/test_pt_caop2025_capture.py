@@ -38,6 +38,11 @@ class CAOPCaptureTests(unittest.TestCase):
         self.assertEqual(schema['srs'],3763)
         self.assertEqual(schema['fields']['id'],'dtmnfr')
 
+    def test_small_official_azores_west_partition_is_valid(self):
+        # The published Western Azores component has 12 freguesias.
+        p=self.root/'azores-west.gpkg';self.fixture(p,n=12)
+        self.assertEqual(m._schema(p)['count'],12)
+
     def test_gpkg_numeric_identity_refused(self):
         p=self.root/'a.gpkg'
         db=sqlite3.connect(p)

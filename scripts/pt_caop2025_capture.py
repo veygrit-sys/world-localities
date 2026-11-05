@@ -95,7 +95,7 @@ def _schema(path):
         if len(choices)!=1:raise ValueError('Unexpected CAOP freguesia schema: '+str([(a,b) for a,b in tables]))
         table,srs,lower=choices[0]
         count=db.execute(f'SELECT count(*) FROM "{table}"').fetchone()[0]
-        if count<20 or count>10000:raise ValueError('Unexpected freguesia count: '+str(count))
+        if count<1 or count>10000:raise ValueError('Unexpected freguesia count: '+str(count))
         key=lower['dtmnfr']
         row=db.execute(f'SELECT "{key}" FROM "{table}" LIMIT 1').fetchone()[0]
         if not isinstance(row,str):raise ValueError('DTMNFR must be preserved as a source string')
