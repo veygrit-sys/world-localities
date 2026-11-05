@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-11-05",
+  "purpose": "Nordic countries plus associated territories, with separate geographic/administrative source identities",
+  "country_codes": [
+    "DK",
+    "FI",
+    "IS",
+    "NO",
+    "SE",
+    "AX",
+    "FO",
+    "GL",
+    "SJ"
+  ],
+  "core_nordics": [
+    "DK",
+    "FI",
+    "IS",
+    "NO",
+    "SE"
+  ],
+  "territories": [
+    "AX",
+    "FO",
+    "GL",
+    "SJ"
+  ],
+  "not_un_northern_europe_european_macroregion": true,
+  "explicit_exclusions": "Baltic states and UK/IE are outside Nordic-country scope, although in UN M49 Northern Europe; maintained in their country modules.",
+  "no_source_merging_without_authoritative_ids": true,
+  "countries": {
+    "DK": {
+      "code": "DK",
+      "japanese_name": "デンマーク",
+      "english_name": "Denmark",
+      "source_access": "registration",
+      "languages": [
+        "da"
+      ],
+      "existing_gazetteer": "europe-GeoNames",
+      "official_sources": [
+        {
+          "url": "https://datafordeler.dk/dataoversigt/danmarks-adresseregister-dar/dar-fildownload/",
+          "authority": "Danish Climate Data Agency / DAR",
+          "role": "official_register_or_context"
+        }
+      ],
+      "notes": "2026-10-01 retired DAWA; official DAR file download requires login and API key or OAuth.",
+      "national_address_completeness_verified": false,
+      "deliverability_verified": false,
+      "official_address_snapshot_pinned": false
+    },
+    "FI": {
+      "code": "FI",
+      "japanese_name": "フィンランド",
+      "english_name": "Finland",
+      "source_access": "public",
+      "languages": [
+        "fi",
+        "sv"
+      ],
+      "existing_gazetteer": "europe-GeoNames",
+      "official_sources": [
+        {
+          "url": "https://ryhti.syke.fi/en/front-page/services/",
+          "authority": "Finnish Environment Institute / Ryhti",
+          "role": "official_register_or_context"
+        },
+        {
+          "url": "https://paikkatiedot.ymparisto.fi/geoserver/www/open_address.csv.gz",
+          "authority": "Ryhti / open_address.csv.gz",
+          "role": "source_or_distribution"
+        },
+        {
+          "url": "https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/datasets-and-interfaces/product-descriptions/geographic-names",
+          "authority": "NLS / names",
+          "role": "source_or_distribution"
+        }
+      ],
+      "notes": "Completed-building address datasets are free CC-BY-4.0 and updated daily; not all delivery addresses.",
+      "national_address_completeness_verified": false,
+      "deliverability_verified": false,
+      "official_address_snapshot_pinned": false
+    },
+    "IS": {
+      "code": "IS",
+      "japanese_name": "アイスランド",
+      "english_name": "Iceland",
+      "source_access": "public",
+      "languages": [
+        "is"
+      ],
+      "existing_gazetteer": "europe-GeoNames",
+      "official_sources": [
+        {
+          "url": "https://hms.is/gogn-og-maelabord/grunngogntilnidurhals/stadfangaskra",
+          "authority": "HMS Iceland / Staðfangaskrá",
+          "role": "official_register_or_context"
+        },
+        {
+          "url": "https://hmsstgsftpprodweu001.blob.core.windows.net/fasteignaskra/Stadfangaskra.csv",
+          "authority": "HMS / weekly address CSV",
+          "role": "source_or_distribution"
+        }
+      ],
+      "notes": "Official UTF-8 CSV updated on Sunday evening, source fields include HEINUM, HNITNUM, POSTNR, HEITI_NF, HUSNR.",
+      "national_address_completeness_verified": false,
+      "deliverability_verified": false,
+      "official_address_snapshot_pinned": false
+    },
+    "NO": {
+      "code": "NO",
+      "japanese_name": "ノルウェー",
+      "english_name": "Norway",
+      "source_access": "public",
+      "languages": [
+        "nb",
+        "nn",
+        "se"
+      ],
+      "existing_gazetteer": "europe-GeoNames",
+      "official_sources": [
+        {
+          "url": "https://www.kartverket.no/api-og-data/eiendomsdata/apent-tilgjengelige-data-og-tjenester",
+          "authority": "Kartverket / Matrikkelen-Adresse",
+          "role": "official_register_or_context"
+        },
+        {
+          "url": "https://api.kartverket.no/adresser/v1/",
+          "authority": "Kartverket / address search only",
+          "role": "source_or_distribution"
+        }
+      ],
+      "notes": "Open national address WFS/download; search REST service capped at 10,000 results, not for whole-country scrape.",
+      "national_address_completeness_verified": false,
+      "deliverability_verified": false,
+      "official_address_snapshot_pinned": false
+    },
+    "SE": {
+      "code": "SE",
+      "japanese_name": "スウェーデン",
+      "english_name": "Sweden",
+      "source_access": "legal_review",
+      "languages": [
+        "sv",
+        "se"
+      ],
+      "existing_gazetteer": "europe-GeoNames",
+      "official_sources": [
+        {
+          "url": "https://geotorget.lantmateriet.se/geodataprodukter?filter=belagenhetsadress-nedladdning-vektor",
+          "authority": "Lantmäteriet / Belägenhetsadress",
+          "role": "official_register_or_context"
+        },
+        {
+          "url": "https://www2.lantmateriet.se/sv/geodata/vara-produkter/produktlista/belagenhetsadress-nedladdning-inspire/",
+          "authority": "Lantmäteriet / INSPIRE addresses",
+          "role": "source_or_distribution"
+        }
+      ],
+      "notes": "Official address points free but legal review before authorized access and reuse. Existing SCB 2026 municipalities code baseline in repository.",
+      "national_address_completeness_verified": false,
+      "deliverability_verified": false,
+      "official_address_snapshot_pinned": false
+    },
+    "AX": {
+      "code": "AX",
+      "japanese_name": "オーランド諸島",
+      "english_name": "Åland Islands",
+      "source_access": "mixed",
+      "languages": [
+        "sv"
+      ],
+      "existing_gazetteer": "europe-GeoNames",
+      "official_sources": [
+        {
+          "url": "https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/datasets-and-interfaces/product-descriptions/geographic-names",
+          "authority": "National Land Survey of Finland / Geographic names",
+          "role": "official_register_or_context"
+        },
+        {
+          "url": "https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/expert-users/kartta-ja-paikkatietojen-rajapintapalvelut/paikkatiedon",
+          "authority": "NLS / geo names key",
+          "role": "source_or_distribution"
+        }
+      ],
+      "notes": "Åland postal-country AX separate from mainland FI; 5-digit postal numbers may include AX- prefix. Source name review required.",
+      "national_address_completeness_verified": false,
+      "deliverability_verified": false,
+      "official_address_snapshot_pinned": false
+    },
+    "FO": {
+      "code": "FO",
+      "japanese_name": "フェロー諸島",
+      "english_name": "Faroe Islands",
+      "source_access": "mixed",
+      "languages": [
+        "fo",
+        "da"
+      ],
+      "existing_gazetteer": "europe-GeoNames",
+      "official_sources": [
+        {
+          "url": "https://www.us.fo/kort/adressuskra/",
+          "authority": "Umhvørvisstovan / Adressuskrá",
+          "role": "official_register_or_context"
+        },
+        {
+          "url": "https://www.foroyakort.fo/vevt%C3%A6nastur/",
+          "authority": "Faroe mapping agency / WMS and ArcGIS",
+          "role": "source_or_distribution"
+        }
+      ],
+      "notes": "Official address map services (ArcGIS/WMS) and daily DWG/FGDB, public visibility does not automatically grant redistribution.",
+      "national_address_completeness_verified": false,
+      "deliverability_verified": false,
+      "official_address_snapshot_pinned": false
+    },
+    "GL": {
+      "code": "GL",
+      "japanese_name": "グリーンランド",
+      "english_name": "Greenland",
+      "source_access": "mixed",
+      "languages": [
+        "kl",
+        "da"
+      ],
+      "existing_gazetteer": "greenland-administrative-seeds",
+      "official_sources": [
+        {
+          "url": "https://nunagis.gl/en/web-services/",
+          "authority": "NunaGIS / Greenland Address Register",
+          "role": "official_register_or_context"
+        },
+        {
+          "url": "https://grunddata.nanoq.gl/server/rest/services/GrunddataOffentlig/grunddata_offentlig/MapServer",
+          "authority": "Digitalization / addresses REST",
+          "role": "source_or_distribution"
+        }
+      ],
+      "notes": "Public WFS/ArcGIS services for address IDs, street names, house numbers, postal codes and coordinates; source rights and API capabilities need confirmation. Existing five name seeds only.",
+      "national_address_completeness_verified": false,
+      "deliverability_verified": false,
+      "official_address_snapshot_pinned": false
+    },
+    "SJ": {
+      "code": "SJ",
+      "japanese_name": "スヴァールバル・ヤンマイエン",
+      "english_name": "Svalbard and Jan Mayen",
+      "source_access": "limited",
+      "languages": [
+        "nb",
+        "nn"
+      ],
+      "existing_gazetteer": "europe-GeoNames",
+      "official_sources": [
+        {
+          "url": "https://www.posten.no/en/sending/domestic/svalbard",
+          "authority": "Posten / Svalbard and Jan Mayen",
+          "role": "official_register_or_context"
+        },
+        {
+          "url": "https://www.kartverket.no/api-og-data/eiendomsdata/apent-tilgjengelige-data-og-tjenester",
+          "authority": "Kartverket / cadastral references",
+          "role": "source_or_distribution"
+        }
+      ],
+      "notes": "Transport customs handling differs; Posten lists some Svalbard postal codes. No reliable nationwide SJ street address register identified.",
+      "national_address_completeness_verified": false,
+      "deliverability_verified": false,
+      "official_address_snapshot_pinned": false
+    }
+  },
+  "official_address_snapshots_loaded_by_this_release": 0,
+  "scope_limitation": "Downloaded source availability, official legal validity, postal existence and last-mile deliverability not inferred."
+}

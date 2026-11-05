@@ -34,6 +34,7 @@ python -m localities layout
 |---|---|
 | 東アジア | [east_asia_sources.py](east_asia_sources.py)、[east_asia_query.py](east_asia_query.py)、[east_asia_fast.py](east_asia_fast.py)、[east_asia_projection.py](east_asia_projection.py) |
 | 西欧 | [western_europe_sources.py](western_europe_sources.py) |
+| 北欧9地域 | [nordic_localities.py](nordic_localities.py)（[国別資料](../registries/nordics/README.md)） |
 | オランダ | [netherlands_bag.py](netherlands_bag.py)、[netherlands_reference_review.py](netherlands_reference_review.py)、[netherlands_gap_review.py](netherlands_gap_review.py) |
 | 台湾 | [tw_nlsc_reference.py](tw_nlsc_reference.py) |
 | メキシコ | [mx_address_evidence.py](mx_address_evidence.py) |

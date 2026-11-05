@@ -1,0 +1,60 @@
+name: Nordic locality offline regression
+
+on:
+  push:
+    paths:
+      - 'scripts/nordic_localities.py'
+      - 'registries/nordics/**'
+      - 'registries/europe/countries/**'
+      - 'registries/europe/eurostat-lau/**'
+      - 'registries/north-america/admin-seeds.json'
+      - 'tests/test_nordic_localities.py'
+      - '.github/workflows/nordics-offline.yml'
+  pull_request:
+    paths:
+      - 'scripts/nordic_localities.py'
+      - 'registries/nordics/**'
+      - 'registries/europe/countries/**'
+      - 'registries/europe/eurostat-lau/**'
+      - 'registries/north-america/admin-seeds.json'
+      - 'tests/test_nordic_localities.py'
+      - '.github/workflows/nordics-offline.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Run fixed local contract tests
+        run: python -m unittest discover -s tests -p 'test_nordic_localities.py' -v
+      - name: Verify every previously accepted Nordic geodata source
+        run: python scripts/nordic_localities.py verify --country all
+      - name: Build and validate source-qualified Nordic gazetteer artifact
+        run: |
+          python scripts/nordic_localities.py compile --country all --output "$RUNNER_TEMP/nordic-localities.jsonl.gz"
+          python - "$RUNNER_TEMP/nordic-localities.jsonl.gz" <<'PY'
+          import gzip, json, sys
+          from collections import Counter
+          with gzip.open(sys.argv[1], 'rt', encoding='utf-8') as f:
+              rows = (json.loads(line) for line in f)
+              counts = Counter(r['country'] for r in rows)
+          assert set(counts) == {'DK','FI','IS','NO','SE','AX','FO','GL','SJ'}, counts
+          assert sum(counts.values()) > 80000, counts
+          print('Nordic source observations by code:', dict(sorted(counts.items())))
+          PY
+      - name: Upload compiled baseline as a build artifact (not an official address register)
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: nordic-localities-gazetteer-not-delivery-addresses
+          path: ${{ runner.temp }}/nordic-localities.jsonl.gz
+          retention-days: 30
