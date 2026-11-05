@@ -1,0 +1,41 @@
+name: Audited Azerbaijan official administrative source acquisition
+
+on:
+  push:
+    branches:
+      - feat/western-asia-tr-cy-kw-ae-references-20261105
+    paths:
+      - "scripts/azstat_2024_official_admin.py"
+      - "tests/test_azstat_2024_official_admin.py"
+      - ".github/workflows/azstat-source-audit.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  original-source-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.11"
+      - name: Verify offline parser with original-source examples
+        run: python -m unittest tests.test_azstat_2024_official_admin -v
+      - name: Acquire official Azerbaijan classification into ephemeral runner filesystem
+        run: python scripts/azstat_2024_official_admin.py fetch --output /tmp/azstat-2024-official.html
+      - name: Audit full original source with verified GeoNames country archive
+        run: |
+          python scripts/azstat_2024_official_admin.py audit --source /tmp/azstat-2024-official.html --output /tmp/azstat-2024-audit.json --min-rows 1000 --geonames
+      - name: Upload audit summary only (source bytes withheld for licence review)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: azstat-2024-source-audit
+          path: /tmp/azstat-2024-audit.json
+          if-no-files-found: ignore
+          retention-days: 14

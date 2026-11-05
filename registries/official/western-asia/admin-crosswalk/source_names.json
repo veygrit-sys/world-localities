@@ -1,0 +1,506 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-05",
+  "kind": "source-transcribed names only; not original bulk official data",
+  "national_completeness_verified": false,
+  "postal_assignment_verified": false,
+  "countries": {
+    "SA": {
+      "publisher": "General Authority for Statistics (GASTAT)",
+      "url": "https://www.stats.gov.sa/en/w/methodology-and-quality-report-for-volunteer-work-statistics",
+      "date": "2026",
+      "level": 1,
+      "description": "Statistical survey region IDs; not stable legal administrative codes",
+      "records": [
+        {
+          "ref": "SA:GASTAT-SURVEY-1",
+          "name": "Riyadh",
+          "parent": "",
+          "aliases": [
+            "Ar Riyad"
+          ]
+        },
+        {
+          "ref": "SA:GASTAT-SURVEY-2",
+          "name": "Makkah",
+          "parent": "",
+          "aliases": [
+            "Mecca"
+          ]
+        },
+        {
+          "ref": "SA:GASTAT-SURVEY-3",
+          "name": "Madinah",
+          "parent": "",
+          "aliases": [
+            "Medina"
+          ]
+        },
+        {
+          "ref": "SA:GASTAT-SURVEY-4",
+          "name": "Qassim",
+          "parent": "",
+          "aliases": [
+            "Al Qassim"
+          ]
+        },
+        {
+          "ref": "SA:GASTAT-SURVEY-5",
+          "name": "Eastern Region",
+          "parent": "",
+          "aliases": [
+            "Eastern Province"
+          ]
+        },
+        {
+          "ref": "SA:GASTAT-SURVEY-6",
+          "name": "Aseer",
+          "parent": "",
+          "aliases": [
+            "Asir"
+          ]
+        },
+        {
+          "ref": "SA:GASTAT-SURVEY-7",
+          "name": "Tabuk",
+          "parent": "",
+          "aliases": [
+            "Tabuk Region"
+          ]
+        },
+        {
+          "ref": "SA:GASTAT-SURVEY-8",
+          "name": "Hail",
+          "parent": "",
+          "aliases": [
+            "Ha'il"
+          ]
+        },
+        {
+          "ref": "SA:GASTAT-SURVEY-9",
+          "name": "Northern Borders",
+          "parent": "",
+          "aliases": [
+            "Northern Borders Region"
+          ]
+        },
+        {
+          "ref": "SA:GASTAT-SURVEY-10",
+          "name": "Jazan",
+          "parent": "",
+          "aliases": [
+            "Jizan"
+          ]
+        },
+        {
+          "ref": "SA:GASTAT-SURVEY-11",
+          "name": "Najran",
+          "parent": "",
+          "aliases": [
+            "Najran Region"
+          ]
+        },
+        {
+          "ref": "SA:GASTAT-SURVEY-12",
+          "name": "Al-Baha",
+          "parent": "",
+          "aliases": [
+            "Al Bahah"
+          ]
+        },
+        {
+          "ref": "SA:GASTAT-SURVEY-13",
+          "name": "Al-Jouf",
+          "parent": "",
+          "aliases": [
+            "Al Jawf"
+          ]
+        }
+      ],
+      "postal_source": {
+        "scheme": "SPL5",
+        "url": "https://portal.splonline.com.sa/en/national-address-1/",
+        "records_imported": 0
+      }
+    },
+    "BH": {
+      "publisher": "Bahrain Information & eGovernment Authority (iGA)",
+      "url": "https://data.gov.bh/explore/dataset/02-area-by-governorate-2023/",
+      "date": "2024",
+      "level": 1,
+      "description": "Current governorates: 2014 onward four rather than five",
+      "records": [
+        {
+          "ref": "BH:GOV-capital",
+          "name": "Capital",
+          "parent": "",
+          "aliases": [
+            "Capital Governorate"
+          ]
+        },
+        {
+          "ref": "BH:GOV-muharraq",
+          "name": "Muharraq",
+          "parent": "",
+          "aliases": [
+            "Muharraq Governorate"
+          ]
+        },
+        {
+          "ref": "BH:GOV-northern",
+          "name": "Northern",
+          "parent": "",
+          "aliases": [
+            "Northern Governorate"
+          ]
+        },
+        {
+          "ref": "BH:GOV-southern",
+          "name": "Southern",
+          "parent": "",
+          "aliases": [
+            "Southern Governorate"
+          ]
+        }
+      ],
+      "postal_source": {
+        "scheme": "BH3_4",
+        "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/bhrEn.pdf",
+        "records_imported": 0
+      }
+    },
+    "QA": {
+      "publisher": "Qatar National Planning Council",
+      "url": "https://www.npc.qa/en/statistics/Statistical%20Releases/Environmental/Environmental%20Statistics/Environment_Statistics_bulletin_2022_En.pdf",
+      "date": "Census 2020, published 2024",
+      "level": 1,
+      "description": "Eight municipality labels, no published official entity IDs in excerpt",
+      "records": [
+        {
+          "ref": "QA:NPC-doha",
+          "name": "Doha",
+          "parent": "",
+          "aliases": [
+            "Doha Municipality"
+          ]
+        },
+        {
+          "ref": "QA:NPC-al-rayyan",
+          "name": "Al Rayyan",
+          "parent": "",
+          "aliases": [
+            "Al Rayyan Municipality"
+          ]
+        },
+        {
+          "ref": "QA:NPC-al-wakrah",
+          "name": "Al Wakrah",
+          "parent": "",
+          "aliases": [
+            "Al Wakrah Municipality"
+          ]
+        },
+        {
+          "ref": "QA:NPC-umm-salal",
+          "name": "Umm Salal",
+          "parent": "",
+          "aliases": [
+            "Umm Salal Municipality"
+          ]
+        },
+        {
+          "ref": "QA:NPC-al-khor",
+          "name": "Al Khor",
+          "parent": "",
+          "aliases": [
+            "Al Khor Municipality"
+          ]
+        },
+        {
+          "ref": "QA:NPC-al-shamal",
+          "name": "Al Shamal",
+          "parent": "",
+          "aliases": [
+            "Al Shamal Municipality"
+          ]
+        },
+        {
+          "ref": "QA:NPC-al-dhaayen",
+          "name": "Al Dhaayen",
+          "parent": "",
+          "aliases": [
+            "Al Dhaayen Municipality"
+          ]
+        },
+        {
+          "ref": "QA:NPC-al-shihaniya",
+          "name": "Al Shihaniya",
+          "parent": "",
+          "aliases": [
+            "Al Shihaniya Municipality"
+          ]
+        }
+      ],
+      "postal_source": {
+        "scheme": "ANWANI_ZSB_NOT_POSTCODE",
+        "url": "https://www.qatarpost.qa/Home/PostalStandards",
+        "records_imported": 0
+      }
+    },
+    "OM": {
+      "publisher": "Oman Ministry of Technology and Communications/NCSI",
+      "url": "https://oman.om/docs/default-source/default-document-library/results-on-ict-access-and-use-by-households-and-individuals-poll-2020.pdf?sfvrsn=11b8be22_10",
+      "date": "2020",
+      "level": 1,
+      "description": "Eleven governorates; 2025 Ministry of Interior wilayat Excel not yet acquired",
+      "records": [
+        {
+          "ref": "OM:GOV-muscat",
+          "name": "Muscat",
+          "parent": "",
+          "aliases": []
+        },
+        {
+          "ref": "OM:GOV-dhofar",
+          "name": "Dhofar",
+          "parent": "",
+          "aliases": []
+        },
+        {
+          "ref": "OM:GOV-musandam",
+          "name": "Musandam",
+          "parent": "",
+          "aliases": []
+        },
+        {
+          "ref": "OM:GOV-al-buraimi",
+          "name": "Al Buraimi",
+          "parent": "",
+          "aliases": []
+        },
+        {
+          "ref": "OM:GOV-ad-dakhliyah",
+          "name": "Ad Dakhliyah",
+          "parent": "",
+          "aliases": []
+        },
+        {
+          "ref": "OM:GOV-al-batinah-north",
+          "name": "Al Batinah North",
+          "parent": "",
+          "aliases": []
+        },
+        {
+          "ref": "OM:GOV-al-batinah-south",
+          "name": "Al Batinah South",
+          "parent": "",
+          "aliases": []
+        },
+        {
+          "ref": "OM:GOV-ash-sharqiyah-north",
+          "name": "Ash Sharqiyah North",
+          "parent": "",
+          "aliases": []
+        },
+        {
+          "ref": "OM:GOV-ash-sharqiyah-south",
+          "name": "Ash Sharqiyah South",
+          "parent": "",
+          "aliases": []
+        },
+        {
+          "ref": "OM:GOV-ad-dhahirah",
+          "name": "Ad Dhahirah",
+          "parent": "",
+          "aliases": []
+        },
+        {
+          "ref": "OM:GOV-al-wusta",
+          "name": "Al Wusta",
+          "parent": "",
+          "aliases": []
+        }
+      ],
+      "postal_source": {
+        "scheme": "OM_POST_OFFICE3",
+        "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/omnEn.pdf",
+        "records_imported": 0
+      }
+    },
+    "PS": {
+      "publisher": "Palestinian Central Bureau of Statistics (PCBS)",
+      "url": "https://microdata.pcbs.gov.ps/PCBS-Metadata-en-v5.2/index.php/catalog/661/variable/F1/V2?name=Gov",
+      "date": "2017 establishment census",
+      "level": 2,
+      "description": "Sixteen survey governorates; GeoNames ADM1 instead encodes West Bank/Gaza",
+      "records": [
+        {
+          "ref": "PS:PCBS-SURVEY-1",
+          "name": "Jenin",
+          "parent": "West Bank",
+          "aliases": [
+            "Jenin Governorate"
+          ],
+          "governorate_code": "01"
+        },
+        {
+          "ref": "PS:PCBS-SURVEY-5",
+          "name": "Tubas & Northern Valleys",
+          "parent": "West Bank",
+          "aliases": [
+            "Tubas"
+          ],
+          "governorate_code": "05"
+        },
+        {
+          "ref": "PS:PCBS-SURVEY-10",
+          "name": "Tulkarm",
+          "parent": "West Bank",
+          "aliases": [
+            "Tulkarm Governorate"
+          ],
+          "governorate_code": "10"
+        },
+        {
+          "ref": "PS:PCBS-SURVEY-15",
+          "name": "Nablus",
+          "parent": "West Bank",
+          "aliases": [
+            "Nablus Governorate"
+          ],
+          "governorate_code": "15"
+        },
+        {
+          "ref": "PS:PCBS-SURVEY-20",
+          "name": "Qalqilya",
+          "parent": "West Bank",
+          "aliases": [
+            "Qalqiliya"
+          ],
+          "governorate_code": "20"
+        },
+        {
+          "ref": "PS:PCBS-SURVEY-25",
+          "name": "Salfit",
+          "parent": "West Bank",
+          "aliases": [
+            "Salfit Governorate"
+          ],
+          "governorate_code": "25"
+        },
+        {
+          "ref": "PS:PCBS-SURVEY-30",
+          "name": "Ramallah and Al Bireh",
+          "parent": "West Bank",
+          "aliases": [
+            "Ramallah & Al-Bireh"
+          ],
+          "governorate_code": "30"
+        },
+        {
+          "ref": "PS:PCBS-SURVEY-35",
+          "name": "Jericho and Al Aghwar",
+          "parent": "West Bank",
+          "aliases": [
+            "Jericho"
+          ],
+          "governorate_code": "35"
+        },
+        {
+          "ref": "PS:PCBS-SURVEY-40",
+          "name": "Jerusalem",
+          "parent": "West Bank",
+          "aliases": [
+            "Jerusalem Governorate"
+          ],
+          "governorate_code": "40"
+        },
+        {
+          "ref": "PS:PCBS-SURVEY-45",
+          "name": "Bethlehem",
+          "parent": "West Bank",
+          "aliases": [
+            "Bethlehem Governorate"
+          ],
+          "governorate_code": "45"
+        },
+        {
+          "ref": "PS:PCBS-SURVEY-50",
+          "name": "Hebron",
+          "parent": "West Bank",
+          "aliases": [
+            "Hebron Governorate"
+          ],
+          "governorate_code": "50"
+        },
+        {
+          "ref": "PS:PCBS-SURVEY-55",
+          "name": "North Gaza",
+          "parent": "Gaza Strip",
+          "aliases": [
+            "North Gaza Governorate"
+          ],
+          "governorate_code": "55"
+        },
+        {
+          "ref": "PS:PCBS-SURVEY-60",
+          "name": "Gaza",
+          "parent": "Gaza Strip",
+          "aliases": [
+            "Gaza Governorate"
+          ],
+          "governorate_code": "60"
+        },
+        {
+          "ref": "PS:PCBS-SURVEY-65",
+          "name": "Deir Al-Balah",
+          "parent": "Gaza Strip",
+          "aliases": [
+            "Deir al-Balah"
+          ],
+          "governorate_code": "65"
+        },
+        {
+          "ref": "PS:PCBS-SURVEY-70",
+          "name": "Khan Yunis",
+          "parent": "Gaza Strip",
+          "aliases": [
+            "Khan Younis"
+          ],
+          "governorate_code": "70"
+        },
+        {
+          "ref": "PS:PCBS-SURVEY-75",
+          "name": "Rafah",
+          "parent": "Gaza Strip",
+          "aliases": [
+            "Rafah Governorate"
+          ],
+          "governorate_code": "75"
+        }
+      ],
+      "postal_source": {
+        "scheme": "P3_AREA_AND_P7_POINT",
+        "url": "https://opendata.ps/dataset/postcodes",
+        "records_imported": 0
+      },
+      "governorate_code_source": {
+        "authority": "Palestinian Central Bureau of Statistics",
+        "title": "Palestinian Localities Guide 1997, published December 1999",
+        "url": "https://www.pcbs.gov.ps/Downloads/book508.pdf",
+        "publication_year": 1999,
+        "source_page_printed": 10,
+        "scheme": "two_digit_governorate_code_prefix_in_six_digit_locality_code",
+        "label": "Official 1999 PCBS statistical locality code scheme, not a postal code",
+        "current_existence_or_unchanged_administration_verified": false
+      },
+      "locality_code_reconfirmation_source": {
+        "authority": "Palestinian Central Bureau of Statistics",
+        "title": "Projected Mid-Year Population for Gaza Governorate by Locality 2017-2026",
+        "publication_date": "2021-05-30",
+        "url": "https://microdata.pcbs.gov.ps/statisticsIndicatorsTables.aspx?lang=en&table_id=708",
+        "note": "Gaza locality code 602825 appears in the public 2021 table, supporting the scheme's continued use for this example. It is not a P-prefixed postal code."
+      }
+    }
+  }
+}
