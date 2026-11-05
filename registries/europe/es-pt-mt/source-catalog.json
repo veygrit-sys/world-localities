@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "countries": ["ES", "PT", "MT"],
+  "source_status": "discovery_only_for_new_official_files",
+  "national_address_completeness_verified": false,
+  "deliverability_verified": false,
+  "postal_existence_verified": false,
+  "data_sources": {
+    "ES": [
+      {
+        "id": "ES-CNIG-CartoCiudad-province-geopackages",
+        "authority": "CNIG / Instituto Geográfico Nacional",
+        "url": "https://centrodedescargas.cnig.es/CentroDescargas/cartociudad",
+        "scope": "Province-specific addresses / portals and kilometre posts including related province/municipality/postcode; source provenance varies",
+        "format": "GeoPackage (province files)",
+        "download_confirmed": false,
+        "rights_review": "Confirm applicable CNIG reuse conditions and required attribution for exact downloaded file",
+        "target_layers": ["addresses", "postcode_relations", "municipality", "population_entity"],
+        "processing": "Pin each province separately, verify actual table and source columns, preserve leading zeros"
+      },
+      {
+        "id": "ES-INE-Nomenclator-2025",
+        "authority": "INE",
+        "url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177010&idp=1254735572981",
+        "scope": "2025 statistical population entities and settlement codes; not address locations",
+        "format": "Downloadable national ZIP / provincial XLSX",
+        "download_confirmed": false,
+        "rights_review": "Review INE attribution and source conditions"
+      }
+    ],
+    "PT": [
+      {
+        "id": "PT-DGT-CAOP2025",
+        "authority": "Direção-Geral do Território",
+        "url": "https://www.dgterritorio.gov.pt/atividades/cartografia/cartografia-tematica/caop",
+        "scope": "Official administrative boundaries for mainland, Azores and Madeira (separate geographic packages)",
+        "format": "GeoPackage",
+        "published": "2026-02-18",
+        "download_confirmed": false,
+        "rights_review": "DGT source reuse conditions and attribution on downloaded snapshot",
+        "target_layers": ["freguesias", "municipios", "districts", "islands"],
+        "processing": "Map DTMNFR administrative IDs without treating geometry centroid as address point"
+      },
+      {
+        "id": "PT-INE-Base-Nacional-de-Moradas",
+        "authority": "Instituto Nacional de Estatística",
+        "url": "https://dados.gov.pt/en/datasets/base-nacional-de-moradas",
+        "scope": "Mainland Portugal address data by municipality; must not be assumed to include Azores/Madeira",
+        "format": "INSPIRE address spatial data; confirm exact download layer before mapping",
+        "catalog_license": "CC-BY-4.0",
+        "download_confirmed": false,
+        "rights_review": "Confirm exact release and conditions and record attribution"
+      }
+    ],
+    "MT": [
+      {
+        "id": "MT-Address-Registrar-Streets",
+        "authority": "Office of the Address Registrar",
+        "url": "https://portal.data.gov.mt/en_GB/dataset/streets-dataset",
+        "scope": "Streets listed as official within the registered localities",
+        "format": "API catalog entry; dataset record availability and reproducible export unverified",
+        "download_confirmed": false,
+        "rights_review": "Metadata portal disclaimer: records not authoritative unless confirmed"
+      },
+      {
+        "id": "MT-Address-Registrar-Localities",
+        "authority": "Office of the Address Registrar",
+        "url": "https://portal.data.gov.mt/en_GB/dataset/localities-dataset",
+        "scope": "Official locality, community and sublocality metadata",
+        "format": "API catalog entry; export schema not yet verified",
+        "download_confirmed": false,
+        "rights_review": "Confirm whether actual API responses are official and reuse-authorized"
+      },
+      {
+        "id": "MT-Postal-Code-Guide",
+        "authority": "MaltaPost",
+        "url": "https://www.maltapost.com/news-details?id=3741",
+        "scope": "Postal code syntax only: three letters and four digits",
+        "format": "Documentation, no downloadable master postcode registry",
+        "download_confirmed": false,
+        "rights_review": "Do not scrape the public postcode lookup or assume address validation"
+      }
+    ]
+  },
+  "existing_sources": [
+    "registries/europe/countries/ES", "registries/europe/countries/PT", "registries/europe/countries/MT",
+    "registries/europe/eurostat-lau/ES", "registries/europe/eurostat-lau/PT", "registries/europe/eurostat-lau/MT"
+  ],
+  "quality_policy": {
+    "separate_source_namespaces": true,
+    "source_hash_and_size_required": true,
+    "official_source_export_requires_explicit_rights_review": true,
+    "no_name_or_coordinate_only_source_merge": true,
+    "no_zero_postcode_synthesis": true,
+    "no_polygon_centroid_as_delivery_address": true,
+    "no_deliverability_claim_from_registered_address": true
+  }
+}
