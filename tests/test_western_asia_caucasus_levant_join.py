@@ -59,6 +59,8 @@ class EvidenceInventory(unittest.TestCase):
         self.assertGreaterEqual(self.reports["AM"]["admin_unique_candidates_unreviewed"],8)
         self.assertEqual(self.reports["JO"]["geonames_adm1_rows"],12)
         self.assertEqual(self.reports["GE"]["geonames_adm1_rows"],12)
+        self.assertEqual(self.reports["GE"]["admin_unique_candidates_unreviewed"],12)
+        self.assertEqual(self.reports["GE"]["admin_names_unmatched"],0)
 
     def test_israel_six_cbs_districts_not_auto_merge_geonames_special_seventh(self):
         result=self.reports["IL"]
