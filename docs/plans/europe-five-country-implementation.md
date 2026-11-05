@@ -19,7 +19,7 @@
 
 ```bash
 python3 scripts/europe_priority_ingest.py inventory
-python3 -m unittest tests.test_europe_priority_ingest -v
+python3 -m unittest discover -s tests -p 'test_europe_priority_ingest.py' -v
 
 # 取得済みの公式RÚIANアーカイブ（取得版・基準日を別途記録）
 python3 scripts/europe_priority_ingest.py normalize --country CZ \
