@@ -98,3 +98,10 @@ assignment, building identity, or carrier deliverability**.
 3. Run held-out address quality tests for syntax, code/locality association, ambiguity,
    native/English names, precision and carrier-specific acceptance. Record nationwide
    completeness separately for each country and version.
+
+## Caucasus and Levant extension (AM / GE / AZ / IL / JO)
+
+See [caucasus-levant/README.md](caucasus-levant/README.md) for official regional names,
+post-office/UPU published postcode examples, language-safe GeoNames candidates,
+and the SHA-256-backed reconciliation audit. No original nationwide official
+postal table has been acquired or assigned as a GN foreign key.
