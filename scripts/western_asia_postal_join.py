@@ -105,27 +105,34 @@ def source_code_collisions(data: dict) -> dict[tuple[str, str, str], set[str]]:
     return {key: values for key, values in groups.items() if len(values) > 1}
 
 
-def _matches(geo_rows: list[dict], name: str, language: str,
-             allowed_adm1: set[str] | None) -> list[str]:
-    token = normalized_name(name, language)
-    if not token:
-        return []
-    matches = set()
+def _build_name_index(geo_rows: list[dict], languages: set[str]) -> dict:
+    """Build each locale's index once, avoiding per-postcode whole-country scans."""
+    idx = {language: defaultdict(dict) for language in languages}
     for row in geo_rows:
         if row["kind"] != "locality" or row["address_candidate"] != "1":
-            continue
-        if allowed_adm1 is not None and row["state_id"] not in allowed_adm1:
             continue
         strings = [row["name"], row["asciiname"]]
         if row["alternatenames"]:
             strings.extend(row["alternatenames"].split(","))
-        for value in strings:
-            if language == "ar" and not ARABIC_RE.search(value):
-                continue
-            if normalized_name(value, language) == token:
-                matches.add(row["id"])
-                break
-    return sorted(matches)
+        for language, table in idx.items():
+            for value in strings:
+                if language == "ar" and not ARABIC_RE.search(value):
+                    continue
+                key = normalized_name(value, language)
+                if key:
+                    table[key][row["id"]] = row["state_id"]
+    return idx
+
+
+def _matches(index: dict, name: str, language: str,
+             allowed_adm1: set[str] | None) -> list[str]:
+    token = normalized_name(name, language)
+    if not token:
+        return []
+    candidates = index[language].get(token, {})
+    if allowed_adm1 is None:
+        return sorted(candidates)
+    return sorted(gid for gid, parent in candidates.items() if parent in allowed_adm1)
 
 
 def report_country(country: str, *, data: dict | None = None,
@@ -150,6 +157,7 @@ def report_country(country: str, *, data: dict | None = None,
     official_admin = admin.propose(country, geonames, admin_ref)
     by_ref = {r["official_ref"]: r for r in official_admin}
     collisions = source_code_collisions(data)
+    indexed = _build_name_index(geonames, {row["place_language"] for row in rows})
     outputs = []
     for row in rows:
         gov = by_ref.get(row["admin_ref"]) if row["admin_ref"] else None
@@ -173,7 +181,7 @@ def report_country(country: str, *, data: dict | None = None,
         else:
             allowed = None
             admin_status = "no_authority_admin_id_in_source_excerpt"
-        matches = _matches(geonames, row["place_name"], row["place_language"], allowed)
+        matches = _matches(indexed, row["place_name"], row["place_language"], allowed)
         candidate_status = ("unmatched" if not matches else
                             "unique_unreviewed" if len(matches) == 1 else "ambiguous_unreviewed")
         key = (country, row["scheme"], row["code"])

@@ -15,6 +15,13 @@ class PostalOfficialEvidence(unittest.TestCase):
         cls.data = p.load_excerpt()
         cls.report = p.summary(cls.data)
         cls.by_country = {x["country"]: x for x in cls.report["country_reports"]}
+        print("WESTERN_ASIA_POSTAL_CANDIDATE_COUNTS "+json.dumps({
+            cc:{key: value for key, value in cls.by_country[cc].items() if key in
+                ("source_records","distinct_code_values",
+                 "postcode_code_to_multiple_source_places",
+                 "candidate_unique_unreviewed","candidate_ambiguous_unreviewed",
+                 "candidate_unmatched","reviewed_postcode_to_geonames_links")}
+            for cc in p.SCOPE},sort_keys=True))
 
     def test_85_real_published_office_area_or_example_code_rows(self):
         self.assertEqual(len(self.data["records"]), 85)
