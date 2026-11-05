@@ -1,0 +1,47 @@
+name: Europe eleven-country integrity and locality indexing
+
+on:
+  push:
+    paths:
+      - scripts/balkan_11_localities.py
+      - registries/europe/balkan-11/**
+      - .github/workflows/balkan-11-localities.yml
+  pull_request:
+    paths:
+      - scripts/balkan_11_localities.py
+      - registries/europe/balkan-11/**
+      - .github/workflows/balkan-11-localities.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit-build-search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Compile and validate source inventory
+        run: |
+          python -m py_compile scripts/balkan_11_localities.py
+          python scripts/balkan_11_localities.py inventory > /dev/null
+      - name: Full real-source audit and index
+        run: |
+          mkdir -p evidence
+          python scripts/balkan_11_localities.py audit --country all > evidence/11-country-audit.json
+          python scripts/balkan_11_localities.py build --country all --output "${RUNNER_TEMP}/europe-11-localities.sqlite" > evidence/index-build.json
+          python scripts/balkan_11_localities.py verify --db "${RUNNER_TEMP}/europe-11-localities.sqlite" > evidence/index-verify.json
+          python scripts/balkan_11_localities.py query --country BA --text Sarajevo --db "${RUNNER_TEMP}/europe-11-localities.sqlite" > evidence/bosnia-query.json
+          python scripts/balkan_11_localities.py query --country XK --text Prisht --db "${RUNNER_TEMP}/europe-11-localities.sqlite" > evidence/kosovo-query.json
+          printf '%s\n' 'Source-qualified GeoNames and existing SIRUTA audit, NOT nationwide address or delivery certification' > evidence/README.txt
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: balkan-11-audit-and-index-report
+          path: evidence/
+          retention-days: 30
