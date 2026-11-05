@@ -1,0 +1,1049 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-05",
+  "purpose": "Small audited source-referenced official admin names & published postal code-to-place/office examples, not complete national official data.",
+  "country_scope": [
+    "AM",
+    "GE",
+    "AZ",
+    "IL",
+    "JO"
+  ],
+  "source_data_grain": "source_name_excerpt_and_official_postal_example_or_branch",
+  "official_original_source_datasets_imported": 0,
+  "official_postcode_to_geonames_links_verified": 0,
+  "country_administrations": {
+    "AM": {
+      "authority": "Government of Armenia",
+      "url": "https://gov.am/en/regions",
+      "level": 1,
+      "source_context": "Ten marzes plus capital Yerevan, legal administrative structure; names cited for candidate search",
+      "source_date": "current_page",
+      "records": [
+        {
+          "source_key": "AM:ADMIN-NAME-01",
+          "name": "Yerevan",
+          "aliases": [
+            "Yerevan City"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "AM:ADMIN-NAME-02",
+          "name": "Aragatsotn",
+          "aliases": [],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "AM:ADMIN-NAME-03",
+          "name": "Ararat",
+          "aliases": [],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "AM:ADMIN-NAME-04",
+          "name": "Armavir",
+          "aliases": [],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "AM:ADMIN-NAME-05",
+          "name": "Gegharkunik",
+          "aliases": [],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "AM:ADMIN-NAME-06",
+          "name": "Lori",
+          "aliases": [],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "AM:ADMIN-NAME-07",
+          "name": "Kotayk",
+          "aliases": [],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "AM:ADMIN-NAME-08",
+          "name": "Shirak",
+          "aliases": [],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "AM:ADMIN-NAME-09",
+          "name": "Syunik",
+          "aliases": [],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "AM:ADMIN-NAME-10",
+          "name": "Vayots Dzor",
+          "aliases": [],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "AM:ADMIN-NAME-11",
+          "name": "Tavush",
+          "aliases": [],
+          "legally_equivalent_to_geonames_verified": false
+        }
+      ]
+    },
+    "GE": {
+      "authority": "National Statistics Office of Georgia (Geostat)",
+      "url": "https://www.geostat.ge/en/modules/categories/68/by-regions",
+      "level": 1,
+      "source_context": "Business statistics regional labels, including autonomous republics and Tbilisi City; territorial status and crosswalk remain unreviewed",
+      "source_date": "2026-07-01",
+      "records": [
+        {
+          "source_key": "GE:ADMIN-NAME-01",
+          "name": "Tbilisi City",
+          "aliases": [
+            "Tbilisi"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "GE:ADMIN-NAME-02",
+          "name": "Apkhazeti A.R.",
+          "aliases": [
+            "Abkhazia"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "GE:ADMIN-NAME-03",
+          "name": "Ajara A.R.",
+          "aliases": [
+            "Adjara"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "GE:ADMIN-NAME-04",
+          "name": "Guria",
+          "aliases": [],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "GE:ADMIN-NAME-05",
+          "name": "Imereti",
+          "aliases": [],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "GE:ADMIN-NAME-06",
+          "name": "Kakheti",
+          "aliases": [],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "GE:ADMIN-NAME-07",
+          "name": "Mtskheta-Mtianeti",
+          "aliases": [],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "GE:ADMIN-NAME-08",
+          "name": "Racha-Lechkhumi & Kvemo Svaneti",
+          "aliases": [
+            "Racha-Lechkhumi and Kvemo Svaneti"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "GE:ADMIN-NAME-09",
+          "name": "Samegrelo-Zemo Svaneti",
+          "aliases": [],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "GE:ADMIN-NAME-10",
+          "name": "Samtskhe-Javaxeti",
+          "aliases": [],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "GE:ADMIN-NAME-11",
+          "name": "Kvemo Kartli",
+          "aliases": [],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "GE:ADMIN-NAME-12",
+          "name": "Shida Kartli",
+          "aliases": [],
+          "legally_equivalent_to_geonames_verified": false
+        }
+      ]
+    },
+    "AZ": {
+      "authority": "Nakhchivan Post and Telecommunications Center and Azərpoçt/UPU",
+      "url": "https://nptm.gov.az/en",
+      "level": 1,
+      "source_context": "Selected official postal-operator geographic labels, NOT complete 71-district administrative list",
+      "source_date": "2026-11-05",
+      "records": [
+        {
+          "source_key": "AZ:ADMIN-NAME-01",
+          "name": "Nakhchivan Autonomous Republic",
+          "aliases": [
+            "Nakhchivan"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "AZ:ADMIN-NAME-02",
+          "name": "Baku City",
+          "aliases": [
+            "Baku"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        }
+      ]
+    },
+    "IL": {
+      "authority": "Central Bureau of Statistics, Israel",
+      "url": "https://www.cbs.gov.il/en/Statistical/stat171e.pdf",
+      "level": 1,
+      "source_context": "Six published statistics districts; separately recorded GeoNames Judea and Samaria Area is NOT silently promoted to a seventh CBS district",
+      "source_date": "2018",
+      "records": [
+        {
+          "source_key": "IL:ADMIN-NAME-01",
+          "name": "Jerusalem",
+          "aliases": [
+            "Jerusalem District"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "IL:ADMIN-NAME-02",
+          "name": "Northern District",
+          "aliases": [
+            "Northern"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "IL:ADMIN-NAME-03",
+          "name": "Haifa",
+          "aliases": [
+            "Haifa District"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "IL:ADMIN-NAME-04",
+          "name": "Central District",
+          "aliases": [
+            "Central"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "IL:ADMIN-NAME-05",
+          "name": "Tel Aviv District",
+          "aliases": [
+            "Tel Aviv"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "IL:ADMIN-NAME-06",
+          "name": "Southern District",
+          "aliases": [
+            "Southern"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        }
+      ]
+    },
+    "JO": {
+      "authority": "Jordan Ministry of Interior",
+      "url": "https://moi.gov.jo/En/List/Governorates_and_Sectors",
+      "level": 1,
+      "source_context": "Twelve governorates, English department site (not a postal-code source)",
+      "source_date": "2025-11",
+      "records": [
+        {
+          "source_key": "JO:ADMIN-NAME-01",
+          "name": "The Capital Governorate",
+          "aliases": [
+            "Amman Governorate",
+            "Amman"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "JO:ADMIN-NAME-02",
+          "name": "Irbid Governorate",
+          "aliases": [
+            "Irbid"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "JO:ADMIN-NAME-03",
+          "name": "Balqa Governorate",
+          "aliases": [
+            "Balqa"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "JO:ADMIN-NAME-04",
+          "name": "Karak Governorate",
+          "aliases": [
+            "Al Karak"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "JO:ADMIN-NAME-05",
+          "name": "Maan Governorate",
+          "aliases": [
+            "Ma'an",
+            "Ma‘ān"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "JO:ADMIN-NAME-06",
+          "name": "Zarqa Governorate",
+          "aliases": [
+            "Zarqa"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "JO:ADMIN-NAME-07",
+          "name": "Mafraq Governorate",
+          "aliases": [
+            "Al Mafraq"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "JO:ADMIN-NAME-08",
+          "name": "Tafelah Governorate",
+          "aliases": [
+            "Tafilah",
+            "At Tafilah"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "JO:ADMIN-NAME-09",
+          "name": "Madaba Governorate",
+          "aliases": [
+            "Madaba"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "JO:ADMIN-NAME-10",
+          "name": "Jerash Governorate",
+          "aliases": [
+            "Jerash"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "JO:ADMIN-NAME-11",
+          "name": "Ajloun Governorate",
+          "aliases": [
+            "Ajloun"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        },
+        {
+          "source_key": "JO:ADMIN-NAME-12",
+          "name": "Aqaba Governorate",
+          "aliases": [
+            "Aqaba"
+          ],
+          "legally_equivalent_to_geonames_verified": false
+        }
+      ]
+    }
+  },
+  "postal_sources": {
+    "AM-HAYPOST-EN-DIR": {
+      "country": "AM",
+      "authority": "HayPost",
+      "url": "https://www.haypost.am/image/Editor/d/3/d3cded6c5e6205e50a54b3c9d7018e78.pdf",
+      "role": "named post office/branch postcode with Yerevan in English PDF table",
+      "published": "circa_2023",
+      "republication": "not_reviewed",
+      "original_sha256": null
+    },
+    "AM-UPU-2021": {
+      "country": "AM",
+      "authority": "UPU / HayPost",
+      "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/armEn.pdf",
+      "role": "published home/rural/PO box address example",
+      "published": "2021-12",
+      "republication": "reference_only",
+      "original_sha256": null
+    },
+    "GE-GPOST-ADDRESS": {
+      "country": "GE",
+      "authority": "Georgian Post",
+      "url": "https://www.gpost.ge/application/data-policy?lang=en",
+      "role": "Georgian Post organization address, postcode 0100",
+      "published": "2026-08",
+      "republication": "reference_only",
+      "original_sha256": null
+    },
+    "GE-UPU-2018": {
+      "country": "GE",
+      "authority": "UPU / Georgian Post",
+      "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/geoEn.pdf",
+      "role": "2018 example Tbilisi postcode 0160",
+      "published": "2018-01",
+      "republication": "reference_only",
+      "original_sha256": null
+    },
+    "GE-GEOSTAT-ADDRESS": {
+      "country": "GE",
+      "authority": "Geostat",
+      "url": "https://www.geostat.ge/en/modules/categories/68/by-regions",
+      "role": "organization address Tbilisi 0180 on government statistics website",
+      "published": "2026-07",
+      "republication": "reference_only",
+      "original_sha256": null
+    },
+    "AZ-NPTM": {
+      "country": "AZ",
+      "authority": "Nakhchivan Post and Telecommunications Center",
+      "url": "https://nptm.gov.az/en",
+      "role": "official posted post-office location and index, not locality-wide delivery boundary",
+      "published": "2026-11-webpage",
+      "republication": "not_reviewed",
+      "original_sha256": null
+    },
+    "AZ-UPU-2019": {
+      "country": "AZ",
+      "authority": "UPU / Azerpost",
+      "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/azeEn.pdf",
+      "role": "home rural and organization postal address examples",
+      "published": "2019-07",
+      "republication": "reference_only",
+      "original_sha256": null
+    },
+    "IL-UPU-2022": {
+      "country": "IL",
+      "authority": "UPU / Israel Post",
+      "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/isrEn.pdf",
+      "role": "Jerusalem home and Modiin company contact address examples",
+      "published": "2022-10",
+      "republication": "reference_only",
+      "original_sha256": null
+    },
+    "IL-ISRAELPOST": {
+      "country": "IL",
+      "authority": "Israel Post",
+      "url": "https://israelpost.co.il/pages/stamp4/",
+      "role": "Israel Post own mailing address Modiin postcode 7178437",
+      "published": "page_current_2026",
+      "republication": "reference_only",
+      "original_sha256": null
+    },
+    "JO-UPU-2004": {
+      "country": "JO",
+      "authority": "UPU / Jordan Post",
+      "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/jorEn.pdf",
+      "role": "outdated 2004 home/PO box address format examples only",
+      "published": "2004-09",
+      "republication": "reference_only_stale",
+      "original_sha256": null
+    },
+    "JO-MOI-2025": {
+      "country": "JO",
+      "authority": "Jordan Ministry of Interior",
+      "url": "https://moi.gov.jo/En/List/Governorates_and_Sectors",
+      "role": "ministry address Amman 11118, not full government postcode registry",
+      "published": "2025-11",
+      "republication": "reference_only",
+      "original_sha256": null
+    }
+  },
+  "postal_evidence": [
+    {
+      "record_id": "AM-P001",
+      "country": "AM",
+      "code": "0001",
+      "place": "Yerevan",
+      "source_id": "AM-HAYPOST-EN-DIR",
+      "grain": "post_office_branch",
+      "locale": "en",
+      "admin_name": "Yerevan",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false,
+      "address_line_from_pdf_unimported": true
+    },
+    {
+      "record_id": "AM-P002",
+      "country": "AM",
+      "code": "0002",
+      "place": "Yerevan",
+      "source_id": "AM-HAYPOST-EN-DIR",
+      "grain": "post_office_branch",
+      "locale": "en",
+      "admin_name": "Yerevan",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false,
+      "address_line_from_pdf_unimported": true
+    },
+    {
+      "record_id": "AM-P003",
+      "country": "AM",
+      "code": "0003",
+      "place": "Yerevan",
+      "source_id": "AM-HAYPOST-EN-DIR",
+      "grain": "post_office_branch",
+      "locale": "en",
+      "admin_name": "Yerevan",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false,
+      "address_line_from_pdf_unimported": true
+    },
+    {
+      "record_id": "AM-P004",
+      "country": "AM",
+      "code": "0004",
+      "place": "Yerevan",
+      "source_id": "AM-HAYPOST-EN-DIR",
+      "grain": "post_office_branch",
+      "locale": "en",
+      "admin_name": "Yerevan",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false,
+      "address_line_from_pdf_unimported": true
+    },
+    {
+      "record_id": "AM-P005",
+      "country": "AM",
+      "code": "0005",
+      "place": "Yerevan",
+      "source_id": "AM-HAYPOST-EN-DIR",
+      "grain": "post_office_branch",
+      "locale": "en",
+      "admin_name": "Yerevan",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false,
+      "address_line_from_pdf_unimported": true
+    },
+    {
+      "record_id": "AM-P006",
+      "country": "AM",
+      "code": "0006",
+      "place": "Yerevan",
+      "source_id": "AM-HAYPOST-EN-DIR",
+      "grain": "post_office_branch",
+      "locale": "en",
+      "admin_name": "Yerevan",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false,
+      "address_line_from_pdf_unimported": true
+    },
+    {
+      "record_id": "AM-P007",
+      "country": "AM",
+      "code": "0008",
+      "place": "Yerevan",
+      "source_id": "AM-HAYPOST-EN-DIR",
+      "grain": "post_office_branch",
+      "locale": "en",
+      "admin_name": "Yerevan",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false,
+      "address_line_from_pdf_unimported": true
+    },
+    {
+      "record_id": "AM-P008",
+      "country": "AM",
+      "code": "0009",
+      "place": "Yerevan",
+      "source_id": "AM-HAYPOST-EN-DIR",
+      "grain": "post_office_branch",
+      "locale": "en",
+      "admin_name": "Yerevan",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false,
+      "address_line_from_pdf_unimported": true
+    },
+    {
+      "record_id": "AM-P009",
+      "country": "AM",
+      "code": "0010",
+      "place": "Yerevan",
+      "source_id": "AM-HAYPOST-EN-DIR",
+      "grain": "post_office_branch",
+      "locale": "en",
+      "admin_name": "Yerevan",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false,
+      "address_line_from_pdf_unimported": true
+    },
+    {
+      "record_id": "AM-P010",
+      "country": "AM",
+      "code": "0011",
+      "place": "Yerevan",
+      "source_id": "AM-HAYPOST-EN-DIR",
+      "grain": "post_office_branch",
+      "locale": "en",
+      "admin_name": "Yerevan",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false,
+      "address_line_from_pdf_unimported": true
+    },
+    {
+      "record_id": "AM-P011",
+      "country": "AM",
+      "code": "0012",
+      "place": "Yerevan",
+      "source_id": "AM-HAYPOST-EN-DIR",
+      "grain": "post_office_branch",
+      "locale": "en",
+      "admin_name": "Yerevan",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false,
+      "address_line_from_pdf_unimported": true
+    },
+    {
+      "record_id": "AM-P012",
+      "country": "AM",
+      "code": "0013",
+      "place": "Yerevan",
+      "source_id": "AM-HAYPOST-EN-DIR",
+      "grain": "post_office_branch",
+      "locale": "en",
+      "admin_name": "Yerevan",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false,
+      "address_line_from_pdf_unimported": true
+    },
+    {
+      "record_id": "AM-P013",
+      "country": "AM",
+      "code": "0014",
+      "place": "Yerevan",
+      "source_id": "AM-HAYPOST-EN-DIR",
+      "grain": "post_office_branch",
+      "locale": "en",
+      "admin_name": "Yerevan",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false,
+      "address_line_from_pdf_unimported": true
+    },
+    {
+      "record_id": "AM-P014",
+      "country": "AM",
+      "code": "0601",
+      "place": "Vedi",
+      "source_id": "AM-UPU-2021",
+      "grain": "published_rural_home_example",
+      "locale": "en",
+      "admin_name": "Ararat",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "GE-P001",
+      "country": "GE",
+      "code": "0100",
+      "place": "Tbilisi",
+      "source_id": "GE-GPOST-ADDRESS",
+      "grain": "organization_address_example",
+      "locale": "en",
+      "admin_name": "Tbilisi City",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "GE-P002",
+      "country": "GE",
+      "code": "0160",
+      "place": "Tbilisi",
+      "source_id": "GE-UPU-2018",
+      "grain": "home_address_example",
+      "locale": "en",
+      "admin_name": "Tbilisi City",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "GE-P003",
+      "country": "GE",
+      "code": "0180",
+      "place": "Tbilisi",
+      "source_id": "GE-GEOSTAT-ADDRESS",
+      "grain": "government_organization_address_example",
+      "locale": "en",
+      "admin_name": "Tbilisi City",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P001",
+      "country": "AZ",
+      "code": "AZ7000",
+      "place": "Nakhchivan",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P002",
+      "country": "AZ",
+      "code": "AZ7001",
+      "place": "Nakhchivan",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P003",
+      "country": "AZ",
+      "code": "AZ7002",
+      "place": "Nakhchivan",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P004",
+      "country": "AZ",
+      "code": "AZ7003",
+      "place": "Nakhchivan",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P005",
+      "country": "AZ",
+      "code": "AZ7004",
+      "place": "Nakhchivan",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P006",
+      "country": "AZ",
+      "code": "AZ7005",
+      "place": "Nakhchivan",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P007",
+      "country": "AZ",
+      "code": "AZ7006",
+      "place": "Nakhchivan",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P008",
+      "country": "AZ",
+      "code": "AZ7007",
+      "place": "Nakhchivan",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P009",
+      "country": "AZ",
+      "code": "AZ7008",
+      "place": "Nakhchivan",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P010",
+      "country": "AZ",
+      "code": "AZ7009",
+      "place": "Nakhchivan",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P011",
+      "country": "AZ",
+      "code": "AZ7011",
+      "place": "Nakhchivan",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P012",
+      "country": "AZ",
+      "code": "AZ7211",
+      "place": "Bənəniyar",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P013",
+      "country": "AZ",
+      "code": "AZ7212",
+      "place": "Saltaq",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P014",
+      "country": "AZ",
+      "code": "AZ7213",
+      "place": "Dizə",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P015",
+      "country": "AZ",
+      "code": "AZ7403",
+      "place": "Qıvraq",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P016",
+      "country": "AZ",
+      "code": "AZ7112",
+      "place": "Biçənək",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P017",
+      "country": "AZ",
+      "code": "AZ6900",
+      "place": "Ordubad",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P018",
+      "country": "AZ",
+      "code": "AZ7100",
+      "place": "Shahbuz",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P019",
+      "country": "AZ",
+      "code": "AZ7300",
+      "place": "Sadarak",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P020",
+      "country": "AZ",
+      "code": "AZ6700",
+      "place": "Babek",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P021",
+      "country": "AZ",
+      "code": "AZ7400",
+      "place": "Kangarli",
+      "source_id": "AZ-NPTM",
+      "grain": "post_office_branch",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P022",
+      "country": "AZ",
+      "code": "AZ1000",
+      "place": "Baku",
+      "source_id": "AZ-UPU-2019",
+      "grain": "operator_contact_example",
+      "locale": "en",
+      "admin_name": "Baku City",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P023",
+      "country": "AZ",
+      "code": "AZ1010",
+      "place": "Bakı",
+      "source_id": "AZ-UPU-2019",
+      "grain": "home_address_example",
+      "locale": "az-Latn",
+      "admin_name": "Baku City",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "AZ-P024",
+      "country": "AZ",
+      "code": "AZ6715",
+      "place": "Nehrəm",
+      "source_id": "AZ-UPU-2019",
+      "grain": "rural_home_address_example",
+      "locale": "az-Latn",
+      "admin_name": "Nakhchivan Autonomous Republic",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "IL-P001",
+      "country": "IL",
+      "code": "9414219",
+      "place": "Jerusalem",
+      "source_id": "IL-UPU-2022",
+      "grain": "home_address_example",
+      "locale": "en",
+      "admin_name": "Jerusalem",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "IL-P002",
+      "country": "IL",
+      "code": "7178437",
+      "place": "Modiin-Maccabim-Reut",
+      "source_id": "IL-ISRAELPOST",
+      "grain": "operator_contact_example",
+      "locale": "en",
+      "admin_name": null,
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "JO-P001",
+      "country": "JO",
+      "code": "11937",
+      "place": "Amman",
+      "source_id": "JO-UPU-2004",
+      "grain": "home_address_example_stale",
+      "locale": "en",
+      "admin_name": "The Capital Governorate",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "JO-P002",
+      "country": "JO",
+      "code": "11190",
+      "place": "Amman",
+      "source_id": "JO-UPU-2004",
+      "grain": "postal_operator_contact_example_stale",
+      "locale": "en",
+      "admin_name": "The Capital Governorate",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    },
+    {
+      "record_id": "JO-P003",
+      "country": "JO",
+      "code": "11118",
+      "place": "Amman",
+      "source_id": "JO-MOI-2025",
+      "grain": "government_contact_address_example",
+      "locale": "en",
+      "admin_name": "The Capital Governorate",
+      "verified_postcode_to_geonames_link": false,
+      "verified_delivery": false
+    }
+  ],
+  "quality_flags": {
+    "source_html_or_pdf_original_bytes_in_repo": false,
+    "national_postcode_coverage_verified": false,
+    "admin_membership_of_postal_examples_verified": false,
+    "carrier_deliverability_verified": false,
+    "no_code_assignment_from_geonames": true
+  },
+  "territory_scope_note": "Country-coded source records retain original administrative claims and disputable boundary classifications; country-code membership not inferred from nearby coordinates or alternate-country aliases."
+}
