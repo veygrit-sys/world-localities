@@ -54,19 +54,30 @@ def _source_download(region,folder):
             'source_date':'2025-12-31','publication_date':'2026-02-18'}
 
 
-def _extract_one_gpkg(path,destination):
-    destination=Path(destination)
-    if destination.exists():raise ValueError('Refuse overwrite')
-    with zipfile.ZipFile(path) as z:
-        files=[x for x in z.infolist() if x.filename.lower().endswith('.gpkg') and not x.is_dir()]
-        if len(files)!=1:raise ValueError('Expected exactly one CAOP GeoPackage; got: '+str([(i.filename,i.file_size) for i in z.infolist()][:40]))
-        one=files[0]
-        if (one.file_size>2_000_000_000 or (one.compress_size and one.file_size/one.compress_size>1000)
-            or Path(one.filename).is_absolute() or '..' in Path(one.filename).parts or '\\' in one.filename):
-            raise ValueError('Unsafe archive member')
-        with z.open(one) as src,destination.open('xb') as out:
-            shutil.copyfileobj(src,out,1024*1024)
-    return {'member':one.filename,'bytes':destination.stat().st_size,'sha256':digest(destination)}
+EXPECTED_GPKG_PARTS={'continent':1,'azores':2,'madeira':1}
+
+
+def _extract_region_gpkgs(archive, folder, region):
+    """Extract all expected regional parts, retaining source member provenance."""
+    folder=Path(folder)
+    with zipfile.ZipFile(archive) as z:
+        files=sorted((i for i in z.infolist() if i.filename.lower().endswith('.gpkg') and not i.is_dir()),
+                     key=lambda i:i.filename)
+        expected=EXPECTED_GPKG_PARTS[region]
+        if len(files)!=expected:
+            raise ValueError('DGT region sub-archive count changed: '+str([(x.filename,x.file_size) for x in z.infolist()][:30]))
+        result=[]
+        for n,member in enumerate(files,1):
+            if (member.file_size>2_000_000_000
+                or (member.compress_size and member.file_size/member.compress_size>1000)
+                or Path(member.filename).is_absolute()
+                or '..' in Path(member.filename).parts or '\\' in member.filename):
+                raise ValueError('Unsafe region GeoPackage member')
+            gpkg=folder/(region+'-'+str(n)+'-caop2025.gpkg')
+            with z.open(member) as src,gpkg.open('xb') as out:
+                shutil.copyfileobj(src,out,1024*1024)
+            result.append((gpkg,{'member':member.filename,'bytes':gpkg.stat().st_size,'sha256':digest(gpkg)}))
+        return result
 
 
 def _schema(path):
@@ -104,21 +115,21 @@ def capture(folder):
     for region in SOURCES:
         download=_source_download(region,originals)
         original=originals/(region+'-caop2025.zip')
-        gpkg=originals/(region+'-caop2025.gpkg')
-        extracted=_extract_one_gpkg(original,gpkg)
-        schema=_schema(gpkg)
-        receipt={
-          'schema_version':1,'country':'PT','kind':'administrative','dataset':'dgt-caop2025-'+region+'-freguesias',
-          'publisher_url':download['url'],'rights_reviewed':True,
-          'license':'CC-BY-4.0','attribution':'Direção-Geral do Território (DGT), CAOP2025',
-          'source_date':download['source_date'],'crs':'EPSG:'+str(schema['srs']),
-          'format':'gpkg','path':gpkg.name,'bytes':extracted['bytes'],'sha256':extracted['sha256'],
-          'table':schema['table'],'fields':schema['fields']
-        }
-        receipt_path=receipts/(region+'.json')
-        receipt_path.write_text(json.dumps(receipt,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
-        events.append({'region':region,'original_archive':download,'gpkg':extracted,'selected_layer':schema,
-                       'receipt_path':str(receipt_path)})
+        for part,(gpkg,extracted) in enumerate(_extract_region_gpkgs(original,originals,region),1):
+            schema=_schema(gpkg)
+            name=region+'-'+str(part)
+            receipt={
+              'schema_version':1,'country':'PT','kind':'administrative','dataset':'dgt-caop2025-'+name+'-freguesias',
+              'publisher_url':download['url'],'rights_reviewed':True,
+              'license':'CC-BY-4.0','attribution':'Direção-Geral do Território (DGT), CAOP2025',
+              'source_date':download['source_date'],'crs':'EPSG:'+str(schema['srs']),
+              'format':'gpkg','path':gpkg.name,'bytes':extracted['bytes'],'sha256':extracted['sha256'],
+              'table':schema['table'],'fields':schema['fields']
+            }
+            receipt_path=receipts/(name+'.json')
+            receipt_path.write_text(json.dumps(receipt,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+            events.append({'region':region,'part':part,'original_archive':download,'gpkg':extracted,'selected_layer':schema,
+                           'receipt_path':str(receipt_path)})
     report={'status':'DGT_SOURCE_ACQUIRED_AND_INSPECTED','scope':'official administrative boundaries, not current addresses',
             'region_files':events,'national_address_completeness_verified':False,'deliverability_verified':False}
     (folder/'dgt-acquisition.json').write_text(json.dumps(report,indent=2,ensure_ascii=False)+'\n')

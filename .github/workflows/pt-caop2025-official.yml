@@ -46,9 +46,10 @@ jobs:
         run: |
           python scripts/es_pt_mt_precision.py build --repo . \
             --source-root "$RUNNER_TEMP/pt-caop2025/raw" \
-            --receipt "$RUNNER_TEMP/pt-caop2025/receipts/continent.json" \
-            --receipt "$RUNNER_TEMP/pt-caop2025/receipts/azores.json" \
-            --receipt "$RUNNER_TEMP/pt-caop2025/receipts/madeira.json" \
+            --receipt "$RUNNER_TEMP/pt-caop2025/receipts/continent-1.json" \
+            --receipt "$RUNNER_TEMP/pt-caop2025/receipts/azores-1.json" \
+            --receipt "$RUNNER_TEMP/pt-caop2025/receipts/azores-2.json" \
+            --receipt "$RUNNER_TEMP/pt-caop2025/receipts/madeira-1.json" \
             --output "$RUNNER_TEMP/pt-caop2025-index.sqlite" > "$RUNNER_TEMP/pt-build.json"
           python scripts/es_pt_mt_precision.py verify --db "$RUNNER_TEMP/pt-caop2025-index.sqlite" > "$RUNNER_TEMP/pt-verify.json"
       - name: Publish provenance report and administrative index without raw external files

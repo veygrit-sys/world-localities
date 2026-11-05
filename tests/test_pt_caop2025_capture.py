@@ -54,26 +54,33 @@ class CAOPCaptureTests(unittest.TestCase):
         archive=self.root/'source.zip'
         with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED) as z:
             z.write(p,'a.gpkg')
-        result=m._extract_one_gpkg(archive,self.root/'out.gpkg')
-        self.assertEqual(result['sha256'],m.digest(self.root/'out.gpkg'))
-        self.assertEqual(m._schema(self.root/'out.gpkg')['count'],22)
+        result=m._extract_region_gpkgs(archive,self.root,'continent')
+        self.assertEqual(len(result),1)
+        self.assertEqual(result[0][1]['sha256'],m.digest(result[0][0]))
+        self.assertEqual(m._schema(result[0][0])['count'],22)
 
     def test_capture_with_three_mocked_official_archives(self):
         file=self.root/'g.gpkg';self.fixture(file)
         fixture_zip=self.root/'source.zip'
         with zipfile.ZipFile(fixture_zip,'w',compression=zipfile.ZIP_DEFLATED) as z:z.write(file,'source.gpkg')
+        azores_zip=self.root/'azores.zip'
+        with zipfile.ZipFile(azores_zip,'w',compression=zipfile.ZIP_DEFLATED) as z:
+            z.write(file,'AcoresCentroOriental.gpkg');z.write(file,'AcoresOcidental.gpkg')
         def mock_download(region,folder):
-            (Path(folder)/(region+'-caop2025.zip')).write_bytes(fixture_zip.read_bytes())
-            return {'url':m.SOURCES[region],'region':region,'bytes':fixture_zip.stat().st_size,'sha256':m.digest(fixture_zip),
+            source=azores_zip if region=='azores' else fixture_zip
+            (Path(folder)/(region+'-caop2025.zip')).write_bytes(source.read_bytes())
+            return {'url':m.SOURCES[region],'region':region,'bytes':source.stat().st_size,'sha256':m.digest(source),
                     'source_date':'2025-12-31','publication_date':'2026-02-18'}
         with patch.object(m,'_source_download',side_effect=mock_download):
             report=m.capture(self.root/'run')
         self.assertEqual(report['status'],'DGT_SOURCE_ACQUIRED_AND_INSPECTED')
+        self.assertEqual(len(report['region_files']),4)
         for region in m.SOURCES:
-            receipt=json.loads((self.root/'run'/'receipts'/(region+'.json')).read_text())
-            self.assertEqual(receipt['crs'],'EPSG:3763')
-            precision._validate_receipt(receipt,self.root/'run'/'raw')
-            self.assertEqual(len(list(precision.source_rows(self.root/'run'/'raw'/receipt['path'],receipt))),22)
+            for part in range(1,m.EXPECTED_GPKG_PARTS[region]+1):
+                receipt=json.loads((self.root/'run'/'receipts'/(region+'-'+str(part)+'.json')).read_text())
+                self.assertEqual(receipt['crs'],'EPSG:3763')
+                precision._validate_receipt(receipt,self.root/'run'/'raw')
+                self.assertEqual(len(list(precision.source_rows(self.root/'run'/'raw'/receipt['path'],receipt))),22)
         self.assertFalse(report['national_address_completeness_verified'])
 
 if __name__=='__main__':unittest.main()
