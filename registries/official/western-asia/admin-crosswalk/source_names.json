@@ -340,7 +340,8 @@
           "parent": "West Bank",
           "aliases": [
             "Jenin Governorate"
-          ]
+          ],
+          "governorate_code": "01"
         },
         {
           "ref": "PS:PCBS-SURVEY-5",
@@ -348,7 +349,8 @@
           "parent": "West Bank",
           "aliases": [
             "Tubas"
-          ]
+          ],
+          "governorate_code": "05"
         },
         {
           "ref": "PS:PCBS-SURVEY-10",
@@ -356,7 +358,8 @@
           "parent": "West Bank",
           "aliases": [
             "Tulkarm Governorate"
-          ]
+          ],
+          "governorate_code": "10"
         },
         {
           "ref": "PS:PCBS-SURVEY-15",
@@ -364,7 +367,8 @@
           "parent": "West Bank",
           "aliases": [
             "Nablus Governorate"
-          ]
+          ],
+          "governorate_code": "15"
         },
         {
           "ref": "PS:PCBS-SURVEY-20",
@@ -372,7 +376,8 @@
           "parent": "West Bank",
           "aliases": [
             "Qalqiliya"
-          ]
+          ],
+          "governorate_code": "20"
         },
         {
           "ref": "PS:PCBS-SURVEY-25",
@@ -380,7 +385,8 @@
           "parent": "West Bank",
           "aliases": [
             "Salfit Governorate"
-          ]
+          ],
+          "governorate_code": "25"
         },
         {
           "ref": "PS:PCBS-SURVEY-30",
@@ -388,7 +394,8 @@
           "parent": "West Bank",
           "aliases": [
             "Ramallah & Al-Bireh"
-          ]
+          ],
+          "governorate_code": "30"
         },
         {
           "ref": "PS:PCBS-SURVEY-35",
@@ -396,7 +403,8 @@
           "parent": "West Bank",
           "aliases": [
             "Jericho"
-          ]
+          ],
+          "governorate_code": "35"
         },
         {
           "ref": "PS:PCBS-SURVEY-40",
@@ -404,7 +412,8 @@
           "parent": "West Bank",
           "aliases": [
             "Jerusalem Governorate"
-          ]
+          ],
+          "governorate_code": "40"
         },
         {
           "ref": "PS:PCBS-SURVEY-45",
@@ -412,7 +421,8 @@
           "parent": "West Bank",
           "aliases": [
             "Bethlehem Governorate"
-          ]
+          ],
+          "governorate_code": "45"
         },
         {
           "ref": "PS:PCBS-SURVEY-50",
@@ -420,7 +430,8 @@
           "parent": "West Bank",
           "aliases": [
             "Hebron Governorate"
-          ]
+          ],
+          "governorate_code": "50"
         },
         {
           "ref": "PS:PCBS-SURVEY-55",
@@ -428,7 +439,8 @@
           "parent": "Gaza Strip",
           "aliases": [
             "North Gaza Governorate"
-          ]
+          ],
+          "governorate_code": "55"
         },
         {
           "ref": "PS:PCBS-SURVEY-60",
@@ -436,7 +448,8 @@
           "parent": "Gaza Strip",
           "aliases": [
             "Gaza Governorate"
-          ]
+          ],
+          "governorate_code": "60"
         },
         {
           "ref": "PS:PCBS-SURVEY-65",
@@ -444,7 +457,8 @@
           "parent": "Gaza Strip",
           "aliases": [
             "Deir al-Balah"
-          ]
+          ],
+          "governorate_code": "65"
         },
         {
           "ref": "PS:PCBS-SURVEY-70",
@@ -452,7 +466,8 @@
           "parent": "Gaza Strip",
           "aliases": [
             "Khan Younis"
-          ]
+          ],
+          "governorate_code": "70"
         },
         {
           "ref": "PS:PCBS-SURVEY-75",
@@ -460,13 +475,31 @@
           "parent": "Gaza Strip",
           "aliases": [
             "Rafah Governorate"
-          ]
+          ],
+          "governorate_code": "75"
         }
       ],
       "postal_source": {
         "scheme": "P3_AREA_AND_P7_POINT",
         "url": "https://opendata.ps/dataset/postcodes",
         "records_imported": 0
+      },
+      "governorate_code_source": {
+        "authority": "Palestinian Central Bureau of Statistics",
+        "title": "Palestinian Localities Guide 1997, published December 1999",
+        "url": "https://www.pcbs.gov.ps/Downloads/book508.pdf",
+        "publication_year": 1999,
+        "source_page_printed": 10,
+        "scheme": "two_digit_governorate_code_prefix_in_six_digit_locality_code",
+        "label": "Official 1999 PCBS statistical locality code scheme, not a postal code",
+        "current_existence_or_unchanged_administration_verified": false
+      },
+      "locality_code_reconfirmation_source": {
+        "authority": "Palestinian Central Bureau of Statistics",
+        "title": "Projected Mid-Year Population for Gaza Governorate by Locality 2017-2026",
+        "publication_date": "2021-05-30",
+        "url": "https://microdata.pcbs.gov.ps/statisticsIndicatorsTables.aspx?lang=en&table_id=708",
+        "note": "Gaza locality code 602825 appears in the public 2021 table, supporting the scheme's continued use for this example. It is not a P-prefixed postal code."
       }
     }
   }

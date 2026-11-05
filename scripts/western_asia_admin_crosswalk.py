@@ -165,6 +165,38 @@ def report(country: str, *, reference: dict | None = None, registry: Path = ASIA
         "candidates": results,
     }
 
+
+def inspect_pcbs_locality_code(code: str, *, reference: dict | None = None) -> dict:
+    """Decode 1999 PCBS six-digit statistical locality code. NOT a postcode.
+
+    A valid format and governorate prefix do NOT prove the locality was assigned
+    this code; that requires the authoritative locality dataset and source date.
+    """
+    if not isinstance(code, str):
+        raise TypeError("PCBS locality code must be a string")
+    if not re.fullmatch(r"[0-9]{6}", code):
+        raise ValueError("PCBS locality code must be 6 ASCII digits")
+    source = (reference or load_reference())["countries"]["PS"]
+    table = {item["governorate_code"]: item for item in source["records"]}
+    if len(table) != 16:
+        raise ValueError("PCBS governorate code inventory is incomplete or duplicated")
+    prefix = code[:2]
+    row = table.get(prefix)
+    return {
+        "input_code": code,
+        "scheme": "PCBS-locality6-1999",
+        "governorate_code": prefix,
+        "governorate_name": row["name"] if row else None,
+        "governorate_ref": row["ref"] if row else None,
+        "status": "known_governorate_prefix_format_only" if row else "unrecognized_governorate_prefix",
+        "source_url": source["governorate_code_source"]["url"],
+        "locality_assignment_verified": False,
+        "geonames_identity_verified": False,
+        "postal_code_verified": False,
+        "deliverability_verified": False,
+        "note": "PCBS statistical locality code is NOT a Palestine P3/P7 postal code.",
+    }
+
 def postal_audit(path: Path, *, country: str, expected_sha256: str,
                  source_url: str, licence: str, source_version: str,
                  reference: dict | None = None) -> dict:

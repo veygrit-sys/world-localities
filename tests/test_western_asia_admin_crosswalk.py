@@ -73,6 +73,31 @@ class SourceEvidenceTests(unittest.TestCase):
         self.assertEqual(p["status"],"ambiguous_candidates")
         self.assertFalse(p["reviewed_identity_verified"])
 
+    def test_pcbs_official_governorate_codes_from_1999_guide(self):
+        ps = self.source["countries"]["PS"]
+        codes = {item["governorate_code"] for item in ps["records"]}
+        self.assertEqual(codes, {"01","05","10","15","20","25","30","35",
+                                 "40","45","50","55","60","65","70","75"})
+        self.assertEqual(ps["governorate_code_source"]["publication_year"], 1999)
+
+    def test_pcbs_locality_code_prefix_is_not_a_postcode_or_identity_join(self):
+        examples = [("010005", "01", "Jenin"),("200905", "20", "Qalqilya"),
+                    ("602825", "60", "Gaza")]
+        for code, prefix, gov in examples:
+            result = cross.inspect_pcbs_locality_code(code, reference=self.source)
+            self.assertEqual(result["status"], "known_governorate_prefix_format_only")
+            self.assertEqual(result["governorate_code"], prefix)
+            self.assertEqual(result["governorate_name"], gov)
+            for field in ("locality_assignment_verified", "geonames_identity_verified",
+                          "postal_code_verified", "deliverability_verified"):
+                self.assertFalse(result[field])
+        for invalid in ("P6100154", "P610", "60123", "６０２８２５", "60-2825"):
+            with self.assertRaises(ValueError):
+                cross.inspect_pcbs_locality_code(invalid, reference=self.source)
+        unknown = cross.inspect_pcbs_locality_code("999999", reference=self.source)
+        self.assertEqual(unknown["status"], "unrecognized_governorate_prefix")
+        self.assertIsNone(unknown["governorate_ref"])
+
     def test_postal_source_must_be_pinned_and_remains_candidate(self):
         with tempfile.TemporaryDirectory() as temp:
             path=Path(temp)/"post.csv"
