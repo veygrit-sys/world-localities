@@ -55,3 +55,7 @@ The implementation accepts `csv`, `csv.gz`, `zip-csv`, `jsonl`, small `geojson`,
 No nationwide precision claim before (a) source snapshot is genuinely downloaded and pinned, (b) all source IDs replay, (c) administrative, road, postcode and house-number links are checked against official code systems, (d) independent held-out real-address test examples are evaluated, and (e) carrier-specific address rendering and deliverability rules are tested. If any layer is absent, return `unknown` rather than fabricate a match.
 
 Original source rights and notices remain source-specific. No common relicensing of mixed official, GeoNames, or OSM-derived datasets.
+
+## Additional official Portugal CAOP2025 acquisition
+
+`python scripts/pt_caop2025_capture.py --output-dir /new/caop-work` downloads the three CAOP2025 DGT GeoPackage ZIPs for the mainland, Azores, and Madeira into a **new** output location, pins original and extracted byte hashes, discovers only the published parish schema (`dtmnfr`, `freguesia`), checks regional table CRS and counts, and generates separate reviewed receipts for the general ES/PT/MT importer. The workflow `.github/workflows/pt-caop2025-official.yml` builds and verifies the resulting source-separated SQLite index. It does **not** treat official administrative polygons as postal or delivery addresses. The original downloads are excluded from Git commits; the artifact only contains the attribution, provenance report and normalized index.
