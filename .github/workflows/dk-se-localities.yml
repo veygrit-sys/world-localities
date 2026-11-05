@@ -1,0 +1,66 @@
+name: Denmark and Sweden independent localities
+on:
+  push:
+    paths:
+      - 'scripts/dk_se_localities.py'
+      - 'scripts/nordic_localities.py'
+      - 'tests/test_dk_se_localities.py'
+      - 'registries/nordics/dk-se/**'
+      - 'registries/europe/countries/DK/**'
+      - 'registries/europe/countries/SE/**'
+      - 'registries/europe/eurostat-lau/DK/**'
+      - 'registries/europe/eurostat-lau/SE/**'
+      - 'registries/official/SE/**'
+      - '.github/workflows/dk-se-localities.yml'
+  pull_request:
+    paths:
+      - 'scripts/dk_se_localities.py'
+      - 'scripts/nordic_localities.py'
+      - 'tests/test_dk_se_localities.py'
+      - 'registries/nordics/dk-se/**'
+      - 'registries/europe/countries/DK/**'
+      - 'registries/europe/countries/SE/**'
+      - 'registries/europe/eurostat-lau/DK/**'
+      - 'registries/europe/eurostat-lau/SE/**'
+      - 'registries/official/SE/**'
+      - '.github/workflows/dk-se-localities.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-country-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Unit tests (official and OSM data are not downloaded in CI)
+        run: python -m unittest discover -s tests -p 'test_dk_se_localities.py' -v
+      - name: Build, verify, and query real pinned DK/SE source datasets
+        run: |
+          python scripts/dk_se_localities.py build-places --root . --output "$RUNNER_TEMP/dk-se-localities.sqlite3" > "$RUNNER_TEMP/report.json"
+          python - <<'PY'
+          import json,os
+          report=json.load(open(os.path.join(os.environ['RUNNER_TEMP'],'report.json')))
+          dk=report['source_observations']['DK'];se=report['source_observations']['SE']
+          assert dk['GeoNames']==7404, dk
+          assert se['GeoNames']==33003, se
+          assert dk['Eurostat_LAU']==99, dk
+          assert se['Eurostat_LAU']==290, se
+          assert se['SCB_2026']==311, se
+          assert report['deliverability_verified'] is False
+          print('Real pinned baseline DK and SE verified:',dk,se)
+          PY
+          python scripts/dk_se_localities.py search --database "$RUNNER_TEMP/dk-se-localities.sqlite3" --country DK --text København --limit 2
+          python scripts/dk_se_localities.py search --database "$RUNNER_TEMP/dk-se-localities.sqlite3" --country SE --text Stockholm --kind municipality --limit 2
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: dk-se-independent-localities-baseline
+          path: |
+            ${{ runner.temp }}/dk-se-localities.sqlite3
+            ${{ runner.temp }}/report.json
+          retention-days: 7
