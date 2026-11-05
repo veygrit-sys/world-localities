@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-05",
+  "description": "Exact Geofabrik full-country PBF scans projected to separate ODbL community evidence SQLite indexes; this does not certify national address completeness, actual address existence, or carrier deliverability.",
+  "workflow_run": "https://github.com/veygrit-sys/world-localities/actions/runs/41994358028",
+  "implementation_commit": "fd193d847e26ef97c1d7a6e718eb5457d2f49d31",
+  "upstream": "Geofabrik OpenStreetMap country extracts",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors; Geofabrik regional extract",
+  "countries": {
+    "DK": {
+      "source_url": "https://download.geofabrik.de/europe/denmark-latest.osm.pbf",
+      "acquired_at": "2026-11-05T08:26:11.402453+00:00",
+      "source_bytes": 497220337,
+      "source_sha256": "aabac17285f2623de0829654f8f0dae074b96e2112e4deb6245cc50d5119b154",
+      "source_fixture": false,
+      "verification": "PASS",
+      "indexed_records": 3080831,
+      "counts": {
+        "address_candidate": 2616183,
+        "named_road_segment": 449732,
+        "named_place": 14764,
+        "administrative_boundary_label": 152,
+        "country_tag_conflict": 153,
+        "postcode_syntax_valid": 2616015,
+        "with_mapped_node_geometry": 2644582
+      },
+      "projected_rows_sha256": "f2055ad353c7398b2ef8e2cc0f23adb46be9df3b4a14941f897ff906bd39f243",
+      "index_archive": "https://github.com/veygrit-sys/world-localities/actions/runs/41994358028/artifacts/13400261110",
+      "compressed_sqlite_sha256": "94ea335fe9c86ca7d5cb0919a9851ec2692f4954cb77c486eba83c9dfa51ebce",
+      "report_archive": "https://github.com/veygrit-sys/world-localities/actions/runs/41994358028/artifacts/13400300957"
+    },
+    "SE": {
+      "source_url": "https://download.geofabrik.de/europe/sweden-latest.osm.pbf",
+      "acquired_at": "2026-11-05T08:28:39.527273+00:00",
+      "source_bytes": 946266127,
+      "source_sha256": "747062e3c17e9c687bec1c51d947bca696c82e6bdd5316ffc65069f65909cae5",
+      "source_fixture": false,
+      "verification": "PASS",
+      "indexed_records": 1786962,
+      "counts": {
+        "address_candidate": 1008536,
+        "named_road_segment": 569203,
+        "named_place": 207647,
+        "administrative_boundary_label": 1576,
+        "country_tag_conflict": 117,
+        "postcode_syntax_valid": 550304,
+        "with_mapped_node_geometry": 618412
+      },
+      "projected_rows_sha256": "2186121960eaa617e03f578e48aeb37a4ff766bb5d2455313131724350ffe4ca",
+      "index_archive": "https://github.com/veygrit-sys/world-localities/actions/runs/41994358028/artifacts/13399263756",
+      "compressed_sqlite_sha256": "dc85d80bf8dd5eaddc1cbe1d3cfaa6eb607c485e81226ffb4fbe4a915c101002",
+      "report_archive": "https://github.com/veygrit-sys/world-localities/actions/runs/41994358028/artifacts/13399533255"
+    }
+  },
+  "totals": {
+    "indexed_records": 4867793,
+    "address_candidate": 3624719,
+    "named_road_segment": 1018935,
+    "named_place": 222411,
+    "administrative_boundary_label": 1728
+  },
+  "file_retention": "GitHub Actions artifacts automatically expire on 2026-11-19; download and archive to persistent storage before then.",
+  "important_limitations": [
+    "Observations may be incomplete, non-authoritative, duplicated in the physical world, outdated or conflict across extract borders.",
+    "Geofabrik country extracts are not official country boundary membership checks.",
+    "OSM address numbers do not prove address existence or delivery eligibility.",
+    "OSM derived database must remain license-separated from differently licensed official address registers.",
+    "The full raw PBF is hash-pinned in the report but is not bundled with SQLite output."
+  ]
+}
