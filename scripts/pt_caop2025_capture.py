@@ -59,7 +59,7 @@ def _extract_one_gpkg(path,destination):
     if destination.exists():raise ValueError('Refuse overwrite')
     with zipfile.ZipFile(path) as z:
         files=[x for x in z.infolist() if x.filename.lower().endswith('.gpkg') and not x.is_dir()]
-        if len(files)!=1:raise ValueError('Expected exactly one CAOP GeoPackage')
+        if len(files)!=1:raise ValueError('Expected exactly one CAOP GeoPackage; got: '+str([(i.filename,i.file_size) for i in z.infolist()][:40]))
         one=files[0]
         if (one.file_size>2_000_000_000 or (one.compress_size and one.file_size/one.compress_size>1000)
             or Path(one.filename).is_absolute() or '..' in Path(one.filename).parts or '\\' in one.filename):
