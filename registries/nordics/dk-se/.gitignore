@@ -1,0 +1,11 @@
+# Source exports, secrets and privacy-risk address points are not committed.
+*.sqlite3
+*.db
+*.osm.pbf
+*.csv.gz
+*.gpkg
+*.zip
+*.jsonl.gz
+secrets*
+*token*
+*.env

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-11-05",
+  "purpose": "Denmark and Sweden independently built locality/address evidence, preserving source rights and identifiers",
+  "country_codes": ["DK", "SE"],
+  "sources": [
+    {"country": "DK", "source_id": "DK-GeoNames", "authority": "GeoNames", "role": "place_observations", "source_path": "registries/europe/countries/DK", "snapshot": "2026-09-29", "access": "already_pinned_in_repo", "licence": "CC-BY-4.0", "national_address_complete": false},
+    {"country": "DK", "source_id": "DK-Eurostat-LAU", "authority": "Eurostat", "role": "statistical_LAU_period_2024", "source_path": "registries/europe/eurostat-lau/DK", "access": "already_pinned_in_repo", "national_address_complete": false},
+    {"country": "DK", "source_id": "DK-DAR", "authority": "Klimadatastyrelsen / Datafordeler", "role": "official_address_and_road_entities", "url": "https://datafordeler.dk/dataoversigt/danmarks-adresseregister-dar/dar-fildownload/", "format": ["CSV", "JSON"], "access": "API_key_or_OAuth_required", "status": "not_downloaded_by_this_change", "national_address_complete": false},
+    {"country": "DK", "source_id": "DK-DAGI", "authority": "Klimadatastyrelsen / Datafordeler", "role": "official_administrative_units", "url": "https://datafordeler.dk/dataoversigt/danmarks-administrative-geografiske-inddeling-dagi/dagi-fildownload/", "access": "API_key_or_OAuth_required", "status": "not_downloaded_by_this_change", "national_address_complete": false},
+    {"country": "DK", "source_id": "DK-Stednavne", "authority": "Klimadatastyrelsen", "role": "official_place_names_static_since_2025_09", "url": "https://www.klimadatastyrelsen.dk/data/danske-stednavne", "access": "Datafordeler", "status": "not_downloaded_by_this_change", "national_address_complete": false},
+    {"country": "DK", "source_id": "DK-OSM", "authority": "OpenStreetMap contributors via Geofabrik", "role": "road_and_address_tag_evidence", "url": "https://download.geofabrik.de/europe/denmark.html", "licence": "ODbL-1.0", "access": "public_download", "status": "not_downloaded_by_this_change", "national_address_complete": false},
+    {"country": "SE", "source_id": "SE-GeoNames", "authority": "GeoNames", "role": "place_observations", "source_path": "registries/europe/countries/SE", "snapshot": "2026-09-29", "access": "already_pinned_in_repo", "licence": "CC-BY-4.0", "national_address_complete": false},
+    {"country": "SE", "source_id": "SE-Eurostat-LAU", "authority": "Eurostat", "role": "statistical_LAU_period_2024", "source_path": "registries/europe/eurostat-lau/SE", "access": "already_pinned_in_repo", "national_address_complete": false},
+    {"country": "SE", "source_id": "SE-SCB-2026", "authority": "Statistiska centralbyrån", "role": "2026_administrative_code_transcription", "source_path": "registries/official/SE/scb-municipalities-2026.csv", "access": "already_transcribed_in_repo", "independent_XLSX_replay": false, "national_address_complete": false},
+    {"country": "SE", "source_id": "SE-SCB-Tatorter", "authority": "Statistiska centralbyrån", "role": "open_statistical_settlement_polygons", "url": "https://www.scb.se/vara-tjanster/oppna-data/oppna-geodata/statistiska-tatorter/", "access": "public_open_data", "status": "not_downloaded_by_this_change", "national_address_complete": false},
+    {"country": "SE", "source_id": "SE-Ortnamn", "authority": "Lantmäteriet", "role": "official_place_names", "url": "https://geotorget.lantmateriet.se/geodataprodukter/ortnamn-nedladdning-vektor-api?view=dokumentation", "format": ["GeoPackage"], "access": "Geotorget_account_required_no_legal_preapproval", "status": "not_downloaded_by_this_change", "national_address_complete": false},
+    {"country": "SE", "source_id": "SE-Adress", "authority": "Lantmäteriet", "role": "official_address_points", "url": "https://geotorget.lantmateriet.se/geodataprodukter/belagenhetsadress-nedladdning-vektor-api", "format": ["GeoPackage"], "access": "account_and_legal_review_required", "status": "not_downloaded_by_this_change", "national_address_complete": false},
+    {"country": "SE", "source_id": "SE-NVDB", "authority": "Trafikverket", "role": "road_network", "url": "https://www.trafikverket.se/e-tjanster/hamta-data-fran-trafikverket/", "access": "registration_and_terms_required", "status": "not_downloaded_by_this_change", "national_address_complete": false},
+    {"country": "SE", "source_id": "SE-OSM", "authority": "OpenStreetMap contributors via Geofabrik", "role": "road_and_address_tag_evidence", "url": "https://download.geofabrik.de/europe/sweden.html", "licence": "ODbL-1.0", "access": "public_download", "status": "not_downloaded_by_this_change", "national_address_complete": false}
+  ],
+  "unknowns": ["national_address_completeness", "postal_assignment_completeness", "current_delivery_status", "official_street_join_recall", "licensed_derivative_publication"],
+  "deliverability_verified": false
+}
