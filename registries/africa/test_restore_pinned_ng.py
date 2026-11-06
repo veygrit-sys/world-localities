@@ -20,8 +20,13 @@ class PinnedNigeriaRestore(unittest.TestCase):
         self.assertEqual(migration["records"] + EXPECTED_NG_ROWS, EXPECTED_RESTORED_ROWS)
         self.assertEqual(missing["size"], 2141219)
         self.assertEqual(missing["sha"], "f47e339f54fd7d34162d16dc1fd73d92c02d1087")
-        self.assertFalse((AFRICA / "countries/NG").exists(),
-                         "Current 56-country baseline test must be updated after actual NG restoration")
+        # Works before and after a validated source restore. The receipt is
+        # mandatory when NG has joined the current active source registry.
+        if (AFRICA / "countries/NG").exists():
+            receipt = AFRICA / "restorations/NG-pinned-source.json"
+            self.assertTrue(receipt.is_file())
+            restored = json.loads(receipt.read_text(encoding="utf-8"))
+            self.assertEqual(restored["source_rows"], EXPECTED_NG_ROWS)
 
 
 if __name__ == "__main__":
