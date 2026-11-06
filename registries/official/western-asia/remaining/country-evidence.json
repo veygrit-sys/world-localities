@@ -1,0 +1,1044 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-06",
+  "scope": [
+    "LB",
+    "IQ",
+    "SY",
+    "YE"
+  ],
+  "origin": "Official and humanitarian source-supported labels, not full original postal datasets",
+  "countries": {
+    "LB": {
+      "admin1": [
+        {
+          "id": "LB-01",
+          "display_en": "Akkar",
+          "search_aliases": [
+            "Aakkar",
+            "Mohafazat Aakkar"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false
+        },
+        {
+          "id": "LB-02",
+          "display_en": "Baalbek-Hermel",
+          "search_aliases": [
+            "Baalbek El Hermel",
+            "Mohafazat Baalbek-Hermel"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false
+        },
+        {
+          "id": "LB-03",
+          "display_en": "Beirut",
+          "search_aliases": [
+            "Beyrouth",
+            "Beyrut"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false
+        },
+        {
+          "id": "LB-04",
+          "display_en": "Bekaa",
+          "search_aliases": [
+            "Beqaa",
+            "Mohafazat Beqaa",
+            "Béqaa"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false
+        },
+        {
+          "id": "LB-05",
+          "display_en": "Mount Lebanon",
+          "search_aliases": [
+            "Mont-Liban",
+            "Mohafazat Mont-Liban"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false
+        },
+        {
+          "id": "LB-06",
+          "display_en": "North Lebanon",
+          "search_aliases": [
+            "Liban Nord",
+            "Mohafazat Liban-Nord"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false
+        },
+        {
+          "id": "LB-07",
+          "display_en": "Nabatiyeh",
+          "search_aliases": [
+            "Nabatieh",
+            "Mohafazat Nabatîyé"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false
+        },
+        {
+          "id": "LB-08",
+          "display_en": "South Lebanon",
+          "search_aliases": [
+            "Liban Sud",
+            "Mohafazat Liban-Sud"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false
+        }
+      ],
+      "source_names": [
+        "LB-IDAL-8"
+      ],
+      "postcode_mode": "unconfirmed_no_required_national_postcode",
+      "historical_administrative_reclassification": false
+    },
+    "IQ": {
+      "admin1": [
+        {
+          "id": "IQ-01",
+          "display_en": "Al Anbar",
+          "search_aliases": [
+            "Anbar",
+            "Al Anbar Governorate"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "historical_postal_and_statistical_name",
+          "official_postal_prefix": null,
+          "effective_from": null
+        },
+        {
+          "id": "IQ-02",
+          "display_en": "Basra",
+          "search_aliases": [
+            "Basrah",
+            "Al Basrah"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "historical_postal_and_statistical_name",
+          "official_postal_prefix": null,
+          "effective_from": null
+        },
+        {
+          "id": "IQ-03",
+          "display_en": "Al Muthanna",
+          "search_aliases": [
+            "Muthanna",
+            "Al Muthana"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "historical_postal_and_statistical_name",
+          "official_postal_prefix": null,
+          "effective_from": null
+        },
+        {
+          "id": "IQ-04",
+          "display_en": "Najaf",
+          "search_aliases": [
+            "An Najaf",
+            "Al Najaf"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "historical_postal_and_statistical_name",
+          "official_postal_prefix": null,
+          "effective_from": null
+        },
+        {
+          "id": "IQ-05",
+          "display_en": "Al Qadisiyah",
+          "search_aliases": [
+            "Al Qadisiyyah",
+            "Al Qadisiya"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "historical_postal_and_statistical_name",
+          "official_postal_prefix": null,
+          "effective_from": null
+        },
+        {
+          "id": "IQ-06",
+          "display_en": "Sulaymaniyah",
+          "search_aliases": [
+            "As Sulaymaniyah",
+            "Sulaimaniyah"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "historical_postal_and_statistical_name",
+          "official_postal_prefix": null,
+          "effective_from": null
+        },
+        {
+          "id": "IQ-07",
+          "display_en": "Kirkuk",
+          "search_aliases": [
+            "At Ta'mim",
+            "Al Taamim"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "historical_postal_and_statistical_name",
+          "official_postal_prefix": null,
+          "effective_from": null
+        },
+        {
+          "id": "IQ-08",
+          "display_en": "Erbil",
+          "search_aliases": [
+            "Arbil",
+            "Arbīl"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "historical_postal_and_statistical_name",
+          "official_postal_prefix": null,
+          "effective_from": null
+        },
+        {
+          "id": "IQ-09",
+          "display_en": "Babil",
+          "search_aliases": [
+            "Babylon"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "historical_postal_and_statistical_name",
+          "official_postal_prefix": null,
+          "effective_from": null
+        },
+        {
+          "id": "IQ-10",
+          "display_en": "Baghdad",
+          "search_aliases": [
+            "Bagdad"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "historical_postal_and_statistical_name",
+          "official_postal_prefix": null,
+          "effective_from": null
+        },
+        {
+          "id": "IQ-11",
+          "display_en": "Duhok",
+          "search_aliases": [
+            "Dahuk",
+            "Dohuk"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "historical_postal_and_statistical_name",
+          "official_postal_prefix": null,
+          "effective_from": null
+        },
+        {
+          "id": "IQ-12",
+          "display_en": "Diyala",
+          "search_aliases": [
+            "Deyala"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "historical_postal_and_statistical_name",
+          "official_postal_prefix": null,
+          "effective_from": null
+        },
+        {
+          "id": "IQ-13",
+          "display_en": "Karbala",
+          "search_aliases": [
+            "Karbala'"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "historical_postal_and_statistical_name",
+          "official_postal_prefix": null,
+          "effective_from": null
+        },
+        {
+          "id": "IQ-14",
+          "display_en": "Maysan",
+          "search_aliases": [
+            "Misan"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "historical_postal_and_statistical_name",
+          "official_postal_prefix": null,
+          "effective_from": null
+        },
+        {
+          "id": "IQ-15",
+          "display_en": "Nineveh",
+          "search_aliases": [
+            "Ninawa",
+            "Nainawa",
+            "Mosul"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "historical_postal_and_statistical_name",
+          "official_postal_prefix": null,
+          "effective_from": null
+        },
+        {
+          "id": "IQ-16",
+          "display_en": "Salah al-Din",
+          "search_aliases": [
+            "Salah ad Din"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "historical_postal_and_statistical_name",
+          "official_postal_prefix": null,
+          "effective_from": null
+        },
+        {
+          "id": "IQ-17",
+          "display_en": "Dhi Qar",
+          "search_aliases": [
+            "Thi Qar",
+            "Dhiqar"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "historical_postal_and_statistical_name",
+          "official_postal_prefix": null,
+          "effective_from": null
+        },
+        {
+          "id": "IQ-18",
+          "display_en": "Wasit",
+          "search_aliases": [
+            "Wassit"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "historical_postal_and_statistical_name",
+          "official_postal_prefix": null,
+          "effective_from": null
+        },
+        {
+          "id": "IQ-19",
+          "display_en": "Halabja",
+          "search_aliases": [
+            "Halabjah",
+            "Ḩalabjah"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "source_tier": "law_2025",
+          "official_postal_prefix": null,
+          "effective_from": "2025-05-05"
+        }
+      ],
+      "source_names": [
+        "IQ-MOJ-4825",
+        "IQ-UPU-2005"
+      ],
+      "postcode_mode": "five_digit_office_code",
+      "halabja_19th_from": "2025-05-05"
+    },
+    "SY": {
+      "admin1": [
+        {
+          "id": "sy-al-hasakah",
+          "display_en": "Al-Hasakah",
+          "search_aliases": [
+            "Hasakah",
+            "Hasaka",
+            "Al-Hasakah Governorate",
+            "Hasaka Governorate"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "name_ar": "الحسكة",
+          "source_geonames_id_unreviewed": "173813",
+          "source_ocha_pcode_not_postal": "SY08"
+        },
+        {
+          "id": "sy-aleppo",
+          "display_en": "Aleppo",
+          "search_aliases": [
+            "Aleppo Governorate"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "name_ar": "حلب",
+          "source_geonames_id_unreviewed": "170062",
+          "source_ocha_pcode_not_postal": "SY02"
+        },
+        {
+          "id": "sy-as-suwayda",
+          "display_en": "As-Suwayda",
+          "search_aliases": [
+            "Suwayda",
+            "al-Suwayda",
+            "As-Suwayda Governorate",
+            "al-Suwayda Governorate"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "name_ar": "السويداء",
+          "source_geonames_id_unreviewed": "172410",
+          "source_ocha_pcode_not_postal": "SY13"
+        },
+        {
+          "id": "sy-damascus",
+          "display_en": "Damascus",
+          "search_aliases": [
+            "Damascus Governorate",
+            "Damascus City"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "name_ar": "دمشق",
+          "source_geonames_id_unreviewed": "167541",
+          "source_ocha_pcode_not_postal": "SY01"
+        },
+        {
+          "id": "sy-daraa",
+          "display_en": "Daraa",
+          "search_aliases": [
+            "Dar'a",
+            "Dara",
+            "Daraa Governorate"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "name_ar": "درعا",
+          "source_geonames_id_unreviewed": "170903",
+          "source_ocha_pcode_not_postal": "SY12"
+        },
+        {
+          "id": "sy-deir-ez-zor",
+          "display_en": "Deir ez-Zor",
+          "search_aliases": [
+            "Dayr az-Zawr",
+            "Dajr ez-Zaur",
+            "Deir ez-Zor Governorate"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "name_ar": "دير الزور",
+          "source_geonames_id_unreviewed": "170792",
+          "source_ocha_pcode_not_postal": "SY09"
+        },
+        {
+          "id": "sy-hama",
+          "display_en": "Hama",
+          "search_aliases": [
+            "Hamah",
+            "Hama Governorate",
+            "Hamah Governorate"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "name_ar": "حماة",
+          "source_geonames_id_unreviewed": "170015",
+          "source_ocha_pcode_not_postal": "SY05"
+        },
+        {
+          "id": "sy-homs",
+          "display_en": "Homs",
+          "search_aliases": [
+            "Hims",
+            "Homs Governorate",
+            "Hims Governorate"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "name_ar": "حمص",
+          "source_geonames_id_unreviewed": "169575",
+          "source_ocha_pcode_not_postal": "SY04"
+        },
+        {
+          "id": "sy-idlib",
+          "display_en": "Idlib",
+          "search_aliases": [
+            "Idlib Governorate"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "name_ar": "إدلب",
+          "source_geonames_id_unreviewed": "169387",
+          "source_ocha_pcode_not_postal": "SY07"
+        },
+        {
+          "id": "sy-latakia",
+          "display_en": "Latakia",
+          "search_aliases": [
+            "Lattakia",
+            "Latakia Governorate"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "name_ar": "اللاذقية",
+          "source_geonames_id_unreviewed": "173578",
+          "source_ocha_pcode_not_postal": "SY06"
+        },
+        {
+          "id": "sy-quneitra",
+          "display_en": "Quneitra",
+          "search_aliases": [
+            "Al Qunaytirah",
+            "Al-Qunaytirah",
+            "Quneitra Governorate"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "name_ar": "القنيطرة",
+          "source_geonames_id_unreviewed": "173336",
+          "source_ocha_pcode_not_postal": "SY14"
+        },
+        {
+          "id": "sy-raqqa",
+          "display_en": "Raqqa",
+          "search_aliases": [
+            "Ar-Raqqah",
+            "Al-Raqqah",
+            "Ar-Raqqah Governorate",
+            "Al-Raqqah Governorate"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "name_ar": "الرقة",
+          "source_geonames_id_unreviewed": "172957",
+          "source_ocha_pcode_not_postal": "SY11"
+        },
+        {
+          "id": "sy-rif-dimashq",
+          "display_en": "Rif Dimashq",
+          "search_aliases": [
+            "Rif-dimashq",
+            "Damascus Countryside",
+            "Governorate of the Countryside of Damascus",
+            "Damascus Surroundings",
+            "Rif Dimashq Governorate"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "name_ar": "ريف دمشق",
+          "source_geonames_id_unreviewed": "170652",
+          "source_ocha_pcode_not_postal": "SY03"
+        },
+        {
+          "id": "sy-tartus",
+          "display_en": "Tartus",
+          "search_aliases": [
+            "Tartous",
+            "Tartus Governorate"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "name_ar": "طرطوس",
+          "source_geonames_id_unreviewed": "163342",
+          "source_ocha_pcode_not_postal": "SY10"
+        }
+      ],
+      "source_names": [
+        "SY-OPEN-SYRIA-v015"
+      ],
+      "postcode_mode": "no_confirmed_national_postcode",
+      "humanitarian_pcode_not_postal": true
+    },
+    "YE": {
+      "admin1": [
+        {
+          "id": "YE-AD",
+          "display_en": "Aden",
+          "search_aliases": [
+            "Adan",
+            "‘Adan"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "AD",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-AM",
+          "display_en": "Amran",
+          "search_aliases": [
+            "Amrān"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "AM",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-AB",
+          "display_en": "Abyan",
+          "search_aliases": [],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "AB",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-DA",
+          "display_en": "Ad Dali",
+          "search_aliases": [
+            "Ad Dali'",
+            "Aḑ Ḑāli‘"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "DA",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-BA",
+          "display_en": "Al Bayda",
+          "search_aliases": [
+            "Al Bayḑā’"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "BA",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-HU",
+          "display_en": "Al Hudaydah",
+          "search_aliases": [
+            "Hodeidah",
+            "Al Ḩudaydah"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "HU",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-JA",
+          "display_en": "Al Jawf",
+          "search_aliases": [],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "JA",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-MR",
+          "display_en": "Al Mahrah",
+          "search_aliases": [
+            "Al Mahra"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "MR",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-MW",
+          "display_en": "Al Mahwit",
+          "search_aliases": [
+            "Al Maḩwīt"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "MW",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-SA",
+          "display_en": "Sana'a City",
+          "search_aliases": [
+            "Amanat al Asimah",
+            "Amānat al ‘Āşimah",
+            "Amanat al Asimah (municipality)"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "SA",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-SU",
+          "display_en": "Socotra",
+          "search_aliases": [
+            "Suqutra",
+            "Arkhabīl Suquţrá"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "SU",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-DH",
+          "display_en": "Dhamar",
+          "search_aliases": [
+            "Dhamār"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "DH",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-HD",
+          "display_en": "Hadramawt",
+          "search_aliases": [
+            "Ḩaḑramawt",
+            "Hadramout"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "HD",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-HJ",
+          "display_en": "Hajjah",
+          "search_aliases": [],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "HJ",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-IB",
+          "display_en": "Ibb",
+          "search_aliases": [],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "IB",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-LA",
+          "display_en": "Lahij",
+          "search_aliases": [
+            "Lahj"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "LA",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-MA",
+          "display_en": "Marib",
+          "search_aliases": [
+            "Ma’rib",
+            "Ma'rib"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "MA",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-RA",
+          "display_en": "Raymah",
+          "search_aliases": [
+            "Rayma"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "RA",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-SD",
+          "display_en": "Sadah",
+          "search_aliases": [
+            "Sa'dah",
+            "Sa’dah"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "SD",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-SN",
+          "display_en": "Sanaa Governorate",
+          "search_aliases": [
+            "Sana'a Governorate",
+            "Şanʻā'"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "SN",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-SH",
+          "display_en": "Shabwah",
+          "search_aliases": [
+            "Shabwa"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "SH",
+          "not_a_postal_code": true
+        },
+        {
+          "id": "YE-TA",
+          "display_en": "Taiz",
+          "search_aliases": [
+            "Ta'izz",
+            "Ta’izz"
+          ],
+          "official_id_link_to_geonames_verified": false,
+          "postal_assignment_verified": false,
+          "unlocode_subdivision_code": "TA",
+          "not_a_postal_code": true
+        }
+      ],
+      "source_names": [
+        "YE-UNECE-22",
+        "YE-OCHA-COD"
+      ],
+      "postcode_mode": "no_confirmed_national_postcode",
+      "humanitarian_pcode_not_postal": true
+    }
+  },
+  "sources": {
+    "LB": [
+      {
+        "source_id": "LB-IDAL-8",
+        "publisher": "Investment Development Authority of Lebanon",
+        "url": "https://investinlebanon.gov.lb/en/lebanon_at_a_glance/invest_in_regions",
+        "role": "eight_current_governorates",
+        "as_of": "2026-11-06",
+        "rights": "source_facts_excerpt_only"
+      },
+      {
+        "source_id": "LB-UPU-2018",
+        "publisher": "UPU / LibanPost",
+        "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/lbnEn.pdf",
+        "role": "address_format_home_and_po_box_not_postcode_directory",
+        "as_of": "2018-08",
+        "rights": "source_example_only"
+      },
+      {
+        "source_id": "LB-ATLAS-2026",
+        "publisher": "Lebanon Atlas / OCHA/CAS",
+        "url": "https://services7.arcgis.com/OixUjmnC9qQkjog0/ArcGIS/rest/services/Lebanon_Atlas_%E2%80%93_National_and_Subnational_Administrative_Boundaries/FeatureServer",
+        "role": "eight_governorates_26_districts_1627_cadastres_original_not_imported",
+        "as_of": "2026-06",
+        "rights": "separate_OCHA_CAS_attribution_license_review"
+      }
+    ],
+    "IQ": [
+      {
+        "source_id": "IQ-MOJ-4825",
+        "publisher": "Iraq Ministry of Justice",
+        "url": "https://moj.gov.iq/view.9248/",
+        "role": "Halabja_established_as_19th_governorate",
+        "as_of": "2025-05-13",
+        "rights": "source_fact_excerpts"
+      },
+      {
+        "source_id": "IQ-POST-DIRECTORY",
+        "publisher": "Iraqi Post",
+        "url": "https://post.iq/?page=15",
+        "role": "five_digit_post_office_code_to_name",
+        "as_of": "date_not_confirmed",
+        "rights": "small_fact_excerpts;republication_needs_review"
+      },
+      {
+        "source_id": "IQ-UPU-2005",
+        "publisher": "UPU / Iraqi Post",
+        "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/irqEn.pdf",
+        "role": "historical_18_province_list_and_five_digit_home_box_examples",
+        "as_of": "2005-03",
+        "rights": "source_example_only_stale"
+      },
+      {
+        "source_id": "IQ-NOGP",
+        "publisher": "Iraqi National Open Government Portal",
+        "url": "https://nogp.gov.iq/ApiDocs.aspx",
+        "role": "public_admin_data_api_not_acquired",
+        "as_of": "2026-11",
+        "rights": "data_specific_reuse_review"
+      }
+    ],
+    "SY": [
+      {
+        "source_id": "SY-OPEN-SYRIA-v015",
+        "publisher": "OpenSyria Data Geography",
+        "url": "https://github.com/Open-Syria/data-geography",
+        "role": "14_gov_62_district_272_subdistrict_7605_locality_original_dataset_projected",
+        "as_of": "2026-07-19",
+        "rights": "CC-BY-4.0 with source-specific attribution"
+      },
+      {
+        "source_id": "SY-OCHA-COD",
+        "publisher": "OCHA/HDX",
+        "url": "https://ocha-dap.github.io/cod-site/",
+        "role": "humanitarian_administrative_pcodes_not_postcodes",
+        "as_of": "2024-04",
+        "rights": "CC-BY-IGO review before bulk redistribution"
+      }
+    ],
+    "YE": [
+      {
+        "source_id": "YE-UNECE-22",
+        "publisher": "UNECE UN/LOCODE subdivision registry",
+        "url": "https://unlocode.unece.org/directory/subdivisions/?country=YE",
+        "role": "22_subdivision_names_and_codes_not_postcodes",
+        "as_of": "2026-11",
+        "rights": "reference_factual_excerpt_only"
+      },
+      {
+        "source_id": "YE-OCHA-COD",
+        "publisher": "OCHA Yemen Humanitarian Atlas",
+        "url": "https://humanitarianatlas.org/yemen/",
+        "role": "22_governorates_335_districts_2149_subdistricts_pcodes_not_postal",
+        "as_of": "2026-11",
+        "rights": "source-specific OCHA attribution and license review"
+      },
+      {
+        "source_id": "YE-UPU-2005",
+        "publisher": "UPU / Yemen Post",
+        "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/yemEn.pdf",
+        "role": "PO_box_example_not_national_postcode_directory",
+        "as_of": "2005-03",
+        "rights": "source_example_only_stale"
+      },
+      {
+        "source_id": "YE-POST",
+        "publisher": "Yemen Post",
+        "url": "https://www.post.ye/web/index.php/compch",
+        "role": "PO_Box_8008_contact_example",
+        "as_of": "2026-11",
+        "rights": "source_example_only"
+      }
+    ]
+  },
+  "postal_evidence": [
+    {
+      "country": "IQ",
+      "code": "54001",
+      "place_name": "النجف",
+      "place_language": "ar",
+      "scheme": "post_office_5",
+      "evidence_type": "official_post_office_listing",
+      "source_id": "IQ-POST-DIRECTORY",
+      "record_id": "IQ-POST-001",
+      "geonames_identity_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "country": "IQ",
+      "code": "54002",
+      "place_name": "العباسية",
+      "place_language": "ar",
+      "scheme": "post_office_5",
+      "evidence_type": "official_post_office_listing",
+      "source_id": "IQ-POST-DIRECTORY",
+      "record_id": "IQ-POST-002",
+      "geonames_identity_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "country": "IQ",
+      "code": "54003",
+      "place_name": "الكوفة",
+      "place_language": "ar",
+      "scheme": "post_office_5",
+      "evidence_type": "official_post_office_listing",
+      "source_id": "IQ-POST-DIRECTORY",
+      "record_id": "IQ-POST-003",
+      "geonames_identity_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "country": "IQ",
+      "code": "36001",
+      "place_name": "كركوك",
+      "place_language": "ar",
+      "scheme": "post_office_5",
+      "evidence_type": "official_post_office_listing",
+      "source_id": "IQ-POST-DIRECTORY",
+      "record_id": "IQ-POST-004",
+      "geonames_identity_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "country": "IQ",
+      "code": "36002",
+      "place_name": "الرياض",
+      "place_language": "ar",
+      "scheme": "post_office_5",
+      "evidence_type": "official_post_office_listing",
+      "source_id": "IQ-POST-DIRECTORY",
+      "record_id": "IQ-POST-005",
+      "geonames_identity_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "country": "IQ",
+      "code": "36003",
+      "place_name": "ليلان ( قره حسن )",
+      "place_language": "ar",
+      "scheme": "post_office_5",
+      "evidence_type": "official_post_office_listing",
+      "source_id": "IQ-POST-DIRECTORY",
+      "record_id": "IQ-POST-006",
+      "geonames_identity_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "country": "IQ",
+      "code": "56001",
+      "place_name": "كربلاء",
+      "place_language": "ar",
+      "scheme": "post_office_5",
+      "evidence_type": "official_post_office_listing",
+      "source_id": "IQ-POST-DIRECTORY",
+      "record_id": "IQ-POST-007",
+      "geonames_identity_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "country": "IQ",
+      "code": "56002",
+      "place_name": "الهندية",
+      "place_language": "ar",
+      "scheme": "post_office_5",
+      "evidence_type": "official_post_office_listing",
+      "source_id": "IQ-POST-DIRECTORY",
+      "record_id": "IQ-POST-008",
+      "geonames_identity_verified": false,
+      "delivery_verified": false
+    },
+    {
+      "country": "IQ",
+      "code": "61002",
+      "place_name": "Al Asmaee, Al Basrah",
+      "place_language": "en",
+      "scheme": "upu_five_digit_address_example",
+      "evidence_type": "old_2005_example_not_current_assignment",
+      "source_id": "IQ-UPU-2005",
+      "record_id": "IQ-POST-009",
+      "geonames_identity_verified": false,
+      "delivery_verified": false
+    }
+  ],
+  "data_quality": {
+    "all_country_postcode_directories_originals_imported": false,
+    "government_administrative_name_crosswalks_verified": false,
+    "postcodes_to_geonames_links_verified": 0,
+    "carrier_deliverability_verified": false,
+    "country_level_l1_templates_supported": true,
+    "source_date_and_licence_granularity": "per source above"
+  }
+}

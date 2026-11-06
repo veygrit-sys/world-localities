@@ -1,4 +1,4 @@
-# Western Asia: official reference rules for nine countries
+# Western Asia: 18-country address-format foundation and reference layers
 
 This folder extends the existing GeoNames-based locality archives and bilingual address-format
 profiles. It is not a nationwide street/address directory and contains **no imported official
@@ -105,3 +105,13 @@ See [caucasus-levant/README.md](caucasus-levant/README.md) for official regional
 post-office/UPU published postcode examples, language-safe GeoNames candidates,
 and the SHA-256-backed reconciliation audit. No original nationwide official
 postal table has been acquired or assigned as a GN foreign key.
+
+## 18-country completion scope
+
+The original nine-country rule table above remains the first supported group.
+Five Caucasus/Levant country postcode source validators and four final-country
+policy engines complete the 18-country **format-level** baseline. Details:
+[西アジア18か国の実装・品質範囲](../../../docs/plans/western-asia-18-country-baseline-20261106.md).
+The four-country source evidence includes the 7,953-item pinned OpenSyria
+administrative/locality reference. Postal-operator-certified countrywide
+completeness, building existence and carrier deliverability remain unverified.
