@@ -27,8 +27,8 @@ SYRIA = BASE / "syria-reference"
 ASIA = ROOT / "registries" / "asia"
 SCOPE = ("LB", "IQ", "SY", "YE")
 BIDI_CONTROLS = re.compile(r"[\u202a-\u202e\u2066-\u2069]")
-SCHEMES = {"LB": "no_confirmed_general_postcode",
-           "IQ": "five_digit_post_office",
+SCHEMES = {"LB": "unconfirmed_no_required_national_postcode",
+           "IQ": "five_digit_office_code",
            "SY": "no_confirmed_national_postcode",
            "YE": "no_confirmed_national_postcode"}
 FIELDS = {"id", "name", "asciiname", "alternatenames", "admin_level",
