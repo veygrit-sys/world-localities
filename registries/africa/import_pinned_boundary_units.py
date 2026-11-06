@@ -120,7 +120,10 @@ def generate(cache, output):
                 "source_year": s["vintage_year"], "source_origin": s["origin"],
                 "license": s["license"], "source_sha256": s["sha256"],
             })
-        write_csv(output / f"{iso}-{level}-source-units.csv", rows)
+        target = output / f"{iso}-{level}-source-units.csv"
+        write_csv(target, rows)
+        s["derived_csv_sha256"] = sha(target.read_bytes())
+        s["derived_csv_bytes"] = target.stat().st_size
         s["assigned_parent_count"] = sum(bool(r["parent_id"]) for r in data)
         s["parent_count_method"] = "representative point in own-source ADM1 polygon (NOT legally certified parent)"
 
