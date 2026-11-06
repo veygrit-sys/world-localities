@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "country": "SY",
+  "name": "OpenSyria reference administrative hierarchy",
+  "scope": "14 governorates, 62 districts and 272 subdistricts, not postal validation",
+  "upstream_repo": "https://github.com/Open-Syria/data-geography",
+  "source_commit": "b4364ee892351671450f873c2e48901ae37a84be",
+  "source_blobs": {
+    "governorates": "c5706b2b5db6d0c1d8fd5a4d771fd609b1211d01",
+    "districts": "52ed27747e8c534e596a203b5a44cb0337f1c17d",
+    "subdistricts": "f865d4ed9dd53474de57cf21f8e99819c58be125"
+  },
+  "source_license": "CC BY 4.0 with source-specific attribution terms",
+  "processed_as_of": "2026-11-06",
+  "counts": {
+    "governorates": 14,
+    "districts": 62,
+    "subdistricts": 272
+  },
+  "data_status": "imported_released_community_reference_not_government-certified",
+  "ocha_pcode_is_postal": false,
+  "verified_delivery": false
+}
