@@ -32,6 +32,25 @@ class LicenseAndDerivedData(unittest.TestCase):
             self.assertTrue(all(r["parent_shape_id"] in states
                                 for r in all_rows[f"{iso}-ADM2"]))
 
+    def test_country_registry_inspect_and_verify(self):
+        from localities.country import inspect_country, verify_country
+        for country, expected in (("KE", {"adm1": 47, "adm2": 290}),
+                                  ("GH", {"adm1": 16, "adm2": 260})):
+            inspected = inspect_country(country)
+            for suffix, count in expected.items():
+                item = next(layer for layer in inspected["layers"]
+                            if layer["id"] == "africa-boundary-reference-" + suffix)
+                self.assertEqual(item["counts"]["records"], count)
+                self.assertFalse(item["national_completeness_verified"])
+            checked = verify_country(country)
+            self.assertEqual(checked["status"], "passed")
+            for suffix, count in expected.items():
+                item = next(layer for layer in checked["layers"]
+                            if layer["id"] == "africa-boundary-reference-" + suffix)
+                self.assertEqual(item["rows"], count)
+                self.assertEqual(item["source_integrity"], "passed")
+                self.assertEqual(item["row_integrity"], "passed")
+
     def test_unresolved_cases_remain_review_only(self):
         report = json.loads((ROOT / "unresolved-spatial-summary.json").read_text(encoding="utf-8"))
         self.assertEqual(report["approved_administrative_parent_links"], 0)
