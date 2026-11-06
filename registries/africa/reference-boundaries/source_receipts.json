@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "release": "9469f09",
+  "sources": {
+    "KEN-ADM1": {
+      "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/KEN/ADM1/geoBoundaries-KEN-ADM1.geojson",
+      "sha256": "a3e073594494eb740e42fadec63acda982f6a745bb64ee4aa152453ccc46f94e",
+      "bytes": 7956137,
+      "rows": 47,
+      "vintage_year": "2020",
+      "origin": "IEBC, OCHA ROSEA",
+      "license": "CC BY 3.0 IGO",
+      "assigned_parent_count": 0,
+      "parent_count_method": "representative point in own-source ADM1 polygon (NOT legally certified parent)"
+    },
+    "KEN-ADM2": {
+      "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/KEN/ADM2/geoBoundaries-KEN-ADM2.geojson",
+      "sha256": "af9fd77ad3df64f3efbbea350b8664e5191cb5381cf7eea247507ac2c906bc24",
+      "bytes": 10884536,
+      "rows": 290,
+      "vintage_year": "2020",
+      "origin": "IEBC, OCHA ROSEA",
+      "license": "CC BY 3.0 IGO",
+      "assigned_parent_count": 290,
+      "parent_count_method": "representative point in own-source ADM1 polygon (NOT legally certified parent)"
+    },
+    "GHA-ADM1": {
+      "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/GHA/ADM1/geoBoundaries-GHA-ADM1.geojson",
+      "sha256": "ee73028cfcfbfc5a5bb851c118d47136086de499d23a5e0e27dc2876b6796bca",
+      "bytes": 2093457,
+      "rows": 16,
+      "vintage_year": "2019",
+      "origin": "Ghana Statistical Service, USAID Ghana HPNO",
+      "license": "CC BY 4.0",
+      "assigned_parent_count": 0,
+      "parent_count_method": "representative point in own-source ADM1 polygon (NOT legally certified parent)"
+    },
+    "GHA-ADM2": {
+      "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/GHA/ADM2/geoBoundaries-GHA-ADM2.geojson",
+      "sha256": "242adc67f4e4b04df800da06650af20487dbef99cf2b155702529ffa705dc80f",
+      "bytes": 27442126,
+      "rows": 260,
+      "vintage_year": "2019",
+      "origin": "Ghana Statistical Service, USAID Ghana HPNO",
+      "license": "CC BY 4.0",
+      "assigned_parent_count": 260,
+      "parent_count_method": "representative point in own-source ADM1 polygon (NOT legally certified parent)"
+    }
+  },
+  "legal_admin_crosswalk_approved": false,
+  "geonames_modified": false,
+  "caveat": "Source vintages and administrative systems differ; do not equate historical election geographies to current Kenya national administrative units. Parent assignments are spatial-only."
+}
