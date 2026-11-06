@@ -222,8 +222,19 @@ def download(code, root, catalog=None):
     total, digest = 0, hashlib.sha256()
     try:
         with urlopen(Request(url,headers={'User-Agent':'Veygrit-EuroMicrostates/1.0'}),timeout=100) as stream:
-            if stream.status != 200 or stream.geturl() != url:
-                raise ValueError('unexpected HTTP download redirect or status')
+            final = urlsplit(stream.geturl())
+            requested = urlsplit(url)
+            provider = doc['countries'][code]['extract_provider']
+            slug = requested.path.rsplit('/', 1)[-1].removesuffix('-latest.osm.pbf')
+            if provider == 'geofabrik':
+                path_ok = bool(re.fullmatch(r'/europe/' + re.escape(slug) + r'-(?:latest|[0-9]{6})\.osm\.pbf', final.path))
+            else:
+                path_ok = final.path == requested.path
+            if (stream.status != 200 or final.scheme != 'https'
+                    or final.hostname != requested.hostname or final.username or final.password
+                    or final.query or final.fragment or not path_ok):
+                raise ValueError('unexpected source status or redirect: ' + str(stream.status)
+                                 + ' final=' + stream.geturl())
             with part.open('xb') as output:
                 for chunk in iter(lambda:stream.read(1 << 20),b''):
                     total+=len(chunk)
