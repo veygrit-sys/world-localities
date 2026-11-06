@@ -43,6 +43,7 @@ from .southern_africa import SouthernAfricaRegistry, render_southern_africa_addr
 from .southern_europe import SouthernEuropeRegistry, render_southern_europe_address
 from .southeast_asia import SoutheastAsiaRegistry, render_southeast_asia_address
 from .western_asia import WesternAsiaRegistry, render_western_asia_address
+from .western_asia_country import validate_western_asia_country, western_asia_quality_inventory
 from .western_asia_reference import (
     inspect_western_asia_reference,
     validate_western_asia_reference,
@@ -103,6 +104,8 @@ __all__ = [
     "render_southern_europe_address",
     "render_southeast_asia_address",
     "render_western_asia_address",
+    "validate_western_asia_country",
+    "western_asia_quality_inventory",
     "inspect_western_asia_reference",
     "validate_western_asia_reference",
     "render_western_africa_address",
