@@ -34,6 +34,7 @@ python -m localities layout
 |---|---|
 | 東アジア | [east_asia_sources.py](east_asia_sources.py)、[east_asia_query.py](east_asia_query.py)、[east_asia_fast.py](east_asia_fast.py)、[east_asia_projection.py](east_asia_projection.py) |
 | 西欧 | [western_europe_sources.py](western_europe_sources.py) |
+| バルカン・中東欧11か国 | [balkan_11_localities.py](balkan_11_localities.py)（[国別の検証・出典管理](../registries/europe/balkan-11/README.md)） |
 | 北欧9地域 | [nordic_localities.py](nordic_localities.py)（[国別資料](../registries/nordics/README.md)） |
 | オランダ | [netherlands_bag.py](netherlands_bag.py)、[netherlands_reference_review.py](netherlands_reference_review.py)、[netherlands_gap_review.py](netherlands_gap_review.py) |
 | 台湾 | [tw_nlsc_reference.py](tw_nlsc_reference.py) |
@@ -43,6 +44,10 @@ python -m localities layout
 | OSMの内部処理 | [osm_evidence.py](osm_evidence.py)、[osm_stream.py](osm_stream.py)、[osm_pbf_lite.py](osm_pbf_lite.py) |
 
 地域固有の `build.py`・`query.py` は各 `registries/<地域>/` にあります。[データと利用方法](../docs/guides/data-and-usage.md) から進んでください。
+
+## バルカン11か国の共通CLI
+
+`python -m localities balkan inventory` で対象を確認し、`python -m localities balkan audit --country all` で保存済み11か国のGeoNames原典を全件監査します。検証済みの独立SQLite索引は `python -m localities balkan build --country all --output /new/europe-11.sqlite` で生成し、`python -m localities balkan verify --db /new/europe-11.sqlite` で整合性を検証します。ルーマニアSIRUTAは別出典として監査・管理し、実在住所や配達可能性を証明しません。
 
 ## 追加依存
 
