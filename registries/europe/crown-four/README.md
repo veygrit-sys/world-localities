@@ -6,7 +6,7 @@ This project manages four distinct collection/postal codes: **JE, GG, IM, GI**. 
 
 - Existing `registries/europe/countries/{JE,GG,IM,GI}`: **449** pinned GeoNames observations; parent relations are replayed but unverified legal parents remain unchanged. Names are gazetteer observations, not mailing addresses.
 - `official-reference.csv`: **44 government-attested reference facts**: Jersey's 12 parish names, Guernsey's ten parish names, the 21 authorities listed for the Isle of Man's **2025 local elections**, and the Royal Gibraltar Post Office's shared postcode `GX11 1AA`. These are plain published names and one shared territorial code, not a reused bulk address dataset. `ref:*` IDs are **provisional Veygrit IDs**, not assigned by governments.
-- Separate optional ODbL 1.0 OpenStreetMap evidence: two Geofabrik extracts for *Guernsey and Jersey together* and for the *Isle of Man*. All records retain source identity; named road **segments are not unique roads**. PBF source bytes and timestamp are pinned to SHA-256 before import. Gibraltar has **no Geofabrik country-specific extract** in this pipeline; do not pretend Iberian or La Línea objects are Gibraltar addresses.
+- Separate optional ODbL 1.0 OpenStreetMap evidence: two Geofabrik extracts for *Guernsey and Jersey together* and for the *Isle of Man*. All records retain source identity; named road **segments are not unique roads**. PBF source bytes and timestamp are pinned to SHA-256 before import. Gibraltar has an **Official Address Register** reporting 32,000+ searchable addresses, with a 50-results-per-search limit. Bulk extraction and redistribution rights remain unverified, so its entries are **not** copied here. Gibraltar has **no Geofabrik country-specific extract** in this pipeline; do not pretend Iberian or La Línea objects are Gibraltar addresses.
 
 ## Why the territories need separate rules
 
@@ -18,6 +18,8 @@ This project manages four distinct collection/postal codes: **JE, GG, IM, GI**. 
 | Gibraltar GI | No invented parish grid | `GX11 1AA` is a **shared** code confirmed by the Royal Gibraltar Post Office, **not a unique building/postal zone**. Domestic notation `E/V` is not treated as a postcode |
 
 Jersey's government Land and Property Gazetteer is described as containing **over 90,000 address points** and being updated daily. It is not copied or declared legally reusable; bulk access rights and actual source fields need a separate review. The Isle of Man MANNGIS map provides street/postcode search but its public mapping access does not imply redistribution rights. Guernsey Post offers an online Bailiwick-wide address finder; do not scrape bulk addresses from it.
+
+Gibraltar official search documentation: https://www.geoportal.gov.gi/index.php/maps/help/using-the-oar-search-tool .
 
 Official background references in [`sources.json`](sources.json) preserve these restrictions. Names are sourced from the governments' public lists; the list itself is pinned to a source SHA-256.
 
