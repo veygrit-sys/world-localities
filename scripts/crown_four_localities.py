@@ -208,7 +208,7 @@ def download(slug,dest):
             if (r.status!=200 or endpoint.scheme!='https' or
                 not re.fullmatch(r'download(?:-ext[0-9]+)?\.geofabrik\.de',endpoint.hostname or '') or
                 endpoint.path!=urlsplit(EXTRACTS[slug]).path):
-                raise ValueError('Unexpected Geofabrik download/redirect')
+                raise ValueError('Unexpected Geofabrik download/redirect: HTTP='+str(r.status)+' host='+str(endpoint.hostname)+' path='+endpoint.path)
             n=0
             with part.open('xb') as f:
                 for b in iter(lambda:r.read(1024*1024),b''):
