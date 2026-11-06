@@ -45,7 +45,7 @@ class OfficialEconomicRegionTests(unittest.TestCase):
         self.assertEqual(az.name_key("Ağdərə"), "aghdara")
         self.assertEqual(az.base_name("Şuşa rayonu"), "shusha")
         self.assertEqual(az.base_name("Shusha Rayon"), "shusha")
-        self.assertEqual(az.base_name("Şəki şəhəri"), "sheki")
+        self.assertEqual(az.base_name("Şəki şəhəri"), "shaki")
 
     def test_rayon_and_city_names_not_collapsed(self):
         geo = [
