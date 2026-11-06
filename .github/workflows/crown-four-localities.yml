@@ -7,12 +7,14 @@ on:
       - tests/test_crown_four_localities.py
       - registries/europe/crown-four/**
       - .github/workflows/crown-four-localities.yml
+      - localities/__main__.py
   pull_request:
     paths:
       - scripts/crown_four_localities.py
       - tests/test_crown_four_localities.py
       - registries/europe/crown-four/**
       - .github/workflows/crown-four-localities.yml
+      - localities/__main__.py
   workflow_dispatch:
 
 permissions:
@@ -36,11 +38,11 @@ jobs:
       - name: Audit all repository GeoNames data and build source separated index
         run: |
           mkdir -p evidence
-          python scripts/crown_four_localities.py audit > evidence/audit.json
-          python scripts/crown_four_localities.py build --output "$RUNNER_TEMP/crown-four-base.sqlite" > evidence/build.json
-          python scripts/crown_four_localities.py verify --db "$RUNNER_TEMP/crown-four-base.sqlite" > evidence/verify.json
-          python scripts/crown_four_localities.py query --db "$RUNNER_TEMP/crown-four-base.sqlite" --country GI --text 'GX11 1AA' > evidence/gibraltar.json
-          python scripts/crown_four_localities.py query --db "$RUNNER_TEMP/crown-four-base.sqlite" --country IM --text 'Arbory and Rushen' > evidence/man-authority.json
+          python -m localities crown audit > evidence/audit.json
+          python -m localities crown build --output "$RUNNER_TEMP/crown-four-base.sqlite" > evidence/build.json
+          python -m localities crown verify --db "$RUNNER_TEMP/crown-four-base.sqlite" > evidence/verify.json
+          python -m localities crown query --db "$RUNNER_TEMP/crown-four-base.sqlite" --country GI --text 'GX11 1AA' > evidence/gibraltar.json
+          python -m localities crown query --db "$RUNNER_TEMP/crown-four-base.sqlite" --country IM --text 'Arbory and Rushen' > evidence/man-authority.json
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: crown-four-accepted-audit
@@ -72,8 +74,8 @@ jobs:
             --output "$RUNNER_TEMP/crown-four-osm.sqlite" --source-root "$RUNNER_TEMP/crown-pbf" \
             --pin "$RUNNER_TEMP/crown-pbf/guernsey-jersey-source-pin.json" \
             --pin "$RUNNER_TEMP/crown-pbf/isle-of-man-source-pin.json" > evidence/full-build.json
-          python scripts/crown_four_localities.py verify --db "$RUNNER_TEMP/crown-four-osm.sqlite" > evidence/full-verify.json
-          python scripts/crown_four_localities.py query --db "$RUNNER_TEMP/crown-four-osm.sqlite" --country UNRESOLVED --kind named_road_segment > evidence/unresolved-examples.json
+          python -m localities crown verify --db "$RUNNER_TEMP/crown-four-osm.sqlite" > evidence/full-verify.json
+          python -m localities crown query --db "$RUNNER_TEMP/crown-four-osm.sqlite" --country UNRESOLVED --kind named_road_segment > evidence/unresolved-examples.json
           printf '%s\n' 'ODbL 1.0. Attribution: © OpenStreetMap contributors; Geofabrik extracts.' \
             'JE/GG bounding boxes and shared region are not legal boundary assignments.' \
             'GI has only official textual postcode reference, not an OSM extract.' > evidence/NOTICE.txt
