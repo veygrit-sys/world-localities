@@ -7,6 +7,8 @@
   "approved_administrative_parent_links": 0,
   "original_geonames_changed": false,
   "only_spatial_candidates_reviewed": true,
+  "source_year_spatial_memberships": 66,
+  "legal_parent_certification_for_memberships": false,
   "counts": {
     "KE": {
       "name_and_spatial_area_candidate": 3,
