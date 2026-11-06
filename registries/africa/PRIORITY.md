@@ -138,3 +138,12 @@ These reports expose the original source feature class, parent relation, GeoName
 - **Still not done:** source original Nigeria NG gzip 65,444 records into the current registry, and **officially approved direct GeoNames parent ID links for the 80 cases**. Time-versioned polygon membership is valuable for diagnostics but it is *not* an official subcounty government code.
 
 For source methodology, rights and real reconciliation counts see [reference-boundaries/README.md](reference-boundaries/README.md).
+
+### Follow-up: versioned spatial overlay
+
+`reference-boundaries/source-year-spatial-memberships.csv` now
+materializes **66** well-scoped, unique point-in-source-polygon
+relations (KE 65, GH 1) from the original unresolved 80 records.
+These permit 2020/2019 geographic lookup in the secondary licensed
+boundary source. They **do not** repair any original direct
+GeoNames parent ID (still 0/80 certified).
