@@ -1,0 +1,29 @@
+country,reference_id,kind,name,source_locator,source_scope,authority_code_verified
+AD,AD:parish:canillo,parish,Canillo,AD-official-2026,official-name-only,false
+AD,AD:parish:encamp,parish,Encamp,AD-official-2026,official-name-only,false
+AD,AD:parish:ordino,parish,Ordino,AD-official-2026,official-name-only,false
+AD,AD:parish:massana,parish,La Massana,AD-official-2026,official-name-only,false
+AD,AD:parish:andorra-la-vella,parish,Andorra la Vella,AD-official-2026,official-name-only,false
+AD,AD:parish:sant-julia,parish,Sant Julià de Lòria,AD-official-2026,official-name-only,false
+AD,AD:parish:escaldes,parish,Escaldes-Engordany,AD-official-2026,official-name-only,false
+LI,LI:municipality:balzers,municipality,Balzers,LI-official-2026,official-name-only,false
+LI,LI:municipality:triesen,municipality,Triesen,LI-official-2026,official-name-only,false
+LI,LI:municipality:triesenberg,municipality,Triesenberg,LI-official-2026,official-name-only,false
+LI,LI:municipality:vaduz,municipality,Vaduz,LI-official-2026,official-name-only,false
+LI,LI:municipality:schaan,municipality,Schaan,LI-official-2026,official-name-only,false
+LI,LI:municipality:planken,municipality,Planken,LI-official-2026,official-name-only,false
+LI,LI:municipality:eschen,municipality,Eschen,LI-official-2026,official-name-only,false
+LI,LI:municipality:gamprin,municipality,Gamprin,LI-official-2026,official-name-only,false
+LI,LI:municipality:mauren,municipality,Mauren,LI-official-2026,official-name-only,false
+LI,LI:municipality:schellenberg,municipality,Schellenberg,LI-official-2026,official-name-only,false
+LI,LI:municipality:ruggell,municipality,Ruggell,LI-official-2026,official-name-only,false
+SM,SM:castello:citta-di-san-marino,castello,Città di San Marino,SM-official-2026,official-name-only,false
+SM,SM:castello:borgo-maggiore,castello,Borgo Maggiore,SM-official-2026,official-name-only,false
+SM,SM:castello:serravalle,castello,Serravalle,SM-official-2026,official-name-only,false
+SM,SM:castello:acquaviva,castello,Acquaviva,SM-official-2026,official-name-only,false
+SM,SM:castello:chiesanuova,castello,Chiesanuova,SM-official-2026,official-name-only,false
+SM,SM:castello:domagnano,castello,Domagnano,SM-official-2026,official-name-only,false
+SM,SM:castello:faetano,castello,Faetano,SM-official-2026,official-name-only,false
+SM,SM:castello:fiorentino,castello,Fiorentino,SM-official-2026,official-name-only,false
+SM,SM:castello:montegiardino,castello,Montegiardino,SM-official-2026,official-name-only,false
+VA,VA:postal:scv-00120,postal_reference,SCV-00120,VA-official-2026,country-mail-designation-only,false
