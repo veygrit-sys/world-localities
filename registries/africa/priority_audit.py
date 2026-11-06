@@ -145,7 +145,11 @@ def audit(root=ROOT):
     return {
         "as_of": config["reviewed_on"],
         "source_integrity_checked": True,
-        "official_sources_ingested_by_this_change": 0,
+        "source_reference_layers_ingested": (
+            sum(v["rows"] for v in load_json(root / "reference-boundaries/source_receipts.json")["sources"].values())
+            if (root / "reference-boundaries/source_receipts.json").exists() else 0
+        ),
+        "current_legal_administrative_parent_links_approved": 0,
         "postcode_or_delivery_claim": False,
         "waves": waves,
         "integrity_errors": sorted(set(errors)),
