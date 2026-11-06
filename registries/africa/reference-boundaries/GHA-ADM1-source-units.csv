@@ -1,0 +1,17 @@
+country,admin_level,boundary_shape_id,name,parent_shape_id,parent_assignment,source_year,source_origin,license,source_sha256
+GHA,ADM1,69750345B39836988306125,Ahafo Region,,not_applicable,2019,"Ghana Statistical Service, USAID Ghana HPNO",CC BY 4.0,ee73028cfcfbfc5a5bb851c118d47136086de499d23a5e0e27dc2876b6796bca
+GHA,ADM1,69750345B3295588325057,Ashanti Region,,not_applicable,2019,"Ghana Statistical Service, USAID Ghana HPNO",CC BY 4.0,ee73028cfcfbfc5a5bb851c118d47136086de499d23a5e0e27dc2876b6796bca
+GHA,ADM1,69750345B43572680159989,Bono East Region,,not_applicable,2019,"Ghana Statistical Service, USAID Ghana HPNO",CC BY 4.0,ee73028cfcfbfc5a5bb851c118d47136086de499d23a5e0e27dc2876b6796bca
+GHA,ADM1,69750345B13833050062966,Bono Region,,not_applicable,2019,"Ghana Statistical Service, USAID Ghana HPNO",CC BY 4.0,ee73028cfcfbfc5a5bb851c118d47136086de499d23a5e0e27dc2876b6796bca
+GHA,ADM1,69750345B67040307067067,Central Region,,not_applicable,2019,"Ghana Statistical Service, USAID Ghana HPNO",CC BY 4.0,ee73028cfcfbfc5a5bb851c118d47136086de499d23a5e0e27dc2876b6796bca
+GHA,ADM1,69750345B54645730941985,Eastern Region,,not_applicable,2019,"Ghana Statistical Service, USAID Ghana HPNO",CC BY 4.0,ee73028cfcfbfc5a5bb851c118d47136086de499d23a5e0e27dc2876b6796bca
+GHA,ADM1,69750345B46963341226980,Greater Accra Region,,not_applicable,2019,"Ghana Statistical Service, USAID Ghana HPNO",CC BY 4.0,ee73028cfcfbfc5a5bb851c118d47136086de499d23a5e0e27dc2876b6796bca
+GHA,ADM1,69750345B94584643914501,North East Region,,not_applicable,2019,"Ghana Statistical Service, USAID Ghana HPNO",CC BY 4.0,ee73028cfcfbfc5a5bb851c118d47136086de499d23a5e0e27dc2876b6796bca
+GHA,ADM1,69750345B37738609557703,Northern Region,,not_applicable,2019,"Ghana Statistical Service, USAID Ghana HPNO",CC BY 4.0,ee73028cfcfbfc5a5bb851c118d47136086de499d23a5e0e27dc2876b6796bca
+GHA,ADM1,69750345B12045161590865,Oti Region,,not_applicable,2019,"Ghana Statistical Service, USAID Ghana HPNO",CC BY 4.0,ee73028cfcfbfc5a5bb851c118d47136086de499d23a5e0e27dc2876b6796bca
+GHA,ADM1,69750345B26994269439887,Savannah Region,,not_applicable,2019,"Ghana Statistical Service, USAID Ghana HPNO",CC BY 4.0,ee73028cfcfbfc5a5bb851c118d47136086de499d23a5e0e27dc2876b6796bca
+GHA,ADM1,69750345B7467317238909,Upper East Region,,not_applicable,2019,"Ghana Statistical Service, USAID Ghana HPNO",CC BY 4.0,ee73028cfcfbfc5a5bb851c118d47136086de499d23a5e0e27dc2876b6796bca
+GHA,ADM1,69750345B48673213774244,Upper West Region,,not_applicable,2019,"Ghana Statistical Service, USAID Ghana HPNO",CC BY 4.0,ee73028cfcfbfc5a5bb851c118d47136086de499d23a5e0e27dc2876b6796bca
+GHA,ADM1,69750345B58204744476950,Volta Region,,not_applicable,2019,"Ghana Statistical Service, USAID Ghana HPNO",CC BY 4.0,ee73028cfcfbfc5a5bb851c118d47136086de499d23a5e0e27dc2876b6796bca
+GHA,ADM1,69750345B35244651716901,Western North Region,,not_applicable,2019,"Ghana Statistical Service, USAID Ghana HPNO",CC BY 4.0,ee73028cfcfbfc5a5bb851c118d47136086de499d23a5e0e27dc2876b6796bca
+GHA,ADM1,69750345B38025690459934,Western Region,,not_applicable,2019,"Ghana Statistical Service, USAID Ghana HPNO",CC BY 4.0,ee73028cfcfbfc5a5bb851c118d47136086de499d23a5e0e27dc2876b6796bca

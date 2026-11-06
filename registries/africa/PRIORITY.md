@@ -78,3 +78,72 @@ Wave 1 is not complete until official data are actually captured, independently 
 - Administrative reform or territorial disputes may require time-versioned hierarchy. Do not silently reparent localities to a new province using name similarity or point-in-polygon alone.
 - Published official lists can provide administrative evidence without proving a physical address exists. Independently tested deliveries are a separate later requirement.
 - The master Africa baseline remains **56 of 60 areas, 388,038 source rows** until the missing archives and manifests are restored and verified; priority planning itself does not change that baseline.
+
+## 2026-11-06 first-wave implementation ledger
+
+**109 first-level authoritative name records are now actually stored** (separate from GeoNames):
+
+| Country | Source names | Unique literal-name candidates | Curated alias candidates | Missing original source |
+|---|---:|---:|---:|---:|
+| ZA | 9 provinces | 9 | 0 | 0 |
+| NG | 37 states/FCT | 0 | 0 | 37 |
+| KE | 47 counties | 45 | 2 | 0 |
+| GH | 16 regions | 7 | 9 | 0 |
+| Total | 109 | 61 | 11 | 37 |
+
+The 72 existing-source candidates are **not approved administrative-ID crosswalks**. Two KE labels (Tharaka Nithi and Elgeyo Marakwet) and nine GH `Region` suffix cases require review and preserve each source's original spelling. Source lists are `official-references/{ZA,NG,KE,GH}-adm1-source-names.csv`. For NG the source codes are **NBS survey category indices**, not geographic government IDs; ZA/GH sequence numbers are **only local table order**, not official codes.
+
+Run `python registries/africa/reconcile_adm1.py --check --output /tmp/africa-adm1-candidates.json` to reproduce the candidates. Official original documents or full boundary datasets have not been redistributed; the table transcribes top-level geographic **names** and their source links only. Existing GeoNames, parent assignments, and source licenses have not been overwritten.
+
+### Original Nigeria archive
+
+The private source checkout `rei-k/world-address` is needed to read the pinned 2026-09-26 original binary file from the exact commit in `migration.json`. This connector cannot return the entire gzip original. **Do not replace it with a newer GeoNames download and call it the historical migration.**
+
+When an authenticated local clone is available:
+
+```bash
+python registries/africa/restore_pinned_ng.py --source-checkout /path/to/world-address
+# Validate output, then explicitly execute:
+python registries/africa/restore_pinned_ng.py --source-checkout /path/to/world-address --apply
+python -m localities country validate-catalog
+python scripts/country_modules.py validate
+python registries/africa/build.py verify
+python registries/africa/priority_audit.py --wave 1 --check
+python -m unittest discover -s registries/africa -p 'test*.py' -v
+```
+
+The script checks original Git blob bytes, source metadata SHA, cached original admin1, full offline replay, new 57-area scope, and 453,482 total A/P records before changing the checkout. A restoration receipt distinguishes this new work from the historical 56-area migration log.
+
+### Lower-level missing parents
+
+The retained GeoNames source currently reports **69 unresolved direct parents in KE** and **11 in GH**, plus 54 KE and 39 GH localities with no ADM1 link. The latter categories can overlap the first, and must **not be added together as distinct unique records**.
+
+```bash
+python registries/africa/triage_unresolved.py --country KE --output /tmp/ke-parent-review.json --summary-only
+python registries/africa/triage_unresolved.py --country GH --output /tmp/gh-parent-review.json
+```
+
+These reports expose the original source feature class, parent relation, GeoNames ID and original administrative codes, with `parent_id: null` where unresolved. KNBS/GSS **lower-level official code tables and reviewed parent links** must still be imported before changing those 80 direct-parent gaps. Reporting or proposing an alias is **not** equivalent to fixing an administrative parent.
+
+## 2026-11-06: actual licensed reference boundary import (following the name-only intake)
+
+**Completed:** Pin and import 613 separate boundary name/shapeID rows from geoBoundaries gbOpen pinned release `9469f09` with exact SHA-256 validation:
+
+- Kenya ADM1 **47**, ADM2 **290** (IEBC / OCHA ROSEA source, 2020 vintage, CC BY 3.0 IGO).
+- Ghana ADM1 **16**, ADM2 **260** (GSS / USAID Ghana origin, 2019 vintage, CC BY 4.0).
+- Stored `reference-boundaries/{KEN,GHA}-{ADM1,ADM2}-source-units.csv` and `reference-boundaries/source_receipts.json`.
+- Both countries' `countries/modules.json` and `countries/catalog.json` now register the two separate reference layers. `python -m localities country inspect --country KE` and `verify --country KE` (likewise GH) verify their row counts, provenance and derived file hashes.
+- All **80** KE/GH original GeoNames missing immediate-parent records are now included in `reference-boundaries/unresolved-spatial-review.csv`. The shapefile points resolve **three unique Kenya name+location+county candidates**, Ainamoi, Ainabkoi and Endebess, but **do not create missing original GeoNames parent IDs**. Six state disagreements and seven no-unique-shape cases were exposed rather than silently corrected.
+- A second independent Kenya government publication check captured 5 named subcounty/county evidence cases, including the 2024→2025 Nyatike classification change, in `reference-boundaries/KE-government-name-county-evidence.csv`. The underlying KNBS publication uses noncommercial licensing; only limited factual identifiers and source URLs are quoted, not redistributed in bulk.
+- **Still not done:** source original Nigeria NG gzip 65,444 records into the current registry, and **officially approved direct GeoNames parent ID links for the 80 cases**. Time-versioned polygon membership is valuable for diagnostics but it is *not* an official subcounty government code.
+
+For source methodology, rights and real reconciliation counts see [reference-boundaries/README.md](reference-boundaries/README.md).
+
+### Follow-up: versioned spatial overlay
+
+`reference-boundaries/source-year-spatial-memberships.csv` now
+materializes **66** well-scoped, unique point-in-source-polygon
+relations (KE 65, GH 1) from the original unresolved 80 records.
+These permit 2020/2019 geographic lookup in the secondary licensed
+boundary source. They **do not** repair any original direct
+GeoNames parent ID (still 0/80 certified).

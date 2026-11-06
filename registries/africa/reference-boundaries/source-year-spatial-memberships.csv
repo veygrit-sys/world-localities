@@ -1,0 +1,67 @@
+country,geonames_id,geonames_name,source_snapshot_year,source_adm1_shape_id,source_adm1_name,source_adm2_shape_id,source_adm2_name,method,legal_parent_confirmed,geonames_original_parent_changed,source_licence
+GH,gn:13294847,Belemtanga,2019,69750345B7467317238909,Upper East Region,2480657B9973692574538,Pusiga,unique_point_in_polygon_source_year,false,false,CC BY 4.0
+KE,gn:10858547,Turkana County,2020,32016919B72266624462344,Turkana,3690345B72596484741491,Loima,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:11398126,Sameta,2020,32016919B92888924192138,Kisii,3690345B31874889890147,Bobasi,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:11429139,Ainamoi,2020,32016919B28150779100642,Kericho,3690345B54801368411234,Ainamoi,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:11429474,Ainabkoi,2020,32016919B81086936948851,Uasin Gishu,3690345B95414198105650,Ainabkoi,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:11467687,Griftu,2020,32016919B89873713911655,Wajir,3690345B86127058354537,Wajir West,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:11468271,Endebess,2020,32016919B1149170155930,Trans Nzoia,3690345B22392033475621,Endebess,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:179965,Sololo,2020,32016919B63496705134089,Marsabit,3690345B29556459221230,Moyale,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:180401,Shimanzi,2020,32016919B10079274489584,Mombasa,3690345B40484627971500,Mvita,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:180735,Sang’alo,2020,32016919B10848562282373,Nandi,3690345B59171839823035,Mosop,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:180784,Samburu,2020,32016919B77230315601578,Samburu,3690345B82723098757823,Samburu East,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:182655,Nzaikoni,2020,32016919B39119671019936,Machakos,3690345B54323556821532,Kathiani,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:182954,Nyali,2020,32016919B10079274489584,Mombasa,3690345B58494489025359,Nyali,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:186092,Mtongwe,2020,32016919B10079274489584,Mombasa,3690345B67191049823154,Likoni,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:186839,Merille,2020,32016919B63496705134089,Marsabit,3690345B46270372847124,Laisamis,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:189861,Kyeni Location,2020,32016919B43560273720920,Embu,3690345B92144089270932,Runyenjes,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:191589,Kipsigak,2020,32016919B10848562282373,Nandi,3690345B72129784812762,Emgwen,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:191846,Kimwarer,2020,32016919B59887050611600,Elgeyo-Marakwet,3690345B51361114330680,Keiyo South,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:192705,Kiambururu Sub-Location,2020,32016919B11020559484650,Kiambu,3690345B4833769757076,Githunguri,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:195015,Kalimoni,2020,32016919B11020559484650,Kiambu,3690345B85267649800384,Juja,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:197834,Galu,2020,32016919B50438423394723,Kwale,3690345B18525828088972,Msambweni,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:198011,Fundisa,2020,32016919B27781338411646,Kilifi,3690345B44163293085628,Magarini,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:199638,Chemosit,2020,32016919B53683499362611,Bomet,3690345B45419695798591,Buret,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:200843,Arwos,2020,32016919B10848562282373,Nandi,3690345B43837463822996,Nandi Hills,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:6691851,Mataka,2020,32016919B87039477224343,Kitui,3690345B80003743115065,Mwingi North,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7114396,Enkokidongoi,2020,32016919B31527762068828,Kajiado,3690345B79073906522262,Kajiado Central,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7535497,Kapkures Primary School,2020,32016919B28150779100642,Kericho,3690345B57157078015490,Belgut,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7646401,Njoro,2020,32016919B58088177642376,Nakuru,3690345B46950883953132,Njoro,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7646405,Iten,2020,32016919B59887050611600,Elgeyo-Marakwet,3690345B12433983427802,Keiyo North,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7646417,Kasarani,2020,32016919B11020559484650,Kiambu,3690345B85267649800384,Juja,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7646419,Githurai,2020,32016919B59887050611600,Elgeyo-Marakwet,3690345B12433983427802,Keiyo North,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7646430,Pap Onditi,2020,32016919B35081513576883,Kisumu,3690345B60685501176062,Nyakach,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7729807,Lessos,2020,32016919B10848562282373,Nandi,3690345B43837463822996,Nandi Hills,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7729812,Timboroa,2020,32016919B81086936948851,Uasin Gishu,3690345B57454670869281,Kesses,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7729814,Matuu,2020,32016919B39119671019936,Machakos,3690345B64365899844795,Yatta,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7729815,Kithimani,2020,32016919B39119671019936,Machakos,3690345B64365899844795,Yatta,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7731687,Rabai,2020,32016919B10079274489584,Mombasa,3690345B40484627971500,Mvita,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7731855,Nabkoi,2020,32016919B81086936948851,Uasin Gishu,3690345B57454670869281,Kesses,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7731856,Burnt Forest,2020,32016919B81086936948851,Uasin Gishu,3690345B95414198105650,Ainabkoi,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7731858,Cheptiret,2020,32016919B81086936948851,Uasin Gishu,3690345B57454670869281,Kesses,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7732040,Turbi,2020,32016919B63496705134089,Marsabit,3690345B4448118045148,North Horr,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7800132,Imenti Central,2020,32016919B42702125036935,Meru,3690345B53474417583970,Cental Imenti,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7867514,Kinango Division,2020,32016919B50438423394723,Kwale,3690345B23512246754033,Kinango,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7867515,Kinango South Location,2020,32016919B50438423394723,Kwale,3690345B23512246754033,Kinango,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7867521,Kubo Division,2020,32016919B50438423394723,Kwale,3690345B44835557589557,Matuga,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7867522,Mwaluphamba Location,2020,32016919B50438423394723,Kwale,3690345B44835557589557,Matuga,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7867542,Kinango North Location,2020,32016919B50438423394723,Kwale,3690345B23512246754033,Kinango,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7867544,Kilibole East Location,2020,32016919B50438423394723,Kwale,3690345B23512246754033,Kinango,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:7867556,Matuga Location,2020,32016919B50438423394723,Kwale,3690345B44835557589557,Matuga,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:8051211,Shamakhokho,2020,32016919B20488296424250,Vihiga,3690345B54311955774666,Hamisi,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:8199182,Meru National Park,2020,32016919B42702125036935,Meru,3690345B60078326777064,Igembe South,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:8199183,Shompole,2020,32016919B31527762068828,Kajiado,3690345B61385295322660,Kajiado West,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:8199184,Lekurruki,2020,32016919B42702125036935,Meru,3690345B60078326777064,Igembe South,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:8199185,Chyulu Hills,2020,32016919B31527762068828,Kajiado,3690345B92214929535535,Kajiado South,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:8223921,Kilifi Creek,2020,32016919B27781338411646,Kilifi,3690345B15365868811730,Kilifi North,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:8349463,Toi,2020,32016919B62684442090944,Isiolo,3690345B29935700450408,Isiolo North,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:8349465,Gamalenga,2020,32016919B72187572718143,Kakamega,3690345B96442316049931,Shinyalu,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:8349468,Mathare North Area 4,2020,32016919B50702580177250,Migori,3690345B86494009793520,Kuria West,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:8349469,Kibera Kichinjio,2020,32016919B50702580177250,Migori,3690345B86494009793520,Kuria West,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:8504691,Kalokol,2020,32016919B72266624462344,Turkana,3690345B27917723778047,Turkana Central,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:8504723,Nakalale,2020,32016919B72266624462344,Turkana,3690345B77554234988908,Turkana West,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:8504725,Bura,2020,32016919B56782604912852,Tana River,3690345B71380805916784,Galole,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:8504727,Kalobeyei,2020,32016919B72266624462344,Turkana,3690345B77554234988908,Turkana West,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:8504729,Kanaodon,2020,32016919B72266624462344,Turkana,3690345B72596484741491,Loima,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:8504732,Lagdera,2020,32016919B57902629823981,Garissa,3690345B82306211866493,Balambala,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO
+KE,gn:8504762,Mau Summit,2020,32016919B58088177642376,Nakuru,3690345B6327191419481,Kuresoi North,unique_point_in_polygon_source_year,false,false,CC BY 3.0 IGO

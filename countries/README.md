@@ -96,7 +96,7 @@ python -m localities country verify --country JP
 | `GE` | Georgia | 原典レイヤーあり | [registries/asia/country-archives/GE.zip](../registries/asia/country-archives/GE.zip)、[registries/europe/countries/GE](../registries/europe/countries/GE) |
 | `GF` | French Guiana | 原典レイヤーあり | [registries/south-america/countries/GF](../registries/south-america/countries/GF) |
 | `GG` | Guernsey | 原典レイヤーあり | [registries/europe/countries/GG](../registries/europe/countries/GG) |
-| `GH` | Ghana | 原典レイヤーあり | [registries/africa/countries/GH](../registries/africa/countries/GH) |
+| `GH` | Ghana | 原典レイヤーあり | [registries/africa/countries/GH](../registries/africa/countries/GH)、[registries/africa/reference-boundaries/GHA-ADM1-source-units.csv](../registries/africa/reference-boundaries/GHA-ADM1-source-units.csv)、[registries/africa/reference-boundaries/GHA-ADM2-source-units.csv](../registries/africa/reference-boundaries/GHA-ADM2-source-units.csv) |
 | `GI` | Gibraltar | 原典レイヤーあり | [registries/europe/countries/GI](../registries/europe/countries/GI) |
 | `GL` | Greenland | 限定的な記録 | [registries/north-america/admin-seeds.json](../registries/north-america/admin-seeds.json) |
 | `GM` | Gambia | 原典レイヤーあり | [registries/africa/countries/GM](../registries/africa/countries/GM) |
@@ -129,7 +129,7 @@ python -m localities country verify --country JP
 | `JM` | Jamaica | 原典レイヤーあり | [registries/caribbean/countries/JM](../registries/caribbean/countries/JM) |
 | `JO` | Jordan | 原典レイヤーあり | [registries/asia/country-archives/JO.zip](../registries/asia/country-archives/JO.zip) |
 | `JP` | Japan | 原典レイヤーあり | [registries/asia/country-archives/JP.zip](../registries/asia/country-archives/JP.zip)、[registries/official/JP](../registries/official/JP)、[releases/hierarchy/east-asia/reports/JP.projection.json](../releases/hierarchy/east-asia/reports/JP.projection.json) |
-| `KE` | Kenya | 原典レイヤーあり | [registries/africa/countries/KE](../registries/africa/countries/KE) |
+| `KE` | Kenya | 原典レイヤーあり | [registries/africa/countries/KE](../registries/africa/countries/KE)、[registries/africa/reference-boundaries/KEN-ADM1-source-units.csv](../registries/africa/reference-boundaries/KEN-ADM1-source-units.csv)、[registries/africa/reference-boundaries/KEN-ADM2-source-units.csv](../registries/africa/reference-boundaries/KEN-ADM2-source-units.csv) |
 | `KG` | Kyrgyzstan | 原典レイヤーあり | [registries/asia/country-archives/KG.zip](../registries/asia/country-archives/KG.zip) |
 | `KH` | Cambodia | 原典レイヤーあり | [registries/asia/country-archives/KH.zip](../registries/asia/country-archives/KH.zip) |
 | `KI` | Kiribati | 原典レイヤーあり | [registries/oceania/countries/KI](../registries/oceania/countries/KI) |

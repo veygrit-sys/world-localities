@@ -2028,7 +2028,9 @@
       "paths": [
         "registries/africa/countries/GH/admin1.csv",
         "registries/africa/countries/GH/entities.csv.gz",
-        "registries/africa/countries/GH/metadata.json"
+        "registries/africa/countries/GH/metadata.json",
+        "registries/africa/reference-boundaries/GHA-ADM1-source-units.csv",
+        "registries/africa/reference-boundaries/GHA-ADM2-source-units.csv"
       ],
       "release_manifests": [],
       "quality": {
@@ -2822,7 +2824,9 @@
       "paths": [
         "registries/africa/countries/KE/admin1.csv",
         "registries/africa/countries/KE/entities.csv.gz",
-        "registries/africa/countries/KE/metadata.json"
+        "registries/africa/countries/KE/metadata.json",
+        "registries/africa/reference-boundaries/KEN-ADM1-source-units.csv",
+        "registries/africa/reference-boundaries/KEN-ADM2-source-units.csv"
       ],
       "release_manifests": [],
       "quality": {

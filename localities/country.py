@@ -6,6 +6,7 @@ allowlist of existing validators; the catalog never supplies executable code.
 from __future__ import annotations
 
 import contextlib
+import csv
 import gzip
 import hashlib
 import importlib.util
@@ -20,10 +21,10 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 KINDS = {'gazetteer_directory', 'country_archive', 'split_archive', 'official_overlay',
-         'shared_records', 'address_format'}
+         'shared_records', 'address_format', 'reference_csv'}
 ADAPTERS = {'metadata_integrity', 'europe_replay', 'asia_archive_replay',
             'oceania_archive_integrity', 'official_integrity', 'shared_admin_selection',
-            'profile_selection'}
+            'profile_selection', 'reference_csv_integrity'}
 MAX_ARCHIVE_BYTES = 100_000_000
 
 
@@ -207,6 +208,14 @@ def inspect_country(code, root=ROOT):
         report['counts'] = meta.get('counts', {})
         report['source_dates'] = _date_evidence(meta)
         report['known_issues'] = meta.get('known_issues', [])
+        if layer['kind'] == 'reference_csv':
+            source_layer = layer['selector']['source_layer']
+            source = meta.get('sources', {}).get(source_layer)
+            if not source:
+                raise ValueError('referenced boundary layer missing provenance')
+            report['counts'] = {'records': source['rows']}
+            report['source_dates'] = {'vintage_year': source['vintage_year']}
+            report['known_issues'] = [meta.get('caveat', 'historical boundary reference only')]
         if layer['kind'] == 'official_overlay':
             report['recorded_quality'] = {k: v for k, v in meta.items() if k not in {'files', 'columns', 'country'}}
             sourcepath = _path(root, layer['data'] + '/sources.json')
@@ -341,6 +350,26 @@ def _verify_layer(layer, code, root):
             build = _module(_path(root, 'registries/europe/build.py'), 'europe_build')
             report = build.verify_country(_path(root, 'registries/europe'), code)
             result.update(row_integrity='passed', rows=report['rows'], scope='original Europe deterministic country replay')
+    elif adapter == 'reference_csv_integrity':
+        if layer['kind'] != 'reference_csv':
+            raise ValueError('reference_csv_integrity requires reference_csv kind')
+        source_layer = layer['selector']['source_layer']
+        meta = _json(_path(root, layer['metadata']))
+        info = meta.get('sources', {}).get(source_layer)
+        expected_country = {'KE': 'KEN', 'GH': 'GHA'}.get(code)
+        if not info or not expected_country or not source_layer.startswith(expected_country + '-ADM'):
+            raise ValueError('invalid official boundary source selection')
+        payload = _path(root, layer['data']).read_bytes()
+        _verify_bytes(payload, {'bytes': info['derived_csv_bytes'],
+                                'sha256': info['derived_csv_sha256']}, layer['data'])
+        data = list(csv.DictReader(io.StringIO(payload.decode('utf-8-sig'))))
+        if len(data) != info['rows'] or len({r['boundary_shape_id'] for r in data}) != len(data):
+            raise ValueError('boundary CSV count or source IDs mismatch')
+        if any(r['country'] != expected_country or r['admin_level'] != source_layer.split('-')[1]
+               or r['source_sha256'] != info['sha256'] for r in data):
+            raise ValueError('boundary CSV source identity mismatch')
+        result.update(source_integrity='passed', row_integrity='passed', rows=len(data),
+                      scope='SHA-pinned, dated administrative source names and spatial associations; not current legal parent IDs or deliverability')
     elif adapter == 'official_integrity':
         result.update(source_integrity='passed', checked_files=_official_integrity(layer, root),
                       scope='official layer pinned file hashes; postcode/authority accuracy is separate')

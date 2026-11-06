@@ -1,0 +1,48 @@
+country,source_sequence,source_level,source_code_type,official_name,official_source_url,source_vintage,note
+KE,01,county,KNBS_county_number,Mombasa,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,02,county,KNBS_county_number,Kwale,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,03,county,KNBS_county_number,Kilifi,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,04,county,KNBS_county_number,Tana River,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,05,county,KNBS_county_number,Lamu,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,06,county,KNBS_county_number,Taita Taveta,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,07,county,KNBS_county_number,Garissa,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,08,county,KNBS_county_number,Wajir,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,09,county,KNBS_county_number,Mandera,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,10,county,KNBS_county_number,Marsabit,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,11,county,KNBS_county_number,Isiolo,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,12,county,KNBS_county_number,Meru,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,13,county,KNBS_county_number,Tharaka Nithi,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,14,county,KNBS_county_number,Embu,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,15,county,KNBS_county_number,Kitui,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,16,county,KNBS_county_number,Machakos,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,17,county,KNBS_county_number,Makueni,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,18,county,KNBS_county_number,Nyandarua,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,19,county,KNBS_county_number,Nyeri,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,20,county,KNBS_county_number,Kirinyaga,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,21,county,KNBS_county_number,Murang'a,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,22,county,KNBS_county_number,Kiambu,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,23,county,KNBS_county_number,Turkana,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,24,county,KNBS_county_number,West Pokot,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,25,county,KNBS_county_number,Samburu,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,26,county,KNBS_county_number,Trans Nzoia,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,27,county,KNBS_county_number,Uasin Gishu,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,28,county,KNBS_county_number,Elgeyo Marakwet,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,29,county,KNBS_county_number,Nandi,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,30,county,KNBS_county_number,Baringo,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,31,county,KNBS_county_number,Laikipia,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,32,county,KNBS_county_number,Nakuru,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,33,county,KNBS_county_number,Narok,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,34,county,KNBS_county_number,Kajiado,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,35,county,KNBS_county_number,Kericho,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,36,county,KNBS_county_number,Bomet,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,37,county,KNBS_county_number,Kakamega,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,38,county,KNBS_county_number,Vihiga,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,39,county,KNBS_county_number,Bungoma,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,40,county,KNBS_county_number,Busia,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,41,county,KNBS_county_number,Siaya,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,42,county,KNBS_county_number,Kisumu,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,43,county,KNBS_county_number,Homa Bay,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,44,county,KNBS_county_number,Migori,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,45,county,KNBS_county_number,Kisii,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,46,county,KNBS_county_number,Nyamira,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
+KE,47,county,KNBS_county_number,Nairobi,https://www.knbs.or.ke/reports/county-gender-datasheets-2025/,KNBS 2025 County Gender Datasheets,KNBS published county numbering
