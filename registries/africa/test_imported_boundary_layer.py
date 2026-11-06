@@ -51,6 +51,21 @@ class LicenseAndDerivedData(unittest.TestCase):
                 self.assertEqual(item["source_integrity"], "passed")
                 self.assertEqual(item["row_integrity"], "passed")
 
+    def test_source_year_spatial_memberships_are_distinct_from_legal_parents(self):
+        import csv
+        with (ROOT / "source-year-spatial-memberships.csv").open(encoding="utf-8", newline="") as stream:
+            rows = list(csv.DictReader(stream))
+        self.assertEqual(len(rows), 66)
+        self.assertEqual(Counter(r["country"] for r in rows), {"KE": 65, "GH": 1})
+        self.assertEqual(len({r["geonames_id"] for r in rows}), 66)
+        self.assertTrue(all(r["source_adm1_shape_id"] and r["source_adm2_shape_id"] for r in rows))
+        self.assertTrue(all(r["legal_parent_confirmed"] == "false" and
+                            r["geonames_original_parent_changed"] == "false"
+                            for r in rows))
+        summary = json.loads((ROOT / "unresolved-spatial-summary.json").read_text(encoding="utf-8"))
+        self.assertEqual(summary["source_year_spatial_memberships"], 66)
+        self.assertFalse(summary["legal_parent_certification_for_memberships"])
+
     def test_unresolved_cases_remain_review_only(self):
         report = json.loads((ROOT / "unresolved-spatial-summary.json").read_text(encoding="utf-8"))
         self.assertEqual(report["approved_administrative_parent_links"], 0)
