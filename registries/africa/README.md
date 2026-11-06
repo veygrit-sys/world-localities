@@ -23,3 +23,9 @@ Python 3.11以上、標準ライブラリのみ。
 GeoNamesのA/P分類の基礎台帳です。全自治体の公的確認、現在の法的行政階層、郵便配達可否を保証しません。未解決の所属はそのまま保存します。ブルキナファソ・ブルンジの行政改編差異はsource_freshness.jsonを参照してください。名称・ASCII表記・言語不明の別名を英訳とみなしません。Address1、境界ポリゴン、郵便番号割当は含みません。
 
 地名データはCC BY 4.0（NOTICE.md）、コードはMIT（LICENSE）。元データの詳しい定義はupstream/README.md、列定義はschema.json、今回の照合結果はmigration.jsonを参照してください。
+
+## 重点8か国の作業入口
+
+第1陣（南アフリカ ZA、ナイジェリア NG、ケニア KE、ガーナ GH）→ 第2陣（ルワンダ RW、エジプト EG、モロッコ MA、アルジェリア DZ）の順序・現状・公式出典・受入条件・検証コマンドは [PRIORITY.md](PRIORITY.md) を参照してください。
+
+`python registries/africa/priority_audit.py --wave 1 --check` で保存済み原典の整合性と未移行国を監査できます。これは公式の行政階層の照合完了を証明するものではありません。
