@@ -1,0 +1,45 @@
+country,reference_id,kind,name,source_url,status
+JE,ref:JE:local-name:grouville,administrative_name,Grouville,https://www.gov.je/LifeEvents/MovingToJersey/SettlingIn/Pages/ParishLife.aspx,official_text_name_no_boundary_or_unique_address_assurance
+JE,ref:JE:local-name:st-brelade,administrative_name,St Brelade,https://www.gov.je/LifeEvents/MovingToJersey/SettlingIn/Pages/ParishLife.aspx,official_text_name_no_boundary_or_unique_address_assurance
+JE,ref:JE:local-name:st-clement,administrative_name,St Clement,https://www.gov.je/LifeEvents/MovingToJersey/SettlingIn/Pages/ParishLife.aspx,official_text_name_no_boundary_or_unique_address_assurance
+JE,ref:JE:local-name:st-helier,administrative_name,St Helier,https://www.gov.je/LifeEvents/MovingToJersey/SettlingIn/Pages/ParishLife.aspx,official_text_name_no_boundary_or_unique_address_assurance
+JE,ref:JE:local-name:st-john,administrative_name,St John,https://www.gov.je/LifeEvents/MovingToJersey/SettlingIn/Pages/ParishLife.aspx,official_text_name_no_boundary_or_unique_address_assurance
+JE,ref:JE:local-name:st-lawrence,administrative_name,St Lawrence,https://www.gov.je/LifeEvents/MovingToJersey/SettlingIn/Pages/ParishLife.aspx,official_text_name_no_boundary_or_unique_address_assurance
+JE,ref:JE:local-name:st-martin,administrative_name,St Martin,https://www.gov.je/LifeEvents/MovingToJersey/SettlingIn/Pages/ParishLife.aspx,official_text_name_no_boundary_or_unique_address_assurance
+JE,ref:JE:local-name:st-mary,administrative_name,St Mary,https://www.gov.je/LifeEvents/MovingToJersey/SettlingIn/Pages/ParishLife.aspx,official_text_name_no_boundary_or_unique_address_assurance
+JE,ref:JE:local-name:st-ouen,administrative_name,St Ouen,https://www.gov.je/LifeEvents/MovingToJersey/SettlingIn/Pages/ParishLife.aspx,official_text_name_no_boundary_or_unique_address_assurance
+JE,ref:JE:local-name:st-peter,administrative_name,St Peter,https://www.gov.je/LifeEvents/MovingToJersey/SettlingIn/Pages/ParishLife.aspx,official_text_name_no_boundary_or_unique_address_assurance
+JE,ref:JE:local-name:st-saviour,administrative_name,St Saviour,https://www.gov.je/LifeEvents/MovingToJersey/SettlingIn/Pages/ParishLife.aspx,official_text_name_no_boundary_or_unique_address_assurance
+JE,ref:JE:local-name:trinity,administrative_name,Trinity,https://www.gov.je/LifeEvents/MovingToJersey/SettlingIn/Pages/ParishLife.aspx,official_text_name_no_boundary_or_unique_address_assurance
+GG,ref:GG:local-name:st-peter-port,administrative_name,St Peter Port,https://parliament.gg/about/glossary,official_text_name_no_boundary_or_unique_address_assurance
+GG,ref:GG:local-name:st-sampson,administrative_name,St Sampson,https://parliament.gg/about/glossary,official_text_name_no_boundary_or_unique_address_assurance
+GG,ref:GG:local-name:vale,administrative_name,Vale,https://parliament.gg/about/glossary,official_text_name_no_boundary_or_unique_address_assurance
+GG,ref:GG:local-name:castel,administrative_name,Castel,https://parliament.gg/about/glossary,official_text_name_no_boundary_or_unique_address_assurance
+GG,ref:GG:local-name:st-saviour,administrative_name,St Saviour,https://parliament.gg/about/glossary,official_text_name_no_boundary_or_unique_address_assurance
+GG,ref:GG:local-name:forest,administrative_name,Forest,https://parliament.gg/about/glossary,official_text_name_no_boundary_or_unique_address_assurance
+GG,ref:GG:local-name:st-martin,administrative_name,St Martin,https://parliament.gg/about/glossary,official_text_name_no_boundary_or_unique_address_assurance
+GG,ref:GG:local-name:st-andrew,administrative_name,St Andrew,https://parliament.gg/about/glossary,official_text_name_no_boundary_or_unique_address_assurance
+GG,ref:GG:local-name:st-pierre-du-bois,administrative_name,St Pierre du Bois,https://parliament.gg/about/glossary,official_text_name_no_boundary_or_unique_address_assurance
+GG,ref:GG:local-name:torteval,administrative_name,Torteval,https://parliament.gg/about/glossary,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:andreas,administrative_name,Andreas,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:arbory-and-rushen,administrative_name,Arbory and Rushen,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:ballaugh,administrative_name,Ballaugh,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:braddan,administrative_name,Braddan,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:bride,administrative_name,Bride,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:castletown,administrative_name,Castletown,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:douglas,administrative_name,Douglas,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:garff,administrative_name,Garff,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:german,administrative_name,German,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:jurby,administrative_name,Jurby,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:lezayre,administrative_name,Lezayre,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:malew,administrative_name,Malew,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:marown,administrative_name,Marown,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:michael,administrative_name,Michael,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:onchan,administrative_name,Onchan,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:patrick,administrative_name,Patrick,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:peel,administrative_name,Peel,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:port-erin,administrative_name,Port Erin,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:port-st-mary,administrative_name,Port St Mary,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:ramsey,administrative_name,Ramsey,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+IM,ref:IM:local-name:santon,administrative_name,Santon,https://elections.gov.im/elections/local-authority-elections/,official_text_name_no_boundary_or_unique_address_assurance
+GI,ref:GI:shared-postcode:gx11-1aa,postal_reference,GX11 1AA,https://post.gi/contact/,official_text_name_no_boundary_or_unique_address_assurance
