@@ -64,6 +64,12 @@ XKはGeoNamesの利用者割当コードで、正式なISO 3166-1割当コード
 
 [東欧4か国の出典別監査・公式原典取込](eastern-four/README.md)には、GeoNames全国原典272,110レコードのハッシュと行政親IDの検証、独立SQLite索引、権利確認済みのCUATM・KATOTTG・SOATO・GAR等のオフライン受入処理を収録しています。 `python -m localities eastern audit --country all` で全件監査できます。ロシアの収録範囲はヨーロッパ側だけでなくロシア全域です。国境係争、物流アクセス、郵便番号の実在は推定しません。
 
+## 王室属領3地域とジブラルタルの公式名称・住所候補
+
+[ジャージー・ガーンジー・マン島・ジブラルタル（JE・GG・IM・GI）の原典別監査](crown-four/README.md)では、既存GeoNames 449件と各地域の公的名称・共通郵便識別子44件を別々に保全し、国コード、親参照、ファイルハッシュを全件検証します。マン島の2025年選挙一覧による21地方自治体と、古いGISの24境界を混同しません。追加の小規模Geofabrik PBFも任意で取り込めますが、国境外観測は隔離し、配達可能性を証明しません。
+
+`python -m localities crown audit` で11月2026の取込原典を監査し、`python -m localities crown build --output /new/crown-four.sqlite` で独立SQLite索引を生成します。
+
 ## 利用
 
 読み込み・検索・GeoNames再構築はPython 3.11以降の標準ライブラリだけで動作します。

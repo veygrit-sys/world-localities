@@ -30,6 +30,8 @@ def main() -> None:
     microstates.add_argument("microstate_args", nargs=argparse.REMAINDER)
     eastern = commands.add_parser("eastern", help="audit Moldova, Ukraine, Belarus and Russia locality evidence")
     eastern.add_argument("eastern_args", nargs=argparse.REMAINDER)
+    crown = commands.add_parser("crown", help="audit Jersey, Guernsey, Isle of Man and Gibraltar")
+    crown.add_argument("crown_args", nargs=argparse.REMAINDER)
     restore = commands.add_parser("materialize", help="restore split files for one country")
     roots = materialization_roots()
     restore.add_argument("--registry", choices=sorted(roots), required=True)
@@ -68,6 +70,15 @@ def main() -> None:
             eastern_cli(args.eastern_args)
         except (OSError, ValueError, KeyError, TypeError, sqlite3.Error, RuntimeError,
                 zipfile.BadZipFile, ET.ParseError) as error:
+            parser.exit(2, str(error) + "\n")
+        return
+
+    if args.command == "crown":
+        import sqlite3
+        from scripts.crown_four_localities import cli as crown_cli
+        try:
+            crown_cli(args.crown_args)
+        except (OSError, ValueError, KeyError, TypeError, sqlite3.Error, RuntimeError) as error:
             parser.exit(2, str(error) + "\n")
         return
 

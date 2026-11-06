@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "country_codes": [
+    "JE",
+    "GG",
+    "IM",
+    "GI"
+  ],
+  "created_on": "2026-11-06",
+  "purpose": "UK Crown Dependencies and Gibraltar as distinct postal/locality jurisdictions, not UK mainland administrative districts",
+  "official_reference_sha256": "8ab60adf44dfb4d4be098bc1ff219290917c30114b76cff81b63a080ef778637",
+  "official_reference_counts": {
+    "JE": 12,
+    "GG": 10,
+    "IM": 21,
+    "GI": 1
+  },
+  "national_address_completeness_verified": false,
+  "delivery_verified": false,
+  "postal_existence_verified": false,
+  "sources": {
+    "JE": {
+      "government_parish_names": "https://www.gov.je/LifeEvents/MovingToJersey/SettlingIn/Pages/ParishLife.aspx",
+      "parish_count": 12,
+      "government_address_register": "https://www.gov.je/PlanningBuilding/JerseyMappingService/Pages/Digital.aspx",
+      "address_status": "Gazetteer 90k+ points described; no bulk export/reuse rights verified",
+      "postcode_prefix": "JE"
+    },
+    "GG": {
+      "parish_evidence": "https://parliament.gg/about/glossary",
+      "parish_count": 10,
+      "bailiwick_note": "Ten Guernsey parishes are not an Alderney/Sark address register",
+      "postcode_finder": "https://www.guernseypost.com/address-and-postcode-finder",
+      "postcode_prefix": "GY"
+    },
+    "IM": {
+      "current_local_authorities": "https://elections.gov.im/elections/local-authority-elections/",
+      "current_local_authority_count": 21,
+      "as_of": "2025 local elections",
+      "legacy_24_polygon_layer": "https://ppmaps.gov.im/manngispubserver/rest/services/CorporateDynamicServices/PPDemocracy/MapServer/1",
+      "legacy_24_not_merged_as_current": true,
+      "postcode_prefix": "IM"
+    },
+    "GI": {
+      "postcode_authority": "https://post.gi/contact/",
+      "shared_postcode": "GX11 1AA",
+      "postal_note": "One generic territorial postcode, not street- or address-specific",
+      "geojson_authority_unverified": true,
+      "official_address_register": "https://www.geoportal.gov.gi/index.php/maps/help/using-the-oar-search-tool",
+      "official_address_register_reported_more_than": 32000,
+      "official_address_register_max_search_results": 50,
+      "address_register_bulk_redistribution_authorized": false
+    }
+  },
+  "osm_extracts": {
+    "guernsey-jersey": {
+      "url": "https://download.geofabrik.de/europe/guernsey-jersey-latest.osm.pbf",
+      "coverage": "shared regional extract: neither JE nor GG legal address/boundary certification",
+      "license": "ODbL-1.0",
+      "downloaded": false
+    },
+    "isle-of-man": {
+      "url": "https://download.geofabrik.de/europe/isle-of-man-latest.osm.pbf",
+      "coverage": "regional polygon may buffer the coastline",
+      "license": "ODbL-1.0",
+      "downloaded": false
+    }
+  },
+  "licence_policy": "Official text references are government-referenced names only; no unapproved proprietary address dataset copied. OSM is separately attributed and licensed ODbL 1.0.",
+  "geonames_source": "Existing immutable registries/europe/countries/CC/metadata.json per country; CC BY 4.0."
+}
