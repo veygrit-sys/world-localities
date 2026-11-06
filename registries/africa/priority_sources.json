@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-06",
+  "purpose": "Prioritized official-source leads and QA gates; NOT a claim of official matching, postal validity, nationwide coverage or rights clearance.",
+  "waves": [
+    {
+      "wave": 1,
+      "countries": [
+        "ZA",
+        "NG",
+        "KE",
+        "GH"
+      ],
+      "gate": "Complete country-preserving source verification and first official-administration crosswalk candidates before starting wave 2."
+    },
+    {
+      "wave": 2,
+      "countries": [
+        "RW",
+        "EG",
+        "MA",
+        "DZ"
+      ],
+      "gate": "Start once wave 1 gaps and unverified matches are reported; do not falsely declare wave 1 complete."
+    }
+  ],
+  "countries": {
+    "ZA": {
+      "name": "South Africa",
+      "tasks": [
+        "Pin latest municipal demarcation vintage",
+        "Compare provinces/municipalities and names without guessing GeoNames parentage",
+        "Evaluate main places/subplaces and postal labels separately"
+      ],
+      "sources": [
+        {
+          "id": "ZA-MDB",
+          "url": "https://www.demarcation.org.za/",
+          "scope": "Municipal and ward boundaries; 2024/2026 review",
+          "status": "discovered_not_ingested",
+          "reuse_rights": "not_yet_cleared",
+          "notes": "Official municipal boundary/ward vintages must not be conflated."
+        },
+        {
+          "id": "ZA-STATS-SA",
+          "url": "https://www.statssa.gov.za/",
+          "scope": "Statistics South Africa geographic frame / place-level references",
+          "status": "discovered_not_ingested",
+          "reuse_rights": "not_yet_cleared",
+          "notes": "Confirm release dates and data license before data ingestion."
+        }
+      ]
+    },
+    "NG": {
+      "name": "Nigeria",
+      "tasks": [
+        "Restore the pinned NG GeoNames archive from rei-k/world-address and verify exact source blob/hash",
+        "Build independent 36-states-plus-FCT/LGA crosswalk",
+        "Handle legacy and new digital postcodes as distinct schemes, not interchangeable strings"
+      ],
+      "sources": [
+        {
+          "id": "NG-NBS",
+          "url": "https://www.nigerianstat.gov.ng/page/about-us/",
+          "scope": "36 states, FCT and 774 LGAs (published administrative overview)",
+          "status": "discovered_not_ingested",
+          "reuse_rights": "not_yet_cleared",
+          "notes": ""
+        },
+        {
+          "id": "NG-NIPOST",
+          "url": "https://postcode.gov.ng/",
+          "scope": "New 11-character digital postcode system launched 2026-10-01",
+          "status": "discovered_not_ingested",
+          "reuse_rights": "not_yet_cleared",
+          "notes": "API or bulk availability does not prove a free, reusable national dataset."
+        }
+      ]
+    },
+    "KE": {
+      "name": "Kenya",
+      "tasks": [
+        "Compare county/subcounty names using KNBS 2019 census administrative-unit tables",
+        "Resolve 69 recorded parent gaps by approved official IDs, never automatic name-only binding",
+        "Check 54 localities without ADM1; retain source facts when unresolved"
+      ],
+      "sources": [
+        {
+          "id": "KE-KNBS",
+          "url": "https://www.knbs.or.ke/reports/kenya-census-2019/",
+          "scope": "2019 Population and Housing Census administrative-unit tables / spreadsheets",
+          "status": "discovered_not_ingested",
+          "reuse_rights": "not_yet_cleared",
+          "notes": "Census vintage may differ from current administrative reality."
+        }
+      ]
+    },
+    "GH": {
+      "name": "Ghana",
+      "tasks": [
+        "Compare region and district hierarchy to GSS PHC 2021",
+        "Review 11 unresolved parent refs and 39 localities without ADM1",
+        "Keep GhanaPostGPS digital addresses separate from named localities"
+      ],
+      "sources": [
+        {
+          "id": "GH-GSS",
+          "url": "https://statsbank.statsghana.gov.gh/censusatlas/",
+          "scope": "2021 PHC district/region tables and geo-files",
+          "status": "discovered_not_ingested",
+          "reuse_rights": "not_yet_cleared",
+          "notes": "Check 261/271 district boundary vintage before asserting current count."
+        },
+        {
+          "id": "GH-GSS-CENSUS",
+          "url": "https://statsghana.gov.gh/census-surveys/population-housing-census",
+          "scope": "Official census reports",
+          "status": "discovered_not_ingested",
+          "reuse_rights": "not_yet_cleared",
+          "notes": ""
+        }
+      ]
+    },
+    "RW": {
+      "name": "Rwanda",
+      "tasks": [
+        "Use NISR 2022 village boundary IDs to form official parent chain",
+        "Check village/cell/sector/district uniqueness without geographical proximity guesses",
+        "Record export rights and version"
+      ],
+      "sources": [
+        {
+          "id": "RW-NISR",
+          "url": "https://gis-server.statistics.gov.rw/server/rest/services/Hosted/Village_Boundary_2022/FeatureServer",
+          "scope": "2022 Village Boundary official feature service",
+          "status": "discovered_not_ingested",
+          "reuse_rights": "not_yet_cleared",
+          "notes": "Metadata describes village_id, cell_id, sector_id and district_id."
+        }
+      ]
+    },
+    "EG": {
+      "name": "Egypt",
+      "tasks": [
+        "Locate and pin the current CAPMAS administrative-units directory",
+        "Audit Arabic/Latin name variants and district/village levels",
+        "Compare postal evidence separately"
+      ],
+      "sources": [
+        {
+          "id": "EG-CAPMAS",
+          "url": "https://www.capmas.gov.eg/",
+          "scope": "Official statistics / administrative-units directory",
+          "status": "discovered_not_ingested",
+          "reuse_rights": "not_yet_cleared",
+          "notes": "Exact downloadable vintage and reuse rights pending verification."
+        }
+      ]
+    },
+    "MA": {
+      "name": "Morocco",
+      "tasks": [
+        "Restore the pinned MA GeoNames archive from rei-k/world-address",
+        "Obtain HCP RGPH 2024 region/prefecture/province/commune list",
+        "Keep Arabic/French names tied to same official IDs when identifiable"
+      ],
+      "sources": [
+        {
+          "id": "MA-HCP",
+          "url": "https://www.hcp.ma/downloads/RGPH-2024_t22752.html",
+          "scope": "2024 census national/subnational statistical outputs",
+          "status": "discovered_not_ingested",
+          "reuse_rights": "not_yet_cleared",
+          "notes": "An official statistical table is not automatically a postal-address source."
+        }
+      ]
+    },
+    "DZ": {
+      "name": "Algeria",
+      "tasks": [
+        "Reconcile existing 11 official additions (59–69) with original 58 without overwriting historic IDs",
+        "Keep 2026 transition and carrier operational formats separate",
+        "Verify commune-level relations explicitly"
+      ],
+      "sources": [
+        {
+          "id": "DZ-JORADP",
+          "url": "https://www.joradp.dz/FTP/jo-francais/2026/F2026040.pdf",
+          "scope": "Journal officiel N40, 2026-06-03, decree 26-206 adds wilaya codes 59–69",
+          "status": "discovered_not_ingested",
+          "reuse_rights": "not_yet_cleared",
+          "notes": "Existing registries/africa/official-references/DZ-2026-wilayas.json already contains names and seats, not a full crosswalk."
+        }
+      ]
+    }
+  }
+}
