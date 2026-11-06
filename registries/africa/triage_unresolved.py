@@ -31,6 +31,8 @@ def triage(country, root=ROOT):
                     "name": row["name"],
                     "feature_code": row["feature_code"],
                     "record_type": row["kind"],
+                    "latitude": row["latitude"],
+                    "longitude": row["longitude"],
                     "relation": row["parent_relation"],
                     "adm_codes": [row.get(f"admin{n}_code", "") for n in range(1, 5)],
                     "state_id": row["state_id"] or None,
