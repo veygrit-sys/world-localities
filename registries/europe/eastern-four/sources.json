@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "project": "MD-UA-BY-RU official-source candidates and immutable GeoNames integrity audit",
+  "created_on": "2026-11-06",
+  "scope": ["MD", "UA", "BY", "RU"],
+  "principles": {
+    "no_country_reassignment_from_issuer_only": true,
+    "no_sovereignty_or_disputed_territory_inference": true,
+    "no_address_certification_from_gazetteer": true,
+    "do_not_overwrite_existing_sources": true,
+    "rights_review_before_commercial_distribution": true,
+    "license_is_source_specific": true,
+    "no_parent_join_by_name_or_proximity": true,
+    "source_codes_as_strings": true
+  },
+  "countries": {
+    "MD": {
+      "name": "Moldova",
+      "official_authority": "Biroul Național de Statistică (BNS)",
+      "official_candidates": [
+        {
+          "id": "MD-BNS-CUATM-2025",
+          "name": "Clasificatorul unităților administrativ-teritoriale (CUATM)",
+          "url": "https://statistica.gov.md/files/files/Clasificatoare/CUATM_2025.xlsx",
+          "format": "xlsx",
+          "role": "administrative/locality identifiers; not delivery addresses",
+          "code_scheme": "CUATM",
+          "downloaded": false,
+          "reuse_status": "review official workbook license and 2025-10-17 revision before commercial redistribution",
+          "requirements": ["preserve CUATM string codes", "date-stamp amendments separately", "do not infer Transnistrian service coverage"]
+        }
+      ],
+      "known_issues": ["BNS CUATM is not a postal or road/address register", "2026 name/administrative changes require version diff"],
+      "newly_imported_official_rows": 0,
+      "national_address_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    "UA": {
+      "name": "Ukraine",
+      "official_authority": "Ministry for Development of Communities and Territories",
+      "official_candidates": [
+        {
+          "id": "UA-MININFRA-KATOTTG-20260707",
+          "name": "КАТОТТГ codifier amendment effective/published 2026-07-07",
+          "url": "https://mininfra.gov.ua/diialnist/rozvytok-mistsevoho-samovriaduvannia/kodyfikator-administratyvno-terytorialnykh-odynyts-ta-terytorii-terytorialnykh-hromad",
+          "format": "xlsx",
+          "role": "administrative territorial and community/settlement identifiers",
+          "code_scheme": "KATOTTG",
+          "downloaded": false,
+          "reuse_status": "official government open data attribution; pin exact 2026 XLSX and confirm sheet and source headers",
+          "requirements": ["preserve 19-character KATOTTG codes", "separate prior codes and historical changes", "do not infer wartime access or carrier delivery"]
+        }
+      ],
+      "known_issues": ["temporarily occupied/contested localities require evidence and dates, not invented national joins", "source classification is not a carrier delivery map"],
+      "newly_imported_official_rows": 0,
+      "national_address_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    "BY": {
+      "name": "Belarus",
+      "official_authority": "National Statistical Committee / National Cadastral Agency",
+      "official_candidates": [
+        {
+          "id": "BY-SOATO-OKRB003-2017",
+          "name": "ОКРБ 003-2017 (СОАТО) classification of administrative and inhabited places",
+          "url": "https://www.belstat.gov.by/",
+          "format": "csv_or_xlsx_when_lawfully_acquired",
+          "role": "administrative and settlement codes",
+          "code_scheme": "SOATO",
+          "downloaded": false,
+          "reuse_status": "current public export and conditions not independently established",
+          "requirements": ["preserve native 10-character codes", "record currentness and retired codes", "do not assume complete open street/house register"]
+        }
+      ],
+      "known_issues": ["identify a current official machine-readable download before asserting new national coverage"],
+      "newly_imported_official_rows": 0,
+      "national_address_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    "RU": {
+      "name": "Russia",
+      "official_authority": "Federal Tax Service (FNS) / Rosstat",
+      "official_candidates": [
+        {
+          "id": "RU-FNS-GAR-20261103",
+          "name": "Government address register (GAR/FIAS) XML ZIP 2026-11-03",
+          "url": "https://www.nalog.gov.ru/opendata/7707329152-fias/",
+          "format": "regional XML ZIP / weekly full release",
+          "role": "published address object and hierarchy observations; separate legal territory from issuer",
+          "code_scheme": "GAR_OBJECTID",
+          "downloaded": false,
+          "reuse_status": "open government dataset but exact raw snapshot, processing and downstream terms must be verified",
+          "requirements": ["process regional packages with streaming XML", "retain OBJECTID and OBJECTGUID without recombining by name", "do not label contentious border areas as internationally recognized country membership"]
+        },
+        {
+          "id": "RU-ROSSTAT-OKATO-20260801",
+          "name": "OKATO state classifier 2026-08-01",
+          "url": "https://www.rosstat.gov.ru/opendata/7708234640-okato",
+          "format": "csv",
+          "role": "administrative territorial identifiers (not postal addresses)",
+          "code_scheme": "OKATO",
+          "downloaded": false,
+          "reuse_status": "open data publication, verify exact version and attribution",
+          "requirements": ["preserve leading zeros", "separate administrative and municipal schemes"]
+        }
+      ],
+      "known_issues": ["full nationwide GAR snapshots are very large: use per-region immutable source pins", "country claims of official datasets do not resolve disputed borders"],
+      "newly_imported_official_rows": 0,
+      "national_address_completeness_verified": false,
+      "deliverability_verified": false
+    }
+  }
+}

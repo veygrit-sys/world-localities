@@ -28,6 +28,8 @@ def main() -> None:
     balkan.add_argument("balkan_args", nargs=argparse.REMAINDER)
     microstates = commands.add_parser("microstates", help="audit and build six sovereign European microstates")
     microstates.add_argument("microstate_args", nargs=argparse.REMAINDER)
+    eastern = commands.add_parser("eastern", help="audit Moldova, Ukraine, Belarus and Russia locality evidence")
+    eastern.add_argument("eastern_args", nargs=argparse.REMAINDER)
     restore = commands.add_parser("materialize", help="restore split files for one country")
     roots = materialization_roots()
     restore.add_argument("--registry", choices=sorted(roots), required=True)
@@ -54,6 +56,18 @@ def main() -> None:
         try:
             microstates_main(args.microstate_args)
         except (OSError, ValueError, KeyError, TypeError, sqlite3.Error, RuntimeError) as error:
+            parser.exit(2, str(error) + "\n")
+        return
+
+    if args.command == "eastern":
+        import sqlite3
+        import zipfile
+        import xml.etree.ElementTree as ET
+        from scripts.eastern_four_localities import cli as eastern_cli
+        try:
+            eastern_cli(args.eastern_args)
+        except (OSError, ValueError, KeyError, TypeError, sqlite3.Error, RuntimeError,
+                zipfile.BadZipFile, ET.ParseError) as error:
             parser.exit(2, str(error) + "\n")
         return
 

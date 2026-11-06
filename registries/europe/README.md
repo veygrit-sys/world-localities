@@ -60,6 +60,10 @@ XKはGeoNamesの利用者割当コードで、正式なISO 3166-1割当コード
 
 [6か国の原典・地名・OSM取込と検証](microstates/README.md)では、アンドラ・リヒテンシュタイン・モナコ・サンマリノ・バチカン市国・マルタの既存GeoNames、出典付き公的名称とコミュニティOSM候補を別に管理します。`python -m localities microstates audit --country all` は既存原典の全件整合性を確認します。すべての住宅住所の実在や配達可能性を保証するものではありません。
 
+## モルドバ・ウクライナ・ベラルーシ・ロシア4か国
+
+[東欧4か国の出典別監査・公式原典取込](eastern-four/README.md)には、GeoNames全国原典272,110レコードのハッシュと行政親IDの検証、独立SQLite索引、権利確認済みのCUATM・KATOTTG・SOATO・GAR等のオフライン受入処理を収録しています。 `python -m localities eastern audit --country all` で全件監査できます。ロシアの収録範囲はヨーロッパ側だけでなくロシア全域です。国境係争、物流アクセス、郵便番号の実在は推定しません。
+
 ## 利用
 
 読み込み・検索・GeoNames再構築はPython 3.11以降の標準ライブラリだけで動作します。

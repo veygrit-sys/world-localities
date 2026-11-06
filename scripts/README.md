@@ -36,6 +36,7 @@ python -m localities layout
 | 西欧 | [western_europe_sources.py](western_europe_sources.py) |
 | 欧州ミニ国家6か国 | [europe_microstates.py](europe_microstates.py)（[出典・取込・品質管理](../registries/europe/microstates/README.md)） |
 | バルカン・中東欧11か国 | [balkan_11_localities.py](balkan_11_localities.py)（[国別の検証・出典管理](../registries/europe/balkan-11/README.md)） |
+| 東欧4か国（MD・UA・BY・RU） | [eastern_four_localities.py](eastern_four_localities.py)（[保存済み原典と公式候補の出典管理](../registries/europe/eastern-four/README.md)） |
 | 北欧9地域 | [nordic_localities.py](nordic_localities.py)（[国別資料](../registries/nordics/README.md)） |
 | オランダ | [netherlands_bag.py](netherlands_bag.py)、[netherlands_reference_review.py](netherlands_reference_review.py)、[netherlands_gap_review.py](netherlands_gap_review.py) |
 | 台湾 | [tw_nlsc_reference.py](tw_nlsc_reference.py) |
@@ -49,6 +50,10 @@ python -m localities layout
 ## バルカン11か国の共通CLI
 
 `python -m localities balkan inventory` で対象を確認し、`python -m localities balkan audit --country all` で保存済み11か国のGeoNames原典を全件監査します。検証済みの独立SQLite索引は `python -m localities balkan build --country all --output /new/europe-11.sqlite` で生成し、`python -m localities balkan verify --db /new/europe-11.sqlite` で整合性を検証します。ルーマニアSIRUTAは別出典として監査・管理し、実在住所や配達可能性を証明しません。
+
+## 東欧4か国の全件監査・検索
+
+`python -m localities eastern audit --country all` で既存GeoNames全272,110件のハッシュ・原典ID・親IDを検証します。 `python -m localities eastern build --country all --output /new/eastern-four.sqlite` で出典別索引を生成、`verify --db` で内容照合します。公式CUATM・KATOTTG・SOATO・GARの未取得原典は、権利・版・SHA固定後に別レイヤーとして取込可能です。配達可能性の確認とは異なります。
 
 ## 追加依存
 
