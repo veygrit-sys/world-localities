@@ -45,7 +45,11 @@
       "postcode_authority": "https://post.gi/contact/",
       "shared_postcode": "GX11 1AA",
       "postal_note": "One generic territorial postcode, not street- or address-specific",
-      "geojson_authority_unverified": true
+      "geojson_authority_unverified": true,
+      "official_address_register": "https://www.geoportal.gov.gi/index.php/maps/help/using-the-oar-search-tool",
+      "official_address_register_reported_more_than": 32000,
+      "official_address_register_max_search_results": 50,
+      "address_register_bulk_redistribution_authorized": false
     }
   },
   "osm_extracts": {
