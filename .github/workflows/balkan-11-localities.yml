@@ -5,11 +5,15 @@ on:
     paths:
       - scripts/balkan_11_localities.py
       - registries/europe/balkan-11/**
+      - tests/test_balkan_11_localities.py
+      - localities/__main__.py
       - .github/workflows/balkan-11-localities.yml
   pull_request:
     paths:
       - scripts/balkan_11_localities.py
       - registries/europe/balkan-11/**
+      - tests/test_balkan_11_localities.py
+      - localities/__main__.py
       - .github/workflows/balkan-11-localities.yml
   workflow_dispatch:
 
@@ -31,12 +35,16 @@ jobs:
         run: |
           python -m py_compile scripts/balkan_11_localities.py
           python scripts/balkan_11_localities.py inventory > /dev/null
+      - name: Run 18 offline source, safety and index regression tests
+        run: |
+          python -m unittest discover -s tests -p 'test_balkan_11_localities.py' -v
+          python -m localities balkan inventory > /dev/null
       - name: Full real-source audit and index
         run: |
           mkdir -p evidence
-          python scripts/balkan_11_localities.py audit --country all > evidence/11-country-audit.json
-          python scripts/balkan_11_localities.py build --country all --output "${RUNNER_TEMP}/europe-11-localities.sqlite" > evidence/index-build.json
-          python scripts/balkan_11_localities.py verify --db "${RUNNER_TEMP}/europe-11-localities.sqlite" > evidence/index-verify.json
+          python -m localities balkan audit --country all > evidence/11-country-audit.json
+          python -m localities balkan build --country all --output "${RUNNER_TEMP}/europe-11-localities.sqlite" > evidence/index-build.json
+          python -m localities balkan verify --db "${RUNNER_TEMP}/europe-11-localities.sqlite" > evidence/index-verify.json
           python scripts/balkan_11_localities.py query --country BA --text Sarajevo --db "${RUNNER_TEMP}/europe-11-localities.sqlite" > evidence/bosnia-query.json
           python scripts/balkan_11_localities.py query --country XK --text Prisht --db "${RUNNER_TEMP}/europe-11-localities.sqlite" > evidence/kosovo-query.json
           printf '%s\n' 'Source-qualified GeoNames and existing SIRUTA audit, NOT nationwide address or delivery certification' > evidence/README.txt
