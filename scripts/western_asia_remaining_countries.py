@@ -273,6 +273,7 @@ def verify_syria_source(root: Path = SYRIA) -> dict:
             raise ValueError("Dangling Syrian district")
     village_ids = set()
     by_gov = Counter()
+    missing_arabic = 0
     for path in sorted((root/"localities").glob("*.json")):
         document = json.loads(path.read_text(encoding="utf-8"))
         if document["schema_version"]!=1 or document["governorate_id"] not in govs:
@@ -285,8 +286,10 @@ def verify_syria_source(root: Path = SYRIA) -> dict:
             if len(line)!=8:
                 raise ValueError("Syrian locality column count changed")
             id,district,subdistrict,en,ar,kind,pcode,geonames=line
-            if id in village_ids or not id or not en or not ar:
-                raise ValueError("Missing bilingual names / duplicate locality ID")
+            if id in village_ids or not id or not en:
+                raise ValueError("Missing required English name / duplicate locality ID")
+            if not ar:
+                missing_arabic += 1
             village_ids.add(id)
             if district not in parents or subdistrict not in parents:
                 raise ValueError("Missing source district/subdistrict")
@@ -301,7 +304,8 @@ def verify_syria_source(root: Path = SYRIA) -> dict:
         "upstream_source":"OpenSyria data-geography pinned Git commit",
         "source_gov":counts["governorate"],"source_districts":counts["district"],
         "source_subdistricts":counts["subdistrict"],"source_localities":len(village_ids),
-        "native_english_pairs_count":len(village_ids),
+        "native_english_pairs_count":len(village_ids)-missing_arabic,
+        "source_localities_missing_arabic":missing_arabic,
         "source_geonames_ids_government_verified":False,
         "humanitarian_pcodes_are_postal_codes":False,
         "countrywide_postal_delivery_verified":False,

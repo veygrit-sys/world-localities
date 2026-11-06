@@ -94,7 +94,8 @@ class CountryReferences(unittest.TestCase):
         sy=w.verify_syria_source()
         self.assertEqual(tuple(sy[key] for key in ("source_gov","source_districts",
                          "source_subdistricts","source_localities")),(14,62,272,7605))
-        self.assertEqual(sy["native_english_pairs_count"],7605)
+        self.assertEqual(sy["native_english_pairs_count"],7599)
+        self.assertEqual(sy["source_localities_missing_arabic"],6)
         self.assertEqual(len(sy["locality_rows_by_governorate"]),14)
         self.assertFalse(sy["humanitarian_pcodes_are_postal_codes"])
         self.assertFalse(sy["countrywide_postal_delivery_verified"])
