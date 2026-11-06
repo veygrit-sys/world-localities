@@ -89,3 +89,21 @@ checks 80 original-source unresolved parent coordinates against polygons.
 The report is `unresolved-spatial-review.csv` with source-specific
 identifiers, the outcome, and `approved_administrative_parent=false`.
 `unresolved-spatial-summary.json` contains aggregated case counts.
+
+## Source-year spatial membership overlay
+
+`source-year-spatial-memberships.csv` now supplies **66 source-year
+spatial memberships** between unresolved GeoNames source IDs and
+unambiguous geoBoundaries ADM1/ADM2 polygons: **65 Kenya (2020) and
+1 Ghana (2019)**. This is computed from unique point containment within
+the internally consistent same-year shape hierarchy, omitting geographic
+conflicts, multiple candidates and areas with no unique boundary.
+
+These source-specific ADM2 shape IDs **are not** the missing immediate
+original GeoNames `parent_id` values. No new GN entities or parent IDs
+were invented. This is a second relationship that can be safely read by
+downstream clients for year-scoped geographic enrichment but must never
+be passed as a legally verified current administrative parent. The
+other **14** unresolved records remain without this source-year
+overlay. All **80** original direct-parent gaps remain unresolved in
+the original GeoNames hierarchy.
