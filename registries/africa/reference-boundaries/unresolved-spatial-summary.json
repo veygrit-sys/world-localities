@@ -31,6 +31,8 @@
       "vintage_year": "2020",
       "origin": "IEBC, OCHA ROSEA",
       "license": "CC BY 3.0 IGO",
+      "derived_csv_sha256": "4ff62a44b9174d45955949181e53317d7bfcfef3e8e75d39048dd6a6c290e422",
+      "derived_csv_bytes": 7643,
       "assigned_parent_count": 0,
       "parent_count_method": "representative point in own-source ADM1 polygon (NOT legally certified parent)"
     },
@@ -42,6 +44,8 @@
       "vintage_year": "2020",
       "origin": "IEBC, OCHA ROSEA",
       "license": "CC BY 3.0 IGO",
+      "derived_csv_sha256": "93595dcead1270c0b5a0be3a5028c708a8bc1c1ab4c7b5e9cebd7052678a9367",
+      "derived_csv_bytes": 59484,
       "assigned_parent_count": 290,
       "parent_count_method": "representative point in own-source ADM1 polygon (NOT legally certified parent)"
     },
@@ -53,6 +57,8 @@
       "vintage_year": "2019",
       "origin": "Ghana Statistical Service, USAID Ghana HPNO",
       "license": "CC BY 4.0",
+      "derived_csv_sha256": "09c245a6eea47ef76b83ac42e83ee39c3ae1fff8e2fc736ee2a55d33af5ebe72",
+      "derived_csv_bytes": 3177,
       "assigned_parent_count": 0,
       "parent_count_method": "representative point in own-source ADM1 polygon (NOT legally certified parent)"
     },
@@ -64,6 +70,8 @@
       "vintage_year": "2019",
       "origin": "Ghana Statistical Service, USAID Ghana HPNO",
       "license": "CC BY 4.0",
+      "derived_csv_sha256": "0feeecd8241256cd755dacf08bf41ea8d93e8d7db593f10bf2e2d14effcff9b1",
+      "derived_csv_bytes": 60647,
       "assigned_parent_count": 260,
       "parent_count_method": "representative point in own-source ADM1 polygon (NOT legally certified parent)"
     }
