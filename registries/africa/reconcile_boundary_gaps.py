@@ -107,6 +107,44 @@ def main():
         writer = csv.DictWriter(f, fieldnames=HEADERS, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
+    # A source-versioned external *spatial* association is not a repair
+    # of the original absent GeoNames direct administrative parent.
+    # Only uniquely located, internally coherent source polygons are kept.
+    spatially_consistent = {
+        "name_and_spatial_area_candidate",
+        "spatial_area_candidate_only",
+        "spatial_candidate_missing_source_state",
+    }
+    linked = []
+    for row in rows:
+        if row["finding"] not in spatially_consistent:
+            continue
+        if not row["spatial_adm1_id"] or not row["spatial_adm2_id"]:
+            raise ValueError("spatial candidate lacks complete source polygon references")
+        linked.append({
+            "country": row["country"],
+            "geonames_id": row["geonames_id"],
+            "geonames_name": row["geonames_name"],
+            "source_snapshot_year": "2020" if row["country"] == "KE" else "2019",
+            "source_adm1_shape_id": row["spatial_adm1_id"],
+            "source_adm1_name": row["spatial_adm1_name"],
+            "source_adm2_shape_id": row["spatial_adm2_id"],
+            "source_adm2_name": row["spatial_adm2_name"],
+            "method": "unique_point_in_polygon_source_year",
+            "legal_parent_confirmed": "false",
+            "geonames_original_parent_changed": "false",
+            "source_licence": row["source_license"],
+        })
+    linkfields = ("country", "geonames_id", "geonames_name", "source_snapshot_year",
+                  "source_adm1_shape_id", "source_adm1_name", "source_adm2_shape_id",
+                  "source_adm2_name", "method", "legal_parent_confirmed",
+                  "geonames_original_parent_changed", "source_licence")
+    with (args.output / "source-year-spatial-memberships.csv").open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=linkfields, lineterminator="\\n")
+        writer.writeheader()
+        writer.writerows(linked)
+    if len(linked) != 66 or sum(x["country"] == "KE" for x in linked) != 65:
+        raise ValueError("spatial membership counts changed; review before accepting")
     import collections
     counts = {code:dict(sorted(collections.Counter(
              r["finding"] for r in rows if r["country"]==code).items())) for code in ("KE","GH")}
@@ -115,6 +153,7 @@ def main():
         "approved_administrative_parent_links":0,
         "original_geonames_changed":False,
         "only_spatial_candidates_reviewed":True,
+        "source_year_spatial_memberships": len(linked),\n        "legal_parent_certification_for_memberships": False,
         "counts":counts, "sources":source,
         "warning":"A point within a 2019/2020 statistical/election boundary does not repair a missing GeoNames code or confirm present-day national legal administration. Independently verify original official source IDs and hierarchy before approving.",
     }
