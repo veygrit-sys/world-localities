@@ -140,7 +140,7 @@ def main():
                   "source_adm2_name", "method", "legal_parent_confirmed",
                   "geonames_original_parent_changed", "source_licence")
     with (args.output / "source-year-spatial-memberships.csv").open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=linkfields, lineterminator="\\n")
+        writer = csv.DictWriter(f, fieldnames=linkfields, lineterminator="\n")
         writer.writeheader()
         writer.writerows(linked)
     if len(linked) != 66 or sum(x["country"] == "KE" for x in linked) != 65:
@@ -153,7 +153,8 @@ def main():
         "approved_administrative_parent_links":0,
         "original_geonames_changed":False,
         "only_spatial_candidates_reviewed":True,
-        "source_year_spatial_memberships": len(linked),\n        "legal_parent_certification_for_memberships": False,
+        "source_year_spatial_memberships": len(linked),
+        "legal_parent_certification_for_memberships": False,
         "counts":counts, "sources":source,
         "warning":"A point within a 2019/2020 statistical/election boundary does not repair a missing GeoNames code or confirm present-day national legal administration. Independently verify original official source IDs and hierarchy before approving.",
     }
