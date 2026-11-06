@@ -297,6 +297,15 @@ def osm_rows(code, kind, identity, tags, lat=None,lon=None):
     if code not in CODES or kind not in ('node','way','relation') or int(identity) <= 0:
         raise ValueError('invalid OSM identity')
     clean={key:value for key,value in tags.items() if key in TAGS and isinstance(value,str) and value}
+    source_country=clean.get('addr:country','').upper()
+    # An OSM extract is a buffered bounding region, not a legal state boundary.
+    # Reject explicit neighbouring-country addresses for every jurisdiction.
+    if source_country and source_country != code:
+        return
+    # OSM.fr's Vatican extract also contains thousands of ordinary Rome addresses.
+    # Quarantine untagged records until a separately validated Vatican polygon is available.
+    if code == 'VA' and source_country != 'VA':
+        return
     coords=(lat,lon) if kind=='node' and lat is not None and lon is not None else (None,None)
     categories=[]
     if clean.get('addr:housenumber'):
@@ -313,7 +322,8 @@ def osm_rows(code, kind, identity, tags, lat=None,lon=None):
         actual=clean.get('addr:country','').upper()
         payload={'tags':clean,'osm_primitive':kind,'address_tag_country_conflict':bool(actual and actual != code),
                  'postcode_syntax_valid':postal_syntax(code,postcode) if postcode else None,
-                 'postcode_existence_verified':False,'no_derived_way_centroid':True}
+                 'postcode_existence_verified':False,'no_derived_way_centroid':True,
+                 'legal_country_membership_verified':False}
         yield make_record(code, 'osm-community',f'osm:{kind}:{int(identity)}',item,
                     clean.get('name',''),clean.get('addr:place',''),clean.get('addr:street',''),number,
                     postcode,*coords,payload)
@@ -394,6 +404,8 @@ def build(path, root=ROOT, osm_folder=None, codes=CODES):
                     'official_names_pinned':True,'source_separation':True,
                     'osm_imported':osm_folder is not None,'national_address_completeness_verified':False,
                     'postcode_existence_verified':False,'deliverability_verified':False,
+                    'vatican_buffer_quarantine':'VA requires explicit addr:country=VA; unlabeled Rome-area candidates are excluded',
+                    'legal_extract_membership_verified':False,
                     'caveat':'OSM labels and house-number tags are observations, not national address certification',
                     'osm_license':LICENSE if osm_folder is not None else None,
                     'osm_attribution':ATTRIBUTION if osm_folder is not None else None}
@@ -447,7 +459,7 @@ def search(path,code,text='',kind=None,limit=25):
     finally:db.close()
 
 
-def main():
+def main(argv=None):
     p=argparse.ArgumentParser(description=__doc__)
     sub=p.add_subparsers(dest='action',required=True)
     a=sub.add_parser('inventory')
@@ -458,7 +470,7 @@ def main():
     a=sub.add_parser('search');a.add_argument('--db',type=Path,required=True);a.add_argument('--country',choices=CODES,required=True)
     a.add_argument('--text',default='');a.add_argument('--kind',choices=FEATURE_KINDS);a.add_argument('--limit',type=int,default=25)
     a=sub.add_parser('postcode');a.add_argument('--country',choices=CODES,required=True);a.add_argument('--value',required=True)
-    args=p.parse_args()
+    args=p.parse_args(argv)
     if args.action=='inventory':
         d=load_catalog();out={'countries':d['countries'],'official_reference_rows':len(list(official_rows())),
                               'national_address_completeness_verified':False}

@@ -47,7 +47,8 @@
       "source": "https://download.openstreetmap.fr/extracts/europe/vatican_city-latest.osm.pbf",
       "extract_provider": "osmfr",
       "official_reference_count": 1,
-      "official_reference_kind": "postal_reference"
+      "official_reference_kind": "postal_reference",
+      "buffer_policy": "Quarantine OSM.fr extract rows without explicit addr:country=VA; most untagged Rome-area records must not be called Vatican addresses"
     },
     "MT": {
       "name": "Malta",
@@ -73,5 +74,6 @@
   "postcode_existence_verified": false,
   "deliverability_verified": false,
   "official_reference_sha256": "12d4bfbd11879042d59654df5b4177b06728d66000640277ada206199fe95a33",
-  "official_reference_bytes": 2593
+  "official_reference_bytes": 2593,
+  "osm_country_tag_policy": "All explicit addr:country tags from neighbouring countries are rejected; missing tags remain unverified outside VA"
 }

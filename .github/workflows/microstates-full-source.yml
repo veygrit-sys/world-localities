@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - scripts/europe_microstates.py
+      - localities/__main__.py
       - tests/test_europe_microstates.py
       - registries/europe/microstates/**
       - .github/workflows/microstates-full-source.yml
@@ -28,7 +29,7 @@ jobs:
           python -m py_compile scripts/europe_microstates.py
           python -m unittest discover -s tests -p 'test_europe_microstates.py' -v
           python scripts/europe_microstates.py inventory > /dev/null
-          python scripts/europe_microstates.py audit --country all > /dev/null
+          python -m localities microstates audit --country all > /dev/null
 
   full-country-open-osm:
     needs: contract
@@ -51,7 +52,7 @@ jobs:
           done
       - name: Full-source identity audit and ODbL-separated SQLite index
         run: |
-          python scripts/europe_microstates.py audit --country all > evidence/gazetteer-audit.json
+          python -m localities microstates audit --country all > evidence/gazetteer-audit.json
           python scripts/europe_microstates.py build --osm-root "$RUNNER_TEMP/microstates-raw" --output "$RUNNER_TEMP/microstates.sqlite" > evidence/build-report.json
           python scripts/europe_microstates.py verify --db "$RUNNER_TEMP/microstates.sqlite" > evidence/index-verify.json
           python scripts/europe_microstates.py search --country AD --text Canillo --db "$RUNNER_TEMP/microstates.sqlite" > evidence/AD-search.json

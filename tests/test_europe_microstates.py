@@ -165,9 +165,25 @@ class MicrostatesTest(unittest.TestCase):
         self.assertIsNone(rows[0][10]);self.assertIsNone(rows[0][11])
 
     def test_flag_country_mismatch_and_status(self):
-        row=list(m.osm_rows('LI','node',9,{'addr:housenumber':'4','addr:country':'CH'}))[0]
-        self.assertTrue(json.loads(row[-1])['address_tag_country_conflict'])
+        self.assertEqual(list(m.osm_rows('LI','node',9,{'addr:housenumber':'4','addr:country':'CH'})),[])
+        row=list(m.osm_rows('LI','node',10,{'addr:housenumber':'4','addr:country':'LI'}))[0]
+        self.assertFalse(json.loads(row[-1])['address_tag_country_conflict'])
         self.assertFalse(json.loads(row[-1])['postcode_existence_verified'])
+
+    def test_vatican_buffer_quarantines_rome_and_unlabelled_features(self):
+        self.assertEqual(list(m.osm_rows('VA','node',11,{'addr:housenumber':'47',
+                         'addr:street':'Via dei Cestari','addr:country':'IT'},41.9,12.47)),[])
+        self.assertEqual(list(m.osm_rows('VA','node',12,{'addr:housenumber':'9',
+                         'addr:postcode':'00187'},41.89,12.46)),[])
+        self.assertEqual(list(m.osm_rows('VA','way',13,{'highway':'residential','name':'Via Roma'})),[])
+        accepted=list(m.osm_rows('VA','node',14,{'addr:housenumber':'5',
+                          'addr:country':'VA','addr:postcode':'00120'},41.9,12.45))
+        self.assertEqual(len(accepted),1)
+        self.assertFalse(json.loads(accepted[0][-1])['legal_country_membership_verified'])
+
+    def test_foreign_country_tag_is_rejected_even_inside_extract(self):
+        self.assertEqual(list(m.osm_rows('SM','node',99,{'addr:housenumber':'4','addr:country':'IT'})),[])
+        self.assertEqual(list(m.osm_rows('LI','node',99,{'addr:housenumber':'4','addr:country':'AT'})),[])
 
     def test_source_pin_rejects_wrong_url_and_hash(self):
         code='AD'
