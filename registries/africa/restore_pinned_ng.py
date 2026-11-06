@@ -173,7 +173,29 @@ def main():
         receipt.parent.mkdir(parents=True, exist_ok=True)
         write_json(receipt, result)
         sync_country_inventory(REPO_ROOT)
-        print("Next: update Africa README, then run country module validator and full offline regression.")
+        readme_path = AFRICA / "README.md"
+        readme = readme_path.read_text(encoding="utf-8")
+        replacements = {
+            "移行済み56か国・地域": "移行済み57か国・地域",
+            "収録：56か国・地域、388,038件": "収録：57か国・地域、453,482件",
+            "未移行：コンゴ民主共和国（CD）、モロッコ（MA）、マダガスカル（MG）、ナイジェリア（NG）":
+                "未移行：コンゴ民主共和国（CD）、モロッコ（MA）、マダガスカル（MG）",
+            "56か国版に対応": "57か国版に対応",
+        }
+        for before, after in replacements.items():
+            if before not in readme:
+                raise ValueError("README wording changed; audit manually: " + before)
+            readme = readme.replace(before, after)
+        readme += (
+            "\\n## ナイジェリア復元履歴\\n\\n"
+            "ナイジェリア NG の保存済み原本65,444行を、"
+            "原本BlobとメタデータのSHA照合後に復元しました。"
+            "詳細は `restorations/NG-pinned-source.json` を参照。"
+            "元の移行記録 `migration.json` は当時の56地域版の履歴として保持します。"
+            "原典一致は公式行政区画・郵便配達可否を意味しません。\\n"
+        )
+        readme_path.write_text(readme, encoding="utf-8")
+        print("Nigeria local restore applied; run country-module and Africa full regressions before committing.")
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
