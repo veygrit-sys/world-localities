@@ -24,6 +24,8 @@ def main() -> None:
     commands = parser.add_subparsers(dest="command", required=True)
     commands.add_parser("layout", help="validate registry paths and duplicate-code rules")
     add_cli(commands)
+    balkan = commands.add_parser("balkan", help="audit and index the 11-country Balkan/Central Europe layer")
+    balkan.add_argument("balkan_args", nargs=argparse.REMAINDER)
     restore = commands.add_parser("materialize", help="restore split files for one country")
     roots = materialization_roots()
     restore.add_argument("--registry", choices=sorted(roots), required=True)
@@ -43,6 +45,17 @@ def main() -> None:
     if args.command == "layout":
         print(json.dumps(validate_catalog(), sort_keys=True))
         return
+
+    if args.command == "balkan":
+        import sqlite3
+        import zipfile
+        from scripts.balkan_11_localities import cli as balkan_cli
+        try:
+            balkan_cli(args.balkan_args)
+        except (OSError, ValueError, KeyError, TypeError, sqlite3.Error, zipfile.BadZipFile) as error:
+            parser.exit(2, str(error) + "\n")
+        return
+
     registry_root = REPOSITORY_ROOT / roots[args.registry]
     for path in materialize_country(registry_root, args.country):
         print(path.relative_to(registry_root))
