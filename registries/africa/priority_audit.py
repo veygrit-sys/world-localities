@@ -51,8 +51,20 @@ def audit(root=ROOT):
         errors.append("manifest scope_count differs from country entries")
     if sum(int(r["rows"]) for r in reports.values()) != verification["rows"]:
         errors.append("verification row total mismatch")
-    if verification["rows"] != migration["records"]:
-        errors.append("migration and verification source totals disagree")
+    # Migration records are the immutable 56-area snapshot. Any later pinned
+    # source restoration must carry its own reviewed receipt and counts.
+    expected_rows = migration["records"]
+    restored = root / "restorations"
+    if restored.is_dir():
+        for receipt in sorted(restored.glob("*-pinned-source.json")):
+            evidence = load_json(receipt)
+            code = evidence.get("country")
+            if code not in registered or code in coverage and code not in reports:
+                errors.append("restoration receipt country not in verified manifest: " + str(code))
+            elif code:
+                expected_rows += int(evidence["source_rows"])
+    if verification["rows"] != expected_rows:
+        errors.append("verification rows differ from migration baseline plus pinned restoration receipts")
 
     waves = []
     seen = set()
