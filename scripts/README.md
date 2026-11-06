@@ -34,6 +34,7 @@ python -m localities layout
 |---|---|
 | 東アジア | [east_asia_sources.py](east_asia_sources.py)、[east_asia_query.py](east_asia_query.py)、[east_asia_fast.py](east_asia_fast.py)、[east_asia_projection.py](east_asia_projection.py) |
 | 西欧 | [western_europe_sources.py](western_europe_sources.py) |
+| ジャージー・ガーンジー・マン島・ジブラルタル | [crown_four_localities.py](crown_four_localities.py)（[出典・実データ監査](../registries/europe/crown-four/README.md)） |
 | 欧州ミニ国家6か国 | [europe_microstates.py](europe_microstates.py)（[出典・取込・品質管理](../registries/europe/microstates/README.md)） |
 | バルカン・中東欧11か国 | [balkan_11_localities.py](balkan_11_localities.py)（[国別の検証・出典管理](../registries/europe/balkan-11/README.md)） |
 | 東欧4か国（MD・UA・BY・RU） | [eastern_four_localities.py](eastern_four_localities.py)（[保存済み原典と公式候補の出典管理](../registries/europe/eastern-four/README.md)） |
