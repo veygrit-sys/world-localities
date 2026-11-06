@@ -1,0 +1,75 @@
+name: Czechia RUIAN national verified SQLite publication
+
+on:
+  push:
+    paths:
+      - .github/workflows/cz-ruian-national-index.yml
+  pull_request:
+    paths:
+      - .github/workflows/cz-ruian-national-index.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish-source-qualified-cz-index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Verify source contract and parser invariants
+        run: python -m unittest discover -s tests -p test_europe_official_cz_rs_es.py -v
+      - name: Obtain exact national official October 2026 snapshot and build SQLite
+        run: |
+          mkdir -p "$RUNNER_TEMP/cz-index" publish
+          set -o pipefail
+          python scripts/europe_official_cz_rs_es.py --country CZ --task download --output-dir "$RUNNER_TEMP/cz-index" | tee publish/import-progress.log
+      - name: Independently verify published index and preserve attribution
+        run: |
+          python - <<'PY'
+          import json,sqlite3,pathlib,hashlib
+          folder=pathlib.Path(__import__('os').environ['RUNNER_TEMP'])/'cz-index'
+          p=folder/'cz-addresses.sqlite'
+          report=json.loads((folder/'report-cz.json').read_text())
+          source=report['country_index']
+          assert source['municipal_csv_files']==6258
+          assert source['address_observations']>=3000000
+          assert source['source_receipt']['license']=='CC-BY-4.0'
+          with sqlite3.connect(p) as db:
+              assert db.execute('PRAGMA integrity_check').fetchone()[0]=='ok'
+              n=db.execute('SELECT COUNT(*) FROM records').fetchone()[0]
+              u=db.execute('SELECT COUNT(DISTINCT source_id) FROM records').fetchone()[0]
+              assert n==u==source['address_observations']
+              assert db.execute("SELECT COUNT(*) FROM records WHERE source_crs!='S-JTSK'").fetchone()[0]==0
+          (pathlib.Path('publish')/'report-cz.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+          (pathlib.Path('publish')/'index-validation.json').write_text(json.dumps({
+            'status':'PASS','records':n,'unique_source_ids':u,
+            'source_sha256':source['source_receipt']['sha256'],
+            'retains_native_sjtsk':True,'independently_verified_national_completeness':False,
+            'carrier_deliverability_verified':False},indent=2)+'\n')
+          PY
+          printf '%s\n' \
+            'Source: ČÚZK RÚIAN CSV ADR-ST, snapshot 2026-10-31.' \
+            'License: Creative Commons Attribution 4.0 International (CC-BY-4.0).' \
+            'Attribution: © Český úřad zeměměřický a katastrální (ČÚZK).' \
+            'Data source: https://vdp.cuzk.gov.cz/vymenny_format/csv/20261031_OB_ADR_csv.zip' \
+            'Contains public official address point observations, NOT independently certified delivery-eligible premises.' \
+            'Coordinate values are original native S-JTSK, not WGS84.' > publish/NOTICE.txt
+      - name: Compress verified SQLite for reproducible export
+        run: |
+          zstd -3 -T0 "$RUNNER_TEMP/cz-index/cz-addresses.sqlite" -o publish/cz-ruian-20261031-addresses.sqlite.zst
+          sha256sum publish/cz-ruian-20261031-addresses.sqlite.zst > publish/SHA256SUMS
+          ls -lh publish/
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: cz-ruian-20261031-3023585-address-points-sqlite
+          path: publish/
+          retention-days: 14
+          if-no-files-found: error
+          compression-level: 0
