@@ -55,7 +55,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Sumqayıt"
+          "source_economic_region": "Abşeron-Xızı"
         },
         {
           "ref": "az-stat-member-03-02",
@@ -64,7 +64,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Abşeron"
+          "source_economic_region": "Abşeron-Xızı"
         },
         {
           "ref": "az-stat-member-03-03",
@@ -73,7 +73,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Xızı"
+          "source_economic_region": "Abşeron-Xızı"
         }
       ]
     },
@@ -89,7 +89,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Ağsu"
+          "source_economic_region": "Dağlıq-Şirvan"
         },
         {
           "ref": "az-stat-member-04-02",
@@ -98,7 +98,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "İsmayıllı"
+          "source_economic_region": "Dağlıq-Şirvan"
         },
         {
           "ref": "az-stat-member-04-03",
@@ -107,7 +107,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Qobustan"
+          "source_economic_region": "Dağlıq-Şirvan"
         },
         {
           "ref": "az-stat-member-04-04",
@@ -116,7 +116,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Şamaxı"
+          "source_economic_region": "Dağlıq-Şirvan"
         }
       ]
     },
@@ -132,7 +132,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Gəncə"
+          "source_economic_region": "Gəncə-Daşkəsən"
         },
         {
           "ref": "az-stat-member-05-02",
@@ -141,7 +141,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Naftalan"
+          "source_economic_region": "Gəncə-Daşkəsən"
         },
         {
           "ref": "az-stat-member-05-03",
@@ -150,7 +150,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Daşkəsən"
+          "source_economic_region": "Gəncə-Daşkəsən"
         },
         {
           "ref": "az-stat-member-05-04",
@@ -159,7 +159,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Goranboy"
+          "source_economic_region": "Gəncə-Daşkəsən"
         },
         {
           "ref": "az-stat-member-05-05",
@@ -168,7 +168,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Göygöl"
+          "source_economic_region": "Gəncə-Daşkəsən"
         },
         {
           "ref": "az-stat-member-05-06",
@@ -177,7 +177,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Samux"
+          "source_economic_region": "Gəncə-Daşkəsən"
         }
       ]
     },
@@ -193,7 +193,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Xankəndi"
+          "source_economic_region": "Qarabağ"
         },
         {
           "ref": "az-stat-member-06-02",
@@ -202,7 +202,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Ağcabədi"
+          "source_economic_region": "Qarabağ"
         },
         {
           "ref": "az-stat-member-06-03",
@@ -211,7 +211,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Ağdam"
+          "source_economic_region": "Qarabağ"
         },
         {
           "ref": "az-stat-member-06-04",
@@ -220,7 +220,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Ağdərə"
+          "source_economic_region": "Qarabağ"
         },
         {
           "ref": "az-stat-member-06-05",
@@ -229,7 +229,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Bərdə"
+          "source_economic_region": "Qarabağ"
         },
         {
           "ref": "az-stat-member-06-06",
@@ -238,7 +238,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Füzuli"
+          "source_economic_region": "Qarabağ"
         },
         {
           "ref": "az-stat-member-06-07",
@@ -247,7 +247,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Xocalı"
+          "source_economic_region": "Qarabağ"
         },
         {
           "ref": "az-stat-member-06-08",
@@ -256,7 +256,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Xocavənd"
+          "source_economic_region": "Qarabağ"
         },
         {
           "ref": "az-stat-member-06-09",
@@ -265,7 +265,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Şuşa"
+          "source_economic_region": "Qarabağ"
         },
         {
           "ref": "az-stat-member-06-10",
@@ -274,7 +274,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Tərtər"
+          "source_economic_region": "Qarabağ"
         }
       ]
     },
@@ -290,7 +290,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Ağstafa"
+          "source_economic_region": "Qazax-Tovuz"
         },
         {
           "ref": "az-stat-member-07-02",
@@ -299,7 +299,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Gədəbəy"
+          "source_economic_region": "Qazax-Tovuz"
         },
         {
           "ref": "az-stat-member-07-03",
@@ -308,7 +308,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Qazax"
+          "source_economic_region": "Qazax-Tovuz"
         },
         {
           "ref": "az-stat-member-07-04",
@@ -317,7 +317,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Şəmkir"
+          "source_economic_region": "Qazax-Tovuz"
         },
         {
           "ref": "az-stat-member-07-05",
@@ -326,7 +326,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Tovuz"
+          "source_economic_region": "Qazax-Tovuz"
         }
       ]
     },
@@ -342,7 +342,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Xaçmaz"
+          "source_economic_region": "Quba-Xaçmaz"
         },
         {
           "ref": "az-stat-member-08-02",
@@ -351,7 +351,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Quba"
+          "source_economic_region": "Quba-Xaçmaz"
         },
         {
           "ref": "az-stat-member-08-03",
@@ -360,7 +360,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Qusar"
+          "source_economic_region": "Quba-Xaçmaz"
         },
         {
           "ref": "az-stat-member-08-04",
@@ -369,7 +369,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Siyəzən"
+          "source_economic_region": "Quba-Xaçmaz"
         },
         {
           "ref": "az-stat-member-08-05",
@@ -378,7 +378,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Şabran"
+          "source_economic_region": "Quba-Xaçmaz"
         }
       ]
     },
@@ -394,7 +394,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Astara"
+          "source_economic_region": "Lənkəran-Astara"
         },
         {
           "ref": "az-stat-member-09-02",
@@ -403,7 +403,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Cəlilabad"
+          "source_economic_region": "Lənkəran-Astara"
         },
         {
           "ref": "az-stat-member-09-03",
@@ -412,7 +412,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Lerik"
+          "source_economic_region": "Lənkəran-Astara"
         },
         {
           "ref": "az-stat-member-09-04",
@@ -421,7 +421,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Lənkəran"
+          "source_economic_region": "Lənkəran-Astara"
         },
         {
           "ref": "az-stat-member-09-05",
@@ -430,7 +430,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Masallı"
+          "source_economic_region": "Lənkəran-Astara"
         },
         {
           "ref": "az-stat-member-09-06",
@@ -439,7 +439,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Yardımlı"
+          "source_economic_region": "Lənkəran-Astara"
         }
       ]
     },
@@ -455,7 +455,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Mingəçevir"
+          "source_economic_region": "Mərkəzi Aran"
         },
         {
           "ref": "az-stat-member-10-02",
@@ -464,7 +464,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Ağdaş"
+          "source_economic_region": "Mərkəzi Aran"
         },
         {
           "ref": "az-stat-member-10-03",
@@ -473,7 +473,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Göyçay"
+          "source_economic_region": "Mərkəzi Aran"
         },
         {
           "ref": "az-stat-member-10-04",
@@ -482,7 +482,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Kürdəmir"
+          "source_economic_region": "Mərkəzi Aran"
         },
         {
           "ref": "az-stat-member-10-05",
@@ -491,7 +491,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Ucar"
+          "source_economic_region": "Mərkəzi Aran"
         },
         {
           "ref": "az-stat-member-10-06",
@@ -500,7 +500,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Yevlax"
+          "source_economic_region": "Mərkəzi Aran"
         },
         {
           "ref": "az-stat-member-10-07",
@@ -509,7 +509,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Zərdab"
+          "source_economic_region": "Mərkəzi Aran"
         }
       ]
     },
@@ -525,7 +525,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Beyləqan"
+          "source_economic_region": "Mil-Muğan"
         },
         {
           "ref": "az-stat-member-11-02",
@@ -534,7 +534,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "İmişli"
+          "source_economic_region": "Mil-Muğan"
         },
         {
           "ref": "az-stat-member-11-03",
@@ -543,7 +543,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Saatlı"
+          "source_economic_region": "Mil-Muğan"
         },
         {
           "ref": "az-stat-member-11-04",
@@ -552,7 +552,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Sabirabad"
+          "source_economic_region": "Mil-Muğan"
         }
       ]
     },
@@ -568,7 +568,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Balakən"
+          "source_economic_region": "Şəki-Zaqatala"
         },
         {
           "ref": "az-stat-member-12-02",
@@ -577,7 +577,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Qax"
+          "source_economic_region": "Şəki-Zaqatala"
         },
         {
           "ref": "az-stat-member-12-03",
@@ -586,7 +586,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Qəbələ"
+          "source_economic_region": "Şəki-Zaqatala"
         },
         {
           "ref": "az-stat-member-12-04",
@@ -595,7 +595,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Oğuz"
+          "source_economic_region": "Şəki-Zaqatala"
         },
         {
           "ref": "az-stat-member-12-05",
@@ -604,7 +604,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Şəki"
+          "source_economic_region": "Şəki-Zaqatala"
         },
         {
           "ref": "az-stat-member-12-06",
@@ -613,7 +613,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Zaqatala"
+          "source_economic_region": "Şəki-Zaqatala"
         }
       ]
     },
@@ -629,7 +629,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Cəbrayıl"
+          "source_economic_region": "Şərqi Zəngəzur"
         },
         {
           "ref": "az-stat-member-13-02",
@@ -638,7 +638,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Kəlbəcər"
+          "source_economic_region": "Şərqi Zəngəzur"
         },
         {
           "ref": "az-stat-member-13-03",
@@ -647,7 +647,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Qubadlı"
+          "source_economic_region": "Şərqi Zəngəzur"
         },
         {
           "ref": "az-stat-member-13-04",
@@ -656,7 +656,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Laçın"
+          "source_economic_region": "Şərqi Zəngəzur"
         },
         {
           "ref": "az-stat-member-13-05",
@@ -665,7 +665,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Zəngilan"
+          "source_economic_region": "Şərqi Zəngəzur"
         }
       ]
     },
@@ -681,7 +681,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Şirvan"
+          "source_economic_region": "Şirvan-Salyan"
         },
         {
           "ref": "az-stat-member-14-02",
@@ -690,7 +690,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Biləsuvar"
+          "source_economic_region": "Şirvan-Salyan"
         },
         {
           "ref": "az-stat-member-14-03",
@@ -699,7 +699,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Hacıqabul"
+          "source_economic_region": "Şirvan-Salyan"
         },
         {
           "ref": "az-stat-member-14-04",
@@ -708,7 +708,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Neftçala"
+          "source_economic_region": "Şirvan-Salyan"
         },
         {
           "ref": "az-stat-member-14-05",
@@ -717,7 +717,7 @@
           "official_stable_id": null,
           "geonames_id": null,
           "accepted_id_crosswalk": false,
-          "source_economic_region": "Salyan"
+          "source_economic_region": "Şirvan-Salyan"
         }
       ]
     }
