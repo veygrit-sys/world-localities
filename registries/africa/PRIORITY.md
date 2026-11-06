@@ -124,3 +124,17 @@ python registries/africa/triage_unresolved.py --country GH --output /tmp/gh-pare
 ```
 
 These reports expose the original source feature class, parent relation, GeoNames ID and original administrative codes, with `parent_id: null` where unresolved. KNBS/GSS **lower-level official code tables and reviewed parent links** must still be imported before changing those 80 direct-parent gaps. Reporting or proposing an alias is **not** equivalent to fixing an administrative parent.
+
+## 2026-11-06: actual licensed reference boundary import (following the name-only intake)
+
+**Completed:** Pin and import 613 separate boundary name/shapeID rows from geoBoundaries gbOpen pinned release `9469f09` with exact SHA-256 validation:
+
+- Kenya ADM1 **47**, ADM2 **290** (IEBC / OCHA ROSEA source, 2020 vintage, CC BY 3.0 IGO).
+- Ghana ADM1 **16**, ADM2 **260** (GSS / USAID Ghana origin, 2019 vintage, CC BY 4.0).
+- Stored `reference-boundaries/{KEN,GHA}-{ADM1,ADM2}-source-units.csv` and `reference-boundaries/source_receipts.json`.
+- Both countries' `countries/modules.json` and `countries/catalog.json` now register the two separate reference layers. `python -m localities country inspect --country KE` and `verify --country KE` (likewise GH) verify their row counts, provenance and derived file hashes.
+- All **80** KE/GH original GeoNames missing immediate-parent records are now included in `reference-boundaries/unresolved-spatial-review.csv`. The shapefile points resolve **three unique Kenya name+location+county candidates**, Ainamoi, Ainabkoi and Endebess, but **do not create missing original GeoNames parent IDs**. Six state disagreements and seven no-unique-shape cases were exposed rather than silently corrected.
+- A second independent Kenya government publication check captured 5 named subcounty/county evidence cases, including the 2024→2025 Nyatike classification change, in `reference-boundaries/KE-government-name-county-evidence.csv`. The underlying KNBS publication uses noncommercial licensing; only limited factual identifiers and source URLs are quoted, not redistributed in bulk.
+- **Still not done:** source original Nigeria NG gzip 65,444 records into the current registry, and **officially approved direct GeoNames parent ID links for the 80 cases**. Time-versioned polygon membership is valuable for diagnostics but it is *not* an official subcounty government code.
+
+For source methodology, rights and real reconciliation counts see [reference-boundaries/README.md](reference-boundaries/README.md).
