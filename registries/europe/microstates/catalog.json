@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-11-06",
+  "purpose": "Six small sovereign European jurisdictions; independently source-qualified official names, existing GeoNames, OSM community candidates",
+  "countries": {
+    "AD": {
+      "name": "Andorra",
+      "primary_official_reference": "https://www.govern.ad/documents/d/guest/viure_andorra2?download=true",
+      "official_geodata": "https://www.ideandorra.ad/geoportal/mIndex.jsp?lang=es",
+      "source": "https://download.geofabrik.de/europe/andorra-latest.osm.pbf",
+      "extract_provider": "geofabrik",
+      "official_reference_count": 7,
+      "official_reference_kind": "parish"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "primary_official_reference": "https://www.llv.li/en/national-administration/public-procurement-department/basic-provisions/client/clients-countries-municipalities-etc",
+      "official_geodata": "https://service.geo.llv.li/download/",
+      "source": "https://download.geofabrik.de/europe/liechtenstein-latest.osm.pbf",
+      "extract_provider": "geofabrik",
+      "official_reference_count": 11,
+      "official_reference_kind": "municipality",
+      "existing_official_address_source": "releases/hierarchy/western-europe/official-sources.json"
+    },
+    "MC": {
+      "name": "Monaco",
+      "primary_official_reference": "https://www.imsee.mc/",
+      "official_geodata": "https://www.imsee.mc/",
+      "source": "https://download.geofabrik.de/europe/monaco-latest.osm.pbf",
+      "extract_provider": "geofabrik",
+      "official_reference_count": 0,
+      "official_reference_kind": "none"
+    },
+    "SM": {
+      "name": "San Marino",
+      "primary_official_reference": "https://www.interni.sm/pub2/InterniSM/Giunte-di-Castello/Le-Giunte-di-Castello.html",
+      "official_geodata": "https://www.gov.sm/",
+      "source": "https://download.openstreetmap.fr/extracts/europe/san_marino-latest.osm.pbf",
+      "extract_provider": "osmfr",
+      "official_reference_count": 9,
+      "official_reference_kind": "castello"
+    },
+    "VA": {
+      "name": "Vatican City",
+      "primary_official_reference": "https://www.vatican.va/roman_curia/secretariat_state/documents/informazione_generale/sp_ss_scv_info-generale_en.html",
+      "official_geodata": "https://www.vaticanstate.va/en/",
+      "source": "https://download.openstreetmap.fr/extracts/europe/vatican_city-latest.osm.pbf",
+      "extract_provider": "osmfr",
+      "official_reference_count": 1,
+      "official_reference_kind": "postal_reference",
+      "buffer_policy": "Quarantine OSM.fr extract rows without explicit addr:country=VA; most untagged Rome-area records must not be called Vatican addresses"
+    },
+    "MT": {
+      "name": "Malta",
+      "primary_official_reference": "https://address.gov.mt/",
+      "official_geodata": "https://address.gov.mt/registers/",
+      "source": "https://download.geofabrik.de/europe/malta-latest.osm.pbf",
+      "extract_provider": "geofabrik",
+      "official_reference_count": 0,
+      "official_reference_kind": "none",
+      "existing_official_statistical_local_councils": 68
+    }
+  },
+  "excluded_crown_dependencies": [
+    "GG",
+    "JE",
+    "IM",
+    "GI"
+  ],
+  "existing_geonames_root": "registries/europe/countries",
+  "official_name_csv": "registries/europe/microstates/official-reference.csv",
+  "rights": "Individual official links are factual name and status evidence only; no unlicensed source datasets copied. OSM extracts are ODbL-1.0 and remain a separate community-evidence layer.",
+  "national_address_completeness_verified": false,
+  "postcode_existence_verified": false,
+  "deliverability_verified": false,
+  "official_reference_sha256": "12d4bfbd11879042d59654df5b4177b06728d66000640277ada206199fe95a33",
+  "official_reference_bytes": 2593,
+  "osm_country_tag_policy": "All explicit addr:country tags from neighbouring countries are rejected; missing tags remain unverified outside VA"
+}

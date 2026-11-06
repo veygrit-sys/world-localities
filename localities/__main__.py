@@ -26,6 +26,8 @@ def main() -> None:
     add_cli(commands)
     balkan = commands.add_parser("balkan", help="audit and index the 11-country Balkan/Central Europe layer")
     balkan.add_argument("balkan_args", nargs=argparse.REMAINDER)
+    microstates = commands.add_parser("microstates", help="audit and build six sovereign European microstates")
+    microstates.add_argument("microstate_args", nargs=argparse.REMAINDER)
     restore = commands.add_parser("materialize", help="restore split files for one country")
     roots = materialization_roots()
     restore.add_argument("--registry", choices=sorted(roots), required=True)
@@ -44,6 +46,15 @@ def main() -> None:
 
     if args.command == "layout":
         print(json.dumps(validate_catalog(), sort_keys=True))
+        return
+
+    if args.command == "microstates":
+        import sqlite3
+        from scripts.europe_microstates import main as microstates_main
+        try:
+            microstates_main(args.microstate_args)
+        except (OSError, ValueError, KeyError, TypeError, sqlite3.Error, RuntimeError) as error:
+            parser.exit(2, str(error) + "\n")
         return
 
     if args.command == "balkan":
