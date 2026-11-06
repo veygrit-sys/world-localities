@@ -187,12 +187,12 @@ def main():
                 raise ValueError("README wording changed; audit manually: " + before)
             readme = readme.replace(before, after)
         readme += (
-            "\\n## ナイジェリア復元履歴\\n\\n"
+            "\n## ナイジェリア復元履歴\n\n"
             "ナイジェリア NG の保存済み原本65,444行を、"
             "原本BlobとメタデータのSHA照合後に復元しました。"
             "詳細は `restorations/NG-pinned-source.json` を参照。"
             "元の移行記録 `migration.json` は当時の56地域版の履歴として保持します。"
-            "原典一致は公式行政区画・郵便配達可否を意味しません。\\n"
+            "原典一致は公式行政区画・郵便配達可否を意味しません。\n"
         )
         readme_path.write_text(readme, encoding="utf-8")
         print("Nigeria local restore applied; run country-module and Africa full regressions before committing.")
