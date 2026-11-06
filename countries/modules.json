@@ -12,10 +12,12 @@
       "notice_refs": [
         "registries/africa/README.md",
         "registries/africa/NOTICE.md",
-        "registries/africa/LICENSE"
+        "registries/africa/LICENSE",
+        "registries/africa/reference-boundaries/README.md"
       ],
       "test_refs": [
-        "registries/africa/test_africa.py"
+        "registries/africa/test_africa.py",
+        "registries/africa/test_imported_boundary_layer.py"
       ]
     },
     "asia": {
@@ -2672,6 +2674,32 @@
           }
         },
         {
+          "id": "africa-boundary-reference-adm1",
+          "registry": "africa",
+          "kind": "reference_csv",
+          "data": "registries/africa/reference-boundaries/GHA-ADM1-source-units.csv",
+          "metadata": "registries/africa/reference-boundaries/source_receipts.json",
+          "verifier": "reference_csv_integrity",
+          "selector": {
+            "country": "GH",
+            "source_layer": "GHA-ADM1"
+          },
+          "scope": "Dated 2019/2020 gbOpen authority-origin administrative reference, not current legal parent or delivery evidence"
+        },
+        {
+          "id": "africa-boundary-reference-adm2",
+          "registry": "africa",
+          "kind": "reference_csv",
+          "data": "registries/africa/reference-boundaries/GHA-ADM2-source-units.csv",
+          "metadata": "registries/africa/reference-boundaries/source_receipts.json",
+          "verifier": "reference_csv_integrity",
+          "selector": {
+            "country": "GH",
+            "source_layer": "GHA-ADM2"
+          },
+          "scope": "Dated 2019/2020 gbOpen authority-origin administrative reference, not current legal parent or delivery evidence"
+        },
+        {
           "id": "address-format",
           "registry": "addressing",
           "kind": "address_format",
@@ -3697,6 +3725,32 @@
           "selector": {
             "country": "KE"
           }
+        },
+        {
+          "id": "africa-boundary-reference-adm1",
+          "registry": "africa",
+          "kind": "reference_csv",
+          "data": "registries/africa/reference-boundaries/KEN-ADM1-source-units.csv",
+          "metadata": "registries/africa/reference-boundaries/source_receipts.json",
+          "verifier": "reference_csv_integrity",
+          "selector": {
+            "country": "KE",
+            "source_layer": "KEN-ADM1"
+          },
+          "scope": "Dated 2019/2020 gbOpen authority-origin administrative reference, not current legal parent or delivery evidence"
+        },
+        {
+          "id": "africa-boundary-reference-adm2",
+          "registry": "africa",
+          "kind": "reference_csv",
+          "data": "registries/africa/reference-boundaries/KEN-ADM2-source-units.csv",
+          "metadata": "registries/africa/reference-boundaries/source_receipts.json",
+          "verifier": "reference_csv_integrity",
+          "selector": {
+            "country": "KE",
+            "source_layer": "KEN-ADM2"
+          },
+          "scope": "Dated 2019/2020 gbOpen authority-origin administrative reference, not current legal parent or delivery evidence"
         },
         {
           "id": "address-format",
