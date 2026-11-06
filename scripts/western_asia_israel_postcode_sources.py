@@ -80,6 +80,8 @@ def _xlsx_headers(first: list[str]) -> dict[str, int]:
 
 
 def _spreadsheet_rows(raw: bytes):
+    if not zipfile.is_zipfile(io.BytesIO(raw)):
+        raise ValueError("Input is not a valid XLSX ZIP container")
     with zipfile.ZipFile(io.BytesIO(raw)) as archive:
         files = {info.filename: info for info in archive.infolist()}
         if len(files) != len(archive.infolist()):
