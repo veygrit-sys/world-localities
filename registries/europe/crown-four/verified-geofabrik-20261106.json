@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "checked_at_date": "2026-11-06",
+  "status": "SOURCE_EVIDENCE_INDEXED_AND_REPLAY_VERIFIED",
+  "verification_run": "https://github.com/veygrit-sys/world-localities/actions/runs/42205928501",
+  "sources": [
+    {
+      "source_id": "guernsey-jersey",
+      "requested_url": "https://download.geofabrik.de/europe/guernsey-jersey-latest.osm.pbf",
+      "resolved_snapshot_url": "https://download.geofabrik.de/europe/guernsey-jersey-261104.osm.pbf",
+      "bytes": 3931943,
+      "sha256": "5351d08c6506301d02aa362febfc797525afcb3f0ca5c90f69e0a7cdb337de30",
+      "license": "ODbL-1.0"
+    },
+    {
+      "source_id": "isle-of-man",
+      "requested_url": "https://download.geofabrik.de/europe/isle-of-man-latest.osm.pbf",
+      "resolved_snapshot_url": "https://download.geofabrik.de/europe/isle-of-man-261104.osm.pbf",
+      "bytes": 6117326,
+      "sha256": "6dad8b71b05e8de3e0982a9fd419624bd69a0ecb9992fee2f78fdc6e480f0e7d",
+      "license": "ODbL-1.0"
+    }
+  ],
+  "accepted_existing_gazetteer_records": 449,
+  "official_text_reference_records": 44,
+  "osm_observation_records": 26603,
+  "indexed_observations": 27096,
+  "indexed_projected_rows_sha256": "a2d8b7d263e085aaa83ea4f954609ad10edac5286068e48da2b57bfed12ae2a4",
+  "country_breakdown": {
+    "JE": {
+      "indexed_observations": 1912,
+      "osm_observations": 1802,
+      "osm_house_number_candidates": 947
+    },
+    "GG": {
+      "indexed_observations": 1103,
+      "osm_observations": 819,
+      "osm_house_number_candidates": 82
+    },
+    "IM": {
+      "indexed_observations": 15761,
+      "osm_observations": 15673,
+      "osm_house_number_candidates": 6951
+    },
+    "GI": {
+      "indexed_observations": 11,
+      "osm_observations": 0,
+      "osm_house_number_candidates": 0
+    },
+    "UNRESOLVED": {
+      "indexed_observations": 8309,
+      "osm_observations": 8309,
+      "osm_house_number_candidates": 2653
+    }
+  },
+  "notes": [
+    "The 8309 ambiguous observations remain quarantined. Bbox-only labels and OSM country claims do not certify legal territory.",
+    "Named road segments, places, postal references and house-number features are overlapping observations, not unique actual premises.",
+    "The Gibraltar source layer has one general-purpose postcode reference and GeoNames entities, but no actual building/road registry or Geofabrik extract.",
+    "The source artifact has limited retention; SHA-256 and report digest are pinned here for historic audit."
+  ],
+  "attribution": "© OpenStreetMap contributors; Geofabrik regional extracts",
+  "legal_country_membership_verified": false,
+  "postal_existence_verified": false,
+  "national_address_completeness_verified": false,
+  "deliverability_verified": false
+}
