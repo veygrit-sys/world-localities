@@ -1,0 +1,98 @@
+# CZ nation-wide RUIAN now has a successful, separately merged importer and publisher.
+# This workflow tracks still-unacquired official Serbia/Spain bulk source exports.
+name: Serbia and Spain official source access and acquisition
+on:
+  push:
+    paths:
+      - scripts/europe_official_cz_rs_es.py
+      - tests/test_europe_official_cz_rs_es.py
+      - docs/plans/europe-three-official-bulk-20261106.md
+      - .github/workflows/europe-three-official-bulk.yml
+  pull_request:
+    paths:
+      - scripts/europe_official_cz_rs_es.py
+      - tests/test_europe_official_cz_rs_es.py
+      - docs/plans/europe-three-official-bulk-20261106.md
+      - .github/workflows/europe-three-official-bulk.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  contracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: National source parser tests
+        run: |
+          python -m unittest discover -s tests -p 'test_europe_official_cz_rs_es.py' -v
+          python -m py_compile scripts/europe_official_cz_rs_es.py
+  rs-national-streets-and-numbers:
+    needs: contracts
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Download two Serbian RGZ national source exports and inspect source headers
+        id: rs
+        continue-on-error: true
+        run: |
+          mkdir -p "$RUNNER_TEMP/official-rs" evidence/rs
+          set -o pipefail
+          python scripts/europe_official_cz_rs_es.py --country RS --task download --output-dir "$RUNNER_TEMP/official-rs" 2>&1 | tee evidence/rs/command.log
+      - name: Retain RGZ source receipts and observed schema even if processing failed
+        if: always()
+        run: |
+          if test -e "$RUNNER_TEMP/official-rs/report-rs.json"; then cp "$RUNNER_TEMP/official-rs/report-rs.json" evidence/rs/; fi
+          printf '%s\n' "RS acquisition step: ${{ steps.rs.outcome }}" > evidence/rs/ci-result.txt
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: rs-real-official-national-source-receipts
+          path: evidence/rs/
+          retention-days: 21
+      - name: Require both genuine RGZ exports
+        if: steps.rs.outcome != 'success'
+        run: exit 1
+  es-cnig-province-discovery:
+    needs: contracts
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Inspect the official 52-file CartoCiudad province catalog and CNIG download handshake
+        id: es
+        continue-on-error: true
+        run: |
+          mkdir -p "$RUNNER_TEMP/official-es" evidence/es
+          set -o pipefail
+          python scripts/europe_official_cz_rs_es.py --country ES --task discover --output-dir "$RUNNER_TEMP/official-es" 2>&1 | tee evidence/es/command.log
+      - name: Persist actual official CNIG catalog inspection evidence
+        if: always()
+        run: |
+          if test -e "$RUNNER_TEMP/official-es/report-es.json"; then cp "$RUNNER_TEMP/official-es/report-es.json" evidence/es/; fi
+          printf '%s\n' "ES catalog inspection: ${{ steps.es.outcome }}" > evidence/es/ci-result.txt
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: es-cnig-official-province-catalog-inspection
+          path: evidence/es/
+          retention-days: 21
+      - name: Require verified official catalog access
+        if: steps.es.outcome != 'success'
+        run: exit 1
