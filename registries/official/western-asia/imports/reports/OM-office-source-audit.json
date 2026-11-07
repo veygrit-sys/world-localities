@@ -1,0 +1,13 @@
+{
+  "country": "OM",
+  "original_bytes": 107275,
+  "original_sha256": "00abf26ef7afd5c9aada2022e0d4ac0c2220445b2bdcb0ff9f81794377217d86",
+  "source_elements": 220,
+  "source_map_type_counts": {
+    "2": 60,
+    "1": 158,
+    "None": 2
+  },
+  "normalised_postcode_directory_published": false,
+  "reason": "Publisher reuse terms and source element semantics require review; office codes do not establish townwide home delivery."
+}

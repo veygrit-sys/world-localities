@@ -1,5 +1,7 @@
 # Actual published postal-code facts: Oman Post, Palestine Post, SPL and UPU
 
+This is the preserved 85-row manual excerpt, not the current project-wide import inventory. See [the acquired source layer](../imports/README.md) for subsequent Cyprus/Jordan original imports and country-level remaining work.
+
 This folder contains **85 manually transcribed source/code/place pairings** from
 public official postal pages, checked on **2026-11-05**. These are real published
 facts, but they are **not an imported original full source dataset**. The original

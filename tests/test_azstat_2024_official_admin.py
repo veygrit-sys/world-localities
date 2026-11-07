@@ -43,4 +43,12 @@ class Classification(unittest.TestCase):
         self.assertFalse(report["is_postcode_source"])
         self.assertGreaterEqual(report["geonames_review_candidates"]["unique_unreviewed"],1)
 
+    def test_exact_publisher_duplicate_is_counted_but_conflicting_code_fails(self):
+        report=az.audit(SAMPLE+SAMPLE,minimum=5)
+        self.assertEqual(report["rows"],5)
+        self.assertEqual(report["source_exact_duplicate_rows"],5)
+        changed=SAMPLE.replace("BAKI ŞƏHƏRİ".encode(),"DIFFERENT".encode())
+        with self.assertRaisesRegex(ValueError,"Duplicate official code"):
+            az.audit(SAMPLE+changed,minimum=5)
+
 if __name__=="__main__":unittest.main()

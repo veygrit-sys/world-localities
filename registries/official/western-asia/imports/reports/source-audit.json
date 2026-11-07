@@ -1,0 +1,971 @@
+{
+  "complete_current_official_national_address_database": false,
+  "countries": [
+    {
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 7
+      },
+      "country": "AE",
+      "deliverability_verified": false,
+      "gazetteer_archive_sha256": "12f3550a97eb8246fb8020b66a6a6292f7e2af992a4d94ccdfded2aaef932185",
+      "gazetteer_dangling_parent_ids": {},
+      "gazetteer_rows": 2853,
+      "imported_source_rows": 8,
+      "localities_without_state": 10,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "source_ids": [
+        "AE-OCHA-COD-20261108"
+      ]
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 39,
+        "unmatched": 11
+      },
+      "country": "AM",
+      "deliverability_verified": false,
+      "gazetteer_archive_sha256": "340b7aa362db388bf164eca179d4806d1af36c7a633dba9783242f894c1092d3",
+      "gazetteer_dangling_parent_ids": {},
+      "gazetteer_rows": 2427,
+      "imported_source_rows": 51,
+      "localities_without_state": 887,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "source_ids": [
+        "AM-OCHA-COD-20261108"
+      ]
+    },
+    {
+      "candidate_counts": {
+        "ambiguous_unreviewed": 4,
+        "different_grain": 1,
+        "unique_unreviewed": 56,
+        "unmatched": 14
+      },
+      "country": "AZ",
+      "deliverability_verified": false,
+      "gazetteer_archive_sha256": "bca161fb4dec1cd4ed97342cbfc7c1c4484113c87a7ba45dd7b30ddf791efc1f",
+      "gazetteer_dangling_parent_ids": {},
+      "gazetteer_rows": 5397,
+      "imported_source_rows": 75,
+      "localities_without_state": 243,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "source_ids": [
+        "AZ-OCHA-COD-20261108"
+      ]
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 93,
+        "unique_unreviewed": 3,
+        "unmatched": 1
+      },
+      "country": "BH",
+      "deliverability_verified": false,
+      "gazetteer_archive_sha256": "d52f9ba9664c56a7c90b9fe77bf563c87463a32c2c66e4502455886d92f64f54",
+      "gazetteer_dangling_parent_ids": {},
+      "gazetteer_rows": 138,
+      "imported_source_rows": 97,
+      "localities_without_state": 12,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "source_ids": [
+        "BH-IGA-GOVERNORATE-AREA-2024"
+      ]
+    },
+    {
+      "candidate_counts": {
+        "ambiguous_unreviewed": 47,
+        "different_grain": 66240,
+        "unique_unreviewed": 1366,
+        "unmatched": 461
+      },
+      "country": "CY",
+      "deliverability_verified": false,
+      "gazetteer_archive_sha256": "5311f641f078894090f6a1a4c6a861a36d9cb6d2b7af2448723879c792457808",
+      "gazetteer_dangling_parent_ids": {},
+      "gazetteer_rows": 1448,
+      "imported_source_rows": 68114,
+      "localities_without_state": 16,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "source_ids": [
+        "CY-POST-DIRECTORY-2024",
+        "CY-POST-MUNICIPALITIES-2021"
+      ]
+    },
+    {
+      "candidate_counts": {
+        "ambiguous_unreviewed": 25,
+        "different_grain": 1,
+        "unique_unreviewed": 221,
+        "unmatched": 95
+      },
+      "country": "GE",
+      "deliverability_verified": false,
+      "gazetteer_archive_sha256": "fd80cf0f87a076c6bf4c3966dddccc43d48e70e83058f5ae5a9d6c374f859450",
+      "gazetteer_dangling_parent_ids": {},
+      "gazetteer_rows": 5519,
+      "imported_source_rows": 342,
+      "localities_without_state": 622,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "source_ids": [
+        "GE-OCHA-COD-20261108",
+        "GE-MUNICIPALITIES-2026",
+        "GE-CITIES-2026"
+      ]
+    },
+    {
+      "candidate_counts": {
+        "ambiguous_unreviewed": 44,
+        "unique_unreviewed": 987,
+        "unmatched": 285
+      },
+      "country": "IL",
+      "deliverability_verified": false,
+      "gazetteer_archive_sha256": "6298571d03ed199ac186dba33507e2574338507f08445372d2bd8f1740fa43b8",
+      "gazetteer_dangling_parent_ids": {},
+      "gazetteer_rows": 1892,
+      "imported_source_rows": 1316,
+      "localities_without_state": 205,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "source_ids": [
+        "IL-PIBA-LOCALITIES-20261108"
+      ]
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 49,
+        "unmatched": 364
+      },
+      "country": "IQ",
+      "deliverability_verified": false,
+      "gazetteer_archive_sha256": "6e9aab76da0b4942b0dc53abbc84d32277cdcba3f2d0a5805a7e2b6853cf053b",
+      "gazetteer_dangling_parent_ids": {},
+      "gazetteer_rows": 24025,
+      "imported_source_rows": 414,
+      "localities_without_state": 1381,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "source_ids": [
+        "IQ-OCHA-COD-20261108"
+      ]
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 240
+      },
+      "country": "JO",
+      "deliverability_verified": false,
+      "gazetteer_archive_sha256": "042894e6d6cfe49e10aaff575b5b360f5c82b313e0774976cf7253ae66abbff2",
+      "gazetteer_dangling_parent_ids": {},
+      "gazetteer_rows": 1859,
+      "imported_source_rows": 240,
+      "localities_without_state": 3,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "source_ids": [
+        "JO-POST-OFFICES-2023-1661"
+      ]
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 5,
+        "unmatched": 1
+      },
+      "country": "KW",
+      "deliverability_verified": false,
+      "gazetteer_archive_sha256": "9fae59d34a083d03bea50e02c64ece26801fcb30a2f883056357c6e1a4d9c30e",
+      "gazetteer_dangling_parent_ids": {},
+      "gazetteer_rows": 242,
+      "imported_source_rows": 7,
+      "localities_without_state": 63,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "source_ids": [
+        "KW-OCHA-COD-20261108"
+      ]
+    },
+    {
+      "candidate_counts": {
+        "unique_unreviewed": 23,
+        "unmatched": 1638
+      },
+      "country": "LB",
+      "deliverability_verified": false,
+      "gazetteer_archive_sha256": "b865cbb294734506e063a739f0d9fc5c5c0ea751ee0afa42203a895120e115d2",
+      "gazetteer_dangling_parent_ids": {},
+      "gazetteer_rows": 3767,
+      "imported_source_rows": 1661,
+      "localities_without_state": 47,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "source_ids": [
+        "LB-ATLAS-ADM1-20261108",
+        "LB-ATLAS-ADM2-20261108",
+        "LB-ATLAS-ADM3-20261108"
+      ]
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 26,
+        "unmatched": 34
+      },
+      "country": "OM",
+      "deliverability_verified": false,
+      "gazetteer_archive_sha256": "24567c6accaf6daa390977753c9fc4e42c63d96c60ad4c0191e795dec1a5af1c",
+      "gazetteer_dangling_parent_ids": {},
+      "gazetteer_rows": 6070,
+      "imported_source_rows": 61,
+      "localities_without_state": 67,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "source_ids": [
+        "OM-OCHA-COD-20261108"
+      ]
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 16,
+        "unmatched": 2
+      },
+      "country": "PS",
+      "deliverability_verified": false,
+      "gazetteer_archive_sha256": "696b26dcb6c105616a95ab6c3ba018456de9da5e861c29cbaa62405f8284ee10",
+      "gazetteer_dangling_parent_ids": {},
+      "gazetteer_rows": 1290,
+      "imported_source_rows": 19,
+      "localities_without_state": 36,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "source_ids": [
+        "PS-OCHA-COD-20261108"
+      ]
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 1,
+        "grain_unavailable_in_gazetteer": 872,
+        "unique_unreviewed": 4,
+        "unmatched": 4
+      },
+      "country": "QA",
+      "deliverability_verified": false,
+      "gazetteer_archive_sha256": "25a9f5eb2c8e8fbb61e12120d99526e6ada8ff7001d13dceb2ca983c377de344",
+      "gazetteer_dangling_parent_ids": {},
+      "gazetteer_rows": 287,
+      "imported_source_rows": 881,
+      "localities_without_state": 14,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "source_ids": [
+        "QA-OCHA-COD-20261108"
+      ]
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 12,
+        "unmatched": 1
+      },
+      "country": "SA",
+      "deliverability_verified": false,
+      "gazetteer_archive_sha256": "0055dae0951fd86360e3a4935cc77025fee903a4cdb2105efc705d3c645af001",
+      "gazetteer_dangling_parent_ids": {},
+      "gazetteer_rows": 5257,
+      "imported_source_rows": 14,
+      "localities_without_state": 678,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "source_ids": [
+        "SA-OCHA-COD-20261108"
+      ]
+    },
+    {
+      "candidate_counts": {
+        "ambiguous_unreviewed": 504,
+        "different_grain": 1,
+        "unique_unreviewed": 2911,
+        "unmatched": 4886
+      },
+      "country": "SY",
+      "deliverability_verified": false,
+      "gazetteer_archive_sha256": "e0a6a0b686a4d1b13810a8b80c8704e5daef1d14972d9194b4ce62be41d5469b",
+      "gazetteer_dangling_parent_ids": {},
+      "gazetteer_rows": 12092,
+      "imported_source_rows": 8302,
+      "localities_without_state": 156,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "source_ids": [
+        "SY-OCHA-COD-20261108",
+        "SY-OPENSYRIA-EXISTING-b4364ee"
+      ]
+    },
+    {
+      "candidate_counts": {
+        "ambiguous_unreviewed": 5,
+        "different_grain": 1,
+        "unique_unreviewed": 406,
+        "unmatched": 643
+      },
+      "country": "TR",
+      "deliverability_verified": false,
+      "gazetteer_archive_sha256": "72333e7a2aabe96bbcb1e88cc651036b2a97b2e06352ed829c742f8efd9196c2",
+      "gazetteer_dangling_parent_ids": {},
+      "gazetteer_rows": 57312,
+      "imported_source_rows": 1055,
+      "localities_without_state": 216,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "source_ids": [
+        "TR-OCHA-COD-20261108"
+      ]
+    },
+    {
+      "candidate_counts": {
+        "ambiguous_unreviewed": 4,
+        "different_grain": 1,
+        "unique_unreviewed": 234,
+        "unmatched": 119
+      },
+      "country": "YE",
+      "deliverability_verified": false,
+      "gazetteer_archive_sha256": "4ad75d0c246341959843e1864650902e4a1d4483db6d80c99ab99d8630d1dff4",
+      "gazetteer_dangling_parent_ids": {},
+      "gazetteer_rows": 83701,
+      "imported_source_rows": 358,
+      "localities_without_state": 95,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "source_ids": [
+        "YE-OCHA-COD-20261108"
+      ]
+    }
+  ],
+  "gazetteer_records": 215576,
+  "imported_source_records": 83015,
+  "manifest_sha256": "bbc94f74ccea06cbd29b5ff0ddf136956a520d2072b071233dccf56dfe847e65",
+  "reviewed_at": "2026-11-08",
+  "schema_version": 1,
+  "source_audits": [
+    {
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 7
+      },
+      "country": "AE",
+      "distinct_source_codes_by_grain": {
+        "admin0": 1,
+        "admin1": 7
+      },
+      "duplicate_source_codes": [],
+      "records": 8,
+      "records_without_names": 0,
+      "source_id": "AE-OCHA-COD-20261108",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 39,
+        "unmatched": 11
+      },
+      "country": "AM",
+      "distinct_source_codes_by_grain": {
+        "admin0": 1,
+        "admin1": 11,
+        "admin2": 39
+      },
+      "duplicate_source_codes": [],
+      "records": 51,
+      "records_without_names": 0,
+      "source_id": "AM-OCHA-COD-20261108",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "ambiguous_unreviewed": 4,
+        "different_grain": 1,
+        "unique_unreviewed": 56,
+        "unmatched": 14
+      },
+      "country": "AZ",
+      "distinct_source_codes_by_grain": {
+        "admin0": 1,
+        "admin1": 74
+      },
+      "duplicate_source_codes": [],
+      "records": 75,
+      "records_without_names": 0,
+      "source_id": "AZ-OCHA-COD-20261108",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 93,
+        "unique_unreviewed": 3,
+        "unmatched": 1
+      },
+      "country": "BH",
+      "distinct_source_codes_by_grain": {},
+      "duplicate_source_codes": [],
+      "records": 97,
+      "records_without_names": 0,
+      "source_id": "BH-IGA-GOVERNORATE-AREA-2024",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "ambiguous_unreviewed": 18,
+        "different_grain": 66240,
+        "unique_unreviewed": 515,
+        "unmatched": 224
+      },
+      "country": "CY",
+      "distinct_source_codes_by_grain": {
+        "government_address": 254,
+        "parcel_locker": 13,
+        "po_box": 32355,
+        "post_office": 77,
+        "postal_area": 757,
+        "street": 33541
+      },
+      "duplicate_source_codes": [],
+      "records": 66997,
+      "records_without_names": 0,
+      "source_id": "CY-POST-DIRECTORY-2024",
+      "source_postal_rows": 66745,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "ambiguous_unreviewed": 29,
+        "unique_unreviewed": 851,
+        "unmatched": 237
+      },
+      "country": "CY",
+      "distinct_source_codes_by_grain": {},
+      "duplicate_source_codes": [],
+      "records": 1117,
+      "records_without_names": 0,
+      "source_id": "CY-POST-MUNICIPALITIES-2021",
+      "source_postal_rows": 1117,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 31,
+        "unmatched": 52
+      },
+      "country": "GE",
+      "distinct_source_codes_by_grain": {
+        "admin0": 1,
+        "admin1": 13,
+        "admin2": 70
+      },
+      "duplicate_source_codes": [],
+      "records": 84,
+      "records_without_names": 0,
+      "source_id": "GE-OCHA-COD-20261108",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "unique_unreviewed": 71,
+        "unmatched": 17
+      },
+      "country": "GE",
+      "distinct_source_codes_by_grain": {},
+      "duplicate_source_codes": [],
+      "records": 88,
+      "records_without_names": 0,
+      "source_id": "GE-MUNICIPALITIES-2026",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "ambiguous_unreviewed": 25,
+        "unique_unreviewed": 119,
+        "unmatched": 26
+      },
+      "country": "GE",
+      "distinct_source_codes_by_grain": {},
+      "duplicate_source_codes": [],
+      "records": 170,
+      "records_without_names": 0,
+      "source_id": "GE-CITIES-2026",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "ambiguous_unreviewed": 44,
+        "unique_unreviewed": 987,
+        "unmatched": 285
+      },
+      "country": "IL",
+      "distinct_source_codes_by_grain": {
+        "locality": 1316
+      },
+      "duplicate_source_codes": [],
+      "records": 1316,
+      "records_without_names": 0,
+      "source_id": "IL-PIBA-LOCALITIES-20261108",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 49,
+        "unmatched": 364
+      },
+      "country": "IQ",
+      "distinct_source_codes_by_grain": {
+        "admin0": 1,
+        "admin1": 18,
+        "admin2": 101,
+        "admin3": 294
+      },
+      "duplicate_source_codes": [],
+      "records": 414,
+      "records_without_names": 0,
+      "source_id": "IQ-OCHA-COD-20261108",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 240
+      },
+      "country": "JO",
+      "distinct_source_codes_by_grain": {},
+      "duplicate_source_codes": [],
+      "records": 240,
+      "records_without_names": 0,
+      "source_id": "JO-POST-OFFICES-2023-1661",
+      "source_postal_rows": 210,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 5,
+        "unmatched": 1
+      },
+      "country": "KW",
+      "distinct_source_codes_by_grain": {
+        "admin0": 1,
+        "admin1": 6
+      },
+      "duplicate_source_codes": [],
+      "records": 7,
+      "records_without_names": 0,
+      "source_id": "KW-OCHA-COD-20261108",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "unique_unreviewed": 5,
+        "unmatched": 3
+      },
+      "country": "LB",
+      "distinct_source_codes_by_grain": {
+        "admin1": 8
+      },
+      "duplicate_source_codes": [],
+      "records": 8,
+      "records_without_names": 0,
+      "source_id": "LB-ATLAS-ADM1-20261108",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "unique_unreviewed": 18,
+        "unmatched": 8
+      },
+      "country": "LB",
+      "distinct_source_codes_by_grain": {
+        "admin2": 26
+      },
+      "duplicate_source_codes": [],
+      "records": 26,
+      "records_without_names": 0,
+      "source_id": "LB-ATLAS-ADM2-20261108",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "unmatched": 1627
+      },
+      "country": "LB",
+      "distinct_source_codes_by_grain": {
+        "admin3": 1611
+      },
+      "duplicate_source_codes": [
+        {
+          "code": "0",
+          "grain": "admin3",
+          "rows": 17
+        }
+      ],
+      "records": 1627,
+      "records_without_names": 0,
+      "source_id": "LB-ATLAS-ADM3-20261108",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": [
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin1",
+          "record_id": "LB-ATLAS-ADM3-20261108:1"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin2",
+          "record_id": "LB-ATLAS-ADM3-20261108:1"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin1",
+          "record_id": "LB-ATLAS-ADM3-20261108:2"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin2",
+          "record_id": "LB-ATLAS-ADM3-20261108:2"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin1",
+          "record_id": "LB-ATLAS-ADM3-20261108:3"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin2",
+          "record_id": "LB-ATLAS-ADM3-20261108:3"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin1",
+          "record_id": "LB-ATLAS-ADM3-20261108:4"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin2",
+          "record_id": "LB-ATLAS-ADM3-20261108:4"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin1",
+          "record_id": "LB-ATLAS-ADM3-20261108:5"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin2",
+          "record_id": "LB-ATLAS-ADM3-20261108:5"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin1",
+          "record_id": "LB-ATLAS-ADM3-20261108:6"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin2",
+          "record_id": "LB-ATLAS-ADM3-20261108:6"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin1",
+          "record_id": "LB-ATLAS-ADM3-20261108:7"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin2",
+          "record_id": "LB-ATLAS-ADM3-20261108:7"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin1",
+          "record_id": "LB-ATLAS-ADM3-20261108:8"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin2",
+          "record_id": "LB-ATLAS-ADM3-20261108:8"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin1",
+          "record_id": "LB-ATLAS-ADM3-20261108:9"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin2",
+          "record_id": "LB-ATLAS-ADM3-20261108:9"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin1",
+          "record_id": "LB-ATLAS-ADM3-20261108:10"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin2",
+          "record_id": "LB-ATLAS-ADM3-20261108:10"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin1",
+          "record_id": "LB-ATLAS-ADM3-20261108:11"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin2",
+          "record_id": "LB-ATLAS-ADM3-20261108:11"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin1",
+          "record_id": "LB-ATLAS-ADM3-20261108:12"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin2",
+          "record_id": "LB-ATLAS-ADM3-20261108:12"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin1",
+          "record_id": "LB-ATLAS-ADM3-20261108:13"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin2",
+          "record_id": "LB-ATLAS-ADM3-20261108:13"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin1",
+          "record_id": "LB-ATLAS-ADM3-20261108:14"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin2",
+          "record_id": "LB-ATLAS-ADM3-20261108:14"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin1",
+          "record_id": "LB-ATLAS-ADM3-20261108:15"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin2",
+          "record_id": "LB-ATLAS-ADM3-20261108:15"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin1",
+          "record_id": "LB-ATLAS-ADM3-20261108:16"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin2",
+          "record_id": "LB-ATLAS-ADM3-20261108:16"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin1",
+          "record_id": "LB-ATLAS-ADM3-20261108:17"
+        },
+        {
+          "parent_code": "Conflict",
+          "parent_level": "admin2",
+          "record_id": "LB-ATLAS-ADM3-20261108:17"
+        }
+      ]
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 26,
+        "unmatched": 34
+      },
+      "country": "OM",
+      "distinct_source_codes_by_grain": {
+        "admin0": 1,
+        "admin1": 11,
+        "admin2": 49
+      },
+      "duplicate_source_codes": [],
+      "records": 61,
+      "records_without_names": 0,
+      "source_id": "OM-OCHA-COD-20261108",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 16,
+        "unmatched": 2
+      },
+      "country": "PS",
+      "distinct_source_codes_by_grain": {
+        "admin0": 1,
+        "admin1": 2,
+        "admin2": 16
+      },
+      "duplicate_source_codes": [],
+      "records": 19,
+      "records_without_names": 0,
+      "source_id": "PS-OCHA-COD-20261108",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 1,
+        "grain_unavailable_in_gazetteer": 872,
+        "unique_unreviewed": 4,
+        "unmatched": 4
+      },
+      "country": "QA",
+      "distinct_source_codes_by_grain": {
+        "admin0": 1,
+        "admin1": 8,
+        "admin2": 91,
+        "admin3": 781
+      },
+      "duplicate_source_codes": [],
+      "records": 881,
+      "records_without_names": 0,
+      "source_id": "QA-OCHA-COD-20261108",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 12,
+        "unmatched": 1
+      },
+      "country": "SA",
+      "distinct_source_codes_by_grain": {
+        "admin0": 1,
+        "admin1": 13
+      },
+      "duplicate_source_codes": [],
+      "records": 14,
+      "records_without_names": 0,
+      "source_id": "SA-OCHA-COD-20261108",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "ambiguous_unreviewed": 1,
+        "different_grain": 1,
+        "unique_unreviewed": 26,
+        "unmatched": 321
+      },
+      "country": "SY",
+      "distinct_source_codes_by_grain": {
+        "admin0": 1,
+        "admin1": 14,
+        "admin2": 62,
+        "admin3": 272
+      },
+      "duplicate_source_codes": [],
+      "records": 349,
+      "records_without_names": 0,
+      "source_id": "SY-OCHA-COD-20261108",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "ambiguous_unreviewed": 503,
+        "unique_unreviewed": 2885,
+        "unmatched": 4565
+      },
+      "country": "SY",
+      "distinct_source_codes_by_grain": {
+        "admin1": 14,
+        "admin2": 62,
+        "admin3": 272,
+        "locality": 7605
+      },
+      "duplicate_source_codes": [],
+      "records": 7953,
+      "records_without_names": 0,
+      "source_id": "SY-OPENSYRIA-EXISTING-b4364ee",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "ambiguous_unreviewed": 5,
+        "different_grain": 1,
+        "unique_unreviewed": 406,
+        "unmatched": 643
+      },
+      "country": "TR",
+      "distinct_source_codes_by_grain": {
+        "admin0": 1,
+        "admin1": 81,
+        "admin2": 973
+      },
+      "duplicate_source_codes": [],
+      "records": 1055,
+      "records_without_names": 0,
+      "source_id": "TR-OCHA-COD-20261108",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    },
+    {
+      "candidate_counts": {
+        "ambiguous_unreviewed": 4,
+        "different_grain": 1,
+        "unique_unreviewed": 234,
+        "unmatched": 119
+      },
+      "country": "YE",
+      "distinct_source_codes_by_grain": {
+        "admin0": 1,
+        "admin1": 22,
+        "admin2": 335
+      },
+      "duplicate_source_codes": [],
+      "records": 358,
+      "records_without_names": 0,
+      "source_id": "YE-OCHA-COD-20261108",
+      "source_postal_rows": 0,
+      "unresolved_source_parents": []
+    }
+  ],
+  "source_originals_replayed": true,
+  "status": "sources_replayed_gaps_explicit"
+}

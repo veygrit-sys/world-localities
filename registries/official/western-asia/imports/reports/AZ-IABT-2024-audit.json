@@ -1,0 +1,193 @@
+{
+  "source": "https://www.azstat.gov.az/tesnifat/cedeveller/arazi.jsp?parm=arazi",
+  "edition": 2024,
+  "original_sha256": "4bd6f491e2f928562f302e3a8991ee80855bc985cca8c6e3c9f144f3351c25c8",
+  "original_bytes": 1349499,
+  "rows": 6697,
+  "distinct_8_digit_codes": 6697,
+  "source_exact_duplicate_rows": 1,
+  "exact_duplicate_evidence": [
+    {
+      "code": "50408028",
+      "name": "Qaralar k."
+    }
+  ],
+  "distinct_level1_prefixes": 88,
+  "last_digit_status_distribution": {
+    "0": 1,
+    "1": 64,
+    "2": 11,
+    "3": 12,
+    "4": 68,
+    "5": 1994,
+    "6": 263,
+    "8": 4244,
+    "9": 40
+  },
+  "source_sample": [
+    {
+      "code": "00000002",
+      "name": "BAKI ŞƏHƏRİ"
+    },
+    {
+      "code": "00000005",
+      "name": "1. Bakı şəhər ərazi vahidi"
+    },
+    {
+      "code": "00100003",
+      "name": "I. Binəqədi rayonu (Mərkəzi - M.Ə.Rəsulzadə qəsəbəsi)"
+    },
+    {
+      "code": "00101009",
+      "name": "1. 1 nömrəli siəd"
+    },
+    {
+      "code": "00102009",
+      "name": "2. 2 nömrəli siəd"
+    },
+    {
+      "code": "00102005",
+      "name": "3. Biləcəri qəsəbə iəd"
+    },
+    {
+      "code": "00102016",
+      "name": "B i l ə c ə r i q."
+    },
+    {
+      "code": "00103005",
+      "name": "4. Binəqədi qəsəbə iəd"
+    }
+  ],
+  "official_code_to_geonames_verified": 0,
+  "official_code_to_postcode_verified": 0,
+  "is_postcode_source": false,
+  "2026_national_completeness_verified": false,
+  "redistribution_license_approved": false,
+  "geonames_review_candidates": {
+    "ambiguous_unreviewed": 1386,
+    "none": 2633,
+    "unique_unreviewed": 2678
+  },
+  "review_examples": [
+    {
+      "code": "00102016",
+      "name": "B i l ə c ə r i q.",
+      "gn_id_candidate": "gn:587078",
+      "approved": false
+    },
+    {
+      "code": "00103016",
+      "name": "B i n ə q ə d i q.",
+      "gn_id_candidate": "gn:586967",
+      "approved": false
+    },
+    {
+      "code": "00101016",
+      "name": "X o c ə s ə n q.",
+      "gn_id_candidate": "gn:585940",
+      "approved": false
+    },
+    {
+      "code": "00101026",
+      "name": "Sulutəpə q.",
+      "gn_id_candidate": "gn:584929",
+      "approved": false
+    },
+    {
+      "code": "00314016",
+      "name": "B u z o v n a q.",
+      "gn_id_candidate": "gn:586925",
+      "approved": false
+    },
+    {
+      "code": "00318016",
+      "name": "M ə r d ə k a n q.",
+      "gn_id_candidate": "gn:585568",
+      "approved": false
+    },
+    {
+      "code": "00321016",
+      "name": "Ş a ğ a n q.",
+      "gn_id_candidate": "gn:585089",
+      "approved": false
+    },
+    {
+      "code": "00322016",
+      "name": "Ş ü v ə l a n q.",
+      "gn_id_candidate": "gn:584984",
+      "approved": false
+    },
+    {
+      "code": "00323016",
+      "name": "T ü r k a n q.",
+      "gn_id_candidate": "gn:584792",
+      "approved": false
+    },
+    {
+      "code": "00324016",
+      "name": "Z i r ə q.",
+      "gn_id_candidate": "gn:584562",
+      "approved": false
+    },
+    {
+      "code": "00205016",
+      "name": "Ç e y i l d a ğ q.",
+      "gn_id_candidate": "gn:586915",
+      "approved": false
+    },
+    {
+      "code": "00201016",
+      "name": "Ə l ə t q.",
+      "gn_id_candidate": "gn:148577",
+      "approved": false
+    },
+    {
+      "code": "00201036",
+      "name": "Kotal q.",
+      "gn_id_candidate": "gn:8571879",
+      "approved": false
+    },
+    {
+      "code": "00201076",
+      "name": "Qarakosa q.",
+      "gn_id_candidate": "gn:12238135",
+      "approved": false
+    },
+    {
+      "code": "00206016",
+      "name": "K o r g ö z q.",
+      "gn_id_candidate": "gn:586031",
+      "approved": false
+    },
+    {
+      "code": "00202016",
+      "name": "Q ı z ı l d a ş q.",
+      "gn_id_candidate": "gn:585668",
+      "approved": false
+    },
+    {
+      "code": "00202026",
+      "name": "Şonqar q.",
+      "gn_id_candidate": "gn:585012",
+      "approved": false
+    },
+    {
+      "code": "00204016",
+      "name": "L ö k b a t a n q.",
+      "gn_id_candidate": "gn:585630",
+      "approved": false
+    },
+    {
+      "code": "00204026",
+      "name": "Heybət q.",
+      "gn_id_candidate": "gn:863771",
+      "approved": false
+    },
+    {
+      "code": "00204036",
+      "name": "Şubanı q.",
+      "gn_id_candidate": "gn:584997",
+      "approved": false
+    }
+  ]
+}

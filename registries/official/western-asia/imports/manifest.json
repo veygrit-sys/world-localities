@@ -1,0 +1,1224 @@
+{
+  "country_scope": [
+    "AE",
+    "AM",
+    "AZ",
+    "BH",
+    "CY",
+    "GE",
+    "IL",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "PS",
+    "QA",
+    "SA",
+    "SY",
+    "TR",
+    "YE"
+  ],
+  "national_completeness_verified": false,
+  "newly_acquired_original_files": 23,
+  "newly_imported_source_rows": 75062,
+  "reused_community_rows": 7953,
+  "reviewed_at": "2026-11-08",
+  "schema_version": 1,
+  "scope_note": "Sources preserve their own editions and jurisdiction claims. Government, humanitarian, postal-office, statistical and geographic identifiers remain separate.",
+  "source_raw_imports": 23,
+  "sources": [
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 3969,
+        "compression": "gzip",
+        "original_bytes": 40243,
+        "original_sha256": "d434df14cfd75d03957e42953bfe167797e96e54434c79faa686a76fc0da542c",
+        "path": "evidence/AE-hdx.json.gz",
+        "sha256": "b10eceb1c11cc8eeada3b33a8aa3faa5b9bf4cc6ea9c9958ab59f16cc7efc93b"
+      },
+      "catalogue_url": "https://data.humdata.org/dataset/cod-ab-are",
+      "country": "AE",
+      "edition": {
+        "dataset_date": "[2023-05-15T00:00:00 TO 2024-12-19T23:59:59]",
+        "metadata_modified": "2026-08-14T06:36:45.182508",
+        "resource_last_modified": "2026-01-26T15:09:52.434031",
+        "source_description": "United Arab Emirates administrative level 0-1 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 1 level:  \n- Admin 1: 7 Emirate  \n  \n  \nDates associated with this dataset:  \n- 19 December 2024: dataset reviewed for accuracy and completeness  \n- 15 May 2023: valid for use by the humanitarian community  \n- 19 May 2023: last edit to the dataset before publishing  \n- 19 May 2023: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)"
+      },
+      "id": "AE-OCHA-COD-20261108",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 1002,
+        "path": "records/AE-OCHA-COD-20261108.jsonl.gz",
+        "record_stream_sha256": "e8fd9f21921608400447f1d41df93c6dd8dd47fedc2d2518367c66e2c6904993",
+        "records": 8,
+        "sha256": "4dc3922760006298fdb6769ad88df98f8302d28bc9f4c8fffb0d3bc210007a0c"
+      },
+      "original": {
+        "bytes": 17856,
+        "compression": null,
+        "original_bytes": 17856,
+        "original_sha256": "67a14c9141acc8e65f342da5be0d9a831e1eb1f2a2bde73ac2cfbe24d682b6d1",
+        "path": "originals/AE-hdx-table.xlsx",
+        "sha256": "67a14c9141acc8e65f342da5be0d9a831e1eb1f2a2bde73ac2cfbe24d682b6d1"
+      },
+      "parser": "hdx_xlsx",
+      "publisher": "OCHA / Federal Competitiveness and Statistics Centre, UAE Ministry of Cabinet Affairs",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "cc-by-igo",
+        "license_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+        "scope": "provider-declared terms retained; no new blanket licence",
+        "upstream_commercial_reuse_review_required": false,
+        "upstream_source": "Federal Competitiveness and Statistics Centre, UAE Ministry of Cabinet Affairs"
+      },
+      "source_admin_codes_are_not_postcodes": true,
+      "source_role": "humanitarian_government_origin_reference",
+      "url": "https://data.humdata.org/dataset/23d41c1f-41ef-4957-a47e-b8c08c984d83/resource/5bdc25ec-57d5-4c54-824e-06d96f9f7fda/download/are_admin_boundaries.xlsx"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 4041,
+        "compression": "gzip",
+        "original_bytes": 43355,
+        "original_sha256": "f674fdbc3ceca73b22a4f2b2aabf185b38c2f28341cc7d5c364a76442a71246f",
+        "path": "evidence/AM-hdx.json.gz",
+        "sha256": "91c915a95facd67e1ef1c574da9d1a284a3dc48d38a39232764fd99c5905b78b"
+      },
+      "catalogue_url": "https://data.humdata.org/dataset/cod-ab-arm",
+      "country": "AM",
+      "edition": {
+        "dataset_date": "[2023-10-02T00:00:00 TO 2024-01-31T23:59:59]",
+        "metadata_modified": "2026-08-14T06:36:47.398136",
+        "resource_last_modified": "2026-01-26T15:10:13.079287",
+        "source_description": "Armenia administrative level 0-2 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 2 levels:  \n- Admin 1: 11 Province  \n- Admin 2: 39 Community  \n  \n  \nDates associated with this dataset:  \n- 31 January 2024: dataset reviewed for accuracy and completeness  \n- 02 October 2023: valid for use by the humanitarian community  \n- 01 October 2014: last edit to the dataset before publishing  \n- 01 October 2014: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)"
+      },
+      "id": "AM-OCHA-COD-20261108",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 4668,
+        "path": "records/AM-OCHA-COD-20261108.jsonl.gz",
+        "record_stream_sha256": "370898fb3c0168bbcef294ce0580214f309d4184f1c466d8f89b8b07b9736f78",
+        "records": 51,
+        "sha256": "001c3acf83d938346441e5c6fae2182c9b7a26959e758ae9a22902b8fa7bb2cc"
+      },
+      "original": {
+        "bytes": 25464,
+        "compression": null,
+        "original_bytes": 25464,
+        "original_sha256": "4227d8ae75a5d164d9b78c28aa586d199aa51ec0f58ad4fca72270b21b1816fd",
+        "path": "originals/AM-hdx-table.xlsx",
+        "sha256": "4227d8ae75a5d164d9b78c28aa586d199aa51ec0f58ad4fca72270b21b1816fd"
+      },
+      "parser": "hdx_xlsx",
+      "publisher": "OCHA / Government of Armenia (various agencies - see metadata)",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "cc-by-igo",
+        "license_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+        "scope": "provider-declared terms retained; no new blanket licence",
+        "upstream_commercial_reuse_review_required": false,
+        "upstream_source": "Government of Armenia (various agencies - see metadata)"
+      },
+      "source_admin_codes_are_not_postcodes": true,
+      "source_role": "humanitarian_government_origin_reference",
+      "url": "https://data.humdata.org/dataset/37b89555-ef3e-4b26-a1ba-070318016853/resource/ace32729-a3a6-4522-8641-db8478085650/download/arm_admin_boundaries.xlsx"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 4150,
+        "compression": "gzip",
+        "original_bytes": 36702,
+        "original_sha256": "749a599bfa4dd6fdee15a3c3f35e5e3a885b9e932ba270e6c95b291e1e2733c4",
+        "path": "evidence/AZ-hdx.json.gz",
+        "sha256": "333f966087e50c46d40f8b2d8217b3e317883d77bf7db6b85622e2272023f7ea"
+      },
+      "catalogue_url": "https://data.humdata.org/dataset/cod-ab-aze",
+      "country": "AZ",
+      "edition": {
+        "dataset_date": "[2023-10-17T00:00:00 TO 2024-01-31T23:59:59]",
+        "metadata_modified": "2026-08-14T06:36:49.313924",
+        "resource_last_modified": "2026-01-26T15:10:33.634015",
+        "source_description": "Azerbaijan administrative level 0-1 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 1 level:  \n- Admin 1: 74   \n  \n  \nDates associated with this dataset:  \n- 31 January 2024: dataset reviewed for accuracy and completeness  \n- 17 October 2023: valid for use by the humanitarian community  \n- 24 November 2020: last edit to the dataset before publishing  \n- 24 November 2020: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)"
+      },
+      "id": "AZ-OCHA-COD-20261108",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 5317,
+        "path": "records/AZ-OCHA-COD-20261108.jsonl.gz",
+        "record_stream_sha256": "b045a3bca7de55b2ae7eed953cf29878a38dce6130b2774b9b4217cb39b010c1",
+        "records": 75,
+        "sha256": "34187f081885671e601727d02bf8689bc8cc2dcddfab913cffe2f3d7353a33a7"
+      },
+      "original": {
+        "bytes": 29159,
+        "compression": null,
+        "original_bytes": 29159,
+        "original_sha256": "2f99f7500104c5a2aa539f297026a80e49072f99c1a17e978e7b52e19e722d0a",
+        "path": "originals/AZ-hdx-table.xlsx",
+        "sha256": "2f99f7500104c5a2aa539f297026a80e49072f99c1a17e978e7b52e19e722d0a"
+      },
+      "parser": "hdx_xlsx",
+      "publisher": "OCHA / www.gadm.org and Open Street Map",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "cc-by-igo",
+        "license_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+        "scope": "provider-declared terms retained; no new blanket licence",
+        "upstream_commercial_reuse_review_required": true,
+        "upstream_source": "www.gadm.org and Open Street Map"
+      },
+      "source_admin_codes_are_not_postcodes": true,
+      "source_role": "humanitarian_third_party_reference",
+      "url": "https://data.humdata.org/dataset/ecb2cb09-1270-4a7f-9187-f093efebdef7/resource/03b4a340-b230-47b6-95a1-4a51a85cdc27/download/aze_admin_boundaries.xlsx"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 4218,
+        "compression": "gzip",
+        "original_bytes": 38859,
+        "original_sha256": "da76fbfe8cf0ddfacafccfa86930f7d91949b67a69c9550bfa9368ccfcb7a877",
+        "path": "evidence/GE-hdx.json.gz",
+        "sha256": "465fa909eba72d39418407cd23d5dd38aa3ac68fcbb32635ed594994a1f9a178"
+      },
+      "catalogue_url": "https://data.humdata.org/dataset/cod-ab-geo",
+      "country": "GE",
+      "edition": {
+        "dataset_date": "[2019-10-18T00:00:00 TO 2024-01-31T23:59:59]",
+        "metadata_modified": "2026-08-14T06:37:53.732395",
+        "resource_last_modified": "2026-01-26T15:34:47.818872",
+        "source_description": "Georgia administrative level 0-2 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 2 levels:  \n- Admin 1: 13 Region, city, or autonomous republic  \n- Admin 2: 70 District or self-governing city, partial coverage  \n  \n  \nDates associated with this dataset:  \n- 31 January 2024: dataset reviewed for accuracy and completeness  \n- 18 October 2019: valid for use by the humanitarian community  \n- 28 August 2019: last edit to the dataset before publishing  \n- 28 August 2019: boundaries created by the source  \n  \nContributed by [OCHA Middle East and North Africa (ROMENA)](https://data.humdata.org/organization/ocha-romena).  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)"
+      },
+      "id": "GE-OCHA-COD-20261108",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 6895,
+        "path": "records/GE-OCHA-COD-20261108.jsonl.gz",
+        "record_stream_sha256": "40350a148b1d781843f00173303799b1ea3a28650d5871b71011e7b5152eb4c2",
+        "records": 84,
+        "sha256": "c58108e7171867ef7d5d0887043f11fab39a3c977c59b92ece11364d190529b7"
+      },
+      "original": {
+        "bytes": 23056,
+        "compression": null,
+        "original_bytes": 23056,
+        "original_sha256": "8a587ede993ea00cf925b0d90f4c2c60f59b2c3012c80d735c855063328e52bc",
+        "path": "originals/GE-hdx-table.xlsx",
+        "sha256": "8a587ede993ea00cf925b0d90f4c2c60f59b2c3012c80d735c855063328e52bc"
+      },
+      "parser": "hdx_xlsx",
+      "publisher": "OCHA / National Statistics Office of Georgia [Administraciuli erTeulebi]",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "cc-by-igo",
+        "license_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+        "scope": "provider-declared terms retained; no new blanket licence",
+        "upstream_commercial_reuse_review_required": false,
+        "upstream_source": "National Statistics Office of Georgia [Administraciuli erTeulebi]"
+      },
+      "source_admin_codes_are_not_postcodes": true,
+      "source_role": "humanitarian_government_origin_reference",
+      "url": "https://data.humdata.org/dataset/3ee95199-2dfe-40fc-b9bd-b44cc8c91024/resource/934c3045-520f-49c2-a8f4-df4709f1db70/download/geo_admin_boundaries.xlsx"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 3987,
+        "compression": "gzip",
+        "original_bytes": 37751,
+        "original_sha256": "646ec707e1e51d5ba0dadf35030eee09526589bbaa3c6e962a41a2c5437b9ead",
+        "path": "evidence/IQ-hdx.json.gz",
+        "sha256": "49bf401161086ee82a3f89278e0be70d6aa2c6153ebe171458f34de0258c6d1a"
+      },
+      "catalogue_url": "https://data.humdata.org/dataset/cod-ab-irq",
+      "country": "IQ",
+      "edition": {
+        "dataset_date": "[2019-06-03T00:00:00 TO 2024-12-19T23:59:59]",
+        "metadata_modified": "2026-08-14T06:38:23.707061",
+        "resource_last_modified": "2026-01-26T15:42:14.231153",
+        "source_description": "Iraq administrative level 0-3 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 3 levels:  \n- Admin 1: 18 Governorate  \n- Admin 2: 101 District  \n- Admin 3: 294 Sub-district  \n  \n  \nDates associated with this dataset:  \n- 19 December 2024: dataset reviewed for accuracy and completeness  \n- 03 June 2019: valid for use by the humanitarian community  \n- 05 June 2019: last edit to the dataset before publishing  \n- 05 June 2019: boundaries created by the source  \n  \nContributed by [OCHA Middle East and North Africa (ROMENA)](https://data.humdata.org/organization/ocha-romena).  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)"
+      },
+      "id": "IQ-OCHA-COD-20261108",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 36135,
+        "path": "records/IQ-OCHA-COD-20261108.jsonl.gz",
+        "record_stream_sha256": "fface4b13ddb178728a78d7647a648db7358cc8a833feeb5adc98832a4027657",
+        "records": 414,
+        "sha256": "efd2d2def28f902852a59f4274e647ff13bf97f540e18ab9d0742721c2db677f"
+      },
+      "original": {
+        "bytes": 98126,
+        "compression": null,
+        "original_bytes": 98126,
+        "original_sha256": "3517183298204438fa61179b8b409bbc35ffced8162636502f1744784a18d783",
+        "path": "originals/IQ-hdx-table.xlsx",
+        "sha256": "3517183298204438fa61179b8b409bbc35ffced8162636502f1744784a18d783"
+      },
+      "parser": "hdx_xlsx",
+      "publisher": "OCHA / Iraq Central Statistics Office",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "cc-by-igo",
+        "license_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+        "scope": "provider-declared terms retained; no new blanket licence",
+        "upstream_commercial_reuse_review_required": false,
+        "upstream_source": "Iraq Central Statistics Office"
+      },
+      "source_admin_codes_are_not_postcodes": true,
+      "source_role": "humanitarian_government_origin_reference",
+      "url": "https://data.humdata.org/dataset/488bb3cd-3ce9-49d3-862a-3ce7975c63e1/resource/bde103b3-dc51-4e7b-9fd2-e38fa5600dc6/download/irq_admin_boundaries.xlsx"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 3825,
+        "compression": "gzip",
+        "original_bytes": 28791,
+        "original_sha256": "97344593a94c3bbf54feafe78f82385a4a2997efe70b2b64cc4a0d944812d665",
+        "path": "evidence/KW-hdx.json.gz",
+        "sha256": "ab0e35fb2d5c878e47180ff28eb048d040c92863704d6f97cbb529d953b38d04"
+      },
+      "catalogue_url": "https://data.humdata.org/dataset/cod-ab-kwt",
+      "country": "KW",
+      "edition": {
+        "dataset_date": "[2022-02-01T00:00:00 TO 2024-12-19T23:59:59]",
+        "metadata_modified": "2026-08-14T06:38:33.667171",
+        "resource_last_modified": "2026-01-26T15:44:03.737657",
+        "source_description": "Kuwait administrative level 0-1 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 1 level:  \n- Admin 1: 6   \n  \n  \nDates associated with this dataset:  \n- 19 December 2024: dataset reviewed for accuracy and completeness  \n- 01 February 2022: valid for use by the humanitarian community  \n- 30 November 2015: last edit to the dataset before publishing  \n- 30 November 2015: boundaries created by the source  \n  \nContributed by [OCHA Middle East and North Africa (ROMENA)](https://data.humdata.org/organization/ocha-romena).  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)"
+      },
+      "id": "KW-OCHA-COD-20261108",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 928,
+        "path": "records/KW-OCHA-COD-20261108.jsonl.gz",
+        "record_stream_sha256": "05b7cc95b86184f0f35d4ec4aafad33ed583d4ea5e2178d2ef809774a99e140f",
+        "records": 7,
+        "sha256": "95c0d59d45d0a4f1a297ff04f7d687a24a16959300badcca9ee1b7ef1cec0f09"
+      },
+      "original": {
+        "bytes": 8396,
+        "compression": null,
+        "original_bytes": 8396,
+        "original_sha256": "ce99fa783960ac2d5e37e1e32b21411e1398840ebeec7002785f8022c1953cc5",
+        "path": "originals/KW-hdx-table.xlsx",
+        "sha256": "ce99fa783960ac2d5e37e1e32b21411e1398840ebeec7002785f8022c1953cc5"
+      },
+      "parser": "hdx_xlsx",
+      "publisher": "OCHA / GADM database (www.gadm.org), version 2.8, November 2015",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "cc-by-igo",
+        "license_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+        "scope": "provider-declared terms retained; no new blanket licence",
+        "upstream_commercial_reuse_review_required": true,
+        "upstream_source": "GADM database (www.gadm.org), version 2.8, November 2015"
+      },
+      "source_admin_codes_are_not_postcodes": true,
+      "source_role": "humanitarian_third_party_reference",
+      "url": "https://data.humdata.org/dataset/a28f399f-482c-4e62-8dbf-d2c12381674a/resource/30b6053a-8fde-4e3c-b319-d2a3dd402c97/download/kwt_admin_boundaries.xlsx"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 3881,
+        "compression": "gzip",
+        "original_bytes": 34202,
+        "original_sha256": "83ef8633d14babd2e69a11551737b5f78057bb1eb6e5ee3fb8a001df011d3a4a",
+        "path": "evidence/OM-hdx.json.gz",
+        "sha256": "bd599a0c953a4deeb8d57d0baabeeca3028aa8fcf141052077f0e9a6d8cdc72f"
+      },
+      "catalogue_url": "https://data.humdata.org/dataset/cod-ab-omn",
+      "country": "OM",
+      "edition": {
+        "dataset_date": "[2021-06-03T00:00:00 TO 2024-12-19T23:59:59]",
+        "metadata_modified": "2026-08-14T06:39:26.280209",
+        "resource_last_modified": "2026-01-26T16:02:56.624821",
+        "source_description": "Oman administrative level 0-2 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 2 levels:  \n- Admin 1: 11   \n- Admin 2: 49   \n  \n  \nDates associated with this dataset:  \n- 19 December 2024: dataset reviewed for accuracy and completeness  \n- 03 June 2021: valid for use by the humanitarian community  \n- 04 June 2021: last edit to the dataset before publishing  \n- 04 June 2021: boundaries created by the source  \n  \nContributed by [OCHA Middle East and North Africa (ROMENA)](https://data.humdata.org/organization/ocha-romena).  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)"
+      },
+      "id": "OM-OCHA-COD-20261108",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 3958,
+        "path": "records/OM-OCHA-COD-20261108.jsonl.gz",
+        "record_stream_sha256": "7d9320c647ee264933d229368ccbc434856d6f267d0a77ba38ab433f49161c5b",
+        "records": 61,
+        "sha256": "f285ff0494b3333334b2a8e65fd6a1ab1f375fcf95b0fef5896a1adc417586a5"
+      },
+      "original": {
+        "bytes": 17061,
+        "compression": null,
+        "original_bytes": 17061,
+        "original_sha256": "6500a417f8f76c0c7b2913343feb26ba92af025b7c843cf37d5b2a7166987e48",
+        "path": "originals/OM-hdx-table.xlsx",
+        "sha256": "6500a417f8f76c0c7b2913343feb26ba92af025b7c843cf37d5b2a7166987e48"
+      },
+      "parser": "hdx_xlsx",
+      "publisher": "OCHA / www.gadm.org",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "cc-by-igo",
+        "license_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+        "scope": "provider-declared terms retained; no new blanket licence",
+        "upstream_commercial_reuse_review_required": true,
+        "upstream_source": "www.gadm.org"
+      },
+      "source_admin_codes_are_not_postcodes": true,
+      "source_role": "humanitarian_third_party_reference",
+      "url": "https://data.humdata.org/dataset/da87f54e-64bd-4cf4-bd31-3fc520f94609/resource/c209b6b3-4329-4ab8-8c8a-1ef76c59e756/download/omn_admin_boundaries.xlsx"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 4074,
+        "compression": "gzip",
+        "original_bytes": 39004,
+        "original_sha256": "cf83acd8ab6a87bebfc0fe9ff91bceb1741be7266130e3aa73367e2d45aa5c8c",
+        "path": "evidence/PS-hdx.json.gz",
+        "sha256": "89b251dc6a1eb7120530ca6eb345ec0ebfce5a0c1842c53d460e1172fccf4a53"
+      },
+      "catalogue_url": "https://data.humdata.org/dataset/cod-ab-pse",
+      "country": "PS",
+      "edition": {
+        "dataset_date": "[2023-10-19T00:00:00 TO 2024-12-24T23:59:59]",
+        "metadata_modified": "2026-08-14T06:39:44.327004",
+        "resource_last_modified": "2026-01-26T16:09:20.260928",
+        "source_description": "State of Palestine administrative level 0-2 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 2 levels:  \n- Admin 1: 2 Territory or Region?  \n- Admin 2: 16 Governorate  \n  \n  \nDates associated with this dataset:  \n- 24 December 2024: dataset reviewed for accuracy and completeness  \n- 19 October 2023: valid for use by the humanitarian community  \n- 28 September 1995: last edit to the dataset before publishing  \n- 28 September 1995: boundaries created by the source  \n  \nContributed by [OCHA occupied Palestinian territory (oPt)](https://data.humdata.org/organization/ocha-opt).  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)"
+      },
+      "id": "PS-OCHA-COD-20261108",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 1389,
+        "path": "records/PS-OCHA-COD-20261108.jsonl.gz",
+        "record_stream_sha256": "aae2de002c18ddc878f745755a3577265902a7f7525b330675da894f3cddb620",
+        "records": 19,
+        "sha256": "990dacd7dd7cb532dc09dcc67215854bc9bb0543ed0a1bbaf0b5c8a839af15c6"
+      },
+      "original": {
+        "bytes": 9035,
+        "compression": null,
+        "original_bytes": 9035,
+        "original_sha256": "c62a6e48cd2d5713677830fdcb389f0fc7639716bbdc601216b03cd5b9b18055",
+        "path": "originals/PS-hdx-table.xlsx",
+        "sha256": "c62a6e48cd2d5713677830fdcb389f0fc7639716bbdc601216b03cd5b9b18055"
+      },
+      "parser": "hdx_xlsx",
+      "publisher": "OCHA / Palestinian Authority Ministry of Planning",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "cc-by-igo",
+        "license_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+        "scope": "provider-declared terms retained; no new blanket licence",
+        "upstream_commercial_reuse_review_required": false,
+        "upstream_source": "Palestinian Authority Ministry of Planning"
+      },
+      "source_admin_codes_are_not_postcodes": true,
+      "source_role": "humanitarian_government_origin_reference",
+      "url": "https://data.humdata.org/dataset/2caf8373-816f-458c-9913-71bddb9cab7c/resource/8734a2c3-793d-43ec-ae5a-66d6bfee96b1/download/pse_admin_boundaries.xlsx"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 3616,
+        "compression": "gzip",
+        "original_bytes": 20221,
+        "original_sha256": "af2a39104350cefc8646b130feff5050c5019d9bfd6639897154e6abb1c1e54d",
+        "path": "evidence/QA-hdx.json.gz",
+        "sha256": "d24f6a7480c33e817b3215d97cfd294fc03ba221304a9762c9e2fe177c659b9c"
+      },
+      "catalogue_url": "https://data.humdata.org/dataset/cod-ab-qat",
+      "country": "QA",
+      "edition": {
+        "dataset_date": "[2024-06-27T00:00:00 TO 2024-06-27T23:59:59]",
+        "metadata_modified": "2026-08-19T20:17:24.998106",
+        "resource_last_modified": "2026-08-19T08:10:09.286678",
+        "source_description": "Qatar administrative level 0-3 boundaries (COD-AB) dataset version 02.  \n  \nThis dataset is structured into 3 levels:  \n- Admin 1: 8 Municipality  \n- Admin 2: 87 Zone  \n- Admin 3: 718 District  \n  \n  \nDates associated with this dataset:  \n- 30 April 2024: dataset reviewed for accuracy and completeness  \n- 27 June 2024: valid for use by the humanitarian community  \n- 30 November 2015: last edit to the dataset before publishing  \n- 30 November 2015: boundaries created by the source  \n  \nContributed by [OCHA Middle East and North Africa (ROMENA)](https://data.humdata.org/organization/ocha-romena).  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)"
+      },
+      "id": "QA-OCHA-COD-20261108",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 63370,
+        "path": "records/QA-OCHA-COD-20261108.jsonl.gz",
+        "record_stream_sha256": "7469041d6407a4c7abf2b34ff74c9c4088a26030bae315b52d766d1a02b45e70",
+        "records": 881,
+        "sha256": "eb34ba884788c5324b3aa91a03e1e286ad2739261ca339c831aff5d901ec8a3d"
+      },
+      "original": {
+        "bytes": 309076,
+        "compression": null,
+        "original_bytes": 309076,
+        "original_sha256": "c04fdd54ce27e8bedcfa13d2524002460c9d4b5ca06d1541b17e3b8949059f57",
+        "path": "originals/QA-hdx-table.xlsx",
+        "sha256": "c04fdd54ce27e8bedcfa13d2524002460c9d4b5ca06d1541b17e3b8949059f57"
+      },
+      "parser": "hdx_xlsx",
+      "publisher": "OCHA / Qatar planning and statistics authority",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "cc-by-igo",
+        "license_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+        "scope": "provider-declared terms retained; no new blanket licence",
+        "upstream_commercial_reuse_review_required": false,
+        "upstream_source": "Qatar planning and statistics authority"
+      },
+      "source_admin_codes_are_not_postcodes": true,
+      "source_role": "humanitarian_government_origin_reference",
+      "url": "https://data.humdata.org/dataset/6a84f3b8-41cd-4769-a61f-6dbd5f61bd05/resource/83037688-2f9e-4fe0-a8ee-f6995013b28a/download/qat_admin_boundaries.xlsx"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 3658,
+        "compression": "gzip",
+        "original_bytes": 30112,
+        "original_sha256": "64970b151b9cda1f7dff57fe2bf6aa0b20be62fa3baa62b370d8e94a95af3f5e",
+        "path": "evidence/SA-hdx.json.gz",
+        "sha256": "eb1c2de4a5d37508c24fe981e61fb0124465138bdc436c1536b3a99359ab0139"
+      },
+      "catalogue_url": "https://data.humdata.org/dataset/cod-ab-sau",
+      "country": "SA",
+      "edition": {
+        "dataset_date": "[2021-05-25T00:00:00 TO 2024-12-19T23:59:59]",
+        "metadata_modified": "2026-08-14T06:39:50.062050",
+        "resource_last_modified": "2026-01-26T16:10:28.696969",
+        "source_description": "Saudi Arabia administrative level 0-1 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 1 level:  \n- Admin 1: 13   \n  \n  \nDates associated with this dataset:  \n- 19 December 2024: dataset reviewed for accuracy and completeness  \n- 25 May 2021: valid for use by the humanitarian community  \n- 30 November 2015: last edit to the dataset before publishing  \n- 30 November 2015: boundaries created by the source  \n  \nContributed by [OCHA Middle East and North Africa (ROMENA)](https://data.humdata.org/organization/ocha-romena).  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)"
+      },
+      "id": "SA-OCHA-COD-20261108",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 1228,
+        "path": "records/SA-OCHA-COD-20261108.jsonl.gz",
+        "record_stream_sha256": "0bfd4e7503f1814c6a3d77cef8e61292f795df5359636e4ee5927455fc0d2a14",
+        "records": 14,
+        "sha256": "d21fba2eecacd8caa95944f76f037fb86e436629b78418b2d33f0f4115f1b4f3"
+      },
+      "original": {
+        "bytes": 13674,
+        "compression": null,
+        "original_bytes": 13674,
+        "original_sha256": "2db5187c18d828fcba22218b71c42d0d1aa49dd17649cf7c2d63f7e44fa00976",
+        "path": "originals/SA-hdx-table.xlsx",
+        "sha256": "2db5187c18d828fcba22218b71c42d0d1aa49dd17649cf7c2d63f7e44fa00976"
+      },
+      "parser": "hdx_xlsx",
+      "publisher": "OCHA / www.gadm.org",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "cc-by-igo",
+        "license_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+        "scope": "provider-declared terms retained; no new blanket licence",
+        "upstream_commercial_reuse_review_required": true,
+        "upstream_source": "www.gadm.org"
+      },
+      "source_admin_codes_are_not_postcodes": true,
+      "source_role": "humanitarian_third_party_reference",
+      "url": "https://data.humdata.org/dataset/41ce9023-1d21-4549-a485-94316200aba0/resource/9c0b15b0-348b-4058-a604-293a0768f536/download/sau_admin_boundaries.xlsx"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 5611,
+        "compression": "gzip",
+        "original_bytes": 41846,
+        "original_sha256": "76c4ce9e1bfe817e7f580bda98359ec44eed01c818a3b693ef0e6ae006ada22a",
+        "path": "evidence/SY-hdx.json.gz",
+        "sha256": "3c814c8bb15663308e879830db73336ef87aa873277ec77c86f61a1bd434e78a"
+      },
+      "catalogue_url": "https://data.humdata.org/dataset/cod-ab-syr",
+      "country": "SY",
+      "edition": {
+        "dataset_date": "[2020-12-17T00:00:00 TO 2024-04-01T23:59:59]",
+        "metadata_modified": "2026-08-14T06:40:16.619281",
+        "resource_last_modified": "2026-01-26T16:15:01.729692",
+        "source_description": "Syrian Arab Republic administrative level 0-3 boundaries (COD-AB) dataset version 02.  \n  \nThis dataset is structured into 3 levels:  \n- Admin 1: 14 Governorate  \n- Admin 2: 62 District  \n- Admin 3: 272 Sub-district  \n  \n  \nDates associated with this dataset:  \n- 01 April 2024: dataset reviewed for accuracy and completeness  \n- 17 December 2020: valid for use by the humanitarian community  \n- 01 January 1960: last edit to the dataset before publishing  \n- 01 January 1960: boundaries created by the source  \n  \nContributed by [OCHA Syria](https://data.humdata.org/organization/ocha-rosc).  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)"
+      },
+      "id": "SY-OCHA-COD-20261108",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 30249,
+        "path": "records/SY-OCHA-COD-20261108.jsonl.gz",
+        "record_stream_sha256": "00d3ac5e0ee65a2e4d8746b6899a2965d8e37e0c8fc693682ae6553f275880be",
+        "records": 349,
+        "sha256": "638fb0523d46788a7c8c2eb8e0d318e658ca16ddbf79d393a0043c037d173f40"
+      },
+      "original": {
+        "bytes": 1061438,
+        "compression": null,
+        "original_bytes": 1061438,
+        "original_sha256": "78f16d96071f6d25ba11f3cb5fe6d4a210382f2ada0209c4d4db0b7edd6001ec",
+        "path": "originals/SY-hdx-table.xlsx",
+        "sha256": "78f16d96071f6d25ba11f3cb5fe6d4a210382f2ada0209c4d4db0b7edd6001ec"
+      },
+      "parser": "hdx_xlsx",
+      "publisher": "OCHA / United Nations Cartographic Section (UNCS) and partners",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "cc-by-igo",
+        "license_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+        "scope": "provider-declared terms retained; no new blanket licence",
+        "upstream_commercial_reuse_review_required": false,
+        "upstream_source": "United Nations Cartographic Section (UNCS) and partners"
+      },
+      "source_admin_codes_are_not_postcodes": true,
+      "source_role": "humanitarian_government_origin_reference",
+      "url": "https://data.humdata.org/dataset/356a63e9-90aa-4b9c-a938-58ef24469c00/resource/b2961725-e0e1-4977-acd5-984ea54ef522/download/syr_admin_boundaries.xlsx"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 3957,
+        "compression": "gzip",
+        "original_bytes": 29228,
+        "original_sha256": "5eaadc081084ecdac03873bced6e778d150c04a4897cd8623fe2398c613f4e52",
+        "path": "evidence/TR-hdx.json.gz",
+        "sha256": "8812a96f2a1aba869f09ee3e080175672ab88bc92466d7aede2f0341ebafbe8e"
+      },
+      "catalogue_url": "https://data.humdata.org/dataset/cod-ab-tur",
+      "country": "TR",
+      "edition": {
+        "dataset_date": "[2022-01-01T00:00:00 TO 2025-01-16T23:59:59]",
+        "metadata_modified": "2026-08-14T06:40:30.582607",
+        "resource_last_modified": "2026-01-26T16:26:44.034131",
+        "source_description": "Türkiye administrative level 0-2 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 2 levels:  \n- Admin 1: 81 Province (İl)  \n- Admin 2: 973 District (İlçe)  \n  \n  \nDates associated with this dataset:  \n- 16 January 2025: dataset reviewed for accuracy and completeness  \n- 01 January 2022: valid for use by the humanitarian community  \n- 30 March 2014: last edit to the dataset before publishing  \n- 30 March 2014: boundaries created by the source  \n  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)"
+      },
+      "id": "TR-OCHA-COD-20261108",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 66360,
+        "path": "records/TR-OCHA-COD-20261108.jsonl.gz",
+        "record_stream_sha256": "b3601176863debb01beec21775a801b775ff23dd10410f8dcb8c968e6c70f525",
+        "records": 1055,
+        "sha256": "b9dd5bf8f17b989d031ea129fe07261ada4a749bb07e5a105ef821b4cb677966"
+      },
+      "original": {
+        "bytes": 216147,
+        "compression": null,
+        "original_bytes": 216147,
+        "original_sha256": "5a037724706c5ad2d186efb4938a05c94cd325bf5566532e0ba9d10b53f1d68b",
+        "path": "originals/TR-hdx-table.xlsx",
+        "sha256": "5a037724706c5ad2d186efb4938a05c94cd325bf5566532e0ba9d10b53f1d68b"
+      },
+      "parser": "hdx_xlsx",
+      "publisher": "OCHA / General Command of Mapping (obtained by Regional IM Working Group - Europe)",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "cc-by-igo",
+        "license_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+        "scope": "provider-declared terms retained; no new blanket licence",
+        "upstream_commercial_reuse_review_required": false,
+        "upstream_source": "General Command of Mapping (obtained by Regional IM Working Group - Europe)"
+      },
+      "source_admin_codes_are_not_postcodes": true,
+      "source_role": "humanitarian_government_origin_reference",
+      "url": "https://data.humdata.org/dataset/d74086a0-f398-4474-9e12-1b9a70907bd0/resource/152e1678-2bbc-4da4-9325-ba66b0717ad8/download/tur_admin_boundaries.xlsx"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 4324,
+        "compression": "gzip",
+        "original_bytes": 34917,
+        "original_sha256": "4ad1eafd4bb240bf47df2a0e204ee7f6c05ffffa4e2606c1e04814af01bd71b4",
+        "path": "evidence/YE-hdx.json.gz",
+        "sha256": "5a4a016e17cc54bb9f8abec2e58f28cfc18fda37ed1fbc989c3300aa5f98d886"
+      },
+      "catalogue_url": "https://data.humdata.org/dataset/cod-ab-yem",
+      "country": "YE",
+      "edition": {
+        "dataset_date": "[2019-11-22T00:00:00 TO 2024-12-23T23:59:59]",
+        "metadata_modified": "2026-08-14T06:40:44.767188",
+        "resource_last_modified": "2026-01-26T16:32:49.203480",
+        "source_description": "Yemen administrative level 0-2 boundaries (COD-AB) dataset version 01.  \n  \nThis dataset is structured into 2 levels:  \n- Admin 1: 22 Governorate  \n- Admin 2: 335 District  \n  \n  \nDates associated with this dataset:  \n- 23 December 2024: dataset reviewed for accuracy and completeness  \n- 22 November 2019: valid for use by the humanitarian community  \n- 09 October 2023: last edit to the dataset before publishing  \n- 09 October 2023: boundaries created by the source  \n  \nContributed by [OCHA Yemen](https://data.humdata.org/organization/ocha-yemen).  \nQuality assured, configured, and published by [OCHA Field Information Services (FIS)](https://data.humdata.org/organization/ocha-fiss) and [HDX](https://data.humdata.org/organization/hdx).  \n  \nPart of the dataset: [Global Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-global)"
+      },
+      "id": "YE-OCHA-COD-20261108",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 26122,
+        "path": "records/YE-OCHA-COD-20261108.jsonl.gz",
+        "record_stream_sha256": "d4679d6f87972ac2fd3b14452fb5c8f8a7680ff8c42f8d9ef4f62cda28f8b73c",
+        "records": 358,
+        "sha256": "4fb2bf2206a2fe754f9991705eb7fb98f57e0edd33ccfa64f817a2cbf69c7c8b"
+      },
+      "original": {
+        "bytes": 145713,
+        "compression": null,
+        "original_bytes": 145713,
+        "original_sha256": "85864561186541e44df7b55a4ef6725e4de40175881d5ce162eac8b9e9577135",
+        "path": "originals/YE-hdx-table.xlsx",
+        "sha256": "85864561186541e44df7b55a4ef6725e4de40175881d5ce162eac8b9e9577135"
+      },
+      "parser": "hdx_xlsx",
+      "publisher": "OCHA / Central Statistical Organization (CSO)",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "cc-by-igo",
+        "license_url": "http://creativecommons.org/licenses/by/3.0/igo/legalcode",
+        "scope": "provider-declared terms retained; no new blanket licence",
+        "upstream_commercial_reuse_review_required": false,
+        "upstream_source": "Central Statistical Organization (CSO)"
+      },
+      "source_admin_codes_are_not_postcodes": true,
+      "source_role": "humanitarian_government_origin_reference",
+      "url": "https://data.humdata.org/dataset/6b2656e2-b915-4671-bfed-468d5edcd80a/resource/4a17b830-0902-455c-a57d-551392f5a795/download/yem_admin_boundaries.xlsx"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_url": "https://www.data.gov.cy/en/dataset/385",
+      "country": "CY",
+      "edition": "Catalogue temporal coverage 2024; original file captured 2026-11-08",
+      "id": "CY-POST-DIRECTORY-2024",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 2987177,
+        "path": "records/CY-POST-DIRECTORY-2024.jsonl.gz",
+        "record_stream_sha256": "5a7a4b31bf10c0355e90e62d4057c9dd811d4e77645465e37d685f8a94023759",
+        "records": 66997,
+        "sha256": "9e934e6b1ce338e0e2a67ce12c0bb8a7dd3eecebc2c63f3b9bd579022aae4ba4"
+      },
+      "original": {
+        "bytes": 3263480,
+        "compression": null,
+        "original_bytes": 3263480,
+        "original_sha256": "5e89b5768cb914af3a22e2df0438532bbfd69a5f8556e1cc2ec87d665a96db04",
+        "path": "originals/CY-directory.xlsx",
+        "sha256": "5e89b5768cb914af3a22e2df0438532bbfd69a5f8556e1cc2ec87d665a96db04"
+      },
+      "parser": "cy_directory",
+      "publisher": "Cyprus Post / Republic of Cyprus",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "source_role": "government_published_source",
+      "url": "https://www.data.gov.cy/sites/default/files/postal_codes%20%2870%29.xlsx"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_url": "https://www.data.gov.cy/el/dataset/tahydromikoi-kodikes-ana-dimo-koinotita-kai-eparhia",
+      "country": "CY",
+      "edition": "2021-09-01; catalogue modified 2024-01-16",
+      "id": "CY-POST-MUNICIPALITIES-2021",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 37690,
+        "path": "records/CY-POST-MUNICIPALITIES-2021.jsonl.gz",
+        "record_stream_sha256": "415dc2cfa3107717535f19dfab3ca7a622d87ee59ffc23aff6bcbbd8170d9903",
+        "records": 1117,
+        "sha256": "f70b3d97751b0db7e628e57c73447a8915449963b6af637a3e1a58153bc4c80d"
+      },
+      "original": {
+        "bytes": 14205,
+        "compression": "gzip",
+        "original_bytes": 74463,
+        "original_sha256": "43ef517caf963ad2b25bfb4ceaa4870fc4f2d255d973ea87c1be5e3da5303b45",
+        "path": "originals/CY-municipalities.raw.gz",
+        "sha256": "3488b9986d1a9d2154956571796897049f5d041aba369357bcec16efbf0d7a59"
+      },
+      "parser": "cy_areas",
+      "publisher": "Cyprus Post / Republic of Cyprus",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "source_role": "government_published_source",
+      "url": "https://www.data.gov.cy/sites/default/files/%CE%A4%CE%9A_%CE%94%CE%AE%CE%BC%CE%BF%CE%B9%20%CE%BA%CE%B1%CE%B9%20%CE%9A%CE%BF%CE%B9%CE%BD%CF%8C%CF%84%CE%B7%CF%84%CE%B5%CF%82_0.csv"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 3589,
+        "compression": "gzip",
+        "original_bytes": 33506,
+        "original_sha256": "09bfe3462f60c3abced837dad0e481c199e7f0ac19b283803bdb479a486a14d7",
+        "path": "evidence/IL-cities-catalogue.json.gz",
+        "sha256": "231885fb12f78ff60b682a0b6fea6e3f00189d9622ad901cbb233ed1d0bfd5cd"
+      },
+      "catalogue_url": "https://data.gov.il/he/datasets/population_authority/citiesandsettelments",
+      "country": "IL",
+      "edition": "resource captured 2026-11-08",
+      "id": "IL-PIBA-LOCALITIES-20261108",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 68842,
+        "path": "records/IL-PIBA-LOCALITIES-20261108.jsonl.gz",
+        "record_stream_sha256": "d04cbb97d0b315337b01df59dc3bbee454cfc31c01b50d51a352f3848c85f2f9",
+        "records": 1316,
+        "sha256": "a5083abd525f8dccc0217e837e4382887d41f76669b8171f62ec361c4aa0cbd3"
+      },
+      "original": {
+        "bytes": 30649,
+        "compression": "gzip",
+        "original_bytes": 332813,
+        "original_sha256": "d734856e0ec9dadd300603270a5016e64ab7136334e255437fa1633e9599dcf1",
+        "path": "originals/IL-cities-api.raw.gz",
+        "sha256": "ab83f13d888fec5e2ebace09a6582e7aad604f41dc1ebd444356bae4b719f816"
+      },
+      "parser": "il_cities",
+      "publisher": "Population and Immigration Authority / Israel",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "catalogue_license_url_unreliable": false,
+        "declared_license_id": "other-open",
+        "source_statement": "Published for free public use"
+      },
+      "source_role": "government_published_source",
+      "url": "https://data.gov.il/api/3/action/datastore_search?resource_id=8f714b6f-c35c-4b40-a0e7-547b675eee0e&limit=32000"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 2013,
+        "compression": "gzip",
+        "original_bytes": 11628,
+        "original_sha256": "e44b2ba3e06ad6187328b599a2a02c4a6663ca2386f2d8d729f124acbbf1cb25",
+        "path": "evidence/JO-catalogue.json.gz",
+        "sha256": "f4545a0ed4b56be39287ea7612a2fe498ef1ba7c44896dd37c7d08ab98be1b06"
+      },
+      "catalogue_url": "https://opendata.gov.jo/en/dataset/jordan-post-offices-1661-2023",
+      "country": "JO",
+      "edition": "2023; catalogue updated 2025-07-16",
+      "id": "JO-POST-OFFICES-2023-1661",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 10790,
+        "path": "records/JO-POST-OFFICES-2023-1661.jsonl.gz",
+        "record_stream_sha256": "20f4e2314eb4839c020c4be4f7d6651f3d6cfa89e13269d3448d5c387411f9ec",
+        "records": 240,
+        "sha256": "ea88b2c9bf6eeff9c6bfc61d2426440e165d809e901c28004ecbcfdd9b9874ed"
+      },
+      "original": {
+        "bytes": 5526,
+        "compression": "gzip",
+        "original_bytes": 31286,
+        "original_sha256": "abc065e573259e764ac6388bdf6b1ea461270b330fe3639f7ea7f3078b17543f",
+        "path": "originals/JO-offices-corrected.raw.gz",
+        "sha256": "a76768f03dfdd6a94bce52dbe503138bb00b6b280044ff8084279024dc14cfe4"
+      },
+      "parser": "jo_offices",
+      "publisher": "Jordan Post / Open Government Data Portal",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "catalogue_error": "Metadata license_url points to Instagram; it is not used as rights evidence",
+        "catalogue_license_url_unreliable": true,
+        "declared_license_id": "JORDONIAN-DEFAULT",
+        "license_url": "https://opendata.gov.jo/en/pages/jordanian-open-government-data-license"
+      },
+      "source_role": "government_published_source",
+      "url": "https://opendata.gov.jo/dataset/MIGRATED-1661-2023/resource/635b5f86-39d0-4eca-82bd-0d5453aa2178/download/-.csv"
+    },
+    {
+      "admin_level": 1,
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 3208,
+        "compression": "gzip",
+        "original_bytes": 13143,
+        "original_sha256": "b77b51b672a330d55fa174b078b9cd65299149bddd8645eb9ef85c87d1287b5d",
+        "path": "evidence/LB-item.json.gz",
+        "sha256": "c9c824aa21c2d5456c442bbf76e8694ca1afb035a7758391d1869ab55f8a7c20"
+      },
+      "catalogue_url": "https://www.arcgis.com/home/item.html?id=984d143d0c1440ce9f3eadb4d900a7ea",
+      "country": "LB",
+      "edition": "ArcGIS item captured 2026-11-08",
+      "id": "LB-ATLAS-ADM1-20261108",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 1375,
+        "path": "records/LB-ATLAS-ADM1-20261108.jsonl.gz",
+        "record_stream_sha256": "1b33ed7711d0435bded8b8e10e122043d2886298b6f726a7227f1a971bb3d024",
+        "records": 8,
+        "sha256": "1c245c7a7bfc717fe857f0af4ea784b59aa14440026bd4da4c46f69f7b7e569b"
+      },
+      "original": {
+        "bytes": 1996,
+        "compression": "gzip",
+        "original_bytes": 7521,
+        "original_sha256": "ff9ee6bfd5fa629a73d996dc5ff672d7ea297d11353a1dd3f92ed7942583c207",
+        "path": "originals/LB-admin1.raw.gz",
+        "sha256": "7812627d2fcc6d0e6d310fe00e3b55f9355f99905e3e4d6063629a0cf7be4a06"
+      },
+      "parser": "lb_attributes",
+      "publisher": "CDR / OCHA FISS / CAS / Esri Lebanon",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "source-specific-attribution-permission",
+        "not_legal_cadastral_authority": true,
+        "permission": "ArcGIS item allows use, share and adapt with original-source attribution"
+      },
+      "source_role": "government_origin_publisher_reference",
+      "url": "https://services7.arcgis.com/OixUjmnC9qQkjog0/ArcGIS/rest/services/Lebanon_Atlas_%E2%80%93_National_and_Subnational_Administrative_Boundaries/FeatureServer/1/query?where=1%3D1&outFields=*&returnGeometry=false&f=json&resultRecordCount=2000"
+    },
+    {
+      "admin_level": 2,
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 3208,
+        "compression": "gzip",
+        "original_bytes": 13143,
+        "original_sha256": "b77b51b672a330d55fa174b078b9cd65299149bddd8645eb9ef85c87d1287b5d",
+        "path": "evidence/LB-item.json.gz",
+        "sha256": "c9c824aa21c2d5456c442bbf76e8694ca1afb035a7758391d1869ab55f8a7c20"
+      },
+      "catalogue_url": "https://www.arcgis.com/home/item.html?id=984d143d0c1440ce9f3eadb4d900a7ea",
+      "country": "LB",
+      "edition": "ArcGIS item captured 2026-11-08",
+      "id": "LB-ATLAS-ADM2-20261108",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 3471,
+        "path": "records/LB-ATLAS-ADM2-20261108.jsonl.gz",
+        "record_stream_sha256": "e7818259f7ecda1c33a99e35144fa0db84df30586c1359fd7863d61cf1437561",
+        "records": 26,
+        "sha256": "bc41706151c8d10559b2f82b87c31c0d3bffffada80011a176bc6ea5664d4f33"
+      },
+      "original": {
+        "bytes": 3757,
+        "compression": "gzip",
+        "original_bytes": 16790,
+        "original_sha256": "e983792e25cadc353347f5ae713def97f74774096f82df3fbd4e75edcc755c25",
+        "path": "originals/LB-admin2.raw.gz",
+        "sha256": "de916f2385bae58160b4db1f1908565efbc1df9ea9ba6f190919df91d3f830e4"
+      },
+      "parser": "lb_attributes",
+      "publisher": "CDR / OCHA FISS / CAS / Esri Lebanon",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "source-specific-attribution-permission",
+        "not_legal_cadastral_authority": true,
+        "permission": "ArcGIS item allows use, share and adapt with original-source attribution"
+      },
+      "source_role": "government_origin_publisher_reference",
+      "url": "https://services7.arcgis.com/OixUjmnC9qQkjog0/ArcGIS/rest/services/Lebanon_Atlas_%E2%80%93_National_and_Subnational_Administrative_Boundaries/FeatureServer/2/query?where=1%3D1&outFields=*&returnGeometry=false&f=json&resultRecordCount=2000"
+    },
+    {
+      "admin_level": 3,
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 3208,
+        "compression": "gzip",
+        "original_bytes": 13143,
+        "original_sha256": "b77b51b672a330d55fa174b078b9cd65299149bddd8645eb9ef85c87d1287b5d",
+        "path": "evidence/LB-item.json.gz",
+        "sha256": "c9c824aa21c2d5456c442bbf76e8694ca1afb035a7758391d1869ab55f8a7c20"
+      },
+      "catalogue_url": "https://www.arcgis.com/home/item.html?id=984d143d0c1440ce9f3eadb4d900a7ea",
+      "country": "LB",
+      "edition": "ArcGIS item captured 2026-11-08",
+      "id": "LB-ATLAS-ADM3-20261108",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 164941,
+        "path": "records/LB-ATLAS-ADM3-20261108.jsonl.gz",
+        "record_stream_sha256": "47ffa1fa0ba7fae6ab91709f051c24bad3492750320010ac892213ccdab7af4d",
+        "records": 1627,
+        "sha256": "e677b8ade08c2bd3d907ad22d86ec682ea5caca0859c7afe9b37baf80a4e8236"
+      },
+      "original": {
+        "bytes": 128839,
+        "compression": "gzip",
+        "original_bytes": 718625,
+        "original_sha256": "d7fc8a889d3d17b79db174324ba7bbb2bb6c16b05f874e1f05e10de0e284a2d1",
+        "path": "originals/LB-admin3.raw.gz",
+        "sha256": "73ad8a6bde4212dadd3dd794c9f891f09b46eb7f66d52c5b5fe3c754256bdeb3"
+      },
+      "parser": "lb_attributes",
+      "publisher": "CDR / OCHA FISS / CAS / Esri Lebanon",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "source-specific-attribution-permission",
+        "not_legal_cadastral_authority": true,
+        "permission": "ArcGIS item allows use, share and adapt with original-source attribution"
+      },
+      "source_role": "government_origin_publisher_reference",
+      "url": "https://services7.arcgis.com/OixUjmnC9qQkjog0/ArcGIS/rest/services/Lebanon_Atlas_%E2%80%93_National_and_Subnational_Administrative_Boundaries/FeatureServer/3/query?where=1%3D1&outFields=*&returnGeometry=false&f=json&resultRecordCount=2000"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_url": "https://www.geostat.ge/en/modules/categories/41/population",
+      "country": "GE",
+      "edition": "1994-2026 statistical series",
+      "id": "GE-MUNICIPALITIES-2026",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 18529,
+        "path": "records/GE-MUNICIPALITIES-2026.jsonl.gz",
+        "record_stream_sha256": "7e1959cbb6b29d5cf41204c2c9ff66374d4360b6cfd772e37f5be9c34d837887",
+        "records": 88,
+        "sha256": "cb008b2f25ba45545048474374cd33a3e63516905813a7c8ccb8131dc70e4fc2"
+      },
+      "original": {
+        "bytes": 34994,
+        "compression": null,
+        "original_bytes": 34994,
+        "original_sha256": "8bd7a1b56e756e8d6bc92192095795b204b23fd18274aaff39b78c0b0a487a57",
+        "path": "originals/GE-municipalities.xlsx",
+        "sha256": "8bd7a1b56e756e8d6bc92192095795b204b23fd18274aaff39b78c0b0a487a57"
+      },
+      "parser": "ge_units",
+      "publisher": "National Statistics Office of Georgia (Geostat)",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "Geostat-source-attribution-permission",
+        "license_url": "https://www.geostat.ge/en/page/monacemta-gamoyenebis-pirobebi",
+        "third_party_photos_and_logos_excluded": true
+      },
+      "source_role": "government_statistical_units_not_postcodes",
+      "url": "https://geostat.ge/media/78356/01-population-by-self-governed-unit.xlsx"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_url": "https://www.geostat.ge/en/modules/categories/41/population",
+      "country": "GE",
+      "edition": "1994-2026 statistical series",
+      "id": "GE-CITIES-2026",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 15705,
+        "path": "records/GE-CITIES-2026.jsonl.gz",
+        "record_stream_sha256": "08b5acac109ce7604f8311bcb9c2832eef14ca01598707e7ef0ed9ab43ea503e",
+        "records": 170,
+        "sha256": "ffec1b249b281292bbe8ff1030c8d00bc92705916d04b9ba9cbafa2872a2cb8a"
+      },
+      "original": {
+        "bytes": 54754,
+        "compression": null,
+        "original_bytes": 54754,
+        "original_sha256": "e79024e7ed941b76d97e3aaf86fb2e784a0fcee2b2d737a8de1828622b8dc79d",
+        "path": "originals/GE-cities.xlsx",
+        "sha256": "e79024e7ed941b76d97e3aaf86fb2e784a0fcee2b2d737a8de1828622b8dc79d"
+      },
+      "parser": "ge_cities",
+      "publisher": "National Statistics Office of Georgia (Geostat)",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "Geostat-source-attribution-permission",
+        "license_url": "https://www.geostat.ge/en/page/monacemta-gamoyenebis-pirobebi",
+        "third_party_photos_and_logos_excluded": true
+      },
+      "source_role": "government_statistical_units_not_postcodes",
+      "url": "https://geostat.ge/media/78358/1-3-population-by-cities-and-boroughs.xlsx"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "catalogue_evidence": {
+        "bytes": 1140,
+        "compression": "gzip",
+        "original_bytes": 4560,
+        "original_sha256": "bd1b826c493a3d8295316beb6052c94cb9124578be0b249bc1bdc4f46841f98d",
+        "path": "evidence/BH-metadata.json.gz",
+        "sha256": "14bd64c331396ef80c1d5ad41ff144a6b1c081d8d798347eb899d32fc40ed612"
+      },
+      "catalogue_url": "https://www.data.gov.bh/explore/dataset/02-area-by-governorate-2023/",
+      "country": "BH",
+      "edition": "2007-2024 annual area statistics",
+      "id": "BH-IGA-GOVERNORATE-AREA-2024",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 2279,
+        "path": "records/BH-IGA-GOVERNORATE-AREA-2024.jsonl.gz",
+        "record_stream_sha256": "564c3c6bf8b421af8ddba1946ba51a05c6f52405613da0ca06593d210b8993fa",
+        "records": 97,
+        "sha256": "ba4defd0a3dae306471eb37a1e5dcee1a47e290a933ffb9ec97836846df1fd47"
+      },
+      "original": {
+        "bytes": 929,
+        "compression": "gzip",
+        "original_bytes": 22451,
+        "original_sha256": "fbba8823235e72b6dd0b6eec559d58ca6f12816f61286a7e891e6936beb6c230",
+        "path": "originals/BH-governorates.raw.gz",
+        "sha256": "90721c1ee333ff7cb74132642d80ade92fafda330605ff83edd91ec5f9a2aa7c"
+      },
+      "parser": "bh_statistics",
+      "publisher": "Bahrain Survey and Land Registration Bureau / iGA",
+      "retrieved_on": "2026-11-08",
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "Bahrain-Government-Open-Data-Terms",
+        "license_url": "https://www.data.gov.bh/pages/terms-and-conditions/",
+        "notice": "Datasets provided by the iGA via www.data.gov.bh are governed by its Terms of Use. Transformations are made by World Localities and are not attributed to the iGA.",
+        "source_removal_and_downstream_notice_conditions": true
+      },
+      "source_role": "government_statistical_units_not_postcodes",
+      "url": "https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/02-area-by-governorate-2023/exports/json"
+    },
+    {
+      "carrier_deliverability_verified": false,
+      "country": "SY",
+      "edition": "existing 2026-11-06 repository projection; upstream commit b4364ee892351671450f873c2e48901ae37a84be",
+      "id": "SY-OPENSYRIA-EXISTING-b4364ee",
+      "national_completeness_verified": false,
+      "normalized": {
+        "bytes": 458435,
+        "path": "records/SY-OPENSYRIA-EXISTING-b4364ee.jsonl.gz",
+        "record_stream_sha256": "7e35493df9d94334bbc1dc85285766dbb48419a7ca95bcec98c0aa5fe985c545",
+        "records": 7953,
+        "sha256": "5418150e1909716a2add2b0506d6acd3bb3575f5737340578bb567ca1ef9f6fc"
+      },
+      "parser": "sy_reference",
+      "publisher": "OpenSyria Data Geography community release",
+      "repository_files": [
+        {
+          "bytes": 343074,
+          "path": "registries/official/western-asia/remaining/syria-reference/admin-levels.json",
+          "sha256": "d14cfbdf5d0af5eac19a737b33fabc52615a3dfc912fa42e8d06b24713b3c2e7"
+        },
+        {
+          "bytes": 265670,
+          "path": "registries/official/western-asia/remaining/syria-reference/localities/sy-al-hasakah.json",
+          "sha256": "8d553629879bf35b8a511ffbb226e397f19635b2c251708af11f459c3116013c"
+        },
+        {
+          "bytes": 287317,
+          "path": "registries/official/western-asia/remaining/syria-reference/localities/sy-aleppo.json",
+          "sha256": "0c8e4835187864a80ea1481e65e66d69b62a9bd7384f78def3731296955c72b2"
+        },
+        {
+          "bytes": 22350,
+          "path": "registries/official/western-asia/remaining/syria-reference/localities/sy-as-suwayda.json",
+          "sha256": "9872a67240c25a453ebe3f2035e3f1af22c277227b64a8a00b4bea31654a9cdb"
+        },
+        {
+          "bytes": 509,
+          "path": "registries/official/western-asia/remaining/syria-reference/localities/sy-damascus.json",
+          "sha256": "8042a1181e1ad381a5a4f7581f60b74392570fa845cd5766da0e78d75a8702dd"
+        },
+        {
+          "bytes": 25088,
+          "path": "registries/official/western-asia/remaining/syria-reference/localities/sy-daraa.json",
+          "sha256": "995c91ad59fa581224206a1534c493d115b5e8c5d7351ac62d33315c32e0b879"
+        },
+        {
+          "bytes": 32416,
+          "path": "registries/official/western-asia/remaining/syria-reference/localities/sy-deir-ez-zor.json",
+          "sha256": "d60de241a8a8bfd60ed2fafa7269eeb4dc77f486a702eb5f79bed2e069ce4cd4"
+        },
+        {
+          "bytes": 98422,
+          "path": "registries/official/western-asia/remaining/syria-reference/localities/sy-hama.json",
+          "sha256": "f3f5bbb2a34b7644154a8dfd45aaba38da807788e085a3a75c009bc7a5d92d5f"
+        },
+        {
+          "bytes": 84661,
+          "path": "registries/official/western-asia/remaining/syria-reference/localities/sy-homs.json",
+          "sha256": "a0a78fd0c3f747d8fcbda0756982f6b28e8e2ca092a7d06ebede343b62a3d267"
+        },
+        {
+          "bytes": 111131,
+          "path": "registries/official/western-asia/remaining/syria-reference/localities/sy-idlib.json",
+          "sha256": "ffd6f36965c486c2c71eb90a6cca000eff0293434adeae44ae243980eafc2e98"
+        },
+        {
+          "bytes": 75272,
+          "path": "registries/official/western-asia/remaining/syria-reference/localities/sy-latakia.json",
+          "sha256": "77b9cd4e592b27f16becae7993802e3779a353dd3eea9f864f866df820f6f7a3"
+        },
+        {
+          "bytes": 12410,
+          "path": "registries/official/western-asia/remaining/syria-reference/localities/sy-quneitra.json",
+          "sha256": "798addf5193e89d574914a9cd95a6fc604f714bdab536068a6e02e39e5306ead"
+        },
+        {
+          "bytes": 100675,
+          "path": "registries/official/western-asia/remaining/syria-reference/localities/sy-raqqa.json",
+          "sha256": "915164842e955d23812187e670b2c8a93f794693b4f832c87dac292de722502e"
+        },
+        {
+          "bytes": 45972,
+          "path": "registries/official/western-asia/remaining/syria-reference/localities/sy-rif-dimashq.json",
+          "sha256": "76f436fda9e372b2311ef5faeaa3ddf06de7316d933feada09da8daca44696f0"
+        },
+        {
+          "bytes": 73484,
+          "path": "registries/official/western-asia/remaining/syria-reference/localities/sy-tartus.json",
+          "sha256": "df482664ee5c211752ca2ee1c84a9925410babdc34d7e69b4bd3f7e17f826bfe"
+        }
+      ],
+      "rights": {
+        "attribution_required": true,
+        "declared_license_id": "CC-BY-4.0",
+        "preserve_source_specific_OCHA_and_other_original_attributions": true
+      },
+      "source_role": "reused_community_projection_not_new_government_import",
+      "url": "https://github.com/Open-Syria/data-geography/tree/b4364ee892351671450f873c2e48901ae37a84be"
+    }
+  ],
+  "supporting_evidence": [
+    {
+      "bytes": 10006,
+      "compression": "gzip",
+      "original_bytes": 59472,
+      "original_sha256": "e1ae989959c06c2fa348781cefeffbf2b6f390f49c998d51cc94a0e4053c5927",
+      "path": "evidence/GE-use-terms.html.gz",
+      "sha256": "f011fad680f1478cbbe10df50d7fe6b3a8df7abf9a2fbab6a0c23214ec064456"
+    },
+    {
+      "bytes": 21046,
+      "compression": "gzip",
+      "original_bytes": 106617,
+      "original_sha256": "a0c7e0e2a7563e27b799fc800c9763d21a94c40b3710e397db7d8702872c7aa2",
+      "path": "evidence/BH-terms.html.gz",
+      "sha256": "79a869f1d09a55e1e8037afd4b79d5779e5aae4b85b6ccaeab48d8da7471dc65"
+    },
+    {
+      "bytes": 11052,
+      "compression": "gzip",
+      "original_bytes": 79542,
+      "original_sha256": "f0e4f50879e88bc085828076132ec5dea7cfb2ea782d8a4587d5d7faa805ca73",
+      "path": "evidence/JO-page.html.gz",
+      "sha256": "340219b2dd621cb54e1de1c7101b9f5b0b6fac134aa41b1fcbb1a4cea2601ab0"
+    },
+    {
+      "bytes": 8848,
+      "compression": "gzip",
+      "original_bytes": 69068,
+      "original_sha256": "22a854513e6d7ecce999329f103997b9bd6e9858b768c1c1c300ab40e7c8d305",
+      "path": "evidence/JO-license-page.html.gz",
+      "sha256": "a5e01826842df91354b77dd9b0ccb02c6a44571b946393a689e6ebacf1f52652"
+    },
+    {
+      "bytes": 15855,
+      "compression": "gzip",
+      "original_bytes": 60738,
+      "original_sha256": "5ad4945a07b6f2b590f519c53888a2b8218cc8b23b5bc5a1b3c794196f3303a0",
+      "path": "evidence/CY-catalogue.html.gz",
+      "sha256": "64a4f76d868212130e57ce8ebcad337d33ceaf846af1e2ff24136d7d7a142639"
+    },
+    {
+      "bytes": 17984,
+      "compression": "gzip",
+      "original_bytes": 78509,
+      "original_sha256": "75d38d24cdd9201cecc3db7a3afeb5ce445551811a48faebb6209c71e9142936",
+      "path": "evidence/CY-area-catalogue.html.gz",
+      "sha256": "2dae3a22b33114f1948075b05ba0faac8d4c9f3488139c27f2d03b1d4c8769e8"
+    }
+  ],
+  "total_searchable_source_rows": 83015
+}

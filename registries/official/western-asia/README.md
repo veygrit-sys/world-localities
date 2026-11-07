@@ -1,117 +1,43 @@
-# Western Asia: 18-country address-format foundation and reference layers
+# 西アジア18か国の地名・原典参照
 
-This folder extends the existing GeoNames-based locality archives and bilingual address-format
-profiles. It is not a nationwide street/address directory and contains **no imported official
-postcodes or building entrances**. Rules reviewed 2026-11-05. The nine countries remain
-independently maintained in the JSON source inventory; shared code does not erase country
-specificity.
+現在の到達点は[実原本取込・国別残課題](../../../docs/plans/western-asia-current-status-20261108.md)を参照してください。2026年11月8日に18か国すべての原本参照層を更新しました。現行の公式地名・郵便番号・建物住所の全国照合完了は未証明です。
 
-| Code | Format-only capabilities | Source priority | Unverified |
-|---|---|---|---|
-| TR | 5-digit codes; UPU sublocality suffix (e.g. 06050-01); preserve leading zero | PTT province/district/neighbourhood lookup | Assigned code, province match, complete address |
-| CY | 4-digit domestic; CY- prefix for inbound international; Greek/Turkish/English kept distinct | Cyprus Post directory Excel via data.gov.cy, CC BY 4.0 | Excel not downloaded/imported; geographic coverage |
-| KW | 5-digit code; keep home block and P.O. box workflows separate | Ministry of Communications lookup by block and box range | Code-to-block/box assignment and freshness |
-| AE | No single nationwide postcode format; validate Makani shape; preserve Onwani separately | Dubai Municipality Makani, Abu Dhabi Onwani, Emirates Post | Whether IDs exist, emirate scope, delivery |
-| SA | SPL 5 digits, building/additional number 4 digits, short address 4 letters + 4 digits | Saudi Post SPL National Address | Actual address/short code assignment and API rights |
-| BH | 3 or 4 digits (UPU range 1XX–12XX), home and P.O. box | UPU Bahrain Post January 2024 | Locality/postcode correspondence, building existence |
-| QA | No nationwide postcode requirement; Anwani zone + street + building; P.O. box branch | Qatar Post standards and August 2024 UPU sheet | Numeric plate membership, carrier acceptance |
-| OM | 3-digit post office code, P.O. box format; home format provisional | UPU January 2026 and Oman Post | Home delivery and post office code assignment |
-| PS | P+3-digit area code or P+7-digit delivery-point structure, never treat placeholders as assigned codes | Palestine Post and UPU May 2025 | Territory-specific acceptance, point assignment |
+| 内容 | 現在の収録・実装 |
+|---|---|
+| GeoNamesの国別地名原典 | 18か国・215,576行、既存IDと国別分類を維持 |
+| 今回取得した原本 | 23原本・75,062行。政府直接公開と人道・第三者参照を区別 |
+| 既存OpenSyriaの共通検索接続 | 7,953行。今回新規取得した政府原本には数えない |
+| 出典別に検索できる参照行 | 83,015行。別出典の重複場所を含み、一意な住所件数ではない |
+| アゼルバイジャン公式IABT | 原本取得・6,697コードの解析と監査まで。公開再配布条件は未確認 |
+| 国別の現地語／英語表示・形式検証 | 18か国対応。実在や配達の判定ではない |
 
-## Source gates
+## 現在のデータと操作
 
-- The official Cyprus Post XLSX is listed as public under **CC BY 4.0** at
-  https://www.data.gov.cy/en/dataset/385 . Fetch, preserve hash and publisher attribution,
-  review columns and import as a *separate* versioned official postal reference. The current
-  repo does not include the spreadsheet or its rows.
-- The PTT public portal at https://www.turkiye.gov.tr/ptt-posta-kodu-sorgulama
-  supports province/district/neighbourhood lookup. A bulk redistribution right is not
-  established; do not scrape and republish without reviewing terms and acquisition limits.
-- The Kuwait Ministry of Communications provides distinct directories for **block** and
-  **P.O. Box ranges** at https://www.moc.gov.kw/en/important-links?tab=2 . A numeric
-  5-digit match alone is not enough to assert that a box or block is assigned the code.
-- Dubai Municipality's Makani is a **10-digit entrance locator**, not a postal code.
-  Its public use has attribution/non-sale conditions:
-  https://www.dm.gov.ae/open-data2/open-data-for-makani/ .
-  Abu Dhabi's Onwani system uses building, street, area and postcode components;
-  do not impose a Dubai Makani identifier in Abu Dhabi:
-  https://onwani.abudhabi.ae/ .
-- UAE postal delivery guidance is available at https://www.emiratespost.ae/faq .
-  The 2014 UPU sheet is a historical example, not sufficient evidence that every
-  current parcel is delivered only to a P.O. box.
+[imports/README.md](imports/README.md)に、原本、SHA-256、変換済み行、出典・権利、国別状態、原本再生の検証結果、検索方法を集約しています。生成SQLiteは原典から再構築できるためGitには含めません。
 
-See rules.json for exact source IDs, publication dates, roles and reuse gates.
+    python -m localities western-asia verify
+    python -m localities western-asia audit --output /tmp/western-asia-audit.json
+    python -m localities western-asia build --output /tmp/western-asia.sqlite
+    python -m localities western-asia verify-index --db /tmp/western-asia.sqlite
+    python -m localities western-asia query --db /tmp/western-asia.sqlite --country JO --postcode 11190
 
-## Additional official reference guidance (SA/BH/QA/OM/PS)
+住所形式APIは addressing.validate_western_asia_country を使用します。国別形式と住所表示に限定し、今回のデータ取込で実在・配達可能性の判定へ変更していません。
 
-- Saudi Post SPL specifies six national address components (building number, street,
-  district, city, 5-digit postcode, additional 4-digit number) and an optional 4-letter
-  plus 4-digit **short address**. A syntactically valid code is not an actual
-  registered address: https://portal.splonline.com.sa/en/national-address-1/ .
-- Bahrain's UPU sheet (January 2024) describes three- or four-digit postcodes,
-  range 1XX–12XX, and home/P.O. Box line orders:
-  https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/bhrEn.pdf .
-- Qatar Post's Anwani blue plates record **Zone, Street and Building** numbers;
-  these are not interchangeable with a national postcode. Inbound international mail
-  has separate DOHA/QATAR conventions. See
-  https://www.qatarpost.qa/Home/PostalStandards and
-  https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/qatEn.pdf .
-- Oman Post's January 2026 UPU sheet documents a **3-digit post office code** with
-  P.O. Box; it does not prove nationwide home street delivery data:
-  https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/omnEn.pdf .
-- Palestine Post's May 2025 UPU sheet uses P + 7 digits for delivery point
-  structure; Palestine Post also publishes P + 3 digit *area* fallback codes.
-  The letters "xxxx" on example templates are placeholders, not verified values.
-  See https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/pseEn.pdf
-  and https://www.palpost.ps/home/reports/1254?culture=ar-SA .
-- No official source rows were imported; all linked datasets remain behind explicit
-  provenance, licensing, and coverage review gates. No carrier deliverability is proven.
+## 既存の参照層
 
-## Usage
+| 保存先 | 範囲と役割 |
+|---|---|
+| [rules.json](rules.json) | TR・CY・KW・AE・SA・BH・QA・OM・PSの国別形式と当初の出典調査 |
+| [admin-crosswalk/](admin-crosswalk/README.md) | SA・BH・QA・OM・PSの手動公式名称参照・候補照合 |
+| [postal-data/](postal-data/README.md) | OM・PS・SA・BHの85件の手動転記。全国原本ではない |
+| [caucasus-levant/](caucasus-levant/README.md) | AM・GE・AZ・IL・JOの当初参照・取得アダプター |
+| [remaining/](remaining/) | LB・IQ・SY・YEの国別形式と原典、既存OpenSyria投影 |
+| [imports/](imports/README.md) | 取得済み原本を使う現在の共通検証・検索・国別残課題 |
 
-From the repository root:
+旧参照層の「原本未取得」「取込0」は、それぞれの手動転記・調査スナップショットの状態です。現在の全体状況は imports/manifest.json と imports/country-status.json を使用してください。
 
-    python -m unittest tests.test_western_asia_reference -v
-    python scripts/western_asia_reference_cli.py inspect --country TR
-    python scripts/western_asia_reference_cli.py validate --country CY --postcode 2008 --direction inbound
-    python scripts/western_asia_reference_cli.py validate --country KW --postcode 54404 --block 4
-    python scripts/western_asia_reference_cli.py validate --country AE --emirate AE-DU --makani "30032 95320"
-    python scripts/western_asia_reference_cli.py validate --country SA --short-address RAGI2929
-    python scripts/western_asia_reference_cli.py validate --country BH --postcode 317
-    python scripts/western_asia_reference_cli.py validate --country QA --zone 38 --street-number 904 --building-number 15
-    python scripts/western_asia_reference_cli.py validate --country OM --postcode 133 --po-box 15 --delivery-mode po_box
-    python scripts/western_asia_reference_cli.py validate --country PS --postcode P6100154
-    python -m unittest discover -s tests -p 'test_western_asia*' -v
+## 粒度・版・権利の境界
 
-Call addressing.western_asia_reference.validate_western_asia_reference from other
-Python code. Response statuses are format_only, format_unverified, incomplete and
-invalid_format. Even a format_only result **never asserts existence, official postcode
-assignment, building identity, or carrier deliverability**.
+郵便番号、郵便局番号、私書箱、統計コード、人道P-code、入口IDは独立した値として保存します。名称だけの一意候補を確認済み同一性へ昇格させず、原典の国境・所属分類を別出典へ上書きしません。
 
-## Next source-driven quality gates
-
-1. Pin allowed official source bytes and SHA-256, source date, licence, expected grain,
-   record count and localities missing from joins.
-2. Join *reviewed* postal/municipal IDs to the existing registries/asia GeoNames IDs
-   using a separately auditable mapping. Do not overwrite gn: IDs, and do not turn
-   geographic-name matches into confirmed same-entity relations automatically.
-3. Run held-out address quality tests for syntax, code/locality association, ambiguity,
-   native/English names, precision and carrier-specific acceptance. Record nationwide
-   completeness separately for each country and version.
-
-## Caucasus and Levant extension (AM / GE / AZ / IL / JO)
-
-See [caucasus-levant/README.md](caucasus-levant/README.md) for official regional names,
-post-office/UPU published postcode examples, language-safe GeoNames candidates,
-and the SHA-256-backed reconciliation audit. No original nationwide official
-postal table has been acquired or assigned as a GN foreign key.
-
-## 18-country completion scope
-
-The original nine-country rule table above remains the first supported group.
-Five Caucasus/Levant country postcode source validators and four final-country
-policy engines complete the 18-country **format-level** baseline. Details:
-[西アジア18か国の実装・品質範囲](../../../docs/plans/western-asia-18-country-baseline-20261106.md).
-The four-country source evidence includes the 7,953-item pinned OpenSyria
-administrative/locality reference. Postal-operator-certified countrywide
-completeness, building existence and carrier deliverability remain unverified.
+イラク旧18県、レバノンの重複・Conflictコード、カタールの目録と原本件数差は監査記録に残しています。AZ・KW・OM・SAのGADM由来人道参照は商用再利用条件の確認が残ります。[NOTICE](imports/NOTICE.md)と原本ごとの出典条件を確認してください。

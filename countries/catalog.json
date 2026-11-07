@@ -36,7 +36,13 @@
       },
       "inventory_status": "source_layers_available",
       "paths": [
-        "registries/asia/country-archives/AE.zip"
+        "registries/asia/country-archives/AE.zip",
+        "registries/official/western-asia/imports/NOTICE.md",
+        "registries/official/western-asia/imports/country-status.json",
+        "registries/official/western-asia/imports/evidence/AE-hdx.json.gz",
+        "registries/official/western-asia/imports/manifest.json",
+        "registries/official/western-asia/imports/originals/AE-hdx-table.xlsx",
+        "registries/official/western-asia/imports/records/AE-OCHA-COD-20261108.jsonl.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -152,7 +158,13 @@
         "registries/asia/country-archives/AM.zip",
         "registries/europe/countries/AM/admin1.csv",
         "registries/europe/countries/AM/entities-0001.csv.gz",
-        "registries/europe/countries/AM/metadata.json"
+        "registries/europe/countries/AM/metadata.json",
+        "registries/official/western-asia/imports/NOTICE.md",
+        "registries/official/western-asia/imports/country-status.json",
+        "registries/official/western-asia/imports/evidence/AM-hdx.json.gz",
+        "registries/official/western-asia/imports/manifest.json",
+        "registries/official/western-asia/imports/originals/AM-hdx-table.xlsx",
+        "registries/official/western-asia/imports/records/AM-OCHA-COD-20261108.jsonl.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -383,7 +395,13 @@
         "registries/asia/country-archives/AZ.zip",
         "registries/europe/countries/AZ/admin1.csv",
         "registries/europe/countries/AZ/entities-0001.csv.gz",
-        "registries/europe/countries/AZ/metadata.json"
+        "registries/europe/countries/AZ/metadata.json",
+        "registries/official/western-asia/imports/NOTICE.md",
+        "registries/official/western-asia/imports/country-status.json",
+        "registries/official/western-asia/imports/evidence/AZ-hdx.json.gz",
+        "registries/official/western-asia/imports/manifest.json",
+        "registries/official/western-asia/imports/originals/AZ-hdx-table.xlsx",
+        "registries/official/western-asia/imports/records/AZ-OCHA-COD-20261108.jsonl.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -548,7 +566,13 @@
       },
       "inventory_status": "source_layers_available",
       "paths": [
-        "registries/asia/country-archives/BH.zip"
+        "registries/asia/country-archives/BH.zip",
+        "registries/official/western-asia/imports/NOTICE.md",
+        "registries/official/western-asia/imports/country-status.json",
+        "registries/official/western-asia/imports/evidence/BH-metadata.json.gz",
+        "registries/official/western-asia/imports/manifest.json",
+        "registries/official/western-asia/imports/originals/BH-governorates.raw.gz",
+        "registries/official/western-asia/imports/records/BH-IGA-GOVERNORATE-AREA-2024.jsonl.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -1363,7 +1387,14 @@
         "registries/europe/countries/CY/metadata.json",
         "registries/europe/eurostat-lau/CY/metadata.json",
         "registries/europe/eurostat-lau/CY/statistical_regions.csv",
-        "registries/europe/eurostat-lau/CY/units.csv.gz"
+        "registries/europe/eurostat-lau/CY/units.csv.gz",
+        "registries/official/western-asia/imports/NOTICE.md",
+        "registries/official/western-asia/imports/country-status.json",
+        "registries/official/western-asia/imports/manifest.json",
+        "registries/official/western-asia/imports/originals/CY-directory.xlsx",
+        "registries/official/western-asia/imports/originals/CY-municipalities.raw.gz",
+        "registries/official/western-asia/imports/records/CY-POST-DIRECTORY-2024.jsonl.gz",
+        "registries/official/western-asia/imports/records/CY-POST-MUNICIPALITIES-2021.jsonl.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -1958,7 +1989,17 @@
         "registries/asia/country-archives/GE.zip",
         "registries/europe/countries/GE/admin1.csv",
         "registries/europe/countries/GE/entities-0001.csv.gz",
-        "registries/europe/countries/GE/metadata.json"
+        "registries/europe/countries/GE/metadata.json",
+        "registries/official/western-asia/imports/NOTICE.md",
+        "registries/official/western-asia/imports/country-status.json",
+        "registries/official/western-asia/imports/evidence/GE-hdx.json.gz",
+        "registries/official/western-asia/imports/manifest.json",
+        "registries/official/western-asia/imports/originals/GE-cities.xlsx",
+        "registries/official/western-asia/imports/originals/GE-hdx-table.xlsx",
+        "registries/official/western-asia/imports/originals/GE-municipalities.xlsx",
+        "registries/official/western-asia/imports/records/GE-CITIES-2026.jsonl.gz",
+        "registries/official/western-asia/imports/records/GE-MUNICIPALITIES-2026.jsonl.gz",
+        "registries/official/western-asia/imports/records/GE-OCHA-COD-20261108.jsonl.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -2535,7 +2576,13 @@
       },
       "inventory_status": "source_layers_available",
       "paths": [
-        "registries/asia/country-archives/IL.zip"
+        "registries/asia/country-archives/IL.zip",
+        "registries/official/western-asia/imports/NOTICE.md",
+        "registries/official/western-asia/imports/country-status.json",
+        "registries/official/western-asia/imports/evidence/IL-cities-catalogue.json.gz",
+        "registries/official/western-asia/imports/manifest.json",
+        "registries/official/western-asia/imports/originals/IL-cities-api.raw.gz",
+        "registries/official/western-asia/imports/records/IL-PIBA-LOCALITIES-20261108.jsonl.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -2624,7 +2671,13 @@
       },
       "inventory_status": "source_layers_available",
       "paths": [
-        "registries/asia/country-archives/IQ.zip"
+        "registries/asia/country-archives/IQ.zip",
+        "registries/official/western-asia/imports/NOTICE.md",
+        "registries/official/western-asia/imports/country-status.json",
+        "registries/official/western-asia/imports/evidence/IQ-hdx.json.gz",
+        "registries/official/western-asia/imports/manifest.json",
+        "registries/official/western-asia/imports/originals/IQ-hdx-table.xlsx",
+        "registries/official/western-asia/imports/records/IQ-OCHA-COD-20261108.jsonl.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -2765,7 +2818,13 @@
       },
       "inventory_status": "source_layers_available",
       "paths": [
-        "registries/asia/country-archives/JO.zip"
+        "registries/asia/country-archives/JO.zip",
+        "registries/official/western-asia/imports/NOTICE.md",
+        "registries/official/western-asia/imports/country-status.json",
+        "registries/official/western-asia/imports/evidence/JO-catalogue.json.gz",
+        "registries/official/western-asia/imports/manifest.json",
+        "registries/official/western-asia/imports/originals/JO-offices-corrected.raw.gz",
+        "registries/official/western-asia/imports/records/JO-POST-OFFICES-2023-1661.jsonl.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -3002,7 +3061,13 @@
       },
       "inventory_status": "source_layers_available",
       "paths": [
-        "registries/asia/country-archives/KW.zip"
+        "registries/asia/country-archives/KW.zip",
+        "registries/official/western-asia/imports/NOTICE.md",
+        "registries/official/western-asia/imports/country-status.json",
+        "registries/official/western-asia/imports/evidence/KW-hdx.json.gz",
+        "registries/official/western-asia/imports/manifest.json",
+        "registries/official/western-asia/imports/originals/KW-hdx-table.xlsx",
+        "registries/official/western-asia/imports/records/KW-OCHA-COD-20261108.jsonl.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -3089,7 +3154,17 @@
       },
       "inventory_status": "source_layers_available",
       "paths": [
-        "registries/asia/country-archives/LB.zip"
+        "registries/asia/country-archives/LB.zip",
+        "registries/official/western-asia/imports/NOTICE.md",
+        "registries/official/western-asia/imports/country-status.json",
+        "registries/official/western-asia/imports/evidence/LB-item.json.gz",
+        "registries/official/western-asia/imports/manifest.json",
+        "registries/official/western-asia/imports/originals/LB-admin1.raw.gz",
+        "registries/official/western-asia/imports/originals/LB-admin2.raw.gz",
+        "registries/official/western-asia/imports/originals/LB-admin3.raw.gz",
+        "registries/official/western-asia/imports/records/LB-ATLAS-ADM1-20261108.jsonl.gz",
+        "registries/official/western-asia/imports/records/LB-ATLAS-ADM2-20261108.jsonl.gz",
+        "registries/official/western-asia/imports/records/LB-ATLAS-ADM3-20261108.jsonl.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -4163,7 +4238,13 @@
       },
       "inventory_status": "source_layers_available",
       "paths": [
-        "registries/asia/country-archives/OM.zip"
+        "registries/asia/country-archives/OM.zip",
+        "registries/official/western-asia/imports/NOTICE.md",
+        "registries/official/western-asia/imports/country-status.json",
+        "registries/official/western-asia/imports/evidence/OM-hdx.json.gz",
+        "registries/official/western-asia/imports/manifest.json",
+        "registries/official/western-asia/imports/originals/OM-hdx-table.xlsx",
+        "registries/official/western-asia/imports/records/OM-OCHA-COD-20261108.jsonl.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -4426,7 +4507,13 @@
       },
       "inventory_status": "source_layers_available",
       "paths": [
-        "registries/asia/country-archives/PS.zip"
+        "registries/asia/country-archives/PS.zip",
+        "registries/official/western-asia/imports/NOTICE.md",
+        "registries/official/western-asia/imports/country-status.json",
+        "registries/official/western-asia/imports/evidence/PS-hdx.json.gz",
+        "registries/official/western-asia/imports/manifest.json",
+        "registries/official/western-asia/imports/originals/PS-hdx-table.xlsx",
+        "registries/official/western-asia/imports/records/PS-OCHA-COD-20261108.jsonl.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -4522,7 +4609,13 @@
       },
       "inventory_status": "source_layers_available",
       "paths": [
-        "registries/asia/country-archives/QA.zip"
+        "registries/asia/country-archives/QA.zip",
+        "registries/official/western-asia/imports/NOTICE.md",
+        "registries/official/western-asia/imports/country-status.json",
+        "registries/official/western-asia/imports/evidence/QA-hdx.json.gz",
+        "registries/official/western-asia/imports/manifest.json",
+        "registries/official/western-asia/imports/originals/QA-hdx-table.xlsx",
+        "registries/official/western-asia/imports/records/QA-OCHA-COD-20261108.jsonl.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -4677,7 +4770,13 @@
       },
       "inventory_status": "source_layers_available",
       "paths": [
-        "registries/asia/country-archives/SA.zip"
+        "registries/asia/country-archives/SA.zip",
+        "registries/official/western-asia/imports/NOTICE.md",
+        "registries/official/western-asia/imports/country-status.json",
+        "registries/official/western-asia/imports/evidence/SA-hdx.json.gz",
+        "registries/official/western-asia/imports/manifest.json",
+        "registries/official/western-asia/imports/originals/SA-hdx-table.xlsx",
+        "registries/official/western-asia/imports/records/SA-OCHA-COD-20261108.jsonl.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -5128,7 +5227,29 @@
       },
       "inventory_status": "source_layers_available",
       "paths": [
-        "registries/asia/country-archives/SY.zip"
+        "registries/asia/country-archives/SY.zip",
+        "registries/official/western-asia/imports/NOTICE.md",
+        "registries/official/western-asia/imports/country-status.json",
+        "registries/official/western-asia/imports/evidence/SY-hdx.json.gz",
+        "registries/official/western-asia/imports/manifest.json",
+        "registries/official/western-asia/imports/originals/SY-hdx-table.xlsx",
+        "registries/official/western-asia/imports/records/SY-OCHA-COD-20261108.jsonl.gz",
+        "registries/official/western-asia/imports/records/SY-OPENSYRIA-EXISTING-b4364ee.jsonl.gz",
+        "registries/official/western-asia/remaining/syria-reference/admin-levels.json",
+        "registries/official/western-asia/remaining/syria-reference/localities/sy-al-hasakah.json",
+        "registries/official/western-asia/remaining/syria-reference/localities/sy-aleppo.json",
+        "registries/official/western-asia/remaining/syria-reference/localities/sy-as-suwayda.json",
+        "registries/official/western-asia/remaining/syria-reference/localities/sy-damascus.json",
+        "registries/official/western-asia/remaining/syria-reference/localities/sy-daraa.json",
+        "registries/official/western-asia/remaining/syria-reference/localities/sy-deir-ez-zor.json",
+        "registries/official/western-asia/remaining/syria-reference/localities/sy-hama.json",
+        "registries/official/western-asia/remaining/syria-reference/localities/sy-homs.json",
+        "registries/official/western-asia/remaining/syria-reference/localities/sy-idlib.json",
+        "registries/official/western-asia/remaining/syria-reference/localities/sy-latakia.json",
+        "registries/official/western-asia/remaining/syria-reference/localities/sy-quneitra.json",
+        "registries/official/western-asia/remaining/syria-reference/localities/sy-raqqa.json",
+        "registries/official/western-asia/remaining/syria-reference/localities/sy-rif-dimashq.json",
+        "registries/official/western-asia/remaining/syria-reference/localities/sy-tartus.json"
       ],
       "release_manifests": [],
       "quality": {
@@ -5424,7 +5545,13 @@
         "registries/europe/countries/TR/metadata.json",
         "registries/europe/eurostat-lau/TR/metadata.json",
         "registries/europe/eurostat-lau/TR/statistical_regions.csv",
-        "registries/europe/eurostat-lau/TR/units.csv.gz"
+        "registries/europe/eurostat-lau/TR/units.csv.gz",
+        "registries/official/western-asia/imports/NOTICE.md",
+        "registries/official/western-asia/imports/country-status.json",
+        "registries/official/western-asia/imports/evidence/TR-hdx.json.gz",
+        "registries/official/western-asia/imports/manifest.json",
+        "registries/official/western-asia/imports/originals/TR-hdx-table.xlsx",
+        "registries/official/western-asia/imports/records/TR-OCHA-COD-20261108.jsonl.gz"
       ],
       "release_manifests": [],
       "quality": {
@@ -5964,7 +6091,13 @@
       },
       "inventory_status": "source_layers_available",
       "paths": [
-        "registries/asia/country-archives/YE.zip"
+        "registries/asia/country-archives/YE.zip",
+        "registries/official/western-asia/imports/NOTICE.md",
+        "registries/official/western-asia/imports/country-status.json",
+        "registries/official/western-asia/imports/evidence/YE-hdx.json.gz",
+        "registries/official/western-asia/imports/manifest.json",
+        "registries/official/western-asia/imports/originals/YE-hdx-table.xlsx",
+        "registries/official/western-asia/imports/records/YE-OCHA-COD-20261108.jsonl.gz"
       ],
       "release_manifests": [],
       "quality": {

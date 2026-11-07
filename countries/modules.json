@@ -208,6 +208,18 @@
             "key": "AE"
           },
           "scope": "format rules only; not address existence"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "registry": "official",
+          "kind": "source_snapshot",
+          "data": "registries/official/western-asia/imports",
+          "manifest": "registries/official/western-asia/imports/manifest.json",
+          "verifier": "western_asia_source_replay",
+          "selector": {
+            "country": "AE"
+          },
+          "scope": "versioned government / humanitarian / third-party source layers; not nationally verified addresses"
         }
       ],
       "next_action": "verify_layers_then_create_country_bundle"
@@ -372,6 +384,18 @@
             "key": "AM"
           },
           "scope": "format rules only; not address existence"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "registry": "official",
+          "kind": "source_snapshot",
+          "data": "registries/official/western-asia/imports",
+          "manifest": "registries/official/western-asia/imports/manifest.json",
+          "verifier": "western_asia_source_replay",
+          "selector": {
+            "country": "AM"
+          },
+          "scope": "versioned government / humanitarian / third-party source layers; not nationally verified addresses"
         }
       ],
       "next_action": "review_recorded_parent_gaps_and_source_vintages"
@@ -648,6 +672,18 @@
             "key": "AZ"
           },
           "scope": "format rules only; not address existence"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "registry": "official",
+          "kind": "source_snapshot",
+          "data": "registries/official/western-asia/imports",
+          "manifest": "registries/official/western-asia/imports/manifest.json",
+          "verifier": "western_asia_source_replay",
+          "selector": {
+            "country": "AZ"
+          },
+          "scope": "versioned government / humanitarian / third-party source layers; not nationally verified addresses"
         }
       ],
       "next_action": "review_recorded_parent_gaps_and_source_vintages"
@@ -863,6 +899,18 @@
             "key": "BH"
           },
           "scope": "format rules only; not address existence"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "registry": "official",
+          "kind": "source_snapshot",
+          "data": "registries/official/western-asia/imports",
+          "manifest": "registries/official/western-asia/imports/manifest.json",
+          "verifier": "western_asia_source_replay",
+          "selector": {
+            "country": "BH"
+          },
+          "scope": "versioned government / humanitarian / third-party source layers; not nationally verified addresses"
         }
       ],
       "next_action": "verify_layers_then_create_country_bundle"
@@ -1839,6 +1887,18 @@
             "key": "CY"
           },
           "scope": "format rules only; not address existence"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "registry": "official",
+          "kind": "source_snapshot",
+          "data": "registries/official/western-asia/imports",
+          "manifest": "registries/official/western-asia/imports/manifest.json",
+          "verifier": "western_asia_source_replay",
+          "selector": {
+            "country": "CY"
+          },
+          "scope": "versioned government / humanitarian / third-party source layers; not nationally verified addresses"
         }
       ],
       "next_action": "review_recorded_parent_gaps_and_source_vintages"
@@ -2591,6 +2651,18 @@
             "key": "GE"
           },
           "scope": "format rules only; not address existence"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "registry": "official",
+          "kind": "source_snapshot",
+          "data": "registries/official/western-asia/imports",
+          "manifest": "registries/official/western-asia/imports/manifest.json",
+          "verifier": "western_asia_source_replay",
+          "selector": {
+            "country": "GE"
+          },
+          "scope": "versioned government / humanitarian / third-party source layers; not nationally verified addresses"
         }
       ],
       "next_action": "review_recorded_parent_gaps_and_source_vintages"
@@ -3358,6 +3430,18 @@
             "key": "IL"
           },
           "scope": "format rules only; not address existence"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "registry": "official",
+          "kind": "source_snapshot",
+          "data": "registries/official/western-asia/imports",
+          "manifest": "registries/official/western-asia/imports/manifest.json",
+          "verifier": "western_asia_source_replay",
+          "selector": {
+            "country": "IL"
+          },
+          "scope": "versioned government / humanitarian / third-party source layers; not nationally verified addresses"
         }
       ],
       "next_action": "verify_layers_then_create_country_bundle"
@@ -3480,6 +3564,18 @@
             "key": "IQ"
           },
           "scope": "format rules only; not address existence"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "registry": "official",
+          "kind": "source_snapshot",
+          "data": "registries/official/western-asia/imports",
+          "manifest": "registries/official/western-asia/imports/manifest.json",
+          "verifier": "western_asia_source_replay",
+          "selector": {
+            "country": "IQ"
+          },
+          "scope": "versioned government / humanitarian / third-party source layers; not nationally verified addresses"
         }
       ],
       "next_action": "verify_layers_then_create_country_bundle"
@@ -3664,6 +3760,18 @@
             "key": "JO"
           },
           "scope": "format rules only; not address existence"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "registry": "official",
+          "kind": "source_snapshot",
+          "data": "registries/official/western-asia/imports",
+          "manifest": "registries/official/western-asia/imports/manifest.json",
+          "verifier": "western_asia_source_replay",
+          "selector": {
+            "country": "JO"
+          },
+          "scope": "versioned government / humanitarian / third-party source layers; not nationally verified addresses"
         }
       ],
       "next_action": "verify_layers_then_create_country_bundle"
@@ -4005,6 +4113,18 @@
             "key": "KW"
           },
           "scope": "format rules only; not address existence"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "registry": "official",
+          "kind": "source_snapshot",
+          "data": "registries/official/western-asia/imports",
+          "manifest": "registries/official/western-asia/imports/manifest.json",
+          "verifier": "western_asia_source_replay",
+          "selector": {
+            "country": "KW"
+          },
+          "scope": "versioned government / humanitarian / third-party source layers; not nationally verified addresses"
         }
       ],
       "next_action": "verify_layers_then_create_country_bundle"
@@ -4126,6 +4246,18 @@
             "key": "LB"
           },
           "scope": "format rules only; not address existence"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "registry": "official",
+          "kind": "source_snapshot",
+          "data": "registries/official/western-asia/imports",
+          "manifest": "registries/official/western-asia/imports/manifest.json",
+          "verifier": "western_asia_source_replay",
+          "selector": {
+            "country": "LB"
+          },
+          "scope": "versioned government / humanitarian / third-party source layers; not nationally verified addresses"
         }
       ],
       "next_action": "verify_layers_then_create_country_bundle"
@@ -5473,6 +5605,18 @@
             "key": "OM"
           },
           "scope": "format rules only; not address existence"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "registry": "official",
+          "kind": "source_snapshot",
+          "data": "registries/official/western-asia/imports",
+          "manifest": "registries/official/western-asia/imports/manifest.json",
+          "verifier": "western_asia_source_replay",
+          "selector": {
+            "country": "OM"
+          },
+          "scope": "versioned government / humanitarian / third-party source layers; not nationally verified addresses"
         }
       ],
       "next_action": "verify_layers_then_create_country_bundle"
@@ -5810,6 +5954,18 @@
             "key": "PS"
           },
           "scope": "format rules only; not address existence"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "registry": "official",
+          "kind": "source_snapshot",
+          "data": "registries/official/western-asia/imports",
+          "manifest": "registries/official/western-asia/imports/manifest.json",
+          "verifier": "western_asia_source_replay",
+          "selector": {
+            "country": "PS"
+          },
+          "scope": "versioned government / humanitarian / third-party source layers; not nationally verified addresses"
         }
       ],
       "next_action": "verify_layers_then_create_country_bundle"
@@ -5932,6 +6088,18 @@
             "key": "QA"
           },
           "scope": "format rules only; not address existence"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "registry": "official",
+          "kind": "source_snapshot",
+          "data": "registries/official/western-asia/imports",
+          "manifest": "registries/official/western-asia/imports/manifest.json",
+          "verifier": "western_asia_source_replay",
+          "selector": {
+            "country": "QA"
+          },
+          "scope": "versioned government / humanitarian / third-party source layers; not nationally verified addresses"
         }
       ],
       "next_action": "verify_layers_then_create_country_bundle"
@@ -6127,6 +6295,18 @@
             "key": "SA"
           },
           "scope": "format rules only; not address existence"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "registry": "official",
+          "kind": "source_snapshot",
+          "data": "registries/official/western-asia/imports",
+          "manifest": "registries/official/western-asia/imports/manifest.json",
+          "verifier": "western_asia_source_replay",
+          "selector": {
+            "country": "SA"
+          },
+          "scope": "versioned government / humanitarian / third-party source layers; not nationally verified addresses"
         }
       ],
       "next_action": "verify_layers_then_create_country_bundle"
@@ -6713,6 +6893,18 @@
             "key": "SY"
           },
           "scope": "format rules only; not address existence"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "registry": "official",
+          "kind": "source_snapshot",
+          "data": "registries/official/western-asia/imports",
+          "manifest": "registries/official/western-asia/imports/manifest.json",
+          "verifier": "western_asia_source_replay",
+          "selector": {
+            "country": "SY"
+          },
+          "scope": "versioned government / humanitarian / third-party source layers; not nationally verified addresses"
         }
       ],
       "next_action": "verify_layers_then_create_country_bundle"
@@ -7120,6 +7312,18 @@
             "key": "TR"
           },
           "scope": "format rules only; not address existence"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "registry": "official",
+          "kind": "source_snapshot",
+          "data": "registries/official/western-asia/imports",
+          "manifest": "registries/official/western-asia/imports/manifest.json",
+          "verifier": "western_asia_source_replay",
+          "selector": {
+            "country": "TR"
+          },
+          "scope": "versioned government / humanitarian / third-party source layers; not nationally verified addresses"
         }
       ],
       "next_action": "review_recorded_parent_gaps_and_source_vintages"
@@ -7773,6 +7977,18 @@
             "key": "YE"
           },
           "scope": "format rules only; not address existence"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "registry": "official",
+          "kind": "source_snapshot",
+          "data": "registries/official/western-asia/imports",
+          "manifest": "registries/official/western-asia/imports/manifest.json",
+          "verifier": "western_asia_source_replay",
+          "selector": {
+            "country": "YE"
+          },
+          "scope": "versioned government / humanitarian / third-party source layers; not nationally verified addresses"
         }
       ],
       "next_action": "verify_layers_then_create_country_bundle"

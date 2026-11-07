@@ -1,0 +1,474 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-08",
+  "country_scope": [
+    "AE",
+    "AM",
+    "AZ",
+    "BH",
+    "CY",
+    "GE",
+    "IL",
+    "IQ",
+    "JO",
+    "KW",
+    "LB",
+    "OM",
+    "PS",
+    "QA",
+    "SA",
+    "SY",
+    "TR",
+    "YE"
+  ],
+  "gazetteer_rows": 215576,
+  "new_original_source_rows": 75062,
+  "reused_community_source_rows": 7953,
+  "searchable_source_rows": 83015,
+  "new_original_files": 23,
+  "official_national_address_completeness_verified": false,
+  "source_row_totals_are_not_unique_addresses": true,
+  "countries": [
+    {
+      "country": "AE",
+      "gazetteer_rows": 2853,
+      "gazetteer_archive_sha256": "12f3550a97eb8246fb8020b66a6a6292f7e2af992a4d94ccdfded2aaef932185",
+      "source_ids": [
+        "AE-OCHA-COD-20261108"
+      ],
+      "imported_source_rows": 8,
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 7
+      },
+      "gazetteer_dangling_parent_ids": {},
+      "localities_without_state": 10,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "deliverability_verified": false,
+      "country_ja": "UAE",
+      "scope_description_ja": "7首長国の行政参照",
+      "remaining_work_ja": "Makani・Onwaniの住所／入口ID原本。通常の全国郵便番号を合成しない。",
+      "all_current_official_localities_verified": false,
+      "source_layer_work_completed": "pinned_sources_imported_replayed_and_indexed"
+    },
+    {
+      "country": "AM",
+      "gazetteer_rows": 2427,
+      "gazetteer_archive_sha256": "340b7aa362db388bf164eca179d4806d1af36c7a633dba9783242f894c1092d3",
+      "source_ids": [
+        "AM-OCHA-COD-20261108"
+      ],
+      "imported_source_rows": 51,
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 39,
+        "unmatched": 11
+      },
+      "gazetteer_dangling_parent_ids": {},
+      "localities_without_state": 887,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "deliverability_verified": false,
+      "country_ja": "アルメニア",
+      "scope_description_ja": "11州相当・39コミュニティの版付き参照",
+      "remaining_work_ja": "HayPost PDF取得済み。全国郵便局の構造化と再配布条件確認、現行自治体との版照合が残る。",
+      "all_current_official_localities_verified": false,
+      "source_layer_work_completed": "pinned_sources_imported_replayed_and_indexed"
+    },
+    {
+      "country": "AZ",
+      "gazetteer_rows": 5397,
+      "gazetteer_archive_sha256": "bca161fb4dec1cd4ed97342cbfc7c1c4484113c87a7ba45dd7b30ddf791efc1f",
+      "source_ids": [
+        "AZ-OCHA-COD-20261108"
+      ],
+      "imported_source_rows": 75,
+      "candidate_counts": {
+        "ambiguous_unreviewed": 4,
+        "different_grain": 1,
+        "unique_unreviewed": 56,
+        "unmatched": 14
+      },
+      "gazetteer_dangling_parent_ids": {},
+      "localities_without_state": 243,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "deliverability_verified": false,
+      "country_ja": "アゼルバイジャン",
+      "scope_description_ja": "74行政区画の第三者参照。公式IABTは別途6,697コード監査",
+      "remaining_work_ja": "公式原本の公開再配布条件と現行性。郵便番号との結合、名称候補の人手確認。",
+      "all_current_official_localities_verified": false,
+      "source_layer_work_completed": "pinned_sources_imported_replayed_and_indexed"
+    },
+    {
+      "country": "BH",
+      "gazetteer_rows": 138,
+      "gazetteer_archive_sha256": "d52f9ba9664c56a7c90b9fe77bf563c87463a32c2c66e4502455886d92f64f54",
+      "source_ids": [
+        "BH-IGA-GOVERNORATE-AREA-2024"
+      ],
+      "imported_source_rows": 97,
+      "candidate_counts": {
+        "different_grain": 93,
+        "unique_unreviewed": 3,
+        "unmatched": 1
+      },
+      "gazetteer_dangling_parent_ids": {},
+      "localities_without_state": 12,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "deliverability_verified": false,
+      "country_ja": "バーレーン",
+      "scope_description_ja": "2007〜2024年の県別統計97行。最新期4県",
+      "remaining_work_ja": "地理ブロックと郵便番号の公式対応。旧GAUL行政区画は現行として採用しない。",
+      "all_current_official_localities_verified": false,
+      "source_layer_work_completed": "pinned_sources_imported_replayed_and_indexed"
+    },
+    {
+      "country": "CY",
+      "gazetteer_rows": 1448,
+      "gazetteer_archive_sha256": "5311f641f078894090f6a1a4c6a861a36d9cb6d2b7af2448723879c792457808",
+      "source_ids": [
+        "CY-POST-DIRECTORY-2024",
+        "CY-POST-MUNICIPALITIES-2021"
+      ],
+      "imported_source_rows": 68114,
+      "candidate_counts": {
+        "ambiguous_unreviewed": 47,
+        "different_grain": 66240,
+        "unique_unreviewed": 1366,
+        "unmatched": 461
+      },
+      "gazetteer_dangling_parent_ids": {},
+      "localities_without_state": 16,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "deliverability_verified": false,
+      "country_ja": "キプロス",
+      "scope_description_ja": "公式郵便番号Excel66,997行＋自治体CSV1,117行",
+      "remaining_work_ja": "原本の年次と対象範囲を保持。道路・私書箱・官庁を区別し、現行建物への割当は別途確認。",
+      "all_current_official_localities_verified": false,
+      "source_layer_work_completed": "pinned_sources_imported_replayed_and_indexed"
+    },
+    {
+      "country": "GE",
+      "gazetteer_rows": 5519,
+      "gazetteer_archive_sha256": "fd80cf0f87a076c6bf4c3966dddccc43d48e70e83058f5ae5a9d6c374f859450",
+      "source_ids": [
+        "GE-OCHA-COD-20261108",
+        "GE-MUNICIPALITIES-2026",
+        "GE-CITIES-2026"
+      ],
+      "imported_source_rows": 342,
+      "candidate_counts": {
+        "ambiguous_unreviewed": 25,
+        "different_grain": 1,
+        "unique_unreviewed": 221,
+        "unmatched": 95
+      },
+      "gazetteer_dangling_parent_ids": {},
+      "localities_without_state": 622,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "deliverability_verified": false,
+      "country_ja": "ジョージア",
+      "scope_description_ja": "OCHA84行＋公式自治体・都市統計258行",
+      "remaining_work_ja": "統計12地域と行政参照13単位の分類差、下位区画の部分範囲、郵便番号原本との照合。",
+      "all_current_official_localities_verified": false,
+      "source_layer_work_completed": "pinned_sources_imported_replayed_and_indexed"
+    },
+    {
+      "country": "IL",
+      "gazetteer_rows": 1892,
+      "gazetteer_archive_sha256": "6298571d03ed199ac186dba33507e2574338507f08445372d2bd8f1740fa43b8",
+      "source_ids": [
+        "IL-PIBA-LOCALITIES-20261108"
+      ],
+      "imported_source_rows": 1316,
+      "candidate_counts": {
+        "ambiguous_unreviewed": 44,
+        "unique_unreviewed": 987,
+        "unmatched": 285
+      },
+      "gazetteer_dangling_parent_ids": {},
+      "localities_without_state": 205,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "deliverability_verified": false,
+      "country_ja": "イスラエル",
+      "scope_description_ja": "政府地名コード1,316行",
+      "remaining_work_ja": "現行の建物・入口単位7桁郵便番号原本。2020年第三者原本も今回403で未取得。",
+      "all_current_official_localities_verified": false,
+      "source_layer_work_completed": "pinned_sources_imported_replayed_and_indexed"
+    },
+    {
+      "country": "IQ",
+      "gazetteer_rows": 24025,
+      "gazetteer_archive_sha256": "6e9aab76da0b4942b0dc53abbc84d32277cdcba3f2d0a5805a7e2b6853cf053b",
+      "source_ids": [
+        "IQ-OCHA-COD-20261108"
+      ],
+      "imported_source_rows": 414,
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 49,
+        "unmatched": 364
+      },
+      "gazetteer_dangling_parent_ids": {},
+      "localities_without_state": 1381,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "deliverability_verified": false,
+      "country_ja": "イラク",
+      "scope_description_ja": "旧18県・101地区・294下位区画",
+      "remaining_work_ja": "ハラブジャ新設後の現行19県版との対応。旧18県原本を現行へ自動上書きしない。",
+      "all_current_official_localities_verified": false,
+      "source_layer_work_completed": "pinned_sources_imported_replayed_and_indexed"
+    },
+    {
+      "country": "JO",
+      "gazetteer_rows": 1859,
+      "gazetteer_archive_sha256": "042894e6d6cfe49e10aaff575b5b360f5c82b313e0774976cf7253ae66abbff2",
+      "source_ids": [
+        "JO-POST-OFFICES-2023-1661"
+      ],
+      "imported_source_rows": 240,
+      "candidate_counts": {
+        "different_grain": 240
+      },
+      "gazetteer_dangling_parent_ids": {},
+      "localities_without_state": 3,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "deliverability_verified": false,
+      "country_ja": "ヨルダン",
+      "scope_description_ja": "公式郵便局240行",
+      "remaining_work_ja": "郵便局コードは市全体・個別建物の配達保証ではない。全国の住居との対応は未確認。",
+      "all_current_official_localities_verified": false,
+      "source_layer_work_completed": "pinned_sources_imported_replayed_and_indexed"
+    },
+    {
+      "country": "KW",
+      "gazetteer_rows": 242,
+      "gazetteer_archive_sha256": "9fae59d34a083d03bea50e02c64ece26801fcb30a2f883056357c6e1a4d9c30e",
+      "source_ids": [
+        "KW-OCHA-COD-20261108"
+      ],
+      "imported_source_rows": 7,
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 5,
+        "unmatched": 1
+      },
+      "gazetteer_dangling_parent_ids": {},
+      "localities_without_state": 63,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "deliverability_verified": false,
+      "country_ja": "クウェート",
+      "scope_description_ja": "6県の第三者行政参照",
+      "remaining_work_ja": "公式街区／私書箱番号と郵便番号の原本。MoCの取得は今回接続エラー。",
+      "all_current_official_localities_verified": false,
+      "source_layer_work_completed": "pinned_sources_imported_replayed_and_indexed"
+    },
+    {
+      "country": "LB",
+      "gazetteer_rows": 3767,
+      "gazetteer_archive_sha256": "b865cbb294734506e063a739f0d9fc5c5c0ea751ee0afa42203a895120e115d2",
+      "source_ids": [
+        "LB-ATLAS-ADM1-20261108",
+        "LB-ATLAS-ADM2-20261108",
+        "LB-ATLAS-ADM3-20261108"
+      ],
+      "imported_source_rows": 1661,
+      "candidate_counts": {
+        "unique_unreviewed": 23,
+        "unmatched": 1638
+      },
+      "gazetteer_dangling_parent_ids": {},
+      "localities_without_state": 47,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "deliverability_verified": false,
+      "country_ja": "レバノン",
+      "scope_description_ja": "8県＋26地区＋1,627地籍区画",
+      "remaining_work_ja": "原典の重複コード0・Conflict親コードを残す。出典管理者の正しいコードが必要。",
+      "all_current_official_localities_verified": false,
+      "source_layer_work_completed": "pinned_sources_imported_replayed_and_indexed"
+    },
+    {
+      "country": "OM",
+      "gazetteer_rows": 6070,
+      "gazetteer_archive_sha256": "24567c6accaf6daa390977753c9fc4e42c63d96c60ad4c0191e795dec1a5af1c",
+      "source_ids": [
+        "OM-OCHA-COD-20261108"
+      ],
+      "imported_source_rows": 61,
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 26,
+        "unmatched": 34
+      },
+      "gazetteer_dangling_parent_ids": {},
+      "localities_without_state": 67,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "deliverability_verified": false,
+      "country_ja": "オマーン",
+      "scope_description_ja": "11県・49下位区画の第三者版付き参照",
+      "remaining_work_ja": "現行wilayatの公式原本との照合。郵便局ページ220要素は別途監査済み、公開再利用条件の確認が残る。",
+      "all_current_official_localities_verified": false,
+      "source_layer_work_completed": "pinned_sources_imported_replayed_and_indexed"
+    },
+    {
+      "country": "PS",
+      "gazetteer_rows": 1290,
+      "gazetteer_archive_sha256": "696b26dcb6c105616a95ab6c3ba018456de9da5e861c29cbaa62405f8284ee10",
+      "source_ids": [
+        "PS-OCHA-COD-20261108"
+      ],
+      "imported_source_rows": 19,
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 16,
+        "unmatched": 2
+      },
+      "gazetteer_dangling_parent_ids": {},
+      "localities_without_state": 36,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "deliverability_verified": false,
+      "country_ja": "パレスチナ",
+      "scope_description_ja": "2地域＋16県の行政参照",
+      "remaining_work_ja": "P3／P7の公式CSV原本。今回の公開ポータル取得は503。P-codeは郵便番号に変換しない。",
+      "all_current_official_localities_verified": false,
+      "source_layer_work_completed": "pinned_sources_imported_replayed_and_indexed"
+    },
+    {
+      "country": "QA",
+      "gazetteer_rows": 287,
+      "gazetteer_archive_sha256": "25a9f5eb2c8e8fbb61e12120d99526e6ada8ff7001d13dceb2ca983c377de344",
+      "source_ids": [
+        "QA-OCHA-COD-20261108"
+      ],
+      "imported_source_rows": 881,
+      "candidate_counts": {
+        "different_grain": 1,
+        "grain_unavailable_in_gazetteer": 872,
+        "unique_unreviewed": 4,
+        "unmatched": 4
+      },
+      "gazetteer_dangling_parent_ids": {},
+      "localities_without_state": 14,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "deliverability_verified": false,
+      "country_ja": "カタール",
+      "scope_description_ja": "8自治体・91ゾーン・781地区の原本行",
+      "remaining_work_ja": "目録説明の87ゾーン・718地区と原本の件数差。Anwaniの街路・建物IDは別原本が必要。",
+      "all_current_official_localities_verified": false,
+      "source_layer_work_completed": "pinned_sources_imported_replayed_and_indexed"
+    },
+    {
+      "country": "SA",
+      "gazetteer_rows": 5257,
+      "gazetteer_archive_sha256": "0055dae0951fd86360e3a4935cc77025fee903a4cdb2105efc705d3c645af001",
+      "source_ids": [
+        "SA-OCHA-COD-20261108"
+      ],
+      "imported_source_rows": 14,
+      "candidate_counts": {
+        "different_grain": 1,
+        "unique_unreviewed": 12,
+        "unmatched": 1
+      },
+      "gazetteer_dangling_parent_ids": {},
+      "localities_without_state": 678,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "deliverability_verified": false,
+      "country_ja": "サウジアラビア",
+      "scope_description_ja": "13地域の第三者行政参照",
+      "remaining_work_ja": "SPLの実登録住所・郵便番号への正規APIアクセス、第三者上流ライセンスの確認。",
+      "all_current_official_localities_verified": false,
+      "source_layer_work_completed": "pinned_sources_imported_replayed_and_indexed"
+    },
+    {
+      "country": "SY",
+      "gazetteer_rows": 12092,
+      "gazetteer_archive_sha256": "e0a6a0b686a4d1b13810a8b80c8704e5daef1d14972d9194b4ce62be41d5469b",
+      "source_ids": [
+        "SY-OCHA-COD-20261108",
+        "SY-OPENSYRIA-EXISTING-b4364ee"
+      ],
+      "imported_source_rows": 8302,
+      "candidate_counts": {
+        "ambiguous_unreviewed": 504,
+        "different_grain": 1,
+        "unique_unreviewed": 2911,
+        "unmatched": 4886
+      },
+      "gazetteer_dangling_parent_ids": {},
+      "localities_without_state": 156,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "deliverability_verified": false,
+      "country_ja": "シリア",
+      "scope_description_ja": "新規行政349行＋既存OpenSyria7,953行を共通検索へ接続",
+      "remaining_work_ja": "OpenSyriaのアラビア語欠落6地名と、現行公的地名原本との独立確認。郵便番号は作らない。",
+      "all_current_official_localities_verified": false,
+      "source_layer_work_completed": "pinned_sources_imported_replayed_and_indexed"
+    },
+    {
+      "country": "TR",
+      "gazetteer_rows": 57312,
+      "gazetteer_archive_sha256": "72333e7a2aabe96bbcb1e88cc651036b2a97b2e06352ed829c742f8efd9196c2",
+      "source_ids": [
+        "TR-OCHA-COD-20261108"
+      ],
+      "imported_source_rows": 1055,
+      "candidate_counts": {
+        "ambiguous_unreviewed": 5,
+        "different_grain": 1,
+        "unique_unreviewed": 406,
+        "unmatched": 643
+      },
+      "gazetteer_dangling_parent_ids": {},
+      "localities_without_state": 216,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "deliverability_verified": false,
+      "country_ja": "トルコ",
+      "scope_description_ja": "81県・973地区の版付き行政参照",
+      "remaining_work_ja": "PTTの全国郵便番号原本と現行地区の改定。e-Devlet検索画面取得と全国表取込を区別。",
+      "all_current_official_localities_verified": false,
+      "source_layer_work_completed": "pinned_sources_imported_replayed_and_indexed"
+    },
+    {
+      "country": "YE",
+      "gazetteer_rows": 83701,
+      "gazetteer_archive_sha256": "4ad75d0c246341959843e1864650902e4a1d4483db6d80c99ab99d8630d1dff4",
+      "source_ids": [
+        "YE-OCHA-COD-20261108"
+      ],
+      "imported_source_rows": 358,
+      "candidate_counts": {
+        "ambiguous_unreviewed": 4,
+        "different_grain": 1,
+        "unique_unreviewed": 234,
+        "unmatched": 119
+      },
+      "gazetteer_dangling_parent_ids": {},
+      "localities_without_state": 95,
+      "national_completeness_verified": false,
+      "official_to_geonames_identity_verified": 0,
+      "deliverability_verified": false,
+      "country_ja": "イエメン",
+      "scope_description_ja": "22県・335地区の行政参照",
+      "remaining_work_ja": "下位区画／村落の現行全国原本。人道P-codeと郵便番号・私書箱を区別。",
+      "all_current_official_localities_verified": false,
+      "source_layer_work_completed": "pinned_sources_imported_replayed_and_indexed"
+    }
+  ]
+}

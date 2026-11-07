@@ -1,5 +1,7 @@
 # Armenia / Georgia / Azerbaijan / Israel / Jordan: official-evidence joins
 
+This page describes the 2026-11-05 manual-reference snapshot. Current original-data imports and remaining gates are in [the source import layer](../imports/README.md); its manifest supersedes historical zero-import statements for overall project status.
+
 2026-11-05. This module extends world-localities to a further five countries. It
 reuses **verified SHA-256 archived GeoNames snapshots** without modifying any
 existing IDs. The official administrative labels and postcodes are sourced from

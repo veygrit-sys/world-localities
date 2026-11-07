@@ -1,0 +1,23 @@
+{
+  "reviewed_at": "2026-11-08",
+  "status": "passed",
+  "new_source_originals_replayed": 23,
+  "reused_community_snapshots_verified": 1,
+  "country_integrity_checks_passed": 18,
+  "gazetteer_index_records_verified": 215576,
+  "source_index_records_verified": 83015,
+  "search_names_verified": 1101006,
+  "unit_tests": {
+    "western_asia_existing_and_source_tests": 142,
+    "azstat": 5,
+    "country_operations": 9,
+    "repository_layout": 6,
+    "country_modules": 4
+  },
+  "manifest_sha256": "bbc94f74ccea06cbd29b5ff0ddf136956a520d2072b071233dccf56dfe847e65",
+  "pipeline_sha256": "0cad2548b0708e7e7785cdb46dbe683d71884cc70f33613be74e6d443feab880",
+  "catalogue_validation": "250 countries, 524 source layers; passed",
+  "country_index_render_check": "passed",
+  "git_diff_check": "passed",
+  "scope": "stored source and index integrity only; no current nationwide official address completeness, identity or carrier deliverability claim"
+}

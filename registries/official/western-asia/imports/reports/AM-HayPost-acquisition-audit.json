@@ -1,0 +1,8 @@
+{
+  "pages": 9,
+  "four_digit_tokens": 428,
+  "distinct_four_digit_tokens": 427,
+  "note": "Token statistics only; address numbers can be four digits, so these are not asserted to be post-office row counts.",
+  "original_sha256": "638bf8cf400382bc4da0a9c27a840ec7f524cc0e46364e5f39fea19269ef1e30",
+  "redistribution_rights_review_required": true
+}

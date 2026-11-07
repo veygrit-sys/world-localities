@@ -62,11 +62,12 @@ def decode_html(blob: bytes) -> str:
         except UnicodeDecodeError:pass
     raise ValueError("HTML format/encoding changed or no official table")
 
-def parse(blob: bytes, minimum: int=1) -> list[dict]:
+def parse(blob: bytes, minimum: int=1, *, allow_exact_duplicates: bool=False,
+          exact_duplicates: list[dict] | None=None) -> list[dict]:
     parser=Table()
     parser.feed(decode_html(blob))
     records=[]
-    seen=set()
+    seen={}
     for row in parser.rows:
         cells=[x.strip() for x in row if x.strip()]
         ids=[x for x in cells if CODE.fullmatch(x)]
@@ -74,9 +75,14 @@ def parse(blob: bytes, minimum: int=1) -> list[dict]:
         code=ids[0]
         name=" ".join(x for x in cells if x!=code).strip()
         if not name or code in seen:
-            if code in seen:raise ValueError("Duplicate official code")
+            if code in seen:
+                if allow_exact_duplicates and seen[code] == name:
+                    if exact_duplicates is not None:
+                        exact_duplicates.append({"code":code,"name":name})
+                    continue
+                raise ValueError("Duplicate official code")
             continue
-        seen.add(code)
+        seen[code]=name
         records.append({"official_ref":CLASSIFICATION+":"+code,
           "code":code,"name_az_source":name,"admin1_prefix":code[:3],
           "admin2_slice":code[3:5],"admin3_slice":code[5:7],
@@ -121,10 +127,13 @@ def candidate_counts(records: list[dict], geonames: list[dict]) -> tuple[dict,li
     return dict(sorted(totals.items())),samples
 
 def audit(blob: bytes, minimum:int, geonames: list[dict]|None=None) -> dict:
-    rows=parse(blob,minimum)
+    duplicates=[]
+    rows=parse(blob,minimum,allow_exact_duplicates=True,exact_duplicates=duplicates)
     report={"source":SOURCE,"edition":2024,"original_sha256":sha(blob),
       "original_bytes":len(blob),"rows":len(rows),
       "distinct_8_digit_codes":len(set(r["code"] for r in rows)),
+      "source_exact_duplicate_rows":len(duplicates),
+      "exact_duplicate_evidence":duplicates,
       "distinct_level1_prefixes":len(set(r["admin1_prefix"] for r in rows)),
       "last_digit_status_distribution":dict(sorted(Counter(r["status_digit"] for r in rows).items())),
       "source_sample":[{"code":r["code"],"name":r["name_az_source"]} for r in rows[:8]],

@@ -9,6 +9,7 @@
 | 精度評価 | [独立した住所評価](address-evaluation.md) |
 | 国別管理 | [国別の更新・配布・分離](country-modules.md) |
 | 欧州Localities全体 | [進捗・取得済み原典・未完了事項](plans/europe-current-status-20261108.md) |
+| 西アジア18か国 | [実原本取込・共通検索・未完了事項](plans/western-asia-current-status-20261108.md) |
 | 取得・拡充計画 | [計画一覧](plans/README.md) |
 | 学習計画 | [学習資料](learning/README.md) |
 | 移行記録 | [移行元・ファイル照合](migration/README.md) |

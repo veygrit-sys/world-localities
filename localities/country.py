@@ -21,10 +21,10 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 KINDS = {'gazetteer_directory', 'country_archive', 'split_archive', 'official_overlay',
-         'shared_records', 'address_format', 'reference_csv'}
+         'shared_records', 'address_format', 'reference_csv', 'source_snapshot'}
 ADAPTERS = {'metadata_integrity', 'europe_replay', 'asia_archive_replay',
             'oceania_archive_integrity', 'official_integrity', 'shared_admin_selection',
-            'profile_selection', 'reference_csv_integrity'}
+            'profile_selection', 'reference_csv_integrity', 'western_asia_source_replay'}
 MAX_ARCHIVE_BYTES = 100_000_000
 
 
@@ -208,6 +208,17 @@ def inspect_country(code, root=ROOT):
         report['counts'] = meta.get('counts', {})
         report['source_dates'] = _date_evidence(meta)
         report['known_issues'] = meta.get('known_issues', [])
+        if layer['verifier'] == 'western_asia_source_replay':
+            sources = _json(_path(root, layer['manifest']))
+            selected = [s for s in sources['sources'] if s['country'] == code]
+            report['counts'] = {'source_records': sum(s['normalized']['records'] for s in selected),
+                                'acquired_original_files': sum('original' in s for s in selected),
+                                'reused_community_snapshots': sum('repository_files' in s for s in selected)}
+            report['source_dates'] = {'reviewed_at': sources['reviewed_at']}
+            report['source_refs'] = [layer['manifest']]
+            report['notice_refs'] = [layer['data'] + '/NOTICE.md']
+            status = _json(_path(root, layer['data'] + '/country-status.json'))
+            report['known_issues'] = [next(c['remaining_work_ja'] for c in status['countries'] if c['country'] == code)]
         if layer['kind'] == 'reference_csv':
             source_layer = layer['selector']['source_layer']
             source = meta.get('sources', {}).get(source_layer)
@@ -373,6 +384,13 @@ def _verify_layer(layer, code, root):
     elif adapter == 'official_integrity':
         result.update(source_integrity='passed', checked_files=_official_integrity(layer, root),
                       scope='official layer pinned file hashes; postcode/authority accuracy is separate')
+    elif adapter == 'western_asia_source_replay':
+        from scripts.western_asia_sources import verify_sources
+        report = verify_sources(_path(root, layer['data']), country=code)
+        result.update(source_integrity='passed', row_integrity='passed', rows=report['records'],
+                      acquired_original_files=report['acquired_original_files'],
+                      reused_community_snapshots=report['reused_community_snapshots'],
+                      scope='selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct')
     elif adapter == 'oceania_archive_integrity':
         entry = _select_archive(layer, code, root)
         registry = _path(root, 'registries/oceania')
@@ -475,6 +493,20 @@ def restore_country(code, output, root=ROOT):
                 archive_entry = _select_archive(layer, code, root)
                 for part in archive_entry['parts']:
                     copy('registries/oceania/' + part['path'])
+            elif layer['kind'] == 'source_snapshot':
+                folder = layer['data']
+                sources = _json(_path(root, layer['manifest']))
+                copy(layer['manifest'])
+                copy(folder + '/NOTICE.md')
+                copy(folder + '/country-status.json')
+                for source in sources['sources']:
+                    if source['country'] != code:
+                        continue
+                    for field in ('original', 'normalized', 'catalogue_evidence'):
+                        if source.get(field):
+                            copy(folder + '/' + source[field]['path'])
+                    for item in source.get('repository_files', []):
+                        copy(item['path'])
             else:
                 copy(layer['data'])
         evidence = {'country': code, 'verification': verification,

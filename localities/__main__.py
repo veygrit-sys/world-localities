@@ -32,6 +32,8 @@ def main() -> None:
     eastern.add_argument("eastern_args", nargs=argparse.REMAINDER)
     crown = commands.add_parser("crown", help="audit Jersey, Guernsey, Isle of Man and Gibraltar")
     crown.add_argument("crown_args", nargs=argparse.REMAINDER)
+    western_asia = commands.add_parser("western-asia", help="replay and query the 18-country Western Asia source layer")
+    western_asia.add_argument("western_asia_args", nargs=argparse.REMAINDER)
     restore = commands.add_parser("materialize", help="restore split files for one country")
     roots = materialization_roots()
     restore.add_argument("--registry", choices=sorted(roots), required=True)
@@ -79,6 +81,18 @@ def main() -> None:
         try:
             crown_cli(args.crown_args)
         except (OSError, ValueError, KeyError, TypeError, sqlite3.Error, RuntimeError) as error:
+            parser.exit(2, str(error) + "\n")
+        return
+
+    if args.command == "western-asia":
+        import sqlite3
+        import zipfile
+        import xml.etree.ElementTree as ET
+        from scripts.western_asia_sources import cli as western_asia_cli
+        try:
+            western_asia_cli(args.western_asia_args)
+        except (OSError, ValueError, KeyError, TypeError, sqlite3.Error,
+                zipfile.BadZipFile, ET.ParseError) as error:
             parser.exit(2, str(error) + "\n")
         return
 

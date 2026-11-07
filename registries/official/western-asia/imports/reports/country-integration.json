@@ -1,0 +1,800 @@
+{
+  "reviewed_at": "2026-11-08",
+  "countries": [
+    {
+      "country": "AE",
+      "status": "passed",
+      "layers": [
+        {
+          "id": "asia-gazetteer",
+          "adapter": "asia_archive_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 2853,
+          "scope": "original Asia archive/member hashes and deterministic country replay",
+          "status": "passed"
+        },
+        {
+          "id": "address-format",
+          "adapter": "profile_selection",
+          "inventory_integrity": "passed",
+          "source_integrity": "not_checked",
+          "row_integrity": "not_checked",
+          "scope": "format profile exists; address existence not checked",
+          "status": "passed"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "adapter": "western_asia_source_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 8,
+          "acquired_original_files": 1,
+          "reused_community_snapshots": 0,
+          "scope": "selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct",
+          "status": "passed"
+        }
+      ],
+      "scope": "only the explicitly reported integrity checks; not address accuracy, freshness or national completeness",
+      "freshness_verified": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "country": "AM",
+      "status": "passed",
+      "layers": [
+        {
+          "id": "europe-gazetteer",
+          "adapter": "europe_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "checked_files": 2,
+          "scope": "original Europe deterministic country replay",
+          "rows": 2427,
+          "status": "passed"
+        },
+        {
+          "id": "asia-gazetteer",
+          "adapter": "asia_archive_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 2427,
+          "scope": "original Asia archive/member hashes and deterministic country replay",
+          "status": "passed"
+        },
+        {
+          "id": "address-format",
+          "adapter": "profile_selection",
+          "inventory_integrity": "passed",
+          "source_integrity": "not_checked",
+          "row_integrity": "not_checked",
+          "scope": "format profile exists; address existence not checked",
+          "status": "passed"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "adapter": "western_asia_source_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 51,
+          "acquired_original_files": 1,
+          "reused_community_snapshots": 0,
+          "scope": "selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct",
+          "status": "passed"
+        }
+      ],
+      "scope": "only the explicitly reported integrity checks; not address accuracy, freshness or national completeness",
+      "freshness_verified": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "country": "AZ",
+      "status": "passed",
+      "layers": [
+        {
+          "id": "europe-gazetteer",
+          "adapter": "europe_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "checked_files": 2,
+          "scope": "original Europe deterministic country replay",
+          "rows": 5397,
+          "status": "passed"
+        },
+        {
+          "id": "asia-gazetteer",
+          "adapter": "asia_archive_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 5397,
+          "scope": "original Asia archive/member hashes and deterministic country replay",
+          "status": "passed"
+        },
+        {
+          "id": "address-format",
+          "adapter": "profile_selection",
+          "inventory_integrity": "passed",
+          "source_integrity": "not_checked",
+          "row_integrity": "not_checked",
+          "scope": "format profile exists; address existence not checked",
+          "status": "passed"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "adapter": "western_asia_source_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 75,
+          "acquired_original_files": 1,
+          "reused_community_snapshots": 0,
+          "scope": "selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct",
+          "status": "passed"
+        }
+      ],
+      "scope": "only the explicitly reported integrity checks; not address accuracy, freshness or national completeness",
+      "freshness_verified": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "country": "BH",
+      "status": "passed",
+      "layers": [
+        {
+          "id": "asia-gazetteer",
+          "adapter": "asia_archive_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 138,
+          "scope": "original Asia archive/member hashes and deterministic country replay",
+          "status": "passed"
+        },
+        {
+          "id": "address-format",
+          "adapter": "profile_selection",
+          "inventory_integrity": "passed",
+          "source_integrity": "not_checked",
+          "row_integrity": "not_checked",
+          "scope": "format profile exists; address existence not checked",
+          "status": "passed"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "adapter": "western_asia_source_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 97,
+          "acquired_original_files": 1,
+          "reused_community_snapshots": 0,
+          "scope": "selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct",
+          "status": "passed"
+        }
+      ],
+      "scope": "only the explicitly reported integrity checks; not address accuracy, freshness or national completeness",
+      "freshness_verified": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "country": "CY",
+      "status": "passed",
+      "layers": [
+        {
+          "id": "europe-gazetteer",
+          "adapter": "europe_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "checked_files": 2,
+          "scope": "original Europe deterministic country replay",
+          "rows": 1448,
+          "status": "passed"
+        },
+        {
+          "id": "asia-gazetteer",
+          "adapter": "asia_archive_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 1448,
+          "scope": "original Asia archive/member hashes and deterministic country replay",
+          "status": "passed"
+        },
+        {
+          "id": "address-format",
+          "adapter": "profile_selection",
+          "inventory_integrity": "passed",
+          "source_integrity": "not_checked",
+          "row_integrity": "not_checked",
+          "scope": "format profile exists; address existence not checked",
+          "status": "passed"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "adapter": "western_asia_source_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 68114,
+          "acquired_original_files": 2,
+          "reused_community_snapshots": 0,
+          "scope": "selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct",
+          "status": "passed"
+        }
+      ],
+      "scope": "only the explicitly reported integrity checks; not address accuracy, freshness or national completeness",
+      "freshness_verified": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "country": "GE",
+      "status": "passed",
+      "layers": [
+        {
+          "id": "europe-gazetteer",
+          "adapter": "europe_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "checked_files": 2,
+          "scope": "original Europe deterministic country replay",
+          "rows": 5519,
+          "status": "passed"
+        },
+        {
+          "id": "asia-gazetteer",
+          "adapter": "asia_archive_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 5519,
+          "scope": "original Asia archive/member hashes and deterministic country replay",
+          "status": "passed"
+        },
+        {
+          "id": "address-format",
+          "adapter": "profile_selection",
+          "inventory_integrity": "passed",
+          "source_integrity": "not_checked",
+          "row_integrity": "not_checked",
+          "scope": "format profile exists; address existence not checked",
+          "status": "passed"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "adapter": "western_asia_source_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 342,
+          "acquired_original_files": 3,
+          "reused_community_snapshots": 0,
+          "scope": "selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct",
+          "status": "passed"
+        }
+      ],
+      "scope": "only the explicitly reported integrity checks; not address accuracy, freshness or national completeness",
+      "freshness_verified": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "country": "IL",
+      "status": "passed",
+      "layers": [
+        {
+          "id": "asia-gazetteer",
+          "adapter": "asia_archive_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 1892,
+          "scope": "original Asia archive/member hashes and deterministic country replay",
+          "status": "passed"
+        },
+        {
+          "id": "address-format",
+          "adapter": "profile_selection",
+          "inventory_integrity": "passed",
+          "source_integrity": "not_checked",
+          "row_integrity": "not_checked",
+          "scope": "format profile exists; address existence not checked",
+          "status": "passed"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "adapter": "western_asia_source_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 1316,
+          "acquired_original_files": 1,
+          "reused_community_snapshots": 0,
+          "scope": "selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct",
+          "status": "passed"
+        }
+      ],
+      "scope": "only the explicitly reported integrity checks; not address accuracy, freshness or national completeness",
+      "freshness_verified": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "country": "IQ",
+      "status": "passed",
+      "layers": [
+        {
+          "id": "asia-gazetteer",
+          "adapter": "asia_archive_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 24025,
+          "scope": "original Asia archive/member hashes and deterministic country replay",
+          "status": "passed"
+        },
+        {
+          "id": "address-format",
+          "adapter": "profile_selection",
+          "inventory_integrity": "passed",
+          "source_integrity": "not_checked",
+          "row_integrity": "not_checked",
+          "scope": "format profile exists; address existence not checked",
+          "status": "passed"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "adapter": "western_asia_source_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 414,
+          "acquired_original_files": 1,
+          "reused_community_snapshots": 0,
+          "scope": "selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct",
+          "status": "passed"
+        }
+      ],
+      "scope": "only the explicitly reported integrity checks; not address accuracy, freshness or national completeness",
+      "freshness_verified": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "country": "JO",
+      "status": "passed",
+      "layers": [
+        {
+          "id": "asia-gazetteer",
+          "adapter": "asia_archive_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 1859,
+          "scope": "original Asia archive/member hashes and deterministic country replay",
+          "status": "passed"
+        },
+        {
+          "id": "address-format",
+          "adapter": "profile_selection",
+          "inventory_integrity": "passed",
+          "source_integrity": "not_checked",
+          "row_integrity": "not_checked",
+          "scope": "format profile exists; address existence not checked",
+          "status": "passed"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "adapter": "western_asia_source_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 240,
+          "acquired_original_files": 1,
+          "reused_community_snapshots": 0,
+          "scope": "selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct",
+          "status": "passed"
+        }
+      ],
+      "scope": "only the explicitly reported integrity checks; not address accuracy, freshness or national completeness",
+      "freshness_verified": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "country": "KW",
+      "status": "passed",
+      "layers": [
+        {
+          "id": "asia-gazetteer",
+          "adapter": "asia_archive_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 242,
+          "scope": "original Asia archive/member hashes and deterministic country replay",
+          "status": "passed"
+        },
+        {
+          "id": "address-format",
+          "adapter": "profile_selection",
+          "inventory_integrity": "passed",
+          "source_integrity": "not_checked",
+          "row_integrity": "not_checked",
+          "scope": "format profile exists; address existence not checked",
+          "status": "passed"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "adapter": "western_asia_source_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 7,
+          "acquired_original_files": 1,
+          "reused_community_snapshots": 0,
+          "scope": "selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct",
+          "status": "passed"
+        }
+      ],
+      "scope": "only the explicitly reported integrity checks; not address accuracy, freshness or national completeness",
+      "freshness_verified": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "country": "LB",
+      "status": "passed",
+      "layers": [
+        {
+          "id": "asia-gazetteer",
+          "adapter": "asia_archive_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 3767,
+          "scope": "original Asia archive/member hashes and deterministic country replay",
+          "status": "passed"
+        },
+        {
+          "id": "address-format",
+          "adapter": "profile_selection",
+          "inventory_integrity": "passed",
+          "source_integrity": "not_checked",
+          "row_integrity": "not_checked",
+          "scope": "format profile exists; address existence not checked",
+          "status": "passed"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "adapter": "western_asia_source_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 1661,
+          "acquired_original_files": 3,
+          "reused_community_snapshots": 0,
+          "scope": "selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct",
+          "status": "passed"
+        }
+      ],
+      "scope": "only the explicitly reported integrity checks; not address accuracy, freshness or national completeness",
+      "freshness_verified": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "country": "OM",
+      "status": "passed",
+      "layers": [
+        {
+          "id": "asia-gazetteer",
+          "adapter": "asia_archive_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 6070,
+          "scope": "original Asia archive/member hashes and deterministic country replay",
+          "status": "passed"
+        },
+        {
+          "id": "address-format",
+          "adapter": "profile_selection",
+          "inventory_integrity": "passed",
+          "source_integrity": "not_checked",
+          "row_integrity": "not_checked",
+          "scope": "format profile exists; address existence not checked",
+          "status": "passed"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "adapter": "western_asia_source_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 61,
+          "acquired_original_files": 1,
+          "reused_community_snapshots": 0,
+          "scope": "selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct",
+          "status": "passed"
+        }
+      ],
+      "scope": "only the explicitly reported integrity checks; not address accuracy, freshness or national completeness",
+      "freshness_verified": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "country": "PS",
+      "status": "passed",
+      "layers": [
+        {
+          "id": "asia-gazetteer",
+          "adapter": "asia_archive_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 1290,
+          "scope": "original Asia archive/member hashes and deterministic country replay",
+          "status": "passed"
+        },
+        {
+          "id": "address-format",
+          "adapter": "profile_selection",
+          "inventory_integrity": "passed",
+          "source_integrity": "not_checked",
+          "row_integrity": "not_checked",
+          "scope": "format profile exists; address existence not checked",
+          "status": "passed"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "adapter": "western_asia_source_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 19,
+          "acquired_original_files": 1,
+          "reused_community_snapshots": 0,
+          "scope": "selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct",
+          "status": "passed"
+        }
+      ],
+      "scope": "only the explicitly reported integrity checks; not address accuracy, freshness or national completeness",
+      "freshness_verified": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "country": "QA",
+      "status": "passed",
+      "layers": [
+        {
+          "id": "asia-gazetteer",
+          "adapter": "asia_archive_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 287,
+          "scope": "original Asia archive/member hashes and deterministic country replay",
+          "status": "passed"
+        },
+        {
+          "id": "address-format",
+          "adapter": "profile_selection",
+          "inventory_integrity": "passed",
+          "source_integrity": "not_checked",
+          "row_integrity": "not_checked",
+          "scope": "format profile exists; address existence not checked",
+          "status": "passed"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "adapter": "western_asia_source_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 881,
+          "acquired_original_files": 1,
+          "reused_community_snapshots": 0,
+          "scope": "selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct",
+          "status": "passed"
+        }
+      ],
+      "scope": "only the explicitly reported integrity checks; not address accuracy, freshness or national completeness",
+      "freshness_verified": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "country": "SA",
+      "status": "passed",
+      "layers": [
+        {
+          "id": "asia-gazetteer",
+          "adapter": "asia_archive_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 5257,
+          "scope": "original Asia archive/member hashes and deterministic country replay",
+          "status": "passed"
+        },
+        {
+          "id": "address-format",
+          "adapter": "profile_selection",
+          "inventory_integrity": "passed",
+          "source_integrity": "not_checked",
+          "row_integrity": "not_checked",
+          "scope": "format profile exists; address existence not checked",
+          "status": "passed"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "adapter": "western_asia_source_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 14,
+          "acquired_original_files": 1,
+          "reused_community_snapshots": 0,
+          "scope": "selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct",
+          "status": "passed"
+        }
+      ],
+      "scope": "only the explicitly reported integrity checks; not address accuracy, freshness or national completeness",
+      "freshness_verified": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "country": "SY",
+      "status": "passed",
+      "layers": [
+        {
+          "id": "asia-gazetteer",
+          "adapter": "asia_archive_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 12092,
+          "scope": "original Asia archive/member hashes and deterministic country replay",
+          "status": "passed"
+        },
+        {
+          "id": "address-format",
+          "adapter": "profile_selection",
+          "inventory_integrity": "passed",
+          "source_integrity": "not_checked",
+          "row_integrity": "not_checked",
+          "scope": "format profile exists; address existence not checked",
+          "status": "passed"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "adapter": "western_asia_source_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 8302,
+          "acquired_original_files": 1,
+          "reused_community_snapshots": 1,
+          "scope": "selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct",
+          "status": "passed"
+        }
+      ],
+      "scope": "only the explicitly reported integrity checks; not address accuracy, freshness or national completeness",
+      "freshness_verified": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "country": "TR",
+      "status": "passed",
+      "layers": [
+        {
+          "id": "europe-gazetteer",
+          "adapter": "europe_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "checked_files": 4,
+          "scope": "original Europe deterministic country replay",
+          "rows": 57317,
+          "status": "passed"
+        },
+        {
+          "id": "asia-gazetteer",
+          "adapter": "asia_archive_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 57312,
+          "scope": "original Asia archive/member hashes and deterministic country replay",
+          "status": "passed"
+        },
+        {
+          "id": "address-format",
+          "adapter": "profile_selection",
+          "inventory_integrity": "passed",
+          "source_integrity": "not_checked",
+          "row_integrity": "not_checked",
+          "scope": "format profile exists; address existence not checked",
+          "status": "passed"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "adapter": "western_asia_source_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 1055,
+          "acquired_original_files": 1,
+          "reused_community_snapshots": 0,
+          "scope": "selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct",
+          "status": "passed"
+        }
+      ],
+      "scope": "only the explicitly reported integrity checks; not address accuracy, freshness or national completeness",
+      "freshness_verified": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "country": "YE",
+      "status": "passed",
+      "layers": [
+        {
+          "id": "asia-gazetteer",
+          "adapter": "asia_archive_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 83701,
+          "scope": "original Asia archive/member hashes and deterministic country replay",
+          "status": "passed"
+        },
+        {
+          "id": "address-format",
+          "adapter": "profile_selection",
+          "inventory_integrity": "passed",
+          "source_integrity": "not_checked",
+          "row_integrity": "not_checked",
+          "scope": "format profile exists; address existence not checked",
+          "status": "passed"
+        },
+        {
+          "id": "western-asia-source-snapshots",
+          "adapter": "western_asia_source_replay",
+          "inventory_integrity": "passed",
+          "source_integrity": "passed",
+          "row_integrity": "passed",
+          "rows": 358,
+          "acquired_original_files": 1,
+          "reused_community_snapshots": 0,
+          "scope": "selected country only: pinned raw-source replay and normalized rows; government, humanitarian and third-party sources remain distinct",
+          "status": "passed"
+        }
+      ],
+      "scope": "only the explicitly reported integrity checks; not address accuracy, freshness or national completeness",
+      "freshness_verified": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    }
+  ],
+  "status": "passed",
+  "scope": "country-source integrity and source replay; no national address completeness or carrier acceptance claim"
+}

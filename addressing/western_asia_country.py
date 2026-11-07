@@ -39,6 +39,7 @@ def western_asia_quality_inventory() -> dict[str, Any]:
     if len(zipcodes)!=len(archives["archives"]):
         raise ValueError("GeoNames inventory has duplicate country archives")
     values=[]
+    source_manifest = json.loads((ROOT / "registries/official/western-asia/imports/manifest.json").read_text(encoding="utf-8"))
     for country in sorted(ALL_COUNTRIES):
         if country not in zipcodes or country not in regions:
             raise ValueError("West Asian country missing country source archive: "+country)
@@ -59,6 +60,8 @@ def western_asia_quality_inventory() -> dict[str, Any]:
             "national_completeness_verified":False,
             "official_postcode_coverage_verified":False,
             "deliverability_verified":False,
+            "imported_source_snapshots": sum(s["country"] == country for s in source_manifest["sources"]),
+            "imported_source_rows": sum(s["normalized"]["records"] for s in source_manifest["sources"] if s["country"] == country),
         })
     return {
         "m49_country_codes":len(ALL_COUNTRIES),
@@ -68,6 +71,9 @@ def western_asia_quality_inventory() -> dict[str, Any]:
         "official_postal_registers_verified_countrywide":0,
         "countries_with_delivery_coverage_verified":0,
         "phase1_country_level_baseline":"implemented_not_nationally_verified",
+        "pinned_source_snapshots":len(source_manifest["sources"]),
+        "imported_source_rows":sum(s["normalized"]["records"] for s in source_manifest["sources"]),
+        "source_snapshot_manifest":"registries/official/western-asia/imports/manifest.json",
         "countries":values,
     }
 

@@ -16,12 +16,12 @@ python -m localities country verify --country JP
 | コード | 国・地域 | 状態 | 既存データへの入口 |
 |---|---|---|---|
 | `AD` | Andorra | 原典レイヤーあり | [registries/europe/countries/AD](../registries/europe/countries/AD) |
-| `AE` | United Arab Emirates | 原典レイヤーあり | [registries/asia/country-archives/AE.zip](../registries/asia/country-archives/AE.zip) |
+| `AE` | United Arab Emirates | 原典レイヤーあり | [registries/asia/country-archives/AE.zip](../registries/asia/country-archives/AE.zip)、[registries/official/western-asia/imports/NOTICE.md](../registries/official/western-asia/imports/NOTICE.md)、[registries/official/western-asia/imports/country-status.json](../registries/official/western-asia/imports/country-status.json)（全参照は台帳） |
 | `AF` | Afghanistan | 原典レイヤーあり | [registries/asia/country-archives/AF.zip](../registries/asia/country-archives/AF.zip) |
 | `AG` | Antigua and Barbuda | 原典レイヤーあり | [registries/caribbean/countries/AG](../registries/caribbean/countries/AG) |
 | `AI` | Anguilla | 原典レイヤーあり | [registries/caribbean/countries/AI](../registries/caribbean/countries/AI) |
 | `AL` | Albania | 原典レイヤーあり | [registries/europe/countries/AL](../registries/europe/countries/AL) |
-| `AM` | Armenia | 原典レイヤーあり | [registries/asia/country-archives/AM.zip](../registries/asia/country-archives/AM.zip)、[registries/europe/countries/AM](../registries/europe/countries/AM) |
+| `AM` | Armenia | 原典レイヤーあり | [registries/asia/country-archives/AM.zip](../registries/asia/country-archives/AM.zip)、[registries/europe/countries/AM](../registries/europe/countries/AM)、[registries/official/western-asia/imports/NOTICE.md](../registries/official/western-asia/imports/NOTICE.md)（全参照は台帳） |
 | `AO` | Angola | 原典レイヤーあり | [registries/africa/countries/AO](../registries/africa/countries/AO) |
 | `AQ` | Antarctica | 住所形式のみ | 国別inspectで住所形式・未取得を確認 |
 | `AR` | Argentina | 原典レイヤーあり | [registries/south-america/.parts/countries/AR](../registries/south-america/.parts/countries/AR)、[registries/south-america/countries/AR](../registries/south-america/countries/AR) |
@@ -30,14 +30,14 @@ python -m localities country verify --country JP
 | `AU` | Australia | 原典レイヤーあり | [registries/oceania/countries/AU](../registries/oceania/countries/AU) |
 | `AW` | Aruba | 原典レイヤーあり | [registries/caribbean/countries/AW](../registries/caribbean/countries/AW) |
 | `AX` | Aland Islands | 原典レイヤーあり | [registries/europe/countries/AX](../registries/europe/countries/AX) |
-| `AZ` | Azerbaijan | 原典レイヤーあり | [registries/asia/country-archives/AZ.zip](../registries/asia/country-archives/AZ.zip)、[registries/europe/countries/AZ](../registries/europe/countries/AZ) |
+| `AZ` | Azerbaijan | 原典レイヤーあり | [registries/asia/country-archives/AZ.zip](../registries/asia/country-archives/AZ.zip)、[registries/europe/countries/AZ](../registries/europe/countries/AZ)、[registries/official/western-asia/imports/NOTICE.md](../registries/official/western-asia/imports/NOTICE.md)（全参照は台帳） |
 | `BA` | Bosnia and Herzegovina | 原典レイヤーあり | [registries/europe/countries/BA](../registries/europe/countries/BA) |
 | `BB` | Barbados | 原典レイヤーあり | [registries/caribbean/countries/BB](../registries/caribbean/countries/BB) |
 | `BD` | Bangladesh | 原典レイヤーあり | [registries/asia/country-archives/BD.zip](../registries/asia/country-archives/BD.zip) |
 | `BE` | Belgium | 原典レイヤーあり | [registries/europe/countries/BE](../registries/europe/countries/BE)、[registries/europe/eurostat-lau/BE](../registries/europe/eurostat-lau/BE) |
 | `BF` | Burkina Faso | 原典レイヤーあり | [registries/africa/countries/BF](../registries/africa/countries/BF) |
 | `BG` | Bulgaria | 原典レイヤーあり | [registries/europe/countries/BG](../registries/europe/countries/BG)、[registries/europe/eurostat-lau/BG](../registries/europe/eurostat-lau/BG) |
-| `BH` | Bahrain | 原典レイヤーあり | [registries/asia/country-archives/BH.zip](../registries/asia/country-archives/BH.zip) |
+| `BH` | Bahrain | 原典レイヤーあり | [registries/asia/country-archives/BH.zip](../registries/asia/country-archives/BH.zip)、[registries/official/western-asia/imports/NOTICE.md](../registries/official/western-asia/imports/NOTICE.md)、[registries/official/western-asia/imports/country-status.json](../registries/official/western-asia/imports/country-status.json)（全参照は台帳） |
 | `BI` | Burundi | 原典レイヤーあり | [registries/africa/countries/BI](../registries/africa/countries/BI) |
 | `BJ` | Benin | 原典レイヤーあり | [registries/africa/countries/BJ](../registries/africa/countries/BJ) |
 | `BL` | Saint Barthelemy | 原典レイヤーあり | [registries/caribbean/countries/BL](../registries/caribbean/countries/BL) |
@@ -69,7 +69,7 @@ python -m localities country verify --country JP
 | `CV` | Cabo Verde | 原典レイヤーあり | [registries/africa/countries/CV](../registries/africa/countries/CV) |
 | `CW` | Curacao | 原典レイヤーあり | [registries/caribbean/countries/CW](../registries/caribbean/countries/CW) |
 | `CX` | Christmas Island | 原典レイヤーあり | [registries/oceania/countries/CX](../registries/oceania/countries/CX) |
-| `CY` | Cyprus | 原典レイヤーあり | [registries/asia/country-archives/CY.zip](../registries/asia/country-archives/CY.zip)、[registries/europe/countries/CY](../registries/europe/countries/CY)、[registries/europe/eurostat-lau/CY](../registries/europe/eurostat-lau/CY) |
+| `CY` | Cyprus | 原典レイヤーあり | [registries/asia/country-archives/CY.zip](../registries/asia/country-archives/CY.zip)、[registries/europe/countries/CY](../registries/europe/countries/CY)、[registries/europe/eurostat-lau/CY](../registries/europe/eurostat-lau/CY)（全参照は台帳） |
 | `CZ` | Czechia | 原典レイヤーあり | [registries/europe/countries/CZ](../registries/europe/countries/CZ)、[registries/europe/eurostat-lau/CZ](../registries/europe/eurostat-lau/CZ) |
 | `DE` | Germany | 原典レイヤーあり | [registries/europe/countries/DE](../registries/europe/countries/DE)、[registries/europe/eurostat-lau/DE](../registries/europe/eurostat-lau/DE) |
 | `DJ` | Djibouti | 原典レイヤーあり | [registries/africa/countries/DJ](../registries/africa/countries/DJ) |
@@ -93,7 +93,7 @@ python -m localities country verify --country JP
 | `GA` | Gabon | 原典レイヤーあり | [registries/africa/countries/GA](../registries/africa/countries/GA) |
 | `GB` | United Kingdom | 原典レイヤーあり | [registries/europe/countries/GB](../registries/europe/countries/GB) |
 | `GD` | Grenada | 原典レイヤーあり | [registries/caribbean/countries/GD](../registries/caribbean/countries/GD) |
-| `GE` | Georgia | 原典レイヤーあり | [registries/asia/country-archives/GE.zip](../registries/asia/country-archives/GE.zip)、[registries/europe/countries/GE](../registries/europe/countries/GE) |
+| `GE` | Georgia | 原典レイヤーあり | [registries/asia/country-archives/GE.zip](../registries/asia/country-archives/GE.zip)、[registries/europe/countries/GE](../registries/europe/countries/GE)、[registries/official/western-asia/imports/NOTICE.md](../registries/official/western-asia/imports/NOTICE.md)（全参照は台帳） |
 | `GF` | French Guiana | 原典レイヤーあり | [registries/south-america/countries/GF](../registries/south-america/countries/GF) |
 | `GG` | Guernsey | 原典レイヤーあり | [registries/europe/countries/GG](../registries/europe/countries/GG) |
 | `GH` | Ghana | 原典レイヤーあり | [registries/africa/countries/GH](../registries/africa/countries/GH)、[registries/africa/reference-boundaries/GHA-ADM1-source-units.csv](../registries/africa/reference-boundaries/GHA-ADM1-source-units.csv)、[registries/africa/reference-boundaries/GHA-ADM2-source-units.csv](../registries/africa/reference-boundaries/GHA-ADM2-source-units.csv) |
@@ -117,17 +117,17 @@ python -m localities country verify --country JP
 | `HU` | Hungary | 原典レイヤーあり | [registries/europe/countries/HU](../registries/europe/countries/HU)、[registries/europe/eurostat-lau/HU](../registries/europe/eurostat-lau/HU) |
 | `ID` | Indonesia | 原典レイヤーあり | [registries/asia/country-archives/ID.zip.part001](../registries/asia/country-archives/ID.zip.part001)、[registries/asia/country-archives/ID.zip.part002](../registries/asia/country-archives/ID.zip.part002) |
 | `IE` | Ireland | 原典レイヤーあり | [registries/europe/countries/IE](../registries/europe/countries/IE)、[registries/europe/eurostat-lau/IE](../registries/europe/eurostat-lau/IE) |
-| `IL` | Israel | 原典レイヤーあり | [registries/asia/country-archives/IL.zip](../registries/asia/country-archives/IL.zip) |
+| `IL` | Israel | 原典レイヤーあり | [registries/asia/country-archives/IL.zip](../registries/asia/country-archives/IL.zip)、[registries/official/western-asia/imports/NOTICE.md](../registries/official/western-asia/imports/NOTICE.md)、[registries/official/western-asia/imports/country-status.json](../registries/official/western-asia/imports/country-status.json)（全参照は台帳） |
 | `IM` | Isle of Man | 原典レイヤーあり | [registries/europe/countries/IM](../registries/europe/countries/IM) |
 | `IN` | India | 原典レイヤーあり | [registries/asia/country-archives/IN.zip.part001](../registries/asia/country-archives/IN.zip.part001)、[registries/asia/country-archives/IN.zip.part002](../registries/asia/country-archives/IN.zip.part002) |
 | `IO` | British Indian Ocean Territory | 原典レイヤーあり | [registries/africa/countries/IO](../registries/africa/countries/IO) |
-| `IQ` | Iraq | 原典レイヤーあり | [registries/asia/country-archives/IQ.zip](../registries/asia/country-archives/IQ.zip) |
+| `IQ` | Iraq | 原典レイヤーあり | [registries/asia/country-archives/IQ.zip](../registries/asia/country-archives/IQ.zip)、[registries/official/western-asia/imports/NOTICE.md](../registries/official/western-asia/imports/NOTICE.md)、[registries/official/western-asia/imports/country-status.json](../registries/official/western-asia/imports/country-status.json)（全参照は台帳） |
 | `IR` | Iran | 原典レイヤーあり | [registries/asia/country-archives/IR.zip](../registries/asia/country-archives/IR.zip) |
 | `IS` | Iceland | 原典レイヤーあり | [registries/europe/countries/IS](../registries/europe/countries/IS) |
 | `IT` | Italy | 原典レイヤーあり | [registries/europe/countries/IT](../registries/europe/countries/IT)、[registries/europe/eurostat-lau/IT](../registries/europe/eurostat-lau/IT) |
 | `JE` | Jersey | 原典レイヤーあり | [registries/europe/countries/JE](../registries/europe/countries/JE) |
 | `JM` | Jamaica | 原典レイヤーあり | [registries/caribbean/countries/JM](../registries/caribbean/countries/JM) |
-| `JO` | Jordan | 原典レイヤーあり | [registries/asia/country-archives/JO.zip](../registries/asia/country-archives/JO.zip) |
+| `JO` | Jordan | 原典レイヤーあり | [registries/asia/country-archives/JO.zip](../registries/asia/country-archives/JO.zip)、[registries/official/western-asia/imports/NOTICE.md](../registries/official/western-asia/imports/NOTICE.md)、[registries/official/western-asia/imports/country-status.json](../registries/official/western-asia/imports/country-status.json)（全参照は台帳） |
 | `JP` | Japan | 原典レイヤーあり | [registries/asia/country-archives/JP.zip](../registries/asia/country-archives/JP.zip)、[registries/official/JP](../registries/official/JP)、[releases/hierarchy/east-asia/reports/JP.projection.json](../releases/hierarchy/east-asia/reports/JP.projection.json) |
 | `KE` | Kenya | 原典レイヤーあり | [registries/africa/countries/KE](../registries/africa/countries/KE)、[registries/africa/reference-boundaries/KEN-ADM1-source-units.csv](../registries/africa/reference-boundaries/KEN-ADM1-source-units.csv)、[registries/africa/reference-boundaries/KEN-ADM2-source-units.csv](../registries/africa/reference-boundaries/KEN-ADM2-source-units.csv) |
 | `KG` | Kyrgyzstan | 原典レイヤーあり | [registries/asia/country-archives/KG.zip](../registries/asia/country-archives/KG.zip) |
@@ -137,11 +137,11 @@ python -m localities country verify --country JP
 | `KN` | Saint Kitts and Nevis | 原典レイヤーあり | [registries/caribbean/countries/KN](../registries/caribbean/countries/KN) |
 | `KP` | North Korea | 原典レイヤーあり | [registries/asia/country-archives/KP.zip](../registries/asia/country-archives/KP.zip)、[releases/hierarchy/east-asia/reports/KP.projection.json](../releases/hierarchy/east-asia/reports/KP.projection.json) |
 | `KR` | South Korea | 原典レイヤーあり | [registries/asia/country-archives/KR.zip](../registries/asia/country-archives/KR.zip)、[releases/hierarchy/east-asia/reports/KR.projection.json](../releases/hierarchy/east-asia/reports/KR.projection.json) |
-| `KW` | Kuwait | 原典レイヤーあり | [registries/asia/country-archives/KW.zip](../registries/asia/country-archives/KW.zip) |
+| `KW` | Kuwait | 原典レイヤーあり | [registries/asia/country-archives/KW.zip](../registries/asia/country-archives/KW.zip)、[registries/official/western-asia/imports/NOTICE.md](../registries/official/western-asia/imports/NOTICE.md)、[registries/official/western-asia/imports/country-status.json](../registries/official/western-asia/imports/country-status.json)（全参照は台帳） |
 | `KY` | Cayman Islands | 原典レイヤーあり | [registries/caribbean/countries/KY](../registries/caribbean/countries/KY) |
 | `KZ` | Kazakhstan | 原典レイヤーあり | [registries/asia/country-archives/KZ.zip](../registries/asia/country-archives/KZ.zip) |
 | `LA` | Laos | 原典レイヤーあり | [registries/asia/country-archives/LA.zip](../registries/asia/country-archives/LA.zip) |
-| `LB` | Lebanon | 原典レイヤーあり | [registries/asia/country-archives/LB.zip](../registries/asia/country-archives/LB.zip) |
+| `LB` | Lebanon | 原典レイヤーあり | [registries/asia/country-archives/LB.zip](../registries/asia/country-archives/LB.zip)、[registries/official/western-asia/imports/NOTICE.md](../registries/official/western-asia/imports/NOTICE.md)、[registries/official/western-asia/imports/country-status.json](../registries/official/western-asia/imports/country-status.json)（全参照は台帳） |
 | `LC` | Saint Lucia | 原典レイヤーあり | [registries/caribbean/countries/LC](../registries/caribbean/countries/LC) |
 | `LI` | Liechtenstein | 原典レイヤーあり | [registries/europe/countries/LI](../registries/europe/countries/LI) |
 | `LK` | Sri Lanka | 原典レイヤーあり | [registries/asia/country-archives/LK.zip](../registries/asia/country-archives/LK.zip) |
@@ -186,7 +186,7 @@ python -m localities country verify --country JP
 | `NR` | Nauru | 原典レイヤーあり | [registries/oceania/countries/NR](../registries/oceania/countries/NR) |
 | `NU` | Niue | 原典レイヤーあり | [registries/oceania/countries/NU](../registries/oceania/countries/NU) |
 | `NZ` | New Zealand | 原典レイヤーあり | [registries/oceania/countries/NZ](../registries/oceania/countries/NZ) |
-| `OM` | Oman | 原典レイヤーあり | [registries/asia/country-archives/OM.zip](../registries/asia/country-archives/OM.zip) |
+| `OM` | Oman | 原典レイヤーあり | [registries/asia/country-archives/OM.zip](../registries/asia/country-archives/OM.zip)、[registries/official/western-asia/imports/NOTICE.md](../registries/official/western-asia/imports/NOTICE.md)、[registries/official/western-asia/imports/country-status.json](../registries/official/western-asia/imports/country-status.json)（全参照は台帳） |
 | `PA` | Panama | 原典レイヤーあり | [registries/central-america/.parts/PA](../registries/central-america/.parts/PA)、[registries/central-america/countries/PA](../registries/central-america/countries/PA)、[registries/central-america/sources/alternatenames/PA.json](../registries/central-america/sources/alternatenames/PA.json)（全参照は台帳） |
 | `PE` | Peru | 原典レイヤーあり | [registries/south-america/.parts/countries/PE](../registries/south-america/.parts/countries/PE)、[registries/south-america/countries/PE](../registries/south-america/countries/PE) |
 | `PF` | French Polynesia | 原典レイヤーあり | [registries/oceania/countries/PF](../registries/oceania/countries/PF) |
@@ -197,17 +197,17 @@ python -m localities country verify --country JP
 | `PM` | Saint Pierre and Miquelon | 限定的な記録 | [registries/north-america/admin-seeds.json](../registries/north-america/admin-seeds.json) |
 | `PN` | Pitcairn | 原典レイヤーあり | [registries/oceania/countries/PN](../registries/oceania/countries/PN) |
 | `PR` | Puerto Rico | 原典レイヤーあり | [registries/caribbean/countries/PR](../registries/caribbean/countries/PR) |
-| `PS` | Palestinian Territory | 原典レイヤーあり | [registries/asia/country-archives/PS.zip](../registries/asia/country-archives/PS.zip) |
+| `PS` | Palestinian Territory | 原典レイヤーあり | [registries/asia/country-archives/PS.zip](../registries/asia/country-archives/PS.zip)、[registries/official/western-asia/imports/NOTICE.md](../registries/official/western-asia/imports/NOTICE.md)、[registries/official/western-asia/imports/country-status.json](../registries/official/western-asia/imports/country-status.json)（全参照は台帳） |
 | `PT` | Portugal | 原典レイヤーあり | [registries/europe/countries/PT](../registries/europe/countries/PT)、[registries/europe/eurostat-lau/PT](../registries/europe/eurostat-lau/PT) |
 | `PW` | Palau | 原典レイヤーあり | [registries/oceania/countries/PW](../registries/oceania/countries/PW) |
 | `PY` | Paraguay | 原典レイヤーあり | [registries/south-america/.parts/countries/PY](../registries/south-america/.parts/countries/PY)、[registries/south-america/countries/PY](../registries/south-america/countries/PY)、[registries/south-america/sources/PY-alternatenames.zip](../registries/south-america/sources/PY-alternatenames.zip) |
-| `QA` | Qatar | 原典レイヤーあり | [registries/asia/country-archives/QA.zip](../registries/asia/country-archives/QA.zip) |
+| `QA` | Qatar | 原典レイヤーあり | [registries/asia/country-archives/QA.zip](../registries/asia/country-archives/QA.zip)、[registries/official/western-asia/imports/NOTICE.md](../registries/official/western-asia/imports/NOTICE.md)、[registries/official/western-asia/imports/country-status.json](../registries/official/western-asia/imports/country-status.json)（全参照は台帳） |
 | `RE` | Reunion | 原典レイヤーあり | [registries/africa/countries/RE](../registries/africa/countries/RE) |
 | `RO` | Romania | 原典レイヤーあり | [registries/europe/countries/RO](../registries/europe/countries/RO)、[registries/europe/eurostat-lau/RO](../registries/europe/eurostat-lau/RO) |
 | `RS` | Serbia | 原典レイヤーあり | [registries/europe/countries/RS](../registries/europe/countries/RS)、[registries/europe/eurostat-lau/RS](../registries/europe/eurostat-lau/RS) |
 | `RU` | Russia | 原典レイヤーあり | [registries/asia/country-archives/RU.zip.part001](../registries/asia/country-archives/RU.zip.part001)、[registries/asia/country-archives/RU.zip.part002](../registries/asia/country-archives/RU.zip.part002)、[registries/europe/countries/RU](../registries/europe/countries/RU) |
 | `RW` | Rwanda | 原典レイヤーあり | [registries/africa/countries/RW](../registries/africa/countries/RW) |
-| `SA` | Saudi Arabia | 原典レイヤーあり | [registries/asia/country-archives/SA.zip](../registries/asia/country-archives/SA.zip) |
+| `SA` | Saudi Arabia | 原典レイヤーあり | [registries/asia/country-archives/SA.zip](../registries/asia/country-archives/SA.zip)、[registries/official/western-asia/imports/NOTICE.md](../registries/official/western-asia/imports/NOTICE.md)、[registries/official/western-asia/imports/country-status.json](../registries/official/western-asia/imports/country-status.json)（全参照は台帳） |
 | `SB` | Solomon Islands | 原典レイヤーあり | [registries/oceania/countries/SB](../registries/oceania/countries/SB) |
 | `SC` | Seychelles | 原典レイヤーあり | [registries/africa/countries/SC](../registries/africa/countries/SC) |
 | `SD` | Sudan | 原典レイヤーあり | [registries/africa/countries/SD](../registries/africa/countries/SD) |
@@ -226,7 +226,7 @@ python -m localities country verify --country JP
 | `ST` | Sao Tome and Principe | 原典レイヤーあり | [registries/africa/countries/ST](../registries/africa/countries/ST) |
 | `SV` | El Salvador | 原典レイヤーあり | [registries/central-america/countries/SV](../registries/central-america/countries/SV)、[registries/central-america/sources/SV.zip](../registries/central-america/sources/SV.zip)、[registries/central-america/sources/alternatenames/SV.json](../registries/central-america/sources/alternatenames/SV.json)（全参照は台帳） |
 | `SX` | Sint Maarten | 原典レイヤーあり | [registries/caribbean/countries/SX](../registries/caribbean/countries/SX) |
-| `SY` | Syria | 原典レイヤーあり | [registries/asia/country-archives/SY.zip](../registries/asia/country-archives/SY.zip) |
+| `SY` | Syria | 原典レイヤーあり | [registries/asia/country-archives/SY.zip](../registries/asia/country-archives/SY.zip)、[registries/official/western-asia/imports/NOTICE.md](../registries/official/western-asia/imports/NOTICE.md)、[registries/official/western-asia/imports/country-status.json](../registries/official/western-asia/imports/country-status.json)（全参照は台帳） |
 | `SZ` | Eswatini | 原典レイヤーあり | [registries/africa/countries/SZ](../registries/africa/countries/SZ) |
 | `TC` | Turks and Caicos Islands | 原典レイヤーあり | [registries/caribbean/countries/TC](../registries/caribbean/countries/TC) |
 | `TD` | Chad | 原典レイヤーあり | [registries/africa/countries/TD](../registries/africa/countries/TD) |
@@ -239,7 +239,7 @@ python -m localities country verify --country JP
 | `TM` | Turkmenistan | 原典レイヤーあり | [registries/asia/country-archives/TM.zip](../registries/asia/country-archives/TM.zip) |
 | `TN` | Tunisia | 原典レイヤーあり | [registries/africa/countries/TN](../registries/africa/countries/TN) |
 | `TO` | Tonga | 原典レイヤーあり | [registries/oceania/countries/TO](../registries/oceania/countries/TO) |
-| `TR` | Turkey | 原典レイヤーあり | [registries/asia/country-archives/TR.zip](../registries/asia/country-archives/TR.zip)、[registries/europe/countries/TR](../registries/europe/countries/TR)、[registries/europe/eurostat-lau/TR](../registries/europe/eurostat-lau/TR) |
+| `TR` | Turkey | 原典レイヤーあり | [registries/asia/country-archives/TR.zip](../registries/asia/country-archives/TR.zip)、[registries/europe/countries/TR](../registries/europe/countries/TR)、[registries/europe/eurostat-lau/TR](../registries/europe/eurostat-lau/TR)（全参照は台帳） |
 | `TT` | Trinidad and Tobago | 原典レイヤーあり | [registries/caribbean/countries/TT](../registries/caribbean/countries/TT) |
 | `TV` | Tuvalu | 原典レイヤーあり | [registries/oceania/countries/TV](../registries/oceania/countries/TV) |
 | `TW` | Taiwan | 原典レイヤーあり | [registries/asia/country-archives/TW.zip](../registries/asia/country-archives/TW.zip)、[registries/official/TW](../registries/official/TW)、[releases/hierarchy/east-asia/reports/TW.projection.json](../releases/hierarchy/east-asia/reports/TW.projection.json) |
@@ -260,7 +260,7 @@ python -m localities country verify --country JP
 | `WF` | Wallis and Futuna | 原典レイヤーあり | [registries/oceania/countries/WF](../registries/oceania/countries/WF) |
 | `WS` | Samoa | 原典レイヤーあり | [registries/oceania/countries/WS](../registries/oceania/countries/WS) |
 | `XK` | Kosovo | 原典レイヤーあり | [registries/europe/countries/XK](../registries/europe/countries/XK) |
-| `YE` | Yemen | 原典レイヤーあり | [registries/asia/country-archives/YE.zip](../registries/asia/country-archives/YE.zip) |
+| `YE` | Yemen | 原典レイヤーあり | [registries/asia/country-archives/YE.zip](../registries/asia/country-archives/YE.zip)、[registries/official/western-asia/imports/NOTICE.md](../registries/official/western-asia/imports/NOTICE.md)、[registries/official/western-asia/imports/country-status.json](../registries/official/western-asia/imports/country-status.json)（全参照は台帳） |
 | `YT` | Mayotte | 原典レイヤーあり | [registries/africa/countries/YT](../registries/africa/countries/YT) |
 | `ZA` | South Africa | 原典レイヤーあり | [registries/africa/countries/ZA](../registries/africa/countries/ZA) |
 | `ZM` | Zambia | 原典レイヤーあり | [registries/africa/countries/ZM](../registries/africa/countries/ZM) |

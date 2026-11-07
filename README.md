@@ -5,8 +5,8 @@
 ## 目的から探す
 
 | 目的 | 入口 |
-| 西アジア18か国の到達範囲を確認する | [西アジアLocalities基盤](docs/plans/western-asia-18-country-baseline-20261106.md) |
 |---|---|
+| 西アジア18か国の原本・検索・残課題を確認する | [実原本取込と国別進捗](docs/plans/western-asia-current-status-20261108.md) |
 | 国・地域から探す | [250国・地域の一覧](countries/README.md) |
 | 北欧5か国・関連4地域を検証する | [北欧Localities](registries/nordics/README.md) |
 | 収録データと利用方法を調べる | [データと利用方法](docs/guides/data-and-usage.md) |

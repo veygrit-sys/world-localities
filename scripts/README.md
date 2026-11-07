@@ -33,6 +33,7 @@ python -m localities layout
 | 対象 | スクリプト |
 |---|---|
 | 東アジア | [east_asia_sources.py](east_asia_sources.py)、[east_asia_query.py](east_asia_query.py)、[east_asia_fast.py](east_asia_fast.py)、[east_asia_projection.py](east_asia_projection.py) |
+| 西アジア18か国 | [western_asia_sources.py](western_asia_sources.py)、共通CLI `python -m localities western-asia`（[実原本・検索・検証](../registries/official/western-asia/imports/README.md)） |
 | 西欧 | [western_europe_sources.py](western_europe_sources.py) |
 | ジャージー・ガーンジー・マン島・ジブラルタル | [crown_four_localities.py](crown_four_localities.py)（[出典・実データ監査](../registries/europe/crown-four/README.md)） |
 | 欧州ミニ国家6か国 | [europe_microstates.py](europe_microstates.py)（[出典・取込・品質管理](../registries/europe/microstates/README.md)） |

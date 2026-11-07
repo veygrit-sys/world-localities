@@ -18,3 +18,4 @@ dist/
 /global-addresses/sources/**/*.pdf
 *.part
 *.building
+/registries/official/western-asia/imports/generated/

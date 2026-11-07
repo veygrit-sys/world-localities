@@ -1,5 +1,7 @@
 # Azerbaijan official classification: 2024 nationwide source-adapter
 
+On 2026-11-08 the official HTML was acquired and parsed: 6,697 distinct codes, plus one identical repeated source row for 50408028 / Qaralar k. The [saved aggregate audit](../imports/reports/AZ-IABT-2024-audit.json) pins its bytes and SHA-256. Exact repeated rows are counted separately during audit; conflicting names for the same code still fail. Full original redistribution and 2026 freshness remain unverified.
+
 The State Statistical Committee's administrative-territorial classification
 (Inzibati Ərazi Bölgüsü Təsnifatı, 2024 / IƏBT) is available at
 https://www.azstat.gov.az/tesnifat/cedeveller/arazi.jsp?parm=arazi
