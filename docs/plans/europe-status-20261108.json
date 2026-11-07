@@ -88,13 +88,6 @@
   ],
   "open_prs": [
     {
-      "number": 8,
-      "scope": "LT LV SI HR AT SE",
-      "stage": "supersession_source_catalog_review_in_progress",
-      "data_imported_in_pr": false,
-      "reason": "Overlaps later merged Sweden/Nordic/Balkan work; contains source adapter and synthetic tests, no new national official dataset"
-    },
-    {
       "number": 29,
       "scope": "RS ES",
       "stage": "open_blocked_at_remote_source_access",
@@ -242,9 +235,9 @@
         "AT",
         "SE"
       ],
-      "stage": "open_pr_needs_rebase_review",
-      "source": "https://github.com/veygrit-sys/world-localities/pull/8",
-      "note": "Source adapter only. No new national official bulk file accepted in PR #8."
+      "stage": "historical_pr_closed_sources_preserved_in_main",
+      "source": "docs/plans/europe-six-source-review-20261108.json",
+      "note": "Old PR #8 closed unmerged 2026-11-08 after six country source references migrated to main via PR #33. No actual official address import in old PR."
     },
     {
       "id": "official-bulk-pr29",
@@ -1005,6 +998,17 @@
       ],
       "national_current_address_completeness_verified": false,
       "carrier_deliverability_verified": false
+    }
+  ],
+  "superseded_pull_requests": [
+    {
+      "number": 8,
+      "scope": "LT LV SI HR AT SE",
+      "closed_on": "2026-11-08",
+      "merged": false,
+      "source_review_preserved_at": "docs/plans/europe-six-source-review-20261108.json",
+      "replacement_pr": 33,
+      "reason": "The original PR was never an official full-source import; duplicate generic parser was intentionally not merged. Six-country source references and licensing/CRS caveats preserved in current main."
     }
   ]
 }
