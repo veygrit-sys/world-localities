@@ -30,6 +30,7 @@ jobs:
           # hidden API, automated CAPTCHA, or session impersonation.
           urls={
             "IS-LMI-WFS-capabilities":"https://gis.lmi.is/geoserver/IS_50V/wfs?service=WFS&request=GetCapabilities&version=2.0.0",
+            "IS-LMI-WFS-projected-geojson":"https://gis.lmi.is/geoserver/IS_50V/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=IS_50V:samgongur_linur&count=2&outputFormat=application/json&srsName=EPSG:3057",
             "IS-LMI-WFS-small-geojson":"https://gis.lmi.is/geoserver/IS_50V/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=IS_50V:samgongur_linur&count=1&outputFormat=application/json",
             "IS-LMI-feature-layer":"https://portal.land.is/server/rest/services/Hosted/LMI_is50v_Samgongur/FeatureServer/72?f=json",
             "IS-LMI-roads-count":"https://portal.land.is/server/rest/services/Hosted/LMI_is50v_Samgongur/FeatureServer/72/query?"+urllib.parse.urlencode({"where":"1=1","returnCountOnly":"true","f":"json"}),
@@ -58,7 +59,17 @@ jobs:
                   item["metadata_name"]=data.get("name")
                   item["features_in_sample"]=len(data.get("features",[]))
                   item["returned_sample_srid"]=data.get("spatialReference")
-                  if data.get("features"):item["first_geometry_has_paths"]=bool(data["features"][0].get("geometry",{}).get("paths"))
+                  if data.get("features"):
+                    geometry=data["features"][0].get("geometry",{})
+                    item["geometry_type"]=geometry.get("type")
+                    item["number_matched"]=data.get("numberMatched")
+                    item["feature_crs"]=data.get("crs")
+                    coords=geometry.get("coordinates",[])
+                    if isinstance(coords,list) and coords:
+                      p=coords
+                      while isinstance(p,list) and p and isinstance(p[0],list):
+                        p=p[0]
+                      if isinstance(p,list):item["first_projected_coordinate"]=p[:2]
                   if data.get("error"):item["provider_error"]=data["error"].get("message")
             except urllib.error.HTTPError as e:item.update({"http_status":e.code,"outcome":"HTTP_REJECTED"})
             except Exception as e:item.update({"outcome":"UNAVAILABLE","error_type":type(e).__name__,"error_detail":str(e)[:160]})
