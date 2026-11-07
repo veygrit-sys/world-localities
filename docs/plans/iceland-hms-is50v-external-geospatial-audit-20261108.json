@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-08",
+  "purpose": "Full scan of HMS official address coordinate points versus separate-source nationwide road polylines, aggregated results only",
+  "hms": {
+    "provider": "HMS Staðfangaskrá",
+    "source_url": "https://hmsstgsftpprodweu001.blob.core.windows.net/fasteignaskra/Stadfangaskra.csv",
+    "source_sha256": "561e8ea2be420a797e13cf50229619b87c00984ebdc4f931ab0b5a78bc25bff5",
+    "source_bytes": 38151464,
+    "coordinate_points": 139795,
+    "source_address_ids": 137624,
+    "missing_wgs84": 0,
+    "review_status_counts": {
+      "0_unreviewed": 100168,
+      "1_reviewed": 31597,
+      "2_needs_revision": 1142,
+      "9_missing_address_code": 5,
+      "blank_or_undocumented": 6883
+    }
+  },
+  "official_cartographic_reference": {
+    "provider": "Náttúrufræðistofnun IS 50V Transportation",
+    "source_url": "https://gis.lmi.is/geoserver/IS_50V/ows",
+    "source_metadata_url": "https://geoportal.gis.is/geonetwork/srv/api/records/41D3314D-55AF-4FE3-9A9F-B9CB18AC5CAA?language=eng",
+    "license": "CC BY 4.0",
+    "coordinate_system": "EPSG:3057",
+    "nominal_scale": "1:50,000",
+    "source_feature_count": 58285,
+    "source_line_geometry_count": 58310,
+    "wfs_pages": 39,
+    "ordered_page_payload_sha256": "68e70afc09eac619b477c05df645aa89e871ccae097896448682a73434a7d9cc",
+    "distance_lte250m": 130403,
+    "distance_gt2000m": 715,
+    "original_action_run": "https://github.com/veygrit-sys/world-localities/actions/runs/42424483701",
+    "validation_status": "PASS (all 139795 points and 58285 official geometries processed; initial workflow failed at CLI logging only, not the audit)"
+  },
+  "secondary_osm_reference": {
+    "provider": "OpenStreetMap via Geofabrik",
+    "source_url": "https://download.geofabrik.de/europe/iceland-latest.osm.pbf",
+    "license": "ODbL-1.0",
+    "source_bytes": 64916095,
+    "source_sha256": "94096ed9c24efde447162b823a64e90cfff09df5ee50a30d2111bc3d5f1e9414",
+    "road_way_count": 76326,
+    "distance_lte250m": 136842,
+    "distance_gt2000m": 410,
+    "original_action_run": "https://github.com/veygrit-sys/world-localities/actions/runs/42424311721",
+    "provenance_limit": "Icelandic OSM addresses have past HMS Staðfangaskrá import; OSM is not independent address ground truth."
+  },
+  "interpretation": {
+    "distance_to_road_only_not_address_accuracy": true,
+    "source_agency_separate_but_all_upstream_independence_unknown": true,
+    "rural_valid_addresses_may_be_far_from_mapped_roads": true,
+    "no_exact_address_matching": true,
+    "coordinates_review_status_not_falsified": true,
+    "independently_certified_address_existence": false,
+    "carrier_deliverability_verified": false
+  },
+  "privacy": {
+    "raw_point_locations_committed_to_git": false,
+    "published_report_contains_individual_point_coordinates": false,
+    "raw_source_is_public_but_republication_rights_reviewed": false
+  }
+}
