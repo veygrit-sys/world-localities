@@ -24,7 +24,9 @@
     "permanent_independent_storage_verified": false,
     "source_archive_in_this_repository": false,
     "current_national_completeness_independently_verified": false,
-    "carrier_deliverability_verified": false
+    "carrier_deliverability_verified": false,
+    "secondary_private_library_copy_verified": true,
+    "long_term_independent_redundant_archival_certified": false
   },
   "iceland": {
     "source": "HMS Staðfangaskrá CSV",
@@ -48,7 +50,10 @@
     "artifact_contains": "receipts and audit JSON only; source and SQLite were not redistributed",
     "source_redistribution_rights_reviewed": false,
     "independent_address_completeness_verified": false,
-    "carrier_deliverability_verified": false
+    "carrier_deliverability_verified": false,
+    "audit_report_secondary_private_library_copy_verified": true,
+    "full_source_csv_secondary_private_library_copy_verified": false,
+    "full_sqlite_secondary_private_library_copy_verified": false
   },
   "italy": {
     "source": "Agenzia delle Entrate/ISTAT ANNCSU",
