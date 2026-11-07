@@ -4,6 +4,8 @@ Scope: DK, FI, IS, NO, SE plus AX, FO, GL and SJ. These nine registry codes are 
 
 The canonical `registries/europe/` GeoNames and LAU data are reused, not copied; `registries/north-america/admin-seeds.json` supplies only five provisional Greenland municipality-name seeds. Sources are not automatically joined by similar names or coordinates. No Nordic address-file ingestion is asserted as completed by this module.
 
+**実取得の追加（2026-11-08）:** [HMSアイスランドStaðfangaskráの公式CSV 139,795住所点をGitHub Actionsで全件SQLite索引に変換・検証](../../docs/plans/europe-cz-is-it-next-20261108.md)。HNITNUMとHEINUMは異なる識別子。成果物の永続保存・下流の再配布権限・配達可能性は未検証のため、保存済みGeoNamesや他の公式源泉と合算しません。
+
 ## Commands (Python 3.11+, no dependencies)
 
 ```bash
