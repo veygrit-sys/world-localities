@@ -8,7 +8,7 @@ roads, and zero distance does not prove that an address or building exists.
 No person-level, point-level or household information is exported to reports.
 """
 from __future__ import annotations
-import argparse,collections,hashlib,json,math,sqlite3,time,urllib.parse,urllib.request
+import argparse,collections,hashlib,json,math,sqlite3,time,urllib.parse,urllib.request,tempfile
 from pathlib import Path
 from datetime import datetime,timezone
 
@@ -16,14 +16,14 @@ SERVICE="https://portal.land.is/server/rest/services/Hosted/LMI_is50v_Samgongur/
 METADATA="https://geoportal.gis.is/geonetwork/srv/api/records/41D3314D-55AF-4FE3-9A9F-B9CB18AC5CAA?language=eng"
 LIMIT=1000
 BINS=(50,100,250,500,1000,2000)
-def source_json(params, opener=None, retries=2):
+def source_json(params, opener=None, retries=1):
     if opener is None: opener=urllib.request.urlopen
     url=SERVICE+"?"+urllib.parse.urlencode(params)
     error=None
     for attempt in range(retries+1):
         try:
             req=urllib.request.Request(url,headers={"User-Agent":"Veygrit-world-localities-IS50V-quality-audit/1.0","Accept":"application/json"})
-            with opener(req,timeout=60) as resp:
+            with opener(req,timeout=20) as resp:
                 if resp.status!=200:raise ValueError("External source HTTP "+str(resp.status))
                 if resp.url.split("/")[2]!="portal.land.is":raise ValueError("Source redirect origin changed")
                 raw=resp.read(35_000_001)
@@ -78,6 +78,59 @@ def query_road_lines():
       "declared_road_features":total,"read_road_features":len(seen),"line_geometries":seg_n,
       "source_page_count":page_n,"page_payload_sha256_in_order":source_hash.hexdigest(),
       "source_crs":"EPSG:3057","license":"CC BY 4.0 per dataset metadata","official_address_ground_truth":False}
+
+def osm_road_lines(pbf, expected_sha256):
+    """OpenStreetMap road geometry reference. Some Icelandic OSM addresses were
+    imported from HMS; OSM is not proven independent address ground truth.
+    Roads are an external mapping source, not a government register.
+    """
+    try:
+        import osmium
+        from shapely.geometry import LineString
+        from pyproj import Transformer
+    except ImportError as exc:
+        raise RuntimeError("osmium, shapely, pyproj required for OSM road evidence") from exc
+    pbf=Path(pbf)
+    if not pbf.is_file() or not 1_000_000<pbf.stat().st_size<500_000_000:
+        raise ValueError("Missing/invalid bounded Iceland OSM PBF")
+    digest=hashlib.sha256()
+    with pbf.open("rb") as f:
+        for block in iter(lambda:f.read(1<<20),b""): digest.update(block)
+    sha=digest.hexdigest()
+    if not expected_sha256 or sha!=expected_sha256:raise ValueError("Original OSM extract hash differs")
+    xform=Transformer.from_crs("EPSG:4326","EPSG:3057",always_xy=True)
+    roadtypes={"motorway","trunk","primary","secondary","tertiary","unclassified",
+               "residential","service","living_street","track","motorway_link",
+               "trunk_link","primary_link","secondary_link","tertiary_link"}
+    roads=[];count=collections.Counter()
+    class Handler(osmium.SimpleHandler):
+        def way(self,way):
+            highway=way.tags.get("highway")
+            if highway not in roadtypes: return
+            count["tagged_ways"]+=1
+            if not (len(way.nodes)>=2 and all(node.location.valid() for node in way.nodes)):
+                count["missing_way_coords"]+=1
+                return
+            pts=[]
+            for node in way.nodes:
+                x,y=xform.transform(node.location.lon,node.location.lat)
+                if not math.isfinite(x) or not math.isfinite(y):raise ValueError("Malformed OSM projected coordinate")
+                pts.append((x,y))
+            road=LineString(pts)
+            if road.length>0:roads.append(road);count["valid_road_lines"]+=1
+    with tempfile.TemporaryDirectory(prefix="osm-is-nodes-") as temp:
+        Handler().apply_file(str(pbf),locations=True,idx="sparse_file_array,"+str(Path(temp)/"osm-nodes"))
+    if not roads:raise ValueError("No road geometries in separate OSM snapshot")
+    return roads,{"source":"OpenStreetMap Iceland",
+       "source_provider":"Geofabrik Iceland PBF","source_url":"https://download.geofabrik.de/europe/iceland-latest.osm.pbf",
+       "source_sha256":sha,"bytes":pbf.stat().st_size, "feature_types":"OSM drivable highway-tagged ways",
+       "source_road_ways":count["tagged_ways"],"usable_road_lines":count["valid_road_lines"],
+       "missing_road_way_geometries":count["missing_way_coords"],
+       "source_crs":"EPSG:4326 converted to EPSG:3057 with pyproj",
+       "license":"ODbL-1.0 — © OpenStreetMap contributors, Geofabrik extract",
+       "official_road_data":False,
+       "separate_source_but_not_proven_independent":"Icelandic OSM address imports from Staðfangaskrá documented; road geometry is only a plausibility comparator."}
+
 def bucket(distance):
     if not math.isfinite(distance) or distance<0:raise ValueError("Invalid distance")
     for lim in BINS:
@@ -121,15 +174,15 @@ def audit(db_path,roads,source):
       "hms_address_point_count":stats["hms_point_count"],"hms_coordinate_review_counts":{k[7:]:v for k,v in stats.items() if k.startswith("review_")},
       "missing_hms_coordinates":stats["missing_coordinates"],"within_250m_of_topographic_road":stats["within_250m"],
       "farther_than_2000m_from_topographic_road":stats["over_2000m"],"grouped_distance_counts":{k:dict(v) for k,v in sorted(groups.items())},
-      "official_road_source":source,"source_independence":"different source agency; upstream contributor overlap not independently ruled out",
+      "spatial_reference_source":source,"source_independence":"source-separated road geometry; provenance/independence must be judged from the selected reference",
       "warning":"1:50,000 road generalization and sparse rural roads; distance bins are NOT geocoding errors or confirmation of an address",
       "address_location_verified":False,"carrier_deliverability_verified":False,
       "completed_utc":datetime.now(timezone.utc).isoformat()}
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument("--hms-db",required=True,type=Path);p.add_argument("--report",required=True,type=Path)
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument("--hms-db",required=True,type=Path);p.add_argument("--report",required=True,type=Path);p.add_argument("--osm-pbf",type=Path);p.add_argument("--expected-pbf-sha256")
     args=p.parse_args()
     if args.report.exists():raise ValueError("Never overwrite a previously accepted cross-check report")
-    roads,source=query_road_lines()
+    roads,source=osm_road_lines(args.osm_pbf,args.expected_pbf_sha256) if args.osm_pbf else query_road_lines()
     report=audit(args.hms_db,roads,source)
     args.report.parent.mkdir(parents=True,exist_ok=True)
     args.report.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
