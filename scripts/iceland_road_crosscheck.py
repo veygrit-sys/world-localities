@@ -79,6 +79,89 @@ def query_road_lines():
       "source_page_count":page_n,"page_payload_sha256_in_order":source_hash.hexdigest(),
       "source_crs":"EPSG:3057","license":"CC BY 4.0 per dataset metadata","official_address_ground_truth":False}
 
+
+WFS_SERVICE="https://gis.lmi.is/geoserver/IS_50V/ows"
+def wfs_road_lines():
+    """Stream every published nationwide IS50V transportation way via the official
+    WFS 2.0.0 GeoJSON interface, explicitly reprojection EPSG:3057.
+    The 1:50k map is NOT an address register or perfect road coverage.
+    """
+    try:
+        from shapely.geometry import LineString
+    except ImportError as e:raise RuntimeError("shapely required for IS50V WFS") from e
+    pages=0; seen=set(); roads=[];raw_hash=hashlib.sha256();reported=None
+    limit=1500
+    for start in range(0,2_000_000,limit):
+        params={"service":"WFS","version":"2.0.0","request":"GetFeature",
+          "typeNames":"IS_50V:samgongur_linur","count":str(limit),
+          "startIndex":str(start),"outputFormat":"application/json","srsName":"EPSG:3057"}
+        url=WFS_SERVICE+"?"+urllib.parse.urlencode(params)
+        data=None; error=None; raw=None
+        for attempt in range(2):
+            try:
+                req=urllib.request.Request(url,headers={
+                  "User-Agent":"Veygrit-world-localities-geospatial-evidence/1.0","Accept":"application/json"})
+                with urllib.request.urlopen(req,timeout=45) as response:
+                    if response.status!=200 or urllib.parse.urlsplit(response.url).hostname!="gis.lmi.is":
+                        raise ValueError("Unexpected official geodata response origin/status")
+                    raw=response.read(40_000_001)
+                if len(raw)>40_000_000:raise ValueError("Official WFS page too large")
+                data=json.loads(raw.decode("utf-8"))
+                if not isinstance(data,dict) or data.get("type")!="FeatureCollection":
+                    raise ValueError("Official WFS did not return GeoJSON FeatureCollection")
+                break
+            except (OSError,ValueError,UnicodeDecodeError,json.JSONDecodeError) as exc:
+                error=exc
+                if attempt==0:time.sleep(1)
+        if data is None:raise ValueError("Official Iceland WFS source unavailable "+str(error))
+        features=data.get("features")
+        if not isinstance(features,list) or len(features)>limit:
+            raise ValueError("Unexpected official WFS features count")
+        if reported is None:
+            n=data.get("numberMatched")
+            if isinstance(n,int) and 0<n<=2_000_000:reported=n
+            elif isinstance(n,str) and n.isdigit():reported=int(n)
+        raw_hash.update(start.to_bytes(8,"big"));raw_hash.update(raw)
+        pages+=1
+        for feature in features:
+            ident=feature.get("id") or (feature.get("properties") or {}).get("uuid")
+            if not ident or ident in seen:raise ValueError("Duplicate/missing IS 50V geometry id")
+            seen.add(ident)
+            geom=feature.get("geometry") or {}
+            gtype=geom.get("type")
+            if gtype=="LineString": paths=[geom.get("coordinates")]
+            elif gtype=="MultiLineString": paths=geom.get("coordinates")
+            else:raise ValueError("Unexpected IS 50V GeoJSON geometry: "+str(gtype))
+            if not isinstance(paths,list):raise ValueError("Malformed WFS geometry")
+            for path in paths:
+                if not path or len(path)<2:continue
+                pts=[]
+                for xy in path:
+                    if not isinstance(xy,(list,tuple)) or len(xy)<2:
+                        raise ValueError("Malformed WFS projected coordinate")
+                    x,y=xy[:2]
+                    if not (isinstance(x,(float,int)) and isinstance(y,(float,int)) and
+                            math.isfinite(x) and math.isfinite(y) and
+                            0<=x<=1_000_000 and 0<=y<=1_000_000):
+                        raise ValueError("IS 50V response CRS not EPSG:3057 or malformed")
+                    pts.append((x,y))
+                line=LineString(pts)
+                if not line.is_empty and line.length>0:roads.append(line)
+        if not features or (reported is not None and len(seen)==reported):break
+        if len(features)<limit:break
+    if reported is not None and len(seen)!=reported:raise ValueError("Incomplete nationwide WFS transport dataset")
+    if not seen or not roads:raise ValueError("No official WFS road geometries fetched")
+    return roads,{"source":"IS 50V Transportation - road polylines",
+      "source_provider":"Náttúrufræðistofnun / IS 50V",
+      "source_url":WFS_SERVICE,"source_metadata":METADATA,
+      "published_feature_count":reported,
+      "downloaded_feature_count":len(seen),"road_line_geometries":len(roads),
+      "wfs_pages":pages,"ordered_page_payload_sha256":raw_hash.hexdigest(),
+      "source_crs":"EPSG:3057 (explicit WFS request)",
+      "license":"CC BY 4.0 per NLSI public metadata",
+      "official_road_data":True,
+      "separate_publisher_independence_not_certified":"IS 50V maintained by separate national institute but upstream input overlaps possible."}
+
 def osm_road_lines(pbf, expected_sha256):
     """OpenStreetMap road geometry reference. Some Icelandic OSM addresses were
     imported from HMS; OSM is not proven independent address ground truth.
@@ -170,7 +253,7 @@ def audit(db_path,roads,source):
         if stats["hms_point_count"]==0 or stats["hms_point_count"]!=sum(v for k,v in stats.items() if k.startswith("review_")):
             raise ValueError("HMS records not fully scanned")
     finally:conn.close()
-    return {"status":"PASS","country":"IS","comparison":"HMS address point vs separate agency IS 50V road lines",
+    return {"status":"PASS","country":"IS","comparison":"HMS address point versus separately published road polylines (not address ground truth)",
       "hms_address_point_count":stats["hms_point_count"],"hms_coordinate_review_counts":{k[7:]:v for k,v in stats.items() if k.startswith("review_")},
       "missing_hms_coordinates":stats["missing_coordinates"],"within_250m_of_topographic_road":stats["within_250m"],
       "farther_than_2000m_from_topographic_road":stats["over_2000m"],"grouped_distance_counts":{k:dict(v) for k,v in sorted(groups.items())},
@@ -179,10 +262,10 @@ def audit(db_path,roads,source):
       "address_location_verified":False,"carrier_deliverability_verified":False,
       "completed_utc":datetime.now(timezone.utc).isoformat()}
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument("--hms-db",required=True,type=Path);p.add_argument("--report",required=True,type=Path);p.add_argument("--osm-pbf",type=Path);p.add_argument("--expected-pbf-sha256")
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument("--hms-db",required=True,type=Path);p.add_argument("--report",required=True,type=Path);p.add_argument("--osm-pbf",type=Path);p.add_argument("--expected-pbf-sha256");p.add_argument("--arcgis",action="store_true")
     args=p.parse_args()
     if args.report.exists():raise ValueError("Never overwrite a previously accepted cross-check report")
-    roads,source=osm_road_lines(args.osm_pbf,args.expected_pbf_sha256) if args.osm_pbf else query_road_lines()
+    roads,source=osm_road_lines(args.osm_pbf,args.expected_pbf_sha256) if args.osm_pbf else (query_road_lines() if args.arcgis else wfs_road_lines())
     report=audit(args.hms_db,roads,source)
     args.report.parent.mkdir(parents=True,exist_ok=True)
     args.report.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
