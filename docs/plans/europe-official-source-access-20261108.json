@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "assessed_date": "2026-11-08",
+  "method": "GitHub Actions public HTTP HEAD/GET probes, no credentials and no access-control bypass",
+  "probe_runs": [
+    "https://github.com/veygrit-sys/world-localities/actions/runs/42423792022",
+    "https://github.com/veygrit-sys/world-localities/actions/runs/42424080821",
+    "https://github.com/veygrit-sys/world-localities/actions/runs/42424385116"
+  ],
+  "countries": {
+    "IT": {
+      "authority": "Agenzia delle Entrate/ISTAT ANNCSU",
+      "official_catalogue": "https://www.dati.gov.it/node/view-dataset/dataset?id=0b846a28-76b1-469a-9445-5ea53f6903a0",
+      "official_distribution": "https://www.anncsu.gov.it/it/consultazione-dellarchivio/open-data/Accedi-ai-servizi-di-dowload-massivo-in-Open-data/",
+      "metadata_license": "CC BY 4.0",
+      "national_street_endpoint": "https://anncsu.open.agenziaentrate.gov.it/age-inspire/opendata/anncsu/getds.php?STRAD_ITA=",
+      "probe_status": "HTTP403_HEAD; HTTP406_GET_REGIONAL_EARLIER",
+      "official_zip_downloaded": false,
+      "verified_official_source_records": 0,
+      "blocker": "Distribution endpoint rejects automated runner; verify publisher-approved user download and legal redistribution"
+    },
+    "RS": {
+      "authority": "Republički geodetski zavod (RGZ)",
+      "official_catalogue": "https://data.gov.rs/sr/datasets/adresni-registar/",
+      "license": "Serbian Open Data License",
+      "exports": [
+        "CSV and GPKG street geometries",
+        "CSV and GPKG house-number geometries"
+      ],
+      "probe_status": "TIMEOUT_BOTH_CSV_HEAD",
+      "official_csv_downloaded": false,
+      "verified_official_source_records": 0,
+      "blocker": "download.geosrbija.rs not responding within bounded GitHub Actions connectivity timeout; contact provider for supported distribution"
+    },
+    "ES": {
+      "authority": "CNIG / Instituto Geográfico Nacional",
+      "official_catalogue": "https://centrodedescargas.cnig.es/CentroDescargas/cartociudad",
+      "official_api": "https://api-features.idee.es/collections/address",
+      "distribution_units": 52,
+      "declared_dataset_format": "GeoPackage by province/territory",
+      "probing_status": "CATALOG_200;DETAIL_200;SELECTIVE_API_200; bulk_handshake_403_previously",
+      "all_official_geopackages_downloaded": false,
+      "verified_official_source_records": 0,
+      "blocker": "Official downloads need approved CNIG distribution handshake; WFS/API selective search is not national bulk"
+    },
+    "IS": {
+      "authority": "Natural Science Institute of Iceland",
+      "official_source": "https://gis.lmi.is/geoserver/IS_50V/ows",
+      "probes": "WFS_GetCapabilities_200; WFS_GeoJSON_EPSG3057_200; 58285 national road features processed",
+      "license": "CC BY 4.0 per source metadata",
+      "full_road_source_records_verified": 58285
+    }
+  },
+  "integration_policy": {
+    "never_treat_http_200_metadata_as_bulk_source_download": true,
+    "do_not_assume_source_unavailable_from_ci_timeout": true,
+    "no_login_ip_captcha_or_consent_bypass": true,
+    "do_not_relabel_partial_ogc_features_as_full_spanish_national_registry": true,
+    "do_not_infer_delivery_from_address_registry": true,
+    "source_ids_and_coordinate_crs_preserved": true,
+    "separate_overlapping_coverage_and_histories": true,
+    "narrow_bounded_retry_and_clear_failure_receipts": true
+  },
+  "open_pr_status_snapshot": {
+    "8": "source catalogue conserved on new branch; old generic code conflicts with main",
+    "29": "RS/ES bulk acquisition blocked, not merged"
+  }
+}

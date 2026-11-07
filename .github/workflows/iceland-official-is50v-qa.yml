@@ -1,0 +1,69 @@
+name: Iceland HMS vs official IS50V spatial verification
+on:
+  push:
+    paths:
+      - scripts/iceland_road_crosscheck.py
+      - tests/test_iceland_road_crosscheck.py
+      - .github/workflows/iceland-official-is50v-qa.yml
+  pull_request:
+    paths:
+      - scripts/iceland_road_crosscheck.py
+      - tests/test_iceland_road_crosscheck.py
+      - .github/workflows/iceland-official-is50v-qa.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  actual-national-geo-crosscheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Install projected geometry libraries and run regression tests
+        run: |
+          python -m pip install 'shapely==2.1.2' 'pyproj==3.7.2'
+          python -m unittest discover -s tests -p test_iceland_road_crosscheck.py -v
+      - name: Retrieve true original official HMS address CSV
+        run: |
+          mkdir -p "$RUNNER_TEMP/hms" reports
+          curl -fLSsS --retry 2 --connect-timeout 25 --max-time 480 \
+            'https://hmsstgsftpprodweu001.blob.core.windows.net/fasteignaskra/Stadfangaskra.csv' \
+            -o "$RUNNER_TEMP/hms/Stadfangaskra.csv"
+          sha256sum "$RUNNER_TEMP/hms/Stadfangaskra.csv" > reports/SOURCE-HMS-SHA256
+          python scripts/hms_iceland_official.py ingest \
+            --input "$RUNNER_TEMP/hms/Stadfangaskra.csv" \
+            --output "$RUNNER_TEMP/hms/hms.sqlite" \
+            --receipt reports/hms-receipt.json
+      - name: Compare all address coordinate points with national IS50V official roads
+        run: |
+          python scripts/iceland_road_crosscheck.py \
+            --hms-db "$RUNNER_TEMP/hms/hms.sqlite" \
+            --report reports/hms-is50v-official-road-distance.json
+          python - <<'PY'
+          import json
+          a=json.load(open('reports/hms-is50v-official-road-distance.json'))
+          h=json.load(open('reports/hms-receipt.json'))
+          assert a['status']=='PASS'
+          assert a['hms_address_point_count']==h['source_point_records']
+          assert a['spatial_reference_source']['official_road_data'] is True
+          assert a['address_location_verified'] is False
+          assert a['carrier_deliverability_verified'] is False
+          print('IS50V_FULL_INDEPENDENT_SPATIAL_CHECK='+json.dumps({
+            'hms_points':a['hms_address_point_count'],
+            'roads':a['spatial_reference_source']['downloaded_feature_count'],
+            '250m':a['within_250m_of_topographic_road'],
+            '2000m_plus':a['farther_than_2000m_from_topographic_road'],
+            'status':a['status']}))
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: iceland-hms-vs-independent-official-is50v-reports
+          path: reports/
+          retention-days: 30
+          if-no-files-found: warn
