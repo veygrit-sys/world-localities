@@ -90,7 +90,7 @@
     {
       "number": 8,
       "scope": "LT LV SI HR AT SE",
-      "stage": "open_needs_rebase_and_scope_review",
+      "stage": "supersession_source_catalog_review_in_progress",
       "data_imported_in_pr": false,
       "reason": "Overlaps later merged Sweden/Nordic/Balkan work; contains source adapter and synthetic tests, no new national official dataset"
     },
@@ -275,6 +275,15 @@
       "stage": "real_official_source_indexed_in_actions",
       "source": "docs/plans/europe-cz-is-it-next-20261108.md",
       "note": "Full 139,795-point official HMS CSV indexed and verified, but complete stable snapshot storage and carrier delivery are not certified."
+    },
+    {
+      "id": "is-is50v-official-geospatial-20261108",
+      "codes": [
+        "IS"
+      ],
+      "stage": "official_cartographic_cross_reference_audited",
+      "source": "docs/plans/iceland-hms-is50v-external-geospatial-audit-20261108.json",
+      "note": "HMS 139,795 source coordinate points compared with IS50V official 58,285 road geometries; distance-only proxy, not true address ground truth or carrier certification."
     }
   ],
   "countries": [
@@ -644,7 +653,8 @@
       "geonames_feature_rows": 439,
       "eurostat_lau_source": false,
       "source_tracks": [
-        "is-hms-official-20261108"
+        "is-hms-official-20261108",
+        "is-is50v-official-geospatial-20261108"
       ],
       "national_current_address_completeness_verified": false,
       "carrier_deliverability_verified": false
