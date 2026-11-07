@@ -4,6 +4,7 @@
 
 | 対象 | 資料 |
 |---|---|
+| **アイスランド地理座標検査** | [HMS住所と独立機関IS50V道路との照合、RS/ES/ITアクセス障害、PR #8整理](europe-unblocking-and-crosscheck-20261108.md)（[集約監査レシート](iceland-hms-is50v-external-geospatial-audit-20261108.json)） |
 | **欧州公式住所・次工程（CZ/IS/IT）** | [チェコ・アイスランドの実取込とイタリアの障害](europe-cz-is-it-next-20261108.md)（[取得・回収証跡](europe-cz-is-it-source-receipts-20261108.json)） |
 | **欧州57国・地域の進捗管理** | [実データ取込・未完了PR・次の作業](europe-current-status-20261108.md)（[国別57行の機械可読台帳](europe-status-20261108.json)） |
 | 公式名称・郵便番号 | [追加設計](enrichment-plan-ja.md) |
