@@ -18,6 +18,10 @@ HMSのTEGHNITは座標種別（0要確認、1概算中心、2主出入口、3敷
 
 代替OSM道路照合も実装しますが、[過去にIceland OSMへHMS住所をインポートした記録](https://wiki.openstreetmap.org/wiki/Staðfangaskrá_Import)があるため、OSMの住所点をHMS住所の完全に独立した真値とはみなしません。
 
+## アイスランド：実際の全件位置照合成果（同日追記）
+
+[Náttúrufræðistofnun IS 50Vの58,285道路地物（58,310道路線）・39 WFSページ](iceland-hms-is50v-external-geospatial-audit-20261108.json)をすべて処理し、HMSの139,795住所点と最近傍道路の投影距離を比較しました。250m以内は130,403点、2km超は715点です。これは独立した**地図との位置整合性の診断**であり、住所真偽の認定ではありません。補助OSMも76,326道路wayとの比較を実施し、250m以内136,842点・2km超410点でした。OSMの住所にはHMS由来のインポートがあるため、真に独立した住所正解とは扱いません。結果は出典別に保持し、混合して一つの検証済み住所数にはしません。
+
 ## イタリアANNCSU：正式配布リンクは確認、現時点で原本未取得
 
 [ANNCSU公式大量配布ページ](https://www.anncsu.gov.it/it/consultazione-dellarchivio/open-data/Accedi-ai-servizi-di-dowload-massivo-in-Open-data/)には全国のStradario（道路名簿）/Indirizzario（番地名簿）と20地域それぞれのZIPへのリンクが掲載されています。[イタリア政府データ目録](https://www.dati.gov.it/node/view-dataset/dataset?id=0b846a28-76b1-469a-9445-5ea53f6903a0)は月次更新・CC BY 4.0を記載しています。
