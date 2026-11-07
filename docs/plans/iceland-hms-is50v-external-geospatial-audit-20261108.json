@@ -32,7 +32,8 @@
     "distance_lte250m": 130403,
     "distance_gt2000m": 715,
     "original_action_run": "https://github.com/veygrit-sys/world-localities/actions/runs/42424483701",
-    "validation_status": "PASS (all 139795 points and 58285 official geometries processed; initial workflow failed at CLI logging only, not the audit)"
+    "validation_status": "PASS: official WFS 58,285 road objects and 139,795 HMS points independently scanned; successful full GitHub Actions run",
+    "verified_successful_action_run": "https://github.com/veygrit-sys/world-localities/actions/runs/42424734533"
   },
   "secondary_osm_reference": {
     "provider": "OpenStreetMap via Geofabrik",
@@ -44,7 +45,9 @@
     "distance_lte250m": 136842,
     "distance_gt2000m": 410,
     "original_action_run": "https://github.com/veygrit-sys/world-localities/actions/runs/42424311721",
-    "provenance_limit": "Icelandic OSM addresses have past HMS Staðfangaskrá import; OSM is not independent address ground truth."
+    "provenance_limit": "Icelandic OSM addresses have past HMS Staðfangaskrá import; OSM is not independent address ground truth.",
+    "verified_successful_action_run": "https://github.com/veygrit-sys/world-localities/actions/runs/42424734536",
+    "validation_status": "PASS: separately sourced OSM road polylines, never an independent address ground truth"
   },
   "interpretation": {
     "distance_to_road_only_not_address_accuracy": true,
