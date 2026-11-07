@@ -1,0 +1,978 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-08",
+  "repository": "veygrit-sys/world-localities",
+  "source_ref": "main @ 6e70d291016812ca00e187ec68d64e8ac3bd0e73",
+  "purpose": "Point-in-time European workflow ledger, not a live registry or nationwide address certificate.",
+  "scope": {
+    "source": "registries/europe/scope.json",
+    "countries_and_territories": 57,
+    "un_m49_europe_codes": 51,
+    "supplemental_codes": [
+      "AM",
+      "AZ",
+      "CY",
+      "GE",
+      "TR",
+      "XK"
+    ],
+    "extra_nordic_greenland_code": "GL is tracked in Nordics but not a member of the 57 Europe scope"
+  },
+  "baseline": {
+    "source": "registries/europe/coverage.csv",
+    "type": "GeoNames features, not addresses",
+    "feature_observations": 1161589,
+    "eurostat_lau_countries": 32,
+    "eurostat_lau_rows": 104687,
+    "geonames_unresolved_parents": 3561,
+    "geonames_country_scope_only": 2786
+  },
+  "accepted_layers": [
+    {
+      "code_group": "AT BE CH FR LI LU NL",
+      "kind": "official_address_source_observations",
+      "observations": 51941346,
+      "source": "releases/hierarchy/western-europe/README.md",
+      "status": "previously_replayed_pinned_snapshots",
+      "note": "Historical records and versions, not a count of distinct current deliverable premises"
+    },
+    {
+      "code_group": "CZ",
+      "kind": "official_address_source_observations",
+      "observations": 3023585,
+      "source_snapshot": "2026-10-31 ČÚZK RÚIAN",
+      "source_member_csv_count": 6258,
+      "source_sha256": "56dc1392033cc6ab21e7f2bafc553c2837d49e62049a60a0f238a0ba83c27877",
+      "pr": 30,
+      "status": "verified_full_source_import_and_sqlite_created",
+      "note": "No independently certified current national completeness; direct GitHub Action artifacts expire"
+    },
+    {
+      "code_group": "RO",
+      "kind": "official_source_derived_administrative_and_settlement_records",
+      "observations": 16978,
+      "source_snapshot": "INS SIRUTA S1 2026 mirror",
+      "pr": 14,
+      "status": "accepted_and_verified",
+      "note": "Not a national building address register"
+    },
+    {
+      "code_group": "PT",
+      "kind": "official_administrative_parish_records",
+      "observations": 3259,
+      "source_snapshot": "DGT CAOP2025",
+      "pr": 16,
+      "status": "accepted_and_verified",
+      "note": "Not street / house numbers"
+    },
+    {
+      "code_group": "DK SE",
+      "kind": "community_osm_evidence_observations",
+      "observations": 4867793,
+      "source": "Geofabrik OSM PBF / ODbL-1.0",
+      "pr": 13,
+      "status": "full_extract_ingestion_verified",
+      "note": "Community observations; not 4.87 million unique addresses or officially valid premises"
+    }
+  ],
+  "open_prs": [
+    {
+      "number": 8,
+      "scope": "LT LV SI HR AT SE",
+      "stage": "open_needs_rebase_and_scope_review",
+      "data_imported_in_pr": false,
+      "reason": "Overlaps later merged Sweden/Nordic/Balkan work; contains source adapter and synthetic tests, no new national official dataset"
+    },
+    {
+      "number": 29,
+      "scope": "RS ES",
+      "stage": "open_blocked_at_remote_source_access",
+      "data_imported_in_pr": false,
+      "reason": "RGZ official CSV timed out in Actions; CNIG provincial GPKG HTTP 403 (52 parts listed). Tests passed; live acquisition checks failed"
+    }
+  ],
+  "quality_interpretation": {
+    "raw_bytes_and_hash_verified_does_not_imply_current_address_existence": true,
+    "community_osm_does_not_imply_official_address": true,
+    "source_rows_must_not_be_added_across_layers": true,
+    "no_general_nationwide_address_completeness_claim": true,
+    "no_general_carrier_delivery_certification": true,
+    "historical_and_current_records_must_remain_separate": true,
+    "territorial_jurisdiction_must_not_be_inferred_from_name": true
+  },
+  "streams": [
+    {
+      "id": "western-official-snapshots",
+      "codes": [
+        "AT",
+        "BE",
+        "CH",
+        "FR",
+        "LI",
+        "LU",
+        "NL"
+      ],
+      "stage": "accepted_source_observations",
+      "source": "releases/hierarchy/western-europe/README.md",
+      "note": "The 51,941,346 aggregate counts historical/versions; neither current unique premises nor deliveries."
+    },
+    {
+      "id": "cz-ruian-national-20261031",
+      "codes": [
+        "CZ"
+      ],
+      "stage": "real_official_address_snapshot_indexed",
+      "source": "https://github.com/veygrit-sys/world-localities/pull/30",
+      "note": "3,023,585 official address observations; 6,258 municipal CSV files; source uses native S-JTSK. Artifact retention is limited."
+    },
+    {
+      "id": "ro-ins-siruta-s1-2026",
+      "codes": [
+        "RO"
+      ],
+      "stage": "accepted_official_admin_localities",
+      "source": "registries/europe/priority-six/README.md",
+      "note": "16,978 county/UAT/locality records; not a street/house-number register."
+    },
+    {
+      "id": "pt-dgt-caop2025",
+      "codes": [
+        "PT"
+      ],
+      "stage": "accepted_official_admin_parishes",
+      "source": "https://github.com/veygrit-sys/world-localities/pull/16",
+      "note": "3,259 parish observations: mainland 3,049, Azores 156, Madeira 54; not street addresses."
+    },
+    {
+      "id": "dk-se-national-osm",
+      "codes": [
+        "DK",
+        "SE"
+      ],
+      "stage": "community_osm_candidate_indexed",
+      "source": "https://github.com/veygrit-sys/world-localities/pull/13",
+      "note": "4,867,793 source observation rows in total; ODbL; not official or unique address count."
+    },
+    {
+      "id": "microstates-six",
+      "codes": [
+        "AD",
+        "LI",
+        "MC",
+        "SM",
+        "VA",
+        "MT"
+      ],
+      "stage": "official_names_plus_osm_candidate",
+      "source": "registries/europe/microstates/README.md",
+      "note": "Official name seed and OSM evidence are distinct layers; not nationally certified address registers."
+    },
+    {
+      "id": "crown-four",
+      "codes": [
+        "JE",
+        "GG",
+        "IM",
+        "GI"
+      ],
+      "stage": "official_names_plus_osm_candidate",
+      "source": "registries/europe/crown-four/README.md",
+      "note": "Jersey/Guernsey OSM extract can contain unassigned entities. Separate postal and territorial jurisdictions."
+    },
+    {
+      "id": "balkan-eleven",
+      "codes": [
+        "RS",
+        "BG",
+        "RO",
+        "HU",
+        "AL",
+        "MK",
+        "ME",
+        "BA",
+        "XK",
+        "HR",
+        "SI"
+      ],
+      "stage": "baseline_audited_and_official_candidate",
+      "source": "registries/europe/balkan-11/README.md",
+      "note": "113,638 GeoNames records audited; RO 2026 SIRUTA counted separately; HR/SI prior PR remains open."
+    },
+    {
+      "id": "eastern-four",
+      "codes": [
+        "MD",
+        "UA",
+        "BY",
+        "RU"
+      ],
+      "stage": "baseline_audited_official_importer_ready",
+      "source": "registries/europe/eastern-four/README.md",
+      "note": "272,110 GeoNames records; Russian country archive spans all Russia, not solely European Russia."
+    },
+    {
+      "id": "es-pt-mt",
+      "codes": [
+        "ES",
+        "PT",
+        "MT"
+      ],
+      "stage": "baseline_audited_official_candidate",
+      "source": "registries/europe/es-pt-mt/README.md",
+      "note": "61,683 baseline GeoNames observations; Portugal CAOP accepted separately."
+    },
+    {
+      "id": "official-source-pr8",
+      "codes": [
+        "LT",
+        "LV",
+        "SI",
+        "HR",
+        "AT",
+        "SE"
+      ],
+      "stage": "open_pr_needs_rebase_review",
+      "source": "https://github.com/veygrit-sys/world-localities/pull/8",
+      "note": "Source adapter only. No new national official bulk file accepted in PR #8."
+    },
+    {
+      "id": "official-bulk-pr29",
+      "codes": [
+        "RS",
+        "ES"
+      ],
+      "stage": "open_pr_blocked_at_source_access",
+      "source": "https://github.com/veygrit-sys/world-localities/pull/29",
+      "note": "Serbia RGZ timed out; Spain CNIG GPKG download HTTP 403; neither official national bulk dataset imported."
+    },
+    {
+      "id": "cz-rs-es-reference",
+      "codes": [
+        "CZ",
+        "RS",
+        "ES"
+      ],
+      "stage": "nationwide_pipeline_documented",
+      "source": "docs/plans/europe-three-official-bulk-20261106.md",
+      "note": "CZ actual completed; RS/ES access blocked. Avoid treating all 3 as imported."
+    }
+  ],
+  "countries": [
+    {
+      "code": "AD",
+      "name": "Andorra",
+      "scope_group": "m49_europe",
+      "region": "Southern Europe",
+      "geonames_feature_rows": 80,
+      "eurostat_lau_source": false,
+      "source_tracks": [
+        "microstates-six"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "AL",
+      "name": "Albania",
+      "scope_group": "m49_europe",
+      "region": "Southern Europe",
+      "geonames_feature_rows": 5174,
+      "eurostat_lau_source": false,
+      "source_tracks": [
+        "balkan-eleven"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "AM",
+      "name": "Armenia",
+      "scope_group": "supplement",
+      "region": "Western Asia",
+      "geonames_feature_rows": 2427,
+      "eurostat_lau_source": false,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "scope_group": "m49_europe",
+      "region": "Western Europe",
+      "geonames_feature_rows": 23601,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "western-official-snapshots",
+        "official-source-pr8"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "AX",
+      "name": "Åland Islands",
+      "scope_group": "m49_europe",
+      "region": "Northern Europe",
+      "geonames_feature_rows": 357,
+      "eurostat_lau_source": false,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "scope_group": "supplement",
+      "region": "Western Asia",
+      "geonames_feature_rows": 5397,
+      "eurostat_lau_source": false,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina",
+      "scope_group": "m49_europe",
+      "region": "Southern Europe",
+      "geonames_feature_rows": 22152,
+      "eurostat_lau_source": false,
+      "source_tracks": [
+        "balkan-eleven"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "BE",
+      "name": "Belgium",
+      "scope_group": "m49_europe",
+      "region": "Western Europe",
+      "geonames_feature_rows": 13334,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "western-official-snapshots"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "BG",
+      "name": "Bulgaria",
+      "scope_group": "m49_europe",
+      "region": "Eastern Europe",
+      "geonames_feature_rows": 10185,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "balkan-eleven"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "BY",
+      "name": "Belarus",
+      "scope_group": "m49_europe",
+      "region": "Eastern Europe",
+      "geonames_feature_rows": 27042,
+      "eurostat_lau_source": false,
+      "source_tracks": [
+        "eastern-four"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "CH",
+      "name": "Switzerland",
+      "scope_group": "m49_europe",
+      "region": "Western Europe",
+      "geonames_feature_rows": 16008,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "western-official-snapshots"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "CY",
+      "name": "Cyprus",
+      "scope_group": "supplement",
+      "region": "Western Asia",
+      "geonames_feature_rows": 1448,
+      "eurostat_lau_source": true,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "CZ",
+      "name": "Czechia",
+      "scope_group": "m49_europe",
+      "region": "Eastern Europe",
+      "geonames_feature_rows": 23064,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "cz-ruian-national-20261031",
+        "cz-rs-es-reference"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "scope_group": "m49_europe",
+      "region": "Western Europe",
+      "geonames_feature_rows": 95177,
+      "eurostat_lau_source": true,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "DK",
+      "name": "Denmark",
+      "scope_group": "m49_europe",
+      "region": "Northern Europe",
+      "geonames_feature_rows": 7404,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "dk-se-national-osm"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "EE",
+      "name": "Estonia",
+      "scope_group": "m49_europe",
+      "region": "Northern Europe",
+      "geonames_feature_rows": 12137,
+      "eurostat_lau_source": true,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "scope_group": "m49_europe",
+      "region": "Southern Europe",
+      "geonames_feature_rows": 39207,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "es-pt-mt",
+        "official-bulk-pr29",
+        "cz-rs-es-reference"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "scope_group": "m49_europe",
+      "region": "Northern Europe",
+      "geonames_feature_rows": 29753,
+      "eurostat_lau_source": true,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "FO",
+      "name": "Faroe Islands",
+      "scope_group": "m49_europe",
+      "region": "Northern Europe",
+      "geonames_feature_rows": 224,
+      "eurostat_lau_source": false,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "scope_group": "m49_europe",
+      "region": "Western Europe",
+      "geonames_feature_rows": 118710,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "western-official-snapshots"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom of Great Britain and Northern Ireland",
+      "scope_group": "m49_europe",
+      "region": "Northern Europe",
+      "geonames_feature_rows": 55594,
+      "eurostat_lau_source": false,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "GE",
+      "name": "Georgia",
+      "scope_group": "supplement",
+      "region": "Western Asia",
+      "geonames_feature_rows": 5519,
+      "eurostat_lau_source": false,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "GG",
+      "name": "Guernsey",
+      "scope_group": "m49_europe",
+      "region": "Northern Europe",
+      "geonames_feature_rows": 274,
+      "eurostat_lau_source": false,
+      "source_tracks": [
+        "crown-four"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "GI",
+      "name": "Gibraltar",
+      "scope_group": "m49_europe",
+      "region": "Southern Europe",
+      "geonames_feature_rows": 10,
+      "eurostat_lau_source": false,
+      "source_tracks": [
+        "crown-four"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "GR",
+      "name": "Greece",
+      "scope_group": "m49_europe",
+      "region": "Southern Europe",
+      "geonames_feature_rows": 16126,
+      "eurostat_lau_source": true,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "HR",
+      "name": "Croatia",
+      "scope_group": "m49_europe",
+      "region": "Southern Europe",
+      "geonames_feature_rows": 12226,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "balkan-eleven",
+        "official-source-pr8"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "HU",
+      "name": "Hungary",
+      "scope_group": "m49_europe",
+      "region": "Eastern Europe",
+      "geonames_feature_rows": 16244,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "balkan-eleven"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "IE",
+      "name": "Ireland",
+      "scope_group": "m49_europe",
+      "region": "Northern Europe",
+      "geonames_feature_rows": 12202,
+      "eurostat_lau_source": true,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "IM",
+      "name": "Isle of Man",
+      "scope_group": "m49_europe",
+      "region": "Northern Europe",
+      "geonames_feature_rows": 67,
+      "eurostat_lau_source": false,
+      "source_tracks": [
+        "crown-four"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "IS",
+      "name": "Iceland",
+      "scope_group": "m49_europe",
+      "region": "Northern Europe",
+      "geonames_feature_rows": 439,
+      "eurostat_lau_source": false,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "scope_group": "m49_europe",
+      "region": "Southern Europe",
+      "geonames_feature_rows": 71583,
+      "eurostat_lau_source": true,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "JE",
+      "name": "Jersey",
+      "scope_group": "m49_europe",
+      "region": "Northern Europe",
+      "geonames_feature_rows": 98,
+      "eurostat_lau_source": false,
+      "source_tracks": [
+        "crown-four"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "LI",
+      "name": "Liechtenstein",
+      "scope_group": "m49_europe",
+      "region": "Western Europe",
+      "geonames_feature_rows": 377,
+      "eurostat_lau_source": false,
+      "source_tracks": [
+        "western-official-snapshots",
+        "microstates-six"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "LT",
+      "name": "Lithuania",
+      "scope_group": "m49_europe",
+      "region": "Northern Europe",
+      "geonames_feature_rows": 21411,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "official-source-pr8"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "LU",
+      "name": "Luxembourg",
+      "scope_group": "m49_europe",
+      "region": "Western Europe",
+      "geonames_feature_rows": 831,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "western-official-snapshots"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "LV",
+      "name": "Latvia",
+      "scope_group": "m49_europe",
+      "region": "Northern Europe",
+      "geonames_feature_rows": 8497,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "official-source-pr8"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "MC",
+      "name": "Monaco",
+      "scope_group": "m49_europe",
+      "region": "Western Europe",
+      "geonames_feature_rows": 32,
+      "eurostat_lau_source": false,
+      "source_tracks": [
+        "microstates-six"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "MD",
+      "name": "Republic of Moldova",
+      "scope_group": "m49_europe",
+      "region": "Eastern Europe",
+      "geonames_feature_rows": 1855,
+      "eurostat_lau_source": false,
+      "source_tracks": [
+        "eastern-four"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "ME",
+      "name": "Montenegro",
+      "scope_group": "m49_europe",
+      "region": "Southern Europe",
+      "geonames_feature_rows": 4066,
+      "eurostat_lau_source": false,
+      "source_tracks": [
+        "balkan-eleven"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "MK",
+      "name": "North Macedonia",
+      "scope_group": "m49_europe",
+      "region": "Southern Europe",
+      "geonames_feature_rows": 2869,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "balkan-eleven"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "MT",
+      "name": "Malta",
+      "scope_group": "m49_europe",
+      "region": "Southern Europe",
+      "geonames_feature_rows": 361,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "microstates-six",
+        "es-pt-mt"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands (Kingdom of the)",
+      "scope_group": "m49_europe",
+      "region": "Western Europe",
+      "geonames_feature_rows": 8277,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "western-official-snapshots"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "scope_group": "m49_europe",
+      "region": "Northern Europe",
+      "geonames_feature_rows": 14305,
+      "eurostat_lau_source": true,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "scope_group": "m49_europe",
+      "region": "Eastern Europe",
+      "geonames_feature_rows": 50935,
+      "eurostat_lau_source": true,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "scope_group": "m49_europe",
+      "region": "Southern Europe",
+      "geonames_feature_rows": 22115,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "pt-dgt-caop2025",
+        "es-pt-mt"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "scope_group": "m49_europe",
+      "region": "Eastern Europe",
+      "geonames_feature_rows": 21482,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "ro-ins-siruta-s1-2026",
+        "balkan-eleven"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "RS",
+      "name": "Serbia",
+      "scope_group": "m49_europe",
+      "region": "Southern Europe",
+      "geonames_feature_rows": 9714,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "balkan-eleven",
+        "official-bulk-pr29",
+        "cz-rs-es-reference"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "RU",
+      "name": "Russian Federation",
+      "scope_group": "m49_europe",
+      "region": "Eastern Europe",
+      "geonames_feature_rows": 206804,
+      "eurostat_lau_source": false,
+      "source_tracks": [
+        "eastern-four"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "scope_group": "m49_europe",
+      "region": "Northern Europe",
+      "geonames_feature_rows": 33003,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "dk-se-national-osm",
+        "official-source-pr8"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "SI",
+      "name": "Slovenia",
+      "scope_group": "m49_europe",
+      "region": "Southern Europe",
+      "geonames_feature_rows": 6876,
+      "eurostat_lau_source": true,
+      "source_tracks": [
+        "balkan-eleven",
+        "official-source-pr8"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "SJ",
+      "name": "Svalbard and Jan Mayen Islands",
+      "scope_group": "m49_europe",
+      "region": "Northern Europe",
+      "geonames_feature_rows": 19,
+      "eurostat_lau_source": false,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "SK",
+      "name": "Slovakia",
+      "scope_group": "m49_europe",
+      "region": "Eastern Europe",
+      "geonames_feature_rows": 8087,
+      "eurostat_lau_source": true,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "SM",
+      "name": "San Marino",
+      "scope_group": "m49_europe",
+      "region": "Southern Europe",
+      "geonames_feature_rows": 33,
+      "eurostat_lau_source": false,
+      "source_tracks": [
+        "microstates-six"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "TR",
+      "name": "Türkiye",
+      "scope_group": "supplement",
+      "region": "Western Asia",
+      "geonames_feature_rows": 57317,
+      "eurostat_lau_source": true,
+      "source_tracks": [],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "scope_group": "m49_europe",
+      "region": "Eastern Europe",
+      "geonames_feature_rows": 36409,
+      "eurostat_lau_source": false,
+      "source_tracks": [
+        "eastern-four"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "VA",
+      "name": "Holy See",
+      "scope_group": "m49_europe",
+      "region": "Southern Europe",
+      "geonames_feature_rows": 1,
+      "eurostat_lau_source": false,
+      "source_tracks": [
+        "microstates-six"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    },
+    {
+      "code": "XK",
+      "name": "Kosovo",
+      "scope_group": "supplement",
+      "region": "Supplement",
+      "geonames_feature_rows": 2650,
+      "eurostat_lau_source": false,
+      "source_tracks": [
+        "balkan-eleven"
+      ],
+      "national_current_address_completeness_verified": false,
+      "carrier_deliverability_verified": false
+    }
+  ]
+}
