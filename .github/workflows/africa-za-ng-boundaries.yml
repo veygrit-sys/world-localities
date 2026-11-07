@@ -1,0 +1,56 @@
+name: Africa official-origin ZA NG boundary intake
+
+on:
+  push:
+    branches: [africa-wave1-wave2-expansion-20261106]
+    paths:
+      - registries/africa/import_extended_boundaries.py
+      - .github/workflows/africa-za-ng-boundaries.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: africa-za-ng-boundary-20261106
+  cancel-in-progress: false
+
+jobs:
+  import-source-years:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Install pinned polygon engine
+        run: python -m pip install shapely==2.1.2
+      - name: Acquire and check original pinned source file hashes
+        run: |
+          python registries/africa/import_extended_boundaries.py
+          python - <<'PY'
+          import json,pathlib,csv
+          d=pathlib.Path("registries/africa/extended-boundaries")
+          data=json.loads((d/"source_receipts.json").read_text())
+          assert data["records"] == 1085
+          assert len(data["sources"]) == 5
+          assert data["official_legal_parent_links_certified"] == 0
+          for key,meta in data["sources"].items():
+              with (d/(key+"-source-units.csv")).open(encoding="utf-8",newline="") as f:
+                  rows=list(csv.DictReader(f))
+              assert len(rows)==meta["rows"]
+          print("Pinned source-layer records:",data["records"])
+          PY
+      - name: Commit derived source-unit tables to review branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add registries/africa/extended-boundaries/
+          if ! git diff --cached --quiet; then
+            git commit -m "data(africa): add dated ZA province/municipality and NGA state/LGA source layers"
+            git pull --rebase origin africa-wave1-wave2-expansion-20261106
+            git push origin HEAD:africa-wave1-wave2-expansion-20261106
+          fi
