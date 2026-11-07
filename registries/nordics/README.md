@@ -6,6 +6,8 @@ The canonical `registries/europe/` GeoNames and LAU data are reused, not copied;
 
 **実取得の追加（2026-11-08）:** [HMSアイスランドStaðfangaskráの公式CSV 139,795住所点をGitHub Actionsで全件SQLite索引に変換・検証](../../docs/plans/europe-cz-is-it-next-20261108.md)。HNITNUMとHEINUMは異なる識別子。成果物の永続保存・下流の再配布権限・配達可能性は未検証のため、保存済みGeoNamesや他の公式源泉と合算しません。
 
+**追加の2026-11-08地理検査：** [別の政府機関が整備するIS50V公式道路58,285地物とHMS住所点139,795点を全件照合](../../docs/plans/europe-unblocking-and-crosscheck-20261108.md)。この検査は地図位置の妥当性を測る参考情報であり、個々の住居・郵便・配達可能性を認定しません。
+
 ## Commands (Python 3.11+, no dependencies)
 
 ```bash
