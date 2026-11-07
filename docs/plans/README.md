@@ -4,6 +4,7 @@
 
 | 対象 | 資料 |
 |---|---|
+| **欧州57国・地域の進捗管理** | [実データ取込・未完了PR・次の作業](europe-current-status-20261108.md)（[国別57行の機械可読台帳](europe-status-20261108.json)） |
 | 公式名称・郵便番号 | [追加設計](enrichment-plan-ja.md) |
 | 日本 | [行政区・道路・番地の完全網羅に向けた計画](japan-complete-coverage-plan-ja.md) |
 | 中央アジア | [拡充記録・計画](central-asia-enrichment-20261015.md) |
