@@ -24,6 +24,8 @@ jobs:
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
           python-version: '3.11'
+      - name: Run HMS source and snapshot safety tests
+        run: python -m unittest discover -s tests -p 'test_hms_iceland_official.py' -v
       - name: Download actual official HMS address CSV
         run: |
           mkdir -p "$RUNNER_TEMP/iceland" report
@@ -57,6 +59,28 @@ jobs:
                  'nonblank_counts':dict(nonblank),'official_delivery_verified':False}
           print('REAL_HMS_SOURCE_AUDIT='+json.dumps(result,ensure_ascii=False))
           Path('report/iceland-source-audit.json').write_text(json.dumps(result,indent=2,ensure_ascii=False))
+          PY
+      - name: Build full national HMS SQLite index and verify independently
+        run: |
+          python scripts/hms_iceland_official.py ingest \
+            --input "$RUNNER_TEMP/iceland/Stadfangaskra.csv" \
+            --output "$RUNNER_TEMP/iceland/is-hms-address-points.sqlite" \
+            --receipt report/iceland-index-receipt.json > report/index-cli-result.json
+          python scripts/hms_iceland_official.py verify \
+            --db "$RUNNER_TEMP/iceland/is-hms-address-points.sqlite" \
+            --receipt report/iceland-index-receipt.json > report/index-verify.json
+          python - <<'PY'
+          import json
+          probe=json.load(open('report/iceland-source-audit.json'))
+          index=json.load(open('report/iceland-index-receipt.json'))
+          check=json.load(open('report/index-verify.json'))
+          assert probe['rows']==index['source_point_records']==check['source_point_records']
+          assert probe['sha256']==index['source_sha256']
+          assert probe['duplicate_hnitnum']==probe['missing_hnitnum']==0
+          assert index['deliverability_verified'] is False
+          print("REAL_HMS_INDEX=",json.dumps({'source_rows':check['source_point_records'],
+            'distinct_address_ids':check['distinct_source_address_ids'],
+            'sha256':index['source_sha256'],'status':check['status']}))
           PY
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
