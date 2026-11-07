@@ -269,7 +269,8 @@ def main():
     report=audit(args.hms_db,roads,source)
     args.report.parent.mkdir(parents=True,exist_ok=True)
     args.report.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    road_count=source.get("downloaded_feature_count",source.get("read_road_features",source.get("source_road_ways")))
     print(json.dumps({"status":report["status"],"hms_points":report["hms_address_point_count"],
-      "road_features":source["read_road_features"],"within_250m":report["within_250m_of_topographic_road"],
+      "road_features":road_count,"within_250m":report["within_250m_of_topographic_road"],
       "over_2000m":report["farther_than_2000m_from_topographic_road"]},ensure_ascii=False))
 if __name__=="__main__":main()
