@@ -1,0 +1,104 @@
+name: Europe HMS Iceland and ANNCSU discovery
+on:
+  push:
+    paths:
+      - .github/workflows/official-europe-20261108.yml
+      - scripts/hms_iceland_official.py
+      - tests/test_hms_iceland_official.py
+  pull_request:
+    paths:
+      - .github/workflows/official-europe-20261108.yml
+      - scripts/hms_iceland_official.py
+      - tests/test_hms_iceland_official.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  iceland-actual-source-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Run HMS source and snapshot safety tests
+        run: python -m unittest discover -s tests -p 'test_hms_iceland_official.py' -v
+      - name: Download actual official HMS address CSV
+        run: |
+          mkdir -p "$RUNNER_TEMP/iceland" report
+          curl -fLSsS --retry 2 --connect-timeout 25 --max-time 480 \
+            'https://hmsstgsftpprodweu001.blob.core.windows.net/fasteignaskra/Stadfangaskra.csv' \
+            -o "$RUNNER_TEMP/iceland/Stadfangaskra.csv"
+      - name: Inspect complete actual source schema and identifiers
+        run: |
+          python - <<'PY'
+          import csv,hashlib,json,os,collections
+          from pathlib import Path
+          p=Path(os.environ['RUNNER_TEMP'])/'iceland/Stadfangaskra.csv'
+          sha=hashlib.sha256(p.read_bytes()).hexdigest()
+          counts=collections.Counter(); nonblank=collections.Counter(); seen=set(); dup=0
+          with p.open(encoding='utf-8-sig',newline='') as f:
+              reader=csv.DictReader(f)
+              fields=reader.fieldnames
+              for row in reader:
+                  counts['rows']+=1
+                  if None in row: raise ValueError('bad CSV row')
+                  for k in fields:
+                      if row[k]:nonblank[k]+=1
+                  key=row.get('HNITNUM','')
+                  if key and key in seen:dup+=1
+                  if key:seen.add(key)
+                  if not key:counts['missing_HNITNUM']+=1
+                  if not row.get('HEINUM',''):counts['missing_HEINUM']+=1
+          result={'source':'HMS Staðfangaskrá','status':'real_csv_inspected','bytes':p.stat().st_size,
+                 'sha256':sha,'headers':fields,'rows':counts['rows'],'duplicate_hnitnum':dup,
+                 'missing_hnitnum':counts['missing_HNITNUM'],'missing_heinum':counts['missing_HEINUM'],
+                 'nonblank_counts':dict(nonblank),'official_delivery_verified':False}
+          print('REAL_HMS_SOURCE_AUDIT='+json.dumps(result,ensure_ascii=False))
+          Path('report/iceland-source-audit.json').write_text(json.dumps(result,indent=2,ensure_ascii=False))
+          PY
+      - name: Build full national HMS SQLite index and verify independently
+        run: |
+          python scripts/hms_iceland_official.py ingest \
+            --input "$RUNNER_TEMP/iceland/Stadfangaskra.csv" \
+            --output "$RUNNER_TEMP/iceland/is-hms-address-points.sqlite" \
+            --receipt report/iceland-index-receipt.json > report/index-cli-result.json
+          python scripts/hms_iceland_official.py verify \
+            --db "$RUNNER_TEMP/iceland/is-hms-address-points.sqlite" \
+            --receipt report/iceland-index-receipt.json > report/index-verify.json
+          python - <<'PY'
+          import json
+          probe=json.load(open('report/iceland-source-audit.json'))
+          index=json.load(open('report/iceland-index-receipt.json'))
+          check=json.load(open('report/index-verify.json'))
+          assert probe['rows']==index['source_point_records']==check['source_point_records']
+          assert probe['sha256']==index['source_sha256']
+          assert probe['duplicate_hnitnum']==probe['missing_hnitnum']==0
+          assert index['deliverability_verified'] is False
+          print("REAL_HMS_INDEX=",json.dumps({'source_rows':check['source_point_records'],
+            'distinct_address_ids':check['distinct_source_address_ids'],
+            'sha256':index['source_sha256'],'status':check['status']}))
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: iceland-hms-source-schema-and-integrity-only
+          path: report/
+          retention-days: 14
+  italy-official-download-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Official ANNCSU endpoints - access diagnosis without bypass
+        run: |
+          python - <<'PY'
+          import urllib.request, urllib.error, json
+          u='https://anncsu.open.agenziaentrate.gov.it/age-inspire/opendata/anncsu/getds.php?STRAD_ABRU='
+          try:
+              with urllib.request.urlopen(urllib.request.Request(u,headers={'User-Agent':'VeygritOfficialSourceAudit/1.0'}),timeout=25) as r:
+                  print('ANNCSU_ACCESS='+json.dumps({'status':r.status,'content_type':r.headers.get('Content-Type'), 'length':r.headers.get('Content-Length'),'data_imported':False}))
+          except Exception as exc:
+              print('ANNCSU_ACCESS='+json.dumps({'status':'blocked_or_unavailable','error':type(exc).__name__, 'details':str(exc)[:200],'data_imported':False}))
+          PY

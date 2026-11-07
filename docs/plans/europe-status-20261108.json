@@ -73,6 +73,17 @@
       "pr": 13,
       "status": "full_extract_ingestion_verified",
       "note": "Community observations; not 4.87 million unique addresses or officially valid premises"
+    },
+    {
+      "code_group": "IS",
+      "kind": "official_hms_address_coordinate_points",
+      "observations": 139795,
+      "distinct_address_ids": 137624,
+      "source": "HMS Staðfangaskrá (weekly public CSV)",
+      "source_sha256": "561e8ea2be420a797e13cf50229619b87c00984ebdc4f931ab0b5a78bc25bff5",
+      "evidence_run": "https://github.com/veygrit-sys/world-localities/actions/runs/42418793252",
+      "status": "real_official_national_csv_indexed_in_ci_no_dataset_republication",
+      "note": "139,795 coordinate-point IDs, not 139,795 unique addresses; 100,168 coordinate review status 0. Snapshot index not yet permanently archived; no downstream redistribution rights verified."
     }
   ],
   "open_prs": [
@@ -255,6 +266,15 @@
       "stage": "nationwide_pipeline_documented",
       "source": "docs/plans/europe-three-official-bulk-20261106.md",
       "note": "CZ actual completed; RS/ES access blocked. Avoid treating all 3 as imported."
+    },
+    {
+      "id": "is-hms-official-20261108",
+      "codes": [
+        "IS"
+      ],
+      "stage": "real_official_source_indexed_in_actions",
+      "source": "docs/plans/europe-cz-is-it-next-20261108.md",
+      "note": "Full 139,795-point official HMS CSV indexed and verified, but complete stable snapshot storage and carrier delivery are not certified."
     }
   ],
   "countries": [
@@ -623,7 +643,9 @@
       "region": "Northern Europe",
       "geonames_feature_rows": 439,
       "eurostat_lau_source": false,
-      "source_tracks": [],
+      "source_tracks": [
+        "is-hms-official-20261108"
+      ],
       "national_current_address_completeness_verified": false,
       "carrier_deliverability_verified": false
     },
