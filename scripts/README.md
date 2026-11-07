@@ -38,6 +38,7 @@ python -m localities layout
 | 欧州ミニ国家6か国 | [europe_microstates.py](europe_microstates.py)（[出典・取込・品質管理](../registries/europe/microstates/README.md)） |
 | バルカン・中東欧11か国 | [balkan_11_localities.py](balkan_11_localities.py)（[国別の検証・出典管理](../registries/europe/balkan-11/README.md)） |
 | 東欧4か国（MD・UA・BY・RU） | [eastern_four_localities.py](eastern_four_localities.py)（[保存済み原典と公式候補の出典管理](../registries/europe/eastern-four/README.md)） |
+| アイスランド公式HMS住所点 | [hms_iceland_official.py](hms_iceland_official.py)（[実データ監査](../docs/plans/europe-cz-is-it-next-20261108.md)） |
 | 北欧9地域 | [nordic_localities.py](nordic_localities.py)（[国別資料](../registries/nordics/README.md)） |
 | オランダ | [netherlands_bag.py](netherlands_bag.py)、[netherlands_reference_review.py](netherlands_reference_review.py)、[netherlands_gap_review.py](netherlands_gap_review.py) |
 | 台湾 | [tw_nlsc_reference.py](tw_nlsc_reference.py) |
