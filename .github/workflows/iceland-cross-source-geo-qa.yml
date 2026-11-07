@@ -1,0 +1,80 @@
+name: Iceland HMS vs separate-source road geometry QA
+on:
+  push:
+    paths:
+      - scripts/iceland_road_crosscheck.py
+      - tests/test_iceland_road_crosscheck.py
+      - .github/workflows/iceland-cross-source-geo-qa.yml
+  pull_request:
+    paths:
+      - scripts/iceland_road_crosscheck.py
+      - tests/test_iceland_road_crosscheck.py
+      - .github/workflows/iceland-cross-source-geo-qa.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compare-hms-to-osm-roads:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Install pinned independent spatial QA libraries
+        run: python -m pip install 'shapely==2.1.2' 'pyproj==3.7.2' 'osmium==4.3.0'
+      - name: Run cross-source coordinate safety regression
+        run: python -m unittest discover -s tests -p test_iceland_road_crosscheck.py -v
+      - name: Obtain actual HMS CSV and separate Geofabrik OSM PBF
+        run: |
+          mkdir -p "$RUNNER_TEMP/qa" reports
+          curl -fLSsS --retry 2 --connect-timeout 25 --max-time 480 \
+            'https://hmsstgsftpprodweu001.blob.core.windows.net/fasteignaskra/Stadfangaskra.csv' \
+            -o "$RUNNER_TEMP/qa/Stadfangaskra.csv"
+          curl -fLSsS --retry 2 --connect-timeout 25 --max-time 480 \
+            'https://download.geofabrik.de/europe/iceland-latest.osm.pbf' \
+            -o "$RUNNER_TEMP/qa/iceland-latest.osm.pbf"
+          sha256sum "$RUNNER_TEMP/qa/"* > reports/SOURCE_SHA256SUMS
+      - name: Build full HMS SQLite and audit against Iceland OSM road geometry
+        run: |
+          python scripts/hms_iceland_official.py ingest \
+            --input "$RUNNER_TEMP/qa/Stadfangaskra.csv" \
+            --output "$RUNNER_TEMP/qa/hms.sqlite" \
+            --receipt reports/hms-receipt.json
+          python scripts/hms_iceland_official.py verify \
+            --db "$RUNNER_TEMP/qa/hms.sqlite" \
+            --receipt reports/hms-receipt.json > reports/hms-verify.json
+          osm_hash="$(sha256sum "$RUNNER_TEMP/qa/iceland-latest.osm.pbf" | cut -d' ' -f1)"
+          python scripts/iceland_road_crosscheck.py \
+            --hms-db "$RUNNER_TEMP/qa/hms.sqlite" \
+            --osm-pbf "$RUNNER_TEMP/qa/iceland-latest.osm.pbf" \
+            --expected-pbf-sha256 "$osm_hash" \
+            --report reports/is-osm-road-distance-audit.json
+          python - <<'PY'
+          import json
+          a=json.load(open('reports/is-osm-road-distance-audit.json'))
+          b=json.load(open('reports/hms-receipt.json'))
+          assert a['hms_address_point_count']==b['source_point_records']
+          assert a['status']=='PASS'
+          assert a['carrier_deliverability_verified'] is False
+          assert a['address_location_verified'] is False
+          assert a['spatial_reference_source']['official_road_data'] is False
+          assert sum(a['hms_coordinate_review_counts'].values())==a['hms_address_point_count']
+          print('ICELAND_EXTERNAL_ROAD_AUDIT='+json.dumps({
+            'hms_points':a['hms_address_point_count'],
+            'road_ways':a['spatial_reference_source']['source_road_ways'],
+            'near_250m':a['within_250m_of_topographic_road'],
+            'far_2000m':a['farther_than_2000m_from_topographic_road'],
+            'status':a['status'],'not_independent_ground_truth':True}))
+          PY
+      - name: Publish non-sensitive QA reports only
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: iceland-hms-vs-osm-road-spatial-quality-20261108
+          path: reports/
+          retention-days: 30
+          if-no-files-found: warn
