@@ -1,0 +1,28 @@
+{
+  "by_type": {
+    "city": 38,
+    "hamlet": 528,
+    "locality": 702,
+    "neighbourhood": 324,
+    "quarter": 104,
+    "suburb": 4648,
+    "town": 710,
+    "village": 1292
+  },
+  "country": "ZA",
+  "derived_bytes": 175276,
+  "derived_file": "place-nodes.csv.gz",
+  "derived_sha256": "9f7afb292883af04da5f54a093329f46b9c506bd838244e26239c95f2a434ffc",
+  "features_included": "named place nodes only; not ways/relations, streets, housenumbers or postal addresses",
+  "geofabrik_contributor_metadata_excluded": true,
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "official_admin_parent_verified": false,
+  "original_source_namespace": "osm:node:",
+  "place_node_rows": 8346,
+  "postal_address_or_delivery_verified": false,
+  "source_bytes": 423834513,
+  "source_license": "Open Database License 1.0 (ODbL)",
+  "source_md5": "58ad981560d26e70d3b70af014c4eb54",
+  "source_sha256": "6aefd2ad03704f6850215749dd368fc8c5aeb2db800402efc06a3bfeb5572fe0",
+  "source_url": "https://download.geofabrik.de/africa/south-africa-latest.osm.pbf"
+}

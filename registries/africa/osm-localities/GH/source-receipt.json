@@ -1,0 +1,28 @@
+{
+  "by_type": {
+    "city": 14,
+    "hamlet": 1664,
+    "locality": 71,
+    "neighbourhood": 131,
+    "quarter": 26,
+    "suburb": 607,
+    "town": 545,
+    "village": 6198
+  },
+  "country": "GH",
+  "derived_bytes": 194777,
+  "derived_file": "place-nodes.csv.gz",
+  "derived_sha256": "e3299fe432871d3c75ebc392d7cf93e16414588cd5fa32940faa42e600576b30",
+  "features_included": "named place nodes only; not ways/relations, streets, housenumbers or postal addresses",
+  "geofabrik_contributor_metadata_excluded": true,
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "official_admin_parent_verified": false,
+  "original_source_namespace": "osm:node:",
+  "place_node_rows": 9256,
+  "postal_address_or_delivery_verified": false,
+  "source_bytes": 116909822,
+  "source_license": "Open Database License 1.0 (ODbL)",
+  "source_md5": "4c39987816a9eb88be3c47d574536274",
+  "source_sha256": "4e59d19d3639b4663da8c854f749c218dfc48f96b17e44117d350f48020a02f1",
+  "source_url": "https://download.geofabrik.de/africa/ghana-latest.osm.pbf"
+}

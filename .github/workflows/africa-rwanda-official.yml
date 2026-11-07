@@ -1,0 +1,54 @@
+name: Africa Rwanda NISR official villages 2022
+
+on:
+  push:
+    branches: [africa-wave1-wave2-expansion-20261106]
+    paths:
+      - registries/africa/import_rwanda_nisr_2022.py
+      - .github/workflows/africa-rwanda-official.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: africa-rwanda-official-villages-2022
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Ingest and verify official village hierarchy (no personal data)
+        run: |
+          python registries/africa/import_rwanda_nisr_2022.py
+          python - <<'PY'
+          import csv, json, pathlib
+          p=pathlib.Path("registries/africa/official-references/RW-NISR-2022-villages.csv")
+          with p.open(encoding="utf-8",newline="") as f:
+              rows=list(csv.DictReader(f))
+          assert 13000 <= len(rows) <= 17000
+          assert len(set(r["village_id"] for r in rows)) == len(rows)
+          meta=json.loads(p.with_suffix(".source.json").read_text())
+          assert meta["record_count"] == len(rows)
+          assert not meta["original_geonames_changed"]
+          print("NISR hierarchy record count:",len(rows))
+          PY
+      - name: Commit source-labelled CSV to review branch only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add registries/africa/official-references/RW-NISR-2022-villages.csv
+          git add registries/africa/official-references/RW-NISR-2022-villages.source.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data(africa): add 2022 Rwanda NISR village administrative IDs"
+            git pull --rebase origin africa-wave1-wave2-expansion-20261106
+            git push origin HEAD:africa-wave1-wave2-expansion-20261106
+          fi

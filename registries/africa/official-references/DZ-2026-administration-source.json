@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "source_repository": "islam-re/Algeria-wilayas",
+  "source_commit": "bfb29814117d11a6a101fa07c38911f6675b748b",
+  "source_json_path": "json/wilaya-commune/wilaya-commune.json",
+  "source_git_blob_sha": "1aba9bc954bf43328ca54081f0448f613b72604e",
+  "secondary_ref": "https://github.com/islam-re/Algeria-wilayas",
+  "original_law": "Law 26-06 dated 2026-04-04, Journal officiel 25 published 2026-04-05",
+  "official_update_verification": "11 provinces 59-69 cross-checked with recorded government decree 26-206 reference (seats and codes), municipality membership has not been independently replayed against PDF page by page",
+  "license": "MIT repository (source dataset); official gazette is reference, not redistributed",
+  "wilayas": 69,
+  "communes": 1541,
+  "commune_source_row_order_is_official_code": false,
+  "source_year": 2026,
+  "current_carrier_operational_boundaries_verified": false,
+  "source_geonames_modified": false,
+  "territory_status_claim": false,
+  "delivery_verified": false
+}

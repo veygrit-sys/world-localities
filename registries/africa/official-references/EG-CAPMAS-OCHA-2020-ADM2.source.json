@@ -1,0 +1,13 @@
+{
+  "source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/EGY/ADM2/geoBoundaries-EGY-ADM2.geojson",
+  "source_sha256": "d5a319adf69ea1179d7ba5462600c72ea9c54f46b762ffcf984a03c692b913a9",
+  "source_bytes": 7981864,
+  "source_year": 2020,
+  "source_original": "OCHA ROMENA / CAPMAS, via geoBoundaries",
+  "original_license": "CC BY 3.0 IGO",
+  "count": 365,
+  "derived_csv_sha256": "916d73ee9b1274dea844e567ec275095fdd053d19227ea9f78aa38960cce3b88",
+  "derived_csv_bytes": 46921,
+  "legal_current_parent_ids_verified": false,
+  "postcode_or_delivery_verified": false
+}

@@ -1,0 +1,18 @@
+{
+  "claimed_license": "NISR public open-data service; confirm redistribution terms",
+  "current_legal_parent_links_certified": false,
+  "derived_csv_bytes": 1214568,
+  "derived_csv_sha256": "ad5e85d2a1a76c260de5899634d19a2d953135d0a939db36c26e7d5afa669133",
+  "distinct_cells": 2148,
+  "distinct_districts": 30,
+  "distinct_provinces": 5,
+  "distinct_sectors": 416,
+  "distinct_villages": 14823,
+  "original_geonames_changed": false,
+  "postal_address_deliverability_verified": false,
+  "record_count": 14823,
+  "source_authority": "National Institute of Statistics of Rwanda",
+  "source_layer": "Village Boundary 2022 (Open Data)",
+  "source_url": "https://gis-server.statistics.gov.rw/server/rest/services/Hosted/Village_Boundary_2022/FeatureServer/3",
+  "source_year": 2022
+}
