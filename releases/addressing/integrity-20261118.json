@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-18",
+  "base_commit": "a59ad41bca5ed2336dbc9923173f5dad303ce89d",
+  "scope": "Shared rendering, localized identity consistency and validation-result contracts",
+  "environment": {
+    "python": "3.12.14",
+    "osmium": "4.3.2",
+    "shapely": "2.2.0",
+    "pyproj": "3.7.2",
+    "jsonschema": "4.26.0"
+  },
+  "checks": [
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py' -v",
+      "discovered": 1050,
+      "passed": 1043,
+      "skipped": 7,
+      "skip_reason": "Optional pyproj was absent during this run; the seven Iceland checks were subsequently run with it installed.",
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_iceland_road_crosscheck.py' -v",
+      "passed": 7,
+      "skipped": 0,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "command": "python -m unittest discover -s hierarchy-tests -p 'test_*.py'",
+      "passed": 247,
+      "skipped": 0,
+      "failures": 0,
+      "errors": 0
+    },
+    {"command": "python -m addressing verify", "status": "passed", "country_profiles": 251, "locale_profiles": 558},
+    {"command": "python -m localities country validate-catalog", "status": "passed", "countries": 250},
+    {"command": "python -m localities layout", "status": "passed"},
+    {"command": "git diff --check", "status": "passed"}
+  ],
+  "new_regression_tests": 34,
+  "unique_test_cases_passed_across_runs": 1297,
+  "claims_not_measured": [
+    "Real-address validation or translation accuracy",
+    "Nationwide completeness and current source freshness",
+    "Evidence authenticity and actual carrier deliverability",
+    "Live Alibaba Cloud integration or model training"
+  ]
+}

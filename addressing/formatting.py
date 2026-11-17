@@ -79,13 +79,17 @@ def _expand_value(template: str, values: Mapping[str, str]) -> str:
 
 
 def _subpremise(values: Mapping[str, str]) -> str:
-    if values.get("address_line2"):
-        return values["address_line2"]
-    if values.get("subpremise"):
-        return values["subpremise"]
-    return " ".join(
+    # Opaque Address2 text cannot be assumed to contain the separately supplied
+    # floor or unit. Preserve all supplied details without parsing or translating
+    # them. Only the two opaque slots may be collapsed when exactly identical;
+    # floor=2 and unit=2 must remain two independently supplied values.
+    parts = [values[key] for key in ("address_line2", "subpremise") if values.get(key)]
+    if len(parts) == 2 and parts[0] == parts[1]:
+        parts.pop()
+    parts.extend(
         values[key] for key in ("block", "entrance", "floor", "unit") if values.get(key)
     )
+    return " ".join(parts)
 
 
 def _normalize_postcode(
@@ -154,6 +158,7 @@ def render_address(
     )
     values = dict(canonical.values)
     warnings: list[str] = []
+    handled_aliases: dict[str, str] = {}
     supplied_country = values.get("country_code")
     if supplied_country and supplied_country != profile.country_code:
         raise ValueError("component country_code does not match selected profile")
@@ -162,11 +167,23 @@ def render_address(
         # address-formatting historically names the addressee slot "attention".
         # Preserve the clearer public component without dropping it.
         values["attention"] = values["recipient"]
+        handled_aliases["recipient"] = "attention"
+    elif values.get("recipient") == values.get("attention"):
+        handled_aliases["recipient"] = "attention"
     if values.get("address_line1") and not any(
         values.get(key) for key in ("road", "house_number", "house")
     ):
         values["road"] = values["address_line1"]
+        handled_aliases["address_line1"] = "road"
         warnings.append("opaque_address_line1_rendered_in_delivery_line")
+    elif values.get("address_line1") == values.get("road"):
+        handled_aliases["address_line1"] = "road"
+    subpremise_keys = ("address_line2", "subpremise", "block", "entrance", "floor", "unit")
+    supplied_subpremise_keys = [key for key in subpremise_keys if values.get(key)]
+    if (any(key in values for key in ("address_line2", "subpremise"))
+            and len(supplied_subpremise_keys) > 1):
+        warnings.append("combined_subpremise_components")
+    handled_aliases.update({key: "subpremise" for key in supplied_subpremise_keys})
     values["subpremise"] = _subpremise(values)
     _add_components(values, profile.config.get("add_component"))
     _apply_component_replacements(values, profile.config.get("replace", []))
@@ -177,10 +194,16 @@ def render_address(
             if value
         )
     )
-    if values.get("state") and not values.get("state_code"):
+    if values.get("state"):
         state_code = registry.subdivision_code(code_countries, values["state"])
-        if state_code:
+        if state_code and not values.get("state_code"):
             values["state_code"] = state_code
+            handled_aliases["state"] = "state_code"
+        elif values.get("state_code"):
+            if values["state"] == values["state_code"] or state_code == values["state_code"]:
+                handled_aliases["state"] = "state_code"
+            elif state_code:
+                warnings.append("conflicting_state_and_state_code")
     if values.get("county") and not values.get("county_code"):
         county_code = registry.subdivision_code(
             code_countries, values["county"], kind="county"
@@ -207,16 +230,6 @@ def render_address(
     lines = _clean_lines(rendered)
     if canonical.extras:
         warnings.append("unrendered_extra_components")
-    handled_aliases = {
-        "address_line1": "road",
-        "address_line2": "subpremise",
-        "block": "subpremise",
-        "entrance": "subpremise",
-        "floor": "subpremise",
-        "recipient": "attention",
-        "state": "state_code",
-        "unit": "subpremise",
-    }
     unrendered = {
         key: value
         for key, value in canonical.values.items()

@@ -212,7 +212,7 @@ class ValidationContract(unittest.TestCase):
             confidence=0.99,
             components={"country_code": "JP"},
             evidence=(
-                {"evidence_type": "postal_operator", "source_id": "example"},
+                {"evidence_type": "postal_operator", "source_id": "example", "reference": "test-only:lookup-1"},
             ),
             location_precision=LocationPrecision.ENTRANCE,
         )
