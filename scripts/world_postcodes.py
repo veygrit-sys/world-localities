@@ -24,6 +24,23 @@ from localities.postal import (
     verify_postal_catalog,
 )
 
+JAPAN_POST_ARCHIVES = {
+    "/service/search/zipcode/download/utf/zip/utf_ken_all.zip": "japanpost_utf_zip",
+    "/service/search/zipcode/download/office/zip/jigyosyo.zip": "japanpost_business_zip",
+}
+
+
+def approved_archive_url(url: str, source_format: str) -> bool:
+    parsed = urlparse(url)
+    if parsed.scheme != "https" or parsed.query or parsed.fragment:
+        return False
+    if parsed.netloc == "download.geonames.org":
+        return source_format == "geonames_tsv_zip" and bool(re.fullmatch(
+            r"/export/zip/(?:allCountries|[A-Z]{2}(?:_full\.csv)?)\.zip", parsed.path
+        ))
+    return (parsed.netloc == "www.post.japanpost.jp"
+            and JAPAN_POST_ARCHIVES.get(parsed.path) == source_format)
+
 
 def write_json(path: Path, value: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -41,7 +58,7 @@ def write_json(path: Path, value: object) -> None:
 
 
 def capture_sources(root: Path = ROOT) -> list[dict[str, object]]:
-    """Download only named, hash-pinned GeoNames files; retain existing snapshots."""
+    """Download only named, hash-pinned public files; retain existing snapshots."""
     results = []
     for source in load_sources(root)["sources"]:
         if "download_url" not in source:
@@ -49,11 +66,8 @@ def capture_sources(root: Path = ROOT) -> list[dict[str, object]]:
         if PurePosixPath(source["path"]).parts[:2] != ("postal", "sources"):
             raise ValueError("capture destination must be inside postal/sources")
         url = source["download_url"]
-        parsed = urlparse(url)
-        if (parsed.scheme != "https" or parsed.netloc != "download.geonames.org"
-                or parsed.query or parsed.fragment
-                or not re.fullmatch(r"/export/zip/(?:allCountries|[A-Z]{2}(?:_full\.csv)?)\.zip", parsed.path)):
-            raise ValueError("capture URL is not an approved GeoNames postal archive")
+        if not approved_archive_url(url, source["format"]):
+            raise ValueError("capture URL is not an approved postal archive")
         relative = PurePosixPath(source["path"])
         target = (root / relative).resolve()
         if (relative.parts[:2] != ("postal", "sources")
@@ -74,8 +88,7 @@ def capture_sources(root: Path = ROOT) -> list[dict[str, object]]:
                 temporary = Path(stream.name)
                 with urlopen(Request(url, headers={"User-Agent": "WorldLocalities-PostalCapture/1.0"}),
                              timeout=60) as response:
-                    final = urlparse(response.geturl())
-                    if final.scheme != "https" or final.netloc != "download.geonames.org":
+                    if response.geturl() != url:
                         raise ValueError("unapproved postal archive redirect")
                     while block := response.read(1024 * 1024):
                         size += len(block)
@@ -110,6 +123,7 @@ def main() -> None:
     lookup.add_argument("--limit", type=int, default=20)
     lookup.add_argument("--offset", type=int, default=0)
     lookup.add_argument("--include-partial", action="store_true")
+    lookup.add_argument("--include-historical", action="store_true")
     args = parser.parse_args()
     root = args.root.resolve()
     try:
@@ -125,7 +139,8 @@ def main() -> None:
             result = json.loads((root / "postal/catalog.json").read_text(encoding="utf-8"))["summary"]
         else:
             result = lookup_postcode(args.country, args.code, root=root, limit=args.limit,
-                                     offset=args.offset, include_partial=args.include_partial)
+                                     offset=args.offset, include_partial=args.include_partial,
+                                     include_historical=args.include_historical)
         print(json.dumps(result, ensure_ascii=False, indent=2, allow_nan=False))
     except (OSError, ValueError, KeyError, TypeError) as error:
         parser.exit(2, f"postal operation failed: {error}\n")

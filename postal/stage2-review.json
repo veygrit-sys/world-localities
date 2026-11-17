@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-18",
+  "scope": "Stage 2 complete-length sources and Japan official update; not global completeness",
+  "added_sources": [
+    {
+      "id": "geonames-full-ca-20261118",
+      "source_rows": 900676,
+      "distinct_codes": 899779,
+      "distinct_codes_by_kind": {
+        "source_full": 899779
+      },
+      "sha256": "4d36b93cd05ad9268e42aa20294defabf5c2aeed7b07f44fcefa1dcb6e84fc13"
+    },
+    {
+      "id": "geonames-full-gb-20261118",
+      "source_rows": 1839678,
+      "distinct_codes": 1839678,
+      "distinct_codes_by_kind": {
+        "source_full": 1839678
+      },
+      "sha256": "18f020cf3d8224de3a2e308a9c80d6e966473b6f58b915ac7b20ae568d8d41ac"
+    },
+    {
+      "id": "geonames-full-nl-20261118",
+      "source_rows": 468809,
+      "distinct_codes": 468579,
+      "distinct_codes_by_kind": {
+        "source_full": 468579
+      },
+      "sha256": "3d7fb4bca3ee590885aeb80cf719e09d7405005d9866dbe01f3787aa0c09ec61"
+    },
+    {
+      "id": "japanpost-postal-20261030",
+      "source_rows": 124527,
+      "distinct_codes": 120721,
+      "distinct_codes_by_kind": {
+        "official_full": 120721
+      },
+      "sha256": "db92fcf624bb7280e6f51900aebe03adeafbd168796e59412dbc22a80abb85b9"
+    },
+    {
+      "id": "japanpost-business-20261030",
+      "source_rows": 22420,
+      "distinct_codes": 22196,
+      "distinct_codes_by_kind": {
+        "official_full": 22196
+      },
+      "sha256": "ccdf42dec94874a38d445e8a2eb27c2c749f696b062bd2d1d8634af019890507"
+    }
+  ],
+  "japan_normal_diff": {
+    "old_source": "japanpost-postal-20260930",
+    "new_source": "japanpost-postal-20261030",
+    "added_raw_rows": 15,
+    "removed_raw_rows": 14,
+    "added_codes": [
+      "3130065"
+    ],
+    "removed_codes": [],
+    "comparison": "multiset of original 15-field rows; postal-code set compared separately"
+  },
+  "remaining": [
+    {
+      "country_code": "TW",
+      "status": "external_application_required",
+      "complete_codes_ingested": false,
+      "reference": "https://www.post.gov.tw/post/internet/Download/index.jsp?ID=220306",
+      "application_portal": "https://fpp.post.gov.tw/portal",
+      "evidence_document": "Official 3+3 usage ODT, published 2026-04-14",
+      "evidence_sha256": "bd27a5fe2cb6ba7453470acb6524e890bdd06c6d3f1e6ab2aef0952694120167",
+      "required_steps": [
+        "external account",
+        "zip/zip33 service application",
+        "stamped form and postal submission",
+        "approval before download"
+      ],
+      "account_created_or_application_sent": false,
+      "note": "Public software and file-index CSV are not the complete six-digit text dataset."
+    },
+    {
+      "country_code": "CN",
+      "status": "official_bulk_source_and_terms_unconfirmed",
+      "complete_codes_ingested": false,
+      "reference": "https://www.spb.gov.cn/gjyzj/c200041/202510/745c2008e015403eb27fd9726f6bea07.shtml",
+      "candidate_search_url": "https://dey.11185.cn/web/#/idtoolkitaddress",
+      "note": "An official search portal is not evidence of a bulk downloadable dataset; search function was not verified."
+    }
+  ],
+  "summary": {
+    "total_countries": 250,
+    "source_countries": 125,
+    "countries_pending": 125,
+    "source_rows": 5317758,
+    "lookup_source_rows": 5193232,
+    "country_code_pairs": 4436069
+  },
+  "claims_not_established": [
+    "global postal-code completeness",
+    "current validity of every code",
+    "national completeness of CA/GB/NL full-length archive",
+    "carrier deliverability"
+  ],
+  "japan_business_use_rows": {
+    "business": 20266,
+    "po_box": 2154
+  },
+  "local_verification": {
+    "common_tests": 1099,
+    "hierarchy_tests": 247,
+    "total_passed": 1346,
+    "skipped": 0,
+    "new_regression_tests": 24,
+    "source_rows_replayed": 5317758,
+    "actual_lookup_case": {
+      "country": "CA",
+      "code": "T0A 0A0",
+      "source_id": "geonames-full-ca-20261118",
+      "matches": 1,
+      "complete_postcode_verified": false
+    }
+  }
+}

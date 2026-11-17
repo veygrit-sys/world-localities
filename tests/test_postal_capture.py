@@ -9,7 +9,7 @@ import unittest
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from scripts.world_postcodes import capture_sources
+from scripts.world_postcodes import approved_archive_url, capture_sources
 
 
 class Response(io.BytesIO):
@@ -84,6 +84,33 @@ class PostalCapture(unittest.TestCase):
         self.source["download_url"] = "https://download.geonames.org/export/zip/allCountries.zip"
         self.manifest()
         with patch("scripts.world_postcodes.urlopen", return_value=Response(self.payload, "https://example.invalid/")):
+            with self.assertRaisesRegex(ValueError, "redirect"):
+                capture_sources(self.root)
+        self.assertFalse(self.target.exists())
+
+    def test_only_reviewed_japan_post_paths_and_formats_are_allowed(self):
+        urls = {
+            "https://www.post.japanpost.jp/service/search/zipcode/download/utf/zip/utf_ken_all.zip": "japanpost_utf_zip",
+            "https://www.post.japanpost.jp/service/search/zipcode/download/office/zip/jigyosyo.zip": "japanpost_business_zip",
+        }
+        for url, format_name in urls.items():
+            with self.subTest(url=url):
+                self.assertTrue(approved_archive_url(url, format_name))
+                self.assertFalse(approved_archive_url(url, "geonames_tsv_zip"))
+                self.assertFalse(approved_archive_url(url + "?latest=1", format_name))
+                self.assertFalse(approved_archive_url(url.replace("https:", "http:"), format_name))
+                self.assertFalse(approved_archive_url(url.replace("www.post.japanpost.jp", "www.post.japanpost.jp.example.invalid"), format_name))
+
+    def test_full_geonames_archives_are_allowed_without_broadening_hosts(self):
+        for country in ("CA", "GB", "NL"):
+            url = f"https://download.geonames.org/export/zip/{country}_full.csv.zip"
+            self.assertTrue(approved_archive_url(url, "geonames_tsv_zip"))
+            self.assertFalse(approved_archive_url(url, "japanpost_utf_zip"))
+
+    def test_same_host_redirect_to_a_different_archive_is_rejected(self):
+        self.manifest()
+        redirected = "https://download.geonames.org/export/zip/CA_full.csv.zip"
+        with patch("scripts.world_postcodes.urlopen", return_value=Response(self.payload, redirected)):
             with self.assertRaisesRegex(ValueError, "redirect"):
                 capture_sources(self.root)
         self.assertFalse(self.target.exists())

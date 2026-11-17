@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from collections import Counter
+from collections import Counter, defaultdict
 from collections.abc import Iterator, Mapping
 import csv
 import hashlib
@@ -18,12 +18,22 @@ ROOT = Path(__file__).resolve().parents[1]
 MAX_ARCHIVE_BYTES = 256 * 1024 * 1024
 MAX_MEMBER_BYTES = 1024 * 1024 * 1024
 MAX_ZIP_MEMBERS = 1024
-FORMATS = {"geonames_tsv_zip", "japanpost_utf_zip", "taiwan_prefix_csv"}
+FORMATS = {
+    "geonames_tsv_zip", "japanpost_utf_zip", "japanpost_business_zip",
+    "taiwan_prefix_csv",
+}
 CODE_KINDS = {
-    "source_reported", "official_full", "prefix", "aggregated",
+    "source_reported", "source_full", "official_full", "prefix", "aggregated",
     "partial", "partial_or_legacy", "routing_or_unreviewed",
 }
-STANDARD_CODE_KINDS = {"source_reported", "official_full"}
+STANDARD_CODE_KINDS = {"source_reported", "source_full", "official_full"}
+# These checks identify complete-length source strings. They neither certify an
+# assigned/current postcode nor establish that a source covers an entire country.
+FULL_CODE_PATTERNS = {
+    "CA": re.compile(r"[A-Z][0-9][A-Z] [0-9][A-Z][0-9]"),
+    "GB": re.compile(r"[A-Z0-9]{2,4} [0-9][A-Z]{2}"),
+    "NL": re.compile(r"[0-9]{4} [A-Z]{2}"),
+}
 
 
 def _nonempty(value: object) -> bool:
@@ -69,6 +79,20 @@ def _validate_source(source: object, root: Path) -> None:
         for country, kind in overrides.items()
     ):
         raise ValueError("invalid country-specific postal code kinds")
+    if "active_for_lookup" in source and type(source["active_for_lookup"]) is not bool:
+        raise ValueError("active_for_lookup must be boolean")
+    expected = source.get("expected_country")
+    if "expected_country" in source and (
+        not isinstance(expected, str) or not re.fullmatch("[A-Z]{2}", expected)
+    ):
+        raise ValueError("expected_country must be an uppercase two-letter code")
+    if "source_full" in overrides.values():
+        raise ValueError("source_full cannot be introduced by a country override")
+    if source["default_code_kind"] == "source_full":
+        if source["format"] != "geonames_tsv_zip" or expected not in FULL_CODE_PATTERNS:
+            raise ValueError("source_full requires a supported GeoNames full-code country")
+        if overrides:
+            raise ValueError("source_full does not allow country-specific overrides")
     if "member" in source:
         member = source["member"]
         if not _nonempty(member):
@@ -165,7 +189,12 @@ def _record(source: Mapping[str, Any], row_number: int, country: str, code: str,
         raise ValueError(f"source country is outside collection catalog: {source['id']} row {row_number}")
     if not _nonempty(code):
         raise ValueError(f"empty postal code: {source['id']} row {row_number}")
+    expected = source.get("expected_country")
+    if expected is not None and country != expected:
+        raise ValueError(f"postal source country differs from expected_country: {source['id']} row {row_number}")
     kind = source.get("country_code_kinds", {}).get(country, source["default_code_kind"])
+    if kind == "source_full" and not FULL_CODE_PATTERNS[expected].fullmatch(code):
+        raise ValueError(f"incomplete or malformed source_full postcode: {source['id']} row {row_number}")
     result = dict.fromkeys((
         "source_id", "source_row", "country_code", "code", "code_kind", "place_name",
         "admin_name1", "admin_code1", "admin_name2", "admin_code2", "admin_name3",
@@ -185,6 +214,8 @@ def iter_postal_records(source: Mapping[str, Any], root: Path = ROOT) -> Iterato
     overrides = source.get("country_code_kinds", {})
     if not set(overrides).issubset(allowed_countries):
         raise ValueError("source code-kind override is outside country collection catalog")
+    if source.get("expected_country") is not None and source["expected_country"] not in allowed_countries:
+        raise ValueError("expected_country is outside country collection catalog")
     try:
         if source["format"] == "taiwan_prefix_csv":
             with path.open("r", encoding="utf-8-sig", newline="") as stream:
@@ -204,7 +235,8 @@ def iter_postal_records(source: Mapping[str, Any], root: Path = ROOT) -> Iterato
         with zipfile.ZipFile(path) as archive:
             member = _zip_member(source, archive)
             with archive.open(member) as binary:
-                with io.TextIOWrapper(binary, encoding="utf-8-sig", newline="") as stream:
+                encoding = "cp932" if source["format"] == "japanpost_business_zip" else "utf-8-sig"
+                with io.TextIOWrapper(binary, encoding=encoding, newline="") as stream:
                     if source["format"] == "geonames_tsv_zip":
                         reader = csv.reader(stream, delimiter="\t", quoting=csv.QUOTE_NONE)
                         for number, row in enumerate(reader, 1):
@@ -216,6 +248,24 @@ def iter_postal_records(source: Mapping[str, Any], root: Path = ROOT) -> Iterato
                                 "longitude", "accuracy",
                             ), row[2:]))
                             yield _record(source, number, row[0], row[1], fields, allowed_countries)
+                    elif source["format"] == "japanpost_business_zip":
+                        reader = csv.reader(stream)
+                        for number, row in enumerate(reader, 1):
+                            if len(row) != 13:
+                                raise ValueError(f"Japan Post business row must have 13 columns: {number}")
+                            if not re.fullmatch(r"[0-9]{7}", row[7]):
+                                raise ValueError(f"Japan Post business row requires a 7-digit postcode: {number}")
+                            uses = {"0": "business", "1": "po_box"}
+                            if row[10] not in uses:
+                                raise ValueError(f"unknown Japan Post business postal use: {number}")
+                            fields = {
+                                "place_name": row[5], "admin_name1": row[3],
+                                "admin_name2": row[4], "admin_code2": row[0],
+                                "organization": row[2], "postal_office": row[9],
+                                "postal_use": uses[row[10]],
+                                **{f"source_col_{i}": value for i, value in enumerate(row, 1)},
+                            }
+                            yield _record(source, number, "JP", row[7], fields, allowed_countries)
                     else:
                         reader = csv.reader(stream)
                         for number, row in enumerate(reader, 1):
@@ -239,23 +289,40 @@ def build_postal_catalog(root: Path = ROOT) -> dict[str, Any]:
     codes = {item["code"]: set() for item in countries}
     counts = {item["code"]: Counter() for item in countries}
     kinds = {item["code"]: Counter() for item in countries}
+    codes_by_kind = {item["code"]: defaultdict(set) for item in countries}
+    lookup_rows: Counter[str] = Counter()
     reports = []
     for source in manifest["sources"]:
         source_counts: Counter[str] = Counter()
         kind_counts: Counter[str] = Counter()
+        source_codes: set[tuple[str, str]] = set()
+        source_codes_by_kind: dict[str, set[tuple[str, str]]] = defaultdict(set)
+        active = source.get("active_for_lookup", True)
         for record in iter_postal_records(source, root):
             country = record["country_code"]
-            codes[country].add(record["code"])
+            code, kind = record["code"], record["code_kind"]
+            codes[country].add(code)
+            codes_by_kind[country][kind].add(code)
             counts[country][source["id"]] += 1
-            kinds[country][record["code_kind"]] += 1
+            kinds[country][kind] += 1
             source_counts[country] += 1
-            kind_counts[record["code_kind"]] += 1
+            kind_counts[kind] += 1
+            pair = (country, code)
+            source_codes.add(pair)
+            source_codes_by_kind[kind].add(pair)
+            if active:
+                lookup_rows[country] += 1
         reports.append({
             "id": source["id"], "format": source["format"], "path": source["path"],
             "sha256": source["sha256"], "bytes": source["bytes"],
             "licence": source["licence"],
             "status": "verified_source_bytes_and_records",
+            "active_for_lookup": active,
             "source_rows": sum(source_counts.values()),
+            "distinct_codes": len(source_codes),
+            "distinct_codes_by_kind": {
+                kind: len(values) for kind, values in sorted(source_codes_by_kind.items())
+            },
             "countries": dict(sorted(source_counts.items())),
             "code_kinds": dict(sorted(kind_counts.items())),
         })
@@ -268,7 +335,11 @@ def build_postal_catalog(root: Path = ROOT) -> dict[str, Any]:
             "postal_system_status": "unreviewed",
             "collection_status": "stored_source_observations" if row_count else "pending_source",
             "source_rows": row_count, "distinct_codes": len(codes[country]),
+            "lookup_source_rows": lookup_rows[country],
             "code_kinds": dict(sorted(kinds[country].items())),
+            "distinct_codes_by_kind": {
+                kind: len(values) for kind, values in sorted(codes_by_kind[country].items())
+            },
             "source_counts": dict(sorted(counts[country].items())),
             "national_completeness_verified": False,
         })
@@ -280,6 +351,7 @@ def build_postal_catalog(root: Path = ROOT) -> dict[str, Any]:
             "total_countries": len(output), "source_countries": source_countries,
             "countries_pending": len(output) - source_countries,
             "source_rows": sum(item["source_rows"] for item in output),
+            "lookup_source_rows": sum(lookup_rows.values()),
             "country_code_pairs": sum(item["distinct_codes"] for item in output),
         },
         "sources": reports,
@@ -287,7 +359,8 @@ def build_postal_catalog(root: Path = ROOT) -> dict[str, Any]:
 
 
 def lookup_postcode(country: str, code: str, root: Path = ROOT, limit: int = 20,
-                    offset: int = 0, include_partial: bool = False) -> dict[str, Any]:
+                    offset: int = 0, include_partial: bool = False,
+                    include_historical: bool = False) -> dict[str, Any]:
     """Match literal observed code values; partial inclusion does not expand prefixes."""
     root = Path(root)
     if not isinstance(country, str) or country not in {item["code"] for item in _countries(root)}:
@@ -300,9 +373,15 @@ def lookup_postcode(country: str, code: str, root: Path = ROOT, limit: int = 20,
         raise ValueError("offset must be a nonnegative integer")
     if type(include_partial) is not bool:
         raise ValueError("include_partial must be boolean")
+    if type(include_historical) is not bool:
+        raise ValueError("include_historical must be boolean")
     total = 0
     selected = []
     for source in load_sources(root)["sources"]:
+        if not include_historical and not source.get("active_for_lookup", True):
+            continue
+        if source.get("expected_country") is not None and source["expected_country"] != country:
+            continue
         for record in iter_postal_records(source, root):
             if record["country_code"] != country or record["code"] != code:
                 continue
@@ -313,6 +392,7 @@ def lookup_postcode(country: str, code: str, root: Path = ROOT, limit: int = 20,
             total += 1
     return {
         "country_code": country, "code": code, "include_partial": include_partial,
+        "include_historical": include_historical,
         "total": total, "rows": selected, "limit": limit, "offset": offset,
         "has_more": total > offset + len(selected),
         "complete_postcode_verified": False, "deliverability_verified": False,
