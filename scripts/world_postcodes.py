@@ -28,12 +28,25 @@ JAPAN_POST_ARCHIVES = {
     "/service/search/zipcode/download/utf/zip/utf_ken_all.zip": "japanpost_utf_zip",
     "/service/search/zipcode/download/office/zip/jigyosyo.zip": "japanpost_business_zip",
 }
+OFFICIAL_POSTAL_PDFS = {
+    "https://npc.govt.lc/files/documents/gazettes/2015/12/Gazette_December_21_2015.pdf",
+    "https://www.gov.ms/wp-content/uploads/2014/02/Postal-Code-Guide-pamphlet.pdf",
+    "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/shnEn.pdf",
+}
 
 
 def approved_archive_url(url: str, source_format: str) -> bool:
     parsed = urlparse(url)
     if parsed.scheme != "https" or parsed.query or parsed.fragment:
         return False
+    if source_format == "official_postal_source":
+        if url in OFFICIAL_POSTAL_PDFS:
+            return True
+        return parsed.netloc == "www.tcra.go.tz" and bool(re.fullmatch(
+            r"/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/"
+            r"[A-Za-z]+(?:_[A-Za-z]+)*_[0-9]{5}_[0-9]{10}_[0-9a-f]{10}\.pdf",
+            parsed.path,
+        ))
     if parsed.netloc == "download.geonames.org":
         return source_format == "geonames_tsv_zip" and bool(re.fullmatch(
             r"/export/zip/(?:allCountries|[A-Z]{2}(?:_full\.csv)?)\.zip", parsed.path

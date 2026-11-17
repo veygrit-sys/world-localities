@@ -1,0 +1,1137 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-18",
+  "scope": "Stage 4: seven newly observed collection codes; original public publications, not current worldwide completeness",
+  "added_country_codes": [
+    "BT",
+    "LC",
+    "MS",
+    "SH",
+    "SN",
+    "SZ",
+    "TZ"
+  ],
+  "added_sources": [
+    {
+      "id": "official-lc-gazette-20151221-captured-20261118",
+      "expected_country": "LC",
+      "provider": "Saint Lucia Government Gazette / Saint Lucia Postal Service",
+      "source_url": "https://npc.govt.lc/files/documents/gazettes/2015/12/Gazette_December_21_2015.pdf",
+      "path": "postal/sources/official/20261118-stage4/LC/lc-gazette.pdf",
+      "adapter": "lc_gazette_postal_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "caddf197d5f523ac333ef9a35d2b1b6312ef455c80587248f3c4a7c5385c60cb",
+      "bytes": 2792865,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "2015-12-21 Gazette printed pages1501–1502 (PDF13–14), 54 explicit delivery-point/postcode rows including private letter boxes. Current national completeness and validity are unverified. Address examples after section2 are excluded.",
+      "download_url": "https://npc.govt.lc/files/documents/gazettes/2015/12/Gazette_December_21_2015.pdf",
+      "source_use_note": "Specific redistribution licence not confirmed; original source rights retained.",
+      "source_time_evidence": "Government Gazette Issue51 dated2015-12-21; notice says postcode implementation effective2015-12-01.",
+      "source_rows": 54,
+      "distinct_codes": 54,
+      "distinct_codes_by_kind": {
+        "official_full": 54
+      }
+    },
+    {
+      "id": "official-ms-active-postcodes-captured-20261118",
+      "expected_country": "MS",
+      "provider": "Montserrat Postal Service / Government of Montserrat",
+      "source_url": "https://www.gov.ms/wp-content/uploads/2014/02/Postal-Code-Guide-pamphlet.pdf",
+      "path": "postal/sources/official/20261118-stage4/MS/ms-postcode-guide.pdf",
+      "adapter": "ms_active_postcodes_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "765f50e997018a668d6bdaae15c1a8a62c2898dde231efe3f02d77a258665bbd",
+      "bytes": 149807,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Eight rows explicitly listed under Active Postcodes on the first page of the two-page official guide. Postal boxes and delivery areas; current national completeness is unverified. Repeated codes in explanations and sample addresses are excluded.",
+      "download_url": "https://www.gov.ms/wp-content/uploads/2014/02/Postal-Code-Guide-pamphlet.pdf",
+      "source_use_note": "Specific redistribution licence not confirmed; original source rights retained.",
+      "source_time_evidence": "Official source URL is in2014/02; the visible guide introduces the new postcode system. Publication/current assignment date is not established solely by the URL.",
+      "source_rows": 8,
+      "distinct_codes": 8,
+      "distinct_codes_by_kind": {
+        "official_full": 8
+      }
+    },
+    {
+      "id": "official-sh-upu-single-postcode-captured-20261118",
+      "expected_country": "SH",
+      "provider": "Universal Postal Union / Royal Mail addressing publication",
+      "source_url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/shnEn.pdf",
+      "path": "postal/sources/official/20261118-stage4/SH/sh-upu.pdf",
+      "adapter": "sh_upu_single_postcode_pdf",
+      "licence": "LicenseRef-UPU-Public-Addressing-Publication; original rights retained",
+      "sha256": "3e1946f849857d5f382096c6763bfeef27736b2012a48e7a5096b41a1033b4c6",
+      "bytes": 147995,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Explicit single-postcode declaration for Saint Helena island, STHL1ZZ with published space as STHL 1ZZ. SH collection code also includes Ascension and Tristan da Cunha; those dependencies are not covered by this snapshot. Not a claim of nationwide SH completeness.",
+      "download_url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/shnEn.pdf",
+      "source_use_note": "Specific redistribution licence not confirmed; original source rights retained.",
+      "source_time_evidence": "UPU document displays08/2005. Current validity independently unverified.",
+      "source_rows": 1,
+      "distinct_codes": 1,
+      "distinct_codes_by_kind": {
+        "official_full": 1
+      }
+    },
+    {
+      "id": "official-sz-sz_eswatinipost_html-20261118-stage4",
+      "expected_country": "SZ",
+      "provider": "Eswatini Post / Eswatini Posts and Telecommunications Corporation",
+      "source_url": "http://www.eswatinipost.co.sz/postcode.php",
+      "path": "postal/sources/official/20261118-stage4/SZ/sz-eswatinipost-postcodes.html.gz",
+      "adapter": "sz_eswatinipost_html",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "8c0fd1a30d86f9e7fa9d8b5b3bb73da448449720de4c2b4b111dbe204d60932c",
+      "bytes": 3936,
+      "compression": "gzip",
+      "active_for_lookup": true,
+      "coverage_scope": "81 published locality/post-office assignments across four named regions; 80 literal codes, shared H103 retained; national completeness/currentness not independently verified",
+      "uncompressed_bytes": 24411,
+      "uncompressed_sha256": "3df0dbc2ce9a95723dfa7b890b10fe620aa128cb4fc3d4aad4dd7789677114c4",
+      "source_use_note": "Official public postal information. Specific reuse licence not confirmed; preserve provider attribution and original rights; not labelled CC or uniformly open-licensed.",
+      "source_rows": 81,
+      "distinct_codes": 80,
+      "distinct_codes_by_kind": {
+        "official_full": 80
+      }
+    },
+    {
+      "id": "official-sn-sn_laposte_postal_js-20261118-stage4",
+      "expected_country": "SN",
+      "provider": "La Poste du Sénégal",
+      "source_url": "https://www.laposte.sn/wp-content/plugins/posteasy/assets/js/postal-data.js",
+      "path": "postal/sources/official/20261118-stage4/SN/sn-postal-data.js.gz",
+      "adapter": "sn_laposte_postal_js",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "4bb76d3de48365ddd28132c38eb13c26e55ad136f449821066dbcb23b793f3a9",
+      "bytes": 36267,
+      "compression": "gzip",
+      "active_for_lookup": true,
+      "coverage_scope": "4143 entries in the official postcode lookup frontend data constant, 166 literal codes; three short values 159/0/36 are source_anomaly; no inference of missing digits or national completeness",
+      "uncompressed_bytes": 274329,
+      "uncompressed_sha256": "63441012aafcc64df7efa87926686d0ef0df7a8a443113a53a4dd26635e0ecf8",
+      "source_use_note": "Official public postal information. Specific reuse licence not confirmed; preserve provider attribution and original rights; not labelled CC or uniformly open-licensed.",
+      "source_rows": 4143,
+      "distinct_codes": 166,
+      "distinct_codes_by_kind": {
+        "official_full": 163,
+        "source_anomaly": 3
+      }
+    },
+    {
+      "id": "official-bt-bt_postcode_regions-20261118-stage4",
+      "expected_country": "BT",
+      "provider": "Bhutan Postal Corporation Limited (Bhutan Post)",
+      "source_url": "https://bhutanpost.bt/postcode/searchpostcode-exec.php",
+      "path": "postal/sources/official/20261118-stage4/BT/bt-postcode-region-bundle.json.gz",
+      "adapter": "bt_postcode_regions",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "39fd401aec9bf08af929e442371f3663b48126919edd693b9da940efef83e84c",
+      "bytes": 2994,
+      "compression": "gzip",
+      "active_for_lookup": true,
+      "coverage_scope": "20 explicitly published regional filters return 76 source observations, with each of 38 unique office/area/code tuples duplicated. Preserve all observations; 38 distinct literal five-digit codes. This is the current public finder collection, not verified nationwide complete assignment or address-level delivery coverage.",
+      "uncompressed_bytes": 46559,
+      "uncompressed_sha256": "452fb1ca4e7bec1269a72e03d9a83af59e7a06aa657868e310fa6d6b86feacec",
+      "source_use_note": "Official public postal finder; no specific reuse licence confirmed. Do not relabel as CC/open-licensed.",
+      "capture_method": "Read-only POST directory filters for exactly the twenty published dzongkhag options; no generated code or random query enumeration. Every response original UTF-8 byte image, URL, method, form, byte length and SHA-256 is retained and validated.",
+      "source_rows": 76,
+      "distinct_codes": 38,
+      "distinct_codes_by_kind": {
+        "official_full": 38
+      }
+    },
+    {
+      "id": "official-tz-tcra-arusha-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Arusha_23000_1622729671_850462b28a.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Arusha_23000_1622729671_850462b28a.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "ec43e8faa0422e5bc305df6d4558f044e56cd69448f5fb954cc3234ec81f6f71",
+      "bytes": 480953,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Arusha ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Arusha_23000_1622729671_850462b28a.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Arusha",
+      "source_rows": 158,
+      "distinct_codes": 158,
+      "distinct_codes_by_kind": {
+        "official_full": 158
+      }
+    },
+    {
+      "id": "official-tz-tcra-dar-es-salaam-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Dar_Es_Salaam_11000_1622729685_c110794e4b.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Dar_Es_Salaam_11000_1622729685_c110794e4b.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "a647f25d7a905643cb1dda08247491c96165dfa0e970ff799de126f387b3f5be",
+      "bytes": 252305,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Dar Es Salaam ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Dar_Es_Salaam_11000_1622729685_c110794e4b.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Dar Es Salaam",
+      "source_rows": 102,
+      "distinct_codes": 102,
+      "distinct_codes_by_kind": {
+        "official_full": 102
+      }
+    },
+    {
+      "id": "official-tz-tcra-dodoma-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Dodoma_41000_1622729699_af2b3ff573.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Dodoma_41000_1622729699_af2b3ff573.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "2a8ba16898e4642e815f382b1b0fa3a77d1ba970d4ca20377c5e56800d66dc5b",
+      "bytes": 685700,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Dodoma ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Dodoma_41000_1622729699_af2b3ff573.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Dodoma",
+      "source_rows": 209,
+      "distinct_codes": 209,
+      "distinct_codes_by_kind": {
+        "official_full": 209
+      }
+    },
+    {
+      "id": "official-tz-tcra-geita-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Geita_30000_1622729718_187953a010.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Geita_30000_1622729718_187953a010.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "b25a602f2307c772afb63f1c270b8eb5118d87e9f98f4d3ac95dc066dce6f88b",
+      "bytes": 538153,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Geita ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Geita_30000_1622729718_187953a010.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Geita",
+      "source_rows": 121,
+      "distinct_codes": 121,
+      "distinct_codes_by_kind": {
+        "official_full": 121
+      }
+    },
+    {
+      "id": "official-tz-tcra-iringa-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Iringa_51000_1622729736_0343f91ee9.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Iringa_51000_1622729736_0343f91ee9.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "b08e742d1316d246bfb46e2331f1d72e6584554a6acbce916a793abd0e987416",
+      "bytes": 408286,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Iringa ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Iringa_51000_1622729736_0343f91ee9.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Iringa",
+      "source_rows": 106,
+      "distinct_codes": 106,
+      "distinct_codes_by_kind": {
+        "official_full": 106
+      }
+    },
+    {
+      "id": "official-tz-tcra-kagera-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Kagera_35000_1622729758_5263f228bb.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Kagera_35000_1622729758_5263f228bb.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "73e19adf3f2d354528e8d90bdb6cb914b0848fafd3f9d6deafc698c938893de2",
+      "bytes": 598152,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Kagera ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Kagera_35000_1622729758_5263f228bb.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Kagera",
+      "source_rows": 195,
+      "distinct_codes": 195,
+      "distinct_codes_by_kind": {
+        "official_full": 195
+      }
+    },
+    {
+      "id": "official-tz-tcra-katavi-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Katavi_50000_1622729779_33c6d84dfd.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Katavi_50000_1622729779_33c6d84dfd.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "32b2bff50dac07103706426a3c508c9f8b84a07d01022e4509ac0d22c7da8e04",
+      "bytes": 292116,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Katavi ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Katavi_50000_1622729779_33c6d84dfd.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Katavi",
+      "source_rows": 58,
+      "distinct_codes": 58,
+      "distinct_codes_by_kind": {
+        "official_full": 58
+      }
+    },
+    {
+      "id": "official-tz-tcra-kigoma-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Kigoma_47000_1622729800_0b4e13169c.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Kigoma_47000_1622729800_0b4e13169c.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "ee3c6aad46eacf1f5e690fdb289d97e4008ff326ed27fa4a36329b1b2fc431a4",
+      "bytes": 359436,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Kigoma ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Kigoma_47000_1622729800_0b4e13169c.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Kigoma",
+      "source_rows": 103,
+      "distinct_codes": 103,
+      "distinct_codes_by_kind": {
+        "official_full": 103
+      }
+    },
+    {
+      "id": "official-tz-tcra-kilimanjaro-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Kilimanjaro_25000_1622729818_156b84aa8b.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Kilimanjaro_25000_1622729818_156b84aa8b.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "b726437edfe83f4f60b78bdca0f0b2dd0cb7476dc73289006ba4e874f7ae57a9",
+      "bytes": 453430,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Kilimanjaro ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Kilimanjaro_25000_1622729818_156b84aa8b.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Kilimanjaro",
+      "source_rows": 168,
+      "distinct_codes": 168,
+      "distinct_codes_by_kind": {
+        "official_full": 168
+      }
+    },
+    {
+      "id": "official-tz-tcra-lindi-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Lindi_65000_1622729867_1326e3da2e.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Lindi_65000_1622729867_1326e3da2e.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "3f140b4987062b6ec7d92fa4c8ee88c8faadc95c096be9358081ca24fe66328c",
+      "bytes": 472461,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Lindi ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Lindi_65000_1622729867_1326e3da2e.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Lindi",
+      "source_rows": 153,
+      "distinct_codes": 153,
+      "distinct_codes_by_kind": {
+        "official_full": 153
+      }
+    },
+    {
+      "id": "official-tz-tcra-manyara-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Manyara_27000_1622729906_6faa8cbcdc.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Manyara_27000_1622729906_6faa8cbcdc.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "345e9ac0fcf949ff830b0861517d7bbb3ecc3076bc89c933e685269b5b584a30",
+      "bytes": 519196,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Manyara ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Manyara_27000_1622729906_6faa8cbcdc.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Manyara",
+      "source_rows": 142,
+      "distinct_codes": 142,
+      "distinct_codes_by_kind": {
+        "official_full": 142
+      }
+    },
+    {
+      "id": "official-tz-tcra-mara-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Mara_31000_1622729933_55ed6dc203.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Mara_31000_1622729933_55ed6dc203.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "af5565aa1785a7bb09b9a276f7b1ccd58db4d3c08850fd08d2e1e8920470efa7",
+      "bytes": 503023,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Mara ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Mara_31000_1622729933_55ed6dc203.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Mara",
+      "source_rows": 178,
+      "distinct_codes": 178,
+      "distinct_codes_by_kind": {
+        "official_full": 178
+      }
+    },
+    {
+      "id": "official-tz-tcra-mbeya-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Mbeya_53000_1622729950_fba861b468.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Mbeya_53000_1622729950_fba861b468.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "9b4270dc46b77d9394b8636d9abd9429cdf44bd50abc6629d95cfd90a83447dd",
+      "bytes": 532310,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Mbeya ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Mbeya_53000_1622729950_fba861b468.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Mbeya",
+      "source_rows": 179,
+      "distinct_codes": 179,
+      "distinct_codes_by_kind": {
+        "official_full": 179
+      }
+    },
+    {
+      "id": "official-tz-tcra-morogoro-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Morogoro_67000_1622729967_21a6d71bca.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Morogoro_67000_1622729967_21a6d71bca.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "1753d43ad306fbc3a7173564d09da1317357ac336dfcbffc43b8b9036e31c991",
+      "bytes": 608894,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Morogoro ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Morogoro_67000_1622729967_21a6d71bca.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Morogoro",
+      "source_rows": 214,
+      "distinct_codes": 214,
+      "distinct_codes_by_kind": {
+        "official_full": 213,
+        "source_anomaly": 1
+      }
+    },
+    {
+      "id": "official-tz-tcra-mtwara-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Mtwara_63000_1622729984_94e1e79fad.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Mtwara_63000_1622729984_94e1e79fad.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "ca4d62692f92c7a558fa249844bad052b57de12de5cfc431cee2c087e060ad46",
+      "bytes": 588247,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Mtwara ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Mtwara_63000_1622729984_94e1e79fad.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Mtwara",
+      "source_rows": 191,
+      "distinct_codes": 191,
+      "distinct_codes_by_kind": {
+        "official_full": 191
+      }
+    },
+    {
+      "id": "official-tz-tcra-mwanza-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Mwanza_33000_1622730005_fd89c6961c.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Mwanza_33000_1622730005_fd89c6961c.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "be53c605357963bb77686cf4568a9bcd85df39f6bf04cb330d36e28d053a68cf",
+      "bytes": 603898,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Mwanza ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Mwanza_33000_1622730005_fd89c6961c.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Mwanza",
+      "source_rows": 191,
+      "distinct_codes": 191,
+      "distinct_codes_by_kind": {
+        "official_full": 191
+      }
+    },
+    {
+      "id": "official-tz-tcra-njombe-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Njombe_59000_1622730025_077030fc7c.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Njombe_59000_1622730025_077030fc7c.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "87a4854ec161e512530eda6187478a3c261c038f471ea9ed2d7591ff72e5b6c1",
+      "bytes": 400189,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Njombe ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Njombe_59000_1622730025_077030fc7c.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Njombe",
+      "source_rows": 107,
+      "distinct_codes": 107,
+      "distinct_codes_by_kind": {
+        "official_full": 107
+      }
+    },
+    {
+      "id": "official-tz-tcra-pwani-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Pwani_61000_1622730041_a6de1c61fc.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Pwani_61000_1622730041_a6de1c61fc.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "3f501631d0e0db99da29798587cc2ef1894a10fc9e6e0d20d04e1cce0ac7ea5e",
+      "bytes": 386808,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Pwani ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Pwani_61000_1622730041_a6de1c61fc.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Pwani",
+      "source_rows": 133,
+      "distinct_codes": 133,
+      "distinct_codes_by_kind": {
+        "official_full": 133
+      }
+    },
+    {
+      "id": "official-tz-tcra-rukwa-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Rukwa_55000_1622730063_d751981a41.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Rukwa_55000_1622730063_d751981a41.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "7d856ff97130c11763bf77620b92aba1ae8e9dab7d0e5870cc54a8b8e1a2b9d8",
+      "bytes": 601307,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Rukwa ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Rukwa_55000_1622730063_d751981a41.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Rukwa",
+      "source_rows": 97,
+      "distinct_codes": 97,
+      "distinct_codes_by_kind": {
+        "official_full": 97
+      }
+    },
+    {
+      "id": "official-tz-tcra-ruvuma-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Ruvuma_57000_1622730084_befab2c483.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Ruvuma_57000_1622730084_befab2c483.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "3310b0671ae9d08ca9ab8f5698a91a55aedbfda6ebd32b562f18e93e2a12ef84",
+      "bytes": 607399,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Ruvuma ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Ruvuma_57000_1622730084_befab2c483.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Ruvuma",
+      "source_rows": 173,
+      "distinct_codes": 173,
+      "distinct_codes_by_kind": {
+        "official_full": 173
+      }
+    },
+    {
+      "id": "official-tz-tcra-shinyanga-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Shinyanga_37000_1622730102_4a2cc1dddc.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Shinyanga_37000_1622730102_4a2cc1dddc.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "c17be38d8c7061d6149876c8c9f70093ce3a84805f53aa301a613cacde3b6406",
+      "bytes": 499917,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Shinyanga ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Shinyanga_37000_1622730102_4a2cc1dddc.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Shinyanga",
+      "source_rows": 130,
+      "distinct_codes": 130,
+      "distinct_codes_by_kind": {
+        "official_full": 130
+      }
+    },
+    {
+      "id": "official-tz-tcra-simiyu-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Simiyu_39000_1622730125_ac6819db20.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Simiyu_39000_1622730125_ac6819db20.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "b9441390c51ed665b4f5900a6f7169239bf3d2605b4321bb6303ee81fe1b02a0",
+      "bytes": 493896,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Simiyu ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Simiyu_39000_1622730125_ac6819db20.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Simiyu",
+      "source_rows": 133,
+      "distinct_codes": 133,
+      "distinct_codes_by_kind": {
+        "official_full": 133
+      }
+    },
+    {
+      "id": "official-tz-tcra-singida-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Singida_43000_1622730144_208a6bba9f.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Singida_43000_1622730144_208a6bba9f.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "38c4b033b1e08f66b26ffdfded7b7f0c022921ca69cd718c738a2564be624097",
+      "bytes": 450942,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Singida ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Singida_43000_1622730144_208a6bba9f.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Singida",
+      "source_rows": 136,
+      "distinct_codes": 136,
+      "distinct_codes_by_kind": {
+        "official_full": 136
+      }
+    },
+    {
+      "id": "official-tz-tcra-songwe-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Songwe_54100_1622730162_bf6ee308ed.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Songwe_54100_1622730162_bf6ee308ed.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "08368ec201b47bd12a21ae8cdc4f2c221aef5ef1e1c365a9d9e70dfa819242a7",
+      "bytes": 361688,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Songwe ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Songwe_54100_1622730162_bf6ee308ed.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Songwe",
+      "source_rows": 93,
+      "distinct_codes": 93,
+      "distinct_codes_by_kind": {
+        "official_full": 93
+      }
+    },
+    {
+      "id": "official-tz-tcra-tabora-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Tabora_45000_1622730179_02e051824a.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Tabora_45000_1622730179_02e051824a.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "4044469df24829f59eafb76e257bae24a4c801b9405ff3cea7197043690e98eb",
+      "bytes": 678952,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Tabora ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Tabora_45000_1622730179_02e051824a.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Tabora",
+      "source_rows": 206,
+      "distinct_codes": 206,
+      "distinct_codes_by_kind": {
+        "official_full": 206
+      }
+    },
+    {
+      "id": "official-tz-tcra-tanga-captured-20261118",
+      "expected_country": "TZ",
+      "provider": "Tanzania Communications Regulatory Authority (TCRA)",
+      "source_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Tanga_21000_1622730205_d05b8ccfbe.pdf",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Tanga_21000_1622730205_d05b8ccfbe.pdf",
+      "adapter": "tz_tcra_ward_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "129f330b228da0c304106af898cd67b255d783d33392beea473ae8b4e3bed75c",
+      "bytes": 645909,
+      "compression": "none",
+      "active_for_lookup": true,
+      "coverage_scope": "Mainland Tanga ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified.",
+      "download_url": "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Tanga_21000_1622730205_d05b8ccfbe.pdf",
+      "source_use_note": "Official TCRA public regional postcode-list downloads; footer Copyright 2026 Tanzania Communications Regulatory Authority, all rights reserved. No specific redistribution licence confirmed; do not relabel CC/open-licensed.",
+      "source_time_evidence": "Public index references Gazette Notice240 of2016-04-22; attachment URLs migratedunder2021 path; neither current2026assignments nor nationalcompleteness established.",
+      "extraction_note": "PDF column boundaries independently checked against drawn cells. Wrapped Katavi 50111 label joined from original cell fragments; Kigoma display labels decode explicit PDF CMap while raw labels remain. Source locator and original raw PDF retained.",
+      "region_name": "Tanga",
+      "source_rows": 245,
+      "distinct_codes": 245,
+      "distinct_codes_by_kind": {
+        "official_full": 245
+      }
+    }
+  ],
+  "country_observations": [
+    {
+      "country_code": "BT",
+      "name": "Bhutan",
+      "source_rows": 76,
+      "distinct_codes": 38,
+      "lookup_source_rows": 76,
+      "code_kinds": {
+        "official_full": 76
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 38
+      },
+      "national_completeness_verified": false
+    },
+    {
+      "country_code": "LC",
+      "name": "Saint Lucia",
+      "source_rows": 54,
+      "distinct_codes": 54,
+      "lookup_source_rows": 54,
+      "code_kinds": {
+        "official_full": 54
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 54
+      },
+      "national_completeness_verified": false
+    },
+    {
+      "country_code": "MS",
+      "name": "Montserrat",
+      "source_rows": 8,
+      "distinct_codes": 8,
+      "lookup_source_rows": 8,
+      "code_kinds": {
+        "official_full": 8
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 8
+      },
+      "national_completeness_verified": false
+    },
+    {
+      "country_code": "SH",
+      "name": "Saint Helena",
+      "source_rows": 1,
+      "distinct_codes": 1,
+      "lookup_source_rows": 1,
+      "code_kinds": {
+        "official_full": 1
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 1
+      },
+      "national_completeness_verified": false
+    },
+    {
+      "country_code": "SN",
+      "name": "Senegal",
+      "source_rows": 4143,
+      "distinct_codes": 166,
+      "lookup_source_rows": 4143,
+      "code_kinds": {
+        "official_full": 4140,
+        "source_anomaly": 3
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 163,
+        "source_anomaly": 3
+      },
+      "national_completeness_verified": false
+    },
+    {
+      "country_code": "SZ",
+      "name": "Eswatini",
+      "source_rows": 81,
+      "distinct_codes": 80,
+      "lookup_source_rows": 81,
+      "code_kinds": {
+        "official_full": 81
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 80
+      },
+      "national_completeness_verified": false
+    },
+    {
+      "country_code": "TZ",
+      "name": "Tanzania",
+      "source_rows": 3921,
+      "distinct_codes": 3921,
+      "lookup_source_rows": 3921,
+      "code_kinds": {
+        "official_full": 3920,
+        "source_anomaly": 1
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 3920,
+        "source_anomaly": 1
+      },
+      "national_completeness_verified": false
+    }
+  ],
+  "summary": {
+    "total_countries": 250,
+    "source_countries": 140,
+    "countries_pending": 110,
+    "source_rows": 5344495,
+    "lookup_source_rows": 5217543,
+    "country_code_pairs": 4447643
+  },
+  "snapshot_storage": {
+    "files": 32,
+    "static_original_pdf_files": 29,
+    "static_original_pdf_bytes": 16114234,
+    "lossless_gzip_files": 3,
+    "lossless_gzip_bytes": 43197,
+    "all_stored_bytes": 16157431,
+    "recovery": "Static PDFs: reviewed exact HTTPS paths and pinned original size/SHA-256, no redirects or overwrite. Dynamic sources: restore exact Git gzip snapshots and verify expanded original size/SHA-256."
+  },
+  "review_decisions": [
+    {
+      "country_code": "BT",
+      "decision": "preserve_source_duplicates",
+      "reason": "Exactly20 explicitly published regional POST filters,76 observations and38 unique office/area/code tuples. Original response bytes, request form, URL and byte/hash receipts validated. No guessed postcode queries."
+    },
+    {
+      "country_code": "LC",
+      "decision": "delivery_points_only",
+      "reason": "Gazette2015 assignment table has54 rows:47 post offices,7 private letter boxes. Postal address example LC04 113 and unrelated Gazette material are not extracted. Currentness unverified."
+    },
+    {
+      "country_code": "MS",
+      "decision": "bounded_active_list",
+      "reason": "Only eight explicit Active Postcodes rows in official guide; explanatory repeats and examples excluded."
+    },
+    {
+      "country_code": "SH",
+      "decision": "saint_helena_island_only",
+      "reason": "Explicit single-code declaration in UPU publication dated08/2005. STHL 1ZZ retained; Ascension and Tristan da Cunha not covered by this snapshot."
+    },
+    {
+      "country_code": "SN",
+      "decision": "three_short_anomalies_retained",
+      "reason": "4143 published entries,166 literal codes. Short strings159/0/36 are source_anomaly and excluded from standard lookup; not padded. JSON-valued data declaration parsed without JS execution."
+    },
+    {
+      "country_code": "SZ",
+      "decision": "shared_assignment_preserved",
+      "reason": "81 rows across four named regions,80 literal codes. Shared H103 retained. Public HTTP acquisition is not represented as authenticated HTTPS."
+    },
+    {
+      "country_code": "TZ",
+      "decision": "current_postcode_column_not_old_column",
+      "reason": "3921 published ward observations across26 mainland regional PDFs:3920 five-digit codes plus six-digit source_anomaly678010. Old-column values, prefixes and titles excluded; Zanzibar not covered."
+    },
+    {
+      "country_code": "TZ",
+      "decision": "independent_pdf_cell_crosscheck",
+      "reason": "All26 source code sequences exactly match independent PyMuPDF extraction using drawn table-cell boundaries. This detected an earlier boundary error before publication; provisional3923 tally discarded. Final Dodoma209,Njombe107,Morogoro214,Ruvuma173,Singida136."
+    },
+    {
+      "country_code": "TZ",
+      "decision": "display_label_with_raw_fragments",
+      "reason": "Kigoma display labels decode explicit source PDF CMap and retain raw extracted labels. Katavi50111 joins Uwanja wa and ndege within its reviewed ward cell; raw fragments retained. Display labels contain no control characters."
+    }
+  ],
+  "deferred_candidates": [
+    {
+      "country_code": "VG",
+      "status": "old_official_postcode_FAQ_not_found",
+      "source_url": "https://www.gov.vg/content/what-are-postcodes-addresses-british-virgin-islands",
+      "reason": "Historic official FAQ URL and bvi.gov.vg equivalent return404. Current department page is available but does not supply a postcode assignment table; no secondary-derived assignments ingested."
+    },
+    {
+      "country_code": "KY",
+      "status": "old_official_site_unavailable",
+      "source_url": "https://www.caymanpost.gov.ky/",
+      "reason": "Postal site returned503; the government eGov description supplies contact information but no bulk assignment table confirmed. No PO-box ranges inferred."
+    },
+    {
+      "country_code": "TT",
+      "status": "official_bulk_assignment_source_unconfirmed",
+      "reason": "Primary-source searches did not confirm a public bulk assignment table in this intake; no generated or secondary postal codes added."
+    },
+    {
+      "country_code": "MG",
+      "source_url": "https://www.openstat-madagascar.mg/bdd/territoire-et-amenagement/97-donnees-sur-les-codes-postaux-a-madagascar",
+      "reason": "Dataset from MAIDI association rather than postal authority; download requires login. No account created and source not adopted."
+    },
+    {
+      "country_code": "MG",
+      "source_url": "https://www.paositramalagasy.mg/nos_agence",
+      "reason": "Official postal agency page raw retrieval returned403; no assignment data acquired."
+    },
+    {
+      "country_code": "TN",
+      "source_url": "https://www.poste.tn/codes.php",
+      "reason": "Official postcode form returned503 during intake; no bulk assignment source acquired."
+    },
+    {
+      "country_code": "LS",
+      "reason": "No suitable official public assignment table confirmed during this intake."
+    },
+    {
+      "reason": "Official2026ministrynews describes Entebbepilot, expansionpending; no public assignmenttableacquired.",
+      "country_code": "UG"
+    },
+    {
+      "reason": "Officiallocationsfrontend contains no observed explicit postal assignmenttable; no codevaluesinferred.",
+      "country_code": "ZM"
+    },
+    {
+      "reason": "Officiallocationslists addresses/telephones butnoexplicitpostalcodefields; not mistaken for codes.",
+      "country_code": "ZW"
+    },
+    {
+      "reason": "Officialbrancheslist names/services/phones butnoexplicitpostalcodefields; no codevaluesinferred.",
+      "country_code": "ET"
+    },
+    {
+      "country_code": "BT",
+      "source_url": "https://bhutanpost.bt/forms/bdr2024.pdf",
+      "reason": "Annual report page4 map conflicts with official postcode finder for multiple office labels/codes (e.g. Samdrupjongkhar and ParoAirport); do not ingest map as an assignment table. Use official20regionfinder instead.",
+      "bytes": 5846147,
+      "sha256": "5e529b6c2bbb65f58083e7d373c714a5bc4d7242ea56834afeffa72f1acb0b95"
+    },
+    {
+      "country_code": "CV",
+      "source_url": "https://boe.incv.cv/Bulletins/Download/3143",
+      "reason": "Postal law2020 annex explicitly labelled TabelaIlustrativadeCodificacao; illustrative examples not a national assignment table. Do not ingest as assigned codes.",
+      "bytes": 1082289,
+      "sha256": "54b639a36773febd99718096ce4417beb152bf57d60f064529e42aee902d3228"
+    },
+    {
+      "country_code": "CV",
+      "source_url": "https://codigopostal.cv/",
+      "reason": "Official portal referenced by regulator and2020law returnedHTTP503."
+    },
+    {
+      "country_code": "CV",
+      "source_url": "https://correios.cv/contactos",
+      "reason": "Officialpublicapex andwwwcontactpages returnedHTTP503; no usable original bytes acquired."
+    },
+    {
+      "country_code": "OM",
+      "status": "published_website_terms_restrict_republication_and_extraction",
+      "reference": "https://www.omanpost.om/po-subscription",
+      "terms_reference": "https://www.omanpost.om/privacy-and-policy",
+      "terms_sha256": "a4b20459b0fbd131e1ba96be4980e715aa95b7a736341c2688ec54fdfe7743d7",
+      "acquired_raw_sha256": "31e9442d4c5a49113071a76d1867b10088bf7c380653b2d45943f60dc7702163",
+      "acquired_raw_bytes": 2692188,
+      "selected_for_publication": false,
+      "note": "271 named office-option records reviewed locally, but original webpage and derived rows not added to public Git."
+    },
+    {
+      "country_code": "MM",
+      "status": "repository_identity_not_independently_verified",
+      "source_url": "https://github.com/MyanmarPost/MyanmarPostalCode",
+      "pinned_commit": "34f6a63467db4ffaafd46380596cb240ad6984f2",
+      "note": "Repository explicitly attributes original codes/copyright to MyanmarPost and applies GPL-3.0, but no link from verified official domain to repository confirmed. Not eligible for official manifest in this batch. Acquired CSVs kept only in intake. EN/MM each 17331 records,17298 distinct literal strings; code sequences identical. One anomalous six-digit 114560 at csv:record:5606, not repaired;33 duplicate code strings. README release September2021; main last2022-04-29."
+    },
+    {
+      "country_code": "BN",
+      "status": "official_source_download_failed",
+      "reference": "https://www.post.gov.bn/Documents/Buku%20Poskod%20Edisi%20ke%202%20%28Kemaskini%2026122018%29.pdf",
+      "note": "Search located official directory, but HTTPSwww/bare and HTTP attempts returned503."
+    },
+    {
+      "country_code": "KG",
+      "status": "official_source_download_failed",
+      "reference": "https://post.kg/language/ru/indeksy-novye/",
+      "note": "Current official selector found via web search. HTTPS/HTTP page and WP public API requests returned503. New alphanumeric format underway; do not substitute unverified historical list."
+    },
+    {
+      "country_code": "TJ",
+      "status": "official_source_download_failed",
+      "reference": "https://tajikpost.tj/ru/перечень-почтовых-индексов-таджикис/",
+      "note": "Official table visible to search but sourcebytes HTTP/HTTPS returned503; no reconstructed raw snapshot created from search text."
+    },
+    {
+      "country_code": "KW",
+      "status": "official_source_download_failed",
+      "reference": "https://www.moc.gov.kw/en/important-links?tab=2",
+      "note": "Official PO-box/block table found;www/bare HTTPS/HTTP requests returned503."
+    },
+    {
+      "country_code": "MV",
+      "status": "official_source_download_forbidden",
+      "reference": "https://www.maldivespost.com/",
+      "note": "Operator site returned403. UPU country sheet shows structures and examples, not a complete assignment table."
+    },
+    {
+      "country_code": "BH",
+      "status": "official_source_download_failed",
+      "reference": "https://www.bahrainpost.gov.bh/en/images/pdf/services-directory-eng.pdf",
+      "note": "Directory found; request returned503. Not parsed from address examples."
+    },
+    {
+      "country_code": "TM",
+      "status": "official_source_identity_and_download_unconfirmed",
+      "reference": "https://post.tm/departments",
+      "note": "Candidate returned403; verified Turkmen government references historically point turkmenpost.gov.tm. No rows ingested."
+    },
+    {
+      "country_code": "AF",
+      "status": "official_map_source_download_failed",
+      "reference": "https://postalcode.afghanpost.gov.af/",
+      "note": "Afghan Post homepage obtained and verified direct link to map; map returned503. Six-digit system introduced2024 according to USPS primary notification; old4digits not substituted."
+    },
+    {
+      "country_code": "PG",
+      "status": "legacy_host_identity_and_current_version_unverified",
+      "reference": "https://postpng-live.prontoavenue.biz/postal-codes",
+      "reason": "Operator-branded legacy host lists39 nonblank three-digit values, but a direct link from the verified official domain was not independently established and current code revision is unverified. No candidate code rows or raw page added to public Git."
+    },
+    {
+      "country_code": "VE",
+      "status": "no_assignment_table_in_acquired_official_page",
+      "reference": "https://www.ipostel.gob.ve/",
+      "reason": "Public official page did not provide a usable code assignment table."
+    },
+    {
+      "country_code": "CU",
+      "status": "official_source_unavailable",
+      "reason": "Official candidate site returned503; no secondary code list substituted."
+    },
+    {
+      "country_code": "SV",
+      "status": "official_bulk_assignment_table_unconfirmed",
+      "reason": "No suitable official assignment table confirmed in this intake."
+    }
+  ],
+  "prior_pending_reviews": [
+    "stage2-review.json",
+    "stage3-review.json"
+  ],
+  "local_verification": {
+    "common_tests": 1214,
+    "hierarchy_tests": 247,
+    "total_passed": 1461,
+    "new_regression_tests": 53,
+    "skipped": 0,
+    "source_rows_replayed": 5344495,
+    "independent_tanzania_source_files_checked": 26,
+    "independent_tanzania_rows_checked": 3921,
+    "actual_lookup_case": {
+      "country": "BT",
+      "code": "11001",
+      "expected_observations": 2,
+      "complete_postcode_verified": false
+    }
+  },
+  "claims_not_established": [
+    "all worldwide current codes saved",
+    "national completeness for any newly added country",
+    "current validity of every source value",
+    "all SH dependencies or Zanzibar coverage",
+    "address-level deliverability",
+    "uniform open-data or CC licence for public sources"
+  ]
+}
