@@ -1,0 +1,50 @@
+name: Capture pinned postal sources
+
+on:
+  push:
+    branches: ['codex/postal-*']
+    paths:
+      - 'postal/sources.json'
+      - 'scripts/world_postcodes.py'
+      - '.github/workflows/postal-capture.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: postal-capture-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    if: github.ref_type == 'branch' && startsWith(github.ref_name, 'codex/postal-')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Capture only hash-pinned public archives
+        run: python scripts/world_postcodes.py capture
+      - name: Rebuild, replay and test before storing data
+        run: |
+          python scripts/world_postcodes.py build
+          python scripts/world_postcodes.py verify
+          python -m unittest discover -s tests -p 'test_world_postcodes.py' -v
+          python -m unittest discover -s tests -p 'test_postal_capture.py' -v
+      - name: Commit source archive and inventory to this work branch
+        env:
+          POSTAL_BRANCH: ${{ github.ref_name }}
+        run: |
+          git add -- postal/sources postal/catalog.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'data(postal): store pinned worldwide stage-one source snapshot'
+          git push origin "HEAD:${POSTAL_BRANCH}"

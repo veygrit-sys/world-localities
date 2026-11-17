@@ -6,6 +6,7 @@
 
 | 目的 | 入口 |
 |---|---|
+| 世界の郵便番号を段階的に保存する | [郵便番号原典と250コードの収集台帳](postal/README.md) |
 | 今回の住所検証・翻訳の更新方針を確認する | [共通処理の整合性改善](docs/plans/address-integrity-20261118.md) |
 | 西アジア18か国の到達範囲を確認する | [西アジアLocalities基盤](docs/plans/western-asia-18-country-baseline-20261106.md) |
 | 国・地域から探す | [250国・地域の一覧](countries/README.md) |
@@ -40,6 +41,7 @@ python -m localities layout
 | `registries/` | 地域・原典固有のデータ、出典、検証・検索処理 |
 | `localities/` | 共通処理と地域台帳の構成定義 |
 | `addressing/` | 国・言語別の住所形式と互換処理 |
+| `postal/` | 郵便番号原典の固定保存、部分番号の区別、国別収集状況 |
 | `address-points/` | 道路・番地などの出典別アダプター |
 | `scripts/` | 取得・変換・検索・検証の操作入口 |
 | `tests/`、`hierarchy-tests/` | 共通回帰テストと地域階層テスト |

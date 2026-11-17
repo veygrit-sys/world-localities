@@ -1,0 +1,32 @@
+name: Worldwide postal source integrity
+
+on:
+  pull_request:
+    paths:
+      - 'postal/**'
+      - 'localities/postal.py'
+      - 'scripts/world_postcodes.py'
+      - 'tests/test_world_postcodes.py'
+      - 'tests/test_postal_capture.py'
+      - '.github/workflows/postal-*.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-postal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Verify saved source bytes, all rows and the world inventory
+        run: |
+          python -m unittest discover -s tests -p 'test_world_postcodes.py' -v
+          python -m unittest discover -s tests -p 'test_postal_capture.py' -v
+          python scripts/world_postcodes.py verify

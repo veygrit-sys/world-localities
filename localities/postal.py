@@ -1,0 +1,336 @@
+"""Pinned postal-code observations, never generated assignments or delivery proof."""
+
+from __future__ import annotations
+
+from collections import Counter
+from collections.abc import Iterator, Mapping
+import csv
+import hashlib
+import io
+import json
+from pathlib import Path, PurePosixPath
+import re
+from typing import Any
+import zipfile
+
+
+ROOT = Path(__file__).resolve().parents[1]
+MAX_ARCHIVE_BYTES = 256 * 1024 * 1024
+MAX_MEMBER_BYTES = 1024 * 1024 * 1024
+MAX_ZIP_MEMBERS = 1024
+FORMATS = {"geonames_tsv_zip", "japanpost_utf_zip", "taiwan_prefix_csv"}
+CODE_KINDS = {
+    "source_reported", "official_full", "prefix", "aggregated",
+    "partial", "partial_or_legacy", "routing_or_unreviewed",
+}
+STANDARD_CODE_KINDS = {"source_reported", "official_full"}
+
+
+def _nonempty(value: object) -> bool:
+    return isinstance(value, str) and bool(value.strip())
+
+
+def _relative_path(root: Path, supplied: object) -> Path:
+    if not _nonempty(supplied):
+        raise ValueError("source path must be a nonempty repository-relative path")
+    path = PurePosixPath(supplied)
+    if path.is_absolute() or ".." in path.parts or "\\" in supplied:
+        raise ValueError("unsafe source path")
+    resolved_root = Path(root).resolve()
+    resolved = resolved_root.joinpath(*path.parts).resolve()
+    if not resolved.is_relative_to(resolved_root):
+        raise ValueError("source path escapes repository root")
+    return resolved
+
+
+def _validate_source(source: object, root: Path) -> None:
+    if not isinstance(source, Mapping):
+        raise ValueError("postal source must be an object")
+    if not _nonempty(source.get("id")):
+        raise ValueError("postal source requires a nonempty id")
+    if not isinstance(source.get("format"), str) or source["format"] not in FORMATS:
+        raise ValueError("unsupported postal source format")
+    _relative_path(root, source.get("path"))
+    sha = source.get("sha256")
+    if not isinstance(sha, str) or not re.fullmatch("[0-9a-fA-F]{64}", sha):
+        raise ValueError("postal source requires SHA-256")
+    size = source.get("bytes")
+    if type(size) is not int or not 0 <= size <= MAX_ARCHIVE_BYTES:
+        raise ValueError("invalid or excessive postal source bytes")
+    if not _nonempty(source.get("licence")):
+        raise ValueError("postal source requires its licence declaration")
+    if (not isinstance(source.get("default_code_kind"), str)
+            or source["default_code_kind"] not in CODE_KINDS):
+        raise ValueError("unsupported default postal code kind")
+    overrides = source.get("country_code_kinds", {})
+    if not isinstance(overrides, Mapping) or not all(
+        isinstance(country, str) and re.fullmatch("[A-Z]{2}", country)
+        and isinstance(kind, str) and kind in CODE_KINDS
+        for country, kind in overrides.items()
+    ):
+        raise ValueError("invalid country-specific postal code kinds")
+    if "member" in source:
+        member = source["member"]
+        if not _nonempty(member):
+            raise ValueError("source ZIP member must be nonempty")
+        path = PurePosixPath(member)
+        if path.is_absolute() or ".." in path.parts or "\\" in member:
+            raise ValueError("unsafe source ZIP member")
+
+
+def load_sources(root: Path = ROOT) -> dict[str, Any]:
+    """Load source declarations; each iterator also checks its stored bytes."""
+    root = Path(root)
+    try:
+        payload = json.loads((root / "postal/sources.json").read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as error:
+        raise ValueError("cannot read postal sources manifest") from error
+    if not isinstance(payload, dict) or payload.get("schema_version") != 1:
+        raise ValueError("unsupported postal sources schema")
+    sources = payload.get("sources")
+    if not isinstance(sources, list):
+        raise ValueError("postal sources must be a list")
+    identifiers: set[str] = set()
+    for source in sources:
+        _validate_source(source, root)
+        if source["id"] in identifiers:
+            raise ValueError("duplicate postal source id")
+        identifiers.add(source["id"])
+    return payload
+
+
+def _countries(root: Path) -> list[dict[str, Any]]:
+    try:
+        payload = json.loads((Path(root) / "countries/catalog.json").read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as error:
+        raise ValueError("cannot read country collection catalog") from error
+    if not isinstance(payload, dict) or payload.get("schema_version") != 1:
+        raise ValueError("unsupported country collection catalog")
+    countries = payload.get("countries")
+    if not isinstance(countries, list):
+        raise ValueError("country collection catalog requires countries")
+    seen: set[str] = set()
+    for item in countries:
+        if (not isinstance(item, dict) or not isinstance(item.get("code"), str)
+                or not re.fullmatch("[A-Z]{2}", item["code"])
+                or not _nonempty(item.get("name")) or item["code"] in seen):
+            raise ValueError("invalid or duplicate country collection code")
+        seen.add(item["code"])
+    return countries
+
+
+def _verify_source_bytes(source: Mapping[str, Any], root: Path) -> Path:
+    _validate_source(source, root)
+    path = _relative_path(root, source["path"])
+    try:
+        size = path.stat().st_size
+        if not path.is_file() or size != source["bytes"] or size > MAX_ARCHIVE_BYTES:
+            raise ValueError(f"source size mismatch: {source['id']}")
+        digest = hashlib.sha256()
+        with path.open("rb") as stream:
+            for chunk in iter(lambda: stream.read(1024 * 1024), b""):
+                digest.update(chunk)
+    except OSError as error:
+        raise ValueError(f"cannot read postal source: {source['id']}") from error
+    if digest.hexdigest() != source["sha256"].lower():
+        raise ValueError(f"source SHA-256 mismatch: {source['id']}")
+    return path
+
+
+def _zip_member(source: Mapping[str, Any], archive: zipfile.ZipFile) -> zipfile.ZipInfo:
+    members = archive.infolist()
+    if len(members) > MAX_ZIP_MEMBERS:
+        raise ValueError("excessive number of postal ZIP members")
+    requested = source.get("member")
+    if requested is not None:
+        candidates = [item for item in members if item.filename == requested]
+    else:
+        suffix = ".txt" if source["format"] == "geonames_tsv_zip" else ".csv"
+        candidates = [item for item in members if not item.is_dir() and item.filename.lower().endswith(suffix)]
+    if len(candidates) != 1:
+        raise ValueError("postal ZIP requires exactly one selected data member")
+    member = candidates[0]
+    path = PurePosixPath(member.filename)
+    if (member.is_dir() or path.is_absolute() or ".." in path.parts
+            or "\\" in member.filename or member.flag_bits & 1):
+        raise ValueError("unsafe or encrypted postal ZIP member")
+    if member.file_size > MAX_MEMBER_BYTES:
+        raise ValueError("postal ZIP member exceeds uncompressed size limit")
+    return member
+
+
+def _record(source: Mapping[str, Any], row_number: int, country: str, code: str,
+            fields: Mapping[str, str], allowed_countries: set[str]) -> dict[str, str]:
+    if country not in allowed_countries:
+        raise ValueError(f"source country is outside collection catalog: {source['id']} row {row_number}")
+    if not _nonempty(code):
+        raise ValueError(f"empty postal code: {source['id']} row {row_number}")
+    kind = source.get("country_code_kinds", {}).get(country, source["default_code_kind"])
+    result = dict.fromkeys((
+        "source_id", "source_row", "country_code", "code", "code_kind", "place_name",
+        "admin_name1", "admin_code1", "admin_name2", "admin_code2", "admin_name3",
+        "admin_code3", "latitude", "longitude", "accuracy", "entity_id",
+    ), "")
+    result.update(fields)
+    result.update(source_id=source["id"], source_row=str(row_number),
+                  country_code=country, code=code, code_kind=kind)
+    return result
+
+
+def iter_postal_records(source: Mapping[str, Any], root: Path = ROOT) -> Iterator[dict[str, str]]:
+    """Replay one verified source, preserving rows and many-to-many observations."""
+    root = Path(root)
+    path = _verify_source_bytes(source, root)
+    allowed_countries = {item["code"] for item in _countries(root)}
+    overrides = source.get("country_code_kinds", {})
+    if not set(overrides).issubset(allowed_countries):
+        raise ValueError("source code-kind override is outside country collection catalog")
+    try:
+        if source["format"] == "taiwan_prefix_csv":
+            with path.open("r", encoding="utf-8-sig", newline="") as stream:
+                reader = csv.DictReader(stream)
+                headers = reader.fieldnames
+                if (not headers or len(headers) != len(set(headers))
+                        or not {"country", "code", "entity_id"}.issubset(headers)):
+                    raise ValueError("invalid Taiwan prefix CSV header")
+                for number, row in enumerate(reader, 1):
+                    if None in row or any(value is None for value in row.values()):
+                        raise ValueError(f"invalid Taiwan prefix CSV row width: {number}")
+                    if row["country"] != "TW":
+                        raise ValueError(f"unexpected Taiwan prefix CSV country: {number}")
+                    yield _record(source, number, row["country"], row["code"],
+                                  {"entity_id": row["entity_id"]}, allowed_countries)
+            return
+        with zipfile.ZipFile(path) as archive:
+            member = _zip_member(source, archive)
+            with archive.open(member) as binary:
+                with io.TextIOWrapper(binary, encoding="utf-8-sig", newline="") as stream:
+                    if source["format"] == "geonames_tsv_zip":
+                        reader = csv.reader(stream, delimiter="\t", quoting=csv.QUOTE_NONE)
+                        for number, row in enumerate(reader, 1):
+                            if len(row) != 12:
+                                raise ValueError(f"GeoNames postal row must have 12 columns: {number}")
+                            fields = dict(zip((
+                                "place_name", "admin_name1", "admin_code1", "admin_name2",
+                                "admin_code2", "admin_name3", "admin_code3", "latitude",
+                                "longitude", "accuracy",
+                            ), row[2:]))
+                            yield _record(source, number, row[0], row[1], fields, allowed_countries)
+                    else:
+                        reader = csv.reader(stream)
+                        for number, row in enumerate(reader, 1):
+                            if len(row) != 15:
+                                raise ValueError(f"Japan Post postal row must have 15 columns: {number}")
+                            fields = {
+                                "place_name": row[8], "admin_name1": row[6],
+                                "admin_name2": row[7], "admin_code2": row[0],
+                                **{f"source_col_{i}": value for i, value in enumerate(row, 1)},
+                            }
+                            yield _record(source, number, "JP", row[2], fields, allowed_countries)
+    except (OSError, UnicodeError, csv.Error, zipfile.BadZipFile, RuntimeError) as error:
+        raise ValueError(f"cannot replay postal source: {source['id']}") from error
+
+
+def build_postal_catalog(root: Path = ROOT) -> dict[str, Any]:
+    """Count stored observations for every managed country, without upgrading claims."""
+    root = Path(root)
+    manifest = load_sources(root)
+    countries = _countries(root)
+    codes = {item["code"]: set() for item in countries}
+    counts = {item["code"]: Counter() for item in countries}
+    kinds = {item["code"]: Counter() for item in countries}
+    reports = []
+    for source in manifest["sources"]:
+        source_counts: Counter[str] = Counter()
+        kind_counts: Counter[str] = Counter()
+        for record in iter_postal_records(source, root):
+            country = record["country_code"]
+            codes[country].add(record["code"])
+            counts[country][source["id"]] += 1
+            kinds[country][record["code_kind"]] += 1
+            source_counts[country] += 1
+            kind_counts[record["code_kind"]] += 1
+        reports.append({
+            "id": source["id"], "format": source["format"], "path": source["path"],
+            "sha256": source["sha256"], "bytes": source["bytes"],
+            "licence": source["licence"],
+            "status": "verified_source_bytes_and_records",
+            "source_rows": sum(source_counts.values()),
+            "countries": dict(sorted(source_counts.items())),
+            "code_kinds": dict(sorted(kind_counts.items())),
+        })
+    output = []
+    for item in countries:
+        country = item["code"]
+        row_count = sum(counts[country].values())
+        output.append({
+            "country_code": country, "name": item["name"],
+            "postal_system_status": "unreviewed",
+            "collection_status": "stored_source_observations" if row_count else "pending_source",
+            "source_rows": row_count, "distinct_codes": len(codes[country]),
+            "code_kinds": dict(sorted(kinds[country].items())),
+            "source_counts": dict(sorted(counts[country].items())),
+            "national_completeness_verified": False,
+        })
+    source_countries = sum(bool(item["source_rows"]) for item in output)
+    return {
+        "schema_version": 1, "snapshot_label": manifest.get("snapshot_label"),
+        "countries": output,
+        "summary": {
+            "total_countries": len(output), "source_countries": source_countries,
+            "countries_pending": len(output) - source_countries,
+            "source_rows": sum(item["source_rows"] for item in output),
+            "country_code_pairs": sum(item["distinct_codes"] for item in output),
+        },
+        "sources": reports,
+    }
+
+
+def lookup_postcode(country: str, code: str, root: Path = ROOT, limit: int = 20,
+                    offset: int = 0, include_partial: bool = False) -> dict[str, Any]:
+    """Match literal observed code values; partial inclusion does not expand prefixes."""
+    root = Path(root)
+    if not isinstance(country, str) or country not in {item["code"] for item in _countries(root)}:
+        raise ValueError("unknown country collection code")
+    if not _nonempty(code):
+        raise ValueError("postcode must be a nonempty string")
+    if type(limit) is not int or not 1 <= limit <= 10_000:
+        raise ValueError("limit must be an integer between 1 and 10000")
+    if type(offset) is not int or offset < 0:
+        raise ValueError("offset must be a nonnegative integer")
+    if type(include_partial) is not bool:
+        raise ValueError("include_partial must be boolean")
+    total = 0
+    selected = []
+    for source in load_sources(root)["sources"]:
+        for record in iter_postal_records(source, root):
+            if record["country_code"] != country or record["code"] != code:
+                continue
+            if not include_partial and record["code_kind"] not in STANDARD_CODE_KINDS:
+                continue
+            if offset <= total < offset + limit:
+                selected.append(record)
+            total += 1
+    return {
+        "country_code": country, "code": code, "include_partial": include_partial,
+        "total": total, "rows": selected, "limit": limit, "offset": offset,
+        "has_more": total > offset + len(selected),
+        "complete_postcode_verified": False, "deliverability_verified": False,
+    }
+
+
+def verify_postal_catalog(root: Path = ROOT) -> dict[str, Any]:
+    """Replay all stored sources and compare the complete saved catalog."""
+    root = Path(root)
+    try:
+        saved = json.loads((root / "postal/catalog.json").read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as error:
+        raise ValueError("cannot read stored postal catalog") from error
+    computed = build_postal_catalog(root)
+    if saved != computed:
+        raise ValueError("stored postal catalog differs from source replay")
+    return {
+        "status": "passed", "countries": len(computed["countries"]),
+        "source_rows": computed["summary"]["source_rows"],
+        "country_code_pairs": computed["summary"]["country_code_pairs"],
+    }
