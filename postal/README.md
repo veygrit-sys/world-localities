@@ -13,6 +13,29 @@
 
 **全世界の現行番号を網羅した状態にはまだ到達していません。** 非公開・利用制限があるデータを公開原本だけで補えない場合も、対象から外さず調査待ちに残します。書式から実在番号を総当たり生成しません。
 
+## 第3回：未収集国の追加（2026-11-18）
+
+| 追加した国・地域 | 観測行 | 原文番号の種類 | 原典の範囲・制約 |
+|---|---:|---:|---|
+| カンボジア KH | 1,659 | 1,659 | 政府公開API。24州分で、全国完全性は未確認 |
+| ラオス LA | 7,781 | 686 | 郵便事業者の公開一覧。複数集落が同一番号に対応 |
+| ウズベキスタン UZ | 1,887 | 1,887 | 2023年登録の公式法令表。現在の割当全件との照合は未実施 |
+| ナミビア NA | 149 | 149 | 郵便局・私書箱など郵便インフラ向け。個別住所の番号ではない |
+| モーリシャス MU | 6,123 | 2,090 | 本島・ロドリゲス・アガレガの6原典。異形式・要確認値を含む |
+| コソボ XK | 133 | 133 | 郵便事業者の公開一覧。地域・集落の原文を保持 |
+| モンテネグロ ME | 165 | 150 | 公開されている165郵便局の番号。全国の住所番号網羅とは別 |
+| ボスニア・ヘルツェゴビナ BA | 556 | 552 | 閉鎖状態を文字抽出だけで確認できないため、保存のみ・標準検索対象外 |
+
+原典観測がある範囲は**125から133国・地域**、調査待ちは117国・地域になりました。合計は**5,336,211観測行**、国＋原文番号4,443,375組です。異表記・履歴・接頭辞・要確認値を含み、現行完全番号の総数ではありません。
+
+ラオスは番号順でページを取得すると境界に重複が生じたため、ID順で取り直しました。採用版は7,781の一意IDを持つ16ページで、各レスポンスの原文・URL・バイト数・ハッシュも保存しています。カンボジアの9ページも照合し、未掲載州を推測補完しません。
+
+モーリシャスの `712547` は18観測にあり、原文のまま `source_anomaly` に分類して標準検索から除外します。別形式の3列原典も標準検索には選びません。空の番号セル1行は明示された `csv:record:545` だけを集計外とし、原本の行自体は保持します。
+
+新原典はgzipで可逆保存し、保存ファイルと展開後の元バイト列の両方についてサイズ・SHA-256を固定しています。HTML・埋込JSON・CSV・法令表・PDFの位置を `source_locator` で追跡し、ページ内のスクリプトを実行しません。変動する公開ページを固定原本へ無断で上書きせず、復元は保存済みのGit版から行います。
+
+[第3回の取込・保留記録](stage3-review.json) に、国別の出典、件数、利用条件、未取得理由を記録しています。取得できなかった国を制度なしと扱わず、規則・桁構造だけから番号を生成しません。
+
 ## 第2段階の追加（2026-11-18）
 
 | 追加原本 | 原典行 | 一意の番号文字列 | 扱い |
@@ -57,6 +80,7 @@
 | `partial` | 一部収録。ブラジルの今回の原典 |
 | `partial_or_legacy` | 部分・旧方式。アルゼンチンの今回の原典 |
 | `routing_or_unreviewed` | 国内郵便番号と同一視しない特殊・未確認値。今回のAE/HK/MO |
+| `source_anomaly` | 原文のまま保存する要確認値。標準検索から除外し、桁を推測補正しない |
 
 通常のGeoNames原本はCA/GB/NLの完全桁版を含みません。CL/CN/IE/MT/AR/BRにも原典上の制約があります。HK/MOの999077/999078は中国本土発の経路に関する値で、国内郵便番号として使えると判断しません。AEの観測も意味を確認するまで保留します。
 
@@ -64,9 +88,10 @@
 
 ## コマンド
 
-Python 3.11以降の標準ライブラリだけを使います。
+Python 3.11以降を使います。PDF原典を含む全件再生には固定依存を導入してください。
 
 ```bash
+python -m pip install -r requirements-postal.txt
 python scripts/world_postcodes.py status
 python scripts/world_postcodes.py verify
 python scripts/world_postcodes.py lookup --country JP --code 0600000 --limit 5
@@ -75,10 +100,12 @@ python scripts/world_postcodes.py lookup --country CA --code 'T0A 0A0'
 python scripts/world_postcodes.py lookup --country GB --code 'AL3 8QE'
 python scripts/world_postcodes.py lookup --country NL --code '9401 AA'
 python scripts/world_postcodes.py lookup --country JP --code 0600000 --include-historical
+python scripts/world_postcodes.py lookup --country NA --code 10005
 python scripts/world_postcodes.py build
 python -m unittest discover -s tests -p 'test_world_postcodes.py' -v
 python -m unittest discover -s tests -p 'test_postal_capture.py' -v
 python -m unittest discover -s tests -p 'test_postal_full_codes.py' -v
+python -m unittest discover -s tests -p 'test_postal_*.py' -v
 ```
 
 検索は原典の番号文字列との完全一致です。接頭辞は標準検索から除外し、`--include-partial` でも不足桁を補いません。原典掲載値の一致は、現行性・完全住所・配達可能性の検証ではありません。現在は原本走査で、常設API向け索引は後続工程です。

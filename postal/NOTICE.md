@@ -52,3 +52,48 @@ default lookup after this update.
 The existing `../registries/official/TW/postal_links.csv` prefix projection remains
 under Taiwan Open Government Data License, version 1.0. Original attribution,
 metadata and limitations remain in `../registries/official/TW/sources.json`.
+
+## Additional official publications captured 2026-11-18
+
+The 13 snapshots under `sources/official/20261118/` preserve the downloaded byte
+images using lossless gzip. Both stored and original sizes and SHA-256 hashes,
+provider names, public references and extraction limitations are recorded in
+`sources.json` and `stage3-review.json`. The extraction and catalogue are derived
+work; official publication does not establish nationwide completeness or current
+assignment of every listed code.
+
+- Namibia: [NamPost postal-code directory](https://www.nampost.com.na/postal/postal-codes).
+  The list covers postal infrastructure, including offices and boxes.
+- Kosovo: [Posta e Kosovës postal-code list](https://postakosoves.com/en/orari-dhe-kodet-postare/kodet-postare/).
+- Bosnia and Herzegovina: [postal-office directory](https://www.post.ba/media/files/popis_ureda.pdf),
+  listing BHP/HP/PS operators. Closure symbols are not reliably available in the
+  extracted text, so this snapshot is archived and excluded from default lookup.
+- Montenegro: [Pošta Crne Gore office directory](https://www.postacg.me/centar-za-korisnike/lokacije-poslovnica/).
+  The snapshot is the read-only response used by the public directory frontend.
+- Cambodia: [MEF DataEF / MPTC postal-code dataset](https://data.mef.gov.kh/datasets/pd_697c1a83ed95920007af6a15).
+  Nine public API responses are retained, including their byte and hash receipts.
+- Laos: [Lao Post postal-code page](https://laopost.com.la/about/postcode).
+  Sixteen public AIF-hosted API responses are retained, sorted by source ID to
+  avoid unstable postcode pagination. Original Lao and English labels remain.
+
+For these six providers, a specific redistribution licence was not confirmed.
+Original rights remain with the providers; public access is not represented as
+a Creative Commons or uniform open-data licence. Cambodia and Lao/AIF footer
+rights declarations remain in the captured evidence. No ownership of the source
+publications is asserted by this repository.
+
+Uzbekistan: the [LexUZ official postal-index legislation](https://lex.uz/ru/docs/6350526?otherlang=4)
+was registered on 2023-01-13, number 3414. The Russian-language assignment tables
+are selected once; the parallel Uzbek tables and routing masks are not counted
+again. Article 8 of the [copyright law](https://lex.uz/acts/1023494) excludes official
+documents and their official translations. This is not labelled a CC licence.
+
+Mauritius: six CSV publications from the [government data portal](https://data.govmu.org/)
+cover Mauritius, Rodrigues and Agalega. Their individual dataset/resource URLs
+are retained in `sources.json`. The portal declares
+[Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+Retain attribution to the Mauritius government portal and the Ministry of Digital
+Transformation, and the applicable ShareAlike terms when sharing adapted data.
+Three-column and four-column publications are kept separately. The source value
+`712547` is retained as an anomaly and not corrected by inference. A metadata
+modification date alone is not represented as proof of newer underlying data.

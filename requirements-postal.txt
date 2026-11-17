@@ -1,0 +1,2 @@
+# Only PDF postal-table extraction needs this; other readers use the standard library.
+pypdf==6.21.4
