@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_label": "20261118-stage3",
+  "snapshot_label": "20261118-stage4",
   "countries": [
     {
       "country_code": "AD",
@@ -524,13 +524,19 @@
       "country_code": "BT",
       "name": "Bhutan",
       "postal_system_status": "unreviewed",
-      "collection_status": "pending_source",
-      "source_rows": 0,
-      "distinct_codes": 0,
-      "lookup_source_rows": 0,
-      "code_kinds": {},
-      "distinct_codes_by_kind": {},
-      "source_counts": {},
+      "collection_status": "stored_source_observations",
+      "source_rows": 76,
+      "distinct_codes": 38,
+      "lookup_source_rows": 76,
+      "code_kinds": {
+        "official_full": 76
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 38
+      },
+      "source_counts": {
+        "official-bt-bt_postcode_regions-20261118-stage4": 76
+      },
       "national_completeness_verified": false
     },
     {
@@ -2076,13 +2082,19 @@
       "country_code": "LC",
       "name": "Saint Lucia",
       "postal_system_status": "unreviewed",
-      "collection_status": "pending_source",
-      "source_rows": 0,
-      "distinct_codes": 0,
-      "lookup_source_rows": 0,
-      "code_kinds": {},
-      "distinct_codes_by_kind": {},
-      "source_counts": {},
+      "collection_status": "stored_source_observations",
+      "source_rows": 54,
+      "distinct_codes": 54,
+      "lookup_source_rows": 54,
+      "code_kinds": {
+        "official_full": 54
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 54
+      },
+      "source_counts": {
+        "official-lc-gazette-20151221-captured-20261118": 54
+      },
       "national_completeness_verified": false
     },
     {
@@ -2478,13 +2490,19 @@
       "country_code": "MS",
       "name": "Montserrat",
       "postal_system_status": "unreviewed",
-      "collection_status": "pending_source",
-      "source_rows": 0,
-      "distinct_codes": 0,
-      "lookup_source_rows": 0,
-      "code_kinds": {},
-      "distinct_codes_by_kind": {},
-      "source_counts": {},
+      "collection_status": "stored_source_observations",
+      "source_rows": 8,
+      "distinct_codes": 8,
+      "lookup_source_rows": 8,
+      "code_kinds": {
+        "official_full": 8
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 8
+      },
+      "source_counts": {
+        "official-ms-active-postcodes-captured-20261118": 8
+      },
       "national_completeness_verified": false
     },
     {
@@ -3287,13 +3305,19 @@
       "country_code": "SH",
       "name": "Saint Helena",
       "postal_system_status": "unreviewed",
-      "collection_status": "pending_source",
-      "source_rows": 0,
-      "distinct_codes": 0,
-      "lookup_source_rows": 0,
-      "code_kinds": {},
-      "distinct_codes_by_kind": {},
-      "source_counts": {},
+      "collection_status": "stored_source_observations",
+      "source_rows": 1,
+      "distinct_codes": 1,
+      "lookup_source_rows": 1,
+      "code_kinds": {
+        "official_full": 1
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 1
+      },
+      "source_counts": {
+        "official-sh-upu-single-postcode-captured-20261118": 1
+      },
       "national_completeness_verified": false
     },
     {
@@ -3389,13 +3413,21 @@
       "country_code": "SN",
       "name": "Senegal",
       "postal_system_status": "unreviewed",
-      "collection_status": "pending_source",
-      "source_rows": 0,
-      "distinct_codes": 0,
-      "lookup_source_rows": 0,
-      "code_kinds": {},
-      "distinct_codes_by_kind": {},
-      "source_counts": {},
+      "collection_status": "stored_source_observations",
+      "source_rows": 4143,
+      "distinct_codes": 166,
+      "lookup_source_rows": 4143,
+      "code_kinds": {
+        "official_full": 4140,
+        "source_anomaly": 3
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 163,
+        "source_anomaly": 3
+      },
+      "source_counts": {
+        "official-sn-sn_laposte_postal_js-20261118-stage4": 4143
+      },
       "national_completeness_verified": false
     },
     {
@@ -3493,13 +3525,19 @@
       "country_code": "SZ",
       "name": "Eswatini",
       "postal_system_status": "unreviewed",
-      "collection_status": "pending_source",
-      "source_rows": 0,
-      "distinct_codes": 0,
-      "lookup_source_rows": 0,
-      "code_kinds": {},
-      "distinct_codes_by_kind": {},
-      "source_counts": {},
+      "collection_status": "stored_source_observations",
+      "source_rows": 81,
+      "distinct_codes": 80,
+      "lookup_source_rows": 81,
+      "code_kinds": {
+        "official_full": 81
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 80
+      },
+      "source_counts": {
+        "official-sz-sz_eswatinipost_html-20261118-stage4": 81
+      },
       "national_completeness_verified": false
     },
     {
@@ -3725,13 +3763,46 @@
       "country_code": "TZ",
       "name": "Tanzania",
       "postal_system_status": "unreviewed",
-      "collection_status": "pending_source",
-      "source_rows": 0,
-      "distinct_codes": 0,
-      "lookup_source_rows": 0,
-      "code_kinds": {},
-      "distinct_codes_by_kind": {},
-      "source_counts": {},
+      "collection_status": "stored_source_observations",
+      "source_rows": 3921,
+      "distinct_codes": 3921,
+      "lookup_source_rows": 3921,
+      "code_kinds": {
+        "official_full": 3920,
+        "source_anomaly": 1
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 3920,
+        "source_anomaly": 1
+      },
+      "source_counts": {
+        "official-tz-tcra-arusha-captured-20261118": 158,
+        "official-tz-tcra-dar-es-salaam-captured-20261118": 102,
+        "official-tz-tcra-dodoma-captured-20261118": 209,
+        "official-tz-tcra-geita-captured-20261118": 121,
+        "official-tz-tcra-iringa-captured-20261118": 106,
+        "official-tz-tcra-kagera-captured-20261118": 195,
+        "official-tz-tcra-katavi-captured-20261118": 58,
+        "official-tz-tcra-kigoma-captured-20261118": 103,
+        "official-tz-tcra-kilimanjaro-captured-20261118": 168,
+        "official-tz-tcra-lindi-captured-20261118": 153,
+        "official-tz-tcra-manyara-captured-20261118": 142,
+        "official-tz-tcra-mara-captured-20261118": 178,
+        "official-tz-tcra-mbeya-captured-20261118": 179,
+        "official-tz-tcra-morogoro-captured-20261118": 214,
+        "official-tz-tcra-mtwara-captured-20261118": 191,
+        "official-tz-tcra-mwanza-captured-20261118": 191,
+        "official-tz-tcra-njombe-captured-20261118": 107,
+        "official-tz-tcra-pwani-captured-20261118": 133,
+        "official-tz-tcra-rukwa-captured-20261118": 97,
+        "official-tz-tcra-ruvuma-captured-20261118": 173,
+        "official-tz-tcra-shinyanga-captured-20261118": 130,
+        "official-tz-tcra-simiyu-captured-20261118": 133,
+        "official-tz-tcra-singida-captured-20261118": 136,
+        "official-tz-tcra-songwe-captured-20261118": 93,
+        "official-tz-tcra-tabora-captured-20261118": 206,
+        "official-tz-tcra-tanga-captured-20261118": 245
+      },
       "national_completeness_verified": false
     },
     {
@@ -4076,11 +4147,11 @@
   ],
   "summary": {
     "total_countries": 250,
-    "source_countries": 133,
-    "countries_pending": 117,
-    "source_rows": 5336211,
-    "lookup_source_rows": 5209259,
-    "country_code_pairs": 4443375
+    "source_countries": 140,
+    "countries_pending": 110,
+    "source_rows": 5344495,
+    "lookup_source_rows": 5217543,
+    "country_code_pairs": 4447643
   },
   "sources": [
     {
@@ -4684,6 +4755,746 @@
       },
       "adapter": "mu_postal_csv4",
       "coverage_scope": "Separate mainland/Rodrigues/Agalega locality/street code publication. Alternative three-column sources are stored but not selected for standard lookup."
+    },
+    {
+      "id": "official-lc-gazette-20151221-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/LC/lc-gazette.pdf",
+      "sha256": "caddf197d5f523ac333ef9a35d2b1b6312ef455c80587248f3c4a7c5385c60cb",
+      "bytes": 2792865,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 54,
+      "distinct_codes": 54,
+      "distinct_codes_by_kind": {
+        "official_full": 54
+      },
+      "countries": {
+        "LC": 54
+      },
+      "code_kinds": {
+        "official_full": 54
+      },
+      "adapter": "lc_gazette_postal_pdf",
+      "coverage_scope": "2015-12-21 Gazette printed pages1501–1502 (PDF13–14), 54 explicit delivery-point/postcode rows including private letter boxes. Current national completeness and validity are unverified. Address examples after section2 are excluded."
+    },
+    {
+      "id": "official-ms-active-postcodes-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/MS/ms-postcode-guide.pdf",
+      "sha256": "765f50e997018a668d6bdaae15c1a8a62c2898dde231efe3f02d77a258665bbd",
+      "bytes": 149807,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 8,
+      "distinct_codes": 8,
+      "distinct_codes_by_kind": {
+        "official_full": 8
+      },
+      "countries": {
+        "MS": 8
+      },
+      "code_kinds": {
+        "official_full": 8
+      },
+      "adapter": "ms_active_postcodes_pdf",
+      "coverage_scope": "Eight rows explicitly listed under Active Postcodes on the first page of the two-page official guide. Postal boxes and delivery areas; current national completeness is unverified. Repeated codes in explanations and sample addresses are excluded."
+    },
+    {
+      "id": "official-sh-upu-single-postcode-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/SH/sh-upu.pdf",
+      "sha256": "3e1946f849857d5f382096c6763bfeef27736b2012a48e7a5096b41a1033b4c6",
+      "bytes": 147995,
+      "licence": "LicenseRef-UPU-Public-Addressing-Publication; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 1,
+      "distinct_codes": 1,
+      "distinct_codes_by_kind": {
+        "official_full": 1
+      },
+      "countries": {
+        "SH": 1
+      },
+      "code_kinds": {
+        "official_full": 1
+      },
+      "adapter": "sh_upu_single_postcode_pdf",
+      "coverage_scope": "Explicit single-postcode declaration for Saint Helena island, STHL1ZZ with published space as STHL 1ZZ. SH collection code also includes Ascension and Tristan da Cunha; those dependencies are not covered by this snapshot. Not a claim of nationwide SH completeness."
+    },
+    {
+      "id": "official-sz-sz_eswatinipost_html-20261118-stage4",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/SZ/sz-eswatinipost-postcodes.html.gz",
+      "sha256": "8c0fd1a30d86f9e7fa9d8b5b3bb73da448449720de4c2b4b111dbe204d60932c",
+      "bytes": 3936,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 81,
+      "distinct_codes": 80,
+      "distinct_codes_by_kind": {
+        "official_full": 80
+      },
+      "countries": {
+        "SZ": 81
+      },
+      "code_kinds": {
+        "official_full": 81
+      },
+      "adapter": "sz_eswatinipost_html",
+      "coverage_scope": "81 published locality/post-office assignments across four named regions; 80 literal codes, shared H103 retained; national completeness/currentness not independently verified"
+    },
+    {
+      "id": "official-sn-sn_laposte_postal_js-20261118-stage4",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/SN/sn-postal-data.js.gz",
+      "sha256": "4bb76d3de48365ddd28132c38eb13c26e55ad136f449821066dbcb23b793f3a9",
+      "bytes": 36267,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 4143,
+      "distinct_codes": 166,
+      "distinct_codes_by_kind": {
+        "official_full": 163,
+        "source_anomaly": 3
+      },
+      "countries": {
+        "SN": 4143
+      },
+      "code_kinds": {
+        "official_full": 4140,
+        "source_anomaly": 3
+      },
+      "adapter": "sn_laposte_postal_js",
+      "coverage_scope": "4143 entries in the official postcode lookup frontend data constant, 166 literal codes; three short values 159/0/36 are source_anomaly; no inference of missing digits or national completeness"
+    },
+    {
+      "id": "official-bt-bt_postcode_regions-20261118-stage4",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/BT/bt-postcode-region-bundle.json.gz",
+      "sha256": "39fd401aec9bf08af929e442371f3663b48126919edd693b9da940efef83e84c",
+      "bytes": 2994,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 76,
+      "distinct_codes": 38,
+      "distinct_codes_by_kind": {
+        "official_full": 38
+      },
+      "countries": {
+        "BT": 76
+      },
+      "code_kinds": {
+        "official_full": 76
+      },
+      "adapter": "bt_postcode_regions",
+      "coverage_scope": "20 explicitly published regional filters return 76 source observations, with each of 38 unique office/area/code tuples duplicated. Preserve all observations; 38 distinct literal five-digit codes. This is the current public finder collection, not verified nationwide complete assignment or address-level delivery coverage."
+    },
+    {
+      "id": "official-tz-tcra-arusha-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Arusha_23000_1622729671_850462b28a.pdf",
+      "sha256": "ec43e8faa0422e5bc305df6d4558f044e56cd69448f5fb954cc3234ec81f6f71",
+      "bytes": 480953,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 158,
+      "distinct_codes": 158,
+      "distinct_codes_by_kind": {
+        "official_full": 158
+      },
+      "countries": {
+        "TZ": 158
+      },
+      "code_kinds": {
+        "official_full": 158
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Arusha ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-dar-es-salaam-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Dar_Es_Salaam_11000_1622729685_c110794e4b.pdf",
+      "sha256": "a647f25d7a905643cb1dda08247491c96165dfa0e970ff799de126f387b3f5be",
+      "bytes": 252305,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 102,
+      "distinct_codes": 102,
+      "distinct_codes_by_kind": {
+        "official_full": 102
+      },
+      "countries": {
+        "TZ": 102
+      },
+      "code_kinds": {
+        "official_full": 102
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Dar Es Salaam ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-dodoma-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Dodoma_41000_1622729699_af2b3ff573.pdf",
+      "sha256": "2a8ba16898e4642e815f382b1b0fa3a77d1ba970d4ca20377c5e56800d66dc5b",
+      "bytes": 685700,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 209,
+      "distinct_codes": 209,
+      "distinct_codes_by_kind": {
+        "official_full": 209
+      },
+      "countries": {
+        "TZ": 209
+      },
+      "code_kinds": {
+        "official_full": 209
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Dodoma ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-geita-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Geita_30000_1622729718_187953a010.pdf",
+      "sha256": "b25a602f2307c772afb63f1c270b8eb5118d87e9f98f4d3ac95dc066dce6f88b",
+      "bytes": 538153,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 121,
+      "distinct_codes": 121,
+      "distinct_codes_by_kind": {
+        "official_full": 121
+      },
+      "countries": {
+        "TZ": 121
+      },
+      "code_kinds": {
+        "official_full": 121
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Geita ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-iringa-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Iringa_51000_1622729736_0343f91ee9.pdf",
+      "sha256": "b08e742d1316d246bfb46e2331f1d72e6584554a6acbce916a793abd0e987416",
+      "bytes": 408286,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 106,
+      "distinct_codes": 106,
+      "distinct_codes_by_kind": {
+        "official_full": 106
+      },
+      "countries": {
+        "TZ": 106
+      },
+      "code_kinds": {
+        "official_full": 106
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Iringa ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-kagera-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Kagera_35000_1622729758_5263f228bb.pdf",
+      "sha256": "73e19adf3f2d354528e8d90bdb6cb914b0848fafd3f9d6deafc698c938893de2",
+      "bytes": 598152,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 195,
+      "distinct_codes": 195,
+      "distinct_codes_by_kind": {
+        "official_full": 195
+      },
+      "countries": {
+        "TZ": 195
+      },
+      "code_kinds": {
+        "official_full": 195
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Kagera ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-katavi-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Katavi_50000_1622729779_33c6d84dfd.pdf",
+      "sha256": "32b2bff50dac07103706426a3c508c9f8b84a07d01022e4509ac0d22c7da8e04",
+      "bytes": 292116,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 58,
+      "distinct_codes": 58,
+      "distinct_codes_by_kind": {
+        "official_full": 58
+      },
+      "countries": {
+        "TZ": 58
+      },
+      "code_kinds": {
+        "official_full": 58
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Katavi ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-kigoma-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Kigoma_47000_1622729800_0b4e13169c.pdf",
+      "sha256": "ee3c6aad46eacf1f5e690fdb289d97e4008ff326ed27fa4a36329b1b2fc431a4",
+      "bytes": 359436,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 103,
+      "distinct_codes": 103,
+      "distinct_codes_by_kind": {
+        "official_full": 103
+      },
+      "countries": {
+        "TZ": 103
+      },
+      "code_kinds": {
+        "official_full": 103
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Kigoma ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-kilimanjaro-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Kilimanjaro_25000_1622729818_156b84aa8b.pdf",
+      "sha256": "b726437edfe83f4f60b78bdca0f0b2dd0cb7476dc73289006ba4e874f7ae57a9",
+      "bytes": 453430,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 168,
+      "distinct_codes": 168,
+      "distinct_codes_by_kind": {
+        "official_full": 168
+      },
+      "countries": {
+        "TZ": 168
+      },
+      "code_kinds": {
+        "official_full": 168
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Kilimanjaro ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-lindi-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Lindi_65000_1622729867_1326e3da2e.pdf",
+      "sha256": "3f140b4987062b6ec7d92fa4c8ee88c8faadc95c096be9358081ca24fe66328c",
+      "bytes": 472461,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 153,
+      "distinct_codes": 153,
+      "distinct_codes_by_kind": {
+        "official_full": 153
+      },
+      "countries": {
+        "TZ": 153
+      },
+      "code_kinds": {
+        "official_full": 153
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Lindi ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-manyara-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Manyara_27000_1622729906_6faa8cbcdc.pdf",
+      "sha256": "345e9ac0fcf949ff830b0861517d7bbb3ecc3076bc89c933e685269b5b584a30",
+      "bytes": 519196,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 142,
+      "distinct_codes": 142,
+      "distinct_codes_by_kind": {
+        "official_full": 142
+      },
+      "countries": {
+        "TZ": 142
+      },
+      "code_kinds": {
+        "official_full": 142
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Manyara ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-mara-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Mara_31000_1622729933_55ed6dc203.pdf",
+      "sha256": "af5565aa1785a7bb09b9a276f7b1ccd58db4d3c08850fd08d2e1e8920470efa7",
+      "bytes": 503023,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 178,
+      "distinct_codes": 178,
+      "distinct_codes_by_kind": {
+        "official_full": 178
+      },
+      "countries": {
+        "TZ": 178
+      },
+      "code_kinds": {
+        "official_full": 178
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Mara ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-mbeya-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Mbeya_53000_1622729950_fba861b468.pdf",
+      "sha256": "9b4270dc46b77d9394b8636d9abd9429cdf44bd50abc6629d95cfd90a83447dd",
+      "bytes": 532310,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 179,
+      "distinct_codes": 179,
+      "distinct_codes_by_kind": {
+        "official_full": 179
+      },
+      "countries": {
+        "TZ": 179
+      },
+      "code_kinds": {
+        "official_full": 179
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Mbeya ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-morogoro-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Morogoro_67000_1622729967_21a6d71bca.pdf",
+      "sha256": "1753d43ad306fbc3a7173564d09da1317357ac336dfcbffc43b8b9036e31c991",
+      "bytes": 608894,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 214,
+      "distinct_codes": 214,
+      "distinct_codes_by_kind": {
+        "official_full": 213,
+        "source_anomaly": 1
+      },
+      "countries": {
+        "TZ": 214
+      },
+      "code_kinds": {
+        "official_full": 213,
+        "source_anomaly": 1
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Morogoro ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-mtwara-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Mtwara_63000_1622729984_94e1e79fad.pdf",
+      "sha256": "ca4d62692f92c7a558fa249844bad052b57de12de5cfc431cee2c087e060ad46",
+      "bytes": 588247,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 191,
+      "distinct_codes": 191,
+      "distinct_codes_by_kind": {
+        "official_full": 191
+      },
+      "countries": {
+        "TZ": 191
+      },
+      "code_kinds": {
+        "official_full": 191
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Mtwara ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-mwanza-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Mwanza_33000_1622730005_fd89c6961c.pdf",
+      "sha256": "be53c605357963bb77686cf4568a9bcd85df39f6bf04cb330d36e28d053a68cf",
+      "bytes": 603898,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 191,
+      "distinct_codes": 191,
+      "distinct_codes_by_kind": {
+        "official_full": 191
+      },
+      "countries": {
+        "TZ": 191
+      },
+      "code_kinds": {
+        "official_full": 191
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Mwanza ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-njombe-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Njombe_59000_1622730025_077030fc7c.pdf",
+      "sha256": "87a4854ec161e512530eda6187478a3c261c038f471ea9ed2d7591ff72e5b6c1",
+      "bytes": 400189,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 107,
+      "distinct_codes": 107,
+      "distinct_codes_by_kind": {
+        "official_full": 107
+      },
+      "countries": {
+        "TZ": 107
+      },
+      "code_kinds": {
+        "official_full": 107
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Njombe ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-pwani-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Pwani_61000_1622730041_a6de1c61fc.pdf",
+      "sha256": "3f501631d0e0db99da29798587cc2ef1894a10fc9e6e0d20d04e1cce0ac7ea5e",
+      "bytes": 386808,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 133,
+      "distinct_codes": 133,
+      "distinct_codes_by_kind": {
+        "official_full": 133
+      },
+      "countries": {
+        "TZ": 133
+      },
+      "code_kinds": {
+        "official_full": 133
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Pwani ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-rukwa-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Rukwa_55000_1622730063_d751981a41.pdf",
+      "sha256": "7d856ff97130c11763bf77620b92aba1ae8e9dab7d0e5870cc54a8b8e1a2b9d8",
+      "bytes": 601307,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 97,
+      "distinct_codes": 97,
+      "distinct_codes_by_kind": {
+        "official_full": 97
+      },
+      "countries": {
+        "TZ": 97
+      },
+      "code_kinds": {
+        "official_full": 97
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Rukwa ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-ruvuma-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Ruvuma_57000_1622730084_befab2c483.pdf",
+      "sha256": "3310b0671ae9d08ca9ab8f5698a91a55aedbfda6ebd32b562f18e93e2a12ef84",
+      "bytes": 607399,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 173,
+      "distinct_codes": 173,
+      "distinct_codes_by_kind": {
+        "official_full": 173
+      },
+      "countries": {
+        "TZ": 173
+      },
+      "code_kinds": {
+        "official_full": 173
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Ruvuma ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-shinyanga-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Shinyanga_37000_1622730102_4a2cc1dddc.pdf",
+      "sha256": "c17be38d8c7061d6149876c8c9f70093ce3a84805f53aa301a613cacde3b6406",
+      "bytes": 499917,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 130,
+      "distinct_codes": 130,
+      "distinct_codes_by_kind": {
+        "official_full": 130
+      },
+      "countries": {
+        "TZ": 130
+      },
+      "code_kinds": {
+        "official_full": 130
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Shinyanga ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-simiyu-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Simiyu_39000_1622730125_ac6819db20.pdf",
+      "sha256": "b9441390c51ed665b4f5900a6f7169239bf3d2605b4321bb6303ee81fe1b02a0",
+      "bytes": 493896,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 133,
+      "distinct_codes": 133,
+      "distinct_codes_by_kind": {
+        "official_full": 133
+      },
+      "countries": {
+        "TZ": 133
+      },
+      "code_kinds": {
+        "official_full": 133
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Simiyu ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-singida-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Singida_43000_1622730144_208a6bba9f.pdf",
+      "sha256": "38c4b033b1e08f66b26ffdfded7b7f0c022921ca69cd718c738a2564be624097",
+      "bytes": 450942,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 136,
+      "distinct_codes": 136,
+      "distinct_codes_by_kind": {
+        "official_full": 136
+      },
+      "countries": {
+        "TZ": 136
+      },
+      "code_kinds": {
+        "official_full": 136
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Singida ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-songwe-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Songwe_54100_1622730162_bf6ee308ed.pdf",
+      "sha256": "08368ec201b47bd12a21ae8cdc4f2c221aef5ef1e1c365a9d9e70dfa819242a7",
+      "bytes": 361688,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 93,
+      "distinct_codes": 93,
+      "distinct_codes_by_kind": {
+        "official_full": 93
+      },
+      "countries": {
+        "TZ": 93
+      },
+      "code_kinds": {
+        "official_full": 93
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Songwe ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-tabora-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Tabora_45000_1622730179_02e051824a.pdf",
+      "sha256": "4044469df24829f59eafb76e257bae24a4c801b9405ff3cea7197043690e98eb",
+      "bytes": 678952,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 206,
+      "distinct_codes": 206,
+      "distinct_codes_by_kind": {
+        "official_full": 206
+      },
+      "countries": {
+        "TZ": 206
+      },
+      "code_kinds": {
+        "official_full": 206
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Tabora ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
+    },
+    {
+      "id": "official-tz-tcra-tanga-captured-20261118",
+      "format": "official_postal_source",
+      "path": "postal/sources/official/20261118-stage4/TZ/tz-region-Tanga_21000_1622730205_d05b8ccfbe.pdf",
+      "sha256": "129f330b228da0c304106af898cd67b255d783d33392beea473ae8b4e3bed75c",
+      "bytes": 645909,
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 245,
+      "distinct_codes": 245,
+      "distinct_codes_by_kind": {
+        "official_full": 245
+      },
+      "countries": {
+        "TZ": 245
+      },
+      "code_kinds": {
+        "official_full": 245
+      },
+      "adapter": "tz_tcra_ward_pdf",
+      "coverage_scope": "Mainland Tanga ward POSTCODE column only; OLD POSTCODE, title and district prefixes excluded. The 26 mainland PDFs do not cover Zanzibar. Published six-digit 678010 is retained as source_anomaly. Current nationwide completeness and source freshness unverified."
     }
   ]
 }

@@ -32,6 +32,13 @@ OFFICIAL_SOURCE_COUNTRIES = {
     "mu_postal_csv4": "MU",
     "mu_postal_csv3": "MU",
     "me_postacg_offices": "ME",
+    "lc_gazette_postal_pdf": "LC",
+    "ms_active_postcodes_pdf": "MS",
+    "sh_upu_single_postcode_pdf": "SH",
+    "sz_eswatinipost_html": "SZ",
+    "sn_laposte_postal_js": "SN",
+    "bt_postcode_regions": "BT",
+    "tz_tcra_ward_pdf": "TZ",
 }
 CODE_KINDS = {
     "source_reported", "source_full", "official_full", "prefix", "aggregated",
@@ -256,6 +263,14 @@ def iter_postal_records(source: Mapping[str, Any], root: Path = ROOT) -> Iterato
                 from .postal_asia_sources import iter_asia_records as read_records
             elif adapter in {"mu_postal_csv4", "mu_postal_csv3"}:
                 from .postal_africa_sources import iter_africa_records as read_records
+            elif adapter in {"lc_gazette_postal_pdf", "ms_active_postcodes_pdf", "sh_upu_single_postcode_pdf"}:
+                from .postal_caribbean_sources import iter_caribbean_records as read_records
+            elif adapter in {"sz_eswatinipost_html", "sn_laposte_postal_js"}:
+                from .postal_more_africa_sources import iter_more_africa_records as read_records
+            elif adapter == "bt_postcode_regions":
+                from .postal_cv_bt_sources import iter_cv_bt_records as read_records
+            elif adapter == "tz_tcra_ward_pdf":
+                from .postal_tanzania_sources import iter_tanzania_records as read_records
             else:
                 from .postal_europe_sources import iter_europe_records as read_records
             for number, fields in enumerate(read_records(source, path), 1):

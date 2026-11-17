@@ -97,3 +97,47 @@ Transformation, and the applicable ShareAlike terms when sharing adapted data.
 Three-column and four-column publications are kept separately. The source value
 `712547` is retained as an anomaly and not corrected by inference. A metadata
 modification date alone is not represented as proof of newer underlying data.
+
+## Additional publications captured in stage 4 (2026-11-18)
+
+The seven newly observed collection codes are BT, LC, MS, SH, SN, SZ and TZ.
+Source publications and their terms remain separate; neither public access nor
+inclusion in this inventory creates a uniform open-data licence.
+
+- Bhutan: [Bhutan Post postal finder](https://bhutanpost.bt/postcode/searchpostcode-exec.php).
+  Responses to exactly the twenty published regional filters are retained with
+  request conditions and individual raw-response byte/hash receipts. Repeated
+  observations remain repeated. The annual-report map was not used because it
+  conflicts with the finder.
+- Saint Lucia: [Government Gazette, 21 December 2015](https://npc.govt.lc/files/documents/gazettes/2015/12/Gazette_December_21_2015.pdf),
+  printed pages 1501–1502. Only the explicit 54 delivery-point assignments are
+  extracted: 47 post offices and seven private letter boxes. Other notices and
+  postal address examples are excluded. The full source PDF remains unmodified.
+- Montserrat: [Government postal-code guide](https://www.gov.ms/wp-content/uploads/2014/02/Postal-Code-Guide-pamphlet.pdf).
+  Only the eight rows headed Active Postcodes are extracted. The guide credits
+  Montserrat Printing & Publishing, Inc.; retain the original rights declaration.
+- Saint Helena: [UPU addressing publication](https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/shnEn.pdf),
+  dated 08/2005. The explicit single-code declaration supplies `STHL 1ZZ` for
+  Saint Helena island. Ascension and Tristan da Cunha are not included. Royal
+  Mail's contact postcode and repeated illustrative addresses are not counted.
+  Original UPU rights remain applicable.
+- Senegal: [La Poste postal-code finder](https://www.laposte.sn/code-postal-senegal/)
+  and its published `PE_ALL_POSTAL_CODES` data file. Parse the JSON-valued
+  declaration without executing JavaScript. Short values `159`, `0` and `36`
+  remain source anomalies and are excluded from standard lookup.
+- Eswatini: [Eswatini Post postal-code tables](http://www.eswatinipost.co.sz/postcode.php).
+  The public HTTP response was captured because HTTPS was unavailable during
+  intake. Store its exact received bytes and hash without representing this as
+  independently authenticated transport or proof of current assignments.
+- Tanzania: [TCRA regional postcode publications](https://www.tcra.go.tz/services/publication-of-postcode-list).
+  The 26 mainland regional PDFs remain unmodified. Extract only the explicit
+  ward POSTCODE column; OLD POSTCODE values and region/district prefixes are
+  excluded. Zanzibar is not covered. The directory references Gazette Notice
+  240 of 22 April 2016; the 2021 attachment path and current footer are not
+  represented as data-effective dates. TCRA's original rights declaration remains.
+
+A specific redistribution licence was not confirmed for these publications.
+Retain provider attribution, original rights and the per-source limitations in
+`sources.json` and `stage4-review.json`. No current national completeness or
+address-level deliverability is asserted. Candidates with explicit restrictive
+reuse conditions or unverified provider identity were not added to this layer.

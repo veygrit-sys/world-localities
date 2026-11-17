@@ -115,6 +115,40 @@ class PostalCapture(unittest.TestCase):
                 capture_sources(self.root)
         self.assertFalse(self.target.exists())
 
+    def test_official_pdf_capture_only_allows_reviewed_public_paths(self):
+        urls = (
+            "https://npc.govt.lc/files/documents/gazettes/2015/12/Gazette_December_21_2015.pdf",
+            "https://www.gov.ms/wp-content/uploads/2014/02/Postal-Code-Guide-pamphlet.pdf",
+            "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/shnEn.pdf",
+            "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/Arusha_23000_1622729671_850462b28a.pdf",
+        )
+        for url in urls:
+            with self.subTest(url=url):
+                self.assertTrue(approved_archive_url(url, "official_postal_source"))
+                for changed in (url + "?latest=1", url + "#fragment", url.replace("https:", "http:"),
+                                url.replace(".pdf", ".html")):
+                    self.assertFalse(approved_archive_url(changed, "official_postal_source"))
+                self.assertFalse(approved_archive_url(url, "geonames_tsv_zip"))
+        prefix = "https://www.tcra.go.tz/tovuti/2021/mamlaka-website/featured-services/postal-services/attachments/"
+        for suffix in ("../private.pdf", "%2e%2e/private.pdf", "index.html", "Arusha.pdf"):
+            self.assertFalse(approved_archive_url(prefix + suffix, "official_postal_source"))
+
+    def test_pinned_official_pdf_mismatch_or_redirect_is_never_stored(self):
+        url = "https://www.gov.ms/wp-content/uploads/2014/02/Postal-Code-Guide-pamphlet.pdf"
+        self.source.update(format="official_postal_source", adapter="ms_active_postcodes_pdf",
+                           expected_country="MS", default_code_kind="official_full", download_url=url)
+        self.manifest()
+        with patch("scripts.world_postcodes.urlopen", return_value=Response(self.payload, url)):
+            self.assertEqual(capture_sources(self.root)[0]["status"], "captured_verified_bytes")
+        self.assertEqual(self.target.read_bytes(), self.payload)
+        self.target.unlink()
+        for payload, final_url in ((b"changed-bytes", url), (self.payload, url.replace("pamphlet", "new"))):
+            with self.subTest(final_url=final_url):
+                with patch("scripts.world_postcodes.urlopen", return_value=Response(payload, final_url)):
+                    with self.assertRaises(ValueError):
+                        capture_sources(self.root)
+                self.assertFalse(self.target.exists())
+
 
 if __name__ == "__main__":
     unittest.main()
