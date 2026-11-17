@@ -13,6 +13,24 @@
 
 **全世界の現行番号を網羅した状態にはまだ到達していません。** 非公開・利用制限があるデータを公開原本だけで補えない場合も、対象から外さず調査待ちに残します。書式から実在番号を総当たり生成しません。
 
+## 第2段階の追加（2026-11-18）
+
+| 追加原本 | 原典行 | 一意の番号文字列 | 扱い |
+|---|---:|---:|---|
+| カナダ完全桁版 | 900,676 | 899,779 | GeoNamesの6文字＋空白の掲載値 |
+| 英国完全桁版 | 1,839,678 | 1,839,678 | GeoNamesの完全桁掲載値。英国全域の網羅を保証しない |
+| オランダ完全桁版 | 468,809 | 468,579 | GeoNamesの4数字＋2英字＋空白の掲載値 |
+| 日本・通常番号 2026-10-30版 | 124,527 | 120,721 | 日本郵便原本。9月版を残して標準検索の対象を切替 |
+| 日本・大口事業所等 2026-10-30版 | 22,420 | 22,196 | 事業所20,266行・私書箱2,154行を区別 |
+
+追加原本は計3,356,110行です。既存原本と履歴を含む総計は**5,317,758行**、標準選択する原本の行は5,193,232行、国＋原文番号は4,436,069組です。これらは異表記・接頭辞・複数原典の重複を含む観測の集計で、現行の完全番号総数ではありません。原典観測がある125国・地域と、調査待ち125国・地域の区分は変わりません。
+
+3か国の完全桁版は `source_full` とし、原典の国と桁構造を検査します。接頭辞版は残し、完全桁版から生成して置き換えません。取得原本の件数を採用し、配布サイトの集計表示と一致するとは仮定しません。英国の帰属表示は [NOTICE.md](NOTICE.md) に保持しています。
+
+日本の通常原本は9月版から原文行の追加15・削除14、番号集合は `3130065` の1種追加・削除0でした。事業所等の原本は料金受取人払の個別番号を収録対象外としており、日本の全番号網羅とは扱いません。
+
+台湾の現行3+3文字データは外部アカウント・利用申請後の配布が必要なため、未取得として残します。中国の公式全国一括原本・再配布条件も未確認です。[国別の調査記録](stage2-review.json) に入口・根拠・次の作業を記録しています。登録・申請・契約は行っていません。
+
 ## 第1段階の保存範囲（2026-11-18）
 
 | 集計 | 値 | 意味 |
@@ -25,15 +43,16 @@
 
 内訳はGeoNames公開原本124国・地域1,836,751行、日本郵便原本124,526行、台湾の既存接頭辞台帳371行です。[catalog.json](catalog.json) に全250コードを、[sources.json](sources.json) に固定原典・利用条件・制約を記録しています。
 
-日本郵便は2026-09-30版で大口事業所番号を含みません。台湾は3桁接頭辞のみで、完全6桁番号を生成しません。既存データを上書きせず、出典別の原本と行番号を保持します。
+第1段階の日本郵便は2026-09-30版で大口事業所番号を含みませんでした。台湾は現在も3桁接頭辞のみで、完全6桁番号を生成しません。既存データを上書きせず、出典別の原本と行番号を保持します。
 
 ## 番号の種類
 
 | `code_kind` | 扱い |
 |---|---|
 | `official_full` | 郵便当局の固定原本の完全桁。全国完全性・現行性は別評価 |
+| `source_full` | CA/GB/NLの完全桁原典に掲載された値。公式実在性・全国網羅・現行性は別評価 |
 | `source_reported` | 原典掲載値。独立した公式確認は未実施 |
-| `prefix` | 接頭辞。CA/GB/NL/CL/IE/MTと台湾の今回の原典 |
+| `prefix` | 接頭辞。CA/GB/NLの旧基礎原本、CL/IE/MTと台湾の原典 |
 | `aggregated` | 集約番号。中国の今回の原典 |
 | `partial` | 一部収録。ブラジルの今回の原典 |
 | `partial_or_legacy` | 部分・旧方式。アルゼンチンの今回の原典 |
@@ -52,16 +71,25 @@ python scripts/world_postcodes.py status
 python scripts/world_postcodes.py verify
 python scripts/world_postcodes.py lookup --country JP --code 0600000 --limit 5
 python scripts/world_postcodes.py lookup --country CA --code T0A --include-partial
+python scripts/world_postcodes.py lookup --country CA --code 'T0A 0A0'
+python scripts/world_postcodes.py lookup --country GB --code 'AL3 8QE'
+python scripts/world_postcodes.py lookup --country NL --code '9401 AA'
+python scripts/world_postcodes.py lookup --country JP --code 0600000 --include-historical
 python scripts/world_postcodes.py build
 python -m unittest discover -s tests -p 'test_world_postcodes.py' -v
 python -m unittest discover -s tests -p 'test_postal_capture.py' -v
+python -m unittest discover -s tests -p 'test_postal_full_codes.py' -v
 ```
 
 検索は原典の番号文字列との完全一致です。接頭辞は標準検索から除外し、`--include-partial` でも不足桁を補いません。原典掲載値の一致は、現行性・完全住所・配達可能性の検証ではありません。現在は原本走査で、常設API向け索引は後続工程です。
 
+`active_for_lookup: false` の原本は標準検索から除外し、`--include-historical` を指定した場合だけ含めます。これは版の選択であり、選択原本の全行が現在有効であるという保証ではありません。`lookup_source_rows` は原本選択による行数で、部分番号の除外前の集計です。`distinct_codes_by_kind` は種別ごとの一意件数で、異なる種別・原典を単純合算して住所数にはしません。
+
 ## 保存と更新
 
 `postal/sources/geonames/20261118/allCountries.zip` に取得原本約20 MBを保存します。国別に同じ内容を重複保存せず、同じ原本から国別に読み出します。日本・台湾は既存の保存原本を参照します。
+
+第2段階では `postal/sources/geonames/20261118-full/` の3原本と `postal/sources/japanpost/20261030/` の2原本を追加しています。既存の原本は保持します。取得先はGeoNamesの郵便番号配布パスと、日本郵便の通常・事業所原本の配布パスに限定し、同一ホストの別パスへのリダイレクトも受け入れません。
 
 `capture` は固定URL・バイト数・SHA-256を満たす原本だけ保存します。配布元が新版へ変われば停止し、既存原本を上書きしません。新しい取得は保存先・ハッシュ・対象範囲をレビューして追加します。
 

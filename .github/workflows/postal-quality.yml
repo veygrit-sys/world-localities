@@ -8,6 +8,7 @@ on:
       - 'scripts/world_postcodes.py'
       - 'tests/test_world_postcodes.py'
       - 'tests/test_postal_capture.py'
+      - 'tests/test_postal_full_codes.py'
       - '.github/workflows/postal-*.yml'
   workflow_dispatch:
 
@@ -29,4 +30,5 @@ jobs:
         run: |
           python -m unittest discover -s tests -p 'test_world_postcodes.py' -v
           python -m unittest discover -s tests -p 'test_postal_capture.py' -v
+          python -m unittest discover -s tests -p 'test_postal_full_codes.py' -v
           python scripts/world_postcodes.py verify

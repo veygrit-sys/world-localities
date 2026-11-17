@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_label": "20261118",
+  "snapshot_label": "20261118-stage2",
   "collection_scope": "countries/catalog.json",
   "goal": "Progressively store all obtainable world postal-code sources; national completeness requires per-country evidence.",
   "sources": [
@@ -37,7 +37,7 @@
       "source_freshness_verified": false,
       "notes": [
         "Archive observations, not an authoritative global postal register.",
-        "CA/GB/NL complete-length datasets are separate downloads and are not included in this stage.",
+        "This base archive omits CA/GB/NL complete-length codes; separate pinned full archives are additional sources.",
         "Argentina descriptions differ between README and source table; no current complete-code claim.",
         "HK/MO codes are origin-specific routing observations; AE code semantics require review.",
         "Coordinates may be estimated or averaged; do not use as delivery-point evidence."
@@ -63,7 +63,10 @@
         "Reuse original Japan Post ZIP only; no ABR/ODbL joined derivative is copied.",
         "Business-specific postal codes are not included.",
         "This is the pinned September 2026 source, not a claim of currentness."
-      ]
+      ],
+      "active_for_lookup": false,
+      "expected_country": "JP",
+      "superseded_for_lookup_by": "japanpost-postal-20261030"
     },
     {
       "path": "registries/official/TW/postal_links.csv",
@@ -80,6 +83,136 @@
       "notes": [
         "Three-digit prefixes only, not complete six-digit postcodes.",
         "Existing source line and entity links retained; complete codes are not synthesized."
+      ],
+      "expected_country": "TW"
+    },
+    {
+      "path": "postal/sources/geonames/20261118-full/CA_full.csv.zip",
+      "bytes": 6397825,
+      "sha256": "4d36b93cd05ad9268e42aa20294defabf5c2aeed7b07f44fcefa1dcb6e84fc13",
+      "id": "geonames-full-ca-20261118",
+      "format": "geonames_tsv_zip",
+      "provider": "GeoNames",
+      "member": "CA_full.txt",
+      "download_url": "https://download.geonames.org/export/zip/CA_full.csv.zip",
+      "retrieved_at": "2026-11-17T21:53:56.042676+00:00",
+      "source_http_last_modified": "2026-11-17T02:56:44Z",
+      "individual_record_effective_date": null,
+      "licence": "CC-BY-4.0; source notices retained",
+      "attribution": "GeoNames (https://www.geonames.org/), CC BY 4.0; original provider notices retained.",
+      "default_code_kind": "source_full",
+      "country_code_kinds": {},
+      "expected_country": "CA",
+      "active_for_lookup": true,
+      "national_completeness_verified": false,
+      "source_freshness_verified": false,
+      "notes": [
+        "Complete-length values from this source, not proof of nationwide completeness, current assignment or carrier deliverability.",
+        "Coordinates may be estimated. Duplicate associations and original code spacing are retained."
+      ]
+    },
+    {
+      "path": "postal/sources/geonames/20261118-full/GB_full.csv.zip",
+      "bytes": 14976266,
+      "sha256": "18f020cf3d8224de3a2e308a9c80d6e966473b6f58b915ac7b20ae568d8d41ac",
+      "id": "geonames-full-gb-20261118",
+      "format": "geonames_tsv_zip",
+      "provider": "GeoNames",
+      "member": "GB_full.txt",
+      "download_url": "https://download.geonames.org/export/zip/GB_full.csv.zip",
+      "retrieved_at": "2026-11-17T21:53:56.042676+00:00",
+      "source_http_last_modified": "2026-11-17T02:57:10Z",
+      "individual_record_effective_date": null,
+      "licence": "CC-BY-4.0; source notices retained",
+      "attribution": "GeoNames (https://www.geonames.org/), CC BY 4.0; original provider notices retained.",
+      "default_code_kind": "source_full",
+      "country_code_kinds": {},
+      "expected_country": "GB",
+      "active_for_lookup": true,
+      "national_completeness_verified": false,
+      "source_freshness_verified": false,
+      "notes": [
+        "Complete-length values from this source, not proof of nationwide completeness, current assignment or carrier deliverability.",
+        "Coordinates may be estimated. Duplicate associations and original code spacing are retained."
+      ],
+      "additional_notices": {
+        "geonames_readme": "Contains Royal Mail data Royal Mail copyright and database right 2022.",
+        "geonames_sources_page": "Contains Royal Mail data Royal Mail copyright and database right 2010-2026.",
+        "notice_file": "postal/NOTICE.md",
+        "upstream_candidate": "OS Code-Point Open; this is the GeoNames archive, not a direct OS source capture."
+      }
+    },
+    {
+      "path": "postal/sources/geonames/20261118-full/NL_full.csv.zip",
+      "bytes": 3623602,
+      "sha256": "3d7fb4bca3ee590885aeb80cf719e09d7405005d9866dbe01f3787aa0c09ec61",
+      "id": "geonames-full-nl-20261118",
+      "format": "geonames_tsv_zip",
+      "provider": "GeoNames",
+      "member": "NL_full.txt",
+      "download_url": "https://download.geonames.org/export/zip/NL_full.csv.zip",
+      "retrieved_at": "2026-11-17T21:53:56.042676+00:00",
+      "source_http_last_modified": "2026-11-17T02:57:25Z",
+      "individual_record_effective_date": null,
+      "licence": "CC-BY-4.0; source notices retained",
+      "attribution": "GeoNames (https://www.geonames.org/), CC BY 4.0; original provider notices retained.",
+      "default_code_kind": "source_full",
+      "country_code_kinds": {},
+      "expected_country": "NL",
+      "active_for_lookup": true,
+      "national_completeness_verified": false,
+      "source_freshness_verified": false,
+      "notes": [
+        "Complete-length values from this source, not proof of nationwide completeness, current assignment or carrier deliverability.",
+        "Coordinates may be estimated. Duplicate associations and original code spacing are retained."
+      ]
+    },
+    {
+      "path": "postal/sources/japanpost/20261030/utf_ken_all.zip",
+      "bytes": 2033286,
+      "sha256": "db92fcf624bb7280e6f51900aebe03adeafbd168796e59412dbc22a80abb85b9",
+      "id": "japanpost-postal-20261030",
+      "format": "japanpost_utf_zip",
+      "provider": "Japan Post",
+      "member": "utf_ken_all.csv",
+      "download_url": "https://www.post.japanpost.jp/service/search/zipcode/download/utf/zip/utf_ken_all.zip",
+      "retrieved_at": "2026-11-17T21:53:56.042676+00:00",
+      "published_on": "2026-10-30",
+      "licence": "LicenseRef-JapanPost-Postal-Data",
+      "terms": "https://www.post.japanpost.jp/service/search/zipcode/download/utf-readme.html",
+      "expected_country": "JP",
+      "default_code_kind": "official_full",
+      "country_code_kinds": {},
+      "active_for_lookup": true,
+      "national_completeness_verified": false,
+      "notes": [
+        "Original unmodified Japan Post source ZIP. Separate from joined ODbL derivatives.",
+        "The 2026-09-30 normal snapshot remains stored but is excluded from default lookup."
+      ]
+    },
+    {
+      "path": "postal/sources/japanpost/20261030/jigyosyo.zip",
+      "bytes": 775732,
+      "sha256": "ccdf42dec94874a38d445e8a2eb27c2c749f696b062bd2d1d8634af019890507",
+      "id": "japanpost-business-20261030",
+      "format": "japanpost_business_zip",
+      "provider": "Japan Post",
+      "member": "JIGYOSYO.CSV",
+      "download_url": "https://www.post.japanpost.jp/service/search/zipcode/download/office/zip/jigyosyo.zip",
+      "retrieved_at": "2026-11-17T21:53:56.042676+00:00",
+      "published_on": "2026-10-30",
+      "licence": "LicenseRef-JapanPost-Postal-Data",
+      "terms": "https://www.post.japanpost.jp/service/search/zipcode/download/office/readme.html",
+      "expected_country": "JP",
+      "default_code_kind": "official_full",
+      "country_code_kinds": {},
+      "active_for_lookup": true,
+      "national_completeness_verified": false,
+      "notes": [
+        "Original unmodified Japan Post source ZIP. Separate from joined ODbL derivatives.",
+        "The 2026-09-30 normal snapshot remains stored but is excluded from default lookup.",
+        "Business and PO-box entries are distinct postal uses.",
+        "Receiver-pays special individual codes are not in this published source."
       ]
     }
   ],

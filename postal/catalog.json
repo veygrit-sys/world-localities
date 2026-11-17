@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_label": "20261118",
+  "snapshot_label": "20261118-stage2",
   "countries": [
     {
       "country_code": "AD",
@@ -9,7 +9,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 7,
       "distinct_codes": 7,
+      "lookup_source_rows": 7,
       "code_kinds": {
+        "source_reported": 7
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 7
       },
       "source_counts": {
@@ -24,7 +28,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 178171,
       "distinct_codes": 178171,
+      "lookup_source_rows": 178171,
       "code_kinds": {
+        "routing_or_unreviewed": 178171
+      },
+      "distinct_codes_by_kind": {
         "routing_or_unreviewed": 178171
       },
       "source_counts": {
@@ -39,7 +47,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -50,7 +60,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -61,7 +73,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "source_reported": 1
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1
       },
       "source_counts": {
@@ -76,8 +92,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 494,
       "distinct_codes": 489,
+      "lookup_source_rows": 494,
       "code_kinds": {
         "source_reported": 494
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 489
       },
       "source_counts": {
         "geonames-postal-20261118": 494
@@ -91,7 +111,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 772,
       "distinct_codes": 772,
+      "lookup_source_rows": 772,
       "code_kinds": {
+        "source_reported": 772
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 772
       },
       "source_counts": {
@@ -106,7 +130,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -117,7 +143,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -128,8 +156,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 20260,
       "distinct_codes": 1976,
+      "lookup_source_rows": 20260,
       "code_kinds": {
         "partial_or_legacy": 20260
+      },
+      "distinct_codes_by_kind": {
+        "partial_or_legacy": 1976
       },
       "source_counts": {
         "geonames-postal-20261118": 20260
@@ -143,7 +175,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "source_reported": 1
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1
       },
       "source_counts": {
@@ -158,8 +194,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 19225,
       "distinct_codes": 2501,
+      "lookup_source_rows": 19225,
       "code_kinds": {
         "source_reported": 19225
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 2501
       },
       "source_counts": {
         "geonames-postal-20261118": 19225
@@ -173,8 +213,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 18566,
       "distinct_codes": 3170,
+      "lookup_source_rows": 18566,
       "code_kinds": {
         "source_reported": 18566
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 3170
       },
       "source_counts": {
         "geonames-postal-20261118": 18566
@@ -188,7 +232,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -199,7 +245,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 37,
       "distinct_codes": 37,
+      "lookup_source_rows": 37,
       "code_kinds": {
+        "source_reported": 37
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 37
       },
       "source_counts": {
@@ -214,7 +264,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1186,
       "distinct_codes": 1186,
+      "lookup_source_rows": 1186,
       "code_kinds": {
+        "source_reported": 1186
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1186
       },
       "source_counts": {
@@ -229,7 +283,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -240,7 +296,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -251,7 +309,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1349,
       "distinct_codes": 1349,
+      "lookup_source_rows": 1349,
       "code_kinds": {
+        "source_reported": 1349
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1349
       },
       "source_counts": {
@@ -266,8 +328,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 2785,
       "distinct_codes": 1147,
+      "lookup_source_rows": 2785,
       "code_kinds": {
         "source_reported": 2785
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 1147
       },
       "source_counts": {
         "geonames-postal-20261118": 2785
@@ -281,7 +347,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -292,8 +360,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 5304,
       "distinct_codes": 4359,
+      "lookup_source_rows": 5304,
       "code_kinds": {
         "source_reported": 5304
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 4359
       },
       "source_counts": {
         "geonames-postal-20261118": 5304
@@ -307,7 +379,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -318,7 +392,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -329,7 +405,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -340,7 +418,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -351,8 +431,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 133,
       "distinct_codes": 102,
+      "lookup_source_rows": 133,
       "code_kinds": {
         "source_reported": 133
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 102
       },
       "source_counts": {
         "geonames-postal-20261118": 133
@@ -366,7 +450,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -377,7 +463,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -388,7 +476,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -399,7 +489,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 5525,
       "distinct_codes": 5525,
+      "lookup_source_rows": 5525,
       "code_kinds": {
+        "partial": 5525
+      },
+      "distinct_codes_by_kind": {
         "partial": 5525
       },
       "source_counts": {
@@ -414,7 +508,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -425,7 +521,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -436,7 +534,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -447,7 +547,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -458,8 +560,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 3133,
       "distinct_codes": 3123,
+      "lookup_source_rows": 3133,
       "code_kinds": {
         "source_reported": 3133
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 3123
       },
       "source_counts": {
         "geonames-postal-20261118": 3133
@@ -473,7 +579,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -482,12 +590,19 @@
       "name": "Canada",
       "postal_system_status": "unreviewed",
       "collection_status": "stored_source_observations",
-      "source_rows": 1657,
-      "distinct_codes": 1653,
+      "source_rows": 902333,
+      "distinct_codes": 901432,
+      "lookup_source_rows": 902333,
       "code_kinds": {
-        "prefix": 1657
+        "prefix": 1657,
+        "source_full": 900676
+      },
+      "distinct_codes_by_kind": {
+        "prefix": 1653,
+        "source_full": 899779
       },
       "source_counts": {
+        "geonames-full-ca-20261118": 900676,
         "geonames-postal-20261118": 1657
       },
       "national_completeness_verified": false
@@ -499,7 +614,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "source_reported": 1
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1
       },
       "source_counts": {
@@ -514,7 +633,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -525,7 +646,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -536,7 +659,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -547,8 +672,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 4528,
       "distinct_codes": 3358,
+      "lookup_source_rows": 4528,
       "code_kinds": {
         "source_reported": 4528
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 3358
       },
       "source_counts": {
         "geonames-postal-20261118": 4528
@@ -562,7 +691,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -573,7 +704,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -584,7 +717,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 346,
       "distinct_codes": 346,
+      "lookup_source_rows": 346,
       "code_kinds": {
+        "prefix": 346
+      },
+      "distinct_codes_by_kind": {
         "prefix": 346
       },
       "source_counts": {
@@ -599,7 +736,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -610,8 +749,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 2352,
       "distinct_codes": 2349,
+      "lookup_source_rows": 2352,
       "code_kinds": {
         "aggregated": 2352
+      },
+      "distinct_codes_by_kind": {
+        "aggregated": 2349
       },
       "source_counts": {
         "geonames-postal-20261118": 2352
@@ -625,7 +768,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 3681,
       "distinct_codes": 3681,
+      "lookup_source_rows": 3681,
       "code_kinds": {
+        "source_reported": 3681
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 3681
       },
       "source_counts": {
@@ -640,7 +787,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 473,
       "distinct_codes": 473,
+      "lookup_source_rows": 473,
       "code_kinds": {
+        "source_reported": 473
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 473
       },
       "source_counts": {
@@ -655,7 +806,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -666,7 +819,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -677,7 +832,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -688,7 +845,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "source_reported": 1
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1
       },
       "source_counts": {
@@ -703,8 +864,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1127,
       "distinct_codes": 1125,
+      "lookup_source_rows": 1127,
       "code_kinds": {
         "source_reported": 1127
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 1125
       },
       "source_counts": {
         "geonames-postal-20261118": 1127
@@ -718,8 +883,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 15507,
       "distinct_codes": 2694,
+      "lookup_source_rows": 15507,
       "code_kinds": {
         "source_reported": 15507
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 2694
       },
       "source_counts": {
         "geonames-postal-20261118": 15507
@@ -733,8 +902,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 23296,
       "distinct_codes": 10815,
+      "lookup_source_rows": 23296,
       "code_kinds": {
         "source_reported": 23296
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 10815
       },
       "source_counts": {
         "geonames-postal-20261118": 23296
@@ -748,7 +921,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -759,7 +934,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1159,
       "distinct_codes": 1159,
+      "lookup_source_rows": 1159,
       "code_kinds": {
+        "source_reported": 1159
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1159
       },
       "source_counts": {
@@ -774,7 +953,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -785,8 +966,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 544,
       "distinct_codes": 207,
+      "lookup_source_rows": 544,
       "code_kinds": {
         "source_reported": 544
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 207
       },
       "source_counts": {
         "geonames-postal-20261118": 544
@@ -800,8 +985,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 15951,
       "distinct_codes": 3162,
+      "lookup_source_rows": 15951,
       "code_kinds": {
         "source_reported": 15951
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 3162
       },
       "source_counts": {
         "geonames-postal-20261118": 15951
@@ -815,7 +1004,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1225,
       "distinct_codes": 1225,
+      "lookup_source_rows": 1225,
       "code_kinds": {
+        "source_reported": 1225
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1225
       },
       "source_counts": {
@@ -830,8 +1023,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 5398,
       "distinct_codes": 5293,
+      "lookup_source_rows": 5398,
       "code_kinds": {
         "source_reported": 5398
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 5293
       },
       "source_counts": {
         "geonames-postal-20261118": 5398
@@ -845,7 +1042,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -856,7 +1055,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -867,7 +1068,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -878,8 +1081,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 37867,
       "distinct_codes": 11150,
+      "lookup_source_rows": 37867,
       "code_kinds": {
         "source_reported": 37867
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 11150
       },
       "source_counts": {
         "geonames-postal-20261118": 37867
@@ -893,7 +1100,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -904,7 +1113,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 3576,
       "distinct_codes": 3576,
+      "lookup_source_rows": 3576,
       "code_kinds": {
+        "source_reported": 3576
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 3576
       },
       "source_counts": {
@@ -919,7 +1132,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -930,7 +1145,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "source_reported": 1
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1
       },
       "source_counts": {
@@ -945,7 +1164,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 4,
       "distinct_codes": 4,
+      "lookup_source_rows": 4,
       "code_kinds": {
+        "source_reported": 4
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 4
       },
       "source_counts": {
@@ -960,7 +1183,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 130,
       "distinct_codes": 130,
+      "lookup_source_rows": 130,
       "code_kinds": {
+        "source_reported": 130
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 130
       },
       "source_counts": {
@@ -975,8 +1202,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 51611,
       "distinct_codes": 20418,
+      "lookup_source_rows": 51611,
       "code_kinds": {
         "source_reported": 51611
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 20418
       },
       "source_counts": {
         "geonames-postal-20261118": 51611
@@ -990,7 +1221,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -999,12 +1232,19 @@
       "name": "United Kingdom",
       "postal_system_status": "unreviewed",
       "collection_status": "stored_source_observations",
-      "source_rows": 27450,
-      "distinct_codes": 3002,
+      "source_rows": 1867128,
+      "distinct_codes": 1842680,
+      "lookup_source_rows": 1867128,
       "code_kinds": {
-        "prefix": 27450
+        "prefix": 27450,
+        "source_full": 1839678
+      },
+      "distinct_codes_by_kind": {
+        "prefix": 3002,
+        "source_full": 1839678
       },
       "source_counts": {
+        "geonames-full-gb-20261118": 1839678,
         "geonames-postal-20261118": 27450
       },
       "national_completeness_verified": false
@@ -1016,7 +1256,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1027,7 +1269,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1038,7 +1282,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 77,
       "distinct_codes": 77,
+      "lookup_source_rows": 77,
       "code_kinds": {
+        "source_reported": 77
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 77
       },
       "source_counts": {
@@ -1053,8 +1301,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 14,
       "distinct_codes": 10,
+      "lookup_source_rows": 14,
       "code_kinds": {
         "source_reported": 14
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 10
       },
       "source_counts": {
         "geonames-postal-20261118": 14
@@ -1068,7 +1320,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1079,7 +1333,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "source_reported": 1
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1
       },
       "source_counts": {
@@ -1094,7 +1352,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 33,
       "distinct_codes": 33,
+      "lookup_source_rows": 33,
       "code_kinds": {
+        "source_reported": 33
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 33
       },
       "source_counts": {
@@ -1109,7 +1371,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1120,7 +1384,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1131,7 +1397,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 105,
       "distinct_codes": 105,
+      "lookup_source_rows": 105,
       "code_kinds": {
+        "source_reported": 105
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 105
       },
       "source_counts": {
@@ -1146,7 +1416,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1157,7 +1429,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1168,7 +1442,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "source_reported": 1
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1
       },
       "source_counts": {
@@ -1183,7 +1461,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 548,
       "distinct_codes": 548,
+      "lookup_source_rows": 548,
       "code_kinds": {
+        "source_reported": 548
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 548
       },
       "source_counts": {
@@ -1198,7 +1480,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 21,
       "distinct_codes": 21,
+      "lookup_source_rows": 21,
       "code_kinds": {
+        "source_reported": 21
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 21
       },
       "source_counts": {
@@ -1213,7 +1499,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1224,7 +1512,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1235,7 +1525,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "routing_or_unreviewed": 1
+      },
+      "distinct_codes_by_kind": {
         "routing_or_unreviewed": 1
       },
       "source_counts": {
@@ -1250,7 +1544,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "source_reported": 1
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1
       },
       "source_counts": {
@@ -1265,8 +1563,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 38,
       "distinct_codes": 37,
+      "lookup_source_rows": 38,
       "code_kinds": {
         "source_reported": 38
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 37
       },
       "source_counts": {
         "geonames-postal-20261118": 38
@@ -1280,8 +1582,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 6774,
       "distinct_codes": 309,
+      "lookup_source_rows": 6774,
       "code_kinds": {
         "source_reported": 6774
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 309
       },
       "source_counts": {
         "geonames-postal-20261118": 6774
@@ -1295,8 +1601,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 236,
       "distinct_codes": 230,
+      "lookup_source_rows": 236,
       "code_kinds": {
         "source_reported": 236
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 230
       },
       "source_counts": {
         "geonames-postal-20261118": 236
@@ -1310,8 +1620,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 3571,
       "distinct_codes": 3046,
+      "lookup_source_rows": 3571,
       "code_kinds": {
         "source_reported": 3571
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 3046
       },
       "source_counts": {
         "geonames-postal-20261118": 3571
@@ -1325,8 +1639,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 81058,
       "distinct_codes": 8266,
+      "lookup_source_rows": 81058,
       "code_kinds": {
         "source_reported": 81058
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 8266
       },
       "source_counts": {
         "geonames-postal-20261118": 81058
@@ -1340,7 +1658,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 139,
       "distinct_codes": 139,
+      "lookup_source_rows": 139,
       "code_kinds": {
+        "prefix": 139
+      },
+      "distinct_codes_by_kind": {
         "prefix": 139
       },
       "source_counts": {
@@ -1355,7 +1677,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1366,8 +1690,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 87,
       "distinct_codes": 9,
+      "lookup_source_rows": 87,
       "code_kinds": {
         "source_reported": 87
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 9
       },
       "source_counts": {
         "geonames-postal-20261118": 87
@@ -1381,8 +1709,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 155570,
       "distinct_codes": 19238,
+      "lookup_source_rows": 155570,
       "code_kinds": {
         "source_reported": 155570
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 19238
       },
       "source_counts": {
         "geonames-postal-20261118": 155570
@@ -1396,7 +1728,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "source_reported": 1
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1
       },
       "source_counts": {
@@ -1411,7 +1747,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1422,7 +1760,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1433,7 +1773,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 195,
       "distinct_codes": 195,
+      "lookup_source_rows": 195,
       "code_kinds": {
+        "source_reported": 195
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 195
       },
       "source_counts": {
@@ -1448,8 +1792,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 18415,
       "distinct_codes": 4736,
+      "lookup_source_rows": 18415,
       "code_kinds": {
         "source_reported": 18415
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 4736
       },
       "source_counts": {
         "geonames-postal-20261118": 18415
@@ -1463,8 +1811,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 5,
       "distinct_codes": 4,
+      "lookup_source_rows": 5,
       "code_kinds": {
         "source_reported": 5
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 4
       },
       "source_counts": {
         "geonames-postal-20261118": 5
@@ -1478,7 +1830,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1489,7 +1843,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1498,15 +1854,22 @@
       "name": "Japan",
       "postal_system_status": "unreviewed",
       "collection_status": "stored_source_observations",
-      "source_rows": 271409,
-      "distinct_codes": 263297,
+      "source_rows": 418356,
+      "distinct_codes": 285494,
+      "lookup_source_rows": 293830,
       "code_kinds": {
-        "official_full": 124526,
+        "official_full": 271473,
         "source_reported": 146883
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 142917,
+        "source_reported": 142577
       },
       "source_counts": {
         "geonames-postal-20261118": 146883,
-        "japanpost-postal-20260930": 124526
+        "japanpost-business-20261030": 22420,
+        "japanpost-postal-20260930": 124526,
+        "japanpost-postal-20261030": 124527
       },
       "national_completeness_verified": false
     },
@@ -1517,8 +1880,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 890,
       "distinct_codes": 877,
+      "lookup_source_rows": 890,
       "code_kinds": {
         "source_reported": 890
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 877
       },
       "source_counts": {
         "geonames-postal-20261118": 890
@@ -1532,7 +1899,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1543,7 +1912,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1554,7 +1925,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1565,7 +1938,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1576,7 +1951,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1587,7 +1964,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1598,8 +1977,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 35583,
       "distinct_codes": 34249,
+      "lookup_source_rows": 35583,
       "code_kinds": {
         "source_reported": 35583
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 34249
       },
       "source_counts": {
         "geonames-postal-20261118": 35583
@@ -1613,7 +1996,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1624,7 +2009,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1635,7 +2022,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1646,7 +2035,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1657,7 +2048,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1668,7 +2061,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1679,7 +2074,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 13,
       "distinct_codes": 13,
+      "lookup_source_rows": 13,
       "code_kinds": {
+        "source_reported": 13
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 13
       },
       "source_counts": {
@@ -1694,8 +2093,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1837,
       "distinct_codes": 1833,
+      "lookup_source_rows": 1837,
       "code_kinds": {
         "source_reported": 1837
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 1833
       },
       "source_counts": {
         "geonames-postal-20261118": 1837
@@ -1709,7 +2112,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1720,7 +2125,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1731,8 +2138,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 21870,
       "distinct_codes": 2023,
+      "lookup_source_rows": 21870,
       "code_kinds": {
         "source_reported": 21870
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 2023
       },
       "source_counts": {
         "geonames-postal-20261118": 21870
@@ -1746,8 +2157,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 4519,
       "distinct_codes": 4330,
+      "lookup_source_rows": 4519,
       "code_kinds": {
         "source_reported": 4519
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 4330
       },
       "source_counts": {
         "geonames-postal-20261118": 4519
@@ -1761,8 +2176,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 6101,
       "distinct_codes": 697,
+      "lookup_source_rows": 6101,
       "code_kinds": {
         "source_reported": 6101
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 697
       },
       "source_counts": {
         "geonames-postal-20261118": 6101
@@ -1776,7 +2195,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1787,7 +2208,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1325,
       "distinct_codes": 1325,
+      "lookup_source_rows": 1325,
       "code_kinds": {
+        "source_reported": 1325
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1325
       },
       "source_counts": {
@@ -1802,8 +2227,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 29,
       "distinct_codes": 1,
+      "lookup_source_rows": 29,
       "code_kinds": {
         "source_reported": 29
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 1
       },
       "source_counts": {
         "geonames-postal-20261118": 29
@@ -1817,8 +2246,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1753,
       "distinct_codes": 1215,
+      "lookup_source_rows": 1753,
       "code_kinds": {
         "source_reported": 1753
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 1215
       },
       "source_counts": {
         "geonames-postal-20261118": 1753
@@ -1832,7 +2265,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1843,7 +2278,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1854,7 +2291,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1865,7 +2304,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 2,
       "distinct_codes": 2,
+      "lookup_source_rows": 2,
       "code_kinds": {
+        "source_reported": 2
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 2
       },
       "source_counts": {
@@ -1880,7 +2323,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 220,
       "distinct_codes": 220,
+      "lookup_source_rows": 220,
       "code_kinds": {
+        "source_reported": 220
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 220
       },
       "source_counts": {
@@ -1895,7 +2342,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1906,7 +2355,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1917,7 +2368,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 354,
       "distinct_codes": 354,
+      "lookup_source_rows": 354,
       "code_kinds": {
+        "source_reported": 354
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 354
       },
       "source_counts": {
@@ -1932,7 +2387,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "routing_or_unreviewed": 1
+      },
+      "distinct_codes_by_kind": {
         "routing_or_unreviewed": 1
       },
       "source_counts": {
@@ -1947,7 +2406,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 3,
       "distinct_codes": 3,
+      "lookup_source_rows": 3,
       "code_kinds": {
+        "source_reported": 3
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 3
       },
       "source_counts": {
@@ -1962,8 +2425,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 100,
       "distinct_codes": 95,
+      "lookup_source_rows": 100,
       "code_kinds": {
         "source_reported": 100
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 95
       },
       "source_counts": {
         "geonames-postal-20261118": 100
@@ -1977,7 +2444,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1988,7 +2457,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -1999,7 +2470,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 73,
       "distinct_codes": 73,
+      "lookup_source_rows": 73,
       "code_kinds": {
+        "prefix": 73
+      },
+      "distinct_codes_by_kind": {
         "prefix": 73
       },
       "source_counts": {
@@ -2014,7 +2489,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2025,7 +2502,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2036,7 +2515,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 491,
       "distinct_codes": 491,
+      "lookup_source_rows": 491,
       "code_kinds": {
+        "source_reported": 491
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 491
       },
       "source_counts": {
@@ -2051,8 +2534,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 144655,
       "distinct_codes": 32448,
+      "lookup_source_rows": 144655,
       "code_kinds": {
         "source_reported": 144655
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 32448
       },
       "source_counts": {
         "geonames-postal-20261118": 144655
@@ -2066,8 +2553,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 2818,
       "distinct_codes": 2757,
+      "lookup_source_rows": 2818,
       "code_kinds": {
         "source_reported": 2818
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 2757
       },
       "source_counts": {
         "geonames-postal-20261118": 2818
@@ -2081,7 +2572,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2092,7 +2585,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2103,8 +2598,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 52,
       "distinct_codes": 50,
+      "lookup_source_rows": 52,
       "code_kinds": {
         "source_reported": 52
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 50
       },
       "source_counts": {
         "geonames-postal-20261118": 52
@@ -2118,7 +2617,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2129,7 +2630,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "source_reported": 1
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1
       },
       "source_counts": {
@@ -2144,7 +2649,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2155,7 +2662,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2164,12 +2673,19 @@
       "name": "The Netherlands",
       "postal_system_status": "unreviewed",
       "collection_status": "stored_source_observations",
-      "source_rows": 4334,
-      "distinct_codes": 4086,
+      "source_rows": 473143,
+      "distinct_codes": 472665,
+      "lookup_source_rows": 473143,
       "code_kinds": {
-        "prefix": 4334
+        "prefix": 4334,
+        "source_full": 468809
+      },
+      "distinct_codes_by_kind": {
+        "prefix": 4086,
+        "source_full": 468579
       },
       "source_counts": {
+        "geonames-full-nl-20261118": 468809,
         "geonames-postal-20261118": 4334
       },
       "national_completeness_verified": false
@@ -2181,7 +2697,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 5132,
       "distinct_codes": 5132,
+      "lookup_source_rows": 5132,
       "code_kinds": {
+        "source_reported": 5132
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 5132
       },
       "source_counts": {
@@ -2196,7 +2716,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2207,7 +2729,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "source_reported": 1
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1
       },
       "source_counts": {
@@ -2222,7 +2748,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "source_reported": 1
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1
       },
       "source_counts": {
@@ -2237,8 +2767,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1738,
       "distinct_codes": 1737,
+      "lookup_source_rows": 1738,
       "code_kinds": {
         "source_reported": 1738
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 1737
       },
       "source_counts": {
         "geonames-postal-20261118": 1738
@@ -2252,7 +2786,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2263,7 +2799,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 729,
       "distinct_codes": 729,
+      "lookup_source_rows": 729,
       "code_kinds": {
+        "source_reported": 729
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 729
       },
       "source_counts": {
@@ -2278,8 +2818,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 96943,
       "distinct_codes": 2669,
+      "lookup_source_rows": 96943,
       "code_kinds": {
         "source_reported": 96943
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 2669
       },
       "source_counts": {
         "geonames-postal-20261118": 96943
@@ -2293,8 +2837,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 207,
       "distinct_codes": 83,
+      "lookup_source_rows": 207,
       "code_kinds": {
         "source_reported": 207
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 83
       },
       "source_counts": {
         "geonames-postal-20261118": 207
@@ -2308,7 +2856,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2319,8 +2869,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 2317,
       "distinct_codes": 2190,
+      "lookup_source_rows": 2317,
       "code_kinds": {
         "source_reported": 2317
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 2190
       },
       "source_counts": {
         "geonames-postal-20261118": 2317
@@ -2334,8 +2888,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 2563,
       "distinct_codes": 2560,
+      "lookup_source_rows": 2563,
       "code_kinds": {
         "source_reported": 2563
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 2560
       },
       "source_counts": {
         "geonames-postal-20261118": 2563
@@ -2349,8 +2907,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 72899,
       "distinct_codes": 20299,
+      "lookup_source_rows": 72899,
       "code_kinds": {
         "source_reported": 72899
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 20299
       },
       "source_counts": {
         "geonames-postal-20261118": 72899
@@ -2364,8 +2926,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 2,
       "distinct_codes": 1,
+      "lookup_source_rows": 2,
       "code_kinds": {
         "source_reported": 2
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 1
       },
       "source_counts": {
         "geonames-postal-20261118": 2
@@ -2379,7 +2945,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "source_reported": 1
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1
       },
       "source_counts": {
@@ -2394,7 +2964,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 177,
       "distinct_codes": 177,
+      "lookup_source_rows": 177,
       "code_kinds": {
+        "source_reported": 177
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 177
       },
       "source_counts": {
@@ -2409,7 +2983,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2420,8 +2996,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 206942,
       "distinct_codes": 197772,
+      "lookup_source_rows": 206942,
       "code_kinds": {
         "source_reported": 206942
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 197772
       },
       "source_counts": {
         "geonames-postal-20261118": 206942
@@ -2435,7 +3015,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "source_reported": 1
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1
       },
       "source_counts": {
@@ -2450,8 +3034,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 8644,
       "distinct_codes": 2887,
+      "lookup_source_rows": 8644,
       "code_kinds": {
         "source_reported": 8644
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 2887
       },
       "source_counts": {
         "geonames-postal-20261118": 8644
@@ -2465,7 +3053,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2476,8 +3066,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 152,
       "distinct_codes": 151,
+      "lookup_source_rows": 152,
       "code_kinds": {
         "source_reported": 152
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 151
       },
       "source_counts": {
         "geonames-postal-20261118": 152
@@ -2491,8 +3085,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 37915,
       "distinct_codes": 37914,
+      "lookup_source_rows": 37915,
       "code_kinds": {
         "source_reported": 37915
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 37914
       },
       "source_counts": {
         "geonames-postal-20261118": 37915
@@ -2506,8 +3104,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1155,
       "distinct_codes": 1149,
+      "lookup_source_rows": 1155,
       "code_kinds": {
         "source_reported": 1155
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 1149
       },
       "source_counts": {
         "geonames-postal-20261118": 1155
@@ -2521,7 +3123,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 43538,
       "distinct_codes": 43538,
+      "lookup_source_rows": 43538,
       "code_kinds": {
+        "source_reported": 43538
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 43538
       },
       "source_counts": {
@@ -2536,7 +3142,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2547,7 +3155,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2558,7 +3168,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2569,7 +3181,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2580,7 +3194,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2591,7 +3207,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 18887,
       "distinct_codes": 18887,
+      "lookup_source_rows": 18887,
       "code_kinds": {
+        "source_reported": 18887
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 18887
       },
       "source_counts": {
@@ -2606,8 +3226,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 121154,
       "distinct_codes": 121135,
+      "lookup_source_rows": 121154,
       "code_kinds": {
         "source_reported": 121154
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 121135
       },
       "source_counts": {
         "geonames-postal-20261118": 121154
@@ -2621,7 +3245,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2632,7 +3258,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 556,
       "distinct_codes": 556,
+      "lookup_source_rows": 556,
       "code_kinds": {
+        "source_reported": 556
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 556
       },
       "source_counts": {
@@ -2647,7 +3277,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 8,
       "distinct_codes": 8,
+      "lookup_source_rows": 8,
       "code_kinds": {
+        "source_reported": 8
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 8
       },
       "source_counts": {
@@ -2662,8 +3296,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 5233,
       "distinct_codes": 3480,
+      "lookup_source_rows": 5233,
       "code_kinds": {
         "source_reported": 5233
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 3480
       },
       "source_counts": {
         "geonames-postal-20261118": 5233
@@ -2677,7 +3315,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2688,8 +3328,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 26,
       "distinct_codes": 10,
+      "lookup_source_rows": 26,
       "code_kinds": {
         "source_reported": 26
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 10
       },
       "source_counts": {
         "geonames-postal-20261118": 26
@@ -2703,7 +3347,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2714,7 +3360,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2725,7 +3373,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2736,7 +3386,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2747,7 +3399,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2758,7 +3412,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2769,7 +3425,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2780,7 +3438,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2791,7 +3451,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2802,7 +3464,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "source_reported": 1
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1
       },
       "source_counts": {
@@ -2817,7 +3483,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2828,7 +3496,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2839,7 +3509,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2850,8 +3522,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 903,
       "distinct_codes": 771,
+      "lookup_source_rows": 903,
       "code_kinds": {
         "source_reported": 903
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 771
       },
       "source_counts": {
         "geonames-postal-20261118": 903
@@ -2865,7 +3541,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2876,7 +3554,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2887,7 +3567,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2898,7 +3580,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2909,7 +3593,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2920,7 +3606,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2931,8 +3619,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 36307,
       "distinct_codes": 2953,
+      "lookup_source_rows": 36307,
       "code_kinds": {
         "source_reported": 36307
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 2953
       },
       "source_counts": {
         "geonames-postal-20261118": 36307
@@ -2946,7 +3638,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2957,7 +3651,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2968,8 +3664,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 371,
       "distinct_codes": 368,
+      "lookup_source_rows": 371,
       "code_kinds": {
         "prefix": 371
+      },
+      "distinct_codes_by_kind": {
+        "prefix": 368
       },
       "source_counts": {
         "chunghwa-post-prefix-existing": 371
@@ -2983,7 +3683,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -2994,8 +3696,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 29571,
       "distinct_codes": 26579,
+      "lookup_source_rows": 29571,
       "code_kinds": {
         "source_reported": 29571
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 26579
       },
       "source_counts": {
         "geonames-postal-20261118": 29571
@@ -3009,7 +3715,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -3020,7 +3728,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -3031,8 +3741,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 41490,
       "distinct_codes": 41488,
+      "lookup_source_rows": 41490,
       "code_kinds": {
         "source_reported": 41490
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 41488
       },
       "source_counts": {
         "geonames-postal-20261118": 41490
@@ -3046,8 +3760,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1964,
       "distinct_codes": 122,
+      "lookup_source_rows": 1964,
       "code_kinds": {
         "source_reported": 1964
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 122
       },
       "source_counts": {
         "geonames-postal-20261118": 1964
@@ -3061,7 +3779,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -3072,7 +3792,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "source_reported": 1
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1
       },
       "source_counts": {
@@ -3087,7 +3811,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -3098,7 +3824,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -3109,7 +3837,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -3120,7 +3850,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 16,
       "distinct_codes": 16,
+      "lookup_source_rows": 16,
       "code_kinds": {
+        "source_reported": 16
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 16
       },
       "source_counts": {
@@ -3135,7 +3869,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -3146,7 +3882,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -3157,7 +3895,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 3,
       "distinct_codes": 3,
+      "lookup_source_rows": 3,
       "code_kinds": {
+        "source_reported": 3
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 3
       },
       "source_counts": {
@@ -3172,7 +3914,11 @@
       "collection_status": "stored_source_observations",
       "source_rows": 1,
       "distinct_codes": 1,
+      "lookup_source_rows": 1,
       "code_kinds": {
+        "source_reported": 1
+      },
+      "distinct_codes_by_kind": {
         "source_reported": 1
       },
       "source_counts": {
@@ -3187,7 +3933,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -3198,7 +3946,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -3209,8 +3959,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 21,
       "distinct_codes": 11,
+      "lookup_source_rows": 21,
       "code_kinds": {
         "source_reported": 21
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 11
       },
       "source_counts": {
         "geonames-postal-20261118": 21
@@ -3224,8 +3978,12 @@
       "collection_status": "stored_source_observations",
       "source_rows": 3920,
       "distinct_codes": 3266,
+      "lookup_source_rows": 3920,
       "code_kinds": {
         "source_reported": 3920
+      },
+      "distinct_codes_by_kind": {
+        "source_reported": 3266
       },
       "source_counts": {
         "geonames-postal-20261118": 3920
@@ -3239,7 +3997,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     },
@@ -3250,7 +4010,9 @@
       "collection_status": "pending_source",
       "source_rows": 0,
       "distinct_codes": 0,
+      "lookup_source_rows": 0,
       "code_kinds": {},
+      "distinct_codes_by_kind": {},
       "source_counts": {},
       "national_completeness_verified": false
     }
@@ -3259,8 +4021,9 @@
     "total_countries": 250,
     "source_countries": 125,
     "countries_pending": 125,
-    "source_rows": 1961648,
-    "country_code_pairs": 1205836
+    "source_rows": 5317758,
+    "lookup_source_rows": 5193232,
+    "country_code_pairs": 4436069
   },
   "sources": [
     {
@@ -3271,7 +4034,17 @@
       "bytes": 20006317,
       "licence": "CC-BY-4.0",
       "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
       "source_rows": 1836751,
+      "distinct_codes": 1084748,
+      "distinct_codes_by_kind": {
+        "aggregated": 2349,
+        "partial": 5525,
+        "partial_or_legacy": 1976,
+        "prefix": 9299,
+        "routing_or_unreviewed": 178173,
+        "source_reported": 887426
+      },
       "countries": {
         "AD": 7,
         "AE": 178171,
@@ -3415,7 +4188,12 @@
       "bytes": 2135514,
       "licence": "LicenseRef-JapanPost-Postal-Data",
       "status": "verified_source_bytes_and_records",
+      "active_for_lookup": false,
       "source_rows": 124526,
+      "distinct_codes": 120720,
+      "distinct_codes_by_kind": {
+        "official_full": 120720
+      },
       "countries": {
         "JP": 124526
       },
@@ -3431,12 +4209,122 @@
       "bytes": 34492,
       "licence": "Taiwan Open Government Data License, version 1.0",
       "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
       "source_rows": 371,
+      "distinct_codes": 368,
+      "distinct_codes_by_kind": {
+        "prefix": 368
+      },
       "countries": {
         "TW": 371
       },
       "code_kinds": {
         "prefix": 371
+      }
+    },
+    {
+      "id": "geonames-full-ca-20261118",
+      "format": "geonames_tsv_zip",
+      "path": "postal/sources/geonames/20261118-full/CA_full.csv.zip",
+      "sha256": "4d36b93cd05ad9268e42aa20294defabf5c2aeed7b07f44fcefa1dcb6e84fc13",
+      "bytes": 6397825,
+      "licence": "CC-BY-4.0; source notices retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 900676,
+      "distinct_codes": 899779,
+      "distinct_codes_by_kind": {
+        "source_full": 899779
+      },
+      "countries": {
+        "CA": 900676
+      },
+      "code_kinds": {
+        "source_full": 900676
+      }
+    },
+    {
+      "id": "geonames-full-gb-20261118",
+      "format": "geonames_tsv_zip",
+      "path": "postal/sources/geonames/20261118-full/GB_full.csv.zip",
+      "sha256": "18f020cf3d8224de3a2e308a9c80d6e966473b6f58b915ac7b20ae568d8d41ac",
+      "bytes": 14976266,
+      "licence": "CC-BY-4.0; source notices retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 1839678,
+      "distinct_codes": 1839678,
+      "distinct_codes_by_kind": {
+        "source_full": 1839678
+      },
+      "countries": {
+        "GB": 1839678
+      },
+      "code_kinds": {
+        "source_full": 1839678
+      }
+    },
+    {
+      "id": "geonames-full-nl-20261118",
+      "format": "geonames_tsv_zip",
+      "path": "postal/sources/geonames/20261118-full/NL_full.csv.zip",
+      "sha256": "3d7fb4bca3ee590885aeb80cf719e09d7405005d9866dbe01f3787aa0c09ec61",
+      "bytes": 3623602,
+      "licence": "CC-BY-4.0; source notices retained",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 468809,
+      "distinct_codes": 468579,
+      "distinct_codes_by_kind": {
+        "source_full": 468579
+      },
+      "countries": {
+        "NL": 468809
+      },
+      "code_kinds": {
+        "source_full": 468809
+      }
+    },
+    {
+      "id": "japanpost-postal-20261030",
+      "format": "japanpost_utf_zip",
+      "path": "postal/sources/japanpost/20261030/utf_ken_all.zip",
+      "sha256": "db92fcf624bb7280e6f51900aebe03adeafbd168796e59412dbc22a80abb85b9",
+      "bytes": 2033286,
+      "licence": "LicenseRef-JapanPost-Postal-Data",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 124527,
+      "distinct_codes": 120721,
+      "distinct_codes_by_kind": {
+        "official_full": 120721
+      },
+      "countries": {
+        "JP": 124527
+      },
+      "code_kinds": {
+        "official_full": 124527
+      }
+    },
+    {
+      "id": "japanpost-business-20261030",
+      "format": "japanpost_business_zip",
+      "path": "postal/sources/japanpost/20261030/jigyosyo.zip",
+      "sha256": "ccdf42dec94874a38d445e8a2eb27c2c749f696b062bd2d1d8634af019890507",
+      "bytes": 775732,
+      "licence": "LicenseRef-JapanPost-Postal-Data",
+      "status": "verified_source_bytes_and_records",
+      "active_for_lookup": true,
+      "source_rows": 22420,
+      "distinct_codes": 22196,
+      "distinct_codes_by_kind": {
+        "official_full": 22196
+      },
+      "countries": {
+        "JP": 22420
+      },
+      "code_kinds": {
+        "official_full": 22420
       }
     }
   ]
