@@ -1,0 +1,2 @@
+# Validation-result schema tests; the runtime package uses only the standard library.
+jsonschema==4.26.0

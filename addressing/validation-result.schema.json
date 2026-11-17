@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/rei-k/world-localities/addressing/validation-result.schema.json",
+  "$id": "https://github.com/veygrit-sys/world-localities/addressing/validation-result.schema.json",
   "title": "Address validation result",
   "type": "object",
   "additionalProperties": false,
@@ -16,28 +16,212 @@
   ],
   "properties": {
     "status": {
-      "enum": ["verified", "corrected", "ambiguous", "unsupported", "no_match"]
+      "enum": [
+        "verified",
+        "corrected",
+        "ambiguous",
+        "unsupported",
+        "no_match"
+      ]
     },
     "verification_level": {
-      "enum": ["format", "parsed", "locality", "postal", "street", "premise", "subpremise", "deliverability"]
+      "enum": [
+        "format",
+        "parsed",
+        "locality",
+        "postal",
+        "street",
+        "premise",
+        "subpremise",
+        "deliverability"
+      ]
     },
-    "verification_level_number": {"type": "integer", "minimum": 0, "maximum": 7},
-    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "verification_level_number": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 7
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
     "components": {
       "type": "object",
-      "additionalProperties": {"type": "string"}
+      "additionalProperties": {
+        "type": "string"
+      },
+      "propertyNames": {
+        "type": "string",
+        "pattern": "\\S"
+      }
     },
     "evidence": {
       "type": "array",
-      "items": {"type": "object"}
+      "items": {
+        "type": "object",
+        "properties": {
+          "evidence_type": {
+            "type": "string",
+            "pattern": "\\S"
+          },
+          "source_id": {
+            "type": "string",
+            "pattern": "\\S"
+          },
+          "reference": {
+            "type": "string",
+            "pattern": "\\S"
+          }
+        }
+      }
     },
     "warnings": {
       "type": "array",
-      "items": {"type": "string"},
+      "items": {
+        "type": "string"
+      },
       "uniqueItems": true
     },
     "location_precision": {
-      "enum": ["entrance", "rooftop", "building", "parcel", "interpolated", "street", "postal_area", "locality", "administrative", "unknown"]
+      "enum": [
+        "entrance",
+        "rooftop",
+        "building",
+        "parcel",
+        "interpolated",
+        "street",
+        "postal_area",
+        "locality",
+        "administrative",
+        "unknown"
+      ]
     }
-  }
+  },
+  "description": "Checks declared result structure and traceable evidence references, not source authenticity, freshness, or actual carrier acceptance.",
+  "allOf": [
+    {
+      "oneOf": [
+        {
+          "properties": {
+            "verification_level": {
+              "const": "format"
+            },
+            "verification_level_number": {
+              "const": 0
+            }
+          }
+        },
+        {
+          "properties": {
+            "verification_level": {
+              "const": "parsed"
+            },
+            "verification_level_number": {
+              "const": 1
+            }
+          }
+        },
+        {
+          "properties": {
+            "verification_level": {
+              "const": "locality"
+            },
+            "verification_level_number": {
+              "const": 2
+            }
+          }
+        },
+        {
+          "properties": {
+            "verification_level": {
+              "const": "postal"
+            },
+            "verification_level_number": {
+              "const": 3
+            }
+          }
+        },
+        {
+          "properties": {
+            "verification_level": {
+              "const": "street"
+            },
+            "verification_level_number": {
+              "const": 4
+            }
+          }
+        },
+        {
+          "properties": {
+            "verification_level": {
+              "const": "premise"
+            },
+            "verification_level_number": {
+              "const": 5
+            }
+          }
+        },
+        {
+          "properties": {
+            "verification_level": {
+              "const": "subpremise"
+            },
+            "verification_level_number": {
+              "const": 6
+            }
+          }
+        },
+        {
+          "properties": {
+            "verification_level": {
+              "const": "deliverability"
+            },
+            "verification_level_number": {
+              "const": 7
+            }
+          }
+        }
+      ]
+    },
+    {
+      "if": {
+        "properties": {
+          "verification_level": {
+            "const": "deliverability"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "evidence": {
+            "contains": {
+              "type": "object",
+              "required": [
+                "evidence_type",
+                "source_id",
+                "reference"
+              ],
+              "properties": {
+                "evidence_type": {
+                  "enum": [
+                    "postal_operator",
+                    "carrier"
+                  ]
+                },
+                "source_id": {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                "reference": {
+                  "type": "string",
+                  "pattern": "\\S"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
 }

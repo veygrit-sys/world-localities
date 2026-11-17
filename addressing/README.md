@@ -21,6 +21,56 @@ Verification levels are separate: format, parsed components, locality, postal,
 street, premise, subpremise and carrier/postal-operator deliverability. A higher
 claim may only be emitted when evidence for that level is available.
 
+## Shared integrity checks (2026-11-18)
+
+- Address2 and explicitly supplied subpremise/block/entrance/floor/unit values
+  are kept together. `combined_subpremise_components` warns when opaque text is
+  combined with other details. Opaque text is not parsed to guess duplicates or
+  postal semantics; callers should review the combined delivery line.
+- `unrendered_components` reports an Address1 or recipient value when a separate
+  road or attention value prevents that input from being used.
+- Country codes, postcodes, sorting codes, state codes, house numbers and lots
+  must agree across languages after the existing NFC/whitespace normalization.
+  A conflict raises `ValueError`. Numeric-script conversion and postcode-format
+  equivalence are not inferred.
+- Different variants with no exact/base-language selection are not resolved by
+  choosing the first candidate. An ambiguous language selection is missing and
+  carries `ambiguous_language_variants:<component>`; strict rendering refuses it.
+- Bilingual results include `source_components`, a copy of the input before key,
+  language-tag and text normalization. It includes extra fields and null values;
+  it should receive the same access controls as the original address.
+- `ValidationResult` requires enum levels/precision, finite numeric confidence,
+  string components and unique warnings. Components and nested evidence are copied
+  and frozen. Call `to_dict()` for an independent JSON-ready representation.
+  A deliverability claim requires one carrier/postal-operator evidence record
+  with nonblank `source_id` and `reference`. Existing callers must add the
+  reference if they previously supplied only the evidence type and source ID.
+  These checks establish structure and declared traceability, not authenticity,
+  freshness or actual delivery acceptance. The JSON Schema also checks that the
+  level name and number agree.
+
+Focused regression checks:
+
+When opaque Address2/subpremise text and structured block, entrance, floor or
+unit values are supplied together, all are retained in a stable order and
+`combined_subpremise_components` is reported. The renderer does not parse the
+opaque text to infer duplication. A supplied Address1, recipient or state name
+is only treated as handled through another field when that relationship is
+actually used or established; otherwise it remains in `unrendered_components`.
+A known state name that conflicts with a supplied code also produces
+`conflicting_state_and_state_code`. These warnings require caller review; the
+renderer does not validate or correct the underlying address.
+
+```bash
+python -m pip install -r requirements-addressing-test.txt
+python -m unittest discover -s tests -p 'test_rendering_integrity.py' -v
+python -m unittest discover -s tests -p 'test_localized_integrity.py' -v
+python -m unittest discover -s tests -p 'test_validation_contract.py' -v
+```
+
+The [implementation plan](../docs/plans/address-integrity-20261118.md) records
+the next steps. These synthetic cases do not measure real-address accuracy.
+
 ```bash
 python -m addressing verify
 python -m addressing east-asia

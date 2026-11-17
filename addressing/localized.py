@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 import json
 from pathlib import Path
 import re
@@ -120,6 +120,25 @@ class MissingLocalizedComponents(ValueError):
         )
 
 
+def _check_neutral_values(values: Mapping[str, Mapping[str, str]]) -> None:
+    """Identifiers for one address must not change with the output language."""
+    for key in LANGUAGE_NEUTRAL_COMPONENTS:
+        localized = values.get(key, {})
+        if len(set(localized.values())) > 1:
+            raise ValueError(f"{key} cannot vary by language")
+
+
+def _copy_source_components(
+    components: Mapping[str, str | None | Mapping[str, str | None]],
+) -> dict[str, str | None | dict[str, str | None]]:
+    # Preserve keys, language tags, whitespace and None before normalization.
+    # The only mutable input values accepted by this API are language mappings.
+    return {
+        key: dict(value) if isinstance(value, Mapping) else value
+        for key, value in components.items()
+    }
+
+
 def canonicalize_localized_components(
     components: Mapping[str, str | None | Mapping[str, str | None]],
 ) -> LocalizedAddress:
@@ -156,6 +175,7 @@ def canonicalize_localized_components(
             destination[language] = text
         if not destination:
             target.pop(key, None)
+    _check_neutral_values(values)
     country = values.get("country_code")
     if country:
         distinct = set(country.values())
@@ -185,15 +205,21 @@ def _choose_language_value(
         return localized[target], None
     if not target_script and base in localized:
         return localized[base], None
-    for language, value in localized.items():
+    candidates = []
+    for language, value in sorted(localized.items()):
         if base_language(language) != base:
             continue
         candidate_script = _script_subtag(language)
         if target_script and candidate_script != target_script:
             continue
+        candidates.append((language, value))
+    if candidates:
+        if len({value for _, value in candidates}) > 1:
+            return None, "ambiguous_language_variants"
+        language, value = candidates[0]
         return value, f"language_variant_fallback:{language}"
-    if neutral:
-        language, value = next(iter(localized.items()))
+    if neutral and localized:
+        language, value = sorted(localized.items())[0]
         return value, f"language_neutral_fallback:{language}"
     if "und" in localized and source_language:
         source = normalize_language_tag(source_language)
@@ -211,6 +237,9 @@ def select_localized_components(
     source_language: str | None = None,
     expected_script: str | None = None,
 ) -> SelectedComponents:
+    # Validate here as well: callers can construct or mutate LocalizedAddress
+    # directly without passing through canonicalize_localized_components.
+    _check_neutral_values(address.values)
     values: dict[str, str] = {}
     missing: list[str] = []
     warnings: list[str] = []
@@ -221,6 +250,8 @@ def select_localized_components(
             source_language=source_language,
             neutral=key in LANGUAGE_NEUTRAL_COMPONENTS,
         )
+        if warning:
+            warnings.append(f"{warning}:{key}")
         if value is None:
             missing.append(key)
             continue
@@ -233,8 +264,6 @@ def select_localized_components(
                     f"{expected_script}-script: {key}"
                 )
         values[key] = value
-        if warning:
-            warnings.append(f"{warning}:{key}")
     return SelectedComponents(
         values=dict(sorted(values.items())),
         missing=tuple(sorted(missing)),
@@ -376,6 +405,9 @@ class BilingualAddressResult:
     english: RenderedAddress
     warnings: tuple[str, ...]
     untranslated_extras: dict[str, dict[str, str]]
+    source_components: dict[str, str | None | dict[str, str | None]] = field(
+        default_factory=dict
+    )
 
     def to_dict(self) -> dict[str, object]:
         return {
@@ -384,7 +416,10 @@ class BilingualAddressResult:
             "native": self.native.to_dict(),
             "english": self.english.to_dict(),
             "warnings": list(self.warnings),
-            "untranslated_extras": self.untranslated_extras,
+            "untranslated_extras": {
+                key: dict(value) for key, value in self.untranslated_extras.items()
+            },
+            "source_components": _copy_source_components(self.source_components),
         }
 
 
@@ -397,6 +432,7 @@ def render_regional_bilingual_address(
     strict: bool = True,
     registry: ProfileRegistry | None = None,
 ) -> BilingualAddressResult:
+    source_components = _copy_source_components(components)
     registry = registry or ProfileRegistry()
     country_code = country_code.upper()
     policy = region.get(country_code)
@@ -457,4 +493,5 @@ def render_regional_bilingual_address(
         english=english_rendered,
         warnings=tuple(sorted(set(warnings))),
         untranslated_extras=localized.extras,
+        source_components=source_components,
     )
