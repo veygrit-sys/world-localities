@@ -1,0 +1,81 @@
+{
+  "notes": "GB source shapeIDs are not postal/official codes. Dated spatial parent relations are not legal administrative parent certifications.",
+  "official_legal_parent_links_certified": 0,
+  "original_geonames_untouched": true,
+  "postcode_or_deliverability_confirmed": false,
+  "records": 1085,
+  "schema_version": 1,
+  "source_revision": "9469f09",
+  "sources": {
+    "NGA-ADM1": {
+      "bytes": 2289696,
+      "canonical": "State/FCT",
+      "derived_csv_bytes": 6039,
+      "derived_csv_sha256": "cf9be9ef7e4fa7378026fea8cbf21db583299b5574d1c9f521842ae1835dcdd0",
+      "license": "CC BY 4.0",
+      "origin": "GRID3 Nigeria",
+      "original_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/NGA/ADM1/geoBoundaries-NGA-ADM1.geojson",
+      "parent_association_valid_for_source_year_only": true,
+      "parent_spatial_assignments": 0,
+      "rows": 37,
+      "sha256": "64fa218ac3d453cc1e66412ff461c5dfa1a4a1ade0da93b239a9891b587d28f9",
+      "year": 2022
+    },
+    "NGA-ADM2": {
+      "bytes": 9422551,
+      "canonical": "Local Government Area",
+      "derived_csv_bytes": 166747,
+      "derived_csv_sha256": "7a394840cec564452664d07e80f36995abc1fc4f3fef283d587128c873508a69",
+      "license": "CC BY 4.0",
+      "origin": "GRID3 Nigeria",
+      "original_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/NGA/ADM2/geoBoundaries-NGA-ADM2.geojson",
+      "parent_association_valid_for_source_year_only": true,
+      "parent_spatial_assignments": 774,
+      "rows": 774,
+      "sha256": "bef7f2cfa45e012f4772eaa61c7b99e5188aeba4d5c6badae7e9f9aae8c02fcd",
+      "year": 2022
+    },
+    "ZAF-ADM1": {
+      "bytes": 19806654,
+      "canonical": "Province",
+      "derived_csv_bytes": 2001,
+      "derived_csv_sha256": "b17635954f00be99bf28502c1f0cfb959aaecc29bdf282e3e5e40fee74c2f103",
+      "license": "CC BY 3.0 IGO",
+      "origin": "OCHA ROSEA, South African Municipal Demarcation Board",
+      "original_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/ZAF/ADM1/geoBoundaries-ZAF-ADM1.geojson",
+      "parent_association_valid_for_source_year_only": true,
+      "parent_spatial_assignments": 0,
+      "rows": 9,
+      "sha256": "5d82ed95b034f50d69d96c9b7136e9b5868a5fb4ef2d8905a6a6ac3715fef452",
+      "year": 2020
+    },
+    "ZAF-ADM2": {
+      "bytes": 32530325,
+      "canonical": "District municipality",
+      "derived_csv_bytes": 13879,
+      "derived_csv_sha256": "7cd56481073e8096b37d0087cf48cbb609805355bb57d5f6c458648c2acd67c2",
+      "license": "CC BY 3.0 IGO",
+      "origin": "OCHA ROSEA, South African Municipal Demarcation Board",
+      "original_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/ZAF/ADM2/geoBoundaries-ZAF-ADM2.geojson",
+      "parent_association_valid_for_source_year_only": true,
+      "parent_spatial_assignments": 52,
+      "rows": 52,
+      "sha256": "6cc504ad835b37823da687a3fd3f0cab63608a6c8a5ad906e1011f1554bbbbdd",
+      "year": 2020
+    },
+    "ZAF-ADM3": {
+      "bytes": 50705428,
+      "canonical": "Local municipality",
+      "derived_csv_bytes": 55768,
+      "derived_csv_sha256": "65acb021c217f20d6b149d3a1289637347124f387a9511b61c717ee1131bfc49",
+      "license": "CC BY 3.0 IGO",
+      "origin": "OCHA ROSEA, South African Municipal Demarcation Board",
+      "original_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/ZAF/ADM3/geoBoundaries-ZAF-ADM3.geojson",
+      "parent_association_valid_for_source_year_only": true,
+      "parent_spatial_assignments": 213,
+      "rows": 213,
+      "sha256": "74e489fd4370972403950719026a317abba443668cea7d49f4b36c61637958f1",
+      "year": 2020
+    }
+  }
+}

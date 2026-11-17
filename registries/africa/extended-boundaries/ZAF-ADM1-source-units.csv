@@ -1,0 +1,10 @@
+country,adm_level,shape_id,name,parent_shape_id,parent_assignment,source_year,canonical,origin,license,source_sha256
+ZAF,ADM1,76434192B98113213215773,Eastern Cape,,not_applicable,2020,Province,"OCHA ROSEA, South African Municipal Demarcation Board",CC BY 3.0 IGO,5d82ed95b034f50d69d96c9b7136e9b5868a5fb4ef2d8905a6a6ac3715fef452
+ZAF,ADM1,76434192B57942368908249,Free State,,not_applicable,2020,Province,"OCHA ROSEA, South African Municipal Demarcation Board",CC BY 3.0 IGO,5d82ed95b034f50d69d96c9b7136e9b5868a5fb4ef2d8905a6a6ac3715fef452
+ZAF,ADM1,76434192B69392740373411,Gauteng,,not_applicable,2020,Province,"OCHA ROSEA, South African Municipal Demarcation Board",CC BY 3.0 IGO,5d82ed95b034f50d69d96c9b7136e9b5868a5fb4ef2d8905a6a6ac3715fef452
+ZAF,ADM1,76434192B26311534340602,KwaZulu-Natal,,not_applicable,2020,Province,"OCHA ROSEA, South African Municipal Demarcation Board",CC BY 3.0 IGO,5d82ed95b034f50d69d96c9b7136e9b5868a5fb4ef2d8905a6a6ac3715fef452
+ZAF,ADM1,76434192B37104984973577,Limpopo,,not_applicable,2020,Province,"OCHA ROSEA, South African Municipal Demarcation Board",CC BY 3.0 IGO,5d82ed95b034f50d69d96c9b7136e9b5868a5fb4ef2d8905a6a6ac3715fef452
+ZAF,ADM1,76434192B92524600968894,Mpumalanga,,not_applicable,2020,Province,"OCHA ROSEA, South African Municipal Demarcation Board",CC BY 3.0 IGO,5d82ed95b034f50d69d96c9b7136e9b5868a5fb4ef2d8905a6a6ac3715fef452
+ZAF,ADM1,76434192B85643022077130,North West,,not_applicable,2020,Province,"OCHA ROSEA, South African Municipal Demarcation Board",CC BY 3.0 IGO,5d82ed95b034f50d69d96c9b7136e9b5868a5fb4ef2d8905a6a6ac3715fef452
+ZAF,ADM1,76434192B51294388644125,Nothern Cape,,not_applicable,2020,Province,"OCHA ROSEA, South African Municipal Demarcation Board",CC BY 3.0 IGO,5d82ed95b034f50d69d96c9b7136e9b5868a5fb4ef2d8905a6a6ac3715fef452
+ZAF,ADM1,76434192B56312278962278,Western Cape,,not_applicable,2020,Province,"OCHA ROSEA, South African Municipal Demarcation Board",CC BY 3.0 IGO,5d82ed95b034f50d69d96c9b7136e9b5868a5fb4ef2d8905a6a6ac3715fef452

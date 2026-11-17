@@ -1,0 +1,1542 @@
+wilaya_code,wilaya_name_ar,wilaya_name_latin,source_row_order_not_official_code,commune_name_ar,commune_name_latin,has_official_commune_code
+01,أدرار,Adrar,1,تيمقتن,Timekten,false
+01,أدرار,Adrar,2,تيت,Tit,false
+01,أدرار,Adrar,3,اقبلي,Akabli,false
+01,أدرار,Adrar,4,أولف,Aoulef,false
+01,أدرار,Adrar,5,بودة,Bouda,false
+01,أدرار,Adrar,6,أولاد أحمد تيمي,Ouled Ahmed Timmi,false
+01,أدرار,Adrar,7,أدرار,Adrar,false
+01,أدرار,Adrar,8,فنوغيل,Fenoughil,false
+01,أدرار,Adrar,9,تامست,Tamest,false
+01,أدرار,Adrar,10,تامنطيط,Tamantit,false
+01,أدرار,Adrar,11,إن زغمير,In Zghmir,false
+01,أدرار,Adrar,12,زاوية كنتة,Zaouiet Kounta,false
+01,أدرار,Adrar,13,رقان,Reggane,false
+01,أدرار,Adrar,14,سالي,Sali,false
+01,أدرار,Adrar,15,السبع,Sebaa,false
+01,أدرار,Adrar,16,تسابيت,Tsabit,false
+02,الشلف,Chlef,1,تلعصة,Talassa,false
+02,الشلف,Chlef,2,تاجنة,Tadjena,false
+02,الشلف,Chlef,3,أبو الحسن,Abou El Hassane,false
+02,الشلف,Chlef,4,الزبوجة,Zeboudja,false
+02,الشلف,Chlef,5,بوزغاية,Bouzeghaia,false
+02,الشلف,Chlef,6,بنايرية,Benairia,false
+02,الشلف,Chlef,7,الحجاج,El Hadjadj,false
+02,الشلف,Chlef,8,أولاد بن عبد القادر,Ouled Ben Abdelkader,false
+02,الشلف,Chlef,9,عين مران,Ain Merane,false
+02,الشلف,Chlef,10,الهرانفة,Herenfa,false
+02,الشلف,Chlef,11,بريرة,Breira,false
+02,الشلف,Chlef,12,بني حواء,Beni Haoua,false
+02,الشلف,Chlef,13,وادي قوسين,Oued Goussine,false
+02,الشلف,Chlef,14,أولاد عباس,Ouled Abbes,false
+02,الشلف,Chlef,15,وادي الفضة,Oued Fodda,false
+02,الشلف,Chlef,16,بني راشد,Beni Rached,false
+02,الشلف,Chlef,17,المرسى,El Marsa,false
+02,الشلف,Chlef,18,مصدق,Moussadek,false
+02,الشلف,Chlef,19,الشلف,Chlef,false
+02,الشلف,Chlef,20,أم الدروع,Oum Drou,false
+02,الشلف,Chlef,21,سنجاس,Sendjas,false
+02,الشلف,Chlef,22,سيدي عبد الرحمن,Sidi Abderrahmane,false
+02,الشلف,Chlef,23,سيدي عكاشة,Sidi Akkacha,false
+02,الشلف,Chlef,24,تنس,Tenes,false
+02,الشلف,Chlef,25,بني بوعتاب,Beni  Bouattab,false
+02,الشلف,Chlef,26,الكريمية,El Karimia,false
+02,الشلف,Chlef,27,حرشون,Harchoun,false
+02,الشلف,Chlef,28,تاوقريت,Taougrit,false
+02,الشلف,Chlef,29,الظهرة,Dahra,false
+02,الشلف,Chlef,30,الشطية,Chettia,false
+02,الشلف,Chlef,31,أولاد فارس,Ouled Fares,false
+02,الشلف,Chlef,32,الأبيض مجاجة,Labiod Medjadja,false
+02,الشلف,Chlef,33,بوقادير,Boukadir,false
+02,الشلف,Chlef,34,وادي سلي,Oued Sly,false
+02,الشلف,Chlef,35,الصبحة,Sobha,false
+03,الأغواط,Laghouat,1,تاجموت,Tadjemout,false
+03,الأغواط,Laghouat,2,تاجرونة,Tadjrouna,false
+03,الأغواط,Laghouat,3,عين ماضي,Ain Madhi,false
+03,الأغواط,Laghouat,4,الحويطة,El Haouita,false
+03,الأغواط,Laghouat,5,الخنق,Kheneg,false
+03,الأغواط,Laghouat,6,الأغواط,Laghouat,false
+03,الأغواط,Laghouat,7,قصر الحيران,Ksar El Hirane,false
+03,الأغواط,Laghouat,8,بن ناصر بن شهرة,Benacer Benchohra,false
+03,الأغواط,Laghouat,9,العسافية,El Assafia,false
+03,الأغواط,Laghouat,10,سيدي مخلوف,Sidi Makhlouf,false
+03,الأغواط,Laghouat,11,حاسي الدلاعة,Hassi Delaa,false
+03,الأغواط,Laghouat,12,حاسي الرمل,Hassi R’Mel,false
+04,أم البواقي,Oum El Bouaghi,1,فكيرينة,Fkirina,false
+04,أم البواقي,Oum El Bouaghi,2,وادي نيني,Oued Nini,false
+04,أم البواقي,Oum El Bouaghi,3,الفجوج بوغرارة سعودي,El Fedjoudj Boughrara Sa,false
+04,أم البواقي,Oum El Bouaghi,4,عين فكرون,Ain Fekroun,false
+04,أم البواقي,Oum El Bouaghi,5,الرحية,Rahia,false
+04,أم البواقي,Oum El Bouaghi,6,مسكيانة,Meskiana,false
+04,أم البواقي,Oum El Bouaghi,7,البلالة,El Belala,false
+04,أم البواقي,Oum El Bouaghi,8,بحير الشرقي,Behir Chergui,false
+04,أم البواقي,Oum El Bouaghi,9,قصر الصباحي,Ksar Sbahi,false
+04,أم البواقي,Oum El Bouaghi,10,سوق نعمان,Souk Naamane,false
+04,أم البواقي,Oum El Bouaghi,11,أولاد زواي,Ouled Zouai,false
+04,أم البواقي,Oum El Bouaghi,12,بئر الشهداء,Bir Chouhada,false
+04,أم البواقي,Oum El Bouaghi,13,أم البواقي,Oum El Bouaghi,false
+04,أم البواقي,Oum El Bouaghi,14,عين الزيتون,Ain Zitoun,false
+04,أم البواقي,Oum El Bouaghi,15,عين ببوش,Ain Babouche,false
+04,أم البواقي,Oum El Bouaghi,16,عين الديس,Ain Diss,false
+04,أم البواقي,Oum El Bouaghi,17,عين البيضاء,Ain Beida,false
+04,أم البواقي,Oum El Bouaghi,18,بريش,Berriche,false
+04,أم البواقي,Oum El Bouaghi,19,الزرق,Zorg,false
+04,أم البواقي,Oum El Bouaghi,20,عين مليلة,Ain M'lila,false
+04,أم البواقي,Oum El Bouaghi,21,أولاد قاسم,Ouled Gacem,false
+04,أم البواقي,Oum El Bouaghi,22,أولاد حملة,Ouled Hamla,false
+04,أم البواقي,Oum El Bouaghi,23,العامرية,El Amiria,false
+04,أم البواقي,Oum El Bouaghi,24,سيقوس,Sigus,false
+04,أم البواقي,Oum El Bouaghi,25,الضلعة,Dhalaa,false
+04,أم البواقي,Oum El Bouaghi,26,الجازية,El Djazia,false
+04,أم البواقي,Oum El Bouaghi,27,عين كرشة,Ain Kercha,false
+04,أم البواقي,Oum El Bouaghi,28,الحرملية,El Harmilia,false
+04,أم البواقي,Oum El Bouaghi,29,هنشير تومغني,Hanchir Toumghani,false
+05,باتنة,Batna,1,معافة,Maafa,false
+05,باتنة,Batna,2,عين التوتة,Ain Touta,false
+05,باتنة,Batna,3,بني فضالة الحقانية,Beni Fedhala El Hakania,false
+05,باتنة,Batna,4,أولاد عوف,Ouled Aouf,false
+05,باتنة,Batna,5,القصبات,Gosbat,false
+05,باتنة,Batna,6,تالخمت,Talkhamt,false
+05,باتنة,Batna,7,رأس العيون,Ras El Aioun,false
+05,باتنة,Batna,8,الرحبات,Rahbat,false
+05,باتنة,Batna,9,أولاد سلام,Ouled Sellem,false
+05,باتنة,Batna,10,القيقبة,Guigba,false
+05,باتنة,Batna,11,تيمقاد,Timgad,false
+05,باتنة,Batna,12,أولاد فاضل,Ouled Fadel,false
+05,باتنة,Batna,13,تاكسلانت,Taxlent,false
+05,باتنة,Batna,14,أولاد سي سليمان,Ouled Si Slimane,false
+05,باتنة,Batna,15,لمسان,Lemsane,false
+05,باتنة,Batna,16,ثنية العابد,Teniet El Abed,false
+05,باتنة,Batna,17,شير,Chir,false
+05,باتنة,Batna,18,وادي الطاقة,Oued Taga,false
+05,باتنة,Batna,19,باتنة,Batna,false
+05,باتنة,Batna,20,فسديس,Fesdis,false
+05,باتنة,Batna,21,وادي الشعبة,Oued Chaaba,false
+05,باتنة,Batna,22,حيدوسة,Hidoussa,false
+05,باتنة,Batna,23,قصر بلزمة,Ksar Belezma,false
+05,باتنة,Batna,24,مروانة,Merouana,false
+05,باتنة,Batna,25,وادي الماء,Oued El Ma,false
+05,باتنة,Batna,26,لازرو,Lazrou,false
+05,باتنة,Batna,27,سريانة,Seriana,false
+05,باتنة,Batna,28,زانة البيضاء,Zana El Beida,false
+05,باتنة,Batna,29,منعة,Menaa,false
+05,باتنة,Batna,30,تغرغار,Tigherghar,false
+05,باتنة,Batna,31,عين ياقوت,Ain Yagout,false
+05,باتنة,Batna,32,بومية,Boumia,false
+05,باتنة,Batna,33,جرمة,Djerma,false
+05,باتنة,Batna,34,المعذر,Elmadher,false
+05,باتنة,Batna,35,عيون العصافير,Ouyoun El Assafir,false
+05,باتنة,Batna,36,تازولت,Tazoult,false
+05,باتنة,Batna,37,بومقر,Boumagueur,false
+05,باتنة,Batna,38,نقاوس,N’Gaous,false
+05,باتنة,Batna,39,سفيان,Sefiane,false
+05,باتنة,Batna,40,أريس,Arris,false
+05,باتنة,Batna,41,تيغانمين,Tighanimine,false
+05,باتنة,Batna,42,عين جاسر,Ain Djasser,false
+05,باتنة,Batna,43,الحاسي,El Hassi,false
+05,باتنة,Batna,44,فم الطوب,Foum Toub,false
+05,باتنة,Batna,45,إشمول,Ichmoul,false
+05,باتنة,Batna,46,إينوغيسن,Inoughissene,false
+05,باتنة,Batna,47,بوزينة,Bouzina,false
+05,باتنة,Batna,48,لارباع,Larbaa,false
+05,باتنة,Batna,49,بولهيلات,Boulhilat,false
+05,باتنة,Batna,50,الشمرة,Chemora,false
+05,باتنة,Batna,51,غسيرة,Ghassira,false
+05,باتنة,Batna,52,كيمل,Kimmel,false
+05,باتنة,Batna,53,تكوت,T’Kout,false
+06,بجاية,Bejaia,1,سيدي عياد,Sidi Ayad,false
+06,بجاية,Bejaia,2,الفلاي,Leflaye,false
+06,بجاية,Bejaia,3,سيدي عيش,Sidi-Aich,false
+06,بجاية,Bejaia,4,تيفرة,Tifra,false
+06,بجاية,Bejaia,5,تينبدار,Tinebdar,false
+06,بجاية,Bejaia,6,برباشة,Barbacha,false
+06,بجاية,Bejaia,7,كنديرة,Kendira,false
+06,بجاية,Bejaia,8,القصر,El Kseur,false
+06,بجاية,Bejaia,9,فناية الماثن,Fenaia Il Maten,false
+06,بجاية,Bejaia,10,توجة,Toudja,false
+06,بجاية,Bejaia,11,ذراع القايد,Dra El Caid,false
+06,بجاية,Bejaia,12,خراطة,Kherrata,false
+06,بجاية,Bejaia,13,بجاية,Bejaia,false
+06,بجاية,Bejaia,14,وادي غير,Oued Ghir,false
+06,بجاية,Bejaia,15,بني معوش,Benimaouche,false
+06,بجاية,Bejaia,16,بني جليل,Beni Djellil,false
+06,بجاية,Bejaia,17,فرعون,Feraoun,false
+06,بجاية,Bejaia,18,سمعون,Smaoun,false
+06,بجاية,Bejaia,19,أميزور,Amizour,false
+06,بجاية,Bejaia,20,تيمزريت,Timezrit,false
+06,بجاية,Bejaia,21,مالبو,Melbou,false
+06,بجاية,Bejaia,22,سوق لإثنين,Souk El Tenine,false
+06,بجاية,Bejaia,23,تامريجت,Tamridjet,false
+06,بجاية,Bejaia,24,بوخليفة,Boukhelifa,false
+06,بجاية,Bejaia,25,تالة حمزة,Tala Hamza,false
+06,بجاية,Bejaia,26,تيشي,Tichy,false
+06,بجاية,Bejaia,27,أيت رزين,Ait R'zine,false
+06,بجاية,Bejaia,28,إغيل علي,Ighil-Ali,false
+06,بجاية,Bejaia,29,أيت إسماعيل,Ait-Smail,false
+06,بجاية,Bejaia,30,درقينة,Darguina,false
+06,بجاية,Bejaia,31,تاسكريوت,Taskriout,false
+06,بجاية,Bejaia,32,أوقاس,Aokas,false
+06,بجاية,Bejaia,33,تيزي نبربر,Tizi-N'berber,false
+06,بجاية,Bejaia,34,أدكار,Adekar,false
+06,بجاية,Bejaia,35,بني كسيلة,Beni K'sila,false
+06,بجاية,Bejaia,36,تاوريرت إغيل,Taourit Ighil,false
+06,بجاية,Bejaia,37,أقبو,Akbou,false
+06,بجاية,Bejaia,38,شلاطة,Chellata,false
+06,بجاية,Bejaia,39,اغرم,Ighram,false
+06,بجاية,Bejaia,40,تامقرة,Tamokra,false
+06,بجاية,Bejaia,41,أمالو,Amalou,false
+06,بجاية,Bejaia,42,بوحمزة,Bouhamza,false
+06,بجاية,Bejaia,43,مسيسنة,M'cisna,false
+06,بجاية,Bejaia,44,صدوق,Seddouk,false
+06,بجاية,Bejaia,45,بني مليكش,Beni-Mallikeche,false
+06,بجاية,Bejaia,46,بو جليل,Boudjellil,false
+06,بجاية,Bejaia,47,تازمالت,Tazmalt,false
+06,بجاية,Bejaia,48,أكفادو,Akfadou,false
+06,بجاية,Bejaia,49,شميني,Chemini,false
+06,بجاية,Bejaia,50,سوق اوفلا,Souk Oufella,false
+06,بجاية,Bejaia,51,طيبان,Tibane,false
+06,بجاية,Bejaia,52,أوزلاقن,Ouzellaguen,false
+07,بسكرة,Biskra,1,الفيض,El Feidh,false
+07,بسكرة,Biskra,2,خنقة سيدي ناجي,Khangat Sidi Nadji,false
+07,بسكرة,Biskra,3,زريبة الوادي,Zeribet El Oued,false
+07,بسكرة,Biskra,4,المزيرعة,Meziraa,false
+07,بسكرة,Biskra,5,ليشانة,Lichana,false
+07,بسكرة,Biskra,6,بوشقرون,Bouchagroun,false
+07,بسكرة,Biskra,7,برج بن عزوز,Bordj Ben Azzouz,false
+07,بسكرة,Biskra,8,طولقة,Tolga,false
+07,بسكرة,Biskra,9,مخادمة,Mekhadma,false
+07,بسكرة,Biskra,10,مليلي,M’Lili,false
+07,بسكرة,Biskra,11,أورلال,Ourlal,false
+07,بسكرة,Biskra,12,أوماش,Oumache,false
+07,بسكرة,Biskra,13,ليوة,Lioua,false
+07,بسكرة,Biskra,14,بسكرة,Biskra,false
+07,بسكرة,Biskra,15,الحاجب,El Hadjeb,false
+07,بسكرة,Biskra,16,فوغالة,Foughala,false
+07,بسكرة,Biskra,17,الغروس,El Ghrous,false
+07,بسكرة,Biskra,18,عين الناقة,Ain Naga,false
+07,بسكرة,Biskra,19,شتمة,Chetma,false
+07,بسكرة,Biskra,20,الحوش,El Haouch,false
+07,بسكرة,Biskra,21,سيدي عقبة,Sidi Okba,false
+07,بسكرة,Biskra,22,مشونش,M’Chouneche,false
+08,بشار,Bechar,1,بشار,Bechar,false
+08,بشار,Bechar,2,بوكايس,Boukais,false
+08,بشار,Bechar,3,لحمر,Lahmar,false
+08,بشار,Bechar,4,موغل,Mogheul,false
+08,بشار,Bechar,5,المريجة,Meridja,false
+08,بشار,Bechar,6,القنادسة,Kenadsa,false
+08,بشار,Bechar,7,تاغيت,Taghit,false
+08,بشار,Bechar,8,العبادلة,Abadla,false
+08,بشار,Bechar,9,عرق فراج,Erg-Ferradj,false
+08,بشار,Bechar,10,مشرع هواري بومدين,Machraa-Houari-Boumediene,false
+08,بشار,Bechar,11,بني ونيف,Beni-Ounif,false
+08,بشار,Bechar,12,تبلبالة,Tabelbala,false
+09,البليدة,Blida,1,بني مراد,Beni Mered,false
+09,البليدة,Blida,2,أولاد يعيش,Ouled Yaich,false
+09,البليدة,Blida,3,الشريعة,Chrea,false
+09,البليدة,Blida,4,اولاد سلامة,Ouled Slama,false
+09,البليدة,Blida,5,حمام ملوان,Hammam Elouane,false
+09,البليدة,Blida,6,بوقرة,Bougara,false
+09,البليدة,Blida,7,موزاية,Mouzaia,false
+09,البليدة,Blida,8,الشفة,Chiffa,false
+09,البليدة,Blida,9,عين الرمانة,Ain Romana,false
+09,البليدة,Blida,10,صوحان,Souhane,false
+09,البليدة,Blida,11,الأربعاء,Larbaa,false
+09,البليدة,Blida,12,الصومعة,Soumaa,false
+09,البليدة,Blida,13,قرواو,Guerrouaou,false
+09,البليدة,Blida,14,بوفاريك,Boufarik,false
+09,البليدة,Blida,15,مفتاح,Meftah,false
+09,البليدة,Blida,16,جبابرة,Djebabra,false
+09,البليدة,Blida,17,وادي جر,Oued  Djer,false
+09,البليدة,Blida,18,العفرون,El-Affroun,false
+09,البليدة,Blida,19,وادي العلايق,Oued El Alleug,false
+09,البليدة,Blida,20,بن خليل,Benkhelil,false
+09,البليدة,Blida,21,بني تامو,Beni-Tamou,false
+09,البليدة,Blida,22,الشبلي,Chebli,false
+09,البليدة,Blida,23,بوعينان,Bouinan,false
+09,البليدة,Blida,24,بوعرفة,Bouarfa,false
+09,البليدة,Blida,25,البليدة,Blida,false
+10,البويرة,Bouira,1,عين العلوي,Ain Laloui,false
+10,البويرة,Bouira,2,عين الحجر,Ain El Hadjar,false
+10,البويرة,Bouira,3,عين بسام,Ain-Bessem,false
+10,البويرة,Bouira,4,الحجرة الزرقاء,Hadjera Zerga,false
+10,البويرة,Bouira,5,مزدور,Mezdour,false
+10,البويرة,Bouira,6,تاقديت,Taguedite,false
+10,البويرة,Bouira,7,برج أوخريص,Bordj Okhriss,false
+10,البويرة,Bouira,8,ريدان,Ridane,false
+10,البويرة,Bouira,9,المعمورة,Maamora,false
+10,البويرة,Bouira,10,الحاكمية,El-Hakimia,false
+10,البويرة,Bouira,11,ديرة,Dirah,false
+10,البويرة,Bouira,12,الدشمية,Dechmia,false
+10,البويرة,Bouira,13,سور الغزلان,Sour El Ghozlane,false
+10,البويرة,Bouira,14,أهل القصر,Ahl El Ksar,false
+10,البويرة,Bouira,15,بشلول,Bechloul,false
+10,البويرة,Bouira,16,العجيبة,El Adjiba,false
+10,البويرة,Bouira,17,الأسنام,El Asnam,false
+10,البويرة,Bouira,18,أولاد راشد,Ouled Rached,false
+10,البويرة,Bouira,19,آث  منصور,Ath Mansour,false
+10,البويرة,Bouira,20,سحاريج,Saharidj,false
+10,البويرة,Bouira,21,أمشدالة,M Chedallah,false
+10,البويرة,Bouira,22,حنيف,Hanif,false
+10,البويرة,Bouira,23,شرفة,Chorfa,false
+10,البويرة,Bouira,24,أغبالو,Aghbalou,false
+10,البويرة,Bouira,25,روراوة,Raouraoua,false
+10,البويرة,Bouira,26,الخبوزية,El Khabouzia,false
+10,البويرة,Bouira,27,بئر غبالو,Bir Ghbalou,false
+10,البويرة,Bouira,28,البويرة,Bouira,false
+10,البويرة,Bouira,29,عين الترك,Ain Turk,false
+10,البويرة,Bouira,30,أيت لعزيز,Ait Laaziz,false
+10,البويرة,Bouira,31,المقراني,El-Mokrani,false
+10,البويرة,Bouira,32,سوق الخميس,Souk El Khemis,false
+10,البويرة,Bouira,33,أعمر,Aomar,false
+10,البويرة,Bouira,34,جباحية,Djebahia,false
+10,البويرة,Bouira,35,قادرية,Kadiria,false
+10,البويرة,Bouira,36,الهاشمية,El Hachimia,false
+10,البويرة,Bouira,37,وادي البردي,Oued El Berdi,false
+10,البويرة,Bouira,38,حيزر,Haizer,false
+10,البويرة,Bouira,39,تاغزوت,Taghzout,false
+10,البويرة,Bouira,40,بودربالة,Bouderbala,false
+10,البويرة,Bouira,41,بوكرم,Boukram,false
+10,البويرة,Bouira,42,قرومة,Guerrouma,false
+10,البويرة,Bouira,43,الأخضرية,Lakhdaria,false
+10,البويرة,Bouira,44,معلة,Maala,false
+10,البويرة,Bouira,45,زبربر,Z'barbar (El Isseri ),false
+11,تمنراست,Tamanrasset,1,تاظروك,Tazrouk,false
+11,تمنراست,Tamanrasset,2,أدلس,Idles,false
+11,تمنراست,Tamanrasset,3,ابلسة,Abelsa,false
+11,تمنراست,Tamanrasset,4,تمنراست,Tamanrasset,false
+11,تمنراست,Tamanrasset,5,عين امقل,Ain Amguel,false
+12,تبسة,Tebessa,1,الحويجبات,Lahouidjbet,false
+12,تبسة,Tebessa,2,الماء الابيض,El Ma Labiod,false
+12,تبسة,Tebessa,3,العوينات,El Aouinet,false
+12,تبسة,Tebessa,4,بوخضرة,Boukhadra,false
+12,تبسة,Tebessa,5,بئر مقدم,Bir Mokkadem,false
+12,تبسة,Tebessa,6,قريقر,Gourrigueur,false
+12,تبسة,Tebessa,7,الحمامات,Hammamet,false
+12,تبسة,Tebessa,8,بئر الذهب,Bir Dheheb,false
+12,تبسة,Tebessa,9,مرسط,Morsott,false
+12,تبسة,Tebessa,10,صفصاف الوسرى,Safsaf El Ouesra,false
+12,تبسة,Tebessa,11,أم علي,Oum Ali,false
+12,تبسة,Tebessa,12,بكارية,Bekkaria,false
+12,تبسة,Tebessa,13,بولحاف الدير,Boulhaf Dyr,false
+12,تبسة,Tebessa,14,الكويف,El Kouif,false
+12,تبسة,Tebessa,15,الونزة,Ouenza,false
+12,تبسة,Tebessa,16,المريج,El Meridj,false
+12,تبسة,Tebessa,17,عين الزرقاء,Ain Zerga,false
+12,تبسة,Tebessa,18,سطح قنطيس,Stah Guentis,false
+12,تبسة,Tebessa,19,العقلة,El Ogla,false
+12,تبسة,Tebessa,20,المزرعة,El Mezeraa,false
+12,تبسة,Tebessa,21,بجن,Bedjene,false
+12,تبسة,Tebessa,22,ثليجان,Thlidjene,false
+12,تبسة,Tebessa,23,الشريعة,Cheria,false
+12,تبسة,Tebessa,24,تبسة,Tebessa,false
+13,تلمسان,Tlemcen,1,باب العسة,Bab El Assa,false
+13,تلمسان,Tlemcen,2,سوق الثلاثاء,Souk Thlata,false
+13,تلمسان,Tlemcen,3,السواني,Souani,false
+13,تلمسان,Tlemcen,4,تيرني بني هديل,Tirni Beni Hediel,false
+13,تلمسان,Tlemcen,5,منصورة,Mansourah,false
+13,تلمسان,Tlemcen,6,بني مستر,Beni Mester,false
+13,تلمسان,Tlemcen,7,عين غرابة,Ain Ghoraba,false
+13,تلمسان,Tlemcen,8,شتوان,Chetouane,false
+13,تلمسان,Tlemcen,9,عمير,Amieur,false
+13,تلمسان,Tlemcen,10,عين فزة,Ain Fezza,false
+13,تلمسان,Tlemcen,11,هنين,Honaine,false
+13,تلمسان,Tlemcen,12,بني خلاد,Beni Khellad,false
+13,تلمسان,Tlemcen,13,ندرومة,Nedroma,false
+13,تلمسان,Tlemcen,14,جبالة,Djebala,false
+13,تلمسان,Tlemcen,15,مسيردة الفواقة,Msirda Fouaga,false
+13,تلمسان,Tlemcen,16,مرسى بن مهيدي,Marsa Ben M’Hidi,false
+13,تلمسان,Tlemcen,17,سيدي مجاهد,Sidi Medjahed,false
+13,تلمسان,Tlemcen,18,بني بوسعيد,Beni Boussaid,false
+13,تلمسان,Tlemcen,19,سبدو,Sebdou,false
+13,تلمسان,Tlemcen,20,بوحلو,Bouhlou,false
+13,تلمسان,Tlemcen,21,صبرة,Sabra,false
+13,تلمسان,Tlemcen,22,مغنية,Maghnia,false
+13,تلمسان,Tlemcen,23,حمام بوغرارة,Hammam Boughrara,false
+13,تلمسان,Tlemcen,24,زناتة,Zenata,false
+13,تلمسان,Tlemcen,25,أولاد رياح,Ouled Riyah,false
+13,تلمسان,Tlemcen,26,الحناية,Hennaya,false
+13,تلمسان,Tlemcen,27,سيدي العبدلي,Sidi Abdelli,false
+13,تلمسان,Tlemcen,28,بن سكران,Bensekrane,false
+13,تلمسان,Tlemcen,29,فلاوسن,Fellaoucene,false
+13,تلمسان,Tlemcen,30,عين الكبيرة,Ain Kebira,false
+13,تلمسان,Tlemcen,31,عين فتاح,Ain Fetah,false
+13,تلمسان,Tlemcen,32,تلمسان,Tlemcen,false
+13,تلمسان,Tlemcen,33,عين النحالة,Ain Nehala,false
+13,تلمسان,Tlemcen,34,عين تالوت,Ain Tallout,false
+13,تلمسان,Tlemcen,35,عين يوسف,Ain Youcef,false
+13,تلمسان,Tlemcen,36,بني وارسوس,Beni Ouarsous,false
+13,تلمسان,Tlemcen,37,الفحول,El Fehoul,false
+13,تلمسان,Tlemcen,38,الرمشي,Remchi,false
+13,تلمسان,Tlemcen,39,سبعة شيوخ,Sebaa Chioukh,false
+13,تلمسان,Tlemcen,40,دار يغمراسن,Dar Yaghmouracene,false
+13,تلمسان,Tlemcen,41,الغزوات,Ghazaouet,false
+13,تلمسان,Tlemcen,42,السواحلية,Souahlia,false
+13,تلمسان,Tlemcen,43,تيانت,Tianet,false
+13,تلمسان,Tlemcen,44,بني صميل,Beni Semiel,false
+13,تلمسان,Tlemcen,45,وادي الخضر,Oued Lakhdar,false
+13,تلمسان,Tlemcen,46,أولاد ميمون,Ouled Mimoun,false
+13,تلمسان,Tlemcen,47,بني بهدل,Beni Bahdel,false
+13,تلمسان,Tlemcen,48,بني سنوس,Beni Snous,false
+13,تلمسان,Tlemcen,49,العزايل,Azails,false
+14,تيارت,Tiaret,1,مهدية,Mahdia,false
+14,تيارت,Tiaret,2,عين دزاريت,Ain Dzarit,false
+14,تيارت,Tiaret,3,السبعين,Sebaine,false
+14,تيارت,Tiaret,4,الناظورة,Nadorah,false
+14,تيارت,Tiaret,5,الفايجة,Faidja,false
+14,تيارت,Tiaret,6,سي عبد الغني,Sidi Abdelghani,false
+14,تيارت,Tiaret,7,السوقر,Sougueur,false
+14,تيارت,Tiaret,8,توسنينة,Tousnina,false
+14,تيارت,Tiaret,9,مغيلة,Meghila,false
+14,تيارت,Tiaret,10,السبت,Sebt,false
+14,تيارت,Tiaret,11,سيدي حسني,Sidi Hosni,false
+14,تيارت,Tiaret,12,عين الحديد,Ain El Hadid,false
+14,تيارت,Tiaret,13,فرندة,Frenda,false
+14,تيارت,Tiaret,14,تخمرت,Takhemaret,false
+14,تيارت,Tiaret,15,عين كرمس,Ain Kermes,false
+14,تيارت,Tiaret,16,جبيلات الرصفاء,Djebilet Rosfa,false
+14,تيارت,Tiaret,17,مادنة,Madna,false
+14,تيارت,Tiaret,18,مدريسة,Medrissa,false
+14,تيارت,Tiaret,19,سيدي عبد الرحمن,Sidi Abderrahmane,false
+14,تيارت,Tiaret,20,قرطوفة,Guertoufa,false
+14,تيارت,Tiaret,21,الرحوية,Rahouia,false
+14,تيارت,Tiaret,22,وادي ليلي,Oued Lili,false
+14,تيارت,Tiaret,23,سيدي علي ملال,Sidi Ali Mellal,false
+14,تيارت,Tiaret,24,تيدة,Tidda,false
+14,تيارت,Tiaret,25,جيلالي بن عمار,Djileli Ben Amar,false
+14,تيارت,Tiaret,26,مشرع الصفا,Mechraa Sfa,false
+14,تيارت,Tiaret,27,تاقدمت,Tagdemt,false
+14,تيارت,Tiaret,28,تيارت,Tiaret,false
+14,تيارت,Tiaret,29,مدروسة,Medroussa,false
+14,تيارت,Tiaret,30,ملاكو,Mellakou,false
+14,تيارت,Tiaret,31,سيدي بختي,Sidi Bakhti,false
+14,تيارت,Tiaret,32,عين الذهب,Ain Deheb,false
+14,تيارت,Tiaret,33,شحيمة,Chehaima,false
+14,تيارت,Tiaret,34,النعيمة,Naima,false
+14,تيارت,Tiaret,35,عين بوشقيف,Ain Bouchekif,false
+14,تيارت,Tiaret,36,دحموني,Dahmouni,false
+15,تيزي وزو,Tizi Ouzou,1,ميزرانـــة,Mizrana,false
+15,تيزي وزو,Tizi Ouzou,2,إفليـــسن,Iflissen,false
+15,تيزي وزو,Tizi Ouzou,3,تيقـزيرت,Tigzirt,false
+15,تيزي وزو,Tizi Ouzou,4,إيجــار,Idjeur,false
+15,تيزي وزو,Tizi Ouzou,5,بني زيكــي,Beni-Zikki,false
+15,تيزي وزو,Tizi Ouzou,6,إيلولة أومـــالو,Illoula Oumalou,false
+15,تيزي وزو,Tizi Ouzou,7,بوزقــن,Bouzeguene,false
+15,تيزي وزو,Tizi Ouzou,8,بني دوالة,Beni-Douala,false
+15,تيزي وزو,Tizi Ouzou,9,بني عيسي,Beni-Aissi,false
+15,تيزي وزو,Tizi Ouzou,10,أيت محمود,Ait-Mahmoud,false
+15,تيزي وزو,Tizi Ouzou,11,بنــــي زمنزار,Beni Zmenzer,false
+15,تيزي وزو,Tizi Ouzou,12,أقني قغران,Agouni-Gueghrane,false
+15,تيزي وزو,Tizi Ouzou,13,أيت بــوادو,Ait Bouaddou,false
+15,تيزي وزو,Tizi Ouzou,14,واضية,Ouadhias,false
+15,تيزي وزو,Tizi Ouzou,15,تيزي نثلاثة,Tizi N'tleta,false
+15,تيزي وزو,Tizi Ouzou,16,أغريب,Aghribs,false
+15,تيزي وزو,Tizi Ouzou,17,أيت شافع,Ait-Chafaa,false
+15,تيزي وزو,Tizi Ouzou,18,أقرو,Akerrou,false
+15,تيزي وزو,Tizi Ouzou,19,أزفون,Azeffoun,false
+15,تيزي وزو,Tizi Ouzou,20,أسي يوسف,Assi-Youcef,false
+15,تيزي وزو,Tizi Ouzou,21,بوغني,Boghni,false
+15,تيزي وزو,Tizi Ouzou,22,بونوح,Bounouh,false
+15,تيزي وزو,Tizi Ouzou,23,مشطراس,Mechtras,false
+15,تيزي وزو,Tizi Ouzou,24,ذراع بن خدة,Draa-Ben-Khedda,false
+15,تيزي وزو,Tizi Ouzou,25,سيدي نعمان,Sidi Namane,false
+15,تيزي وزو,Tizi Ouzou,26,تادمايت,Tadmait,false
+15,تيزي وزو,Tizi Ouzou,27,تيرمتين,Tirmitine,false
+15,تيزي وزو,Tizi Ouzou,28,أيت بومهدي,Ait Boumahdi,false
+15,تيزي وزو,Tizi Ouzou,29,أيت تودرت,Ait-Toudert,false
+15,تيزي وزو,Tizi Ouzou,30,واسيف,Ouacif,false
+15,تيزي وزو,Tizi Ouzou,31,أيت خليلي,Ait Khellili,false
+15,تيزي وزو,Tizi Ouzou,32,مقــلع,Mekla,false
+15,تيزي وزو,Tizi Ouzou,33,صوامـــع,Souama,false
+15,تيزي وزو,Tizi Ouzou,34,بني يني,Beni-Yenni,false
+15,تيزي وزو,Tizi Ouzou,35,إبودرارن,Iboudrarene,false
+15,تيزي وزو,Tizi Ouzou,36,يطــافن,Yatafene,false
+15,تيزي وزو,Tizi Ouzou,37,تيزي وزو,Tizi-Ouzou,false
+15,تيزي وزو,Tizi Ouzou,38,أبي يوسف,Abi-Youcef,false
+15,تيزي وزو,Tizi Ouzou,39,عين الحمام,Ain-El-Hammam,false
+15,تيزي وزو,Tizi Ouzou,40,أيت يحيى,Ait-Yahia,false
+15,تيزي وزو,Tizi Ouzou,41,اقبيل,Akbil,false
+15,تيزي وزو,Tizi Ouzou,42,بوجيمة,Boudjima,false
+15,تيزي وزو,Tizi Ouzou,43,ماكودة,Makouda,false
+15,تيزي وزو,Tizi Ouzou,44,عين الزاوية,Ain-Zaouia,false
+15,تيزي وزو,Tizi Ouzou,45,أيت يحي موسى,Ait Yahia Moussa,false
+15,تيزي وزو,Tizi Ouzou,46,ذراع الميزان,Draa-El-Mizan,false
+15,تيزي وزو,Tizi Ouzou,47,فريقات,Frikat,false
+15,تيزي وزو,Tizi Ouzou,48,مكيرة,M'kira,false
+15,تيزي وزو,Tizi Ouzou,49,تيزي غنيف,Tizi-Gheniff,false
+15,تيزي وزو,Tizi Ouzou,50,إيلـيــلتـن,Illilten,false
+15,تيزي وزو,Tizi Ouzou,51,إمســوحال,Imsouhal,false
+15,تيزي وزو,Tizi Ouzou,52,إفــرحــونان,Iferhounene,false
+15,تيزي وزو,Tizi Ouzou,53,عزازقة,Azazga,false
+15,تيزي وزو,Tizi Ouzou,54,فريحة,Freha,false
+15,تيزي وزو,Tizi Ouzou,55,إيفيغاء,Ifigha,false
+15,تيزي وزو,Tizi Ouzou,56,إعــكورن,Yakourene,false
+15,تيزي وزو,Tizi Ouzou,57,زكري,Zekri,false
+15,تيزي وزو,Tizi Ouzou,58,أيت عقـواشة,Ait Aggouacha,false
+15,تيزي وزو,Tizi Ouzou,59,إيرجـــن,Irdjen,false
+15,تيزي وزو,Tizi Ouzou,60,الأربعــاء ناث إيراثن,Larbaa Nath Irathen,false
+15,تيزي وزو,Tizi Ouzou,61,أيت  أومالو,Ait-Oumalou,false
+15,تيزي وزو,Tizi Ouzou,62,تيزي راشد,Tizi-Rached,false
+15,تيزي وزو,Tizi Ouzou,63,أيت عيسى ميمون,Ait-Aissa-Mimoun,false
+15,تيزي وزو,Tizi Ouzou,64,واقنون,Ouaguenoun,false
+15,تيزي وزو,Tizi Ouzou,65,تيمـيزار,Timizart,false
+15,تيزي وزو,Tizi Ouzou,66,معـــاتقة,Maatkas,false
+15,تيزي وزو,Tizi Ouzou,67,سوق الإثنين,Souk-El-Tenine,false
+16,الجزائر,Alger,1,حسين داي,Hussein Dey,false
+16,الجزائر,Alger,2,القبة,Kouba,false
+16,الجزائر,Alger,3,محمد بلوزداد,Mohamed Belouzdad,false
+16,الجزائر,Alger,4,المغارية,El Magharia,false
+16,الجزائر,Alger,5,الكاليتوس,Les Eucalyptus,false
+16,الجزائر,Alger,6,سيدي موسى,Sidi Moussa,false
+16,الجزائر,Alger,7,براقي,Baraki,false
+16,الجزائر,Alger,8,عين طاية,Ain Taya,false
+16,الجزائر,Alger,9,باب الزوار,Bab Ezzouar,false
+16,الجزائر,Alger,10,برج الكيفان,Bordj El Kiffan,false
+16,الجزائر,Alger,11,الدار البيضاء,Dar El Beida,false
+16,الجزائر,Alger,12,المحمدية,Mohammadia,false
+16,الجزائر,Alger,13,برج البحري,Bordj El Bahri,false
+16,الجزائر,Alger,14,المرسى,El Marsa,false
+16,الجزائر,Alger,15,بئر توتة,Bir Touta,false
+16,الجزائر,Alger,16,اولاد شبل,Ouled Chebel,false
+16,الجزائر,Alger,17,تسالة المرجة,Tessala El Merdja,false
+16,الجزائر,Alger,18,هراوة,Herraoua,false
+16,الجزائر,Alger,19,رغاية,Reghaia,false
+16,الجزائر,Alger,20,الرويبة,Rouiba,false
+16,الجزائر,Alger,21,المعالمة,Maalma,false
+16,الجزائر,Alger,22,الرحمانية,Rahmania,false
+16,الجزائر,Alger,23,سويدانية,Souidania,false
+16,الجزائر,Alger,24,سطاوالي,Staoueli,false
+16,الجزائر,Alger,25,زرالدة,Zeralda,false
+16,الجزائر,Alger,26,بابا حسن,Baba Hassen,false
+16,الجزائر,Alger,27,الدويرة,Douira,false
+16,الجزائر,Alger,28,الدرارية,Draria,false
+16,الجزائر,Alger,29,العاشور,El Achour,false
+16,الجزائر,Alger,30,الخرايسية,Khraissia,false
+16,الجزائر,Alger,31,عين بنيان,Ain Benian,false
+16,الجزائر,Alger,32,الشراقة,Cheraga,false
+16,الجزائر,Alger,33,دالي ابراهيم,Dely Ibrahim,false
+16,الجزائر,Alger,34,اولاد فايت,Ouled Fayet,false
+16,الجزائر,Alger,35,الحمامات,Hammamet,false
+16,الجزائر,Alger,36,الجزائر الوسطى,Alger Centre,false
+16,الجزائر,Alger,37,المدنية,El Madania,false
+16,الجزائر,Alger,38,المرادية,El Mouradia,false
+16,الجزائر,Alger,39,سيدي امحمد,Sidi M'hamed,false
+16,الجزائر,Alger,40,السحاولة,Sehaoula,false
+16,الجزائر,Alger,41,بئر مراد رايس,Bir Mourad Rais,false
+16,الجزائر,Alger,42,بئر خادم,Birkhadem,false
+16,الجزائر,Alger,43,جسر قسنطينة,Djasr Kasentina,false
+16,الجزائر,Alger,44,حيدرة,Hydra,false
+16,الجزائر,Alger,45,بولوغين بن زيري,Bologhine Ibnou Ziri,false
+16,الجزائر,Alger,46,القصبة,Casbah,false
+16,الجزائر,Alger,47,وادي قريش,Oued Koriche,false
+16,الجزائر,Alger,48,الرايس حميدو,Rais Hamidou,false
+16,الجزائر,Alger,49,باب الوادي,Bab El Oued,false
+16,الجزائر,Alger,50,ابن عكنون,Ben Aknoun,false
+16,الجزائر,Alger,51,بني مسوس,Beni Messous,false
+16,الجزائر,Alger,52,بوزريعة,Bouzareah,false
+16,الجزائر,Alger,53,الابيار,El Biar,false
+16,الجزائر,Alger,54,باش جراح,Bachedjerah,false
+16,الجزائر,Alger,55,بوروبة,Bourouba,false
+16,الجزائر,Alger,56,الحراش,El Harrach,false
+16,الجزائر,Alger,57,وادي السمار,Oued Smar,false
+17,الجلفة,Djelfa,1,حاسي العش,Hassi El Euch,false
+17,الجلفة,Djelfa,2,زعفران,Zaafrane,false
+17,الجلفة,Djelfa,3,عين معبد,Ain Maabed,false
+17,الجلفة,Djelfa,4,حاسي بحبح,Hassi Bahbah,false
+17,الجلفة,Djelfa,5,عين الإبل,Ain El Ibel,false
+17,الجلفة,Djelfa,6,تعظميت,Tadmit,false
+17,الجلفة,Djelfa,7,زكار,Zaccar,false
+17,الجلفة,Djelfa,8,مجبارة,Moudjbara,false
+17,الجلفة,Djelfa,9,القديد,El Gueddid,false
+17,الجلفة,Djelfa,10,الشارف,Charef,false
+17,الجلفة,Djelfa,11,بن يعقوب,Ben Yaagoub,false
+17,الجلفة,Djelfa,12,سيدي بايزيد,Sidi Baizid,false
+17,الجلفة,Djelfa,13,مليليحة,M’Liliha,false
+17,الجلفة,Djelfa,14,دار الشيوخ,Dar Chioukh,false
+17,الجلفة,Djelfa,15,دويس,Douis,false
+17,الجلفة,Djelfa,16,الادريسية,El Idrissia,false
+17,الجلفة,Djelfa,17,عين الشهداء,Ain Chouhada,false
+17,الجلفة,Djelfa,18,الجلفة,Djelfa,false
+18,جيجل,Jijel,1,جيجل,Jijel,false
+18,جيجل,Jijel,2,العوانة,El Aouana,false
+18,جيجل,Jijel,3,سلمى بن زيادة,Selma Benziada,false
+18,جيجل,Jijel,4,أراقن سويسي,Erraguene Souissi,false
+18,جيجل,Jijel,5,زيامة منصورية,Ziama Mansouriah,false
+18,جيجل,Jijel,6,بوسيف أولاد عسكر,Boussif Ouled Askeur,false
+18,جيجل,Jijel,7,الشحنة,Chahna,false
+18,جيجل,Jijel,8,الامير عبد القادر,Emir Abdelkader,false
+18,جيجل,Jijel,9,وجانة,Oudjana,false
+18,جيجل,Jijel,10,الطاهير,Taher,false
+18,جيجل,Jijel,11,الشقفة,Chekfa,false
+18,جيجل,Jijel,12,القنار نشفي,El Kennar Nouchfi,false
+18,جيجل,Jijel,13,سيدي عبد العزيز,Sidi Abdelaziz,false
+18,جيجل,Jijel,14,برج الطهر,Bordj T'har,false
+18,جيجل,Jijel,15,الميلية,El Milia,false
+18,جيجل,Jijel,16,أولاد يحيى خدروش,Ouled Yahia Khadrouch,false
+18,جيجل,Jijel,17,أولاد رابح,Ouled Rabah,false
+18,جيجل,Jijel,18,سيدي معروف,Sidi Marouf,false
+18,جيجل,Jijel,19,غبالة,Ghebala,false
+18,جيجل,Jijel,20,السطارة,Settara,false
+18,جيجل,Jijel,21,بوراوي بلهادف,Bouraoui Belhadef,false
+18,جيجل,Jijel,22,العنصر,El Ancer,false
+18,جيجل,Jijel,23,خيري واد عجول,Khiri Oued Adjoul,false
+18,جيجل,Jijel,24,الجمعة بني حبيبي,Djemaa Beni Habibi,false
+18,جيجل,Jijel,25,جيملة,Djimla,false
+18,جيجل,Jijel,26,بودريعة بني  ياجيس,Boudria Beniyadjis,false
+18,جيجل,Jijel,27,قاوس,Kaous,false
+18,جيجل,Jijel,28,تاكسنة,Texenna,false
+19,سطيف,Setif,1,الرصفة,Rosfa,false
+19,سطيف,Setif,2,بوطالب,Boutaleb,false
+19,سطيف,Setif,3,الحامة,Hamma,false
+19,سطيف,Setif,4,أولاد تبان,Ouled Tebben,false
+19,سطيف,Setif,5,صالح باي,Salah Bey,false
+19,سطيف,Setif,6,واد البارد,Oued El Bared,false
+19,سطيف,Setif,7,تيزي نبشار,Tizi N'bechar,false
+19,سطيف,Setif,8,عموشة,Amoucha,false
+19,سطيف,Setif,9,مزلوق,Mezloug,false
+19,سطيف,Setif,10,أوريسيا,El Ouricia,false
+19,سطيف,Setif,11,عين عباسة,Ain Abessa,false
+19,سطيف,Setif,12,عين أرنات,Ain Arnat,false
+19,سطيف,Setif,13,قلال,Guellal,false
+19,سطيف,Setif,14,قصر الابطال,Kasr El Abtal,false
+19,سطيف,Setif,15,أولاد سي أحمد,Ouled Si Ahmed,false
+19,سطيف,Setif,16,عين ولمان,Ain Oulmene,false
+19,سطيف,Setif,17,أيت نوال مزادة,Ait Naoual Mezada,false
+19,سطيف,Setif,18,ايت تيزي,Ait-Tizi,false
+19,سطيف,Setif,19,بوعنداس,Bouandas,false
+19,سطيف,Setif,20,بوسلام,Bousselam,false
+19,سطيف,Setif,21,حمام السخنة,Hamam Soukhna,false
+19,سطيف,Setif,22,الطاية,Taya,false
+19,سطيف,Setif,23,التلة,Tella,false
+19,سطيف,Setif,24,عين أزال,Ain Azel,false
+19,سطيف,Setif,25,عين الحجر,Ain Lahdjar,false
+19,سطيف,Setif,26,بيضاء برج,Beidha Bordj,false
+19,سطيف,Setif,27,بئر حدادة,Bir Haddada,false
+19,سطيف,Setif,28,قنزات,Guenzet,false
+19,سطيف,Setif,29,حربيل,Harbil,false
+19,سطيف,Setif,30,عين الروى,Ain-Roua,false
+19,سطيف,Setif,31,بني وسين,Beni Oussine,false
+19,سطيف,Setif,32,بوقاعة,Bougaa,false
+19,سطيف,Setif,33,ذراع قبيلة,Draa-Kebila,false
+19,سطيف,Setif,34,حمام قرقور,Hammam Guergour,false
+19,سطيف,Setif,35,سطيف,Setif,false
+19,سطيف,Setif,36,عين الكبيرة,Ain El Kebira,false
+19,سطيف,Setif,37,الدهامشة,Dehamcha,false
+19,سطيف,Setif,38,أولاد عدوان,Ouled Addouane,false
+19,سطيف,Setif,39,عين السبت,Ain-Sebt,false
+19,سطيف,Setif,40,بني عزيز,Beni-Aziz,false
+19,سطيف,Setif,41,معاوية,Maaouia,false
+19,سطيف,Setif,42,بلاعة,Bellaa,false
+19,سطيف,Setif,43,بئر العرش,Bir-El-Arch,false
+19,سطيف,Setif,44,الولجة,El-Ouldja,false
+19,سطيف,Setif,45,تاشودة,Tachouda,false
+19,سطيف,Setif,46,تالة إيفاسن,Tala-Ifacene,false
+19,سطيف,Setif,47,ماوكلان,Maouaklane,false
+19,سطيف,Setif,48,سرج الغول,Serdj-El-Ghoul,false
+19,سطيف,Setif,49,بابور,Babor,false
+19,سطيف,Setif,50,قجال,Guidjel,false
+19,سطيف,Setif,51,أولاد صابر,Ouled Sabor,false
+19,سطيف,Setif,52,بازر سكرة,Bazer-Sakra,false
+19,سطيف,Setif,53,العلمة,El Eulma,false
+19,سطيف,Setif,54,قلتة زرقاء,Guelta Zerka,false
+19,سطيف,Setif,55,بني فودة,Beni Fouda,false
+19,سطيف,Setif,56,جميلة,Djemila,false
+19,سطيف,Setif,57,عين لقراج,Ain-Legradj,false
+19,سطيف,Setif,58,بني شبانة,Beni Chebana,false
+19,سطيف,Setif,59,بني ورتيلان,Beni Ourtilane,false
+19,سطيف,Setif,60,بني موحلي,Beni-Mouhli,false
+20,سعيدة,Saida,1,سعيدة,Saida,false
+20,سعيدة,Saida,2,تيرسين,Tircine,false
+20,سعيدة,Saida,3,أولاد إبراهيم,Ouled Brahim,false
+20,سعيدة,Saida,4,عين السلطان,Ain Soltane,false
+20,سعيدة,Saida,5,المعمورة,Maamora,false
+20,سعيدة,Saida,6,الحساسنة,El Hassasna,false
+20,سعيدة,Saida,7,عين السخونة,Ain Sekhouna,false
+20,سعيدة,Saida,8,سيدي بوبكر,Sidi Boubekeur,false
+20,سعيدة,Saida,9,أولاد خالد,Ouled Khaled,false
+20,سعيدة,Saida,10,هونت,Hounet,false
+20,سعيدة,Saida,11,سيدي عمر,Sidi Amar,false
+20,سعيدة,Saida,12,يوب,Youb,false
+20,سعيدة,Saida,13,دوي ثابت,Doui Thabet,false
+20,سعيدة,Saida,14,سيدي احمد,Sidi Ahmed,false
+20,سعيدة,Saida,15,مولاي العربي,Moulay Larbi,false
+20,سعيدة,Saida,16,عين الحجر,Ain El Hadjar,false
+21,سكيكدة,Skikda,1,عين بوزيان,Ain Bouziane,false
+21,سكيكدة,Skikda,2,بني ولبان,Beni Oulbane,false
+21,سكيكدة,Skikda,3,سيدي مزغيش,Sidi Mezghiche,false
+21,سكيكدة,Skikda,4,صالح بو الشعور,Salah Bouchaour,false
+21,سكيكدة,Skikda,5,زردازة,Zerdezas,false
+21,سكيكدة,Skikda,6,أولاد حبابة,Ouled Habbaba,false
+21,سكيكدة,Skikda,7,مجاز الدشيش,Emjez Edchich,false
+21,سكيكدة,Skikda,8,الحروش,El Arrouch,false
+21,سكيكدة,Skikda,9,الحدائق,El Hadaiek,false
+21,سكيكدة,Skikda,10,بوشطاطة,Bouchetata,false
+21,سكيكدة,Skikda,11,عين زويت,Ain Zouit,false
+21,سكيكدة,Skikda,12,بني بشير,Beni Bechir,false
+21,سكيكدة,Skikda,13,رمضان جمال,Ramdane Djamel,false
+21,سكيكدة,Skikda,14,بين الويدان,Bin El Ouiden,false
+21,سكيكدة,Skikda,15,تمالوس,Tamalous,false
+21,سكيكدة,Skikda,16,الكركرة,Kerkara,false
+21,سكيكدة,Skikda,17,عين قشرة,Ain Kechra,false
+21,سكيكدة,Skikda,18,الولجة بولبلوط,Ouldja Boulbalout,false
+21,سكيكدة,Skikda,19,أم الطوب,Oum Toub,false
+21,سكيكدة,Skikda,20,الغدير,El Ghedir,false
+21,سكيكدة,Skikda,21,السبت,Es Sebt,false
+21,سكيكدة,Skikda,22,عين شرشار,Ain Charchar,false
+21,سكيكدة,Skikda,23,عزابة,Azzaba,false
+21,سكيكدة,Skikda,24,جندل سعدي محمد,Djendel Saadi Mohamed,false
+21,سكيكدة,Skikda,25,الزيتونة,Zitouna,false
+21,سكيكدة,Skikda,26,قنواع,Kanoua,false
+21,سكيكدة,Skikda,27,أولاد عطية,Ouled Attia,false
+21,سكيكدة,Skikda,28,وادي الزهور,Oued Zhour,false
+21,سكيكدة,Skikda,29,خناق مايو,Khenag Maoune,false
+21,سكيكدة,Skikda,30,القل,Collo,false
+21,سكيكدة,Skikda,31,الشرايع,Cheraia,false
+21,سكيكدة,Skikda,32,بني زيد,Beni Zid,false
+21,سكيكدة,Skikda,33,المرسى,El Marsa,false
+21,سكيكدة,Skikda,34,بن عزوز,Ben Azzouz,false
+21,سكيكدة,Skikda,35,بكوش لخضر,Bekkouche Lakhdar,false
+21,سكيكدة,Skikda,36,فلفلة,Filfila,false
+21,سكيكدة,Skikda,37,حمادي كرومة,Hammadi Krouma,false
+21,سكيكدة,Skikda,38,سكيكدة,Skikda,false
+22,سيدي بلعباس,Sidi Bel Abbes,1,سيدي علي بن يوب,Sidi Ali Benyoub,false
+22,سيدي بلعباس,Sidi Bel Abbes,2,طابية,Tabia,false
+22,سيدي بلعباس,Sidi Bel Abbes,3,بوخنفيس,Boukhanefis,false
+22,سيدي بلعباس,Sidi Bel Abbes,4,مولاي سليسن,Moulay Slissen,false
+22,سيدي بلعباس,Sidi Bel Abbes,5,الحصيبة,El Hacaiba,false
+22,سيدي بلعباس,Sidi Bel Abbes,6,عين تندمين,Ain Tindamine,false
+22,سيدي بلعباس,Sidi Bel Abbes,7,تنيرة,Tenira,false
+22,سيدي بلعباس,Sidi Bel Abbes,8,وادي سفيون,Oued Sefioun,false
+22,سيدي بلعباس,Sidi Bel Abbes,9,حاسي دحو,Hassi Dahou,false
+22,سيدي بلعباس,Sidi Bel Abbes,10,بن عشيبة شلية,Benachiba Chelia,false
+22,سيدي بلعباس,Sidi Bel Abbes,11,وادي تاوريرة,Oued Taourira,false
+22,سيدي بلعباس,Sidi Bel Abbes,12,مرين,Merine,false
+22,سيدي بلعباس,Sidi Bel Abbes,13,تفسور,Tefessour,false
+22,سيدي بلعباس,Sidi Bel Abbes,14,تاودموت,Taoudmout,false
+22,سيدي بلعباس,Sidi Bel Abbes,15,سيدي يعقوب,Sidi Yacoub,false
+22,سيدي بلعباس,Sidi Bel Abbes,16,سيدي لحسن,Sidi Lahcene,false
+22,سيدي بلعباس,Sidi Bel Abbes,17,سيدي خالد,Sidi Khaled,false
+22,سيدي بلعباس,Sidi Bel Abbes,18,العمارنة,Amarnas,false
+22,سيدي بلعباس,Sidi Bel Abbes,19,سيدي ابراهيم,Sidi Brahim,false
+22,سيدي بلعباس,Sidi Bel Abbes,20,سيدي حمادوش,Sidi Hamadouche,false
+22,سيدي بلعباس,Sidi Bel Abbes,21,مكدرة,Makedra,false
+22,سيدي بلعباس,Sidi Bel Abbes,22,عين البرد,Ain El Berd,false
+22,سيدي بلعباس,Sidi Bel Abbes,23,حاسي زهانة,Hassi Zahana,false
+22,سيدي بلعباس,Sidi Bel Abbes,24,شيطوان البلايلة,Chetouane Belaila,false
+22,سيدي بلعباس,Sidi Bel Abbes,25,بن باديس,Ben Badis,false
+22,سيدي بلعباس,Sidi Bel Abbes,26,بضرابين المقراني,Bedrabine El Mokrani,false
+22,سيدي بلعباس,Sidi Bel Abbes,27,سفيزف,Sfisef,false
+22,سيدي بلعباس,Sidi Bel Abbes,28,مسيد,M'cid,false
+22,سيدي بلعباس,Sidi Bel Abbes,29,بوجبهة البرج,Boudjebaa El Bordj,false
+22,سيدي بلعباس,Sidi Bel Abbes,30,عين أدن,Ain- Adden,false
+22,سيدي بلعباس,Sidi Bel Abbes,31,سيدي شعيب,Sidi Chaib,false
+22,سيدي بلعباس,Sidi Bel Abbes,32,مرحوم,Marhoum,false
+22,سيدي بلعباس,Sidi Bel Abbes,33,بئر الحمام,Bir El Hammam,false
+22,سيدي بلعباس,Sidi Bel Abbes,34,رجم دموش,Redjem Demouche,false
+22,سيدي بلعباس,Sidi Bel Abbes,35,راس الماء,Ras El Ma,false
+22,سيدي بلعباس,Sidi Bel Abbes,36,وادي السبع,Oued Sebaa,false
+22,سيدي بلعباس,Sidi Bel Abbes,37,سيدي بلعباس,Sidi Bel-Abbes,false
+22,سيدي بلعباس,Sidi Bel Abbes,38,عين الثريد,Ain Thrid,false
+22,سيدي بلعباس,Sidi Bel Abbes,39,السهالة الثورة,Sehala Thaoura,false
+22,سيدي بلعباس,Sidi Bel Abbes,40,تسالة,Tessala,false
+22,سيدي بلعباس,Sidi Bel Abbes,41,بلعربي,Belarbi,false
+22,سيدي بلعباس,Sidi Bel Abbes,42,مصطفى بن ابراهيم,Mostefa  Ben Brahim,false
+22,سيدي بلعباس,Sidi Bel Abbes,43,تلموني,Tilmouni,false
+22,سيدي بلعباس,Sidi Bel Abbes,44,زروالة,Zerouala,false
+22,سيدي بلعباس,Sidi Bel Abbes,45,الضاية,Dhaya,false
+22,سيدي بلعباس,Sidi Bel Abbes,46,مزاورو,Mezaourou,false
+22,سيدي بلعباس,Sidi Bel Abbes,47,تغاليمت,Teghalimet,false
+22,سيدي بلعباس,Sidi Bel Abbes,48,تلاغ,Telagh,false
+22,سيدي بلعباس,Sidi Bel Abbes,49,عين قادة,Ain Kada,false
+22,سيدي بلعباس,Sidi Bel Abbes,50,لمطار,Lamtar,false
+22,سيدي بلعباس,Sidi Bel Abbes,51,سيدي علي بوسيدي,Sidi Ali Boussidi,false
+22,سيدي بلعباس,Sidi Bel Abbes,52,سيدي دحو الزاير,Sidi Dahou Zairs,false
+23,عنابة,Annaba,1,عنابة,Annaba,false
+23,عنابة,Annaba,2,سرايدي,Seraidi,false
+23,عنابة,Annaba,3,برحال,Berrahal,false
+23,عنابة,Annaba,4,واد العنب,Oued El Aneb,false
+23,عنابة,Annaba,5,التريعات,Treat,false
+23,عنابة,Annaba,6,الحجار,El Hadjar,false
+23,عنابة,Annaba,7,سيدي عمار,Sidi Amar,false
+23,عنابة,Annaba,8,البوني,El Bouni,false
+23,عنابة,Annaba,9,عين الباردة,Ain El Berda,false
+23,عنابة,Annaba,10,الشرفة,Cheurfa,false
+23,عنابة,Annaba,11,العلمة,El Eulma,false
+23,عنابة,Annaba,12,شطايبي,Chetaibi,false
+24,قالمة,Guelma,1,نشماية,Nechmaya,false
+24,قالمة,Guelma,2,بومهرة أحمد,Boumahra Ahmed,false
+24,قالمة,Guelma,3,جبالة الخميسي,Djeballah Khemissi,false
+24,قالمة,Guelma,4,بلخير,Belkheir,false
+24,قالمة,Guelma,5,بني مزلين,Beni Mezline,false
+24,قالمة,Guelma,6,قلعة بوصبع,Guelaat Bou Sbaa,false
+24,قالمة,Guelma,7,بوحمدان,Bou Hamdane,false
+24,قالمة,Guelma,8,حمام دباغ,Hammam Debagh,false
+24,قالمة,Guelma,9,الركنية,Roknia,false
+24,قالمة,Guelma,10,الدهوارة,Dahouara,false
+24,قالمة,Guelma,11,حمام النبايل,Hammam N'bail,false
+24,قالمة,Guelma,12,وادي الشحم,Oued Cheham,false
+24,قالمة,Guelma,13,قالمة,Guelma,false
+24,قالمة,Guelma,14,بن جراح,Bendjarah,false
+24,قالمة,Guelma,15,عين بن بيضاء,Ain Ben Beida,false
+24,قالمة,Guelma,16,بوشقوف,Bouchegouf,false
+24,قالمة,Guelma,17,مجاز الصفاء,Medjez Sfa,false
+24,قالمة,Guelma,18,وادي فراغة,Oued Ferragha,false
+24,قالمة,Guelma,19,بوعاتي محمود,Bouati Mahmoud,false
+24,قالمة,Guelma,20,الفجوج,El Fedjoudj,false
+24,قالمة,Guelma,21,هيليوبوليس,Heliopolis,false
+24,قالمة,Guelma,22,مجاز عمار,Medjez Amar,false
+24,قالمة,Guelma,23,هواري بومدين,Houari Boumedienne,false
+24,قالمة,Guelma,24,رأس العقبة,Ras El Agba,false
+24,قالمة,Guelma,25,سلاوة عنونة,Sellaoua Announa,false
+24,قالمة,Guelma,26,برج صباط,Bordj Sabath,false
+24,قالمة,Guelma,27,وادي الزناتي,Oued Zenati,false
+24,قالمة,Guelma,28,عين رقادة,Ain Regada,false
+24,قالمة,Guelma,29,عين العربي,Ain Larbi,false
+24,قالمة,Guelma,30,عين مخلوف,Ain Makhlouf,false
+24,قالمة,Guelma,31,تاملوكة,Tamlouka,false
+24,قالمة,Guelma,32,عين صندل,Ain Sandel,false
+24,قالمة,Guelma,33,بوحشانة,Bou Hachana,false
+24,قالمة,Guelma,34,لخزارة,Khezaras,false
+25,قسنطينة,Constantine,1,ديدوش مراد,Didouche Mourad,false
+25,قسنطينة,Constantine,2,حامة بوزيان,Hamma Bouziane,false
+25,قسنطينة,Constantine,3,بني حميدان,Beni Hamidane,false
+25,قسنطينة,Constantine,4,زيغود يوسف,Zighoud Youcef,false
+25,قسنطينة,Constantine,5,عين السمارة,Ain Smara,false
+25,قسنطينة,Constantine,6,الخروب,El Khroub,false
+25,قسنطينة,Constantine,7,أولاد رحمون,Ouled Rahmoun,false
+25,قسنطينة,Constantine,8,عين عبيد,Ain Abid,false
+25,قسنطينة,Constantine,9,أبن باديس الهرية,Ben Badis,false
+25,قسنطينة,Constantine,10,ابن زياد,Ibn Ziad,false
+25,قسنطينة,Constantine,11,بوجريو مسعود,Messaoud Boudjeriou,false
+25,قسنطينة,Constantine,12,قسنطينة,Constantine,false
+26,المدية,Medea,1,السواقي,Souagui,false
+26,المدية,Medea,2,جواب,Djouab,false
+26,المدية,Medea,3,سيدي زهار,Sidi Zahar,false
+26,المدية,Medea,4,سيدي زيان,Sidi Ziane,false
+26,المدية,Medea,5,العزيزية,Al Azizia,false
+26,المدية,Medea,6,مغراوة,Meghraoua,false
+26,المدية,Medea,7,ميهوب,Mihoub,false
+26,المدية,Medea,8,حناشة,Hannacha,false
+26,المدية,Medea,9,عوامري,Ouamri,false
+26,المدية,Medea,10,وادي حربيل,Oued Harbil,false
+26,المدية,Medea,11,بني سليمان,Beni Slimane,false
+26,المدية,Medea,12,بوسكن,Bouskene,false
+26,المدية,Medea,13,سيدي الربيع,Sidi Errabie,false
+26,المدية,Medea,14,بوعيشون,Bouaichoune,false
+26,المدية,Medea,15,أولاد بوعشرة,Ouled Bouachra,false
+26,المدية,Medea,16,سي المحجوب,Si Mahdjoub,false
+26,المدية,Medea,17,البرواقية,Berrouaghia,false
+26,المدية,Medea,18,أولاد دايد,Ouled Deide,false
+26,المدية,Medea,19,الربعية,Rebaia,false
+26,المدية,Medea,20,مجبر,Medjebar,false
+26,المدية,Medea,21,ثلاث دوائر,Eddouair,false
+26,المدية,Medea,22,الزبيرية,Zoubiria,false
+26,المدية,Medea,23,سغوان,Seghouane,false
+26,المدية,Medea,24,العيساوية,Aissaouia,false
+26,المدية,Medea,25,الحوضان,El Hamdania,false
+26,المدية,Medea,26,مزغنة,Medea,false
+26,المدية,Medea,27,تابلاط,Tablat,false
+26,المدية,Medea,28,ذراع السمار,Draa Essamar,false
+26,المدية,Medea,29,المدية,Ouzera,false
+26,المدية,Medea,30,تمسقيدة,Tamezguida,false
+26,المدية,Medea,31,بن شكاو,Benchicao,false
+26,المدية,Medea,32,الحمدانية,El Omaria,false
+26,المدية,Medea,33,وزرة,Baata,false
+26,المدية,Medea,34,تيزي مهدي,Tizi Mahdi,false
+26,المدية,Medea,35,بعطة,Sedraia,false
+26,المدية,Medea,36,العمارية,Mezghenna,false
+26,المدية,Medea,37,أولاد إبراهيم,Ouled Brahim,false
+26,المدية,Medea,38,بئر بن عابد,Bir Ben Abed,false
+26,المدية,Medea,39,القلب الكبير,El Guelb El Kebir,false
+26,المدية,Medea,40,سدراية,Sidi Naamane,false
+26,المدية,Medea,41,بوشراحيل,Bouchrahil,false
+26,المدية,Medea,42,خمس جوامع,Khamsa Djoumaa,false
+26,المدية,Medea,43,سيدي نعمان,Deux Bassins,false
+27,مستغانم,Mostaganem,1,فرناقة,Fornaka,false
+27,مستغانم,Mostaganem,2,الحسيان (بني ياحي,Hassiane,false
+27,مستغانم,Mostaganem,3,عين نويسي,Ain-Nouissy,false
+27,مستغانم,Mostaganem,4,وادي الخير,Oued El Kheir,false
+27,مستغانم,Mostaganem,5,عين تادلس,Ain-Tedles,false
+27,مستغانم,Mostaganem,6,سيدي بلعطار,Sidi Belaattar,false
+27,مستغانم,Mostaganem,7,سور,Sour,false
+27,مستغانم,Mostaganem,8,حاسي ماماش,Hassi Mameche,false
+27,مستغانم,Mostaganem,9,مزغران,Mazagran,false
+27,مستغانم,Mostaganem,10,ستيدية,Stidia,false
+27,مستغانم,Mostaganem,11,عين بودينار,Ain-Boudinar,false
+27,مستغانم,Mostaganem,12,خير الدين,Kheir-Eddine,false
+27,مستغانم,Mostaganem,13,صيادة,Sayada,false
+27,مستغانم,Mostaganem,14,سيدي علي,Sidi Ali,false
+27,مستغانم,Mostaganem,15,تزقايت,Tazgait,false
+27,مستغانم,Mostaganem,16,أولاد مع الله,Ouled-Maalah,false
+27,مستغانم,Mostaganem,17,بن عبد المالك رمضان,Benabdelmalek Ramdane,false
+27,مستغانم,Mostaganem,18,حجاج,Hadjadj,false
+27,مستغانم,Mostaganem,19,سيدي لخضر,Sidi-Lakhdar,false
+27,مستغانم,Mostaganem,20,مستغانم,Mostaganem,false
+27,مستغانم,Mostaganem,21,عشعاشة,Achaacha,false
+27,مستغانم,Mostaganem,22,خضرة,Khadra,false
+27,مستغانم,Mostaganem,23,نكمارية,Nekmaria,false
+27,مستغانم,Mostaganem,24,أولاد بوغالم,Ouled Boughalem,false
+27,مستغانم,Mostaganem,25,بوقيراط,Bouguirat,false
+27,مستغانم,Mostaganem,26,صفصاف,Safsaf,false
+27,مستغانم,Mostaganem,27,سيرات,Sirat,false
+27,مستغانم,Mostaganem,28,السوافلية,Souaflia,false
+27,مستغانم,Mostaganem,29,عين سيدي الشريف,Ain-Sidi Cherif,false
+27,مستغانم,Mostaganem,30,ماسرة,Mesra,false
+27,مستغانم,Mostaganem,31,الطواهرية,Touahria,false
+27,مستغانم,Mostaganem,32,منصورة,Mansourah,false
+28,المسيلة,M'Sila,1,المسيلة,M’Sila,false
+28,المسيلة,M'Sila,2,شلال,Chellal,false
+28,المسيلة,M'Sila,3,أولاد ماضي,Ouled Madhi,false
+28,المسيلة,M'Sila,4,خطوطي سد الجير,Khetouti Sed El Djir,false
+28,المسيلة,M'Sila,5,المعاريف,Maarif,false
+28,المسيلة,M'Sila,6,مقرة,Magra,false
+28,المسيلة,M'Sila,7,برهوم,Berhoum,false
+28,المسيلة,M'Sila,8,عين الخضراء,Ain Khadra,false
+28,المسيلة,M'Sila,9,بلعايبة,Belaiba,false
+28,المسيلة,M'Sila,10,دهاهنة,Dehahna,false
+28,المسيلة,M'Sila,11,سيدي عيسى,Sidi Aissa,false
+28,المسيلة,M'Sila,12,بوطي السايح,Bouti Sayah,false
+28,المسيلة,M'Sila,13,بني يلمان,Beni Ilmane,false
+28,المسيلة,M'Sila,14,عين الحجل,Ain El Hadjel,false
+28,المسيلة,M'Sila,15,سيدي هجرس,Sidi Hadjeres,false
+28,المسيلة,M'Sila,16,حمام الضلعة,Hammam Dhalaa,false
+28,المسيلة,M'Sila,17,ونوغة,Ouanougha,false
+28,المسيلة,M'Sila,18,أولاد منصور,Ouled Mansour,false
+28,المسيلة,M'Sila,19,تارمونت,Tarmount,false
+28,المسيلة,M'Sila,20,أولاد دراج,Ouled Derradj,false
+28,المسيلة,M'Sila,21,السوامع,Souamaa,false
+28,المسيلة,M'Sila,22,أولاد عدي لقبالة,Ouled Addi Guebala,false
+28,المسيلة,M'Sila,23,المعاضيد,Maadid,false
+28,المسيلة,M'Sila,24,امطارفة,M’Tarfa,false
+29,معسكر,Mascara,1,وادي الأبطال,Oued El Abtal,false
+29,معسكر,Mascara,2,سيدي عبد الجبار,Sidi Abdeldjebar,false
+29,معسكر,Mascara,3,عين فراح,Ain Ferah,false
+29,معسكر,Mascara,4,سيدي عبد المومن,Sidi Abdelmoumene,false
+29,معسكر,Mascara,5,سجرارة,Sedjerara,false
+29,معسكر,Mascara,6,مقطع الدوز,Mocta-Douz,false
+29,معسكر,Mascara,7,فراقيق,Ferraguig,false
+29,معسكر,Mascara,8,الغمري,El Ghomri,false
+29,معسكر,Mascara,9,المحمدية,Mohammadia,false
+29,معسكر,Mascara,10,تيغنيف,Tighennif,false
+29,معسكر,Mascara,11,سيدي قادة,Sidi Kada,false
+29,معسكر,Mascara,12,السهايلية,Sehailia,false
+29,معسكر,Mascara,13,زهانة,Zahana,false
+29,معسكر,Mascara,14,القعدة,El Gaada,false
+29,معسكر,Mascara,15,رأس عين عميروش,Ras El Ain Amirouche,false
+29,معسكر,Mascara,16,عقاز,Oggaz,false
+29,معسكر,Mascara,17,العلايمية,Alaimia,false
+29,معسكر,Mascara,18,سيق,Sig,false
+29,معسكر,Mascara,19,الشرفاء,Chorfa,false
+29,معسكر,Mascara,20,بوهني,Bou Henni,false
+29,معسكر,Mascara,21,المأمونية,El Mamounia,false
+29,معسكر,Mascara,22,القطنة,El Gueitena,false
+29,معسكر,Mascara,23,بوحنيفية,Bouhanifia,false
+29,معسكر,Mascara,24,حسين,Hacine,false
+29,معسكر,Mascara,25,عين فارس,Ain Fares,false
+29,معسكر,Mascara,26,غروس,Gharrous,false
+29,معسكر,Mascara,27,بنيان,Benian,false
+29,معسكر,Mascara,28,عوف,Aouf,false
+29,معسكر,Mascara,29,قرجوم,Guerdjoum,false
+29,معسكر,Mascara,30,وادي التاغية,Oued Taria,false
+29,معسكر,Mascara,31,عين أفرص,Ain Frass,false
+29,معسكر,Mascara,32,عين فكان,Ain Fekan,false
+29,معسكر,Mascara,33,خلوية,Khalouia,false
+29,معسكر,Mascara,34,المنور,El Menaouer,false
+29,معسكر,Mascara,35,البرج,El Bordj,false
+29,معسكر,Mascara,36,سيدي بوسعيد,Sidi Boussaid,false
+29,معسكر,Mascara,37,المطمور,Matemore,false
+29,معسكر,Mascara,38,ماقضة,Makhda,false
+29,معسكر,Mascara,39,غريس,Ghriss,false
+29,معسكر,Mascara,40,ماوسة,Maoussa,false
+29,معسكر,Mascara,41,معسكر,Mascara,false
+29,معسكر,Mascara,42,القرط,El Keurt,false
+29,معسكر,Mascara,43,فروحة,Froha,false
+29,معسكر,Mascara,44,تيزي,Tizi,false
+29,معسكر,Mascara,45,الحشم,El Hachem,false
+29,معسكر,Mascara,46,نسمط,Nesmot,false
+29,معسكر,Mascara,47,زلامطة,Zelamta,false
+30,ورقلة,Ouargla,1,ورقلة,Ouargla,false
+30,ورقلة,Ouargla,2,الرويسات,Rouissat,false
+30,ورقلة,Ouargla,3,حاسي مسعود,Hassi Messaoud,false
+30,ورقلة,Ouargla,4,عين البيضاء,Ain Beida,false
+30,ورقلة,Ouargla,5,حاسي بن عبد الله,Hassi Ben Abdellah,false
+30,ورقلة,Ouargla,6,سيدي خويلد,Sidi Khouiled,false
+30,ورقلة,Ouargla,7,البرمة,El Borma,false
+30,ورقلة,Ouargla,8,انقوسة,N'goussa,false
+31,وهران,Oran,1,سيدي الشحمي,Sidi Chami,false
+31,وهران,Oran,2,الكرمة,El Kerma,false
+31,وهران,Oran,3,السانية,Es Senia,false
+31,وهران,Oran,4,حاسي مفسوخ,Hassi Mefsoukh,false
+31,وهران,Oran,5,قديل,Gdyel,false
+31,وهران,Oran,6,بن فريحة,Ben Freha,false
+31,وهران,Oran,7,بئر الجير,Bir El Djir,false
+31,وهران,Oran,8,حاسي بن عقبة,Hassi Ben Okba,false
+31,وهران,Oran,9,حاسي بونيف,Hassi Bounif,false
+31,وهران,Oran,10,أرزيو,Arzew,false
+31,وهران,Oran,11,سيدي بن يبقى,Sidi Ben Yebka,false
+31,وهران,Oran,12,عين البية,Ain Biya,false
+31,وهران,Oran,13,بطيوة,Bethioua,false
+31,وهران,Oran,14,مرسى الحجاج,Marsat El Hadjadj,false
+31,وهران,Oran,15,عين الترك,Ain Turk,false
+31,وهران,Oran,16,وهران,Oran,false
+31,وهران,Oran,17,العنصر,El Ancor,false
+31,وهران,Oran,18,المرسى الكبير,Mers El Kebir,false
+31,وهران,Oran,19,بوسفر,Bousfer,false
+31,وهران,Oran,20,بوفاتيس,Boufatis,false
+31,وهران,Oran,21,البراية,El Braya,false
+31,وهران,Oran,22,وادي تليلات,Oued Tlelat,false
+31,وهران,Oran,23,طفراوي,Tafraoui,false
+31,وهران,Oran,24,عين الكرمة,Ain Kerma,false
+31,وهران,Oran,25,بوتليليس,Boutlelis,false
+31,وهران,Oran,26,مسرغين,Messerghin,false
+32,البيض,El Bayadh,1,البيض,El Bayadh,false
+32,البيض,El Bayadh,2,رقاصة,Rogassa,false
+32,البيض,El Bayadh,3,الشقيق,Cheguig,false
+32,البيض,El Bayadh,4,الكاف الأحمر,Kef El Ahmar,false
+32,البيض,El Bayadh,5,بريزينة,Brezina,false
+32,البيض,El Bayadh,6,غسول,Ghassoul,false
+32,البيض,El Bayadh,7,كراكدة,Krakda,false
+32,البيض,El Bayadh,8,بوقطب,Bougtob,false
+32,البيض,El Bayadh,9,الخيثر,El Kheither,false
+32,البيض,El Bayadh,10,توسمولين,Tousmouline,false
+32,البيض,El Bayadh,11,بوعلام,Boualem,false
+32,البيض,El Bayadh,12,سيدي سليمان,Sidi Slimane,false
+32,البيض,El Bayadh,13,سيدي طيفور,Sidi Tifour,false
+32,البيض,El Bayadh,14,ستيتن,Stitten,false
+32,البيض,El Bayadh,15,سيدي عامر,Sidi Amar,false
+33,إليزي,Illizi,1,برج عمر إدريس,Bordj Omar Driss,false
+33,إليزي,Illizi,2,دبداب,Debdeb,false
+33,إليزي,Illizi,3,إن أمناس,In Amenas,false
+33,إليزي,Illizi,4,إيليزي,Illizi,false
+34,برج بوعريريج,Bordj Bou Arreridj,1,الحمادية,Elhammadia,false
+34,برج بوعريريج,Bordj Bou Arreridj,2,العش,El Euch,false
+34,برج بوعريريج,Bordj Bou Arreridj,3,القصور,Ksour,false
+34,برج بوعريريج,Bordj Bou Arreridj,4,الرابطة,Rabta,false
+34,برج بوعريريج,Bordj Bou Arreridj,5,أولاد سيدي ابراهيم,Ouled Sidi-Brahim,false
+34,برج بوعريريج,Bordj Bou Arreridj,6,عين تاغروت,Ain Taghrout,false
+34,برج بوعريريج,Bordj Bou Arreridj,7,تيكستار,Tixter,false
+34,برج بوعريريج,Bordj Bou Arreridj,8,بليمور,Belimour,false
+34,برج بوعريريج,Bordj Bou Arreridj,9,العناصر,El Annasseur,false
+34,برج بوعريريج,Bordj Bou Arreridj,10,غيلاسة,Ghailasa,false
+34,برج بوعريريج,Bordj Bou Arreridj,11,تقلعيت,Taglait,false
+34,برج بوعريريج,Bordj Bou Arreridj,12,برج الغدير,Bordj Ghedir,false
+34,برج بوعريريج,Bordj Bou Arreridj,13,سيدي أمبارك,Sidi-Embarek,false
+34,برج بوعريريج,Bordj Bou Arreridj,14,خليل,Khelil,false
+34,برج بوعريريج,Bordj Bou Arreridj,15,بئر قاصد علي,Bir Kasdali,false
+34,برج بوعريريج,Bordj Bou Arreridj,16,تفرق,Tefreg,false
+34,برج بوعريريج,Bordj Bou Arreridj,17,الماين,El Main,false
+34,برج بوعريريج,Bordj Bou Arreridj,18,جعافرة,Djaafra,false
+34,برج بوعريريج,Bordj Bou Arreridj,19,القلة,Colla,false
+34,برج بوعريريج,Bordj Bou Arreridj,20,ثنية النصر,Teniet En Nasr,false
+34,برج بوعريريج,Bordj Bou Arreridj,21,الياشير,El Achir,false
+34,برج بوعريريج,Bordj Bou Arreridj,22,حسناوة,Hasnaoua,false
+34,برج بوعريريج,Bordj Bou Arreridj,23,مجانة,Medjana,false
+34,برج بوعريريج,Bordj Bou Arreridj,24,المهير,El M'hir,false
+34,برج بوعريريج,Bordj Bou Arreridj,25,المنصورة,Mansoura,false
+34,برج بوعريريج,Bordj Bou Arreridj,26,حرازة,Haraza,false
+34,برج بوعريريج,Bordj Bou Arreridj,27,بن داود,Ben Daoud,false
+34,برج بوعريريج,Bordj Bou Arreridj,28,عين تسرة,Ain Tesra,false
+34,برج بوعريريج,Bordj Bou Arreridj,29,أولاد أبراهم,Ouled Brahem,false
+34,برج بوعريريج,Bordj Bou Arreridj,30,رأس الوادي,Ras El Oued,false
+34,برج بوعريريج,Bordj Bou Arreridj,31,برج زمورة,Bordj Zemmoura,false
+34,برج بوعريريج,Bordj Bou Arreridj,32,أولاد دحمان,Ouled Dahmane,false
+34,برج بوعريريج,Bordj Bou Arreridj,33,تسامرت,Tassamert,false
+34,برج بوعريريج,Bordj Bou Arreridj,34,برج بوعريرج,B. B. Arreridj,false
+35,بومرداس,Boumerdes,1,الخروبة,El Kharrouba,false
+35,بومرداس,Boumerdes,2,بوزقزة قدارة,Bouzegza Keddara,false
+35,بومرداس,Boumerdes,3,أولاد هداج,Ouled Hedadj,false
+35,بومرداس,Boumerdes,4,بودواو,Boudouaou,false
+35,بومرداس,Boumerdes,5,بودواو البحري,Boudouaou El Bahri,false
+35,بومرداس,Boumerdes,6,دلس,Dellys,false
+35,بومرداس,Boumerdes,7,بن شود,Ben Choud,false
+35,بومرداس,Boumerdes,8,أعفير,Afir,false
+35,بومرداس,Boumerdes,9,الثنية,Thenia,false
+35,بومرداس,Boumerdes,10,بني عمران,Beni Amrane,false
+35,بومرداس,Boumerdes,11,عمال,Ammal,false
+35,بومرداس,Boumerdes,12,سوق الحد,Souk El Had,false
+35,بومرداس,Boumerdes,13,خميس الخشنة,Khemis El Khechna,false
+35,بومرداس,Boumerdes,14,الاربعطاش,Larbatache,false
+35,بومرداس,Boumerdes,15,أولاد موسى,Ouled Moussa,false
+35,بومرداس,Boumerdes,16,حمادي,Hammedi,false
+35,بومرداس,Boumerdes,17,تيمزريت,Timezrit,false
+35,بومرداس,Boumerdes,18,زموري,Zemmouri,false
+35,بومرداس,Boumerdes,19,لقاطة,Leghata,false
+35,بومرداس,Boumerdes,20,جنات,Djinet,false
+35,بومرداس,Boumerdes,21,برج منايل,Bordj Menaiel,false
+35,بومرداس,Boumerdes,22,يسر,Isser,false
+35,بومرداس,Boumerdes,23,شعبة العامر,Chabet El Ameur,false
+35,بومرداس,Boumerdes,24,سي مصطفى,Si Mustapha,false
+35,بومرداس,Boumerdes,25,أولاد عيسى,Ouled Aissa,false
+35,بومرداس,Boumerdes,26,الناصرية,Naciria,false
+35,بومرداس,Boumerdes,27,سيدي داود,Sidi Daoud,false
+35,بومرداس,Boumerdes,28,بغلية,Baghlia,false
+35,بومرداس,Boumerdes,29,تاورقة,Taourga,false
+35,بومرداس,Boumerdes,30,تيجلابين,Tidjelabine,false
+35,بومرداس,Boumerdes,31,بومرداس,Boumerdes,false
+35,بومرداس,Boumerdes,32,قورصو,Corso,false
+36,الطارف,El Tarf,1,عين العسل,Ain El Assel,false
+36,الطارف,El Tarf,2,بوقوس,Bougous,false
+36,الطارف,El Tarf,3,الطارف,El Tarf,false
+36,الطارف,El Tarf,4,الزيتونة,Zitouna,false
+36,الطارف,El Tarf,5,البسباس,Besbes,false
+36,الطارف,El Tarf,6,زريزر,Zerizer,false
+36,الطارف,El Tarf,7,عصفور,Asfour,false
+36,الطارف,El Tarf,8,عين الكرمة,Ain Kerma,false
+36,الطارف,El Tarf,9,بوحجار,Bouhadjar,false
+36,الطارف,El Tarf,10,حمام بني صالح,Hammam Beni Salah,false
+36,الطارف,El Tarf,11,وادي الزيتون,Oued Zitoun,false
+36,الطارف,El Tarf,12,بن مهيدي,Ben M Hidi,false
+36,الطارف,El Tarf,13,بريحان,Berrihane,false
+36,الطارف,El Tarf,14,الشط,Echatt,false
+36,الطارف,El Tarf,15,شبيطة مختار,Chebaita Mokhtar,false
+36,الطارف,El Tarf,16,شحاني,Chihani,false
+36,الطارف,El Tarf,17,الذرعـان,Drean,false
+36,الطارف,El Tarf,18,العيون,El Aioun,false
+36,الطارف,El Tarf,19,القالة,El Kala,false
+36,الطارف,El Tarf,20,السوارخ,Souarekh,false
+36,الطارف,El Tarf,21,رمل السوق,Raml Souk,false
+36,الطارف,El Tarf,22,بوثلجة,Bouteldja,false
+36,الطارف,El Tarf,23,الشافية,Chefia,false
+36,الطارف,El Tarf,24,بحيرة الطيور,Lac Des Oiseaux,false
+37,تندوف,Tindouf,1,تندوف,Tindouf,false
+37,تندوف,Tindouf,2,أم العسل,Oum El Assel,false
+38,تسمسيلت,Tissemsilt,1,خميستي,Khemisti,false
+38,تسمسيلت,Tissemsilt,2,العيون,Layoune,false
+38,تسمسيلت,Tissemsilt,3,ثنية الاحد,Theniet El Had,false
+38,تسمسيلت,Tissemsilt,4,سيدي بوتوشنت,Sidi Boutouchent,false
+38,تسمسيلت,Tissemsilt,5,أولاد بسام,Ouled Bessam,false
+38,تسمسيلت,Tissemsilt,6,تيسمسيلت,Tissemsilt,false
+38,تسمسيلت,Tissemsilt,7,سيدي العنتري,Sidi Lantri,false
+38,تسمسيلت,Tissemsilt,8,لرجام,Lardjem,false
+38,تسمسيلت,Tissemsilt,9,الملعب,Melaab,false
+38,تسمسيلت,Tissemsilt,10,تملاحت,Tamellahet,false
+38,تسمسيلت,Tissemsilt,11,بني شعيب,Beni Chaib,false
+38,تسمسيلت,Tissemsilt,12,بني لحسن,Beni Lahcene,false
+38,تسمسيلت,Tissemsilt,13,برج بونعامة,Bordj Bounaama,false
+38,تسمسيلت,Tissemsilt,14,سيدي عابد,Sidi Abed,false
+38,تسمسيلت,Tissemsilt,15,عماري,Ammari,false
+38,تسمسيلت,Tissemsilt,16,المعاصم,Maacem,false
+38,تسمسيلت,Tissemsilt,17,سيدي سليمان,Sidi Slimane,false
+38,تسمسيلت,Tissemsilt,18,بوقائد,Boucaid,false
+38,تسمسيلت,Tissemsilt,19,الأزهرية,Lazharia,false
+38,تسمسيلت,Tissemsilt,20,الأربعاء,Larbaa,false
+38,تسمسيلت,Tissemsilt,21,اليوسفية,Youssoufia,false
+38,تسمسيلت,Tissemsilt,22,برج الأمير عبد القادر,Bordj El Emir Abdelkader,false
+39,الوادي,El Oued,1,دوار الماء,Douar El Maa,false
+39,الوادي,El Oued,2,بن  قشة,Ben Guecha,false
+39,الوادي,El Oued,3,الطالب العربي,Taleb Larbi,false
+39,الوادي,El Oued,4,العقلة,El Ogla,false
+39,الوادي,El Oued,5,المقرن,Magrane,false
+39,الوادي,El Oued,6,سيدي عون,Sidi Aoun,false
+39,الوادي,El Oued,7,اميه وانسة,Mih Ouansa,false
+39,الوادي,El Oued,8,وادي العلندة,Oued El Alenda,false
+39,الوادي,El Oued,9,كوينين,Kouinine,false
+39,الوادي,El Oued,10,الوادي,El-Oued,false
+39,الوادي,El Oued,11,البياضة,Bayadha,false
+39,الوادي,El Oued,12,النخلة,Nakhla,false
+39,الوادي,El Oued,13,الرباح,Robbah,false
+39,الوادي,El Oued,14,قمار,Guemar,false
+39,الوادي,El Oued,15,ورماس,Ourmes,false
+39,الوادي,El Oued,16,تغزوت,Taghzout,false
+39,الوادي,El Oued,17,الحمراية,Hamraia,false
+39,الوادي,El Oued,18,الرقيبة,Reguiba,false
+39,الوادي,El Oued,19,الدبيلة,Debila,false
+39,الوادي,El Oued,20,حساني عبد الكريم,Hassani Abdelkrim,false
+39,الوادي,El Oued,21,حاسي خليفة,Hassi Khalifa,false
+39,الوادي,El Oued,22,الطريفاوي,Trifaoui,false
+40,خنشلة,Khenchela,1,خيران,Khirane,false
+40,خنشلة,Khenchela,2,جلال,Djellal,false
+40,خنشلة,Khenchela,3,الولجة,El Oueldja,false
+40,خنشلة,Khenchela,4,ششار,Chechar,false
+40,خنشلة,Khenchela,5,بابار,Babar,false
+40,خنشلة,Khenchela,6,المحمل,El Mahmal,false
+40,خنشلة,Khenchela,7,أولاد رشاش,Ouled Rechache,false
+40,خنشلة,Khenchela,8,يابوس,Yabous,false
+40,خنشلة,Khenchela,9,شلية,Chelia,false
+40,خنشلة,Khenchela,10,بوحمامة,Bouhmama,false
+40,خنشلة,Khenchela,11,مصارة,M'sara,false
+40,خنشلة,Khenchela,12,خنشلة,Khenchela,false
+40,خنشلة,Khenchela,13,قايس,Kais,false
+40,خنشلة,Khenchela,14,الرميلة,Remila,false
+40,خنشلة,Khenchela,15,تاوزيانت,Taouzianat,false
+40,خنشلة,Khenchela,16,بغاي,Baghai,false
+40,خنشلة,Khenchela,17,الحامة,El Hamma,false
+40,خنشلة,Khenchela,18,انسيغة,Ensigha,false
+40,خنشلة,Khenchela,19,طامزة,Tamza,false
+40,خنشلة,Khenchela,20,عين الطويلة,Ain Touila,false
+40,خنشلة,Khenchela,21,متوسة,M'toussa,false
+41,سوق أهراس,Souk Ahras,1,سوق أهراس,Souk Ahras,false
+41,سوق أهراس,Souk Ahras,2,عين سلطان,Ain Soltane,false
+41,سوق أهراس,Souk Ahras,3,سدراتة,Sedrata,false
+41,سوق أهراس,Souk Ahras,4,خميسة,Khemissa,false
+41,سوق أهراس,Souk Ahras,5,الحنانشة,Hanencha,false
+41,سوق أهراس,Souk Ahras,6,المشروحة,Machroha,false
+41,سوق أهراس,Souk Ahras,7,عين الزانة,Ain Zana,false
+41,سوق أهراس,Souk Ahras,8,أولاد إدريس,Ouled Driss,false
+41,سوق أهراس,Souk Ahras,9,ترقالت,Terraguelt,false
+41,سوق أهراس,Souk Ahras,10,أم العظايم,Oum El Adhaim,false
+41,سوق أهراس,Souk Ahras,11,وادي الكبريت,Oued Kebrit,false
+41,سوق أهراس,Souk Ahras,12,تيفاش,Tiffech,false
+41,سوق أهراس,Souk Ahras,13,الراقوبة,Ragouba,false
+41,سوق أهراس,Souk Ahras,14,مداوروش,M'daourouche,false
+41,سوق أهراس,Souk Ahras,15,الدريعة,Drea,false
+41,سوق أهراس,Souk Ahras,16,تاورة,Taoura,false
+41,سوق أهراس,Souk Ahras,17,الزعرورية,Zaarouria,false
+41,سوق أهراس,Souk Ahras,18,الحدادة,Haddada,false
+41,سوق أهراس,Souk Ahras,19,الخضارة,Khedara,false
+41,سوق أهراس,Souk Ahras,20,أولاد مومن,Ouled Moumen,false
+41,سوق أهراس,Souk Ahras,21,المراهنة,Merahna,false
+41,سوق أهراس,Souk Ahras,22,ويلان,Ouillen,false
+41,سوق أهراس,Souk Ahras,23,سيدي فرج,Sidi Fredj,false
+41,سوق أهراس,Souk Ahras,24,بئر بوحوش,Bir Bouhouche,false
+41,سوق أهراس,Souk Ahras,25,سافل الويدان,Safel El Ouiden,false
+41,سوق أهراس,Souk Ahras,26,الزوابي,Zouabi,false
+42,تيبازة,Tipaza,1,حجوط,Hadjout,false
+42,تيبازة,Tipaza,2,مراد,Merad,false
+42,تيبازة,Tipaza,3,مناصر,Menaceur,false
+42,تيبازة,Tipaza,4,الناظور,Nador,false
+42,تيبازة,Tipaza,5,سيدي عامر,Sidi-Amar,false
+42,تيبازة,Tipaza,6,أغبال,Aghbal,false
+42,تيبازة,Tipaza,7,قوراية,Gouraya,false
+42,تيبازة,Tipaza,8,مسلمون,Messelmoun,false
+42,تيبازة,Tipaza,9,شرشال,Cherchell,false
+42,تيبازة,Tipaza,10,حجرة النص,Hadjret Ennous,false
+42,تيبازة,Tipaza,11,سيدي غيلاس,Sidi Ghiles,false
+42,تيبازة,Tipaza,12,سيدي سميان,Sidi Semiane,false
+42,تيبازة,Tipaza,13,الداموس,Damous,false
+42,تيبازة,Tipaza,14,الأرهاط,Larhat,false
+42,تيبازة,Tipaza,15,بني ميلك,Beni Mileuk,false
+42,تيبازة,Tipaza,16,فوكة,Fouka,false
+42,تيبازة,Tipaza,17,دواودة,Douaouda,false
+42,تيبازة,Tipaza,18,عين تاقورايت,Ain Tagourait,false
+42,تيبازة,Tipaza,19,بوهارون,Bou Haroun,false
+42,تيبازة,Tipaza,20,بواسماعيل,Bou Ismail,false
+42,تيبازة,Tipaza,21,خميستي,Khemisti,false
+42,تيبازة,Tipaza,22,أحمر العين,Ahmer El Ain,false
+42,تيبازة,Tipaza,23,بورقيقة,Bourkika,false
+42,تيبازة,Tipaza,24,سيدي راشد,Sidi Rached,false
+42,تيبازة,Tipaza,25,الحطاطبة,Attatba,false
+42,تيبازة,Tipaza,26,الشعيبة,Chaiba,false
+42,تيبازة,Tipaza,27,القليعة,Kolea,false
+42,تيبازة,Tipaza,28,تيبازة,Tipaza,false
+43,ميلة,Mila,1,مشيرة,El Mechira,false
+43,ميلة,Mila,2,التلاغمة,Teleghma,false
+43,ميلة,Mila,3,وادي سقان,Oued Seguen,false
+43,ميلة,Mila,4,العياضي برباس,El Ayadi Barbes,false
+43,ميلة,Mila,5, عين البيضاء أحريش,Ain Beida Harriche,false
+43,ميلة,Mila,6,تسالة لمطاعي,Tassala Lematai,false
+43,ميلة,Mila,7,ترعي باينان,Terrai Bainen,false
+43,ميلة,Mila,8,اعميرة اراس,Amira Arres,false
+43,ميلة,Mila,9,تسدان حدادة,Tassadane Haddada,false
+43,ميلة,Mila,10,مينار زارزة,Minar Zarza,false
+43,ميلة,Mila,11,سيدي مروان,Sidi Merouane,false
+43,ميلة,Mila,12,الشيقارة,Chigara,false
+43,ميلة,Mila,13,حمالة,Hamala,false
+43,ميلة,Mila,14,القرارم قوقة,Grarem Gouga,false
+43,ميلة,Mila,15,تيبرقنت,Tiberguent,false
+43,ميلة,Mila,16,الرواشد,Rouached,false
+43,ميلة,Mila,17,دراحي بوصلاح,Derrahi Bousselah,false
+43,ميلة,Mila,18,بوحاتم,Bouhatem,false
+43,ميلة,Mila,19,زغاية,Zeghaia,false
+43,ميلة,Mila,20,وادي النجاء,Oued Endja,false
+43,ميلة,Mila,21,أحمد راشدي,Ahmed Rachedi,false
+43,ميلة,Mila,22,تاجنانت,Tadjenanet,false
+43,ميلة,Mila,23,أولاد اخلوف,Ouled Khalouf,false
+43,ميلة,Mila,24,بن يحي عبد الرحمن,Benyahia Abderrahmane,false
+43,ميلة,Mila,25,عين الملوك,Ain Mellouk,false
+43,ميلة,Mila,26,وادي العثمانية,Oued Athmenia,false
+43,ميلة,Mila,27,شلغوم العيد,Chelghoum Laid,false
+43,ميلة,Mila,28,عين التين,Ain Tine,false
+43,ميلة,Mila,29,سيدي خليفة,Sidi Khelifa,false
+43,ميلة,Mila,30,ميلة,Mila,false
+43,ميلة,Mila,31,يحي بني قشة,Yahia Beniguecha,false
+43,ميلة,Mila,32,فرجيوة,Ferdjioua,false
+44,عين الدفلى,Ain Defla,1,خميس مليانة,Khemis-Miliana,false
+44,عين الدفلى,Ain Defla,2,سيدي الأخضر,Sidi-Lakhdar,false
+44,عين الدفلى,Ain Defla,3,عين البنيان,Ain-Benian,false
+44,عين الدفلى,Ain Defla,4,عين التركي,Ain-Torki,false
+44,عين الدفلى,Ain Defla,5,حمام ريغة,Hammam-Righa,false
+44,عين الدفلى,Ain Defla,6,بوراشد,Bourached,false
+44,عين الدفلى,Ain Defla,7,جليدة,Djelida,false
+44,عين الدفلى,Ain Defla,8,جمعة أولاد الشيخ,Djemaa Ouled Cheikh,false
+44,عين الدفلى,Ain Defla,9,الحسينية,Hoceinia,false
+44,عين الدفلى,Ain Defla,10,بومدفع,Boumedfaa,false
+44,عين الدفلى,Ain Defla,11,عريب,Arib,false
+44,عين الدفلى,Ain Defla,12,العامرة,El-Amra,false
+44,عين الدفلى,Ain Defla,13,المخاطرية,Mekhatria,false
+44,عين الدفلى,Ain Defla,14,العطاف,El-Attaf,false
+44,عين الدفلى,Ain Defla,15,تبركانين,Tiberkanine,false
+44,عين الدفلى,Ain Defla,16,عين بويحيى,Ain-Bouyahia,false
+44,عين الدفلى,Ain Defla,17,العبادية,El-Abadia,false
+44,عين الدفلى,Ain Defla,18,تاشتة زقاغة,Tacheta Zegagha,false
+44,عين الدفلى,Ain Defla,19,بربوش,Birbouche,false
+44,عين الدفلى,Ain Defla,20,جندل,Djendel,false
+44,عين الدفلى,Ain Defla,21,وادي الشرفاء,Oued Chorfa,false
+44,عين الدفلى,Ain Defla,22,بن علال,Ben Allal,false
+44,عين الدفلى,Ain Defla,23,مليانة,Miliana,false
+44,عين الدفلى,Ain Defla,24,عين الاشياخ,Ain-Lechiakh,false
+44,عين الدفلى,Ain Defla,25,واد الجمعة,Oued Djemaa,false
+44,عين الدفلى,Ain Defla,26,عين السلطان,Ain-Soltane,false
+44,عين الدفلى,Ain Defla,27,الماين,El-Maine,false
+44,عين الدفلى,Ain Defla,28,الروينة,Rouina,false
+44,عين الدفلى,Ain Defla,29,زدين,Zeddine,false
+44,عين الدفلى,Ain Defla,30,بئر ولد خليفة,Bir-Ould-Khelifa,false
+44,عين الدفلى,Ain Defla,31,برج الأمير خالد,Bordj-Emir-Khaled,false
+44,عين الدفلى,Ain Defla,32,طارق بن زياد,Tarik-Ibn-Ziad,false
+44,عين الدفلى,Ain Defla,33,بطحية,Bathia,false
+44,عين الدفلى,Ain Defla,34,بلعاص,Belaas,false
+44,عين الدفلى,Ain Defla,35,الحسانية,Hassania,false
+44,عين الدفلى,Ain Defla,36,عين الدفلى,Ain-Defla,false
+45,النعامة,Naama,1,تيوت,Tiout,false
+45,النعامة,Naama,2,عين الصفراء,Ain Sefra,false
+45,النعامة,Naama,3,مغرار,Moghrar,false
+45,النعامة,Naama,4,جنين بورزق,Djenienne Bourezg,false
+45,النعامة,Naama,5,عسلة,Asla,false
+45,النعامة,Naama,6,القصدير,Kasdir,false
+45,النعامة,Naama,7,مكمن بن عمار,Makmen Ben Amar,false
+45,النعامة,Naama,8,المشرية,Mecheria,false
+45,النعامة,Naama,9,البيوض,El Biodh,false
+45,النعامة,Naama,10,عين بن خليل,Ain Ben Khelil,false
+45,النعامة,Naama,11,النعامة,Naama,false
+45,النعامة,Naama,12,سفيسيفة,Sfissifa,false
+46,عين تموشنت,Ain Temouchent,1,سيدي بومدين,Sidi Boumediene,false
+46,عين تموشنت,Ain Temouchent,2,تامزورة,Tamzoura,false
+46,عين تموشنت,Ain Temouchent,3,وادي الصباح,Oued Sebbah,false
+46,عين تموشنت,Ain Temouchent,4,عين الأربعاء,Ain El Arbaa,false
+46,عين تموشنت,Ain Temouchent,5,شعبة اللحم,Chaabat El Ham,false
+46,عين تموشنت,Ain Temouchent,6,المالح,El Maleh,false
+46,عين تموشنت,Ain Temouchent,7,أولاد الكيحل,Ouled Kihal,false
+46,عين تموشنت,Ain Temouchent,8,تارقة,Terga,false
+46,عين تموشنت,Ain Temouchent,9,شنتوف,Chentouf,false
+46,عين تموشنت,Ain Temouchent,10,الحساسنة,Hassasna,false
+46,عين تموشنت,Ain Temouchent,11,وادي برقش,Oued Berkeche,false
+46,عين تموشنت,Ain Temouchent,12,حمام بوحجر,Hammam Bou Hadjar,false
+46,عين تموشنت,Ain Temouchent,13,العامرية,El Amria,false
+46,عين تموشنت,Ain Temouchent,14,حاسي الغلة,Hassi El Ghella,false
+46,عين تموشنت,Ain Temouchent,15,أولاد بوجمعة,Ouled Boudjemaa,false
+46,عين تموشنت,Ain Temouchent,16,المساعيد,El Messaid,false
+46,عين تموشنت,Ain Temouchent,17,بوزجار,Bouzedjar,false
+46,عين تموشنت,Ain Temouchent,18,أغلال,Aghlal,false
+46,عين تموشنت,Ain Temouchent,19,عين الكيحل,Ain Kihal,false
+46,عين تموشنت,Ain Temouchent,20,عين الطلبة,Ain Tolba,false
+46,عين تموشنت,Ain Temouchent,21,عقب الليل,Aoubellil,false
+46,عين تموشنت,Ain Temouchent,22,بني صاف,Beni Saf,false
+46,عين تموشنت,Ain Temouchent,23,سيدي صافي,Sidi Safi,false
+46,عين تموشنت,Ain Temouchent,24,الأمير عبد القادر,Emir Abdelkader,false
+46,عين تموشنت,Ain Temouchent,25,ولهاصة الغرابة,Oulhaca El Gheraba,false
+46,عين تموشنت,Ain Temouchent,26,سيدي ورياش,Sidi Ouriache,false
+46,عين تموشنت,Ain Temouchent,27,سيدي بن عدة,Sidi Ben Adda,false
+46,عين تموشنت,Ain Temouchent,28,عين تموشنت,Ain Temouchent,false
+47,غرداية,Ghardaia,1,ضاية بن ضحوة,Dhayet Bendhahoua,false
+47,غرداية,Ghardaia,2,المنصورة,Mansoura,false
+47,غرداية,Ghardaia,3,العطف,El Atteuf,false
+47,غرداية,Ghardaia,4,بونورة,Bounoura,false
+47,غرداية,Ghardaia,5,زلفانة,Zelfana,false
+47,غرداية,Ghardaia,6,القرارة,El Guerrara,false
+47,غرداية,Ghardaia,7,سبسب,Sebseb,false
+47,غرداية,Ghardaia,8,متليلي,Metlili,false
+47,غرداية,Ghardaia,9,بريان,Berriane,false
+47,غرداية,Ghardaia,10,غرداية,Ghardaia,false
+48,غليزان,Relizane,1,القطار,El-Guettar,false
+48,غليزان,Relizane,2,مازونة,Mazouna,false
+48,غليزان,Relizane,3,أولاد يعيش,Ouled Aiche,false
+48,غليزان,Relizane,4,عمي موسى,Ammi Moussa,false
+48,غليزان,Relizane,5,بني درقن,Beni Dergoun,false
+48,غليزان,Relizane,6,دار بن عبد الله,Dar Ben Abdelah,false
+48,غليزان,Relizane,7,زمورة,Zemmoura,false
+48,غليزان,Relizane,8,جديوية,Djidiouia,false
+48,غليزان,Relizane,9,حمري,Hamri,false
+48,غليزان,Relizane,10,أولاد سيدي الميهوب,Ouled Sidi Mihoub,false
+48,غليزان,Relizane,11,بلعسل بوزقزة,Belaassel Bouzagza,false
+48,غليزان,Relizane,12,المطمر,El-Matmar,false
+48,غليزان,Relizane,13,سيدي  خطاب,Sidi Khettab,false
+48,غليزان,Relizane,14,سيدي امحمد بن عودة,Sidi M'hamed Benaouda,false
+48,غليزان,Relizane,15,عين طارق,Ain-Tarek,false
+48,غليزان,Relizane,16,حد الشكالة,Had Echkalla,false
+48,غليزان,Relizane,17,الولجة,El Ouldja,false
+48,غليزان,Relizane,18,عين الرحمة,Ain Rahma,false
+48,غليزان,Relizane,19,القلعة,Kalaa,false
+48,غليزان,Relizane,20,سيدي سعادة,Sidi Saada,false
+48,غليزان,Relizane,21,يلل,Yellel,false
+48,غليزان,Relizane,22,سوق الحد,Souk El Had,false
+48,غليزان,Relizane,23,منداس,Mendes,false
+48,غليزان,Relizane,24,وادي السلام,Oued Essalem,false
+48,غليزان,Relizane,25,سيدي لزرق,Sidi Lazreg,false
+48,غليزان,Relizane,26,واريزان,Ouarizane,false
+48,غليزان,Relizane,27,مرجة سيدي عابد,Merdja Sidi Abed,false
+48,غليزان,Relizane,28,وادي رهيو,Oued-Rhiou,false
+48,غليزان,Relizane,29,لحلاف,Lahlef,false
+48,غليزان,Relizane,30,بن داود,Bendaoud,false
+48,غليزان,Relizane,31,غليزان,Relizane,false
+48,غليزان,Relizane,32,الحاسي,El Hassi,false
+48,غليزان,Relizane,33,سيدي أمحمد بن علي,Sidi M'hamed Benali,false
+48,غليزان,Relizane,34,مديونة,Mediouna,false
+48,غليزان,Relizane,35,بني زنطيس,Beni Zentis,false
+48,غليزان,Relizane,36,وادي الجمعة,Oued El Djemaa,false
+48,غليزان,Relizane,37,الحمادنة,El H'madna,false
+48,غليزان,Relizane,38,الرمكة,Ramka,false
+49,تيميمون,Timimoun,1,تنركوك,Tinerkouk,false
+49,تيميمون,Timimoun,2,قصر قدور,Ksar Kaddour,false
+49,تيميمون,Timimoun,3,تيميمون,Timimoun,false
+49,تيميمون,Timimoun,4,أولاد السعيد,Ouled Said,false
+49,تيميمون,Timimoun,5,المطارفة,Metarfa,false
+49,تيميمون,Timimoun,6,أوقروت,Aougrout,false
+49,تيميمون,Timimoun,7,طالمين,Talmine,false
+49,تيميمون,Timimoun,8,شروين,Charouine,false
+49,تيميمون,Timimoun,9,أولاد عيسى,Ouled Aissa,false
+49,تيميمون,Timimoun,10,دلدول,Deldoul,false
+50,برج باجي مختار,Bordj Badji Mokhtar,1,تيمياوين,Timiaouine,false
+50,برج باجي مختار,Bordj Badji Mokhtar,2,برج باجي مختار,Bordj Badji Mokhtar,false
+51,أولاد جلال,Ouled Djellal,1,رأس الميعاد,Ras El Miad,false
+51,أولاد جلال,Ouled Djellal,2,بسباس,Besbes,false
+51,أولاد جلال,Ouled Djellal,3,سيدي  خالد,Sidi Khaled,false
+51,أولاد جلال,Ouled Djellal,4,الدوسن,Doucen,false
+51,أولاد جلال,Ouled Djellal,5,أولاد جلال,Ouled Djellal,false
+51,أولاد جلال,Ouled Djellal,6,الشعيبة,Chaiba,false
+52,بني عباس,Beni Abbes,1,بني عباس,Beni-Abbes,false
+52,بني عباس,Beni Abbes,2,تامترت,Tamtert,false
+52,بني عباس,Beni Abbes,3,إقلي,Igli,false
+52,بني عباس,Beni Abbes,4,الواتة,El Ouata,false
+52,بني عباس,Beni Abbes,5,أولاد خضير,Ouled-Khodeir,false
+52,بني عباس,Beni Abbes,6,القصابي,Ksabi,false
+52,بني عباس,Beni Abbes,7,كرزاز,Kerzaz,false
+52,بني عباس,Beni Abbes,8,تيمودي,Timoudi,false
+52,بني عباس,Beni Abbes,9,بن يخلف,Beni-Ikhlef,false
+53,عين صالح,In Salah,1,إينغر,Inghar,false
+53,عين صالح,In Salah,2,عين صالح,Ain Salah,false
+53,عين صالح,In Salah,3,فقارة الزوى,Foggaret Ezzoua,false
+54,عين قزام,In Guezzam,1,تين زواتين,Tin Zouatine,false
+54,عين قزام,In Guezzam,2,عين قزام,Ain Guezzam,false
+55,تقرت,Touggourt,1,تماسين,Temacine,false
+55,تقرت,Touggourt,2,بلدة اعمر,Blidet Amor,false
+55,تقرت,Touggourt,3,سيدي سليمان,Sidi Slimane,false
+55,تقرت,Touggourt,4,المقارين,Megarine,false
+55,تقرت,Touggourt,5,النزلة,Nezla,false
+55,تقرت,Touggourt,6,تبسبست,Tebesbest,false
+55,تقرت,Touggourt,7,تقرت,Touggourt,false
+55,تقرت,Touggourt,8,الزاوية العابدية,Zaouia El Abidia,false
+55,تقرت,Touggourt,9,الطيبات,Taibet,false
+55,تقرت,Touggourt,10,بن ناصر,Benaceur,false
+55,تقرت,Touggourt,11,المنقر,M'naguer,false
+55,تقرت,Touggourt,12,العالية,El Alia,false
+55,تقرت,Touggourt,13,الحجيرة,El-Hadjira,false
+56,جانت,Djanet,1,جانت,Djanet,false
+56,جانت,Djanet,2,برج الحواس,Bordj El Haouass,false
+57,المغير,El M'Ghair,1,أم الطيور,Oum Touyour,false
+57,المغير,El M'Ghair,2,المغير,El-M'ghaier,false
+57,المغير,El M'Ghair,3,سطيل,Still,false
+57,المغير,El M'Ghair,4,سيدي خليل,Sidi Khelil,false
+57,المغير,El M'Ghair,5,سيدي عمران,Sidi Amrane,false
+57,المغير,El M'Ghair,6,المرارة,M'rara,false
+57,المغير,El M'Ghair,7,جامعة,Djamaa,false
+57,المغير,El M'Ghair,8,تندلة,Tenedla,false
+58,المنيعة,El Meniaa,1,المنيعة,El Meniaa,false
+58,المنيعة,El Meniaa,2,حاسي القارة,Hassi Gara,false
+58,المنيعة,El Meniaa,3,حاسي الفحل,Hassi Fehal,false
+59,أفلو,Aflou,1,أفلو,Aflou,false
+59,أفلو,Aflou,2,سبقاق,Sebgag,false
+59,أفلو,Aflou,3,سيدي بوزيد,Sidi Bouzid,false
+59,أفلو,Aflou,4,بريدة,Brida,false
+59,أفلو,Aflou,5,الحاج المشري,Hadj Mechri,false
+59,أفلو,Aflou,6,تاويالة,Taouiala,false
+59,أفلو,Aflou,7,قلتة سيدي سعد,Gueltat Sidi Saad,false
+59,أفلو,Aflou,8,عين سيدي علي,Ain Sidi Ali,false
+59,أفلو,Aflou,9,البيضاء,El Beidha,false
+59,أفلو,Aflou,10,وادي مرة,Oued Morra,false
+59,أفلو,Aflou,11,وادي مزي,Oued M'Zi,false
+59,أفلو,Aflou,12,الغيشة,El Ghicha,false
+60,بريكة,Barika,1,بريكة,Barika,false
+60,بريكة,Barika,2,بيطام,Bitam,false
+60,بريكة,Barika,3,م دوكال,M’Doukal,false
+60,بريكة,Barika,4,سقانة,Seggana,false
+60,بريكة,Barika,5,تيلاطو,Tilatou,false
+60,بريكة,Barika,6,عبد القادر عزيز,Abdelkader Azil,false
+60,بريكة,Barika,7,جزار,Djezzar,false
+60,بريكة,Barika,8,أولاد عمار,Ouled Ammar,false
+61,القنطرة,El Kantara,1,القنطرة,El Kantara,false
+61,القنطرة,El Kantara,2,عين زعطوط,Ain Zaatout,false
+61,القنطرة,El Kantara,3,برانيس,Branis,false
+61,القنطرة,El Kantara,4,الوتیة,El Outaya,false
+61,القنطرة,El Kantara,5,جمورة,Djemourah,false
+62,بئر العاتر,Bir El Ater,1,بئر العاتر,Bir El Ater,false
+62,بئر العاتر,Bir El Ater,2,نقرين,Negrine,false
+62,بئر العاتر,Bir El Ater,3,العقلة المالحة,El Ogla El Melha,false
+62,بئر العاتر,Bir El Ater,4,فركان,Ferkane,false
+63,العريشة,El Aricha,1,العريشة,El Aricha,false
+63,العريشة,El Aricha,2,الگور,El Gor,false
+63,العريشة,El Aricha,3,سيدي جيلالي,Sidi Djillali,false
+63,العريشة,El Aricha,4,البويهي,El Bouihi,false
+64,قصر الشلالة,Ksar Chellala,1,قصر الشلالة,Ksar Chellala,false
+64,قصر الشلالة,Ksar Chellala,2,زمالة الأمير عبد القادر,Zmalet El Emir Abdelkader,false
+64,قصر الشلالة,Ksar Chellala,3,حمادية,Hamadia,false
+64,قصر الشلالة,Ksar Chellala,4,الرشايقة,Rechaiga,false
+64,قصر الشلالة,Ksar Chellala,5,سرغين,Serguine,false
+64,قصر الشلالة,Ksar Chellala,6,بوغارة,Bougara,false
+65,عين وسارة,Ain Oussara,1,عين وسارة,Ain Ouessara,false
+65,عين وسارة,Ain Oussara,2,الخميس,El Khemis,false
+65,عين وسارة,Ain Oussara,3,البيرين,Birine,false
+65,عين وسارة,Ain Oussara,4,بويرة الأحداب,Bouira Lahdab,false
+65,عين وسارة,Ain Oussara,5,سيدي لخضر,Sidi Ladjel,false
+65,عين وسارة,Ain Oussara,6,حاسي فدول,Hassi Fedoul,false
+65,عين وسارة,Ain Oussara,7,عين فكة,Ain Fekka,false
+65,عين وسارة,Ain Oussara,8,حاضرة,Had Sahary,false
+65,عين وسارة,Ain Oussara,9,قرنيني,Guernini,false
+65,عين وسارة,Ain Oussara,10,بنهار,Benhar,false
+66,مسعد,Messaad,1,مسعد,Messaad,false
+66,مسعد,Messaad,2,سلمانة,Selmana,false
+66,مسعد,Messaad,3,دلدول,Deldoul,false
+66,مسعد,Messaad,4,فيض البطمة,Faidh El Botma,false
+66,مسعد,Messaad,5,أم العظام,Oum Laadham,false
+66,مسعد,Messaad,6,عمورة,Amourah,false
+66,مسعد,Messaad,7,سد الرحال,Sed Rahal,false
+66,مسعد,Messaad,8,قطارة,Guettara,false
+67,قصر البخاري,Ksar El Boukhari,1,قصر البخاري,Ksar El Boukhari,false
+67,قصر البخاري,Ksar El Boukhari,2,أولاد معرف,Ouled Maaref,false
+67,قصر البخاري,Ksar El Boukhari,3,سيدي دامد,Sidi Damed,false
+67,قصر البخاري,Ksar El Boukhari,4,عين بوسيف,Ain Boucif,false
+67,قصر البخاري,Ksar El Boukhari,5,الكاف الأحمر,Kef Lakhdar,false
+67,قصر البخاري,Ksar El Boukhari,6,عين اقصير,Ain Ouksir,false
+67,قصر البخاري,Ksar El Boukhari,7,الدراق,Derrag,false
+67,قصر البخاري,Ksar El Boukhari,8,بوطاط,Bouaiche,false
+67,قصر البخاري,Ksar El Boukhari,9,شلالة العذاورة,Chelalet El Adhaoura,false
+67,قصر البخاري,Ksar El Boukhari,10,بوغار,Boghar,false
+67,قصر البخاري,Ksar El Boukhari,11,أولاد عنتر,Ouled Antar,false
+67,قصر البخاري,Ksar El Boukhari,12,العوينات,El Ouinet,false
+67,قصر البخاري,Ksar El Boukhari,13,عزيز,Aziz,false
+67,قصر البخاري,Ksar El Boukhari,14,شهبونية,Chahbounia,false
+67,قصر البخاري,Ksar El Boukhari,15,شنيقل,Cheniguel,false
+67,قصر البخاري,Ksar El Boukhari,16,أم الجليل,Oum El Djallil,false
+67,قصر البخاري,Ksar El Boukhari,17,مفاتحة,M’Fatha,false
+67,قصر البخاري,Ksar El Boukhari,18,بوقزول,Boughezoul,false
+67,قصر البخاري,Ksar El Boukhari,19,السناقصة,Saneg,false
+67,قصر البخاري,Ksar El Boukhari,20,أولاد هلال,Ouled Hellal,false
+67,قصر البخاري,Ksar El Boukhari,21,تفراوت,Tafraout,false
+68,بوسعادة,Bou Saada,1,بوسعادة,Bou Saada,false
+68,بوسعادة,Bou Saada,2,أولاد سيدي ابراهيم,Ouled Sidi Brahim,false
+68,بوسعادة,Bou Saada,3,سيدي عامر,Sidi Ameur,false
+68,بوسعادة,Bou Saada,4,تامسة,Tamsa,false
+68,بوسعادة,Bou Saada,5,خوبانة,Khoubana,false
+68,بوسعادة,Bou Saada,6,مصيف,M’Cif,false
+68,بوسعادة,Bou Saada,7,أولاد سلامة,Ouled Slimane,false
+68,بوسعادة,Bou Saada,8,بن سرور,Ben Srour,false
+68,بوسعادة,Bou Saada,9,الحمادين,El Houamed,false
+68,بوسعادة,Bou Saada,10,الهامل,El Hamel,false
+68,بوسعادة,Bou Saada,11,الزرق,Zarzour,false
+68,بوسعادة,Bou Saada,12,محمد بودياف,Mouhamed Boudiaf,false
+68,بوسعادة,Bou Saada,13,بنزو,Benzouh,false
+68,بوسعادة,Bou Saada,14,بئر فضة,Bir Foda,false
+68,بوسعادة,Bou Saada,15,عين فارس,Ain Fares,false
+68,بوسعادة,Bou Saada,16,سيدي امحمد,Sidi M’Hamed,false
+68,بوسعادة,Bou Saada,17,مضاء,Menaa,false
+68,بوسعادة,Bou Saada,18,عين الملح,Ain El Meleh,false
+68,بوسعادة,Bou Saada,19,مدجيدل,Medjedel,false
+68,بوسعادة,Bou Saada,20,سليم,Slim,false
+68,بوسعادة,Bou Saada,21,عين الرش,Ain Errich,false
+68,بوسعادة,Bou Saada,22,أولتام,Oultem,false
+68,بوسعادة,Bou Saada,23,جبل مسعد,Djebel Messaad,false
+69,الأبيض سيدي الشيخ,El Abiodh Sidi Cheikh,1,الأبيض سيدي الشيخ,El Abiodh Sidi Cheikh,false
+69,الأبيض سيدي الشيخ,El Abiodh Sidi Cheikh,2,عين العراك,Ain El Orak,false
+69,الأبيض سيدي الشيخ,El Abiodh Sidi Cheikh,3,أربوات,Arbaouat,false
+69,الأبيض سيدي الشيخ,El Abiodh Sidi Cheikh,4,البنود,El Bnoud,false
+69,الأبيض سيدي الشيخ,El Abiodh Sidi Cheikh,5,بوسمغون,Boussemghoun,false
+69,الأبيض سيدي الشيخ,El Abiodh Sidi Cheikh,6,الشلالة,Chellala,false
+69,الأبيض سيدي الشيخ,El Abiodh Sidi Cheikh,7,المحرة,El Meharra,false

@@ -1,0 +1,28 @@
+{
+  "by_type": {
+    "city": 9,
+    "hamlet": 567,
+    "locality": 451,
+    "neighbourhood": 408,
+    "quarter": 157,
+    "suburb": 231,
+    "town": 333,
+    "village": 8531
+  },
+  "country": "KE",
+  "derived_bytes": 210471,
+  "derived_file": "place-nodes.csv.gz",
+  "derived_sha256": "f285a9def0a434a731e3609afc595f61c2613c24756706bd71e264f0e6c75ed9",
+  "features_included": "named place nodes only; not ways/relations, streets, housenumbers or postal addresses",
+  "geofabrik_contributor_metadata_excluded": true,
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "official_admin_parent_verified": false,
+  "original_source_namespace": "osm:node:",
+  "place_node_rows": 10687,
+  "postal_address_or_delivery_verified": false,
+  "source_bytes": 351828536,
+  "source_license": "Open Database License 1.0 (ODbL)",
+  "source_md5": "d1f2f2bf2cc2302b7efadc52692edcfe",
+  "source_sha256": "d4b4e687d5153739103c50b28afde908b1605263044ffe24b7a8b676f16806dc",
+  "source_url": "https://download.geofabrik.de/africa/kenya-latest.osm.pbf"
+}
