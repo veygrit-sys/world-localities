@@ -20,11 +20,22 @@ MAX_MEMBER_BYTES = 1024 * 1024 * 1024
 MAX_ZIP_MEMBERS = 1024
 FORMATS = {
     "geonames_tsv_zip", "japanpost_utf_zip", "japanpost_business_zip",
-    "taiwan_prefix_csv",
+    "taiwan_prefix_csv", "official_postal_source",
+}
+OFFICIAL_SOURCE_COUNTRIES = {
+    "na_nampost_html": "NA",
+    "xk_postakosoves_entries": "XK",
+    "ba_postal_pdf": "BA",
+    "kh_mef_bundle": "KH",
+    "la_postcode_api": "LA",
+    "uz_postal_html": "UZ",
+    "mu_postal_csv4": "MU",
+    "mu_postal_csv3": "MU",
+    "me_postacg_offices": "ME",
 }
 CODE_KINDS = {
     "source_reported", "source_full", "official_full", "prefix", "aggregated",
-    "partial", "partial_or_legacy", "routing_or_unreviewed",
+    "partial", "partial_or_legacy", "routing_or_unreviewed", "source_anomaly",
 }
 STANDARD_CODE_KINDS = {"source_reported", "source_full", "official_full"}
 # These checks identify complete-length source strings. They neither certify an
@@ -67,6 +78,10 @@ def _validate_source(source: object, root: Path) -> None:
     size = source.get("bytes")
     if type(size) is not int or not 0 <= size <= MAX_ARCHIVE_BYTES:
         raise ValueError("invalid or excessive postal source bytes")
+    if "expected_record_count" in source and (
+        type(source["expected_record_count"]) is not int or source["expected_record_count"] < 0
+    ):
+        raise ValueError("expected_record_count must be a nonnegative integer")
     if not _nonempty(source.get("licence")):
         raise ValueError("postal source requires its licence declaration")
     if (not isinstance(source.get("default_code_kind"), str)
@@ -93,6 +108,17 @@ def _validate_source(source: object, root: Path) -> None:
             raise ValueError("source_full requires a supported GeoNames full-code country")
         if overrides:
             raise ValueError("source_full does not allow country-specific overrides")
+    if source["format"] == "official_postal_source":
+        adapter = source.get("adapter")
+        if (not isinstance(adapter, str) or adapter not in OFFICIAL_SOURCE_COUNTRIES
+                or expected != OFFICIAL_SOURCE_COUNTRIES[adapter]):
+            raise ValueError("official postal adapter and expected_country must agree")
+        if (source["default_code_kind"] not in {"official_full", "partial_or_legacy"}
+                or overrides):
+            raise ValueError("official postal sources require explicit full/legacy kind without overrides")
+        if (not isinstance(source.get("compression", "none"), str)
+                or source.get("compression", "none") not in {"none", "gzip"}):
+            raise ValueError("unsupported official postal snapshot compression")
     if "member" in source:
         member = source["member"]
         if not _nonempty(member):
@@ -193,6 +219,11 @@ def _record(source: Mapping[str, Any], row_number: int, country: str, code: str,
     if expected is not None and country != expected:
         raise ValueError(f"postal source country differs from expected_country: {source['id']} row {row_number}")
     kind = source.get("country_code_kinds", {}).get(country, source["default_code_kind"])
+    if "code_kind" in fields:
+        if fields["code_kind"] == "source_anomaly":
+            kind = "source_anomaly"
+        elif fields["code_kind"] != kind:
+            raise ValueError("a postal adapter may only demote a source code to source_anomaly")
     if kind == "source_full" and not FULL_CODE_PATTERNS[expected].fullmatch(code):
         raise ValueError(f"incomplete or malformed source_full postcode: {source['id']} row {row_number}")
     result = dict.fromkeys((
@@ -217,6 +248,24 @@ def iter_postal_records(source: Mapping[str, Any], root: Path = ROOT) -> Iterato
     if source.get("expected_country") is not None and source["expected_country"] not in allowed_countries:
         raise ValueError("expected_country is outside country collection catalog")
     try:
+        if source["format"] == "official_postal_source":
+            adapter = source["adapter"]
+            if adapter in {"na_nampost_html", "xk_postakosoves_entries", "ba_postal_pdf"}:
+                from .postal_official import iter_official_records as read_records
+            elif adapter in {"kh_mef_bundle", "la_postcode_api", "uz_postal_html"}:
+                from .postal_asia_sources import iter_asia_records as read_records
+            elif adapter in {"mu_postal_csv4", "mu_postal_csv3"}:
+                from .postal_africa_sources import iter_africa_records as read_records
+            else:
+                from .postal_europe_sources import iter_europe_records as read_records
+            for number, fields in enumerate(read_records(source, path), 1):
+                if (not isinstance(fields, Mapping)
+                        or not all(isinstance(k, str) and isinstance(v, str) for k, v in fields.items())
+                        or not _nonempty(fields.get("source_locator"))):
+                    raise ValueError("official postal records require string fields and a source locator")
+                yield _record(source, number, fields.get("country_code", ""),
+                              fields.get("code", ""), fields, allowed_countries)
+            return
         if source["format"] == "taiwan_prefix_csv":
             with path.open("r", encoding="utf-8-sig", newline="") as stream:
                 reader = csv.DictReader(stream)
@@ -312,6 +361,9 @@ def build_postal_catalog(root: Path = ROOT) -> dict[str, Any]:
             source_codes_by_kind[kind].add(pair)
             if active:
                 lookup_rows[country] += 1
+        if ("expected_record_count" in source
+                and sum(source_counts.values()) != source["expected_record_count"]):
+            raise ValueError(f"postal source record count differs from the reviewed count: {source['id']}")
         reports.append({
             "id": source["id"], "format": source["format"], "path": source["path"],
             "sha256": source["sha256"], "bytes": source["bytes"],
@@ -325,6 +377,8 @@ def build_postal_catalog(root: Path = ROOT) -> dict[str, Any]:
             },
             "countries": dict(sorted(source_counts.items())),
             "code_kinds": dict(sorted(kind_counts.items())),
+            **({"adapter": source["adapter"]} if "adapter" in source else {}),
+            **({"coverage_scope": source["coverage_scope"]} if "coverage_scope" in source else {}),
         })
     output = []
     for item in countries:

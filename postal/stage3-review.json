@@ -1,0 +1,529 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-18",
+  "scope": "Stage 3: eight previously uncollected country/territory codes; source observations, not national completeness",
+  "added_country_codes": [
+    "BA",
+    "KH",
+    "LA",
+    "ME",
+    "MU",
+    "NA",
+    "UZ",
+    "XK"
+  ],
+  "added_sources": [
+    {
+      "id": "official-na-nampost-20261118",
+      "expected_country": "NA",
+      "provider": "NamPost",
+      "source_url": "https://www.nampost.com.na/postal/postal-codes",
+      "path": "postal/sources/official/20261118/NA/na-nampost-postal-codes.html.gz",
+      "adapter": "na_nampost_html",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "c6e9b6a90d6870737355e5d0352d82c821a5fa0cbbc34d0fe2be3cfa38c18c4d",
+      "bytes": 14558,
+      "uncompressed_sha256": "d9a77bbc85c88adc77c79ba72f79558fcf889c0dda40c1ef09ae2bbcdce02938",
+      "uncompressed_bytes": 80585,
+      "active_for_lookup": true,
+      "coverage_scope": "Published political-region post office/PO-box/counter infrastructure codes; not every geographic delivery address.",
+      "source_rows": 149,
+      "distinct_codes": 149,
+      "distinct_codes_by_kind": {
+        "official_full": 149
+      }
+    },
+    {
+      "id": "official-xk-postakosoves-20261118",
+      "expected_country": "XK",
+      "provider": "Posta e Kosovës",
+      "source_url": "https://postakosoves.com/en/orari-dhe-kodet-postare/kodet-postare/",
+      "path": "postal/sources/official/20261118/XK/xk-postal-codes.html.gz",
+      "adapter": "xk_postakosoves_entries",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "5fcb70753de598facec029e3a7046450dd12f72c80dbe4d14231d895ca91e15a",
+      "bytes": 28009,
+      "uncompressed_sha256": "89b8db6b4d597735112ef3f9993bb9183543f58c574dddb6db118eec26a9d738",
+      "uncompressed_bytes": 141663,
+      "active_for_lookup": true,
+      "coverage_scope": "The 133 entries embedded in the public postal-code finder; nationwide completeness is not independently established.",
+      "source_rows": 133,
+      "distinct_codes": 133,
+      "distinct_codes_by_kind": {
+        "official_full": 133
+      }
+    },
+    {
+      "id": "official-ba-postal-directory-20261118",
+      "expected_country": "BA",
+      "provider": "Hrvatska pošta Mostar published BiH directory",
+      "source_url": "https://www.post.ba/media/files/popis_ureda.pdf",
+      "path": "postal/sources/official/20261118/BA/ba-postal-list.pdf.gz",
+      "adapter": "ba_postal_pdf",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "154e6a8ac1c7e32286caa1dc38980887a9367e3a4a801a794e76cf9a9831541e",
+      "bytes": 154915,
+      "uncompressed_sha256": "b9e78f4177b85d3a097314704872300848e5527ecf30a517f3e61b4c439149f3",
+      "uncompressed_bytes": 180562,
+      "active_for_lookup": false,
+      "coverage_scope": "Directory with BHP/HP/PS operators; closure symbols cannot be verified by text extraction. Archived only, excluded from standard lookup.",
+      "source_rows": 556,
+      "distinct_codes": 552,
+      "distinct_codes_by_kind": {
+        "partial_or_legacy": 552
+      }
+    },
+    {
+      "id": "official-me-postacg-20261118",
+      "expected_country": "ME",
+      "provider": "Pošta Crne Gore",
+      "source_url": "https://www.postacg.me/centar-za-korisnike/lokacije-poslovnica/",
+      "path": "postal/sources/official/20261118/ME/me-post-offices-listing-response-verified.json.gz",
+      "adapter": "me_postacg_offices",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "4719be23326407b20b1455d7d1d3ddc30b4759ff2bdead1491357b87f3f5773d",
+      "bytes": 36494,
+      "uncompressed_sha256": "6666ec7beca17879d585ea2ca80f268552381bea6f20681e079e30a4f0efb1bb",
+      "uncompressed_bytes": 3764091,
+      "active_for_lookup": true,
+      "coverage_scope": "165 listed post offices and their explicit postal-code fields; not a national address-level coverage claim.",
+      "source_rows": 165,
+      "distinct_codes": 150,
+      "distinct_codes_by_kind": {
+        "official_full": 150
+      }
+    },
+    {
+      "id": "official-kh-kh_mef_bundle-20261118",
+      "expected_country": "KH",
+      "provider": "Cambodia Ministry of Economy and Finance DataEF / MPTC",
+      "source_url": "https://data.mef.gov.kh/datasets/pd_697c1a83ed95920007af6a15",
+      "path": "postal/sources/official/20261118/KH/kh-mef-postal-bundle.json.gz",
+      "adapter": "kh_mef_bundle",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "5a70674e2a79933521c26427e07d4836d7d281eca99c7c66393c200f58a4eb30",
+      "bytes": 81940,
+      "uncompressed_sha256": "c1391d92eff115b32b5bc312b28a4525eef5b95488b2081ffc7b69233ff042d3",
+      "uncompressed_bytes": 1423471,
+      "active_for_lookup": true,
+      "coverage_scope": "24 province codes, 204 district codes; province code 190000 is absent; do not assert all-country coverage",
+      "source_rows": 1659,
+      "distinct_codes": 1659,
+      "distinct_codes_by_kind": {
+        "official_full": 1659
+      }
+    },
+    {
+      "id": "official-la-la_postcode_api-20261118",
+      "expected_country": "LA",
+      "provider": "Lao Post public frontend dataset (AIF-hosted API)",
+      "source_url": "https://laopost.com.la/about/postcode",
+      "path": "postal/sources/official/20261118/LA/la-postcode-id-bundle.json.gz",
+      "adapter": "la_postcode_api",
+      "licence": "LicenseRef-Provider-Public-Postal-Information; original rights retained",
+      "sha256": "b841277883e78219f0dd44b5d1c1182843793ad8de6168877fe966ecac3f88cc",
+      "bytes": 103233,
+      "uncompressed_sha256": "3d8124f65d9e2d106e7654cc5efbf7800b1e1d0e34c3b649f988a36053cc6a9e",
+      "uncompressed_bytes": 2474901,
+      "active_for_lookup": true,
+      "coverage_scope": "18 provinces; 7781 distinct source IDs; multiple villages legitimately share one code; fetched collection complete according to its own records/pages metadata, current national assignment completeness unconfirmed",
+      "source_rows": 7781,
+      "distinct_codes": 686,
+      "distinct_codes_by_kind": {
+        "official_full": 686
+      }
+    },
+    {
+      "id": "official-uz-uz_postal_html-20261118",
+      "expected_country": "UZ",
+      "provider": "Uzbekistan national legislation database LexUZ",
+      "source_url": "https://lex.uz/ru/docs/6350526?otherlang=4",
+      "path": "postal/sources/official/20261118/UZ/uz-postal-law.html.gz",
+      "adapter": "uz_postal_html",
+      "licence": "LicenseRef-Uzbekistan-Official-Legislation",
+      "sha256": "a91b724196f3eedfaa69e189a55ea30b2a7e9bc7a5a6a080b8fcc13886af9633",
+      "bytes": 104810,
+      "uncompressed_sha256": "44d87dd735668f5eaa9f3b201d4297e33ef0e2e576b0cf2c64dd43da2c9767c0",
+      "uncompressed_bytes": 4697900,
+      "active_for_lookup": true,
+      "coverage_scope": "31 tables. Select Russian tables2..15 only; carry postal node forward for merged/empty first cells, preserve original cells and table/tr indexes; routing table1 masks and Uzbek tables17..30 excluded. Russian six-digit code sequence exactly equals official PDF pdftotext sequence. Postal branches are preserved in postal_branch; admin_name1 empty because these are postal organizations rather than normalized administrative units.",
+      "source_rows": 1887,
+      "distinct_codes": 1887,
+      "distinct_codes_by_kind": {
+        "official_full": 1887
+      }
+    },
+    {
+      "id": "official-mu-mu-postcodeagalega_1-20261118",
+      "expected_country": "MU",
+      "provider": "Mauritius Ministry of Digital Transformation / government data portal",
+      "source_url": "https://data.govmu.org/dataset/29b4d570-e15d-41c2-a4a7-87da6440ec54/resource/d63b4eb0-9537-4828-bab6-c85f73a819c5/download/postcodeagalega_1.csv",
+      "path": "postal/sources/official/20261118/MU/mu-postcodeagalega_1.csv.gz",
+      "adapter": "mu_postal_csv3",
+      "licence": "CC-BY-SA-4.0",
+      "sha256": "90b260fddc34274af5d6b3982742312c0cf1dad47ea261452b4924d85812ec81",
+      "bytes": 135,
+      "uncompressed_sha256": "ce6f4d0a3b688211b689be6184c82176a3759c8346c6b815d107259ff053eed9",
+      "uncompressed_bytes": 156,
+      "active_for_lookup": false,
+      "coverage_scope": "Separate mainland/Rodrigues/Agalega locality/street code publication. Alternative three-column sources are stored but not selected for standard lookup.",
+      "source_rows": 4,
+      "distinct_codes": 4,
+      "distinct_codes_by_kind": {
+        "partial_or_legacy": 4
+      }
+    },
+    {
+      "id": "official-mu-mu-postcoderodrigues-20261118",
+      "expected_country": "MU",
+      "provider": "Mauritius Ministry of Digital Transformation / government data portal",
+      "source_url": "https://data.govmu.org/dataset/003326cb-fe3b-4e13-931b-1ecbd7624524/resource/c898910b-f3ab-46af-96bc-f25be347cb8a/download/postcoderodrigues.csv",
+      "path": "postal/sources/official/20261118/MU/mu-postcoderodrigues.csv.gz",
+      "adapter": "mu_postal_csv3",
+      "licence": "CC-BY-SA-4.0",
+      "sha256": "9f62955d7e61ec42fbde084acd664eb6ef020fa2961ea18f22344adfd0dcd418",
+      "bytes": 1872,
+      "uncompressed_sha256": "a25d2aa1915648c91410164c3675a232f37a8a5b0b0e3b66d28e43f47066441f",
+      "uncompressed_bytes": 5995,
+      "active_for_lookup": false,
+      "coverage_scope": "Separate mainland/Rodrigues/Agalega locality/street code publication. Alternative three-column sources are stored but not selected for standard lookup.",
+      "source_rows": 182,
+      "distinct_codes": 182,
+      "distinct_codes_by_kind": {
+        "partial_or_legacy": 182
+      }
+    },
+    {
+      "id": "official-mu-mu-postcodemauritius-20261118",
+      "expected_country": "MU",
+      "provider": "Mauritius Ministry of Digital Transformation / government data portal",
+      "source_url": "https://data.govmu.org/dataset/5babd1ea-4745-406d-8ada-871d13981ceb/resource/60e36767-dd0f-416f-b854-919002f995b5/download/postcodemauritius.csv",
+      "path": "postal/sources/official/20261118/MU/mu-postcodemauritius.csv.gz",
+      "adapter": "mu_postal_csv3",
+      "licence": "CC-BY-SA-4.0",
+      "sha256": "0f56f9126673736fe133c59f5383ab218dd3e0a726afce208ee27ae00f9f0912",
+      "bytes": 17916,
+      "uncompressed_sha256": "7441fbf02c5d0e6b5f45cb7825516edf6050fc8eb445f5d2934022c0179eb225",
+      "uncompressed_bytes": 54681,
+      "active_for_lookup": false,
+      "coverage_scope": "Separate mainland/Rodrigues/Agalega locality/street code publication. Alternative three-column sources are stored but not selected for standard lookup.",
+      "source_rows": 1684,
+      "distinct_codes": 1671,
+      "distinct_codes_by_kind": {
+        "partial_or_legacy": 1671
+      }
+    },
+    {
+      "id": "official-mu-mu-mauritius_post_office_codes-20261118",
+      "expected_country": "MU",
+      "provider": "Mauritius Ministry of Digital Transformation / government data portal",
+      "source_url": "https://data.govmu.org/dataset/6900bcd1-012b-44d9-9af5-888b66573b60/resource/5a49c0b9-f555-438d-8c38-5b4694d96c90/download/mauritius_post_office_codes.csv",
+      "path": "postal/sources/official/20261118/MU/mu-mauritius_post_office_codes.csv.gz",
+      "adapter": "mu_postal_csv4",
+      "licence": "CC-BY-SA-4.0",
+      "sha256": "2877b54ccb92219853a9725ba34ce3d515bfec19399fed7cc3e8435745cb0930",
+      "bytes": 42009,
+      "uncompressed_sha256": "953bd5472370887789d061999602b457d01d08565b413ba63e1a9652dd12355b",
+      "uncompressed_bytes": 186232,
+      "active_for_lookup": true,
+      "coverage_scope": "Separate mainland/Rodrigues/Agalega locality/street code publication. Alternative three-column sources are stored but not selected for standard lookup.",
+      "source_rows": 4067,
+      "distinct_codes": 1807,
+      "distinct_codes_by_kind": {
+        "official_full": 1806,
+        "source_anomaly": 1
+      }
+    },
+    {
+      "id": "official-mu-mu-rodrigues_post_office_codes-20261118",
+      "expected_country": "MU",
+      "provider": "Mauritius Ministry of Digital Transformation / government data portal",
+      "source_url": "https://data.govmu.org/dataset/5f217be1-d693-4d47-91c1-134b94fb8261/resource/9d439ea3-a2e4-42f7-9374-6b9539e50cf3/download/rodrigues_post_office_codes.csv",
+      "path": "postal/sources/official/20261118/MU/mu-rodrigues_post_office_codes.csv.gz",
+      "adapter": "mu_postal_csv4",
+      "licence": "CC-BY-SA-4.0",
+      "sha256": "1a1017aa330507ef193dfdb64185ac718fbf862825974b5e6850c594ec6eb4bc",
+      "bytes": 1814,
+      "uncompressed_sha256": "7b229e72eebe5fc0064c6dceb03fede51c8c660972734d2040b554234f28d5a6",
+      "uncompressed_bytes": 5991,
+      "active_for_lookup": true,
+      "coverage_scope": "Separate mainland/Rodrigues/Agalega locality/street code publication. Alternative three-column sources are stored but not selected for standard lookup.",
+      "source_rows": 182,
+      "distinct_codes": 182,
+      "distinct_codes_by_kind": {
+        "official_full": 182
+      }
+    },
+    {
+      "id": "official-mu-mu-agalega_post_office_codes-20261118",
+      "expected_country": "MU",
+      "provider": "Mauritius Ministry of Digital Transformation / government data portal",
+      "source_url": "https://data.govmu.org/dataset/a73c2180-2aab-4c04-aca4-a7995603b588/resource/f72552d9-2648-4ec2-8700-662e604e796b/download/agalega_post_office_codes.csv",
+      "path": "postal/sources/official/20261118/MU/mu-agalega_post_office_codes.csv.gz",
+      "adapter": "mu_postal_csv4",
+      "licence": "CC-BY-SA-4.0",
+      "sha256": "44b817e9334bdfdecfaaf658a596aaafe30260cdbd59464981eb41edc9db816b",
+      "bytes": 126,
+      "uncompressed_sha256": "bb243f4eed8afc9f1aadae476e7051211a729db87242655e297b08e29a5c1e51",
+      "uncompressed_bytes": 152,
+      "active_for_lookup": true,
+      "coverage_scope": "Separate mainland/Rodrigues/Agalega locality/street code publication. Alternative three-column sources are stored but not selected for standard lookup.",
+      "source_rows": 4,
+      "distinct_codes": 4,
+      "distinct_codes_by_kind": {
+        "official_full": 4
+      }
+    }
+  ],
+  "country_observations": [
+    {
+      "country_code": "BA",
+      "name": "Bosnia and Herzegovina",
+      "source_rows": 556,
+      "distinct_codes": 552,
+      "lookup_source_rows": 0,
+      "code_kinds": {
+        "partial_or_legacy": 556
+      },
+      "distinct_codes_by_kind": {
+        "partial_or_legacy": 552
+      },
+      "national_completeness_verified": false
+    },
+    {
+      "country_code": "KH",
+      "name": "Cambodia",
+      "source_rows": 1659,
+      "distinct_codes": 1659,
+      "lookup_source_rows": 1659,
+      "code_kinds": {
+        "official_full": 1659
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 1659
+      },
+      "national_completeness_verified": false
+    },
+    {
+      "country_code": "LA",
+      "name": "Laos",
+      "source_rows": 7781,
+      "distinct_codes": 686,
+      "lookup_source_rows": 7781,
+      "code_kinds": {
+        "official_full": 7781
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 686
+      },
+      "national_completeness_verified": false
+    },
+    {
+      "country_code": "ME",
+      "name": "Montenegro",
+      "source_rows": 165,
+      "distinct_codes": 150,
+      "lookup_source_rows": 165,
+      "code_kinds": {
+        "official_full": 165
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 150
+      },
+      "national_completeness_verified": false
+    },
+    {
+      "country_code": "MU",
+      "name": "Mauritius",
+      "source_rows": 6123,
+      "distinct_codes": 2090,
+      "lookup_source_rows": 4253,
+      "code_kinds": {
+        "official_full": 4235,
+        "partial_or_legacy": 1870,
+        "source_anomaly": 18
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 1992,
+        "partial_or_legacy": 1857,
+        "source_anomaly": 1
+      },
+      "national_completeness_verified": false
+    },
+    {
+      "country_code": "NA",
+      "name": "Namibia",
+      "source_rows": 149,
+      "distinct_codes": 149,
+      "lookup_source_rows": 149,
+      "code_kinds": {
+        "official_full": 149
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 149
+      },
+      "national_completeness_verified": false
+    },
+    {
+      "country_code": "UZ",
+      "name": "Uzbekistan",
+      "source_rows": 1887,
+      "distinct_codes": 1887,
+      "lookup_source_rows": 1887,
+      "code_kinds": {
+        "official_full": 1887
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 1887
+      },
+      "national_completeness_verified": false
+    },
+    {
+      "country_code": "XK",
+      "name": "Kosovo",
+      "source_rows": 133,
+      "distinct_codes": 133,
+      "lookup_source_rows": 133,
+      "code_kinds": {
+        "official_full": 133
+      },
+      "distinct_codes_by_kind": {
+        "official_full": 133
+      },
+      "national_completeness_verified": false
+    }
+  ],
+  "summary": {
+    "total_countries": 250,
+    "source_countries": 133,
+    "countries_pending": 117,
+    "source_rows": 5336211,
+    "lookup_source_rows": 5209259,
+    "country_code_pairs": 4443375
+  },
+  "snapshot_storage": {
+    "files": 13,
+    "original_bytes": 13016380,
+    "stored_gzip_bytes": 587831,
+    "method": "lossless deterministic gzip; exact stored and expanded SHA-256 verified",
+    "dynamic_source_recovery": "Restore exact versioned Git snapshots; dynamic HTML/API resources are not replayed as hash-pinned download URLs."
+  },
+  "review_decisions": [
+    {
+      "country_code": "BA",
+      "decision": "archive_only",
+      "reason": "Closure symbols in a mixed-operator directory cannot be reliably resolved from PDF text; all 556 observations are inactive partial_or_legacy."
+    },
+    {
+      "country_code": "KH",
+      "decision": "partial_national_coverage",
+      "reason": "Nine source API responses contain 1659 commune records, 24 province codes and 204 district codes. Province 190000 is absent; do not infer missing assignments."
+    },
+    {
+      "country_code": "LA",
+      "decision": "use_unique_id_sorted_capture",
+      "reason": "Postcode-sorted capture duplicated eight IDs at page boundaries and was rejected. Selected 16-page ID-sorted capture has 7781 unique source IDs and 686 literal codes across 18 provinces. Each raw response URL, bytes and SHA-256 is retained."
+    },
+    {
+      "country_code": "ME",
+      "decision": "office_directory_scope",
+      "reason": "165 cards contain 150 literal codes; extract explicit postal-code widget rather than office IDs, telephones or incidental numeric text. National address coverage is unverified."
+    },
+    {
+      "country_code": "MU",
+      "decision": "retain_source_anomaly",
+      "reason": "712547 appears in 18 rows; preserve and classify source_anomaly, excluded from standard lookup. Do not repair by guessing."
+    },
+    {
+      "country_code": "MU",
+      "decision": "separate_publication_formats",
+      "reason": "4253 observations from three four-column CSVs selected for lookup; 1870 nonblank observations from three alternative three-column CSVs retained but inactive. Three-column metadata modification dates do not establish that underlying codes are older."
+    },
+    {
+      "country_code": "MU",
+      "decision": "explicit_blank_cell_exclusion",
+      "reason": "The single empty postal-code cell at csv:record:545 in the mainland three-column file is declared and excluded from observations. Unmodified raw source retains that record."
+    },
+    {
+      "country_code": "NA",
+      "decision": "postal_infrastructure_scope",
+      "reason": "149 codes across 14 political regions refer to postal offices, boxes or counter services, not a verified code for every address."
+    },
+    {
+      "country_code": "UZ",
+      "decision": "single_language_assignment_tables",
+      "reason": "1887 six-digit values from Russian tables 2 through 15 exactly match the official PDF code sequence. Exclude routing masks and duplicate Uzbek tables. Preserve postal organizations as postal_branch, not inferred administrative divisions. Registration is 2023-01-13; current completeness is unverified."
+    },
+    {
+      "country_code": "XK",
+      "decision": "embedded_data_without_execution",
+      "reason": "133 records from seven regions extracted from the public embedded JSON entries; source scripts are not executed."
+    }
+  ],
+  "deferred": [
+    {
+      "country_code": "NP",
+      "status": "scan_requires_verified_extraction",
+      "reason": "Official 16-page PDF is image-only; reliable text extraction is not yet available. No guessed codes added."
+    },
+    {
+      "country_code": "VN",
+      "status": "source_download_timeout",
+      "reason": "Official candidate PDF could not be downloaded successfully in this intake."
+    },
+    {
+      "country_code": "BT",
+      "status": "no_bulk_rows_from_public_form",
+      "reason": "Unfiltered public form did not expose a downloadable assignment table; no broad form-query enumeration performed."
+    },
+    {
+      "country_code": "NI",
+      "status": "source_fetch_forbidden",
+      "reference": "https://www.correos.gob.ni/postalcode/postalcodes.php",
+      "reason": "Official candidate endpoint returned HTTP 403; not evidence that the country has no codes."
+    },
+    {
+      "country_code": "GE",
+      "status": "current_consolidated_table_not_publicly_acquired",
+      "reason": "Available first edition was superseded in 2002. Current consolidated access required login or payment; obsolete table not added."
+    },
+    {
+      "country_code": "GR",
+      "status": "official_bulk_table_unconfirmed",
+      "reason": "No suitable official bulk assignment source confirmed during this intake."
+    },
+    {
+      "country_code": "NG",
+      "status": "bulk_reuse_authorization_unconfirmed",
+      "reason": "Provider acceptable-use conditions require authorization for substantial NDAPS download/compilation; no bulk capture performed."
+    },
+    {
+      "country_code": "TZ",
+      "status": "candidate_plan_url_not_found",
+      "reason": "Candidate 2026 plan PDF returned HTTP 404."
+    },
+    {
+      "country_code": "MZ",
+      "status": "structure_only_not_assignments",
+      "reason": "2024 legislative material defines an eight-digit structure without an assignment table; code space was not generated."
+    }
+  ],
+  "prior_pending_review": "stage2-review.json (CN official bulk source; TW complete 3+3 application)",
+  "local_verification": {
+    "common_tests": 1161,
+    "hierarchy_tests": 247,
+    "total_passed": 1408,
+    "skipped": 0,
+    "new_regression_tests": 62,
+    "source_rows_replayed": 5336211,
+    "focused_postal_tests": 91
+  },
+  "claims_not_established": [
+    "all worldwide current codes saved",
+    "national completeness for any newly added country",
+    "current validity of every listed value",
+    "address-level coverage from postal-office directories",
+    "carrier deliverability",
+    "uniform open-data licence for all public sources"
+  ]
+}
