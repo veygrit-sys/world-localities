@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "snapshot_label": "20261118",
+  "collection_scope": "countries/catalog.json",
+  "goal": "Progressively store all obtainable world postal-code sources; national completeness requires per-country evidence.",
+  "sources": [
+    {
+      "path": "postal/sources/geonames/20261118/allCountries.zip",
+      "bytes": 20006317,
+      "sha256": "c179006700a5c9df960079ff279ac66dc9fd20788228428d1790973890432ff2",
+      "id": "geonames-postal-20261118",
+      "format": "geonames_tsv_zip",
+      "provider": "GeoNames",
+      "member": "allCountries.txt",
+      "download_url": "https://download.geonames.org/export/zip/allCountries.zip",
+      "retrieved_at": "2026-11-17T21:35:23.601689+00:00",
+      "source_http_last_modified": "2026-11-17T02:57:34Z",
+      "individual_record_effective_date": null,
+      "licence": "CC-BY-4.0",
+      "attribution": "GeoNames (https://www.geonames.org/), CC BY 4.0; original provider notices retained.",
+      "default_code_kind": "source_reported",
+      "country_code_kinds": {
+        "CA": "prefix",
+        "GB": "prefix",
+        "NL": "prefix",
+        "CL": "prefix",
+        "IE": "prefix",
+        "MT": "prefix",
+        "CN": "aggregated",
+        "AR": "partial_or_legacy",
+        "BR": "partial",
+        "AE": "routing_or_unreviewed",
+        "HK": "routing_or_unreviewed",
+        "MO": "routing_or_unreviewed"
+      },
+      "national_completeness_verified": false,
+      "source_freshness_verified": false,
+      "notes": [
+        "Archive observations, not an authoritative global postal register.",
+        "CA/GB/NL complete-length datasets are separate downloads and are not included in this stage.",
+        "Argentina descriptions differ between README and source table; no current complete-code claim.",
+        "HK/MO codes are origin-specific routing observations; AE code semantics require review.",
+        "Coordinates may be estimated or averaged; do not use as delivery-point evidence."
+      ]
+    },
+    {
+      "path": "registries/official/JP/sources/postal-utf.zip",
+      "bytes": 2135514,
+      "sha256": "444881769a631d2c36c644fc041e5ce62fe65d204ff498a601641ba1e66b5955",
+      "id": "japanpost-postal-20260930",
+      "format": "japanpost_utf_zip",
+      "provider": "Japan Post",
+      "member": "utf_ken_all.csv",
+      "licence": "LicenseRef-JapanPost-Postal-Data",
+      "terms": "https://www.post.japanpost.jp/service/search/zipcode/download/utf-readme.html",
+      "source_url": "https://www.post.japanpost.jp/service/search/zipcode/download/utf/zip/utf_ken_all.zip",
+      "published_on": "2026-09-30",
+      "retrieved_on": "2026-10-01",
+      "default_code_kind": "official_full",
+      "country_code_kinds": {},
+      "national_completeness_verified": false,
+      "notes": [
+        "Reuse original Japan Post ZIP only; no ABR/ODbL joined derivative is copied.",
+        "Business-specific postal codes are not included.",
+        "This is the pinned September 2026 source, not a claim of currentness."
+      ]
+    },
+    {
+      "path": "registries/official/TW/postal_links.csv",
+      "bytes": 34492,
+      "sha256": "b84e5700823686281f6c6495b40660c9face777da414d45e7022305d58808d03",
+      "id": "chunghwa-post-prefix-existing",
+      "format": "taiwan_prefix_csv",
+      "provider": "Chunghwa Post existing published source projection",
+      "licence": "Taiwan Open Government Data License, version 1.0",
+      "source_metadata": "registries/official/TW/sources.json",
+      "default_code_kind": "prefix",
+      "country_code_kinds": {},
+      "national_completeness_verified": false,
+      "notes": [
+        "Three-digit prefixes only, not complete six-digit postcodes.",
+        "Existing source line and entity links retained; complete codes are not synthesized."
+      ]
+    }
+  ],
+  "documentation": [
+    {
+      "path": "postal/sources/geonames/20261118/readme.txt",
+      "bytes": 2893,
+      "sha256": "fff60148da20f4d182859d926518efa5b0f3949f3c3273a284901325f1f8f008"
+    },
+    {
+      "path": "postal/sources/geonames/20261118/index.html",
+      "bytes": 19336,
+      "sha256": "c21b2b6615afd335edb7d4ccaa61c2db7fcb17a091950511615b896aeae7b3d5"
+    }
+  ],
+  "reference_urls": [
+    "https://download.geonames.org/export/zip/readme.txt",
+    "https://www.geonames.org/postal-codes-sources.html",
+    "https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf",
+    "https://www.ctt.gov.mo/MacauPost/Contents/faq.aspx?lang=en-us"
+  ]
+}
