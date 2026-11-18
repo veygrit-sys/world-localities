@@ -2,7 +2,7 @@
 
 国別データの構造検証と、実際の問い合わせに対する精度評価を分けます。`scripts/evaluate_addresses.py` は、外部から用意した評価ケースと予測結果をオフラインで照合します。住所データや正解を生成する機能、モデル学習、配送会社への照会はありません。
 
-**実際の住所を独立に確認した評価セットは、この更新には収録していません。** リポジトリのテストにある合成例は評価器の回帰テストであり、住所検証精度の実証には使用しません。
+中国本土は[大学の公開住所を使った診断例と比較コマンド](../evaluation/china/README.md)を収録しています。独立審査済みの評価セットは未収録です。リポジトリのテストにある合成例は評価器の回帰テストであり、住所検証精度の実証には使用しません。
 
 ## 入力
 
@@ -18,7 +18,7 @@ python scripts/evaluate_addresses.py --examples /path/to/evaluation.jsonl --pred
 |---|---|
 | `case_id` | 一意な評価問い合わせID |
 | `country` | 大文字2文字の国・地域コード |
-| `task` | `entity_resolution`、`component_validation`、`format_rendering` |
+| `task` | `entity_resolution`、`component_validation`、`component_translation`、`format_rendering` |
 | `expected` | `verdict` と、そのタスクで確認済みの正解 |
 | `split` | `evaluation` を必須とする |
 | `used_for_training` | `false` を明示する |

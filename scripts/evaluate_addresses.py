@@ -8,7 +8,12 @@ import math
 from pathlib import Path
 import re
 
-TASKS = {"entity_resolution", "component_validation", "format_rendering"}
+TARGET_FIELDS = {
+    "entity_resolution": "entity_id",
+    "component_validation": "components",
+    "component_translation": "components",
+    "format_rendering": "rendered",
+}
 VERDICTS = {"matched", "no_match", "ambiguous", "abstain"}
 PROVENANCE_KINDS = {"synthetic", "source_derived", "external_reviewed"}
 
@@ -43,8 +48,7 @@ def validate_target(record, expected=False):
                 "non-matched verdict must not include an accepted target")
         return
     task = record["task"]
-    field = {"entity_resolution": "entity_id", "component_validation": "components",
-             "format_rendering": "rendered"}[task]
+    field = TARGET_FIELDS[task]
     require(not any(key in record for key in {"entity_id", "components", "rendered"} - {field}),
             "target fields do not match the selected task")
     value = record.get(field)
@@ -76,7 +80,7 @@ def independent_case(example):
 def validate_example(example):
     require(isinstance(example.get("country"), str) and
             re.fullmatch(r"[A-Z]{2}", example["country"]), "country must be a two-letter code")
-    require(example.get("task") in TASKS, "unsupported task; deliverability is not inferred")
+    require(example.get("task") in TARGET_FIELDS, "unsupported task; deliverability is not inferred")
     require(example.get("split") == "evaluation", "case must belong to the evaluation split")
     require(example.get("used_for_training") is False, "evaluation case was used for training or is unreviewed")
     evidence = example.get("evidence")
@@ -102,8 +106,7 @@ def exact_result(example, prediction):
         return False
     if expected["verdict"] != "matched":
         return True
-    field = {"entity_resolution": "entity_id", "component_validation": "components",
-             "format_rendering": "rendered"}[example["task"]]
+    field = TARGET_FIELDS[example["task"]]
     return expected[field] == prediction[field]
 
 

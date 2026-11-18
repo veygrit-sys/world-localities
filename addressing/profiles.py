@@ -72,6 +72,7 @@ class ProfileRegistry:
         self._raw = dict(payload["profiles"])
         self.extensions: list[dict[str, Any]] = []
         self.default_languages: dict[str, str] = {}
+        self._standard_form_languages: dict[str, tuple[str, ...]] = {}
         self._extension_new_profiles = 0
         self._extension_overrides = 0
         for extension_path in extension_paths:
@@ -86,6 +87,22 @@ class ProfileRegistry:
                 default_language = policy.get("default_native_language")
                 if default_language:
                     self.default_languages[country_code] = default_language
+                if "standard_form_languages" in policy:
+                    languages = policy["standard_form_languages"]
+                    display_languages = {*policy["native_languages"], "en"}
+                    if (
+                        country_code not in self.country_codes
+                        or not isinstance(languages, list)
+                        or not languages
+                        or any(
+                            not isinstance(tag, str) or tag not in display_languages
+                            for tag in languages
+                        )
+                        or len(set(languages)) != len(languages)
+                        or country_code in self._standard_form_languages
+                    ):
+                        raise ValueError(f"invalid standard form languages: {country_code}")
+                    self._standard_form_languages[country_code] = tuple(languages)
             if overrides - set(profiles):
                 raise ValueError("address profile override missing replacement")
             for key, profile in profiles.items():
@@ -100,6 +117,13 @@ class ProfileRegistry:
                     self._extension_new_profiles += 1
             self.extensions.append(extension)
         self._verify()
+
+    def standard_form_languages(self, country_code: str) -> tuple[str, ...] | None:
+        """Return reviewed input-form languages, default first; None means unreviewed."""
+        country_code = country_code.upper()
+        if country_code not in self.country_codes:
+            raise KeyError(f"unknown address country: {country_code}")
+        return self._standard_form_languages.get(country_code)
 
     def _resolved_config(self, key: str, seen: set[str] | None = None) -> dict[str, Any]:
         seen = set() if seen is None else set(seen)

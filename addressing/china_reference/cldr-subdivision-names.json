@@ -1,0 +1,53 @@
+{
+  "source_id": "unicode-cldr-subdivision-names",
+  "release": "48",
+  "revision": "acd6d88ae493633240e19a87a721076a8a75c310",
+  "repository": "https://github.com/unicode-org/cldr",
+  "license": "Unicode-3.0",
+  "copyright": "Copyright © 1991-2025 Unicode, Inc.",
+  "license_file": "LICENSE.cldr.txt",
+  "projection": "Mainland CN first-level subdivision display names, joined by CLDR subdivision type. Source locales zh and en; exclude cnhk, cnmo and cntw (separate address profiles).",
+  "source_files": {
+    "zh": {
+      "path": "common/subdivisions/zh.xml",
+      "sha256": "4f875ffc235cba7c97092c95e4ccebb9805457bec159e37e0ef4b64abeda4cb8"
+    },
+    "en": {
+      "path": "common/subdivisions/en.xml",
+      "sha256": "997a14da1144bb66f36a829db1783afe41f7529e33070afbe964bdd8e387b1d2"
+    }
+  },
+  "subdivisions": {
+    "cnah": {"zh": "安徽省", "zh_draft_status": "provisional", "en": "Anhui", "en_draft_status": "approved"},
+    "cnbj": {"zh": "北京市", "zh_draft_status": "provisional", "en": "Beijing", "en_draft_status": "approved"},
+    "cncq": {"zh": "重庆市", "zh_draft_status": "provisional", "en": "Chongqing", "en_draft_status": "approved"},
+    "cnfj": {"zh": "福建省", "zh_draft_status": "provisional", "en": "Fujian", "en_draft_status": "approved"},
+    "cngd": {"zh": "广东省", "zh_draft_status": "provisional", "en": "Guangdong", "en_draft_status": "approved"},
+    "cngs": {"zh": "甘肃省", "zh_draft_status": "provisional", "en": "Gansu", "en_draft_status": "approved"},
+    "cngx": {"zh": "广西壮族自治区", "zh_draft_status": "provisional", "en": "Guangxi", "en_draft_status": "approved"},
+    "cngz": {"zh": "贵州省", "zh_draft_status": "provisional", "en": "Guizhou", "en_draft_status": "approved"},
+    "cnha": {"zh": "河南省", "zh_draft_status": "provisional", "en": "Henan", "en_draft_status": "approved"},
+    "cnhb": {"zh": "湖北省", "zh_draft_status": "provisional", "en": "Hubei", "en_draft_status": "approved"},
+    "cnhe": {"zh": "河北省", "zh_draft_status": "provisional", "en": "Hebei", "en_draft_status": "approved"},
+    "cnhi": {"zh": "海南省", "zh_draft_status": "provisional", "en": "Hainan", "en_draft_status": "approved"},
+    "cnhl": {"zh": "黑龙江省", "zh_draft_status": "provisional", "en": "Heilongjiang", "en_draft_status": "approved"},
+    "cnhn": {"zh": "湖南省", "zh_draft_status": "provisional", "en": "Hunan", "en_draft_status": "approved"},
+    "cnjl": {"zh": "吉林省", "zh_draft_status": "provisional", "en": "Jilin", "en_draft_status": "approved"},
+    "cnjs": {"zh": "江苏省", "zh_draft_status": "provisional", "en": "Jiangsu", "en_draft_status": "approved"},
+    "cnjx": {"zh": "江西省", "zh_draft_status": "provisional", "en": "Jiangxi", "en_draft_status": "approved"},
+    "cnln": {"zh": "辽宁省", "zh_draft_status": "provisional", "en": "Liaoning", "en_draft_status": "approved"},
+    "cnnm": {"zh": "内蒙古自治区", "zh_draft_status": "provisional", "en": "Inner Mongolia", "en_draft_status": "provisional"},
+    "cnnx": {"zh": "宁夏回族自治区", "zh_draft_status": "provisional", "en": "Ningxia", "en_draft_status": "approved"},
+    "cnqh": {"zh": "青海省", "zh_draft_status": "provisional", "en": "Qinghai", "en_draft_status": "approved"},
+    "cnsc": {"zh": "四川省", "zh_draft_status": "provisional", "en": "Sichuan", "en_draft_status": "approved"},
+    "cnsd": {"zh": "山东省", "zh_draft_status": "provisional", "en": "Shandong", "en_draft_status": "approved"},
+    "cnsh": {"zh": "上海市", "zh_draft_status": "provisional", "en": "Shanghai", "en_draft_status": "approved"},
+    "cnsn": {"zh": "陕西省", "zh_draft_status": "provisional", "en": "Shaanxi", "en_draft_status": "approved"},
+    "cnsx": {"zh": "山西省", "zh_draft_status": "provisional", "en": "Shanxi", "en_draft_status": "approved"},
+    "cntj": {"zh": "天津市", "zh_draft_status": "provisional", "en": "Tianjin", "en_draft_status": "approved"},
+    "cnxj": {"zh": "新疆维吾尔自治区", "zh_draft_status": "provisional", "en": "Xinjiang", "en_draft_status": "approved"},
+    "cnxz": {"zh": "西藏自治区", "zh_draft_status": "provisional", "en": "Tibet", "en_draft_status": "approved"},
+    "cnyn": {"zh": "云南省", "zh_draft_status": "provisional", "en": "Yunnan", "en_draft_status": "approved"},
+    "cnzj": {"zh": "浙江省", "zh_draft_status": "provisional", "en": "Zhejiang", "en_draft_status": "approved"}
+  }
+}

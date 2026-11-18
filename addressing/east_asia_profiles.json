@@ -19,6 +19,7 @@
   ],
   "countries": {
     "CN": {
+      "standard_form_languages": ["zh-Hans"],
       "native_languages": ["zh-Hans"],
       "default_native_language": "zh-Hans",
       "native_profile": "CN_zh",
