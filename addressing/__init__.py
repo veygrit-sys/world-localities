@@ -8,6 +8,7 @@ from .central_america import (
 )
 from .caribbean import CaribbeanRegistry, render_caribbean_address
 from .central_europe import CentralEuropeRegistry, render_central_europe_address
+from .china_validation import validate_china_address
 from .contracts import LocationPrecision, ValidationLevel, ValidationResult
 from .east_asia import (
     BilingualAddressResult,
@@ -104,6 +105,7 @@ __all__ = [
     "render_southern_europe_address",
     "render_southeast_asia_address",
     "render_western_asia_address",
+    "validate_china_address",
     "validate_western_asia_country",
     "western_asia_quality_inventory",
     "inspect_western_asia_reference",

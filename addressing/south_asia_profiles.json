@@ -103,6 +103,7 @@
       ]
     },
     "IN": {
+      "standard_form_languages": ["en"],
       "native_languages": ["hi"],
       "default_native_language": "hi",
       "native_profile": "IN_hi",

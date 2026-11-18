@@ -9,6 +9,7 @@ import re
 import unicodedata
 from typing import Mapping
 
+from .china_subdivisions import supply_state_labels
 from .components import COMPONENTS, normalize_key, normalize_value
 from .formatting import RenderedAddress, render_address
 from .profiles import ProfileRegistry
@@ -408,6 +409,7 @@ class BilingualAddressResult:
     source_components: dict[str, str | None | dict[str, str | None]] = field(
         default_factory=dict
     )
+    label_evidence: tuple[dict[str, str], ...] = ()
 
     def to_dict(self) -> dict[str, object]:
         return {
@@ -420,6 +422,10 @@ class BilingualAddressResult:
                 key: dict(value) for key, value in self.untranslated_extras.items()
             },
             "source_components": _copy_source_components(self.source_components),
+            **(
+                {"label_evidence": [dict(item) for item in self.label_evidence]}
+                if self.label_evidence else {}
+            ),
         }
 
 
@@ -454,6 +460,21 @@ def render_regional_bilingual_address(
             if language not in values.get("country", {})
         }
     )
+    label_evidence = ()
+    label_warnings = ()
+    if country_code == "CN" and "state" in values:
+        state = values["state"]
+        # Keep every explicit or ambiguous selection under the existing language
+        # policy. A source label can only fill a genuinely missing variant.
+        missing_languages = [
+            language for language in (native_language, "en")
+            if _choose_language_value(
+                state, language, source_language=native_language, neutral=False,
+            ) == (None, None)
+        ]
+        label_evidence, label_warnings = supply_state_labels(
+            state, values.get("state_code", {}), missing_languages,
+        )
     localized = LocalizedAddress(values=values, extras=localized.extras)
     native = select_localized_components(
         localized,
@@ -479,7 +500,7 @@ def render_regional_bilingual_address(
         international=True,
         registry=registry,
     )
-    warnings = list(native.warnings + english.warnings)
+    warnings = list(native.warnings + english.warnings + label_warnings)
     warnings.extend(f"missing_native:{key}" for key in native.missing)
     warnings.extend(f"missing_english:{key}" for key in english.missing)
     if localized.extras:
@@ -494,4 +515,5 @@ def render_regional_bilingual_address(
         warnings=tuple(sorted(set(warnings))),
         untranslated_extras=localized.extras,
         source_components=source_components,
+        label_evidence=label_evidence,
     )

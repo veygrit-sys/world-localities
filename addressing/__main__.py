@@ -9,6 +9,7 @@ from .central_asia import CentralAsiaRegistry, render_central_asia_address
 from .central_america import CentralAmericaRegistry, render_central_america_address
 from .caribbean import CaribbeanRegistry, render_caribbean_address
 from .central_europe import CentralEuropeRegistry, render_central_europe_address
+from .china_validation import validate_china_address
 from .formatting import render_address
 from .east_asia import EastAsiaRegistry, render_bilingual_address
 from .eastern_africa import EasternAfricaRegistry, render_eastern_africa_address
@@ -95,6 +96,10 @@ def main() -> None:
         "caribbean",
         help="report domestic-language/English Caribbean coverage",
     )
+    china = commands.add_parser(
+        "validate-china", help="check mainland Chinese administrative fields and postcode syntax"
+    )
+    china.add_argument("--components-json", required=True)
     profile = commands.add_parser("profile", help="show a selected profile")
     render = commands.add_parser("render", help="render structured address JSON")
     for command in (profile, render):
@@ -254,6 +259,13 @@ def main() -> None:
     caribbean.add_argument("--components-json", required=True)
     caribbean.add_argument("--allow-incomplete", action="store_true")
     args = parser.parse_args()
+    if args.command == "validate-china":
+        try:
+            result = validate_china_address(json.loads(args.components_json))
+        except (TypeError, ValueError) as error:
+            parser.error(str(error))
+        print(json.dumps(result, ensure_ascii=False, sort_keys=True))
+        return
     registry = ProfileRegistry()
     if args.command == "verify":
         print(json.dumps(registry.report(), sort_keys=True))
@@ -573,6 +585,7 @@ def main() -> None:
                     "country_code": selected.country_code,
                     "language": selected.language,
                     "inherited_from": selected.inherited_from,
+                    "standard_form_languages": registry.standard_form_languages(selected.country_code),
                     "config": selected.config,
                 },
                 ensure_ascii=False,
