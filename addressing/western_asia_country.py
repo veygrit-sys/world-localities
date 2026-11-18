@@ -1,4 +1,4 @@
-"""One format-only API for all 18 UN-M49 Western Asian countries.
+"""Country format rules and scoped postal excerpt checks for 18 Western Asian countries.
 
 Its scope is country-level syntax and address presentation, NOT nationwide
 official postal identity, building existence, or carrier deliverability.
@@ -6,11 +6,13 @@ official postal identity, building existence, or carrier deliverability.
 from __future__ import annotations
 
 import json
+import unicodedata
 from pathlib import Path
 from typing import Any
 from .western_asia import COUNTRIES as M49_COUNTRIES
 from .western_asia_reference import (
     COUNTRIES as FIRST_NINE,
+    normalize_country_code,
     validate_western_asia_reference,
 )
 
@@ -72,13 +74,101 @@ def western_asia_quality_inventory() -> dict[str, Any]:
     }
 
 
+def _source_label_key(value, language):
+    value = unicodedata.normalize("NFC", value)
+    if language == "az-Latn":
+        # Unicode SpecialCasing: I/ı and İ/i are distinct Azerbaijani case pairs.
+        value = value.replace("I", "ı").replace("İ", "i")
+    # Casefold also expands spellings such as ſ to s; a transcription match
+    # uses ordinary letter case without those additional equivalences.
+    return " ".join(value.lower().split())
+
+
+def _postal_excerpt(country, code, selectors):
+    from scripts.western_asia_caucasus_levant_join import load_sources
+
+    data = load_sources()
+    records = []
+    matching_ids = []
+    for row in data["postal_evidence"]:
+        if row["country"] != country or row["code"] != code:
+            continue
+        source = data["postal_sources"][row["source_id"]]
+        record = {
+            "record_id": row["record_id"], "source_id": row["source_id"],
+            "source_url": source["url"], "published": source["published"],
+            "grain": row["grain"], "language": row["locale"],
+            "postcode": code, "locality": row["place"], "admin_name": row["admin_name"],
+        }
+        records.append(record)
+        languages = {"locality": row["locale"], "admin_name": "en"}
+        if all(record[key] and
+               _source_label_key(record[key], languages[key]) == _source_label_key(value, languages[key])
+               for key, value in selectors.items()):
+            matching_ids.append(row["record_id"])
+
+    if not records:
+        status = "postcode_not_in_excerpt"
+    elif not selectors:
+        status = "postcode_observed"
+    elif matching_ids:
+        status = "fields_observed_together"
+    else:
+        status = "fields_not_observed_together"
+    return {
+        "status": status, "reviewed_at": data["reviewed_at"],
+        "postcode_records": records, "matching_record_ids": matching_ids,
+    }
+
+
+def _validate_caucasus_levant(country, postcode, options):
+    from scripts.western_asia_caucasus_levant_join import postcode_format
+
+    if options.keys() - {"locality", "admin_name"}:
+        raise ValueError("AM/AZ/GE/IL/JO support postcode, locality and admin_name")
+    selectors = {}
+    for field, value in options.items():
+        if value is None:
+            continue
+        if not isinstance(value, str):
+            raise TypeError(field + " must be a string")
+        if any(unicodedata.category(char).startswith("C") for char in value):
+            raise ValueError("Control character in " + field)
+        if value.strip():
+            selectors[field] = value.strip()
+
+    normalized = {"country_code": country, **selectors}
+    result = {
+        "country": country, "normalized": normalized, "errors": [], "missing": [], "warnings": [],
+        "source_validation_module": "caucasus_levant",
+        "checks": {"format_checked": False, "official_postal_assignment_verified": False,
+                   "building_verified": False, "carrier_deliverability_verified": False},
+    }
+    syntax = postcode_format(country, postcode) if postcode is not None else None
+    if syntax is None or not syntax["input"]:
+        result.update(status="incomplete", missing=["postcode_missing"],
+                      warnings=["postcode_not_supplied", "address_existence_not_checked"])
+        return result
+    result["checks"]["format_checked"] = True
+    result["status"] = syntax["status"]
+    result["warnings"] = ["postcode_assignment_not_checked", "carrier_deliverability_not_checked"]
+    if syntax["code"] is None:
+        result["errors"] = ["postcode_format_invalid"]
+        return result
+    normalized["postcode"] = syntax["code"]
+    excerpt = _postal_excerpt(country, syntax["code"], selectors)
+    result["postal_excerpt"] = excerpt
+    if selectors:
+        result["status"] = ("fields_observed_together" if excerpt["matching_record_ids"]
+                            else "format_unverified")
+    return result
+
+
 def validate_western_asia_country(
     country_code: str, postcode: str | None = None, **options: Any
 ) -> dict[str, Any]:
-    """Return uniform syntax-only results. Reject unknown options; never invent codes."""
-    if not isinstance(country_code,str):
-        raise TypeError("country_code must be a string")
-    cc=country_code.upper()
+    """Check format and, for AM/AZ/GE/IL/JO, an optional place against published excerpts."""
+    cc = normalize_country_code(country_code)
     if cc not in ALL_COUNTRIES:
         raise ValueError("Unsupported Western Asian country: "+country_code)
     if cc in FIRST_NINE:
@@ -88,6 +178,7 @@ def validate_western_asia_country(
             "country":cc,"status":raw["status"],
             "normalized":raw["normalized"],
             "errors":raw.get("errors",[]),
+            "missing":raw.get("missing", [e for e in raw["errors"] if e.endswith("_missing")]),
             "warnings":raw.get("warnings",[]),
             "source_validation_module":"first_nine",
             "checks":{
@@ -98,38 +189,13 @@ def validate_western_asia_country(
             }
         }
     if cc in CAUCASUS_LEVANT:
-        if options:
-            raise ValueError("AM/AZ/GE/IL/JO reference syntax only supports postcode")
-        from scripts.western_asia_caucasus_levant_join import postcode_format
-        if postcode is None or not postcode.strip():
-            return {
-                "country":cc,"status":"incomplete",
-                "normalized":{"country_code":cc},"errors":[],
-                "warnings":["postcode_not_supplied","address_existence_not_checked"],
-                "source_validation_module":"caucasus_levant",
-                "checks":{"format_checked":False,
-                          "official_postal_assignment_verified":False,
-                          "building_verified":False,
-                          "carrier_deliverability_verified":False},
-            }
-        result=postcode_format(cc,postcode)
-        return {
-            "country":cc,"status":result["status"],
-            "normalized":{"country_code":cc,**({"postcode":result["code"]} if result["code"] else {})},
-            "errors":["postcode_format_invalid"] if result["status"]=="invalid_format" else [],
-            "warnings":["postcode_assignment_not_checked","carrier_deliverability_not_checked"],
-            "source_validation_module":"caucasus_levant",
-            "checks":{"format_checked":True,
-                      "official_postal_assignment_verified":False,
-                      "building_verified":False,
-                      "carrier_deliverability_verified":False},
-        }
+        return _validate_caucasus_levant(cc, postcode, options)
     from scripts.western_asia_remaining_countries import postcode_format
     raw=postcode_format(cc,postcode,**options)
     return {
         "country":cc,"status":raw["status"],
         "normalized":raw["normalized"],
-        "errors":raw["errors"],"warnings":raw["warnings"],
+        "errors":raw["errors"],"missing":raw["missing"],"warnings":raw["warnings"],
         "source_validation_module":"last_four",
         "checks":{
             "format_checked":raw["checks"]["country_format_policy_checked"],

@@ -1,0 +1,8 @@
+[
+  {"country":"NL","code":"1071xx","locality":"Amsterdam"},
+  {"country":"CA","code":"m4w2g8","locality":"Toronto","region_code":"ON"},
+  {"country":"GB","code":"sw72dd","locality":"London"},
+  {"country":"DE","code":"11011","locality":"Berlin"},
+  {"country":"US","code":"02116","locality":"Boston","region_code":"MA"},
+  {"country":"FR","code":"75007","locality":"Paris"}
+]

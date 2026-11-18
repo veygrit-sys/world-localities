@@ -64,16 +64,7 @@ class WesternAfricaRegistry(PostcodeRegionalAddressRegistry):
     ) -> bool:
         """Check delivery-office code syntax without asserting assignment."""
 
-        policy = self.get(country_code)
-        if sorting_code is None or not sorting_code.strip():
-            return not policy["sorting_code_required"]
-        pattern = policy["sorting_code_pattern"]
-        if pattern is None:
-            return False
-        return (
-            re.fullmatch(str(pattern), sorting_code.strip(), re.IGNORECASE)
-            is not None
-        )
+        return self._matches_code_policy(country_code, sorting_code, "sorting_code")
 
 
 def render_western_africa_address(

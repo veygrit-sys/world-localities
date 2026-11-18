@@ -21,6 +21,14 @@ VALID_DIRECTIONS = frozenset({"domestic", "inbound"})
 EMIRATES = frozenset({"AE-AZ", "AE-AJ", "AE-DU", "AE-FU", "AE-RK", "AE-SH", "AE-UQ"})
 
 
+def normalize_country_code(country_code: str) -> str:
+    if not isinstance(country_code, str):
+        raise TypeError("country_code must be a string")
+    if not re.fullmatch(r"[A-Za-z]{2}", country_code):
+        raise ValueError("country_code must contain two ASCII letters")
+    return country_code.upper()
+
+
 @lru_cache(maxsize=1)
 def reference_rules() -> dict[str, Any]:
     """Load and audit the official-reference inventory, not source datasets."""
@@ -58,7 +66,7 @@ def _text(value: str | None, key: str) -> str | None:
 
 
 def inspect_western_asia_reference(country_code: str) -> dict[str, Any]:
-    cc = country_code.upper()
+    cc = normalize_country_code(country_code)
     if cc not in COUNTRIES:
         raise ValueError("Unsupported country: " + country_code)
     item = reference_rules()["countries"][cc]
@@ -90,7 +98,7 @@ def validate_western_asia_reference(
     two-digit postal sublocality suffix. KW never infers a code from an area
     or block, and UAE never repurposes Makani or Onwani as a national postcode.
     """
-    cc = country_code.upper()
+    cc = normalize_country_code(country_code)
     if cc not in COUNTRIES:
         raise ValueError("Unsupported country: " + country_code)
     if delivery_mode not in VALID_DELIVERY_MODES:
@@ -120,13 +128,16 @@ def validate_western_asia_reference(
     errors: list[str] = []
     warnings: list[str] = []
     result: dict[str, str] = {"country_code": cc}
-    for k in ("emirate", "block", "po_box"):
+    for k in ("block", "po_box"):
         if values[k]:
             result[k] = values[k]
     if values["emirate"]:
-        result["emirate"] = values["emirate"].upper()
-        if cc == "AE" and result["emirate"] not in EMIRATES:
-            errors.append("invalid_ae_emirate_code")
+        if cc != "AE":
+            errors.append("uae_identifier_on_non_uae_address")
+        else:
+            result["emirate"] = values["emirate"].upper()
+            if result["emirate"] not in EMIRATES:
+                errors.append("invalid_ae_emirate_code")
     if delivery_mode == "po_box" and not values["po_box"]:
         errors.append("po_box_missing")
     if cc == "KW" and delivery_mode == "home" and not values["block"]:

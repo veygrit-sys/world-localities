@@ -188,10 +188,11 @@
     },
     "PR": {
       "native_languages": ["es-Latn", "en"], "default_native_language": "es-Latn", "native_profile": "PR_es", "native_profiles": {"es-Latn": "PR_es", "en": "PR_en"}, "native_scripts": {"es-Latn": "Latn", "en": "Latn"}, "english_profile": "PR_en", "country_names": {"es-Latn": "Puerto Rico", "en": "Puerto Rico"},
-      "postcode_pattern": "\\d{5}(?:-\\d{4})?", "postcode_required": true,
+      "postcode_pattern": "00[679]\\d{2}(?:-\\d{4})?", "postcode_required": true,
       "romanization_policy": "Spanish and English values remain explicit. CALLE, AVENIDA and directionals are not automatically translated; urbanization, primary address, secondary unit, P.O. Box and PR ZIP line remain separately representable.",
       "evidence_status": "official_guidance",
       "sources": [
+        {"authority": "United States Postal Service", "url": "https://about.usps.com/news/state-releases/vi/2015/pr-vi_2015_0827.htm", "scope": "Documented three-digit ZIP routing prefixes 006, 007 and 009 for Puerto Rico and 008 for the U.S. Virgin Islands; individual assignments are not certified"},
         {"authority": "United States Postal Service", "url": "https://pe.usps.com/text/pub28/pub28c2_042.htm", "scope": "Puerto Rico urbanization as an important address element"},
         {"authority": "United States Postal Service", "url": "https://pe.usps.com/text/pub28/28c2_045.htm", "scope": "Puerto Rico street, house-number, secondary-unit, P.O. Box and non-translation rules"}
       ]
@@ -238,10 +239,13 @@
     },
     "VI": {
       "native_languages": ["en"], "default_native_language": "en", "native_profile": "VI_en", "native_profiles": {"en": "VI_en"}, "native_scripts": {"en": "Latn"}, "english_profile": "VI_en", "country_names": {"en": "United States Virgin Islands"},
-      "postcode_pattern": "\\d{5}(?:-\\d{4})?", "postcode_required": true,
+      "postcode_pattern": "008\\d{2}(?:-\\d{4})?", "postcode_required": true,
       "romanization_policy": "English values are preserved. Estate or street text, secondary unit, valid last-line locality, VI abbreviation and ZIP or ZIP+4 remain explicit; USVI is not substituted for VI.",
       "evidence_status": "official_guidance",
-      "sources": [{"authority": "United States Postal Service", "url": "https://pe.usps.com/cpim/ftp/pubs/Pub28/pub28.pdf", "scope": "Publication 28 Appendix J U.S. Virgin Islands address formats, valid last lines and VI abbreviation"}]
+      "sources": [
+        {"authority": "United States Postal Service", "url": "https://about.usps.com/news/state-releases/vi/2015/pr-vi_2015_0827.htm", "scope": "Documented three-digit ZIP routing prefixes 006, 007 and 009 for Puerto Rico and 008 for the U.S. Virgin Islands; individual assignments are not certified"},
+        {"authority": "United States Postal Service", "url": "https://pe.usps.com/cpim/ftp/pubs/Pub28/pub28.pdf", "scope": "Publication 28 Appendix J U.S. Virgin Islands address formats, valid last lines and VI abbreviation"}
+      ]
     }
   },
   "profiles": {

@@ -16,6 +16,7 @@
 | 欧州5か国の住所強化を確認する | [公式住所の取込と検証](docs/plans/europe-five-country-implementation.md) |
 | 国別に更新・配布する | [国別管理と分離手順](docs/country-modules.md) |
 | 住所の入力・表記形式を扱う | [住所形式レイヤー](addressing/README.md) |
+| 郵便番号と地名・州の組み合わせを照合する | [対応範囲、実行例、検証結果](evaluation/postal-places/README.md) |
 | 実行コマンドを探す | [スクリプト一覧](scripts/README.md) |
 | 設計・計画資料を探す | [資料一覧](docs/README.md) |
 | 出典と移行を確認する | [移行記録](docs/migration/README.md) |
