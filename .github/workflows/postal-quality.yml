@@ -5,6 +5,9 @@ on:
     paths:
       - 'postal/**'
       - 'localities/postal.py'
+      - 'localities/postal_places.py'
+      - 'scripts/check_postal_place_coverage.py'
+      - 'evaluation/postal-places/**'
       - 'localities/postal_*sources.py'
       - 'localities/postal_official.py'
       - 'localities/postal_source_io.py'
@@ -36,3 +39,4 @@ jobs:
           python -m unittest discover -s tests -p 'test_world_postcodes.py' -v
           python -m unittest discover -s tests -p 'test_postal_*.py' -v
           python scripts/world_postcodes.py verify
+          python scripts/check_postal_place_coverage.py

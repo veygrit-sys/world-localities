@@ -228,7 +228,7 @@
       "native_scripts": {"so-Latn": "Latn", "ar-Arab": "Arab"},
       "english_profile": "SO_en",
       "country_names": {"so-Latn": "Soomaaliya", "ar-Arab": "الصومال", "en": "Somalia"},
-      "postcode_pattern": "[A-Z]{2}\\s{1,2}\\d{5}",
+      "postcode_pattern": "[A-Z]{2} {1,2}\\d{5}",
       "postcode_required": true,
       "romanization_policy": "Somali, Arabic and English values remain separate. The region prefix and five digits are syntax-checked as one postal value; region or authority is never inferred from locality or coordinates.",
       "evidence_status": "provisional",

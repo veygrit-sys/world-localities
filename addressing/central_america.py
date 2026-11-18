@@ -33,9 +33,9 @@ class CentralAmericaRegistry(PostcodeRegionalAddressRegistry):
     def postcode_variant(self, country_code: str, postcode: str | None) -> str | None:
         """Classify documented transition forms after syntax validation."""
 
-        country_code = country_code.upper()
         if not postcode or not self.validate_postcode(country_code, postcode):
             return None
+        country_code = country_code.upper()
         compact = postcode.strip().upper()
         if country_code == "HN":
             return (

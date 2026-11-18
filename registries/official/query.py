@@ -4,9 +4,16 @@ import csv
 import gzip
 import json
 import re
+import sys
 from collections import defaultdict
 from pathlib import Path
-from romanize import METHOD, convert
+if __package__:
+    from .postal_validation import validate_postal_address
+    from .romanize import METHOD, convert
+else:
+    sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+    from postal_validation import validate_postal_address
+    from romanize import METHOD, convert
 
 ROOT = Path(__file__).resolve().parent
 
@@ -71,14 +78,21 @@ if __name__ == '__main__':
     p.add_argument('--postal-code', required=True)
     p.add_argument('--language', default='en')
     p.add_argument('--include-prefix', action='store_true')
-    p.add_argument('--limit', type=int, default=20, help='Postal rows only; all candidate IDs remain')
+    p.add_argument('--components-json', help='Check supplied place labels against the same postal source row')
+    p.add_argument('--limit', type=int, default=20, help='Maximum output rows; counts and verdict use every source row')
     args = p.parse_args()
     if args.limit < 0:
         p.error('--limit must be nonnegative')
     try:
-        result = lookup(args.country, args.postal_code, args.language, args.include_prefix)
+        if args.components_json is not None:
+            result = validate_postal_address(args.country, args.postal_code, json.loads(args.components_json),
+                                             include_prefix=args.include_prefix)
+            rows_key = 'candidates'
+        else:
+            result = lookup(args.country, args.postal_code, args.language, args.include_prefix)
+            rows_key = 'postal_rows'
     except ValueError as error:
         p.error(str(error))
-    result['postal_rows'] = result['postal_rows'][:args.limit]
-    result['rows_truncated'] = result['postal_source_rows'] > len(result['postal_rows'])
+    result[rows_key] = result[rows_key][:args.limit]
+    result['rows_truncated'] = result['postal_source_rows'] > len(result[rows_key])
     print(json.dumps(result, ensure_ascii=False, indent=2))

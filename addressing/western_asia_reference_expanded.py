@@ -41,8 +41,8 @@ def validate_gulf_levant_reference(
     a selected delivery mode. This never guarantees address completeness for a
     real recipient, existence or deliverability.
     """
-    from .western_asia_reference import reference_rules
-    cc = country_code.upper()
+    from .western_asia_reference import normalize_country_code, reference_rules
+    cc = normalize_country_code(country_code)
     if cc not in CODES:
         raise ValueError("Unsupported Gulf/Levant reference: " + country_code)
     if delivery_mode not in {"home", "po_box"}:
@@ -130,17 +130,15 @@ def validate_gulf_levant_reference(
             warnings.append("qatar_has_no_national_postcode_rule")
         else:
             warnings.append("qatar_no_postcode_required")
-        if delivery_mode == "home":
-            for key in ("zone", "street_number", "building_number"):
-                if fields[key] and not DIGITS.fullmatch(fields[key]):
-                    errors.append(key + "_format_invalid")
-                if not fields[key]:
-                    incomplete.append(key + "_missing")
-            if not fields["phone"]:
-                warnings.append("qatar_home_contact_phone_not_provided")
-        else:
-            if not fields["po_box"]:
-                incomplete.append("po_box_missing")
+        for key in ("zone", "street_number", "building_number"):
+            if fields[key] and not DIGITS.fullmatch(fields[key]):
+                errors.append(key + "_format_invalid")
+            elif delivery_mode == "home" and not fields[key]:
+                incomplete.append(key + "_missing")
+        if delivery_mode == "home" and not fields["phone"]:
+            warnings.append("qatar_home_contact_phone_not_provided")
+        if delivery_mode == "po_box" and not fields["po_box"]:
+            incomplete.append("po_box_missing")
         if direction == "inbound":
             warnings.append("qatar_inbound_postal_lines_use_english_doha_qatar")
         warnings.append("qatar_anwani_identity_not_checked")

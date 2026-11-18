@@ -16,6 +16,7 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
+from localities.postal_places import validate_postal_places
 from localities.postal import (
     MAX_ARCHIVE_BYTES,
     build_postal_catalog,
@@ -137,11 +138,28 @@ def main() -> None:
     lookup.add_argument("--offset", type=int, default=0)
     lookup.add_argument("--include-partial", action="store_true")
     lookup.add_argument("--include-historical", action="store_true")
+    place = commands.add_parser("validate-place", help="compare a postcode and locality in stored source rows")
+    place.add_argument("--country", required=True)
+    place.add_argument("--code", required=True)
+    place.add_argument("--locality")
+    place.add_argument("--region")
+    place.add_argument("--region-code")
+    batch = commands.add_parser("validate-places", help="compare a JSON list of postal/locality requests in one scan")
+    batch.add_argument("--input", type=Path, required=True)
+    for command in (place, batch):
+        command.add_argument("--limit", type=int, default=20, help="max returned candidates per request")
     args = parser.parse_args()
     root = args.root.resolve()
     try:
         if args.command == "capture":
             result = {"sources": capture_sources(root)}
+        elif args.command == "validate-place":
+            request = {field: getattr(args, field) for field in ("country", "code", "locality", "region", "region_code")
+                       if getattr(args, field) is not None}
+            result, = validate_postal_places([request], root=root, limit=args.limit)
+        elif args.command == "validate-places":
+            requests = json.loads(args.input.read_text(encoding="utf-8"))
+            result = validate_postal_places(requests, root=root, limit=args.limit)
         elif args.command == "build":
             catalog = build_postal_catalog(root)
             write_json(root / "postal/catalog.json", catalog)

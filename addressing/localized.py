@@ -28,6 +28,10 @@ EVIDENCE_STATUSES = {
     "provisional",
 }
 DANGEROUS_BIDI_CONTROLS = re.compile("[\u202a-\u202e\u2066-\u2069]")
+# Input forms that use Arabic script can enter the same numeric identifier
+# with Arabic-Indic or Eastern Arabic-Indic digits. Translate for matching only.
+ARABIC_INPUT_DIGITS = str.maketrans("٠١٢٣٤٥٦٧٨٩۰۱۲۳۴۵۶۷۸۹", "01234567890123456789")
+CODE_CONTROLS = re.compile(r"[\x00-\x1f\x7f-\x9f\u2028\u2029]")
 LATIN_APOSTROPHE_LETTERS = {"\u00aa", "\u00ba", "\u02bb", "\u02bc"}
 SCRIPT_UNICODE_NAMES = {
     "Arab": "ARABIC",
@@ -294,12 +298,11 @@ class RegionalAddressRegistry:
         self._verify()
 
     def get(self, country_code: str) -> dict[str, object]:
-        country_code = country_code.upper()
-        if country_code not in self.countries:
-            raise KeyError(
-                f"country is outside {self.region_name} profile: {country_code}"
-            )
-        return self.countries[country_code]
+        if isinstance(country_code, str) and re.fullmatch(r"[A-Za-z]{2}", country_code):
+            country_code = country_code.upper()
+            if country_code in self.countries:
+                return self.countries[country_code]
+        raise KeyError(f"country is outside {self.region_name} profile: {country_code}")
 
     def report(self) -> dict[str, object]:
         provisional = sorted(
@@ -385,16 +388,26 @@ class PostcodeRegionalAddressRegistry(RegionalAddressRegistry):
             if not isinstance(policy.get("postcode_required"), bool):
                 raise ValueError(f"postcode requirement missing: {country_code}")
 
-    def validate_postcode(self, country_code: str, postcode: str | None) -> bool:
-        """Check syntax only; this does not assert that a code was assigned."""
-
+    def _matches_code_policy(self, country_code: str, value: str | None, field: str) -> bool:
         policy = self.get(country_code)
-        if postcode is None or not postcode.strip():
-            return not policy["postcode_required"]
-        pattern = policy["postcode_pattern"]
+        if value is None:
+            return not policy[f"{field}_required"]
+        if not isinstance(value, str) or CODE_CONTROLS.search(value):
+            return False
+        candidate = value.strip()
+        if not candidate:
+            return not policy[f"{field}_required"]
+        pattern = policy[f"{field}_pattern"]
         if pattern is None:
             return False
-        return re.fullmatch(str(pattern), postcode.strip(), re.IGNORECASE) is not None
+        if "Arab" in policy.get("native_scripts", {}).values():
+            candidate = candidate.translate(ARABIC_INPUT_DIGITS)
+        return re.fullmatch(pattern, candidate, re.ASCII | re.IGNORECASE) is not None
+
+    def validate_postcode(self, country_code: str, postcode: str | None) -> bool:
+        """Check single-line input syntax, preserving the supplied value and its leading zeroes."""
+
+        return self._matches_code_policy(country_code, postcode, "postcode")
 
 
 @dataclass(frozen=True)
@@ -434,8 +447,8 @@ def render_regional_bilingual_address(
 ) -> BilingualAddressResult:
     source_components = _copy_source_components(components)
     registry = registry or ProfileRegistry()
-    country_code = country_code.upper()
     policy = region.get(country_code)
+    country_code = country_code.upper()
     native_language = normalize_language_tag(
         native_language or str(policy["default_native_language"])
     )
