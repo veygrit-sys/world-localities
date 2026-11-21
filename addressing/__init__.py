@@ -1,5 +1,7 @@
 """Country-profiled address compatibility and validation contracts."""
 
+from localities.open_reference import lookup_reference
+
 from .components import CanonicalAddress, canonicalize_components
 from .central_asia import CentralAsiaRegistry, render_central_asia_address
 from .central_america import (
@@ -64,6 +66,7 @@ __all__ = [
     "EasternEuropeRegistry",
     "LocalizedAddress",
     "LocationPrecision",
+    "lookup_reference",
     "MissingLocalizedComponents",
     "MiddleAfricaRegistry",
     "NorthernAmericaRegistry",

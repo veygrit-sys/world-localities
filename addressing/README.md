@@ -5,6 +5,10 @@ address verification. It accepts structured components in any mapping order,
 normalizes aliases without discarding the original semantics, and renders them
 with a pinned country profile.
 
+Use [offline public references](../localities/open_reference/README.md) to check
+source-published names, address points or bilingual labels from a structured address.
+`python -m addressing reference-sources --country JP` lists the available sources.
+
 The compiled profiles cover 251 country and territory codes and 16 source locale
 variants from OpenCageData/address-formatting. Reviewed East, Southeast,
 Southern, Central and Western Asia, Western, Southern, Northern and Eastern

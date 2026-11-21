@@ -10,6 +10,7 @@ from .central_america import CentralAmericaRegistry, render_central_america_addr
 from .caribbean import CaribbeanRegistry, render_caribbean_address
 from .central_europe import CentralEuropeRegistry, render_central_europe_address
 from .formatting import render_address
+from localities.open_reference import lookup_reference, sources_for_country
 from .east_asia import EastAsiaRegistry, render_bilingual_address
 from .eastern_africa import EasternAfricaRegistry, render_eastern_africa_address
 from .eastern_europe import EasternEuropeRegistry, render_eastern_europe_address
@@ -31,6 +32,14 @@ from .western_europe import WesternEuropeRegistry, render_western_europe_address
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     commands = parser.add_subparsers(dest="command", required=True)
+    reference_sources = commands.add_parser("reference-sources", help="list bundled open sources for one country")
+    reference_sources.add_argument("--country", required=True)
+    reference = commands.add_parser("reference", help="look up names, postcodes or addresses in offline public sources")
+    reference.add_argument("--country", required=True)
+    reference.add_argument("--query", required=True)
+    reference.add_argument("--also", action="append", default=[], help="require another value on the same source record")
+    reference.add_argument("--source", help="search only this source in the selected country")
+    reference.add_argument("--limit", type=int, default=20)
     commands.add_parser("verify", help="verify all compiled country profiles")
     commands.add_parser("east-asia", help="report native/English East Asia coverage")
     commands.add_parser(
@@ -254,6 +263,20 @@ def main() -> None:
     caribbean.add_argument("--components-json", required=True)
     caribbean.add_argument("--allow-incomplete", action="store_true")
     args = parser.parse_args()
+    if args.command == "reference-sources":
+        try:
+            sources = sources_for_country(args.country)
+        except ValueError as error:
+            parser.exit(2, str(error) + "\n")
+        print(json.dumps({"country": args.country.upper(), "sources": list(sources)}))
+        return
+    if args.command == "reference":
+        try:
+            result = lookup_reference(args.country, args.query, *args.also, source=args.source, limit=args.limit)
+        except (ValueError, OSError) as error:
+            parser.exit(2, f"reference lookup failed: {error}\n")
+        print(json.dumps(result, ensure_ascii=False, indent=2, allow_nan=False))
+        return
     registry = ProfileRegistry()
     if args.command == "verify":
         print(json.dumps(registry.report(), sort_keys=True))

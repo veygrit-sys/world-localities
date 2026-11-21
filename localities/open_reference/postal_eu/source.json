@@ -1,0 +1,136 @@
+{
+  "source_id": "fr-laposte-hexasmal",
+  "title": "Base officielle des codes postaux",
+  "publisher": "La Poste – Service National de l’Adresse",
+  "source_url": "https://data.laposte.fr/datasets/laposte-hexasmal",
+  "metadata_url": "https://data.laposte.fr/data-fair/api/v1/datasets/laposte-hexasmal",
+  "download_url": "https://data.laposte.fr/data-fair/api/v1/datasets/laposte-hexasmal/raw",
+  "government_catalogue": "https://www.data.gouv.fr/datasets/base-officielle-des-codes-postaux",
+  "license": "Licence Ouverte / Open Licence 2.0",
+  "license_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2-0",
+  "attribution": "La Poste – Service National de l’Adresse, Base officielle des codes postaux, mise à jour du 17 novembre 2026.",
+  "source_updated_at": "2026-11-17T13:43:25.576Z",
+  "retrieved_on": "2026-11-21",
+  "original_file": "019HexaSmal.csv",
+  "stored_file": "019HexaSmal.csv.xz",
+  "raw_bytes": 1555485,
+  "raw_sha256": "f921ac020ca3b9efebd8f0d01782555fb70d63d1ae36535109c67e4a74bd6e22",
+  "publisher_md5": "0d4c9510efab94b153dbba939be6b9f1",
+  "encoding": "iso-8859-1",
+  "source_row_count": 39192,
+  "indexed_row_count": 39191,
+  "indexed_scope": "Metropolitan France (FR), BL, GF, GP, MC, MF, MQ, NC, PF, PM, RE, WF and YT. Overseas entities and Monaco are joined by full INSEE code.",
+  "evidence_scope": "Postal code and source-supplied commune code, commune name, routing name or supplementary postal locality on the same row. Street, building and delivery eligibility are untested.",
+  "country_counts": {
+    "BL": {
+      "rows": 1,
+      "postcodes": 1,
+      "insee_codes": 1
+    },
+    "FR": {
+      "rows": 38716,
+      "postcodes": 6051,
+      "insee_codes": 34788
+    },
+    "GF": {
+      "rows": 25,
+      "postcodes": 25,
+      "insee_codes": 22
+    },
+    "GP": {
+      "rows": 38,
+      "postcodes": 33,
+      "insee_codes": 32
+    },
+    "MC": {
+      "rows": 1,
+      "postcodes": 1,
+      "insee_codes": 1
+    },
+    "MF": {
+      "rows": 1,
+      "postcodes": 1,
+      "insee_codes": 1
+    },
+    "MQ": {
+      "rows": 38,
+      "postcodes": 30,
+      "insee_codes": 34
+    },
+    "NC": {
+      "rows": 50,
+      "postcodes": 50,
+      "insee_codes": 33
+    },
+    "PF": {
+      "rows": 207,
+      "postcodes": 83,
+      "insee_codes": 48
+    },
+    "PM": {
+      "rows": 3,
+      "postcodes": 1,
+      "insee_codes": 2
+    },
+    "RE": {
+      "rows": 85,
+      "postcodes": 37,
+      "insee_codes": 24
+    },
+    "WF": {
+      "rows": 3,
+      "postcodes": 3,
+      "insee_codes": 3
+    },
+    "YT": {
+      "rows": 23,
+      "postcodes": 11,
+      "insee_codes": 17
+    }
+  },
+  "excluded_rows": [
+    {
+      "insee_code": "98901",
+      "postcode": "98799",
+      "locality": "ILE DE CLIPPERTON",
+      "rows": 1,
+      "reason": "Clipperton has no separate country code in the repository catalogue."
+    }
+  ],
+  "territory_reference": {
+    "publisher": "Insee",
+    "title": "Code officiel géographique au 1er janvier 2026",
+    "reference_date": "2026-01-01",
+    "publication_date": "2026-02-24",
+    "retrieved_on": "2026-11-21",
+    "source_url": "https://www.insee.fr/fr/information/8740222",
+    "terms": "https://www.insee.fr/fr/information/2008466",
+    "license": "Licence Ouverte / Open Licence 2.0",
+    "attribution": "Source : Insee, Code officiel géographique au 1er janvier 2026, publié le 24 février 2026.",
+    "iso_code_reference": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "projection_file": "territories.csv",
+    "projection_sha256": "c785119b974449637ef25f673d7e63ae30672ecdb67a34b1c0ed2ea1c03eaca4",
+    "inputs": {
+      "departement": {
+        "url": "https://www.insee.fr/fr/statistiques/fichier/8740222/v_departement_2026.csv",
+        "bytes": 6076,
+        "sha256": "513900ca23edc682ef9b912d7bfc317129eac3a7d71ff19bc22b40ea4838e6eb"
+      },
+      "commune": {
+        "url": "https://www.insee.fr/fr/statistiques/fichier/8740222/v_commune_2026.csv",
+        "bytes": 3565935,
+        "sha256": "7be1153de3a63df48fa0ca77f8490c8a0c5c9c4eb12f5cec1ca7f70b0237b1d3"
+      },
+      "commune_comer": {
+        "url": "https://www.insee.fr/fr/statistiques/fichier/8740222/v_commune_comer_2026.csv",
+        "bytes": 8012,
+        "sha256": "9ca82ec1104c9a2307ad368ab40e47afa801137845901ca844bb700dc8d7c9d8"
+      },
+      "pays_territoire": {
+        "url": "https://www.insee.fr/fr/statistiques/fichier/8740222/v_pays_territoire_2026.csv",
+        "bytes": 18419,
+        "sha256": "0dd9d1e83cfba3229b77444747fab0bba7d0ac1acec0442e8e5123c72fa1502d"
+      }
+    }
+  }
+}

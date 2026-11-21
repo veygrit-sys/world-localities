@@ -1,0 +1,16 @@
+{
+  "source_id": "osm-geofabrik-dc-20260101-library-museum",
+  "provider": "OpenStreetMap contributors, Geofabrik GmbH (extract)",
+  "url": "https://download.geofabrik.de/north-america/us/district-of-columbia/district-of-columbia-260101.osm.pbf",
+  "source_size_bytes": 20320010,
+  "source_sha256": "c8200bada47aa9387ba45e2207201064cedf529b30cc1465dd2b811d3730954e",
+  "publisher_md5": "b234e4cce56adc71b0eca82e588f462d",
+  "replication_timestamp": "2026-01-01T21:21:30Z",
+  "retrieved": "2026-11-21",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "attribution_url": "https://www.openstreetmap.org/copyright",
+  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "record_count": 76,
+  "projection_sha256": "bfca2081d768c6c0d709b202b2fabfb91dec15785169e68ac9c5bef966fc79c3"
+}

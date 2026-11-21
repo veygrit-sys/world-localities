@@ -1,0 +1,106 @@
+{
+  "source_id": "us-dc-mar",
+  "title": "Address Points, Master Address Repository",
+  "publisher": "District of Columbia, Office of the Chief Technology Officer (OCTO)",
+  "catalog_url": "https://opendata.dc.gov/datasets/DCGIS::address-points",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "license_evidence": "https://www.arcgis.com/sharing/rest/content/items/aa514416aaf74fdc94748f1e56e7cc8a?f=json",
+  "retrieved_utc": "2026-11-21",
+  "sources": {
+    "all.csv": {
+      "url": "https://opendata.dc.gov/api/download/v1/items/aa514416aaf74fdc94748f1e56e7cc8a/csv?layers=0",
+      "sha256": "7ef907f38a8e9591ae140284ba6b4f7a6c9a659f5960b47440e9d91ef6efe12a",
+      "bytes": 84704187
+    },
+    "oids.json": {
+      "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Location_WebMercator/FeatureServer/0/query?where=STATUS+%3D+%27ACTIVE%27+AND+ADDRESS_TYPE+%3D+%27ADDRESS%27&returnIdsOnly=true&f=json",
+      "sha256": "d0c15b85115a1439654a6b8ca54e944958ea49e7b2f5737e168cc58300f1b2b8",
+      "bytes": 1411936
+    },
+    "all-count.json": {
+      "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Location_WebMercator/FeatureServer/0/query?where=STATUS+%3D+%27ACTIVE%27+AND+ADDRESS_TYPE+%3D+%27ADDRESS%27&returnCountOnly=true&f=json",
+      "sha256": "c1256cd40c7c0cb15fa0d2c280f7abca2ae702564a6921055a601cb16745c309",
+      "bytes": 16
+    }
+  },
+  "scope": "STATUS = 'ACTIVE' AND ADDRESS_TYPE = 'ADDRESS'",
+  "total_export_rows": 144455,
+  "selected_address_points": 141189,
+  "distinct_nonempty_zip_values": 115,
+  "independent_object_id_set_sha256": "a255c49a9c18ca0ff255cf4bd7979d5a9f597bba89c9f6d7498437b759452f23",
+  "shards": [
+    {
+      "file": "points-01.csv.gz",
+      "rows": 20000,
+      "bytes": 359728,
+      "sha256": "609fd91c5334c875a1359fb5caca1bdf2dab83dc7315a0c56d925627d4e3cf6c",
+      "csv_sha256": "581a5d0bf5a94c1e5be6249a8f5425f0b92f9770650003f96e604169e98d690a",
+      "first_mar_id": "1",
+      "last_mar_id": "38356"
+    },
+    {
+      "file": "points-02.csv.gz",
+      "rows": 20000,
+      "bytes": 361386,
+      "sha256": "ba859ff3877c14ebc5456612e526723c2b90923a2562414d161c9f306a2632d3",
+      "csv_sha256": "c5f73efa516f9d8029aadec7ebf5aed4472d94b148429959347187dcf5d6df4c",
+      "first_mar_id": "38357",
+      "last_mar_id": "65905"
+    },
+    {
+      "file": "points-03.csv.gz",
+      "rows": 20000,
+      "bytes": 367958,
+      "sha256": "490fac0700d858b2741b6220dc2598ffe73d05f1dcac9397944372a3c427cfec",
+      "csv_sha256": "c99a89382d9f39024240e95d472b2ab31d57606313a0b5571842400290881f25",
+      "first_mar_id": "65906",
+      "last_mar_id": "219442"
+    },
+    {
+      "file": "points-04.csv.gz",
+      "rows": 20000,
+      "bytes": 352348,
+      "sha256": "8e0abe3f25dccacfa97a830f9114761b99bab874243f34c79f57389791d51408",
+      "csv_sha256": "aa9ade57cd3bae820d62c4890854329d2b15863f275f7a4ad7f6b3e7ffc0ccab",
+      "first_mar_id": "219443",
+      "last_mar_id": "239957"
+    },
+    {
+      "file": "points-05.csv.gz",
+      "rows": 20000,
+      "bytes": 349594,
+      "sha256": "f3ad20b3fe67f6e423685e51370bd0743013ebfa7bcb759e8342a25878c60338",
+      "csv_sha256": "19a198d4c1186788827d72fb0cc3b91c6c8f5cfcf9baa97f0a6c133ebf3bcff1",
+      "first_mar_id": "239958",
+      "last_mar_id": "260323"
+    },
+    {
+      "file": "points-06.csv.gz",
+      "rows": 20000,
+      "bytes": 368755,
+      "sha256": "d35efb61c5d43fb1f4b1ac24999f022abf24a3a0c9c584f5e8951eca79d005b4",
+      "csv_sha256": "7abe51ab65cea1fe16c60a728a721cc21159fd206752b1d2fead7028f13e3e13",
+      "first_mar_id": "260324",
+      "last_mar_id": "285586"
+    },
+    {
+      "file": "points-07.csv.gz",
+      "rows": 20000,
+      "bytes": 399747,
+      "sha256": "8ce99f4fccb5b068f00acb63d665d23b95dcd3308995b2cfc639cefbc83f32a6",
+      "csv_sha256": "8d5d9faf5b4a1a59ee0ac214483fcad752d798ee6741db866f6aeb116a4da07d",
+      "first_mar_id": "285587",
+      "last_mar_id": "333752"
+    },
+    {
+      "file": "points-08.csv.gz",
+      "rows": 1189,
+      "bytes": 25627,
+      "sha256": "25c83928430a1dc2b8b0b6ba670c5c4a1330ba6783ee3da0be9dc7843122a569",
+      "csv_sha256": "957b52c4a231fa22769c9b489ff91198ca7959a0d77e5e2b9ba8481c4471ff0a",
+      "first_mar_id": "333798",
+      "last_mar_id": "360031"
+    }
+  ]
+}
