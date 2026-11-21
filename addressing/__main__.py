@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import argparse
 import json
+from pathlib import Path
+import sqlite3
 
 from .central_asia import CentralAsiaRegistry, render_central_asia_address
 from .central_america import CentralAmericaRegistry, render_central_america_address
@@ -32,6 +34,15 @@ from .western_europe import WesternEuropeRegistry, render_western_europe_address
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     commands = parser.add_subparsers(dest="command", required=True)
+    build = commands.add_parser("build-postal", help="build the reusable offline postal picker index")
+    build.add_argument("--index", type=Path, required=True)
+    build.add_argument("--country", action="append", help="include this country (repeatable); default: all")
+    serve = commands.add_parser("serve-postal", help="serve the postal picker form and JSON API")
+    serve.add_argument("--index", type=Path, required=True)
+    serve.add_argument("--host", default="127.0.0.1")
+    serve.add_argument("--port", type=int, default=8765)
+    serve.add_argument("--allow-origin", action="append", default=[],
+                       help="allow JSON responses to a specified wallet origin (repeatable)")
     reference_sources = commands.add_parser("reference-sources", help="list bundled open sources for one country")
     reference_sources.add_argument("--country", required=True)
     reference = commands.add_parser("reference", help="look up names, postcodes or addresses in offline public sources")
@@ -263,6 +274,26 @@ def main() -> None:
     caribbean.add_argument("--components-json", required=True)
     caribbean.add_argument("--allow-incomplete", action="store_true")
     args = parser.parse_args()
+    if args.command == "build-postal":
+        from localities.postal_picker import build_index
+
+        try:
+            print(json.dumps(build_index(args.index, countries=args.country), ensure_ascii=False))
+        except (ValueError, OSError, sqlite3.Error) as error:
+            parser.exit(2, f"postal index build failed: {error}\n")
+        return
+    if args.command == "serve-postal":
+        from .postal_picker_server import make_server
+
+        try:
+            with make_server(args.index, args.host, args.port, allowed_origins=args.allow_origin) as server:
+                print(f"Postal picker: http://{server.server_address[0]}:{server.server_address[1]}/", flush=True)
+                server.serve_forever()
+        except KeyboardInterrupt:
+            return
+        except (ValueError, OSError, sqlite3.Error) as error:
+            parser.exit(2, f"postal picker failed: {error}\n")
+        return
     if args.command == "reference-sources":
         try:
             sources = sources_for_country(args.country)
