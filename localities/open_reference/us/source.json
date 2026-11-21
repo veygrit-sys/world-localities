@@ -1,0 +1,27 @@
+{
+  "source_id": "us-dc-mar",
+  "title": "Address Points, Master Address Repository",
+  "publisher": "District of Columbia Office of the Chief Technology Officer (OCTO), DC GIS",
+  "catalog_url": "https://opendata.dc.gov/datasets/DCGIS::address-points",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "license_evidence": "https://www.arcgis.com/sharing/rest/content/items/aa514416aaf74fdc94748f1e56e7cc8a?f=json",
+  "federal_catalog_record": "https://catalog.data.gov/dataset/address-points-d4df5",
+  "retrieved_utc": "2026-11-21",
+  "scope": "STREET_NAME = 'PENNSYLVANIA' AND STREET_TYPE = 'AVENUE' AND QUADRANT = 'NW' AND STATUS = 'ACTIVE' AND ADDRESS_TYPE = 'ADDRESS'",
+  "row_count": 101,
+  "snapshots": [
+    {
+      "filename": "address-points.json",
+      "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Location_WebMercator/FeatureServer/0/query?where=STREET_NAME+%3D+%27PENNSYLVANIA%27+AND+STREET_TYPE+%3D+%27AVENUE%27+AND+QUADRANT+%3D+%27NW%27+AND+STATUS+%3D+%27ACTIVE%27+AND+ADDRESS_TYPE+%3D+%27ADDRESS%27&outFields=MAR_ID%2CADDRESS%2CADDRESS_NUMBER%2CADDRESS_NUMBER_SUFFIX%2CSTREET_NAME%2CSTREET_TYPE%2CQUADRANT%2CCITY%2CSTATE%2CZIPCODE%2CCOUNTRY%2CSTATUS%2CADDRESS_TYPE%2CLATITUDE%2CLONGITUDE&orderByFields=MAR_ID+ASC&returnGeometry=false&f=json",
+      "bytes": 37887,
+      "sha256": "b4a501ccce5761b85b7ee372c926683e5fbd4693633d4b3363ad0b8fdd62c5d6"
+    },
+    {
+      "filename": "count.json",
+      "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Location_WebMercator/FeatureServer/0/query?where=STREET_NAME+%3D+%27PENNSYLVANIA%27+AND+STREET_TYPE+%3D+%27AVENUE%27+AND+QUADRANT+%3D+%27NW%27+AND+STATUS+%3D+%27ACTIVE%27+AND+ADDRESS_TYPE+%3D+%27ADDRESS%27&returnCountOnly=true&f=json",
+      "bytes": 13,
+      "sha256": "620999c1a79c802cf492fc68fb1d032d9ef1926021bc46ee2c8cfe7ecb0e26a1"
+    }
+  ]
+}

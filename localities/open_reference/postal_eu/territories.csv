@@ -1,0 +1,219 @@
+insee_code,parent_code,parent_label,country
+97101,971,Guadeloupe,GP
+97102,971,Guadeloupe,GP
+97103,971,Guadeloupe,GP
+97104,971,Guadeloupe,GP
+97105,971,Guadeloupe,GP
+97106,971,Guadeloupe,GP
+97107,971,Guadeloupe,GP
+97108,971,Guadeloupe,GP
+97109,971,Guadeloupe,GP
+97110,971,Guadeloupe,GP
+97111,971,Guadeloupe,GP
+97112,971,Guadeloupe,GP
+97113,971,Guadeloupe,GP
+97114,971,Guadeloupe,GP
+97115,971,Guadeloupe,GP
+97116,971,Guadeloupe,GP
+97117,971,Guadeloupe,GP
+97118,971,Guadeloupe,GP
+97119,971,Guadeloupe,GP
+97120,971,Guadeloupe,GP
+97121,971,Guadeloupe,GP
+97122,971,Guadeloupe,GP
+97124,971,Guadeloupe,GP
+97125,971,Guadeloupe,GP
+97126,971,Guadeloupe,GP
+97128,971,Guadeloupe,GP
+97129,971,Guadeloupe,GP
+97130,971,Guadeloupe,GP
+97131,971,Guadeloupe,GP
+97132,971,Guadeloupe,GP
+97133,971,Guadeloupe,GP
+97134,971,Guadeloupe,GP
+97201,972,Martinique,MQ
+97202,972,Martinique,MQ
+97203,972,Martinique,MQ
+97204,972,Martinique,MQ
+97205,972,Martinique,MQ
+97206,972,Martinique,MQ
+97207,972,Martinique,MQ
+97208,972,Martinique,MQ
+97209,972,Martinique,MQ
+97210,972,Martinique,MQ
+97211,972,Martinique,MQ
+97212,972,Martinique,MQ
+97213,972,Martinique,MQ
+97214,972,Martinique,MQ
+97215,972,Martinique,MQ
+97216,972,Martinique,MQ
+97217,972,Martinique,MQ
+97218,972,Martinique,MQ
+97219,972,Martinique,MQ
+97220,972,Martinique,MQ
+97221,972,Martinique,MQ
+97222,972,Martinique,MQ
+97223,972,Martinique,MQ
+97224,972,Martinique,MQ
+97225,972,Martinique,MQ
+97226,972,Martinique,MQ
+97227,972,Martinique,MQ
+97228,972,Martinique,MQ
+97229,972,Martinique,MQ
+97230,972,Martinique,MQ
+97231,972,Martinique,MQ
+97232,972,Martinique,MQ
+97233,972,Martinique,MQ
+97234,972,Martinique,MQ
+97301,973,Guyane,GF
+97302,973,Guyane,GF
+97303,973,Guyane,GF
+97304,973,Guyane,GF
+97305,973,Guyane,GF
+97306,973,Guyane,GF
+97307,973,Guyane,GF
+97308,973,Guyane,GF
+97309,973,Guyane,GF
+97310,973,Guyane,GF
+97311,973,Guyane,GF
+97312,973,Guyane,GF
+97313,973,Guyane,GF
+97314,973,Guyane,GF
+97352,973,Guyane,GF
+97353,973,Guyane,GF
+97356,973,Guyane,GF
+97357,973,Guyane,GF
+97358,973,Guyane,GF
+97360,973,Guyane,GF
+97361,973,Guyane,GF
+97362,973,Guyane,GF
+97401,974,La Réunion,RE
+97402,974,La Réunion,RE
+97403,974,La Réunion,RE
+97404,974,La Réunion,RE
+97405,974,La Réunion,RE
+97406,974,La Réunion,RE
+97407,974,La Réunion,RE
+97408,974,La Réunion,RE
+97409,974,La Réunion,RE
+97410,974,La Réunion,RE
+97411,974,La Réunion,RE
+97412,974,La Réunion,RE
+97413,974,La Réunion,RE
+97414,974,La Réunion,RE
+97415,974,La Réunion,RE
+97416,974,La Réunion,RE
+97417,974,La Réunion,RE
+97418,974,La Réunion,RE
+97419,974,La Réunion,RE
+97420,974,La Réunion,RE
+97421,974,La Réunion,RE
+97422,974,La Réunion,RE
+97423,974,La Réunion,RE
+97424,974,La Réunion,RE
+97501,975,Saint-Pierre-et-Miquelon,PM
+97502,975,Saint-Pierre-et-Miquelon,PM
+97601,976,Mayotte,YT
+97602,976,Mayotte,YT
+97603,976,Mayotte,YT
+97604,976,Mayotte,YT
+97605,976,Mayotte,YT
+97606,976,Mayotte,YT
+97607,976,Mayotte,YT
+97608,976,Mayotte,YT
+97609,976,Mayotte,YT
+97610,976,Mayotte,YT
+97611,976,Mayotte,YT
+97612,976,Mayotte,YT
+97613,976,Mayotte,YT
+97614,976,Mayotte,YT
+97615,976,Mayotte,YT
+97616,976,Mayotte,YT
+97617,976,Mayotte,YT
+97701,977,Saint-Barthélemy,BL
+97801,978,Saint-Martin,MF
+98611,986,Wallis-et-Futuna,WF
+98612,986,Wallis-et-Futuna,WF
+98613,986,Wallis-et-Futuna,WF
+98711,987,Polynésie française,PF
+98712,987,Polynésie française,PF
+98713,987,Polynésie française,PF
+98714,987,Polynésie française,PF
+98715,987,Polynésie française,PF
+98716,987,Polynésie française,PF
+98717,987,Polynésie française,PF
+98718,987,Polynésie française,PF
+98719,987,Polynésie française,PF
+98720,987,Polynésie française,PF
+98721,987,Polynésie française,PF
+98722,987,Polynésie française,PF
+98723,987,Polynésie française,PF
+98724,987,Polynésie française,PF
+98725,987,Polynésie française,PF
+98726,987,Polynésie française,PF
+98727,987,Polynésie française,PF
+98728,987,Polynésie française,PF
+98729,987,Polynésie française,PF
+98730,987,Polynésie française,PF
+98731,987,Polynésie française,PF
+98732,987,Polynésie française,PF
+98733,987,Polynésie française,PF
+98734,987,Polynésie française,PF
+98735,987,Polynésie française,PF
+98736,987,Polynésie française,PF
+98737,987,Polynésie française,PF
+98738,987,Polynésie française,PF
+98739,987,Polynésie française,PF
+98740,987,Polynésie française,PF
+98741,987,Polynésie française,PF
+98742,987,Polynésie française,PF
+98743,987,Polynésie française,PF
+98744,987,Polynésie française,PF
+98745,987,Polynésie française,PF
+98746,987,Polynésie française,PF
+98747,987,Polynésie française,PF
+98748,987,Polynésie française,PF
+98749,987,Polynésie française,PF
+98750,987,Polynésie française,PF
+98751,987,Polynésie française,PF
+98752,987,Polynésie française,PF
+98753,987,Polynésie française,PF
+98754,987,Polynésie française,PF
+98755,987,Polynésie française,PF
+98756,987,Polynésie française,PF
+98757,987,Polynésie française,PF
+98758,987,Polynésie française,PF
+98801,988,Nouvelle-Calédonie,NC
+98802,988,Nouvelle-Calédonie,NC
+98803,988,Nouvelle-Calédonie,NC
+98804,988,Nouvelle-Calédonie,NC
+98805,988,Nouvelle-Calédonie,NC
+98806,988,Nouvelle-Calédonie,NC
+98807,988,Nouvelle-Calédonie,NC
+98808,988,Nouvelle-Calédonie,NC
+98809,988,Nouvelle-Calédonie,NC
+98810,988,Nouvelle-Calédonie,NC
+98811,988,Nouvelle-Calédonie,NC
+98812,988,Nouvelle-Calédonie,NC
+98813,988,Nouvelle-Calédonie,NC
+98814,988,Nouvelle-Calédonie,NC
+98815,988,Nouvelle-Calédonie,NC
+98816,988,Nouvelle-Calédonie,NC
+98817,988,Nouvelle-Calédonie,NC
+98818,988,Nouvelle-Calédonie,NC
+98819,988,Nouvelle-Calédonie,NC
+98820,988,Nouvelle-Calédonie,NC
+98821,988,Nouvelle-Calédonie,NC
+98822,988,Nouvelle-Calédonie,NC
+98823,988,Nouvelle-Calédonie,NC
+98824,988,Nouvelle-Calédonie,NC
+98825,988,Nouvelle-Calédonie,NC
+98826,988,Nouvelle-Calédonie,NC
+98827,988,Nouvelle-Calédonie,NC
+98828,988,Nouvelle-Calédonie,NC
+98829,988,Nouvelle-Calédonie,NC
+98830,988,Nouvelle-Calédonie,NC
+98831,988,Nouvelle-Calédonie,NC
+98832,988,Nouvelle-Calédonie,NC
+98833,988,Nouvelle-Calédonie,NC
+99138,99138,Monaco,MC

@@ -1,0 +1,30 @@
+{
+  "source_id": "JP-GSI-GAZETTEER-2021",
+  "country": "JP",
+  "publishers": ["Geospatial Information Authority of Japan", "Japan Coast Guard, Hydrographic and Oceanographic Department"],
+  "title": "Gazetteer of Japan 2021 (English edition)",
+  "source_as_of": "2021-03",
+  "retrieved": "2026-11-21",
+  "landing_page": "https://www.gsi.go.jp/ENGLISH/pape_e300284.html",
+  "gazetteer": {
+    "url": "https://www.gsi.go.jp/common/000238295.pdf",
+    "bytes": 3013370,
+    "sha256": "4bab5ad21769ae8105f6429cedd02e1a474429d903bb7a28cda567d6ac88d0ba"
+  },
+  "errata": {
+    "url": "https://www.gsi.go.jp/common/000240221.pdf",
+    "published": "2026-03-24",
+    "bytes": 264132,
+    "sha256": "31d4fa007a9249a6fdd6c54c74fb803f2694c4478a82c6aa8ef2a1ec2c869eca",
+    "review": "The five corrections concern a lake, a sea area, and islands; none is in the selected classes."
+  },
+  "terms": "https://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html",
+  "attribution": "国土地理院・海上保安庁海洋情報部「地名集日本（2021年更新）」の英語版をもとに、行政・居住地名を抽出して作成。",
+  "projection": {
+    "file": "names.csv",
+    "sha256": "cfcf12d3266facb24b92ea04044c80e93a6c9d81fe410a76938e483cddac5b95",
+    "records": 1976,
+    "classes": {"Municipality": 1794, "Populated area": 182},
+    "missing_extracted_kanji": 6
+  }
+}

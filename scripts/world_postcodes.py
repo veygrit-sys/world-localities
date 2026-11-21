@@ -147,6 +147,8 @@ def main() -> None:
     batch = commands.add_parser("validate-places", help="compare a JSON list of postal/locality requests in one scan")
     batch.add_argument("--input", type=Path, required=True)
     for command in (place, batch):
+        command.add_argument("--source", choices=("geonames", "la-poste"), default="geonames",
+                             help="source for comparing the supplied postcode and locality")
         command.add_argument("--limit", type=int, default=20, help="max returned candidates per request")
     args = parser.parse_args()
     root = args.root.resolve()
@@ -156,10 +158,10 @@ def main() -> None:
         elif args.command == "validate-place":
             request = {field: getattr(args, field) for field in ("country", "code", "locality", "region", "region_code")
                        if getattr(args, field) is not None}
-            result, = validate_postal_places([request], root=root, limit=args.limit)
+            result, = validate_postal_places([request], root=root, limit=args.limit, source=args.source)
         elif args.command == "validate-places":
             requests = json.loads(args.input.read_text(encoding="utf-8"))
-            result = validate_postal_places(requests, root=root, limit=args.limit)
+            result = validate_postal_places(requests, root=root, limit=args.limit, source=args.source)
         elif args.command == "build":
             catalog = build_postal_catalog(root)
             write_json(root / "postal/catalog.json", catalog)

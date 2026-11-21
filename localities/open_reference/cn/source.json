@@ -1,0 +1,37 @@
+{
+  "source_id": "hk-cmab-mainland-offices",
+  "title": "Information of Hong Kong Offices in the Mainland and Taiwan",
+  "publisher": "Constitutional and Mainland Affairs Bureau, Government of the Hong Kong Special Administrative Region",
+  "catalog_url": "https://data.gov.hk/en-data/dataset/hk-cmab-cmabt7-hong-kong-offices-in-mainland-and-taiwan",
+  "terms_url": "https://data.gov.hk/en/terms-and-conditions",
+  "attribution": "Source: Constitutional and Mainland Affairs Bureau, Government of the Hong Kong Special Administrative Region, via DATA.GOV.HK. Intellectual property rights in the source data belong to the Government and the relevant organisations.",
+  "retrieved_on": "2026-11-21",
+  "source_updated_on": "2024-11-21",
+  "files": {
+    "en": {
+      "url": "https://www.cmab.gov.hk/datagovhk/data/hong_kong_offices_in_mainland_and_taiwan/data_en.json",
+      "archive": "data_en.json.gz.b64",
+      "bytes": 6978,
+      "sha256": "707f32f80de8472e7412ce2282f6536973565502365b10e7286fd3009d227ab6"
+    },
+    "zh-Hant": {
+      "url": "https://www.cmab.gov.hk/datagovhk/data/hong_kong_offices_in_mainland_and_taiwan/data_tc.json",
+      "archive": "data_tc.json.gz.b64",
+      "bytes": 6342,
+      "sha256": "3d481cd1d92b0be7724d6347e41bc7f7c1b762661a5e55dc8dd46c15be198cbf"
+    }
+  },
+  "map_source": {
+    "source_id": "hk-csdi-cmab-mainland-offices",
+    "title": "The Geographical Location of Hong Kong Offices of the HKSAR Government in the Mainland and Taiwan",
+    "catalog_url": "https://portal.csdi.gov.hk/csdi-webpage/dataset/cmab_rcd_1632885529072_51988",
+    "layer_url": "https://portal.csdi.gov.hk/server/rest/services/common/cmab_rcd_1632885529072_51988/FeatureServer/0",
+    "terms_url": "https://static.csdi.gov.hk/csdi-webpage/doc/TNC",
+    "attribution": "Source: Constitutional and Mainland Affairs Bureau, Government of the Hong Kong Special Administrative Region, via the CSDI Portal. Intellectual property rights in the source data belong to the Government and the relevant organisations.",
+    "retrieved_on": "2026-11-21",
+    "url": "https://portal.csdi.gov.hk/server/rest/services/common/cmab_rcd_1632885529072_51988/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&orderByFields=OBJECTID&f=geojson",
+    "archive": "points.geojson.gz.b64",
+    "bytes": 6396,
+    "sha256": "2d23c0d781ea1fc51e171ca9cf3b65dfe442aba38be672acb5d1ad1a0f3077ee"
+  }
+}

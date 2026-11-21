@@ -96,12 +96,25 @@ def _score(request, rows, sources, country, code, limit):
     }
 
 
-def validate_postal_places(requests, *, root: Path = ROOT, limit=20):
+def validate_postal_places(requests, *, root: Path = ROOT, limit=20, source="geonames"):
     """Scan each eligible snapshot once per batch; preserve request order and source rows."""
     if not isinstance(requests, list) or not requests:
         raise ValueError("provide a nonempty JSON list of requests")
     if type(limit) is not int or not 1 <= limit <= 1000:
         raise ValueError("limit must be an integer from 1 to 1000")
+    if source == "la-poste":
+        from .open_reference.postal_eu import validate_place
+
+        directory = root / "localities/open_reference/postal_eu"
+        results = []
+        for request in requests:
+            if not isinstance(request, dict) or set(request) != {"country", "code", "locality"}:
+                raise ValueError("La Poste compares country, code and locality; supply exactly these fields")
+            results.append(validate_place(request["country"], request["code"], request["locality"],
+                                          limit=limit, directory=directory))
+        return results
+    if source != "geonames":
+        raise ValueError(f"unknown postal-place source: {source}")
     countries = {row["code"] for row in _countries(root)}
     keys = [_prepare(r, countries) for r in requests]
     wanted = set(keys)

@@ -1,0 +1,61 @@
+{
+  "country": "MU",
+  "retrieved_on": "2026-11-21",
+  "publisher": "Mauritius Digital Promotion Agency (MDPA), Open Data Mauritius",
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "sources": [
+    {
+      "id": "mu-mdpa-office-address",
+      "title": "List of Post Offices and Addresses in Mauritius",
+      "catalog_url": "https://data.govmu.org/dataset/list-post-offices-and-addresses-mauritius",
+      "url": "https://data.govmu.org/dataset/c7df8b6b-d1e8-4833-ac08-83c25e558203/resource/fe013deb-b33e-454b-86bf-14ba685fe786/download/listofpostoffice_address-in-mauritius_0.csv",
+      "resource_last_modified": "2024-09-30T11:49:14.683658Z",
+      "file": "office-addresses.csv",
+      "records": 105,
+      "headers": [
+        "Post Office",
+        "Address",
+        "Post Code",
+        "Tel No",
+        "Email"
+      ],
+      "columns": {
+        "office_name": "Post Office",
+        "address": "Address",
+        "postcode": "Post Code"
+      },
+      "bytes": 6169,
+      "sha256": "f58f2e42830d469e2fbf1bd1c25084e5342037b5a0eb5f25cfcaef9c8a86b081",
+      "file_sha256": "6cd0a4002366df8348c6b95c3695e027eb9cee06750be2b5cf62eb97ab6aa722"
+    },
+    {
+      "id": "mu-mdpa-office-location",
+      "title": "Location of Post Offices in Mauritius",
+      "catalog_url": "https://data.govmu.org/dataset/location-post-offices-mauritius",
+      "url": "https://data.govmu.org/dataset/d2d3e7af-9ea1-42b2-8012-ece7515f4033/resource/04fbd2e8-a62b-47a5-9fa2-aafaa19bfba9/download/location-of-post-offices-in-mauritius_0.csv",
+      "resource_last_modified": "2024-09-30T12:24:02.193820Z",
+      "file": "office-locations.csv",
+      "records": 102,
+      "headers": [
+        "Post_Office",
+        "Address",
+        "Phone_Number",
+        "Email_Address",
+        "Post_Code",
+        "Longitude",
+        "Latitude"
+      ],
+      "columns": {
+        "office_name": "Post_Office",
+        "address": "Address",
+        "postcode": "Post_Code",
+        "longitude": "Longitude",
+        "latitude": "Latitude"
+      },
+      "bytes": 9351,
+      "sha256": "64747de69254c00c3f473ccb62dde70cd808dc0e97c9d314adbcc928a968627a",
+      "file_sha256": "9e217a511c1416f64d38a85729d3e697045baf7d2d582da9f4eeb0238350fd30"
+    }
+  ]
+}
