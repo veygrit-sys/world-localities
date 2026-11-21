@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>郵便番号から住所を入力 | Veygrit</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="page-header">
+      <h1>住所入力</h1>
+      <p>郵便番号を入力し、地域や番地を候補から選んでください。</p>
+    </header>
+    <noscript>住所候補を表示するには、JavaScriptを有効にしてください。</noscript>
+    <div class="layout">
+      <form id="address-form" class="entry" autocomplete="off">
+        <section aria-labelledby="search-heading">
+          <h2 id="search-heading">郵便番号で検索</h2>
+          <div class="field-pair">
+            <div class="field">
+              <label for="country">国・地域</label>
+              <select id="country" name="country"><option value="JP">日本</option></select>
+            </div>
+            <div class="field">
+              <label for="postcode">郵便番号</label>
+              <input id="postcode" name="postcode" type="text" placeholder="例　064-0941"
+                     inputmode="numeric" enterkeyhint="search" spellcheck="false" maxlength="32"
+                     aria-describedby="lookup-status">
+            </div>
+          </div>
+          <p id="lookup-status" class="status" role="status" aria-atomic="true">郵便番号を入力してください。</p>
+          <button type="button" id="retry" class="text-action" hidden>もう一度検索</button>
+          <div id="levels" aria-label="住所候補"></div>
+        </section>
+        <section class="details-section" aria-labelledby="details-heading">
+          <h2 id="details-heading">住所の詳細</h2>
+          <label class="manual-toggle"><input type="checkbox" id="manual">地域・通りを手入力する</label>
+          <div id="manual-fields" class="field" hidden>
+            <label for="manual-place">都道府県・市区町村・町域など</label>
+            <input id="manual-place" type="text" maxlength="500" placeholder="現地で使われている地域名">
+          </div>
+          <div class="field">
+            <label for="street-extra">通り・番地の補足</label>
+            <input id="street-extra" type="text" maxlength="500" placeholder="候補で選んでいない通り・番地">
+          </div>
+          <div class="field-pair">
+            <div class="field">
+              <label for="building">建物名・棟</label>
+              <input id="building" type="text" maxlength="250">
+            </div>
+            <div class="field">
+              <label for="unit">階・部屋番号</label>
+              <input id="unit" type="text" maxlength="250">
+            </div>
+          </div>
+        </section>
+      </form>
+      <aside class="preview" aria-labelledby="preview-heading">
+        <h2 id="preview-heading">入力した住所</h2>
+        <div id="preview-text" class="preview-text"></div>
+        <button id="copy" class="primary" type="button" disabled>住所をコピー</button>
+        <p id="copy-status" class="copy-status" role="status" aria-atomic="true"></p>
+        <p class="privacy-note">検索には国・地域、郵便番号、選択した候補を使用します。手入力した住所はこの画面にのみ保持されます。</p>
+      </aside>
+    </div>
+    <footer><a href="/sources">住所候補の出典・利用条件</a></footer>
+  </main>
+</body>
+</html>
