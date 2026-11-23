@@ -1,0 +1,360 @@
+{
+  "full_picker_first_page": {
+    "FR": {
+      "labeled": {
+        "all": {
+          "correct_on_page": 603,
+          "prefix_plus_spelling_top1": 584,
+          "prefix_top1": 337,
+          "queries": 608,
+          "spelling_returned": 247,
+          "spelling_target_absent_from_page": 0,
+          "spelling_top1_correct": 247
+        },
+        "omission": {
+          "correct_on_page": 247,
+          "prefix_plus_spelling_top1": 247,
+          "prefix_top1": 0,
+          "queries": 252,
+          "spelling_returned": 247,
+          "spelling_target_absent_from_page": 0,
+          "spelling_top1_correct": 247
+        },
+        "one_word": {
+          "correct_on_page": 103,
+          "prefix_plus_spelling_top1": 87,
+          "prefix_top1": 87,
+          "queries": 103,
+          "spelling_returned": 0,
+          "spelling_target_absent_from_page": 0,
+          "spelling_top1_correct": 0
+        },
+        "prefix": {
+          "correct_on_page": 253,
+          "prefix_plus_spelling_top1": 250,
+          "prefix_top1": 250,
+          "queries": 253,
+          "spelling_returned": 0,
+          "spelling_target_absent_from_page": 0,
+          "spelling_top1_correct": 0
+        }
+      },
+      "other_postcode_controls": {
+        "excluded_prefix": 1,
+        "spelling_returned": 0,
+        "zero_prefix_queries": 319
+      }
+    },
+    "JP": {
+      "labeled": {
+        "all": {
+          "correct_on_page": 349,
+          "prefix_plus_spelling_top1": 214,
+          "prefix_top1": 93,
+          "queries": 577,
+          "spelling_returned": 131,
+          "spelling_target_absent_from_page": 1,
+          "spelling_top1_correct": 121
+        },
+        "omission": {
+          "correct_on_page": 130,
+          "prefix_plus_spelling_top1": 121,
+          "prefix_top1": 0,
+          "queries": 156,
+          "spelling_returned": 131,
+          "spelling_target_absent_from_page": 1,
+          "spelling_top1_correct": 121
+        },
+        "prefix": {
+          "correct_on_page": 214,
+          "prefix_plus_spelling_top1": 88,
+          "prefix_top1": 88,
+          "queries": 225,
+          "spelling_returned": 0,
+          "spelling_target_absent_from_page": 0,
+          "spelling_top1_correct": 0
+        },
+        "suffix": {
+          "correct_on_page": 5,
+          "prefix_plus_spelling_top1": 5,
+          "prefix_top1": 5,
+          "queries": 196,
+          "spelling_returned": 0,
+          "spelling_target_absent_from_page": 0,
+          "spelling_top1_correct": 0
+        }
+      },
+      "other_postcode_controls": {
+        "spelling_returned": 0,
+        "zero_prefix_queries": 320
+      }
+    },
+    "US": {
+      "labeled": {
+        "all": {
+          "correct_on_page": 168,
+          "prefix_plus_spelling_top1": 137,
+          "prefix_top1": 103,
+          "queries": 231,
+          "spelling_returned": 34,
+          "spelling_target_absent_from_page": 0,
+          "spelling_top1_correct": 34
+        },
+        "omission": {
+          "correct_on_page": 34,
+          "prefix_plus_spelling_top1": 34,
+          "prefix_top1": 0,
+          "queries": 77,
+          "spelling_returned": 34,
+          "spelling_target_absent_from_page": 0,
+          "spelling_top1_correct": 34
+        },
+        "one_word": {
+          "correct_on_page": 57,
+          "prefix_plus_spelling_top1": 30,
+          "prefix_top1": 30,
+          "queries": 77,
+          "spelling_returned": 0,
+          "spelling_target_absent_from_page": 0,
+          "spelling_top1_correct": 0
+        },
+        "prefix": {
+          "correct_on_page": 77,
+          "prefix_plus_spelling_top1": 73,
+          "prefix_top1": 73,
+          "queries": 77,
+          "spelling_returned": 0,
+          "spelling_target_absent_from_page": 0,
+          "spelling_top1_correct": 0
+        }
+      },
+      "other_postcode_controls": {
+        "excluded_prefix": 2,
+        "spelling_returned": 0,
+        "zero_prefix_queries": 58
+      }
+    }
+  },
+  "held_out": {
+    "FR": {
+      "all": {
+        "baseline_mrr": 0.7772,
+        "baseline_top1": 0.6645,
+        "model_mrr": 0.9911,
+        "model_top1": 0.9836,
+        "queries": 608
+      },
+      "omission": {
+        "baseline_mrr": 0.4922,
+        "baseline_top1": 0.246,
+        "model_mrr": 1.0,
+        "model_top1": 1.0,
+        "queries": 252
+      },
+      "one_word": {
+        "baseline_mrr": 0.9482,
+        "baseline_top1": 0.9029,
+        "model_mrr": 0.9571,
+        "model_top1": 0.9223,
+        "queries": 103
+      },
+      "prefix": {
+        "baseline_mrr": 0.9914,
+        "baseline_top1": 0.9842,
+        "model_mrr": 0.996,
+        "model_top1": 0.9921,
+        "queries": 253
+      }
+    },
+    "JP": {
+      "all": {
+        "baseline_mrr": 0.5529,
+        "baseline_top1": 0.3414,
+        "model_mrr": 0.8528,
+        "model_top1": 0.7764,
+        "queries": 577
+      },
+      "omission": {
+        "baseline_mrr": 0.4794,
+        "baseline_top1": 0.2436,
+        "model_mrr": 0.9765,
+        "model_top1": 0.9551,
+        "queries": 156
+      },
+      "prefix": {
+        "baseline_mrr": 0.6469,
+        "baseline_top1": 0.48,
+        "model_mrr": 0.6528,
+        "model_top1": 0.4844,
+        "queries": 225
+      },
+      "suffix": {
+        "baseline_mrr": 0.5035,
+        "baseline_top1": 0.2602,
+        "model_mrr": 0.9838,
+        "model_top1": 0.9694,
+        "queries": 196
+      }
+    },
+    "US": {
+      "all": {
+        "baseline_mrr": 0.6403,
+        "baseline_top1": 0.5411,
+        "model_mrr": 0.8898,
+        "model_top1": 0.8485,
+        "queries": 231
+      },
+      "omission": {
+        "baseline_mrr": 0.2739,
+        "baseline_top1": 0.0909,
+        "model_mrr": 1.0,
+        "model_top1": 1.0,
+        "queries": 77
+      },
+      "one_word": {
+        "baseline_mrr": 0.647,
+        "baseline_top1": 0.5325,
+        "model_mrr": 0.6695,
+        "model_top1": 0.5455,
+        "queries": 77
+      },
+      "prefix": {
+        "baseline_mrr": 1.0,
+        "baseline_top1": 1.0,
+        "model_mrr": 1.0,
+        "model_top1": 1.0,
+        "queries": 77
+      }
+    }
+  },
+  "maximum_pool_size": 20,
+  "metrics_scope": "offline ranking within a known candidate pool",
+  "prefix_retrieval_and_ranking": {
+    "FR": {
+      "all": {
+        "model_top1": 0.5691,
+        "ordered_top1": 0.5658,
+        "queries": 608,
+        "target_recalled": 356
+      },
+      "omission": {
+        "model_top1": 0.0,
+        "ordered_top1": 0.0,
+        "queries": 252,
+        "target_recalled": 0
+      },
+      "one_word": {
+        "model_top1": 0.9223,
+        "ordered_top1": 0.932,
+        "queries": 103,
+        "target_recalled": 103
+      },
+      "prefix": {
+        "model_top1": 0.9921,
+        "ordered_top1": 0.9802,
+        "queries": 253,
+        "target_recalled": 253
+      }
+    },
+    "JP": {
+      "all": {
+        "model_top1": 0.1976,
+        "ordered_top1": 0.1958,
+        "queries": 577,
+        "target_recalled": 230
+      },
+      "omission": {
+        "model_top1": 0.0,
+        "ordered_top1": 0.0,
+        "queries": 156,
+        "target_recalled": 0
+      },
+      "prefix": {
+        "model_top1": 0.4844,
+        "ordered_top1": 0.48,
+        "queries": 225,
+        "target_recalled": 225
+      },
+      "suffix": {
+        "model_top1": 0.0255,
+        "ordered_top1": 0.0255,
+        "queries": 196,
+        "target_recalled": 5
+      }
+    },
+    "US": {
+      "all": {
+        "model_top1": 0.5152,
+        "ordered_top1": 0.5108,
+        "queries": 231,
+        "target_recalled": 154
+      },
+      "omission": {
+        "model_top1": 0.0,
+        "ordered_top1": 0.0,
+        "queries": 77,
+        "target_recalled": 0
+      },
+      "one_word": {
+        "model_top1": 0.5455,
+        "ordered_top1": 0.5325,
+        "queries": 77,
+        "target_recalled": 77
+      },
+      "prefix": {
+        "model_top1": 1.0,
+        "ordered_top1": 1.0,
+        "queries": 77,
+        "target_recalled": 77
+      }
+    }
+  },
+  "split": {
+    "test": {
+      "FR": {
+        "distinct_candidate_labels": 267,
+        "eligible_groups": 1125,
+        "postcodes": 64,
+        "queries": 608
+      },
+      "JP": {
+        "distinct_candidate_labels": 249,
+        "eligible_groups": 150,
+        "postcodes": 64,
+        "queries": 577
+      },
+      "US": {
+        "distinct_candidate_labels": 121,
+        "eligible_groups": 12,
+        "postcodes": 12,
+        "queries": 231
+      }
+    },
+    "train": {
+      "FR": {
+        "distinct_candidate_labels": 543,
+        "eligible_groups": 2113,
+        "postcodes": 96,
+        "queries": 1211
+      },
+      "JP": {
+        "distinct_candidate_labels": 357,
+        "eligible_groups": 367,
+        "postcodes": 96,
+        "queries": 758
+      },
+      "US": {
+        "distinct_candidate_labels": 285,
+        "eligible_groups": 23,
+        "postcodes": 23,
+        "queries": 438
+      }
+    }
+  },
+  "training_pairs": {
+    "FR": 7034,
+    "JP": 4085,
+    "US": 6792
+  },
+  "version": "address-ranker-v1"
+}
