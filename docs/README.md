@@ -3,6 +3,7 @@
 | 分類 | 資料 |
 |---|---|
 | 世界の郵便番号 | [段階別の保存計画・収録範囲・制約](../postal/README.md) |
+| 取得失敗・保留原典 | [優先度・復旧固定版・未解決の条件](plans/source-recovery-20261124.md) |
 | 利用ガイド | [データと利用方法](guides/data-and-usage.md) |
 | 構成・責務 | [リポジトリ構成](repository-layout.md) |
 | 実装の順序 | [実行方針・到達条件](implementation-strategy.md) |

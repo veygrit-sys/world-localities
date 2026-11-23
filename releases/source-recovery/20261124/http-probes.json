@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-24",
+  "reviewed_timezone": "Asia/Tokyo",
+  "environment": "Codex execution workspace, unauthenticated public HTTP GET",
+  "note": "HTTP status is a point-in-time access observation, not national data availability. HTML success is not assignment-table ingestion.",
+  "probes": [
+    {
+      "key": "AF",
+      "url": "https://postalcode.afghanpost.gov.af/",
+      "error": "HTTP Error 503: Service Unavailable",
+      "elapsed_seconds": 9.56,
+      "source_rows_imported": 0
+    },
+    {
+      "key": "BN",
+      "url": "https://www.post.gov.bn/Documents/Buku%20Poskod%20Edisi%20ke%202%20%28Kemaskini%2026122018%29.pdf",
+      "error": "HTTP Error 503: Service Unavailable",
+      "elapsed_seconds": 6.64,
+      "source_rows_imported": 0
+    },
+    {
+      "key": "IT",
+      "url": "https://anncsu.open.agenziaentrate.gov.it/age-inspire/opendata/anncsu/getds.php?STRAD_ITA=",
+      "error": "HTTP Error 403: Forbidden",
+      "elapsed_seconds": 5.13,
+      "source_rows_imported": 0
+    },
+    {
+      "key": "KG",
+      "url": "https://post.kg/language/ru/indeksy-novye/",
+      "error": "HTTP Error 503: Service Unavailable",
+      "elapsed_seconds": 10.48,
+      "source_rows_imported": 0
+    },
+    {
+      "key": "KW",
+      "url": "https://www.moc.gov.kw/en/important-links?tab=2",
+      "error": "HTTP Error 503: Service Unavailable",
+      "elapsed_seconds": 6.74,
+      "source_rows_imported": 0
+    },
+    {
+      "key": "MG",
+      "url": "https://www.paositramalagasy.mg/nos_agence",
+      "status": 200,
+      "resolved_url": "https://www.paositramalagasy.mg/nos_agence",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 58634,
+      "sha256": "6b4d048fc48ec16788ef5591a2e1b8b37930b63d2641a4fa97314da8b2a05270",
+      "elapsed_seconds": 7.36,
+      "source_rows_imported": 0
+    },
+    {
+      "key": "NI",
+      "url": "https://www.correos.gob.ni/postalcode/postalcodes.php",
+      "error": "HTTP Error 403: Forbidden",
+      "elapsed_seconds": 6.06,
+      "source_rows_imported": 0
+    },
+    {
+      "key": "RS",
+      "url": "https://data.gov.rs/sr/datasets/adresni-registar/",
+      "status": 200,
+      "resolved_url": "https://data.gov.rs/sr/datasets/adresni-registar/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 106745,
+      "sha256": "057f656464cfd08a7a8310f56c7b9e9326611d4ab358355fe9405822a5dda5fc",
+      "elapsed_seconds": 5.84,
+      "source_rows_imported": 0
+    },
+    {
+      "key": "TJ",
+      "url": "https://tajikpost.tj/ru/перечень-почтовых-индексов-таджикис/",
+      "error": "HTTP Error 503: Service Unavailable",
+      "elapsed_seconds": 12.25,
+      "source_rows_imported": 0
+    },
+    {
+      "key": "VN",
+      "url": "https://mst.gov.vn/sua-doi-ma-buu-chinh-quoc-gia-theo-he-thong-don-vi-hanh-chinh-2-cap-19725101515084996.htm",
+      "status": 200,
+      "resolved_url": "https://mst.gov.vn/sua-doi-ma-buu-chinh-quoc-gia-theo-he-thong-don-vi-hanh-chinh-2-cap-19725101515084996.htm",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 156380,
+      "sha256": "c59b1ec87e50684058f3af44d39544123853f49ce88f263e92fd75d6888002cf",
+      "elapsed_seconds": 9.7,
+      "source_rows_imported": 0
+    }
+  ]
+}

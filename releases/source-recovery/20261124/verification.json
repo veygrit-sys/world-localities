@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-24",
+  "timezone": "Asia/Tokyo",
+  "runtime": {
+    "python": "3.12.14",
+    "osmium": "4.3.2"
+  },
+  "common_tests": {
+    "run": 1312,
+    "skipped": 7,
+    "failures": 0,
+    "errors": 0
+  },
+  "hierarchy_tests": {
+    "run": 247,
+    "failures": 0,
+    "errors": 0
+  },
+  "source_inventory_entries": 43,
+  "historical_postal_decisions_preserved": 38,
+  "raw_osm_files_reacquired_and_pinned": 8,
+  "snapshots": {
+    "microstates": 63870,
+    "crown": 27104
+  },
+  "snapshot_hashes_and_full_index_verification": "PASS",
+  "country_modules_and_catalog": "PASS",
+  "generated_country_index": "PASS",
+  "repository_layout": "PASS",
+  "relative_links": "PASS",
+  "diff_whitespace": "PASS",
+  "national_address_completeness_verified": false,
+  "deliverability_verified": false
+}

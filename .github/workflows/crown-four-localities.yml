@@ -4,14 +4,20 @@ on:
   push:
     paths:
       - scripts/crown_four_localities.py
+      - scripts/source_recovery.py
       - tests/test_crown_four_localities.py
+      - tests/test_europe_extract_redirects.py
+      - tests/test_source_recovery.py
       - registries/europe/crown-four/**
       - .github/workflows/crown-four-localities.yml
       - localities/__main__.py
   pull_request:
     paths:
       - scripts/crown_four_localities.py
+      - scripts/source_recovery.py
       - tests/test_crown_four_localities.py
+      - tests/test_europe_extract_redirects.py
+      - tests/test_source_recovery.py
       - registries/europe/crown-four/**
       - .github/workflows/crown-four-localities.yml
       - localities/__main__.py
@@ -35,6 +41,8 @@ jobs:
         run: |
           python -m py_compile scripts/crown_four_localities.py
           python -m unittest discover -s tests -p 'test_crown_four_localities.py' -v
+          python -m unittest discover -s tests -p 'test_europe_extract_redirects.py' -v
+          python -m unittest discover -s tests -p 'test_source_recovery.py' -v
       - name: Audit all repository GeoNames data and build source separated index
         run: |
           mkdir -p evidence
@@ -66,8 +74,8 @@ jobs:
       - name: Fetch exact national/regional source bytes with receipts
         run: |
           mkdir -p "$RUNNER_TEMP/crown-pbf" evidence
-          python scripts/crown_four_localities.py download --source guernsey-jersey --directory "$RUNNER_TEMP/crown-pbf" > evidence/ci-download.json
-          python scripts/crown_four_localities.py download --source isle-of-man --directory "$RUNNER_TEMP/crown-pbf" > evidence/im-download.json
+          python scripts/source_recovery.py download-europe --collection crown \
+            --directory "$RUNNER_TEMP/crown-pbf" --report evidence/source-downloads.json
       - name: Full region PBF scan and immutable source evidence index
         run: |
           python scripts/crown_four_localities.py build \
@@ -83,6 +91,7 @@ jobs:
         run: |
           zstd -T0 -5 "$RUNNER_TEMP/crown-four-osm.sqlite" -o evidence/crown-four-osm.sqlite.zst
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
         with:
           name: crown-four-geofabrik-odbl-evidence
           path: evidence/

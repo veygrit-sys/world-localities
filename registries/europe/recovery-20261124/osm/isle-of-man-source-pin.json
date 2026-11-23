@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "source_id": "isle-of-man",
+  "url": "https://download.geofabrik.de/europe/isle-of-man-latest.osm.pbf",
+  "path": "isle-of-man-latest.osm.pbf",
+  "bytes": 6128457,
+  "sha256": "cd17687ce8dac11ec8eb70b50233a760249b713f3ac2bb87403bb61f94df36d5",
+  "retrieved_at": "2026-11-23T16:54:03.943339+00:00",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors / Geofabrik",
+  "fixture": false,
+  "legal_boundary_verified": false,
+  "resolved_url": "https://download.geofabrik.de/europe/isle-of-man/isle-of-man-261122.osm.pbf"
+}

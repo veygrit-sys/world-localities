@@ -206,8 +206,9 @@ def download(slug,dest):
         with urlopen(req,timeout=120) as r:
             endpoint=urlsplit(r.geturl())
             if (r.status!=200 or endpoint.scheme!='https' or
-                not re.fullmatch(r'download(?:-ext[0-9]+)?\.geofabrik\.de',endpoint.hostname or '') or
-                not re.fullmatch(r'/europe/'+re.escape(slug)+r'-(?:latest|[0-9]{6})\.osm\.pbf',endpoint.path)):
+                not re.fullmatch(r'download(?:-ext[0-9]+)?\.geofabrik\.de', endpoint.netloc) or
+                endpoint.query or endpoint.fragment or
+                not re.fullmatch(rf'/europe/(?:{re.escape(slug)}/)?{re.escape(slug)}-(?:latest|[0-9]{{6}})\.osm\.pbf',endpoint.path)):
                 raise ValueError('Unexpected Geofabrik download/redirect: HTTP='+str(r.status)+' host='+str(endpoint.hostname)+' path='+endpoint.path)
             n=0
             with part.open('xb') as f:

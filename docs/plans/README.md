@@ -4,6 +4,7 @@
 
 | 対象 | 資料 |
 |---|---|
+| **取得失敗・保留原典** | [43件の優先度・今回の復旧・残る条件](source-recovery-20261124.md)（[機械可読台帳](source-recovery-20261124.json)） |
 | **世界の郵便番号** | [公開原本の保存→公式補強→特殊制度→継続管理](../../postal/README.md) |
 | **住所検証・住所翻訳の共通処理** | [原文・部屋番号保持、言語間矛盾、検証結果契約の更新方針](address-integrity-20261118.md) |
 | **アイスランド地理座標検査** | [HMS住所と独立機関IS50V道路との照合、RS/ES/ITアクセス障害、PR #8整理](europe-unblocking-and-crosscheck-20261108.md)（[集約監査レシート](iceland-hms-is50v-external-geospatial-audit-20261108.json)） |
