@@ -239,6 +239,25 @@ def qld_rows(payload, country, query):
                             locality=row["locality"], register_status=row.get("address_status"))
 
 
+def cape_town_query(query, limit):
+    number, _, rest = " ".join(query.upper().split()).partition(" ")
+    if not rest:
+        raise ValueError("za-cape-town takes the registered street address including the suburb")
+    # The municipal label pads some street numbers with a second space.
+    variants = [sql_literal(number + space + rest) for space in (" ", "  ")]
+    return arc_query("UPPER(FULL_ADR) IN (" + ", ".join(variants) + ")",
+                     "OBJECTID,FULL_ADR,OFC_SBRB_NAME,LU_ADR_STS_KEY,LU_LIFE_CL_STG_KEY", limit)
+
+
+def cape_town_rows(payload, country, query):
+    expected = " ".join(query.casefold().split())
+    for row in arc_rows(payload):
+        label = row["FULL_ADR"]
+        if " ".join(label.casefold().split()) == expected:
+            yield candidate(label, "property_address", record_id=row["OBJECTID"], locality=row["OFC_SBRB_NAME"],
+                            register_status=row.get("LU_ADR_STS_KEY"), lifecycle=row.get("LU_LIFE_CL_STG_KEY"))
+
+
 def uy_query(query, limit):
     return {"q": query, "limit": limit}
 
@@ -276,5 +295,6 @@ ADAPTERS = {
     "us-census": (us_query, us_rows), "dc-mar": (dc_query, dc_rows),
     "it-bologna": (bologna_query, bologna_rows), "ca-vancouver": (vancouver_query, vancouver_rows),
     "ar-georef": (ar_query, ar_rows), "au-queensland": (qld_query, qld_rows),
+    "za-cape-town": (cape_town_query, cape_town_rows),
     "uy-ide": (uy_query, uy_rows), "ch-swisstopo": (swiss_query, swiss_rows),
 }

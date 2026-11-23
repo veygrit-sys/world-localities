@@ -8,6 +8,7 @@ import unicodedata
 # Keep each publisher's records independent, including when two cover the same street.
 LOCAL_SOURCES = {
     "JP": {"gsi": "jp"},
+    "TW": {"taipei-doorplates": "taipei"},
     "CN": {"hk-mainland-offices": "cn"},
     "US": {"dc-mar": "us", "osm-dc": "osm"},
     "MU": {"mu-post-offices": "africa"},

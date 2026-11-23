@@ -1,0 +1,79 @@
+{
+  "source_id": "tw-taipei-doorplates",
+  "publisher": "臺北市政府民政局",
+  "title": "臺北市門牌位置數值資料",
+  "source_url": "https://data.taipei/dataset/detail?id=b7c8e724-1e98-45ee-a0bd-f3840623ed97",
+  "download_url": "https://data.taipei/api/frontstage/tpeod/dataset/resource.download?rid=ce76ca0c-7f94-4935-ab47-1d2a41ca2abb",
+  "district_code_reference": "https://www.mohw.gov.tw/dl-92264-49f55cd1-e444-4169-9240-619fb3f067dd.html",
+  "license": "Open Government Data License, version 1.0",
+  "terms_url": "https://data.taipei/rule",
+  "attribution": "臺北市政府民政局，臺北市門牌位置數值資料（2026-11-02），政府資料開放授權條款第1版。門牌文字索引由 world-localities 整理。",
+  "source_as_of": "2026-11-02",
+  "retrieved_on": "2026-11-24",
+  "raw_bytes": 124701186,
+  "raw_sha256": "51b3d530445f5f6cc742ae4b0f2598891f48e760958278e500cf5a1d52c752e3",
+  "source_rows": 1158179,
+  "excluded_incomplete_rows": 1,
+  "districts": {
+    "63000010": {
+      "labels": 85092,
+      "source_rows": 85094,
+      "sha256": "73216746edc5a6f78443f32eaa1a3fd13df2a9882cdd2ffae54b6cec7e6cb96a"
+    },
+    "63000020": {
+      "labels": 95938,
+      "source_rows": 95938,
+      "sha256": "9e1b509505b2f9c9902f85730dc3814e1f47e16eb47c74c7ffe9d3f74eed1a5e"
+    },
+    "63000030": {
+      "labels": 129843,
+      "source_rows": 130090,
+      "sha256": "9394ad9f1f683f2c95ea423d9ab1044d19b0416e4c037ebae512820f732654d7"
+    },
+    "63000040": {
+      "labels": 138718,
+      "source_rows": 139184,
+      "sha256": "15eff943d6c9f3dbfd37fd106fd3d7eb298034d8d7163da17365ce84162eb20d"
+    },
+    "63000050": {
+      "labels": 74344,
+      "source_rows": 74376,
+      "sha256": "abddfe5c0b4df8166d41de93c69a124e82b07a0b70b0b43b7d21150c4ae4b0d0"
+    },
+    "63000060": {
+      "labels": 61598,
+      "source_rows": 61612,
+      "sha256": "8649fb8b19db00c30c5141ff777f5d846fb03bdd017d72843a9ab08039b18d63"
+    },
+    "63000070": {
+      "labels": 87250,
+      "source_rows": 87265,
+      "sha256": "0e74d24e33e8bdc661902ed7c6c5ecba22248ce6bbe06f989e97fa5f2e4c75a5"
+    },
+    "63000080": {
+      "labels": 106225,
+      "source_rows": 106274,
+      "sha256": "77dd4e3ca97034e29f51181ec15b940ebb949ed8339eeb91554e9dd4b84dac86"
+    },
+    "63000090": {
+      "labels": 52687,
+      "source_rows": 52689,
+      "sha256": "d37c2194fdf14ee96d57d057b486cfabd36f4b5859ff330bfc972088dd3fde97"
+    },
+    "63000100": {
+      "labels": 117838,
+      "source_rows": 117850,
+      "sha256": "dfc1885c1362d3f5df5f15067154ec508e26ff2f72354669ae2c4ca97423c953"
+    },
+    "63000110": {
+      "labels": 109233,
+      "source_rows": 109248,
+      "sha256": "1f9a4b35a48d9d8f5d9df68cb7201b3a503c7907370ef1c6254badec4e093f0c"
+    },
+    "63000120": {
+      "labels": 98551,
+      "source_rows": 98558,
+      "sha256": "197f0f923bfa08bee3c9e47ccd4b580e983b0a012907f0f09f5b88632a278f7f"
+    }
+  }
+}

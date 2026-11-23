@@ -227,11 +227,11 @@ def download(code, root, catalog=None):
             provider = doc['countries'][code]['extract_provider']
             slug = requested.path.rsplit('/', 1)[-1].removesuffix('-latest.osm.pbf')
             if provider == 'geofabrik':
-                path_ok = bool(re.fullmatch(r'/europe/' + re.escape(slug) + r'-(?:latest|[0-9]{6})\.osm\.pbf', final.path))
+                path_ok = bool(re.fullmatch(rf'/europe/(?:{re.escape(slug)}/)?{re.escape(slug)}-(?:latest|[0-9]{{6}})\.osm\.pbf', final.path))
             else:
                 path_ok = final.path == requested.path
             if (stream.status != 200 or final.scheme != 'https'
-                    or final.hostname != requested.hostname or final.username or final.password
+                    or final.netloc != requested.netloc
                     or final.query or final.fragment or not path_ok):
                 raise ValueError('unexpected source status or redirect: ' + str(stream.status)
                                  + ' final=' + stream.geturl())
@@ -246,7 +246,7 @@ def download(code, root, catalog=None):
         os.link(part,destination)
         part.unlink()
         pin={'schema_version':1,'source_kind':'osm-community-extract','country':code,
-             'source_url':url,'filename':destination.name,
+             'source_url':url,'resolved_url':final.geturl(),'filename':destination.name,
              'acquired_at':datetime.now(timezone.utc).isoformat(), 'bytes':total,
              'sha256':digest.hexdigest(),'license':LICENSE,'attribution':ATTRIBUTION,
              'rights_reviewed':True,'fixture':False,'national_completeness_verified':False}

@@ -28,12 +28,16 @@ class OfficialApiTests(unittest.TestCase):
             for s in sources:
                 self.assertTrue(s["documentation"].startswith("https://"))
                 self.assertIn(s["authority"], {"government", "municipality", "postal_operator"})
+                self.assertEqual(s["intake"] == "live_api", bool(s["endpoint"]))
+                if not s["endpoint"]:
+                    self.assertTrue(s["next_check"])
                 self.assertTrue(all(c.isascii() and len(c) == 2 for c in s["countries"]))
                 if s["status"] == "implemented":
                     self.assertTrue(s["endpoint"].startswith("https://"))
             with patch.object(sys, "argv", ["localities", "official-sources", "--country", "tw"]), redirect_stdout(io.StringIO()) as out:
                 main()
-            self.assertEqual(json.loads(out.getvalue())["sources"][0]["status"], "candidate")
+            taipei = json.loads(out.getvalue())["sources"][0]
+            self.assertEqual((taipei["status"], taipei["intake"]), ("candidate", "bundled_offline"))
             self.assertEqual(official_sources("JP"), [])
 
     def test_invalid_routes_never_send(self):
@@ -106,6 +110,17 @@ class OfficialApiTests(unittest.TestCase):
             expected = q if country == "IT" else q.partition(" ")[2]
             self.assertEqual(json.loads(literal), expected.upper())
             self.assertEqual(result["status"], "no_candidates")
+
+    def test_cape_town_suburb_and_registered_label_must_agree(self):
+        def row(suburb):
+            return {"attributes": {"OBJECTID": 10, "FULL_ADR": "12  HERTZOG Boulevard " + suburb,
+                                   "OFC_SBRB_NAME": suburb}}
+        r, params = replay("ZA", "za-cape-town", "12 Hertzog Boulevard Foreshore",
+                           {"features": [row("FORESHORE"), row("BERGVLIET")]})
+        self.assertEqual(params["returnGeometry"], ["false"])
+        self.assertIn("12  HERTZOG", params["where"][0])
+        self.assertEqual([(h["locality"], h["comparison"]) for h in r["candidates"]],
+                         [("FORESHORE", "exact_label")])
 
     def test_census_range_is_never_an_address_point(self):
         def hit(state):
