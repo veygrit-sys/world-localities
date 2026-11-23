@@ -1,0 +1,873 @@
+{
+  "openapi": "3.1.1",
+  "jsonSchemaDialect": "https://json-schema.org/draft/2020-12/schema",
+  "info": {
+    "title": "Offline Address AI",
+    "version": "1.0.0",
+    "description": "Authenticated address processing for operator deployments. The system never calls a live carrier, creates a shipment, or verifies deliverability. Field fitting produces address fragments only. Coverage depends on installed source snapshots, country, script and scope; an unsupported or unobserved address is not evidence of nonexistence. Send personal data only in the JSON request body over TLS."
+  },
+  "security": [{"serviceBearer": []}],
+  "paths": {
+    "/healthz": {
+      "get": {
+        "operationId": "healthCheck",
+        "security": [],
+        "summary": "Worker liveness only; not index readiness.",
+        "responses": {
+          "200": {
+            "description": "Process is alive.",
+            "content": {
+              "application/json": {
+                "schema": {"type": "object", "properties": {"status": {"const": "alive"}}, "required": ["status"]}
+              }
+            },
+            "headers": {"Cache-Control": {"schema": {"const": "no-store"}}}
+          }
+        }
+      }
+    },
+    "/v1/address": {
+      "post": {
+        "operationId": "processAddress",
+        "summary": "Validate, suggest, translate, fit fields, or prepare a reviewed address fragment.",
+        "description": "No query parameters. Send UTF-8 JSON, Content-Type: application/json and a Content-Length. Duplicate JSON keys, conflicting address aliases, and caller-specified index paths or profile definitions are rejected. A gated preparation returns null fields if a supplied location component is not established at premise level, translation requires review, or carrier fields do not fit.",
+        "requestBody": {
+          "required": true,
+          "x-max-body-bytes": 16384,
+          "content": {
+            "application/json": {
+              "schema": {"$ref": "#/components/schemas/AddressRequest"},
+              "examples": {
+                "invalidZip": {
+                  "summary": "A typed address with invalid ZIP is an evaluated result (HTTP 200).",
+                  "value": {"operation": "validate", "country": "US", "components": {"postcode": "02A16"}},
+                  "x-expected-status": "invalid_format"
+                },
+                "publicPoint": {
+                  "summary": "Public DC MAR address point. A point match is not a carrier verdict.",
+                  "value": {
+                    "operation": "validate",
+                    "country": "US",
+                    "components": {
+                      "house_number": "1600",
+                      "road": "PENNSYLVANIA AVENUE NW",
+                      "city": "WASHINGTON",
+                      "state": "DC",
+                      "postcode": "20500"
+                    }
+                  },
+                  "x-expected-status": "matched"
+                },
+                "unknownCountry": {
+                  "summary": "A well-formed country code without applicable data.",
+                  "value": {"operation": "validate", "country": "ZZ", "components": {"postcode": "12345"}},
+                  "x-expected-status": "unsupported"
+                },
+                "suggestNoCountry": {
+                  "summary": "With a configured index excluding ZZ, manual entry remains possible.",
+                  "value": {"operation": "suggest", "country": "ZZ", "postcode": "12345"},
+                  "x-expected-status": "unsupported_country"
+                },
+                "preserveOpaque": {
+                  "summary": "Unattested building text stays visible for review.",
+                  "value": {
+                    "operation": "translate",
+                    "country": "JP",
+                    "components": {"address_line2": "架空見本棟０７－Ｂ号室"},
+                    "source_language": "ja",
+                    "target_language": "en"
+                  },
+                  "x-expected-status": "needs_review"
+                },
+                "fitOnly": {
+                  "summary": "Fits profile: address fields only; no verification of the street or delivery.",
+                  "value": {
+                    "operation": "fit_label",
+                    "country": "US",
+                    "components": {
+                      "house_number": "07",
+                      "road": "Example Street",
+                      "city": "Example",
+                      "state": "MA",
+                      "postcode": "02116"
+                    },
+                    "profile_id": "ups-us-shipto"
+                  },
+                  "x-expected-status": "fits"
+                },
+                "cityTooLong": {
+                  "summary": "Source input is not silently truncated to fit a carrier label.",
+                  "value": {
+                    "operation": "fit_label",
+                    "country": "US",
+                    "components": {
+                      "house_number": "07",
+                      "road": "Example Street",
+                      "city": "Example City That Is Too Long",
+                      "state": "MA",
+                      "postcode": "02116"
+                    },
+                    "profile_id": "ups-us-shipto"
+                  },
+                  "x-expected-status": "review_required"
+                },
+                "yamatoOffice": {
+                  "summary": "The published Japan Post business-office address is not a residential coverage claim.",
+                  "value": {
+                    "operation": "prepare_label",
+                    "country": "JP",
+                    "components": {
+                      "organization": "外務省",
+                      "postcode": "100-8919",
+                      "state": "東京都",
+                      "city": "千代田区",
+                      "address_line1": "霞が関2丁目2-1"
+                    },
+                    "profile_id": "yamato-jp-b2"
+                  },
+                  "x-expected-status": "prepared"
+                },
+                "preparePoint": {
+                  "summary": "Prepare an address-only carrier fragment from a public source match. Never transmitted.",
+                  "value": {
+                    "operation": "prepare_label",
+                    "country": "US",
+                    "components": {
+                      "house_number": "1600",
+                      "road": "PENNSYLVANIA AVENUE NW",
+                      "city": "WASHINGTON",
+                      "state": "DC",
+                      "postcode": "20500"
+                    },
+                    "profile_id": "ups-us-shipto"
+                  },
+                  "x-expected-status": "prepared"
+                },
+                "unobservedUnit": {
+                  "summary": "Adding an unattested unit changes preparation to manual review.",
+                  "value": {
+                    "operation": "prepare_label",
+                    "country": "US",
+                    "components": {
+                      "house_number": "1600",
+                      "road": "PENNSYLVANIA AVENUE NW",
+                      "city": "WASHINGTON",
+                      "state": "DC",
+                      "postcode": "20500",
+                      "unit": "07B"
+                    },
+                    "profile_id": "ups-us-shipto"
+                  },
+                  "x-expected-status": "review_required"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Evaluated request. Inspect operation-specific status, evidence and review state.",
+            "content": {
+              "application/json": {
+                "schema": {"$ref": "#/components/schemas/AddressResponse"},
+                "examples": {
+                  "invalidZip": {
+                    "summary": "A valid HTTP request evaluated against the country format.",
+                    "value": {
+                      "schema_version": 1,
+                      "operation": "validate",
+                      "result": {
+                        "country": "US",
+                        "status": "invalid_format",
+                        "matched_scope": null,
+                        "verified_fields": [],
+                        "unverified_fields": ["postcode"],
+                        "ignored_fields": [],
+                        "issues": ["invalid_postcode_format"],
+                        "evidence": [],
+                        "evidence_count": 0,
+                        "blocking_conflict": true,
+                        "deliverability_verified": false
+                      }
+                    }
+                  },
+                  "preserveOpaque": {
+                    "summary": "The unrecognized original text remains visible.",
+                    "value": {
+                      "schema_version": 1,
+                      "operation": "translate",
+                      "result": {
+                        "country": "JP",
+                        "source_language": "ja",
+                        "target_language": "en",
+                        "original_components": {"address_line2": "架空見本棟０７－Ｂ号室"},
+                        "components": {"address_line2": "架空見本棟０７－Ｂ号室"},
+                        "fields": {"address_line2": {"status": "unverified", "provenance": null}},
+                        "lines": ["架空見本棟０７－Ｂ号室"],
+                        "needs_review": true,
+                        "unverified_fields": ["address_line2"],
+                        "status": "needs_review",
+                        "delivery_verified": false
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "headers": {"Cache-Control": {"schema": {"const": "no-store"}}}
+          },
+          "400": {
+            "description": "Query parameters or Content-Length syntax rejected.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {"$ref": "#/components/schemas/Error"},
+                    {
+                      "type": "object",
+                      "properties": {"error": {"enum": ["use_request_body", "invalid_length"]}},
+                      "required": ["error"]
+                    }
+                  ]
+                }
+              }
+            },
+            "headers": {"Cache-Control": {"schema": {"const": "no-store"}}}
+          },
+          "401": {
+            "description": "Bearer token absent or invalid.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {"$ref": "#/components/schemas/Error"},
+                    {
+                      "type": "object",
+                      "properties": {"error": {"enum": ["unauthorized"]}},
+                      "required": ["error"]
+                    }
+                  ]
+                }
+              }
+            },
+            "headers": {
+              "Cache-Control": {"schema": {"const": "no-store"}},
+              "WWW-Authenticate": {"schema": {"const": "Bearer"}}
+            }
+          },
+          "405": {
+            "description": "Address endpoint accepts POST only.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {"$ref": "#/components/schemas/Error"},
+                    {
+                      "type": "object",
+                      "properties": {"error": {"enum": ["method_not_allowed"]}},
+                      "required": ["error"]
+                    }
+                  ]
+                }
+              }
+            },
+            "headers": {"Cache-Control": {"schema": {"const": "no-store"}}, "Allow": {"schema": {"const": "POST"}}}
+          },
+          "411": {
+            "description": "Content-Length required.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {"$ref": "#/components/schemas/Error"},
+                    {
+                      "type": "object",
+                      "properties": {"error": {"enum": ["length_required"]}},
+                      "required": ["error"]
+                    }
+                  ]
+                }
+              }
+            },
+            "headers": {"Cache-Control": {"schema": {"const": "no-store"}}}
+          },
+          "413": {
+            "description": "Serialized UTF-8 request exceeds 16,384 bytes.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {"$ref": "#/components/schemas/Error"},
+                    {
+                      "type": "object",
+                      "properties": {"error": {"enum": ["request_too_large"]}},
+                      "required": ["error"]
+                    }
+                  ]
+                }
+              }
+            },
+            "headers": {"Cache-Control": {"schema": {"const": "no-store"}}}
+          },
+          "415": {
+            "description": "Requires application/json.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {"$ref": "#/components/schemas/Error"},
+                    {
+                      "type": "object",
+                      "properties": {"error": {"enum": ["json_required"]}},
+                      "required": ["error"]
+                    }
+                  ]
+                }
+              }
+            },
+            "headers": {"Cache-Control": {"schema": {"const": "no-store"}}}
+          },
+          "422": {
+            "description": "Malformed input, duplicate JSON keys, invalid selection, or unknown profile ID.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {"$ref": "#/components/schemas/Error"},
+                    {
+                      "type": "object",
+                      "properties": {"error": {"enum": ["invalid_request"]}},
+                      "required": ["error"]
+                    }
+                  ]
+                }
+              }
+            },
+            "headers": {"Cache-Control": {"schema": {"const": "no-store"}}}
+          },
+          "500": {
+            "description": "Unexpected internal error; response does not echo address data.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {"$ref": "#/components/schemas/Error"},
+                    {
+                      "type": "object",
+                      "properties": {"error": {"enum": ["internal_error"]}},
+                      "required": ["error"]
+                    }
+                  ]
+                }
+              }
+            },
+            "headers": {"Cache-Control": {"schema": {"const": "no-store"}}}
+          },
+          "503": {
+            "description": "Required reference data or operator configuration unavailable.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {"$ref": "#/components/schemas/Error"},
+                    {
+                      "type": "object",
+                      "properties": {"error": {"enum": ["reference_unavailable"]}},
+                      "required": ["error"]
+                    }
+                  ]
+                }
+              }
+            },
+            "headers": {"Cache-Control": {"schema": {"const": "no-store"}}}
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "serviceBearer": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "Operator-provisioned service token; keep it on the server."
+      }
+    },
+    "schemas": {
+      "InputComponents": {
+        "type": "object",
+        "minProperties": 1,
+        "maxProperties": 40,
+        "propertyNames": {"pattern": "^[a-zA-Z][a-zA-Z0-9_ -]{0,39}$"},
+        "additionalProperties": {"type": "string", "minLength": 1, "maxLength": 512, "pattern": "\\S"},
+        "description": "String values only, including numeric identifiers and postcodes. No control characters, bidi overrides, or conflicting aliases."
+      },
+      "ValidateRequest": {
+        "type": "object",
+        "properties": {
+          "operation": {"const": "validate"},
+          "country": {
+            "type": "string",
+            "pattern": "^[A-Za-z]{2}$",
+            "description": "Two-letter country selector. Input acceptance does not imply registry or carrier coverage."
+          },
+          "components": {"$ref": "#/components/schemas/InputComponents"}
+        },
+        "required": ["operation", "country", "components"],
+        "additionalProperties": false
+      },
+      "SuggestRequest": {
+        "type": "object",
+        "properties": {
+          "operation": {"const": "suggest"},
+          "country": {
+            "type": "string",
+            "pattern": "^[A-Za-z]{2}$",
+            "description": "Two-letter country selector. Input acceptance does not imply registry or carrier coverage."
+          },
+          "postcode": {"type": "string", "minLength": 1, "maxLength": 64, "pattern": "\\S"},
+          "query": {"type": "string", "maxLength": 96, "default": ""},
+          "path": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1, "maxLength": 2048},
+            "maxItems": 16,
+            "default": []
+          },
+          "after": {
+            "type": ["integer", "null"],
+            "minimum": 0,
+            "maximum": 1000000,
+            "default": null,
+            "description": "Use next_after only with an unchanged country, postcode, path and query."
+          },
+          "limit": {"type": "integer", "minimum": 1, "maximum": 50, "default": 20}
+        },
+        "required": ["operation", "country", "postcode"],
+        "additionalProperties": false
+      },
+      "TranslateRequest": {
+        "type": "object",
+        "properties": {
+          "operation": {"const": "translate"},
+          "country": {
+            "type": "string",
+            "pattern": "^[A-Za-z]{2}$",
+            "description": "Two-letter country selector. Input acceptance does not imply registry or carrier coverage."
+          },
+          "components": {"$ref": "#/components/schemas/InputComponents"},
+          "source_language": {"type": "string", "maxLength": 35, "pattern": "^[A-Za-z]{2,3}(-[A-Za-z0-9]{2,8}){0,3}$"},
+          "target_language": {"type": "string", "maxLength": 35, "pattern": "^[A-Za-z]{2,3}(-[A-Za-z0-9]{2,8}){0,3}$"}
+        },
+        "required": ["operation", "country", "components", "source_language", "target_language"],
+        "additionalProperties": false
+      },
+      "FitLabelRequest": {
+        "type": "object",
+        "properties": {
+          "operation": {"const": "fit_label"},
+          "country": {
+            "type": "string",
+            "pattern": "^[A-Za-z]{2}$",
+            "description": "Two-letter country selector. Input acceptance does not imply registry or carrier coverage."
+          },
+          "components": {"$ref": "#/components/schemas/InputComponents"},
+          "profile_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "pattern": "^[A-Za-z0-9_.-]+$",
+            "description": "Operator-installed profile ID, e.g. ups-us-shipto or yamato-jp-b2. Rules and credentials cannot be supplied in this request."
+          }
+        },
+        "required": ["operation", "country", "components", "profile_id"],
+        "additionalProperties": false
+      },
+      "PrepareLabelRequest": {
+        "type": "object",
+        "properties": {
+          "operation": {"const": "prepare_label"},
+          "country": {
+            "type": "string",
+            "pattern": "^[A-Za-z]{2}$",
+            "description": "Two-letter country selector. Input acceptance does not imply registry or carrier coverage."
+          },
+          "components": {"$ref": "#/components/schemas/InputComponents"},
+          "profile_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "pattern": "^[A-Za-z0-9_.-]+$",
+            "description": "Operator-installed profile ID, e.g. ups-us-shipto or yamato-jp-b2. Rules and credentials cannot be supplied in this request."
+          },
+          "source_language": {"type": "string", "maxLength": 35, "pattern": "^[A-Za-z]{2,3}(-[A-Za-z0-9]{2,8}){0,3}$"},
+          "target_language": {"type": "string", "maxLength": 35, "pattern": "^[A-Za-z]{2,3}(-[A-Za-z0-9]{2,8}){0,3}$"}
+        },
+        "required": ["operation", "country", "components", "profile_id"],
+        "additionalProperties": false,
+        "dependentRequired": {"source_language": ["target_language"], "target_language": ["source_language"]}
+      },
+      "EvidenceReceipt": {
+        "type": "object",
+        "required": ["source_id"],
+        "properties": {
+          "source_id": {"type": "string"},
+          "record_id": {"type": "string"},
+          "reference": {"type": "string"},
+          "url": {"type": "string"},
+          "sha256": {"type": "string"}
+        },
+        "description": "Source-specific receipt for an observation; available record IDs, links, snapshot and rights metadata vary by source."
+      },
+      "Validation": {
+        "type": "object",
+        "properties": {
+          "country": {
+            "type": "string",
+            "pattern": "^[A-Za-z]{2}$",
+            "description": "Two-letter country selector. Input acceptance does not imply registry or carrier coverage."
+          },
+          "status": {
+            "enum": [
+              "matched",
+              "partial",
+              "ambiguous",
+              "not_observed",
+              "unsupported",
+              "insufficient_input",
+              "conflict",
+              "invalid_format"
+            ]
+          },
+          "matched_scope": {
+            "type": ["string", "null"],
+            "description": "Maximum scope supported by the source, e.g. postcode_observation, postal_locality or published_address_point. Null if no match."
+          },
+          "verified_fields": {"type": "array", "items": {"type": "string"}},
+          "unverified_fields": {"type": "array", "items": {"type": "string"}},
+          "ignored_fields": {"type": "array", "items": {"type": "string"}},
+          "blocking_conflict": {"type": "boolean"},
+          "issues": {"type": "array", "items": {"type": "string"}},
+          "deliverability_verified": {"const": false},
+          "evidence_count": {"type": "integer", "minimum": 0},
+          "evidence": {"type": "array", "items": {"$ref": "#/components/schemas/EvidenceReceipt"}, "maxItems": 8}
+        },
+        "required": [
+          "country",
+          "status",
+          "matched_scope",
+          "verified_fields",
+          "unverified_fields",
+          "ignored_fields",
+          "blocking_conflict",
+          "issues",
+          "deliverability_verified",
+          "evidence_count",
+          "evidence"
+        ]
+      },
+      "PickerSelection": {
+        "type": "object",
+        "properties": {"id": {"type": "string"}, "kind": {"type": "string"}, "label": {"type": "string"}},
+        "required": ["id", "kind", "label"]
+      },
+      "PickerOption": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string"},
+          "kind": {"type": "string"},
+          "label": {"type": "string"},
+          "has_children": {"type": "boolean"},
+          "supporting_sources": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+          "country_code": {
+            "type": "string",
+            "pattern": "^[A-Za-z]{2}$",
+            "description": "Two-letter country selector. Input acceptance does not imply registry or carrier coverage."
+          },
+          "postcode": {"type": "string"},
+          "source_id": {"type": "string"}
+        },
+        "required": ["id", "kind", "label", "has_children", "supporting_sources", "country_code", "postcode", "source_id"]
+      },
+      "Suggestions": {
+        "type": "object",
+        "properties": {
+          "country": {
+            "type": "string",
+            "pattern": "^[A-Za-z]{2}$",
+            "description": "Two-letter country selector. Input acceptance does not imply registry or carrier coverage."
+          },
+          "postcode": {"type": "string"},
+          "status": {"enum": ["options", "leaf", "not_found", "no_matching_options", "unsupported_country"]},
+          "selected": {"type": "array", "items": {"$ref": "#/components/schemas/PickerSelection"}},
+          "options": {"type": "array", "items": {"$ref": "#/components/schemas/PickerOption"}},
+          "sources": {"type": "array", "items": {"type": "string"}},
+          "next_after": {"type": ["integer", "null"], "minimum": 0},
+          "manual_entry_available": {"const": true},
+          "auto_selected": {"const": false},
+          "match_mode": {"enum": ["none", "browse", "prefix", "similar_spelling"]},
+          "spelling_notice": {"enum": [null, "confirm_suggested_spelling"]},
+          "deliverability_verified": {"const": false},
+          "ranking_scope": {"enum": ["source_order", "within_page"]}
+        },
+        "required": [
+          "country",
+          "postcode",
+          "status",
+          "selected",
+          "options",
+          "sources",
+          "next_after",
+          "manual_entry_available",
+          "auto_selected",
+          "match_mode",
+          "spelling_notice",
+          "deliverability_verified",
+          "ranking_scope"
+        ]
+      },
+      "Translation": {
+        "type": "object",
+        "properties": {
+          "country": {
+            "type": "string",
+            "pattern": "^[A-Za-z]{2}$",
+            "description": "Two-letter country selector. Input acceptance does not imply registry or carrier coverage."
+          },
+          "source_language": {"type": "string", "maxLength": 35, "pattern": "^[A-Za-z]{2,3}(-[A-Za-z0-9]{2,8}){0,3}$"},
+          "target_language": {"type": "string", "maxLength": 35, "pattern": "^[A-Za-z]{2,3}(-[A-Za-z0-9]{2,8}){0,3}$"},
+          "original_components": {"type": "object", "additionalProperties": {"type": "string"}},
+          "components": {"type": "object", "additionalProperties": {"type": "string"}},
+          "fields": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "status": {
+                  "enum": [
+                    "unverified",
+                    "unchanged",
+                    "preserved_identifier",
+                    "preserved_proper_name",
+                    "romanized",
+                    "localized"
+                  ]
+                },
+                "provenance": {"type": ["object", "null"]}
+              },
+              "required": ["status", "provenance"]
+            }
+          },
+          "lines": {"type": "array", "items": {"type": "string"}},
+          "unverified_fields": {"type": "array", "items": {"type": "string"}},
+          "needs_review": {"type": "boolean"},
+          "status": {"enum": ["complete", "partial", "needs_review"]},
+          "delivery_verified": {"const": false}
+        },
+        "required": [
+          "country",
+          "source_language",
+          "target_language",
+          "original_components",
+          "components",
+          "fields",
+          "lines",
+          "unverified_fields",
+          "needs_review",
+          "status",
+          "delivery_verified"
+        ]
+      },
+      "FittedFields": {
+        "type": "object",
+        "properties": {
+          "address_lines": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+          "country_code": {
+            "type": "string",
+            "pattern": "^[A-Za-z]{2}$",
+            "description": "Two-letter country selector. Input acceptance does not imply registry or carrier coverage."
+          },
+          "city": {"type": "string"},
+          "state": {"type": "string"},
+          "postcode": {"type": "string"}
+        },
+        "required": ["address_lines", "country_code"]
+      },
+      "LabelFit": {
+        "type": "object",
+        "properties": {
+          "status": {"enum": ["fits", "review_required"]},
+          "fields": {"oneOf": [{"type": "null"}, {"$ref": "#/components/schemas/FittedFields"}]},
+          "carrier_fields": {
+            "type": ["null", "object"],
+            "description": "Profile-specific address fields, when implemented. This is not a shipment request."
+          },
+          "profile_id": {"type": ["string", "null"]},
+          "edits": {"type": "array", "items": {"type": "string"}},
+          "issues": {"type": "array", "items": {"type": "string"}},
+          "deliverability_verified": {"const": false}
+        },
+        "required": ["status", "fields", "carrier_fields", "profile_id", "edits", "issues", "deliverability_verified"],
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {"status": {"const": "fits"}, "fields": {"$ref": "#/components/schemas/FittedFields"}},
+                "required": ["status", "fields"]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "status": {"const": "review_required"},
+                  "fields": {"type": "null"},
+                  "carrier_fields": {"type": "null"}
+                },
+                "required": ["status", "fields"]
+              }
+            ]
+          }
+        ]
+      },
+      "Preparation": {
+        "type": "object",
+        "properties": {
+          "status": {"enum": ["prepared", "review_required"]},
+          "fields": {"oneOf": [{"type": "null"}, {"$ref": "#/components/schemas/FittedFields"}]},
+          "carrier_fields": {"type": ["null", "object"]},
+          "submitted": {"const": false},
+          "deliverability_verified": {"const": false},
+          "validation": {"$ref": "#/components/schemas/Validation"},
+          "fit": {"$ref": "#/components/schemas/LabelFit"},
+          "issues": {"type": "array", "items": {"type": "string"}},
+          "translation_status": {"enum": ["complete", "partial", "needs_review"]}
+        },
+        "required": ["status", "fields", "carrier_fields", "submitted", "deliverability_verified", "validation", "issues"],
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {"status": {"const": "prepared"}, "fields": {"$ref": "#/components/schemas/FittedFields"}},
+                "required": ["status", "fields"]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "status": {"const": "review_required"},
+                  "fields": {"type": "null"},
+                  "carrier_fields": {"type": "null"}
+                },
+                "required": ["status", "fields"]
+              }
+            ]
+          }
+        ]
+      },
+      "ValidateResponse": {
+        "type": "object",
+        "properties": {
+          "schema_version": {"const": 1},
+          "operation": {"const": "validate"},
+          "result": {"$ref": "#/components/schemas/Validation"}
+        },
+        "required": ["schema_version", "operation", "result"]
+      },
+      "SuggestResponse": {
+        "type": "object",
+        "properties": {
+          "schema_version": {"const": 1},
+          "operation": {"const": "suggest"},
+          "result": {"$ref": "#/components/schemas/Suggestions"}
+        },
+        "required": ["schema_version", "operation", "result"]
+      },
+      "TranslateResponse": {
+        "type": "object",
+        "properties": {
+          "schema_version": {"const": 1},
+          "operation": {"const": "translate"},
+          "result": {"$ref": "#/components/schemas/Translation"}
+        },
+        "required": ["schema_version", "operation", "result"]
+      },
+      "FitLabelResponse": {
+        "type": "object",
+        "properties": {
+          "schema_version": {"const": 1},
+          "operation": {"const": "fit_label"},
+          "result": {"$ref": "#/components/schemas/LabelFit"}
+        },
+        "required": ["schema_version", "operation", "result"]
+      },
+      "PrepareLabelResponse": {
+        "type": "object",
+        "properties": {
+          "schema_version": {"const": 1},
+          "operation": {"const": "prepare_label"},
+          "result": {"$ref": "#/components/schemas/Preparation"}
+        },
+        "required": ["schema_version", "operation", "result"]
+      },
+      "AddressRequest": {
+        "oneOf": [
+          {"$ref": "#/components/schemas/ValidateRequest"},
+          {"$ref": "#/components/schemas/SuggestRequest"},
+          {"$ref": "#/components/schemas/TranslateRequest"},
+          {"$ref": "#/components/schemas/FitLabelRequest"},
+          {"$ref": "#/components/schemas/PrepareLabelRequest"}
+        ],
+        "discriminator": {
+          "propertyName": "operation",
+          "mapping": {
+            "validate": "#/components/schemas/ValidateRequest",
+            "suggest": "#/components/schemas/SuggestRequest",
+            "translate": "#/components/schemas/TranslateRequest",
+            "fit_label": "#/components/schemas/FitLabelRequest",
+            "prepare_label": "#/components/schemas/PrepareLabelRequest"
+          }
+        }
+      },
+      "AddressResponse": {
+        "oneOf": [
+          {"$ref": "#/components/schemas/ValidateResponse"},
+          {"$ref": "#/components/schemas/SuggestResponse"},
+          {"$ref": "#/components/schemas/TranslateResponse"},
+          {"$ref": "#/components/schemas/FitLabelResponse"},
+          {"$ref": "#/components/schemas/PrepareLabelResponse"}
+        ],
+        "discriminator": {
+          "propertyName": "operation",
+          "mapping": {
+            "validate": "#/components/schemas/ValidateResponse",
+            "suggest": "#/components/schemas/SuggestResponse",
+            "translate": "#/components/schemas/TranslateResponse",
+            "fit_label": "#/components/schemas/FitLabelResponse",
+            "prepare_label": "#/components/schemas/PrepareLabelResponse"
+          }
+        }
+      },
+      "Error": {
+        "type": "object",
+        "properties": {
+          "error": {
+            "enum": [
+              "not_found",
+              "unauthorized",
+              "method_not_allowed",
+              "use_request_body",
+              "json_required",
+              "length_required",
+              "invalid_length",
+              "request_too_large",
+              "invalid_request",
+              "reference_unavailable",
+              "internal_error"
+            ]
+          }
+        },
+        "required": ["error"],
+        "additionalProperties": false
+      }
+    }
+  }
+}

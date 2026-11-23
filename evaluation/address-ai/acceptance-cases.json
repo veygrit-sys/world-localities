@@ -1,0 +1,53 @@
+{
+  "description": "Synthetic addresses and picker records; municipal names and postal formats may be real. No individual or delivery is represented.",
+  "addresses": [
+    {
+      "id": "jp-fullwidth-building-unit",
+      "country": "JP",
+      "source_language": "ja",
+      "target_language": "en",
+      "components": {
+        "state": "東京都",
+        "city": "千代田区",
+        "postcode": "100-0005",
+        "address_line1": "架空試験通り１－２－３",
+        "address_line2": "架空見本棟０７－Ｂ号室"
+      }
+    },
+    {
+      "id": "cn-mixed-script-unit",
+      "country": "CN",
+      "source_language": "zh",
+      "target_language": "en",
+      "components": {
+        "city": "北京市",
+        "postcode": "100000",
+        "address_line1": "虚构测试路032号",
+        "address_line2": "测试楼A栋02B室"
+      }
+    },
+    {
+      "id": "us-leading-zero-identifiers",
+      "country": "US",
+      "source_language": "en",
+      "target_language": "ja",
+      "components": {
+        "state": "MA",
+        "city": "Boston",
+        "postcode": "02116",
+        "road": "Fictional Acceptance Test Avenue",
+        "house_number": "0007-A",
+        "unit": "07B"
+      }
+    }
+  ],
+  "picker_records": [
+    ["JP", "0010001", [["area", "架空試験市"], ["town", "見本南町"]], "acceptance-fixture"],
+    ["JP", "0010001", [["area", "架空試験市"], ["town", "見本北町"]], "acceptance-fixture"],
+    ["JP", "0020001", [["area", "別の架空試験市"], ["town", "混入禁止町"]], "acceptance-fixture"],
+    ["CN", "100000", [["area", "虚构测试区"], ["street", "测试路"]], "acceptance-fixture"],
+    ["US", "02116", [["area", "Fixture Town, MA"], ["street", "Fictional Acceptance Test Avenue"], ["house_number", "07B"]], "acceptance-fixture"],
+    ["US", "02116", [["area", "Fixture Town, MA"], ["street", "Fictional Acceptance Test Avenue"], ["house_number", "09B"]], "acceptance-fixture"],
+    ["US", "02117", [["area", "Fixture Town, MA"], ["street", "Fictional Acceptance Test Avenue"], ["house_number", "08B"]], "acceptance-fixture"]
+  ]
+}
