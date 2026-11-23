@@ -1,5 +1,6 @@
 """Request parameters and interpretation of official address services."""
 
+import json
 import re
 from functools import cache
 
@@ -185,8 +186,13 @@ def dc_rows(payload, country, query):
                             postcode=row.get("ZIPCODE"), locality=row["CITY"])
 
 
+def ods_literal(value):
+    # ODSQL accepts double-quoted strings with backslash escapes.
+    return json.dumps(value, ensure_ascii=False)
+
+
 def bologna_query(query, limit):
-    return {"where": "indirizzo_completo = " + sql_literal(query.upper()),
+    return {"where": "indirizzo_completo = " + ods_literal(query.upper()),
             "select": "indirizzo_completo,civkey,cap", "limit": limit}
 
 
@@ -200,7 +206,7 @@ def vancouver_query(query, limit):
     number, _, street = query.upper().partition(" ")
     if not re.fullmatch(r"[0-9]+[A-Z]?", number) or not street:
         raise ValueError("ca-vancouver takes a civic number followed by the registered street name")
-    return {"where": f"civic_number = {sql_literal(number)} AND std_street = {sql_literal(street)}",
+    return {"where": f"civic_number = {ods_literal(number)} AND std_street = {ods_literal(street)}",
             "select": "civic_number,std_street,site_id", "limit": limit}
 
 

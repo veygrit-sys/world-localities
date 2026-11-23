@@ -98,6 +98,15 @@ class OfficialApiTests(unittest.TestCase):
         _, params = replay("US", "dc-mar", "1 O'Brien & A", {"features": []})
         self.assertIn("1 O''BRIEN & A", params["where"][0])
 
+    def test_municipal_portals_preserve_quotes_in_street_names(self):
+        for country, source, q in [("IT", "it-bologna", "Via dell'Indipendenza 1"),
+                                   ("CA", "ca-vancouver", '1 W "A" St')]:
+            result, params = replay(country, source, q, {"results": []})
+            literal = params["where"][0].rsplit(" = ", 1)[1]
+            expected = q if country == "IT" else q.partition(" ")[2]
+            self.assertEqual(json.loads(literal), expected.upper())
+            self.assertEqual(result["status"], "no_candidates")
+
     def test_census_range_is_never_an_address_point(self):
         def hit(state):
             return {"matchedAddress": "100 AVE", "addressComponents": {"state": state, "fromAddress": "2", "toAddress": "200"}}
