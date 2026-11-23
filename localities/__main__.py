@@ -8,6 +8,7 @@ import json
 from .layout import REPOSITORY_ROOT, load_catalog, validate_catalog
 from .materialize import materialize_country
 from .country import add_cli, run_cli
+from .official_api import add_official_cli, lookup_official, official_sources
 
 
 def materialization_roots() -> dict[str, str]:
@@ -24,6 +25,7 @@ def main() -> None:
     commands = parser.add_subparsers(dest="command", required=True)
     commands.add_parser("layout", help="validate registry paths and duplicate-code rules")
     add_cli(commands)
+    add_official_cli(commands)
     balkan = commands.add_parser("balkan", help="audit and index the 11-country Balkan/Central Europe layer")
     balkan.add_argument("balkan_args", nargs=argparse.REMAINDER)
     microstates = commands.add_parser("microstates", help="audit and build six sovereign European microstates")
@@ -37,6 +39,20 @@ def main() -> None:
     restore.add_argument("--registry", choices=sorted(roots), required=True)
     restore.add_argument("--country", required=True)
     args = parser.parse_args()
+
+    if args.command in {"official-sources", "official-lookup"}:
+        try:
+            if args.command == "official-sources":
+                result = {"sources": official_sources(args.country)}
+            else:
+                result = lookup_official(args.country, args.query, source=args.source, limit=args.limit,
+                                         province=args.province)
+        except ValueError as error:
+            parser.exit(2, str(error) + "\n")
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+        if result.get("status") == "unavailable":
+            parser.exit(1)
+        return
 
     if args.command == "country":
         try:

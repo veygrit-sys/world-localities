@@ -18,6 +18,7 @@
 | 住所の入力・表記形式を扱う | [住所形式レイヤー](addressing/README.md) |
 | 郵便番号と地名・州の組み合わせを照合する | [対応範囲、実行例、検証結果](evaluation/postal-places/README.md) |
 | 登録不要の公式原典・公開地図で地名、番地、多言語表記を検索する | [収録範囲、出典、検索例](localities/open_reference/README.md) |
+| 政府・自治体・郵便事業者のAPIで住所を照会する | [登録・APIキー不要の公式住所API、国・地域別の対象範囲](docs/guides/official-address-api.md) |
 | 実行コマンドを探す | [スクリプト一覧](scripts/README.md) |
 | 設計・計画資料を探す | [資料一覧](docs/README.md) |
 | 出典と移行を確認する | [移行記録](docs/migration/README.md) |

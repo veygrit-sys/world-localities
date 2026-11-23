@@ -1,0 +1,35 @@
+id,countries,authority,publisher,area,evidence,documentation,endpoint,input
+fr-ban,FR,government,IGN,Metropolitan France,"address, street or municipality",https://cartes.gouv.fr/aide/fr/guides-utilisateur/utiliser-les-services-de-la-geoplateforme/geocodage/,https://data.geopf.fr/geocodage/search,address text
+la-poste,FR BL GF GP MC MF MQ NC PF PM RE WF YT,postal_operator,La Poste,Published postal communes by destination,postcode and locality,https://data.laposte.fr/datasets/laposte-hexasmal,https://data.laposte.fr/data-fair/api/v1/datasets/laposte-hexasmal/lines,five-digit postcode
+nl-pdok,NL,government,PDOK / Kadaster,BAG addresses in the European Netherlands,registered address,https://www.pdok.nl/pdok-locatieserver,https://api.pdok.nl/bzk/locatieserver/search/v3_1/free,address text
+no-kartverket,NO,government,Kartverket,Norwegian cadastral address register,registered address,https://api.kartverket.no/adresser/v1/,https://api.kartverket.no/adresser/v1/sok,address text
+hk-als,HK,government,Hong Kong Digital Policy Office,Hong Kong SAR,premises in Chinese and English,https://data.gov.hk/en-data/dataset/hk-dpo-als_01-als,https://www.als.gov.hk/lookup,address text
+lu-act,LU,government,Administration du cadastre et de la topographie,Luxembourg,"house number, street or locality",https://apiv4.geoportail.lu/4.1.0/apidoc/tutorial-geocodeapi.html,https://apiv4.geoportail.lu/geocode/search,address text
+us-census,US,government,US Census Bureau,US states and District of Columbia,street address range,https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.html,https://geocoding.geo.census.gov/geocoder/locations/onelineaddress,address text
+dc-mar,US,municipality,District of Columbia OCTO / DC GIS,District of Columbia,active address point,https://opendata.dc.gov/datasets/DCGIS::address-points,https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Location_WebMercator/FeatureServer/0/query,registered street address line
+it-bologna,IT,municipality,Comune di Bologna,Bologna municipality,registered civic number,https://opendata.comune.bologna.it/explore/dataset/rifter_civici_pt/,https://opendata.comune.bologna.it/api/explore/v2.1/catalog/datasets/rifter_civici_pt/records,registered street address line
+ca-vancouver,CA,municipality,City of Vancouver,City of Vancouver,civic property address,https://opendata.vancouver.ca/explore/dataset/property-addresses/,https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/property-addresses/records,civic number and registered street name
+ar-georef,AR,government,Argentina Georef,Argentina,street and normalized house number,https://www.argentina.gob.ar/georef/condiciones-de-uso-y-licencia,https://apis.datos.gob.ar/georef/api/v2.0/direcciones,street and house number with optional INDEC province
+au-queensland,AU,government,Queensland Government,Queensland,property address,https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/FoundationData/FeatureServer/0,https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/FoundationData/FeatureServer/0/query,registered address including locality and QLD
+ch-swisstopo,CH LI,government,swisstopo,Switzerland and Liechtenstein,building address,https://docs.geo.admin.ch/access-data/search.html,https://api3.geo.admin.ch/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/,building entrance ID (EGAID)
+uy-ide,UY,government,Infraestructura de Datos Espaciales de Uruguay,Uruguay,address or approximation,https://www.gub.uy/infraestructura-datos-espaciales/tramites-y-servicios/servicios/servicio-direcciones-geograficas,https://direcciones.ide.uy/api/v1/geocode/direcUnica,address text
+is-stadfangaskra,IS,government,Húsnæðis- og mannvirkjastofnun,Iceland,address point,https://hms.is/gogn-og-maelabord/grunngogntilnidurhals/stadfangaskra,,
+ee-inspire,EE,government,Estonian Land and Spatial Development Board,Estonia,INSPIRE address,https://geoportaal.ee/eng/INSPIRE/INSPIRE-services/AD-Addresses-p751.html,,
+cz-cuzk,CZ,government,ČÚZK,Czechia,INSPIRE address,https://services.cuzk.gov.cz/wfs/inspire-AD-wfs.asp,,
+es-cartociudad,ES,government,Instituto Geográfico Nacional,Spain,address or approximation,https://www.idee.es/resources/documentos/Cartociudad/CartoCiudad_ServiciosWeb.pdf,,
+pl-prg,PL,government,Główny Urząd Geodezji i Kartografii,Poland,address point,https://ogcapi.geoportal.gov.pl/res/ims/maps/prg_ad/apiFeatures,,
+lv-vzd,LV,government,Valsts zemes dienests,Latvia,address register,https://www.vzd.gov.lv/lv/pakalpojumi/valsts-adresu-registra-atvertie-dati-0,,
+lt-rc,LT,government,Registrų centras,Lithuania,address register,https://get.data.gov.lt/datasets/gov/rc/ar/,,
+si-gurs,SI,government,Geodetska uprava Republike Slovenije,Slovenia,address register,https://www.gov.si/zbirke/storitve/spletn/,,
+ae-makani,AE,municipality,Dubai Municipality,Dubai Makani coverage,entrance identifier,https://www.dm.gov.ae/open-data2/open-data-for-makani/,,
+za-cape-town,ZA,municipality,City of Cape Town,Cape Town municipality,address point,https://citymaps.capetown.gov.za/agsext/rest/services/Theme_Based/ODP_SPLIT_6/FeatureServer/1,,
+at-vienna,AT,municipality,Stadt Wien,Vienna,address point,https://www.data.gv.at/katalog/datasets/1d5c2411-9719-4c8f-b99d-57a5f4a4ae41,,
+se-gothenburg,SE,municipality,Göteborgs Stad,Gothenburg,address point,https://opengeodata.goteborg.se/services/adresser/wfs/v1,,
+de-berlin,DE,government,Land Berlin,Berlin,address point,https://daten.berlin.de/datensaetze/adressen-berlin-wfs-634ab8ba,,
+fi-tampere,FI,municipality,City of Tampere,Tampere,street address,https://data.tampere.fi/data/dataset/tampereen-katuosoitteet/resource/2d90d94c-cf38-4801-ae24-7002f353e66b,,
+be-flanders,BE,government,Digitaal Vlaanderen,Flemish Region,address register,https://docs.basisregisters.vlaanderen.be/docs/api-documentation.html,,
+co-bogota,CO,government,Unidad Administrativa Especial de Catastro Distrital,Bogotá D.C.,property address plate,https://datosabiertos.bogota.gov.co/dataset/placa-domiciliaria,,
+br-bh,BR,municipality,Prefeitura de Belo Horizonte,Belo Horizonte,address point,https://geonetwork.pbh.gov.br/geonetwork/srv/search?keyword=endereco,,
+nz-wellington,NZ,municipality,Wellington City Council,Wellington City,address point,https://gis.wcc.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Address/MapServer,,
+gb-ons,GB,government,Office for National Statistics,United Kingdom postcode directory,postcode and geography,https://www.data.gov.uk/dataset/f10c1fb7-ae3d-4811-9f37-82d50a5fae83/online-ons-postcode-directory-live3,,
+tw-taipei,TW,municipality,Taipei City Government,Taipei City,municipal address data,https://data.taipei/dataset/detail?id=b7c8e724-1e98-45ee-a0bd-f3840623ed97,,
