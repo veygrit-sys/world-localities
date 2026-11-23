@@ -7,6 +7,7 @@
 | 目的 | 入口 |
 |---|---|
 | 世界の郵便番号を保存・検索・再検証 | `python scripts/world_postcodes.py capture / build / verify / lookup / status`（[段階別の計画](../postal/README.md)） |
+| 取得失敗・保留原典の確認・復旧 | `python scripts/source_recovery.py list / verify / verify-snapshots / download-europe`（[優先度と復旧記録](../docs/plans/source-recovery-20261124.md)） |
 | 国別の原典・品質・検証・復元 | `python -m localities country inspect / verify / restore`（[使い方](../docs/country-modules.md)） |
 | 日本のデータバンドル | [country_bundle.py](country_bundle.py) |
 | 独立した住所評価 | [evaluate_addresses.py](evaluate_addresses.py) |

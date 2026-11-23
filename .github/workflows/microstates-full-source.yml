@@ -4,8 +4,11 @@ on:
   pull_request:
     paths:
       - scripts/europe_microstates.py
+      - scripts/source_recovery.py
       - localities/__main__.py
       - tests/test_europe_microstates.py
+      - tests/test_europe_extract_redirects.py
+      - tests/test_source_recovery.py
       - registries/europe/microstates/**
       - .github/workflows/microstates-full-source.yml
   workflow_dispatch:
@@ -28,6 +31,8 @@ jobs:
         run: |
           python -m py_compile scripts/europe_microstates.py
           python -m unittest discover -s tests -p 'test_europe_microstates.py' -v
+          python -m unittest discover -s tests -p 'test_europe_extract_redirects.py' -v
+          python -m unittest discover -s tests -p 'test_source_recovery.py' -v
           python scripts/europe_microstates.py inventory > /dev/null
           python -m localities microstates audit --country all > /dev/null
 
@@ -47,9 +52,8 @@ jobs:
       - name: Download all six small sovereign-country extracts with receipts
         run: |
           mkdir -p "$RUNNER_TEMP/microstates-raw" evidence
-          for cc in AD LI MC SM VA MT; do
-            python scripts/europe_microstates.py download --country "$cc" --directory "$RUNNER_TEMP/microstates-raw" > "evidence/$cc-download.json"
-          done
+          python scripts/source_recovery.py download-europe --collection microstates \
+            --directory "$RUNNER_TEMP/microstates-raw" --report evidence/source-downloads.json
       - name: Full-source identity audit and ODbL-separated SQLite index
         run: |
           python -m localities microstates audit --country all > evidence/gazetteer-audit.json
@@ -66,6 +70,7 @@ jobs:
             'Official reference names are separate source-qualified facts; local IDs are not government codes.' \
             'Address existence, national completeness and postal deliverability are NOT verified.' > evidence/NOTICE.txt
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
         with:
           name: microstates-six-source-qualified-osm-and-audit
           path: evidence/

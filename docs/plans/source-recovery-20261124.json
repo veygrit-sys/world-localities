@@ -1,0 +1,1131 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-24",
+  "timezone": "Asia/Tokyo",
+  "scope": "38 deferred postal decisions from stages 3/4 plus 3 European official bulk sources and 2 European OSM collections; not every source in the repository",
+  "priority_meaning": {
+    "P0": "今回修正または過去の代替原典で解消を確認",
+    "P1": "住所入力補助への効果を重視した次の優先候補。条件解決前の取込は行わない",
+    "P2": "有用な次候補。原典・アクセス・権利・版の確認を先行",
+    "P3": "候補原典の不採用、例示・構造だけ、または実割当公開待ち"
+  },
+  "freshness_note": "再試行した原典だけhttp-probesに今回の結果を保存。他は過去判断を引き継ぎ、今回再確認済みとしない。",
+  "selection_policy": "政府・自治体・指定郵便事業者の公式原典を優先。OSMは利用条件を保持した独立レイヤー。新しい有料サードパーティは追加しない。",
+  "entries": [
+    {
+      "id": "osm-crown",
+      "country_codes": [
+        "JE",
+        "GG",
+        "IM"
+      ],
+      "layer": "osm-community",
+      "priority": "P0",
+      "status": "recovered",
+      "reason": "ジャージー・ガーンジー共有原本とマン島原本の地域名サブディレクトリを許可し、2原本を再取得。",
+      "next_action": "ODbLを区別した全量索引の再構築と照合を行い、取得先・ハッシュ・件数を保存する。",
+      "previous_decisions": [],
+      "source_urls": [
+        "https://download.geofabrik.de/",
+        "https://download.openstreetmap.fr/"
+      ],
+      "evidence_paths": [
+        "releases/source-recovery/20261124/crown-intake.json"
+      ],
+      "implementation_origin": "https://github.com/veygrit-sys/world-localities/pull/44",
+      "commercial_use_cleared": true,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "osm-microstates",
+      "country_codes": [
+        "AD",
+        "LI",
+        "MC",
+        "SM",
+        "VA",
+        "MT"
+      ],
+      "layer": "osm-community",
+      "priority": "P0",
+      "status": "recovered",
+      "reason": "Geofabrikの地域名サブディレクトリへの正規リダイレクトを拒否していた。PR #44の最小修正を独立に適用し、6原本を再取得。",
+      "next_action": "ODbLを区別した全量索引の再構築と照合を行い、取得先・ハッシュ・件数を保存する。",
+      "previous_decisions": [],
+      "source_urls": [
+        "https://download.geofabrik.de/",
+        "https://download.openstreetmap.fr/"
+      ],
+      "evidence_paths": [
+        "releases/source-recovery/20261124/microstates-intake.json"
+      ],
+      "implementation_origin": "https://github.com/veygrit-sys/world-localities/pull/44",
+      "commercial_use_cleared": true,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-bt-03",
+      "country_codes": [
+        "BT"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P0",
+      "status": "recovered",
+      "reason": "第4回で公式20地域検索の76観測を保存済み。旧失敗を未解決として重複対応しない。",
+      "next_action": "保存済み公式検索原本を再検証し、年次報告の矛盾する地図は採用しない。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage3-review.json",
+          "key": "deferred",
+          "index": 2
+        }
+      ],
+      "historical_status": "no_bulk_rows_from_public_form",
+      "historical_reason": "Unfiltered public form did not expose a downloadable assignment table; no broad form-query enumeration performed.",
+      "source_urls": [],
+      "commercial_use_cleared": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "evidence_paths": [
+        "postal/stage4-review.json"
+      ]
+    },
+    {
+      "id": "postal-tz-08",
+      "country_codes": [
+        "TZ"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P0",
+      "status": "recovered",
+      "reason": "第4回でTCRA本土26地域PDFから3,921観測を保存済み。旧404は別経路で解消。",
+      "next_action": "保存済み原典を再検証し、未収録のザンジバルと原典異常値を区別して管理する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage3-review.json",
+          "key": "deferred",
+          "index": 7
+        }
+      ],
+      "historical_status": "candidate_plan_url_not_found",
+      "historical_reason": "Candidate 2026 plan PDF returned HTTP 404.",
+      "source_urls": [],
+      "commercial_use_cleared": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "evidence_paths": [
+        "postal/stage4-review.json"
+      ]
+    },
+    {
+      "id": "official-es",
+      "country_codes": [
+        "ES"
+      ],
+      "layer": "official-address-register",
+      "authority": "CNIG / IGN",
+      "priority": "P1",
+      "status": "retry_source",
+      "reason": "52県・地域分のCartoCiudad原本は過去取得で403。検索APIの応答は全国一括取得と区別する。",
+      "next_action": "正式な県別GeoPackage配布方式を確認し、全52単位の原本・実スキーマ・件数を照合する。",
+      "previous_decisions": [],
+      "source_urls": [
+        "https://centrodedescargas.cnig.es/CentroDescargas/cartociudad"
+      ],
+      "evidence_paths": [
+        "docs/plans/europe-official-source-access-20261108.json"
+      ],
+      "source_rows_imported": 0,
+      "commercial_use_cleared": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "official-it",
+      "country_codes": [
+        "IT"
+      ],
+      "layer": "official-address-register",
+      "authority": "Agenzia delle Entrate / ISTAT ANNCSU",
+      "priority": "P1",
+      "status": "retry_source",
+      "reason": "全国道路原典の公式エンドポイントは今回のGETでも403。",
+      "next_action": "公式が案内する一括ダウンロード手順を確認し、道路と番地の収録範囲を分けて検証する。",
+      "previous_decisions": [],
+      "source_urls": [
+        "https://anncsu.open.agenziaentrate.gov.it/age-inspire/opendata/anncsu/getds.php?STRAD_ITA="
+      ],
+      "evidence_paths": [
+        "docs/plans/europe-official-source-access-20261108.json",
+        "releases/source-recovery/20261124/http-probes.json"
+      ],
+      "source_rows_imported": 0,
+      "commercial_use_cleared": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "official-rs",
+      "country_codes": [
+        "RS"
+      ],
+      "layer": "official-address-register",
+      "authority": "RGZ",
+      "priority": "P1",
+      "status": "retry_source",
+      "reason": "公式カタログは今回200。道路・番地の全国CSVを取得できたことにはならない。",
+      "next_action": "公式カタログの道路・番地双方の配布を再確認し、実ヘッダーと共有道路IDを検査する。",
+      "previous_decisions": [],
+      "source_urls": [
+        "https://data.gov.rs/sr/datasets/adresni-registar/"
+      ],
+      "evidence_paths": [
+        "docs/plans/europe-official-source-access-20261108.json",
+        "releases/source-recovery/20261124/http-probes.json"
+      ],
+      "source_rows_imported": 0,
+      "commercial_use_cleared": null,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-af-34",
+      "country_codes": [
+        "AF"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P1",
+      "status": "retry_source",
+      "reason": "公式地図は今回もHTTP503。2024年導入の6桁方式の原典が必要。",
+      "next_action": "現在の6桁割当を公式経路で取得し、旧4桁で置き換えない。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 24
+        }
+      ],
+      "historical_status": "official_map_source_download_failed",
+      "historical_reason": "Afghan Post homepage obtained and verified direct link to map; map returned503. Six-digit system introduced2024 according to USPS primary notification; old4digits not substituted.",
+      "source_urls": [
+        "https://postalcode.afghanpost.gov.af/"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "evidence_paths": [
+        "releases/source-recovery/20261124/http-probes.json"
+      ]
+    },
+    {
+      "id": "postal-bn-27",
+      "country_codes": [
+        "BN"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P1",
+      "status": "retry_source",
+      "reason": "公式Poskodディレクトリは今回のGETでもHTTP503。",
+      "next_action": "公式配布先からPDF原本を再取得し、2018年版の現行性と地区・集落対応を検証する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 17
+        }
+      ],
+      "historical_status": "official_source_download_failed",
+      "historical_reason": "Search located official directory, but HTTPSwww/bare and HTTP attempts returned503.",
+      "source_urls": [
+        "https://www.post.gov.bn/Documents/Buku%20Poskod%20Edisi%20ke%202%20%28Kemaskini%2026122018%29.pdf"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "evidence_paths": [
+        "releases/source-recovery/20261124/http-probes.json"
+      ]
+    },
+    {
+      "id": "postal-kg-28",
+      "country_codes": [
+        "KG"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P1",
+      "status": "retry_source",
+      "reason": "新しい英数字方式の公式セレクターは今回もHTTP503。",
+      "next_action": "新方式の割当表を公式経路で取得し、旧数字版を代わりに採用しない。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 18
+        }
+      ],
+      "historical_status": "official_source_download_failed",
+      "historical_reason": "Current official selector found via web search. HTTPS/HTTP page and WP public API requests returned503. New alphanumeric format underway; do not substitute unverified historical list.",
+      "source_urls": [
+        "https://post.kg/language/ru/indeksy-novye/"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "evidence_paths": [
+        "releases/source-recovery/20261124/http-probes.json"
+      ]
+    },
+    {
+      "id": "postal-kw-30",
+      "country_codes": [
+        "KW"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P1",
+      "status": "retry_source",
+      "reason": "政府のブロック別・私書箱別表を確認。原文GETは今回もHTTP503。",
+      "next_action": "政府原表を取得し、ブロック用と私書箱用の番号を別用途で保存する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 20
+        }
+      ],
+      "historical_status": "official_source_download_failed",
+      "historical_reason": "Official PO-box/block table found;www/bare HTTPS/HTTP requests returned503.",
+      "source_urls": [
+        "https://www.moc.gov.kw/en/important-links?tab=2"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "evidence_paths": [
+        "releases/source-recovery/20261124/http-probes.json"
+      ]
+    },
+    {
+      "id": "postal-ng-07",
+      "country_codes": [
+        "NG"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P1",
+      "status": "permission_review",
+      "reason": "NDAPSの大量取得・編集には提供者の許諾確認が必要。",
+      "next_action": "一括取得と商用利用の許諾を確認してから、郵便番号と地名の別レイヤーとして保存する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage3-review.json",
+          "key": "deferred",
+          "index": 6
+        }
+      ],
+      "historical_status": "bulk_reuse_authorization_unconfirmed",
+      "historical_reason": "Provider acceptable-use conditions require authorization for substantial NDAPS download/compilation; no bulk capture performed.",
+      "source_urls": [],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-np-01",
+      "country_codes": [
+        "NP"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P1",
+      "status": "extraction_review",
+      "reason": "公式16ページPDFは画像。番号・地名・列対応を確実に読み取る工程が必要。",
+      "next_action": "原本を固定しOCRと人による原表照合を行い、全ページの行数・先頭ゼロを検証する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage3-review.json",
+          "key": "deferred",
+          "index": 0
+        }
+      ],
+      "historical_status": "scan_requires_verified_extraction",
+      "historical_reason": "Official 16-page PDF is image-only; reliable text extraction is not yet available. No guessed codes added.",
+      "source_urls": [],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-tj-29",
+      "country_codes": [
+        "TJ"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P1",
+      "status": "retry_source",
+      "reason": "公式の地域・都市・地区・集落別表は検索で確認できるが原文GETは今回もHTTP503。",
+      "next_action": "公式HTMLの元バイトを取得して階層・空欄継承・重複を検証する。検索抜粋から原本を作らない。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 19
+        }
+      ],
+      "historical_status": "official_source_download_failed",
+      "historical_reason": "Official table visible to search but sourcebytes HTTP/HTTPS returned503; no reconstructed raw snapshot created from search text.",
+      "source_urls": [
+        "https://tajikpost.tj/ru/перечень-почтовых-индексов-таджикис/"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "evidence_paths": [
+        "releases/source-recovery/20261124/http-probes.json"
+      ]
+    },
+    {
+      "id": "postal-tn-15",
+      "country_codes": [
+        "TN"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P1",
+      "status": "retry_source",
+      "reason": "公式郵便番号フォームの503が過去記録に残る。今回は未再試行。",
+      "next_action": "公開検索の正式な一括配布先を調べ、地域・集落と番号の対応を取得する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 5
+        }
+      ],
+      "historical_status": "see_historical_decision",
+      "historical_reason": "Official postcode form returned503 during intake; no bulk assignment source acquired.",
+      "source_urls": [
+        "https://www.poste.tn/codes.php"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-vn-02",
+      "country_codes": [
+        "VN"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P1",
+      "status": "permission_review",
+      "reason": "2025年再編後の34省市の公式一覧を確認。ただし省庁ポータルは商用利用に事前の書面承諾を求める。",
+      "next_action": "原典の商用利用・再配布条件を確認後、94ページの省・社坊・5桁番号を原表と照合する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage3-review.json",
+          "key": "deferred",
+          "index": 1
+        }
+      ],
+      "historical_status": "source_download_timeout",
+      "historical_reason": "Official candidate PDF could not be downloaded successfully in this intake.",
+      "source_urls": [
+        "https://mst.gov.vn/van-ban-phap-luat/25175.htm",
+        "https://mic.mediacdn.vn/document/2025/8/27/danh-muc-ma-buu-chinh-quoc-gia-cho-doi-tuong-la-phuong-xa-va-don-vi-hanh-chinh-tuong-duong-1756261572483234512520.pdf",
+        "https://mst.gov.vn/dieu-khoan-su-dung-197132008.htm"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "source_rows_imported": 0,
+      "evidence_paths": [
+        "releases/source-recovery/20261124/http-probes.json"
+      ]
+    },
+    {
+      "id": "postal-bh-32",
+      "country_codes": [
+        "BH"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "retry_source",
+      "reason": "公式サービスディレクトリの503が過去記録に残る。今回は未再試行。",
+      "next_action": "配布先・版・明示的な番号表を確認し、掲載住所の例から全量を推定しない。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 22
+        }
+      ],
+      "historical_status": "official_source_download_failed",
+      "historical_reason": "Directory found; request returned503. Not parsed from address examples.",
+      "source_urls": [
+        "https://www.bahrainpost.gov.bh/en/images/pdf/services-directory-eng.pdf"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-cu-37",
+      "country_codes": [
+        "CU"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "retry_source",
+      "reason": "公式候補サイトの503が過去記録に残る。今回は未再試行。",
+      "next_action": "現行公式配布先から番号と地名の原表を取得する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 27
+        }
+      ],
+      "historical_status": "official_source_unavailable",
+      "historical_reason": "Official candidate site returned503; no secondary code list substituted.",
+      "source_urls": [],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-cv-23",
+      "country_codes": [
+        "CV"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "retry_source",
+      "reason": "公式ポータル・連絡ページの503が過去記録に残る。今回は未再試行。",
+      "next_action": "規制当局が示す現行公式配布先を確認する。法令の例示表は使わない。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 13
+        }
+      ],
+      "historical_status": "see_historical_decision",
+      "historical_reason": "Official portal referenced by regulator and2020law returnedHTTP503.",
+      "source_urls": [
+        "https://codigopostal.cv/"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-cv-24",
+      "country_codes": [
+        "CV"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "retry_source",
+      "reason": "公式ポータル・連絡ページの503が過去記録に残る。今回は未再試行。",
+      "next_action": "規制当局が示す現行公式配布先を確認する。法令の例示表は使わない。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 14
+        }
+      ],
+      "historical_status": "see_historical_decision",
+      "historical_reason": "Officialpublicapex andwwwcontactpages returnedHTTP503; no usable original bytes acquired.",
+      "source_urls": [
+        "https://correios.cv/contactos"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-ge-05",
+      "country_codes": [
+        "GE"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "permission_review",
+      "reason": "旧版は廃止済み。現行統合版の取得条件が未解決。",
+      "next_action": "現行版の公式提供条件を確認し、旧版を現在の割当表として使わない。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage3-review.json",
+          "key": "deferred",
+          "index": 4
+        }
+      ],
+      "historical_status": "current_consolidated_table_not_publicly_acquired",
+      "historical_reason": "Available first edition was superseded in 2002. Current consolidated access required login or payment; obsolete table not added.",
+      "source_urls": [],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-gr-06",
+      "country_codes": [
+        "GR"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "assignment_source_needed",
+      "reason": "公式一括割当表の所在が未確認。",
+      "next_action": "郵便事業者の現行公開データまたは正式な提供条件を確認する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage3-review.json",
+          "key": "deferred",
+          "index": 5
+        }
+      ],
+      "historical_status": "official_bulk_table_unconfirmed",
+      "historical_reason": "No suitable official bulk assignment source confirmed during this intake.",
+      "source_urls": [],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-ky-11",
+      "country_codes": [
+        "KY"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "retry_source",
+      "reason": "旧公式サイトは503。私書箱等の割当表は未取得。",
+      "next_action": "現行公式配布先から原表を取得し、箱番号の範囲から郵便番号を推測しない。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 1
+        }
+      ],
+      "historical_status": "old_official_site_unavailable",
+      "historical_reason": "Postal site returned503; the government eGov description supplies contact information but no bulk assignment table confirmed. No PO-box ranges inferred.",
+      "source_urls": [
+        "https://www.caymanpost.gov.ky/"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-ls-16",
+      "country_codes": [
+        "LS"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "assignment_source_needed",
+      "reason": "適切な公式公開割当表が未確認。",
+      "next_action": "Lesotho Postの現行原典と郵便局用・配達地域用の区分を確認する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 6
+        }
+      ],
+      "historical_status": "see_historical_decision",
+      "historical_reason": "No suitable official public assignment table confirmed during this intake.",
+      "source_urls": [],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-mg-14",
+      "country_codes": [
+        "MG"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "assignment_source_needed",
+      "reason": "公式ページのHTTP取得は200に回復。ただし本文は読込表示で、埋込先はuMap。番号割当行は未取得。",
+      "next_action": "郵便事業者が管理する割当表と利用条件を確認し、地図上の点を公式番号表と同一視しない。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 4
+        }
+      ],
+      "historical_status": "see_historical_decision",
+      "historical_reason": "Official postal agency page raw retrieval returned403; no assignment data acquired.",
+      "source_urls": [
+        "https://www.paositramalagasy.mg/nos_agence"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "evidence_paths": [
+        "releases/source-recovery/20261124/http-probes.json"
+      ]
+    },
+    {
+      "id": "postal-mm-26",
+      "country_codes": [
+        "MM"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "identity_review",
+      "reason": "GitHub候補と公式郵便事業者の関係を独立に確認できていない。",
+      "next_action": "公式ドメインからのリンクと権利・版を確認し、確認前に公式原典と表示しない。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 16
+        }
+      ],
+      "historical_status": "repository_identity_not_independently_verified",
+      "historical_reason": "Repository explicitly attributes original codes/copyright to MyanmarPost and applies GPL-3.0, but no link from verified official domain to repository confirmed. Not eligible for official manifest in this batch. Acquired CSVs kept only in intake. EN/MM each 17331 records,17298 distinct literal strings; code sequences identical. One anomalous six-digit 114560 at csv:record:5606, not repaired;33 duplicate code strings. README release September2021; main last2022-04-29.",
+      "source_urls": [
+        "https://github.com/MyanmarPost/MyanmarPostalCode"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-mv-31",
+      "country_codes": [
+        "MV"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "retry_source",
+      "reason": "郵便事業者サイトの403が過去記録に残る。今回は未再試行。",
+      "next_action": "公式の公開割当表を確認する。UPUの書式例だけから番号を取り込まない。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 21
+        }
+      ],
+      "historical_status": "official_source_download_forbidden",
+      "historical_reason": "Operator site returned403. UPU country sheet shows structures and examples, not a complete assignment table.",
+      "source_urls": [
+        "https://www.maldivespost.com/"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-ni-04",
+      "country_codes": [
+        "NI"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "retry_source",
+      "reason": "公式一覧は今回の再確認でもHTTP403。",
+      "next_action": "公式が提供する正規の公開配布先を確認し、取得後に割当表全行を照合する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage3-review.json",
+          "key": "deferred",
+          "index": 3
+        }
+      ],
+      "historical_status": "source_fetch_forbidden",
+      "historical_reason": "Official candidate endpoint returned HTTP 403; not evidence that the country has no codes.",
+      "source_urls": [
+        "https://www.correos.gob.ni/postalcode/postalcodes.php"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false,
+      "evidence_paths": [
+        "releases/source-recovery/20261124/http-probes.json"
+      ]
+    },
+    {
+      "id": "postal-om-25",
+      "country_codes": [
+        "OM"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "permission_review",
+      "reason": "公開ページの再配布・抽出条件が未解決。271候補は既存の公開原典に追加されていない。",
+      "next_action": "公式の一括提供・商用利用・再配布許可を確認する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 15
+        }
+      ],
+      "historical_status": "published_website_terms_restrict_republication_and_extraction",
+      "historical_reason": "271 named office-option records reviewed locally, but original webpage and derived rows not added to public Git.",
+      "source_urls": [
+        "https://www.omanpost.om/po-subscription"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-pg-35",
+      "country_codes": [
+        "PG"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "identity_review",
+      "reason": "旧ホスト掲載表と公式郵便事業者の現行サイトとの関係が未確認。",
+      "next_action": "公式サイトからのリンクと版を確認し、旧表の39値を現行全国表にしない。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 25
+        }
+      ],
+      "historical_status": "legacy_host_identity_and_current_version_unverified",
+      "historical_reason": "Operator-branded legacy host lists39 nonblank three-digit values, but a direct link from the verified official domain was not independently established and current code revision is unverified. No candidate code rows or raw page added to public Git.",
+      "source_urls": [
+        "https://postpng-live.prontoavenue.biz/postal-codes"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-sv-38",
+      "country_codes": [
+        "SV"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "assignment_source_needed",
+      "reason": "適切な公式割当原典が未確認。",
+      "next_action": "指定郵便事業者の公開割当表と更新日を確認する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 28
+        }
+      ],
+      "historical_status": "official_bulk_assignment_table_unconfirmed",
+      "historical_reason": "No suitable official assignment table confirmed in this intake.",
+      "source_urls": [],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-tm-33",
+      "country_codes": [
+        "TM"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "identity_review",
+      "reason": "候補サイトと政府が案内する郵便事業者ドメインの一致が未確認。",
+      "next_action": "政府の現行リンクから公式運営者と配布先を確認してから取得する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 23
+        }
+      ],
+      "historical_status": "official_source_identity_and_download_unconfirmed",
+      "historical_reason": "Candidate returned403; verified Turkmen government references historically point turkmenpost.gov.tm. No rows ingested.",
+      "source_urls": [
+        "https://post.tm/departments"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-tt-12",
+      "country_codes": [
+        "TT"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "assignment_source_needed",
+      "reason": "公式の全量割当原典は未確認。",
+      "next_action": "TTPostの公開範囲・再配布条件・現行原典を確認する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 2
+        }
+      ],
+      "historical_status": "official_bulk_assignment_source_unconfirmed",
+      "historical_reason": "Primary-source searches did not confirm a public bulk assignment table in this intake; no generated or secondary postal codes added.",
+      "source_urls": [],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-ve-36",
+      "country_codes": [
+        "VE"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "assignment_source_needed",
+      "reason": "取得済み公式ページには利用できる番号割当表がない。",
+      "next_action": "IPOSTELの現行公式一覧・配布経路を確認する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 26
+        }
+      ],
+      "historical_status": "no_assignment_table_in_acquired_official_page",
+      "historical_reason": "Public official page did not provide a usable code assignment table.",
+      "source_urls": [
+        "https://www.ipostel.gob.ve/"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-vg-10",
+      "country_codes": [
+        "VG"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P2",
+      "status": "retry_source",
+      "reason": "旧公式FAQは404。現在の割当表が未確認。",
+      "next_action": "現行の政府・郵便局の配布先を調べ、経路限定値と通常郵便番号を区別する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 0
+        }
+      ],
+      "historical_status": "old_official_postcode_FAQ_not_found",
+      "historical_reason": "Historic official FAQ URL and bvi.gov.vg equivalent return404. Current department page is available but does not supply a postcode assignment table; no secondary-derived assignments ingested.",
+      "source_urls": [
+        "https://www.gov.vg/content/what-are-postcodes-addresses-british-virgin-islands"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-bt-21",
+      "country_codes": [
+        "BT"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P3",
+      "status": "rejected_candidate",
+      "reason": "年次報告の地図は公式検索と矛盾する。代わりに公式検索を保存済み。",
+      "next_action": "地図由来の番号を追加しない。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 11
+        }
+      ],
+      "historical_status": "see_historical_decision",
+      "historical_reason": "Annual report page4 map conflicts with official postcode finder for multiple office labels/codes (e.g. Samdrupjongkhar and ParoAirport); do not ingest map as an assignment table. Use official20regionfinder instead.",
+      "source_urls": [
+        "https://bhutanpost.bt/forms/bdr2024.pdf"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-cv-22",
+      "country_codes": [
+        "CV"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P3",
+      "status": "rejected_candidate",
+      "reason": "法令の表は明示的な例示で、番号の割当表ではない。",
+      "next_action": "公式の実割当表を待ち、例示値から番号を生成しない。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 12
+        }
+      ],
+      "historical_status": "see_historical_decision",
+      "historical_reason": "Postal law2020 annex explicitly labelled TabelaIlustrativadeCodificacao; illustrative examples not a national assignment table. Do not ingest as assigned codes.",
+      "source_urls": [
+        "https://boe.incv.cv/Bulletins/Download/3143"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-et-20",
+      "country_codes": [
+        "ET"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P3",
+      "status": "assignment_source_needed",
+      "reason": "公式支店一覧の名称・サービス・電話だけでは番号割当にならない。",
+      "next_action": "明示された郵便番号表と制度の対象範囲を確認する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 10
+        }
+      ],
+      "historical_status": "see_historical_decision",
+      "historical_reason": "Officialbrancheslist names/services/phones butnoexplicitpostalcodefields; no codevaluesinferred.",
+      "source_urls": [],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-mg-13",
+      "country_codes": [
+        "MG"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P3",
+      "status": "rejected_candidate",
+      "reason": "非郵便当局の候補でログインも必要。公式原典としての採用対象から除外。",
+      "next_action": "公式郵便事業者の原典を先に確認する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 3
+        }
+      ],
+      "historical_status": "see_historical_decision",
+      "historical_reason": "Dataset from MAIDI association rather than postal authority; download requires login. No account created and source not adopted.",
+      "source_urls": [
+        "https://www.openstat-madagascar.mg/bdd/territoire-et-amenagement/97-donnees-sur-les-codes-postaux-a-madagascar"
+      ],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-mz-09",
+      "country_codes": [
+        "MZ"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P3",
+      "status": "assignment_source_needed",
+      "reason": "法令には番号の構造のみ。実際の割当表ではない。",
+      "next_action": "実割当が公開されるまで候補を保持し、8桁の番号を生成しない。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage3-review.json",
+          "key": "deferred",
+          "index": 8
+        }
+      ],
+      "historical_status": "structure_only_not_assignments",
+      "historical_reason": "2024 legislative material defines an eight-digit structure without an assignment table; code space was not generated.",
+      "source_urls": [],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-ug-17",
+      "country_codes": [
+        "UG"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P3",
+      "status": "assignment_source_needed",
+      "reason": "過去確認ではEntebbe試行段階の説明のみ。全国割当表は未取得。",
+      "next_action": "政府の正式な割当公開を確認し、試行地域の結果を全国に拡張しない。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 7
+        }
+      ],
+      "historical_status": "see_historical_decision",
+      "historical_reason": "Official2026ministrynews describes Entebbepilot, expansionpending; no public assignmenttableacquired.",
+      "source_urls": [],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-zm-18",
+      "country_codes": [
+        "ZM"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P3",
+      "status": "assignment_source_needed",
+      "reason": "支店の所在地情報から郵便番号割当を確認できていない。",
+      "next_action": "明示された番号フィールドを持つ公式原典を探す。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 8
+        }
+      ],
+      "historical_status": "see_historical_decision",
+      "historical_reason": "Officiallocationsfrontend contains no observed explicit postal assignmenttable; no codevaluesinferred.",
+      "source_urls": [],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    },
+    {
+      "id": "postal-zw-19",
+      "country_codes": [
+        "ZW"
+      ],
+      "layer": "postal-assignment",
+      "priority": "P3",
+      "status": "assignment_source_needed",
+      "reason": "公式支店一覧には明示的な郵便番号欄がない。",
+      "next_action": "電話番号・所在地を郵便番号と混同せず、割当原典の公開を確認する。",
+      "previous_decisions": [
+        {
+          "path": "postal/stage4-review.json",
+          "key": "deferred_candidates",
+          "index": 9
+        }
+      ],
+      "historical_status": "see_historical_decision",
+      "historical_reason": "Officiallocationslists addresses/telephones butnoexplicitpostalcodefields; not mistaken for codes.",
+      "source_urls": [],
+      "commercial_use_cleared": false,
+      "national_completeness_verified": false,
+      "deliverability_verified": false
+    }
+  ]
+}

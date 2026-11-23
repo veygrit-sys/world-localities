@@ -7,6 +7,7 @@
 | 目的 | 入口 |
 |---|---|
 | 世界の郵便番号を段階的に保存する | [郵便番号原典と250コードの収集台帳](postal/README.md) |
+| 取得失敗・保留原典の優先度と復旧状況を見る | [43件の整理、OSM8原本の復旧と固定索引](docs/plans/source-recovery-20261124.md) |
 | 今回の住所検証・翻訳の更新方針を確認する | [共通処理の整合性改善](docs/plans/address-integrity-20261118.md) |
 | 西アジア18か国の到達範囲を確認する | [西アジアLocalities基盤](docs/plans/western-asia-18-country-baseline-20261106.md) |
 | 国・地域から探す | [250国・地域の一覧](countries/README.md) |

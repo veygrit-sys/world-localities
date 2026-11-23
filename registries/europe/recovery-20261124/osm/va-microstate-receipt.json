@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "source_kind": "osm-community-extract",
+  "country": "VA",
+  "source_url": "https://download.openstreetmap.fr/extracts/europe/vatican_city-latest.osm.pbf",
+  "resolved_url": "https://download.openstreetmap.fr/extracts/europe/vatican_city-latest.osm.pbf",
+  "filename": "va-microstate.osm.pbf",
+  "acquired_at": "2026-11-23T16:53:17.827848+00:00",
+  "bytes": 3085521,
+  "sha256": "2b8c07d240dccd8d36745df5238fd26295c6dbe5a30a09f45982a5ed2c96d7d3",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors; Geofabrik / OpenStreetMap.fr extract",
+  "rights_reviewed": true,
+  "fixture": false,
+  "national_completeness_verified": false
+}

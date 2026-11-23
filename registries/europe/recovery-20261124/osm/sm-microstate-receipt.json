@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "source_kind": "osm-community-extract",
+  "country": "SM",
+  "source_url": "https://download.openstreetmap.fr/extracts/europe/san_marino-latest.osm.pbf",
+  "resolved_url": "https://download.openstreetmap.fr/extracts/europe/san_marino-latest.osm.pbf",
+  "filename": "sm-microstate.osm.pbf",
+  "acquired_at": "2026-11-23T16:53:11.724978+00:00",
+  "bytes": 1636940,
+  "sha256": "5c3ed4fab8dad8a7993a67cfb1215a3104a5d7b32c72f482b8c1136c76198f50",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors; Geofabrik / OpenStreetMap.fr extract",
+  "rights_reviewed": true,
+  "fixture": false,
+  "national_completeness_verified": false
+}

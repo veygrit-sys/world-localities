@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "source_kind": "osm-community-extract",
+  "country": "MC",
+  "source_url": "https://download.geofabrik.de/europe/monaco-latest.osm.pbf",
+  "resolved_url": "https://download.geofabrik.de/europe/monaco/monaco-261122.osm.pbf",
+  "filename": "mc-microstate.osm.pbf",
+  "acquired_at": "2026-11-23T16:53:24.136621+00:00",
+  "bytes": 704887,
+  "sha256": "c80f9975b9354e84b2e77a76e73e993e3bf1f5b180b6ec6d9d8209723cafa89d",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors; Geofabrik / OpenStreetMap.fr extract",
+  "rights_reviewed": true,
+  "fixture": false,
+  "national_completeness_verified": false
+}

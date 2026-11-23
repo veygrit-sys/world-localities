@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "source_id": "guernsey-jersey",
+  "url": "https://download.geofabrik.de/europe/guernsey-jersey-latest.osm.pbf",
+  "path": "guernsey-jersey-latest.osm.pbf",
+  "bytes": 3930311,
+  "sha256": "24b080c7a04fb0093e7543f3bb312ff9c06755424800875cf4ad3a3159dcb447",
+  "retrieved_at": "2026-11-23T16:53:43.193404+00:00",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors / Geofabrik",
+  "fixture": false,
+  "legal_boundary_verified": false,
+  "resolved_url": "https://download.geofabrik.de/europe/guernsey-jersey/guernsey-jersey-261122.osm.pbf"
+}
