@@ -28,13 +28,23 @@ def _key(value: str) -> str:
     return " ".join(unicodedata.normalize("NFC", value).casefold().split())
 
 
-@cache
-def _index(directory: Path) -> dict[tuple[str, str], list[dict]]:
+def load_territories(directory: Path) -> dict[str, str]:
     cog = SOURCE["territory_reference"]
     crosswalk = (directory / cog["projection_file"]).read_bytes()
     if hashlib.sha256(crosswalk).hexdigest() != cog["projection_sha256"]:
         raise ValueError("INSEE territorial crosswalk differs from its reviewed projection")
-    territories = {row["insee_code"]: row["country"] for row in csv.DictReader(crosswalk.decode("utf-8").splitlines())}
+    return {row["insee_code"]: row["country"] for row in csv.DictReader(crosswalk.decode("utf-8").splitlines())}
+
+
+def country_for_commune(insee: str, territories: dict[str, str]) -> str | None:
+    if not re.fullmatch(r"(?:[0-9]{2}|2[AB])[0-9]{3}", insee):
+        return None
+    return "FR" if insee[:2] in METROPOLITAN else territories.get(insee)
+
+
+@cache
+def _index(directory: Path) -> dict[tuple[str, str], list[dict]]:
+    territories = load_territories(directory)
     raw = verified_bytes(lzma.decompress((directory / SOURCE["stored_file"]).read_bytes()))
     rows = csv.reader(io.StringIO(raw.decode(SOURCE["encoding"]), newline=""), delimiter=";", strict=True)
     if next(rows) != HEADER:
@@ -42,7 +52,7 @@ def _index(directory: Path) -> dict[tuple[str, str], list[dict]]:
 
     index = defaultdict(list)
     for insee, commune, postcode, routing_name, line5 in rows:
-        country = "FR" if insee[:2] in METROPOLITAN else territories.get(insee)
+        country = country_for_commune(insee, territories)
         if country is None:
             if insee != "98901":
                 raise ValueError(f"Unreviewed INSEE territory for {insee}")
@@ -65,8 +75,8 @@ def _index(directory: Path) -> dict[tuple[str, str], list[dict]]:
             "line_5": line5,
         }
         if country != "FR":
-            record["territory_source_url"] = cog["source_url"]
-            record["territory_attribution"] = cog["attribution"]
+            record["territory_source_url"] = SOURCE["territory_reference"]["source_url"]
+            record["territory_attribution"] = SOURCE["territory_reference"]["attribution"]
         # Numeric INSEE identifiers can equal an unrelated postcode. Tag that namespace.
         keys = {postcode, "insee:" + insee.casefold(), _key(commune), _key(routing_name), _key(line5)}
         for key in keys - {""}:

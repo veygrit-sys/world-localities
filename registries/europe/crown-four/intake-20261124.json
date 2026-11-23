@@ -1,0 +1,65 @@
+{
+  "checked_on": "2026-11-24",
+  "source_pins": [
+    {
+      "schema_version": 1,
+      "source_id": "guernsey-jersey",
+      "url": "https://download.geofabrik.de/europe/guernsey-jersey-latest.osm.pbf",
+      "path": "guernsey-jersey-latest.osm.pbf",
+      "bytes": 3930311,
+      "sha256": "24b080c7a04fb0093e7543f3bb312ff9c06755424800875cf4ad3a3159dcb447",
+      "retrieved_at": "2026-11-23T16:29:24.161556+00:00",
+      "license": "ODbL-1.0",
+      "attribution": "© OpenStreetMap contributors / Geofabrik",
+      "fixture": false,
+      "legal_boundary_verified": false,
+      "resolved_url": "https://download.geofabrik.de/europe/guernsey-jersey/guernsey-jersey-261122.osm.pbf"
+    },
+    {
+      "schema_version": 1,
+      "source_id": "isle-of-man",
+      "url": "https://download.geofabrik.de/europe/isle-of-man-latest.osm.pbf",
+      "path": "isle-of-man-latest.osm.pbf",
+      "bytes": 6128457,
+      "sha256": "cd17687ce8dac11ec8eb70b50233a760249b713f3ac2bb87403bb61f94df36d5",
+      "retrieved_at": "2026-11-23T16:29:27.541017+00:00",
+      "license": "ODbL-1.0",
+      "attribution": "© OpenStreetMap contributors / Geofabrik",
+      "fixture": false,
+      "legal_boundary_verified": false,
+      "resolved_url": "https://download.geofabrik.de/europe/isle-of-man/isle-of-man-261122.osm.pbf"
+    }
+  ],
+  "verified_index": {
+    "status": "PASS",
+    "records": 27104,
+    "counts": {
+      "GG:address_candidate": 82,
+      "GG:administrative_label": 1,
+      "GG:geonames": 274,
+      "GG:named_place": 61,
+      "GG:named_road_segment": 675,
+      "GG:official_text": 10,
+      "GI:geonames": 10,
+      "GI:official_text": 1,
+      "IM:address_candidate": 6952,
+      "IM:administrative_label": 32,
+      "IM:geonames": 67,
+      "IM:named_place": 1405,
+      "IM:named_road_segment": 7296,
+      "IM:official_text": 21,
+      "JE:address_candidate": 947,
+      "JE:administrative_label": 1,
+      "JE:geonames": 98,
+      "JE:named_place": 114,
+      "JE:named_road_segment": 740,
+      "JE:official_text": 12,
+      "UNRESOLVED:address_candidate": 2653,
+      "UNRESOLVED:administrative_label": 136,
+      "UNRESOLVED:named_place": 88,
+      "UNRESOLVED:named_road_segment": 5428
+    },
+    "national_address_completeness_verified": false,
+    "delivery_verified": false
+  }
+}
