@@ -138,7 +138,7 @@ def _geonames(countries):
 
 
 def _records(countries, db):
-    from .open_reference.benelux import indexed_paths
+    from .open_reference.published_points import indexed_paths
     from .postal_picker_sources import iter_extra_records
 
     yield from indexed_paths(db, countries)
@@ -234,10 +234,10 @@ def build_index(path, countries=None):
         Path(temporary).unlink(missing_ok=True)
 
 
-def _option_rows(db, params, rows):
+def _option_rows(db, params, rows, entered_code):
     # Read supporting sources per option in this same snapshot. A parent's
     # provenance does not automatically transfer to each child.
-    country, code, parent = params
+    country, _, parent = params
     options = []
     for label, kind, children in rows:
         sources = [item[0] for item in db.execute(f"""
@@ -245,10 +245,10 @@ def _option_rows(db, params, rows):
             WHERE {_SCOPE} AND label = ? AND kind = ? ORDER BY name
         """, (*params, label, kind))]
         options.append({
-            "id": _option_id(country, code, parent, kind, label),
+            "id": _option_id(country, entered_code, parent, kind, label),
             "kind": kind, "label": label, "has_children": bool(children),
             "supporting_sources": sources, "source_id": sources[0],
-            "country_code": country, "postcode": code,
+            "country_code": country, "postcode": entered_code,
         })
     return options
 
@@ -265,9 +265,9 @@ class PostalPicker:
     def _connect(self):
         return sqlite3.connect(self._uri, uri=True)
 
-    def address_points(self, country, postcode, road, number):
+    def address_points(self, country, postcode, road, number, *, commune_code=False):
         """Return typed observations, including the provenance frozen with this index."""
-        from .open_reference.benelux import key
+        from .open_reference.published_points import key
 
         country = _country(country)
         with closing(self._connect()) as db:
@@ -275,9 +275,16 @@ class PostalPicker:
             # Older v2 indexes and indexes built for other countries have only postal edges.
             if not db.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='official_points'").fetchone():
                 return []
-            return db.execute("""
-                SELECT p.locality, p.municipality, p.source, p.record_id, m.details
-                FROM official_points p JOIN source_metadata m ON m.name = p.source
+            extra, join = "", ""
+            if commune_code:
+                extra = ", NULL"
+                if db.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='point_communes'").fetchone():
+                    extra = ", c.commune_code"
+                    join = """LEFT JOIN point_communes c ON c.source=p.source AND c.postcode=p.postcode
+                              AND c.locality=p.locality"""
+            return db.execute(f"""
+                SELECT p.locality, p.municipality, p.source, p.record_id, m.details {extra}
+                FROM official_points p JOIN source_metadata m ON m.name = p.source {join}
                 WHERE p.country=? AND p.postcode=? AND p.road_key=? AND p.number_key=?
                 ORDER BY p.record_id
             """, (country, _postcode(country, postcode), key(road), key(number))).fetchall()
@@ -302,6 +309,7 @@ class PostalPicker:
         result = {"country": country, "postcode": code, "status": "not_found",
                   "selected": [], "options": [], "sources": [], "source_details": {}, "next_after": None,
                   "deliverability_verified": False, "match_mode": "none"}
+        entered_code = code
         with closing(self._connect()) as db:
             db.execute("BEGIN")
             if not db.execute("SELECT 1 FROM countries WHERE code=?", (country,)).fetchone():
@@ -309,10 +317,16 @@ class PostalPicker:
                     raise ValueError("selection for an unsupported country")
                 result["status"] = "unsupported_country"
                 return result
+            if country == "TW":
+                from .open_reference.tw_roads import POST_ID, postcode_context
+                context = postcode_context(entered_code)
+                if context and db.execute("SELECT 1 FROM sources WHERE name=?", (POST_ID,)).fetchone():
+                    code = context["lookup_prefix"]
+                    result.update(context)
             parent = _ROOT
             source_rows = ()
             for token in path:
-                kind, label, next_parent = _read_option(country, code, parent, token)
+                kind, label, next_parent = _read_option(country, entered_code, parent, token)
                 source_rows = db.execute(f"""
                     SELECT name FROM edges JOIN sources ON edges.source = sources.id
                     WHERE {_SCOPE} AND label = ? AND kind = ? ORDER BY name
@@ -320,7 +334,8 @@ class PostalPicker:
                 if not source_rows:
                     raise ValueError("selection no longer exists in this index")
                 result["selected"].append({"id": token, "kind": kind, "label": label})
-                parent = next_parent
+                # Stored edges use the area prefix, while tokens bind to the complete user input.
+                parent = next_parent if entered_code == code else _digest(country, code, parent, _payload(kind, label))
             if not path:
                 source_rows = db.execute(f"""
                     SELECT DISTINCT name FROM edges JOIN sources ON edges.source = sources.id
@@ -346,7 +361,7 @@ class PostalPicker:
                 rows = db.execute(_OPTIONS, (*params, limit + 1, offset)).fetchall()
             if rows:
                 result["match_mode"] = "prefix" if prefix else "browse"
-                result["options"] = _option_rows(db, params, rows[:limit])
+                result["options"] = _option_rows(db, params, rows[:limit], entered_code)
                 if len(rows) > limit:
                     result["next_after"] = offset + limit
             elif prefix:
@@ -358,7 +373,7 @@ class PostalPicker:
                 if similar_filter is not None:
                     siblings = db.execute(_OPTIONS, (*params, MAX_SIMILAR_POOL + 1, 0)).fetchall()
                     if 0 < len(siblings) <= MAX_SIMILAR_POOL:
-                        candidates = similar_filter(country, query, _option_rows(db, params, siblings))
+                        candidates = similar_filter(country, query, _option_rows(db, params, siblings, entered_code))
                         result["options"] = candidates[offset:offset + limit]
                         if result["options"]:
                             result["match_mode"] = "similar_spelling"

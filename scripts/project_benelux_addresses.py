@@ -3,19 +3,16 @@
 import argparse
 from collections import Counter
 import csv
-import gzip
-import hashlib
 import io
 import json
 from pathlib import Path
 import re
 
 
-FIELDS = ("postcode", "locality", "road", "number", "municipality", "record_id")
-
-
-def sha(data):
-    return hashlib.sha256(data).hexdigest()
+if __package__:
+    from .address_point_projection import sha, write_projection
+else:
+    from address_point_projection import sha, write_projection
 
 
 def project(country, raw_dir, source, target):
@@ -61,30 +58,7 @@ def project(country, raw_dir, source, target):
                 counts["duplicate_id_same_address"] += 1
                 continue
             records[rid] = item
-    items = sorted(records.values())
-    if not items:
-        raise ValueError("empty projection")
-    target.mkdir(parents=True, exist_ok=False)
-    shards = []
-    combined = hashlib.sha256()
-    for offset in range(0, len(items), 20000):
-        batch = items[offset:offset + 20000]
-        buffer = io.StringIO(newline="")
-        writer = csv.writer(buffer, lineterminator="\n")
-        writer.writerow(FIELDS)
-        writer.writerows(batch)
-        raw = buffer.getvalue().encode()
-        combined.update(raw)
-        out = io.BytesIO()
-        with gzip.GzipFile(fileobj=out, mode="wb", mtime=0) as zipped:
-            zipped.write(raw)
-        filename = f"points-{len(shards) + 1:02}.csv.gz"
-        (target / filename).write_bytes(out.getvalue())
-        shards.append({"file": filename, "rows": len(batch), "sha256": sha(out.getvalue())})
-    result = dict(source, counts=dict(counts, retained_ids=len(items),
-                                      postcodes=len({r[0] for r in items})),
-                  projection_sha256=combined.hexdigest(), shards=shards)
-    (target / "source.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    write_projection(records.values(), source, counts, target)
 
 
 if __name__ == "__main__":

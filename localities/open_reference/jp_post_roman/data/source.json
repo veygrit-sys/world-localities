@@ -1,0 +1,169 @@
+{
+  "source_id": "japanpost-roman-20261109",
+  "published_on": "2026-11-09",
+  "retrieved_on": "2026-11-24",
+  "url": "https://www.post.japanpost.jp/service/search/zipcode/download/roman/KEN_ALL_ROME.zip",
+  "catalog": "https://www.post.japanpost.jp/service/search/zipcode/download/roman-zip.html",
+  "terms_url": "https://www.post.japanpost.jp/service/search/zipcode/download/readme_ro.html",
+  "native_source_id": "japanpost-postal-20261030",
+  "native_sha256": "db92fcf624bb7280e6f51900aebe03adeafbd168796e59412dbc22a80abb85b9",
+  "sha256": "21bcdd0557e07202f4a65a9aef22daf1f9b74a98be6121b28f9675b7c82fc9a7",
+  "roman_rows": 124840,
+  "native_rows": 124527,
+  "retained": 120654,
+  "postcodes": 116905,
+  "excluded": {
+    "no_exact_match": 2472,
+    "possibly_truncated": 1399,
+    "ambiguous": 2
+  },
+  "shards": [
+    {
+      "file": "labels-01.csv.gz",
+      "first": "0010000",
+      "last": "0380102",
+      "rows": 6000,
+      "sha256": "03cd19f289e7f92eb4f79c51c147372a84aa2d9b5bccd63f8e991de68303f4fa"
+    },
+    {
+      "file": "labels-02.csv.gz",
+      "first": "0380102",
+      "last": "0840925",
+      "rows": 6000,
+      "sha256": "a7504f832e685346800cda4e58f7078b274167628c76198ebe08c74c44393b8a"
+    },
+    {
+      "file": "labels-03.csv.gz",
+      "first": "0840926",
+      "last": "2460003",
+      "rows": 6000,
+      "sha256": "c73f42ee81cf545d3f323acaae4c2f6ed4ce09f53ce8bcf73db96aad48558f78"
+    },
+    {
+      "file": "labels-04.csv.gz",
+      "first": "2460004",
+      "last": "3091334",
+      "rows": 6000,
+      "sha256": "ceb2c262dcb3a281dc1b4082e012b5cc055b3d655cf54c024619323b6eeed135"
+    },
+    {
+      "file": "labels-05.csv.gz",
+      "first": "3091335",
+      "last": "3691224",
+      "rows": 6000,
+      "sha256": "5d80b8e05e5aac0b6f50d8a9b43721fe432c17b16ffd257490f94a5a024e483e"
+    },
+    {
+      "file": "labels-06.csv.gz",
+      "first": "3691225",
+      "last": "4270055",
+      "rows": 6000,
+      "sha256": "137da224edcdc110bceae1287f8eb8dd3b6ab28e6b68fd345e916d7e67a959fb"
+    },
+    {
+      "file": "labels-07.csv.gz",
+      "first": "4270056",
+      "last": "4780054",
+      "rows": 6000,
+      "sha256": "782fee78f62974b50b6b1206144c213f54c80a92adac3066a3a7b1dde28b5bef"
+    },
+    {
+      "file": "labels-08.csv.gz",
+      "first": "4780055",
+      "last": "5100001",
+      "rows": 6000,
+      "sha256": "01091cc74179fca1954c355141dd9fd9e3149c80073f6754406d48426ec544de"
+    },
+    {
+      "file": "labels-09.csv.gz",
+      "first": "5100002",
+      "last": "5720050",
+      "rows": 6000,
+      "sha256": "c9d000ab7f835455f718d87c5ab10513dd4648573b14ad6a6ee78f54cb0b0ba7"
+    },
+    {
+      "file": "labels-10.csv.gz",
+      "first": "5720051",
+      "last": "6148366",
+      "rows": 6000,
+      "sha256": "5439f3d99e97637d3a078853deec83d5d269ce2da8e700b0b2f8cc0b229ea25c"
+    },
+    {
+      "file": "labels-11.csv.gz",
+      "first": "6148367",
+      "last": "6520803",
+      "rows": 6000,
+      "sha256": "9b6e74807d038072d0fbb03e5a3e02bc71a2d87a40404bbf1f52dbd366e28bc1"
+    },
+    {
+      "file": "labels-12.csv.gz",
+      "first": "6520804",
+      "last": "6892223",
+      "rows": 6000,
+      "sha256": "e83ae0704cf8b6ed58ed4fde7174d16f5f4dab1ce3907713758d69f0aa38a91d"
+    },
+    {
+      "file": "labels-13.csv.gz",
+      "first": "6892224",
+      "last": "7422103",
+      "rows": 6000,
+      "sha256": "0a86785cd64d006ae923fc9be0016e4f7318a84da16b83c8f55e3b1f6c8de587"
+    },
+    {
+      "file": "labels-14.csv.gz",
+      "first": "7422104",
+      "last": "7940051",
+      "rows": 6000,
+      "sha256": "364462bea00cbd39ef709003a6c4577685fbbfe26b588326264af3ce73936fbc"
+    },
+    {
+      "file": "labels-15.csv.gz",
+      "first": "7940052",
+      "last": "8540085",
+      "rows": 6000,
+      "sha256": "c52904e5f56da0f44871987c5610b3d00815646c0e4b7a6b841c965f97166823"
+    },
+    {
+      "file": "labels-16.csv.gz",
+      "first": "8540086",
+      "last": "8919121",
+      "rows": 6000,
+      "sha256": "f96943ccf6acfcc871b1c5b50732b012bf753e35c64175d57490f125630a39c8"
+    },
+    {
+      "file": "labels-17.csv.gz",
+      "first": "8919122",
+      "last": "9270454",
+      "rows": 6000,
+      "sha256": "78050ce4f4ce6021ff37bde7b16de60d4bb57e9612e1d9ca1d6c77a970267b29"
+    },
+    {
+      "file": "labels-18.csv.gz",
+      "first": "9270551",
+      "last": "9494133",
+      "rows": 6000,
+      "sha256": "ba874838dfd4f836813a096003384313c38ab0b82fe39e82447e718ce98c2e66"
+    },
+    {
+      "file": "labels-19.csv.gz",
+      "first": "9494134",
+      "last": "9693101",
+      "rows": 6000,
+      "sha256": "f680f262a26f255837531c69ec43e25382281e298028288ceaed50b734b23c20"
+    },
+    {
+      "file": "labels-20.csv.gz",
+      "first": "9693101",
+      "last": "9991401",
+      "rows": 6000,
+      "sha256": "e8b58039eb6c889b039f817363d7821c97203fdd8b52e96c883218b1fd532793"
+    },
+    {
+      "file": "labels-21.csv.gz",
+      "first": "9991402",
+      "last": "9998531",
+      "rows": 654,
+      "sha256": "0f0c66cd2e6547f34058098c7b4bbc2f80486f42ae0d2c00fc52f8c7c072c4f7"
+    }
+  ]
+}

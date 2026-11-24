@@ -1,0 +1,595 @@
+{
+  "country": "UY",
+  "source_id": "uy-ide-direcciones",
+  "license": "Licencia de Datos Abiertos – Uruguay, versión 0.1",
+  "terms_url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/publicaciones/licencia_de_datos_abiertos_0.pdf",
+  "source_url": "https://catalogodatos.gub.uy/dataset/ide-direcciones-geograficas-del-uruguay",
+  "attribution": "Infraestructura de Datos Espaciales (IDE), basada en información del Correo Uruguayo — Direcciones Geográficas del Uruguay. Licencia de Datos Abiertos – Uruguay, versión 0.1. World Localities seleccionó y reorganizó campos, eliminó filas sin dirección utilizable y unió número y letra de puerta.",
+  "retrieved": "2026-11-24",
+  "scope": "IDE-published access-point observations, including official and informal addresses. Source-row locators refer to the physical CSV line in a pinned department export. No assertion of official numbering, resident identity or deliverability.",
+  "inputs": [
+    {
+      "file": "artigas.csv",
+      "department": "ARTIGAS",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/e2bb1efb-1e57-47d7-bc40-2ff8a5fa2d7b/download/artigas.csv",
+      "catalog_resource_id": "e2bb1efb-1e57-47d7-bc40-2ff8a5fa2d7b",
+      "bytes": 3981589,
+      "source_updated_on": "2026-10-01T06:00:54.224310",
+      "catalog_md5": "2edc5bc4cca78bbc6afef06e872c1b9f",
+      "sha256": "71b01ae82900573bec28158bfb4a807a0ae32177dc9e9bf71f43d566b13e4b64"
+    },
+    {
+      "file": "canelones.csv",
+      "department": "CANELONES",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/4cd4cf75-b44a-4637-a43d-2cc5a0294ca5/download/canelones.csv",
+      "catalog_resource_id": "4cd4cf75-b44a-4637-a43d-2cc5a0294ca5",
+      "bytes": 28029449,
+      "source_updated_on": "2026-10-01T06:00:58.653850",
+      "catalog_md5": "83a9763173b5429762efb7e302c7e602",
+      "sha256": "10c59206476e94aa5cca82db72081c63d85f64c24955f2399a412afd27c2afa4"
+    },
+    {
+      "file": "cerro_largo.csv",
+      "department": "CERRO LARGO",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/64af2cac-cac4-44ee-b6be-09edf1536ed8/download/cerro_largo.csv",
+      "catalog_resource_id": "64af2cac-cac4-44ee-b6be-09edf1536ed8",
+      "bytes": 4708832,
+      "source_updated_on": "2026-10-01T06:01:03.926802",
+      "catalog_md5": "f8c3fcfc33f9c3f9e1cf467175af15c4",
+      "sha256": "298af27e811a27c3eb34a8e1823a4bbc57fe63602b2eceac36b9e9b7b9a77803"
+    },
+    {
+      "file": "colonia.csv",
+      "department": "COLONIA",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/11b10088-e286-4626-bd06-c45043045dc1/download/colonia.csv",
+      "catalog_resource_id": "11b10088-e286-4626-bd06-c45043045dc1",
+      "bytes": 7968314,
+      "source_updated_on": "2026-10-01T06:01:07.104471",
+      "catalog_md5": "400b73b07e0372f54b1e3956d4cf41bf",
+      "sha256": "fc57968c8442fd8a1f11af1d81dedea52e24f833f077e1bce3dd80b269f5e2e9"
+    },
+    {
+      "file": "durazno.csv",
+      "department": "DURAZNO",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/66a8e451-96ca-4c4d-afc4-1a32abc2295e/download/durazno.csv",
+      "catalog_resource_id": "66a8e451-96ca-4c4d-afc4-1a32abc2295e",
+      "bytes": 3202715,
+      "source_updated_on": "2026-10-01T06:01:11.789041",
+      "catalog_md5": "55b732013dae8c0830614ef28b7b5414",
+      "sha256": "f92844fe8eed99ed050c1b138f2f367beee68550091fd38dfd9fbd91dd8d00d7"
+    },
+    {
+      "file": "florida.csv",
+      "department": "FLORIDA",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/7306e8e1-27c0-473b-915f-30cc919ca765/download/florida.csv",
+      "catalog_resource_id": "7306e8e1-27c0-473b-915f-30cc919ca765",
+      "bytes": 3828092,
+      "source_updated_on": "2026-10-01T06:01:14.929767",
+      "catalog_md5": "37b87cd80d5740b410830472a8ef705b",
+      "sha256": "625f8f9347e7670023109ed8f34f2b7aa73ded56b0b6d0939da4d020c76d6338"
+    },
+    {
+      "file": "flores.csv",
+      "department": "FLORES",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/7d572335-106e-4282-8265-ca23e2f34baf/download/flores.csv",
+      "catalog_resource_id": "7d572335-106e-4282-8265-ca23e2f34baf",
+      "bytes": 1612393,
+      "source_updated_on": "2026-10-01T06:01:18.536841",
+      "catalog_md5": "ac4a1960f354edaf289c92512c13c019",
+      "sha256": "c2f191a3a5a1b5d625a75ae3fa589d906f2ceb7abf07a6ccb4b6b304fb995721"
+    },
+    {
+      "file": "lavalleja.csv",
+      "department": "LAVALLEJA",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/0d5a007d-d01b-4fa6-9bdd-7fd08c68fb3d/download/lavalleja.csv",
+      "catalog_resource_id": "0d5a007d-d01b-4fa6-9bdd-7fd08c68fb3d",
+      "bytes": 3510298,
+      "source_updated_on": "2026-10-01T06:01:21.872910",
+      "catalog_md5": "7688691cf5485cd8e3047ab26ea65719",
+      "sha256": "346038cc77372be40ff8d02b2fef7cd8c2d216baf3b783610a49a0db248764db"
+    },
+    {
+      "file": "maldonado.csv",
+      "department": "MALDONADO",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/42eef510-214c-479b-a580-09805c7c29c1/download/maldonado.csv",
+      "catalog_resource_id": "42eef510-214c-479b-a580-09805c7c29c1",
+      "bytes": 9366508,
+      "source_updated_on": "2026-10-01T06:01:28.493278",
+      "catalog_md5": "20fe7bfe72c0224909d061c422e7abc7",
+      "sha256": "464eb1fb05946f84b5030eec15807b9b270f84f626973b4c07c4774314b7dfcc"
+    },
+    {
+      "file": "montevideo.csv",
+      "department": "MONTEVIDEO",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/c8e3e713-e755-4112-bfe3-fa01b20dcda1/download/montevideo.csv",
+      "catalog_resource_id": "c8e3e713-e755-4112-bfe3-fa01b20dcda1",
+      "bytes": 64531354,
+      "source_updated_on": "2026-10-01T06:01:34.417242",
+      "catalog_md5": "d3b152540e3dc32ac87e4533c3ad9c01",
+      "sha256": "8dc67b32cf62d6991e81a7952d9bf225827c79b6f33fd83d9f38299b06de5a16"
+    },
+    {
+      "file": "paysandu.csv",
+      "department": "PAYSANDU",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/e5f583c8-c240-4fc3-9170-ff701cc1ae14/download/paysandu.csv",
+      "catalog_resource_id": "e5f583c8-c240-4fc3-9170-ff701cc1ae14",
+      "bytes": 6115289,
+      "source_updated_on": "2026-10-01T06:01:40.279485",
+      "catalog_md5": "a04215a143556ba39f3b65e65262dadd",
+      "sha256": "c453d142aba600b4e5de0eee1f296f9ee002f5c714e3d130b659dc8a5529bf96"
+    },
+    {
+      "file": "rio_negro.csv",
+      "department": "RIO NEGRO",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/558cadb0-4cb6-4fcc-9c24-6720e7a05912/download/rio_negro.csv",
+      "catalog_resource_id": "558cadb0-4cb6-4fcc-9c24-6720e7a05912",
+      "bytes": 2982713,
+      "source_updated_on": "2026-10-01T06:01:43.643442",
+      "catalog_md5": "4ee2d3b8de311b114516bc6963e91233",
+      "sha256": "7dc22ed68ccb6741e8057263e0dc5e6572a954d025c73aa1d0b3790b8e827933"
+    },
+    {
+      "file": "rivera.csv",
+      "department": "RIVERA",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/da91a1a9-7149-4281-8ee8-53dbd29bab77/download/rivera.csv",
+      "catalog_resource_id": "da91a1a9-7149-4281-8ee8-53dbd29bab77",
+      "bytes": 5642549,
+      "source_updated_on": "2026-10-01T06:01:47.396459",
+      "catalog_md5": "1edef6780ff0a4d34a9ac6f760a3f254",
+      "sha256": "62a806083e3f40b46de2f25deae4f7b3a2c8b4e3d9ee8ee72bbf53bff0f79553"
+    },
+    {
+      "file": "rocha.csv",
+      "department": "ROCHA",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/baa0c351-5a7c-4240-b54e-bfa8db442559/download/rocha.csv",
+      "catalog_resource_id": "baa0c351-5a7c-4240-b54e-bfa8db442559",
+      "bytes": 4996997,
+      "source_updated_on": "2026-10-01T06:01:52.274764",
+      "catalog_md5": "a100f245aff768def8374e0aef5ef532",
+      "sha256": "2d22eb93c2d97f1afb9857b5d08da2f64158d439b5c13a163e6b0fbd70d61239"
+    },
+    {
+      "file": "salto.csv",
+      "department": "SALTO",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/fba901e2-8918-4795-8249-0368d8c0586d/download/salto.csv",
+      "catalog_resource_id": "fba901e2-8918-4795-8249-0368d8c0586d",
+      "bytes": 5223067,
+      "source_updated_on": "2026-10-01T06:01:55.557697",
+      "catalog_md5": "81bff3815d58a979abf58327c0c06dc6",
+      "sha256": "9076f185124df05d02e4ef5e1a3656d016f8ad77244e3dc65f27e962a9f62ef3"
+    },
+    {
+      "file": "san_jose.csv",
+      "department": "SAN JOSE",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/ff75c363-a8a9-4105-9086-335f52beae50/download/san_jose.csv",
+      "catalog_resource_id": "ff75c363-a8a9-4105-9086-335f52beae50",
+      "bytes": 6011085,
+      "source_updated_on": "2026-10-01T06:01:59.063969",
+      "catalog_md5": "71bbcafc6cf723538eb7a9c95610aaf6",
+      "sha256": "6c52faaff2d437d1adcbecd77dd4a50886c71196fc9fdf4e326cf65208b222b4"
+    },
+    {
+      "file": "soriano.csv",
+      "department": "SORIANO",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/26820104-d0ee-4823-9b9a-ab7b441a6c94/download/soriano.csv",
+      "catalog_resource_id": "26820104-d0ee-4823-9b9a-ab7b441a6c94",
+      "bytes": 4366314,
+      "source_updated_on": "2026-10-01T06:02:02.838317",
+      "catalog_md5": "96387ea2bf7b98c1c2df07f99972238d",
+      "sha256": "a5460549da2d034664e012e1d4dcc1cd50f3965d3d4c1a29539ad5b0941681d6"
+    },
+    {
+      "file": "tacuarembo.csv",
+      "department": "TACUAREMBO",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/c4827bfe-ceea-42dd-88a0-7043aa3fa779/download/tacuarembo.csv",
+      "catalog_resource_id": "c4827bfe-ceea-42dd-88a0-7043aa3fa779",
+      "bytes": 5100021,
+      "source_updated_on": "2026-10-01T06:02:06.355588",
+      "catalog_md5": "5850c1cabfd6d3a73207df58614b13da",
+      "sha256": "cfb82953edaaf87b2debb4b6bce6e1f49ff5f72a3fb6a7c1bb1e67701e499c66"
+    },
+    {
+      "file": "treinta_y_tres.csv",
+      "department": "TREINTA Y TRES",
+      "url": "https://catalogodatos.gub.uy/dataset/85ca8574-3bb3-4329-b005-aed19883e19a/resource/ccf4a98f-7223-4d9f-9bf5-061500623f18/download/treinta_y_tres.csv",
+      "catalog_resource_id": "ccf4a98f-7223-4d9f-9bf5-061500623f18",
+      "bytes": 2762799,
+      "source_updated_on": "2026-10-01T06:02:09.317833",
+      "catalog_md5": "548d9cab265614e46cf4fa230b24394b",
+      "sha256": "d7645c8be05802c3be630152a82ab170bc09d1021c3b91f38ea4142cdacc2384"
+    }
+  ],
+  "counts": {
+    "source_rows": 1059256,
+    "unidentified_road": 25991,
+    "retained_rows": 1024802,
+    "unparsed_door_suffix": 4604,
+    "unconfirmed_number_marker": 1642,
+    "missing_or_unspecified_door_number": 2132,
+    "kilometre_qualified": 2,
+    "missing_locality_or_road": 83,
+    "postcodes": 121,
+    "department_localities": 599
+  },
+  "department_counts": {
+    "ARTIGAS": {
+      "source_rows": 24787,
+      "unidentified_road": 2676,
+      "retained_rows": 21986,
+      "unparsed_door_suffix": 60,
+      "unconfirmed_number_marker": 13,
+      "missing_or_unspecified_door_number": 52
+    },
+    "CANELONES": {
+      "source_rows": 171140,
+      "unidentified_road": 4264,
+      "retained_rows": 165294,
+      "unconfirmed_number_marker": 780,
+      "missing_or_unspecified_door_number": 550,
+      "unparsed_door_suffix": 251,
+      "kilometre_qualified": 1
+    },
+    "CERRO LARGO": {
+      "source_rows": 28670,
+      "retained_rows": 28121,
+      "unidentified_road": 434,
+      "missing_or_unspecified_door_number": 73,
+      "unconfirmed_number_marker": 18,
+      "unparsed_door_suffix": 21,
+      "missing_locality_or_road": 3
+    },
+    "COLONIA": {
+      "source_rows": 49161,
+      "retained_rows": 46969,
+      "unidentified_road": 1771,
+      "unconfirmed_number_marker": 128,
+      "missing_or_unspecified_door_number": 212,
+      "missing_locality_or_road": 3,
+      "unparsed_door_suffix": 78
+    },
+    "DURAZNO": {
+      "source_rows": 19291,
+      "retained_rows": 18280,
+      "unparsed_door_suffix": 114,
+      "unidentified_road": 730,
+      "missing_or_unspecified_door_number": 84,
+      "unconfirmed_number_marker": 82,
+      "missing_locality_or_road": 1
+    },
+    "FLORIDA": {
+      "source_rows": 23606,
+      "retained_rows": 22210,
+      "unconfirmed_number_marker": 63,
+      "unidentified_road": 1152,
+      "unparsed_door_suffix": 86,
+      "missing_or_unspecified_door_number": 95
+    },
+    "FLORES": {
+      "source_rows": 10102,
+      "retained_rows": 9785,
+      "unidentified_road": 272,
+      "unconfirmed_number_marker": 17,
+      "unparsed_door_suffix": 6,
+      "missing_or_unspecified_door_number": 18,
+      "missing_locality_or_road": 4
+    },
+    "LAVALLEJA": {
+      "source_rows": 21609,
+      "retained_rows": 20419,
+      "unidentified_road": 1100,
+      "unconfirmed_number_marker": 23,
+      "unparsed_door_suffix": 3,
+      "missing_or_unspecified_door_number": 64
+    },
+    "MALDONADO": {
+      "source_rows": 57656,
+      "retained_rows": 56848,
+      "unconfirmed_number_marker": 99,
+      "unidentified_road": 594,
+      "unparsed_door_suffix": 38,
+      "missing_or_unspecified_door_number": 77
+    },
+    "MONTEVIDEO": {
+      "source_rows": 386986,
+      "retained_rows": 383771,
+      "missing_locality_or_road": 52,
+      "unidentified_road": 877,
+      "kilometre_qualified": 1,
+      "unconfirmed_number_marker": 25,
+      "missing_or_unspecified_door_number": 112,
+      "unparsed_door_suffix": 2148
+    },
+    "PAYSANDU": {
+      "source_rows": 37708,
+      "retained_rows": 34552,
+      "unidentified_road": 2939,
+      "unparsed_door_suffix": 91,
+      "missing_or_unspecified_door_number": 103,
+      "unconfirmed_number_marker": 20,
+      "missing_locality_or_road": 3
+    },
+    "RIO NEGRO": {
+      "source_rows": 18535,
+      "retained_rows": 17208,
+      "missing_or_unspecified_door_number": 58,
+      "unidentified_road": 1225,
+      "unconfirmed_number_marker": 29,
+      "unparsed_door_suffix": 13,
+      "missing_locality_or_road": 2
+    },
+    "RIVERA": {
+      "source_rows": 35451,
+      "retained_rows": 34476,
+      "unconfirmed_number_marker": 38,
+      "unidentified_road": 808,
+      "missing_locality_or_road": 3,
+      "unparsed_door_suffix": 22,
+      "missing_or_unspecified_door_number": 104
+    },
+    "ROCHA": {
+      "source_rows": 32149,
+      "retained_rows": 29604,
+      "unidentified_road": 1550,
+      "unparsed_door_suffix": 844,
+      "unconfirmed_number_marker": 68,
+      "missing_locality_or_road": 3,
+      "missing_or_unspecified_door_number": 80
+    },
+    "SALTO": {
+      "source_rows": 33557,
+      "unidentified_road": 2137,
+      "retained_rows": 31187,
+      "unparsed_door_suffix": 155,
+      "unconfirmed_number_marker": 12,
+      "missing_or_unspecified_door_number": 66
+    },
+    "SAN JOSE": {
+      "source_rows": 35967,
+      "retained_rows": 34356,
+      "unidentified_road": 927,
+      "unparsed_door_suffix": 404,
+      "unconfirmed_number_marker": 90,
+      "missing_or_unspecified_door_number": 190
+    },
+    "SORIANO": {
+      "source_rows": 27053,
+      "retained_rows": 25688,
+      "unidentified_road": 1046,
+      "unparsed_door_suffix": 192,
+      "unconfirmed_number_marker": 61,
+      "missing_or_unspecified_door_number": 65,
+      "missing_locality_or_road": 1
+    },
+    "TACUAREMBO": {
+      "source_rows": 29927,
+      "retained_rows": 28576,
+      "unidentified_road": 1177,
+      "unparsed_door_suffix": 61,
+      "unconfirmed_number_marker": 32,
+      "missing_locality_or_road": 7,
+      "missing_or_unspecified_door_number": 74
+    },
+    "TREINTA Y TRES": {
+      "source_rows": 15901,
+      "retained_rows": 15472,
+      "unparsed_door_suffix": 17,
+      "unidentified_road": 312,
+      "unconfirmed_number_marker": 44,
+      "missing_locality_or_road": 1,
+      "missing_or_unspecified_door_number": 55
+    }
+  },
+  "shards": [
+    {
+      "file": "points-01.csv.gz",
+      "rows": 21986,
+      "sha256": "b864bc6175339c93ab782f03a75cb1a0f6e92a7d945041241bce6b056908e5bc"
+    },
+    {
+      "file": "points-02.csv.gz",
+      "rows": 30000,
+      "sha256": "7caed2c36566d19b1526aad7694518f9df35ff5114207b4ee2cc6fb4edffcca6"
+    },
+    {
+      "file": "points-03.csv.gz",
+      "rows": 30000,
+      "sha256": "7e007b49961ffb4c8553dc6ab5ead88c544e5e5673d6635309e66fc84fd40b15"
+    },
+    {
+      "file": "points-04.csv.gz",
+      "rows": 30000,
+      "sha256": "c76a0c733b50d0cebf4267d3f889d57fb436425c35706855551997b9f6bbf2eb"
+    },
+    {
+      "file": "points-05.csv.gz",
+      "rows": 30000,
+      "sha256": "8524949e185ecbf8bd9d2d85944d961c73c7225bc483100336abf07318dc8439"
+    },
+    {
+      "file": "points-06.csv.gz",
+      "rows": 30000,
+      "sha256": "286687fd152cfb47ba5705a289c085d5b950210c230971fecd6f906ccb465be1"
+    },
+    {
+      "file": "points-07.csv.gz",
+      "rows": 15294,
+      "sha256": "008bd1950a40c39f3495a95a78811906fd1876b7ebf4a53ff566c085c2dc3dfb"
+    },
+    {
+      "file": "points-08.csv.gz",
+      "rows": 28121,
+      "sha256": "2b2035c068921161cca1179317124f3a5b8bf126c83a6076e7cf84b24012a9ba"
+    },
+    {
+      "file": "points-09.csv.gz",
+      "rows": 30000,
+      "sha256": "c70ffd49d2575f8219c7ec624b8b1e95cafe067b92e87f878382247043d421be"
+    },
+    {
+      "file": "points-10.csv.gz",
+      "rows": 16969,
+      "sha256": "23d926182e97cdecc6b28796ac3de0429e6a031e87dd7f969b3746b6f851ef7a"
+    },
+    {
+      "file": "points-11.csv.gz",
+      "rows": 18280,
+      "sha256": "e646c15fec7265fac48f17ae07a7de3aa8546086beafe1d861dece13f9dcec44"
+    },
+    {
+      "file": "points-12.csv.gz",
+      "rows": 22210,
+      "sha256": "58c5ad0686dd86e12881303cd2ec69a6690f8402ea840e79f08b180eea72ccd7"
+    },
+    {
+      "file": "points-13.csv.gz",
+      "rows": 9785,
+      "sha256": "7ded7591a6efffde83783de59cd3087269164d23df07f7719dbc02ea1b9637c9"
+    },
+    {
+      "file": "points-14.csv.gz",
+      "rows": 20419,
+      "sha256": "23b140d54a6f0497481a1e9e8d7a62861c80df327cf0f28ec3918b031437adc4"
+    },
+    {
+      "file": "points-15.csv.gz",
+      "rows": 30000,
+      "sha256": "3be1b3c5163497dc0cc2b704d2519bed8065f97a2d9a82ca5334e821576daa69"
+    },
+    {
+      "file": "points-16.csv.gz",
+      "rows": 26848,
+      "sha256": "5857b8b8cc5d03c9dff1c5b2cc63afd61666628bde10d6639d2ca4c1740a4784"
+    },
+    {
+      "file": "points-17.csv.gz",
+      "rows": 30000,
+      "sha256": "9a0f872937d40d6428acd5b8c782c1a8d33911c59c1846fe539d7042755cda36"
+    },
+    {
+      "file": "points-18.csv.gz",
+      "rows": 30000,
+      "sha256": "d74053a5844c8469bba5036cb9cfe9268c7707dbca0319321b7355fd4b04a461"
+    },
+    {
+      "file": "points-19.csv.gz",
+      "rows": 30000,
+      "sha256": "ad59c056ed63290e3e9d9c395cf5763f1918490bfe0790212cb2a5106bfe02a1"
+    },
+    {
+      "file": "points-20.csv.gz",
+      "rows": 30000,
+      "sha256": "a5bc1c5d9f86603f582d9af758f081373b25af2a663b3df0bf9f25452b265b89"
+    },
+    {
+      "file": "points-21.csv.gz",
+      "rows": 30000,
+      "sha256": "aec8292a724f924c8202526f096679f85feec6cb7d4ae31a33311a8a1c34e5eb"
+    },
+    {
+      "file": "points-22.csv.gz",
+      "rows": 30000,
+      "sha256": "0f7d6d48f112fe9724f17909748a7c80e7e2a7a4a1eb44a6c9d63c0b33ad22b2"
+    },
+    {
+      "file": "points-23.csv.gz",
+      "rows": 30000,
+      "sha256": "5c3375ef0b77b1c1fb0eaebab1b1f09d12f67b1f391c7cd3159e3f7242efd3cb"
+    },
+    {
+      "file": "points-24.csv.gz",
+      "rows": 30000,
+      "sha256": "36e90894439aeda2de9039f300d91d523ea8447eb651941c3f977851b9ab4bb7"
+    },
+    {
+      "file": "points-25.csv.gz",
+      "rows": 30000,
+      "sha256": "2faad97f8e19fcd4efcfde69ae904ec869935722976cfd4a6a02f43fadb97bd3"
+    },
+    {
+      "file": "points-26.csv.gz",
+      "rows": 30000,
+      "sha256": "6adcddac1aab939591651ffa2916752d82cb4cb2b7f2c4a5ca3860c3223f7c44"
+    },
+    {
+      "file": "points-27.csv.gz",
+      "rows": 30000,
+      "sha256": "343d0e915b40ca35f17b6b2b8b9ab23e2e3a3782562a5c84fb56354bf8515b49"
+    },
+    {
+      "file": "points-28.csv.gz",
+      "rows": 30000,
+      "sha256": "6e12dc98300a9c0f759c915a2b6bde226df501e7e6ae4e8a64c77f596ceae3a5"
+    },
+    {
+      "file": "points-29.csv.gz",
+      "rows": 23771,
+      "sha256": "4e673d55bb9ce3f897a283bb9d0bbc38cd3a19ff0f5fc7229c2032b7c65c983f"
+    },
+    {
+      "file": "points-30.csv.gz",
+      "rows": 30000,
+      "sha256": "d89c121b749431befc89dfea7531669a1d6ae984ed90edfc311efd54d6e8d727"
+    },
+    {
+      "file": "points-31.csv.gz",
+      "rows": 4552,
+      "sha256": "2ca31ebb9de53f708250455f83a2c60b5dd1405f0b7083888ee429432d0064dd"
+    },
+    {
+      "file": "points-32.csv.gz",
+      "rows": 17208,
+      "sha256": "426ecb1e7e3fe393bd4e8ad2cf4da70fbbfd747ece4eb0eba263d3761b08333c"
+    },
+    {
+      "file": "points-33.csv.gz",
+      "rows": 30000,
+      "sha256": "e4cbda8503cad52e932b67f0b8260f39570e3d75458211b879a279db4727d85d"
+    },
+    {
+      "file": "points-34.csv.gz",
+      "rows": 4476,
+      "sha256": "6ded3eb7404d12de0722c1e71b0b746a3891cdd7e7579d255f211550bb267a35"
+    },
+    {
+      "file": "points-35.csv.gz",
+      "rows": 29604,
+      "sha256": "243a6e5d112e12b8ed16aba55faecd80cf09b0ab619d3b41934ccd81cda224c9"
+    },
+    {
+      "file": "points-36.csv.gz",
+      "rows": 30000,
+      "sha256": "2a8104d2155a815315d0969e9c47949f718394348c4f9790249f63590aeb2c7e"
+    },
+    {
+      "file": "points-37.csv.gz",
+      "rows": 1187,
+      "sha256": "154fc0c6ec1fb2d9ed780f4b1af0eac71ea1a41b7e4eae5a3548a38962306fdd"
+    },
+    {
+      "file": "points-38.csv.gz",
+      "rows": 30000,
+      "sha256": "553cacb58c6614990082ad7f34971d666bfafe9f4d30a74a3e7009e9a7dba472"
+    },
+    {
+      "file": "points-39.csv.gz",
+      "rows": 4356,
+      "sha256": "2d6177984f0a72ebe814a85502733d33f69307887f5f3175a8f787e7be9fef92"
+    },
+    {
+      "file": "points-40.csv.gz",
+      "rows": 25688,
+      "sha256": "48333ac3c911bcf167886a451c74fb6823fd1aa9e2afd9ad84fb9327b3f2af4d"
+    },
+    {
+      "file": "points-41.csv.gz",
+      "rows": 28576,
+      "sha256": "8a5f94393bc7f2d170436d98d0b7beb6f0345fb0d39f234546d6138c0f20ae5f"
+    },
+    {
+      "file": "points-42.csv.gz",
+      "rows": 15472,
+      "sha256": "b0b845b81e9a12e0468cae0a16a7d22ed967c5c3a5086c21a03e1ace89441e2e"
+    }
+  ],
+  "projection_sha256": "6a9c85e4bf240770d73c7f53a05f54ef9c7b5855907008b3f0b724dc2e887507"
+}

@@ -1,0 +1,55 @@
+{
+  "source_id": "nz-linz-addresses",
+  "publisher": "Toitū Te Whenua Land Information New Zealand",
+  "attribution": "© Crown copyright. Sourced from the LINZ Data Service and licensed for reuse under CC BY 4.0.",
+  "license": "CC BY 4.0",
+  "terms_url": "https://creativecommons.org/licenses/by/4.0/",
+  "dataset_url": "https://data.linz.govt.nz/layer/123113-nz-addresses/",
+  "item_url": "https://www.arcgis.com/home/item.html?id=3632c8130f034ff8bbfb122a50533550",
+  "layer_url": "https://services.arcgis.com/xdsHIIxuCWByZiCB/ArcGIS/rest/services/LINZ_NZ_Addresses/FeatureServer/0",
+  "retrieved": "2026-11-24",
+  "data_last_edited": "2026-11-02T07:15:41.360000+00:00",
+  "changes": "Selected current addresses of five territorial authorities. Projected source fields, sorted by LINZ address ID and compressed as CSV; no postcodes or coordinates.",
+  "shards": [
+    {
+      "authority": "Chatham Islands Territory",
+      "rows": 468,
+      "where": "territorial_authority = 'Chatham Islands Territory' AND address_lifecycle = 'Current'",
+      "object_ids_sha256": "fa9578b529fdf956f864bb2f85cc532bfe8ed17d2b2f519309e093e4ef2115a7",
+      "csv_sha256": "8d6edaa9a6dd9771a4cbd71da0726d3011349b8a7b60982c7c536ab05dafa891",
+      "file": "chatham-islands-territory.csv.gz"
+    },
+    {
+      "authority": "Gore District",
+      "rows": 7121,
+      "where": "territorial_authority = 'Gore District' AND address_lifecycle = 'Current'",
+      "object_ids_sha256": "9ab6ade39a6302242dcc7b253acd11293ebde9da70f4224a17ffbbe2e6c3807f",
+      "csv_sha256": "ecb241114957fcfed08da2a5461093b3f54a43829f53028edad6d4cfe514b174",
+      "file": "gore-district.csv.gz"
+    },
+    {
+      "authority": "Kaikoura District",
+      "rows": 3085,
+      "where": "territorial_authority = 'Kaikoura District' AND address_lifecycle = 'Current'",
+      "object_ids_sha256": "32949b6cf5b3e42915f07a6c5f6c671d5148c0a17f1437eb2683bd7a44d7c25b",
+      "csv_sha256": "08b6a2c1c461419f91f04f07efab7f0d2531a311b9712182b08b9d9e8194d1cf",
+      "file": "kaikoura-district.csv.gz"
+    },
+    {
+      "authority": "Kawerau District",
+      "rows": 3076,
+      "where": "territorial_authority = 'Kawerau District' AND address_lifecycle = 'Current'",
+      "object_ids_sha256": "c47fbd550e7c3967794d6fbaad032fe383ce792540f77c872b164b93c619840f",
+      "csv_sha256": "16a67673f7be7acdaac30a5a041ecec371933ce1a38a7f8c6b3e06bd7d3ee968",
+      "file": "kawerau-district.csv.gz"
+    },
+    {
+      "authority": "Mackenzie District",
+      "rows": 4874,
+      "where": "territorial_authority = 'Mackenzie District' AND address_lifecycle = 'Current'",
+      "object_ids_sha256": "084b8f9eb8f3019cc4eca947449c22164c5282d7449640bb8aa0922a98d1b3f1",
+      "csv_sha256": "5345456e71352f50ca77dd8d81e3b77e81fdb912ac9962f5666c433e9481a4d6",
+      "file": "mackenzie-district.csv.gz"
+    }
+  ]
+}

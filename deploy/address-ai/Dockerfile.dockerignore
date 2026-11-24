@@ -8,6 +8,10 @@
 !registries/official/*.py
 !registries/official/JP
 !registries/official/JP/**
+!registries/official/TW
+!registries/official/TW/sources.json
+!registries/official/TW/sources
+!registries/official/TW/sources/names.xml
 !countries
 !countries/catalog.json
 !postal

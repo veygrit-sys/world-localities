@@ -14,7 +14,7 @@ import re
 from threading import Lock
 import unicodedata
 
-from localities.open_reference import cn, postal_eu, us
+from localities.open_reference import cn, jp_post_roman, postal_eu, us
 from localities.postal import ROOT, iter_postal_records, load_sources
 from registries.official.postal_validation import _jp_ward_labels, _jp_wards, JP_NUMBER_INSTRUCTION
 from .components import canonicalize_components, normalize_key
@@ -224,16 +224,39 @@ def _jp(values, result):
     query = {"state": "prefecture", "prefecture": "prefecture", "city": "municipality",
              "municipality": "municipality", "postal_city": "municipality", "city_district": "district",
              "town": "town", "neighbourhood": "town"}
+    latin_fields = {k for k in query if k in values and any("LATIN" in unicodedata.name(c, "") for c in values[k])}
+    aliases = {}
+    known = defaultdict(set)
+    if latin_fields:
+        native_id = jp_post_roman.SOURCE["native_source_id"]
+        if sources.get(native_id, {}).get("sha256") == jp_post_roman.SOURCE["native_sha256"]:
+            aliases = {r.native_row: r for r in jp_post_roman.rows(_jp_detail(values["postcode"]))}
+            for alias in aliases.values():
+                for slot in ("prefecture", "municipality", "town"):
+                    known[slot].add(_key(getattr(alias, slot + "_roman")))
     candidates = []
     for row in rows:
         checked = {"postcode"}
         issues = set()
+        alias = aliases.get(row.row) if row.source_id == jp_post_roman.SOURCE["native_source_id"] else None
+        roman_fields = set()
         for k, slot in query.items():
             if k not in values:
                 continue
             value = _key(values[k])
             labels = [_key(label) for label in getattr(row, slot)]
-            # Latin aliases are not attested by these Japanese snapshots.
+            # Preserve instructions and range qualifiers when a roman label is typed.
+            if k in latin_fields and slot != "district" and alias:
+                if value == _key(getattr(alias, slot + "_roman")):
+                    if slot == "town" and (not labels or "（" in alias.town_ja or alias.town_ja.endswith("一円")):
+                        issues.add("postal_qualifier_unverified")
+                    else:
+                        checked.add(k)
+                        roman_fields.add(k)
+                    continue
+            if k in latin_fields and value in known[slot] and value not in labels:
+                # An exact roman match on another native row must not confirm this row.
+                break
             if value in labels:
                 if slot == "town" and any("（" in lbl for lbl in labels):
                     issues.add("postal_qualifier_unverified")
@@ -279,8 +302,10 @@ def _jp(values, result):
                     office = "address_line1" in checked or ("house_number" in checked and bool(checked & {"town", "neighbourhood"}))
             receipt = dict(sources[row.source_id], record_id=f"{row.source_id}:{row.row}")
             postal_city_labels = {_key(v) for v in row.municipality[:2 if row.postal_use == "ordinary" else 1]}
+            if roman_fields:
+                receipt["roman_reference"] = jp_post_roman.receipt(alias)
             uses_ward_projection = ("city_district" in checked or
-                                    any(_key(values[k]) not in postal_city_labels for k in checked & _MUNICIPAL))
+                                    any(_key(values[k]) not in postal_city_labels for k in (checked & _MUNICIPAL) - roman_fields))
             if row.ward_ref and uses_ward_projection:
                 receipt["ward_reference"] = {
                     "source_id": "jp-abr-snapshot", "source_row": row.ward_ref, "sha256": ward_source["sha256"],
@@ -299,6 +324,14 @@ def _jp(values, result):
     if len(candidates) == 1 and candidates[0][3]:
         scope = "published_office_address"
     return result(status, scope=scope, checked=fields, issues=issues, evidence=[c[2] for c in candidates])
+
+
+def _fr_evidence(rows):
+    return [{"source_id": r["source_id"], "record_id": r["record_id"], "url": r["source_url"],
+             "snapshot": r["source_updated_at"], "sha256": postal_eu.SOURCE["raw_sha256"],
+             "attribution": r["attribution"], "license": postal_eu.SOURCE["license"],
+             **({"territory_attribution": r["territory_attribution"], "territory_source_url": r["territory_source_url"]}
+                if "territory_source_url" in r else {})} for r in rows[:_EVIDENCE_LIMIT]]
 
 
 def _fr(country, values, result):
@@ -323,44 +356,78 @@ def _fr(country, values, result):
                 break
         else:
             candidates.append((r, checked))
-    def evidence(rows):
-        return [{"source_id": r["source_id"], "record_id": r["record_id"], "url": r["source_url"],
-                 "snapshot": r["source_updated_at"], "sha256": postal_eu.SOURCE["raw_sha256"],
-                 "attribution": r["attribution"], "license": postal_eu.SOURCE["license"],
-                 **({"territory_attribution": r["territory_attribution"], "territory_source_url": r["territory_source_url"]}
-                    if "territory_source_url" in r else {})} for r in rows[:_EVIDENCE_LIMIT]]
     if not candidates:
-        return result("conflict", issues=["postal_component_conflict"], evidence=evidence(rows), total=len(rows))
+        return result("conflict", issues=["postal_component_conflict"], evidence=_fr_evidence(rows), total=len(rows))
     fields = set.intersection(*(checked for _, checked in candidates))
     return result("matched" if len(candidates) == 1 else "ambiguous",
                   scope="postal_locality" if fields - {"postcode"} else "postcode_observation",
-                  checked=fields, evidence=evidence([r for r, _ in candidates]), total=len(candidates))
+                  checked=fields, evidence=_fr_evidence([r for r, _ in candidates]), total=len(candidates))
 
 
-def _benelux_point(picker, country, values, result):
-    observations = picker.address_points(country, values["postcode"], values["road"], values["house_number"])
-    evidence = []
+def _fr_routing_rows(postal_rows, values, locality, insee):
+    # The same postal code can cover several communes. A line-five hamlet only
+    # describes part of a commune and cannot identify which BAN point lies in it.
+    if "town" in values and _key(values["town"]) != _key(locality):
+        return []
+    same = [r for r in postal_rows if r["insee_code"] == insee]
+    if "postal_city" in values:
+        name = _key(values["postal_city"])
+        if any(_key(r["routing_name"]) != name for r in same):
+            return []
+    return same
+
+
+def _published_point(picker, country, values, result):
+    road, number = values["road"], values["house_number"]
+    if "address_line1" in values:
+        if _key(values["address_line1"]) not in {_key(road + " " + number), _key(number + " " + road)}:
+            return None
+    if country == "FR" and "neighbourhood" in values:
+        return None
+    routing = {"town", "postal_city"} & values.keys() if country == "FR" else set()
+    observations = picker.address_points(country, values["postcode"], road, number, commune_code=bool(routing))
+    postal_rows = [r for r in postal_eu.lookup(values["postcode"], country=country)
+                   if r["postcode"] == values["postcode"]] if routing and observations else []
+    evidence, postal_evidence = [], {}
     checked_names = None
-    for locality, municipality, sid, record_id, metadata in observations:
+    for locality, municipality, sid, record_id, metadata, *commune_code in observations:
         names = {"city": locality}
+        if country == "UY":
+            # IDE row locators are namespaced by the publishing department.
+            names["state"] = record_id.rpartition(":")[0]
         # The Dutch reporting authority alone cannot establish an address municipality.
         if municipality:
             names["municipality"] = municipality
         supplied = names.keys() & values.keys()
         if any(_key(values[k]) != _key(names[k]) for k in supplied):
             continue
-        checked_names = supplied if checked_names is None else checked_names & supplied
         detail = json.loads(metadata)
+        if routing:
+            rows = _fr_routing_rows(postal_rows, values, locality, commune_code[0])
+            if not rows:
+                continue
+            detail["insee_code"] = commune_code[0]
+            postal_evidence.update((r["record_id"], r) for r in rows)
+            supplied |= routing
+        checked_names = supplied if checked_names is None else checked_names & supplied
         evidence.append(dict(detail, source_id=sid, record_id=record_id, url=detail["source_url"]))
     if evidence:
-        return result("matched" if len(evidence) == 1 else "ambiguous",
-                      scope="published_address_point", checked={"postcode", "road", "house_number"} | checked_names,
-                      evidence=evidence)
+        status = "matched" if len(evidence) == 1 else "ambiguous"
+        checked = {"postcode", "road", "house_number"} | checked_names
+        if "address_line1" in values:
+            checked.add("address_line1")
+        rows = list(postal_evidence.values())
+        receipts = evidence
+        if rows:
+            postal = _fr_evidence(rows)
+            receipts = [evidence[0], postal[0], *evidence[1:], *postal[1:]]
+        return result(status, scope="published_address_point", checked=checked,
+                      total=len(evidence) + len(rows), evidence=receipts)
     return None
 
 
 def validate_address(country: str, components: Mapping[str, str], *, index_path=None) -> dict:
-    """Compare typed fields on one source record; expose verified and unchecked roles.
+    """Compare typed fields on a source record or records joined by a trusted identifier.
 
     An optional, trusted PostalPicker index can prove a complete postcode
     observation. Its display labels are not typed locality or premise evidence.
@@ -395,6 +462,10 @@ def validate_address(country: str, components: Mapping[str, str], *, index_path=
     def result(status, *, checked=(), **kw):
         return _result(country, values, status, checked=country_fields | set(checked), **kw)
 
+    if country == "TW":
+        from localities.open_reference.tw_roads import validate as validate_tw
+        return validate_tw(values, result)
+
     code = values.get("postcode")
     pattern = {"JP": r"[0-9]{3}-?[0-9]{4}", "US": r"[0-9]{5}(-[0-9]{4})?",
                "CN": r"[0-9]{6}"}.get(country)
@@ -402,8 +473,23 @@ def validate_address(country: str, components: Mapping[str, str], *, index_path=
         pattern = r"[0-9]{5}"
     if code and pattern and not re.fullmatch(pattern, _jp_detail(code) if country == "JP" else code):
         return result("invalid_format", issues=["invalid_postcode_format"])
+    if country == "NZ":
+        from localities.open_reference.nz import validate_point
+        point = validate_point(values, result)
+        if point is not None:
+            return point
     if country == "JP":
         return _jp(values, result)
+    from localities.open_reference.published_points import SOURCES as point_sources
+    check_point = (index_path is not None and country in point_sources and code
+                   and values.get("road") and values.get("house_number"))
+    picker = None
+    if check_point:
+        from localities.postal_picker import PostalPicker
+        picker = PostalPicker(index_path)
+        point = _published_point(picker, country, values, result)
+        if point is not None:
+            return point
     if country in postal_eu.COUNTRIES:
         return _fr(country, values, result)
     if country in ("US", "CN"):
@@ -413,12 +499,7 @@ def validate_address(country: str, components: Mapping[str, str], *, index_path=
     if index_path is not None and code:
         from localities.postal_picker import PostalPicker
 
-        picker = PostalPicker(index_path)
-        check_point = country in {"NL", "LU"} and values.get("road") and values.get("house_number")
-        if check_point:
-            point = _benelux_point(picker, country, values, result)
-            if point is not None:
-                return point
+        picker = picker or PostalPicker(index_path)
         found = picker.lookup(country, code, limit=1)
         if found["status"] == "options":
             return result("matched", scope="postcode_observation", checked=["postcode"],

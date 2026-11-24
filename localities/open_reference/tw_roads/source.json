@@ -1,0 +1,15 @@
+{
+  "source_id": "tw-moi-road-names-115",
+  "title": "全國路名資料（115年）",
+  "attribution": "內政部戶政司「115全國路名資料」，依政府資料開放授權條款第1版提供；World Localities 整理。",
+  "source_url": "https://data.gov.tw/dataset/35321",
+  "download_url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/E2EDC47D-2D3F-4EB1-878A-4DEB6160FD4C/resource/EB1B8C49-5C2A-42E0-8CC3-6B69B37DA66F/download",
+  "license": "Open Government Data License, version 1.0 (Taiwan)",
+  "terms_url": "https://data.gov.tw/license",
+  "retrieved": "2026-11-24",
+  "edition": "115 (2026)",
+  "sha256": "a58a31cebef9540412753bbf60f35415735b2a26983ccd4d795faa4aa110a05b",
+  "bytes": 1468149,
+  "rows": 35798,
+  "scope": "Published city/county, district and road names only; postal-area prefixes come separately from Chunghwa Post."
+}

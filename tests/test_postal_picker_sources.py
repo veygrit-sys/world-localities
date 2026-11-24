@@ -99,7 +99,7 @@ class PostalPickerSources(unittest.TestCase):
         self.assertEqual(self.counts["FR"], 38716)
         self.assertEqual(self.counts["MU"], 4235)
         self.assertEqual(list(iter_extra_records([])), [])
-        self.assertEqual(list(iter_extra_records(["CA", "TW"])), [])
+        self.assertEqual(list(iter_extra_records(["CA", "GB"])), [])
         self.assertEqual(list(iter_extra_records("MC")), [
             ("MC", "98000", (("area", "MONACO"),), "fr-laposte-hexasmal"),
         ])
