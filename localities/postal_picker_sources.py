@@ -99,9 +99,12 @@ def _dc_steps(address: str) -> Steps:
 
 def iter_extra_records(countries=None) -> Iterator[Record]:
     """Yield paths from single published rows for the selected country codes."""
-    covered = {"JP", "US", "MU", "CN", *postal_eu.COUNTRIES}
+    covered = {"JP", "US", "MU", "CN", "TW", *postal_eu.COUNTRIES}
     if countries is not None:
         covered.intersection_update([countries] if isinstance(countries, str) else countries)
+    if "TW" in covered:
+        from .open_reference.tw_roads import picker_records
+        yield from picker_records()
     if covered & {"JP", "MU"}:
         for source in load_sources()["sources"]:
             country = source.get("expected_country")
@@ -180,12 +183,16 @@ def source_descriptors(sources=None):
         elif manifest.startswith("postal_eu/"):
             detail["additional_attribution"] = source["territory_reference"]["attribution"]
         by_id[source["source_id"]] = detail
-    from .open_reference import benelux
-    for country in benelux.SOURCE_IDS:
-        if sources is not None and benelux.SOURCE_IDS[country] not in sources:
+    from .open_reference import published_points, tw_roads
+    if sources is None or {tw_roads.POST_ID, tw_roads.JOIN_ID}.intersection(sources):
+        by_id.update(tw_roads.descriptors())
+    for country, (_, sid) in published_points.SOURCES.items():
+        if sources is not None and sid not in sources:
             continue
-        entry = benelux.manifest(country)
+        entry = published_points.manifest(country)
         by_id[entry["source_id"]] = {k: entry[k] for k in (
             "attribution", "source_url", "terms_url", "license", "retrieved", "scope", "projection_sha256"
         )}
+        if "source_updated_on" in entry:
+            by_id[sid]["source_updated_on"] = entry["source_updated_on"]
     return {sid: {k: v for k, v in item.items() if v} for sid, item in by_id.items()}

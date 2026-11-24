@@ -538,6 +538,11 @@
               "invalid_format"
             ]
           },
+          "postcode_scope": {"const": "area_prefix_only", "description": "Taiwan uses only the first three digits to select published postal areas."},
+          "lookup_prefix": {"type": "string", "pattern": "^[0-9]{3}$"},
+          "postcode_verified": {"const": false, "description": "A Taiwan area-prefix lookup cannot verify the complete delivery postcode."},
+          "postcode_format": {"const": "legacy_3_plus_2", "description": "A stored five-digit Taiwan postcode was supplied."},
+          "postcode_notice": {"const": "confirm_current_six_digit_postcode", "description": "Prompt for the current six-digit postcode. No new suffix was inferred."},
           "matched_scope": {
             "type": ["string", "null"],
             "description": "Maximum scope supported by the source, e.g. postcode_observation, postal_locality or published_address_point. Null if no match."
@@ -598,6 +603,11 @@
           },
           "postcode": {"type": "string"},
           "status": {"enum": ["options", "leaf", "not_found", "no_matching_options", "unsupported_country"]},
+          "postcode_scope": {"const": "area_prefix_only", "description": "Taiwan uses only the first three digits to select published postal areas."},
+          "lookup_prefix": {"type": "string", "pattern": "^[0-9]{3}$"},
+          "postcode_verified": {"const": false, "description": "A Taiwan area-prefix lookup cannot verify the complete delivery postcode."},
+          "postcode_format": {"const": "legacy_3_plus_2", "description": "A stored five-digit Taiwan postcode was supplied."},
+          "postcode_notice": {"const": "confirm_current_six_digit_postcode", "description": "Prompt for the current six-digit postcode. No new suffix was inferred."},
           "selected": {"type": "array", "items": {"$ref": "#/components/schemas/PickerSelection"}},
           "options": {"type": "array", "items": {"$ref": "#/components/schemas/PickerOption"}},
           "sources": {"type": "array", "items": {"type": "string"}},

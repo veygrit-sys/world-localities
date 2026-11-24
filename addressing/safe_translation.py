@@ -18,8 +18,9 @@ import unicodedata
 
 from .components import normalize_key
 from .localized import normalize_language_tag
-from localities.open_reference import cn, jp
+from localities.open_reference import cn, jp, jp_post_roman
 from registries.official.query import expand_roman
+from registries.official.postal_validation import JP_NUMBER_INSTRUCTION
 
 
 _DIR = Path(__file__).resolve().parent
@@ -137,6 +138,31 @@ def _jp_rows(postcode):
     return rows
 
 
+def _jp_translation_rows(address, source, target):
+    code = address.get("postcode", "")
+    columns = {"ja": "ja", "ja-Kana": "kana", "ja-Latn": "roman", "en": "roman"}
+    suffix = "_" + columns[source]
+    supplied = [(_JP_FIELDS[k] + suffix, _key(v)) for k, v in address.items() if k in _JP_FIELDS]
+    if "roman" in {columns[source], columns[target]}:
+        matched = []
+        for point in jp_post_roman.rows(code):
+            row = point._asdict()
+            if not all(_key(row[key]) == label for key, label in supplied):
+                continue
+            town = point.town_ja
+            instruction = (town == "以下に掲載がない場合" or town.endswith("一円")
+                           or bool(JP_NUMBER_INSTRUCTION.fullmatch(town)))
+            row.update(roman_match_status="matched_unique", roman_truncation_possible="false",
+                       town_is_postal_instruction="true" if instruction else "false",
+                       current_receipt=jp_post_roman.receipt(point))
+            matched.append(row)
+        if matched:
+            return matched
+    # Historical names, including prior official Latin spellings on saved addresses,
+    # remain readable with their original dated receipt.
+    return [r for r in _jp_rows(code) if all(_key(r[key]) == label for key, label in supplied)]
+
+
 def _jp_label(field, original, source, target, rows):
     role = _JP_FIELDS.get(field)
     columns = {"ja": "ja", "ja-Kana": "kana", "ja-Latn": "roman", "en": "roman"}
@@ -149,7 +175,13 @@ def _jp_label(field, original, source, target, rows):
             or matched[0]["roman_truncation_possible"] != "false" or not matched[0][role + "_" + b]):
         return None
     row = matched[0]
-    return row[role + "_" + b], ("romanized" if b == "roman" else "localized"), {
+    status = "romanized" if b == "roman" else "localized"
+    if "current_receipt" in row:
+        evidence = row["current_receipt"]
+        return row[role + "_" + b], status, dict(
+            evidence, record_id=evidence["native_record_id"], source_as_of=evidence["snapshot"],
+            source_url=evidence["url"], published_language="ja-Latn" if b == "roman" else target)
+    return row[role + "_" + b], status, {
         "source_id": "jp-post-roman", "record_id": row["association_id"],
         "source_row": row["roman_row"], "source_as_of": "2025-06",
         "published_language": "ja-Latn" if b == "roman" else target,
@@ -267,10 +299,7 @@ def translate_address(country_code: str, components: Mapping[str, str], source_l
     rows = []
     if (different and country == "JP" and any(k in _JP_FIELDS for k in address)
             and source in {"ja", "ja-Kana", "ja-Latn", "en"} and target in {"ja", "ja-Kana", "ja-Latn", "en"}):
-        rows = _jp_rows(address.get("postcode", ""))
-        column = {"ja": "ja", "ja-Kana": "kana", "ja-Latn": "roman", "en": "roman"}[source]
-        rows = [row for row in rows if all(_key(value) == _key(row[_JP_FIELDS[k] + "_" + column])
-                   for k, value in address.items() if k in _JP_FIELDS)]
+        rows = _jp_translation_rows(address, source, target)
     output, fields = {}, {}
     for k, value in original.items():
         field = canonical[k]

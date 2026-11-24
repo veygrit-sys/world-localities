@@ -4,7 +4,7 @@ Veygrit のバックエンドから呼ぶ非公開 HTTP API と、同じ JSON �
 
 | 操作 | 入力 | 使い方 |
 | --- | --- | --- |
-| `suggest` | `country, postcode`、任意で `path, query, after, limit` | 国と完全な郵便番号を先に確定。選択した候補IDを `path` に追加して次の階層へ進む。番地を連番から作らない。候補が尽きたら手入力を残す。 |
+| `suggest` | `country, postcode`、任意で `path, query, after, limit` | 国と郵便番号を指定。台湾は先頭3桁で郵便区域を選択。選択した候補IDを `path` に追加して次の階層へ進む。番地を連番から作らない。候補が尽きたら手入力を残す。 |
 | `validate` | `country, components` | `matched_scope` と `verified_fields` / `unverified_fields` を返す。`matched` でも郵便番号だけの場合がある。`not_observed` は未収録、`conflict` は入力と参照行の矛盾。 |
 | `translate` | 上記＋`source_language, target_language` | 原文と項目別の表記、出典、要確認状態を返す。日本語ローマ字と翻訳は区別。未収録の固有名を推測しない。 |
 | `fit_label` | `country, components, profile_id` | 指定した業者・製品の住所欄に収まるかを試す。収まる場合も所在地を確認したことにはならない。 |
@@ -13,7 +13,7 @@ Veygrit のバックエンドから呼ぶ非公開 HTTP API と、同じ JSON �
 全操作で共通の応答形式は `{"schema_version":1,"operation":"…","result":{…}}`。[OpenAPI 3.1](../api/address-ai.openapi.json) に各操作の要求・応答例がある。クラウドや契約を用意せずに試すにはリポジトリのルートで次を実行する。
 
 ```sh
-python -m addressing.safe_suggest build --index /tmp/vey-postal.sqlite --country JP --country US --country CN --country FR --country NL --country LU
+python -m addressing.safe_suggest build --index /tmp/vey-postal.sqlite --country JP --country US --country CN --country FR --country NL --country LU --country TW --country UY --country NZ
 python -m addressing.address_ai --index /tmp/vey-postal.sqlite <<'JSON'
 {"operation":"suggest","country":"JP","postcode":"150-0001"}
 JSON
@@ -25,18 +25,21 @@ python -m addressing.address_ai <<'JSON'
 JSON
 ```
 
-標準コンテナには日本・米国・中国・フランス・オランダ・ルクセンブルクの索引を同梱する。全リポジトリを使う環境では、上の構築コマンドの `--country` をすべて省くと、利用可能な他の国・地域も索引化できる。候補数は精度や配達先件数ではない。
+標準コンテナには日本・米国・中国・フランス・オランダ・ルクセンブルク・台湾・ウルグアイ・ニュージーランドの索引を同梱する。全リポジトリを使う環境では、上の構築コマンドの `--country` をすべて省くと、利用可能な他の国・地域も索引化できる。候補数は精度や配達先件数ではない。
 
 最後の公開例では日本郵便の事業所個別番号データの行 `4944` に一致し、B2「お届け先住所」は「東京都千代田区霞が関2丁目2-1」になる。未確認の部屋番号を足すと要確認に戻る。一般住宅について郵便番号・町名が一致するだけで、この経路を通すことはできない。
 
 | 地域 | 現在の根拠と限界 |
 | --- | --- |
-| 日本 | 日本郵便とアドレス・ベース・レジストリで郵便番号、都道府県、市区町村、町域を照合。一部の大口事業所は事業所名と番地を同一行で照合できる。日本郵便または国土地理院に根拠がある表記はローマ字表示できる。一般住宅の部屋番号は対象外。 |
+| 日本 | 日本郵便とアドレス・ベース・レジストリで郵便番号、都道府県、市区町村、町域を照合。一部の大口事業所は事業所名と番地を同一行で照合できる。日本郵便または国土地理院に根拠がある表記はローマ字表示できる。一般住宅の部屋番号は対象外。 日本郵便の英字表記が日本語の原典行に一意に結び付く場合、英字の市区町村名・町域名も照合できる。 |
 | 米国 | GeoNames の ZIP・地名候補。ワシントンD.C.に限り DC MAR 掲載の街路・番地・5桁ZIPの組み合わせまで照合。ZIP+4 や建物内の住戸に確認済みの印は付けない。 |
 | 中国本土 | 香港政府が本土に置く16事務所の公開名・完全住所・郵便番号に限り、英語・繁体字の同一施設を特定できる。州省名や一部の市名の多言語表記は個別住所の存在を証明しない。全国の住宅の番地・部屋の照合、簡繁変換による任意の通り名生成には使わない。 |
 | オランダ | ワッデン諸島の5自治体で25,225件。4自治体は取得完了、Texelは原典の先頭13,000行まで。例は `9161 BE → Hollum → Schoolstraat → 22`。郵便番号・通り・番地が同じ公開番号IDに載るかを照合する。対象外は従来どおり郵便番号候補まで。 |
 | ルクセンブルク | ACTのBD-Adressesの全国配布から179,793住所点。例は `9755 → Hupperdange → Kaesfurterstrooss → 20`。`9755` と `L-9755` の両方を受け付け、所在地と自治体（例はClervaux）を区別する。 |
-| フランスなど | La Poste・INSEE の収録地域では郵便番号・コミューンを照合できる。その他の地域は構築した索引と原典にある精度だけ。国コードや国名が表示できることは住所点までの対応を意味しない。 |
+| ニュージーランド | LINZのChatham Islands、Gore、Kaikoura、Kawerau、Mackenzieの5自治体では、自治体・道路・番地を同じ住所IDで照合する。原典の住戸番号がある場合は住戸も照合する。郵便番号はこの住所点と結び付けていない。 |
+| ウルグアイ | IDEが公開した19県の収録分から、郵便番号・地名・道路・番地の選択と照合ができる。証拠には配布版・県名・CSV行番号を含む。 |
+| 台湾 | `100 → 臺北市 → 中正區 → 中山南路`。3桁・旧5桁・現行6桁の入力候補は先頭3桁で絞る。旧5桁は `postcode_format=legacy_3_plus_2` と `postcode_notice=confirm_current_six_digit_postcode` を返し、画面で現行6桁の確認を促す。応答の `lookup_prefix` と `postcode_scope=area_prefix_only` を表示する。検証は `city`（県市）・`city_district`・`road` を受け取り、6桁郵便番号・番地・住戸の確認は行わない。 |
+| フランスなど | フランスのロゼール県（48）・テリトワール・ド・ベルフォール県（90）はBANの住所点で番地まで照合する。La Poste・INSEE の収録地域では郵便番号・コミューンを照合できる。その他の地域は構築した索引と原典にある精度だけ。国コードや国名が表示できることは住所点までの対応を意味しない。 |
 
 `ups-us-shipto` は米国内の対応範囲における UPS ShipTo、`yamato-jp-b2` はヤマト運輸B2クラウドの国内お届け先欄を生成する。両者とも住所断片のみ。宛名・電話・サービス・出荷元・課金先等がそろった完全な伝票ではない。未確認の部屋番号、桁あふれ、印字できない文字、未対応の宛先は自動送信しない。業者に送る前の承認、宛先本人の同意、業者側での受付・印字確認は別工程。契約別プロファイルはサーバー側の `ADDRESS_AI_PROFILES` から設定し、呼出側から制限を上書きできない。新しい契約で実際の住所欄へ割り付けるには業者別アダプターが必要。
 
@@ -61,3 +64,11 @@ docker run --rm -p 127.0.0.1:8080:8080 -e ADDRESS_AI_TOKEN vey-address-ai
 ```sh
 python scripts/project_benelux_addresses.py --manifest localities/open_reference/benelux/LU/source.json --raw-dir /path/to/raw --output /path/to/new-lu
 ```
+
+フランスの2県は[Base Adresse Nationale の2026年11月18日版](https://adresse.data.gouv.fr/data/ban/adresses/2026-11-18/csv-with-ids/)を使用する。108,318行のうち、番地が0の94行を除き108,224件・246コミューンを収録した。番地の接尾辞（例 `2 bis`）を保持する。BAN住所UUIDがある行はUUIDを、ない行は当該版の公表BAL相互運用キーを返す。例は `48310 → Albaret-le-Comtal → place de l'église → 2 bis`。出典と原典更新日の表示は[Licence Ouverte 2.0](https://www.data.gouv.fr/pages/legal/licences/etalab-2-0)に従う。郵便上の都市名も入力した場合は、郵便番号とINSEEコミューンコードでLa Posteの行を結び、そのコミューンの同一郵便番号の全行で配達先表記が一致するときだけ住所点を確定する。La Posteの5行目にある集落名は個別の番地との対応を示さない。県外の郵便番号・地名照合は従来のLa Poste原典を使用する。[取得記録と原本のハッシュ](../../localities/open_reference/ban/FR/source.json)
+
+```sh
+python scripts/project_fr_ban.py --manifest localities/open_reference/ban/FR/source.json --raw-dir /path/to/raw --output /path/to/new-fr
+```
+
+中華郵政は2020年3月3日に3+3へ移行し、行政区域の先頭3桁を維持した。住所帳の旧5桁からはこの区域だけを参照し、末尾の変換・追加は行わない。[中華郵政・当時の記録109-21（冊子101頁）](https://www.post.gov.tw/post/FileCenter/post_ww2/Bulletin_File/files/1400578703219/0687B228-ECBE-4670-94E0-1F7B88282093.pdf)

@@ -10,13 +10,13 @@ class SafeTranslationTests(unittest.TestCase):
         result = translate_address("JP", data, "ja-JP", "en-US")
         self.assertEqual("complete", result["status"])
         self.assertEqual(result["components"], {**data, "province": "TOKYO TO", "city": "SHIBUYA KU",
-                                                "town": "JINGUMAE"})
+                                                "town": "JINGUUMAE"})
         self.assertEqual(result["original_components"], data)
         self.assertIsNot(result["original_components"], data)
         receipt = result["fields"]["town"]
         self.assertEqual(receipt["status"], "romanized")
         self.assertEqual(receipt["provenance"]["published_language"], "ja-Latn")
-        self.assertEqual(receipt["provenance"]["source_row"], "40045")
+        self.assertEqual(receipt["provenance"]["source_row"], "40059")
         back = translate_address("JP", result["components"], "ja-Latn", "ja")
         self.assertEqual(back["components"], data)
         self.assertFalse(back["delivery_verified"])
