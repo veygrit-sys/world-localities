@@ -76,6 +76,8 @@ def _postcode(country, value):
         raise ValueError("empty postcode")
     if country == "JP" and re.fullmatch(r"[0-9]{3}-[0-9]{4}", code):
         return code.replace("-", "")
+    if country == "LU" and re.fullmatch(r"[0-9]{4}", code):
+        return "L-" + code
     compact = _COMPACT.get(country)
     if compact and re.fullmatch(compact[0], code):
         boundary, separator = compact[1:]
@@ -135,8 +137,11 @@ def _geonames(countries):
             yield country, row["code"], (("area", area),), source["id"]
 
 
-def _records(countries):
+def _records(countries, db):
+    from .open_reference.benelux import indexed_paths
     from .postal_picker_sources import iter_extra_records
+
+    yield from indexed_paths(db, countries)
 
     official = set()
     authoritative = set()
@@ -195,7 +200,7 @@ def _write(connection, records):
     connection.executemany(_INSERT, batch)
     connection.executemany("INSERT INTO sources(name, id) VALUES (?, ?)", sources.items())
     connection.executemany("INSERT INTO countries VALUES (?)", ((c,) for c in sorted(countries)))
-    descriptors = source_descriptors()
+    descriptors = source_descriptors(sources)
     connection.executemany("INSERT INTO source_metadata VALUES (?, ?)", (
         (sid, json.dumps(descriptors[sid], ensure_ascii=False)) for sid in sources if sid in descriptors
     ))
@@ -218,7 +223,7 @@ def build_index(path, countries=None):
     os.close(fd)
     try:
         with closing(sqlite3.connect(temporary)) as db:
-            summary = _write(db, _records(countries))
+            summary = _write(db, _records(countries, db))
         if not summary["country_count"]:
             raise ValueError("no eligible postcode sources; existing index retained")
         if countries is not None:
@@ -259,6 +264,23 @@ class PostalPicker:
 
     def _connect(self):
         return sqlite3.connect(self._uri, uri=True)
+
+    def address_points(self, country, postcode, road, number):
+        """Return typed observations, including the provenance frozen with this index."""
+        from .open_reference.benelux import key
+
+        country = _country(country)
+        with closing(self._connect()) as db:
+            db.execute("BEGIN")
+            # Older v2 indexes and indexes built for other countries have only postal edges.
+            if not db.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='official_points'").fetchone():
+                return []
+            return db.execute("""
+                SELECT p.locality, p.municipality, p.source, p.record_id, m.details
+                FROM official_points p JOIN source_metadata m ON m.name = p.source
+                WHERE p.country=? AND p.postcode=? AND p.road_key=? AND p.number_key=?
+                ORDER BY p.record_id
+            """, (country, _postcode(country, postcode), key(road), key(number))).fetchall()
 
     def countries(self):
         with closing(self._connect()) as db:

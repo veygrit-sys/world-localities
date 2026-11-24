@@ -19,6 +19,8 @@
 !postal/sources/geonames
 !postal/sources/geonames/20261118
 !postal/sources/geonames/20261118/allCountries.zip
+!postal/sources/geonames/20261118-full
+!postal/sources/geonames/20261118-full/NL_full.csv.zip
 !evaluation
 !evaluation/address-ranking
 !evaluation/address-ranking/model.json
