@@ -144,7 +144,7 @@ def iter_extra_records(countries=None) -> Iterator[Record]:
                 steps = (("area", "Washington, DC"),) + _dc_steps(row["address"])
                 yield "US", code, steps, row["source_id"]
 
-def source_descriptors():
+def source_descriptors(sources=None):
     """Freeze source notices with the index rather than guessing from a live registry."""
     by_id = {}
     for source in load_sources()["sources"]:
@@ -180,4 +180,12 @@ def source_descriptors():
         elif manifest.startswith("postal_eu/"):
             detail["additional_attribution"] = source["territory_reference"]["attribution"]
         by_id[source["source_id"]] = detail
+    from .open_reference import benelux
+    for country in benelux.SOURCE_IDS:
+        if sources is not None and benelux.SOURCE_IDS[country] not in sources:
+            continue
+        entry = benelux.manifest(country)
+        by_id[entry["source_id"]] = {k: entry[k] for k in (
+            "attribution", "source_url", "terms_url", "license", "retrieved", "scope", "projection_sha256"
+        )}
     return {sid: {k: v for k, v in item.items() if v} for sid, item in by_id.items()}

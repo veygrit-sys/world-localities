@@ -337,6 +337,28 @@ def _fr(country, values, result):
                   checked=fields, evidence=evidence([r for r, _ in candidates]), total=len(candidates))
 
 
+def _benelux_point(picker, country, values, result):
+    observations = picker.address_points(country, values["postcode"], values["road"], values["house_number"])
+    evidence = []
+    checked_names = None
+    for locality, municipality, sid, record_id, metadata in observations:
+        names = {"city": locality}
+        # The Dutch reporting authority alone cannot establish an address municipality.
+        if municipality:
+            names["municipality"] = municipality
+        supplied = names.keys() & values.keys()
+        if any(_key(values[k]) != _key(names[k]) for k in supplied):
+            continue
+        checked_names = supplied if checked_names is None else checked_names & supplied
+        detail = json.loads(metadata)
+        evidence.append(dict(detail, source_id=sid, record_id=record_id, url=detail["source_url"]))
+    if evidence:
+        return result("matched" if len(evidence) == 1 else "ambiguous",
+                      scope="published_address_point", checked={"postcode", "road", "house_number"} | checked_names,
+                      evidence=evidence)
+    return None
+
+
 def validate_address(country: str, components: Mapping[str, str], *, index_path=None) -> dict:
     """Compare typed fields on one source record; expose verified and unchecked roles.
 
@@ -391,9 +413,16 @@ def validate_address(country: str, components: Mapping[str, str], *, index_path=
     if index_path is not None and code:
         from localities.postal_picker import PostalPicker
 
-        found = PostalPicker(index_path).lookup(country, code, limit=1)
+        picker = PostalPicker(index_path)
+        check_point = country in {"NL", "LU"} and values.get("road") and values.get("house_number")
+        if check_point:
+            point = _benelux_point(picker, country, values, result)
+            if point is not None:
+                return point
+        found = picker.lookup(country, code, limit=1)
         if found["status"] == "options":
             return result("matched", scope="postcode_observation", checked=["postcode"],
+                          issues=["address_point_not_confirmed"] if check_point else (),
                           evidence=[dict(found.get("source_details", {}).get(s, {}), source_id=s,
                                          reference="postal_picker:country/postcode") for s in found["sources"]])
         if found["status"] != "unsupported_country":

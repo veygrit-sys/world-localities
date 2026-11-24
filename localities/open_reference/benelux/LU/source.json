@@ -1,0 +1,71 @@
+{
+  "retrieved": "2026-11-24",
+  "license": "CC0-1.0",
+  "terms_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "country": "LU",
+  "source_id": "lu-act-bd-adresses",
+  "attribution": "Administration du cadastre et de la topographie, Luxembourg — BD-Adresses",
+  "source_url": "https://data.public.lu/en/datasets/adresses-georeferencees-bd-adresses/",
+  "scope": "Georeferenced subset of the national register; point geometry does not establish an entrance or delivery.",
+  "inputs": [
+    {
+      "file": "lu.csv",
+      "url": "https://download.data.public.lu/resources/adresses-georeferencees-bd-adresses/20261123-033121/addresses.csv",
+      "sha256": "737a4848a4f78dd355a347119cf906934c2c0dd6d2d47030b38b580ee4e72728"
+    }
+  ],
+  "counts": {
+    "source_rows": 179808,
+    "missing_required_field": 15,
+    "retained_ids": 179793,
+    "postcodes": 4200
+  },
+  "projection_sha256": "cf744fc7182398af38f99d2bb868979afdfd5f9adba090d94387e2ca77f29a29",
+  "shards": [
+    {
+      "file": "points-01.csv.gz",
+      "rows": 20000,
+      "sha256": "0724c7e0ffb3673781ca29d3d8bad443ed8839ba0c8b5124b26ed2653a2d99ce"
+    },
+    {
+      "file": "points-02.csv.gz",
+      "rows": 20000,
+      "sha256": "391d4d477430757e22156857012dc8ff55ff6e76f8f4c1460b5fe9eaade68ec7"
+    },
+    {
+      "file": "points-03.csv.gz",
+      "rows": 20000,
+      "sha256": "264f395e62481038afc234ec118a44027afbee167b1aa12645a4cc980441a293"
+    },
+    {
+      "file": "points-04.csv.gz",
+      "rows": 20000,
+      "sha256": "7ca88905acca2b808393af716768709085d1b9ff45666e297f2f392c5afa00f6"
+    },
+    {
+      "file": "points-05.csv.gz",
+      "rows": 20000,
+      "sha256": "efabee8c98bc30389e6eac7acf8798e3968604240375a4bc2a8e2b34c8195c12"
+    },
+    {
+      "file": "points-06.csv.gz",
+      "rows": 20000,
+      "sha256": "9ad162357d4c9ceec5605b6c9884e1e4f3a11382f7d849d41c43c770a9cb4dd5"
+    },
+    {
+      "file": "points-07.csv.gz",
+      "rows": 20000,
+      "sha256": "2a9008b323b49fcf0427f57011f9409345eea4facac26da2182a0e591155615f"
+    },
+    {
+      "file": "points-08.csv.gz",
+      "rows": 20000,
+      "sha256": "ccbaf41ad35f17966dd7c8cea58272846cb1f445be9581d875c97e7f2095d4d2"
+    },
+    {
+      "file": "points-09.csv.gz",
+      "rows": 19793,
+      "sha256": "13ef249e89efe04dcc0819710092c7a39bf2bde902f93c0aff7b5191ee6be311"
+    }
+  ]
+}

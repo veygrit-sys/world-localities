@@ -1,0 +1,257 @@
+{
+  "country": "NL",
+  "source_id": "nl-kadaster-bag-wadden",
+  "attribution": "Kadaster / PDOK, Basisregistratie Adressen en Gebouwen (BAG)",
+  "source_url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres",
+  "terms_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "license": "CC0-1.0",
+  "retrieved": "2026-11-24",
+  "scope": "BAG address designations of Ameland, Schiermonnikoog, Terschelling, Vlieland and a partial Texel capture (first 13,000 returned rows). Requires active locality and public space, issued address designation and complete postcode.",
+  "authority_rows": {
+    "Ameland": 4515,
+    "Schiermonnikoog": 1565,
+    "Terschelling": 4951,
+    "Vlieland": 1486,
+    "Texel": 13000
+  },
+  "pagination_incomplete": [
+    "0448"
+  ],
+  "inputs": [
+    {
+      "file": "0060/001.json",
+      "sha256": "54ed49b1163be583cd1bfd9624998156f52fff5257e08fa76d816c0c914d764a",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0060&status=Naamgeving+uitgegeven&limit=1000&f=json",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:16:27Z",
+      "authority": "0060"
+    },
+    {
+      "file": "0060/002.json",
+      "sha256": "966f6fe1a6f099326d5dfea28d4dd0c8fa41fee84cf245e3dce1844cebb15264",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0060&cursor=BzWr%7CL4yeCg&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:16:34Z",
+      "authority": "0060"
+    },
+    {
+      "file": "0060/003.json",
+      "sha256": "ea6376c39721b03b50ef103a5f06b4ac30b152eebb44fa53497ade3d5aff2c46",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0060&cursor=BzrI%7CL4yeCg&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:16:41Z",
+      "authority": "0060"
+    },
+    {
+      "file": "0060/004.json",
+      "sha256": "8ab34ad29dee80b1e5d40bbadc820cd4cb07e5eeea0071b23cf22b24f2ef0ca7",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0060&cursor=B0AD%7CL4yeCg&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:16:49Z",
+      "authority": "0060"
+    },
+    {
+      "file": "0060/005.json",
+      "sha256": "69b83482b51b7d0af6e3b4fad75bf009b5af7e633ff7fda08dc7e3380989dcec",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0060&cursor=B040%7CL4yeCg&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 515,
+      "timestamp": "2026-11-24T06:17:41Z",
+      "authority": "0060"
+    },
+    {
+      "file": "0088/001.json",
+      "sha256": "1217fc4cdbefd764c7f11e8cb99249c6f2b26efcd6a04b067f6f36beb3829f3a",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0088&status=Naamgeving+uitgegeven&limit=1000&f=json",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:15:49Z",
+      "authority": "0088"
+    },
+    {
+      "file": "0088/002.json",
+      "sha256": "e6434815868d4faebf0ddf8b33a85af39f375ce796d2f8bafaf64ce0797d52ea",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0088&cursor=ChgW%7CDepZpA&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 565,
+      "timestamp": "2026-11-24T06:16:20Z",
+      "authority": "0088"
+    },
+    {
+      "file": "0093/001.json",
+      "sha256": "4e6987da51fd73ee007314ecb155fc4b61003d5f990d27827342c3b266cf5128",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0093&status=Naamgeving+uitgegeven&limit=1000&f=json",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:15:47Z",
+      "authority": "0093"
+    },
+    {
+      "file": "0093/002.json",
+      "sha256": "d9e93f441889351dc50d87e15020ae668e6c59ba815e0a1eca4c1099a301c5cf",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0093&cursor=CtiA%7CgsbRHA&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:15:54Z",
+      "authority": "0093"
+    },
+    {
+      "file": "0093/003.json",
+      "sha256": "69de47131d83da6ccd43855fbceb0ec4912192c15f55568c5012c38d6d79fe14",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0093&cursor=Ct0e%7CgsbRHA&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:16:03Z",
+      "authority": "0093"
+    },
+    {
+      "file": "0093/004.json",
+      "sha256": "dcbf3b17e8396420ef823e80fa2adb8c90b2ccf7631622694c8114060204f10c",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0093&cursor=CuGr%7CgsbRHA&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:16:09Z",
+      "authority": "0093"
+    },
+    {
+      "file": "0093/005.json",
+      "sha256": "f65d2af8a1882e0aaf3d4b2b9dc7d7d4e5e8abbcba5b07a9c1b7be1efec45fab",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0093&cursor=CuhP%7CgsbRHA&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 951,
+      "timestamp": "2026-11-24T06:16:39Z",
+      "authority": "0093"
+    },
+    {
+      "file": "0096/001.json",
+      "sha256": "d871a06ed0398012228957d69b69d53b23d88ca8a04628f03d55f72d31352c51",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0096&status=Naamgeving+uitgegeven&limit=1000&f=json",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:15:47Z",
+      "authority": "0096"
+    },
+    {
+      "file": "0096/002.json",
+      "sha256": "e113b2406cc36302c3bb6fe46055184a6206c22ba7124a707f554225b04e1b18",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0096&cursor=CvHg%7CsstzAQ&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 486,
+      "timestamp": "2026-11-24T06:16:30Z",
+      "authority": "0096"
+    },
+    {
+      "file": "0448/001.json",
+      "sha256": "9aa05f0b1686b8fa48bb7673e05cb7ad5bd284289810a00915aebc0247bf0614",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0448&status=Naamgeving+uitgegeven&limit=1000&f=json",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:16:44Z",
+      "authority": "0448"
+    },
+    {
+      "file": "0448/002.json",
+      "sha256": "3e116cf55cb1002f0ba3d2a9f1662132399500823b3eaa2c8ad96270813c623e",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0448&cursor=Reui%7CQB3X5A&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:16:48Z",
+      "authority": "0448"
+    },
+    {
+      "file": "0448/003.json",
+      "sha256": "8e6e3c14c57333ae441de98f48bda024d8174dec78133257b9f1f4dee062ab14",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0448&cursor=RfAR%7CQB3X5A&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:16:57Z",
+      "authority": "0448"
+    },
+    {
+      "file": "0448/004.json",
+      "sha256": "0b927d99c0eef60ebada093bc6e19be5ec5bc728942d4ff9ed66bed7771faef3",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0448&cursor=RfTC%7CQB3X5A&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:17:08Z",
+      "authority": "0448"
+    },
+    {
+      "file": "0448/005.json",
+      "sha256": "83efe721a15882b9741d0c8bde2b0ff07a94bd7799b1f7be21ac6a36a9c4a3b3",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0448&cursor=Rfk9%7CQB3X5A&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:17:16Z",
+      "authority": "0448"
+    },
+    {
+      "file": "0448/006.json",
+      "sha256": "98f46be11c225da7030dad4495fbc86532b4eecf9da09fc58c411ddb6dbd0fe6",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0448&cursor=Rf1v%7CQB3X5A&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:17:24Z",
+      "authority": "0448"
+    },
+    {
+      "file": "0448/007.json",
+      "sha256": "7864528c1d066b05b5c3cbbeff2d96b8fc690a0c405e475d7f8eeb58ed84688e",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0448&cursor=RgGY%7CQB3X5A&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:17:31Z",
+      "authority": "0448"
+    },
+    {
+      "file": "0448/008.json",
+      "sha256": "eef690d8ec3921414d1888f50f64708c643b8e296bf5bdd3526e63c8438f601e",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0448&cursor=RgXE%7CQB3X5A&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:17:38Z",
+      "authority": "0448"
+    },
+    {
+      "file": "0448/009.json",
+      "sha256": "7c780aed61241646fc1cc3f7fb6c5cdf23265c6a23db477f0276d07174ebe33f",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0448&cursor=Rgn0%7CQB3X5A&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:17:45Z",
+      "authority": "0448"
+    },
+    {
+      "file": "0448/010.json",
+      "sha256": "8b8973426ad032e3c0c510abd4974af20cf4447cc60144a68407221157d7f039",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0448&cursor=Rg4m%7CQB3X5A&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:17:54Z",
+      "authority": "0448"
+    },
+    {
+      "file": "0448/011.json",
+      "sha256": "6b674ce96ae6e1ae66a1aa385a3828aa0ec48f57f285abb64ba6e04997856ab3",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0448&cursor=RhJ6%7CQB3X5A&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:18:03Z",
+      "authority": "0448"
+    },
+    {
+      "file": "0448/012.json",
+      "sha256": "dc2ea1c4c982a12cf049d3ab574e1bc9a3c0bfbc1bc9ebcd1fd7e29cd32e7a68",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0448&cursor=Rhap%7CQB3X5A&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:18:12Z",
+      "authority": "0448"
+    },
+    {
+      "file": "0448/013.json",
+      "sha256": "44ca0b475a92f6a9550221dfd1dc0d05c4e7628313e4be99282f2e1bbc19854c",
+      "url": "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/adres/items?bronhouder_identificatie=0448&cursor=Rh06%7CQB3X5A&f=json&limit=1000&status=Naamgeving+uitgegeven",
+      "records": 1000,
+      "timestamp": "2026-11-24T06:18:47Z",
+      "authority": "0448"
+    }
+  ],
+  "counts": {
+    "source_rows": 25517,
+    "missing_required_field": 292,
+    "retained_ids": 25225,
+    "postcodes": 1269
+  },
+  "projection_sha256": "0776ed2367639dff45bfad0aaa4f2c9c71e301f618e591494f33139f089a450b",
+  "shards": [
+    {
+      "file": "points-01.csv.gz",
+      "rows": 20000,
+      "sha256": "951b610bacdb9627fa4726e40a3d62de874ed8acee4b6bd090dc7205d8a86bbb"
+    },
+    {
+      "file": "points-02.csv.gz",
+      "rows": 5225,
+      "sha256": "6272f3547e730dd0234b419ffad87d408420ca22bad3d3ec9c78bbdd07f8de59"
+    }
+  ]
+}
