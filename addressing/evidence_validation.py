@@ -18,6 +18,7 @@ from localities.open_reference import cn, jp_post_roman, postal_eu, us
 from localities.postal import ROOT, iter_postal_records, load_sources
 from registries.official.postal_validation import _jp_ward_labels, _jp_wards, JP_NUMBER_INSTRUCTION
 from .components import canonicalize_components, normalize_key
+from .address1_profiles import address1_profile
 
 
 _IDENTITY = {"recipient", "attention", "organization", "language", "script"}
@@ -46,16 +47,57 @@ def _country_names():
     return names
 
 
-def _result(country, values, status, *, scope=None, checked=(), issues=(), evidence=(), total=None):
-    # Company is identity except where a named Japan Post business assignment
-    # explicitly requires and verifies that same company.
+_PREMISE_SCOPES = {"published_address_point", "published_office_address", "physical_address_context"}
+_PREMISE_FIELDS = {"address_line1", "address_line2", "house", "house_number", "organization", "unit", "subpremise", "entrance"}
+
+
+def _address1_decision(status, scope, checked, unverified, candidate_count, profile, matched_unit, issues):
+    """A shared street or postal row is not a unique source-backed premise."""
+    checked = set(checked)
+    unverified = set(unverified)
+    physical = profile["address_kind"] not in {"postal_delivery", "mixed"}
+    unique = (status in {"matched", "partial"} and scope in _PREMISE_SCOPES and candidate_count == 1
+              and physical and "unit_required_to_distinguish_address" not in issues)
+    if not unique:
+        unverified.update(checked & _PREMISE_FIELDS)
+        checked -= _PREMISE_FIELDS
+    if status in _BLOCKING:
+        level, decision = "none", "conflict"
+    else:
+        if unique:
+            level = "unit" if matched_unit or checked & {"unit", "subpremise"} else "premise"
+        elif "road" in checked or scope in {"published_district_street", "published_street_block", "physical_address_context"}:
+            level = "street"
+        elif scope == "published_land_parcel" or checked & {"city", "city_district", "municipality", "postal_city", "town", "hamlet",
+                        "neighbourhood", "village", "island", "suburb", "county"}:
+            level = "locality"
+        elif "postcode" in checked:
+            level = "postcode"
+        else:
+            level = "none"
+        if status == "ambiguous":
+            decision = "ambiguous"
+        elif unique and status == "matched" and not unverified and scope != "physical_address_context":
+            decision = "verified"
+        else:
+            decision = "partial" if level != "none" else "unverified"
+    return {"status": decision, "level": level, "candidate_count": candidate_count,
+            "verified_fields": sorted(checked), "unverified_fields": sorted(unverified)}
+
+
+def _result(country, values, status, *, scope=None, checked=(), issues=(), evidence=(), total=None, candidate_count=None, matched_unit=False):
+    # Organization is normally identity; a named-facility source can explicitly
+    # require and verify the organization on the same address record.
     considered = (set(values) - _IDENTITY) | (set(values) & set(checked) & {"organization"})
     checked = set(checked) & considered
     unverified = considered - checked
     if status == "matched" and unverified:
         status = "partial"
+    profile = address1_profile(country, values if isinstance(values, Mapping) else {})
     return {
         "country": country, "status": status, "matched_scope": scope,
+        "address1_profile": profile,
+        "address1_decision": _address1_decision(status, scope, checked, unverified, candidate_count, profile, matched_unit, issues),
         "verified_fields": sorted(checked), "unverified_fields": sorted(unverified),
         "ignored_fields": sorted((set(values) & _IDENTITY) - checked), "issues": sorted(set(issues)),
         "evidence": list(evidence)[:_EVIDENCE_LIMIT],
@@ -100,7 +142,7 @@ def _us(values, result):
     matches = [us.get_record(i) for i in ids]
     rows = [r for r in matches if us._key(r["address"]) == us._key(line)]
     if not rows:
-        return result("not_observed", issues=["address_point_not_observed"]) if dc_fields else None
+        return result("not_observed", candidate_count=0, issues=["address_point_not_observed"]) if dc_fields else None
     if not dc_fields and not any(r["postal_code"] == postcode[:5] for r in rows):
         return None
     fields = dc_fields | ({"address_line1"} & values.keys())
@@ -133,7 +175,7 @@ def _us(values, result):
     if postcode and len(postcode) == 5 and all(r["postal_code"] == postcode for r in filtered):
         fields.add("postcode")
     return result("matched" if len(filtered) == 1 else "ambiguous", scope="published_address_point",
-                  checked=fields, issues=["zip_plus_four_unverified"] if len(postcode) > 5 else (),
+                  checked=fields, candidate_count=len(filtered), issues=["zip_plus_four_unverified"] if len(postcode) > 5 else (),
                   evidence=[dict(_mar_source(), record_id=r["record_id"]) for r in filtered])
 
 
@@ -142,8 +184,11 @@ def _cn(values, result):
     if not line:
         return None
     rows = [r for r in cn.lookup(line) if any(_key(v) == _key(line) for v in r["address"].values())]
+    facility = values.get("organization") or values.get("address_line2")
+    if not rows and facility and values.get("city"):
+        rows = cn.named_local_addresses(line, values["city"], facility)
     if not rows:
-        return result("not_observed", issues=["published_office_address_not_observed"])
+        return result("not_observed", candidate_count=0, issues=["published_office_address_not_observed"])
     code = values.get("postcode")
     eligible = [r for r in rows if not code or r["postcode"] == code]
     def evidence(rows):
@@ -152,8 +197,39 @@ def _cn(values, result):
                  "terms_url": r["terms_url"]} for r in rows]
     if not eligible:
         return result("conflict", issues=["office_postcode_conflict"], evidence=evidence(rows))
-    return result("matched" if len(eligible) == 1 else "ambiguous", scope="published_office_address",
-                  checked={"address_line1", "postcode"}, evidence=evidence(eligible))
+    checked = {"address_line1", "postcode"}
+    for field in ("organization", "address_line2"):
+        if field not in values:
+            continue
+        named = [r for r in eligible if _key(values[field]) in {_key(v) for v in r["name"].values()}]
+        if named:
+            eligible = named
+            checked.add(field)
+        elif field == "organization":
+            return result("conflict", issues=["published_office_name_conflict"], evidence=evidence(eligible))
+
+    compatible = []
+    for row in eligible:
+        labels, _ = cn.address_parts(row)
+        verified = {k for k in values.keys() & labels.keys() if _key(values[k]) in {_key(v) for v in labels[k]}}
+        unmatched = (values.keys() & labels.keys()) - verified
+        # A different published city or house/unit number is an actual conflict.
+        # An unobserved transliteration is only unverified.
+        if unmatched & {"house_number", "unit"}:
+            continue
+        if any(_key(values[field]) in cn.known_admin_labels()[field]
+               for field in unmatched & {"state", "city", "city_district"}):
+            continue
+        if "road" in unmatched and any(
+                values["road"].isascii() == label.isascii() for label in labels["road"]):
+            continue
+        compatible.append((row, verified))
+    if not compatible:
+        return result("conflict", issues=["published_office_component_conflict"], evidence=evidence(eligible))
+    checked.update(set.intersection(*(fields for _, fields in compatible)))
+    rows = [r for r, _ in compatible]
+    return result("matched" if len(rows) == 1 else "ambiguous", scope="published_office_address",
+                  checked=checked, candidate_count=len(rows), evidence=evidence(rows))
 
 
 # Keep a compact postcode posting list once per process, not a nationwide scan
@@ -171,6 +247,12 @@ _JP_WIDTH = str.maketrans("０１２３４５６７８９－", "0123456789-")
 
 def _jp_detail(value):
     return value.translate(_JP_WIDTH)
+
+
+def _jp_business_number(value):
+    # Fold only an explicitly marked chome, block and residence number.
+    # Unmarked cadastral/parcel strings remain distinct.
+    return re.sub(r"([0-9]+丁目[0-9]+)番([0-9]+)号$", r"\1-\2", _jp_detail(value))
 
 
 @cache
@@ -272,17 +354,20 @@ def _jp(values, result):
         else:
             office = False
             if row.organization:
-                if "organization" not in values:
-                    issues.add("assigned_organization_unverified")
-                elif _key(values["organization"]) != _key(row.organization):
-                    continue
-                else:
+                if "organization" in values:
+                    if _key(values["organization"]) != _key(row.organization):
+                        continue
                     checked.add("organization")
-                detail = _jp_detail(row.detail)
+                if "address_line2" in values and _key(values["address_line2"]) == _key(row.organization):
+                    checked.add("address_line2")
+                named = bool(checked & {"organization", "address_line2"})
+                if not named:
+                    issues.add("assigned_organization_unverified")
+                detail = _jp_business_number(row.detail)
                 # A city name alone omits the ward in designated cities.
                 full_city = any(_key(values[k]) == _key(row.municipality[0]) for k in checked & _MUNICIPAL)
                 city_ward = bool(checked & _MUNICIPAL) and "city_district" in checked
-                qualified = (row.postal_use == "business" and "organization" in checked and row.town
+                qualified = (row.postal_use == "business" and named and row.town
                              and _JP_PREMISE.fullmatch(detail) and not issues
                              and bool(checked & {"prefecture", "state"}) and (full_city or city_ward))
                 if qualified:
@@ -290,11 +375,11 @@ def _jp(values, result):
                     # Never treat an apartment, range, agency PO box or building prefix as an exact number.
                     local_line = row.town[0] + detail
                     if "house_number" in values:
-                        if _jp_detail(values["house_number"]) != detail:
+                        if _jp_business_number(values["house_number"]) != detail:
                             continue
                         checked.add("house_number")
                     if "address_line1" in values:
-                        entered = _jp_detail(values["address_line1"])
+                        entered = _jp_business_number(values["address_line1"])
                         if entered == local_line or entered == row.prefecture[0] + row.municipality[0] + local_line:
                             checked.add("address_line1")
                         elif re.fullmatch(r".*[0-9]", entered):
@@ -323,7 +408,8 @@ def _jp(values, result):
     scope = "postal_locality" if fields - {"postcode", "organization"} else "postcode_observation"
     if len(candidates) == 1 and candidates[0][3]:
         scope = "published_office_address"
-    return result(status, scope=scope, checked=fields, issues=issues, evidence=[c[2] for c in candidates])
+    return result(status, scope=scope, checked=fields, issues=issues, evidence=[c[2] for c in candidates],
+                  candidate_count=1 if scope == "published_office_address" else None)
 
 
 def _fr_evidence(rows):
@@ -378,14 +464,11 @@ def _fr_routing_rows(postal_rows, values, locality, insee):
 
 
 def _published_point(picker, country, values, result):
-    road, number = values["road"], values["house_number"]
-    if "address_line1" in values:
-        if _key(values["address_line1"]) not in {_key(road + " " + number), _key(number + " " + road)}:
-            return None
-    if country == "FR" and "neighbourhood" in values:
+    if country in {"FR", "PM"} and "neighbourhood" in values:
         return None
-    routing = {"town", "postal_city"} & values.keys() if country == "FR" else set()
-    observations = picker.address_points(country, values["postcode"], road, number, commune_code=bool(routing))
+    routing = {"town", "postal_city"} & values.keys() if country in {"FR", "PM"} else set()
+    observations = picker.address_points(country, values["postcode"], values.get("road"), values.get("house_number"),
+                                         line=values.get("address_line1"), commune_code=bool(routing))
     postal_rows = [r for r in postal_eu.lookup(values["postcode"], country=country)
                    if r["postcode"] == values["postcode"]] if routing and observations else []
     evidence, postal_evidence = [], {}
@@ -422,7 +505,7 @@ def _published_point(picker, country, values, result):
             postal = _fr_evidence(rows)
             receipts = [evidence[0], postal[0], *evidence[1:], *postal[1:]]
         return result(status, scope="published_address_point", checked=checked,
-                      total=len(evidence) + len(rows), evidence=receipts)
+                      total=len(evidence) + len(rows), evidence=receipts, candidate_count=len(evidence))
     return None
 
 
@@ -473,16 +556,35 @@ def validate_address(country: str, components: Mapping[str, str], *, index_path=
         pattern = r"[0-9]{5}"
     if code and pattern and not re.fullmatch(pattern, _jp_detail(code) if country == "JP" else code):
         return result("invalid_format", issues=["invalid_postcode_format"])
+    from localities.open_reference.regional_offices import validate_office
+    # Puerto Rico can be submitted as a distinct selector or as a US state.
+    # Keep the original country in the result while selecting the registry.
+    regional_country = address1_profile(country, values)["jurisdiction"] if country == "US" else country
+    regional_office = validate_office(regional_country, values, result)
+    if regional_office is not None:
+        return regional_office
+    if country == "AU":
+        from localities.open_reference.au_gnaf import validate_point as validate_au
+        point = validate_au(values, result)
+        if point is not None:
+            return point
+    if country == "CA":
+        from localities.open_reference.ca_nt import validate_point as validate_ca
+        point = validate_ca(values, result)
+        if point is not None:
+            return point
     if country == "NZ":
         from localities.open_reference.nz import validate_point
         point = validate_point(values, result)
         if point is not None:
             return point
     if country == "JP":
-        return _jp(values, result)
+        from localities.open_reference.jp_wakayama import validate_wakayama
+        municipal = validate_wakayama(values, result)
+        return municipal if municipal is not None else _jp(values, result)
     from localities.open_reference.published_points import SOURCES as point_sources
     check_point = (index_path is not None and country in point_sources and code
-                   and values.get("road") and values.get("house_number"))
+                   and (values.get("address_line1") or (values.get("road") and values.get("house_number"))))
     picker = None
     if check_point:
         from localities.postal_picker import PostalPicker

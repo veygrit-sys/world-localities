@@ -36,6 +36,9 @@ class FrenchAddressPoints(unittest.TestCase):
                     path.append(chosen["id"])
                 values = dict(postcode=code, city=city, road=road, house_number=number)
                 ok = self.run_op("validate", components=values)
+                raw = self.run_op("validate", components=dict(postcode=code, city=city, line1=number + " " + road))
+                self.assertEqual(raw["address1_decision"]["status"], "verified")
+                self.assertEqual(raw["evidence"][0]["record_id"], record_id)
                 self.assertEqual(ok["matched_scope"], "published_address_point")
                 self.assertEqual(set(ok["verified_fields"]), values.keys())
                 self.assertEqual(ok["evidence"][0]["record_id"], record_id)
@@ -55,6 +58,9 @@ class FrenchAddressPoints(unittest.TestCase):
             self.assertEqual(set(result["verified_fields"]), set(vals | extra))
             self.assertEqual([r["source_id"] for r in result["evidence"]], ["fr-ban-48-90", "fr-laposte-hexasmal"])
             self.assertEqual(result["evidence"][0]["insee_code"], "90002")
+            decision = result["address1_decision"]
+            self.assertEqual((decision["status"], decision["level"], decision["candidate_count"]),
+                             ("verified", "premise", 1))
         for extra in (dict(postal_city="FONTAINE"), dict(town="Fontaine"),
                       dict(address_line1="6 Rue de la Combe"), dict(address_line1="4 Rue de Belfort")):
             result = self.run_op("validate", components=vals | extra)

@@ -180,6 +180,8 @@
                         "country": "US",
                         "status": "invalid_format",
                         "matched_scope": null,
+                        "address1_decision": {"status": "conflict", "level": "none", "candidate_count": null, "verified_fields": [], "unverified_fields": ["postcode"]},
+                        "address1_profile": {"jurisdiction": "US", "address_kind": "unspecified", "disambiguation_fields": ["state", "postcode"]},
                         "verified_fields": [],
                         "unverified_fields": ["postcode"],
                         "ignored_fields": [],
@@ -518,6 +520,17 @@
         },
         "description": "Source-specific receipt for an observation; available record IDs, links, snapshot and rights metadata vary by source."
       },
+      "Address1Decision": {
+        "type": "object",
+        "properties": {
+          "status": {"enum": ["verified", "partial", "ambiguous", "conflict", "unverified"]},
+          "level": {"enum": ["none", "postcode", "locality", "street", "premise", "unit"]},
+          "candidate_count": {"type": ["integer", "null"], "minimum": 0, "description": "Distinct eligible premise/office IDs when evaluated. Postal receipts, locality candidates and missing reference coverage are not counts of premises."},
+          "verified_fields": {"type": "array", "items": {"type": "string"}},
+          "unverified_fields": {"type": "array", "items": {"type": "string"}}
+        },
+        "required": ["status", "level", "candidate_count", "verified_fields", "unverified_fields"]
+      },
       "Validation": {
         "type": "object",
         "properties": {
@@ -543,6 +556,16 @@
           "postcode_verified": {"const": false, "description": "A Taiwan area-prefix lookup cannot verify the complete delivery postcode."},
           "postcode_format": {"const": "legacy_3_plus_2", "description": "A stored five-digit Taiwan postcode was supplied."},
           "postcode_notice": {"const": "confirm_current_six_digit_postcode", "description": "Prompt for the current six-digit postcode. No new suffix was inferred."},
+          "address1_decision": {"$ref": "#/components/schemas/Address1Decision"},
+          "address1_profile": {
+            "type": "object",
+            "properties": {
+              "jurisdiction": {"type": "string", "pattern": "^[A-Z]{2}$"},
+              "address_kind": {"enum": ["physical", "postal_delivery", "mixed", "locality_description", "unspecified"]},
+              "disambiguation_fields": {"type": "array", "items": {"type": "string"}}
+            },
+            "required": ["jurisdiction", "address_kind", "disambiguation_fields"]
+          },
           "matched_scope": {
             "type": ["string", "null"],
             "description": "Maximum scope supported by the source, e.g. postcode_observation, postal_locality or published_address_point. Null if no match."
@@ -560,6 +583,8 @@
           "country",
           "status",
           "matched_scope",
+          "address1_decision",
+          "address1_profile",
           "verified_fields",
           "unverified_fields",
           "ignored_fields",

@@ -1,0 +1,57 @@
+{
+  "country": "PM",
+  "source_id": "pm-ban-975",
+  "attribution": "Base Adresse Nationale (BAN), données des communes / IGN, édition du 15 octobre 2026. Extraction et mise en index par World Localities.",
+  "source_url": "https://adresse.data.gouv.fr/outils/telechargements",
+  "terms_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2-0",
+  "license": "Licence Ouverte 2.0",
+  "source_updated_on": "2026-10-15",
+  "retrieved": "2026-10-16",
+  "scope": "Saint-Pierre and Miquelon-Langlade, Saint-Pierre-et-Miquelon (PM); numbered BAN records only. No unit or mailing suitability inferred.",
+  "record_id": "BAL interoperability ID from this edition; no BAN address UUID column in this source.",
+  "inputs": [
+    {
+      "department": "975",
+      "file": "adresses-975.csv.gz",
+      "url": "https://adresse.data.gouv.fr/data/ban/adresses/latest/csv/adresses-975.csv.gz",
+      "bytes": 87016,
+      "sha256": "e674068b478bd12123ea8de6f2b60931602a791649d24db8ce6fb4c88d6d6985"
+    }
+  ],
+  "departments": {
+    "975": {
+      "published_rows": 3049,
+      "bal_interop_key": 3041,
+      "non_premise_number": 8,
+      "communes": 2,
+      "postcodes": 1
+    }
+  },
+  "commune_links": [
+    [
+      "97500",
+      "Miquelon-Langlade",
+      "97501"
+    ],
+    [
+      "97500",
+      "Saint-Pierre",
+      "97502"
+    ]
+  ],
+  "counts": {
+    "published_rows": 3049,
+    "bal_interop_key": 3041,
+    "non_premise_number": 8,
+    "retained_ids": 3041,
+    "postcodes": 1
+  },
+  "projection_sha256": "15853bc4862e8419ca97ef7058d520abf0a5d90eeb6e5308817b9314cf1ebe4b",
+  "shards": [
+    {
+      "file": "points-01.csv.gz",
+      "rows": 3041,
+      "sha256": "9d02c712af34e18362f380d030739d4a81d35e22fbe7daf423ef42b1b4834af4"
+    }
+  ]
+}

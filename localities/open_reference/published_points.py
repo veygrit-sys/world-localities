@@ -13,6 +13,7 @@ SOURCES = {
     "NL": ("benelux/NL", "nl-kadaster-bag-wadden"),
     "LU": ("benelux/LU", "lu-act-bd-adresses"),
     "FR": ("ban/FR", "fr-ban-48-90"),
+    "PM": ("ban/PM", "pm-ban-975"),
     "UY": ("uy", "uy-ide-direcciones"),
 }
 FIELDS = ("postcode", "locality", "road", "number", "municipality", "record_id")

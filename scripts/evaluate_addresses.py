@@ -6,6 +6,7 @@ from collections import defaultdict
 import json
 import math
 from pathlib import Path
+from statistics import NormalDist
 import re
 
 TASKS = {"entity_resolution", "component_validation", "format_rendering"}
@@ -92,6 +93,8 @@ def validate_example(example):
                 "independent status requires external review and its reference")
     require(isinstance(example.get("expected"), dict), "case requires expected result")
     validate_target({**example["expected"], "task": example["task"]}, expected=True)
+    require(example.get("setting", "unspecified") in ("urban", "rural", "island", "unspecified"),
+            "unsupported geographic setting")
     if "equivalence_group" in example:
         require(nonempty(example["equivalence_group"]), "equivalence_group must be nonempty")
 
@@ -109,6 +112,35 @@ def exact_result(example, prediction):
 
 def rate(numerator, denominator):
     return numerator / denominator if denominator else None
+
+
+def wilson_interval(correct, total):
+    """Two-sided 95% Wilson score interval, undefined for no observations."""
+    if total == 0:
+        return None
+    z = NormalDist().inv_cdf(0.975)
+    p = correct / total
+    divisor = 1 + z * z / total
+    center = (p + z * z / (2 * total)) / divisor
+    radius = z * math.sqrt((p * (1 - p) + z * z / (4 * total)) / total) / divisor
+    return [max(0.0, center - radius), min(1.0, center + radius)]
+
+
+def premise_metrics(examples, predictions):
+    groups = defaultdict(list)
+    for example, prediction in zip(examples, predictions):
+        if example["task"] == "entity_resolution":
+            groups[example["country"], example.get("setting", "unspecified")].append((example, prediction))
+    result = {}
+    for (country, setting), pairs in sorted(groups.items()):
+        accepted = [exact_result(e, p) for e, p in pairs if p["verdict"] == "matched"]
+        correct = sum(accepted)
+        result.setdefault(country, {})[setting] = {
+            "cases": len(pairs), "accepted_cases": len(accepted), "false_accepts": len(accepted) - correct,
+            "precision": rate(correct, len(accepted)), "precision_95ci": wilson_interval(correct, len(accepted)),
+            "coverage": len(accepted) / len(pairs), "coverage_95ci": wilson_interval(len(accepted), len(pairs)),
+        }
+    return result
 
 
 def latency_metrics(predictions):
@@ -152,6 +184,7 @@ def score_cases(examples, predictions):
 
 def grouped_scores(examples, predictions):
     result = score_cases(examples, predictions)
+    result["entity_resolution_by_country_and_setting"] = premise_metrics(examples, predictions)
     result["by_task"] = {}
     for task in sorted({e["task"] for e in examples}):
         pairs = [(e, p) for e, p in zip(examples, predictions) if e["task"] == task]
@@ -207,14 +240,54 @@ def evaluate(examples, predictions, training_records=None):
     return result
 
 
+def run_address1(examples, *, index_path=None):
+    """Replay normal text validation. The decision and the primary registry identity must agree."""
+    from addressing.address_ai import process_request
+
+    predictions = []
+    for example in examples:
+        validate_example(example)
+        require(example["task"] == "entity_resolution", "--run-address1 requires entity_resolution cases")
+        components = example.get("input_components")
+        require(isinstance(components, dict) and components, "--run-address1 requires input_components")
+        result = process_request({"operation": "validate", "country": example["country"],
+                                  "components": components}, index_path=index_path)["result"]
+        decision = result["address1_decision"]
+        prediction = {"case_id": example["case_id"], "country": example["country"],
+                      "task": "entity_resolution", "verdict": "abstain"}
+        if decision["status"] == "ambiguous":
+            prediction["verdict"] = "ambiguous"
+        elif decision["status"] == "conflict":
+            prediction["verdict"] = "no_match"
+        elif decision["status"] in {"verified", "partial"} and decision["level"] in {"premise", "unit"}:
+            require(decision["candidate_count"] == 1 and result.get("evidence"),
+                    "premise decision lacks a unique registry candidate")
+            primary = result["evidence"][0]
+            require(nonempty(primary.get("source_id")) and nonempty(primary.get("record_id")),
+                    "premise decision lacks source and record IDs")
+            prediction.update(verdict="matched", entity_id=primary["source_id"] + "#" + primary["record_id"])
+        predictions.append(prediction)
+    return predictions
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--examples", required=True, type=Path)
-    parser.add_argument("--predictions", required=True, type=Path)
+    inputs = parser.add_mutually_exclusive_group(required=True)
+    inputs.add_argument("--predictions", type=Path)
+    inputs.add_argument("--run-address1", action="store_true", help="run Address1 validation on each example")
+    parser.add_argument("--index", type=Path, help="optional postal index for --run-address1")
     parser.add_argument("--training-records", type=Path)
     args = parser.parse_args()
     try:
-        report = evaluate(load_jsonl(args.examples), load_jsonl(args.predictions),
+        require(not args.index or args.run_address1, "--index requires --run-address1")
+        examples = load_jsonl(args.examples)
+        if args.run_address1 and not __package__:
+            import sys
+            sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+        predictions = (run_address1(examples, index_path=args.index) if args.run_address1
+                       else load_jsonl(args.predictions))
+        report = evaluate(examples, predictions,
                           load_jsonl(args.training_records) if args.training_records else None)
         print(json.dumps(report, ensure_ascii=False, indent=2, allow_nan=False))
     except (OSError, ValueError, TypeError, KeyError) as error:

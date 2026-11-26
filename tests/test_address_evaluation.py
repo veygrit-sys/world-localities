@@ -145,6 +145,23 @@ class AddressEvaluationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "source evidence"):
             evaluation.evaluate([example], [prediction(example)])
 
+    def test_country_setting_precision_and_coverage_have_different_denominators(self):
+        island = [dict(case(i, "NZ"), setting="island") for i in ("a", "b", "c")]
+        mainland = dict(case("d", "NZ"), setting="rural")
+        predictions = [prediction(island[0]), prediction(island[1], entity_id="another"),
+                       prediction(island[2], "abstain"), prediction(mainland, "abstain")]
+        report = evaluation.evaluate(island + [mainland], predictions)
+        strata = report["diagnostic_metrics"]["entity_resolution_by_country_and_setting"]["NZ"]
+        self.assertEqual(strata["island"]["precision"], 0.5)
+        self.assertEqual(strata["island"]["coverage"], 2 / 3)
+        self.assertEqual(strata["island"]["false_accepts"], 1)
+        lower, upper = strata["island"]["precision_95ci"]
+        self.assertLess(lower, 0.5)
+        self.assertGreater(upper, 0.5)
+        self.assertIsNone(strata["rural"]["precision_95ci"])
+        self.assertEqual(strata["rural"]["coverage"], 0)
+        self.assertNotIn("independent_metrics", report)
+
     def test_jsonl_loader_rejects_non_objects(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "cases.jsonl"

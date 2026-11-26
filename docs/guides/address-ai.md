@@ -13,7 +13,7 @@ Veygrit のバックエンドから呼ぶ非公開 HTTP API と、同じ JSON �
 全操作で共通の応答形式は `{"schema_version":1,"operation":"…","result":{…}}`。[OpenAPI 3.1](../api/address-ai.openapi.json) に各操作の要求・応答例がある。クラウドや契約を用意せずに試すにはリポジトリのルートで次を実行する。
 
 ```sh
-python -m addressing.safe_suggest build --index /tmp/vey-postal.sqlite --country JP --country US --country CN --country FR --country NL --country LU --country TW --country UY --country NZ
+python -m addressing.safe_suggest build --index /tmp/vey-postal.sqlite --country JP --country US --country CN --country FR --country NL --country LU --country TW --country UY --country NZ --country PM
 python -m addressing.address_ai --index /tmp/vey-postal.sqlite <<'JSON'
 {"operation":"suggest","country":"JP","postcode":"150-0001"}
 JSON
@@ -25,7 +25,7 @@ python -m addressing.address_ai <<'JSON'
 JSON
 ```
 
-標準コンテナには日本・米国・中国・フランス・オランダ・ルクセンブルク・台湾・ウルグアイ・ニュージーランドの索引を同梱する。全リポジトリを使う環境では、上の構築コマンドの `--country` をすべて省くと、利用可能な他の国・地域も索引化できる。候補数は精度や配達先件数ではない。
+標準コンテナには日本・米国・中国・フランス・オランダ・ルクセンブルク・台湾・ウルグアイ・ニュージーランド・サンピエール島・ミクロン島（PM）の索引を同梱する。全リポジトリを使う環境では、上の構築コマンドの `--country` をすべて省くと、利用可能な他の国・地域も索引化できる。候補数は精度や配達先件数ではない。
 
 最後の公開例では日本郵便の事業所個別番号データの行 `4944` に一致し、B2「お届け先住所」は「東京都千代田区霞が関2丁目2-1」になる。未確認の部屋番号を足すと要確認に戻る。一般住宅について郵便番号・町名が一致するだけで、この経路を通すことはできない。
 
@@ -42,6 +42,25 @@ JSON
 | フランスなど | フランスのロゼール県（48）・テリトワール・ド・ベルフォール県（90）はBANの住所点で番地まで照合する。La Poste・INSEE の収録地域では郵便番号・コミューンを照合できる。その他の地域は構築した索引と原典にある精度だけ。国コードや国名が表示できることは住所点までの対応を意味しない。 |
 
 `ups-us-shipto` は米国内の対応範囲における UPS ShipTo、`yamato-jp-b2` はヤマト運輸B2クラウドの国内お届け先欄を生成する。両者とも住所断片のみ。宛名・電話・サービス・出荷元・課金先等がそろった完全な伝票ではない。未確認の部屋番号、桁あふれ、印字できない文字、未対応の宛先は自動送信しない。業者に送る前の承認、宛先本人の同意、業者側での受付・印字確認は別工程。契約別プロファイルはサーバー側の `ADDRESS_AI_PROFILES` から設定し、呼出側から制限を上書きできない。新しい契約で実際の住所欄へ割り付けるには業者別アダプターが必要。
+
+## Address1 の判定を住所帳に返す
+
+`validate` および `prepare_label.validation` の `address1_decision` は、住所の主行で照合できた最小単位を示す。`level` は `none / postcode / locality / street / premise / unit`、`status` は `unverified / partial / ambiguous / conflict / verified`。`verified` には、所在地の同じ公式レコードに結び付いた候補1件と、入力された所在地要素の一致が必要。郵便番号だけなら `partial / postcode` になる。未収録の実住所は手入力で残せる。私書箱と実所在地が混在する場合は、物理的な住所点の一致だけで全体を確定しない。
+
+`candidate_count` は絞り込み後の住所・施設ID数であり、郵便地名だけの照合では `null` を返す。0件は検索した版・対象地域の範囲内の結果。仏BANと郵便台帳の2つの根拠が同じ住所点を支える場合は1件。住所の要素名は `verified_fields` と `unverified_fields` を使用する。`address1_profile` の住所種類と追加項目は、候補を選ぶための手掛かりとして使う。候補なしや曖昧な住所を自動補完しない。
+
+| 住所帳から渡す例 | 根拠と結果 |
+|---|---|
+| JP・和歌山市、`今福２丁目３番４５号` ／ `今福第一` | 4町のうち、県営住宅資料とABRの双方に根拠がある4団地は所在地まで。単独の街区記録・地番は住宅や各戸へ昇格させない |
+| NZ・Mataura、`57 Kana Street` | LINZの8住戸が候補。`1/57 Kana Street` ならID 114023の住戸と一致。対象の5自治体全体で、入力された自治体名または所在地名と同じ住所行を探す |
+| AU・Jervis Bay、`24 Marrawaraga Road` | G-NAFの限定収録3地域では、この物理的な所在地が一致すると `partial / premise` を返す。住戸の明示による一致は `partial / unit`。郵便利用には別原典が必要なため、G-NAF単独では送り状を準備しない |
+| CA・Yellowknife、`111 MOYLE DR` | カナダ統計局ODA v1の2021年収集版では複数候補。収録した北西準州2地域の範囲で部屋を区別し、住所点から郵便番号を補完しない |
+| VU・Port Vila、`Winston Churchill Avenue` ／ `Australian High Commission` | 道路、都市、正式な施設名の3項目が同じ施設公表資料に一致。集落や周辺住宅を照合できたことにはならない |
+| CN・深圳市、`金田路3088號中洲大廈28樓2805A室` ／ `駐深圳聯絡處` | 完全な所在地のほか、市名と施設名が一致すれば公開された現地表記の主行も照合。別入力された道路・門牌・住戸は、公式の同じ事務所の表記に明記された要素だけを確認 |
+| PM・97500 | サンピエールとミクロン＝ラングラードの2自治体は同じ郵便番号を使う。海外領コードPMで3,041件の公的住所点を検索し、郵便用都市名を指定した場合には同じ自治体コードで検証する |
+| FR・48310、Albaret-le-Comtal、`2 bis place de l'église` | 番地の接尾辞を保ち、郵便番号内の原典で通りと番地の組み合わせに照合。仏・蘭・ルクセンブルク・ウルグアイでは入力された主行と構造化項目を同じ住所IDに照合する |
+
+13国・地域の公的機関の施設原典と範囲は[施設台帳](../../localities/open_reference/regional_offices/README.md)、北西準州の版・出典・対象自治体は[カナダODA](../../localities/open_reference/ca_nt/README.md)に記録する。原典の `address1` が都道府県などを表す場合、入力元で意味を確定してからこの配送住所APIに渡す。
 
 ## 非公開サービスで使う
 

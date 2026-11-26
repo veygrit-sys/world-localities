@@ -1,0 +1,63 @@
+{
+  "cache": "https://github.com/geolonia/japanese-addresses-v2/tree/061f250a2bfaf8e7b0465544c7278cdca86793dc/test/fixtures/cache/processes_10_refresh_csv_ranges",
+  "license": "CC BY 4.0",
+  "check_date": "2026-11-26",
+  "abr": {
+    "frontage": {
+      "source_id": "digital-agency-abr-frontage-wakayama",
+      "url": "https://data.address-br.digital.go.jp/mt_rsdtdsp_rsdt/pref/mt_rsdtdsp_rsdt_pref30.csv.zip",
+      "catalog": "https://dataset.address-br.digital.go.jp/documents/d19f45ccc7ef49378a7936b3b92f0b3f/about",
+      "snapshot": "2025-10-27",
+      "attribution": "デジタル庁「アドレス・ベース・レジストリ」を加工して作成。和歌山市抽出は Geolonia 公開版。",
+      "license": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "cache_file": "https___data_address_br_digital_go_jp_mt_rsdtdsp_rsdt_pref_mt_rsdtdsp_rsdt_pref30_csv_zip",
+      "cache_sha256": "d3c10a34bc4247e6542f6efa0c4ba3696c4ee09077e0c014cc9527ff573e8d51",
+      "csv": "mt_rsdtdsp_rsdt_pref30.csv"
+    },
+    "parcel": {
+      "source_id": "digital-agency-abr-parcel-wakayama",
+      "url": "https://data.address-br.digital.go.jp/mt_parcel/city/mt_parcel_city302015.csv.zip",
+      "catalog": "https://dataset.address-br.digital.go.jp/documents/486a63af354a47b7aa80323536094f65/about",
+      "snapshot": "2026-02-25",
+      "attribution": "デジタル庁「アドレス・ベース・レジストリ」を加工して作成。和歌山市抽出は Geolonia 公開版。",
+      "license": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "cache_file": "https___data_address_br_digital_go_jp_mt_parcel_city_mt_parcel_city302015_csv_zip",
+      "cache_sha256": "1ac12140ab117bb56329c07a9833f82bb0d0371083c1221eaa560952c84b8a06",
+      "csv": "mt_parcel_city302015.csv"
+    }
+  },
+  "housing": {
+    "source_id": "wakayama-pref-2026-public-housing",
+    "url": "https://www.pref.wakayama.lg.jp/prefg/080800/kenei/annai_d/fil/R8goannai.pdf",
+    "terms_url": "https://www.pref.wakayama.lg.jp/prefg/000200/opendata/hpopendatakiyaku.html",
+    "snapshot": "FY2026",
+    "attribution": "和歌山県「令和8年度 県営住宅募集のご案内」掲載の団地・所在地を抜粋し加工して作成。印刷版29頁。"
+  },
+  "projection_sha256": "836c6d8c094faf436f4ea18a7dcdc5183e26b8af5aabd25491c659d2bdc7f059",
+  "postal": {
+    "source_id": "japanpost-postal-20261030",
+    "url": "https://www.post.japanpost.jp/service/search/zipcode/download/utf/zip/utf_ken_all.zip",
+    "sha256": "db92fcf624bb7280e6f51900aebe03adeafbd168796e59412dbc22a80abb85b9",
+    "snapshot": "2026-10-30",
+    "attribution": "日本郵便株式会社・郵便番号データ",
+    "terms_url": "https://www.post.japanpost.jp/service/search/zipcode/download/utf-readme.html"
+  },
+  "town_postcodes": {
+    "0023002": [
+      "6410044",
+      95682
+    ],
+    "0023003": [
+      "6410044",
+      95682
+    ],
+    "0058000": [
+      "6408230",
+      95716
+    ],
+    "0304000": [
+      "6408157",
+      95960
+    ]
+  }
+}

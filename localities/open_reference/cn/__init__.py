@@ -4,7 +4,9 @@ import base64
 import gzip
 import hashlib
 import json
+import re
 import unicodedata
+from functools import cache
 from datetime import datetime
 from pathlib import Path
 
@@ -138,3 +140,76 @@ def lookup(query: str) -> list[dict]:
         if any(_normalize(value) == key for value in fields):
             matches.append(row)
     return matches
+
+
+# These strings are parsed only from the bounded publisher snapshot. Never
+# segment an arbitrary Chinese residential address by extrapolating its format.
+_MUNICIPALITIES = {"北京巿", "北京市", "上海市", "重慶市", "天津市"}
+_ADMIN_PREFIX = re.compile(r"^中國(?P<state>[^市巿]{2,10}?(?:省|自治區))?(?P<city>[^市巿]{2,6}[市巿])")
+_DISTRICT_PREFIX = re.compile(r"^([^0-9號路街]{1,6}區)")
+_STREET_NUMBER = re.compile(r"^([^0-9號]{1,32})([0-9]+(?:-[0-9]+)?)號")
+
+
+def address_parts(row):
+    """Project only explicit roles in the self-published Chinese/English strings."""
+    zh = row["address"]["zh-Hant"]
+    admin = _ADMIN_PREFIX.match(zh)
+    if not admin:
+        return {}, set()
+    city = admin["city"]
+    tail = zh[admin.end():]
+    district = _DISTRICT_PREFIX.match(tail)
+    local = tail[district.end():] if district else tail
+    labels = {"city": {city}}
+    if admin["state"] or city in _MUNICIPALITIES:
+        labels["state"] = {admin["state"] or city}
+    if district:
+        labels["city_district"] = {district[1]}
+
+    # English administrative components are comma-delimited at the end.
+    parts = [s.strip() for s in row["address"]["en"].split(",")]
+    if len(parts) > 2 and parts[-1] == "China":
+        parts.pop()
+        if admin["state"] and parts[-1].endswith((" Province", " Autonomous Region")):
+            labels["state"].add(parts.pop())
+        en_city = parts.pop()
+        labels["city"].add(en_city)
+        if city in _MUNICIPALITIES:
+            labels["state"].add(en_city)
+        if district and parts and parts[-1].endswith(" District"):
+            labels["city_district"].add(parts[-1])
+    number = _STREET_NUMBER.match(local)
+    if number:
+        labels.update(road={number[1]}, house_number={number[2]})
+        for part in row["address"]["en"].split(","):
+            english_road = re.fullmatch(r"(?:No\.\s*)?" + re.escape(number[2]) + r" (.+)", part.strip())
+            if english_road:
+                labels["road"].add(english_road[1])
+    unit = re.match(r"(?:Room|Unit|Flat|Office) ([A-Za-z0-9-]+),", row["address"]["en"])
+    if unit:
+        labels["unit"] = {unit[1]}
+    return labels, {tail, local}
+
+
+def named_local_addresses(line, city, facility):
+    """A shortened local line requires the same published office name and city."""
+    matches = []
+    for row in lookup(facility):
+        if _normalize(facility) not in {_normalize(v) for v in row["name"].values()}:
+            continue
+        labels, lines = address_parts(row)
+        if _normalize(line) in {_normalize(s) for s in lines} and (
+                _normalize(city) in {_normalize(s) for s in labels.get("city", ())}):
+            matches.append(row)
+    return matches
+
+
+@cache
+def known_admin_labels():
+    """Only explicit names of these offices can establish a known contradiction."""
+    result = {k: set() for k in ("state", "city", "city_district")}
+    for row in _records():
+        labels, _ = address_parts(row)
+        for k in result:
+            result[k].update(_normalize(v) for v in labels.get(k, ()))
+    return result

@@ -1,0 +1,203 @@
+[
+  {
+    "country": "AU",
+    "id": "dfat-canberra",
+    "publisher": "au-dfat",
+    "url": "https://www.dfat.gov.au/contact-us",
+    "fields": {
+      "organization": "Department of Foreign Affairs and Trade",
+      "house": "RG Casey Building",
+      "road": "John McEwen Crescent",
+      "address_line1": "John McEwen Crescent",
+      "suburb": "Barton",
+      "state_code": "ACT",
+      "postcode": "0221"
+    }
+  },
+  {
+    "country": "CA",
+    "id": "dfat-ottawa",
+    "publisher": "au-dfat",
+    "url": "https://www.dfat.gov.au/about-us/our-locations/missions/Pages/australian-high-commission-canada",
+    "fields": {
+      "organization": "Australian High Commission",
+      "unit": "1301",
+      "address_line2": "Suite 1301",
+      "address_line1": "50 O'Connor Street",
+      "house_number": "50",
+      "road": "O'Connor Street",
+      "city": "Ottawa",
+      "state": "Ontario",
+      "postcode": "K1P 6L2"
+    }
+  },
+  {
+    "country": "CK",
+    "id": "dfat-avarua",
+    "publisher": "au-dfat",
+    "url": "https://www.dfat.gov.au/about-us/our-locations/missions/australian-high-commission-cook-islands",
+    "fields": {
+      "organization": "Australian High Commission",
+      "house": "Philatelic Bureau Building",
+      "floor": "1st floor",
+      "address_line1": [
+        "Takuvaine Rd",
+        "1st floor, Philatelic Bureau Building, Takuvaine Rd"
+      ],
+      "road": "Takuvaine Rd",
+      "city": "Avarua",
+      "island": "Rarotonga"
+    }
+  },
+  {
+    "country": "FJ",
+    "id": "dfat-suva",
+    "publisher": "au-dfat",
+    "url": "https://www.dfat.gov.au/about-us/our-locations/missions/Pages/australian-high-commission-fiji",
+    "fields": {
+      "organization": "Australian High Commission",
+      "address_line1": [
+        "37 Princes Rd",
+        "37 Princes Rd (Tamavua)"
+      ],
+      "house_number": "37",
+      "road": "Princes Rd",
+      "neighbourhood": "Tamavua",
+      "city": "Suva"
+    }
+  },
+  {
+    "country": "MX",
+    "id": "dfat-mexico-city",
+    "publisher": "au-dfat",
+    "url": "https://www.dfat.gov.au/about-us/our-locations/missions/Pages/australian-embassy-mexico",
+    "corroborating_url": "https://mexico.embassy.gov.au/mcty/Contact.html",
+    "withheld": [
+      "postcode",
+      "neighbourhood"
+    ],
+    "fields": {
+      "organization": "Australian Embassy",
+      "address_line1": "Ruben Dario 55",
+      "road": "Ruben Dario",
+      "house_number": "55",
+      "city": "Mexico City"
+    }
+  },
+  {
+    "country": "NC",
+    "id": "dfat-noumea",
+    "publisher": "au-dfat",
+    "url": "https://www.dfat.gov.au/about-us/our-locations/missions/Pages/australian-consulate-general-in-noumea-new-caledonia",
+    "fields": {
+      "organization": "Australian Consulate-General",
+      "house": "Immeuble Norwich",
+      "floor": "2nd floor",
+      "address_line1": [
+        "11 rue Georges Baudoux",
+        "11 rue Georges Baudoux, Artillerie"
+      ],
+      "house_number": "11",
+      "road": "rue Georges Baudoux",
+      "neighbourhood": "Artillerie",
+      "city": "Noumea",
+      "postcode": "98800"
+    }
+  },
+  {
+    "country": "PR",
+    "id": "nps-san-juan",
+    "publisher": "us-nps",
+    "url": "https://www.nps.gov/saju/planyourvisit/basicinfo.htm",
+    "fields": {
+      "organization": "San Juan National Historic Site",
+      "house": "Castillo San Cristobal",
+      "address_line1": "501 Norzagaray Street",
+      "house_number": "501",
+      "road": "Norzagaray Street",
+      "city": "San Juan",
+      "state_code": "PR",
+      "postcode": "00901"
+    }
+  },
+  {
+    "country": "SB",
+    "id": "dfat-honiara",
+    "publisher": "au-dfat",
+    "url": "https://www.dfat.gov.au/about-us/our-locations/missions/australian-high-commission-solomon-islands",
+    "fields": {
+      "organization": "Australian High Commission",
+      "address_line1": "Cnr Hibiscus Ave & Mud Alley",
+      "city": "Honiara"
+    }
+  },
+  {
+    "country": "TO",
+    "id": "dfat-nukualofa",
+    "publisher": "au-dfat",
+    "url": "https://www.dfat.gov.au/about-us/our-locations/missions/Pages/australian-high-commission-tonga",
+    "fields": {
+      "organization": "Australian High Commission",
+      "address_line1": "82 Salote Road",
+      "road": "Salote Road",
+      "house_number": "82",
+      "city": "Nuku'Alofa"
+    }
+  },
+  {
+    "country": "TT",
+    "id": "dfat-port-of-spain",
+    "publisher": "au-dfat",
+    "url": "https://www.dfat.gov.au/about-us/our-locations/missions/australian-high-commission-trinidad-and-tobago",
+    "fields": {
+      "organization": "Australian High Commission",
+      "address_line1": "18 Herbert Street",
+      "road": "Herbert Street",
+      "house_number": "18",
+      "neighbourhood": "St Clair",
+      "city": "Port of Spain"
+    }
+  },
+  {
+    "country": "TV",
+    "id": "dfat-funafuti",
+    "publisher": "au-dfat",
+    "url": "https://www.dfat.gov.au/about-us/our-locations/missions/Pages/australian-high-commission-tuvalu",
+    "fields": {
+      "organization": "Australian High Commission",
+      "house": "Telecom Tuvalu Building",
+      "floor": "First Floor",
+      "address_line1": [
+        "Tuvalu Road",
+        "Tuvalu Road, Vaiaku"
+      ],
+      "road": "Tuvalu Road",
+      "neighbourhood": "Vaiaku",
+      "city": "Funafuti"
+    }
+  },
+  {
+    "country": "VU",
+    "id": "dfat-port-vila",
+    "publisher": "au-dfat",
+    "url": "https://www.dfat.gov.au/about-us/our-locations/missions/Pages/australian-high-commission-vanuatu",
+    "fields": {
+      "organization": "Australian High Commission",
+      "road": "Winston Churchill Avenue",
+      "address_line1": "Winston Churchill Avenue",
+      "city": "Port Vila"
+    }
+  },
+  {
+    "country": "WS",
+    "id": "dfat-apia",
+    "publisher": "au-dfat",
+    "url": "https://www.dfat.gov.au/about-us/our-locations/missions/Pages/australian-high-commission-samoa",
+    "fields": {
+      "organization": "Australian High Commission",
+      "road": "Beach Road",
+      "address_line1": "Beach Road",
+      "city": "Apia"
+    }
+  }
+]

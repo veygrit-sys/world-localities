@@ -265,11 +265,24 @@ class PostalPicker:
     def _connect(self):
         return sqlite3.connect(self._uri, uri=True)
 
-    def address_points(self, country, postcode, road, number, *, commune_code=False):
-        """Return typed observations, including the provenance frozen with this index."""
+    def address_points(self, country, postcode, road=None, number=None, *, line=None, commune_code=False):
+        """Read postcode-scoped points agreeing with all supplied primary-line representations."""
         from .open_reference.published_points import key
 
         country = _country(country)
+        if not line and not (road and number):
+            return []
+        terms = ["p.country=?", "p.postcode=?"]
+        parameters = [country, _postcode(country, postcode)]
+        for column, value in (("p.road_key", road), ("p.number_key", number)):
+            if value:
+                terms.append(column + "=?")
+                parameters.append(key(value))
+        if line:
+            # Compare against actual publisher keys within the indexed postcode.
+            # Splitting a freeform line on whitespace loses values like "2 bis".
+            terms.append("((p.road_key || ' ' || p.number_key)=? OR (p.number_key || ' ' || p.road_key)=?)")
+            parameters.extend((key(line), key(line)))
         with closing(self._connect()) as db:
             db.execute("BEGIN")
             # Older v2 indexes and indexes built for other countries have only postal edges.
@@ -285,9 +298,9 @@ class PostalPicker:
             return db.execute(f"""
                 SELECT p.locality, p.municipality, p.source, p.record_id, m.details {extra}
                 FROM official_points p JOIN source_metadata m ON m.name = p.source {join}
-                WHERE p.country=? AND p.postcode=? AND p.road_key=? AND p.number_key=?
+                WHERE {" AND ".join(terms)}
                 ORDER BY p.record_id
-            """, (country, _postcode(country, postcode), key(road), key(number))).fetchall()
+            """, parameters).fetchall()
 
     def countries(self):
         with closing(self._connect()) as db:

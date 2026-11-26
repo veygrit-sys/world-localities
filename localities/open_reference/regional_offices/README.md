@@ -1,0 +1,9 @@
+# Public facility addresses
+
+This offline projection contains one named physical facility for each of AU, CA, CK, FJ, MX, NC, PR, SB, TO, TT, TV, VU and WS. Each record links directly to the institution’s own page. The record ID identifies the facility in this projection. It is not a government address, parcel or building ID.
+
+On 26 November 2026 the address headings were transcribed and split into typed fields. Names of individual staff, telephone numbers and separate postal addresses were omitted. The snapshot date is the observation date. The checksum covers the bundled field projection rather than the changing external HTML. Field arrays record a printed line and its street part where useful. For Mexico City the directory and the mission’s own contact page disagree on the postal code and neighbourhood. Only the shared institution, street, number and city are available for validation.
+
+The named organisation or building, its published locality, and its address line (or constituent road and number) must match together within one row. A numberless street qualifies only together with its named facility. An unknown unit, postcode or other component stays unverified. The projection supplies no coordinates, evidence of coverage of nearby homes or carrier-delivery confirmation.
+
+For the twelve DFAT records the source attribution is Department of Foreign Affairs and Trade website – www.dfat.gov.au. The content was selected and reformatted under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The San Juan record is derived from the U.S. National Park Service’s physical-address information for its own site. Record-specific URLs, attribution and rights information are included in validation evidence and in the source files. [DFAT terms](https://www.dfat.gov.au/about-us/about-this-website/copyright) · [NPS terms](https://www.nps.gov/aboutus/disclaimer.htm)

@@ -138,8 +138,7 @@ def _prepare(p, cc, components, profile, index_path):
     # only pass this gate if verified together, at the address-point level.
     identity = {"recipient", "organization", "attention", "country_code"}
     missing = {normalize_key(k) for k in components} - identity - set(check["verified_fields"])
-    if (check["blocking_conflict"] or check["matched_scope"] not in {"published_address_point", "published_office_address"}
-            or check["status"] not in {"matched", "partial"} or missing):
+    if check["address1_decision"]["status"] != "verified" or missing:
         result["issues"].append("address_evidence_insufficient_or_conflicting")
         return result
     if "target_language" in p:

@@ -14,7 +14,7 @@ COPY postal/sources/japanpost/20261030/ postal/sources/japanpost/20261030/
 COPY postal/sources/geonames/20261118/allCountries.zip postal/sources/geonames/20261118/
 COPY postal/sources/geonames/20261118-full/NL_full.csv.zip postal/sources/geonames/20261118-full/
 COPY evaluation/address-ranking/model.json evaluation/address-ranking/
-RUN mkdir -p /opt/address && python -m addressing.safe_suggest build --index /opt/address/index.sqlite --country JP --country US --country CN --country FR --country NL --country LU --country TW --country UY --country NZ && chmod 0444 /opt/address/index.sqlite
+RUN mkdir -p /opt/address && python -m addressing.safe_suggest build --index /opt/address/index.sqlite --country JP --country US --country CN --country FR --country PM --country NL --country LU --country TW --country UY --country NZ && chmod 0444 /opt/address/index.sqlite
 USER 65534:65534
 EXPOSE 8080
 CMD ["sh", "-c", "exec gunicorn --bind 0.0.0.0:${PORT} --workers ${WEB_CONCURRENCY:-2} --timeout 120 'addressing.address_service:from_environment()'"]

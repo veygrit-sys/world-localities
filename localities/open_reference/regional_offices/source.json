@@ -1,0 +1,19 @@
+{
+  "snapshot": "2026-11-26",
+  "projection_sha256": "0750f9ff9bdb905b8f5ad02238a6a1a3660fd764d8aff7f3e468c8300446d09f",
+  "publishers": {
+    "au-dfat": {
+      "source_id": "au-dfat-physical-offices",
+      "attribution": "Department of Foreign Affairs and Trade website – www.dfat.gov.au",
+      "terms_url": "https://www.dfat.gov.au/about-us/about-this-website/copyright",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "us-nps": {
+      "source_id": "us-nps-physical-facilities",
+      "attribution": "U.S. National Park Service, San Juan National Historic Site",
+      "terms_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "license": "U.S. government work"
+    }
+  }
+}

@@ -22,6 +22,46 @@ class EvidenceValidationTest(unittest.TestCase):
         self.assertNotIn("TEST PERSON", str(r))
         self.assertEqual(r["evidence"][0]["record_id"], "US-DC-MAR:293211")
 
+    def test_exact_decision_and_unverified_secondary_line(self):
+        from addressing.address_ai import process_request
+        fields = {"addressLine1": "1600 Pennsylvania Ave NW", "state": "DC", "postcode": "20500"}
+        call = lambda c: process_request({"operation": "validate", "country": "US", "components": c})["result"]
+        exact = call(fields)["address1_decision"]
+        self.assertEqual((exact["status"], exact["level"], exact["candidate_count"]), ("verified", "premise", 1))
+        extra = call(fields | {"line2": "Apt 4B"})["address1_decision"]
+        self.assertEqual((extra["status"], extra["level"], extra["unverified_fields"]),
+                         ("partial", "premise", ["address_line2"]))
+        mixed = call(fields | {"line2": "PO BOX 9"})
+        self.assertEqual(mixed["address1_profile"]["address_kind"], "mixed")
+        self.assertNotIn(mixed["address1_decision"]["level"], ("premise", "unit"))
+        self.assertNotIn("address_line1", mixed["address1_decision"]["verified_fields"])
+        self.assertFalse(mixed["deliverability_verified"])
+
+    def test_us_puerto_rico_routes_to_territory_reference(self):
+        fields = {"state_code": "PR", "city": "San Juan", "house": "Castillo San Cristobal",
+                  "address_line1": "501 Norzagaray Street"}
+        result = validate_address("US", fields)
+        self.assertEqual(result["country"], "US")
+        self.assertEqual(result["address1_profile"]["jurisdiction"], "PR")
+        self.assertEqual((result["address1_decision"]["status"], result["evidence"][0]["record_id"]),
+                         ("verified", "nps-san-juan"))
+        self.assertEqual(validate_address("US", fields | {"state_code": "CA"})["address1_decision"]["level"], "none")
+
+    def test_wallet_freeform_facility_name_requires_a_match_on_the_same_record(self):
+        for country, fields in (
+            ("AU", {"city": "Barton", "state": "ACT", "postcode": "0221",
+                    "line1": "John McEwen Crescent", "line2": "RG Casey Building"}),
+            ("VU", {"city": "Port Vila", "line1": "Winston Churchill Avenue", "line2": "Australian High Commission"}),
+            ("JP", {"postcode": "100-8919", "state": "東京都", "city": "千代田区",
+                    "line1": "霞が関2丁目2-1", "line2": "外務省"}),
+        ):
+            with self.subTest(country=country):
+                result = validate_address(country, fields)
+                self.assertEqual(result["address1_decision"]["status"], "verified")
+                self.assertIn("address_line2", result["verified_fields"])
+                extra = validate_address(country, fields | {"line2": fields["line2"] + " Apt 4B"})
+                self.assertNotEqual(extra["address1_decision"]["status"], "verified")
+
     def test_point_contradictions_block_and_postal_extension_is_not_verified(self):
         for bad in ({"postcode": "20004"}, {"city": "Baltimore"}, {"state_code": "CA"},
                     {"address_line1": "901 G St. NW"}):
@@ -87,6 +127,9 @@ class EvidenceValidationTest(unittest.TestCase):
         line = {k: v for k, v in office.items() if k not in {"neighbourhood", "house_number"}}
         r = validate_address("JP", line | {"address_line1": "霞が関２丁目２－１"})
         self.assertEqual((r["matched_scope"], r["unverified_fields"]), ("published_office_address", []))
+        explicit = office | {"address_line1": "霞が関２丁目２番１号", "house_number": "2丁目2番1号"}
+        self.assertEqual(validate_address("JP", explicit)["address1_decision"]["status"], "verified")
+        self.assertEqual(validate_address("JP", office | {"house_number": "2-2-1"})["status"], "conflict")
         for changed in ({"organization": "法務省"}, {"house_number": "2丁目2-9"},
                         {"address_line1": "霞が関2丁目2-8"}):
             self.assertEqual(validate_address("JP", office | changed)["status"], "conflict")
@@ -118,11 +161,29 @@ class EvidenceValidationTest(unittest.TestCase):
         r = validate_address("CN", {"address_line1": self.office, "postcode": "518033"})
         self.assertEqual((r["status"], r["matched_scope"]), ("matched", "published_office_address"))
         self.assertEqual(set(r["verified_fields"]), {"address_line1", "postcode"})
+        named = validate_address("CN", {"line1": self.office, "organization": "駐深圳聯絡處"})
+        self.assertIn("organization", named["address1_decision"]["verified_fields"])
+        self.assertEqual(validate_address("CN", {"line1": self.office, "organization": "別の事務所"})
+                         ["address1_decision"]["status"], "conflict")
         self.assertEqual(validate_address("CN", {"address_line1": self.office, "postcode": "100009"})["status"], "conflict")
         self.assertEqual(validate_address("CN", {"address_line1": "駐深圳聯絡處", "postcode": "518033"})["status"], "not_observed")
         r = validate_address("CN", {"address_line1": self.office, "city": "北京"})
         self.assertEqual(r["status"], "partial")
         self.assertIn("city", r["unverified_fields"])
+
+    def test_local_chinese_office_requires_same_published_city_and_name(self):
+        base = dict(line1="金田路3088號中洲大廈28樓2805A室", line2="駐深圳聯絡處", city="深圳市",
+                    state="廣東省", city_district="福田區", road="金田路", house_number="3088", unit="2805A")
+        result = validate_address("CN", base)
+        self.assertEqual((result["address1_decision"]["status"], result["address1_decision"]["level"]),
+                         ("verified", "unit"))
+        self.assertEqual(result["evidence"][0]["record_id"], "hk-cmab:guangdong/shenzhen-liaison-unit")
+        english = validate_address("CN", base | {"road": "Jintian Road", "city": "Shenzhen"})
+        self.assertEqual(english["address1_decision"]["level"], "unit")
+        conflicting_state = validate_address("CN", {"line1": self.office, "state": "福建省"})
+        self.assertEqual(conflicting_state["address1_decision"]["status"], "conflict")
+        for changes in ({"city": "廣州市"}, {"line2": "未收錄設施"}, {"house_number": "3089"}, {"unit": "2810"}):
+            self.assertNotEqual(validate_address("CN", base | changes)["address1_decision"]["status"], "verified")
 
     def test_postal_places_and_territory_scope(self):
         for country, postcode, city in (("FR", "75007", "Paris"), ("BL", "97133", "ST BARTHELEMY")):

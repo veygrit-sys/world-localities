@@ -1,0 +1,27 @@
+{
+  "source_id": "au-gnaf-202608-jervis-act",
+  "publisher": "Geoscape Australia / Commonwealth of Australia",
+  "snapshot": "2026-08",
+  "distribution": "minus34/gnaf-loader August 2026 GeoParquet derivative",
+  "loader_commit": "bbf9727eb6512a96998c56f683534b031475540f",
+  "attribution": "Incorporates or developed using G-NAF © Geoscape Australia licensed by the Commonwealth of Australia under the Open Geo-coded National Address File (G-NAF) End User Licence Agreement.",
+  "terms_url": "https://data.gov.au/data/dataset/geocoded-national-address-file-g-naf/resource/09f74802-08b1-4214-a6ea-3591b2753d30",
+  "license": "Open G-NAF EULA",
+  "inputs": {
+    "principals": {
+      "file": "part-00019-19307f19-1174-4c8e-87fc-5bb0e6120354-c000.snappy.parquet",
+      "sha256": "94d49a4c58441b25bca3850f658103dbcac5cdf31fb897bc08d8d91b610357b8",
+      "url": "https://s3-ap-southeast-2.amazonaws.com/minus34.com/opendata/geoscape-202608/geoparquet/address_principals/part-00019-19307f19-1174-4c8e-87fc-5bb0e6120354-c000.snappy.parquet"
+    },
+    "secondary_links": {
+      "file": "part-00020-8c8d07d7-ca10-435d-b5a3-6eaa1e534eff-c000.snappy.parquet",
+      "sha256": "0a5175c22c450095a54d880d241886103b51d6e2b913a9e7b74565872f6d7d5f",
+      "url": "https://s3-ap-southeast-2.amazonaws.com/minus34.com/opendata/geoscape-202608/geoparquet/address_secondary_lookup/part-00020-8c8d07d7-ca10-435d-b5a3-6eaa1e534eff-c000.snappy.parquet"
+    }
+  },
+  "sha256": {
+    "points.csv.gz": "1a8ff0a7d8139efa290c8bf8ac2acf5ce07fc9496e27538441abb90bea297d0a",
+    "links.csv.gz": "fa94a544ba9e745e2ffe40aea1a372cc14eaaee48b3229a44a486977e93373c0",
+    "GNAF-EULA.pdf": "25d83084297928d5e1187e2aa8a31d6292db668405752208b0dc8bb275d3a95c"
+  }
+}

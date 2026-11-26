@@ -1,0 +1,7 @@
+# Northwest Territories civic addresses
+
+The bundled ODA v1 archive is the byte-identical 791,711-byte distribution previously identified in `address-points/NORTH_AMERICA_SOURCES.json` as `ca-statcan-oda-nt`. Its own `Data_Sources.csv` dates the City of Yellowknife source to 2021-01-15. The ODA records cover two census subdivisions, Yellowknife (6,901) and Detah (95). All 6,996 IDs are distinct. 1,297 records contain a unit and none supply a postal code. The archive includes the original producer metadata, coordinates and attribution; the validator returns the record ID and provenance without sending a civic address to an external service.
+
+A submitted city/municipality is compared to the census subdivision, never used to verify a postal city. Either a matching physical address line or a complete civic number/street pair is required. Multiple publisher IDs remain ambiguous until another supplied component resolves the observation. Postal codes, unknown units, nationwide coverage, current occupancy and deliverability cannot be inferred from this 2021 extract.
+
+The territorial government's [official community names](https://www.ece.gov.nt.ca/en/services/geographical-names/official-nwt-community-names) explicitly lists Detah as the former name for Dettah. When the current spelling is supplied, validation returns this additional reference alongside the original ODA address ID. The snapshot's street text is preserved.

@@ -30,8 +30,8 @@ def project(manifest, raw_dir, output):
         reader = csv.DictReader(io.StringIO(gzip.decompress(data).decode("utf-8-sig")), delimiter=";")
         for row in reader:
             seen["published_rows"] += 1
-            if not re.fullmatch(re.escape(department) + r"[0-9]{3}", row["code_insee"]):
-                raise ValueError("unexpected commune in metropolitan departmental file")
+            if not (re.fullmatch(r"[0-9]{5}", row["code_insee"]) and row["code_insee"].startswith(department)):
+                raise ValueError("unexpected commune in departmental file")
             n = row["numero"]
             if n in {"0", "99999"}:
                 seen["non_premise_number"] += 1
@@ -42,11 +42,12 @@ def project(manifest, raw_dir, output):
             if not re.fullmatch(r"[0-9]{5}", code) or not commune or not road:
                 raise ValueError("incomplete published location")
             number = n + (" " + row["rep"] if row["rep"] else "")
-            rid = row["id_ban_adresse"] or row["id"]
+            uuid = row.get("id_ban_adresse")
+            rid = uuid or row["id"]
             if not rid or rid in records:
                 raise ValueError("missing or duplicate BAN address identifier")
             records[rid] = (code, commune, road, number, commune, rid)
-            seen["ban_uuid" if row["id_ban_adresse"] else "bal_interop_key"] += 1
+            seen["ban_uuid" if uuid else "bal_interop_key"] += 1
             commune_links[(code, commune)].add(row["code_insee"])
             communes.add(row["code_insee"])
             postcodes.add(code)
